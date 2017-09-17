@@ -1,7 +1,7 @@
 /*
-Theme Name:		Telegram Desktop
-Description:   	Telegram desktop theme
-Version:       	1.0
+Theme Name:		Telegram2 Desktop
+Description:   	Telegram2 desktop theme
+Version:       	2.0
 Author:        	TGM: mbanusic, mradaus
 Author URI:    	http://telegram.hr/
 License:       	GNU General Public License v2 or later
@@ -1558,7 +1558,7 @@ article {
                 text-align: left;
                 font-family: $sans-serif;
                 clear: both;
-                
+
                 .photographer {
                     float: right;
                     color: $gray-3;
@@ -2338,10 +2338,10 @@ article {
     .tg-widget-body {
         padding: 3px 1.5px;
     }
-    
+
     .thumb {
         position: relative;
-        
+
         .overlay {
             position: absolute;
             width: 100%;
@@ -2404,7 +2404,7 @@ article {
         &.twitter {
             background: $tw-blue;
         }
-        
+
         &:hover {
             background: $tg-red;
             color: $white;
