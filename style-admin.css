@@ -1,0 +1,45 @@
+.ui-autocomplete li:nth-child(even) { background: #e5e5e5; }
+.ui-autocomplete li:nth-child(odd) { background: #f5f5f5; }
+.ui-autocomplete li { padding: 5px; }
+.ui-autocomplete li:hover { background: #0074a2; color: #fff; cursor: pointer; }
+
+#tinymce blockquote {
+    font-style: italic;
+    font-size: 24px;
+    color: #666;
+}
+.dashicons,
+.dashicons-before:before {
+    line-height: auto !important;
+}
+
+div.red-notice {
+    border: none;
+    background: #dd3d36;
+    color: #fff;
+}
+div.red-notice a {
+    color: #fff;
+    font-weight: bold;
+}
+div.big-notice { padding: 22px 12px; }
+
+#wpadminbar .dashicons,
+#wpadminbar .dashicons-before:before {
+    line-height: 1.6em !important;
+    color: #008ac0;
+}
+
+.mce-i-comparison:before {
+     font-family: "dashicons";
+     content: "\f169";
+ }
+
+.mce-i-mali-video:before {
+    font-family: "dashicons";
+    content: "\f236";
+}
+
+#widget-list [id*='_tg_'] .widget-top {
+    border: 1px solid #eb1d39;
+}
