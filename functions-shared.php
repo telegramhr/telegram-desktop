@@ -2,28 +2,20 @@
 
 
 require_once ('plugins/gallery.php');
-require_once ('plugins/menu.php');
 require_once ('plugins/shortcodes.php');
 remove_action('wp_footer', 'jetpack_mobile_available');
 remove_action( 'do_pings', 'do_all_pings' );
 
-//setup theme
+add_action('after_setup_theme', 'telegram_setup');
 function telegram_setup() {
 
     add_theme_support( 'title-tag' );
 
-    // This theme styles the visual editor to resemble the theme style.
     add_editor_style(array('css/editor-style.css'));
 
-    // Add RSS feed links to <head> for posts and comments.
     add_theme_support('automatic-feed-links');
 
-    // Enable support for Post Thumbnails, and declare two sizes.
     add_theme_support('post-thumbnails');
-    //set_post_thumbnail_size( 672, 372, true );
-    //add_image_size( 'twentyfourteen-full-width', 1038, 576, true );
-    // This theme uses wp_nav_menu() in two locations.
-
 
     register_nav_menus(array(
         'tg_menu' 	=> 'Telegram Izbornik',
@@ -35,55 +27,29 @@ function telegram_setup() {
 		'channels'	=> 'Telegram Kanali'
     ));
 
-    /*
-     * Switch default core markup for search form, comment form, and comments
-     * to output valid HTML5.
-     */
     add_theme_support('html5', array(
         'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
     ));
 
-    // This theme uses its own gallery styles.
     add_filter('use_default_gallery_style', '__return_false');
-
-	add_theme_support('auto-load-next-post');
 }
-
-//add_action('init', 'telegram_init_cookie', 99);
-
-function telegram_init_cookie() {
-	$url = parse_url( get_bloginfo( 'url' ) );
-	$domain = $url['host'];
-	if (!empty($url['path'])) {
-		$path = $url['path'];
-	}
-	else {
-		$path = '/';
-	}
-	if (jetpack_is_mobile()) {
-		if ( ( ! isset( $_COOKIE['tel_akm_mobile'] ) ) ) {
-			setcookie( 'tel_akm_mobile', 'true', time() + 3600 * 24 , $path, $domain );
-		}
-	}
-
-}
-
-add_action('after_setup_theme', 'telegram_setup');
 
 add_action('admin_init', 'telegram_admin_init');
 function telegram_admin_init() {
 	add_editor_style();
 }
 
-
 //Gets post cat slug and looks for single-[cat slug].php and applies it
-add_filter('single_template', create_function(
-        '$the_template',
-        'foreach( (array) get_the_category() as $cat ) {
-		if ( file_exists(TEMPLATEPATH . "/single-{$cat->slug}.php") )
-		return TEMPLATEPATH . "/single-{$cat->slug}.php"; }
-	return $the_template;' )
-);
+add_filter('single_template', 'telegram_single_template', 10, 1 );
+
+function telegram_single_template( $the_template ) {
+    foreach ( (array) get_the_category() as $cat ) {
+	    if ( file_exists(TEMPLATEPATH . "/single-{$cat->slug}.php") ) {
+		    return TEMPLATEPATH . "/single-{$cat->slug}.php";
+	    }
+    }
+    return $the_template;
+}
 
 
 // Image sizes
@@ -141,23 +107,19 @@ function telegram_main_scripts() {
 
 add_action('wp_enqueue_scripts', 'telegram_main_scripts');
 
-add_filter( 'wp_default_scripts', 'dequeue_jquery_migrate' );
+add_filter( 'wp_default_scripts', 'telegram_dequeue_jquery_migrate' );
 
-function dequeue_jquery_migrate( &$scripts){
+function telegram_dequeue_jquery_migrate( &$scripts){
 	if(!is_admin()){
 		$scripts->remove( 'jquery');
 		$scripts->add( 'jquery', false, array( 'jquery-core' ), '1.10.2' );
 	}
 }
 
-
 function telegram_widgets_init() {
     foreach (glob(dirname(__FILE__) . "/widgets/*.php") as $filename) {
         require ($filename);
     }
-	foreach (glob(dirname(__FILE__) . "/widgets/new/*.php") as $filename) {
-		require ($filename);
-	}
     register_sidebar(
         array(
             'name' => 'Naslovnica srednji stupac 1',
@@ -302,6 +264,7 @@ function telegram_register_taxonomy() {
 	        'public' => true
         )
     );
+    // Leave this for historic reasons
 	register_taxonomy(
 		'podformati',
 		array('price'),
@@ -309,7 +272,7 @@ function telegram_register_taxonomy() {
 			'label' => 'Podformati',
 			'rewrite' => false,
 			'hierarchical' => true,
-			'public' => true
+			'public' => false
 		)
 	);
 	register_taxonomy_for_object_type( 'podformati', 'price' );
@@ -394,14 +357,15 @@ function telegram_login_stylesheet() {
 add_action( 'login_enqueue_scripts', 'telegram_login_stylesheet' );
 
 // Custom admin
-function load_custom_wp_admin_style() {
+function telegram_custom_wp_admin_style() {
     wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/style-admin.css', false, '1.0.0' );
     wp_enqueue_style( 'custom_wp_admin_css' );
 }
-add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
+add_action( 'admin_enqueue_scripts', 'telegram_custom_wp_admin_style' );
 
 add_action( 'wp_ajax_telegram_widget_get_posts', 'telegram_get_posts' );
 
+//TODO: do we need this?
 function telegram_get_posts() {
     $q = new WP_Query( array(
         'posts_per_page' => 10,
@@ -456,7 +420,6 @@ function telegram_galerija($atts, $content) {
 add_filter( "shortcode_atts_caption", 'telegram_img_caption_atts', 10, 3 );
 
 function telegram_img_caption_atts($out, $pairs, $atts ) {
-
 	$id = str_replace('attachment_', '', $out['id']);
 	$out['caption'] .= '&nbsp; <span class="right">'.telegram_get_photographer($id).'</span>';
 	return $out;

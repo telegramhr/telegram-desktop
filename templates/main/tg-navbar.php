@@ -26,11 +26,11 @@ else {
                 Rubrike
             </a>
             <div class="left-menu">
-                <?php wp_nav_menu( array( 'theme_location' => 'left_menu', 'walker' => new Telegram_Walker_Menu ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'left_menu' ) ); ?>
             </div>
         </li>
         <?php
-            wp_nav_menu( array( 'theme_location' => 'tg_menu', 'walker' => new Telegram_Walker_Menu ) );
+            wp_nav_menu( array( 'theme_location' => 'tg_menu' ) );
         ?>
     </div>
     <div class="logo">
@@ -52,7 +52,7 @@ else {
             <i class="fa fa-search"></i>
         </li>
     </div>
-    
+
     <div class="nav-shadow"></div>
 </nav>
 

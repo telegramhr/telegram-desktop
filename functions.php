@@ -2,12 +2,10 @@
 
 require_once(__DIR__ .'/functions-shared.php');
 
-//require_once( 'plugins/editor/editor.php' );
-
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'telegram_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'telegram_scripts' );
 
-function theme_enqueue_styles() {
+function telegram_enqueue_styles() {
     wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('font-awesome', 'lora', 'pt-sans', 'slick', 'slick-theme'));
 }
 
@@ -26,8 +24,6 @@ function telegram_scripts() {
 
 
 }
-
-
 
 add_action('pre_get_posts', 'telegram_main_query');
 
@@ -51,29 +47,6 @@ function telegram_main_query($query) {
     }
 
 }
-
-function telegram_admin_notice() { ?>
-
-    <?php
-    $user = get_current_user_id();
-    if( !get_field('avatar', 'user_'.$user) || !get_field('bio', 'user_'.$user) ) {
-        ?>
-        <div class="error red-notice big-notice">
-            <p>Niste popunili profil. Učinite to <a href="http://www.telegram.hr/wp-admin/profile.php">ovdje</a></p>
-        </div>
-    <?php } ?>
-
-    <div class="error">
-        <p>Molimo da članak objavite tek kada ste sigurni da ste popunili sva polja. Slika je dio obvezne opreme!</p>
-    </div>
-    <div class="notice">
-        <p>
-            Za sva pitanja i nedoumice se slobodno obratite Administratorima.
-        </p>
-    </div>
-<?php }
-//add_action('admin_notices', 'telegram_admin_notice');
-
 
 //add_filter('the_content', 'telegram_price_content');
 
@@ -143,26 +116,6 @@ googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1481624513653-0\'
     return $content;
 }
 
-
-//add_filter('admin_post_thumbnail_html', 'telegram_admin_thumbnail', 10, 2);
-
-function telegram_admin_thumbnail($content, $post_id) {
-    $id = get_post_thumbnail_id($post_id);
-    if ($id) {
-        $image = wp_get_attachment_image_src( $id, 'full' );
-        if ( $image[1] < 656 || $image[2] < 365 ) {
-            global $current_user;
-            delete_post_thumbnail($post_id);
-            remove_filter( 'admin_post_thumbnail_html', 'telegram_admin_thumbnail' );
-            $content = _wp_post_thumbnail_html(null, $post_id);
-            add_filter( 'admin_post_thumbnail_html', 'telegram_admin_thumbnail' );
-            $content = '<p>'.$current_user->first_name.', odabrana slika nije dovoljno velika za prikaz na ovoj poziciji. Ovaj incident će biti prijavljen.</p>' . $content;
-        }
-    }
-    return $content;
-}
-
-
 function telegram_text_strings( $translated_text, $text, $context, $domain ) {
 
     if ($context == 'double prime') {
@@ -204,27 +157,6 @@ function telegram_featured_RSS($content) {
 
 add_filter('the_excerpt_rss', 'telegram_featured_RSS');
 add_filter('the_content_feed', 'telegram_featured_RSS');
-
-add_action('acf/save_post', 'telegram_fiksirano', 20);
-
-function telegram_fiksirano($post_id) {
-    // bail early if no ACF data
-    if( empty($_POST['acf']) ) {
-        return;
-    }
-    // specific field value
-    $field = $_POST['acf']['field_5555a34215036'];
-
-    $old = get_option('fiksirana_pozicija_2');
-    if ($field) {
-        update_post_meta($old, 'fiksirana_pozicija',0);
-        update_option('fiksirana_pozicija_2', $post_id);
-    }
-    else if ($post_id == $old) {
-        delete_option('fiksirana_pozicija_2');
-    }
-}
-
 
 function telegram_infinite_scroll_init() {
     add_theme_support( 'infinite-scroll', array(
