@@ -97,11 +97,11 @@ function telegram_main_scripts() {
 
 //	wp_register_script('telegram-comparison', content_url('themes/telegram/js/comparison.js'), '20150514'); TODO: jel trebamo usporedbu?
 
-	wp_register_style('slick', content_url('themes/telegram/assets/js/slick/slick.css'));
-	wp_register_style('slick-theme', content_url( 'themes/telegram/assets/js/slick/slick-theme.css'));
-	wp_register_script('slick', content_url('themes/telegram/assets/js/slick/slick.js'),null, null, true);
+	wp_register_style('slick', get_stylesheet_directory_uri() . 'assets/js/slick/slick.css');
+	wp_register_style('slick-theme', get_stylesheet_directory_uri().  'assets/js/slick/slick-theme.css');
+	wp_register_script('slick', get_stylesheet_directory_uri() . 'themes/telegram/assets/js/slick/slick.js',null, '20170917', true);
 	// For touch controls
-	wp_register_script('hammer-time', content_url('themes/telegram/assets/js/hammer-time.min.js'),null, null, true);
+	wp_register_script('hammer-time', get_stylesheet_directory_uri() . 'assets/js/hammer-time.min.js',null, '20170917', true);
 
 }
 
