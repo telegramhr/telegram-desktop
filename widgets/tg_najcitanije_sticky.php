@@ -11,7 +11,7 @@ class TG_Najcitanije_Sticky extends WP_Widget {
 
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
-        //$data = wp_cache_get('tg_najcitanije', 'widgets');
+        $data = wp_cache_get('tg_najcitanije_sticky', 'widgets');
         if (!$data) {
 
             ob_start();
@@ -60,7 +60,7 @@ class TG_Najcitanije_Sticky extends WP_Widget {
             </div>
             <?php
             $data = ob_get_clean();
-            wp_cache_set('tg_najcitanije', $data, 'widgets', 600);
+            wp_cache_set('tg_najcitanije_sticky', $data, 'widgets', 600);
         }
 
         echo $data;
