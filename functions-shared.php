@@ -328,10 +328,6 @@ function telegram_pre_get_posts($query) {
 	}
 }
 
-
-
-
-
 function telegram_get_photographer($id = false) {
 	if (!$id)
 		$id = get_post_thumbnail_id();
@@ -673,7 +669,6 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 	. do_shortcode( $content ) . '<i class="fa fa-search-plus"></i><figcaption class="wp-caption-text">' . $caption . '<span class="photographer">'.telegram_get_photographer($image_id).'</span></figcaption></figure>';
 }
 
-
 // Add Co-Authors fields
 add_filter( 'coauthors_guest_author_fields', 'capx_filter_guest_author_fields', 10, 2 );
 
@@ -790,4 +785,298 @@ function telegram_get_coauthors($post_id) {
 		$author .= $link;
 	}
 	return $author;
+}
+
+add_filter( 'tiny_mce_before_init', 'telegram_disable_mce_wptextpattern' );
+
+add_filter( 'amt_image_size_content', 'telegram_amt_image_size', 10, 1 );
+
+function telegram_amt_image_size($size) {
+	return 'velike-price';
+}
+
+//remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+
+add_action('pre_get_posts', 'telegram_instant_pre_get');
+function telegram_instant_pre_get($query) {
+	if ( $query->is_main_query() && $query->is_feed( INSTANT_ARTICLES_SLUG ) ) {
+		$query->set( 'post_status', 'published' );
+		$query->set( 'post_type', array('post', 'price') );
+	}
+}
+
+add_filter( 'instant_articles_subtitle', 'telegram_instant_article_subtitle', 10, 2 );
+
+function telegram_instant_article_subtitle($subtitle, $that) {
+	$post = $that->get_the_id();
+	$subtitle = get_post_meta( $post, 'subtitle', true );
+	return $subtitle;
+}
+
+add_action( 'instant_articles_compat_registry_analytics', 'telegram_add_to_registry_ga');
+add_action( 'instant_articles_compat_registry_analytics', 'telegram_add_to_registry_gemius');
+function telegram_add_to_registry_ga(&$registry) {
+	$display_name = 'Google Analytics by Marko';
+
+	$identifier = 'google-analytics-for-wordpress';
+
+	$embed_code = "<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60611577-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('set', 'campaignSource', 'Facebook');
+  ga('set', 'campaignMedium', 'Social Instant Article');
+  ga('set', 'title', 'IA - '+ia_document.title);
+  ga('send', 'pageview');
+
+</script>";
+
+	$registry[ $identifier ] = array(
+		'name' => $display_name,
+		'payload' => $embed_code,
+	);
+}
+
+function telegram_add_to_registry_gemius(&$registry) {
+	$display_name = 'Gemius by Marko';
+
+	$identifier = 'gemius-for-wordpress';
+
+	$embed_code = "<script type='text/javascript'>
+		<!--//--><![CDATA[//><!--
+		var pp_gemius_identifier = 'nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57';
+                var pp_gemius_extraparameters = new Array('gemia=1');
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+			gt.setAttribute('defer','defer'); gt.src=l+'://hr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+		//--><!]]>
+</script>";
+
+	$registry[ $identifier ] = array(
+		'name' => $display_name,
+		'payload' => $embed_code,
+	);
+}
+
+add_filter( 'amp_post_template_analytics', 'xyz_amp_add_custom_analytics' );
+function xyz_amp_add_custom_analytics( $analytics ) {
+	if ( ! is_array( $analytics ) ) {
+		$analytics = array();
+	}
+
+	// https://developers.google.com/analytics/devguides/collection/amp-analytics/
+	$analytics['xyz-googleanalytics'] = array(
+		'type' => 'googleanalytics',
+		'attributes' => array(
+			// 'data-credentials' => 'include',
+		),
+		'config_data' => array(
+			'vars' => array(
+				'account' => "UA-60611577-1"
+			),
+			'triggers' => array(
+				'trackPageview' => array(
+					'on' => 'visible',
+					'request' => 'pageview',
+				),
+			),
+		),
+	);
+
+
+	/*$analytics['xyz-gemius'] = array(
+		'type' => 'gemius',
+		'attributes' => array(),
+		'config_data' => array(
+			'vars' => array(
+				'prefix' => 'hr',
+                'identifier' => 'nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57',
+                'extraparams' => 'gemamp=1'
+			)
+		),
+	);*/
+
+	return $analytics;
+}
+
+add_action( 'amp_post_template_footer', 'telegram_amp_add_pixel' );
+
+function telegram_amp_add_pixel( $amp_template ) {
+	$post_id = $amp_template->get( 'post_id' );
+	?>
+    <amp-pixel src="https://hr.hit.gemius.pl/_TIMESTAMP/redot.gif?l=90&id=nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57&et=action&hsrc=1&extra=gemamp%3D0&fr=1&href=SOURCE_URL&ref=DOCUMENT_REFERRER"></amp-pixel>
+	<?php
+}
+
+add_action( 'pre_amp_render_post', 'telegram_amp_add_custom_actions' );
+function telegram_amp_add_custom_actions() {
+	add_filter( 'the_content', 'telegram_amp_add_subtitle', 10, 2 );
+}
+
+function telegram_amp_add_subtitle( $content ) {
+	$subtitle = '<h3>'.get_post_meta(get_the_ID(), 'subtitle', true).'</h3>';
+	return $subtitle . $content;
+}
+
+add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 10, 2 );
+
+function telegram_amp_fonts($data, $post) {
+	$data['fonts_url'][] = '//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&subset=latin-ext';
+	return $data;
+}
+
+add_action( 'amp_post_template_css', 'telegram_amp_additional_css_styles' );
+
+function telegram_amp_additional_css_styles( $amp_template ) {
+	// only CSS here please...
+	?>
+    @font-face {
+    font-family: "Fakt";
+    src: url('http://www.telegram.hr/wp-content/themes/telegram/fonts/FaktConPro-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('http://www.telegram.hr/wp-content/themes/telegram/fonts/FaktConPro-SemiBold.eot?#iefix') format('eot'),
+    url('http://www.telegram.hr/wp-content/themes/telegram/fonts/FaktConPro-SemiBold.woff') format('woff'); /* Pretty Modern Browsers */
+    }
+
+    body {
+    font-family: "Open Sans", sans-serif;
+    }
+
+    .amp-wp-byline {
+    list-style:none;
+    width: 100%;
+    }
+
+    .amp-wp-header {
+    background: #ed1d39 url(http://www.telegram.hr/wp-content/themes/telegram/img/logo.gif) no-repeat;
+    background-position: 3px 2px;
+    height: 55px;
+    }
+
+    .amp-wp-header > div {
+    height: 27px;
+    }
+
+    .amp-wp-header a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: -999px;
+    }
+
+    .amp-wp-header .amp-wp-site-icon {
+    border-radius: 0;
+    }
+
+    .amp-wp-title {
+    font-family: "Fakt", sans-serif;
+    font-size: 32px;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    }
+
+    .amp-wp-article-content h2,
+    .amp-wp-article-content h3 {
+    font-family: "Fakt", sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    margin: 15px 0 5px;
+    }
+	<?php
+}
+
+add_filter( 'media_library_months_with_files', 'telegram_months');
+
+function telegram_months() {
+	$months = get_transient('telegram_months');
+	if (!$months) {
+		global $wpdb;
+		$months = $wpdb->get_results( $wpdb->prepare( "
+			SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM $wpdb->posts
+			WHERE post_type = %s
+			ORDER BY post_date DESC
+		", 'attachment' ) );
+		set_transient('telegram_months', $months, DAY_IN_SECONDS);
+	}
+	return $months;
+}
+
+add_filter( 'postmeta_form_keys', 'telegram_postmeta' );
+
+function telegram_postmeta() {
+	return true;
+}
+
+function telegram_og_graph_tags( $tags ) {
+	$tags['fb:app_id'] = '1383786971938581';
+	$tags['fb:pages'] = '688325737947866';
+	if ( is_single() ) {
+		$tags['article:publisher'] = 'https://www.facebook.com/www.telegram.hr/';
+		$title = get_post_meta(get_the_ID(), 'title', true);
+		if ( $title ) {
+			$tags['og:title'] = wp_kses( $title, array() );
+		}
+		$description = get_post_meta(get_the_ID(), 'description', true);
+		if ( $description ) {
+			$tags['og:description'] = wp_kses( $description, array() );
+		}
+		$image = get_post_meta(get_the_ID(), 'image', true);
+		if ( $image ) {
+			$image = wp_get_attachment_image_src( $image, array( 1200, 1200 ) );
+			$tags['og:image'] = esc_url( $image[0] );
+			$tags['og:image:width'] = intval( $image[1] );
+			$tags['og:image:height'] = intval( $image[2] );
+		}
+
+	}
+
+	return $tags;
+}
+
+add_filter( 'jetpack_open_graph_tags', 'telegram_og_graph_tags', 10, 1 );
+
+if ( defined( 'WP_CLI' ) && WP_CLI ) {
+	require_once dirname( __FILE__ ) . '/cli.php';
+}
+
+/*
+	Disable Default Dashboard Widgets
+	@ https://digwp.com/2014/02/disable-default-dashboard-widgets/
+*/
+function telegram_disable_default_dashboard_widgets() {
+	global $wp_meta_boxes;
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_recent_drafts']);
+}
+add_action('wp_dashboard_setup', 'telegram_disable_default_dashboard_widgets', 999);
+
+add_action( 'template_redirect','telegram_filter_feeds', 1 );
+
+function telegram_filter_feeds() {
+	if( !is_feed() || is_404() )
+		return;
+	global $wp_rewrite, $wp_query;
+	if ( is_author() || is_date() || is_singular() || is_tax() ) {
+		$wp_query->is_feed = false;
+		$wp_query->set_404();
+		status_header( 404 );
+		// Override the xml+rss header set by WP in send_headers
+		header( 'Content-Type: ' . get_option('html_type') . '; charset=' . get_option('blog_charset') );
+	}
 }
