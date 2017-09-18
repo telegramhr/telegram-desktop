@@ -68,12 +68,14 @@ function search() {
 }
 
 function gallerySlide() {
-    jQuery('.gallery-slider').slick({
-        prevArrow: '.prev-img',
-        nextArrow: '.next-img',
-        slide: '.gallery-image'
-    }).on('afterChange', function (event, slick, currentSlide) {
-                jQuery('.gallery-page  .slide-num span').text((currentSlide+1)+'/'+(gallery_captions.length));
-    });
-    jQuery('.gallery-page  .slide-num span').text('1/'+(gallery_captions.length));
+    if (jQuery('.gallery-slider').length) {
+        jQuery('.gallery-slider').slick({
+            prevArrow: '.prev-img',
+            nextArrow: '.next-img',
+            slide: '.gallery-image'
+        }).on('afterChange', function (event, slick, currentSlide) {
+            jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (gallery_captions.length));
+        });
+        jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
+    }
 }
