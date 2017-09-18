@@ -21,8 +21,10 @@
                     // Get Sticker Badge
                     if( get_field('sticker' ) ) { ?>
                         <div class="sticker">
-                            <h2><?php echo get_field('sticker'); ?></h2>
-                            <span class="decail"></span>
+                            <h2>
+                                <?php echo get_field('sticker'); ?>
+                                <span class="decail"></span>
+                            </h2>
                         </div>
                     <?php } ?>
                     <a href="<?php the_permalink(); ?>">
