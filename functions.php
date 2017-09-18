@@ -29,16 +29,11 @@ add_action('pre_get_posts', 'telegram_main_query');
 
 function telegram_main_query($query) {
     if ($query->is_main_query() && !is_admin()) {
-        if (is_home()) {
-            $query->set( 'posts_per_page', 37 );
-            $positions = get_option('telegram_positions_home');
-            $query->set('post__not_in', array($positions['g1'], $positions['h1'], $positions['h2'], $positions['h3']));
-        }
-        else if (is_category()) {
-            $query->set('posts_per_page', 25);
+        if (is_category()) {
+            $query->set('posts_per_page', 10);
         }
         else if (is_archive()) {
-            $query->set('posts_per_page', 25);
+            $query->set('posts_per_page', 10);
         }
         else if (is_search()) {
             $query->set('orderby', 'date');

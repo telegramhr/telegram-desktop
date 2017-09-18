@@ -33,6 +33,20 @@ function telegram_setup() {
     ));
 
     add_filter('use_default_gallery_style', '__return_false');
+
+	add_theme_support( 'infinite-scroll', array(
+		'container' => 'content',
+		'footer' => false,
+        'render' => 'telegram_infinite_render',
+        'type' => 'scroll'
+	) );
+}
+function telegram_infinite_render() {
+	while ( have_posts() ) {
+		the_post();
+		get_template_part('templates/articles/article-2');
+	}
+
 }
 
 add_action('admin_init', 'telegram_admin_init');
@@ -283,21 +297,11 @@ add_action('pre_get_posts', 'telegram_pre_get_posts');
 
 function telegram_pre_get_posts($query) {
 	if (!is_admin() && $query->is_main_query()) {
-		if ($query->is_home() ) {
-			$query->set('tax_query', array( array( 'taxonomy' => 'positions', 'field' => 'slug', 'terms' => array('feed') ) ));
-
-		}
-		else if (is_category()) {
-			$term = get_queried_object();
-			$po = get_option('telegram_positions_'.$term->slug);
-			$query->set('post__not_in', array($po['g1']));
-		}
 
 		if ( ( $query->is_home() || $query->is_category() || $query->is_archive() ) ) {
 			if ( isset( $query->query['post_type'] ) && in_array( $query->query['post_type'], array(
 					'fotogalerije',
-					'video',
-                    'naslovnica'
+					'video'
 				) )
 			) {
 

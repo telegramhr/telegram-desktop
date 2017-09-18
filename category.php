@@ -9,17 +9,17 @@ get_header(); ?>
 
     <div class="section-feed section-feed-1">
         <div class="container feed-container">
-            <div class="col col-1 feed">
+            <div class="col col-1 feed" id="container">
                 <?php
                 $args      = array(
                     'post_status'    => 'publish'
                 );
-                $articles  = new WP_Query( $args );
-                if ( $articles->have_posts() ) {
-                    while ( $articles->have_posts() ) {
-                        $articles->the_post();
+                //$articles  = new WP_Query( $args );
+                if ( have_posts() ) {
+                    while ( have_posts() ) {
+                        the_post();
 
-                        if( $articles->current_post == 0 ) {
+                        if( $wp_query->current_post == 0 ) {
                             get_template_part( 'templates/articles/article-1' );
                         } else {
                             get_template_part( 'templates/articles/article-2' );
@@ -28,8 +28,8 @@ get_header(); ?>
                 }
                 ?>
 
-                <a href="#" class="btn" id="load-more">Još Telegrama</a>
-                
+                <a href="<?php  echo next_posts() ?>" class="btn" id="load-more">Još Telegrama</a>
+
             </div>
             <div class="col col-2 midbar">
                 <?php

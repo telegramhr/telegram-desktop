@@ -73,7 +73,7 @@
                         ?>
                     </div>
 
-                    <a href="#" class="btn" id="load-more">Još Članaka</a>
+                    <a href="<?php echo next_posts() ?>" class="btn" id="load-more">Još Članaka</a>
 
                 </div>
 
