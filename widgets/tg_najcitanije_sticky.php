@@ -24,9 +24,11 @@ class TG_Najcitanije_Sticky extends WP_Widget {
                     <?php
                     $args = array(
                         'posts_per_page' => $instance['num'],
-                        //'post__in' => get_transient('telegram_most_read'),
-                        //'orderby' => 'post__in',
-                        'post_type' => array('post', 'price', 'fotogalerije', 'video')
+                        'post__in' => get_option('telegram_most_read'),
+                        'orderby' => 'post__in',
+                        'no_found_rows' => true,
+                        'post_type' => array('post', 'price', 'fotogalerije', 'video'),
+                        'post_status' => 'publish'
                     );
                     $articles = new WP_Query($args);
                     global $post_num;

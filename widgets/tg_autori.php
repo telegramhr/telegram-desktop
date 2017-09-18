@@ -11,7 +11,7 @@ class TG_Autori extends WP_Widget {
 
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
-        //$data = wp_cache_get('tg_najcitanije', 'widgets');
+        $data = wp_cache_get('tg_autori', 'widgets');
         if (!$data) {
 
             ob_start();
@@ -32,7 +32,8 @@ class TG_Autori extends WP_Widget {
                         //'orderby' => 'post__in',
                         'post_type' => array('post', 'price', 'fotogalerije', 'video')
                     );
-                    $articles = new WP_Query($args);
+                    //$articles = new WP_Query($args);
+                    $articles = z_get_zone_query('autori', array('posts_per_page' => $post_num));
                     global $post_num;
                     if ($articles->have_posts()) {
                         while ($articles->have_posts()) {

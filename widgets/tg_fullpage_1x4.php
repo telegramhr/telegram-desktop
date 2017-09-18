@@ -11,7 +11,7 @@ class TG_Fullpage_1x4 extends WP_Widget {
 
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
-        //$data = wp_cache_get('tg_fullpage_1x4', 'widgets');
+        $data = wp_cache_get('tg_fullpage_1x4', 'widgets');
         if (!$data) {
 
             ob_start();

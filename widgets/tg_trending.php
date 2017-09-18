@@ -22,7 +22,7 @@ class TG_Trending extends WP_Widget {
             $cat = get_query_var('cat');
             $no = $instance['num_cat'];
         }
-        //$data = wp_cache_get('tg_trending_'.$cat.$no, 'widgets');
+        $data = wp_cache_get('tg_trending_'.$cat.$no, 'widgets');
         if (!$data) {
 
             ob_start();

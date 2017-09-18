@@ -11,7 +11,7 @@ class TG_Facebook_Hitovi extends WP_Widget {
 
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
-        //$data = wp_cache_get('tg_facebook_hitovi', 'widgets');
+        $data = wp_cache_get('tg_facebook_hitovi', 'widgets');
         if (!$data) {
 
             ob_start();
@@ -42,7 +42,7 @@ class TG_Facebook_Hitovi extends WP_Widget {
                 $args = array(
                     'post_type' => array('post', 'price', 'fotogalerije', 'video'),
                     'posts_per_page' => $no,
-                    //'meta_key' => '_recommendations',
+                    'meta_key' => '_recommendations',
                     'orderby' => 'meta_value_num',
                     'date_query' => array(
                         array(
