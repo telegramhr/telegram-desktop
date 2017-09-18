@@ -1,22 +1,28 @@
+<?php
+$meta = get_post_meta(get_option('telegram_promo_special'));
+$image_id = $meta['promo_special_image'][0];
+$image = wp_get_attachment_image_url($image_id, 'full');
+?>
 <div class="megabillboard">
     <div class="megabillboard-text">
         <div class="container">
             <div class="titles">
-                <h3 class="overtitle">Telegram partner</h3>
+                <h3 class="overtitle"><?php echo esc_html( $meta['promo_special_overtitle'][0] ) ?></h3>
                 <h1 class="title">
-                    <a href="#">
-                        BMW i Visions:<br> ubrzava puls vremena
+                    <a href="<?php echo esc_html( $meta['promo_special_link'][0] ) ?>">
+                        <?php echo esc_html($meta['promo_special_title'][0]) ?>
                     </a>
                 <h2 class="subtitle">
-                    Vizija za sljedećih 100 godina.
+	                <?php echo esc_html( $meta['promo_special_subtitle'][0] ) ?>
                 </h2>
-                <a href="#" class="btn btn-purple">
-                    Pročitaj više
+                <a href="<?php echo esc_html( $meta['promo_special_link'][0] ) ?>" class="btn btn-purple">
+	                <?php echo esc_html( $meta['promo_special_button_text'][0] ) ?>
                 </a>
             </div>
         </div>
     </div>
-    <img id="mega-bg" src="http://www.telegram.hr/wp-content/uploads/2017/09/P90276445_highRes_bmwi-vision-dynamics-1.jpg">
+
+    <img id="mega-bg" src="<?php echo esc_url($image) ?>">
 </div>
 
 <style type="text/css">

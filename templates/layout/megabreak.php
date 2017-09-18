@@ -5,50 +5,18 @@
     </div>
 
     <?php
-    $args      = array(
-        'posts_per_page' => 1,
-        'offset' => 4,
-        'post_status'    => 'publish'
-    );
-    $articles  = new WP_Query( $args );
-    if ( $articles->have_posts() ) {
-        while ( $articles->have_posts() ) {
-            $articles->the_post();
-            get_template_part('templates/articles/article-megabreak');
-        }
-    }  ?>
+    telegram_load_megabreak('break', 1);
+      ?>
 
     <div class="megabreak-bottom">
         <div class="container">
             <div class="poster-articles">
                 <?php
-                $args      = array(
-                    'posts_per_page' => 3,
-                    'offset' => 4,
-                    'post_status'    => 'publish'
-                );
-                $articles  = new WP_Query( $args );
-                if ( $articles->have_posts() ) {
-                    while ( $articles->have_posts() ) {
-                        $articles->the_post();
-                        get_template_part('templates/articles/article-poster');
-                    }
-                }  ?>
+                telegram_load_megabreak('smallbreak', 1);
+                telegram_load_megabreak('smallbreak', 2);
+                telegram_load_megabreak('smallbreak', 3);
+                  ?>
             </div>
-
-            <?php /*
-            <div class="day-quote">
-                <div class="qoute">
-                    Ovu stranicu pogoni
-                    <a href="https://www.terrakom.hr/" target="_blank" style="color: #00b054;">
-                        Terrakom Hosting</a>
-                </div>
-                <div class="quote-person">
-                    Vaše najpametnije ulaganje
-                </div>
-                <img id="terrakom-ico" src="<?php echo get_template_directory_uri(); ?>/assets/img/terrakom-ico.png"/>
-            </div>
-            */ ?>
 
         </div>
 

@@ -480,7 +480,7 @@ function telegram_trim($content) {
 	return $content;
 }
 
-add_filter('the_author', 'telegram_author_name');
+//add_filter('the_author', 'telegram_author_name');
 
 function telegram_author_name() {
 	global $post;
@@ -698,3 +698,96 @@ function my_wp_is_mobile() {
 	) return false;
 	return wp_is_mobile();
 } // function my_wp_is_mobile
+
+function telegram_load_megabreak($size, $number) {
+    if ($size === 'break') {
+        $template = 'templates/articles/article-megabreak.php';
+        $image_size = 'fullpage';
+    }
+    else {
+        $template = 'templates/articles/article-poster.php';
+        $image_size = 'article-poster';
+    }
+
+	$meta = get_post_meta(get_option('telegram_breaks'));
+	$article1 = $meta[$size.'_'.$number.'_article'][0];
+	if (isset($meta[$size.'_'.$number.'_link'][0]) && $meta[$size.'_'.$number.'_link'][0]) {
+		$link = esc_url( $meta[$size.'_'.$number.'_link'][0] );
+	}
+	else if ($article1) {
+		$link = esc_url( get_the_permalink($article1) );
+	}
+	else {
+		$link = '#';
+	}
+	if ( isset($meta[$size.'_'.$number.'_overtitle'][0]) && $meta[$size.'_'.$number.'_overtitle'][0] ) {
+		$overtitle = $meta[$size.'_'.$number.'_overtitle'][0];
+		$overtitle_link = '#';
+	}
+	else if ($article1) {
+		$cat = get_the_category();
+		$overtitle = $cat[0]->name;
+		$overtitle_link = esc_url( get_category_link( $cat[0]->term_id ) );
+	}
+	else {
+		$overtitle = '';
+		$overtitle_link = '#';
+	}
+
+	$title = '';
+	if (isset($meta[$size.'_'.$number.'_title'][0]) && $meta[$size.'_'.$number.'_title'][0]) {
+	    $title = $meta[$size.'_'.$number.'_title'][0];
+    }
+    else if ($article1) {
+	    $title = get_post_meta($article1, 'short_title', true);
+	    if (!$title) {
+	        $title = get_the_title($article1);
+        }
+    }
+    $subtitle = '';
+	if (isset($meta[$size.'_'.$number.'_subtitle'][0]) && $meta[$size.'_'.$number.'_subtitle'][0]) {
+	    $subtitle = $meta[$size.'_'.$number.'_subtitle'][0];
+    }
+    else if($article1){
+	    if (isset($meta[$size.'_'.$number.'_title'][0]) && $meta[$size.'_'.$number.'_title'][0]) {
+	        $subtitle = get_post_meta($article1, '_subtitle', true);
+        }
+        else {
+	        $subtitle = get_the_title($article1);
+        }
+    }
+
+	if ( isset($meta[$size.'_'.$number.'_image'][0]) && $meta[$size.'_'.$number.'_image'][0] ) {
+		$image = wp_get_attachment_image($meta[$size.'_'.$number.'_image'][0], $image_size);
+	}
+	else if ($article1) {
+		$image = get_the_post_thumbnail($article1,$image_size);
+	}
+    $author = '';
+	if ($article1) {
+	    $author = telegram_get_coauthors($article1);
+    }
+    if (isset($meta[$size.'_'.$number.'_button_text']) && $meta[$size.'_'.$number.'_button_text']) {
+	    $button_text = esc_html($meta[$size.'_'.$number.'_button_text']);
+    }
+    else {
+	    $button_text = 'Pročitaj više';
+    }
+    $recommendations = 0;
+    if ($article1) {
+        $recommendations = get_post_meta($article1, '_recommendations', true);
+    }
+    include(locate_template($template));
+}
+
+function telegram_get_coauthors($post_id) {
+    $author = '';
+	foreach (get_coauthors($post_id) as $coauthor) {
+		if ($author) {
+			$author .= ', ';
+		}
+		$link = coauthors_posts_links_single($coauthor);
+		$author .= $link;
+	}
+	return $author;
+}

@@ -1,27 +1,25 @@
 <article class="article-poster">
-    <a href="<?php the_permalink(); ?>">
+    <a href="<?php echo $link ?>">
         <div class="thumb">
-            <?php the_post_thumbnail('article-poster'); ?>
+            <?php echo $image ?>
         </div>
     </a>
     <div class="titles ">
         <div class="title-block">
             <h1 class="title">
-                <a href="<?php the_permalink(); ?>">
+                <a href="<?php echo $link ?>">
                     <?php
-                    if ( get_field('short_title') ) {
-                        echo get_field('short_title');
-                    }
-                    else {
-                        the_title();
-                    } ?>
+                    echo $title;
+                    ?>
                 </a>
             </h1>
+            <?php if(isset($recommendations) && $recommendations) { ?>
             <div class="article-meta">
                 <span class="rcmds">
-                    <?php echo intval(get_post_meta(get_the_ID(), '_recommendations', true)) ?> preporuka
+                    <?php echo intval($recommendations) ?> preporuka
                 </span>
             </div>
+            <?php } ?>
         </div>
     </div>
 </article>

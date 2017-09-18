@@ -74,7 +74,8 @@ get_template_part('templates/layout/megabillboard');
                     'post_status'    => 'publish',
                     'offset'        => 7
                 );
-                $articles  = new WP_Query( $args );
+                //$articles  = new WP_Query( $args );
+                $articles = z_get_zone_query( 'feed', array('posts_per_page' => 7, 'offset' => 7) );
                 if ( $articles->have_posts() ) {
                     while ( $articles->have_posts() ) {
                         $articles->the_post();
@@ -104,18 +105,8 @@ get_template_part('templates/layout/megabillboard');
     <div class="megabreak-container megabreak-2">
 
         <?php
-        $args      = array(
-            'posts_per_page' => 1,
-            'post_status'    => 'publish',
-            'post_type' => array('video'),
-        );
-        $articles  = new WP_Query( $args );
-        if ( $articles->have_posts() ) {
-            while ( $articles->have_posts() ) {
-                $articles->the_post();
-                get_template_part('templates/articles/article-megabreak');
-            }
-        }  ?>
+        telegram_load_megabreak('break', 2);
+         ?>
 
     </div>
 
