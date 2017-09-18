@@ -3,7 +3,7 @@
 class TG_Mobile_Autori extends WP_Widget {
 
     public function __construct() {
-        parent::__construct( 'tg_autori', 'Telegram: Telegramovi autori',
+        parent::__construct( 'tg_mobile_autori', 'Telegram: Telegramovi autori',
             array(
                 'description' => 'Najpopularniji članci telegramovih autora',
             ) );
