@@ -1088,3 +1088,5 @@ function telegram_filter_feeds() {
 	}
 }
 
+add_filter( 'zoninator_zone_max_lock_period', 'z_disable_zoninator_locks' );
+
