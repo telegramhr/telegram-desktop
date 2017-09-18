@@ -23,6 +23,7 @@ License:       	GNU General Public License v2 or later
 
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext');
 
+/*
 @font-face {
     font-family: "Fjalla Two";
     src: url('assets/fonts/fjalla_two/fjallaone-regular.eot');
@@ -33,7 +34,7 @@ License:       	GNU General Public License v2 or later
     font-weight: bold;
     font-style: normal;
 }
-
+*/
 
 /* CSS Reset*/
 html {
@@ -78,7 +79,7 @@ $tg-red: #e31739;
 $fb-blue: #3b5998;
 $tw-blue: #00aced;
 
-$title-font: "Fjalla One", "Fjalla Two", Impact, sans-serif;
+$title-font: "Fjalla One", Impact, sans-serif;
 $sans-serif: "PT Sans", 'Arial', 'Helvetica', sans-serif;
 $serif: "Lora", 'Georgia', 'Times New Roman', serif;
 
