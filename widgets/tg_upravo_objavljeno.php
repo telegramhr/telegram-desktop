@@ -33,8 +33,12 @@ class TG_Procitajte_Danas extends WP_Widget
 					        'video',
 					        'price'
 				        ),
-				        'meta_key'       => 'latest_off',
-				        'meta_value'     => 0
+				        'meta_query' => array(
+				                array(
+				                        'key' => 'latest_off',
+                                        'compare' => 'NOT EXISTS'
+                                )
+                        )
 			        );
 			        $q    = new WP_Query( $args );
 			        //$q = z_get_zone_query('masthead', array('posts_per_page' => 5));
