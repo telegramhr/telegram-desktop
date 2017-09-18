@@ -12,52 +12,9 @@ if( have_posts() ) {
         // Check article format
         $format = intval(get_post_meta( get_the_ID(), 'telegram_expanded', true ));
 
-        // Naslov u slici
-        if( $format == 1 ) {
-        ?>
 
-            <div class="single-head in-picture">
-                <?php
-                $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'fullpage' ); ?>
-                <div class="thumb" style="background-image: url(<?php echo $thumb['0']; ?>);">
-                    <?php
-                    // The Photographer
-                    if( telegram_get_photographer() ) { ?>
-                        <div class="photographer">
-                            Foto: <?php echo telegram_get_photographer() ?>
-                        </div>
-                        <?php
-                    }  ?>
-                    <div class="overlay"></div>
-                </div>
-
-                <div class="titles">
-                    <div class="head-meta">
-                        <?php
-                        foreach ( get_coauthors() as $author ) { ?>
-                        Piše:
-                        <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-                            <?php echo $author->display_name; ?>
-                        </a>
-                        <?php
-                            if ( telegram_get_photographer() ) {
-                                echo ' | Snima: ' . telegram_get_photographer();
-                            }
-                        } ?>
-                    </div>
-                    <h1 class="title">
-                        <?php the_title(); ?>
-                    </h1>
-                    <h2 class="subtitle">
-                        <?php
-                        echo get_excerpt( get_field('subtitle'), 141 ); ?>
-                    </h2>
-                </div>
-            </div>
-
-        <?php }
         // Naslov izvan slike
-        else if( $format == 2 ) { ?>
+        if( $format == 2 ) { ?>
 
             <div class="single-head out-picture">
                 <div class="thumb">
@@ -116,7 +73,7 @@ if( have_posts() ) {
                     </h2>
                 </div>
             </div>
-            
+
         <?php }
         // Bez slike
         else if( $format == 4 ) { ?>
@@ -155,7 +112,51 @@ if( have_posts() ) {
             </div>
         </div>
 
-        <?php } ?>
+        <?php }
+        else {
+	    ?>
+
+        <div class="single-head in-picture">
+		    <?php
+		    $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'fullpage' ); ?>
+            <div class="thumb" style="background-image: url(<?php echo $thumb['0']; ?>);">
+			    <?php
+			    // The Photographer
+			    if( telegram_get_photographer() ) { ?>
+                    <div class="photographer">
+                        Foto: <?php echo telegram_get_photographer() ?>
+                    </div>
+				    <?php
+			    }  ?>
+                <div class="overlay"></div>
+            </div>
+
+            <div class="titles">
+                <div class="head-meta">
+				    <?php
+				    foreach ( get_coauthors() as $author ) { ?>
+                        Piše:
+                        <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
+						    <?php echo $author->display_name; ?>
+                        </a>
+					    <?php
+					    if ( telegram_get_photographer() ) {
+						    echo ' | Snima: ' . telegram_get_photographer();
+					    }
+				    } ?>
+                </div>
+                <h1 class="title">
+				    <?php the_title(); ?>
+                </h1>
+                <h2 class="subtitle">
+				    <?php
+				    echo get_excerpt( get_field('subtitle'), 141 ); ?>
+                </h2>
+            </div>
+        </div>
+
+    <?php }
+    ?>
 
         <?php
         // Ako ne forsiramo bijeli logo:
