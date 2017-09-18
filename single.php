@@ -30,11 +30,7 @@ if( have_posts() ) {
                 // Get authors
                 $authors = get_coauthors();
                 foreach($authors as $author) {
-                    ?>
-                    <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-                        <?php echo $author->display_name; ?>
-                    </a>
-                    <?php
+	                 echo coauthors_posts_links_single($author);
                 }
                 ?>
             </span>
