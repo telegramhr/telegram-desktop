@@ -25,8 +25,8 @@ class TG_Procitajte_Danas extends WP_Widget
                     'showposts' => 5,
                     'post_type' => array('post', 'fotogalerije', 'video', 'price'),
                 );
-                $q = new WP_Query($args);
-                //$q = z_get_zone_query('masthead', array('posts_per_page' => 5));
+                //$q = new WP_Query($args);
+                $q = z_get_zone_query('masthead', array('posts_per_page' => 5));
                 while ($q->have_posts()) {
                     $q->the_post();
                     // Rainbow article small
