@@ -6,19 +6,15 @@ Author:        	TGM: mbanusic, mradaus
 Author URI:    	http://telegram.hr/
 License:       	GNU General Public License v2 or later
 */
-/* Font Face
-@font-face {
-    font-family: "Fjalla One";
-    src: url('assets/fonts/fjalla_one/fjallaone-regular.eot');
-    src: url('assets/fonts/fjalla_one/fjallaone-regular.eot?#iefix') format('embedded-opentype'),
-    url('assets/fonts/fjalla_one/fjallaone-regular.woff2') format('woff2'),
-    url('assets/fonts/fjalla_one/fjallaone-regular.woff') format('woff'),
-    url('assets/fonts/fjalla_one/fjallaone-regular.svg#fjalla_oneregular') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-*/
+/* Font Face */
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext");
+@font-face {
+  font-family: "Fjalla Two";
+  src: url("assets/fonts/fjalla_one/fjallaone-regular.eot");
+  src: url("assets/fonts/fjalla_one/fjallaone-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/fjalla_one/fjallaone-regular.woff2") format("woff2"), url("assets/fonts/fjalla_one/fjallaone-regular.woff") format("woff"), url("assets/fonts/fjalla_one/fjallaone-regular.svg#fjalla_oneregular") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
 /*
 @font-face {
     font-family: "Fjalla Two";
@@ -241,7 +237,7 @@ img {
   background-position: center;
   background-size: cover;
   position: relative;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -366,7 +362,7 @@ nav .label {
   position: absolute;
   left: 33px;
   top: 1px;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 19px;
   text-transform: uppercase;
 }
@@ -449,7 +445,7 @@ nav .article-title {
   margin-left: 55px;
   padding-left: 15px;
   border-left: 2px solid #301860;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   line-height: 39px;
   height: 36px;
 }
@@ -468,7 +464,7 @@ nav .share-box {
   height: 100%;
   z-index: 99999;
   padding: 70px 24px 30px;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   overflow-x: hidden;
@@ -536,7 +532,7 @@ nav .share-box {
   height: 105px;
   font-size: 16px;
   line-height: 1.4em;
-  font-family: "Oswald", "Fjalla One", Impact, sans-serif;
+  font-family: "Oswald", "Fjalla One", "Fjalla Two", Impact, sans-serif;
   text-align: center;
   display: table;
   font-weight: 400;
@@ -574,7 +570,7 @@ nav .share-box {
 }
 
 .title {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
 }
 
 article {
@@ -598,7 +594,7 @@ article .subtitle {
 }
 
 .article-meta {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   font-size: 12px;
@@ -756,7 +752,7 @@ article .subtitle {
   padding-bottom: 2px;
   color: #301860;
   border-bottom: 2px solid #301860;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 14px;
@@ -779,7 +775,7 @@ article .subtitle {
   border-bottom: 1px solid #ddd;
 }
 .article-sticky .overtitle {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 12px;
   color: #666;
   text-transform: uppercase;
@@ -790,7 +786,7 @@ article .subtitle {
   margin-right: 13px;
   margin-bottom: 25px;
   height: 100%;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 32px;
   color: #e31739;
   margin-top: 16px;
@@ -853,7 +849,7 @@ article .subtitle {
   position: absolute;
   bottom: 5px;
   left: 10px;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -933,7 +929,7 @@ article .subtitle {
   color: #fff;
 }
 .article-megabreak .article-content .titles .article-cat {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 36px;
   text-transform: uppercase;
 }
@@ -1101,7 +1097,7 @@ background-size: 100% 100%; */
   width: 600px;
   color: #fff;
   text-align: center;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
@@ -1340,7 +1336,7 @@ background-size: 100% 100%; */
   font-size: 12px;
 }
 .single-body .single-content .content-container .quote {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 26px;
   color: #e31739;
   margin: 0 0 0 10px;
@@ -1433,7 +1429,7 @@ background-size: 100% 100%; */
   padding-top: 0;
 }
 .single-price .head-meta {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   letter-spacing: 0.5px;
   color: #aaa;
   text-transform: uppercase;
@@ -1684,7 +1680,7 @@ background-size: 100% 100%; */
   padding-top: 100px;
 }
 .error-page .container .error-title {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 72px;
   line-height: 1.3em;
   text-transform: uppercase;
@@ -1712,7 +1708,7 @@ background-size: 100% 100%; */
 }
 .single-share .share-text {
   display: none;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   color: #000;
   font-size: 18px;
   height: 60px;
@@ -1785,7 +1781,7 @@ border-bottom: 5px solid $gray-light; */
   left: 120px;
 }
 .author-box .author-name .first-name {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 18px;
   margin-bottom: 3px;
 }
@@ -1826,7 +1822,7 @@ border-bottom: 5px solid $gray-light; */
   width: 220px;
   line-height: 58px;
   text-align: center;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   color: #fff;
@@ -2028,7 +2024,7 @@ border-bottom: 5px solid $gray-light; */
 
 .share-box {
   margin-bottom: 20px;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
 }
 .share-box div {
   display: inline-block;
@@ -2078,7 +2074,7 @@ border-bottom: 5px solid $gray-light; */
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 24px;
   color: #301860;
 }
@@ -2248,7 +2244,7 @@ border-bottom: 5px solid $gray-light; */
   font-size: 24px;
 }
 .search-results .no-results h2 {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 52px;
   color: #e31739;
   margin: 20px 0 0;
@@ -2335,7 +2331,7 @@ border-bottom: 5px solid $gray-light; */
   width: 100%;
   text-align: center;
   padding-top: 15px;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color: #e31739;
@@ -2345,7 +2341,7 @@ border-bottom: 5px solid $gray-light; */
   padding: 20px 0 10px;
 }
 .author-page .author-head .author-meta {
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 20px;
   color: #666;
   text-transform: uppercase;
@@ -2367,7 +2363,7 @@ border-bottom: 5px solid $gray-light; */
 .author-page .author-articles .big-title {
   font-size: 36px;
   letter-spacing: 0.05em;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   color: #301860;
   text-transform: uppercase;
   margin: 0 auto;
@@ -2389,7 +2385,7 @@ border-bottom: 5px solid $gray-light; */
   border: none;
   background: #eee;
   margin-bottom: 15px;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
@@ -2417,7 +2413,7 @@ border-bottom: 5px solid $gray-light; */
 }
 .gallery-page .gallery-nav {
   font-size: 18px;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   text-transform: uppercase;
   padding: 50px 0 10px;
   display: flex;
@@ -2482,7 +2478,7 @@ footer {
   background: #120836 url("assets/img/footer_bg.png");
   padding: 60px 0;
   color: #fff;
-  font-family: "Fjalla One", Impact, sans-serif;
+  font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 18px;
 }
 footer a:hover {
