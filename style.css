@@ -910,7 +910,7 @@ article .subtitle {
   left: 0;
 }
 .article-megabreak .article-content .titles {
-  padding: 115px 0 0 70px;
+  padding: 100px 0 0 70px;
   color: #fff;
 }
 .article-megabreak .article-content .titles .article-cat {
@@ -924,13 +924,13 @@ article .subtitle {
   line-height: 1.05em;
   text-transform: uppercase;
   width: 50%;
-  margin: 20px 0 15px -7px;
+  margin: 20px 0 5px -7px;
 }
 .article-megabreak .article-content .titles .subtitle {
   font-size: 22px;
   color: #fff;
   width: 40%;
-  margin: 20px 0 35px;
+  margin: 15px 0 20px;
 }
 .article-megabreak .article-content .titles .article-meta {
   text-transform: lowercase;
@@ -1036,7 +1036,7 @@ background-size: 100% 100%; */
 }
 .megabreak-container .megabreak-frame {
   position: absolute;
-  top: 60px;
+  top: 45px;
   left: 0;
   width: 100%;
   z-index: 1;
