@@ -625,6 +625,11 @@ article .subtitle {
   position: static;
   float: right;
   margin-right: -20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 90px;
+  height: 85px;
+  font-size: 14px;
 }
 .article-head .thumb {
   width: 100%;
