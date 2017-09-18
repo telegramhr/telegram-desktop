@@ -175,7 +175,7 @@ function telegram_widgets_init() {
         array(
             'name' => 'Naslovnica desni stupac 2',
             'description' => 'Desni stupac na naslovnici 2',
-            'id' => 'home_sidebar_2',
+            'id' => 'home-sidebar-2',
             'before_widget' => '<div id="%1$s" class="%2$s">',
             'after_widget' => '</div>',
             'before_title' => '',
