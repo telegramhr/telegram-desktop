@@ -252,3 +252,9 @@ function twentyseventeen_video_controls( $settings ) {
     return $settings;
 }
 add_filter( 'header_video_settings', 'twentyseventeen_video_controls' );
+
+function telegram_relationship_options_filter($options, $field, $the_post) {
+	$options['post_status'] = array('publish');
+	return $options;
+}
+add_filter('acf/fields/post_object/query', 'telegram_relationship_options_filter', 10, 3);
