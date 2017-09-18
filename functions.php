@@ -43,7 +43,7 @@ function telegram_main_query($query) {
 
 }
 
-//add_filter('the_content', 'telegram_price_content');
+add_filter('the_content', 'telegram_price_content');
 
 function telegram_price_content($content){
     if (is_single()) {
