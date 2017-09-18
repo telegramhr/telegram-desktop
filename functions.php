@@ -79,7 +79,7 @@ function telegram_price_content($content){
                     ob_start();
                     the_widget( 'Telegram_Perun_Banner' );
                     $perun = ob_get_clean();
-                    $return_content .= $perun . $new_line;
+                    //$return_content .= $perun . $new_line;
                 }
                 if ( 5 == $i ) {
                     ob_start(); ?>
@@ -89,7 +89,7 @@ function telegram_price_content($content){
                         </script>
                     </div><?php
                     $adx = ob_get_clean();
-                    $return_content .= $adx . $new_line;
+                    //$return_content .= $adx . $new_line;
                 }
             }
             $adx1 = '<div id=\'div-gpt-ad-1481715328507-0\' class="adsense" style=\'width:100%; text-align:center;\'>
@@ -98,7 +98,7 @@ googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1481715328507-0\'
 </script>
 </div>';
             //append after lead
-            $return_content = preg_replace( '/<\/h4>/', '</h4>'.$adx1, $return_content, 1);
+            //$return_content = preg_replace( '/<\/h4>/', '</h4>'.$adx1, $return_content, 1);
 
             //append to end of content
             $adx3 = '<div id=\'div-gpt-ad-1481624513653-0\' class="adsense" style=\'width:100%; text-align:center\'>
@@ -106,7 +106,7 @@ googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1481715328507-0\'
 googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1481624513653-0\'); });
 </script>
 </div>';
-            $return_content .= $new_line . $adx3;
+            //$return_content .= $new_line . $adx3;
             $content = $return_content;
         }
         // Mladen Pleše fix

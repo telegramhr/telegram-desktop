@@ -3,6 +3,7 @@
 
 require_once ('plugins/gallery.php');
 require_once ('plugins/shortcodes.php');
+require_once ('plugins/permalinks.php');
 remove_action('wp_footer', 'jetpack_mobile_available');
 remove_action( 'do_pings', 'do_all_pings' );
 
@@ -1080,3 +1081,4 @@ function telegram_filter_feeds() {
 		header( 'Content-Type: ' . get_option('html_type') . '; charset=' . get_option('blog_charset') );
 	}
 }
+
