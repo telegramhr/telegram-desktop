@@ -11,7 +11,7 @@
     </div>
 
     <div class="facebook">
-        <a href="https://www.facebook.com/dialog/share?app_id=103100136402693&display=popup&href=<?php echo urlencode( get_the_permalink() ); ?>&redirect_uri=<?php echo urlencode( get_the_permalink() ); ?>" target="_blank" class="fb fb-share" data-social-network="Facebook" data-social-action="share" data-social-target="<?php the_permalink(); ?>"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.facebook.com/dialog/share?app_id=1383786971938581&display=popup&href=<?php echo urlencode( get_the_permalink() ); ?>&redirect_uri=<?php echo urlencode( get_the_permalink() ); ?>" target="_blank" class="fb fb-share" data-social-network="Facebook" data-social-action="share" data-social-target="<?php the_permalink(); ?>"><i class="fa fa-facebook"></i></a>
         <a class="fb-save-fake"><i class="fa fa-bookmark"></i></a>
         <div class="fb-save"
              data-uri="<?php the_permalink(); ?>">
