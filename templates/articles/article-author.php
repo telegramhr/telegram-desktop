@@ -25,7 +25,7 @@
                             <?php echo $author->last_name; ?>
                         </div>
                     </div>
-                <?php } ?>
+                <?php break; } ?>
             </div>
         </a>
     </div>
