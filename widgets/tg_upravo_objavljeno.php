@@ -19,12 +19,20 @@ class TG_Procitajte_Danas extends WP_Widget
             </div>
             <div class="tg-widget-body">
                 <?php
-                $q = z_get_zone_query('masthead', array('posts_per_page' => 5));
+                global $post;
+                $args = array(
+                    'showposts' => 5,
+                    'post_type' => array('post', 'fotogalerije', 'video', 'price'),
+                );
+                $q = new WP_Query($args);
+                //$q = z_get_zone_query('masthead', array('posts_per_page' => 5));
                 while ($q->have_posts()) {
                     $q->the_post();
                     // Rainbow article small
                     get_template_part('templates/articles/article-rainbow-small');
-                } ?>
+                }
+                wp_reset_query();
+                ?>
             </div>
         </div>
 
