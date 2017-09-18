@@ -14,7 +14,7 @@
             }
              ?>
         </div>
-        <div class="search right-action">
+        <div class="right-action">
             <?php get_template_part('templates/layout/share-box'); ?>
         </div>
 
