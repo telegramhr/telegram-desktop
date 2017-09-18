@@ -3,6 +3,7 @@
     <div class="thumb">
         <a href="<?php the_permalink() ?>">
             <?php
+            get_template_part('templates/articles/article-badge');
             // Main Featured image:
             if( has_post_thumbnail() ) {
                 the_post_thumbnail('sidebar');
