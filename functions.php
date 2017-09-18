@@ -58,7 +58,7 @@ function telegram_price_content($content){
             $ad      = ob_get_clean();
             $content = $content[0] . $ad . $content[1];
         }
-        else if ( get_post_type() == 'post' || get_post_type() == 'video' ) {
+        else if ( get_post_type() == 'post' ) {
             $new_line = "\n";
             $parts   = explode( $new_line, $content, 7 );
             $return_content = '';
