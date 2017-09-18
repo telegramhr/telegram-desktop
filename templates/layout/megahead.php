@@ -8,7 +8,7 @@
             'post_type' => array('post', 'fotogalerije', 'price'),
         );
         //$articles  = new WP_Query( $args );
-        $articles = z_get_zone_query('head-article', array('posts_per_page' => 1, array('post', 'fotogalerije', 'price'),));
+        $articles = z_get_zone_query('head-article', array('posts_per_page' => 1, array('post', 'fotogalerije', 'price')));
         if ( $articles->have_posts() ) {
             while ( $articles->have_posts() ) {
                 $articles->the_post();
