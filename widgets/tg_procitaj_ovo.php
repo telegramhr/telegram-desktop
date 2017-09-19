@@ -18,11 +18,14 @@ class TG_Procitaj_Ovo extends WP_Widget
             <div class="tg-widget-body">
                 <?php
                 global $post;
-                $terms = wp_get_post_terms($post->ID, 'post_tag', array('fields' => 'ids'));
+                //$terms = wp_get_post_terms($post->ID, 'post_tag', array('fields' => 'ids'));
                 $args = array(
-                    'showposts' => 3,
+                    'posts_per_page' => 3,
                     'post_type' => array('post', 'fotogalerije', 'video', 'price'),
                     'post__not_in' => array(intval($post->ID)),
+                    'no_found_rows' => true,
+                    'ignore_sticky_posts' => true,
+                    'post_status' => 'publish'
                     /*
                     'tax_query' => array(
                         array(
@@ -43,7 +46,9 @@ class TG_Procitaj_Ovo extends WP_Widget
                         </a>
                     </li>
                     <?php
-                } ?>
+                }
+                wp_reset_postdata();
+                ?>
             </div> <!-- End Widget-Body -->
         </div>
 

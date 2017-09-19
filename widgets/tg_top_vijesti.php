@@ -17,18 +17,14 @@ class TG_Top_Vijesti extends WP_Widget
         <div class="tg-widget rainbow-widget top-vijesti container">
             <div class="tg-widget-body cf">
                 <?php
-                global $post;
-                $args = array(
-                    'showposts' => 5,
-                    'post_type' => array('post', 'fotogalerije', 'video', 'price'),
-                );
-                //$q = new WP_Query($args);
                 $q = z_get_zone_query( 'masthead', array('posts_per_page' => 5));
                 while ($q->have_posts()) {
                     $q->the_post();
                     // Rainbow article small
                     get_template_part('templates/articles/article-rainbow-block');
-                } ?>
+                }
+                wp_reset_postdata();
+                ?>
             </div>
         </div>
 
