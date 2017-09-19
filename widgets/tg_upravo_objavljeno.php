@@ -13,7 +13,7 @@ class TG_Procitajte_Danas extends WP_Widget
 
     public function widget($args, $instance)
     {
-        $data = wp_cache_get('telegram_latest', 'widgets');
+        $data = wp_cache_get('tg_latest', 'widgets');
         if (!$data) {
 	        ob_start();
 
@@ -36,12 +36,12 @@ class TG_Procitajte_Danas extends WP_Widget
 				        'no_found_rows' => true,
 				        'ignore_sticky_posts' => true,
 				        'post_status' => 'publish',
-				        'meta_query' => array(
+				        /*'meta_query' => array(
 				                array(
 				                        'key' => 'latest_off',
                                         'compare' => 'NOT EXISTS'
                                 )
-                        )
+                        )*/
 			        );
 			        $q    = new WP_Query( $args );
 			        while ( $q->have_posts() ) {
@@ -56,7 +56,7 @@ class TG_Procitajte_Danas extends WP_Widget
 
 	        <?php
             $data = ob_get_clean();
-            wp_cache_set('telegram_latest', $data, 'widgets', 600);
+            wp_cache_set('tg_latest', $data, 'widgets', 3600);
         }
         echo $data;
     }
