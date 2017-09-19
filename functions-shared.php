@@ -1121,19 +1121,12 @@ add_action('admin_bar_menu', 'telegram_remove_toolbar_node', 999);
 
 function telegram_acf_query($args, $field, $post_id)
 {
-	// 1: only show published posts
 	$args['post_status'] = array('publish');
-	$args['post_type'] = array('post', 'price', 'video', 'fotogalerija');
 
-	// 2: sort by relevance
 	$args['orderby'] = 'date';
 	$args['order'] = 'DESC';
-	$args['posts_per_page'] = 10;
 	$args['no_found_rows'] = true;
-
-	// 4: exclude current post/page
-	$args['post__not_in'] = array($post_id);
 
 	return $args;
 }
-add_filter('acf/fields/post_object/query', 'telegram_acf_query', 10, 3);
+add_filter('acf/fields/relationship/query', 'telegram_acf_query', 10, 3);
