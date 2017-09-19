@@ -22,7 +22,7 @@
             <h2 class="subtitle">
                 <?php echo $subtitle; ?>
             </h2>
-            <a href="<?php echo $title; ?>" class="btn btn-purple">
+            <a href="<?php echo $link; ?>" class="btn btn-purple">
                 <?php echo $button_text ?>
             </a>
         </div>
