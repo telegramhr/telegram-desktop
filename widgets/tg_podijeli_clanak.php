@@ -15,7 +15,11 @@ class TG_Podijeli_Clanak extends WP_Widget {
 
         <div class="author-box cf">
             <?php
-            foreach (get_coauthors() as $author) { ?>
+            foreach (get_coauthors() as $author) {
+                if (in_array( $author->ID, array(519690, 519687) )) {
+                    continue;
+                }
+                ?>
                 <div class="author-block cf">
                     <div class="author-thumb">
                         <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
