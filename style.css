@@ -993,6 +993,8 @@ background-size: 100% 100%; */
   color: #fff;
   margin-bottom: 10px;
   font-size: 26px;
+  line-height: 1.4em;
+  letter-spacing: 0.03em;
 }
 
 .article-blitz .title {
@@ -1066,7 +1068,7 @@ background-size: 100% 100%; */
   top: 45px;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 .megabreak-container .megabreak-frame img {
   margin: 0 auto;
@@ -2069,10 +2071,11 @@ border-bottom: 5px solid $gray-light; */
 .category {
   padding-top: 50px;
 }
-.category .category-head {
+
+.category-head {
   padding-top: 30px;
 }
-.category .category-head h1 {
+.category-head h1 {
   font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
   font-weight: bold;
   color: #e31739;
