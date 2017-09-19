@@ -1079,7 +1079,7 @@ function telegram_filter_feeds() {
 	if( !is_feed() || is_404() )
 		return;
 	global $wp_rewrite, $wp_query;
-	if ( is_author() || is_date() || is_singular() || is_tax() ) {
+	if ( is_author() || is_date() || is_singular() || is_tax() || is_category() ) {
 		$wp_query->is_feed = false;
 		$wp_query->set_404();
 		status_header( 404 );
