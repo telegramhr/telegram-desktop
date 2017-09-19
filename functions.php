@@ -38,6 +38,9 @@ function telegram_main_query($query) {
         else if (is_search()) {
             $query->set('orderby', 'date');
         }
+        else if (is_author()) {
+	        $query->set('posts_per_page', 12);
+        }
 
     }
 

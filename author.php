@@ -5,9 +5,8 @@
 
             <div class="author-head">
                 <?php
-                // Get authors
-                foreach (get_coauthors() as $author) { ?>
-
+                $author = get_queried_object();
+                ?>
                     <div class="author-thumb">
                         <?php echo coauthors_get_avatar($author, 300); ?>
                         <div class="line"></div>
@@ -43,14 +42,10 @@
                             if( $author->description ) {
                                 echo $author->description;
                             } else {
-                                echo $author->display_name.' trenutno radi na biografiji. Bude prvom prilikom. Do tada, pogledajte posljenje članke ovog autora.';
+                                echo $author->display_name.' trenutno radi na biografiji. Bude prvom prilikom. Do tada, pogledajte posljednje članke ovog autora.';
                             } ?>
                         </div>
                     </div>
-                    <?php
-                    break; //TODO
-                }
-                ?>
 
                 </div>
 
@@ -60,7 +55,6 @@
                     </h1>
                     <div class="article-author-container">
                         <?php
-                        //TODO: set 12 posts
                         if ( have_posts() ) {
                             while ( have_posts() ) {
                                 the_post();
