@@ -60,13 +60,10 @@
                     </h1>
                     <div class="article-author-container">
                         <?php
-                        $args      = array(
-                            'posts_per_page' => 12
-                        );
-                        $articles  = new WP_Query( $args );
-                        if ( $articles->have_posts() ) {
-                            while ( $articles->have_posts() ) {
-                                $articles->the_post();
+                        //TODO: set 12 posts
+                        if ( have_posts() ) {
+                            while ( have_posts() ) {
+                                the_post();
                                 // Article template
                                 get_template_part('templates/articles/article-fourth');
                             }
