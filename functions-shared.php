@@ -1123,6 +1123,7 @@ function telegram_acf_query($args, $field, $post_id)
 {
 	// 1: only show published posts
 	$args['post_status'] = array('publish');
+	$args['post_type'] = array('post', 'price', 'video', 'fotogalerija');
 
 	// 2: sort by relevance
 	$args['orderby'] = 'date';
