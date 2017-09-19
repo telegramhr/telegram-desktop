@@ -733,6 +733,11 @@ article {
     span.comms {
         opacity: 0.6;
     }
+
+
+    .author-block {
+        display: inline-block;
+    }
 }
 
 .article-head {
@@ -1408,7 +1413,7 @@ article {
             background: $gray-light;
             overflow: hidden;
             display: inline-block;
-            margin: 0 10px -11px 0;
+            margin: 0 3px -11px 3px;
 
             img {
                 width: 100%;
@@ -1644,14 +1649,12 @@ article {
             .tags {
                 margin: 40px 0 9px;
                 font-size: 16px;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                width: 50%;
-                text-align: right;
+                font-family: $sans-serif;
 
                 a {
                     color: $gray-3;
+                    border-bottom: none;
+                    font-weight: normal;
 
                     &:hover {
                     color: $tg-red;
@@ -2112,46 +2115,53 @@ article {
     margin-bottom: 10px;
     position: relative;
 
-    .author-thumb {
-        width: 100px;
-        height: 100px;
-        float: left;
-        margin-right: 15px;
+    .author-block {
+        position: relative;
+        display: inline-block;
+        margin-bottom: -5px;
 
-        img {
-            width: 100% !important;
-            margin: 0 !important;
-            height: auto;
-        }
-    }
+        .author-thumb {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-right: 15px;
 
-    .author-name {
-        position: absolute;
-        bottom: 10px;
-        left: 120px;
-
-        .first-name {
-            font-family: $title-font;
-            font-size: 18px;
-            margin-bottom: 3px;
+            img {
+                width: 100% !important;
+                margin: 0 !important;
+                height: auto;
+            }
         }
 
-        .occupation {
-            color: $gray-3;
-            font-size: 13px;
-        }
+        .author-name {
+            float: left;
+            margin-top: 27px;
 
-        .author-actions {
-            font-size: 10px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin: 10px 0 0 0;
+            .first-name {
+                font-family: $title-font;
+                font-size: 18px;
+                margin-bottom: 3px;
+            }
 
-            a {
-                color: $tg-red;
+            .occupation {
+                color: $gray-3;
+                font-size: 13px;
+            }
+
+            .author-actions {
+                font-size: 10px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin: 10px 0 0 0;
+
+                a {
+                    color: $tg-red;
+                }
             }
         }
     }
+
+
 
     .article-meta {
         position: absolute;

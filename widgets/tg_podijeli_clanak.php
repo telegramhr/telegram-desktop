@@ -16,38 +16,38 @@ class TG_Podijeli_Clanak extends WP_Widget {
         <div class="author-box cf">
             <?php
             foreach (get_coauthors() as $author) { ?>
-                <div class="author-thumb">
-                    <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-                        <?php echo coauthors_get_avatar($author, 'thumbnail'); ?>
-                    </a>
-                </div>
-                <div class="author-name">
-                    <div class="first-name">
-                        <?php
-                        echo $author->display_name; ?>
+                <div class="author-block cf">
+                    <div class="author-thumb">
+                        <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
+                            <?php echo coauthors_get_avatar($author, 'thumbnail'); ?>
+                        </a>
                     </div>
-                    <div class="occupation">
-                        <?php
-                        if( $author->occupation ) {
-                            echo $author->occupation;
-                        } else {
-                            echo 'Telegram autor';
-                        } ?>
-                    </div>
-                    <div class="author-actions">
-                        <span>
+                    <div class="author-name">
+                        <div class="first-name">
                             <?php
-                            the_author_posts(); ?> članaka
-                        </span>
-                        <span>
-                            <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-                                Više o autoru
-                            </a>
-                        </span>
+                            echo $author->display_name; ?>
+                        </div>
+                        <div class="occupation">
+                            <?php
+                            if( $author->occupation ) {
+                                echo $author->occupation;
+                            } else {
+                                echo 'Telegram autor';
+                            } ?>
+                        </div>
+                        <div class="author-actions">
+                            <span>
+                                <?php
+                                the_author_posts(); ?> članaka
+                            </span>
+                            <span>
+                                <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
+                                    Više o autoru
+                                </a>
+                            </span>
+                        </div>
                     </div>
                 </div>
-                <?php
-                the_tags('<div class="tags">', ', ', '</div>'); ?>
             <?php } ?>
         </div>
 

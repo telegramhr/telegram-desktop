@@ -9,7 +9,6 @@
                 <?php echo $author->display_name; ?>
             </a>
             <?php
-            break;
         }
     ?>
     </span>

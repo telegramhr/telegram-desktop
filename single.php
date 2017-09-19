@@ -21,18 +21,17 @@ if( have_posts() ) {
         <div class="article-meta">
             <?php
             foreach (get_coauthors() as $author) { ?>
-                <div class="author-thumb">
-                    <?php echo coauthors_get_avatar($author, 'thumbnail'); ?>
+                <div class="author-block">
+                    <div class="author-thumb">
+                        <?php echo coauthors_get_avatar($author, 'thumbnail'); ?>
+                    </div>
+                    <span class="author">
+                <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
+                    <?php echo $author->display_name; ?>
+                </a>
+            </span>
                 </div>
             <?php } ?>
-            <span class="author">
-                <?php
-                // Get authors
-                $authors = get_coauthors();
-                foreach($authors as $author) {
-	                 echo coauthors_posts_links_single($author);
-                }
-                ?>
             </span>
             <span class="time"><?php the_time() ?></span>
             <span class="rcmds"><?php echo intval(get_post_meta(get_the_ID(), '_recommendations', true)) ?> preporuka</span>
@@ -68,6 +67,9 @@ if( have_posts() ) {
                     <?php
                     // Article content
                     the_content(); ?>
+                    <?php
+                    // Tags
+                    the_tags('<div class="tags">', ', ', '</div>'); ?>
                 </div>
 
                 <div class="ender">

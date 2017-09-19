@@ -614,6 +614,9 @@ article .subtitle {
 .article-meta span.comms {
   opacity: 0.6;
 }
+.article-meta .author-block {
+  display: inline-block;
+}
 
 .article-head {
   width: 930px;
@@ -1186,7 +1189,7 @@ background-size: 100% 100%; */
   background: #ddd;
   overflow: hidden;
   display: inline-block;
-  margin: 0 10px -11px 0;
+  margin: 0 3px -11px 3px;
 }
 .single-head .article-meta .author-thumb img {
   width: 100%;
@@ -1387,14 +1390,12 @@ background-size: 100% 100%; */
 .single-body .single-content .content-container .tags {
   margin: 40px 0 9px;
   font-size: 16px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  text-align: right;
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
 }
 .single-body .single-content .content-container .tags a {
   color: #666;
+  border-bottom: none;
+  font-weight: normal;
 }
 .single-body .single-content .content-container .tags a:hover {
   color: #e31739;
@@ -1764,38 +1765,42 @@ border-bottom: 5px solid $gray-light; */
   margin-bottom: 10px;
   position: relative;
 }
-.author-box .author-thumb {
+.author-box .author-block {
+  position: relative;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+.author-box .author-block .author-thumb {
   width: 100px;
   height: 100px;
   float: left;
   margin-right: 15px;
 }
-.author-box .author-thumb img {
+.author-box .author-block .author-thumb img {
   width: 100% !important;
   margin: 0 !important;
   height: auto;
 }
-.author-box .author-name {
-  position: absolute;
-  bottom: 10px;
-  left: 120px;
+.author-box .author-block .author-name {
+  float: left;
+  margin-top: 27px;
 }
-.author-box .author-name .first-name {
+.author-box .author-block .author-name .first-name {
   font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 18px;
   margin-bottom: 3px;
 }
-.author-box .author-name .occupation {
+.author-box .author-block .author-name .occupation {
   color: #666;
   font-size: 13px;
 }
-.author-box .author-name .author-actions {
+.author-box .author-block .author-name .author-actions {
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
   margin: 10px 0 0 0;
 }
-.author-box .author-name .author-actions a {
+.author-box .author-block .author-name .author-actions a {
   color: #e31739;
 }
 .author-box .article-meta {

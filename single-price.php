@@ -227,6 +227,9 @@ if( have_posts() ) {
                     <?php
                     // Article content
                     the_content(); ?>
+                    <?php
+                    // Tags
+                    the_tags('<div class="tags">', ', ', '</div>'); ?>
                     </div>
                     <div class="ender">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tg-logo-red.svg"/>

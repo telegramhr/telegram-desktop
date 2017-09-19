@@ -67,6 +67,9 @@ if( have_posts() ) {
                             <?php
                             // Article content
                             the_content(); ?>
+                            <?php
+                            // Tags
+                            the_tags('<div class="tags">', ', ', '</div>'); ?>
                         </div>
 
                         <div class="ender">
