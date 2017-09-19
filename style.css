@@ -361,7 +361,7 @@ nav .container {
 nav .label {
   position: absolute;
   left: 33px;
-  top: 1px;
+  top: 2px;
   font-family: "Fjalla One", "Fjalla Two", Impact, sans-serif;
   font-size: 19px;
   text-transform: uppercase;
@@ -423,8 +423,10 @@ nav.nav-price {
 nav.nav-price .article-title {
   margin-left: 192px;
   border-left: 2px solid #fff;
-  font-size: 24px;
-  letter-spacing: 0.5px;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  line-height: 1.7em;
+  text-transform: uppercase;
 }
 nav.nav-price .tg {
   top: 3px;
