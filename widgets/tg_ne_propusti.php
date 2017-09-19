@@ -32,7 +32,10 @@ class TG_Ne_Propusti extends WP_Widget {
                         $args = array(
                             'showposts' => 8,
                             'cat' => $cat,
-                            'post__not_in' => array( $post->ID )
+                            'post__not_in' => array( $post->ID ),
+                            'no_found_rows' => true,
+                            'ignore_sticky_posts' => true,
+                            'post_status' => 'publish'
                         );
                         $q = new WP_Query($args);
                         while($q->have_posts()) {
