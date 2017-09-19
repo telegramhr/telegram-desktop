@@ -1108,3 +1108,13 @@ add_filter('coauthors_guest_author_manage_cap', 'telegram_coauthors_cap', 10, 1)
 function telegram_coauthors_cap($caps) {
     return 'edit_others_posts';
 }
+
+function telegram_remove_toolbar_node($wp_admin_bar) {
+
+	// replace 'updraft_admin_node' with your node id
+	$wp_admin_bar->remove_node('customize');
+	$wp_admin_bar->remove_node('updates');
+	$wp_admin_bar->remove_node('comments');
+
+}
+add_action('admin_bar_menu', 'telegram_remove_toolbar_node', 999);
