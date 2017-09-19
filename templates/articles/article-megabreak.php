@@ -1,4 +1,5 @@
 <article class="article-megabreak">
+    <div class="megabreak-overlay"></div>
     <div class="thumb">
         <?php echo $image ?>
     </div>
