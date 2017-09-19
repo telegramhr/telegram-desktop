@@ -23,6 +23,17 @@ if( $format == 4 ) {
 }
 ?>
 
+<!--
+
+     _    _ _                    __   ___
+    / \  | | | ___  _ __  ___    \ \ / / |
+   / _ \ | | |/ _ \| '_ \/ __|____\ V /| |
+  / ___ \| | | (_) | | | \__ \_____| | |_|
+ /_/   \_\_|_|\___/|_| |_|___/     |_| (_)
+
+ Prvi koji podijeli na Twitteru dobiva nagradu.
+-->
+
 <body <?php body_class($format_class); ?> id="top">
 <?php do_action('telegram_body_start'); ?>
 

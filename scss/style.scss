@@ -2472,22 +2472,22 @@ article {
 /* Category */
 .category {
     padding-top: 50px;
+}
 
-    .category-head {
-        padding-top: 30px;
+.category-head {
+    padding-top: 30px;
 
-        h1 {
-            font-family: $sans-serif;
-            font-weight: bold;
-            color: $tg-red;
-            font-size: 21px;
-            text-transform: uppercase;
-            display: inline-block;
-            border-bottom: 3px solid $tg-red;
-            padding: 0 0 5px 0;
-            letter-spacing: 0.1em;
-            position: relative;
-        }
+    h1 {
+        font-family: $sans-serif;
+        font-weight: bold;
+        color: $tg-red;
+        font-size: 21px;
+        text-transform: uppercase;
+        display: inline-block;
+        border-bottom: 3px solid $tg-red;
+        padding: 0 0 5px 0;
+        letter-spacing: 0.1em;
+        position: relative;
     }
 }
 
