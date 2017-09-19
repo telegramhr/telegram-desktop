@@ -1178,6 +1178,8 @@ article {
             color: $white;
             margin-bottom: 10px;
             font-size: 26px;
+            line-height: 1.4em;
+            letter-spacing: 0.03em;
         }
     }
 }
@@ -1269,7 +1271,7 @@ article {
         top: 45px;
         left: 0;
         width: 100%;
-        z-index: 1;
+        z-index: 2;
 
         img {
             margin: 0 auto;
@@ -2017,10 +2019,12 @@ article {
     }
 }
 
-.dark-page {
+.dark-page,
+.error404 {
     background: black url("assets/img/wall_bg.jpg") no-repeat top center;
     color: white;
 }
+
 
 .error-page {
 

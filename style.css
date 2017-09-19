@@ -1679,7 +1679,8 @@ background-size: 100% 100%; */
   padding-top: 60px;
 }
 
-.dark-page {
+.dark-page,
+.error404 {
   background: black url("assets/img/wall_bg.jpg") no-repeat top center;
   color: white;
 }
