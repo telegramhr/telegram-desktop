@@ -725,7 +725,8 @@ function telegram_load_megabreak($size, $number) {
         $image_size = 'article-poster';
     }
 	$meta = get_post_meta(get_option('telegram_breaks'));
-	$article1 = $meta[$size.'_'.$number.'_article'][0];
+	$article1 = maybe_unserialize( $meta[$size.'_'.$number.'_article'][0] )[0];
+
 	if (isset($meta[$size.'_'.$number.'_link'][0]) && $meta[$size.'_'.$number.'_link'][0]) {
 		$link = esc_url( $meta[$size.'_'.$number.'_link'][0] );
 	}
