@@ -1126,7 +1126,7 @@ function telegram_acf_query($args, $field, $post_id)
 
 	// 2: sort by relevance
 	$args['orderby'] = 'date';
-	$args['order'] = 'ASC';
+	$args['order'] = 'DESC';
 	$args['posts_per_page'] = 10;
 	$args['no_found_rows'] = true;
 
