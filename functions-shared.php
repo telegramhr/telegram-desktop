@@ -1092,6 +1092,6 @@ add_filter( 'zoninator_zone_max_lock_period', 'z_disable_zoninator_locks' );
 
 add_filter('coauthors_guest_author_manage_cap', 'telegram_coauthors_cap', 10, 1);
 
-function telegram_couathors_cap($caps) {
+function telegram_coauthors_cap($caps) {
     return 'edit_others_posts';
 }
