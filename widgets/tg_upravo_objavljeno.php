@@ -33,6 +33,9 @@ class TG_Procitajte_Danas extends WP_Widget
 					        'video',
 					        'price'
 				        ),
+				        'no_found_rows' => true,
+				        'ignore_sticky_posts' => true,
+				        'post_status' => 'publish',
 				        'meta_query' => array(
 				                array(
 				                        'key' => 'latest_off',
@@ -41,7 +44,6 @@ class TG_Procitajte_Danas extends WP_Widget
                         )
 			        );
 			        $q    = new WP_Query( $args );
-			        //$q = z_get_zone_query('masthead', array('posts_per_page' => 5));
 			        while ( $q->have_posts() ) {
 				        $q->the_post();
 				        // Rainbow article small
