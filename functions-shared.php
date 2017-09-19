@@ -329,6 +329,7 @@ function telegram_pre_get_posts($query) {
 				'video',
 				'price'
 			) );
+			$query->set('no_found_rows', true);
 		}
 	}
 }
