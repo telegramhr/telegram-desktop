@@ -2516,13 +2516,14 @@ footer .footer-1 {
   width: 500px;
   border-right: 1px solid #ddd;
   text-align: center;
-  padding: 40px 0;
+  padding: 20px 0 25px;
 }
 footer .footer-1 img {
   margin: 0 auto 20px;
 }
 footer .footer-1 .claim {
   font-size: 24px;
+  line-height: 1.4em;
   margin-bottom: 15px;
 }
 footer .footer-1 .meta {

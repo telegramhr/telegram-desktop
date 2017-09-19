@@ -6,7 +6,7 @@
         <div class="footer-1">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/telegram_logo.svg" height="70"/>
             <div class="claim">
-                Portal za društvena i kulturna pitanja
+                Portal za društvena i kulturna pitanja.<br> I svijet koji dolazi.
             </div>
             <div class="meta">
                 Sva prava pridržana &copy; <?php the_date(Y); ?> Telegram Media Grupa d.o.o.
