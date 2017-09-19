@@ -219,6 +219,18 @@ function telegram_widgets_init() {
         )
     );
 
+	register_sidebar(
+		array(
+			'name' => 'Članak - Izvan contenta mobile',
+			'id' => 'mobile-sidebar-single-bottom-2',
+			'description' => 'Doljnja traka na članku-mobile',
+			'before_widget' => '',
+			'after_widget' => '',
+			'before_title' => '',
+			'after_title' => '',
+		)
+	);
+
     register_sidebar(
         array(
             'name' => 'Galerija',
