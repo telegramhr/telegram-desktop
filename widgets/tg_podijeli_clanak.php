@@ -63,7 +63,7 @@ class TG_Podijeli_Clanak extends WP_Widget {
                     <a href="https://twitter.com/intent/tweet?counturl=<?php echo urlencode( get_the_permalink() ) ?>&text=<?php echo urlencode( get_the_title() ); ?>&url=<?php echo urlencode( get_the_permalink() ) ?>&via=Telegram_hr" target="_blank" class="tw" data-social-network="Twitter" data-social-target="<?php the_permalink() ?>" data-social-action="tweet"><i class="fa fa-twitter"></i><span> Twitter</span> (<?php echo intval(get_post_meta(get_the_ID(), '_tweet_recommendations', true)) ?>)</a>
                 </div>
                 <div class="mail">
-                    <a href="mailto:?Subject=Pogledaj ovaj članak s Telesportat&body:<?php the_permalink(); ?>">E-mail</a>
+                    <a href="mailto:?Subject=Pogledaj ovaj članak s Telegrama&body:<?php the_permalink(); ?>">E-mail</a>
                 </div>
             </div>
         </div>
