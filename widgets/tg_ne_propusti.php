@@ -12,7 +12,7 @@ class TG_Ne_Propusti extends WP_Widget {
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
         $cat = get_the_category()[0]->term_id;
-        $data = wp_cache_get('tg_top_vijesti_'.$cat, 'widgets');
+        $data = wp_cache_get('tg_ne_propusti_'.$cat, 'widgets');
         if (!$data) {
 
             ob_start();
@@ -79,7 +79,7 @@ class TG_Ne_Propusti extends WP_Widget {
 
             <?php
             $data = ob_get_clean();
-            wp_cache_set('tg_ne_propusti_'.$cat, $data, 3600);
+            wp_cache_set('tg_ne_propusti_'.$cat, $data, 'widgets', 3600);
         }
 
         echo $data;
