@@ -45,6 +45,31 @@ get_header(); ?>
                     }
                 }
             }
+            $pos1 = false;
+            $pos2 = false;
+            $pos3 = false;
+
+            $pos = get_option( 'telegram_promo_desktop' );
+            shuffle( $pos );
+            if ( ! empty( $pos ) ) {
+	            if ( isset( $pos[0] ) ) {
+		            $pos1 = $pos[0];
+	            }
+	            if ( isset( $pos[1] ) ) {
+		            $pos2 = $pos[1];
+	            }
+	            if ( isset( $pos[2] ) ) {
+		            $pos3 = $pos[2];
+	            }
+            }
+
+            if ($pos1) {
+	            global $post;
+	            $p    = get_post( $pos1 );
+	            $post = $p;
+	            get_template_part( 'templates/articles/article-2' );
+            }
+            wp_reset_postdata();
             ?>
         </div>
         <div class="col col-2 midbar">
@@ -69,12 +94,6 @@ get_template_part('templates/layout/megabillboard');
         <div class="container feed-container">
             <div class="col col-1 feed">
                 <?php
-                $args      = array(
-                    'posts_per_page' => 7,
-                    'post_status'    => 'publish',
-                    'offset'        => 7
-                );
-                //$articles  = new WP_Query( $args );
                 $articles = z_get_zone_query( 'feed', array('posts_per_page' => 7, 'offset' => 7) );
                 if ( $articles->have_posts() ) {
                     while ( $articles->have_posts() ) {
@@ -87,6 +106,13 @@ get_template_part('templates/layout/megabillboard');
                         }
                     }
                 }
+                if ($pos2) {
+	                global $post;
+	                $p    = get_post( $pos2 );
+	                $post = $p;
+	                get_template_part( 'templates/articles/article-2' );
+                }
+                wp_reset_postdata();
                 ?>
             </div>
             <div class="col col-2 midbar">
