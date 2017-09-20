@@ -195,10 +195,12 @@ img {
 
 .alignright {
     float: right;
+    margin: 0 0 0 20px;
 }
 
 .alignleft {
     float: left;
+    margin: 0 20px 0 0;
 }
 
 .sidebar {
@@ -1528,6 +1530,7 @@ article {
                 .aligncenter {
                     margin: 0 auto;
                 }
+
 
                 p:first-child:first-letter {
                     font-size: 72px;
