@@ -7,26 +7,26 @@ Author URI:    	http://telegram.hr/
 License:       	GNU General Public License v2 or later
 */
 /* Font Face */
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext");
-@font-face {
-  font-family: "Fjalla Two";
-  src: url("assets/fonts/fjalla_one/fjallaone-regular.eot");
-  src: url("assets/fonts/fjalla_one/fjallaone-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/fjalla_one/fjallaone-regular.woff2") format("woff2"), url("assets/fonts/fjalla_one/fjallaone-regular.woff") format("woff"), url("assets/fonts/fjalla_one/fjallaone-regular.svg#fjalla_oneregular") format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
 /*
 @font-face {
     font-family: "Fjalla Two";
-    src: url('assets/fonts/fjalla_two/fjallaone-regular.eot');
-    src: url('assets/fonts/fjalla_two/fjallaone-regular.eot?#iefix') format('embedded-opentype'),
-    url('assets/fonts/fjalla_two/fjallaone-regular.woff2') format('woff2'),
-    url('assets/fonts/fjalla_two/fjallaone-regular.woff') format('woff'),
-    url('assets/fonts/fjalla_two/fjallaone-regular.svg#fjalla_oneregular') format('svg');
+    src: url('assets/fonts/fjalla_one/fjallaone-regular.eot');
+    src: url('assets/fonts/fjalla_one/fjallaone-regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/fjalla_one/fjallaone-regular.woff2') format('woff2'),
+    url('assets/fonts/fjalla_one/fjallaone-regular.woff') format('woff'),
+    url('assets/fonts/fjalla_one/fjallaone-regular.svg#fjalla_oneregular') format('svg');
     font-weight: bold;
     font-style: normal;
 }
+
 */
+@font-face {
+  font-family: "Fjalla One";
+  src: url("assets/fonts/fjalla_two/fjallaone-regular.eot");
+  src: url("assets/fonts/fjalla_two/fjallaone-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/fjalla_two/fjallaone-regular.woff2") format("woff2"), url("assets/fonts/fjalla_two/fjallaone-regular.woff") format("woff"), url("assets/fonts/fjalla_two/fjallaone-regular.svg#fjalla_oneregular") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
 /* CSS Reset*/
 html {
   margin: 0;
@@ -1287,6 +1287,9 @@ background-size: 100% 100%; */
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
   font-family: "Lora", "Georgia", "Times New Roman", serif;
+}
+.single-body .single-content .content-container .the-content .aligncenter {
+  margin: 0 auto;
 }
 .single-body .single-content .content-container .the-content p:first-child:first-letter {
   font-size: 72px;
