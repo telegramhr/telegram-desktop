@@ -717,7 +717,7 @@ function telegram_load_megabreak($size, $number) {
         $template = 'templates/articles/article-megabreak.php';
         $image_size = 'fullpage';
         if (jetpack_is_mobile()) {
-            $image_size = 'portrait';
+            $image_size = 'mobile-head';
         }
     }
     else {
