@@ -8,6 +8,7 @@ License:       	GNU General Public License v2 or later
 */
 
 /* Font Face */
+/*
 @font-face {
     font-family: "Fjalla Two";
     src: url('assets/fonts/fjalla_one/fjallaone-regular.eot');
@@ -19,12 +20,10 @@ License:       	GNU General Public License v2 or later
     font-style: normal;
 }
 
+*/
 
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext');
-
-/*
 @font-face {
-    font-family: "Fjalla Two";
+    font-family: "Fjalla One";
     src: url('assets/fonts/fjalla_two/fjallaone-regular.eot');
     src: url('assets/fonts/fjalla_two/fjallaone-regular.eot?#iefix') format('embedded-opentype'),
     url('assets/fonts/fjalla_two/fjallaone-regular.woff2') format('woff2'),
@@ -33,7 +32,7 @@ License:       	GNU General Public License v2 or later
     font-weight: bold;
     font-style: normal;
 }
-*/
+
 
 /* CSS Reset*/
 html {
