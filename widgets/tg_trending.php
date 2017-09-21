@@ -38,8 +38,7 @@ class TG_Trending extends WP_Widget {
                 <?php
                 $args = array(
                     'posts_per_page' => $no,
-                    'post__in' => get_transient('telegram_realtime'),
-                    //'post__in' => get_transient('telegram_trending_'.$cat),
+                    'post__in' => get_option('telegram_realtime'),
                     'post_type' => array('post', 'price', 'fotogalerije', 'video'),
                     'orderby' => 'post__in'
                 );
