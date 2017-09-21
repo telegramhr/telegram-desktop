@@ -20,8 +20,6 @@ License:       	GNU General Public License v2 or later
     font-style: normal;
 }
 
-*/
-
 @font-face {
     font-family: "Fjalla One";
     src: url('assets/fonts/fjalla_two/fjallaone-regular.eot');
@@ -32,7 +30,18 @@ License:       	GNU General Public License v2 or later
     font-weight: bold;
     font-style: normal;
 }
+ */
 
+@font-face {
+    font-family: "Fjalla One CRO";
+    src: url('assets/fonts/fjalla_croat/FjallaOne-Regular.eot');
+    src: url('assets/fonts/fjalla_croat/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format('woff2'),
+    url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff'),
+    url('assets/fonts/fjalla_croat/FjallaOne-Regular.svg#fjalla_oneregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
 /* CSS Reset*/
 html {
@@ -77,7 +86,7 @@ $tg-red: #e31739;
 $fb-blue: #3b5998;
 $tw-blue: #00aced;
 
-$title-font: "Fjalla One", "Fjalla Two", Impact, sans-serif;
+$title-font: "Fjalla One CRO", Impact, sans-serif;
 $sans-serif: "PT Sans", 'Arial', 'Helvetica', sans-serif;
 $serif: "Lora", 'Georgia', 'Times New Roman', serif;
 
@@ -1128,7 +1137,7 @@ article {
             .title {
                 color: $white;
                 font-size: 100px;
-                line-height: 1.05em;
+                line-height: 1.08em;
                 text-transform: uppercase;
                 width: 50%;
                 margin: 20px 0 5px -7px;
