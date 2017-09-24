@@ -578,8 +578,6 @@ function telegram_save_post($post_id) {
 	update_post_meta($post_id, 'subtitle2', $field);
 }
 
-add_filter( 'jpeg_quality', create_function( '', 'return 100;' ) );
-
 add_action( 'rss2_item', 'telegram_rss_item_enclosure' );
 function telegram_rss_item_enclosure() {
 	if ( ! has_post_thumbnail() )
