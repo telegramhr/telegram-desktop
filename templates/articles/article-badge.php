@@ -5,7 +5,7 @@ $src_link = get_the_permalink();
 if ( strpos( $src_link, 'telesport') !== false ) {
     $src = 'telesport';
 }
-elseif ( strpos( $src_link, 'blog') !== false ) {
+elseif ( strpos( $src_link, 'dblog') !== false ) {
     $src = 'dblog';
 }
 
