@@ -42,7 +42,11 @@ class TG_Podijeli_Clanak extends WP_Widget {
                         <div class="author-actions">
                             <span>
                                 <?php
-                                the_author_posts(); ?> članaka
+                                $posts = get_post_meta($author->ID, 'user_posts', true);
+                                if (!$posts) {
+                                    $posts = get_the_author_posts();
+                                }
+                                echo intval( $posts ) ?> članaka
                             </span>
                             <span>
                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
