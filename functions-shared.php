@@ -883,14 +883,14 @@ function telegram_add_to_registry_gemius(&$registry) {
 	);
 }
 
-add_filter( 'amp_post_template_analytics', 'xyz_amp_add_custom_analytics' );
-function xyz_amp_add_custom_analytics( $analytics ) {
+add_filter( 'amp_post_template_analytics', 'telegram_amp_add_custom_analytics' );
+function telegram_amp_add_custom_analytics( $analytics ) {
 	if ( ! is_array( $analytics ) ) {
 		$analytics = array();
 	}
 
 	// https://developers.google.com/analytics/devguides/collection/amp-analytics/
-	$analytics['xyz-googleanalytics'] = array(
+	$analytics['telegram-googleanalytics'] = array(
 		'type' => 'googleanalytics',
 		'attributes' => array(
 			// 'data-credentials' => 'include',
@@ -908,26 +908,12 @@ function xyz_amp_add_custom_analytics( $analytics ) {
 		),
 	);
 
-
-	/*$analytics['xyz-gemius'] = array(
-		'type' => 'gemius',
-		'attributes' => array(),
-		'config_data' => array(
-			'vars' => array(
-				'prefix' => 'hr',
-                'identifier' => 'nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57',
-                'extraparams' => 'gemamp=1'
-			)
-		),
-	);*/
-
 	return $analytics;
 }
 
 add_action( 'amp_post_template_footer', 'telegram_amp_add_pixel' );
 
 function telegram_amp_add_pixel( $amp_template ) {
-	$post_id = $amp_template->get( 'post_id' );
 	?>
     <amp-pixel src="https://hr.hit.gemius.pl/_TIMESTAMP/redot.gif?l=90&id=nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57&et=action&hsrc=1&extra=gemamp%3D0&fr=1&href=SOURCE_URL&ref=DOCUMENT_REFERRER"></amp-pixel>
 	<?php
@@ -936,10 +922,8 @@ function telegram_amp_add_pixel( $amp_template ) {
 add_filter( 'amp_post_article_header_meta', 'telegram_amp_header_meta', 10, 1 );
 
 function telegram_amp_header_meta($parts) {
-	return $parts =  array( 'meta-subtitle', 'meta-author', 'meta-time' );
-	return $parts;
+	return array( 'meta-subtitle', 'meta-author', 'meta-time' );
 }
-
 
 add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 1, 2 );
 
@@ -951,13 +935,10 @@ function telegram_amp_fonts($data, $post) {
 	return $data;
 }
 
-add_action( 'amp_post_template_css', 'telegram_amp_additional_css_styles' );
-
 add_filter( 'amp_site_icon_url', 'telegram_amp_site_icon' );
 
 function telegram_amp_site_icon($image) {
-    $image = get_site_icon_url();
-    return $image;
+    return get_site_icon_url();
 }
 
 add_filter( 'media_library_months_with_files', 'telegram_months');
