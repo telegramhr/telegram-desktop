@@ -933,15 +933,13 @@ function telegram_amp_add_pixel( $amp_template ) {
 	<?php
 }
 
-add_action( 'pre_amp_render_post', 'telegram_amp_add_custom_actions' );
-function telegram_amp_add_custom_actions() {
-	add_filter( 'the_content', 'telegram_amp_add_subtitle', 10, 2 );
+add_filter( 'amp_post_article_header_meta', 'telegram_amp_header_meta', 10, 1 );
+
+function telegram_amp_header_meta($parts) {
+	return $parts =  array( 'meta-subtitle', 'meta-author', 'meta-time' );
+	return $parts;
 }
 
-function telegram_amp_add_subtitle( $content ) {
-	$subtitle = '<h3>'.get_post_meta(get_the_ID(), 'subtitle', true).'</h3>';
-	return $subtitle . $content;
-}
 
 add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 1, 2 );
 
