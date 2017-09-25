@@ -953,86 +953,11 @@ function telegram_amp_fonts($data, $post) {
 
 add_action( 'amp_post_template_css', 'telegram_amp_additional_css_styles' );
 
-function telegram_amp_additional_css_styles( $amp_template ) {
+add_filter( 'amp_site_icon_url', 'telegram_amp_site_icon' );
 
-    $thm_uri = get_template_directory_uri();
-	// only CSS here please...
-	?>
-    /* Fjalla One */
-    @font-face {
-        font-family: "Fjalla One";
-        src: url('<?php echo $thm_uri; ?>/assets/fonts/fjalla_croat/FjallaOne-Regular.eot');
-        src: url('<?php echo $thm_uri; ?>/assets/fonts/fjalla_croat/FjallaOne-Regular.eot?#iefix')format('eot'),
-        url('<?php echo $thm_uri; ?>/assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff');
-        url('<?php echo $thm_uri; ?>/assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format('woff2');
-        url('<?php echo $thm_uri; ?>/assets/fonts/fjalla_croat/FjallaOne-Regular.svg') format('svg');
-    }
-
-    body {
-    font-family: "Lora", serif;
-    }
-
-    .amp-wp-byline {
-    list-style:none;
-    width: 100%;
-    }
-
-    .amp-wp-header {
-    background: #140e36 url('http://www.telegram.hr/wp-content/themes/telegram2-desktop/assets/img/telegram_logo.svg') no-repeat;
-    background-position: 10px center;
-    background-size: auto 35px;
-    height: 55px;
-    }
-
-    .amp-wp-header > div {
-    height: 27px;
-    }
-
-    .amp-wp-header a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-indent: -999px;
-    }
-
-    .amp-wp-header .amp-wp-site-icon {
-    border-radius: 0;
-    }
-
-    .amp-wp-title {
-    font-family: "Fjalla One", sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    line-height: 1.4em;
-    margin-bottom: 5px;
-    color: #000000;
-    }
-
-    .amp-wp-article-header .amp-wp-meta:first-of-type {
-        font-size: 12px;
-    }
-
-    .amp-wp-article-content h2 {
-    font-family: "PT Sans", sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 1.2em;
-    margin: 15px 0 5px;
-    color: #000;
-    }
-
-    .amp-wp-article-content h3 {
-    font-weight: 400;
-    font-size: 20px;
-    font-family: "Lora", serif;
-    line-height: 1.4em;
-    margin-bottom: 15px;
-    color: #000;
-    }
-	<?php
+function telegram_amp_site_icon($image) {
+    $image = get_site_icon_url();
+    return $image;
 }
 
 add_filter( 'media_library_months_with_files', 'telegram_months');
