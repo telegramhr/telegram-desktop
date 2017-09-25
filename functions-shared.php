@@ -955,7 +955,6 @@ add_action( 'amp_post_template_css', 'telegram_amp_additional_css_styles' );
 function telegram_amp_additional_css_styles( $amp_template ) {
 	// only CSS here please...
 	?>
-    <style>
     /* Fjalla One */
     @font-face {
         font-family: "Fjalla One";
@@ -965,9 +964,10 @@ function telegram_amp_additional_css_styles( $amp_template ) {
         url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format(woff2);
         url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.svg') format(svg);
     }
-
     /* Lora */
     @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&subset=latin-ext');
+    /* PT Sans */
+    @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&subset=latin-ext');
 
     body {
     font-family: "Lora", serif;
@@ -979,7 +979,7 @@ function telegram_amp_additional_css_styles( $amp_template ) {
     }
 
     .amp-wp-header {
-    background: #ed1d39 url(http://www.telegram.hr/wp-content/themes/telegram/img/logo.gif) no-repeat;
+    background: #140e36 url('http://www.telegram.hr/wp-content/themes/telegram2-desktop/assets/img/telegram_logo.svg') no-repeat;
     background-position: 3px 2px;
     height: 55px;
     }
@@ -1004,20 +1004,20 @@ function telegram_amp_additional_css_styles( $amp_template ) {
 
     .amp-wp-title {
     font-family: "Fjalla One", sans-serif;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1.2em;
     margin-bottom: 5px;
+    color: #000000;
     }
 
     .amp-wp-article-content h2,
     .amp-wp-article-content h3 {
-    font-family: "Fjalla One", sans-serif;
-    font-size: 26px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
     line-height: 1.2em;
     margin: 15px 0 5px;
     }
-
-    </style>
 	<?php
 }
 
