@@ -1,5 +1,6 @@
 <?php
 $meta = get_post_meta(get_option('telegram_promo_special'));
+if ($meta['promo_on'][0] === 1) {
 $image_id = $meta['promo_special_image'][0];
 $image = wp_get_attachment_image_url($image_id, 'full');
 ?>
@@ -64,3 +65,5 @@ $image = wp_get_attachment_image_url($image_id, 'full');
     }
 
 </style>
+
+<?php }
