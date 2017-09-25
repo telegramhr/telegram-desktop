@@ -980,7 +980,8 @@ function telegram_amp_additional_css_styles( $amp_template ) {
 
     .amp-wp-header {
     background: #140e36 url('http://www.telegram.hr/wp-content/themes/telegram2-desktop/assets/img/telegram_logo.svg') no-repeat;
-    background-position: 3px 2px;
+    background-position: 10px center;
+    background-size: 60%;
     height: 55px;
     }
 
@@ -1008,15 +1009,28 @@ function telegram_amp_additional_css_styles( $amp_template ) {
     line-height: 1.4em;
     margin-bottom: 5px;
     color: #000000;
+    letter-spacing: 0.01em;
     }
 
-    .amp-wp-article-content h2,
-    .amp-wp-article-content h3 {
+    .amp-wp-article-header .amp-wp-meta:first-of-type {
+        font-size: 12px;
+    }
+
+    .amp-wp-article-content h2 {
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     line-height: 1.2em;
     margin: 15px 0 5px;
+    }
+
+    .amp-wp-article-content h3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Lora", serif;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+    color: #000;
     }
 	<?php
 }
