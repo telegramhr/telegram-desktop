@@ -955,15 +955,22 @@ add_action( 'amp_post_template_css', 'telegram_amp_additional_css_styles' );
 function telegram_amp_additional_css_styles( $amp_template ) {
 	// only CSS here please...
 	?>
+    <style>
+    /* Fjalla One */
     @font-face {
-    font-family: "Fakt";
-    src: url('http://www.telegram.hr/wp-content/themes/telegram/fonts/FaktConPro-SemiBold.eot'); /* IE9 Compat Modes */
-    src: url('http://www.telegram.hr/wp-content/themes/telegram/fonts/FaktConPro-SemiBold.eot?#iefix') format('eot'),
-    url('http://www.telegram.hr/wp-content/themes/telegram/fonts/FaktConPro-SemiBold.woff') format('woff'); /* Pretty Modern Browsers */
+        font-family: "Fjalla One";
+        src: url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.eot');
+        src: url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.eot?#iefix')format('eot'),
+        url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff');
+        url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format(woff2);
+        url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.svg') format(svg);
     }
 
+    /* Lora */
+    @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&subset=latin-ext');
+
     body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lora", serif;
     }
 
     .amp-wp-byline {
@@ -996,7 +1003,7 @@ function telegram_amp_additional_css_styles( $amp_template ) {
     }
 
     .amp-wp-title {
-    font-family: "Fakt", sans-serif;
+    font-family: "Fjalla One", sans-serif;
     font-size: 32px;
     line-height: 1.2em;
     margin-bottom: 5px;
@@ -1004,11 +1011,13 @@ function telegram_amp_additional_css_styles( $amp_template ) {
 
     .amp-wp-article-content h2,
     .amp-wp-article-content h3 {
-    font-family: "Fakt", sans-serif;
+    font-family: "Fjalla One", sans-serif;
     font-size: 26px;
     line-height: 1.2em;
     margin: 15px 0 5px;
     }
+
+    </style>
 	<?php
 }
 
