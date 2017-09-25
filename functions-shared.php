@@ -943,11 +943,13 @@ function telegram_amp_add_subtitle( $content ) {
 	return $subtitle . $content;
 }
 
-add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 10, 2 );
+add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 1, 2 );
 
 function telegram_amp_fonts($data, $post) {
-	$data['fonts_url'][] = '//fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext';
-	$data['fonts_url'][] = '//fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext';
+    $data['font_urls'] = array(
+	    'lora' => '//fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext',
+	    'ptsans' => '//fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext'
+    );
 	return $data;
 }
 
