@@ -1335,7 +1335,7 @@ background-size: 100% 100%; */
 .single-body .single-content .content-container .the-content a:hover {
   border-bottom: 2px solid transparent;
 }
-.single-body .single-content .content-container twitterwidget {
+.single-body .single-content .content-container > iframe {
   margin: 10px auto 30px !important;
 }
 .single-body .single-content .content-container figure {
