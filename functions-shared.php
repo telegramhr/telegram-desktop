@@ -946,7 +946,8 @@ function telegram_amp_add_subtitle( $content ) {
 add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 10, 2 );
 
 function telegram_amp_fonts($data, $post) {
-	$data['fonts_url'][] = '//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&subset=latin-ext';
+	$data['fonts_url'][] = '//fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext';
+	$data['fonts_url'][] = '//fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext';
 	return $data;
 }
 
@@ -958,16 +959,12 @@ function telegram_amp_additional_css_styles( $amp_template ) {
     /* Fjalla One */
     @font-face {
         font-family: "Fjalla One";
-        src: url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.eot');
-        src: url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.eot?#iefix')format('eot'),
-        url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff');
-        url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format(woff2);
-        url('http://www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.svg') format(svg);
+        src: url('//www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.eot');
+        src: url('//www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.eot?#iefix')format('eot'),
+        url('//www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff');
+        url('//www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format(woff2);
+        url('//www.telegram.hr/wp-content/themes/telegram-desktop/assets/fonts/fjalla_croat/FjallaOne-Regular.svg') format(svg);
     }
-    /* Lora */
-    @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&subset=latin-ext');
-    /* PT Sans */
-    @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&subset=latin-ext');
 
     body {
     font-family: "Lora", serif;
