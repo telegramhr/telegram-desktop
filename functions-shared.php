@@ -1005,7 +1005,7 @@ function telegram_amp_additional_css_styles( $amp_template ) {
     .amp-wp-title {
     font-family: "Fjalla One", sans-serif;
     font-size: 26px;
-    line-height: 1.2em;
+    line-height: 1.4em;
     margin-bottom: 5px;
     color: #000000;
     }
