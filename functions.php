@@ -110,7 +110,7 @@ googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1481624513653-0\'
         // Mladen Pleše fix
         $content = str_replace( "\xC2\xA0", ' ', $content );
 
-        //$content = str_replace(" I ", ' i ', $content);
+        $content = preg_replace("/(.[^\.!?]) I /", '$1 i ', $content);
 
     }
     return $content;
