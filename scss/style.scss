@@ -8,39 +8,15 @@ License:       	GNU General Public License v2 or later
 */
 
 /* Font Face */
-/*
-@font-face {
-    font-family: "Fjalla Two";
-    src: url('assets/fonts/fjalla_one/fjallaone-regular.eot');
-    src: url('assets/fonts/fjalla_one/fjallaone-regular.eot?#iefix') format('embedded-opentype'),
-    url('assets/fonts/fjalla_one/fjallaone-regular.woff2') format('woff2'),
-    url('assets/fonts/fjalla_one/fjallaone-regular.woff') format('woff'),
-    url('assets/fonts/fjalla_one/fjallaone-regular.svg#fjalla_oneregular') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
 
 @font-face {
-    font-family: "Fjalla One";
-    src: url('assets/fonts/fjalla_two/fjallaone-regular.eot');
-    src: url('assets/fonts/fjalla_two/fjallaone-regular.eot?#iefix') format('embedded-opentype'),
-    url('assets/fonts/fjalla_two/fjallaone-regular.woff2') format('woff2'),
-    url('assets/fonts/fjalla_two/fjallaone-regular.woff') format('woff'),
-    url('assets/fonts/fjalla_two/fjallaone-regular.svg#fjalla_oneregular') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
- */
-
-@font-face {
-    font-family: "Fjalla One CRO";
-    src: url('assets/fonts/fjalla_croat/FjallaOne-Regular.eot');
-    src: url('assets/fonts/fjalla_croat/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
-    url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format('woff2'),
-    url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff'),
-    url('assets/fonts/fjalla_croat/FjallaOne-Regular.svg#fjalla_oneregular') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Fjalla One CRO";
+  src: url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format('woff2'),
+       url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff'),
+       url('assets/fonts/fjalla_croat/FjallaOne-Regular.svg') format('svg'),
+       url('assets/fonts/fjalla_croat/FjallaOne-Regular.eot') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 /* CSS Reset*/
