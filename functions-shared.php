@@ -104,11 +104,11 @@ function telegram_main_scripts() {
 	// Load our main stylesheet.
 	wp_register_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', array());
 	// Serif
-	wp_register_style('lora', 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i', array());
+	wp_register_style('lora', 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext', array());
 	// Sans serif
-	wp_register_style('pt-sans', 'https://fonts.googleapis.com/css?family=PT+Sans:400,700', array());
+	wp_register_style('pt-sans', 'https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext', array());
 	// Oswald - for stickers
-	wp_register_style('oswald', 'https://fonts.googleapis.com/css?family=Oswald&subset=latin-ext', array());
+	wp_register_style('oswald', 'https://fonts.googleapis.com/css?family=Oswald&ampsubset=latin-ext', array());
 
 //	wp_register_script('telegram-comparison', content_url('themes/telegram/js/comparison.js'), '20150514'); TODO: jel trebamo usporedbu?
 
