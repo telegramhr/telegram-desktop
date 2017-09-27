@@ -53,11 +53,36 @@ class Telegram_Podijeli_Clanak extends WP_Widget {
                         <div class="author-actions">
                             <span>
                                 <?php
-                                $posts = get_post_meta($author->ID, 'user_posts', true);
-                                if (!$posts) {
-                                    $posts = get_the_author_posts();
+                                global $coauthors_plus;
+                                $term = $coauthors_plus->get_author_term( $author );
+                                if ( $term ) {
+	                                 $count = intval( $term->count );
+                                } else {
+	                                $count = 0;
                                 }
-                                echo intval( $posts ) ?> članaka
+
+                                $mod = $count % 10;
+                                switch ($mod) {
+                                    case 1:
+                                        $word = 'članak';
+                                        if ($count === 11) {
+                                            $word = 'članaka';
+                                        }
+                                        break;
+                                    case 2:
+                                    case 3:
+                                    case 4:
+                                        $word = 'članka';
+                                        if (in_array($count, [12,13,14])) {
+                                            $word = 'članaka';
+                                        }
+                                        break;
+                                    default:
+                                        $word = 'članaka';
+                                        break;
+                                }
+                                echo esc_html( $count . ' ' . $word );
+                                ?>
                             </span>
                             <span>
                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
