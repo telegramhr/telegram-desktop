@@ -13,7 +13,6 @@ class Telegram_Shortcodes {
 		if ( current_user_can( 'edit_posts' ) ) {
 			add_filter( 'mce_buttons', array( $this, 'buttons' ), 99, 1 );
 			add_filter( 'mce_external_plugins', array( $this, 'plugins' ) );
-			//add_action( 'after_wp_tiny_mce', array($this,'comparison') );
 		}
 	}
 
@@ -21,7 +20,7 @@ class Telegram_Shortcodes {
 		if(($key = array_search('blockquote', $buttons)) !== false) {
 			unset($buttons[$key]);
 		}
-		array_push( $buttons, 'separator', 'telegram_shortcodes', 'telegram_comparison', 'telegram_mali-video' );
+		array_push( $buttons, 'separator', 'telegram_shortcodes', 'telegram_mali-video' );
 
 		return $buttons;
 	}

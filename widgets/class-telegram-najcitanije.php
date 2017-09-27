@@ -1,9 +1,9 @@
 <?php
 
-class TG_Najcitanije_Sticky extends WP_Widget {
+class Telegram_Najcitanije extends WP_Widget {
 
     public function __construct() {
-        parent::__construct( 'tg_najcitanije_sticky', 'Telegram: Najčitanije Sticky',
+        parent::__construct( 'tg_najcitanije', 'Telegram: Najčitanije na Telegramu',
             array(
                 'description' => 'Prikaz najčitanijih vijesti',
             ) );
@@ -11,12 +11,12 @@ class TG_Najcitanije_Sticky extends WP_Widget {
 
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
-        $data = wp_cache_get('tg_najcitanije_sticky', 'widgets');
+        $data = wp_cache_get('tg_najcitanije', 'widgets');
         if (!$data) {
 
             ob_start();
             ?>
-            <div class="tg-widget najcitanije-sticky sticky-widget">
+            <div class="tg-widget trending-widget">
                 <div class="tg-widget-head">
                     <h1>Telegram najčitanije</h1>
                 </div>
@@ -35,32 +35,16 @@ class TG_Najcitanije_Sticky extends WP_Widget {
                     if ($articles->have_posts()) {
                         while ($articles->have_posts()) {
                             $articles->the_post();
-                            $post_num = $articles->current_post+1; ?>
+                            $post_num = $articles->current_post+1;
+                            // Get Sidebar Article
+                            get_template_part('templates/articles/article-sidebar');
 
-                            <article class="article-sticky">
-                                <div class="num">
-                                    <?php echo $post_num; ?>
-                                </div>
-                                <div class="titles">
-                                    <h3 class="overtitle">
-                                        <?php echo get_the_category()[0]->name; ?>
-                                    </h3>
-                                    <h2 class="title">
-                                        <a href="<?php the_permalink(); ?>">
-                                            <?php the_title(); ?>
-                                        </a>
-                                    </h2>
-                                </div>
-                            </article>
-
-                            <?php
-                        }
-                    } wp_reset_postdata(); ?>
-                </div> <!-- End Widget-Body -->
+                        } } wp_reset_postdata(); ?>
+                    </div> <!-- End Widget-Body -->
             </div>
             <?php
             $data = ob_get_clean();
-            wp_cache_set('tg_najcitanije_sticky', $data, 'widgets', 600);
+            wp_cache_set('tg_najcitanije', $data, 'widgets', 600);
         }
 
         echo $data;
@@ -81,4 +65,4 @@ class TG_Najcitanije_Sticky extends WP_Widget {
         <?php
     }
 }
-register_widget( 'TG_Najcitanije_sticky' );
+register_widget( 'Telegram_Najcitanije' );

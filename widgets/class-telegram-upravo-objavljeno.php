@@ -1,11 +1,11 @@
 <?php
 
-class TG_Procitajte_Danas extends WP_Widget
+class Telegram_Upravo_Objavljeno extends WP_Widget
 {
 
     public function __construct()
     {
-        parent::__construct('tg_procitajte_danas', 'Telegram: Upravo objavljeno',
+        parent::__construct('tg_upravo_objavljeno', 'Telegram: Upravo objavljeno',
             array(
                 'description' => 'Pet najsvježijih članaka na portalu',
             ));
@@ -63,4 +63,4 @@ class TG_Procitajte_Danas extends WP_Widget
 
 }
 
-register_widget( 'TG_Procitajte_Danas' );
+register_widget( 'Telegram_Upravo_Objavljeno' );

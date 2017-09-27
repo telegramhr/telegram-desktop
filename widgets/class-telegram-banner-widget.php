@@ -225,7 +225,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 	];
 
 	public function __construct() {
-		parent::__construct( 'telegram_banner_widget', 'Telegram: Banner widget',
+		parent::__construct( 'tg_banner_widget', 'Telegram: Banner widget',
 			array(
 			'description' => 'Banner Widget širine 300px za bannere 300x250, 300x600 i više',
 		) );

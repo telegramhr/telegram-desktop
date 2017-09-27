@@ -1,6 +1,6 @@
 <?php
 
-class TG_Autori extends WP_Widget {
+class Telegram_Autori extends WP_Widget {
 
     public function __construct() {
         parent::__construct( 'tg_autori', 'Telegram: Telegramovi autori',
@@ -68,4 +68,4 @@ class TG_Autori extends WP_Widget {
         <?php
     }
 }
-register_widget( 'TG_Autori' );
+register_widget( 'Telegram_Autori' );

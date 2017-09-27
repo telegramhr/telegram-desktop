@@ -3,9 +3,7 @@ get_header(); ?>
 
 <div class="home-top-container">
     <?php
-    // WIDGET: Top vijesti
-    // 5 top vijesti
-    the_widget('TG_Top_Vijesti'); ?>
+    the_widget('Telegram_Top_Vijesti'); ?>
 
     <div class="zones container">
         <?php
@@ -28,11 +26,6 @@ get_header(); ?>
     <div class="container feed-container">
         <div class="col col-1 feed">
             <?php
-            $args      = array(
-                'posts_per_page' => 7,
-                'post_status'    => 'publish'
-            );
-            //$articles  = new WP_Query( $args );
             $articles = z_get_zone_query('feed', array('posts_per_page' => 7));
             if ( $articles->have_posts() ) {
                 while ( $articles->have_posts() ) {

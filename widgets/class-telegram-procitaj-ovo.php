@@ -1,6 +1,6 @@
 <?php
 
-class TG_Procitaj_Ovo extends WP_Widget
+class Telegram_Procitaj_Ovo extends WP_Widget
 {
 
     public function __construct()
@@ -57,4 +57,4 @@ class TG_Procitaj_Ovo extends WP_Widget
 
 }
 
-register_widget( 'TG_Procitaj_Ovo' );
+register_widget( 'Telegram_Procitaj_Ovo' );

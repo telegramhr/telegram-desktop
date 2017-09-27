@@ -1,6 +1,6 @@
 <?php
 
-class TG_Podijeli_Clanak extends WP_Widget {
+class Telegram_Podijeli_Clanak extends WP_Widget {
 
     public function __construct() {
         parent::__construct( 'tg_podijeli_clanak', 'Telegram: Podijeli članak',
@@ -91,4 +91,4 @@ class TG_Podijeli_Clanak extends WP_Widget {
     }
 }
 
-register_widget( 'TG_Podijeli_Clanak' );
+register_widget( 'Telegram_Podijeli_Clanak' );

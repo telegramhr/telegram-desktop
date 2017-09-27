@@ -1,6 +1,6 @@
 <?php
 
-class TG_Trending extends WP_Widget {
+class Telegram_Trending extends WP_Widget {
 
     public function __construct() {
         parent::__construct( 'tg_trending', 'Telegram: Upravo se čita',
@@ -110,4 +110,4 @@ class TG_Trending extends WP_Widget {
     }
 }
 
-register_widget( 'TG_Trending' );
+register_widget( 'Telegram_Trending' );

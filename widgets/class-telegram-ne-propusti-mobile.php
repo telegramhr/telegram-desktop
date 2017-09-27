@@ -1,9 +1,9 @@
 <?php
 
-class TG_Ne_Propusti extends WP_Widget {
+class Telegram_Ne_Propusti_Mobile extends WP_Widget {
 
     public function __construct() {
-        parent::__construct( 'tg_me_propusti', 'Telegram: Ne propusti top vijesti',
+        parent::__construct( 'tg_me_propusti_mobile', 'Telegram: Ne propusti top vijesti - mobile',
             array(
                 'description' => 'Prikaz najpopularnijih vijesti iz kategorije u kojoj je članak.',
             ) );
@@ -12,7 +12,7 @@ class TG_Ne_Propusti extends WP_Widget {
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
         $cat = get_the_category()[0]->term_id;
-        $data = wp_cache_get('tg_ne_propusti_'.$cat, 'widgets');
+        $data = wp_cache_get('tg_ne_propusti_mobile_'.$cat, 'widgets');
         if (!$data) {
 
             ob_start();
@@ -40,7 +40,11 @@ class TG_Ne_Propusti extends WP_Widget {
                         $q = new WP_Query($args);
                         while($q->have_posts()) {
                             $q->the_post();
-                            get_template_part('templates/articles/article-fourth');
+                            if ( my_wp_is_mobile() ) {
+                                get_template_part('templates/articles/article-1');
+                            } else {
+                                get_template_part('templates/articles/article-fourth');
+                            }
                         }
                         wp_reset_postdata();
 
@@ -55,11 +59,11 @@ class TG_Ne_Propusti extends WP_Widget {
 
             <?php
             $data = ob_get_clean();
-            wp_cache_set('tg_ne_propusti_'.$cat, $data, 'widgets', 3600);
+            wp_cache_set('tg_ne_propusti_mobile_'.$cat, $data, 'widgets', 3600);
         }
 
         echo $data;
     }
 }
 
-register_widget( 'TG_Ne_Propusti' );
+register_widget( 'Telegram_Ne_Propusti_Mobile' );

@@ -1,6 +1,6 @@
 <?php
 
-class TG_Comments extends WP_Widget {
+class Telegram_Comments extends WP_Widget {
 
     public function __construct() {
         parent::__construct( 'tg_comments', 'Telegram: Komentari korisnika',
@@ -39,4 +39,4 @@ class TG_Comments extends WP_Widget {
     }
 }
 
-register_widget( 'TG_Comments' );
+register_widget( 'Telegram_Comments' );

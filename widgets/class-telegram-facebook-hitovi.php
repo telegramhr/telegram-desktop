@@ -1,6 +1,6 @@
 <?php
 
-class TG_Facebook_Hitovi extends WP_Widget {
+class Telegram_Facebook_Hitovi extends WP_Widget {
 
     public function __construct() {
         parent::__construct( 'tg_facebook_hitovi', 'Telegram: Facebook hitovi',
@@ -10,7 +10,6 @@ class TG_Facebook_Hitovi extends WP_Widget {
     }
 
     public function widget( $args, $instance ) {
-        //ovdje ide sadržaj widgeta, cachirano
         $data = wp_cache_get('tg_facebook_hitovi', 'widgets');
         if (!$data) {
 
@@ -26,19 +25,9 @@ class TG_Facebook_Hitovi extends WP_Widget {
 
                 <?php
                 $today = getdate(time()+24*3600);
-                $two_weeks=getdate(time()-7*24*3600);
-                if ( is_front_page() ) {
-                    $cat = 'home';
-                    $no = $instance['num_home'];
-                }
-                else if (is_single()) {
-                    $cat = get_the_category()[0]->term_id;
-                    $no = $instance['num_single'];
-                }
-                else {
-                    $cat = get_query_var('cat');
-                    $no = $instance['num_cat'];
-                }
+                $two_weeks = getdate(time()-7*24*3600);
+                $no = $instance['num_home'];
+
                 $args = array(
                     'post_type' => array('post', 'price', 'fotogalerije', 'video'),
                     'posts_per_page' => $no,
@@ -59,7 +48,7 @@ class TG_Facebook_Hitovi extends WP_Widget {
                             'inclusive' => true
                         )
                     )
-                ); //TODO: most shared
+                );
                 $articles = new WP_Query($args);
                 if ($articles->have_posts()) {
                     while ($articles->have_posts()) {
@@ -87,12 +76,7 @@ class TG_Facebook_Hitovi extends WP_Widget {
     }
 
     function form( $instance ) {
-
-        //ovo je samo primjer za formu unutar admina
         $num_home  = empty( $instance['num_home'] ) ? '' : esc_attr( $instance['num_home'] );
-        $num_single  = empty( $instance['num_single'] ) ? '' : esc_attr( $instance['num_single'] );
-        $num_cat  = empty( $instance['num_cat'] ) ? '' : esc_attr( $instance['num_cat'] );
-
         ?>
         <p>
             <input id="<?php echo esc_attr( $this->get_field_id( 'num_home' ) ); ?>"
@@ -102,27 +86,8 @@ class TG_Facebook_Hitovi extends WP_Widget {
                 <?php _e( 'Broj članaka na naslonvnici:', 'twentyfourteen' ); ?>
             </label>
         </p>
-
-        <p>
-            <input id="<?php echo esc_attr( $this->get_field_id( 'num_single' ) ); ?>"
-                   name="<?php echo esc_attr( $this->get_field_name( 'num_single' ) ); ?>" type="text"
-                   value="<?php echo esc_attr( $num_single ); ?>">
-            <label for="<?php echo esc_attr( $this->get_field_id( 'num_single' ) ); ?>">
-                <?php _e( 'Broj članaka na članku:', 'twentyfourteen' ); ?>
-            </label>
-        </p>
-
-        <p>
-            <input id="<?php echo esc_attr( $this->get_field_id( 'num_cat' ) ); ?>"
-                   name="<?php echo esc_attr( $this->get_field_name( 'num_cat' ) ); ?>" type="text"
-                   value="<?php echo esc_attr( $num_cat ); ?>">
-            <label for="<?php echo esc_attr( $this->get_field_id( 'num_cat' ) ); ?>">
-                <?php _e( 'Broj članaka na rubrikama:', 'twentyfourteen' ); ?>
-            </label>
-        </p>
-
         <?php
     }
 }
 
-register_widget( 'TG_Facebook_Hitovi' );
+register_widget( 'Telegram_Facebook_Hitovi' );
