@@ -607,6 +607,14 @@ article .subtitle {
 .article-meta .author-block {
   display: inline-block;
 }
+.article-meta .author-block .initials {
+  font-family: "Fjalla One CRO", Impact, sans-serif;
+  color: #666;
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 35px;
+}
 
 .article-head {
   width: 930px;
@@ -1548,8 +1556,11 @@ background-size: 100% 100%; */
   margin-top: 30px;
 }
 .single-price .single-head.no-img {
-  padding: 130px 0 0;
+  padding: 60px 0 0;
   border-bottom: none;
+}
+.single-price .single-head.no-img .zones {
+  padding: 0 0 60px;
 }
 .single-price .single-head.no-img .titles {
   width: 100%;

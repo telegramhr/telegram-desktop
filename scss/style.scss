@@ -725,6 +725,15 @@ article {
 
     .author-block {
         display: inline-block;
+
+        .initials {
+            font-family: $title-font;
+            color: $gray-3;
+            font-size: 100%;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 35px;
+        }
     }
 }
 
@@ -1849,8 +1858,12 @@ article {
 
         /* Longform format 4 */
         &.no-img {
-            padding: 130px 0 0;
+            padding: 60px 0 0;
             border-bottom: none;
+
+            .zones {
+                padding: 0 0 60px;
+            }
 
             .titles {
                 width: 100%;

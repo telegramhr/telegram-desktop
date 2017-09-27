@@ -79,6 +79,11 @@ if( have_posts() ) {
         else if( $format == 4 ) { ?>
 
         <div class="single-head no-img">
+
+            <div class="zones">
+                <?php the_widget('Telegram_Banner_Widget', array('size' => 'billboard1')); ?>
+            </div>
+
             <div class="titles">
                 <div class="container">
                     <h3 class="overtitle"><?php the_category(); ?></h3>
@@ -178,7 +183,9 @@ if( have_posts() ) {
 
         <div class="zones container">
             <?php
-            the_widget('Telegram_Banner_Widget', array('size' => 'billboard1')); ?>
+            if( $format != 4 ) {
+                the_widget('Telegram_Banner_Widget', array('size' => 'billboard1'));
+            } ?>
             <div class="wallpapers">
                 <?php
                 // Wallpapers
