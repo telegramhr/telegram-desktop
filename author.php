@@ -10,7 +10,7 @@
                     <div class="author-thumb">
                         <?php
                         if( coauthors_get_avatar($author) ) {
-                            echo coauthors_get_avatar($author, 'thumbnail');
+                            echo coauthors_get_avatar($author, 'fullsize');
                             echo '<div class="line"></div>';
                         } else {
                             ?>
