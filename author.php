@@ -10,7 +10,7 @@
                     <div class="author-thumb">
                         <?php
                         if( coauthors_get_avatar($author) ) {
-                            echo coauthors_get_avatar($author, array(600,600) );
+                            echo coauthors_get_avatar($author, array(300,300) );
                             echo '<div class="line"></div>';
                         } else {
                             ?>
