@@ -23,7 +23,18 @@ class TG_Podijeli_Clanak extends WP_Widget {
                 <div class="author-block cf">
                     <div class="author-thumb">
                         <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-                            <?php echo coauthors_get_avatar($author, 'thumbnail'); ?>
+                            <?php
+                            if( coauthors_get_avatar($author) ) {
+                                echo coauthors_get_avatar($author, 'thumbnail');
+                            } else {
+                                ?>
+                                <div class="initials">
+                                    <?php
+                                    echo $author->first_name[0];
+                                    echo $author->last_name[0]; ?>
+                                </div>
+                                <?php
+                            } ?>
                         </a>
                     </div>
                     <div class="author-name">

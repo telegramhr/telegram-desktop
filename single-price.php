@@ -100,7 +100,18 @@ if( have_posts() ) {
                         foreach (get_coauthors() as $author) { ?>
                             <div class="author-thumb">
                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-                                    <?php echo coauthors_get_avatar($author, 'guest-author-96'); ?>
+                                    <?php
+                                    if( coauthors_get_avatar($author) ) {
+                                        echo coauthors_get_avatar($author, 'thumbnail');
+                                    } else {
+                                        ?>
+                                        <div class="initials">
+                                            <?php
+                                            echo $author->first_name[0];
+                                            echo $author->last_name[0]; ?>
+                                        </div>
+                                        <?php
+                                    } ?>
                                 </a>
                             </div>
                         <?php } ?>
