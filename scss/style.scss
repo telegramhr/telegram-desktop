@@ -2802,6 +2802,15 @@ article {
             float: left;
             margin: 0 45px 30px 0;
 
+            .initials {
+                width: 180px;
+                height: 180px;
+                line-height: 180px;
+                border-radius: 180px;
+                margin: 20px auto;
+                font-size: 60px;
+            }
+
             img {
                 position: absolute;
                 bottom: 0;

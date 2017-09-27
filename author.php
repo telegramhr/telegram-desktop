@@ -8,8 +8,19 @@
                 $author = get_queried_object();
                 ?>
                     <div class="author-thumb">
-                        <?php echo coauthors_get_avatar($author, 300); ?>
-                        <div class="line"></div>
+                        <?php
+                        if( coauthors_get_avatar($author) ) {
+                            echo coauthors_get_avatar($author, 'thumbnail');
+                            echo '<div class="line"></div>';
+                        } else {
+                            ?>
+                            <div class="initials">
+                                <?php
+                                echo $author->first_name[0];
+                                echo $author->last_name[0]; ?>
+                            </div>
+                            <?php
+                        } ?>
                         <?php // if has mail
                         if( $author->user_email ) {
                         ?>
