@@ -1,6 +1,6 @@
 <?php
 
-class TG_Top_Vijesti extends WP_Widget
+class Telegram_Top_Vijesti extends WP_Widget
 {
 
     public function __construct()
@@ -32,4 +32,4 @@ class TG_Top_Vijesti extends WP_Widget
     }
 }
 
-register_widget( 'TG_Top_Vijesti' );
+register_widget( 'Telegram_Top_Vijesti' );
