@@ -117,6 +117,8 @@ function telegram_main_scripts() {
 	// For touch controls
 	wp_register_script('hammer-time', get_stylesheet_directory_uri() . '/assets/js/hammer-time.min.js',null, '20170917', true);
 
+	wp_enqueue_script('vingd', 'https://subs.vingd.com/client/subs.js?pubid=telegram_hr', null, '20170928', true);
+
 }
 
 add_action('wp_enqueue_scripts', 'telegram_main_scripts');
