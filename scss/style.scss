@@ -1,22 +1,22 @@
 /*
-Theme Name:		Telegram2 Desktop
+Theme Name:		Telegram 2.0
 Description:   	Telegram2 desktop theme
-Version:       	2.0
-Author:        	TGM: mbanusic, mradaus
-Author URI:    	http://telegram.hr/
+Version:       	1.7
+Author:        	Mihovil Radaus / Marko Banusic
+Author URI:    	http://telegramgrupa.hr/
 License:       	GNU General Public License v2 or later
 */
 
 /* Font Face */
 
 @font-face {
-  font-family: "Fjalla One CRO";
-  src: url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff2') format('woff2'),
-       url('assets/fonts/fjalla_croat/FjallaOne-Regular.woff') format('woff'),
-       url('assets/fonts/fjalla_croat/FjallaOne-Regular.svg') format('svg'),
-       url('assets/fonts/fjalla_croat/FjallaOne-Regular.eot') format('embedded-opentype');
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Fjalla One CRO";
+    src: url('assets/fonts/fjalla_croat/FjallaOne-Regular.1.woff2') format('woff2'),
+    url('assets/fonts/fjalla_croat/FjallaOne-Regular.1.woff') format('woff'),
+    url('assets/fonts/fjalla_croat/FjallaOne-Regular.1.svg') format('svg'),
+    url('assets/fonts/fjalla_croat/FjallaOne-Regular.1.eot') format('embedded-opentype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* CSS Reset*/
