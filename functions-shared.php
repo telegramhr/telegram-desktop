@@ -65,7 +65,6 @@ function telegram_single_template( $the_template ) {
     return $the_template;
 }
 
-
 // Image sizes
 function telegram_theme_setup() {
     add_image_size('article-1', 620, 370, true);
@@ -95,10 +94,11 @@ add_filter( 'image_size_names_choose', 'telegram_custom_sizes' );
 
 function telegram_custom_sizes( $sizes ) {
 	return array_merge( $sizes, array(
-		'velike-price' => 'Velike priče',
-        'fullpage' => 'Full page',
-        'portrait' => 'Portret',
-        'Widescreen' => 'Widescreen'
+        'large' => 'Slika u članku',
+		'velike-price' => 'Veliki format u članku',
+        'fullpage' => 'Full page - naslovna',
+        'portrait' => 'Portret - naslovna',
+        'widescreen' => 'Widescreen - naslovna'
 	) );
 }
 
