@@ -619,6 +619,9 @@ add_filter( 'tiny_mce_before_init', 'telegram_disable_mce_wptextpattern' );
 add_filter( 'admin_post_thumbnail_html', 'telegram_add_thumbnail_type', 10, 2 );
 
 function telegram_add_thumbnail_type( $content, $post_id ) {
+    if ( 'price' !== get_post_type($post_id) ) {
+        return $content;
+    }
 	$value = get_post_meta( $post_id, 'telegram_expanded', true );
 	if (!$value) {
 		$value = 1;
@@ -1057,3 +1060,96 @@ function telegram_acf_query($args, $field, $post_id)
 	return $args;
 }
 add_filter('acf/fields/relationship/query', 'telegram_acf_query', 10, 3);
+
+function telegram_after_save_image($new_status, $old_status, $post){
+
+	$run_on_statuses = array('publish', 'pending', 'future');
+
+	if(!in_array($new_status, $run_on_statuses))
+		return;
+
+	$post_id = $post->ID;
+
+	if ( wp_is_post_revision( $post_id ) )
+		return; //not sure about this.. but apparently save is called twice when this happens
+
+	$image_data = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), "full" );
+	if(!$image_data)
+		return; //separate message if no image at all. (I use a plugin for this)
+
+	$image_width = $image_data[1];
+	$image_height = $image_data[2];
+	switch ($post->post_type) {
+        case 'post':
+        case 'fotogalerija':
+        case 'video':
+            $min_width = 840;
+            $min_height = 530;
+            break;
+        case 'price':
+            $size = get_post_meta($post_id, 'telegram_expanded', true);
+            if (1 === intval($size)) {
+	            $min_width = 1600;
+	            $min_height = 899;
+            }
+            else if (2 === intval($size)) {
+	            $min_width = 1600;
+	            $min_height = 650;
+            }
+            else if (3 === intval($size)) {
+	            $min_width = 800;
+	            $min_height = 899;
+            }
+            else {
+                return;
+            }
+            break;
+        default: //for other post types don't check
+            return;
+            break;
+    }
+	if($image_width < $min_width || $image_height < $min_height){
+
+		// Being safe, honestly $old_status shouldn't be in $run_on_statuses... it wouldn't save the first time!
+		$reverted_status = in_array($old_status, $run_on_statuses) ? 'draft' : $old_status;
+
+		wp_update_post(array(
+			'ID' => $post_id,
+			'post_status' => $reverted_status,
+		));
+
+		$back_link = admin_url("post.php?post=$post_id&action=edit");
+
+		update_post_meta($post_id,'size_warning', "Naslovna slika mora biti najmanje $min_width x $min_height. Objava je ponovo u statusu '$reverted_status'");
+
+	}
+}
+add_action('transition_post_status', 'telegram_after_save_image', 10, 3);
+
+# Output error message
+function telegram_image_notice(){
+    global $post;
+	if($post && get_post_meta($post->ID, 'size_warning', true)):?>
+
+        <div class="notice notice-error">
+            <p><?php echo get_post_meta($post->ID, 'size_warning', true); ?></p>
+        </div>
+
+	<?php
+        delete_post_meta($post->ID, 'size_warning');
+    endif;
+
+
+}
+add_action('admin_notices','telegram_image_notice');
+
+# Remove the 'Post updated. View post' message
+function telegram_remove_image_notice($messages){
+    global $post;
+	if($post && get_post_meta($post->ID, 'size_warning', true)){
+		return array();
+	}
+
+	return $messages;
+}
+add_filter( 'post_updated_messages', 'telegram_remove_image_notice' );
