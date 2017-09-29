@@ -31,11 +31,6 @@ if( $format == 4 ) {
   / ___ \| | | (_) | | | \__ \_____| | |_|
  /_/   \_\_|_|\___/|_| |_|___/     |_| (_)
 
- Prvi koji podijeli na Twitteru dobiva nagradu.
-
- -> Cini se da ce @TeoDominesPeter svojiti jako fora nagradu :)
- -> https://twitter.com/teodominespeter/status/910220209461633024
- * stay tuned *
 -->
 
 <body <?php body_class($format_class); ?> id="top">
