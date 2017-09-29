@@ -86,6 +86,7 @@ function telegram_theme_setup() {
 	add_image_size('article-rainbow-small', 190, 120, true);
 	add_image_size('article-poster', 325, 460, true);
 	add_image_size('mobile-head', 375, 480, true);
+	add_image_size('velike-price', 1600, 9999);
 }
 
 add_action('after_setup_theme', 'telegram_theme_setup');
@@ -94,7 +95,7 @@ add_filter( 'image_size_names_choose', 'telegram_custom_sizes' );
 
 function telegram_custom_sizes( $sizes ) {
 	return array_merge( $sizes, array(
-		'article-head' => 'Velike priče',
+		'velike-price' => 'Velike priče',
         'fullpage' => 'Full page',
         'portrait' => 'Portret',
         'Widescreen' => 'Widescreen'
