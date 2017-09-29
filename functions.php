@@ -134,19 +134,6 @@ function telegram_tinymce($arr){
 }
 add_filter('tiny_mce_before_init', 'telegram_tinymce');
 
-add_filter( 'image_size_names_choose', 'telegram_media_sizes_details', 10, 1);
-
-function telegram_media_sizes_details($sizes) {
-    $sizes = array(
-        'thumbnail' => __('Thumbnail'),
-        'medium'    => __('Medium'),
-        'large'     => __('Large'),
-        'price'     => 'Velike price',
-        'full'      => __('Full Size'),
-    );
-    return $sizes;
-}
-
 function telegram_featured_RSS($content) {
     global $post;
     if ( has_post_thumbnail( $post->ID ) ){
