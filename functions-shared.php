@@ -67,24 +67,21 @@ function telegram_single_template( $the_template ) {
 
 // Image sizes
 function telegram_theme_setup() {
+    // Main sizes
+    add_image_size('article-head', 1200, 800, true);
     add_image_size('article-1', 620, 370, true);
-    add_image_size('article-2', 590, 332, true);
-    add_image_size('feed', 230, 190, true);
     add_image_size('fourth', 280, 230, true);
     add_image_size('sidebar', 320, 180, true);
-	// Single
 	add_image_size('single-v1', 840, 530, true);
-	// Full page images
+    add_image_size('article-rainbow-small', 190, 120, true);
+    add_image_size('article-poster', 325, 460, true);
+	// Longfoem sizes
 	add_image_size('fullpage', 1600, 899, true);
 	add_image_size('portrait', 800, 899, true);
 	add_image_size('widescreen', 1600, 650, true);
-
-	// NEW SIZES
-	add_image_size('article-head', 1200, 800, true);
-	add_image_size('article-rainbow-small', 190, 120, true);
-	add_image_size('article-poster', 325, 460, true);
-	add_image_size('mobile-head', 375, 480, true);
 	add_image_size('velike-price', 1600, 9999);
+    // Mobile
+    add_image_size('mobile-head', 375, 480, true);
 }
 
 add_action('after_setup_theme', 'telegram_theme_setup');
