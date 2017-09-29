@@ -1572,9 +1572,10 @@ article {
             }
 
             twitterwidget,
-            .twitter-tweet {
-                margin-left: auto;
-                margin-right: auto;
+            .twitter-tweet,
+            iframe {
+                margin-left: auto !important;
+                margin-right: auto !important;
             }
 
             figure {
