@@ -90,11 +90,14 @@ function telegram_theme_setup() {
 
 add_action('after_setup_theme', 'telegram_theme_setup');
 
-add_filter( 'image_size_names_choose', 'my_custom_sizes' );
+add_filter( 'image_size_names_choose', 'telegram_custom_sizes' );
 
-function my_custom_sizes( $sizes ) {
+function telegram_custom_sizes( $sizes ) {
 	return array_merge( $sizes, array(
-		'velike-price' => 'Velike priče',
+		'article-head' => 'Velike priče',
+        'fullpage' => 'Full page',
+        'portrait' => 'Portret',
+        'Widescreen' => 'Widescreen'
 	) );
 }
 
