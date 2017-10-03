@@ -20,6 +20,9 @@ if( have_posts() ) {
         </h2>
         <div class="article-meta">
                 <div class="author-block">
+                    <div class="author-thumb" style="background: none;">
+                        <img  class="partner-logo" height="100" src="<?php echo get_field('logo_partner'); ?>"/>
+                    </div>
                     <span class="author">
                     <a href="#">
                         U suradnji s <?php echo get_field('partner'); ?>
