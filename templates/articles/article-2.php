@@ -28,7 +28,13 @@
                     <?php echo $src; ?>
                 </a>
                 <?php
-            } else {
+            }
+            else if ( 'partneri' === get_post_type() ) {
+	            ?><a href="#">
+                    TELEGRAM PARTNERI
+                </a><?php
+            }
+            else {
                 ?>
                 <a href="<?php echo get_category_link( $cat[0]->cat_ID ); ?>">
                     <?php echo $cat[0]->name; ?>
