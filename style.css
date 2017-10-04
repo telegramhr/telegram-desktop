@@ -1155,6 +1155,10 @@ background-size: 100% 100%; */
   display: none;
 }
 
+.single-partneri .single-head .article-meta .author-thumb {
+  border-radius: 0;
+}
+
 .single-head {
   margin: 0 0 15px;
   padding-top: 15px;
@@ -1190,6 +1194,7 @@ background-size: 100% 100%; */
   float: right;
   height: 50px;
   top: -13px;
+  margin-left: 5px;
 }
 .single-head .title {
   color: #000;
@@ -1224,10 +1229,6 @@ background-size: 100% 100%; */
 }
 .single-head .article-meta span {
   padding-right: 2px;
-}
-
-.single-partneri .author-thumb {
-  border-radius: 0;
 }
 
 .single-body {

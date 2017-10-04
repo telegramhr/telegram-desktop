@@ -1376,6 +1376,10 @@ article {
     }
 }
 
+.single-partneri .single-head .article-meta .author-thumb {
+  border-radius:0;
+}
+
 .single-head {
     margin: 0 0 15px;
     padding-top: 15px;
@@ -1413,6 +1417,7 @@ article {
         float:right;
         height: 50px;
         top: -13px;
+        margin-left: 5px;
       }
     }
 
@@ -1457,10 +1462,6 @@ article {
             padding-right: 2px;
         }
     }
-}
-
-.single-partneri .author-thumb {
-  border-radius:0;
 }
 
 .single-body {
