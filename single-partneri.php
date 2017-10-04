@@ -10,7 +10,7 @@ if( have_posts() ) {
 <div class="single-page container">
 
     <div class="single-head">
-        <h3 class="overtitle"><?php the_category(); ?></h3>
+        <h3 class="overtitle">TELEGRAM PARTNERI</h3>
         <h1 class="title">
             <?php the_title(); ?>
         </h1>

@@ -11,6 +11,7 @@ class Telegram_Podijeli_Clanak extends WP_Widget {
 
     public function widget( $args, $instance ) {
         //ovdje ide sadržaj widgeta, cachirano
+        if ('partneri' !== get_post_type()) {
         ?>
 
         <div class="author-box cf">
@@ -94,7 +95,7 @@ class Telegram_Podijeli_Clanak extends WP_Widget {
                 </div>
             <?php } ?>
         </div>
-
+        <?php } ?>
         <div class="single-share">
             <div class="share-text">
                 Podijeli:
