@@ -11,6 +11,7 @@ if( have_posts() ) {
 
     <div class="single-head">
         <h3 class="overtitle">TELEGRAM PARTNERI</h3>
+        <h3 class="partner-overtitle">U SURADNJI S <img  class="logo" height="100" src="<?php echo get_field('logo_partner'); ?>"/></h3>
         <h1 class="title">
             <?php the_title(); ?>
         </h1>

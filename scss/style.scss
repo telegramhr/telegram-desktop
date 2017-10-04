@@ -1397,6 +1397,27 @@ article {
 
     }
 
+    .partner-overtitle {
+      font-family: $sans-serif;
+      font-weight: bold;
+      font-size: 21px;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 5px 0;
+      letter-spacing: 0.1em;
+      position: relative;
+      float: right;
+
+      .logo {
+        position:relative;
+        float:right;
+        height: 50px;
+        top: -13px;
+      }
+    }
+
+
+
     .title {
         color: $black;
         font-size: 46px;
@@ -1436,6 +1457,10 @@ article {
             padding-right: 2px;
         }
     }
+}
+
+.single-partneri .author-thumb {
+  border-radius:0;
 }
 
 .single-body {

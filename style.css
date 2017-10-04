@@ -1174,6 +1174,23 @@ background-size: 100% 100%; */
   letter-spacing: 0.1em;
   position: relative;
 }
+.single-head .partner-overtitle {
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 0;
+  letter-spacing: 0.1em;
+  position: relative;
+  float: right;
+}
+.single-head .partner-overtitle .logo {
+  position: relative;
+  float: right;
+  height: 50px;
+  top: -13px;
+}
 .single-head .title {
   color: #000;
   font-size: 46px;
@@ -1207,6 +1224,10 @@ background-size: 100% 100%; */
 }
 .single-head .article-meta span {
   padding-right: 2px;
+}
+
+.single-partneri .author-thumb {
+  border-radius: 0;
 }
 
 .single-body {
