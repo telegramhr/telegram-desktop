@@ -919,6 +919,7 @@ article {
 .article-sticky {
     padding: 15px 5px;
     border-bottom: 1px solid $gray-light;
+    min-height: 100px;
 
     .overtitle {
         font-family: $title-font;

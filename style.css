@@ -772,6 +772,7 @@ article .subtitle {
 .article-sticky {
   padding: 15px 5px;
   border-bottom: 1px solid #ddd;
+  min-height: 100px;
 }
 .article-sticky .overtitle {
   font-family: "Fjalla One CRO", Impact, sans-serif;
