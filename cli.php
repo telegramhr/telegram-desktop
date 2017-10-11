@@ -15,7 +15,7 @@ class Telegram_Command extends WP_CLI_Command {
 				$q->the_post();
 				$url     = get_the_permalink();
 				$id      = get_the_ID();
-				$request = wp_remote_get( 'https://graph.facebook.com/v2.7/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa'
+				$request = wp_remote_get( 'https://graph.facebook.com/v2.10/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa'
 				);
 				if ( ! is_wp_error( $request ) ) {
 					$body = json_decode( $request['body'], true );
