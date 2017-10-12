@@ -19,6 +19,10 @@ class Telegram_Command extends WP_CLI_Command {
 				);
 				if ( ! is_wp_error( $request ) ) {
 					$body = json_decode( $request['body'], true );
+					if ( intval( $body['engagement']['comment_count'] ) ) {
+						update_post_meta( $id, '_comments', intval( $body['enagagement']['comment_count'] ) );
+					}
+
 					if ( $id == 402226 ) {
 						return;
 					}
