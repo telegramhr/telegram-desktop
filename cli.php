@@ -15,19 +15,16 @@ class Telegram_Command extends WP_CLI_Command {
 				$q->the_post();
 				$url     = get_the_permalink();
 				$id      = get_the_ID();
-				$request = wp_remote_get( 'https://graph.facebook.com/v2.10/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa'
+				$request = wp_remote_get( 'https://graph.facebook.com/v2.10/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa&fields=engagement'
 				);
 				if ( ! is_wp_error( $request ) ) {
 					$body = json_decode( $request['body'], true );
-					if ( intval( $body['share']['comment_count'] ) ) {
-						update_post_meta( $id, '_comments', intval( $body['share']['comment_count'] ) );
-					}
 					if ( $id == 402226 ) {
 						return;
 					}
-
-					update_post_meta( $id, '_face_recommendations', intval( $body['share']['share_count'] ) );
-					$total   = intval( $body['share']['share_count'] );
+					$face = intval( $body['engagement']['reaction_count'] ) + intval( $body['engagement']['comment_count'] ) + intval( $body['engagement']['share_count'] ) + intval( $body['engagement']['comment_plugin_count'] );
+					update_post_meta( $id, '_face_recommendations', $face );
+					$total   = intval( $face );
 					$request = wp_remote_get( 'http://urls.api.twitter.com/1/urls/count.json?url=' . rawurlencode( $url ) );
 					if ( ! is_wp_error( $request ) ) {
 						$body = json_decode( $request['body'], true );
