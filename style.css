@@ -208,7 +208,7 @@ img {
 .light:not(.no-img-format) .nav-price .tg {
   background: url("assets/img/telegram_logo_black.svg");
 }
-.light:not(.no-img-format) .nav-price .article-title {
+.light:not(.no-img-format) .nav-price .nav-title {
   border-left: 2px solid #120836;
   color: #120836;
 }
@@ -408,12 +408,12 @@ nav.nav-price {
   background: transparent;
   position: absolute;
 }
-nav.nav-price .article-title {
+nav.nav-price .nav-title {
   margin-left: 192px;
   border-left: 2px solid #fff;
   font-size: 25px;
   letter-spacing: 0.05em;
-  line-height: 1.7em;
+  line-height: 39px;
   text-transform: uppercase;
 }
 nav.nav-price .tg {
@@ -431,7 +431,7 @@ nav.nav-price .tg a {
 nav .tg {
   top: 8px;
 }
-nav .article-title {
+nav .nav-title {
   margin-left: 55px;
   padding-left: 15px;
   border-left: 2px solid #301860;

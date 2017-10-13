@@ -5,7 +5,7 @@
                 <!-- as bg -->
             </a>
         </div>
-        <div class="article-title">
+        <div class="nav-title">
             <?php
             if( get_field('sticker') ) {
                 echo get_field('sticker');

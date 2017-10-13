@@ -247,7 +247,7 @@ img {
             background: url("assets/img/telegram_logo_black.svg");
         }
 
-        .article-title {
+        .nav-title {
             border-left: 2px solid $purple-dark;
             color: $purple-dark;
         }
@@ -481,12 +481,12 @@ nav {
         background: transparent;
         position: absolute;
 
-        .article-title {
+        .nav-title {
             margin-left: 192px;
             border-left: 2px solid $white;
             font-size: 25px;
             letter-spacing: 0.05em;
-            line-height: 1.7em;
+            line-height: 39px;
             text-transform: uppercase;
         }
 
@@ -509,7 +509,7 @@ nav {
         top: 8px;
     }
 
-    .article-title {
+    .nav-title {
         margin-left: 55px;
         padding-left: 15px;
         border-left: 2px solid $purple-light;
