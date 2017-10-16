@@ -1034,6 +1034,10 @@ function telegram_after_save_image($new_status, $old_status, $post){
 
 	$post_id = $post->ID;
 
+	if (strtotime($post->post_date) < strtotime('1.10.2017.')) {
+	    return;
+    }
+
 	if ( wp_is_post_revision( $post_id ) )
 		return; //not sure about this.. but apparently save is called twice when this happens
 
