@@ -885,42 +885,6 @@ function telegram_add_to_registry_gemius(&$registry) {
 	);
 }
 
-add_filter( 'amp_post_template_analytics', 'telegram_amp_add_custom_analytics' );
-function telegram_amp_add_custom_analytics( $analytics ) {
-	if ( ! is_array( $analytics ) ) {
-		$analytics = array();
-	}
-
-	// https://developers.google.com/analytics/devguides/collection/amp-analytics/
-	$analytics['telegram-googleanalytics'] = array(
-		'type' => 'googleanalytics',
-		'attributes' => array(
-			// 'data-credentials' => 'include',
-		),
-		'config_data' => array(
-			'vars' => array(
-				'account' => "UA-60611577-1"
-			),
-			'triggers' => array(
-				'trackPageview' => array(
-					'on' => 'visible',
-					'request' => 'pageview',
-				),
-			),
-		),
-	);
-
-	return $analytics;
-}
-
-add_action( 'amp_post_template_footer', 'telegram_amp_add_pixel' );
-
-function telegram_amp_add_pixel( $amp_template ) {
-	?>
-    <amp-pixel src="https://hr.hit.gemius.pl/_TIMESTAMP/redot.gif?l=90&id=nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57&et=action&hsrc=1&extra=gemamp%3D0&fr=1&href=SOURCE_URL&ref=DOCUMENT_REFERRER"></amp-pixel>
-	<?php
-}
-
 add_filter( 'amp_post_article_header_meta', 'telegram_amp_header_meta', 10, 1 );
 
 function telegram_amp_header_meta($parts) {
