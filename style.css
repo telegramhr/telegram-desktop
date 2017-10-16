@@ -1668,7 +1668,8 @@ background-size: 100% 100%; */
   margin: 35px 0;
 }
 .single-price .single-content .the-content img.size-full,
-.single-price .single-content .the-content img.size-large {
+.single-price .single-content .the-content img.size-large,
+.single-price .single-content .the-content img.size-velike-price {
   width: 100vw;
   margin-left: -50vw;
   position: relative;
