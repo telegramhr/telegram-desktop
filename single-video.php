@@ -38,15 +38,17 @@ if( have_posts() ) {
                     <span class="rcmds"><?php echo intval(get_post_meta(get_the_ID(), '_recommendations', true)) ?> preporuka</span>
                     <span class="comms"><?php echo intval(get_post_meta(get_the_ID(), '_comments', true)) ?> komentara</span>
                 </div>
+
+                <div class="video-head">
+                    <?php echo apply_filters('the_content', trim(get_field('video'))); ?>
+                </div>
+
             </div>
 
             <div class="single-body">
                 <!-- Single Content -->
                 <div class="single-content">
                     <div class="thumb">
-                        <div class="video-head">
-                            <?php echo apply_filters('the_content', trim(get_field('video'))); ?>
-                        </div>
                         <div class="last-update">
                             ZADNJA IZMJENA:
                             <?php echo date_i18n( get_option(  'date_format' ), get_the_modified_time( 'U' ) ) ?>

@@ -1456,14 +1456,23 @@ background-size: 100% 100%; */
   background: #120836;
 }
 
-.video-head {
+.single-video .single-head {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.single-video .single-head .video-head {
   width: 100%;
   position: relative;
+  padding-top: 20px;
 }
-.video-head video {
+.single-video .single-head .video-head video {
   width: 100%;
   height: auto;
   display: block;
+}
+.single-video .single-head .video-head iframe {
+  width: 1200px;
+  height: 675px;
 }
 
 .single-price {

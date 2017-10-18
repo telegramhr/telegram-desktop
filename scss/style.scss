@@ -1735,15 +1735,28 @@ article {
 
 }
 
+.single-video {
 
-.video-head {
-    width: 100%;
-    position: relative;
+    .single-head {
+        padding-bottom: 0;
+        border-bottom: none;
 
-    video {
-        width: 100%;
-        height: auto;
-        display: block;
+        .video-head {
+            width: 100%;
+            position: relative;
+            padding-top: 20px;
+
+            video {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            iframe {
+                width: 1200px;
+                height: 675px;
+            }
+        }
     }
 }
 
