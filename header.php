@@ -33,9 +33,11 @@ if( $format == 4 ) {
 
  Prvi koji podijeli na Twitteru dobiva nagradu.
 
- -> Cini se da ce @TeoDominesPeter svojiti jako fora nagradu :)
+ -> Cini se da je @TeoDominesPeter svojio jako fora iPad :)
  -> https://twitter.com/teodominespeter/status/910220209461633024
- * stay tuned *
+ -> http://bit.ly/2x3QwJj
+
+ #tmg_devteam
 -->
 
 <body <?php body_class($format_class); ?> id="top">
