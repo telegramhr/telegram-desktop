@@ -6,7 +6,7 @@ add_action( 'wp_enqueue_scripts', 'telegram_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'telegram_scripts' );
 
 function telegram_enqueue_styles() {
-    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('font-awesome', 'lora', 'pt-sans', 'slick', 'slick-theme'), '20171016');
+    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('font-awesome', 'lora', 'pt-sans', 'slick', 'slick-theme'), '95399.05');
 }
 
 function telegram_scripts() {
