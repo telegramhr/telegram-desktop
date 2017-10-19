@@ -1121,3 +1121,50 @@ function telegram_remove_image_notice($messages){
 	return $messages;
 }
 add_filter( 'post_updated_messages', 'telegram_remove_image_notice' );
+
+add_filter('admin_post_thumbnail_html', 'telegram_admin_thumbnail', 10, 2);
+
+function telegram_admin_thumbnail($content, $post_id) {
+	$id = get_post_thumbnail_id($post_id);
+	if ($id) {
+		$image = wp_get_attachment_image_src( $id, 'full' );
+		switch ($post->post_type) {
+			case 'post':
+			case 'fotogalerija':
+			case 'video':
+				$min_width = 840;
+				$min_height = 530;
+				break;
+			case 'price':
+				$size = get_post_meta($post_id, 'telegram_expanded', true);
+				if (1 === intval($size)) {
+					$min_width = 1600;
+					$min_height = 899;
+				}
+				else if (2 === intval($size)) {
+					$min_width = 1600;
+					$min_height = 650;
+				}
+				else if (3 === intval($size)) {
+					$min_width = 800;
+					$min_height = 899;
+				}
+				else {
+					return;
+				}
+				break;
+			default: //for other post types don't check
+				return;
+				break;
+		}
+		if ( $image[1] < $image_width || $image[2] <$image_height ) {
+			global $current_user;
+			delete_post_thumbnail($post_id);
+			remove_filter( 'admin_post_thumbnail_html', 'telegram_admin_thumbnail' );
+			$content = _wp_post_thumbnail_html(null, $post_id);
+			add_filter( 'admin_post_thumbnail_html', 'telegram_admin_thumbnail' );
+			$content = '<p>'.$current_user->first_name.', odabrana slika nije dovoljno velika za prikaz na ovoj poziciji. Ovaj incident će biti prijavljen.</p>' . $content;
+		}
+	}
+	return $content;
+}
