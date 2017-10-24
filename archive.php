@@ -38,7 +38,7 @@ get_header(); ?>
 			<div class="col col-3 sidebar">
 				<div class="right-bg"></div>
 				<?php
-				dynamic_sidebar('home_sidebar_2'); ?>
+				dynamic_sidebar('sidebar-single'); ?>
 			</div>
 		</div>
 	</div>
