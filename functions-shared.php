@@ -1122,7 +1122,7 @@ function telegram_remove_image_notice($messages){
 }
 add_filter( 'post_updated_messages', 'telegram_remove_image_notice' );
 
-add_filter('admin_post_thumbnail_html', 'telegram_admin_thumbnail', 10, 2);
+//add_filter('admin_post_thumbnail_html', 'telegram_admin_thumbnail', 10, 2);
 
 function telegram_admin_thumbnail($content, $post_id) {
 	$id = get_post_thumbnail_id($post_id);
