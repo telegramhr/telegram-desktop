@@ -313,15 +313,11 @@ img {
 .admin-bar.single {
   background-position: center 32px;
 }
-.admin-bar .sticky-widget {
-  margin-top: 100px;
-}
 .admin-bar .gallery-sidebar {
   padding-top: 102px !important;
 }
 
 .sticky-widget {
-  margin-top: 68px;
   transform: translate3d(0, 0, 0);
 }
 

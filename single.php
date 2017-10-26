@@ -96,7 +96,9 @@ if( have_posts() ) {
         </div>
         <!-- Single Sidebar -->
         <div class="sidebar single-sidebar">
+            <div class="sticky-widget">
             <?php dynamic_sidebar('sidebar-single'); ?>
+            </div>
         </div>
     </div>
     <div class="navigation"><?php previous_post_link(); ?>    <?php next_post_link(); ?></div>

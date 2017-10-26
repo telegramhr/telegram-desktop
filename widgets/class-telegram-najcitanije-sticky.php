@@ -15,7 +15,7 @@ class Telegram_Najcitanije_Sticky extends WP_Widget {
 
             ob_start();
             ?>
-            <div class="tg-widget najcitanije-sticky sticky-widget">
+            <div class="tg-widget najcitanije-sticky">
                 <div class="tg-widget-head">
                     <h1>Telegram najčitanije</h1>
                 </div>

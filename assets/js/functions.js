@@ -29,7 +29,9 @@ function scrollTop() {
 }
 
 function stickyElements() {
-    jQuery('.sticky-widget').stick_in_parent();
+    jQuery('.sticky-widget').stick_in_parent({
+        offset_top: 100
+    });
     jQuery('.wallpapers').stick_in_parent({
         parent: '.main-container'
     });
