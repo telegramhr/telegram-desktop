@@ -30,7 +30,8 @@ class Telegram_Ne_Propusti_Mobile extends WP_Widget {
                         <?php
                         global $post;
                         $args = array(
-                            'showposts' => 8,
+                            'post_per_page' => 8,
+                            'post_type' => 'any',
                             'cat' => $cat,
                             'post__not_in' => array( $post->ID ),
                             'no_found_rows' => true,
