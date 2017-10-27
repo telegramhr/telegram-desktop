@@ -16,7 +16,6 @@ class Telegram_Ne_Propusti extends WP_Widget {
 
             ob_start();
             ?>
-
             <?php
             // If is not Promo
             if( $cat != 3926 ) { ?>
@@ -29,8 +28,9 @@ class Telegram_Ne_Propusti extends WP_Widget {
                         <?php
                         global $post;
                         $args = array(
-                            'showposts' => 8,
+                            'posts_per_page' => 8,
                             'cat' => $cat,
+                            'post_type' => 'any',
                             'post__not_in' => array( $post->ID ),
                             'no_found_rows' => true,
                             'ignore_sticky_posts' => true,
