@@ -1168,3 +1168,14 @@ function telegram_admin_thumbnail($content, $post_id) {
 	}
 	return $content;
 }
+
+add_filter( 'instant_articles_content', 'telegram_add_perex', 10, 2);
+
+function telegram_add_perex($content, $post_id) {
+    $perex = get_post_meta($post_id, 'perex', true);
+    if ($perex) {
+        $content = '<h1>'.$perex.'</h1>
+' . $content;
+    }
+    return $content;
+}
