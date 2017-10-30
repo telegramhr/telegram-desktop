@@ -7,7 +7,7 @@ add_action( 'wp_enqueue_scripts', 'telegram_scripts' );
 
 
 function telegram_enqueue_styles() {
-    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('font-awesome', 'lora', 'pt-sans', 'slick', 'slick-theme'), '94820.25');
+    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('font-awesome', 'lora', 'pt-sans', 'slick', 'slick-theme'), '94831.24');
     /* Use [current stardate] as style version num */
 }
 
@@ -43,6 +43,7 @@ function telegram_main_query($query) {
         else if (is_author()) {
 	        $query->set('posts_per_page', 12);
         }
+        //TODO: Dodati 7 clanaka a velike price
 
     }
 
