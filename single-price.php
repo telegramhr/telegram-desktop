@@ -97,16 +97,20 @@ if( have_posts() ) {
 
                     <div class="article-meta">
                         <?php
-                        foreach (get_coauthors() as $author) { ?>
+                        foreach (get_coauthors() as $author) {
+	                        if( coauthors_get_avatar($author) ) {
+                            ?>
                             <div class="author-thumb">
                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
                                     <?php
-                                    if( coauthors_get_avatar($author) ) {
+
                                         echo coauthors_get_avatar($author, 'thumbnail');
-                                    } ?>
+                                     ?>
                                 </a>
                             </div>
-                        <?php } ?>
+                        <?php
+	                        }
+                        } ?>
                         <span class="author">
                             <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
                                 <?php echo $author->display_name; ?>
