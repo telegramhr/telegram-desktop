@@ -103,14 +103,6 @@ if( have_posts() ) {
                                     <?php
                                     if( coauthors_get_avatar($author) ) {
                                         echo coauthors_get_avatar($author, 'thumbnail');
-                                    } else {
-                                        ?>
-                                        <div class="initials">
-                                            <?php
-                                            echo $author->first_name[0];
-                                            echo $author->last_name[0]; ?>
-                                        </div>
-                                        <?php
                                     } ?>
                                 </a>
                             </div>
