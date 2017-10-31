@@ -1684,6 +1684,7 @@ background-size: 100% 100%; */
   margin-left: -50vw;
   position: relative;
   left: 50%;
+  height: auto;
 }
 .single-price .single-content .the-content figcaption {
   width: 100vw;
@@ -2664,4 +2665,18 @@ footer .footer-3 .menu {
 }
 footer .footer-3 .menu li {
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1230px) {
+  .single-price .single-content .the-content img.size-full,
+  .single-price .single-content .the-content img.size-large,
+  .single-price .single-content .the-content img.size-velike-price {
+    width: 105vw;
+    margin-left: -55vw;
+  }
+
+  .single-price .single-content .the-content figcaption {
+    width: 105vw;
+    margin-left: -55vw;
+  }
 }

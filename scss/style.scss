@@ -2016,11 +2016,12 @@ article {
 
             img.size-full,
             img.size-large,
-            img.size-velike-price{
+            img.size-velike-price {
                 width: 100vw;
                 margin-left: -50vw;
                 position: relative;
                 left: 50%;
+                height: auto;
             }
 
             figcaption {
@@ -3192,4 +3193,20 @@ footer {
             }
         }
     }
+}
+
+@media only screen and (max-width: 1230px) {
+
+    .single-price .single-content .the-content img.size-full,
+    .single-price .single-content .the-content img.size-large,
+    .single-price .single-content .the-content img.size-velike-price {
+        width: 105vw;
+        margin-left: -55vw;
+    }
+
+    .single-price .single-content .the-content figcaption {
+        width: 105vw;
+        margin-left: -55vw;
+    }
+
 }
