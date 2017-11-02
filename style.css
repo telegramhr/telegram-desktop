@@ -1563,6 +1563,7 @@ background-size: 100% 100%; */
   overflow: hidden;
   margin-bottom: 30px;
   padding-bottom: 0;
+  min-height: 780px;
 }
 .single-price .single-head.portrait .thumb {
   width: 50%;
