@@ -24,13 +24,17 @@ if( have_posts() ) {
                 <div class="titles">
                     <div class="container">
                         <div class="head-meta">
-                            <?php
-                            foreach ( get_coauthors() as $author ) {
-                                echo 'Piše: '.$author->display_name;
-                                if ( telegram_get_photographer() ) {
-                                    echo ' | Snima: ' . telegram_get_photographer();
-                                }
-                            } ?>
+	                        <?php
+	                        foreach ( get_coauthors() as $author ) {
+		                        ?>
+                                Piše: <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
+		                        <?php
+		                        if ( telegram_get_photographer() ) {
+			                        ?>
+                                    | Snima: <?php echo telegram_get_photographer(); ?>
+			                        <?php
+		                        }
+	                        } ?>
                         </div>
 
                         <h1 class="title">
@@ -57,9 +61,13 @@ if( have_posts() ) {
                     <div class="head-meta">
                         <?php
                         foreach ( get_coauthors() as $author ) {
-                            echo 'Piše: '.$author->display_name;
+                            ?>
+                            Piše: <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
+                            <?php
                             if ( telegram_get_photographer() ) {
-                                echo ' | Snima: ' . telegram_get_photographer();
+                                ?>
+                                 | Snima: <?php echo telegram_get_photographer(); ?>
+                                <?php
                             }
                         } ?>
                     </div>
