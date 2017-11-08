@@ -50,7 +50,7 @@
         <h2 class="subtitle">
             <?php
             $subtitle = get_excerpt( get_field('subtitle'), 141 );
-            if( strlen( get_the_title() ) <= 115 ) {
+            if( mb_strlen( $post->post_title ) <= 115 ) {
                 echo $subtitle;
             }
             ?>
