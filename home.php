@@ -28,7 +28,7 @@ get_header(); ?>
             <?php
 
             //g-ove
-            $articles = z_get_zone_query('feed', array('posts_per_page' => 3));
+            $articles = z_get_zone_query('head-article', array('posts_per_page' => 3, 'offset' => 1));
             if ( $articles->have_posts() ) {
                 while ( $articles->have_posts() ) {
                     $articles->the_post();
