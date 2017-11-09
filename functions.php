@@ -33,6 +33,9 @@ function telegram_main_query($query) {
     if ($query->is_main_query() && !is_admin()) {
         if (is_category()) {
             $query->set('posts_per_page', 10);
+            if (is_category(1402)) {
+	            $query->set('posts_per_page', 17);
+            }
         }
         else if (is_archive()) {
             $query->set('posts_per_page', 10);

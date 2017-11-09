@@ -12,7 +12,7 @@
         ?>
 
         <?php
-        the_widget('Telegram_Upravo_Objavljeno');
+        the_widget('Telegram_Najcitanije_Malo');
         ?>
     </div>
 </div>

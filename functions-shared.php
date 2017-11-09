@@ -318,7 +318,7 @@ function telegram_pre_get_posts($query) {
 
 			} else {
 				$query->set( 'post_type', array(
-					'post',//TODO
+					'post',
 					'price',
 					'video'
 				) );
@@ -1174,8 +1174,7 @@ add_filter( 'instant_articles_content', 'telegram_add_perex', 10, 2);
 function telegram_add_perex($content, $post_id) {
     $perex = get_post_meta($post_id, 'perex', true);
     if ($perex) {
-        $content = '<h1>'.$perex.'</h1>
-' . $content;
+        $content = '<h1>'.$perex.'</h1>' . $content;
     }
     return $content;
 }
