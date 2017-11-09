@@ -26,7 +26,9 @@ get_header(); ?>
     <div class="container feed-container">
         <div class="col col-1 feed">
             <?php
-            $articles = z_get_zone_query('feed', array('posts_per_page' => 7));
+
+            //g-ove
+            $articles = z_get_zone_query('feed', array('posts_per_page' => 3));
             if ( $articles->have_posts() ) {
                 while ( $articles->have_posts() ) {
                     $articles->the_post();
@@ -38,6 +40,8 @@ get_header(); ?>
                     }
                 }
             }
+            wp_reset_postdata();
+            //prepare promo articles
             $pos1 = false;
             $pos2 = false;
             $pos3 = false;
@@ -56,77 +60,96 @@ get_header(); ?>
 	            }
             }
 
-            if ($pos1) {
-	            global $post;
-	            $p    = get_post( $pos1 );
-	            $post = $p;
-	            get_template_part( 'templates/articles/article-2' );
-            }
-            wp_reset_postdata();
-            ?>
-        </div>
-        <div class="col col-2 midbar">
-            <?php
-            dynamic_sidebar('home_mid_1'); ?>
-        </div>
-        <div class="col col-3 sidebar">
-            <div class="right-bg"></div>
-            <?php
-            dynamic_sidebar('home_sidebar_1'); ?>
-        </div>
-    </div>
-</div>
-
-<?php
-// GET MEGABREAK
-get_template_part('templates/layout/megabreak');
-get_template_part('templates/layout/megabillboard');
-?>
-
-    <div class="section-feed section-feed-2">
-        <div class="container feed-container">
-            <div class="col col-1 feed">
-                <?php
-                $articles = z_get_zone_query( 'feed', array('posts_per_page' => 7, 'offset' => 7) );
-                if ( $articles->have_posts() ) {
-                    while ( $articles->have_posts() ) {
-                        $articles->the_post();
-
-                        if( $articles->current_post >= 0 && $articles->current_post < 2 ) {
-                            get_template_part( 'templates/articles/article-1' );
-                        } else {
-                            get_template_part( 'templates/articles/article-2' );
-                        }
-                    }
+            //standard feed
+            global $wp_query;
+            while ( have_posts() ) {
+	            the_post();
+	            $current = $wp_query->current_post;
+	            if (($current>3 && $current<7) || ($current>10 && $current<14) ) {
+		            get_template_part( 'templates/articles/article-1' );
                 }
-                if ($pos2) {
-	                global $post;
-	                $p    = get_post( $pos2 );
-	                $post = $p;
+                else {
 	                get_template_part( 'templates/articles/article-2' );
                 }
-                wp_reset_postdata();
-                ?>
-            </div>
-            <div class="col col-2 midbar">
-                <?php
-                dynamic_sidebar('home_mid_2'); ?>
-            </div>
-            <div class="col col-3 sidebar">
-                <div class="right-bg"></div>
-                <?php
-                dynamic_sidebar('home-sidebar-2'); ?>
-            </div>
-        </div>
+
+                if (3 == $current) {
+                    //add first promo close first block, first break
+	                if ($pos1) {
+		                global $post;
+		                $p    = get_post( $pos1 );
+		                $post = $p;
+		                get_template_part( 'templates/articles/article-2' );
+	                }
+	                ?>
+                    </div>
+                    <div class="col col-2 midbar">
+		                <?php
+		                dynamic_sidebar('home_mid_1'); ?>
+                    </div>
+                    <div class="col col-3 sidebar">
+                        <div class="right-bg"></div>
+		                <?php
+		                dynamic_sidebar('home_sidebar_1'); ?>
+                    </div>
+                    </div>
+                    </div>
+
+	                <?php
+// GET MEGABREAK
+	                get_template_part('templates/layout/megabreak');
+	                get_template_part('templates/layout/megabillboard');
+	                ?>
+
+                    <div class="section-feed section-feed-2">
+                    <div class="container feed-container">
+                    <div class="col col-1 feed">
+                    <?php
+                }
+                if ($current == 10) {
+                    //add second promo, close second block and second break, open third block
+	                if ($pos2) {
+		                global $post;
+		                $p    = get_post( $pos2 );
+		                $post = $p;
+		                get_template_part( 'templates/articles/article-2' );
+	                }
+	                ?>
+                    </div>
+                    <div class="col col-2 midbar">
+		                <?php
+		                dynamic_sidebar('home_mid_2'); ?>
+                    </div>
+                    <div class="col col-3 sidebar">
+                        <div class="right-bg"></div>
+		                <?php
+		                dynamic_sidebar('home-sidebar-2'); ?>
+                    </div>
+                    </div>
+                    </div>
+
+                    <!-- MEGABREAK -->
+                    <div class="megabreak-container megabreak-2">
+
+		                <?php
+		                telegram_load_megabreak('break', 2);
+		                ?>
+
+                    </div>
+                    <!-- THIRD BLOCK -->
+                    <div class="section-feed section-feed-2">
+                    <div class="container feed-container">
+                    <div class="col col-1 feed">
+                    <?php
+                }
+            }
+            ?>
     </div>
-
-    <!-- MEGABREAK -->
-    <div class="megabreak-container megabreak-2">
-
-        <?php
-        telegram_load_megabreak('break', 2);
-         ?>
-
+    <div class="col col-2 midbar">
+    </div>
+    <div class="col col-3 sidebar">
+        <div class="right-bg"></div>
+    </div>
+    </div>
     </div>
 
 <?php
