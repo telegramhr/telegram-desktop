@@ -29,10 +29,6 @@ class Telegram_Price extends WP_Widget {
                         'post_status' => 'publish',
                         'cat' => 1402,
                         'meta_query' => [
-                            [
-                                'key' => '_zoninator_order_37784',
-                                'compare' => 'NOT EXISTS'
-                            ],
 	                        [
 		                        'key' => '_zoninator_order_37783',
 		                        'compare' => 'NOT EXISTS'

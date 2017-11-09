@@ -50,10 +50,6 @@ function telegram_main_query($query) {
 		    $query->set('posts_per_page', 18);
 		    $query->set('meta_query', [
 			    [
-				    'key' => '_zoninator_order_37784',
-				    'compare' => 'NOT EXISTS'
-			    ],
-			    [
 				    'key' => '_zoninator_order_37783',
 				    'compare' => 'NOT EXISTS'
 			    ],
