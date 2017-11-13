@@ -140,14 +140,6 @@ if( have_posts() ) {
 		    <?php
 		    $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'fullpage' ); ?>
             <div class="thumb" style="background-image: url(<?php echo $thumb['0']; ?>);">
-			    <?php
-			    // The Photographer
-			    if( telegram_get_photographer() ) { ?>
-                    <div class="photographer">
-                        Foto: <?php echo telegram_get_photographer() ?>
-                    </div>
-				    <?php
-			    }  ?>
                 <div class="overlay"></div>
             </div>
 
