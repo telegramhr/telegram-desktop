@@ -1687,6 +1687,13 @@ background-size: 100% 100%; */
   left: 50%;
   height: auto;
 }
+.single-price .single-content .the-content img.img-portrait {
+  width: 800px;
+  margin-left: -400px;
+  position: relative;
+  left: 50%;
+  height: auto;
+}
 .single-price .single-content .the-content figcaption {
   width: 100vw;
   margin-left: -50vw;

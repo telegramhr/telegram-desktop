@@ -2025,6 +2025,14 @@ article {
                 height: auto;
             }
 
+            img.img-portrait {
+                width: 800px;
+                margin-left: -400px;
+                position: relative;
+                left: 50%;
+                height: auto;
+            }
+
             figcaption {
                 width: 100vw;
                 margin-left: -50vw;
