@@ -7,7 +7,12 @@ jQuery(document).ready( function() {
     search();
     gallerySlide();
 
-    jQuery('.the-content img').each(function(i, o) {if (o.getAttribute('width')<o.getAttribute('height')){ jQuery(o).addClass('img-portrait'); } });
+    jQuery('.the-content img').each(function(i, o) {
+        if (o.getAttribute('width')<o.getAttribute('height')){
+            jQuery(o).addClass('img-portrait');
+            jQuery(o).parent().sibling('figcaption').addClass('img-portrait');
+        }
+    });
 });
 
 function stickyNav() {
