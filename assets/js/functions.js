@@ -6,6 +6,8 @@ jQuery(document).ready( function() {
     leftMenu();
     search();
     gallerySlide();
+
+    jQuery('.the-content img').each(function(i, o) {if (o.getAttribute('width')<o.getAttribute('height')){ jQuery(o).addClass('img-portrait'); } });
 });
 
 function stickyNav() {
