@@ -2033,6 +2033,11 @@ article {
                 height: auto;
             }
 
+            figcaption.img-portrait {
+                width: 800px;
+                margin-left: -400px;
+            }
+
             figcaption {
                 width: 100vw;
                 margin-left: -50vw;
