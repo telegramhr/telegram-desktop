@@ -47,7 +47,7 @@ function telegram_main_query($query) {
 	        $query->set('posts_per_page', 12);
         }
 	    if ($query->is_home()) {
-		    $query->set('posts_per_page', 18);
+		    $query->set('posts_per_page', 20);
 		    $query->set('meta_query', [
 			    [
 				    'key' => '_zoninator_order_37783',
@@ -56,14 +56,8 @@ function telegram_main_query($query) {
 			    [
 				    'key' => '_zoninator_order_37782',
 				    'compare' => 'NOT EXISTS'
-			    ],
-                [
-	                'key' => 'latest_off',
-	                'compare' => 'NOT EXISTS'
-                ]
+			    ]
 		    ]);
-		    $query->set('orderby','date');
-		    $query->set('order','DESC');
 
 		    $query->set('post__not_in', [
 			    get_post_meta(519214, 'break_1_article', true),

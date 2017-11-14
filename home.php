@@ -62,9 +62,13 @@ get_header(); ?>
 
             //standard feed
             global $wp_query;
+            $current = 0;
             while ( have_posts() ) {
 	            the_post();
-	            $current = $wp_query->current_post;
+	            $latest = get_post_meta(get_the_ID(), 'latest_off', true);
+	            if ($latest) {
+	                continue;
+                }
 	            if (($current>3 && $current<7) || ($current>10 && $current<14) ) {
 		            get_template_part( 'templates/articles/article-1' );
                 }
@@ -141,6 +145,10 @@ get_header(); ?>
                     <div class="col col-1 feed">
                     <?php
                 }
+                $current++;
+	            if ($current>18) {
+	                break;
+                }
             }
             ?>
     </div>
@@ -153,4 +161,6 @@ get_header(); ?>
     </div>
 
 <?php
+
+
 get_footer();
