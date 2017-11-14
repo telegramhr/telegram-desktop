@@ -58,7 +58,7 @@ function telegram_main_query($query) {
 				    'compare' => 'NOT EXISTS'
 			    ],
                 [
-	                'key' => 'latest',
+	                'key' => 'latest_off',
 	                'compare' => 'NOT EXISTS'
                 ]
 		    ]);
