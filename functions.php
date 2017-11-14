@@ -57,6 +57,12 @@ function telegram_main_query($query) {
 				    'key' => '_zoninator_order_37782',
 				    'compare' => 'NOT EXISTS'
 			    ],
+                [
+	                'key' => 'latest',
+	                'value' => 1,
+	                'compare' => '!=',
+	                'type' => 'BYNARY'
+                ]
 		    ]);
 		    $query->set('post__not_in', [
 			    get_post_meta(519214, 'break_1_article', true),
