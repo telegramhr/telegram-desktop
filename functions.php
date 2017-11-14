@@ -59,9 +59,7 @@ function telegram_main_query($query) {
 			    ],
                 [
 	                'key' => 'latest',
-	                'value' => 1,
-	                'compare' => '!=',
-	                'type' => 'BYNARY'
+	                'compare' => 'NOT EXISTS'
                 ]
 		    ]);
 		    $query->set('post__not_in', [
