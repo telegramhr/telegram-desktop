@@ -61,14 +61,37 @@ get_header(); ?>
             }
 
             //standard feed
-            global $wp_query;
+            global $wpdb;
             $current = 0;
+            $sql = "select meta_key, meta_value from wp_postmeta where post_id = %d and ( meta_key in ('_zoninator_order_37783', '_zoninator_order_37782', 'latest_off'))";
+            $break = [
+                get_post_meta(519214, 'break_1_article', true),
+                get_post_meta(519214, 'break_2_article', true)
+                ];
             while ( have_posts() ) {
 	            the_post();
-	            $latest = get_post_meta(get_the_ID(), 'latest_off', true);
-	            if ($latest) {
+	            if (in_array(get_the_ID(), $break)){
 	                continue;
                 }
+	            $metas = $wpdb->get_results($wpdb->prepare($sql, get_the_ID()), ARRAY_A);
+	            if ($metas) {
+	                $should_quit = false;
+	                foreach ($metas as $meta) {
+	                    if ($meta['meta_key'] === 'latest_off') {
+	                        if ($meta['meta_value'] == 1) {
+	                            $should_quit = true;
+	                            break;
+                            }
+                        }
+                        else {
+	                        $should_quit = true;
+	                        break;
+                        }
+                    }
+		            if ( $should_quit ) {
+			            continue;
+		            }
+	            }
 	            if (($current>3 && $current<7) || ($current>10 && $current<14) ) {
 		            get_template_part( 'templates/articles/article-1' );
                 }
