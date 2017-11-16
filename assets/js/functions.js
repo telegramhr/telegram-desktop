@@ -8,7 +8,7 @@ jQuery(document).ready( function() {
     gallerySlide();
 
     jQuery('.the-content img').each(function(i, o) {
-        if (o.getAttribute('width')<o.getAttribute('height')){
+        if (Number(o.getAttribute('width')) < Number(o.getAttribute('height'))){
             jQuery(o).addClass('img-portrait');
             jQuery(o).parent().siblings('figcaption').addClass('img-portrait');
         }
