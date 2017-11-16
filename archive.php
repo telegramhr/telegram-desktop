@@ -11,10 +11,7 @@ get_header(); ?>
 		<div class="container feed-container">
 			<div class="col col-1 feed" id="container">
 				<?php
-				$args      = array(
-					'post_status'    => 'publish'
-				);
-				//$articles  = new WP_Query( $args );
+				global $wp_query;
 				if ( have_posts() ) {
 					while ( have_posts() ) {
 						the_post();
@@ -26,10 +23,9 @@ get_header(); ?>
 						}
 					}
 				}
+
+				next_posts_link('Još Telegrama');
 				?>
-
-				<a href="<?php  echo next_posts() ?>" class="btn" id="load-more">Još Telegrama</a>
-
 			</div>
 			<div class="col col-2 midbar">
 				<?php

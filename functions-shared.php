@@ -1178,3 +1178,11 @@ function telegram_add_perex($content, $post_id) {
     }
     return $content;
 }
+
+add_filter( 'next_posts_link_attributes', 'telegram_next_posts_link_attributes', 10, 1 );
+
+function telegram_next_posts_link_attributes($attr) {
+    $attr = 'class="btn" id="load-more"';
+
+    return $attr;
+}

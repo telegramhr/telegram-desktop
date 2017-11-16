@@ -26,9 +26,8 @@ get_header(); ?>
                         }
                     }
                 }
+                next_posts_link('Još Telegrama');
                 ?>
-
-                <a href="<?php  echo next_posts() ?>" class="btn" id="load-more">Još Telegrama</a>
 
             </div>
             <div class="col col-2 midbar">
