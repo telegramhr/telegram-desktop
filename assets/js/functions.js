@@ -10,7 +10,7 @@ jQuery(document).ready( function() {
     jQuery('.the-content img').each(function(i, o) {
         if (Number(o.getAttribute('width')) < Number(o.getAttribute('height'))){
             jQuery(o).addClass('img-portrait');
-            jQuery(o).parent().siblings('figcaption').addClass('img-portrait');
+            jQuery(o).siblings('figcaption').addClass('img-portrait');
         }
     });
 });
