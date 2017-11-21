@@ -434,7 +434,10 @@ add_filter( "shortcode_atts_caption", 'telegram_img_caption_atts', 10, 3 );
 
 function telegram_img_caption_atts($out, $pairs, $atts ) {
 	$id = str_replace('attachment_', '', $out['id']);
-	$out['caption'] .= '&nbsp; <span class="right">'.telegram_get_photographer($id).'</span>';
+	$photo = telegram_get_photographer($id);
+	if ($photo) {
+		$out['caption'] .= '&nbsp; <span class="right">' . $photo . '</span>';
+	}
 	return $out;
 }
 
@@ -683,8 +686,13 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 
 	if ( $id ) $id = 'id="' . esc_attr($id) . '" ';
 
-	return '<figure ' . $id . 'class="wp-caption ' . esc_attr($align) . '">'
-	. do_shortcode( $content ) . '<i class="fa fa-search-plus"></i><figcaption class="wp-caption-text">' . $caption . '<span class="photographer">'.telegram_get_photographer($image_id).'</span></figcaption></figure>';
+	$photo = telegram_get_photographer($image_id);
+    if ($photo) {
+	    return '<figure ' . $id . 'class="wp-caption ' . esc_attr( $align ) . '">'
+	           . do_shortcode( $content ) . '<i class="fa fa-search-plus"></i><figcaption class="wp-caption-text">' . $caption . '<span class="photographer">' . $photo . '</span></figcaption></figure>';
+    }
+	return '<figure ' . $id . 'class="wp-caption ' . esc_attr( $align ) . '">'
+	       . do_shortcode( $content ) . '<i class="fa fa-search-plus"></i><figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>';
 }
 
 // Add Co-Authors fields
