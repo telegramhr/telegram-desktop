@@ -13,7 +13,8 @@ jQuery(document).ready( function() {
         }
         if (Number(o.getAttribute('width')) < Number(o.getAttribute('height'))){
             jQuery(o).addClass('img-portrait');
-            jQuery(o).siblings('figcaption').addClass('img-portrait');
+            jQuery(o).siblings('figcaption').addClass('img-portrait'); // without figure
+            jQuery(o).parent().siblings('figcaption').addClass('img-portrait'); //with figure
         }
     });
 });
