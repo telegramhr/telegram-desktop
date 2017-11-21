@@ -8,6 +8,9 @@ jQuery(document).ready( function() {
     gallerySlide();
 
     jQuery('.the-content img').each(function(i, o) {
+        if (jQuery(o).attr('src') === 'http://www.telegram.hr/wp-content/uploads/2017/10/Screen-Shot-2017-10-18-at-23.07.30.png') {
+            return;
+        }
         if (Number(o.getAttribute('width')) < Number(o.getAttribute('height'))){
             jQuery(o).addClass('img-portrait');
             jQuery(o).siblings('figcaption').addClass('img-portrait');

@@ -7,7 +7,7 @@ add_action( 'wp_enqueue_scripts', 'telegram_scripts' );
 
 
 function telegram_enqueue_styles() {
-    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('font-awesome', 'lora', 'pt-sans', 'slick', 'slick-theme'), '94870.23');
+    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('font-awesome', 'lora', 'pt-sans', 'slick', 'slick-theme'), '94891.84');
     /* Use [current stardate] as style version num */
 }
 
@@ -22,7 +22,7 @@ function telegram_scripts() {
     wp_register_script('sticky-kit', get_template_directory_uri() . '/assets/js/sticky_kit.min.js', array('jquery'), null, true);
     wp_register_script('colour-brightness', get_template_directory_uri() . '/assets/js/jquery.colourbrightness.min.js', array('jquery'), null, true);
 
-    wp_enqueue_script('telegram-script', get_template_directory_uri() . '/assets/js/functions.js', array('jquery', 'slick', 'colour-brightness', 'sticky-kit'), '94878.01', true);
+    wp_enqueue_script('telegram-script', get_template_directory_uri() . '/assets/js/functions.js', array('jquery', 'slick', 'colour-brightness', 'sticky-kit'), '94891.84', true);
 
 
 }
@@ -49,7 +49,6 @@ function telegram_main_query($query) {
 	    if ($query->is_home()) {
 		    $query->set('posts_per_page', 30);
 	    }
-	    $query->set('no_found_rows', true);
     }
 
 }
