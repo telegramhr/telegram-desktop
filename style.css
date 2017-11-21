@@ -1307,9 +1307,6 @@ background-size: 100% 100%; */
   border-bottom: 1px solid #ddd;
   font-family: "Lora", "Georgia", "Times New Roman", serif;
 }
-.single-body .single-content .content-container .the-content .aligncenter {
-  margin: 0 auto;
-}
 .single-body .single-content .content-container .the-content p:first-child:first-letter {
   font-size: 72px;
   margin: 18px 12px 15px 0;
