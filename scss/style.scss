@@ -860,6 +860,7 @@ article {
     .thumb {
         float: left;
         margin-right: 15px;
+        margin-bottom: 25px;
         width: 230px;
 
         .sticker {
@@ -878,6 +879,7 @@ article {
     .subtitle {
         font-size: 14px;
         line-height: 1.2em;
+        margin-bottom: 7px;
     }
 
     .article-cat {
@@ -898,9 +900,6 @@ article {
 
     .article-meta {
         color: $gray-3;
-        position: absolute;
-        bottom: 24px;
-        left: 245px;
 
         span:after {
             color: $gray-3;

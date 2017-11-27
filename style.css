@@ -722,6 +722,7 @@ article .subtitle {
 .article-2 .thumb {
   float: left;
   margin-right: 15px;
+  margin-bottom: 25px;
   width: 230px;
 }
 .article-2 .thumb .sticker {
@@ -737,6 +738,7 @@ article .subtitle {
 .article-2 .subtitle {
   font-size: 14px;
   line-height: 1.2em;
+  margin-bottom: 7px;
 }
 .article-2 .article-cat {
   margin-bottom: 15px;
@@ -754,9 +756,6 @@ article .subtitle {
 }
 .article-2 .article-meta {
   color: #666;
-  position: absolute;
-  bottom: 24px;
-  left: 245px;
 }
 .article-2 .article-meta span:after {
   color: #666;
