@@ -7,7 +7,7 @@ jQuery(document).ready( function() {
     search();
     gallerySlide();
 
-    jQuery('.the-content img').each(function(i, o) {
+    jQuery('.the-content img').not('.the-content .banner img').each(function(i, o) {
         if (jQuery(o).attr('src') === 'http://www.telegram.hr/wp-content/uploads/2017/10/Screen-Shot-2017-10-18-at-23.07.30.png') {
             return;
         }
