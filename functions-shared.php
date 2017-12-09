@@ -689,7 +689,7 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 	$photo = telegram_get_photographer($image_id);
     if ($photo) {
 	    return '<figure ' . $id . 'class="wp-caption ' . esc_attr( $align ) . '">'
-	           . do_shortcode( $content ) . '<i class="fa fa-search-plus"></i><figcaption class="wp-caption-text">' . $caption . '<span class="photographer">' . $photo . '</span></figcaption></figure>';
+	           . do_shortcode( $content ) . '<i class="fa fa-search-plus"></i><figcaption class="wp-caption-text">' . $caption . ' <span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
 	return '<figure ' . $id . 'class="wp-caption ' . esc_attr( $align ) . '">'
 	       . do_shortcode( $content ) . '<i class="fa fa-search-plus"></i><figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>';
