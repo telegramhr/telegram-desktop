@@ -774,7 +774,7 @@ function telegram_load_megabreak($size, $number) {
     }
     else if($article1){
 	    if (isset($meta[$size.'_'.$number.'_title'][0]) && $meta[$size.'_'.$number.'_title'][0]) {
-	        $subtitle = get_post_meta($article1, '_subtitle', true);
+	        $subtitle = get_post_meta($article1, 'subtitle', true);
         }
         else {
 	        $subtitle = get_the_title($article1);
