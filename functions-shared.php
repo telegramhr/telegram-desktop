@@ -99,15 +99,7 @@ function telegram_custom_sizes( $sizes ) {
 // load css and js
 function telegram_main_scripts() {
 	// Load our main stylesheet.
-	wp_register_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', array());
-	// Serif
-	wp_register_style('lora', 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext', array());
-	// Sans serif
-	wp_register_style('pt-sans', 'https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext', array());
-	// Oswald - for stickers
-	wp_register_style('oswald', 'https://fonts.googleapis.com/css?family=Oswald&ampsubset=latin-ext', array());
-
-//	wp_register_script('telegram-comparison', content_url('themes/telegram/js/comparison.js'), '20150514'); TODO: jel trebamo usporedbu?
+	wp_register_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', array(), '4.6.3' );
 
 	wp_register_style('slick', get_stylesheet_directory_uri() . '/assets/js/slick/slick.css');
 	wp_register_style('slick-theme', get_stylesheet_directory_uri().  '/assets/js/slick/slick-theme.css');
@@ -118,8 +110,19 @@ function telegram_main_scripts() {
 	wp_enqueue_script('vingd', 'https://subs.vingd.com/client/subs.js?pubid=telegram_hr', null, '20170928', true);
 
 	wp_deregister_script('jquery');
-	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1');
+	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1', true);
 
+    telegram_load_fonts();
+}
+
+function telegram_load_fonts() {
+    wp_enqueue_script('google-font-loader', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', [], '1.6.26');
+    $data = "WebFont.load({
+        google: {
+            families: ['Oswald:latin,latin-ext', 'PT Sans:400,700:latin,latin-ext', 'Lora:400,400i,700,700i:latin,latin-ext']
+        }
+    });";
+	wp_add_inline_script( 'google-font-loader', $data, 'after' );
 }
 
 add_action('wp_enqueue_scripts', 'telegram_main_scripts');
