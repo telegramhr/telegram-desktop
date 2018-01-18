@@ -13,12 +13,6 @@ function telegram_enqueue_styles() {
 
 function telegram_scripts() {
 
-	/**
-	 * Put shiv for old browsers
-	 */
-    wp_enqueue_script('html5-shiv', '//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js');
-	wp_style_add_data('html5-shiv', 'conditional', 'lt IE 9');
-
     wp_register_script('sticky-kit', get_template_directory_uri() . '/assets/js/sticky_kit.min.js', array('jquery'), null, true);
     wp_register_script('colour-brightness', get_template_directory_uri() . '/assets/js/jquery.colourbrightness.min.js', array('jquery'), null, true);
 

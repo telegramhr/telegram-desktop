@@ -663,8 +663,6 @@ function telegram_save_post_thumbnail($post_id, $post, $update) {
 	}
 }
 
-function disable_srcset( $sources ) { return false; } add_filter( 'wp_calculate_image_srcset', 'disable_srcset' );
-
 add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
 add_shortcode('caption', 'fixed_img_caption_shortcode');
 function fixed_img_caption_shortcode($attr, $content = null) {
