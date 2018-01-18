@@ -13,10 +13,7 @@ class Telegram_Comments extends WP_Widget {
         //ovdje ide sadržaj widgeta, cachirano
         if (get_field('iskljuci_komentare')==1) {
             return;
-        } ?>jQuery('.comments-activate').click( function() {
-        jQuery(this).hide();
-        jQuery('.comments-hide').show();
-        });
+        } ?>
         <div class="tg-comments-widget">
             <a class="comments-activate">
                 <i class="fa fa-plus"></i> Klikni i započni diskusiju
