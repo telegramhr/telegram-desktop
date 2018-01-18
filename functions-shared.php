@@ -99,7 +99,6 @@ function telegram_custom_sizes( $sizes ) {
 // load css and js
 function telegram_main_scripts() {
 	// Load our main stylesheet.
-	wp_register_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', array(), '4.6.3' );
 
 	wp_register_style('slick', get_stylesheet_directory_uri() . '/assets/js/slick/slick.css');
 	wp_register_style('slick-theme', get_stylesheet_directory_uri().  '/assets/js/slick/slick-theme.css');
@@ -118,6 +117,10 @@ function telegram_load_fonts() {
     $data = "WebFont.load({
         google: {
             families: ['Oswald:latin,latin-ext', 'PT Sans:400,700:latin,latin-ext', 'Lora:400,400i,700,700i:latin,latin-ext']
+        },
+        custom: { 
+            families: [ 'FontAwesome' ],
+            urls: [ 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'] 
         }
     });";
 	wp_add_inline_script( 'google-font-loader', $data, 'after' );
