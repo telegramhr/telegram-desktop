@@ -1194,3 +1194,12 @@ function telegram_next_posts_link_attributes($attr) {
 
     return $attr;
 }
+
+add_filter( 'coauthors_guest_author_avatar_sizes', 'telegram_avatar_sizes' );
+
+function telegram_avatar_sizes($sizes) {
+    $sizes = [
+            150, 200, 300,
+    ];
+    return $sizes;
+}

@@ -10,18 +10,10 @@ class Telegram_Trending extends WP_Widget {
     }
 
     public function widget( $args, $instance ) {
-        if ( is_front_page() ) {
+
             $cat = 'home';
             $no = $instance['num_home'];
-        }
-        else if (is_single()) {
-            $cat = get_the_category()[0]->term_id;
-            $no = $instance['num_single'];
-        }
-        else {
-            $cat = get_query_var('cat');
-            $no = $instance['num_cat'];
-        }
+
         $data = wp_cache_get('tg_trending_'.$cat.$no, 'widgets');
         if (!$data) {
 
@@ -74,8 +66,6 @@ class Telegram_Trending extends WP_Widget {
 
         //ovo je samo primjer za formu unutar admina
         $num_home  = empty( $instance['num_home'] ) ? '' : esc_attr( $instance['num_home'] );
-        $num_single  = empty( $instance['num_single'] ) ? '' : esc_attr( $instance['num_single'] );
-        $num_cat  = empty( $instance['num_cat'] ) ? '' : esc_attr( $instance['num_cat'] );
 
         ?>
         <p>
@@ -84,24 +74,6 @@ class Telegram_Trending extends WP_Widget {
                    value="<?php echo esc_attr( $num_home ); ?>">
             <label for="<?php echo esc_attr( $this->get_field_id( 'num_home' ) ); ?>">
                 <?php _e( 'Broj članaka na naslonvnici:', 'twentyfourteen' ); ?>
-            </label>
-        </p>
-
-        <p>
-            <input id="<?php echo esc_attr( $this->get_field_id( 'num_single' ) ); ?>"
-                   name="<?php echo esc_attr( $this->get_field_name( 'num_single' ) ); ?>" type="text"
-                   value="<?php echo esc_attr( $num_single ); ?>">
-            <label for="<?php echo esc_attr( $this->get_field_id( 'num_single' ) ); ?>">
-                <?php _e( 'Broj članaka na članku:', 'twentyfourteen' ); ?>
-            </label>
-        </p>
-
-        <p>
-            <input id="<?php echo esc_attr( $this->get_field_id( 'num_cat' ) ); ?>"
-                   name="<?php echo esc_attr( $this->get_field_name( 'num_cat' ) ); ?>" type="text"
-                   value="<?php echo esc_attr( $num_cat ); ?>">
-            <label for="<?php echo esc_attr( $this->get_field_id( 'num_cat' ) ); ?>">
-                <?php _e( 'Broj članaka na rubrikama:', 'twentyfourteen' ); ?>
             </label>
         </p>
 

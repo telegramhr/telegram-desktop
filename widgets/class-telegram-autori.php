@@ -24,14 +24,8 @@ class Telegram_Autori extends WP_Widget {
                     <?php
                     $post_num = $instance['num'];
                     if( !$post_num ) {
-                        $post_num = 5;
+                        $post_num = 7;
                     }
-                    $args = array(
-                        'posts_per_page' => $post_num,
-                        //'post__in' => get_transient('telegram_most_read'),
-                        //'orderby' => 'post__in',
-                        'post_type' => array('post', 'price', 'fotogalerije', 'video')
-                    );
                     //$articles = new WP_Query($args);
                     $articles = z_get_zone_query('autori', array('posts_per_page' => $post_num));
                     global $post_num;

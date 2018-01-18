@@ -111,12 +111,15 @@ get_header(); ?>
                     </div>
                     <div class="col col-2 midbar">
 		                <?php
-		                dynamic_sidebar('home_mid_1'); ?>
+		                the_widget('Telegram_Trending', array('num_home' => 13));
+		                ?>
                     </div>
                     <div class="col col-3 sidebar">
                         <div class="right-bg"></div>
 		                <?php
-		                dynamic_sidebar('home_sidebar_1'); ?>
+		                dynamic_sidebar('home_sidebar_1');
+		                the_widget('Telegram_Banner', array('size' => '300x250-1'));
+		                ?>
                     </div>
                     </div>
                     </div>

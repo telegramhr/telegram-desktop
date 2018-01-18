@@ -22,7 +22,7 @@ if( have_posts() ) {
                     <?php
                     foreach (get_coauthors() as $author) { ?>
                         <div class="author-thumb">
-                            <?php echo coauthors_get_avatar($author, 'thumbnail'); ?>
+                            <?php echo coauthors_get_avatar($author, 150); ?>
                         </div>
                     <?php } ?>
                     <span class="author">

@@ -25,7 +25,7 @@ class Telegram_Podijeli_Clanak extends WP_Widget {
                         <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
                             <?php
                             if( coauthors_get_avatar($author) ) {
-                                echo coauthors_get_avatar($author, 'thumbnail');
+                                echo coauthors_get_avatar($author, 150);
                             } else {
                                 ?>
                                 <div class="initials">

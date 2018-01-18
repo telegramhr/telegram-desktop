@@ -15,7 +15,7 @@
                 <?php
                 foreach (get_coauthors() as $author) { ?>
                     <div class="author-thumb">
-                        <?php echo coauthors_get_avatar($author, array(200,200)); ?>
+                        <?php echo coauthors_get_avatar($author,200); ?>
                     </div>
                     <div class="author-name">
                         <div class="first-name">
