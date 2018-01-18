@@ -19,6 +19,7 @@ jQuery(document).ready( function() {
     });
 
     whiteLogo();
+    comments();
 });
 
 function stickyNav() {
@@ -109,4 +110,11 @@ function whiteLogo() {
             jQuery('body').addClass('light');
         }
     }
+}
+
+function comments() {
+    jQuery('.comments-activate').click( function() {
+        jQuery(this).hide();
+        jQuery('.comments-hide').show();
+    });
 }
