@@ -17,6 +17,8 @@ jQuery(document).ready( function() {
             jQuery(o).parent().siblings('figcaption').addClass('img-portrait'); //with figure
         }
     });
+
+    whiteLogo();
 });
 
 function stickyNav() {
@@ -90,5 +92,21 @@ function gallerySlide() {
             jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (gallery_captions.length));
         });
         jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
+    }
+}
+
+function whiteLogo() {
+    if (typeof(window.white_logo) !== 'undefined' && window.white_logo) {
+        //TODO better solution
+        var target = '.single-price .single-head .thumb img';
+        if ( jQuery(target).length ) {
+            jQuery(target).colourBrightness();
+            if ( jQuery(target).hasClass('light') ) {
+                jQuery('body').addClass('light');
+            }
+        }
+        if( jQuery('.single-head').hasClass('no-img') ) {
+            jQuery('body').addClass('light');
+        }
     }
 }

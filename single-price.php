@@ -175,16 +175,7 @@ if( have_posts() ) {
         // namjesti automatski prema svjetlini slike
         if( !get_field('white_logo') ) { ?>
         <script type="text/javascript">
-            var target = '.single-price .single-head .thumb img';
-            if ( jQuery(target).length ) {
-                jQuery(target).colourBrightness();
-                if ( jQuery(target).hasClass('light') ) {
-                    jQuery('body').addClass('light');
-                }
-            }
-            if( jQuery('.single-head').hasClass('no-img') ) {
-                jQuery('body').addClass('light');
-            }
+            window.white_logo = true
         </script>
         <?php } ?>
 
