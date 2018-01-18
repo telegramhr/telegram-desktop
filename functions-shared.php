@@ -117,6 +117,9 @@ function telegram_main_scripts() {
 
 	wp_enqueue_script('vingd', 'https://subs.vingd.com/client/subs.js?pubid=telegram_hr', null, '20170928', true);
 
+	wp_deregister_script('jquery');
+	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1');
+
 }
 
 add_action('wp_enqueue_scripts', 'telegram_main_scripts');
