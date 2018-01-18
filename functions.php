@@ -50,7 +50,7 @@ function telegram_main_query($query) {
 add_filter('the_content', 'telegram_price_content');
 
 function telegram_price_content($content){
-    if (is_amp_endpoint()) {
+    if (is_amp_endpoint() || get_query_var('audit')) {
         return $content;
     }
     if (is_single()) {

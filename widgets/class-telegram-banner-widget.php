@@ -232,6 +232,9 @@ class Telegram_Banner_Widget extends WP_Widget {
 	}
 
 	public function widget( $args, $instance ) {
+		if (get_query_var('audit')) {
+			return false;
+		}
 		$category = isset( $instance['category']) ? $instance['category'] : '';
 		$size = isset( $instance['size'] ) ? $instance['size'] : '300x250-1';
 
