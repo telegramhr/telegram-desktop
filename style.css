@@ -1668,6 +1668,9 @@ background-size: 100% 100%; */
 .single-price .single-content .content-container .left-share {
   top: 80px;
 }
+.single-price .single-content .content-container .video-js {
+  width: 100%;
+}
 .single-price .single-content .the-content {
   left: -80px;
 }
