@@ -1338,6 +1338,9 @@ background-size: 100% 100%; */
 .single-body .single-content .content-container .the-content a:hover {
   border-bottom: 2px solid transparent;
 }
+.single-body .single-content .content-container .the-content .video-js {
+  width: 100%;
+}
 .single-body .single-content .content-container > iframe {
   margin: 10px auto 30px !important;
   max-width: 100%;
@@ -1667,9 +1670,6 @@ background-size: 100% 100%; */
 }
 .single-price .single-content .content-container .left-share {
   top: 80px;
-}
-.single-price .single-content .content-container .video-js {
-  width: 100%;
 }
 .single-price .single-content .the-content {
   left: -80px;

@@ -7,7 +7,7 @@ add_action( 'wp_enqueue_scripts', 'telegram_scripts' );
 
 
 function telegram_enqueue_styles() {
-    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('slick', 'slick-theme'), '95070.06');
+    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('slick', 'slick-theme'), '95070.07');
     /* Use [current stardate] as style version num */
 }
 

@@ -1592,6 +1592,10 @@ article {
                         border-bottom: 2px solid transparent;
                     }
                 }
+
+                .video-js {
+                  width: 100%;
+                }
             }
 
             & > iframe {
@@ -2004,10 +2008,6 @@ article {
 
             .left-share {
                 top: 80px;
-            }
-
-            .video-js {
-                width: 100%;
             }
         }
 
