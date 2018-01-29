@@ -948,6 +948,7 @@ function telegram_og_graph_tags( $tags ) {
 	$tags['fb:pages'] = '688325737947866';
 	if ( is_single() ) {
 		$tags['article:publisher'] = 'https://www.facebook.com/www.telegram.hr/';
+		$tags['article:author'] = 'https://www.facebook.com/www.telegram.hr/';
 		$title = get_post_meta(get_the_ID(), 'title', true);
 		if ( $title ) {
 			$tags['og:title'] = wp_kses( $title, array() );
