@@ -75,19 +75,13 @@ function telegram_price_content($content){
             $new_line = "\n";
             $parts   = explode( $new_line, $content, 7 );
             $return_content = '';
-            for ( $i = 0; $i <= count( $parts ); $i++ ) {
+            for ( $i = 0; $i < count( $parts ); $i++ ) {
                 $return_content .= $parts[$i] . $new_line;
                 if ( 1 == $i ) {
                     ob_start();
                     the_widget( 'Telegram_Banner_Widget', array( 'size' => 'intext' ) );
                     $ad = ob_get_clean();
                     $return_content .= $ad . $new_line;
-                }
-                if ( 2 == $i ) {
-                    ob_start();
-                    the_widget( 'Telegram_Perun_Banner' );
-                    $perun = ob_get_clean();
-                    $return_content .= $perun . $new_line;
                 }
                 if ( 5 == $i ) {
                     ob_start(); ?>
