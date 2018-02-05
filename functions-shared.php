@@ -1209,3 +1209,9 @@ function telegram_avatar_sizes($sizes) {
     ];
     return $sizes;
 }
+
+add_filter('set_url_schema', 'telegram_schema');
+
+function telegram_schema($url) {
+    return str_replace('http://', 'https://', $url);
+}

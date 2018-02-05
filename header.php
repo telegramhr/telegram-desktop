@@ -18,6 +18,7 @@
 <?php
 // Check article format
 $format = intval(get_post_meta( get_the_ID(), 'telegram_expanded', true ));
+$format_class = '';
 if( $format == 4 ) {
     $format_class = 'no-img-format';
 }
@@ -88,4 +89,4 @@ if( $format == 4 ) {
             </div>
         </div>
         <?php
-    } 
+    }
