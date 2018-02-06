@@ -503,7 +503,7 @@ function telegram_trim($content) {
 	//add _blank to all outgoing links
     $content = preg_replace_callback('/]*href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function($m) {
         if (strpos($m[1], "www.telegram.hr") === false)
-            return '<a href="'.$m[1].'" rel="nofollow" target="_blank">'.$m[2].'</a>';
+            return '<a href="'.$m[1].'" target="_blank">'.$m[2].'</a>';
         else
             return '<a href="'.$m[1].'">'.$m[2].'</a>';
     }, $content);
