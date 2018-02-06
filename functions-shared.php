@@ -499,7 +499,15 @@ function telegram_trim($content) {
 		$content = str_replace("&nbsp;", '', $content, $count );
 		$content = trim($content);
 	}
-	//$content .= '<div class="ender"><img src="'.get_template_directory_uri().'/assets/img/tg-logo-red.svg"/></div>';
+
+	//add _blank to all outgoing links
+    $content = preg_replace_callback('/]*href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function($m) {
+        if (strpos($m[1], "www.telegram.hr") === false)
+            return '<a href="'.$m[1].'" rel="nofollow" target="_blank">'.$m[2].'</a>';
+        else
+            return '<a href="'.$m[1].'">'.$m[2].'</a>';
+    }, $content);
+
 	return $content;
 }
 
