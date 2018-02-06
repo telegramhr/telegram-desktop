@@ -11,7 +11,11 @@
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+    <?php
+        if (is_front_page()) {
+            ?><meta name="description" content="Portal za društvena i kulturna pitanja. I svijet koji dolazi."><?php
+        }
+    ?>
     <?php wp_head(); ?>
 </head>
 
