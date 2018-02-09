@@ -63,7 +63,7 @@ get_header(); ?>
             //standard feed
             global $wpdb;
             $current = 0;
-            $sql = "select meta_key, meta_value from wp_postmeta where post_id = %d and ( meta_key in ('_zoninator_order_37782', 'latest_off'))";
+            $sql = "select meta_key, meta_value from wp_postmeta where post_id = %d and ( meta_key in ('_zoninator_order_37783', 'latest_off'))";
             $break = [
                 get_post_meta(519214, 'break_1_article', true)[0],
                 get_post_meta(519214, 'break_2_article', true)[0]
