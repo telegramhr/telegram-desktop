@@ -29,12 +29,6 @@ class Telegram_Command extends WP_CLI_Command {
 					$face = intval( $body['engagement']['reaction_count'] ) + intval( $body['engagement']['comment_count'] ) + intval( $body['engagement']['share_count'] ) + intval( $body['engagement']['comment_plugin_count'] );
 					update_post_meta( $id, '_face_recommendations', $face );
 					$total   = intval( $face );
-					$request = wp_remote_get( 'http://urls.api.twitter.com/1/urls/count.json?url=' . rawurlencode( $url ) );
-					if ( ! is_wp_error( $request ) ) {
-						$body = json_decode( $request['body'], true );
-						update_post_meta( $id, '_tweet_recommendations', intval( $body['count'] ) );
-						$total += intval( $body['count'] );
-					}
 					if ( intval( $total ) ) {
 						if ($id == 508451) {
 							$total += 147;

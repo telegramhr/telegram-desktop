@@ -45,7 +45,7 @@ class Telegram_Importer {
 			"access_token" => "vjAH5wZKTthQ#)jSZaUu#QiD@GwsOzO9ClAo^)I^gYZ6Re3FsCaIfSg5t3(#!Ck8",
     "token_type" => "bearer",
     "blog_id" => "90557224",
-    "blog_url" =>  "http://adriaticmedianethr.wordpress.com",
+    "blog_url" =>  "https://adriaticmedianethr.wordpress.com",
     "scope" => ""
 ];
 
