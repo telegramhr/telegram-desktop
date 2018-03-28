@@ -839,7 +839,7 @@ function telegram_amt_image_size($size) {
 
 //remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
-add_action('pre_get_posts', 'telegram_instant_pre_get');
+//add_action('pre_get_posts', 'telegram_instant_pre_get');
 function telegram_instant_pre_get($query) {
 	if ( $query->is_main_query() && $query->is_feed( INSTANT_ARTICLES_SLUG ) ) {
 		$query->set( 'post_status', 'published' );
@@ -916,8 +916,8 @@ add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 1, 2 );
 
 function telegram_amp_fonts($data, $post) {
     $data['font_urls'] = array(
-	    'lora' => 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext',
-	    'ptsans' => 'https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext'
+	    'lora' => 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&subset=latin-ext',
+	    'ptsans' => 'https://fonts.googleapis.com/css?family=PT Sans:400,700&subset=latin-ext'
     );
 	return $data;
 }
