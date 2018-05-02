@@ -3,6 +3,7 @@
 
 require_once ('plugins/gallery.php');
 require_once ('plugins/shortcodes.php');
+require_once ('plugins/special.php');
 remove_action('wp_footer', 'jetpack_mobile_available');
 remove_action( 'do_pings', 'do_all_pings' );
 
