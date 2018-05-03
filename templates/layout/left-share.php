@@ -13,7 +13,7 @@
     </div>
 
     <div class="mail">
-        <a href="mailto:?Subject=Pogledaj ovaj članak s Telesporta&body:<?php the_permalink(); ?>"><i class="fa fa-envelope"></i></a>
+        <a href="mailto:?Subject=Pogledaj ovaj članak s Telegrama&body:<?php the_permalink(); ?>"><i class="fa fa-envelope"></i></a>
     </div>
 
 </div>
