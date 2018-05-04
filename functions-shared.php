@@ -328,7 +328,8 @@ function telegram_pre_get_posts($query) {
 				$query->set( 'post_type', array(
 					'post',
 					'price',
-					'video'
+					'video',
+                    'partneri'
 				) );
 			}
 		}
@@ -346,7 +347,8 @@ function telegram_pre_get_posts($query) {
 				'post',
 				'fotogalerije',
 				'video',
-				'price'
+				'price',
+                'partneri'
 			) );
 			$query->set('no_found_rows', true);
 		}
