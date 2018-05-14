@@ -7,12 +7,12 @@ get_header(); ?>
 
     <div class="zones container">
         <?php
-        the_widget('Telegram_Banner_Widget', array('size' => 'billboard1')); ?>
+        the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v1')); ?>
         <div class="wallpapers">
             <?php
             // Wallpapers
-            the_widget('Telegram_Banner_Widget', array('size' => 'wallpaper-left'));
-            the_widget('Telegram_Banner_Widget', array('size' => 'wallpaper-right')); ?>
+            the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_wallpaper_left'));
+            the_widget('Telegram_Banner_Widget', array('size' => 'telegram_dekstop_wallpaper_right')); ?>
         </div>
     </div>
     <?php
@@ -118,7 +118,7 @@ get_header(); ?>
                         <div class="right-bg"></div>
 		                <?php
 		                dynamic_sidebar('home_sidebar_1');
-		                the_widget('Telegram_Banner', array('size' => '300x250-1'));
+		                //the_widget('Telegram_Banner', array('size' => 'telegram_desktop_300x250_v1'));
 		                ?>
                     </div>
                     </div>

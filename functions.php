@@ -67,7 +67,7 @@ function telegram_price_content($content){
         if (get_post_type() == 'price') {
             $content = explode( "\n", $content, 2 );
             ob_start();
-            the_widget( 'Telegram_Banner_Widget', array( 'size' => '300x250-1' ) );
+            the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_300x250_v1' ) );
             $ad      = ob_get_clean();
             $content = $content[0] . $ad . $content[1];
         }
@@ -79,36 +79,28 @@ function telegram_price_content($content){
                 $return_content .= $parts[$i] . $new_line;
                 if ( 1 == $i ) {
                     ob_start();
-                    the_widget( 'Telegram_Banner_Widget', array( 'size' => 'intext' ) );
+                    the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
                     $ad = ob_get_clean();
                     $return_content .= $ad . $new_line;
                 }
                 if ( 5 == $i ) {
-                    ob_start(); ?>
-                    <div id="div-gpt-ad-1481290260977-0" class="adsense" style="width:100%; text-align:center;">
-                        <script>
-                            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1481290260977-0"); });
-                        </script>
-                    </div><?php
-                    $adx = ob_get_clean();
-                    $return_content .= $adx . $new_line;
+	                ob_start();
+	                the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v3' ) );
+	                $ad = ob_get_clean();
+	                $return_content .= $ad . $new_line;
                 }
             }
-            $adx1 = '<div id=\'div-gpt-ad-1481715328507-0\' class="adsense" style=\'width:100%; text-align:center;\'>
-<script>
-googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1481715328507-0\'); });
-</script>
-</div>';
+	        //ob_start();
+	        //the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v1' ) );
+	        //$adx1 = ob_get_clean();
             //append after lead
             //$return_content = preg_replace( '/<\/h4>/', '</h4>'.$adx1, $return_content, 1);
 
             //append to end of content
-            $adx3 = '<div id=\'div-gpt-ad-1481624513653-0\' class="adsense" style=\'width:100%; text-align:center\'>
-<script>
-googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1481624513653-0\'); });
-</script>
-</div>';
-            $return_content .= $new_line . $adx3;
+	        ob_start();
+	        the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v4' ) );
+	        $ad = ob_get_clean();
+	        $return_content .= $ad . $new_line;
             $content = $return_content;
         }
         // Mladen Pleše fix

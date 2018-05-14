@@ -89,7 +89,7 @@ if( have_posts() ) {
         <div class="single-head no-img">
 
             <div class="zones">
-                <?php the_widget('Telegram_Banner_Widget', array('size' => 'billboard1')); ?>
+                <?php the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v1')); ?>
             </div>
 
             <div class="titles">
@@ -182,13 +182,13 @@ if( have_posts() ) {
         <div class="zones container">
             <?php
             if( $format != 4 ) {
-                the_widget('Telegram_Banner_Widget', array('size' => 'billboard1'));
+                the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v1'));
             } ?>
             <div class="wallpapers">
                 <?php
                 // Wallpapers
-                the_widget('Telegram_Banner_Widget', array('size' => 'wallpaper-left'));
-                the_widget('Telegram_Banner_Widget', array('size' => 'wallpaper-right')); ?>
+                the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_wallpaper_left'));
+                the_widget('Telegram_Banner_Widget', array('size' => 'telegram_dekstop_wallpaper_right')); ?>
             </div>
         </div>
 
