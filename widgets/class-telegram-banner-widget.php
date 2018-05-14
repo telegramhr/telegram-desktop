@@ -10,10 +10,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 	}
 
 	public function widget( $args, $instance ) {
-		if (get_query_var('audit')) {
-			return false;
-		}
-		$id = $args['size'];
+		$id = $instance['size'];
 			switch ( $id ) {
 				case 'telegram_desktop_billboard_v1':
 				case 'telegram_desktop_billboard_v2':
