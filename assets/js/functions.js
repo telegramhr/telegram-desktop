@@ -47,7 +47,8 @@ function stickyElements() {
         offset_top: 100
     });
     jQuery('.wallpapers').stick_in_parent({
-        parent: '.main-container'
+        parent: '.main-container',
+        spacer: false
     });
 }
 
