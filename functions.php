@@ -79,13 +79,13 @@ function telegram_price_content($content){
                 $return_content .= $parts[$i] . $new_line;
                 if ( 1 == $i ) {
                     ob_start();
-                    the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
+                    the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v1' ) );
                     $ad = ob_get_clean();
                     $return_content .= $ad . $new_line;
                 }
                 if ( 5 == $i ) {
 	                ob_start();
-	                the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v3' ) );
+	                the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
 	                $ad = ob_get_clean();
 	                $return_content .= $ad . $new_line;
                 }
@@ -98,7 +98,7 @@ function telegram_price_content($content){
 
             //append to end of content
 	        ob_start();
-	        the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v4' ) );
+	        the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v3' ) );
 	        $ad = ob_get_clean();
 	        $return_content .= $ad . $new_line;
             $content = $return_content;
