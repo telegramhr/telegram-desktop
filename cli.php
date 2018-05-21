@@ -7,7 +7,7 @@ class Telegram_Command extends WP_CLI_Command {
 		while ($page < 15) {
 			$q = new WP_Query( array(
 				'post_status'    => 'publish',
-				'post_type'      => array( 'post', 'price', 'partneri' ),
+				'post_type'      => array( 'post', 'price', 'partneri', 'fotogalerije', 'video' ),
 				'posts_per_page' => 50,
 				'paged'           => $page
 			) );
