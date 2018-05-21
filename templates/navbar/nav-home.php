@@ -12,7 +12,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/telegram_logo.svg" width="770" align="Telegram.hr"/>
         </a>
         <div class="hero-claim">
-            Portal za društvena i kulturna pitanja. I svijet koji dolazi.
+            Dan zaštite prirode powered by <img style="display: inline-block" src="<?php echo get_template_directory_uri(); ?>/assets/temp/hep_logo.svg" width="60" />
         </div>
     </div>
     <?php /*
