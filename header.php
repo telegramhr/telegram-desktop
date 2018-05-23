@@ -48,6 +48,85 @@ if( $format == 4 ) {
 <body <?php body_class($format_class); ?> id="top">
 <?php do_action('telegram_body_start'); ?>
 
+<div class="disclaimer">
+    <div class="container">
+        <i class="fa fa-empire"></i>
+        <div class="disclaimer-text">
+            <div class="disclaimer-title">
+                Pravilnik upotrebi kolačića
+            </div>
+            Portal Telegram.hr nedavno je unaprijedio svoja pravila o privatnosti i korištenju takozvanih cookiesa, u skladu s novom europskom regulativom. Cookiese koristimo kako bismo mogli pružati našu online uslugu, analizirati korištenje sadržaja, nuditi oglašivačka rješenja, kao i za ostale funkcionalnosti koje ne bismo mogli pružati bez cookiesa. Daljnjim korištenjem ovog portala pristajete na korištenje cookiesa. Ovdje možete saznati više o <a href="#">zaštiti privatnosti i postavkama cookiesa</a>.
+        </div>
+        <div class="disclaimer-btn">
+            <a href="#" class="dsc-btn">Slažem se</a>
+        </div>
+
+    </div>
+    <style>
+        .disclaimer {
+            display: none;
+            background: black;
+            color: white;
+            padding: 80px 0;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+
+        .disclaimer a:not(.dsc-btn) {
+            text-decoration: underline;
+        }
+
+        .disclaimer .container {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+
+        .disclaimer i {
+            position: absolute;
+            top: 5px;
+            font-size: 72px;
+            left: -80px;
+            color: #333;
+        }
+
+        .disclaimer-title {
+            font-family: "Fjalla One CRO", Impact, sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .disclaimer-text {
+            padding-right: 20px;
+        }
+
+        .disclaimer-btn {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: 1px solid #333;
+            padding-left: 20px;
+        }
+
+        .dsc-btn {
+            display: inline-block;
+            text-transform: uppercase;
+            font-family: "Fjalla One CRO", Impact, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            background: #813f9d;
+            padding: 6px 0;
+            width: 150px;
+        }
+
+        .dsc-btn:hover {
+            background: #5d356e;
+        }
+    </style>
+</div>
+
 <?php
     /* NAVIGATION
      * Default Menu:    nav-small
