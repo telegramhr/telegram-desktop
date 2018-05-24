@@ -1226,3 +1226,10 @@ add_filter('set_url_schema', 'telegram_schema');
 function telegram_schema($url) {
     return str_replace('http://', 'https://', $url);
 }
+
+add_filter('body_class', 'telegram_body_class');
+
+function telegram_body_class($classes) {
+    $classes[] = 'tmg-no-cookie';
+    return $classes;
+}

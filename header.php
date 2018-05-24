@@ -55,10 +55,10 @@ if( $format == 4 ) {
             <div class="disclaimer-title">
                 Pravilnik upotrebi kolačića
             </div>
-            Portal Telegram.hr nedavno je unaprijedio svoja pravila o privatnosti i korištenju takozvanih cookiesa, u skladu s novom europskom regulativom. Cookiese koristimo kako bismo mogli pružati našu online uslugu, analizirati korištenje sadržaja, nuditi oglašivačka rješenja, kao i za ostale funkcionalnosti koje ne bismo mogli pružati bez cookiesa. Daljnjim korištenjem ovog portala pristajete na korištenje cookiesa. Ovdje možete saznati više o <a href="#">zaštiti privatnosti i postavkama cookiesa</a>.
+            Portal Telegram.hr unaprijedio je politiku privatnosti i korištenja takozvanih cookiesa, u skladu s novom europskom regulativom. Cookiese koristimo kako bismo mogli pružati našu online uslugu, analizirati korištenje sadržaja, nuditi oglašivačka rješenja, kao i za ostale funkcionalnosti koje ne bismo mogli pružati bez cookiesa. Daljnjim korištenjem ovog portala pristajete na korištenje cookiesa. Ovdje možete saznati više o <a href="https://www.telegram.hr/pravila-privatnosti/">zaštiti privatnosti</a> i <a href="https://www.telegram.hr/politika-o-cookiejima/">postavkama cookiesa</a>
         </div>
         <div class="disclaimer-btn">
-            <a href="#" class="dsc-btn">Slažem se</a>
+            <a href="#" onclick="tmg_hide_disclaimer()" class="dsc-btn">Shvaćam</a>
         </div>
 
     </div>
@@ -124,7 +124,28 @@ if( $format == 4 ) {
         .dsc-btn:hover {
             background: #5d356e;
         }
+
+        .tmg-no-cookie .disclaimer {
+            display: block;
+        }
     </style>
+    <script>
+        function tmg_hide_disclaimer() {
+            document.body.className = document.body.className.replace(/\btmg-no-cookie\b/,'');
+            return false;
+        }
+        if (document.cookie.indexOf("tmg_visited=") >= 0) {
+            tmg_hide_disclaimer();
+        }
+        else {
+            // set a new cookie
+            expiry = new Date();
+            expiry.setTime(expiry.getTime()+(365*24*60*60*1000)); // 1 year
+
+            // Date()'s toGMTSting() method will format the date correctly for a cookie
+            document.cookie = "tmg_visited=yes; domain=.telegram.hr; path=/; expires=" + expiry.toGMTString();
+        }
+    </script>
 </div>
 
 <?php
