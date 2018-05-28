@@ -119,4 +119,4 @@ function comments() {
         jQuery(this).hide();
         jQuery('.comments-hide').show();
     });
-}
+}
