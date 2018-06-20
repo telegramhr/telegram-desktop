@@ -22,6 +22,9 @@ class Telegram_Banner_Widget extends WP_Widget {
 					<?php
 					break;
 				case 'telegram_desktop_wallpaper_left':
+				    if (is_single() && get_post_type() === 'price'){
+				        return '';
+                    }
 						?>
 						<div class="wallpaper wallpaper-left fixed">
 
@@ -31,6 +34,9 @@ class Telegram_Banner_Widget extends WP_Widget {
 					<?php
 					break;
 				case 'telegram_dekstop_wallpaper_right':
+					if (is_single() && get_post_type() === 'price'){
+						return '';
+					}
 						?>
 						<div class="wallpaper wallpaper-right fixed">
 
