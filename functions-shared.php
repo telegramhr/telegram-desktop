@@ -329,7 +329,8 @@ function telegram_pre_get_posts($query) {
 					'post',
 					'price',
 					'video',
-                    'partneri'
+                    'partneri',
+					'fotogalerije',
 				) );
 			}
 		}
