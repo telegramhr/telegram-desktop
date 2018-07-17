@@ -270,12 +270,12 @@ function get_excerpt($content, $limit) {
     $stripped = strip_tags($excerpt);
 
     if (strlen($stripped) > $limit) {
-        $trimmed = rtrim(substr($stripped, 0, $limit));
+        $trimmed = rtrim(mb_substr($stripped, 0, $limit));
         $new_excerpt_array = explode(' ', $trimmed);
         $last_word = array_pop($new_excerpt_array);
         $forbidden = array('.', ',', '?', '!', ':', ';');
-        if (in_array(substr($last_word, -1), $forbidden)) {
-            $last_word = substr($last_word, 0, strlen($last_word) - 1);
+        if (in_array(mb_substr($last_word, -1), $forbidden)) {
+            $last_word = mb_substr($last_word, 0, strlen($last_word) - 1);
         }
         array_push($new_excerpt_array, $last_word);
         $new_excerpt = implode(' ', $new_excerpt_array) . '...';
