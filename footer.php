@@ -32,8 +32,6 @@
 
 <?php
 wp_footer();
-// Floater & Scripts
-the_widget('Telegram_Banner_Widget', array('size' => 'floater'));
-the_widget('Telegram_Banner_Widget', array('size' => 'skripte')); ?>
+?>
 </body>
 </html>
