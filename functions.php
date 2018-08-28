@@ -73,7 +73,7 @@ function telegram_price_content($content){
         }
         else if ( get_post_type() == 'post' ) {
             $new_line = "\n";
-            $parts   = explode( $new_line, $content, 7 );
+            $parts   = explode( $new_line, $content, 10 );
             $return_content = '';
             for ( $i = 0; $i < count( $parts ); $i++ ) {
                 $return_content .= $parts[$i] . $new_line;
