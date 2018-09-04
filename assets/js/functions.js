@@ -93,6 +93,7 @@ function gallerySlide() {
         }).on('afterChange', function (event, slick, currentSlide) {
             jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (gallery_captions.length));
             ga('send', 'pageview');
+            pp_gemius_hit(pp_gemius_identifier);
         });
         jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
     }
@@ -119,4 +120,4 @@ function comments() {
         jQuery(this).hide();
         jQuery('.comments-hide').show();
     });
-}
+}
