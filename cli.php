@@ -27,6 +27,9 @@ class Telegram_Command extends WP_CLI_Command {
 						return;
 					}
 					$face = intval( $body['engagement']['reaction_count'] ) + intval( $body['engagement']['comment_count'] ) + intval( $body['engagement']['share_count'] ) + intval( $body['engagement']['comment_plugin_count'] );
+					if (  $id === 612167 && $face < 67) {
+						$face = 67;
+					}
 					update_post_meta( $id, '_face_recommendations', $face );
 					$total   = intval( $face );
 					if ( intval( $total ) ) {
