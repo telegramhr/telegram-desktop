@@ -29,12 +29,13 @@ if( have_posts() ) {
 		                        ?>
                                 Piše: <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
 		                        <?php
-		                        if ( telegram_get_photographer() ) {
-			                        ?>
-                                    | Snima: <?php echo telegram_get_photographer(); ?>
-			                        <?php
-		                        }
-	                        } ?>
+	                        }
+	                        if ( telegram_get_photographer() ) {
+		                        ?>
+                                | Snima: <?php echo telegram_get_photographer(); ?>
+		                        <?php
+	                        }
+	                        ?>
                         </div>
 
                         <h1 class="title">
@@ -64,12 +65,14 @@ if( have_posts() ) {
                             ?>
                             Piše: <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
                             <?php
-                            if ( telegram_get_photographer() ) {
-                                ?>
-                                 | Snima: <?php echo telegram_get_photographer(); ?>
-                                <?php
-                            }
-                        } ?>
+
+                        }
+                        if ( telegram_get_photographer() ) {
+	                        ?>
+                            | Snima: <?php echo telegram_get_photographer(); ?>
+	                        <?php
+                        }
+                        ?>
                     </div>
 
                     <h1 class="title">
@@ -152,10 +155,12 @@ if( have_posts() ) {
 						    <?php echo $author->display_name; ?>
                         </a>
 					    <?php
-					    if ( telegram_get_photographer() ) {
-						    echo ' | Snima: ' . telegram_get_photographer();
-					    }
-				    } ?>
+
+				    }
+				    if ( telegram_get_photographer() ) {
+					    echo ' | Snima: ' . telegram_get_photographer();
+				    }
+				    ?>
                 </div>
                 <h1 class="title">
 				    <?php the_title(); ?>
