@@ -24,11 +24,18 @@ if( have_posts() ) {
                 <div class="titles">
                     <div class="container">
                         <div class="head-meta">
+                            Piše:
 	                        <?php
+                            $first = true;
 	                        foreach ( get_coauthors() as $author ) {
 		                        ?>
-                                Piše: <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
+                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
 		                        <?php
+                                if ($first) {
+                                    echo ', ';
+	                                $first = false;
+                                }
+
 	                        }
 	                        if ( telegram_get_photographer() ) {
 		                        ?>
@@ -60,12 +67,17 @@ if( have_posts() ) {
                 </div>
                 <div class="titles">
                     <div class="head-meta">
+                        Piše:
                         <?php
+                        $first = true;
                         foreach ( get_coauthors() as $author ) {
                             ?>
-                            Piše: <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
+                             <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
                             <?php
-
+	                        if ($first) {
+		                        echo ', ';
+		                        $first = false;
+	                        }
                         }
                         if ( telegram_get_photographer() ) {
 	                        ?>
@@ -148,13 +160,18 @@ if( have_posts() ) {
 
             <div class="titles">
                 <div class="head-meta">
+                    Piše:
 				    <?php
+                    $first = true;
 				    foreach ( get_coauthors() as $author ) { ?>
-                        Piše:
                         <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
 						    <?php echo $author->display_name; ?>
                         </a>
 					    <?php
+					    if ($first) {
+						    echo ', ';
+						    $first = false;
+					    }
 
 				    }
 				    if ( telegram_get_photographer() ) {
