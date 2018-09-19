@@ -40,7 +40,7 @@ if( have_posts() ) {
 	                        <?php
                             $i = 0;
                             $coauthors = get_coauthors();
-	                        foreach (  as $author ) {
+	                        foreach ( $coauthors as $author ) {
 		                        ?>
                                  <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name;
 	                                 if (sizeof($coauthors)>1 && sizeof($coauthors)<$i+1) { echo ', '; }
