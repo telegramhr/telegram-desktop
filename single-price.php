@@ -22,7 +22,9 @@ if( have_posts() ) {
 		    if ($video) {
 		        ?>
                 <div class="thumb">
-	                <?php echo apply_filters('the_content', trim($video)); ?>
+	                <?php
+                    echo do_shortcode('[embedwi]'.trim($video).'[/embed]');
+                    //echo apply_filters('the_content', trim($video)); ?>
                 </div>
                 <?php
             }
