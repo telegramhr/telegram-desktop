@@ -153,11 +153,21 @@ if( have_posts() ) {
 
         <div class="single-head in-picture">
 		    <?php
-		    $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'fullpage' ); ?>
+		    $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'fullpage' );
+		    $video = get_post_meta($post->ID, 'video', true);
+		    if ($video) {
+		        ?>
+                <div class="thumb">
+	                <?php echo apply_filters('the_content', trim($video)); ?>
+                </div>
+                <?php
+            }
+		    else {
+		    ?>
             <div class="thumb" style="background-image: url(<?php echo $thumb['0']; ?>);">
                 <div class="overlay"></div>
             </div>
-
+            <?php } ?>
             <div class="titles">
                 <div class="head-meta">
                     Piše:
