@@ -40,7 +40,7 @@ if( have_posts() ) {
                 </div>
 
                 <div class="video-head">
-                    <?php echo apply_filters('the_content', trim(get_field('video'))); ?>
+                    <?php echo apply_filters('widget_text_content', trim(get_field('video'))); ?>
                 </div>
 
             </div>
