@@ -1509,6 +1509,17 @@ background-size: 100% 100%; */
   background-position: center;
   background-size: cover;
 }
+
+.single-price .single-head.in-picture .thumb iframe {
+  width: 100%;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  height: 100%;
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  height: fill-available;
+}
 .single-price .single-head.in-picture .thumb .overlay {
   position: absolute;
   width: 100%;
