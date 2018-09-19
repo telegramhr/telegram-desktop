@@ -23,8 +23,8 @@ if( have_posts() ) {
 		        ?>
                 <div class="thumb">
 	                <?php
-                    echo do_shortcode('[embedwi]'.trim($video).'[/embed]');
-                    //echo apply_filters('the_content', trim($video)); ?>
+                    //echo do_shortcode('[embedwi]'.trim($video).'[/embed]');
+                    echo apply_filters('widget_text_content', trim($video)); ?>
                 </div>
                 <?php
             }
