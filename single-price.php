@@ -61,7 +61,7 @@ if( have_posts() ) {
                         </h1>
                         <h2 class="subtitle">
                             <?php
-                            echo get_excerpt( get_field('subtitle'), 141 ); ?>
+                            echo get_field('subtitle'); ?>
                         </h2>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ if( have_posts() ) {
                     </h1>
                     <h2 class="subtitle">
                         <?php
-                        echo get_excerpt( get_field('subtitle'), 141 ); ?>
+                        echo get_field('subtitle'); ?>
                     </h2>
                 </div>
             </div>
@@ -125,7 +125,7 @@ if( have_posts() ) {
                     </h1>
                     <h2 class="subtitle">
                         <?php
-                        echo get_excerpt( get_field('subtitle'), 141 ); ?>
+                        echo get_field('subtitle'); ?>
                     </h2>
 
                     <div class="article-meta">
@@ -193,7 +193,7 @@ if( have_posts() ) {
                 </h1>
                 <h2 class="subtitle">
 				    <?php
-				    echo get_excerpt( get_field('subtitle'), 141 ); ?>
+				    echo get_field('subtitle'); ?>
                 </h2>
             </div>
         </div>
