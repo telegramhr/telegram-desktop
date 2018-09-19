@@ -38,16 +38,15 @@ if( have_posts() ) {
                         <div class="head-meta">
                             Piše:
 	                        <?php
-                            $first = true;
-	                        foreach ( get_coauthors() as $author ) {
+                            $i = 0;
+                            $coauthors = get_coauthors();
+	                        foreach (  as $author ) {
 		                        ?>
-                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
+                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name;
+	                                 if (sizeof($coauthors)>1 && sizeof($coauthors)<$i+1) { echo ', '; }
+                                 ?></a>
 		                        <?php
-                                if ($first) {
-                                    echo ', ';
-	                                $first = false;
-                                }
-
+                            $i++;
 	                        }
 	                        if ( telegram_get_photographer() ) {
 		                        ?>
@@ -81,15 +80,14 @@ if( have_posts() ) {
                     <div class="head-meta">
                         Piše:
                         <?php
-                        $first = true;
-                        foreach ( get_coauthors() as $author ) {
+                        $i = 0;
+                        $coauthors = get_coauthors();
+                        foreach ( $coauthors as $author ) {
                             ?>
-                             <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name; ?></a>
+                             <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name;
+                             if (sizeof($coauthors)>1 && sizeof($coauthors) < $i+1) { echo ', '; } ?></a>
                             <?php
-	                        if ($first) {
-		                        echo ', ';
-		                        $first = false;
-	                        }
+                            $i++;
                         }
                         if ( telegram_get_photographer() ) {
 	                        ?>
@@ -174,17 +172,16 @@ if( have_posts() ) {
                 <div class="head-meta">
                     Piše:
 				    <?php
-                    $first = true;
-				    foreach ( get_coauthors() as $author ) { ?>
+                    $i = 0;
+                    $coauthors = get_coauthors();
+				    foreach ( $coauthors as $author ) { ?>
                         <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-						    <?php echo $author->display_name; ?>
+						    <?php echo $author->display_name;
+						    if (sizeof($coauthors)>1 && sizeof($coauthors)<$i+1) { echo ', '; }
+						    ?>
                         </a>
 					    <?php
-					    if ($first) {
-						    echo ', ';
-						    $first = false;
-					    }
-
+                        $i++;
 				    }
 				    if ( telegram_get_photographer() ) {
 					    echo ' | Snima: ' . telegram_get_photographer();
