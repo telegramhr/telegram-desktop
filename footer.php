@@ -32,6 +32,7 @@
 
 <?php
 wp_footer();
+the_widget('Telegram_Banner_Widget', ['size' => 'telegram_desktop_floater']);
 ?>
 </body>
 </html>
