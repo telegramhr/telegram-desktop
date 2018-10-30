@@ -44,7 +44,9 @@ function scrollTop() {
 
 function stickyElements() {
     jQuery('.sticky-widget').stick_in_parent({
-        offset_top: 100
+        offset_top: 100,
+        spacer: false,
+        parent: '.single-sidebar'
     });
     jQuery('.wallpapers').stick_in_parent({
         parent: '.main-container',
