@@ -1234,3 +1234,14 @@ function telegram_body_class($classes) {
     $classes[] = 'tmg-no-cookie';
     return $classes;
 }
+
+function telegram_enable_extended_upload ( $mime_types =array() ) {
+
+	// The MIME types listed here will be allowed in the media library.
+	// You can add as many MIME types as you want.
+	$mime_types['mp4']  = 'video/mp4';
+
+	return $mime_types;
+}
+
+add_filter('upload_mimes', 'telegram_enable_extended_upload');
