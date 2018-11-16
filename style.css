@@ -1698,11 +1698,6 @@ background-size: 100% 100%; */
   height: auto;
 }
 
-
-.single-price .single-content .the-content img.aligncenter:not(img.size-full, img.size-large) {
-  margin-left: -35%;
-}
-
 .single-price .single-content .the-content img.img-portrait {
   width: 800px;
   margin-left: -400px;
