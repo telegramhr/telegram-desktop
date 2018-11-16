@@ -106,7 +106,7 @@ function telegram_price_content($content){
         // Mladen Pleše fix
         $content = str_replace( "\xC2\xA0", ' ', $content );
 
-        $content = preg_replace("/(.[^\.!?]) I /", '$1 i ', $content);
+        $content = preg_replace("/(.[^(\.|\:|\…)!?]) I /", '$1 i ', $content);
 
     }
     return $content;
