@@ -2630,6 +2630,16 @@ border-bottom: 5px solid $gray-light; */
   height: auto;
 }
 
+.single .slick-prev:before,
+.single .slick-next:before {
+  color: black;
+}
+
+.single .slick-prev:before {
+  content: '\f053';
+  font-family: "FontAwesome";
+}
+
 /* Footer */
 footer {
   background: #120836 url("assets/img/footer_bg.png");
