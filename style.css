@@ -2625,6 +2625,11 @@ border-bottom: 5px solid $gray-light; */
   right: 0;
 }
 
+.single .slick-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Footer */
 footer {
   background: #120836 url("assets/img/footer_bg.png");
