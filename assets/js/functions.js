@@ -101,13 +101,12 @@ function gallerySlide() {
     }
     if (jQuery('.single-partneri .gallery-slider').length) {
         jQuery('.gallery-slider').slick({
+
             slide: '.gallery-image'
         }).on('afterChange', function (event, slick, currentSlide) {
-            jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (gallery_captions.length));
             ga('send', 'pageview');
             pp_gemius_hit(tmg_gemius_identifier);
         });
-        jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
     }
 }
 

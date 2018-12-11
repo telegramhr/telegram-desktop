@@ -125,6 +125,7 @@ get_header(); ?>
                     </div>
 
 	                <?php
+	                the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v2'));
 // GET MEGABREAK
 	                get_template_part('templates/layout/megabreak');
 	                get_template_part('templates/layout/megabillboard');
