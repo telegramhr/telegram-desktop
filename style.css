@@ -2641,7 +2641,7 @@ border-bottom: 5px solid $gray-light; */
   font-family: "FontAwesome";
 }
 
-.single .slick-prev:before {
+.single .slick-next:before {
   content: '\f054';
   font-family: "FontAwesome";
 }
