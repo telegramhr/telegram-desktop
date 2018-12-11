@@ -2633,11 +2633,31 @@ border-bottom: 5px solid $gray-light; */
 .single .slick-prev:before,
 .single .slick-next:before {
   color: black;
+  font-size: 50px;
 }
 
 .single .slick-prev:before {
   content: '\f053';
   font-family: "FontAwesome";
+}
+
+.single .slick-prev:before {
+  content: '\f054';
+  font-family: "FontAwesome";
+}
+
+.single .slick-prev,
+.single .slick-next {
+  width: 50px;
+  height: 50px;
+}
+
+.single .slick-prev {
+  left: -50px;
+}
+
+.single .slick-next {
+  right: -50px;
 }
 
 /* Footer */
