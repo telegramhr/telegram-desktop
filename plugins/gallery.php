@@ -6,6 +6,7 @@ add_shortcode('gallery', 'telegram_gallery_shortcode');
 function telegram_gallery_shortcode($attr) {
 	$ids = explode(',',$attr['ids']);
 	ob_start();
+	?><div class="gallery-slider"><?php
         $gallery_captions = array();
 		foreach ($ids as $id) { $id = intval($id); ?>
 			<div class="gallery-image">
@@ -32,6 +33,7 @@ function telegram_gallery_shortcode($attr) {
             );
 		}
 		?>
+    </div>
     <script>
         var gallery_captions = <?php echo wp_json_encode($gallery_captions) ?>;
 

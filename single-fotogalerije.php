@@ -32,7 +32,7 @@ if( have_posts() ) {
                     </div>
                     <a class="arrow arrow-img arrow-left prev-img" ><i class="fa fa-angle-left"></i></a>
                     <a class="arrow arrow-img arrow-right next-img" ><i class="fa fa-angle-right"></i></a>
-                    <div class="gallery-slider">
+                    <div>
                         <?php the_content(); ?>
                     </div>
 
