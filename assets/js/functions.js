@@ -87,7 +87,7 @@ function search() {
 }
 
 function gallerySlide() {
-    if (jQuery('.fotogalerije .gallery-slider').length) {
+    if (jQuery('.single-fotogalerije .gallery-slider').length) {
         jQuery('.gallery-slider').slick({
             prevArrow: '.prev-img',
             nextArrow: '.next-img',
@@ -99,7 +99,7 @@ function gallerySlide() {
         });
         jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
     }
-    if (jQuery('.partneri .gallery-slider').length) {
+    if (jQuery('.single-partneri .gallery-slider').length) {
         jQuery('.gallery-slider').slick({
             slide: '.gallery-image'
         }).on('afterChange', function (event, slick, currentSlide) {
