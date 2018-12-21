@@ -81,13 +81,13 @@ function telegram_price_content($content){
                     ob_start();
                     the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v1' ) );
                     $ad = ob_get_clean();
-                    $return_content .= $ad . $new_line;
+                    $return_content .= $new_line . $ad;
                 }
                 if ( 5 == $i ) {
 	                ob_start();
 	                the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
 	                $ad = ob_get_clean();
-	                $return_content .= $ad . $new_line;
+	                $return_content .= $new_line . $ad;
                 }
             }
 	        //ob_start();
@@ -100,7 +100,7 @@ function telegram_price_content($content){
 	        ob_start();
 	        the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v3' ) );
 	        $ad = ob_get_clean();
-	        $return_content .= $ad . $new_line;
+	        $return_content .= $ad;
             $content = $return_content;
         }
         // Mladen Pleše fix
