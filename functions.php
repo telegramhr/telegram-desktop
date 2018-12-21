@@ -50,7 +50,7 @@ function telegram_main_query($query) {
 
 }
 
-add_filter('the_content', 'telegram_price_content');
+add_filter('the_content', 'telegram_price_content', 99);
 
 function telegram_price_content($content){
     if (is_amp_endpoint()) {
@@ -72,7 +72,7 @@ function telegram_price_content($content){
             $content = $content[0] . $ad . $content[1];
         }
         else if ( get_post_type() == 'post' ) {
-            $new_line = "\n";
+            $new_line = "</p>";
             $parts   = explode( $new_line, $content, 10 );
             $return_content = '';
             for ( $i = 0; $i < count( $parts ); $i++ ) {
