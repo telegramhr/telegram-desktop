@@ -53,10 +53,6 @@ if( have_posts() ) {
                                 | Snima: <?php echo telegram_get_photographer(); ?>
 		                        <?php
 	                        }
-	                        if (get_field('nadnaslov')) {
-		                        echo ' | ';
-		                        the_field('nadnaslov');
-	                        }
 	                        ?>
                         </div>
 
@@ -123,14 +119,7 @@ if( have_posts() ) {
 
             <div class="titles">
                 <div class="container">
-                    <h3 class="overtitle"><?php
-	                    if (get_field('nadnaslov')) {
-		                    the_field('nadnaslov');
-	                    }
-	                    else {
-		                    the_category();
-	                    }
-	                    ?></h3>
+                    <h3 class="overtitle"><?php the_category(); ?></h3>
                     <h1 class="title">
                         <?php the_title(); ?>
                     </h1>
@@ -196,11 +185,6 @@ if( have_posts() ) {
 				    }
 				    if ( telegram_get_photographer() ) {
 					    echo ' | Snima: ' . telegram_get_photographer();
-				    }
-
-				    if (get_field('nadnaslov')) {
-				        echo ' | ';
-					    the_field('nadnaslov');
 				    }
 				    ?>
 

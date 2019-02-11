@@ -9,7 +9,11 @@
             <?php
             if( get_field('sticker') ) {
                 echo get_field('sticker');
-            } else {
+            }
+            else if (get_field('nadnaslov')) {
+	            the_field('nadnaslov');
+            }
+            else {
                 echo get_the_category()[0]->name;
             }
              ?>
