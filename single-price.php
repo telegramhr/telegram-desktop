@@ -119,7 +119,14 @@ if( have_posts() ) {
 
             <div class="titles">
                 <div class="container">
-                    <h3 class="overtitle"><?php the_category(); ?></h3>
+                    <h3 class="overtitle"><?php
+	                    if (get_field('nadnaslov')) {
+		                    the_field('nadnaslov');
+	                    }
+	                    else {
+		                    the_category();
+	                    }
+	                    ?></h3>
                     <h1 class="title">
                         <?php the_title(); ?>
                     </h1>
