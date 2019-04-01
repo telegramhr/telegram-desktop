@@ -36,15 +36,14 @@ if( have_posts() ) {
                 <div class="titles">
                     <div class="container">
                         <div class="head-meta">
-                            Piše:
 	                        <?php
-
                             if (658111 === get_the_ID()){
 	                            ?>
                                 Snima: <?php echo telegram_get_photographer(); ?>
 	                            <?php
                             }
                             else {
+                                ?>Piše:<?php
 	                            $i         = 0;
 	                            $coauthors = get_coauthors();
 	                            foreach ( $coauthors as $author ) {
