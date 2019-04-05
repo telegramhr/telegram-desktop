@@ -37,7 +37,7 @@ if( have_posts() ) {
                     <div class="container">
                         <div class="head-meta">
 	                        <?php
-                            if (658111 === get_the_ID()){
+                            if (in_array(get_the_ID(), [658111, 664691] )){
 	                            ?>
                                 Snima: <?php echo telegram_get_photographer(); ?>
 	                            <?php
