@@ -142,6 +142,9 @@ function telegram_widgets_init() {
     foreach (glob(dirname(__FILE__) . "/widgets/*.php") as $filename) {
         require ($filename);
     }
+    foreach (glob(dirname(__FILE__) . "/widgets/other/*.php") as $filename) {
+        require ($filename);
+    }
     register_sidebar(
         array(
             'name' => 'Naslovnica srednji stupac 1',
