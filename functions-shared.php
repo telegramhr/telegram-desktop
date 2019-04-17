@@ -1249,7 +1249,7 @@ function telegram_enable_extended_upload ( $mime_types =array() ) {
 
 add_filter('upload_mimes', 'telegram_enable_extended_upload');
 
-add_filter('rest_post_query', 'telegram_rest_posts', 10, 2);
+//add_filter('rest_post_query', 'telegram_rest_posts', 10, 2);
 
 function telegram_rest_posts($args, $request) {
     $args['post_type'] = 'post,price';

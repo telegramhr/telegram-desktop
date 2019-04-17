@@ -13,7 +13,7 @@ class Telegram_Midas_Widget extends WP_Widget {
 	    ?><div id="midasWidget__<?php echo intval($instance['id']) ?>"></div><?php
         if ($instance['script']) {
             ?>
-            <script async src="http://cdn.midas-network.com/Widget/IndexAsync/2?portalWidgetId=<?php echo esc_attr($instance['script']) ?>"
+            <script async src="https://cdn.midas-network.com/Widget/IndexAsync/2?portalWidgetId=<?php echo esc_attr($instance['script']) ?>"
                     type="text/javascript"></script>
             <?php
         }
