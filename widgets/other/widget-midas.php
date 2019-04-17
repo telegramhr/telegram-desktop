@@ -23,7 +23,7 @@ class Telegram_Midas_Widget extends WP_Widget {
 
             /* Mobile */
             #midasWidget__658 .midas-caption {
-                ont-weight: 700;
+                font-weight: 700;
                 color: #301860;
                 font-size: 16px;
                 text-transform: uppercase;
@@ -32,15 +32,18 @@ class Telegram_Midas_Widget extends WP_Widget {
                 letter-spacing: .1em;
                 text-align: center;
                 width: 100%;
+                margin-bottom: 10px;
             }
 
             #midasWidget__658 .midas-title {
-                color: #000;
                 font-size: 24px !important;
                 line-height: 1.3em !important;
                 color: #000;
-                margin-bottom: 7px;
+                margin-bottom: 10px;
                 font-family: fjalla one cro,Impact,sans-serif !important;
+                padding-top: 15px;
+                padding-bottom: 14px;
+                border-bottom: 1px solid #ddd;
             }
         </style>
 
