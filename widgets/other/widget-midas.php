@@ -10,7 +10,44 @@ class Telegram_Midas_Widget extends WP_Widget {
 	}
 
 	public function widget( $args, $instance ) {
-	    ?><div id="midasWidget__<?php echo intval($instance['id']) ?>"></div><?php
+	    ?>
+        <style>
+            /* Desktop */
+            #midasWidget__657 {
+                border-top: 1px solid #ddd;
+            }
+
+            #midasWidget__657 .tg-widget-body {
+                margin: 0 -10px;
+            }
+
+            /* Mobile */
+            #midasWidget__658 .midas-caption {
+                font-weight: 700;
+                color: #301860;
+                font-size: 16px;
+                text-transform: uppercase;
+                border-bottom: 3px solid #301860;
+                padding: 0 0 5px;
+                letter-spacing: .1em;
+                text-align: center;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            #midasWidget__658 .midas-title {
+                font-size: 24px !important;
+                line-height: 1.3em !important;
+                color: #000;
+                margin-bottom: 10px;
+                font-family: fjalla one cro,Impact,sans-serif !important;
+                padding-top: 15px;
+                padding-bottom: 14px;
+                border-bottom: 1px solid #ddd;
+            }
+        </style>
+
+        <div id="midasWidget__<?php echo intval($instance['id']) ?>"></div><?php
         if ($instance['script']) {
             ?>
             <script async src="https://cdn.midas-network.com/Widget/IndexAsync/2?portalWidgetId=<?php echo esc_attr($instance['script']) ?>"
