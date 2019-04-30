@@ -46,7 +46,11 @@ class Telegram_Midas_Widget extends WP_Widget {
                 border-bottom: 1px solid #ddd;
             }
         </style>
-
+        <?php if (!jetpack_is_mobile()) { ?>
+        <div class="tg-widget-head big-title">
+           Više s weba
+        </div>
+        <?php } ?>
         <div id="midasWidget__<?php echo intval($instance['id']) ?>"></div><?php
         if ($instance['script']) {
             ?>
