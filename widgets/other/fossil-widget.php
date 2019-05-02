@@ -22,7 +22,7 @@ class Nethr_Fossil_Widget extends WP_Widget {
             }
 
         </style>
-        <div class="tg-widget widget-satovi" style="max-width:1280px; margin-bottom: 20px;">
+        <div class="tg-widget widget-satovi" style="max-width:1280px; margin: 0 auto; margin-bottom: 20px;">
             <div class="tg-widget-head" style="text-align: center">
                     Proljetni trendovi: satovi
                 <div class="decail"></div>
