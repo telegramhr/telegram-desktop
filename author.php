@@ -16,8 +16,8 @@
                             ?>
                             <div class="initials">
                                 <?php
-                                echo $author->first_name[0];
-                                echo $author->last_name[0]; ?>
+                                echo mb_substr($author->first_name, 0, 1);
+                                echo mb_substr($author->last_name, 0, 1); ?>
                             </div>
                             <?php
                         } ?>

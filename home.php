@@ -127,7 +127,7 @@ get_header(); ?>
 	                <?php
 	                the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v2'));
 // GET MEGABREAK
-                    the_widget('Nethr_Fossil_Widget');
+
 	                get_template_part('templates/layout/megabreak');
 	                get_template_part('templates/layout/megabillboard');
 	                ?>
