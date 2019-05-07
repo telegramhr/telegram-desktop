@@ -1062,6 +1062,9 @@ function telegram_after_save_image($new_status, $old_status, $post){
 		return;
 
 	$post_id = $post->ID;
+	if ($post->post_type === 'guest-author') {
+	    return;
+    }
 
 	if (strtotime($post->post_date) < strtotime('1.10.2017.')) {
 	    return;
