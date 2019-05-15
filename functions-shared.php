@@ -113,6 +113,11 @@ function telegram_main_scripts() {
     telegram_load_fonts();
 }
 
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+function wps_deregister_styles() {
+	wp_dequeue_style( 'wp-block-library' );
+}
+
 function telegram_load_fonts() {
     wp_enqueue_script('google-font-loader', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', [], '1.6.26');
     $data = "WebFont.load({
