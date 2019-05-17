@@ -68,7 +68,7 @@ function telegram_price_content($content){
 
 	    if($pos !== false)
 	    {
-		    $subject = substr_replace($content, '', $pos, strlen('<p></p>'));
+		    $content = substr_replace($content, '', $pos, strlen('<p></p>'));
 	    }
             $new_line = "</p>";
             $parts   = explode( $new_line, $content, 10 );
