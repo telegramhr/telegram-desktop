@@ -70,29 +70,29 @@ function telegram_price_content($content){
             $return_content = '';
             for ( $i = 0; $i < count( $parts ); $i++ ) {
                 $return_content .= $parts[$i] . $new_line;
-                if ( 1 == $i ) {
+                if ( 1 === $i ) {
                     ob_start();
                     the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v1' ) );
                     $ad = ob_get_clean();
-                    $return_content .= $new_line . $ad;
+                    $return_content .= $ad;
                 }
-                if ( 5 == $i ) {
+                if ( 5 === $i ) {
 	                ob_start();
 	                the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
 	                $ad = ob_get_clean();
-	                $return_content .= $new_line . $ad;
+	                $return_content .= $ad;
                 }
-	            if ( 9 == $i ) {
+	            if ( 9 === $i ) {
 		            ob_start();
 		            the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v3' ) );
 		            $ad = ob_get_clean();
-		            $return_content .= $new_line . $ad;
+		            $return_content .= $ad;
 	            }
-	            if ( 13 == $i ) {
+	            if ( 13 === $i ) {
 		            ob_start();
 		            the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v4' ) );
 		            $ad = ob_get_clean();
-		            $return_content .= $new_line . $ad;
+		            $return_content .= $ad;
 	            }
             }
 
