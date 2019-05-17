@@ -64,6 +64,12 @@ function telegram_price_content($content){
         if ( $oglasi && in_array( 'inarticle', $oglasi ) ) {
             return $content;
         }
+	    $pos = strrpos($content, '<p></p>');
+
+	    if($pos !== false)
+	    {
+		    $subject = substr_replace($content, '', $pos, strlen('<p></p>'));
+	    }
             $new_line = "</p>";
             $parts   = explode( $new_line, $content, 10 );
             $no = count($parts);
