@@ -66,6 +66,7 @@ function telegram_price_content($content){
         }
             $new_line = "</p>";
             $parts   = explode( $new_line, $content, 10 );
+            $no = count($parts);
             $return_content = '';
             for ( $i = 0; $i < count( $parts ); $i++ ) {
                 $return_content .= $parts[$i] . $new_line;
@@ -95,12 +96,14 @@ function telegram_price_content($content){
 	            }
             }
 
-            //append to end of content
-	        ob_start();
-	        the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v5' ) );
-	        $ad = ob_get_clean();
-	        $return_content .= $ad;
-            $content = $return_content;
+            if (!in_array($no, [5,9,13])) {
+	            //append to end of content
+	            ob_start();
+	            the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v5' ) );
+	            $ad             = ob_get_clean();
+	            $return_content .= $ad;
+	            $content        = $return_content;
+            }
 
         // Mladen Pleše fix
         $content = str_replace( "\xC2\xA0", ' ', $content );
