@@ -96,15 +96,14 @@ function telegram_price_content($content){
 	            }
             }
 
-            if (!in_array($no, [5,9,13])) {
+            if (!in_array($no-1, [5,9,13])) {
 	            //append to end of content
 	            ob_start();
 	            the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v5' ) );
 	            $ad             = ob_get_clean();
 	            $return_content .= $ad;
-	            $content        = $return_content;
             }
-
+	    $content        = $return_content;
         // Mladen Pleše fix
         $content = str_replace( "\xC2\xA0", ' ', $content );
 
