@@ -27,24 +27,6 @@ if( $format == 4 ) {
     $format_class = 'no-img-format';
 }
 ?>
-
-<!--
-
-     _    _ _                    __   ___
-    / \  | | | ___  _ __  ___    \ \ / / |
-   / _ \ | | |/ _ \| '_ \/ __|____\ V /| |
-  / ___ \| | | (_) | | | \__ \_____| | |_|
- /_/   \_\_|_|\___/|_| |_|___/     |_| (_)
-
- Prvi koji podijeli na Twitteru dobiva nagradu.
-
- -> Cini se da je @TeoDominesPeter svojio jako fora iPad :)
- -> https://twitter.com/teodominespeter/status/910220209461633024
- -> http://bit.ly/2x3QwJj
-
- #tmg_devteam
--->
-
 <body <?php body_class($format_class); ?> id="top">
 <?php do_action('telegram_body_start'); ?>
 
