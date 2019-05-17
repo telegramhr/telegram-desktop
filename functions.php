@@ -64,14 +64,6 @@ function telegram_price_content($content){
         if ( $oglasi && in_array( 'inarticle', $oglasi ) ) {
             return $content;
         }
-        if (get_post_type() == 'price') {
-            $content = explode( "\n", $content, 2 );
-            ob_start();
-            the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_300x250_v1' ) );
-            $ad      = ob_get_clean();
-            $content = $content[0] . $ad . $content[1];
-        }
-        else if ( get_post_type() == 'post' ) {
             $new_line = "</p>";
             $parts   = explode( $new_line, $content, 10 );
             $return_content = '';
@@ -109,7 +101,7 @@ function telegram_price_content($content){
 	        $ad = ob_get_clean();
 	        $return_content .= $ad;
             $content = $return_content;
-        }
+
         // Mladen Pleše fix
         $content = str_replace( "\xC2\xA0", ' ', $content );
 
