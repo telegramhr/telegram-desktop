@@ -152,12 +152,14 @@ if( have_posts() ) {
                             </div>
                         <?php
 	                        }
-                        } ?>
-                        <span class="author">
+	                        ?>
+                            <span class="author">
                             <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
                                 <?php echo $author->display_name; ?>
                             </a>
                         </span>
+                            <?php
+                        } ?>
                     </div>
 
                     <?php get_template_part('templates/articles/article-meta'); ?>
