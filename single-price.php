@@ -137,9 +137,12 @@ if( have_posts() ) {
                         echo get_field('subtitle'); ?>
                     </h2>
 
-                    <div class="article-meta">
+                    <div class="article-meta flex">
                         <?php
                         foreach (get_coauthors() as $author) {
+                            ?>
+                            <div>
+                            <?php
 	                        if( coauthors_get_avatar($author) ) {
                             ?>
                             <div class="author-thumb">
@@ -158,6 +161,7 @@ if( have_posts() ) {
                                 <?php echo $author->display_name; ?>
                             </a>
                         </span>
+                            </div>
                             <?php
                         } ?>
                     </div>
