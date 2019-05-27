@@ -10,7 +10,7 @@ if ( ! isset( $content_width ) ) {
 }
 
 function telegram_enqueue_styles() {
-    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('slick', 'slick-theme'), '95070.13');
+    wp_enqueue_style('telegram-style', get_stylesheet_uri(), array('slick', 'slick-theme'), '95070.14');
     /* Use [current stardate] as style version num */
 }
 
