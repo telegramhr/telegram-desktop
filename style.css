@@ -1618,6 +1618,14 @@ background-size: 100% 100%; */
 .single-price .single-head.no-img .article-meta {
   margin: 60px 0 0;
 }
+
+.single-price .single-head.no-img .article-meta.flex {
+  justify-content: center;
+}
+
+.single-price .single-head.no-img .article-meta.flex > div {
+  margin: 0 10px;
+}
 .single-price .single-head.no-img .article-meta .author-thumb {
   width: 90px;
   height: 90px;
