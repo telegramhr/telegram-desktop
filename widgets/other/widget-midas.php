@@ -47,6 +47,7 @@ class Telegram_Midas_Widget extends WP_Widget {
             }
         </style>
         <?php if (!jetpack_is_mobile()) { ?>
+        <div class="container widget-midas" style="margin-top: 50px;">
         <div class="tg-widget-head big-title">
            Više s weba
         </div>
@@ -56,6 +57,7 @@ class Telegram_Midas_Widget extends WP_Widget {
             ?>
             <script async src="https://cdn.midas-network.com/Widget/IndexAsync/2?portalWidgetId=<?php echo esc_attr($instance['script']) ?>"
                     type="text/javascript"></script>
+            </div> <!-- end midas -->
             <?php
         }
 
