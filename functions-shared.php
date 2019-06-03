@@ -1017,13 +1017,13 @@ function telegram_disable_default_dashboard_widgets() {
 }
 add_action('wp_dashboard_setup', 'telegram_disable_default_dashboard_widgets', 999);
 
-//add_action( 'template_redirect','telegram_filter_feeds', 1 );
+add_action( 'template_redirect','telegram_filter_feeds', 1 );
 
 function telegram_filter_feeds() {
 	if( !is_feed() || is_404() )
 		return;
 	global $wp_rewrite, $wp_query;
-	if ( is_author() || is_date() || is_singular() || is_tax() || is_category() ) {
+	if ( is_author() || is_date() || is_singular() || is_tax() ) {
 		$wp_query->is_feed = false;
 		$wp_query->set_404();
 		status_header( 404 );
