@@ -106,7 +106,10 @@ function telegram_main_scripts() {
 	wp_register_script('slick', get_stylesheet_directory_uri() . '/assets/js/slick/slick.js',null, '20170917', true);
 	// For touch controls
 	wp_register_script('hammer-time', get_stylesheet_directory_uri() . '/assets/js/hammer-time.min.js',null, '20170917', true);
-
+	wp_register_script('wow', get_stylesheet_directory_uri() . '/assets/scripts/wow/wow.min.js');
+	wp_register_style('native-animate', get_stylesheet_directory_uri() . '/assets/scripts/wow/animate.css', [
+		'slick', 'slick-theme', 'fontawesome'
+	]);
 	wp_deregister_script('jquery');
 	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1', false);
 
@@ -1014,7 +1017,7 @@ function telegram_disable_default_dashboard_widgets() {
 }
 add_action('wp_dashboard_setup', 'telegram_disable_default_dashboard_widgets', 999);
 
-add_action( 'template_redirect','telegram_filter_feeds', 1 );
+//add_action( 'template_redirect','telegram_filter_feeds', 1 );
 
 function telegram_filter_feeds() {
 	if( !is_feed() || is_404() )
