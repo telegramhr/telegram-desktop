@@ -1,0 +1,198 @@
+/*
+* Native Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center-text {
+    text-align: center;
+}
+.full {
+    width: 100%;
+}
+.white-space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.faded {
+    opacity: 0.5;
+}
+.faded:hover {
+    opacity: 0.75;
+}
+.shoo-top {
+    margin-top: 30px;
+}
+
+/* Hero */
+
+.native-page {
+    color: black;
+}
+.native-hero {
+    background-color: #89ba3a;
+    font-family: "Fjalla One CRO", Impact, sans-serif;
+}
+.native-hero video {
+    width: 100%;
+    max-width: 720px;
+}
+.native-hero-title {
+    padding: 150px 50px;
+}
+/* Content */
+
+.native-page h1 {
+    color: black;
+    font-size: 72px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.native-page h2 {
+    color: #084429;
+    font-size: 32px;
+
+}
+.native-page .container {
+    width: 100%;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.native-page p {
+    font-family: 'Lora', serif;
+    padding-right: 30px;
+    display: block;
+    line-height: 1.6em;
+    margin: 15px 0 30px;
+    font-size: 19px;
+    width: 100%;
+}
+.native-page h3 {
+    margin: 40px 0 20px;
+    font-family: lora,georgia,times new roman,serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 15px 0;
+    width: 100%;
+}
+.native-page .subtitle {
+    color: #666;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: pt sans,arial,helvetica,sans-serif;
+    font-size: 26px;
+}
+.native-page h4 {
+    font-family: pt sans,arial,helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 1.3em;
+    letter-spacing: .04em;
+    margin: 35px 0 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+.main-color {
+    background-color: #16929e;
+    color: white;
+}
+.native-page summary {
+    cursor: pointer;
+    height: 20px;
+    line-height: 16px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.native-page summary h4 {
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: -18px;
+    position: relative;
+}
+.native-page img {
+    width: 100%;
+}
+a {
+    color: #084429;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+a:hover {
+    border-bottom: 2px solid #120836;
+    
+}
+
+/* Footer */
+
+.native-page .native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+    border-top: 1px solid gray;
+    margin-bottom: 30px;
+}
+.native-page .native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.native-page .native-signature .container p {
+    padding-left: 150px;
+    font-size: 16px;
+}
+.recept .third img {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+/* Style overrides */
+
+nav {
+    background: rgba(0,0,0,0.5);
+}
+body {
+    min-width: 100%;
+}
+.main-container {
+    position: relative;
+    top: -100px;
+}
+
+@media screen and (max-width: 1279px) {
+    .flex-responsive {
+        width: 100%;
+    }
+    nav .label {
+        display: none;
+    }
+}
