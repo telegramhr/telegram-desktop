@@ -1,11 +1,11 @@
 <?php
-
-
 require_once ('plugins/gallery.php');
 require_once ('plugins/shortcodes.php');
 require_once ('plugins/special.php');
 remove_action('wp_footer', 'jetpack_mobile_available');
 remove_action( 'do_pings', 'do_all_pings' );
+
+define('PARENT_PATH', get_theme_root_uri().'/telegram2-desktop');
 
 add_action('after_setup_theme', 'telegram_setup');
 function telegram_setup() {
