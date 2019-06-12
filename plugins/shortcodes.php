@@ -6,6 +6,7 @@ class Telegram_Shortcodes {
 		add_shortcode( 'quote_box', array( $this, 'quote_box' ) );
 		add_shortcode( 'small_video_box', array( $this, 'small_video_box' ) );
 		add_shortcode( 'compare_box', array( $this, 'compare_box' ) );
+		add_shortcode('telegram_video', array( $this, 'video'));
 	}
 
 	function action_admin_init() {
@@ -84,6 +85,33 @@ class Telegram_Shortcodes {
 		</figure> <!-- cd-image-container -->
 <?php
 		return ob_get_clean();
+	}
+
+	function video($atts, $content) {
+		extract( shortcode_atts(
+			array(
+				'poster' => '',
+				'autoplay' => 1,
+				'loop' => 1,
+				'muted' => 1,
+				'controls' => 0,
+				'width' => 0,
+				'height' => 0,
+			),
+			$atts
+		));
+		return '<video ' . ($autoplay?'autoplay ':'') .
+		       ($loop?'loop ':'') .
+		       ($muted?'muted ':'') .
+		       ($controls?'controls ':'') .
+		       ($poster?'poster='.esc_url($poster):'') .' ' .
+		       ($width?'width='.intval($width):'') .' ' .
+		       ($height?'height='.intval($height):'') .' ' .
+		       ' class="native-video" style="'. ($width?'width:'.intval($width).'px;':'') . ($height?' height:'.intval($height).'px;':'') .'">
+            <source type="video/mp4" src="' . esc_url($content) . '">
+        </video>';
+
+
 	}
 }
 
