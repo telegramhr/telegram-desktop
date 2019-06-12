@@ -29,7 +29,7 @@ if( have_posts() ) {
 
                     <div class="gallery-nav">
                         <div class="arrow arrow-left prev-img" ><i class="fa fa-angle-left"></i> Prethodna</div>
-                        <div class="slide-num">Slika: <span>1/9</span></div>
+                        <div class="slide-num">Slika: <span></span></div>
                         <div class="arrow arrow-right next-img" >Sljedeća <i class="fa fa-angle-right"></i></div>
                     </div>
 
@@ -42,7 +42,6 @@ if( have_posts() ) {
                     <div>
                         <?php the_content(); ?>
                     </div>
-
                     <div class="sidebar gallery-sidebar">
                         <?php dynamic_sidebar('sidebar-gallery'); ?>
                     </div>

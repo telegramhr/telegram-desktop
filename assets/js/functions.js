@@ -113,13 +113,14 @@ function gallerySlide() {
         jQuery('.wp-block-gallery').slick({
             prevArrow: '.prev-img',
             nextArrow: '.next-img',
-            slide: '.gallery-image'
-        }).on('afterChange', function (event, slick, currentSlide) {
-            jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (gallery_captions.length));
+            slide: 'li'
+        })
+            .on('afterChange', function (event, slick, currentSlide) {
+            jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (slick.$slides.length));
             ga('send', 'pageview');
             pp_gemius_hit(tmg_gemius_identifier);
         });
-        //jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
+        jQuery('.gallery-page  .slide-num span').text('1/' + (jQuery('.wp-block-gallery li').length));
     }
 }
 
