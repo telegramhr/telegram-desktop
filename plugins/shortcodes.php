@@ -6,7 +6,6 @@ class Telegram_Shortcodes {
 		add_shortcode( 'quote_box', array( $this, 'quote_box' ) );
 		add_shortcode( 'small_video_box', array( $this, 'small_video_box' ) );
 		add_shortcode( 'compare_box', array( $this, 'compare_box' ) );
-
 	}
 
 	function action_admin_init() {
