@@ -63,17 +63,9 @@ function telegram_price_content($content){
     if (is_amp_endpoint()) {
         return $content;
     }
-    if (get_query_var('audit')) {
-        return $content;
-    }
     if (is_single()) {
-        $oglasi = get_field( 'oglasi' );
-        if ( $oglasi && in_array( 'inarticle', $oglasi ) ) {
-            return $content;
-        }
             $new_line = "</p>";
             $parts   = explode( $new_line, $content, 20 );
-            $no = count($parts);
             $return_content = '';
             for ( $i = 0; $i < count( $parts ); $i++ ) {
                 $return_content .= $parts[$i] . $new_line;
