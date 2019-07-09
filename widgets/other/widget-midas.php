@@ -54,8 +54,18 @@ class Telegram_Midas_Widget extends WP_Widget {
         <?php } ?>
         <div id="midasWidget__<?php echo intval($instance['id']) ?>"></div><?php
         if ($instance['script']) {
+            $ids = explode(',', $instance['script']);
+            $out = '';
+            foreach ($ids as $k => $id) {
+                if ($k) {
+	                $out .= '&portalWidgetId=' . $id;
+                }
+                else {
+                    $out = 'portalWidgetId=' . $id;
+                }
+            }
             ?>
-            <script async src="https://cdn.midas-network.com/Widget/IndexAsync/2?portalWidgetId=<?php echo esc_attr($instance['script']) ?>"
+            <script async src="https://cdn.midas-network.com/Widget/IndexAsync/2?<?php echo esc_attr($out) ?>"
                     type="text/javascript"></script>
             </div> <!-- end midas -->
             <?php
