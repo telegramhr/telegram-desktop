@@ -31,6 +31,9 @@ class Telegram_Command extends WP_CLI_Command {
 					if (  $id === 612167 && $face < 67) {
 						$face = 67;
 					}
+					if (  $id === 696993 && $face < 162) {
+						$face = 162;
+					}
 					update_post_meta( $id, '_face_recommendations', $face );
 					$total   = intval( $face );
 					if ( intval( $total ) ) {
