@@ -130,9 +130,18 @@ get_header(); ?>
 
 	                get_template_part('templates/layout/megabreak');
 	                get_template_part('templates/layout/megabillboard');
+	                if (current_user_can('manage_options')) {
+		                get_template_part( 'templates/layout/blocks/block-super1' );
+		                get_template_part( 'templates/layout/blocks/block-telesport' );
+	                }
 	                ?>
 
                     <div class="section-feed section-feed-2">
+                    <div class="container">
+                        <div class="tg-widget-head big-title lined">
+                            Još važnih vijesti
+                        </div>
+                    </div>
                     <div class="container feed-container">
                     <div class="col col-1 feed">
                     <?php

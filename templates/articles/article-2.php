@@ -18,8 +18,7 @@
         elseif ( strpos( $src_link, 'dblog') !== false ) {
             $src = 'dblog';
         }
-        // Get Category
-        $cat = get_the_category(); ?>
+         ?>
         <div class="article-cat">
             <?php
             if( $src != 'telegram' ) {
@@ -35,11 +34,20 @@
                 </a><?php
             }
             else {
-                ?>
-                <a href="<?php echo get_category_link( $cat[0]->cat_ID ); ?>">
-                    <?php echo $cat[0]->name; ?>
-                </a>
-                <?php
+	            // Get Category
+	            $cat = get_the_category();
+	            if ($cat) {
+		            ?>
+                    <a href="<?php echo get_category_link( $cat[0]->cat_ID ); ?>">
+			            <?php echo $cat[0]->name; ?>
+                    </a>
+		            <?php
+	            }
+	            else {
+		            ?><a href="#">
+                        TELEGRAM
+                    </a><?php
+                }
             } ?>
         </div>
         <h1 class="title">
