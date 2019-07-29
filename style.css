@@ -190,8 +190,9 @@ img {
   display: none;
 }
 .home .sidebar {
-  background: #f9f8f6;
+  /* background: #f9f8f6; */
   position: relative;
+  border-left: 1px solid #ddd;
 }
 .home .sidebar .right-bg {
   position: absolute;
@@ -199,7 +200,7 @@ img {
   left: 100%;
   width: 200%;
   height: 100%;
-  background: #f9f8f6;
+ /* background: #f9f8f6; */
 }
 .home .article-meta .time {
   display: none;
@@ -1135,6 +1136,81 @@ background-size: 100% 100%; */
 .megabreak-bottom .day-quote .quote-person {
   font-size: 24px;
   opacity: 0.8;
+}
+
+/* Blocks */
+.block {
+  margin: 50px 0 30px;
+}
+
+.block-telesport {
+  margin-top: -20px;
+}
+
+.tg-widget-head.lined {
+  display: block !important;
+  text-align: left !important;
+  margin-bottom: 0;
+  background: white;
+  z-index: 3;
+}
+
+.tg-widget-head.lined:after {
+  content: "";
+  background: white;
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 20px;
+}
+
+.block-body .col-2 {
+  width: 240px;
+}
+
+.block-body .article-block:first-child {
+  border-top: none;
+}
+
+.block-body .article-block {
+  padding-right: 20px;
+}
+
+.block-body .article-1 .article-meta {
+  position: relative;
+  background: none;
+  color: #666;
+  padding: 25px 0 0 0;
+}
+
+.block-body .sidebar {
+  padding-top: 15px;
+  margin-left: 0px;
+}
+
+.block-body .article-1 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.block-body .article-1 .thumb {
+  overflow: hidden;
+}
+
+.block-body .article-1 .thumb img {
+  width: 110%;
+  max-width: none;
+}
+
+.block-body .article-sidebar .title {
+  font-size: 21px;
+}
+
+
+.block-body .article-sidebar:last-child {
+  border-bottom: none;
 }
 
 /* Single Article */
