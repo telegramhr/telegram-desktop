@@ -4,8 +4,15 @@ if (!$block) {
 	?>
     <div class="block block-telesport">
         <div class="container">
-            <div class="tg-widget-head big-title lined">
-                Telesport
+            <div class="tg-widget-head big-title lined cf">
+                <a href="https://telesport.telegram.hr/" target="_blank">
+                    Telesport
+                </a>
+                <small>
+                    <a href="https://telesport.telegram.hr/" target="_blank">
+                        Vidi više
+                    </a>
+                </small>
             </div>
             <div class="block-body feed-container">
 				<?php
