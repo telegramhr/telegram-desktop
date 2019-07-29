@@ -134,7 +134,7 @@ img {
 }
 
 .col-2 {
-  width: 220px;
+  width: 240px;
 }
 .col-2 .tg-widget-head {
   padding: 40px 15px 3px 16px;
@@ -153,7 +153,6 @@ img {
 }
 
 .col-3 {
-  margin-left: 20px;
   padding-top: 40px;
   padding-left: 20px;
 }
@@ -901,7 +900,7 @@ article .subtitle {
 }
 
 .article-block {
-  padding: 35px 0 18px 20px;
+  padding: 35px 10px 18px 20px;
   border-top: 1px solid #ddd;
 }
 .article-block .title {
