@@ -6,7 +6,12 @@
             </a>
         </h1>
         <h2 class="subtitle">
-            <?php echo get_excerpt( get_field('subtitle'), 141 ); ?>
+            <?php
+            $subtitle = get_field('subtitle');
+            if (!$subtitle) {
+                $subtitle = get_the_excerpt();
+            }
+            echo get_excerpt( $subtitle, 141 ); ?>
         </h2>
     </div>
     <div class="thumb">
