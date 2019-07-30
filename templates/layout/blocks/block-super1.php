@@ -5,7 +5,14 @@ if (!$block) {
 <div class="block block-super1">
     <div class="container">
         <div class="tg-widget-head big-title lined">
-            Super1
+            <a href="https://super1.telegram.hr/" target="_blank">
+                Super1
+            </a>
+            <small>
+                <a href="https://super1.telegram.hr/" target="_blank">
+                    Vidi više
+                </a>
+            </small>
         </div>
         <div class="block-body feed-container">
             <?php
