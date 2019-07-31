@@ -1152,6 +1152,7 @@ background-size: 100% 100%; */
   margin-bottom: 0;
   background: white;
   z-index: 3;
+  margin-top: 25px;
 }
 
 .tg-widget-head.lined:after {
