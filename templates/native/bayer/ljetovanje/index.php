@@ -3,7 +3,7 @@ $template_url = get_theme_root_uri() . '/telegram2-desktop';
 ?>
 <script src="<?php echo esc_url( $template_url ) ?>/templates/native/bayer/ljetovanje/functions.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo esc_url( $template_url ) ?>/templates/native/bayer/ljetovanje/style.css?ver=1.0" type="text/css" />
+<link rel="stylesheet" href="<?php echo esc_url( $template_url ) ?>/templates/native/bayer/ljetovanje/style.css?ver=1.1" type="text/css" />
 <div class="main-container barracuda">
     <div class="native-hero flex full">
         <div class="third flex-responsive center" style="justify-content: flex-end">
