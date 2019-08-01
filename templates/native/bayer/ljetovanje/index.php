@@ -37,7 +37,7 @@ $template_url = get_theme_root_uri() . '/telegram2-desktop';
         </div>
     </a>
 
-    <a href="hhttps://www.telegram.hr/partneri/pitali-smo-veterinara-kako-u-ljetnim-mjesecima-ljubimca-zastititi-od-vrlo-opasne-i-ne-vas-rijetke-lismanioze/" target="_blank" class="container flex article-container">
+    <a href="https://www.telegram.hr/partneri/pitali-smo-veterinara-kako-u-ljetnim-mjesecima-ljubimca-zastititi-od-vrlo-opasne-i-ne-vas-rijetke-lismanioze/" target="_blank" class="container flex article-container">
         <div class="half wow fadeInUp flex-responsive article-copy center">
             <div class="single-head">
                 <h1 class="title">Pitali smo veterinara kako u ljetnim mjesecima ljubimca zaštititi od vrlo opasne i ne baš rijetke lišmanioze</h1>
