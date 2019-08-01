@@ -5,6 +5,11 @@
 
 /* Basics */
 
+.barracuda {
+    top: -30px;
+    margin-bottom: -30px;
+}
+
 .barracuda .center {
     display: flex;
     justify-content: center;
