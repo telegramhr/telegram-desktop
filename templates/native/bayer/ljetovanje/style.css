@@ -1,0 +1,347 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+.barracuda .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.barracuda .full {
+    width: 100%;
+}
+.barracuda .half {
+    width: 49.99%;
+}
+.barracuda .third {
+    width: 33.33%;
+}
+.barracuda .two-thirds {
+    width: 66.66%;
+}
+.barracuda .white-space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.barracuda .container {
+    max-width: 1280px;
+}
+.barracuda .animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.barracuda .faded {
+    opacity: 0.5;
+}
+.barracuda .faded:hover {
+    opacity: 0.75;
+}
+.barracuda .center-text {
+    text-align: center;
+}
+
+/* Hero */
+
+.barracuda {
+    padding-bottom: 30px;
+    background-image: url("https://www.telegram.hr/wp-content/uploads/2019/07/pattern_sand_lighter.jpg");
+    background-size: 50%;
+    background-repeat: repeat;
+    max-width: 100%;
+    overflow: hidden;
+}
+.barracuda .native-hero {
+    background-color: #50cdef;
+    position: relative;
+    z-index: 3; 
+    padding: 50px;
+    height: 40vw;
+}
+.barracuda .waves {
+    animation-name: chillin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-bottom: 5vw;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+.barracuda .waves img {
+    position: relative;
+    z-index: 3;
+    width: 110%;
+    left: -5%;
+    height: auto;
+    max-width: 110%;
+}
+.barracuda .waves .wave-2 {
+    position: absolute;
+    top: 2vw;
+    z-index: 1;
+    opacity: 0.5;
+}
+.barracuda .native-hero .native-hero-art {
+    width: 100%;
+    height: auto;
+    max-width: 512px;
+    position: relative;
+}
+.barracuda .native-hero .native-hero-art img {
+    width: 100%;
+    animation-name: chillin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+.barracuda .native-hero-art::before {
+    content: '';
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    bottom: -5%;
+    right: 32%;
+    opacity: 0;
+    z-index: 1;
+    background-image: url("https://www.telegram.hr/wp-content/uploads/2019/07/ripple.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: ripple-anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+.barracuda .native-hero-title {
+    padding: 30px;
+}
+.barracuda .native-hero h1 {
+    font-size: 96px;
+    color: white;
+    font-family: 'Lilita One', cursive;
+    text-shadow: 4px 4px #151e79;
+}
+.barracuda .native-hero h2 {
+    color: #151e79;
+    padding-top: 30px;
+    font-size: 42px;
+}
+.barracuda .article-image {
+    padding: 50px;
+    position: relative;
+}
+.barracuda .article-image img {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    position: relative;
+}
+.barracuda .single-head .title {
+    font-size: 36px;
+    line-height: 46px;
+}
+.barracuda .article-image::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+    z-index: 1;
+    background-image: url("https://www.telegram.hr/wp-content/uploads/2019/07/pattern_paw_prints_black.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.45s ease-in-out;
+    opacity: 0.35;
+    transform: rotate(-90deg);
+}
+.barracuda .article-image:first-child::before {
+    right: auto;
+    left: -50px;
+    transform: none;
+}
+.barracuda .article-container {
+    margin-bottom: 50px;
+}
+.barracuda .article-container:hover .article-image::before {
+    opacity: 0.7;
+}
+.barracuda .single-head .title {
+    margin: 0px;
+}
+.barracuda .single-head {
+    border-bottom: none;
+}
+.barracuda .single-head p {
+    color: #333333;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.barracuda .infografika img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.barracuda .article-cta {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: #151e79;
+    padding: 10px;
+    width: 250px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+    border-radius: 50px;
+    text-align: center;
+    border: 3px solid #151e79;
+  }
+  
+  .barracuda .article-cta::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #151e79;
+    transform-origin: center;
+    transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
+  }
+  .barracuda .article-container:hover .article-cta {
+    color: white;
+  } 
+  .barracuda .article-container:hover .article-cta::before {
+    transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
+  }  
+
+.barracuda .article-copy {
+    padding-left: 50px;
+}
+.barracuda .single-head {
+    padding: 0px;
+}
+.barracuda .mobile-only {
+    display: none;
+}
+
+
+/* Footer */
+
+.barracuda .native-signature .container {
+    min-height: 170px;
+    padding: 0px 50px;
+}
+.barracuda .native-signature .tg-studio {
+    width: 70px;
+    height: 150px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.barracuda .native-signature .container p {
+    padding-left: 130px;
+    color: #333;
+}
+
+@media screen and (max-width: 1279px) {
+    .barracuda .mobile-only {
+        display: block;
+    }
+    .barracuda .desktop-only {
+        display: none;
+    }
+    .barracuda .flex-responsive {
+        width: 100%;
+    }
+    .barracuda .article-image::before {
+        right: -20px;
+        top: -20px;
+    }
+    .barracuda .article-image:first-child::before {
+        left: -20px;
+    }
+    .barracuda .article-image {
+        order: 1;
+    }
+    .barracuda .article-copy {
+        order: 2;
+    }
+    .barracuda .article-image {
+        padding: 30px;
+    }
+    .barracuda .article-copy {
+        padding: 0px;
+    }
+    .barracuda .native-title {
+        padding: 15px;
+        padding-top: 15vw;
+    }
+    .barracuda .native-title h1{
+        font-size: 46px;
+        padding-bottom: 15px;
+        text-shadow: 2px 2px #005873;
+    }
+    .barracuda .native-title h2 {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .barracuda .native-hero {
+        height: auto;
+        padding-top: 70px;
+    }
+}
+@keyframes chillin {
+    0% {
+        top: 0vw;
+    }
+    50% {
+        top: -1.5vw;
+    }
+    100% {
+        top: 0vw;
+    }
+  }
+  @keyframes ripple-anim {
+    0% {
+        bottom: -5%;
+        right: 32%;
+        opacity: 0;
+        width: 20%;
+    }
+    20% {
+        bottom: -7%;
+        right: 30%;
+        opacity: 1;
+        width: 24%;
+    }
+    100% {
+        bottom: -15%;
+        right: 27%;
+        opacity: 0;
+        width: 30%;
+    }
+  }
