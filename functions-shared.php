@@ -608,6 +608,10 @@ function telegram_save_post($post_id) {
 	// specific field value
 	$field = $_POST['acf']['field_54cb837145dc6'];
 	update_post_meta($post_id, 'subtitle2', $field);
+	if (isset($_POST['acf']['field_5d638609115a5']) && intval($_POST['acf']['field_5d638609115a5'])) {
+	    update_post_meta($post_id, 'fake_recommendations', intval($_POST['acf']['field_5d638609115a5']));
+    }
+
 }
 
 add_action( 'rss2_item', 'telegram_rss_item_enclosure' );
