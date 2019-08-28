@@ -125,7 +125,7 @@ function telegram_load_fonts() {
     wp_enqueue_script('google-font-loader', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', [], '1.6.26');
     $data = "WebFont.load({
         google: {
-            families: ['Oswald:latin,latin-ext', 'PT Sans:400,700:latin,latin-ext', 'Lora:400,400i,700,700i:latin,latin-ext']
+            families: ['Oswald', 'PT Sans:400,700:latin,latin-ext', 'Lora:400,400i,700,700i']
         },
         custom: { 
             families: [ 'FontAwesome' ],
