@@ -32,7 +32,9 @@ class Telegram_Trending extends WP_Widget {
                     'posts_per_page' => $no,
                     'post__in' => get_option('telegram_realtime'),
                     'post_type' => array('post', 'price', 'fotogalerije', 'video'),
-                    'orderby' => 'post__in'
+                    'orderby' => 'post__in',
+                    'ignore_sticky_posts' => true,
+                    'no_found_rows'       => true,
                 );
                 $articles = new WP_Query($args);
                 if ($articles->have_posts()) {

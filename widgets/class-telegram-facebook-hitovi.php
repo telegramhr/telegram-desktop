@@ -33,6 +33,8 @@ class Telegram_Facebook_Hitovi extends WP_Widget {
                     'posts_per_page' => $no,
                     'meta_key' => '_recommendations',
                     'orderby' => 'meta_value_num',
+                    'ignore_sticky_posts' => true,
+                    'no_found_rows'       => true,
                     'date_query' => array(
                         array(
                             'after' => array(

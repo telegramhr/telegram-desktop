@@ -9,7 +9,9 @@ class Telegram_Command extends WP_CLI_Command {
 				'post_status'    => 'publish',
 				'post_type'      => array( 'post', 'price', 'partneri', 'fotogalerije', 'video' ),
 				'posts_per_page' => 20,
-				'paged'           => $page
+				'paged'           => $page,
+				'ignore_sticky_posts' => true,
+				'no_found_rows'       => true,
 			) );
 			while ( $q->have_posts() ) {
 				$q->the_post();
