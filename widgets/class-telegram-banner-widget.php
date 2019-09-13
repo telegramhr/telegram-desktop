@@ -10,9 +10,15 @@ class Telegram_Banner_Widget extends WP_Widget {
 	}
 
 	public function widget( $args, $instance ) {
-		/*if (!get_option('tmg_ads_enable', 0)) {
+		if (!get_option('tmg_ads_enable', 0)) {
 		    return '';
-        }*/
+        }
+		if ( is_single() ) {
+			$oglasi = get_post_meta( get_the_ID(), 'oglasi', true );
+			if ($oglasi && in_array('all', $oglasi)) {
+				return '';
+			}
+		}
 		$id = $instance['size'];
 			switch ( $id ) {
 				case 'telegram_desktop_billboard_v1':
