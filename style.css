@@ -1806,6 +1806,13 @@ background-size: 100% 100%; */
   margin-bottom: 10px;
 }
 
+.single-price .single-content .the-content .banner-intext {
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  text-align: center;
+}
+
 .page {
   padding-top: 50px;
 }
