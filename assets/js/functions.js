@@ -94,7 +94,6 @@ function gallerySlide() {
             slide: '.gallery-image'
         }).on('afterChange', function (event, slick, currentSlide) {
             jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (gallery_captions.length));
-            ga('send', 'pageview');
             pp_gemius_hit(tmg_gemius_identifier);
         });
         jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
@@ -104,7 +103,6 @@ function gallerySlide() {
 
             slide: '.gallery-image'
         }).on('afterChange', function (event, slick, currentSlide) {
-            ga('send', 'pageview');
             pp_gemius_hit(tmg_gemius_identifier);
         });
     }
@@ -117,7 +115,6 @@ function gallerySlide() {
         })
             .on('afterChange', function (event, slick, currentSlide) {
             jQuery('.gallery-page  .slide-num span').text((currentSlide + 1) + '/' + (slick.$slides.length));
-            ga('send', 'pageview');
             pp_gemius_hit(tmg_gemius_identifier);
         });
         jQuery('.gallery-page  .slide-num span').text('1/' + (jQuery('.wp-block-gallery li').length));
