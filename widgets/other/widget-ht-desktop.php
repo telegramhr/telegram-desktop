@@ -6,27 +6,27 @@ class Telegram_HT_Desktop extends WP_Widget
     private $articles = [
 	    [
 		    'link' => 'https://gdehr.hit.gemius.pl/lshitredir/id=S.qhio5nzIr1QjbwNH9mRBnS7DabH1Ctoz5s4beq7q7.U7/fastid=nvkqroedovrlmckzcuzuhcobmzna/stparam=rfgkkketwj/nc=0/gdpr=0/gdpr_consent=/url=https://izsvijetaboljihmogucnosti.t.ht.hr/smart-life/?utm_source=telegram&utm_medium=display&utm_campaign=smart-life-launch-pmg&utm_term=smart-life&utm_content=widget',
-		    'short_title' => 'REVOLUCIONARNA BANKA U HRVATSKOJ: UŠTEDI VIŠE',
+		    'short_title' => 'Tehnologija koja nam je u tri dana uštedila 8320 kuna',
 		    'image' => 714235,
-		    'category' => 'SMART LIFE'
+		    'category' => 'SMART MONEY'
 	    ],
 	    [
 		    'link' => 'https://gdehr.hit.gemius.pl/lshitredir/id=S.qhio5nzIr1QjbwNH9mRBnS7DabH1Ctoz5s4beq7q7.U7/fastid=nvkqroedovrlmckzcuzuhcobmzna/stparam=rfgkkketwj/nc=0/gdpr=0/gdpr_consent=/url=https://izsvijetaboljihmogucnosti.t.ht.hr/smart-life/?utm_source=telegram&utm_medium=display&utm_campaign=smart-life-launch-pmg&utm_term=smart-life&utm_content=widget',
-		    'short_title' => 'KAKO SE HRANITI ZDRAVIJE I UŠTEDJETI',
+		    'short_title' => 'Kako se hranimo zdravije i štedimo uz tehnologije ',
 		    'image' => 714237,
 		    'category' => 'SMART EAT'
 	    ],
 	    [
 		    'link' => 'https://gdehr.hit.gemius.pl/lshitredir/id=S.qhio5nzIr1QjbwNH9mRBnS7DabH1Ctoz5s4beq7q7.U7/fastid=nvkqroedovrlmckzcuzuhcobmzna/stparam=rfgkkketwj/nc=0/gdpr=0/gdpr_consent=/url=https://izsvijetaboljihmogucnosti.t.ht.hr/smart-life/?utm_source=telegram&utm_medium=display&utm_campaign=smart-life-launch-pmg&utm_term=smart-life&utm_content=widget',
-		    'short_title' => 'OBNOVI STAN I UŠTEDI ČETVRTINU BUDŽETA! ',
+		    'short_title' => 'Obnovili smo stan i uštedjeli 15.000 kuna! ',
 		    'image' => 714878,
 		    'category' => 'SMART DESIGN'
 	    ],
 	    [
 		    'link' => 'https://gdehr.hit.gemius.pl/lshitredir/id=S.qhio5nzIr1QjbwNH9mRBnS7DabH1Ctoz5s4beq7q7.U7/fastid=nvkqroedovrlmckzcuzuhcobmzna/stparam=rfgkkketwj/nc=0/gdpr=0/gdpr_consent=/url=https://izsvijetaboljihmogucnosti.t.ht.hr/smart-life/?utm_source=telegram&utm_medium=display&utm_campaign=smart-life-launch-pmg&utm_term=smart-life&utm_content=widget',
-		    'short_title' => 'EVO KAKO PUTOVATI, ZABAVITI SE I ŠTEDJETI ',
+		    'short_title' => 'Pet dana na Oktoberfestu spavamo za nula kuna',
 		    'image' => 714232,
-		    'category' => 'SMART TRAVEL'
+		    'category' => 'SMART FUN'
 	    ]
     ];
 
