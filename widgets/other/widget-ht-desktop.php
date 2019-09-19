@@ -117,7 +117,7 @@ class Telegram_HT_Desktop extends WP_Widget
 
     private function mobile() {
         ?>
-        <div class="tg-widget rainbow-widget procitajte-danas">
+        <div class="tg-widget rainbow-widget procitajte-danas ht" style="margin-bottom: 30px;">
             <div class="tg-widget-head">
                 SMART LIFE
             </div>
