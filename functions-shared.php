@@ -202,6 +202,18 @@ function telegram_widgets_init() {
     );
 
 	register_sidebar(
+		array(
+			'name' => 'Naslovnica desni stupac 3',
+			'description' => 'Desni stupac na naslovnici 3',
+			'id' => 'home-sidebar-3',
+			'before_widget' => '<div id="%1$s" class="%2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '',
+			'after_title' => ''
+		)
+	);
+
+	register_sidebar(
         array(
             'name' => 'Članak',
             'id' => 'sidebar-single',
