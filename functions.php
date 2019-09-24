@@ -64,7 +64,7 @@ function telegram_price_content($content){
         return $content;
     }
     global $post;
-    if ($post->post_type === 'post') {
+    if ($post->post_type !== 'post') {
         return $content;
     }
     $new_line = "</p>";
