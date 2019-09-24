@@ -47,6 +47,9 @@ if( have_posts() ) {
                     </div>
                 </div>
             </div>
+	        <?php
+	        // Bottom single sidebar - Fullwidth
+	        dynamic_sidebar('sidebar-single-bottom-2'); ?>
         </div>
 
         <?php

@@ -108,7 +108,6 @@ if( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="navigation"><?php previous_post_link(); ?>    <?php next_post_link(); ?></div>
     <?php
         // Bottom single sidebar - Fullwidth
         dynamic_sidebar('sidebar-single-bottom-2'); ?>
