@@ -2,9 +2,7 @@
 get_header(); ?>
 
 <div class="home-top-container">
-    <?php
-    the_widget('Telegram_HT_Desktop');
-    ?>
+    <?php the_widget('Telegram_Top_Vijesti'); ?>
 
     <div class="zones container">
         <?php
