@@ -165,10 +165,9 @@ get_header(); ?>
 		                dynamic_sidebar('home-sidebar-2'); ?>
                     </div>
                     </div>
+                    </div>
 	                <?php
 	                the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v3')); ?>
-
-                    </div>
                     <!-- MEGABREAK -->
                     <div class="megabreak-container megabreak-2">
 

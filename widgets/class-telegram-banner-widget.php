@@ -23,6 +23,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 			switch ( $id ) {
 				case 'telegram_desktop_billboard_v1':
 				case 'telegram_desktop_billboard_v2':
+				case 'telegram_desktop_billboard_v3':
 						?>
 						<div class="billboard">
 							<?php $this->banner_slave( $id ); ?>
