@@ -47,9 +47,8 @@ if( have_posts() ) {
                     </div>
                 </div>
             </div>
-	        <?php
-	        // Bottom single sidebar - Fullwidth
-	        dynamic_sidebar('sidebar-single-bottom-2'); ?>
+
+            <?php the_widget('Telegram_Banner_widget', ['size' => 'telegram_desktop_billboard_v2']); ?>
         </div>
 
         <?php
