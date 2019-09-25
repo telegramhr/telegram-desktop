@@ -3,6 +3,7 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=1230, initial-scale=0.8, maximum-scale=1">
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
     <!-- Twitter embed box -->
     <meta name="twitter:widgets:theme" content="light">
