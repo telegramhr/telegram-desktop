@@ -1808,7 +1808,7 @@ background-size: 100% 100%; */
 
 .single-price .single-content .the-content .banner-intext {
   left: 50%;
-  margin-left: -50vw;
+  margin-left: -500px;
   position: relative;
   text-align: center;
 }
