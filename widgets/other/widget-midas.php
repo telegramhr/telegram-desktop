@@ -10,6 +10,10 @@ class Telegram_Midas_Widget extends WP_Widget {
 	}
 
 	public function widget( $args, $instance ) {
+		$oglasi = get_post_meta( get_the_ID(), 'oglasi', true );
+		if ($oglasi && in_array('all', $oglasi)) {
+			return '';
+		}
 	    ?>
         <style>
             /* Desktop */
