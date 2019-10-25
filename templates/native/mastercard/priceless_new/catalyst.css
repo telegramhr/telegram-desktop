@@ -1,0 +1,133 @@
+/*
+* Catalyst Framework
+* by TG Studio
+*/
+
+/* Reset */
+
+html { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline; 
+    list-style: none; 
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Body setup */ 
+
+:root {
+    font-size: 20px;
+}
+body {
+    color: #111111;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+b, strong, .bold { 
+    font-weight: 700; 
+}
+i, em, .italic { 
+    font-style: italic; 
+}
+:focus { 
+    outline: none; 
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Layout */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.stretch {
+    align-items: stretch;
+}
+.third {
+    width: 33.33%;
+}
+.two-thirds {
+    width: 66.67%;
+}
+.fourth {
+    width: 24.99%;
+}
+.three-fourths {
+    width: 74.99%;
+}
+.half {
+    width: 49.99%;
+}
+.full {
+    width: 100%;
+}
+.center-text {
+    text-align: center;
+}
+.right-text {
+    text-align: right;
+}
+.relative {
+    position: relative;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mobile-only {
+    display: none;
+}
+
+@media only screen and (max-width: 1263px) {
+    .flex-responsive {
+        width: 100%;
+    }
+    .mobile-only {
+        display: flex;
+    }
+    .desktop-only {
+        display: none;
+    }
+}
