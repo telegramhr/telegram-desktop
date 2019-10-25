@@ -8,7 +8,13 @@
     <div class="titles">
         <div class="article-meta">
             <span class="rcmds">
-                <?php echo get_the_category()[0]->name; ?>
+                <?php
+                if (get_field('nadnaslov')) {
+	                the_field('nadnaslov');
+                }
+                else {
+                    echo get_the_category()[0]->name;
+                } ?>
             </span>
         </div>
         <h1 class="title">
