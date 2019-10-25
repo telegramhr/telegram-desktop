@@ -15,7 +15,7 @@ $directory = PARENT_PATH . "/templates/native/mastercard/priceless_new/";
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="<?php echo $directory; ?>js/aos.css?ver=1.0" type="text/css" />
     <link rel="stylesheet" href="<?php echo $directory; ?>catalyst.css?ver=1.2" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $directory; ?>style.css?ver=1.8" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $directory; ?>style.css?ver=1.9" type="text/css" />
 </head>
 
 <body>

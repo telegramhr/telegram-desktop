@@ -564,7 +564,6 @@ header {
     height: 100vw;
     position: relative;
     left: -50vw;
-    object-fit: cover;
 }
 .header-text {
     align-items: flex-end;
@@ -630,6 +629,16 @@ header {
     #map-window, #map-window-2 {
         height: auto;
         padding-bottom: 70px;
+    }
+}
+@media only screen and (min-width: 860px) {
+    .header-video {
+        height: 50vw;
+        position: relative;
+        left: 0vw;
+    }
+    header {
+        height: auto;
     }
 }
 @media only screen and (min-width: 1264px) {
