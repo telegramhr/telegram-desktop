@@ -564,6 +564,7 @@ header {
     height: 100vw;
     position: relative;
     left: -50vw;
+    object-fit: cover;
 }
 .header-text {
     align-items: flex-end;
