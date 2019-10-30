@@ -57,7 +57,7 @@ $directory = PARENT_PATH . "/templates/native/mastercard/priceless_new/";
     </section>
     <div class="gray-background full flex">
         <section class="coming-soon-article container flex separate-me">
-            <h4 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250"><?php echo file_get_contents($directory . "img/clock.svg"); ?>Pročitaj uskoro! Priča stiže 30.10.</h4>
+            <h4 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250"><?php echo file_get_contents($directory . "img/clock.svg"); ?>Pročitaj uskoro! Priča stiže 31.10.</h4>
             <h2 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">Proveli smo jedan dan na farmi u Krapini. Hranila sam svinje, pomuzla kravu i napravila jogurt. Bilo je to neprocjenjivo iskustvo</h2>
         </section>
     </div>
