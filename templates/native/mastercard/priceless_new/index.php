@@ -15,7 +15,7 @@ $directory = PARENT_PATH . "/templates/native/mastercard/priceless_new/";
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="<?php echo $directory; ?>js/aos.css?ver=1.0" type="text/css" />
     <link rel="stylesheet" href="<?php echo $directory; ?>catalyst.css?ver=1.2" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $directory; ?>style.css?ver=1.9" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $directory; ?>style.css?ver=2.0" type="text/css" />
 </head>
 
 <body>
@@ -55,12 +55,23 @@ $directory = PARENT_PATH . "/templates/native/mastercard/priceless_new/";
             </div>
         </a>
     </section>
-    <div class="gray-background full flex">
-        <section class="coming-soon-article container flex separate-me">
-            <h4 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250"><?php echo file_get_contents($directory . "img/clock.svg"); ?>Pročitaj uskoro! Priča stiže 30.10.</h4>
-            <h2 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">Proveli smo jedan dan na farmi u Krapini. Hranila sam svinje, pomuzla kravu i napravila jogurt. Bilo je to neprocjenjivo iskustvo</h2>
-        </section>
-    </div>
+    <section class="big-article" style="background-image: url('<?php echo $directory; ?>img/milkbar_bg.jpg');">
+        <a class="container flex stretch" href="https://www.telegram.hr/price/provela-sam-dan-na-farmi-hranila-i-muzla-koze-i-na-kraju-napravila-svoj-prvi-jogurt-neprocjenjivo-iskustvo/" target="_blank">
+            <div class="half flex-responsive flex article-image">
+                <img alt="S1 Veronika" src="<?php echo $directory; ?>img/veronika.png">
+            </div>
+            <div class="half flex-responsive center">
+                <div class="full flex">
+                    <div class="article-data relative flex" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                        <h2 class="full">Provela sam dan na farmi, hranila i muzla koze, i na kraju napravila svoj prvi jogurt. Neprocjenjivo iskustvo</h2>
+                    </div>
+                    <div class="full">
+                        <div class="cta animate" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="750">Pročitaj više</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
     <div class="gray-background full flex">
         <section class="coming-soon-article container flex bottom-pad">
             <h4 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250"><?php echo file_get_contents($directory . "img/clock.svg"); ?>Pročitaj uskoro! Priča stiže 06.11.</h4>

@@ -32,6 +32,7 @@ Media queries are for desktop.
 .article-image {
     justify-content: center;
     padding-top: 16px;
+    order: 2;
 }
 .big-article .article-image img {
     width: 80%;
@@ -642,6 +643,9 @@ header {
     }
 }
 @media only screen and (min-width: 1264px) {
+    .article-image {
+        order: initial;
+    }
     summary img {
         max-width: 80px;
     }
