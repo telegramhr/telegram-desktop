@@ -40,7 +40,7 @@ class Telegram_HT_Desktop extends WP_Widget
 
     public function widget($args, $instance)
     {
-        if (jetpack_is_mobile()) {
+        if (wp_is_mobile()) {
             $this->mobile();
         }
         else {

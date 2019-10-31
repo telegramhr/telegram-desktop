@@ -41,7 +41,7 @@ class Telegram_Ne_Propusti_Mobile extends WP_Widget {
                         $q = new WP_Query($args);
                         while($q->have_posts()) {
                             $q->the_post();
-                            if ( my_wp_is_mobile() ) {
+                            if ( wp_is_mobile() ) {
                                 get_template_part('templates/articles/article-1');
                             } else {
                                 get_template_part('templates/articles/article-fourth');

@@ -50,7 +50,7 @@ class Telegram_Midas_Widget extends WP_Widget {
                 border-bottom: 1px solid #ddd;
             }
         </style>
-        <?php if (!jetpack_is_mobile()) { ?>
+        <?php if (!wp_is_mobile()) { ?>
         <div class="container widget-midas" style="margin-top: 50px;">
         <div class="tg-widget-head big-title">
            Više s weba

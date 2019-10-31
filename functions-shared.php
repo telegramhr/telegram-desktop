@@ -753,22 +753,11 @@ function capx_filter_guest_author_fields( $fields_to_return, $groups ) {
 	return $fields_to_return;
 }
 
-// Exclude iPad
-function my_wp_is_mobile() {
-	if (
-		! empty($_SERVER['HTTP_USER_AGENT'])
-
-		// bail out, if iPad
-		&& false !== strpos($_SERVER['HTTP_USER_AGENT'], 'iPad')
-	) return false;
-	return wp_is_mobile();
-} // function my_wp_is_mobile
-
 function telegram_load_megabreak($size, $number) {
     if ($size === 'break') {
         $template = 'templates/articles/article-megabreak.php';
         $image_size = 'fullpage';
-        if (jetpack_is_mobile()) {
+        if (wp_is_mobile()) {
             $image_size = 'mobile-head';
         }
     }
