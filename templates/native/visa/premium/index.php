@@ -26,10 +26,10 @@ $directory = PARENT_PATH . "/templates/native/visa/premium/";
         <div class="title margin25 padding50 center-text relative" data-tilt>
             <h1>Premium Visa kartice. <br>Najbolje za vas</h1>
             <h2>Najbolje za vas</h2>
-            <img class="powered-by desktop-only" src="<?php echo $directory; ?>img/powered-by.jpg" alt="Powered by Visa" widht="100" height="50">
+            <img class="powered-by desktop-only" src="<?php echo $directory; ?>img/powered-by.jpg" alt="Powered by PBZ Card" widht="100" height="50">
         </div>
     </header>
-    <div class="full center"><img class="mobile-only" src="<?php echo $directory; ?>img/powered-by.jpg" alt="Powered by Visa" widht="100" height="50"></div>
+    <div class="full center"><img class="mobile-only" src="<?php echo $directory; ?>img/powered-by.jpg" alt="Powered by PBZ Card" widht="100" height="50"></div>
     <article>
         <div class="container">
             <h2 class="white-space main-color-text text-container center-text">Život bez kartica ne može se zamisliti. Evo zašto</h2>
