@@ -25,7 +25,7 @@ $directory = PARENT_PATH . "/templates/native/visa/premium/";
     <header class="full center relative">
         <div class="title margin25 padding50 center-text relative" data-tilt>
             <h1>Premium Visa kartice. <br>Najbolje za vas</h1>
-            <h2>Najbolje za vas</h2>
+            <h2>Sigurnost i kvaliteta kakvu trebate</h2>
             <img class="powered-by desktop-only" src="<?php echo $directory; ?>img/powered-by.jpg" alt="Powered by PBZ Card" widht="100" height="50">
         </div>
     </header>
