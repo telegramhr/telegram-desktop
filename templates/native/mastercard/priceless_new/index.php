@@ -74,7 +74,7 @@ $directory = PARENT_PATH . "/templates/native/mastercard/priceless_new/";
     </section>
     <div class="gray-background full flex">
         <section class="coming-soon-article container flex bottom-pad">
-            <h4 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250"><?php echo file_get_contents($directory . "img/clock.svg"); ?>Pročitaj uskoro! Priča stiže 06.11.</h4>
+            <h4 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250"><?php echo file_get_contents($directory . "img/clock.svg"); ?>Pročitaj uskoro! Priča stiže 07.11.</h4>
             <h2 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">Skoknuli smo do Paga i ručali s Borisom Šuljićem. Sada nam je jasno zašto ga nazivaju pionirom hrvatske moderne gastronomije</h2>
         </section>
     </div>
