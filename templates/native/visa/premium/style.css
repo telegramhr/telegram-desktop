@@ -1,0 +1,193 @@
+/* 
+* Visa Advertorial
+* by TG Studio
+*/
+
+/* Typography */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 42px;
+}
+.title h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+a {
+    font-weight: 400;
+    color: #041e41;
+}
+.infographic-figure {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #666;
+    font-size: 48px;
+    min-height: 85px;
+}
+.infographic-parent {
+    align-content: flex-start;
+}
+.infographic-text {
+    padding-top: 15px;
+    font-size: 24px;
+}
+.infographic-image {
+    padding: 50px 100px;
+}
+/* Colors */
+
+.main-color-bg {
+    background-color: #012897;
+    background: linear-gradient(160deg, #30cfd0 0%, #330867 100%);
+}
+.main-color-text {
+    color: #10195d;
+}
+
+/* Layout */
+
+header {
+    background-color: #012897;
+    background: linear-gradient(160deg, transparent 0%, transparent 49.99%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.0) 80%), linear-gradient(to right, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+}
+.title {
+    width: 100%;
+    max-width: 840px;
+    background-color: white;
+    color: #10195d;
+    border-radius: 30px;
+}
+.powered-by {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.caption {
+    position: relative;
+    color: #666;
+    font-size: 16px;
+    padding-bottom: 15px;
+    top: -15px;
+}
+.infographic {
+    background-image: url("img/infographic_Bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: bottom center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.fact {
+    width: 50%;
+    border-bottom: 2px solid white;
+    position: relative;
+    padding: 15px;
+    height: auto;
+    background-color: rgba(4,30,65,0.9);
+    border-radius: 5px;
+    margin-bottom: 4vw;
+}
+.fact:nth-child(2n){
+    margin-top: 8vw;
+}
+.slick-dots button:before {
+    color: white !important;
+}
+.slick {
+    padding: 15px;
+}
+.slick div {
+    background-color: white;
+    color: #041e41;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0px 10px;
+}
+@media screen and (max-width: 1600px) {
+    header.center {
+        align-items: flex-end;
+    }
+    .title {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .title {
+        margin: 0px;
+        padding: 15px;
+        max-width: 100%;
+    }
+    .fact {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .fact:nth-child(2n){
+        margin-top: 0px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .title h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .partner-logo {
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .padding50 {
+        padding: 10px;
+    }
+    .infographic-figure {
+        font-size: 36px;
+        height: 50px;
+    }
+    .infographic-text {
+        font-size: 16px;
+    }
+    .infographic-image {
+        padding: 20px 0px;
+    }
+    .text-lead {
+        margin: 0px;
+        padding: 30px;
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .title {
+        margin: 0px;
+        padding: 15px;
+    }
+}
