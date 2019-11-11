@@ -1294,7 +1294,7 @@ add_action( 'deleted_option', '_wpcom_vip_maybe_clear_alloptions_cache' );
 add_filter( 'get_coauthors', 'telegram_coauthors', 10, 2 );
 
 function telegram_coauthors($coauthors, $post_id) {
-	if (get_post_meta($post_id, 'author_hidden', true) === 1){
+	if (get_post_meta($post_id, 'author_hidden', true)){
 	    return [];
     }
 	return $coauthors;
