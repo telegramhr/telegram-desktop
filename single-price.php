@@ -91,19 +91,30 @@ if( have_posts() ) {
                     <div class="head-meta">
                         Piše:
                         <?php
-                        $i = 0;
-                        $coauthors = get_coauthors();
-                        foreach ( $coauthors as $author ) {
-                            ?>
-                             <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name;
-                             if (sizeof($coauthors)>1 && sizeof($coauthors) < $i+1) { echo ', '; } ?></a>
-                            <?php
-                            $i++;
+                        if (in_array(get_the_ID(), [658111, 664691, 666667, 732737] )){
+	                        if ( telegram_get_photographer() ) {
+		                        ?>
+                                Snima: <?php echo telegram_get_photographer(); ?>
+		                        <?php
+	                        }
                         }
-                        if ( telegram_get_photographer() ) {
-	                        ?>
-                            | Snima: <?php echo telegram_get_photographer(); ?>
-	                        <?php
+                        else {
+	                        $i         = 0;
+	                        $coauthors = get_coauthors();
+	                        foreach ( $coauthors as $author ) {
+		                        ?>
+                                <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name;
+			                        if ( sizeof( $coauthors ) > 1 && sizeof( $coauthors ) < $i + 1 ) {
+				                        echo ', ';
+			                        } ?></a>
+		                        <?php
+		                        $i ++;
+	                        }
+	                        if ( telegram_get_photographer() ) {
+		                        ?>
+                                | Snima: <?php echo telegram_get_photographer(); ?>
+		                        <?php
+	                        }
                         }
                         ?>
                     </div>
@@ -194,19 +205,30 @@ if( have_posts() ) {
                 <div class="head-meta">
                     Piše:
 				    <?php
-                    $i = 0;
-                    $coauthors = get_coauthors();
-				    foreach ( $coauthors as $author ) { ?>
-                        <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
-						    <?php echo $author->display_name;
-						    if (sizeof($coauthors)>1 && sizeof($coauthors)<$i+1) { echo ', '; }
+				    if (in_array(get_the_ID(), [658111, 664691, 666667, 732737] )){
+					    if ( telegram_get_photographer() ) {
 						    ?>
-                        </a>
-					    <?php
-                        $i++;
+                            Snima: <?php echo telegram_get_photographer(); ?>
+						    <?php
+					    }
 				    }
-				    if ( telegram_get_photographer() ) {
-					    echo ' | Snima: ' . telegram_get_photographer();
+				    else {
+					    $i         = 0;
+					    $coauthors = get_coauthors();
+					    foreach ( $coauthors as $author ) { ?>
+                            <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
+							    <?php echo $author->display_name;
+							    if ( sizeof( $coauthors ) > 1 && sizeof( $coauthors ) < $i + 1 ) {
+								    echo ', ';
+							    }
+							    ?>
+                            </a>
+						    <?php
+						    $i ++;
+					    }
+					    if ( telegram_get_photographer() ) {
+						    echo ' | Snima: ' . telegram_get_photographer();
+					    }
 				    }
 				    ?>
 
