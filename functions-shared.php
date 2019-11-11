@@ -1290,3 +1290,12 @@ function _wpcom_vip_maybe_clear_alloptions_cache( $option ) {
 add_action( 'added_option',   '_wpcom_vip_maybe_clear_alloptions_cache' );
 add_action( 'updated_option', '_wpcom_vip_maybe_clear_alloptions_cache' );
 add_action( 'deleted_option', '_wpcom_vip_maybe_clear_alloptions_cache' );
+
+add_filter( 'get_coauthors', 'telegram_coauthors', 10, 2 );
+
+function telegram_coauthors($coauthors, $post_id) {
+	if (in_array($post_id, [658111, 664691, 666667, 732737] )){
+	    return [];
+    }
+	return $coauthors;
+}
