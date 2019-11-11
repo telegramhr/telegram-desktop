@@ -72,12 +72,23 @@ $directory = PARENT_PATH . "/templates/native/mastercard/priceless_new/";
             </div>
         </a>
     </section>
-    <div class="gray-background full flex">
-        <section class="coming-soon-article container flex bottom-pad">
-            <h4 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250"><?php echo file_get_contents($directory . "img/clock.svg"); ?>Pročitaj uskoro! Priča stiže 07.11.</h4>
-            <h2 class="full relative" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">Skoknuli smo do Paga i ručali s Borisom Šuljićem. Sada nam je jasno zašto ga nazivaju pionirom hrvatske moderne gastronomije</h2>
-        </section>
-    </div>
+    <section class="big-article" style="background-image: url('<?php echo $directory; ?>img/boskinac_bg.jpg');">
+        <a class="container flex stretch" href="https://www.telegram.hr/price/s-ocem-je-kao-djecak-prodavao-vina-po-kucama-danas-ima-jedan-od-najboljih-botique-hotela-na-jadranu/" target="_blank">
+            <div class="half flex-responsive center">
+                <div class="full flex">
+                    <div class="article-data relative flex" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                        <h2 class="full">S ocem je kao dječak prodavao vina po kućama, danas ima jedan od najboljih botique hotela na Jadranu</h2>
+                    </div>
+                    <div class="full">
+                        <div class="cta animate" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="750">Pročitaj više</div>
+                    </div>
+                </div>
+            </div>
+            <div class="half flex-responsive flex article-image">
+                <img alt="Boris Šuljić" src="<?php echo $directory; ?>img/boskinac.png">
+            </div>
+        </a>
+    </section>
     <div class="container flex">
         <h2 class="full top-pad desktop-white-space" data-aos="fade-left" data-aos-duration="500" data-aos-delay="250">Isprobaj neprocjenjiva gastro iskustva</h2>
     </div>
