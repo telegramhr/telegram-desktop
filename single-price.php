@@ -37,10 +37,12 @@ if( have_posts() ) {
                     <div class="container">
                         <div class="head-meta">
 	                        <?php
-                            if (in_array(get_the_ID(), [658111, 664691, 666667] )){
-	                            ?>
-                                Snima: <?php echo telegram_get_photographer(); ?>
-	                            <?php
+                            if (in_array(get_the_ID(), [658111, 664691, 666667, 732737] )){
+                                if ( telegram_get_photographer() ) {
+                                    ?>
+                                    Snima: <?php echo telegram_get_photographer(); ?>
+                                    <?php
+                                }
                             }
                             else {
                                 ?>Piše:<?php
