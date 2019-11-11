@@ -89,7 +89,6 @@ if( have_posts() ) {
                 </div>
                 <div class="titles">
                     <div class="head-meta">
-                        Piše:
                         <?php
                         if (in_array(get_the_ID(), [658111, 664691, 666667, 732737] )){
 	                        if ( telegram_get_photographer() ) {
@@ -99,7 +98,8 @@ if( have_posts() ) {
 	                        }
                         }
                         else {
-	                        $i         = 0;
+                            echo 'Piše:';
+                            $i = 0;
 	                        $coauthors = get_coauthors();
 	                        foreach ( $coauthors as $author ) {
 		                        ?>
