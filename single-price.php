@@ -37,33 +37,33 @@ if( have_posts() ) {
                     <div class="container">
                         <div class="head-meta">
 	                        <?php
-                            if (in_array(get_the_ID(), [658111, 664691, 666667, 732737] )){
-                                if ( telegram_get_photographer() ) {
-                                    ?>
-                                    Snima: <?php echo telegram_get_photographer(); ?>
-                                    <?php
-                                }
-                            }
-                            else {
-                                ?>Piše:<?php
-	                            $i         = 0;
-	                            $coauthors = get_coauthors();
-	                            foreach ( $coauthors as $author ) {
-		                            ?>
+	                        $coauthors = get_coauthors();
+	                        $has_authors = false;
+	                        if ($coauthors) {
+		                        echo 'Piše: ';
+		                        $i = 0;
+		                        foreach ( $coauthors as $author ) {
+			                        ?>
                                     <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name;
-			                            if ( sizeof( $coauthors ) > 1 && sizeof( $coauthors ) < $i + 1 ) {
-				                            echo ', ';
-			                            }
-			                            ?></a>
-		                            <?php
-		                            $i ++;
-	                            }
+				                        if ( sizeof( $coauthors ) > 1 && sizeof( $coauthors ) < $i + 1 ) {
+					                        echo ', ';
+				                        }
+				                        ?></a>
+			                        <?php
+			                        $i ++;
+		                        }
+		                        $has_authors = true;
+	                        }
 	                            if ( telegram_get_photographer() ) {
-		                            ?>
-                                    | Snima: <?php echo telegram_get_photographer(); ?>
-		                            <?php
+	                                if ($has_authors) {
+	                                    echo ' | Snima: ';
+                                    }
+		                            else {
+		                                echo ' Snima: ';
+                                    }
+	                                echo telegram_get_photographer();
 	                            }
-                            }
+
 	                        ?>
                         </div>
 
@@ -90,17 +90,13 @@ if( have_posts() ) {
                 <div class="titles">
                     <div class="head-meta">
                         <?php
-                        if (in_array(get_the_ID(), [658111, 664691, 666667, 732737] )){
-	                        if ( telegram_get_photographer() ) {
-		                        ?>
-                                Snima: <?php echo telegram_get_photographer(); ?>
-		                        <?php
-	                        }
-                        }
-                        else {
+                        $coauthors = get_coauthors();
+                        $has_authors = false;
+                        if ($coauthors){
+
                             echo 'Piše:';
                             $i = 0;
-	                        $coauthors = get_coauthors();
+
 	                        foreach ( $coauthors as $author ) {
 		                        ?>
                                 <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>"><?php echo $author->display_name;
@@ -110,11 +106,16 @@ if( have_posts() ) {
 		                        <?php
 		                        $i ++;
 	                        }
-	                        if ( telegram_get_photographer() ) {
-		                        ?>
-                                | Snima: <?php echo telegram_get_photographer(); ?>
-		                        <?php
+	                        $has_authors = true;
+                        }
+                        if ( telegram_get_photographer() ) {
+	                        if ($has_authors) {
+		                        echo ' | Snima: ';
 	                        }
+	                        else {
+		                        echo ' Snima: ';
+	                        }
+	                        echo telegram_get_photographer();
                         }
                         ?>
                     </div>
@@ -204,17 +205,12 @@ if( have_posts() ) {
             <div class="titles">
                 <div class="head-meta">
 				    <?php
-				    if (in_array(get_the_ID(), [658111, 664691, 666667, 732737] )){
-					    if ( telegram_get_photographer() ) {
-						    ?>
-                            Snima: <?php echo telegram_get_photographer(); ?>
-						    <?php
-					    }
-				    }
-				    else {
+				    $has_authors = true;
+				    $coauthors = get_coauthors();
+				    if ($coauthors){
 				        echo 'Piše:';
 					    $i         = 0;
-					    $coauthors = get_coauthors();
+
 					    foreach ( $coauthors as $author ) { ?>
                             <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
 							    <?php echo $author->display_name;
@@ -226,9 +222,16 @@ if( have_posts() ) {
 						    <?php
 						    $i ++;
 					    }
-					    if ( telegram_get_photographer() ) {
-						    echo ' | Snima: ' . telegram_get_photographer();
+					    $has_authors = true;
+				    }
+				    if ( telegram_get_photographer() ) {
+					    if ($has_authors) {
+						    echo ' | Snima: ';
 					    }
+					    else {
+						    echo ' Snima: ';
+					    }
+					    echo telegram_get_photographer();
 				    }
 				    ?>
 
