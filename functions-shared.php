@@ -555,7 +555,7 @@ function telegram_coauthors_posts($post_types) {
 	);
 }
 
-add_filter( 'oembed_result', 'telegram_twitter_embed_fix', 10, 3 );
+//add_filter( 'oembed_result', 'telegram_twitter_embed_fix', 10, 3 );
 
 function telegram_twitter_embed_fix($html, $url, $args) {
 	if (strpos($url, 'twitter') !==false) {
