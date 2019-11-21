@@ -2359,6 +2359,11 @@ border-bottom: 5px solid $gray-light; */
   bottom: 0;
   z-index: 9999;
   width: 100%;
+  text-align: center;
+}
+
+.stickyunit iframe, .stickyunit img {
+  margin: 0 auto;
 }
 
 /* Global search */
