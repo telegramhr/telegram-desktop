@@ -28,11 +28,10 @@
         </div>
     </div>
 </footer>
-
-
 <?php
+the_widget('Telegram_Banner_Widget', ['size' => 'telegram_sticky']);
+
 wp_footer();
-the_widget('Telegram_Banner_Widget', ['size' => 'telegram_desktop_floater']);
 ?>
 </body>
 </html>

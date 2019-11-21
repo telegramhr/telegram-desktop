@@ -65,6 +65,13 @@ class Telegram_Banner_Widget extends WP_Widget {
 	                </div>
 	                <?php
 	                break;
+                case 'telegram_sticky':
+                    ?>
+                    <div class="stickyunit">
+		                <?php $this->banner_slave($id) ?>
+                    </div>
+                    <?php
+                    break;
 				default:
 					?>
 					<div class="banner">
