@@ -21,6 +21,10 @@ h1, h2, h3 {
 h1 {
     font-size: 48px;
 }
+.single-head {
+    border: none;
+    margin: 0px;
+}
 .single-head h1.title {
     margin: 0px;
     margin-bottom: 15px;
@@ -100,6 +104,9 @@ h1 {
       max-width: 720px;
       margin: 0 auto;
   }
+  body {
+      min-width: auto;
+  }
   @media screen and (max-width: 1023px) {
       .article-image {
           order: 1;
@@ -137,7 +144,7 @@ h1 {
         display: flex;
     }
     .single-head {
-        padding: 50px;
+        padding: 0px 50px;
     }
 }
   
