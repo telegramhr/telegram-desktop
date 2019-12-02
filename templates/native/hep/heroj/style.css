@@ -11,7 +11,7 @@ body {
     background-color: white;
     color: #111;
 }
-.hero h2 {
+.hero-naslov h2 {
     font-size: 24px;
     font-weight: normal;
 }
@@ -107,10 +107,10 @@ h1 {
       .article-copy {
           order: 2;
       }
-      .hero {
+      .hero-naslov {
           padding: 20px;
       }
-      .hero h1 {
+      .hero-naslov h1 {
           font-size: 38px;
       }
   }
@@ -119,13 +119,13 @@ h1 {
     .single-head {
         padding: 30px;
     }
-    .hero {
+    .hero-naslov {
         position: relative;
         z-index: 3;
         top: -50px;
         margin-bottom: -50px;
     }
-    .hero div {
+    .hero-naslov div {
         padding: 50px;
         background-color: white;
     }

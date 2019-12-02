@@ -15,7 +15,7 @@ $template_url = get_theme_root_uri() . '/telegram2-desktop';
 </head>
 <div class="main-container barracuda">
     <img class="animate" src="https://www.telegram.hr/wp-content/uploads/2019/12/hep_heroji_header.png" alt="Header vizual heroji">
-    <div class="full center hero">
+    <div class="full center hero-naslov">
         <div>
             <h1 class="full center-text">Biti heroj na radnom mjestu </h1>
             <h2 class="full center-text" data-wow-delay="0.5s">Nesebični podvizi radnika HEP-a</h2>
