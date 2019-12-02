@@ -11,7 +11,7 @@ $template_url = get_theme_root_uri() . '/telegram2-desktop';
     <?php wp_head(); ?>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext" rel="stylesheet"> 
     <link rel="stylesheet" href="<?php echo esc_url( $template_url ) ?>/templates/native/hep/heroj/tmg_framework.css?ver=1.1" type="text/css" />
-    <link rel="stylesheet" href="<?php echo esc_url( $template_url ) ?>/templates/native/hep/heroj/style.css?ver=1.1" type="text/css" />
+    <link rel="stylesheet" href="<?php echo esc_url( $template_url ) ?>/templates/native/hep/heroj/style.css?ver=1.2" type="text/css" />
 </head>
 <div class="main-container barracuda">
     <img class="animate" src="https://www.telegram.hr/wp-content/uploads/2019/12/hep_heroji_header.png" alt="Header vizual heroji">
