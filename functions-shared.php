@@ -948,29 +948,6 @@ function telegram_amp_site_icon($image) {
     return get_site_icon_url();
 }
 
-add_filter( 'media_library_months_with_files', 'telegram_months');
-
-function telegram_months() {
-	$months = get_transient('telegram_months');
-	if (!$months) {
-		global $wpdb;
-		$months = $wpdb->get_results( $wpdb->prepare( "
-			SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
-			FROM $wpdb->posts
-			WHERE post_type = %s
-			ORDER BY post_date DESC
-		", 'attachment' ) );
-		set_transient('telegram_months', $months, DAY_IN_SECONDS);
-	}
-	return $months;
-}
-
-add_filter( 'postmeta_form_keys', 'telegram_postmeta' );
-
-function telegram_postmeta() {
-	return true;
-}
-
 function telegram_og_graph_tags( $tags ) {
 	$tags['fb:app_id'] = '1383786971938581';
 	$tags['fb:pages'] = '688325737947866';
