@@ -26,7 +26,7 @@ class Telegram_Shortcodes {
 	}
 
 	function plugins( $plugins ) {
-		$plugins['telegram_shortcodes'] = get_theme_root_uri() . '/telegram-desktop/assets/js/mce-shortcodes.js?v=1.2';
+		$plugins['telegram_shortcodes'] = get_theme_root_uri() . '/telegram2-desktop/assets/js/mce-shortcodes.js?v=1.2';
 		return $plugins;
 	}
 
