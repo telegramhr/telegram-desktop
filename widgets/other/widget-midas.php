@@ -49,9 +49,14 @@ class Telegram_Midas_Widget extends WP_Widget {
                 padding-bottom: 14px;
                 border-bottom: 1px solid #ddd;
             }
+            .widget-midas {
+                margin-top: 50px;
+                background-color: #ffffff;
+                padding: 5px;
+            }
         </style>
         <?php if (!wp_is_mobile()) { ?>
-        <div class="container widget-midas" style="margin-top: 50px;">
+        <div class="container widget-midas">
         <div class="tg-widget-head big-title">
            Više s weba
         </div>
