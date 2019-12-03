@@ -48,7 +48,9 @@ if( have_posts() ) {
                 </div>
             </div>
 	        <?php
-	        the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v2')); ?>
+	        the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v2'));
+	        the_widget('Telegram_Midas_Widget', ['id' => 657, 'script' => '657']);
+	        ?>
         </div>
 
         <?php
