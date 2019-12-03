@@ -15,7 +15,7 @@ class Telegram_Banner_Widget extends WP_Widget {
         }
 		if ( is_single() ) {
 			$oglasi = get_post_meta( get_the_ID(), 'oglasi', true );
-			if ($oglasi && in_array('all', $oglasi)) {
+			if ($oglasi && is_array($oglasi) && in_array('all', $oglasi)) {
 				return '';
 			}
 		}
