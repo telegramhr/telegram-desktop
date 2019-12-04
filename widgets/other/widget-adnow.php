@@ -47,4 +47,4 @@ class Telegram_Adnow_Widget extends WP_Widget {
     }
 }
 
-register_widget( 'Telegram_Midas_Widget' );
+register_widget( 'Telegram_Adnow_Widget' );
