@@ -16,7 +16,7 @@ class Telegram_Adnow_Widget extends WP_Widget {
 		}
 	    ?>
         <div class="container widget-midas">
-        <div class="tg-widget-head big-title">
+        <div class="tg-widget-head big-title" style="margin-bottom: 20px;">
            Više s weba
         </div>
 		<div id="SC_TBlock_707823" class="SC_TBlock">učitavanje...</div>
