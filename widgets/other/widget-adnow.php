@@ -15,6 +15,10 @@ class Telegram_Adnow_Widget extends WP_Widget {
 			return '';
 		}
 	    ?>
+        <div class="container widget-midas">
+        <div class="tg-widget-head big-title">
+           Više s weba
+        </div>
 		<div id="SC_TBlock_707823" class="SC_TBlock">učitavanje...</div>
 
 		<script type="text/javascript">
@@ -24,6 +28,7 @@ class Telegram_Adnow_Widget extends WP_Widget {
             });
 		</script>
 		<script type="text/javascript" src="//st-n.domnovrek.com/js/a.js"></script>
+        </div>
         <?php
 
 	}
