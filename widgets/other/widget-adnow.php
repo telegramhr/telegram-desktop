@@ -10,6 +10,10 @@ class Telegram_Adnow_Widget extends WP_Widget {
 	}
 
 	public function widget( $args, $instance ) {
+		$style = '';
+		if ($_SERVER['NGINX_COUNTRY'] === 'HR') {
+			$style = 'style="display: none;"';
+		}
 		$oglasi = get_post_meta( get_the_ID(), 'oglasi', true );
 		if ($oglasi && is_array($oglasi) && in_array('all', $oglasi)) {
 			return '';
