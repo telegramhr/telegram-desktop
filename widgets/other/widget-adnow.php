@@ -19,7 +19,7 @@ class Telegram_Adnow_Widget extends WP_Widget {
 			return '';
 		}
 	    ?>
-        <div class="container widget-midas">
+        <div class="container widget-midas" <?php echo $style ?>>
         <div class="tg-widget-head big-title" style="margin-bottom: 20px;">
            OGLASI
         </div>
