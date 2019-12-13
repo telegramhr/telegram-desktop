@@ -6,6 +6,7 @@ jQuery(document).ready( function() {
     leftMenu();
     search();
     gallerySlide();
+    outstream_load();
 
     jQuery('.the-content img').not('.the-content .banner img').each(function(i, o) {
         if (jQuery(o).attr('src') === 'https://www.telegram.hr/wp-content/uploads/2017/10/Screen-Shot-2017-10-18-at-23.07.30.png') {
@@ -141,5 +142,29 @@ function comments() {
     jQuery('.comments-activate').click( function() {
         jQuery(this).hide();
         jQuery('.comments-hide').show();
+    });
+}
+
+function outstream_load() {
+    jwplayer('outstream_player').setup({
+        width: '100%',
+        autoPause: {
+            viewability: true,
+        },
+        advertising: {
+            outstream: true,
+            adscheduleid: '00000000',
+            autoplayadsmuted: true,
+            client: 'googima',
+            tag: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/1092744/telegram/telegram_video_v1&description_url=https%3A%2F%2Fwww.telegram.hr%2Fvideo&tfcd=0&npa=0&sz=300x250%7C660x350&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator='
+        },
+        displayHeading: true,
+        intl: {
+            en: {
+                advertising: {
+                    displayHeading: "Promo"
+                }
+            }
+        }
     });
 }

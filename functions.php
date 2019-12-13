@@ -72,40 +72,44 @@ function telegram_price_content($content){
     $return_content = '';
     for ( $i = 0; $i < count( $parts ); $i++ ) {
         $return_content .= $parts[$i] . $new_line;
-        if ( 1 === $i ) {
+        if ( 0 === $i ) {
             ob_start();
             the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v1' ) );
             $ad = ob_get_clean();
             $return_content .= $ad;
         }
-        if ( 4 === $i ) {
+        if ( 3 === $i ) {
+        	$ad = '<div id="outstream_player"></div>';
+	        $return_content .= $ad;
+        }
+        if ( 5 === $i ) {
             ob_start();
             the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
             $ad = ob_get_clean();
             $return_content .= $ad;
         }
-        if ( 7 === $i ) {
+        if ( 6 === $i ) {
             $return_content .= '<div id="midasWidget__748"></div>';
         }
-        if ( 10 === $i ) {
+        if ( 11 === $i ) {
             ob_start();
             the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v3' ) );
             $ad = ob_get_clean();
             $return_content .= $ad;
         }
-        if ( 14 === $i ) {
+        if ( 15 === $i ) {
             ob_start();
             the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v4' ) );
             $ad = ob_get_clean();
             $return_content .= $ad;
         }
-        if ( 17 === $i ) {
+        if ( 18 === $i ) {
             ob_start();
             the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v5' ) );
             $ad = ob_get_clean();
             $return_content .= $ad;
         }
-	    if ( 20 === $i ) {
+	    if ( 21 === $i ) {
 		    ob_start();
 		    the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v6' ) );
 		    $ad = ob_get_clean();
