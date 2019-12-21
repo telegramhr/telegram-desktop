@@ -17,13 +17,63 @@ class Telegram_Top_Vijesti extends WP_Widget
         <div class="tg-widget rainbow-widget top-vijesti container">
             <div class="tg-widget-body cf">
                 <?php
-                $q = z_get_zone_query( 'masthead', array('posts_per_page' => 5));
-                while ($q->have_posts()) {
-                    $q->the_post();
-                    // Rainbow article small
-                    get_template_part('templates/articles/article-rainbow-block');
+                if(get_field('ukljuci', 749255)) {
+                    //izbori
+	                $kandidati = get_field('kandidat', 749255);
+	                usort($kandidati,function($first,$second){
+		                return $first['broj_glasova'] < $second['broj_glasova'];
+	                });
+                    for ($i = 0; $i<4; $i++) {
+                        ?>
+                        <article class="article-rainbow-block">
+                            <div class="thumb">
+                                <div class="overlay"></div>
+			                    <img src="<?php echo $kandidati[$i]['slika'] ?>" width="280" height="280">
+                            </div>
+                            <div class="titles">
+                                <h1 class="title">
+                                    <a href="<?php echo $kandidati[$i]['link'] ?>">
+					                    <?php echo $kandidati[$i]['ime'] ?> - <?php echo $kandidati[$i]['postotak'] ?>%
+                                    </a>
+                                </h1>
+
+                            </div>
+                        </article>
+                        <?php
+                    }
+                    ?>
+                    <article class="article-rainbow-block">
+                        <div class="thumb" style="height: 236px">
+                            <div class="overlay"></div>
+
+                        </div>
+                        <div class="titles">
+                            <h1 class="title">
+                                <a href="http://staging.telegram.hr/predsjednicki-izbori-2019/">
+				                    Pratite s nama rezultate uživo
+                                </a>
+                            </h1>
+
+                        </div>
+                    </article>
+                    <?php
                 }
-                wp_reset_postdata();
+                else {
+                    $cache = wp_cache_get('top-vijesti', 'widgets');
+                    if (!$cache) {
+                        ob_start();
+	                    $q = z_get_zone_query( 'masthead', array( 'posts_per_page' => 5 ) );
+	                    while ( $q->have_posts() ) {
+		                    $q->the_post();
+		                    // Rainbow article small
+		                    get_template_part( 'templates/articles/article-rainbow-block' );
+	                    }
+	                    wp_reset_postdata();
+	                    $cache = ob_get_clean();
+	                    wp_cache_set('top-vijesti', $cache, 'widgets');
+                    }
+                    echo $cache;
+                }
                 ?>
             </div>
         </div>
