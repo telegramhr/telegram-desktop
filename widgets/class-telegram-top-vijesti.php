@@ -49,7 +49,7 @@ class Telegram_Top_Vijesti extends WP_Widget
                         </div>
                         <div class="titles">
                             <h1 class="title">
-                                <a href="http://staging.telegram.hr/predsjednicki-izbori-2019/">
+                                <a href="https://www.telegram.hr/predsjednicki-izbori-2019/">
 				                    Pratite s nama rezultate uživo
                                 </a>
                             </h1>
