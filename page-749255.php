@@ -39,7 +39,7 @@ if( have_posts() ) {
                             usort($kandidati,function($first,$second){
 	                            return $first['postotak'] < $second['postotak'];
                             });
-                            $faktor = 1;
+                            $faktor = 2;
                             if ($kandidati[0]['postotak'] > 50) {
                                 $faktor = 1;
                             }
@@ -50,7 +50,7 @@ if( have_posts() ) {
                                     <img src="<?php echo $kandidat['slika'] ?>" width="150" height="150" class="alignleft">
                                     <div style="flex:1">
                                         <h3><a href="<?php echo $kandidat['link'] ?>"><?php echo $kandidat['ime'] ?></a></h3><br>
-                                        <div class="w3-border">
+                                        <div class="w3-border" style="background-color: #00c2ed">
                                             <div class="w3-blue" style="width:<?php echo $kandidat['postotak']*$faktor ?>%; padding: 3px;"><?php echo $kandidat['postotak'] ?>%</div>
                                         </div>
                                         <p>Broj glasova: <?php echo $kandidat['broj_glasova'] ?></p>
