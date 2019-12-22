@@ -14,9 +14,9 @@ class Telegram_Izbori_Mobile extends WP_Widget
     public function widget($args, $instance)
     {
         if (get_field('ukljuci', 749255)) {
-	        $data = wp_cache_get( 'tg_izbori_mobile', 'widgets' );
-	        if ( ! $data ) {
-		        ob_start();
+	        //$data = wp_cache_get( 'tg_izbori_mobile', 'widgets' );
+	        //if ( ! $data ) {
+		      //  ob_start();
 
 		        ?>
                 <div class="tg-widget rainbow-widget procitajte-danas">
@@ -56,10 +56,10 @@ class Telegram_Izbori_Mobile extends WP_Widget
                 </div>
 
 		        <?php
-		        $data = ob_get_clean();
-		        wp_cache_set( 'tg_izbori_mobile', $data, 'widgets', 60 );
-	        }
-	        echo $data;
+		     //   $data = ob_get_clean();
+		     //   wp_cache_set( 'tg_izbori_mobile', $data, 'widgets', 60 );
+	        //}
+	       // echo $data;
         }
     }
 
