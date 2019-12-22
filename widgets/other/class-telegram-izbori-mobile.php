@@ -38,15 +38,10 @@ class Telegram_Izbori_Mobile extends WP_Widget
                                 </div>
                                 <div class="titles">
                                     <h1 class="title">
-                                        <a href="<?php echo $kandidat['link'] ?>">
-					                        <?php echo $kandidat['ime'] ?>
+                                        <a href="https://www.telegram.hr/predsjednicki-izbori-2019/">
+					                        <?php echo $kandidat['ime'] ?> - <?php echo $kandidat['postotak'] ?>%
                                         </a>
                                     </h1>
-                                    <div class="article-meta">
-            <span class="rcmds">
-                <?php echo $kandidat['postotak'] ?>% - <?php echo $kandidat['broj_glasova']; ?> glasova
-            </span>
-                                    </div>
                                 </div>
                             </article>
                             <?php
