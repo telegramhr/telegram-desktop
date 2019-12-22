@@ -25,7 +25,7 @@ class Telegram_Izbori_Mobile extends WP_Widget
                     </div>
                     <div class="tg-widget-body">
                         <?php
-                        $kandidati = get_field('kandidat');
+                        $kandidati = get_field('kandidat', 749255);
                         usort($kandidati,function($first,$second){
 	                        return $first['broj_glasova'] < $second['broj_glasova'];
                         });
