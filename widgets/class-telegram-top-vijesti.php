@@ -21,7 +21,7 @@ class Telegram_Top_Vijesti extends WP_Widget
                     //izbori
 	                $kandidati = get_field('kandidat', 749255);
 	                usort($kandidati,function($first,$second){
-		                return $first['broj_glasova'] < $second['broj_glasova'];
+		                return $first['postotak'] < $second['postotak'];
 	                });
                     for ($i = 0; $i<4; $i++) {
                         ?>

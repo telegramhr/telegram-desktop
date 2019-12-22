@@ -37,7 +37,7 @@ if( have_posts() ) {
 
                             $kandidati = get_field('kandidat');
                             usort($kandidati,function($first,$second){
-	                            return $first['broj_glasova'] < $second['broj_glasova'];
+	                            return $first['postotak'] < $second['postotak'];
                             });
                             $faktor = 1;
                             if ($kandidati[0]['postotak'] > 50) {
