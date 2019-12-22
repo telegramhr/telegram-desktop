@@ -19,7 +19,7 @@ class Telegram_Izbori_Mobile extends WP_Widget
 		      //  ob_start();
 
 		        ?>
-                <div class="tg-widget rainbow-widget procitajte-danas">
+                <div class="tg-widget rainbow-widget procitajte-danas" style="margin-top: 20px;">
                     <div class="tg-widget-head">
                         Izbori uživo
                     </div>
