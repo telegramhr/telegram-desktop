@@ -26,9 +26,6 @@ class Telegram_Izbori_Mobile extends WP_Widget
                     <div class="tg-widget-body">
                         <?php
                         $kandidati = get_field('kandidat', 749255);
-                        usort($kandidati,function($first,$second){
-	                        return $first['broj_glasova'] < $second['broj_glasova'];
-                        });
                         foreach ($kandidati as $kandidat) {
                             ?>
                             <article class="article-rainbow-small">
@@ -38,7 +35,7 @@ class Telegram_Izbori_Mobile extends WP_Widget
                                 </div>
                                 <div class="titles">
                                     <h1 class="title">
-                                        <a href="https://www.telegram.hr/predsjednicki-izbori-2019/">
+                                        <a href="#">
 					                        <?php echo $kandidat['ime'] ?> - <?php echo $kandidat['postotak'] ?>%
                                         </a>
                                     </h1>

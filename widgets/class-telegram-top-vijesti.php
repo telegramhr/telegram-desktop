@@ -17,46 +17,30 @@ class Telegram_Top_Vijesti extends WP_Widget
         <div class="tg-widget rainbow-widget top-vijesti container">
             <div class="tg-widget-body cf">
                 <?php
-                if(get_field('ukljuci', 749255)) {
+                $page = 749255;
+
+                if(get_field('ukljuci', $page)) {
                     //izbori
-	                $kandidati = get_field('kandidat', 749255);
-	                usort($kandidati,function($first,$second){
-		                return $first['postotak'] < $second['postotak'];
-	                });
-                    for ($i = 0; $i<4; $i++) {
+	                $kandidati = get_field('kandidat', $page);
                         ?>
                         <article class="article-rainbow-block">
                             <div class="thumb">
-                                <div class="overlay"></div>
-			                    <img src="<?php echo $kandidati[$i]['slika'] ?>" width="280" height="280">
-                            </div>
-                            <div class="titles">
-                                <h1 class="title">
-                                    <a href="<?php echo $kandidati[$i]['link'] ?>">
-					                    <?php echo $kandidati[$i]['ime'] ?> - <?php echo $kandidati[$i]['postotak'] ?>%
-                                    </a>
-                                </h1>
-
+			                    <img src="<?php echo $kandidati[0]['slika'] ?>" width="280" height="280">
                             </div>
                         </article>
-                        <?php
-                    }
-                    ?>
-                    <article class="article-rainbow-block">
-                        <div class="thumb" style="height: 236px">
-                            <div class="overlay"></div>
-
-                        </div>
-                        <div class="titles">
-                            <h1 class="title">
-                                <a href="https://www.telegram.hr/predsjednicki-izbori-2019/">
-				                    Pratite s nama rezultate uživo
-                                </a>
-                            </h1>
-
+                    <article class="article-rainbow-block" style="width: 60%">
+                        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                        <div class="w3-border" style="background-color: rgb(41,91,165); margin-top: 100px; height: 40px;">
+                            <div style="float:left; width:<?php echo $kandidati[0]['postotak'] ?>%; padding: 3px; background-color: rgb(234,33,45); height: 38px;"><span style="color:white; line-height: 34px;"><?php echo $kandidati[0]['postotak'] ?>%</span></div>
+                            <span style="line-height: 38px; float: right; color:white;"><?php echo $kandidati[1]['postotak'] ?>%</span>
                         </div>
                     </article>
-                    <?php
+                <article class="article-rainbow-block" style="float:right;">
+                    <div class="thumb">
+                        <img src="<?php echo $kandidati[1]['slika'] ?>" width="280" height="280">
+                    </div>
+                </article>
+                        <?php
                 }
                 else {
                     $cache = wp_cache_get('top-vijesti', 'widgets');
