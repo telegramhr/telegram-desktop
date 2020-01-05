@@ -29,8 +29,7 @@ class Telegram_Top_Vijesti extends WP_Widget
                             </div>
                         </article>
                     <article class="article-rainbow-block" style="width: 60%">
-                        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-                        <div class="w3-border" style="background-color: rgb(41,91,165); margin-top: 100px; height: 40px;">
+                        <div class="w3-border" style="background-color: rgb(41,91,165); margin-top: 100px; height: 40px; width: 100%; border: 1px solid white;">
                             <div style="float:left; width:<?php echo $kandidati[0]['postotak'] ?>%; padding: 3px; background-color: rgb(234,33,45); height: 38px;"><span style="color:white; line-height: 34px;"><?php echo $kandidati[0]['postotak'] ?>%</span></div>
                             <span style="line-height: 38px; float: right; color:white;"><?php echo $kandidati[1]['postotak'] ?>%</span>
                         </div>
