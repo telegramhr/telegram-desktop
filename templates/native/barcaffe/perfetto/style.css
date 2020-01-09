@@ -1,0 +1,196 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3em;
+    background-color:white;
+    color: #111;
+}
+
+.hero h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+h1, h2, h3 {
+    font-weight: bold;
+}
+h1 {
+    font-size: 48px;
+}
+.single-head h1.title {
+    margin: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+.barracuda .waves img {
+    position: relative;
+    z-index: 3;
+    width: 110%;
+    left: -5%;
+    height: auto;
+    max-width: 110%;
+}
+.barracuda .waves .wave-2 {
+    position: absolute;
+    top: 2vw;
+    z-index: 1;
+    opacity: 0.5;
+}
+.single-head p {
+    font-family: pt sans,arial,helvetica,sans-serif;
+    color: #666;
+}
+.article-container {
+    /*padding: 0px;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
+    0 2px 2px rgba(0,0,0,0.15), 
+    0 4px 4px rgba(0,0,0,0.15), 
+    0 8px 8px rgba(0,0,0,0.15);*/
+    margin-bottom: 50px;
+}
+.article-cta  {
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: pt sans,arial,helvetica,sans-serif;
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    padding-top: 0.6em;
+    outline: none;
+    border: none;
+    background-color: #ebcdb3;
+  }
+  .barracuda .mobile-only {
+    display: none;
+}
+  .article-cta::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #d69a7e;
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .article-cta:hover {
+    cursor: pointer;
+  }
+  
+  .article-cta:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+  }
+  /*.article-image {
+      background-color: #e31739;
+  }
+  .article-image img {
+      mix-blend-mode: luminosity;
+      opacity: 0.5;
+  }*/
+  .tg-studio {
+      max-width: 300px;
+      margin-bottom: 30px;
+  }
+
+  .article-container:hover .article-image img {
+      mix-blend-mode: normal;
+      opacity: 1;
+  }
+  .native-signature p {
+      max-width: 720px;
+      margin: 0 auto;
+  }
+    .native-hero-background {
+    width: 100%;
+    z-index: 3;
+    position: relative;
+    }
+
+    .article-image:before {
+        content: '';
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: -250px;
+        top: -100px;
+        background-image: url("img/kava.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.45s ease-in-out;
+        transform: scaleX(-1);
+    }
+    .article-image:first-child:before {
+        left: -420px;
+    
+    }
+  @media screen and (max-width: 1023px) {
+    .barracuda .mobile-only {
+        display: block;
+    }
+      .article-image {
+          order: 1;
+      }
+      .article-copy {
+          order: 2;
+      }
+      .hero {
+          padding: 20px;
+      }
+      .hero h1 {
+          font-size: 38px;
+      }
+      .native-background {
+        width: 100%;
+        z-index: 3;
+        position: relative;
+    }
+  }
+
+@media screen and (min-width: 1023px) {
+    .single-head {
+        padding: 30px;
+    }
+    .hero {
+        position: relative;
+        z-index: 3;
+        top: -50px;
+        margin-bottom: -50px;
+    }
+    .hero div {
+        padding: 50px;
+        background-color: white;
+    }
+    .article-copy:first-child {
+        text-align: right;
+    }
+    .article-copy:first-child .full {
+        justify-content: flex-end;
+        display: flex;
+    }
+    .single-head {
+        padding: 50px;
+    }
+    .native-background {
+        width: 100%;
+        z-index: 3;
+        position: relative;
+    }
+}
+  
