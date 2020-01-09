@@ -14,8 +14,8 @@ $template_url = get_theme_root_uri() . '/telegram2-desktop';
     <link rel="stylesheet" href="<?php echo esc_url( $template_url ) ?>/templates/native/barcaffe/perfetto/style.css?ver=1.1" type="text/css" />
 </head>
 <div class="main-container barracuda">
-    <video preload="auto" autoplay="" muted="" loop="" class="native-hero-background desktop-only" src="<?php echo get_stylesheet_directory_uri() ?>/templates/native/barcaffe/perfetto/img/barcaffe.mp4"  type="video/mp4" alt="" ></video>
-    <video preload="auto" autoplay="" muted="" loop="" class="native-hero-background mobile-only" src="<?php echo get_stylesheet_directory_uri() ?>/templates/native/barcaffe/perfetto/img/barcaffe.mp4" alt="" ></video>
+    <video preload="auto" autoplay="" muted="" loop="" class="native-hero-background desktop-only" src="<?php echo esc_url( $template_url ) ?>/templates/native/barcaffe/perfetto/img/barcaffe.mp4"  type="video/mp4" alt="" ></video>
+    <video preload="auto" autoplay="" muted="" loop="" class="native-hero-background mobile-only" src="<?php echo echo esc_url( $template_url ) ?>/templates/native/barcaffe/perfetto/img/barcaffe.mp4" alt="" ></video>
     <div class="full center hero">
         <div>
             <h1 class="full center-text">Savršen dan uz savršenu kavu</h1>
