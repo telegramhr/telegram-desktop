@@ -2,7 +2,7 @@
 <html lang="hr">
 
 <?php
-$template_url = get_theme_root_uri() . '/telegram-desktop';
+$template_url = get_theme_root_uri() . '/telegram2-desktop';
 ?>
 
 <head>
