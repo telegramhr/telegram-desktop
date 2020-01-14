@@ -353,8 +353,7 @@ function telegram_pre_get_posts($query) {
 					'price',
 					'video',
                     'partneri',
-					'fotogalerije',
-                    'native'
+					'fotogalerije'
 				) );
 			}
 		}
