@@ -80,7 +80,7 @@ function telegram_price_content($content){
         }
         if ( 3 === $i ) {
         	$ad = '<div id="outstream_player"></div>';
-	        $return_content .= $ad;
+	        //$return_content .= $ad;
         }
         if ( 5 === $i ) {
             ob_start();
