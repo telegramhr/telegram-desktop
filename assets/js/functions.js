@@ -156,7 +156,10 @@ function outstream_load() {
             adscheduleid: '00000000',
             autoplayadsmuted: true,
             client: 'googima',
-            tag: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/1092744/telegram/telegram_video_v1&description_url=https%3A%2F%2Fwww.telegram.hr%2Fvideo&tfcd=0&npa=0&sz=300x250%7C660x350&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator='
+            tag: [
+                'https://pubads.g.doubleclick.net/gampad/ads?iu=/1092744/telegram/telegram_video_v1&description_url=https%3A%2F%2Fwww.telegram.hr%2Fvideo&tfcd=0&npa=0&sz=300x250%7C660x350&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=',
+                'https://ad.mox.tv/delivery/video/zona/5175?video=vast&pzoneid=5175'
+            ]
         },
         displayHeading: true,
         intl: {
