@@ -157,8 +157,9 @@ function outstream_load() {
             autoplayadsmuted: true,
             client: 'vast',
             tag: [
-                'https://tpc.googlesyndication.com/ima3vpaid?vad_format=linear&correlator=&adtagurl=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fiu%3D%2F1092744%2Ftelegram%2Ftelegram_video_v1%26description_url%3Dhttps%253A%252F%252Fwww.telegram.hr%252Fvideo%26tfcd%3D0%26npa%3D0%26sz%3D300x250%257C400x300%257C660x350%26gdfp_req%3D1%26output%3Dvast%26unviewed_position_start%3D1%26env%3Dvp%26vpos%3Dpreroll%26vpmute%3D1%26vpa%3D1%26type%3Djs%26nofb%3D1'
-                ]
+                'https://tpc.googlesyndication.com/ima3vpaid?vad_format=linear&correlator=&adtagurl=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fiu%3D%2F1092744%2Ftelegram%2Ftelegram_video_v1%26description_url%3Dhttps%253A%252F%252Fwww.telegram.hr%252Fvideo%26tfcd%3D0%26npa%3D0%26sz%3D300x250%257C400x300%257C660x350%26gdfp_req%3D1%26output%3Dvast%26unviewed_position_start%3D1%26env%3Dvp%26vpos%3Dpreroll%26vpmute%3D1%26vpa%3D1%26type%3Djs%26nofb%3D1',
+                'https://ad.mox.tv/delivery/video/zona/5175?video=vast&pzoneid=5175'
+            ]
         },
         displayHeading: true,
         intl: {
