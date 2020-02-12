@@ -754,6 +754,7 @@ function capx_filter_guest_author_fields( $fields_to_return, $groups ) {
 }
 
 function telegram_load_megabreak($size, $number) {
+    global $post;
     if ($size === 'break') {
         $template = 'templates/articles/article-megabreak.php';
         $image_size = 'fullpage';
@@ -767,7 +768,7 @@ function telegram_load_megabreak($size, $number) {
     }
 	$meta = get_post_meta(get_option('telegram_breaks'));
 	$article1 = maybe_unserialize( $meta[$size.'_'.$number.'_article'][0] )[0];
-
+	$post = get_post($article1);
 	if (isset($meta[$size.'_'.$number.'_link'][0]) && $meta[$size.'_'.$number.'_link'][0]) {
 		$link = esc_url( $meta[$size.'_'.$number.'_link'][0] );
 	}
@@ -835,6 +836,7 @@ function telegram_load_megabreak($size, $number) {
         $recommendations = get_post_meta($article1, '_recommendations', true);
     }
     include(locate_template($template));
+    wp_reset_postdata();
 }
 
 function telegram_get_coauthors($post_id) {
