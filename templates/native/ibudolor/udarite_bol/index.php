@@ -3,7 +3,6 @@
 
 <?php
 $template_url = get_theme_root_uri() . '/telegram2-desktop';
-$template_url = get_theme_root_uri() . '/telegram-desktop';
 ?>
 
 <head>
