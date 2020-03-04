@@ -32,7 +32,7 @@ class Telegram_Shortcodes {
 	}
 
 	function okvir($atts, $content) {
-		return '<div class="article-box">' . do_shortcode( wp_kses_post( $content ) ). '</div>';
+		return '<div class="rainbow-widget"><div class="tg-widget-body">' . do_shortcode( wp_kses_post( $content ) ). '</div></div>';
     }
 
 	function quote_box( $atts, $content ) {
