@@ -7,6 +7,7 @@ class Telegram_Shortcodes {
 		add_shortcode( 'small_video_box', array( $this, 'small_video_box' ) );
 		add_shortcode( 'compare_box', array( $this, 'compare_box' ) );
 		add_shortcode('telegram_video', array( $this, 'video'));
+		add_shortcode('okvir', array( $this, 'okvir'));
 	}
 
 	function action_admin_init() {
@@ -29,6 +30,10 @@ class Telegram_Shortcodes {
 		$plugins['telegram_shortcodes'] = get_theme_root_uri() . '/telegram2-desktop/assets/js/mce-shortcodes.js?v=1.2';
 		return $plugins;
 	}
+
+	function okvir($atts, $content) {
+		return '<div class="article-box">' . do_shortcode( wp_kses_post( $content ) ). '</div>';
+    }
 
 	function quote_box( $atts, $content ) {
 		ob_start();
