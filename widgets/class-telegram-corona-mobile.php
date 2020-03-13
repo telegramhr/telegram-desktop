@@ -34,6 +34,9 @@ class Telegram_Corona_Mobile extends WP_Widget {
         }
 	    $current = time();
 	    $time = floor(($current-$updated)/60);
+	    if ($time < 0 ) {
+	        $time = 10;
+        }
     ?>
     <div class="corona-widget">
         <div class="corona-widget-element">

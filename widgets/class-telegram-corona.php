@@ -34,7 +34,10 @@ class Telegram_Corona_Desktop extends WP_Widget {
 		        $updated = $mtime;
 	        }
 	        $current = time();
-	        $time = floor(($current-$updated)/60);
+	        $time = ceil(($current-$updated)/60);
+	        if ($time<0) {
+	            $time = 10;
+            }
         ?>
         <div class="container">
             <div class="corona-widget">
