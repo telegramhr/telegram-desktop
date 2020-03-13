@@ -12,14 +12,14 @@ class Telegram_Corona_Desktop extends WP_Widget {
 	function corona_print ($number, $yesterday) {
 		if ($number > $yesterday) {
 			$difference = $number-$yesterday;
-			return number_format($number).' <span class="corona-red">(+'.number_format($difference, 0, '', '.').')</span>';
+			return number_format($number, 0, '', '.').' <span class="corona-red">(+'.number_format($difference, 0, '', '.').')</span>';
 		}
 		else if ($number < $yesterday) {
 			$difference = $yesterday-$number;
-			return number_format($number).' <span class="corona-green">(-'.number_format($difference, 0, '', '.').')</span>';
+			return number_format($number, 0, '', '.').' <span class="corona-green">(-'.number_format($difference, 0, '', '.').')</span>';
 		}
 		else {
-			return number_format($number).' <span class="corona-green">(-)</span>';
+			return number_format($number, 0, '', '.').' <span class="corona-green">(-)</span>';
 		}
 	}
 
