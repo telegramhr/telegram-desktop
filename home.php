@@ -2,7 +2,7 @@
 get_header(); ?>
 
 <div class="home-top-container">
-    <?php the_widget('Telegram_Top_Vijesti'); ?>
+    <?php the_widget('Telegram_Corona_Desktop'); ?>
 
     <div class="zones container">
         <?php

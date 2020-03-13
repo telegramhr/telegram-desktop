@@ -127,10 +127,27 @@ class Telegram_Command extends WP_CLI_Command {
 	}
 
 	function covid_pull_data() {
-		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'.date('m-d-Y', strtotime('yesterday')).'.csv';
 		$confirmed_croatia = get_post_meta(780032, 'confirmed_croatia', true);
 		$deaths_croatia = get_post_meta(780032, 'deaths_croatia', true);
 		$recovered_croatia = get_post_meta(780032, 'recovered_croatia', true);
+		$data = wp_remote_get('https://api.coronatracker.com/v2/stats?countryCode=');
+		$total = json_decode($data['body'], true);
+		update_option('tmg_covid_total', $total);
+		$data = wp_remote_get('https://api.coronatracker.com/v2/stats?countryCode=HR');
+		$croatia= json_decode($data['body'], true);
+		if ($confirmed_croatia && $confirmed_croatia > $croatia['confirmed']) {
+			$croatia['confirmed'] = $confirmed_croatia;
+		}
+		if ($deaths_croatia && $deaths_croatia > $croatia['deaths']) {
+			$croatia['deaths'] = $deaths_croatia;
+		}
+		if ($recovered_croatia && $recovered_croatia > $croatia['recovered']) {
+			$croatia['recovered'] = $recovered_croatia;
+		}
+		update_option('tmg_covid_croatia', $croatia);
+		/*
+		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'.date('m-d-Y', strtotime('yesterday')).'.csv';
+
 		$fileData=fopen($file,'r');
 		$total = [
 			'deaths' => 0,
@@ -150,18 +167,10 @@ class Telegram_Command extends WP_CLI_Command {
 				];
 			}
 		}
-		if ($confirmed_croatia && $confirmed_croatia > $croatia['confirmed']) {
-			$croatia['confirmed'] = $confirmed_croatia;
-		}
-		if ($deaths_croatia && $deaths_croatia > $croatia['deaths']) {
-			$croatia['deaths'] = $deaths_croatia;
-		}
-		if ($recovered_croatia && $recovered_croatia > $croatia['recovered']) {
-			$croatia['recovered'] = $recovered_croatia;
-		}
+
 		update_option('tmg_covid_total', $total);
 		update_option('tmg_covid_croatia', $croatia);
-
+*/
 		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'.date('m-d-Y', strtotime('-2 days')).'.csv';
 
 		$fileData=fopen($file,'r');
@@ -194,7 +203,7 @@ class Telegram_Command extends WP_CLI_Command {
 			if ($line[1] === 'Croatia') {
 				$count = sizeof($line);
 				$days = [
-					$line[$count-1],
+					$croatia['confirmed'],
 					$line[$count-2],
 					$line[$count-3],
 					$line[$count-4],
@@ -212,6 +221,15 @@ class Telegram_Command extends WP_CLI_Command {
 			$days[0] = $confirmed_croatia;
 		}
 		update_option('tmg_covid_days', $days);
+	}
+
+	function corona_tracker() {
+		$data = wp_remote_get('https://api.coronatracker.com/v2/stats?countryCode=');
+		$total = json_decode($data['body'], true);
+		update_option('tmg_covid_total', $total);
+		$data = wp_remote_get('https://api.coronatracker.com/v2/stats?countryCode=HR');
+		$croatia= json_decode($data['body'], true);
+		update_option('tmg_covid_croatia', $croatia);
 	}
 }
 
