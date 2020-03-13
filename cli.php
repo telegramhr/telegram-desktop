@@ -125,6 +125,94 @@ class Telegram_Command extends WP_CLI_Command {
 		);
 
 	}
+
+	function covid_pull_data() {
+		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'.date('m-d-Y', strtotime('yesterday')).'.csv';
+		$confirmed_croatia = get_post_meta(780032, 'confirmed_croatia', true);
+		$deaths_croatia = get_post_meta(780032, 'deaths_croatia', true);
+		$recovered_croatia = get_post_meta(780032, 'recovered_croatia', true);
+		$fileData=fopen($file,'r');
+		$total = [
+			'deaths' => 0,
+			'confirmed' => 0,
+			'recovered' => 0
+		];
+		$header = fgetcsv($fileData);
+		while (($line = fgetcsv($fileData)) !== FALSE) {
+			$total['deaths'] += $line[4];
+			$total['confirmed'] += $line[3];
+			$total['recovered'] += $line[5];
+			if ($line[1] === 'Croatia') {
+				$croatia = [
+					'deaths' => $line[4],
+					'confirmed' => $line[3],
+					'recovered' => $line[5]
+				];
+			}
+		}
+		if ($confirmed_croatia && $confirmed_croatia > $croatia['confirmed']) {
+			$croatia['confirmed'] = $confirmed_croatia;
+		}
+		if ($deaths_croatia && $deaths_croatia > $croatia['deaths']) {
+			$croatia['deaths'] = $deaths_croatia;
+		}
+		if ($recovered_croatia && $recovered_croatia > $croatia['recovered']) {
+			$croatia['recovered'] = $recovered_croatia;
+		}
+		update_option('tmg_covid_total', $total);
+		update_option('tmg_covid_croatia', $croatia);
+
+		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'.date('m-d-Y', strtotime('-2 days')).'.csv';
+
+		$fileData=fopen($file,'r');
+		$total = [
+			'deaths' => 0,
+			'confirmed' => 0,
+			'recovered' => 0
+		];
+		$header = fgetcsv($fileData);
+		while (($line = fgetcsv($fileData)) !== FALSE) {
+			$total['deaths'] += $line[4];
+			$total['confirmed'] += $line[3];
+			$total['recovered'] += $line[5];
+			if ($line[1] === 'Croatia') {
+				$croatia = [
+					'deaths' => $line[4],
+					'confirmed' => $line[3],
+					'recovered' => $line[5]
+				];
+			}
+		}
+		update_option('tmg_covid_total_yesterday', $total);
+		update_option('tmg_covid_croatia_yesterday', $croatia);
+
+		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv';
+		$fileData=fopen($file,'r');
+		$days = [];
+		$header = fgetcsv($fileData);
+		while (($line = fgetcsv($fileData)) !== FALSE) {
+			if ($line[1] === 'Croatia') {
+				$count = sizeof($line);
+				$days = [
+					$line[$count-1],
+					$line[$count-2],
+					$line[$count-3],
+					$line[$count-4],
+					$line[$count-5],
+					$line[$count-6],
+					$line[$count-7],
+					$line[$count-8],
+					$line[$count-9],
+					$line[$count-10],
+				];
+				break;
+			}
+		}
+		if ($confirmed_croatia && $confirmed_croatia > $days[0]) {
+			$days[0] = $confirmed_croatia;
+		}
+		update_option('tmg_covid_days', $days);
+	}
 }
 
 WP_CLI::add_command( 'telegram', 'Telegram_Command' );
