@@ -92,9 +92,6 @@ class Telegram_Corona_Mobile extends WP_Widget {
             align-items: stretch;
             background-image: linear-gradient(to top, #111417, #232a31);
         }
-        .single .corona-widget {
-            margin-top: 40px;
-        }
         .corona-red {
             color: #e31739;
         }
