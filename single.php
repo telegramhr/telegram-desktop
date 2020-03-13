@@ -8,8 +8,13 @@ if( have_posts() ) {
         ?>
 
 <div class="single-page container">
-
+	<?php
+	if (has_tag('koronavirus')) {
+		the_widget( 'Telegram_Corona_Desktop' );
+	}
+	?>
     <div class="single-head">
+
         <h3 class="overtitle"><?php
             if (get_field('nadnaslov')) {
                 the_field('nadnaslov');
