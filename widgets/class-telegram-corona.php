@@ -94,6 +94,9 @@ class Telegram_Corona_Desktop extends WP_Widget {
                 color: white;
                 background-image: linear-gradient(to top, #111417, #232a31);
             }
+            .single-page.container .corona-widget {
+                margin-left: -15px;
+            }
             .corona-red {
                 color: #e31739;
             }
