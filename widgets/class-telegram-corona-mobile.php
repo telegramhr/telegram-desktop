@@ -28,7 +28,7 @@ class Telegram_Corona_Mobile extends WP_Widget {
         $days  = get_option('tmg_covid_days');
         $total_yesterday = get_option('tmg_covid_total_yesterday', $total);
 	    $updated = strtotime($total['created']);
-	    $mtime = get_the_modified_time('U', 780032);
+	    $mtime = get_the_modified_time('U', 780032)-3600;
 	    if ($mtime > $updated) {
 	        $updated = $mtime;
         }
