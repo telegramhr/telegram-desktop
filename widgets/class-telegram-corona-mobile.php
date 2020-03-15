@@ -41,7 +41,7 @@ class Telegram_Corona_Mobile extends WP_Widget {
     <div class="corona-widget">
         <div class="corona-widget-element">
             <div class="corona-widget-title">Koronavirus</div>
-            <div class="corona-widget-subtitle" style="position: absolute; top: 6px; right: 0px;">Ažurirano prije <?php echo $time  ?> minut<?php echo ($time%10<5 && $time%10!=0)?'e':'a' ?></div>
+            <div class="corona-widget-subtitle" style="position: absolute; top: 6px; right: 0px;">Ažurirano prije <?php echo $time  ?> minut<?php echo ($time%10<5 && $time%10!=0 && ($time<10 || $time > 15 ))?'e':'a' ?></div>
         </div>
         <div class="corona-widget-element">
             <!--<div class="corona-widget-head">Uživo na Telegramu</div>-->

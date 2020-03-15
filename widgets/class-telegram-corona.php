@@ -44,7 +44,7 @@ class Telegram_Corona_Desktop extends WP_Widget {
                 <div class="corona-widget-element">
                     <div class="corona-widget-head">Uživo na Telegramu</div>
                     <div class="corona-widget-title">Koronavirus</div>
-                    <div class="corona-widget-subtitle">Ažurirano prije <?php echo $time  ?> minut<?php echo ($time%10<5 && $time%10!=0)?'e':'a' ?></div>
+                    <div class="corona-widget-subtitle">Ažurirano prije <?php echo $time  ?> minut<?php echo ($time%10<5 && $time%10!=0 && ($time<10 || $time > 15 ))?'e':'a' ?></div>
                 </div>
                 <div class="corona-widget-element">
                     <div class="corona-widget-head">Slučajevi</div>
@@ -133,7 +133,7 @@ class Telegram_Corona_Desktop extends WP_Widget {
                 text-transform: uppercase;
                 padding-top: 4px;
                 padding-bottom: 2px;
-                font-size: 30px;
+                font-size: 28px;
                 font-family: "Fjalla One CRO", Impact, sans-serif;
             }
             .corona-widget-subtitle {
