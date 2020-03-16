@@ -135,7 +135,7 @@ class Telegram_Command extends WP_CLI_Command {
 		update_option('tmg_covid_total', $total);
 		$data = wp_remote_get('https://api.coronatracker.com/v2/stats?countryCode=HR');
 		$croatia= json_decode($data['body'], true);
-		if ($confirmed_croatia && $confirmed_croatia > $croatia['confirmed']) {
+		if ($confirmed_croatia) {
 			$croatia['confirmed'] = $confirmed_croatia;
 		}
 		if ($deaths_croatia && $deaths_croatia > $croatia['deaths']) {
