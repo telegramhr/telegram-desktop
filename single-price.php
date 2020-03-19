@@ -281,6 +281,10 @@ if( have_posts() ) {
             <div class="single-content">
                 <div class="content-container">
                     <?php
+                    if (has_tag('koronavirus')) {
+	                    the_widget( 'Telegram_Corona_News' );
+                    }
+
                     if( $format != 4 ) {
                         get_template_part('templates/articles/article-meta');
                         get_template_part('templates/layout/left-share');
