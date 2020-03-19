@@ -89,8 +89,8 @@ if( have_posts() ) {
 
             <div class="content-container">
 	            <?php
-	            if (has_tag('koronavirus') && get_current_user_id() === 1) {
-		            //the_widget( 'Telegram_Corona_News' );
+	            if (has_tag('koronavirus')) {
+		            the_widget( 'Telegram_Corona_News' );
 	            }
 	            ?>
                 <?php get_template_part('templates/layout/left-share'); ?>
