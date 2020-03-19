@@ -85,7 +85,7 @@ class Telegram_Corona_News extends WP_Widget {
                         left: 0;
                         width: 0.8em;
                         height: 0.8em;
-                        background-image: url("/wp-content/themes/telegram-desktop/assets/img/tg_list_arrow.png");
+                        background-image: url("/wp-content/themes/telegram2-desktop/assets/img/tg_list_arrow.png");
                         background-size: contain;
                         background-repeat: no-repeat;
                     }
