@@ -90,7 +90,7 @@ if( have_posts() ) {
             <div class="content-container">
 	            <?php
 	            if (has_tag('koronavirus')) {
-		            the_widget( 'Telegram_Corona_News' );
+		            //the_widget( 'Telegram_Corona_News' );
 	            }
 	            ?>
                 <?php get_template_part('templates/layout/left-share'); ?>
