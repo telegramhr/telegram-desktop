@@ -19,7 +19,7 @@ class Telegram_Corona_News extends WP_Widget {
                 <ul>
 			        <?php
 			        $q = new WP_Query([
-			                'post_type' => ['post', 'price'],
+                        'post_type' => ['post', 'price'],
                         'posts_per_page' => 8,
                         'no_found_rows' => true,
                         'ignore_sticky_posts' => true,
