@@ -34,6 +34,7 @@ class Telegram_Corona_News extends WP_Widget {
                         }
 			            ?><li><a target="_blank" href="<?php the_permalink(); ?>"><?php the_title() ?></a></li><?php
                     }
+                    wp_reset_postdata();
 			        ?>
                 </ul>
                 <style>
