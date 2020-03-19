@@ -89,7 +89,7 @@ if( have_posts() ) {
 
             <div class="content-container">
 	            <?php
-	            if (has_tag('koronavirus')) {
+	            if (has_tag('koronavirus') && get_current_user_id() === 1) {
 		            //the_widget( 'Telegram_Corona_News' );
 	            }
 	            ?>
