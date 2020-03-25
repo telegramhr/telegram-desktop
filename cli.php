@@ -183,14 +183,14 @@ class Telegram_Command extends WP_CLI_Command {
 		];
 		$header = fgetcsv($fileData);
 		while (($line = fgetcsv($fileData)) !== FALSE) {
-			$total['deaths'] += $line[4];
-			$total['confirmed'] += $line[3];
-			$total['recovered'] += $line[5];
-			if ($line[1] === 'Croatia') {
+			$total['deaths'] += $line[8];
+			$total['confirmed'] += $line[7];
+			$total['recovered'] += $line[9];
+			if ($line[3] === 'Croatia') {
 				$croatia = [
-					'deaths' => $line[4],
-					'confirmed' => $line[3],
-					'recovered' => $line[5]
+					'deaths' => $line[8],
+					'confirmed' => $line[7],
+					'recovered' => $line[9]
 				];
 			}
 		}
