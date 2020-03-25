@@ -32,7 +32,8 @@ if( have_posts() ) {
         </h2>
         <div class="article-meta">
             <?php
-            foreach (get_coauthors() as $author) { ?>
+            foreach (get_coauthors() as $author) {
+                ?>
                 <div class="author-block">
                     <div class="author-thumb">
                         <a href="<?php echo get_author_posts_url( $author->ID, $author->user_login ); ?>">
