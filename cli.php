@@ -130,13 +130,25 @@ class Telegram_Command extends WP_CLI_Command {
 		$confirmed_croatia = get_post_meta(780032, 'confirmed_croatia', true);
 		$deaths_croatia = get_post_meta(780032, 'deaths_croatia', true);
 		$recovered_croatia = get_post_meta(780032, 'recovered_croatia', true);
-		$data = wp_remote_get('https://api.coronatracker.com/v2/stats?countryCode=');
+		$data = wp_remote_get('https://api.coronatracker.com/v3/stats/worldometer/global');
 		$total = json_decode($data['body'], true);
+		$total = [
+			'confirmed' => $total['totalConfirmed'],
+			'deaths' => $total['totalDeaths'],
+			'recovered' => $total['totalRecovered'],
+			'created' => $total['created']
+		];
 		if (isset($total['confirmed']) && $total['confirmed']) {
 			update_option( 'tmg_covid_total', $total );
 		}
-		$data = wp_remote_get('https://api.coronatracker.com/v2/stats?countryCode=HR');
+		$data = wp_remote_get('https://api.coronatracker.com/v3/stats/worldometer/country?countryCode=HR');
 		$croatia= json_decode($data['body'], true);
+		$croatia = [
+			'confirmed' => $croatia['totalConfirmed'],
+			'deaths' => $croatia['totalDeaths'],
+			'recovered' => $croatia['totalRecovered'],
+			'created' => $croatia['created']
+		];
 		if ($confirmed_croatia) {
 			$croatia['confirmed'] = $confirmed_croatia;
 		}
