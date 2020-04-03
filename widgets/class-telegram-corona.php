@@ -133,7 +133,7 @@ class Telegram_Corona_Desktop extends WP_Widget {
                 text-transform: uppercase;
                 padding-top: 4px;
                 padding-bottom: 2px;
-                font-size: 28px;
+                font-size: 25px;
                 font-family: "Fjalla One CRO", Impact, sans-serif;
             }
             .corona-widget-subtitle {
