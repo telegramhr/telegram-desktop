@@ -79,10 +79,6 @@ function telegram_price_content($content){
             $return_content .= $ad;
         }
         if ( 3 === $i ) {
-        	$ad = '<div id="outstream_player"></div>';
-	        $return_content .= $ad;
-        }
-        if ( 5 === $i ) {
             ob_start();
             the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
             $ad = ob_get_clean();
