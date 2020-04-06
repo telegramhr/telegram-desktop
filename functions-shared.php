@@ -828,7 +828,7 @@ function telegram_load_megabreak($size, $number) {
 	}
     $author = '';
 	if ($article1) {
-	    $author = coauthors(', ', '', '', '', false);
+	    $author = telegram_get_coauthors($article1);
     }
     if (isset($meta[$size.'_'.$number.'_button_text']) && $meta[$size.'_'.$number.'_button_text']) {
 	    $button_text = esc_html($meta[$size.'_'.$number.'_button_text']);
@@ -850,8 +850,9 @@ function telegram_get_coauthors($post_id) {
 		if ($author) {
 			$author .= ', ';
 		}
-		$link = coauthors_posts_links_single($coauthor);
-		$author .= $link;
+		//$link = coauthors_posts_links_single($coauthor);
+		$link = '<a href="'.get_author_posts_url($coauthor->ID, $coauthor->user_nicename).'>'.$coauthor->display_name.'</a>';
+        $author .= $link;
 	}
 	return $author;
 }
