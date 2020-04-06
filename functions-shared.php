@@ -828,7 +828,7 @@ function telegram_load_megabreak($size, $number) {
 	}
     $author = '';
 	if ($article1) {
-	    $author = telegram_get_coauthors($article1);
+	    $author = coauthors(', ', '', '', '', false);
     }
     if (isset($meta[$size.'_'.$number.'_button_text']) && $meta[$size.'_'.$number.'_button_text']) {
 	    $button_text = esc_html($meta[$size.'_'.$number.'_button_text']);
