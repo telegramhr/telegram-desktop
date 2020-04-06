@@ -851,7 +851,7 @@ function telegram_get_coauthors($post_id) {
 			$author .= ', ';
 		}
 		//$link = coauthors_posts_links_single($coauthor);
-		$link = '<a href="'.get_author_posts_url($coauthor->ID, $coauthor->user_nicename).'>'.$coauthor->display_name.'</a>';
+		$link = '<a href="'.get_author_posts_url($coauthor->ID, $coauthor->user_nicename).'">'.$coauthor->display_name.'</a>';
         $author .= $link;
 	}
 	return $author;
