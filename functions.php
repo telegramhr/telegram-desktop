@@ -79,12 +79,26 @@ function telegram_price_content($content){
             $return_content .= $ad;
         }
         if ( 3 === $i ) {
+        	$ad = "<div data-id='_mwayss-325b7d752b361c5458420729057fe2ff'></div>
+                    <script>      
+                        (function(window, document, undefined) {
+                            var script_tag = document.createElement('script');
+                            script_tag.src = 'https://ad.mox.tv/mox/mwayss_invocation.min.js?pzoneid=5182&height=405&width=720&tld=telegram.hr&ctype=div';
+                            var container = document.querySelectorAll('[data-id=_mwayss-325b7d752b361c5458420729057fe2ff]')[0];    
+                            container.setAttribute('id', (container.getAttribute('data-id')+(new Date()).getTime()));
+                            container.removeAttribute('data-id');
+                            container.parentNode.insertBefore(script_tag, container);
+                        })(window, document);
+                    </script>";
+        	$return_content .= $ad;
+        }
+        if ( 5 === $i ) {
             ob_start();
             the_widget( 'Telegram_Banner_Widget', array( 'size' => 'telegram_desktop_intext_v2' ) );
             $ad = ob_get_clean();
             $return_content .= $ad;
         }
-        if ( 6 === $i ) {
+        if ( 8 === $i ) {
             $return_content .= '<div id="midasWidget__748"></div>';
         }
         if ( 11 === $i ) {
