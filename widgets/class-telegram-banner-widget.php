@@ -92,13 +92,15 @@ class Telegram_Banner_Widget extends WP_Widget {
 	                <?php
 	                if (isset($instance['targeting']) && $instance['targeting']) {
 	                ?>
-                  googletag.defineSlot(
+                  var ds = googletag.defineSlot(
                     '<?php echo esc_attr($instance['targeting']['adUnitPath']) ?>',
 	                  <?php echo wp_json_encode($instance['targeting']['size']) ?>,
                     '<?php echo esc_attr($instance['targeting']['opt_div']) ?>'
-                  ).addService(googletag.pubads()).setTargeting("upc", <?php echo esc_attr($instance['targeting']['up_b']) ?>)<?php
+                  );
+                  ds.addService(googletag.pubads());
+                  ds.setTargeting("upc", <?php echo esc_attr($instance['targeting']['up_b']) ?>);<?php
                   if ($instance['targeting']['sizeMapping']) {
-                  ?>.defineSizeMapping(tg_mappings[<?php echo esc_attr($instance['targeting']['sizeMapping']) ?>]);<?php
+                  ?>ds.defineSizeMapping(tg_mappings[<?php echo esc_attr($instance['targeting']['sizeMapping']) ?>]);<?php
 	                }
                   ?>
                   googletag.enableServices();
