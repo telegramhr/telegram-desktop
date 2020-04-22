@@ -57,7 +57,7 @@ function telegram_main_query($query) {
 
 }
 
-add_filter('the_content', 'telegram_price_content', 99);
+//add_filter('the_content', 'telegram_price_content', 99);
 
 function telegram_price_content($content){
     if (is_amp_endpoint() || is_feed()) {
