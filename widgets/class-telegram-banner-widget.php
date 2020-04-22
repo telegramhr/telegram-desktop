@@ -26,7 +26,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 				case 'telegram_desktop_billboard_v3':
 						?>
 						<div class="billboard">
-							<?php $this->banner_slave( $id ); ?>
+							<?php $this->banner_slave( $id, $instance ); ?>
 
 						</div>
 					<?php
@@ -38,7 +38,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 						?>
 						<div class="wallpaper wallpaper-left fixed">
 
-							<?php $this->banner_slave( $id ) ?>
+							<?php $this->banner_slave( $id, $instance ) ?>
 
 						</div>
 					<?php
@@ -50,7 +50,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 						?>
 						<div class="wallpaper wallpaper-right fixed">
 
-							<?php $this->banner_slave( $id ) ?>
+							<?php $this->banner_slave( $id, $instance ) ?>
 
 						</div>
 					<?php
@@ -61,21 +61,21 @@ class Telegram_Banner_Widget extends WP_Widget {
                 case 'telegram_desktop_intext_v4':
 	                ?>
 	                <div class="banner-intext intext">
-		                <?php $this->banner_slave( $id ) ?>
+		                <?php $this->banner_slave( $id, $instance ) ?>
 	                </div>
 	                <?php
 	                break;
                 case 'telegram_sticky':
                     ?>
                     <div class="stickyunit">
-		                <?php $this->banner_slave($id) ?>
+		                <?php $this->banner_slave($id, $instance) ?>
                     </div>
                     <?php
                     break;
 				default:
 					?>
 					<div class="banner">
-						<?php $this->banner_slave( $id); ?>
+						<?php $this->banner_slave( $id, $instance); ?>
 					</div>
 					<?php
 					break;
@@ -83,11 +83,27 @@ class Telegram_Banner_Widget extends WP_Widget {
 
 	}
 
-	function banner_slave($id) {
+	function banner_slave($id, $instance) {
 		?>
         <!-- /1092744/telegram -->
         <div id='<?php echo esc_attr($id) ?>'>
             <script>
+            <?php
+            if (isset($instance['targeting']) && $instance['targeting']) {
+            ?>
+            googletag.defineSlot(
+              '<?php echo esc_attr($instance['targeting']['adUnitPath']) ?>',
+	            <?php echo wp_json_encode($instance['targeting']['size']) ?>,
+              '<?php echo esc_attr($instance['targeting']['opt_div']) ?>'
+            )
+            .addService(googletag.pubads())
+            .setTargeting("upc", <?php echo esc_attr($instance['targeting']['up_b']) ?>)<?php
+            if ($instance['targeting']['sizeMapping']) {
+            ?>.defineSizeMapping(tg_mappings[<?php echo esc_attr($instance['targeting']['sizeMapping']) ?>]);<?php
+            }
+            }
+            ?>
+
                 googletag.cmd.push(function() { googletag.display('<?php echo esc_attr($id) ?>'); });
             </script>
         </div>
