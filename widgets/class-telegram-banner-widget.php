@@ -102,6 +102,9 @@ class Telegram_Banner_Widget extends WP_Widget {
                   if ($instance['targeting']['sizeMapping']) {
                   ?>.defineSizeMapping(tg_mappings[<?php echo esc_attr($instance['targeting']['sizeMapping']) ?>]);<?php
 	                }
+                  ?>
+                  googletag.enableServices();
+                  <?php
 	                }
 	                ?>
 
