@@ -102,9 +102,18 @@ class Telegram_Shortcodes {
 				'controls' => 0,
 				'width' => 0,
 				'height' => 0,
+          'class' => '',
+          'is_mobile_only' => 0,
+          'is_desktop_only' => 0
 			),
 			$atts
 		));
+		if ( $is_mobile_only && !wp_is_mobile() ) {
+		  return '';
+	  }
+		if ( $is_desktop_only && wp_is_mobile() ) {
+		  return '';
+	  }
 		return '<video ' . ($autoplay?'autoplay ':'') .
 		       ($loop?'loop ':'') .
 		       ($muted?'muted ':'') .
@@ -112,7 +121,7 @@ class Telegram_Shortcodes {
 		       ($poster?'poster='.esc_url($poster):'') .' ' .
 		       ($width?'width='.intval($width):'') .' ' .
 		       ($height?'height='.intval($height):'') .' ' .
-		       ' class="native-video" style="'. ($width?'width:'.intval($width).'px;':'') . ($height?' height:'.intval($height).'px;':'') .'">
+		       ' class="native-video '.$class.'" style="'. ($width?'width:'.intval($width).'px;':'') . ($height?' height:'.intval($height).'px;':'') .'">
             <source type="video/mp4" src="' . esc_url($content) . '">
         </video>';
 
