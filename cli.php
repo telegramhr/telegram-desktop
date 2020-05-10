@@ -132,23 +132,20 @@ class Telegram_Command extends WP_CLI_Command {
 		$recovered_croatia = get_post_meta(780032, 'recovered_croatia', true);
 		$data = wp_remote_get('https://api.coronatracker.com/v3/stats/worldometer/global');
 		$total = json_decode($data['body'], true);
-		$total = [
+		$today = [
 			'confirmed' => $total['totalConfirmed'],
 			'deaths' => $total['totalDeaths'],
 			'recovered' => $total['totalRecovered'],
-			'created' => $total['created']
+			'created' => $total['created'],
 		];
-		if (isset($total['confirmed']) && $total['confirmed']) {
-			update_option( 'tmg_covid_total', $total );
+		$old = get_option('tmg_covid_total');
+		if (date('Ymd', strtotime($old['created'])) < date('Ymd', strtotime($today['created']))) {
+			update_option('tmg_covid_total_yesterday', $old);
 		}
-		$data = wp_remote_get('https://api.coronatracker.com/v3/stats/worldometer/country?countryCode=HR');
-		$croatia= json_decode($data['body'], true);
-		$croatia = [
-			'confirmed' => $croatia['totalConfirmed'],
-			'deaths' => $croatia['totalDeaths'],
-			'recovered' => $croatia['totalRecovered'],
-			'created' => $croatia['created']
-		];
+		if (isset($total['confirmed']) && $total['confirmed']) {
+			update_option( 'tmg_covid_total', $today );
+		}
+		$croatia = [];
 		if ($confirmed_croatia) {
 			$croatia['confirmed'] = $confirmed_croatia;
 		}
@@ -159,57 +156,7 @@ class Telegram_Command extends WP_CLI_Command {
 			$croatia['recovered'] = $recovered_croatia;
 		}
 		update_option('tmg_covid_croatia', $croatia);
-		/*
-		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'.date('m-d-Y', strtotime('yesterday')).'.csv';
 
-		$fileData=fopen($file,'r');
-		$total = [
-			'deaths' => 0,
-			'confirmed' => 0,
-			'recovered' => 0
-		];
-		$header = fgetcsv($fileData);
-		while (($line = fgetcsv($fileData)) !== FALSE) {
-			$total['deaths'] += $line[4];
-			$total['confirmed'] += $line[3];
-			$total['recovered'] += $line[5];
-			if ($line[1] === 'Croatia') {
-				$croatia = [
-					'deaths' => $line[4],
-					'confirmed' => $line[3],
-					'recovered' => $line[5]
-				];
-			}
-		}
-
-		update_option('tmg_covid_total', $total);
-		update_option('tmg_covid_croatia', $croatia);
-*/
-		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'.date('m-d-Y', strtotime('-2 days')).'.csv';
-
-		$fileData=fopen($file,'r');
-		$total = [
-			'deaths' => 0,
-			'confirmed' => 0,
-			'recovered' => 0
-		];
-		$header = fgetcsv($fileData);
-		while (($line = fgetcsv($fileData)) !== FALSE) {
-			$total['deaths'] += $line[8];
-			$total['confirmed'] += $line[7];
-			$total['recovered'] += $line[9];
-			if ($line[3] === 'Croatia') {
-				$croatia = [
-					'deaths' => $line[8],
-					'confirmed' => $line[7],
-					'recovered' => $line[9]
-				];
-			}
-		}
-		update_option('tmg_covid_total_yesterday', $total);
-		update_option('tmg_covid_croatia_yesterday', $croatia);
-
-		//$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv';
 		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv';
 		$fileData=fopen($file,'r');
 		$days = [];
