@@ -12,7 +12,12 @@
         ?>
 
         <?php
-        the_widget('Telegram_Najcitanije_Malo');
+        if (get_current_user_id() === 1) {
+            the_widget('Telegram_AndolPro');
+        }
+        else {
+	        the_widget( 'Telegram_Najcitanije_Malo' );
+        }
         ?>
     </div>
 </div>
