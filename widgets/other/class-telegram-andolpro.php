@@ -53,7 +53,7 @@ class Telegram_AndolPro extends WP_Widget
                             <div class="thumb">
                                 <div class="overlay"></div>
 						        <?php
-                                wp_get_attachment_image($article['image'], 'article-rainbow-small')
+                                echo wp_get_attachment_image($article['image'], 'article-rainbow-small')
 						         ?>
                             </div>
                             <div class="titles">
