@@ -49,7 +49,7 @@ class Telegram_AndolPro extends WP_Widget
 			        ];
 			        foreach ($articles as $article) {
 				        ?>
-                        <article class="article-rainbow-small">
+                        <article class="article-rainbow-small andolpro">
                             <div class="thumb">
                                 <div class="overlay"></div>
 						        <?php
