@@ -142,7 +142,7 @@ class Telegram_Command extends WP_CLI_Command {
 		if (date('Ymd', strtotime($old['created'])) < date('Ymd', strtotime($today['created']))) {
 			update_option('tmg_covid_total_yesterday', $old);
 		}
-		if (isset($total['confirmed']) && $total['confirmed']) {
+		if (isset($today['confirmed']) && $today['confirmed']) {
 			update_option( 'tmg_covid_total', $today );
 		}
 		$croatia = [];
