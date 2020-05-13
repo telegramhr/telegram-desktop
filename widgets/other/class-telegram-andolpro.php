@@ -16,7 +16,7 @@ class Telegram_AndolPro extends WP_Widget
 	        ?>
             <div class="tg-widget rainbow-widget procitajte-danas">
                 <div class="tg-widget-head" style="text-transform: none;">
-                    DONOSI PlivitMagnezij
+                    DONOSI PLIVIT&#174; Magnezij
                 </div>
                 <div class="tg-widget-body">
 			        <?php
@@ -24,27 +24,27 @@ class Telegram_AndolPro extends WP_Widget
 				        [
 					        'title' => 'Prvi put u Hrvatskoj: Vodeći doktori i farmaceuti otkrivaju kako obnoviti zdravlje nakon izolacije',
 					        'image' => 808828,
-					        'link'  => ''
+					        'link'  => 'https://doktor-online.hr/'
 				        ],
 				        [
 					        'title' => 'Naši stručnjaci za zdravlje u velikom specijalu: Osam trenutno najboljih namirnica za žene i muškarce ',
 					        'image' => 808829,
-					        'link'  => ''
+					        'link'  => 'https://doktor-online.hr/'
 				        ],
 				        [
 					        'title' => 'Ugledni kardiokirurg analizira: I o vašem stavu o životu ovisi hoćete li se zaštititi od najopasnije bolesti',
 					        'image' => 808830,
-					        'link'  => ''
+					        'link'  => 'https://doktor-online.hr/'
 				        ],
 				        [
 					        'title' => 'Vitamin D važan je i za najmlađe: Pedijatrica je pronašla dobitnu formulu za vaše dijete, provjerite',
 					        'image' => 808831,
-					        'link'  => ''
+					        'link'  => 'https://doktor-online.hr/'
 				        ],
 				        [
 					        'title' => 'Prvi donosimo: "Zid zahvalnosti" za potporu svim liječnicima koji u pandemiji brinu o nama ',
 					        'image' => 808832,
-					        'link'  => ''
+					        'link'  => 'https://doktor-online.hr/'
 				        ],
 			        ];
 			        foreach ($articles as $article) {
