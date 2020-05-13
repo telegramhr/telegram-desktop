@@ -154,7 +154,7 @@ class Telegram_Corona_Mobile extends WP_Widget {
             transition: all 0.3s;
         }
         .corona-graph-column {
-            width: 11..1%;
+            width: 11.11%;
             display: flex;
             padding: 0px 4px;
             align-items: flex-end;
