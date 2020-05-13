@@ -157,30 +157,16 @@ class Telegram_Command extends WP_CLI_Command {
 		}
 		update_option('tmg_covid_croatia', $croatia);
 
-		$file = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv';
-		$fileData=fopen($file,'r');
+		$data = wp_remote_get('http://api.coronatracker.com/v3/analytics/newcases/country?countryCode=HR&startDate='.date('Y-m-d', strtotime('-7days')).'&endDate='.date('Y-m-d'));
+		$data = json_decode($data['body'], true);
 		$days = [];
-		$header = fgetcsv($fileData);
-		while (($line = fgetcsv($fileData)) !== FALSE) {
-			if ($line[1] === 'Croatia') {
-				$count = sizeof($line);
-				$days = [
-					$croatia['confirmed'],
-					$line[$count-2],
-					$line[$count-3],
-					$line[$count-4],
-					$line[$count-5],
-					$line[$count-6],
-					$line[$count-7],
-					$line[$count-8],
-					$line[$count-9],
-					$line[$count-10],
-				];
-				break;
-			}
+		foreach ($data as $date) {
+			$updated = strtotime($date['last_updated']);
+			$days[date('Ymd', $updated)] = $date['new_infections'];
 		}
-		if ($confirmed_croatia && $confirmed_croatia > $days[0]) {
-			$days[0] = $confirmed_croatia;
+		$modified = get_post_modified_time('YmdHi', false, 780032);
+		if ($modified > date('Ymd', strtotime('today'))) {
+			$days[date('Ymd')] = $confirmed_croatia;
 		}
 		update_option('tmg_covid_days', $days);
 	}

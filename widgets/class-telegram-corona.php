@@ -63,21 +63,14 @@ class Telegram_Corona_Desktop extends WP_Widget {
                 </div>
                 <div class="corona-widget-element">
                     <div class="corona-widget-head">
-                        <?php 
-                                //echo date("d.m.",strtotime('-9 days'));
-                        ?>Novi slučajevi u Hrvatskoj
+                        Novi slučajevi u Hrvatskoj
                         <div style="float: right; display: none;"><?php echo date("d.m."); ?></div>
                     </div>
                     <div class="corona-graph">
-                        <?php 
-                            $days = array_reverse($days);
-                            $days_adjust = array();
-                            for ($i=0; $i < count($days)-1; $i++) { 
-                                $days_adjust[$i] = $days[$i+1]-$days[$i];
-                            }
-                            $peak = max($days_adjust);
-                            foreach ($days_adjust as $key => $value) {
-                                $date_adjust = date("d.m.", strtotime('-'.(9-$key).' days'));
+                        <?php
+                            $peak = max($days);
+                            foreach ($days as $key => $value) {
+                                $date_adjust = date("d.m.", strtotime($key));
                                 $percentage = round($value/$peak, 2)*100;
                                 echo '<div class="corona-graph-column">
                                         <div class="corona-graph-column-color" style="height: '.$percentage.'%;"><div class="corona-graph-column-value">'.$value.'</div><div class="corona-graph-column-date">'.$date_adjust.'</div></div>
