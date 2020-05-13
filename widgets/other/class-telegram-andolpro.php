@@ -16,7 +16,7 @@ class Telegram_AndolPro extends WP_Widget
 	        ?>
             <div class="tg-widget rainbow-widget procitajte-danas">
                 <div class="tg-widget-head" style="text-transform: none;">
-                    DONOSI PLIVIT&#174; Magnezij
+                    DONOSI ANDOL&#174; PRO
                 </div>
                 <div class="tg-widget-body">
 			        <?php
