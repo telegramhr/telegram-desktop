@@ -98,7 +98,7 @@ function gallerySlide() {
         });
         jQuery('.gallery-page  .slide-num span').text('1/' + (gallery_captions.length));
     }
-    if (jQuery('.single-partneri .gallery-slider').length) {
+    if (jQuery('.single-partneri .gallery-slider, .single-price .gallery-slider').length) {
         jQuery('.gallery-slider').slick({
 
             slide: '.gallery-image'
