@@ -58,7 +58,7 @@ class Telegram_AndolPro extends WP_Widget
                             </div>
                             <div class="titles">
                                 <h1 class="title">
-                                    <a href="<?php echo esc_url($article['link']) ?>">
+                                    <a href="<?php echo esc_url($article['link']) ?>" target="_blank">
 								        <?php echo esc_html($article['title']) ?>
                                     </a>
                                 </h1>
