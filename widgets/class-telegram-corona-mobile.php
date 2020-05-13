@@ -61,19 +61,24 @@ class Telegram_Corona_Mobile extends WP_Widget {
         </div>
         <div class="corona-widget-element">
             <div class="corona-widget-head">
-                <?php 
-                    echo date("d.m",strtotime('-10 days'));
-                ?>.
-                <div style="float: right;"><?php echo date("d.m") ?>.</div>
+            <?php 
+                             //echo date("d.m.",strtotime('-9 days'));
+                        ?>Novi slučajevi u Hrvatskoj
+                        <div style="float: right; display: none;"><?php echo date("d.m."); ?></div>
             </div>
             <div class="corona-graph">
                 <?php 
                     $days = array_reverse($days);
-                    $peak = max($days);
-                    foreach ($days as $key => $value) {
+                    $days_adjust = array();
+                    for ($i=0; $i < count($days)-1; $i++) { 
+                        $days_adjust[$i] = $days[$i+1]-$days[$i];
+                    }
+                    $peak = max($days_adjust);
+                    foreach ($days_adjust as $key => $value) {
+                        $date_adjust = date("d.m.", strtotime('-'.(9-$key).' days'));
                         $percentage = round($value/$peak, 2)*100;
                         echo '<div class="corona-graph-column">
-                                <div class="corona-graph-column-color" style="height: '.$percentage.'%;"><div class="corona-graph-column-value">'.$value.'</div></div>
+                                <div class="corona-graph-column-color" style="height: '.$percentage.'%;"><div class="corona-graph-column-value">'.$value.'</div><div class="corona-graph-column-date">'.$date_adjust.'</div></div>
                             </div>';
                     }
                 ?>
@@ -149,7 +154,7 @@ class Telegram_Corona_Mobile extends WP_Widget {
             transition: all 0.3s;
         }
         .corona-graph-column {
-            width: 10%;
+            width: 11..1%;
             display: flex;
             padding: 0px 4px;
             align-items: flex-end;
@@ -164,7 +169,7 @@ class Telegram_Corona_Mobile extends WP_Widget {
         .corona-graph-column:hover div {
             opacity: 1;
         }
-        .corona-graph-column-value {
+        .corona-graph-column-value, .corona-graph-column-date {
             position: absolute;
             top: -16px;
             width: 100%;
@@ -172,6 +177,10 @@ class Telegram_Corona_Mobile extends WP_Widget {
             text-align: center;
             font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
             font-size: 12px;
+        }
+        .corona-graph-column-date {
+            top: auto;
+            bottom: -16px;
         }
     </style>
     <?php
