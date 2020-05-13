@@ -157,16 +157,13 @@ class Telegram_Command extends WP_CLI_Command {
 		}
 		update_option('tmg_covid_croatia', $croatia);
 
-		$data = wp_remote_get('http://api.coronatracker.com/v3/analytics/newcases/country?countryCode=HR&startDate='.date('Y-m-d', strtotime('-7days')).'&endDate='.date('Y-m-d'));
+		$data = wp_remote_get('http://api.coronatracker.com/v3/analytics/newcases/country?countryCode=HR&startDate='.date('Y-m-d', strtotime('-7days')).'&endDate='.date('Y-m-d', strtotime('+1 day')));
 		$data = json_decode($data['body'], true);
 		$days = [];
 		foreach ($data as $date) {
 			$updated = strtotime($date['last_updated']);
 			$days[date('Ymd', $updated)] = $date['new_infections'];
-		}
-		$modified = get_post_modified_time('YmdHi', false, 780032);
-		if ($modified > date('Ymd', strtotime('today'))) {
-			$days[date('Ymd')] = $confirmed_croatia;
+
 		}
 		update_option('tmg_covid_days', $days);
 	}
