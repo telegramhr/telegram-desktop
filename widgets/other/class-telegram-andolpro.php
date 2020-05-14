@@ -22,24 +22,24 @@ class Telegram_AndolPro extends WP_Widget
 			        <?php
 			        $articles = [
 				        [
-					        'title' => 'Prvi put u Hrvatskoj: Vodeći doktori i farmaceuti otkrivaju kako obnoviti zdravlje nakon izolacije',
+					        'title' => 'KONZILIJ VODEĆIH LIJEČNIKA I NUTRICIONISTA ISTRAŽUJE: Evo kako povećati otpornost na viruse!',
 					        'image' => 808828,
 					        'link'  => 'https://doktor-online.hr/'
 				        ],
 				        [
-					        'title' => 'Naši stručnjaci za zdravlje u velikom specijalu: Osam trenutno najboljih namirnica za žene i muškarce ',
-					        'image' => 808829,
-					        'link'  => 'https://doktor-online.hr/'
+					        'title' => 'Hrvatska liječnica otkriva: Imunitet oboljelih od šećernih bolesti i uloga vitamina D i Magnezija',
+					        'image' => 809636,
+					        'link'  => 'https://doktor-online.hr/dossier-kako-ojacati-imunitet-oboljelih-od-secerne-bolesti-i-koja-je-uloga-vitamina-d-i-magnezija/'
 				        ],
 				        [
-					        'title' => 'Ugledni kardiokirurg analizira: I o vašem stavu o životu ovisi hoćete li se zaštititi od najopasnije bolesti',
-					        'image' => 808830,
-					        'link'  => 'https://doktor-online.hr/'
+					        'title' => 'Kardiologinja s KBC-a Zagreb: Saznajte u kakvom je sada stanju vaš najsnažniji mišić i kako ga zaštititi',
+					        'image' => 809637,
+					        'link'  => 'https://doktor-online.hr/kako-zastititi-zdravlje-srcanih-bolesnika-7-preporuka-vodece-kardiologinje-i-1-razlog-zasto-ne-smijete-propustiti-terapiju/'
 				        ],
 				        [
-					        'title' => 'Vitamin D važan je i za najmlađe: Pedijatrica je pronašla dobitnu formulu za vaše dijete, provjerite',
-					        'image' => 808831,
-					        'link'  => 'https://doktor-online.hr/'
+					        'title' => 'Jedan od naših najistaknutijih psihijatara: Ne potiskujte stres, pogledajte što vam se sve može dogoditi',
+					        'image' => 809638,
+					        'link'  => 'https://doktor-online.hr/kako-krenuti-dalje-nakon-pandemije-pobijedite-zatvorenika-proslosti-u-sebi-uz-ova-4-koraka/'
 				        ],
 				        [
 					        'title' => 'Prvi donosimo: "Zid zahvalnosti" za potporu svim liječnicima koji u pandemiji brinu o nama ',
