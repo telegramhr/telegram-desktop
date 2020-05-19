@@ -20,6 +20,8 @@ jQuery(document).ready( function() {
 
     whiteLogo();
     comments();
+
+    track_outbound_link();
 });
 
 function stickyNav() {
@@ -142,4 +144,14 @@ function comments() {
         jQuery(this).hide();
         jQuery('.comments-hide').show();
     });
+}
+
+function track_outbound_link() {
+    jQuery('a[target=_blank]').click(function () {
+        var url = jQuery(this).attr('href');
+        ga('send', 'event', 'outbound', 'click', url, {
+            'transport': 'beacon'
+        });
+    });
+
 }

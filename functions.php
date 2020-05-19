@@ -13,7 +13,7 @@ function telegram_scripts() {
     wp_register_script('sticky-kit', get_template_directory_uri() . '/assets/js/sticky_kit.min.js', array('jquery'), null, true);
     wp_register_script('colour-brightness', get_template_directory_uri() . '/assets/js/jquery.colourbrightness.min.js', array('jquery'), null, true);
 
-    wp_register_script('telegram-script', get_template_directory_uri() . '/assets/js/functions.js', array('jquery', 'slick', 'colour-brightness', 'sticky-kit'), '95138.97', true);
+    wp_register_script('telegram-script', get_template_directory_uri() . '/assets/js/functions.js', array('jquery', 'slick', 'colour-brightness', 'sticky-kit'), '95138.98', true);
 	wp_register_style('telegram-style', get_stylesheet_uri(), array('slick', 'slick-theme'), '95070.24');
 	if ( 'native' === get_post_type() ) {
 		wp_enqueue_script( 'jquery');
