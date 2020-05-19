@@ -13,6 +13,13 @@ class Telegram_AndolPro extends WP_Widget
 
     public function widget($args, $instance)
     {
+        $mobile = '';
+        if (wp_is_mobile()) {
+            $mobile = 'mobile';
+        }
+        $data = wp_cache_get('telegram_pliva_'.$mobile, 'widgets');
+        if (!$data) {
+            ob_start();
 	        ?>
             <div class="tg-widget rainbow-widget procitajte-danas">
                 <div class="tg-widget-head" style="text-transform: none;">
@@ -47,13 +54,17 @@ class Telegram_AndolPro extends WP_Widget
             </div>
 
 	        <?php
-        if (wp_is_mobile()) {
-            ?><style>
+	        if (wp_is_mobile()) {
+		        ?><style>
                 .article-rainbow-small.andolpro .titles .title:before {
                     content: "<?php echo get_field('naslov_css', 810192) ?>" !important;
                 }
-            </style><?php
+                </style><?php
+	        }
+	        $data = ob_get_clean();
+	        wp_cache_set('telegram_pliva_'.$mobile, $data, 'widgets', 600);
         }
+        echo $data;
     }
 
 }
