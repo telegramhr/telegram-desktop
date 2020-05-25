@@ -30,8 +30,7 @@ class Telegram_Ne_Propusti extends WP_Widget {
                         $args = array(
                             'posts_per_page' => 8,
                             'cat' => $cat,
-                            'post_type' => 'any',
-                            'post__not_in' => array( $post->ID ),
+                            'post_type' => ['posts', 'price'],
                             'no_found_rows' => true,
                             'ignore_sticky_posts' => true,
                             'post_status' => 'publish'

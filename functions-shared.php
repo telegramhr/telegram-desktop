@@ -417,6 +417,9 @@ function telegram_get_posts() {
     $q = new WP_Query( array(
         'posts_per_page' => 10,
         's' => $_POST['term'],
+        'no_found_rows' => true,
+        'ignore_sticky_posts' => true,
+        'post_status' => 'publish'
     ) );
     $posts = array();
     while ( $q->have_posts() ) {

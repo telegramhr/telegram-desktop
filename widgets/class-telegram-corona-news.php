@@ -13,6 +13,10 @@ class Telegram_Corona_News extends WP_Widget {
 
         public function widget( $args, $instance ) {
             $id = get_the_ID();
+            $data = wp_cache_get('corona_'.$id, 'widgets');
+            if (!$data) {
+                ob_start();
+
         ?>
             <div class="embed-news-list">
                 <div class="bold">Što se upravo događa s koronavirusom:</div>
@@ -96,6 +100,10 @@ class Telegram_Corona_News extends WP_Widget {
                 </style>
             </div>
         <?php
+                $data = ob_get_clean();
+                wp_cache_set('corona_'.$id, $data, 'widgets', HOUR_IN_SECONDS);
+            }
+            echo $data;
     }
 
     function update( $new_instance, $instance ) {
