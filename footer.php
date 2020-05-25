@@ -3,6 +3,11 @@
 
 <footer>
     <div class="container">
+        <?php $footer = wp_cache_get('footer_menus', 'desktop');
+            if (!$footer) {
+                ob_start();
+
+        ?>
         <div class="footer-1">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/telegram_logo.svg" height="70"/>
             <div class="claim">
@@ -26,6 +31,12 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tmg_logo.svg" height="50"/>
             <?php wp_nav_menu( array( 'theme_location' => 'footer_3' ) ); ?>
         </div>
+        <?php
+                $footer = ob_get_clean();
+                wp_cache_set('footer_menus', $footer, 'desktop', DAY_IN_SECONDS);
+            }
+            echo $footer;
+        ?>
     </div>
 </footer>
 <?php
