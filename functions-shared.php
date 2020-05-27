@@ -340,6 +340,12 @@ add_action('pre_get_posts', 'telegram_pre_get_posts');
 function telegram_pre_get_posts($query) {
 	if (!is_admin() && $query->is_main_query()) {
 
+	    if ($query->is_home()) {
+	        $query->set('no_found_rows_true', true);
+	        $query->set('ignore_sticky_posts', true);
+	        $query->set('post_status', 'publish');
+        }
+
 		if ( ( $query->is_home() || $query->is_category() || $query->is_archive() ) ) {
 			if ( isset( $query->query['post_type'] ) && in_array( $query->query['post_type'], array(
 					'fotogalerije',
