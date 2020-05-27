@@ -340,7 +340,7 @@ add_action('pre_get_posts', 'telegram_pre_get_posts');
 function telegram_pre_get_posts($query) {
 	if (!is_admin() && $query->is_main_query()) {
 	    if ($query->is_front_page()) {
-	        $query->set('no_found_rows_true', true);
+	        $query->set('no_found_rows', true);
 	        $query->set('ignore_sticky_posts', true);
 	        $query->set('post_status', 'publish');
         }
