@@ -585,8 +585,14 @@ add_filter('wp_update_attachment_metadata', 'telegram_attachment', 10, 2);
 
 function telegram_attachment($data, $post_id) {
 	$post = get_post($post_id);
-	if ( isset($data['image_meta']['credit']) && $data['image_meta']['credit'] ) {
-		update_post_meta($post_id, 'fotograf', esc_attr($data['image_meta']['credit']));
+	if ( isset($data['image_meta']['caption']) && $data['image_meta']['caption'] ) {
+	    $fotograf = explode('Photo: ', $data['image_meta']['caption'])[1];
+	    if ($fotograf) {
+		    update_post_meta( $post_id, 'fotograf', esc_attr( $fotograf ) );
+	    }
+	    else if ( isset($data['image_meta']['credit']) && $data['image_meta']['credit'] ) {
+		    update_post_meta($post_id, 'fotograf', esc_attr($data['image_meta']['credit']));
+	    }
 	}
 	return $data;
 }
