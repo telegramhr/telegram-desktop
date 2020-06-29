@@ -970,35 +970,6 @@ function telegram_amp_site_icon($image) {
     return get_site_icon_url();
 }
 
-function telegram_og_graph_tags( $tags ) {
-	$tags['fb:app_id'] = '1383786971938581';
-	$tags['fb:pages'] = '688325737947866';
-	if ( is_single() ) {
-		$tags['article:publisher'] = 'https://www.facebook.com/www.telegram.hr/';
-		$tags['article:author'] = 'https://www.facebook.com/www.telegram.hr/';
-		$title = get_post_meta(get_the_ID(), 'title', true);
-		if ( $title ) {
-			$tags['og:title'] = wp_kses( $title, array() );
-		}
-		$description = get_post_meta(get_the_ID(), 'description', true);
-		if ( $description ) {
-			$tags['og:description'] = wp_kses( $description, array() );
-		}
-		$image = get_post_meta(get_the_ID(), 'image', true);
-		if ( $image ) {
-			$image = wp_get_attachment_image_src( $image, array( 1200, 1200 ) );
-			$tags['og:image'] = esc_url( $image[0] );
-			$tags['og:image:width'] = intval( $image[1] );
-			$tags['og:image:height'] = intval( $image[2] );
-		}
-
-	}
-
-	return $tags;
-}
-
-add_filter( 'jetpack_open_graph_tags', 'telegram_og_graph_tags', 10, 1 );
-
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
 	require_once dirname( __FILE__ ) . '/cli.php';
 }
