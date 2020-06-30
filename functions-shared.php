@@ -546,30 +546,12 @@ function telegram_trim($content) {
 	return $content;
 }
 
-//add_filter('the_author', 'telegram_author_name');
-
-function telegram_author_name() {
-	global $post;
-
-	$a = get_coauthors($post->ID);
-	return $a[0]->display_name;
-}
-
 add_filter( 'coauthors_count_published_post_types', 'telegram_coauthors_posts', 10, 1);
 
 function telegram_coauthors_posts($post_types) {
 	return array(
 		'post', 'price', 'fotogalerije', 'video'
 	);
-}
-
-//add_filter( 'oembed_result', 'telegram_twitter_embed_fix', 10, 3 );
-
-function telegram_twitter_embed_fix($html, $url, $args) {
-	if (strpos($url, 'twitter') !==false) {
-		$html = str_replace('<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>', '', $html);
-	}
-	return $html;
 }
 
 add_filter( 'schedule_event', 'telegram_pings', 10, 1 );
@@ -657,14 +639,6 @@ function telegram_rss_item_enclosure() {
 		get_post_mime_type( $thumbnail_id )
 	);
 }
-
-function telegram_remove_post_metaboxes() {
-	remove_meta_box( 'postcustom' , 'post' , 'normal' );
-	remove_meta_box( 'postexcerpt' , 'post' , 'normal' );
-	remove_meta_box( 'commentsdiv' , 'post' , 'normal' );
-	remove_meta_box( 'commentstatusdiv' , 'post' , 'normal' );
-}
-add_action( 'admin_menu' , 'telegram_remove_post_metaboxes' );
 
 function telegram_disable_mce_wptextpattern( $opt ) {
 
@@ -879,75 +853,6 @@ function telegram_amt_image_size($size) {
 	return 'velike-price';
 }
 
-//remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
-
-//add_action('pre_get_posts', 'telegram_instant_pre_get');
-function telegram_instant_pre_get($query) {
-	if ( $query->is_main_query() && $query->is_feed( INSTANT_ARTICLES_SLUG ) ) {
-		$query->set( 'post_status', 'published' );
-		$query->set( 'post_type', array('post', 'price') );
-	}
-}
-
-add_filter( 'instant_articles_subtitle', 'telegram_instant_article_subtitle', 10, 2 );
-
-function telegram_instant_article_subtitle($subtitle, $that) {
-	$post = $that->get_the_id();
-	$subtitle = get_post_meta( $post, 'subtitle', true );
-	return $subtitle;
-}
-
-add_action( 'instant_articles_compat_registry_analytics', 'telegram_add_to_registry_ga');
-add_action( 'instant_articles_compat_registry_analytics', 'telegram_add_to_registry_gemius');
-function telegram_add_to_registry_ga(&$registry) {
-	$display_name = 'Google Analytics by Marko';
-
-	$identifier = 'google-analytics-for-wordpress';
-
-	$embed_code = "<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-60611577-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('set', 'campaignSource', 'Facebook');
-  ga('set', 'campaignMedium', 'Social Instant Article');
-  ga('set', 'title', 'IA - '+ia_document.title);
-  ga('send', 'pageview');
-
-</script>";
-
-	$registry[ $identifier ] = array(
-		'name' => $display_name,
-		'payload' => $embed_code,
-	);
-}
-
-function telegram_add_to_registry_gemius(&$registry) {
-	$display_name = 'Gemius by Marko';
-
-	$identifier = 'gemius-for-wordpress';
-
-	$embed_code = "<script type='text/javascript'>
-		<!--//--><![CDATA[//><!--
-		var pp_gemius_identifier = 'nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57';
-                var pp_gemius_extraparameters = new Array('gemia=1');
-		// lines below shouldn't be edited
-		function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
-		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
-		(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
-			gt.setAttribute('defer','defer'); gt.src=l+'://hr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
-		//--><!]]>
-</script>";
-
-	$registry[ $identifier ] = array(
-		'name' => $display_name,
-		'payload' => $embed_code,
-	);
-}
-
 add_filter( 'amp_post_article_header_meta', 'telegram_amp_header_meta', 10, 1 );
 
 function telegram_amp_header_meta($parts) {
@@ -974,24 +879,6 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 	require_once dirname( __FILE__ ) . '/cli.php';
 }
 
-/*
-	Disable Default Dashboard Widgets
-	@ https://digwp.com/2014/02/disable-default-dashboard-widgets/
-*/
-function telegram_disable_default_dashboard_widgets() {
-	global $wp_meta_boxes;
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_recent_drafts']);
-}
-add_action('wp_dashboard_setup', 'telegram_disable_default_dashboard_widgets', 999);
-
 add_action( 'template_redirect','telegram_filter_feeds', 1 );
 
 function telegram_filter_feeds() {
@@ -1014,16 +901,6 @@ add_filter('coauthors_guest_author_manage_cap', 'telegram_coauthors_cap', 10, 1)
 function telegram_coauthors_cap($caps) {
     return 'edit_others_posts';
 }
-
-function telegram_remove_toolbar_node($wp_admin_bar) {
-
-	// replace 'updraft_admin_node' with your node id
-	$wp_admin_bar->remove_node('customize');
-	$wp_admin_bar->remove_node('updates');
-	$wp_admin_bar->remove_node('comments');
-
-}
-add_action('admin_bar_menu', 'telegram_remove_toolbar_node', 999);
 
 function telegram_acf_query($args, $field, $post_id)
 {
@@ -1211,12 +1088,6 @@ function telegram_avatar_sizes($sizes) {
     return $sizes;
 }
 
-add_filter('set_url_schema', 'telegram_schema');
-
-function telegram_schema($url) {
-    return str_replace('http://', 'https://', $url);
-}
-
 add_filter('body_class', 'telegram_body_class');
 
 function telegram_body_class($classes) {
@@ -1234,13 +1105,6 @@ function telegram_enable_extended_upload ( $mime_types =array() ) {
 }
 
 add_filter('upload_mimes', 'telegram_enable_extended_upload');
-
-//add_filter('rest_post_query', 'telegram_rest_posts', 10, 2);
-
-function telegram_rest_posts($args, $request) {
-    $args['post_type'] = 'post,price';
-    return $args;
-}
 
 /**
  * Fix a race condition in alloptions caching
