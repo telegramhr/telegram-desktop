@@ -12,11 +12,6 @@
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <?php
-        if (is_front_page()) {
-            ?><meta name="description" content="Pročitajte najnovije vijesti iz Hrvatske i svijeta. Društvene analize, kolumne političkih stručnjaka, velike priče o malim ljudima. Portal bez treša i estrade, za ljude koji razmišljaju o svijetu budućnosti."><?php
-        }
-    ?>
     <?php wp_head(); ?>
 </head>
 
