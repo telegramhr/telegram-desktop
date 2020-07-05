@@ -76,8 +76,8 @@ public function widget( $args, $instance ) {
                     ?>
                         <div class="fourth <?php echo $key ?>" style="order: <?php echo (100-$value["mandati"]).';'; if ($value["mandati"] > 0) { echo ' display: flex;'; } ?>">
                             <img src="http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/img/lider_<?php echo $key ?>.gif" alt="<?php echo $detalji_stranke[$key]['ime'].' - '.$detalji_stranke[$key]['lider'] ?>">
-                            <div class="stranka">'.$detalji_stranke[$key]['ime'].'</div>
-                            <div class="mandati">'.$value["mandati"].'</div>
+                            <div class="stranka"><?php echo $detalji_stranke[$key]['ime'] ?></div>
+                            <div class="mandati"><?php echo $value["mandati"] ?></div>
                         </div>
                     <?php
                 }
