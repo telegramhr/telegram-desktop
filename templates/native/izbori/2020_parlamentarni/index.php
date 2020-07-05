@@ -268,13 +268,13 @@ ksort($map);
         for ($i=1; $i < 11; $i++) { 
            echo '.main-karta #izborna_x5F_'.$i.' path, .karta-'.$i.' #izborna_x5F_'.$i.' path {
                position: relative; z-index: 2; ';
-            if ($results[$i]['party']["restart"]["mandati"] > $results[$i]["hdz"]["mandati"]) {
+            if ($results[$i]['party']["restart"]["mandati"] > $results[$i]['party']["hdz"]["mandati"]) {
                 echo 'fill: #a8353b !important;';
             }
-            else if ($results[$i]['party']["hdz"]["mandati"] > $results[$i]["restart"]["mandati"]) {
+            else if ($results[$i]['party']["hdz"]["mandati"] > $results[$i]['party']["restart"]["mandati"]) {
                 echo 'fill: #3550a8 !important;';
             }
-            else if ($results[$i]['party']["hdz"]["mandati"] == $results[$i]["restart"]["mandati"]) {
+            else if ($results[$i]['party']["hdz"]["mandati"] == $results[$i]['party']["restart"]["mandati"]) {
                 echo 'fill: purple !important;';
             }
             echo '}';
