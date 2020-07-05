@@ -272,13 +272,29 @@ public function widget( $args, $instance ) {
         }
     }
     <?php
-        for ($i=1; $i < 9; $i++) { 
+        /*for ($i=1; $i < 9; $i++) {
            echo '#Layer1_'.$i.'_MEMBER_0_FILL {';
             if (rand(0,10) > 5) {
                 echo 'fill: #a8353b !important;';
             }
             else {
                 echo 'fill: #3550a8 !important;';
+            }
+            echo '}';
+        }*/
+    ?>
+    <?php
+        for ($i=1; $i < 11; $i++) {
+           echo '.main-karta #izborna_x5F_'.$i.' path, .karta-'.$i.' #izborna_x5F_'.$i.' path {
+               position: relative; z-index: 2; ';
+            if ($results[$i]['party']["restart"]["mandati"] > $results[$i]["hdz"]["mandati"]) {
+                echo 'fill: #a8353b !important;';
+            }
+            else if ($results[$i]['party']["hdz"]["mandati"] > $results[$i]["restart"]["mandati"]) {
+                echo 'fill: #3550a8 !important;';
+            }
+            else if ($results[$i]['party']["hdz"]["mandati"] == $results[$i]["restart"]["mandati"]) {
+                echo 'fill: purple !important;';
             }
             echo '}';
         }
