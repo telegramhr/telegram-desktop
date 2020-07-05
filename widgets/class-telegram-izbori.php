@@ -40,7 +40,7 @@ public function widget( $args, $instance ) {
                         ),
                         "mozemo" => array(
                             "lider" => 'Tomislav Tomašević',
-                            "ime" => 'Lijevo-zelena'
+                            "ime" => 'Možemo!'
                         ),
                         "simp" => array(
                             "lider" => 'Dalija Orešković',
