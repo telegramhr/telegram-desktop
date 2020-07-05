@@ -100,7 +100,7 @@ ksort($map);
 <body>
 <div id="notification">Dogodila se greška pri dohvaćanju novih podataka. Telegram će pokušati opet za 15 sekundi, a do tada će na stranici ostati postojeći rezultati.</div>
 <div class="main-container flex">
-    <div class="hero full flex relative" style="background-image: url('<?php echo $native_path ?>img/glave.jpg');">
+    <div class="hero full flex relative" style="background-image: url('<?php echo $native_path ?>img/glave_new.jpg');">
         <a href="https://telegram.hr/" class="header-logos center full">
             <img src="<?php echo $native_path ?>img/telegram_logo.svg" alt="Telegram Logo">
         </a>
