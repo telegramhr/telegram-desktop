@@ -133,13 +133,12 @@ if( have_posts() ) {
         <?php }
         // Bez slike
         else if( $format == 4 ) { ?>
-	    <?php
-	    if (get_current_user_id() === 1) {
-		    the_widget( 'Telegram_Izbori' );
-	    }
-	    ?>
         <div class="single-head no-img">
-
+	        <?php
+	        if (get_current_user_id() === 1) {
+		        the_widget( 'Telegram_Izbori' );
+	        }
+	        ?>
             <div class="zones">
                 <?php the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v1')); ?>
             </div>
