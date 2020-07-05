@@ -306,5 +306,49 @@ h4 {
 }
 
 @media screen and (max-width: 1023px) {
-
+    .header-logos img {
+        margin-top: 8px;
+    }
+    .container {
+        padding: 16px;
+    }
+    .hero-title {
+        padding-top: 13vw;
+        background-image: linear-gradient(to top, rgba(0,0,0,0.95), rgba(0,0,0,0));
+    }
+    .hero-title .container {
+        padding: 8px 16px;
+    }
+    .hero {
+        height: 65vw;
+        margin-bottom: 24px;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 4px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .hero-title h2 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .result-table .row div:nth-child(2) {
+        width: 19.99%;
+    }
+    .result-table .row div:nth-child(3) {
+        width: 14.99%;
+    }
+    .result-table .row div:nth-child(4) {
+        width: 4.99%;
+    }
 }
