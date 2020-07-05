@@ -53,6 +53,11 @@ $map = [
 		'title' => 'HGS',
 		'class' => 'kerum'
 	],
+    12 => [
+        'alt' => '',
+        'title' => 'Hrvatska Narodna Stranka',
+        'class' => 'hns'
+    ],
 	11 => [
 		'alt' => 'Dosta Pljačke - Vilibor Sinčić',
 		'title' => 'Dosta pljačke koalicija',
@@ -63,6 +68,11 @@ $map = [
 		'title' => 'Narodna stranka - Reformisti',
 		'class' => 'reformisti'
 	],
+    17 => [
+            'alt' => '',
+            'class' => 365,
+        'title' => '365 - Stranka Rada i Solidarnosti'
+    ],
 	18 => [
 		'alt' => 'MOST - Božo Petrov',
 		'title' => 'MOST',
