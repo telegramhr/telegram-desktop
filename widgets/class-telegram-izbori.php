@@ -84,7 +84,7 @@ public function widget( $args, $instance ) {
                 ?>
             </div>
             <div class="twenty flex">
-                <?php echo file_get_contents('https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/izbori/2020_parlamentarni/img/hrvatska.svg'); ?>
+                <?php echo file_get_contents('https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/izbori/2020_parlamentarni/img/karta.svg'); ?>
             </div>
         </div>
     </a>
@@ -271,18 +271,6 @@ public function widget( $args, $instance ) {
             margin: 0 auto;
         }
     }
-    <?php
-        /*for ($i=1; $i < 9; $i++) {
-           echo '#Layer1_'.$i.'_MEMBER_0_FILL {';
-            if (rand(0,10) > 5) {
-                echo 'fill: #a8353b !important;';
-            }
-            else {
-                echo 'fill: #3550a8 !important;';
-            }
-            echo '}';
-        }*/
-    ?>
     <?php
         for ($i=1; $i < 11; $i++) {
            echo '#izborna_x5F_'.$i.' path {';
