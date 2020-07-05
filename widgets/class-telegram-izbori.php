@@ -14,10 +14,10 @@ public function widget( $args, $instance ) {
 	$results = get_option('tmg_izbori_2020_total');
 ?>
 <div class="izbori-widget-parent">
-    <a class="izbori-widget" href="http://staging.telegram.hr/native/parlamentarni-izbori-2020-uzivo-uz-telegram/">
+    <a class="izbori-widget" href="https://www.telegram.hr/parlamentarni-izbori-2020">
         <div class="nadnaslov">Uživo</div>
         <div class="naslov">Preliminarni rezultati izbora</div>
-        <div class="podnaslov">Ažurirano prije <?php echo $results["age"]; ?> minuta. <u><a href="https://www.telegram.hr/parlamentarni-izbori-2020">Pratite detaljnije na našem specijalu.</a></u></div>
+        <div class="podnaslov">Ažurirano u <?php echo $results["age"]; ?> h. <u>Pratite detaljnije na našem specijalu.</u></div>
         <div class="flex full">
             <div class="eighty flex">
                 <?php
@@ -61,7 +61,15 @@ public function widget( $args, $instance ) {
                         "petrina" => array(
                             "lider" => 'Stipe Petrina',
                             "ime" => 'NL Stipe Petrina'
-                        )
+                        ),
+                        'hns' => [
+                                'lider' => 'Predrag Štromar',
+                            'ime' => 'HNS'
+                        ],
+                        '365' => [
+                                'lider' => 'Milan Bandić',
+                            'ime' => '365 - RIS'
+                        ]
                     );
                     foreach ($results["total"] as $key => $value) {
                         ?>
