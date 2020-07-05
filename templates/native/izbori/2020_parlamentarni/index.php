@@ -14,7 +14,7 @@ $opisi_izbornih = array(
     7 => 'VII. izborna jedinica obuhvaća jugozapadni dio Zagrebačke županije, Karlovačku županiju, istočni dio Primorsko-goranske županije i južni dio Grada Zagreba.',
     8 => 'VIII. izborna jedinica obuhvaća područje Istarske županije i zapadni dio Primorsko-goranske županije.',
     9 => 'IX. izborna jedinica obuhvaća Ličko-senjsku županiju, Zadarsku županiju, Šibensko-kninsku županiju i sjeverni dio Splitsko-dalmatinske županije.',
-    10 => 'X. izborna jedinica obuhvaća južni dio Splitsko-dalmatinske županije i Dubrovačko-neretvansku županiju'
+    10 => 'X. izborna jedinica obuhvaća južni dio Splitsko-dalmatinske županije i Dubrovačko-neretvansku županiju.'
 );
 $results = get_option('tmg_izbori_2020_total');
 $map = [

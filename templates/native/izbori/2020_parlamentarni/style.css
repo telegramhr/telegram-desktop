@@ -34,6 +34,8 @@ h1 {
     font-size: 150px;
     line-height: 130px;
     margin-bottom: 16px;
+    text-align: left;
+    text-transform: none;
 }
 h2 {
     font-family: neuzeit-grotesk, sans-serif;
@@ -64,6 +66,8 @@ h4 {
     font-weight: 400;
     font-style: italic;
     font-size: 24px;
+    text-align: left;
+    text-transform: none;
 }
 .header-logos {
     position: absolute;
@@ -206,6 +210,9 @@ h4 {
 }
 .reformisti div::before, .result-line .reformisti::before {
     background-color: #e89319;
+}
+.hns div::before, .result-line .hns::before {
+    background-color: rgb(186, 97, 0);
 }
 .kerum div::before, .result-line .kerum::before {
     background-color: #2ae8cf;

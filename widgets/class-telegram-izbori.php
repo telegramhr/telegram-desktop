@@ -230,7 +230,7 @@ public function widget( $args, $instance ) {
         padding: 0px 24px;
     }
     @media screen and (max-width: 1023px) {
-        .izbori-widget {
+        body.home .izbori-widget {
             background-color: black;
             color: white;
         }
