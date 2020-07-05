@@ -222,6 +222,9 @@ public function widget( $args, $instance ) {
     .izbori-widget .simp::before {
         background-color: #9e47ff;
     }
+    .izbori-widget .hns::before {
+        background-color: rgb(186, 97, 0);
+    }
     .izbori-widget .hrvatska-izborne {
         fill: #999999;
         width: 100%;

@@ -100,7 +100,7 @@ ksort($map);
 <body>
 <div id="notification">Dogodila se greška pri dohvaćanju novih podataka. Telegram će pokušati opet za 15 sekundi, a do tada će na stranici ostati postojeći rezultati.</div>
 <div class="main-container flex">
-    <div class="hero full flex relative" style="background-image: url('<?php echo $native_path ?>img/glave.jpg');">
+    <div class="hero full flex relative" style="background-image: url('<?php echo $native_path ?>img/glave_new.jpg');">
         <a href="https://telegram.hr/" class="header-logos center full">
             <img src="<?php echo $native_path ?>img/telegram_logo.svg" alt="Telegram Logo">
         </a>
@@ -265,22 +265,24 @@ ksort($map);
 </div>
 <style>
     <?php
-        for ($i=1; $i < 11; $i++) { 
-           echo '.main-karta #izborna_x5F_'.$i.' path, .karta-'.$i.' #izborna_x5F_'.$i.' path {
-               position: relative; z-index: 2; ';
-            if ($results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["restart"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["hdz"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] > 0) {
-                echo 'fill: #35a843 !important;';
-            }
-            else if ($results[$i]['party']["restart"]["mandati"] > $results[$i]['party']["hdz"]["mandati"]) {
-                echo 'fill: #a8353b !important;';
-            }
-            else if ($results[$i]['party']["hdz"]["mandati"] > $results[$i]['party']["restart"]["mandati"]) {
-                echo 'fill: #3550a8 !important;';
-            }
-            else if ($results[$i]['party']["hdz"]["mandati"] == $results[$i]['party']["restart"]["mandati"]) {
-                echo 'fill: purple !important;';
-            }
-            echo '}';
+        if ($results['dip']) {
+            for ($i=1; $i < 11; $i++) { 
+                echo '.main-karta #izborna_x5F_'.$i.' path, .karta-'.$i.' #izborna_x5F_'.$i.' path {
+                    position: relative; z-index: 2; ';
+                 if ($results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["restart"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["hdz"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] > 0) {
+                     echo 'fill: #35a843 !important;';
+                 }
+                 else if ($results[$i]['party']["restart"]["mandati"] > $results[$i]['party']["hdz"]["mandati"]) {
+                     echo 'fill: #a8353b !important;';
+                 }
+                 else if ($results[$i]['party']["hdz"]["mandati"] > $results[$i]['party']["restart"]["mandati"]) {
+                     echo 'fill: #3550a8 !important;';
+                 }
+                 else if ($results[$i]['party']["hdz"]["mandati"] == $results[$i]['party']["restart"]["mandati"]) {
+                     echo 'fill: purple !important;';
+                 }
+                 echo '}';
+             }
         }
     ?>
 </style>
