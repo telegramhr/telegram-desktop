@@ -61,15 +61,7 @@ public function widget( $args, $instance ) {
                         "petrina" => array(
                             "lider" => 'Stipe Petrina',
                             "ime" => 'NL Stipe Petrina'
-                        ),
-                        'hns' => [
-                                'lider' => 'Predrag Štromar',
-                            'ime' => 'HNS'
-                        ],
-                        '365' => [
-                                'lider' => 'Milan Bandić',
-                            'ime' => '365 - RIS'
-                        ]
+                        )
                     );
                     foreach ($results["total"] as $key => $value) {
                         ?>
