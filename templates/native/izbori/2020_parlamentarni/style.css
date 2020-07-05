@@ -355,4 +355,11 @@ h4 {
     .result-table .row div:nth-child(4) {
         width: 4.99%;
     }
+    .izborne-jedinice > .half {
+        padding-right: 0px;
+    }
+    .izborne-jedinice .half:nth-child(2n) {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
