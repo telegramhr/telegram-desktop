@@ -3,8 +3,8 @@
 // Initialize WOW.js animations
 jQuery(document).ready( function() {
     new WOW().init();
-    var myVar = setInterval(myTimer, 1000);
-    var counter = 5;
+    //var myVar = setInterval(myTimer, 1000);
+    var counter = 60;
     var stranke = ['restart', 'hdz', 'domovinski', 'most', 'mozemo', 'reformisti', 'simp', 'petrina', 'kerum', 'dosta', 'hns', '365'];
 
     function updateData(data) {
@@ -44,7 +44,7 @@ jQuery(document).ready( function() {
         if (counter == 0) {
             var ispis = '<img src="https://www.telegram.hr/wp-content/uploads/2020/07/loader_circle.gif">Pokušavamo ažurirati podatke.';
             document.getElementById("data-refresh").innerHTML = ispis;
-            counter = 15;
+            counter = 60;
             $.ajax({
                 type: 'GET',
                 url: 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/izbori/2020_parlamentarni/data/',

@@ -95,6 +95,7 @@ ksort($map);
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js?v=14"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ere5mls.css">
+    <meta http-equiv="refresh" content="300">
 </head>
 <body>
 <div id="notification">Dogodila se greška pri dohvaćanju novih podataka. Telegram će pokušati opet za 15 sekundi, a do tada će na stranici ostati postojeći rezultati.</div>
