@@ -2,7 +2,7 @@
 <html lang="hr">
 
 <?php
-$native_path = get_stylesheet_directory_uri() . '/templates/native/izbori/2020_parlamentarni/';
+$native_path =  'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/izbori/2020_parlamentarni/';
 
 $opisi_izbornih = array(
     1 => 'I. izborna jedinica obuhvaća sjeverozapadni dio Zagrebačke županije te dio centra i zapada Grada Zagreba.',
