@@ -25,7 +25,7 @@ $map = [
 	],
 	20 => [
 		'alt' => 'HDZ - Andrej Plenković',
-		'title' => 'Hrvatska demokratska zajednica',
+		'title' => 'HDZ',
 		'class' => 'hdz'
 	],
 	19 => [
@@ -55,7 +55,7 @@ $map = [
 	],
     12 => [
         'alt' => '',
-        'title' => 'Hrvatska Narodna Stranka',
+        'title' => 'HNS',
         'class' => 'hns'
     ],
 	11 => [
