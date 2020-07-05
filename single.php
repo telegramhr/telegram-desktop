@@ -8,6 +8,14 @@ if( have_posts() ) {
         ?>
 
 <div class="single-page container">
+	<?php
+	if (get_current_user_id() === 1) {
+		the_widget('Telegram_Izbori');
+	}
+	else {
+		the_widget('Telegram_Top_Vijesti');
+	}
+	?>
     <div class="single-head">
 
         <h3 class="overtitle"><?php
