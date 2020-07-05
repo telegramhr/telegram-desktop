@@ -54,7 +54,7 @@ $map = [
 		'class' => 'kerum'
 	],
     12 => [
-        'alt' => '',
+        'alt' => 'HNS - Predrag Štromar',
         'title' => 'HNS',
         'class' => 'hns'
     ],
@@ -69,7 +69,7 @@ $map = [
 		'class' => 'reformisti'
 	],
     17 => [
-            'alt' => '',
+            'alt' => '365 - Milan Bandić',
             'class' => 365,
         'title' => '365 - Stranka Rada i Solidarnosti'
     ],
@@ -92,7 +92,7 @@ ksort($map);
     <?php wp_head(); ?>
     <script src="<?php echo get_stylesheet_directory_uri() . '/assets/js/wow/wow.min.js' ?>"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=2.0" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js?v=14"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ere5mls.css">
     <meta http-equiv="refresh" content="300">
