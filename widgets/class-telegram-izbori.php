@@ -11,98 +11,108 @@ public function __construct() {
 
 public function widget( $args, $instance ) {
 
-	$results = get_option('tmg_izbori_2020_total');
+$results = json_decode(file_get_contents('http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/data/'), 1);
+
 ?>
-<div class="container">
-    <div class="izbori-widget">
+<div class="izbori-widget-parent">
+    <a class="izbori-widget" href="http://staging.telegram.hr/native/parlamentarni-izbori-2020-uzivo-uz-telegram/">
         <div class="nadnaslov">Uživo</div>
         <div class="naslov">Preliminarni rezultati izbora</div>
-        <div class="podnaslov">Ažurirano u <?php echo $results["age"]; ?>h. <u>Pratite detaljnije na našem <a href="https://www.telegram.hr/parlamentarni-izbori-2020/">specijalu.</a></u></div>
-    </div>
-    <div class="flex">
-        <div class="eighty">
-            <?php
-                $detalji_stranke = array(
-                    "restart" => array(
-                        "lider" => 'Davor Bernardić',
-                        "ime" => 'Restart'
-                    ),
-                    "hdz" => array(
-                        "lider" => 'Andrej Plenković',
-                        "ime" => 'HDZ'
-                    ),
-                    "domovinski" => array(
-                        "lider" => 'Miroslav Škoro',
-                        "ime" => 'Domovinski pokret'
-                    ),
-                    "most" => array(
-                        "lider" => 'Božo Petrov',
-                        "ime" => 'MOST'
-                    ),
-                    "mozemo" => array(
-                        "lider" => 'Tomislav Tomašević',
-                        "ime" => 'Lijevo-zelena'
-                    ),
-                    "simp" => array(
-                        "lider" => 'Dalija Orešković',
-                        "ime" => 'Pam./Fok./SSIP'
-                    ),
-                    "dosta" => array(
-                        "lider" => 'Ivan Vilibor Sinčić',
-                        "ime" => 'Dosta Pljačke'
-                    ),
-                    "reformisti" => array(
-                        "lider" => 'Radimir Čačić',
-                        "ime" => 'NS Reformisti'
-                    ),
-                    "kerum" => array(
-                        "lider" => 'Željko Kerum',
-                        "ime" => 'HGS'
-                    ),
-                    "petrina" => array(
-                        "lider" => 'Stipe Petrina',
-                        "ime" => 'NL Stipe Petrina'
-                    ),
-                    'hns' => [
-                        'lider' => 'Predrag Štromar',
-                        'ime' => 'HNS'
-                    ],
-                    '365' => [
-                            'lider' => 'Milan Bandić',
-                        'ime' => '365 - RIS'
-                    ]
-                );
-                foreach ($results["total"] as $key => $value) {
-                    ?>
-                        <div class="fourth <?php echo $key ?>" style="order: <?php echo (100-$value["mandati"]).';'; if ($value["mandati"] > 0) { echo ' display: flex;'; } ?>">
-                            <img src="http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/img/lider_<?php echo $key ?>.gif" alt="<?php echo $detalji_stranke[$key]['ime'].' - '.$detalji_stranke[$key]['lider'] ?>">
-                            <div class="stranka"><?php echo $detalji_stranke[$key]['ime'] ?></div>
-                            <div class="mandati"><?php echo $value["mandati"] ?></div>
-                        </div>
-                    <?php
-                }
-            ?>
+        <div class="podnaslov">Ažurirano prije <?php echo $results["age"]; ?> minuta. <u>Pratite detaljnije na našem specijalu.</u></div>
+        <div class="flex full">
+            <div class="eighty flex">
+                <?php
+                    $detalji_stranke = array(
+                        "restart" => array(
+                            "lider" => 'Davor Bernardić',
+                            "ime" => 'Restart'
+                        ),
+                        "hdz" => array(
+                            "lider" => 'Andrej Plenković',
+                            "ime" => 'HDZ'
+                        ),
+                        "domovinski" => array(
+                            "lider" => 'Miroslav Škoro',
+                            "ime" => 'Domovinski pokret'
+                        ),
+                        "most" => array(
+                            "lider" => 'Božo Petrov',
+                            "ime" => 'MOST'
+                        ),
+                        "mozemo" => array(
+                            "lider" => 'Tomislav Tomašević',
+                            "ime" => 'Lijevo-zelena'
+                        ),
+                        "simp" => array(
+                            "lider" => 'Dalija Orešković',
+                            "ime" => 'Pam./Fok./SSIP'
+                        ),
+                        "dosta" => array(
+                            "lider" => 'Ivan Vilibor Sinčić',
+                            "ime" => 'Dosta Pljačke'
+                        ),
+                        "reformisti" => array(
+                            "lider" => 'Radimir Čačić',
+                            "ime" => 'NS Reformisti'
+                        ),
+                        "kerum" => array(
+                            "lider" => 'Željko Kerum',
+                            "ime" => 'HGS'
+                        ),
+                        "petrina" => array(
+                            "lider" => 'Stipe Petrina',
+                            "ime" => 'NL Stipe Petrina'
+                        )
+                    );
+                    foreach ($results["total"] as $key => $value) {
+                        echo '
+                            <div class="flex fourth '.$key.'" style="order: '.(100-$value["mandati"]).';'; if ($value["mandati"] > 0) { echo ' display: flex;'; } echo' ">
+                                <img src="http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/img/lider_'.$key.'.gif" alt="'.$detalji_stranke[$key]['ime'].' - '.$detalji_stranke[$key]['lider'].'">
+                                <div class="full stranka">'.$detalji_stranke[$key]['ime'].'</div>
+                                <div class="full mandati">'.$value["mandati"].'</div>
+                            </div>
+                        ';
+                    }
+                ?>
+            </div>
+            <div class="twenty flex">
+                <?php echo file_get_contents('http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/img/hrvatska.svg'); ?>
+            </div>
         </div>
-        <div class="twenty">
-            <?php echo file_get_contents('http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/img/hrvatska.svg'); ?>
-        </div>
-    </div>
+    </a>
 </div>
 <style>
     .izbori-widget {
-        border-bottom: 3px solid white;
         font-family: fjalla one cro,Impact,sans-serif;
+        z-index: 10;
+        color: black;
+        position: relative;
+        padding-top: 32px;
+        margin-bottom: 16px;
+        display: block;
+    }
+    .home-top-container .izbori-widget-parent {
+        width: 1230px;
+        padding: 0 15px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .home-top-container .izbori-widget {
         color: white;
+        border-bottom: 2px solid white;
     }
     .izbori-widget .nadnaslov {
         width: 100px;
         height: 30px;
         font-size: 18px;
+        color: white;
         letter-spacing: 2px;
         background-color: #e5143e;
         text-align: center;
         margin: 0 auto;
-    }¸
+        text-transform: uppercase;
+        padding-top: 5px;
+    }
     .izbori-widget .naslov {
         width: 100%;
         font-size: 48px;
@@ -115,10 +125,16 @@ public function widget( $args, $instance ) {
         opacity: 0.5;
         width: 100%;
         text-align: center;
-        margin-bottom: 24px;
+        margin-bottom: 48px;
     }
     .izbori-widget .flex {
         display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    .izbori-widget .full {
         width: 100%;
     }
     .izbori-widget .eighty {
@@ -129,65 +145,82 @@ public function widget( $args, $instance ) {
     }
     .izbori-widget .fourth {
         width: 24.99%;
-        padding-left: 130px;
+        padding-left: 110px;
         padding-bottom: 32px;
         position: relative;
     }
     .izbori-widget .fourth img {
-        left: 17px;
+        left: 20px;
         top: 0px;
-        width: 96px;
-        height: 96px;
+        width: 72px;
+        height: 72px;
         object-fit: contain;
         border-radius: 48px;
+        position: absolute;
+        filter: grayscale(100);
+        z-index: 10;
+    }
+    .izbori-widget .fourth::before {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        width: 72px;
+        height: 72px;
+        border-radius: 48px;
+        z-index: 7;
     }
     .izbori-widget .fourth .stranka {
         font-family: pt sans,arial,helvetica,sans-serif;
-        font-size: 18px;
+        font-size: 14px;
+        height: 14px;
+        overflow: show;
         opacity: 0.5;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
     }
     .izbori-widget .fourth .mandati {
-        font-size: 72px;
+        height: 50px;
+        font-size: 50px;
     }
-    .izbori-widget .eighty .fourth:nth-child(n+9) {
+    .izbori-widget .fourth:nth-child(n+6) {
         display: none;
     }
-    .restart img {
+    .izbori-widget .restart::before {
         background-color: #a8353b;
     }
-    .hdz img {
+    .izbori-widget .hdz::before {
         background-color: #3550a8;
     }
-    .domovinski img {
+    .izbori-widget .domovinski::before {
         background-color: #444760;
     }
-    .most img {
+    .izbori-widget .most::before {
         background-color: #358ea8;
     }
-    .mozemo img {
+    .izbori-widget .mozemo::before {
         background-color: #35a843;
     }
-    .dosta img {
+    .izbori-widget .dosta::before {
         background-color: #e8d63d;
     }
-    .reformisti img {
+    .izbori-widget .reformisti::before {
         background-color: #e89319;
     }
-    .kerum img {
+    .izbori-widget .kerum::before {
         background-color: #2ae8cf;
     }
-    .petrina img {
+    .izbori-widget .petrina::before {
         background-color: #126358;
     }
-    .simp img {
+    .izbori-widget .simp::before {
         background-color: #9e47ff;
     }
-    .hrvatska-izborne {
+    .izbori-widget .hrvatska-izborne {
         fill: #999999;
         width: 100%;
         height: auto;
         object-fit: contain;
+        padding: 0px 24px;
     }
     <?php
         for ($i=1; $i < 9; $i++) { 
