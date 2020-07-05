@@ -290,7 +290,7 @@ ksort($map);
 		global $post;
 		$args = array(
 			'posts_per_page' => 8,
-			'tag' => 'izbori',
+			'tag' => 'izbori2020',
 			'post_type' => ['posts', 'price'],
 			'no_found_rows' => true,
 			'ignore_sticky_posts' => true,
