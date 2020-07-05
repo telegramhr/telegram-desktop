@@ -104,7 +104,6 @@ ksort($map);
     </div>
     <section class="full flex">
         <div class="container flex relative">
-            <?php telegram_debug($results['total']['hdz']) ?>
             <h2 class="full">Preliminarni rezultati</h2>
             <div class="mini-data"><span id="data-counted-total">Prebrojano <?php echo $results["counted"]; ?>% glasova. </span><span id="data-age">Podaci ažurirani u <?php echo $results["age"]; ?>h. </span><span id="data-refresh">Pokušati ćemo ažurirati podatke za 15 sekundi.</span></div>
             <div class="full flex relative">                
