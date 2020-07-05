@@ -86,6 +86,7 @@ ksort($map);
     <script src="<?php echo $native_path ?>functions.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ere5mls.css">
 </head>
+<body>
 <div id="notification">Dogodila se greška pri dohvaćanju novih podataka. Telegram će pokušati opet za 15 sekundi, a do tada će na stranici ostati postojeći rezultati.</div>
 <div class="main-container flex">
     <div class="hero full flex relative" style="background-image: url('<?php echo $native_path ?>img/glave.jpg');">
@@ -103,6 +104,7 @@ ksort($map);
     </div>
     <section class="full flex">
         <div class="container flex relative">
+            <?php telegram_debug($results) ?>
             <h2 class="full">Preliminarni rezultati</h2>
             <div class="mini-data"><span id="data-counted-total">Prebrojano <?php echo $results["counted"]; ?>% glasova. </span><span id="data-age">Podaci ažurirani u <?php echo $results["age"]; ?>h. </span><span id="data-refresh">Pokušati ćemo ažurirati podatke za 15 sekundi.</span></div>
             <div class="full flex relative">                
@@ -269,6 +271,35 @@ ksort($map);
         }
     ?>
 </style>
+
+<div class="tg-widget tg-ne-propusti">
+    <div class="tg-widget-head big-title">
+        Ostanite uz telegramov program
+    </div>
+    <div class="tg-widget-body flex">
+		<?php
+		global $post;
+		$args = array(
+			'posts_per_page' => 8,
+			'tag' => 'izbori',
+			'post_type' => ['posts', 'price'],
+			'no_found_rows' => true,
+			'ignore_sticky_posts' => true,
+			'post_status' => 'publish'
+		);
+		$q = new WP_Query($args);
+		while($q->have_posts()) {
+			$q->the_post();
+			get_template_part('templates/articles/article-fourth');
+		}
+		wp_reset_postdata();
+
+		?>
+
+    </div>
+    <!--<a class="btn load-more">Još Telegrama</a>-->
+</div>
+
 <?php wp_footer(); ?>
 </body>
 
