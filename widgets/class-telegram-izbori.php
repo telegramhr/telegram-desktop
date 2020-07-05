@@ -285,7 +285,7 @@ public function widget( $args, $instance ) {
     ?>
     <?php
         for ($i=1; $i < 11; $i++) {
-           echo '#Layer1_'.$i.'_MEMBER_0_FILL {';
+           echo '#izborna_x5F_'.$i.' path {';
             if ($results[$i]['party']["restart"]["mandati"] > $results[$i]['party']["hdz"]["mandati"]) {
                 echo 'fill: #a8353b !important;';
             }
