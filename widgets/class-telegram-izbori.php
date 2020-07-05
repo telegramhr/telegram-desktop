@@ -11,12 +11,13 @@ public function __construct() {
 
 public function widget( $args, $instance ) {
 
-	$results = get_option('tmg_izbori_2020_total');
+    $results = get_option('tmg_izbori_2020_total');
+    //$results = json_decode(file_get_contents('http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/dummy_data/'), 1);
 ?>
 <div class="izbori-widget-parent">
     <a class="izbori-widget" href="https://www.telegram.hr/parlamentarni-izbori-2020">
         <div class="nadnaslov">Uživo</div>
-        <div class="naslov">Preliminarni rezultati izbora</div>
+        <div class="naslov"><?php echo $results['dip']?'Uživo: rezultati izbora':'Izlazne ankete' ?></div>
         <div class="podnaslov">Ažurirano u <?php echo $results["age"]; ?> h. <u>Pratite detaljnije na našem specijalu.</u></div>
         <div class="flex full">
             <div class="eighty flex">
@@ -181,7 +182,6 @@ public function widget( $args, $instance ) {
         font-family: pt sans,arial,helvetica,sans-serif;
         font-size: 14px;
         height: 14px;
-        overflow: show;
         opacity: 0.5;
         margin-bottom: 4px;
     }
@@ -228,6 +228,48 @@ public function widget( $args, $instance ) {
         height: auto;
         object-fit: contain;
         padding: 0px 24px;
+    }
+    @media screen and (max-width: 1023px) {
+        .izbori-widget {
+            background-color: black;
+            color: white;
+        }
+        .izbori-widget .eighty {
+            width: 100%;
+        }
+        .izbori-widget .twenty {
+            display: none;
+        }
+        .izbori-widget .fourth {
+            width: 49.99%;
+            padding-left: 72px;
+            padding-bottom: 20px;
+        }
+        .izbori-widget .fourth img, .izbori-widget .fourth:before  {
+            width: 50px;
+            height: 50px;
+            left: 12px;
+        }
+        .izbori-widget .naslov {
+            width: auto;
+            font-size: 32px;
+        }
+        .izbori-widget .podnaslov {
+            margin-bottom: 24px;
+        }
+        .izbori-widget .fourth .stranka {
+            height: auto;
+            font-size: 13px;
+            margin-bottom: 0px;
+        }
+        .izbori-widget .fourth .mandati {
+            height: 30px;
+            font-size: 30px;
+        }
+        .izbori-widget .hrvatska-izborne {
+            width: 50%;
+            margin: 0 auto;
+        }
     }
     <?php
         for ($i=1; $i < 9; $i++) { 
