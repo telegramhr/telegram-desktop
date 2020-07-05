@@ -268,7 +268,7 @@ ksort($map);
         for ($i=1; $i < 11; $i++) { 
            echo '.main-karta #izborna_x5F_'.$i.' path, .karta-'.$i.' #izborna_x5F_'.$i.' path {
                position: relative; z-index: 2; ';
-            if ($results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["restart"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["hdz"]["mandati"]) {
+            if ($results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["restart"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["hdz"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] > 0) {
                 echo 'fill: #35a843 !important;';
             }
             else if ($results[$i]['party']["restart"]["mandati"] > $results[$i]['party']["hdz"]["mandati"]) {
