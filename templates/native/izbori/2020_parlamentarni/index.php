@@ -300,14 +300,15 @@ ksort($map);
 		$q = new WP_Query($args);
 		while($q->have_posts()) {
 			$q->the_post();
-			get_template_part('templates/articles/article-fourth');
+			if ( wp_is_mobile() ) {
+				get_template_part('templates/articles/article-1');
+			} else {
+				get_template_part('templates/articles/article-fourth');
+			}
 		}
 		wp_reset_postdata();
-
 		?>
-
     </div>
-    <!--<a class="btn load-more">Još Telegrama</a>-->
 </div>
 
 <?php wp_footer(); ?>
