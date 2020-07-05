@@ -93,7 +93,7 @@ ksort($map);
     <script src="<?php echo get_stylesheet_directory_uri() . '/assets/js/wow/wow.min.js' ?>"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css" type="text/css" />
-    <script src="<?php echo $native_path ?>functions.js"></script>
+    <script src="<?php echo $native_path ?>functions.js?v=14"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ere5mls.css">
 </head>
 <body>

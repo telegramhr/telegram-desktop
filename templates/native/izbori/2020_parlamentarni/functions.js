@@ -5,7 +5,7 @@ jQuery(document).ready( function() {
     new WOW().init();
     var myVar = setInterval(myTimer, 1000);
     var counter = 5;
-    var stranke = ['restart', 'hdz', 'domovinski', 'most', 'mozemo', 'reformisti', 'simp', 'petrina', 'kerum', 'dosta'];
+    var stranke = ['restart', 'hdz', 'domovinski', 'most', 'mozemo', 'reformisti', 'simp', 'petrina', 'kerum', 'dosta', 'hns', '365'];
 
     function updateData(data) {
         var data_object = JSON.parse(data);
