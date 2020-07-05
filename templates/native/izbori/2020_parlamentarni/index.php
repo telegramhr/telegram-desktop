@@ -4,8 +4,76 @@
 <?php
 $native_path = get_stylesheet_directory_uri() . '/templates/native/izbori/2020_parlamentarni/';
 
+$opisi_izbornih = array(
+    1 => 'I. izborna jedinica obuhvaća sjeverozapadni dio Zagrebačke županije te dio centra i zapada Grada Zagreba.',
+    2 => 'II. izborna jedinica obuhvaća istočni dio Zagrebačke županije, Koprivničko-križevačku županiju, Bjelovarsko-bilogorsku županiju i istočni dio Grada Zagreba.',
+    3 => 'III. izborna jedinica obuhvaća Krapinsko-zagorsku županiju, Varaždinsku županiju i Međimursku županiju.',
+    4 => 'IV. izborna jedinica obuhvaća Virovitičko-podravsku županiju i Osječko-baranjsku županiju.',
+    5 => 'V. izborna jedinica obuhvaća Požeško-slavonsku županiju, Brodsko-posavsku županiju i Vukovarsko-srijemsku županiju.',
+    6 => 'VI. izborna jedinica obuhvaća jugoistočni dio Zagrebačke županije, Sisačko-moslavačku županiju i jugoistočni dio Grada Zagreba.',
+    7 => 'VII. izborna jedinica obuhvaća jugozapadni dio Zagrebačke županije, Karlovačku županiju, istočni dio Primorsko-goranske županije i južni dio Grada Zagreba.',
+    8 => 'VIII. izborna jedinica obuhvaća područje Istarske županije i zapadni dio Primorsko-goranske županije.',
+    9 => 'IX. izborna jedinica obuhvaća Ličko-senjsku županiju, Zadarsku županiju, Šibensko-kninsku županiju i sjeverni dio Splitsko-dalmatinske županije.',
+    10 => 'X. izborna jedinica obuhvaća južni dio Splitsko-dalmatinske županije i Dubrovačko-neretvansku županiju'
+);
+$results = get_option('tmg_izbori_2020_total');
+$map = [
+	1 => [
+		'alt' => 'RESTART - Davor Bernardić',
+		'title' => 'Restart koalicija',
+        'class' => 'restart'
+	],
+	20 => [
+		'alt' => 'HDZ - Andrej Plenković',
+		'title' => 'Hrvatska demokratska zajednica',
+		'class' => 'hdz'
+	],
+	19 => [
+		'alt' => 'Domovinski pokret - Miroslav Škoro',
+		'title' => 'Domovinski pokret',
+		'class' => 'domovinski'
+	],
+	2 => [
+		'alt' => 'Možemo - Tomislav Tomašević',
+		'title' => 'Možemo!',
+		'class' => 'mozemo'
+	],
+	15 => [
+		'alt' => 'Nezavisna lista Stipe Petrina',
+		'title' => 'Nezavisna lista Stipe Petrina',
+		'class' => 'petrina'
+	],
+	7 => [
+		'alt' => 'SSIP - Dalija Orešković',
+		'title' => 'Pametno / Fokus / SSIP',
+		'class' => 'simp'
+	],
+	16 => [
+		'alt' => 'HGS - Željko Kerum',
+		'title' => 'HGS',
+		'class' => 'kerum'
+	],
+	11 => [
+		'alt' => 'Dosta Pljačke - Vilibor Sinčić',
+		'title' => 'Dosta pljačke koalicija',
+		'class' => 'dosta'
+	],
+	9 => [
+		'alt' => 'Narodna stranka reformisti - Radimir Čačić',
+		'title' => 'Narodna stranka - Reformisti',
+		'class' => 'reformisti'
+	],
+	18 => [
+		'alt' => 'MOST - Božo Petrov',
+		'title' => 'MOST',
+		'class' => 'most'
+	],
+    10 => [
+            'class' => 'manjine'
+    ]
+];
 
-$results = json_decode(file_get_contents($native_path.'/data/'), 1);
+ksort($map);
 ?>
 
 <head>
@@ -36,24 +104,24 @@ $results = json_decode(file_get_contents($native_path.'/data/'), 1);
     <section class="full flex">
         <div class="container flex relative">
             <h2 class="full">Preliminarni rezultati</h2>
-            <div id="refresh-counter">Podaci ažurirani prije 0 minuta. Pokušati ćemo ažurirati podatke za 15 sekundi.</div>
+            <div class="mini-data"><span id="data-counted-total">Prebrojano <?php echo $results["counted"]; ?>% glasova. </span><span id="data-age">Podaci ažurirani u <?php echo $results["age"]; ?>h. </span><span id="data-refresh">Pokušati ćemo ažurirati podatke za 15 sekundi.</span></div>
             <div class="full flex relative">                
                 <div class="restart-line"><span><?php echo round($results["total"]["restart"]["mandati"]); ?></span> Restart</div>
                 <div class="hdz-line">HDZ <span><?php echo round($results["total"]["hdz"]["mandati"]); ?></span></div>
             </div>
             <div class="result-line full flex">
                 <div class="slaganje-vlade"></div>
-                <div class="restart animate" style="width: <?php echo round($results["total"]["restart"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="mozemo animate" style="width: <?php echo round($results["total"]["mozemo"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="dosta animate" style="width: <?php echo round($results["total"]["dosta"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="simp animate" style="width: <?php echo round($results["total"]["simp"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="reformisti animate" style="width: <?php echo round($results["total"]["reformisti"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="manjine animate" style="width: 5.3%;"></div>
-                <div class="petrina animate" style="width: <?php echo round($results["total"]["petrina"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="kerum animate" style="width: <?php echo round($results["total"]["kerum"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="most animate" style="width: <?php echo round($results["total"]["most"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="domovinski animate" style="width: <?php echo round($results["total"]["domovinski"]["mandati"]/151, 4)*100; ?>%;"></div>
-                <div class="hdz animate" style="width: <?php echo round($results["total"]["hdz"]["mandati"]/151, 4)*100; ?>%;"></div>
+                <?php foreach($map as $party) {
+                    if ($party['class'] == 'manjine') {
+                        ?><div class="manjine animate" style="width: 5.3%;"></div><?php
+                    }
+                    if (!$results["total"][$party['class']]["mandati"]) {
+	                    continue;
+                    }
+                    ?>
+                <div class="<?php echo $party['class'] ?> animate" style="width: <?php echo round($results["total"][$party['class']]["mandati"]/151, 4)*100; ?>%;"></div>
+                <?php
+                } ?>
             </div>
             <div class="full result-line-text center-text">76 mandata za većinu</div>
             <div class="full flex">
@@ -64,67 +132,19 @@ $results = json_decode(file_get_contents($native_path.'/data/'), 1);
                         <div>Glasova</div>
                         <div></div>
                     </div>
-                    <div class="full row flex restart animate" style="order: <?php echo 100-$results["total"]["restart"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_restart.gif" alt="RESTART - Davor Bernardić">Restart koalicija</div>
-                        <div class="mandati"><?php echo $results["total"]["restart"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["restart"]["postotak"];?>%</div>
+                    <?php foreach ($map as $party) {
+	                    if (!$results["total"][$party['class']]["mandati"]) {
+		                    continue;
+	                    }
+                        ?>
+                    <div class="full row flex <?php echo $party['class'] ?> animate" style="order: <?php echo 100-$results["total"][$party['class']]["mandati"]; ?>">
+                        <div><img src="<?php echo $native_path ?>img/lider_<?php echo $party['class'] ?>.gif" alt="<?php echo $party['alt'] ?>"><?php echo $party['title'] ?></div>
+                        <div class="mandati"><?php echo $results["total"][$party['class']]["mandati"];?></div>
+                        <div class="postotak"><?php echo $results["total"][$party['class']]["postotak"];?>%</div>
                         <div></div>
                     </div>
-                    <div class="full row flex hdz animate" style="order: <?php echo 100-$results["total"]["hdz"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_hdz.gif" alt="HDZ - Andrej Plenković">Hrvatska demokratska zajednica</div>
-                        <div class="mandati"><?php echo $results["total"]["hdz"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["hdz"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex domovinski animate" style="order: <?php echo 100-$results["total"]["domovinski"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_domovinski.gif" alt="Domovinski pokret - Miroslav Škoro">Domovinski pokret</div>
-                        <div class="mandati"><?php echo $results["total"]["domovinski"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["domovinski"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex most animate" style="order: <?php echo 100-$results["total"]["most"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_most.gif" alt="MOST - Božo Petrov">MOST</div>
-                        <div class="mandati"><?php echo $results["total"]["most"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["most"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex mozemo animate" style="order: <?php echo 100-$results["total"]["mozemo"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_mozemo.gif" alt="Možemo - Tomislav Tomašević">Lijevo-zelena koalicija</div>
-                        <div class="mandati"><?php echo $results["total"]["mozemo"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["mozemo"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex simp animate" style="order: <?php echo 100-$results["total"]["simp"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_simp.gif" alt="SSIP - Dalija Orešković">Pametno / Fokus / SSIP</div>
-                        <div class="mandati"><?php echo $results["total"]["simp"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["simp"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex dosta animate" style="order: <?php echo 100-$results["total"]["dosta"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_dosta.gif" alt="Dosta Pljačke - Vilibor Sinčić">Dosta pljačke koalicija</div>
-                        <div class="mandati"><?php echo $results["total"]["dosta"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["dosta"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex reformisti animate" style="order: <?php echo 100-$results["total"]["reformisti"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_reformisti.gif" alt="Narodna stranka reformisti - Radimir Čačić">Narodna stranka - Reformisti</div>
-                        <div class="mandati"><?php echo $results["total"]["reformisti"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["reformisti"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex kerum animate" style="order: <?php echo 100-$results["total"]["kerum"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_kerum.gif" alt="HGS - Željko Kerum">HGS</div>
-                        <div class="mandati"><?php echo $results["total"]["kerum"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["kerum"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex petrina animate" style="order: <?php echo 100-$results["total"]["petrina"]["mandati"]; ?>">
-                        <div><img src="<?php echo $native_path ?>img/lider_petrina.gif" alt="Nezavisna lista Stipe Petrina">Nezavisna lista Stipe Petrina</div>
-                        <div class="mandati"><?php echo $results["total"]["petrina"]["mandati"];?></div>
-                        <div class="postotak"><?php echo $results["total"]["petrina"]["postotak"];?>%</div>
-                        <div></div>
-                    </div>
-                    <div class="full row flex manjine animate" style="order: 100;">
+                    <?php } ?>
+                      <div class="full row flex manjine animate" style="order: 100;">
                         <div>Zastupnici manjina</div>
                         <div class="mandati">8</div>
                         <div class="postotak"></div>
@@ -135,92 +155,98 @@ $results = json_decode(file_get_contents($native_path.'/data/'), 1);
                     <?php echo file_get_contents($native_path.'img/karta.svg'); ?>
                 </div>
             </div>
-            <h2 class="full white-space">Po izbornim jedinicama</h2>
+            <h3 class="full white-space">Po izbornim jedinicama</h3>
             <div class="full flex relative izborne-jedinice">
                 <?php 
-                for ($i=1; $i < 11; $i++) { 
-                    echo '
+                for ($i=1; $i < 11; $i++) {
+                    ?>
                     <div class="half flex-responsive flex">
-                        <h3 class="full">'.$i.'. izborna jedinica</h2>
                         <div class="full flex">
-                            <div class="half flex-responsive">
-                            I. izborna jedinica obuhvaća sjeverozapadni dio Zagrebačke županije te dio centra i zapada Grada Zagreba
+                            <div class="two-thirds">
+                            <h4 class="full"><?php echo $i ?>. izborna jedinica</h4>
+                            <div class="full mini-data"><span id="data-counted-<?php echo $i ?>">Prebrojano <?php echo $results[$i]["counted"] ?>% glasova. </span></div>
+                             <?php echo $opisi_izbornih[$i] ?>
                             </div>
-                            <div class="half flex-responsive center karta-'.$i.'">
-                                '.file_get_contents($native_path.'img/karta.svg').'
+                            <div class="third flex-responsive center karta-<?php echo $i ?>">
+                                <?php echo file_get_contents($native_path.'img/karta.svg') ?>
                             </div>
                         </div>
-                        <div class="result-table full flex result-table-'.$i.'">
+                        <div class="result-table full flex result-table-<?php echo $i ?>">
                         <div class="full row flex">
                             <div>Lista</div>
                             <div>Mandata</div>
                             <div>Glasova</div>
                             <div></div>
                         </div>
-                        <div class="full row flex restart animate" style="order: '.(100-$results[$i]["restart"]["mandati"]).'">
-                            <div><img src="'.$native_path .'img/lider_restart.gif" alt="RESTART - Davor Bernardić">Restart koalicija</div>
-                            <div class="mandati">'.$results[$i]["restart"]["mandati"].'</div>
-                            <div class="postotak">'.$results[$i]["restart"]["postotak"].'%</div>
+                            <?php foreach ($results[$i]['party'] as $party => $values) {
+                                ?>
+                        <div class="full row flex <?php echo $party ?> animate" style="order: <?php echo (100-$values["mandati"]) ?>">
+                            <div>
+	                            <?php
+	                            $neededObject = array_filter(
+		                            $map,
+		                            function ($e) use (&$party) {
+			                            return $e['class'] == $party;
+		                            }
+	                            );
+
+	                            if (sizeof($neededObject)) {
+		                            $neededObject = array_pop($neededObject);
+		                            ?>
+                                    <img src="<?php echo $native_path .'img/lider_'.$party.'.gif' ?>" alt="<?php echo $neededObject['alt'] ?>"><?php echo $neededObject['title'] ?>
+	                            <?php } else {
+		                            echo $party;
+	                            }?>
+                            </div>
+                            <div class="mandati"><?php echo $values["mandati"] ?></div>
+                            <div class="postotak"><?php echo $values["postotak"] ?>%</div>
                             <div></div>
                         </div>
-                        <div class="full row flex hdz animate" style="order: '.(100-$results[$i]["hdz"]["mandati"]).'">
-                            <div><img src="'.$native_path .'img/lider_hdz.gif" alt="HDZ - Andrej Plenković">Hrvatska demokratska zajednica</div>
-                            <div class="mandati">'.$results[$i]["hdz"]["mandati"].'</div>
-                            <div class="postotak">'.$results[$i]["hdz"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex domovinski animate" style="order: '.(100-$results[$i]["domovinski"]["mandati"]).'">
-                            <div><img src="'.$native_path .'img/lider_domovinski.gif" alt="Domovinski pokret - Miroslav Škoro">Domovinski pokret</div>
-                            <div class="mandati">'.$results[$i]["domovinski"]["mandati"].'</div>
-                            <div class="postotak">'.$results[$i]["domovinski"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex most animate" style="order: '.(100-$results[$i]["most"]["mandati"]).'">
-                            <div><img src="'.$native_path .'img/lider_most.gif" alt="MOST - Božo Petrov">MOST</div>
-                            <div class="mandati">'.$results[$i]["most"]["mandati"].'</div>
-                            <div class="postotak">'.$results[$i]["most"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex mozemo animate" style="order: '.(100-$results[$i]["mozemo"]["mandati"]).';">
-                            <div><img src="'.$native_path .'img/lider_mozemo.gif" alt="Možemo - Tomislav Tomašević">Lijevo-zelena koalicija</div>
-                            <div class="mandati">'.$results[$i]["mozemo"]["mandati"].'</div>
-                            <div class="postotak">'.$results[$i]["mozemo"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex simp animate" style="order: '. (100-$results[$i]["simp"]["mandati"]).';">
-                            <div><img src="'. $native_path .'img/lider_simp.gif" alt="SSIP - Dalija Orešković">Pametno / Fokus / SSIP</div>
-                            <div class="mandati">'. $results[$i]["simp"]["mandati"].'</div>
-                            <div class="postotak">'. $results[$i]["simp"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex dosta animate" style="order: '. (100-$results[$i]["dosta"]["mandati"]).';">
-                            <div><img src="'. $native_path .'img/lider_dosta.gif" alt="Dosta Pljačke - Vilibor Sinčić">Dosta pljačke koalicija</div>
-                            <div class="mandati">'. $results[$i]["dosta"]["mandati"].'</div>
-                            <div class="postotak">'. $results[$i]["dosta"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex reformisti animate" style="order: '. (100-$results[$i]["reformisti"]["mandati"]).';">
-                            <div><img src="'. $native_path .'img/lider_reformisti.gif" alt="Narodna stranka reformisti - Radimir Čačić">Narodna stranka - Reformisti</div>
-                            <div class="mandati">'. $results[$i]["reformisti"]["mandati"].'</div>
-                            <div class="postotak">'. $results[$i]["reformisti"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex kerum animate" style="order: '. (100-$results[$i]["kerum"]["mandati"]).';">
-                            <div><img src="'. $native_path .'img/lider_kerum.gif" alt="HGS - Željko Kerum">HGS</div>
-                            <div class="mandati">'. $results[$i]["kerum"]["mandati"].'</div>
-                            <div class="postotak">'. $results[$i]["kerum"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
-                        <div class="full row flex petrina animate" style="order: '. (100-$results[$i]["petrina"]["mandati"]).';">
-                            <div><img src="'. $native_path .'img/lider_petrina.gif" alt="Nezavisna lista Stipe Petrina">Nezavisna lista Stipe Petrina</div>
-                            <div class="mandati">'. $results[$i]["petrina"]["mandati"].'</div>
-                            <div class="postotak">'. $results[$i]["petrina"]["postotak"].'%</div>
-                            <div></div>
-                        </div>
+                            <?php } ?>
                     </div>
-                </div>';
+                </div><?php
                 }
                 ?>
+                <div class="half flex-responsive flex">
+                    <div class="full flex">
+                        <div class="two-thirds">
+                            <h4 class="full">11. izborna jedinica</h4>
+                            <div class="full mini-data"><span id="data-counted-11">Prebrojano <?php echo $results[11]["counted"] ?>% glasova. </span></div>
+                            XI. izborna jedinica je zasebna izborna jedinica za izbor zastupnika koje biraju hrvatski državljani koji nemaju prebivalište u Republici Hrvatskoj.
+                        </div>
+                    </div>
+                    <div class="result-table full flex result-table-11">
+                        <div class="full row flex">
+                            <div>Lista</div>
+                            <div>Mandata</div>
+                            <div>Glasova</div>
+                            <div></div>
+                        </div>
+			            <?php foreach ($results[11]['party'] as $party => $values) { ?>
+                            <div class="full row flex <?php echo $party ?> animate" style="order: <?php echo (100-$values["mandati"]) ?>">
+                                <div>
+						            <?php
+						            $neededObject = array_filter(
+							            $map,
+							            function ($e) use (&$party) {
+								            return $e['class'] == $party;
+							            }
+						            );
+                                    if (sizeof($neededObject)) {
+                                        $neededObject = array_pop($neededObject);
+                                        ?>
+                                        <img src="<?php echo $native_path .'img/lider_'.$party.'.gif' ?>" alt="<?php echo $neededObject['alt'] ?>"><?php echo $neededObject['title'] ?>
+						            <?php } else {
+							            echo $party;
+						            }?>
+                                </div>
+                                <div class="mandati"><?php echo $values["mandati"] ?></div>
+                                <div class="postotak"><?php echo $values["postotak"] ?>%</div>
+                                <div></div>
+                            </div>
+			            <?php } ?>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

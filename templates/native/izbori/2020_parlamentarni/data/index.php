@@ -1,5 +1,5 @@
 <?php
-
+/*
 $nesigurni_mandati = 30;
 $restart_bonus = round(rand(0,14));
 $hdz_bonus = round(rand(0,14));
@@ -51,9 +51,9 @@ $results["total"]["kerum"] = array(
     "mandati" => round(rand(0,1)),
     "postotak" => round(rand(1,4), 1)
 );
-$results["age"] = round(rand(0,10));
 
 for ($i=1; $i < 11; $i++) { 
+    $results[$i]["counted"] = round(rand(5,95));
     $results[$i]["restart"] = array(
         "mandati" => round(rand(3,6)),
         "postotak" => round(rand(20,40), 1)
@@ -96,6 +96,8 @@ for ($i=1; $i < 11; $i++) {
     );
 }
 
+$results["age"] = round(rand(0,10));
+$results["counted"] = round(rand(5,95));
+*/
+$results = get_option('tmg_izbori_2020_total');
 echo json_encode($results);
-
-?>

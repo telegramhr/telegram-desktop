@@ -9,7 +9,6 @@ jQuery(document).ready( function() {
 
     function updateData(data) {
         var data_object = JSON.parse(data);
-        //console.log(data_object);
         $('.restart-line').html('<span>'+data_object.total.restart.mandati+'</span> Restart');
         $('.hdz-line').html('HDZ <span>'+data_object.total.hdz.mandati+'</span>');
         stranke.forEach(function(item, index, array) {
@@ -28,19 +27,27 @@ jQuery(document).ready( function() {
                 $('.result-table-'+index+' .'+item+' .mandati').html(data_object[index][item].mandati);
                 $('.result-table-'+index+' .'+item+' .postotak').html(data_object[index][item].postotak+'%');
                 $('.result-table-'+index+' .'+item).css('order', 100-data_object[index][item].mandati);
+                var ispis = 'Prebrojano '+data_object[index].counted+'% glasova. ';
+                document.getElementById("data-counted-"+index).innerHTML = ispis;
             }
         })
+        var ispis = 'Prebrojano '+data_object.counted+'% glasova. ';
+        document.getElementById("data-counted-total").innerHTML = ispis;
+        var ispis = 'Podaci ažurirani u '+data_object.age+'h. ';
+        document.getElementById("data-age").innerHTML = ispis;
+        var ispis = 'Pokušati ćemo ažurirati podatke za '+counter+' sekundi.';
+        document.getElementById("data-refresh").innerHTML = ispis;
     }
 
     function myTimer() {
         counter--;
         if (counter == 0) {
             var ispis = '<img src="https://www.telegram.hr/wp-content/uploads/2020/07/loader_circle.gif">Pokušavamo ažurirati podatke.';
-            document.getElementById("refresh-counter").innerHTML = ispis;
+            document.getElementById("data-refresh").innerHTML = ispis;
             counter = 15;
             $.ajax({
                 type: 'GET',
-                url: 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/data/',
+                url: 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/izbori/2020_parlamentarni/data/',
                 success: function(data) {
                     if (data != '') {
                         updateData(data);
@@ -56,8 +63,8 @@ jQuery(document).ready( function() {
             });
         }
         else {
-            var ispis = 'Podaci ažurirani prije 0 minuta. Osviježiti ćemo podatke za '+counter+' sekundi.';
-            document.getElementById("refresh-counter").innerHTML = ispis;
+            var ispis = 'Pokušati ćemo ažurirati podatke za '+counter+' sekundi.';
+            document.getElementById("data-refresh").innerHTML = ispis;
         }
         
     } 
