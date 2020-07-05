@@ -288,11 +288,10 @@ ksort($map);
     </div>
     <div class="tg-widget-body flex">
 		<?php
-		global $post;
 		$args = array(
 			'posts_per_page' => 8,
 			'tag' => 'izbori2020',
-			'post_type' => ['posts', 'price'],
+			'post_type' => ['post', 'price'],
 			'no_found_rows' => true,
 			'ignore_sticky_posts' => true,
 			'post_status' => 'publish'
