@@ -19,6 +19,7 @@ img {
 /* Hero */
 
 .hero {
+    position: relative;
     align-content: flex-end;
     color: white;
     background-color: #aa2222;
@@ -62,6 +63,9 @@ h4 {
 .hero-title {
     padding-top: 7vw;
     background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .hero-title h2 {
     font-family: lora, serif;
