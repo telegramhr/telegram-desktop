@@ -11,8 +11,7 @@ public function __construct() {
 
 public function widget( $args, $instance ) {
 
-$results = json_decode(file_get_contents('http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/data/'), 1);
-
+	$results = get_option('tmg_izbori_2020_total');
 ?>
 <div class="izbori-widget-parent">
     <a class="izbori-widget" href="http://staging.telegram.hr/native/parlamentarni-izbori-2020-uzivo-uz-telegram/">
@@ -65,18 +64,18 @@ $results = json_decode(file_get_contents('http://staging.telegram.hr/wp-content/
                         )
                     );
                     foreach ($results["total"] as $key => $value) {
-                        echo '
-                            <div class="flex fourth '.$key.'" style="order: '.(100-$value["mandati"]).';'; if ($value["mandati"] > 0) { echo ' display: flex;'; } echo' ">
-                                <img src="http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/img/lider_'.$key.'.gif" alt="'.$detalji_stranke[$key]['ime'].' - '.$detalji_stranke[$key]['lider'].'">
-                                <div class="full stranka">'.$detalji_stranke[$key]['ime'].'</div>
-                                <div class="full mandati">'.$value["mandati"].'</div>
+                        ?>
+                            <div class="flex fourth <?php echo $key ?>" style="order: <?php echo (100-$value["mandati"]) . ';'; if ($value["mandati"] > 0) { echo ' display: flex;'; } ?>">
+                                <img src="https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/izbori/2020_parlamentarni/img/lider_<?php echo $key ?>.gif" alt="<?php echo $detalji_stranke[$key]['ime'].' - '.$detalji_stranke[$key]['lider'] ?>">
+                                <div class="full stranka"><?php echo $detalji_stranke[$key]['ime'] ?></div>
+                                <div class="full mandati"><?php echo $value["mandati"] ?></div>
                             </div>
-                        ';
+                        <?php
                     }
                 ?>
             </div>
             <div class="twenty flex">
-                <?php echo file_get_contents('http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/izbori/2020_parlamentarni/img/hrvatska.svg'); ?>
+                <?php echo file_get_contents('https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/izbori/2020_parlamentarni/img/hrvatska.svg'); ?>
             </div>
         </div>
     </a>
