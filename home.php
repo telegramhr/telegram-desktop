@@ -3,12 +3,10 @@ get_header(); ?>
 
 <div class="home-top-container">
     <?php
-    if (get_current_user_id() === 1) {
+
 	    the_widget('Telegram_Izbori');
-    }
-    else {
-	    the_widget('Telegram_Top_Vijesti');
-    }
+	    //the_widget('Telegram_Top_Vijesti');
+
      ?>
 
     <div class="zones container">
