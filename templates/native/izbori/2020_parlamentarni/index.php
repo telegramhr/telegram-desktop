@@ -93,12 +93,11 @@ ksort($map);
     <script src="<?php echo get_stylesheet_directory_uri() . '/assets/js/wow/wow.min.js' ?>"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css?v=6.1" type="text/css" />
-    <script src="<?php echo $native_path ?>functions.js?v=14"></script>
+    <script src="<?php echo $native_path ?>functions.js?v=17"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ere5mls.css">
-    <meta http-equiv="refresh" content="300">
 </head>
 <body>
-<div id="notification">Dogodila se greška pri dohvaćanju novih podataka. Telegram će pokušati opet za 15 sekundi, a do tada će na stranici ostati postojeći rezultati.</div>
+<!--<div id="notification">Dogodila se greška pri dohvaćanju novih podataka. Telegram će pokušati opet za 15 sekundi, a do tada će na stranici ostati postojeći rezultati.</div>-->
 <div class="main-container flex">
     <div class="hero full flex relative" style="background-image: url('<?php echo $native_path ?>img/glave_new.jpg');">
         <a href="https://telegram.hr/" class="header-logos center full">
@@ -116,7 +115,7 @@ ksort($map);
     <section class="full flex">
         <div class="container flex relative">
             <h2 class="full"><?php echo $results['dip']?'Uživo: rezultati izbora':'Izlazne ankete' ?></h2>
-            <div class="mini-data"><span id="data-counted-total">Prebrojano <?php echo $results["counted"]; ?>% glasova. </span><span id="data-age">Podaci ažurirani u <?php echo $results["age"]; ?>h. </span><span id="data-refresh">Pokušati ćemo ažurirati podatke za 15 sekundi.</span></div>
+            <div class="mini-data"><span id="data-counted-total">Prebrojano <?php echo $results["counted"]; ?>% glasova. </span><span id="data-age">Podaci ažurirani u <?php echo $results["age"]; ?>h. </span><!--<span id="data-refresh">Pokušati ćemo ažurirati podatke za 15 sekundi.</span>--></div>
             <div class="full flex relative">                
                 <div class="restart-line"><span><?php echo round($results["total"]["restart"]["mandati"]); ?></span> Restart</div>
                 <div class="hdz-line">HDZ <span><?php echo round($results["total"]["hdz"]["mandati"]); ?></span></div>
