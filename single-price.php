@@ -134,9 +134,6 @@ if( have_posts() ) {
         // Bez slike
         else if( $format == 4 ) { ?>
         <div class="single-head no-img">
-	        <?php
-		        the_widget( 'Telegram_Izbori' );
-	        ?>
             <div class="zones">
                 <?php the_widget('Telegram_Banner_Widget', array('size' => 'telegram_desktop_billboard_v1')); ?>
             </div>

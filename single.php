@@ -8,12 +8,6 @@ if( have_posts() ) {
         ?>
 
 <div class="single-page container">
-	<?php
-
-		the_widget('Telegram_Izbori');
-	//	the_widget('Telegram_Top_Vijesti');
-
-	?>
     <div class="single-head">
 
         <h3 class="overtitle"><?php
