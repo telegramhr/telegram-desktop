@@ -61,7 +61,7 @@ class Telegram_Midas_Widget extends WP_Widget {
            Više s weba
         </div>
         <?php } ?>
-        <div id="midasWidget__<?php echo intval($instance['id']) ?>"></div><?php
+    <div id="midasWidget__<?php echo intval($instance['id']) ?>"></div><?php
         if ($instance['script']) {
             $ids = explode(',', $instance['script']);
             $out = '';
@@ -76,10 +76,11 @@ class Telegram_Midas_Widget extends WP_Widget {
             ?>
             <script async src="https://cdn.midas-network.com/Widget/IndexAsync/2?<?php echo esc_attr($out) ?>"
                     type="text/javascript"></script>
-            </div> <!-- end midas -->
             <?php
         }
-
+        if (!wp_is_mobile()) {
+            ?></div<?php
+        }
 	}
 
 	public function update($new_instance, $instance) {
