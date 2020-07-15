@@ -46,6 +46,7 @@ get_header(); ?>
             $pos1 = false;
             $pos2 = false;
             $pos3 = false;
+            $pos4 = false;
 
 
             $pos = get_option( 'telegram_promo_desktop' );
@@ -59,6 +60,9 @@ get_header(); ?>
 	            }
 	            if ( isset( $pos[2] ) ) {
 		            $pos3 = $pos[2];
+	            }
+	            if ( isset( $pos[3] ) ) {
+		            $pos4 = $pos[4];
 	            }
             }
 
@@ -185,6 +189,12 @@ get_header(); ?>
 	                if ($pos3) {
 		                global $post;
 		                $p    = get_post( $pos3 );
+		                $post = $p;
+		                get_template_part( 'templates/articles/article-2' );
+	                }
+	                if ($pos4) {
+		                global $post;
+		                $p    = get_post( $pos4 );
 		                $post = $p;
 		                get_template_part( 'templates/articles/article-2' );
 	                }
