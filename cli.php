@@ -89,7 +89,6 @@ class Telegram_Command extends WP_CLI_Command {
 		$q = new WP_Query(array(
 			'post_type' => ['post', 'native', 'partneri', 'video'],
 			'post_status' => 'publish',
-			'cat' => 3926,
 			'posts_per_page' => 20,
 			'meta_query' => $meta_query,
 			'no_found_rows' => true
