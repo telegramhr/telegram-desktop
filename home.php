@@ -47,6 +47,7 @@ get_header(); ?>
             $pos2 = false;
             $pos3 = false;
 
+
             $pos = get_option( 'telegram_promo_desktop' );
             shuffle( $pos );
             if ( ! empty( $pos ) ) {
@@ -179,6 +180,14 @@ get_header(); ?>
                     <div class="container feed-container">
                     <div class="col col-1 feed">
                     <?php
+                }
+                if ($current === 18) {
+	                if ($pos3) {
+		                global $post;
+		                $p    = get_post( $pos3 );
+		                $post = $p;
+		                get_template_part( 'templates/articles/article-2' );
+	                }
                 }
                 $current++;
 	            if ($current>18) {
