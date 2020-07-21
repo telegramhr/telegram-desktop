@@ -12,7 +12,8 @@
         ?>
 
         <?php
-	        the_widget( 'Telegram_Najcitanije_Malo' );
+        the_widget('Telegram_AndolPro');
+	       // the_widget( 'Telegram_Najcitanije_Malo' );
         ?>
     </div>
 </div>
