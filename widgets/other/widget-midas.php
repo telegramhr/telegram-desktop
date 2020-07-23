@@ -11,7 +11,7 @@ class Telegram_Midas_Widget extends WP_Widget {
 
 	public function widget( $args, $instance ) {
 		$oglasi = get_post_meta( get_the_ID(), 'oglasi', true );
-		if ($oglasi && is_array($oglasi) && in_array('all', $oglasi)) {
+		if ($oglasi && is_array($oglasi) && (in_array('all', $oglasi) || in_array('midas', $oglasi) )) {
 			return '';
 		}
 	    ?>
