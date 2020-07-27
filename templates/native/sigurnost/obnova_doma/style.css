@@ -1,0 +1,207 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 500;
+    color: #111111;
+    background-color: #efefef;
+}
+img {
+    width: 100%;
+}
+
+/* Hero */
+
+.header-logos {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    z-index: 5;
+}
+.header-logos img {
+    height: 18px;
+}
+.container {
+    padding: 40px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.native-hero {
+    padding: 64px;
+    height: 40vw;
+    padding-right: 55vw;
+    overflow: hidden;
+}
+.native-hero::before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 5vw;
+    background-image: linear-gradient(to top, #efefef, transparent);
+    z-index: 5;
+}
+.native-title {
+    z-index: 5;
+    position: relative;
+}
+.native-hero video {
+    position: absolute;
+    top: -10vw;
+    left: 0;
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+    z-index: 1;
+}
+.red {
+    color: #ae3737;
+    text-decoration: underline;
+}
+h1 {
+    font-size: 92px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 32px;
+}
+
+/* Content */
+
+.article .two-thirds {
+    margin-right: -16.67%;
+}
+.article:nth-child(2n) .half {
+    order: 1;
+}
+.article:nth-child(2n) .two-thirds {
+    margin-right: 0px;
+    order: 2;
+    margin-left: -16.67%;
+}
+.article {
+    margin-bottom: 64px;
+}
+.article-content {
+    background-color: white;
+    z-index: 5;
+    position: relative;
+    padding: 32px;
+    border: 1px solid #e1e1e1;
+    border-bottom-color: #d5d2d2;
+    border-bottom-width: 2px;
+}
+.article h2 {
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+.article p {
+    font-weight: 500;
+    opacity: .7;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.cta {
+    background-color: #ae3737;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    padding-top: 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+    background: white;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio, .native-signature .partner {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+    margin: 15px;
+}
+.native-signature .partner {
+    width: 90px;
+}
+.native-signature .center {
+    flex-wrap: wrap;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        padding: 0px;
+    }
+    .article-content {
+        margin: 16px;
+        padding: 16px;
+        margin-top: -10%;
+    }
+    .native-hero {
+        padding: 16px;
+        height: 70vw;
+        padding-right: 50vw;
+    }
+    .native-hero video {
+        top: 0;
+        height: 70vw;
+        object-fit: cover;
+        z-index: 1;
+    }
+    h1 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .native-hero h2 {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .header-logos {
+        padding: 6px;
+    }
+    .header-logos img {
+        height: 14px;
+    }
+    .article .two-thirds {
+        margin-right: 0;
+    }
+    .article:nth-child(2n) .half {
+        order: 2;
+    }
+    .article {
+        margin-bottom: 24px;
+    }
+    .article:nth-child(2n) .two-thirds {
+        margin-right: 0px;
+        order: 1;
+        margin-left: 0;
+    }
+}

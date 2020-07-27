@@ -1,0 +1,185 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c148 79.164036, 2019/08/13-01:06:57        " rdfhash="0F1B2B8FB081F2108EFD4558C27ED47A" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+   xmpMM:InstanceID="xmp.iid:2bf60578-fd4f-d84d-a37c-ec5f7b5f3d5b"
+   xmpMM:DocumentID="e8cc11fe-8eec-421c-e97c-9d4200000041"
+   xmpMM:OriginalDocumentID="xmp.did:185755f2-c041-cb4b-9f4d-1b0c60f4e000"
+   xmp:MetadataDate="2020-07-21T12:42:15+02:00"
+   xmp:ModifyDate="2020-07-21T12:42:15+02:00"
+   xmp:CreatorTool="Adobe Premiere Pro 2020.0 (Windows)"
+   xmp:CreateDate="2020-07-21T12:41:29+02:00"
+   xmpDM:videoFrameRate="23.976024"
+   xmpDM:videoFieldOrder="Progressive"
+   xmpDM:videoPixelAspectRatio="1/1"
+   xmpDM:startTimeScale="24000"
+   xmpDM:startTimeSampleSize="1001"
+   dc:format="WebM">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="211b5540-bea9-f5ce-c40d-0e760000006e"
+      stEvt:when="2020-07-21T12:42:15+02:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:d62ccad3-4633-a74a-ba45-e15a070a43ca"
+      stEvt:when="2020-07-21T12:41:49+02:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:6b9029a0-ed25-9f4c-aab2-6a5853ddc31c"
+      stEvt:when="2020-07-21T12:42:15+02:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:2bf60578-fd4f-d84d-a37c-ec5f7b5f3d5b"
+      stEvt:when="2020-07-21T12:42:15+02:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="530b13b9-2fbf-1727-b7f5-1d0e00000068"
+      stRef:documentID="43c29aba-0742-896a-231b-65250000003b"
+      stRef:fromPart="time:233080848000f254016000000d1027674648000f254016000000"
+      stRef:toPart="time:0d1027674648000f254016000000"
+      stRef:filePath="2318.mov"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2014-06-07T14:46:01Z"
+       xmp:ModifyDate="2020-07-21T12:31:12+02:00"
+       xmp:CreatorTool="Adobe After Effects CC (Windows)"
+       xmp:MetadataDate="2020-07-21T12:31:12+02:00"
+       xmpDM:startTimeScale="2997"
+       xmpDM:startTimeSampleSize="125"
+       xmpDM:videoFrameRate="23.976024"
+       xmpDM:videoFieldOrder="Progressive"
+       xmpDM:videoPixelAspectRatio="1/1"
+       xmpMM:InstanceID="530b13b9-2fbf-1727-b7f5-1d0e00000068"
+       xmpMM:DocumentID="43c29aba-0742-896a-231b-65250000003b"
+       xmpMM:OriginalDocumentID="xmp.did:9cd16713-b1d8-fd43-b5cc-66907c942e8c"
+       dc:format="QuickTime"
+       tiff:Orientation="1">
+      <xmpDM:altTimecode
+       xmpDM:timeValue="00:00:00:00"
+       xmpDM:timeFormat="23976Timecode"/>
+      <xmpDM:videoFrameSize
+       stDim:w="1920"
+       stDim:h="1080"
+       stDim:unit="pixel"/>
+      <xmpDM:startTimecode
+       xmpDM:timeFormat="23976Timecode"
+       xmpDM:timeValue="00:00:00:00"/>
+      <xmpDM:duration
+       xmpDM:value="358358"
+       xmpDM:scale="1/24000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="created"
+         stEvt:instanceID="xmp.iid:9cd16713-b1d8-fd43-b5cc-66907c942e8c"
+         stEvt:when="2014-06-07T16:46:01+03:00"
+         stEvt:softwareAgent="Adobe After Effects CC (Windows)"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:0022b52f-81c0-1749-85dd-2591462b3fe4"
+         stEvt:when="2014-06-07T16:47:05+03:00"
+         stEvt:softwareAgent="Adobe After Effects CC (Windows)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="modified"
+         stEvt:parameters="unknown modifications"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="530b13b9-2fbf-1727-b7f5-1d0e00000068"
+         stEvt:when="2020-07-21T12:31:12+02:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <creatorAtom:windowsAtom
+       creatorAtom:extension=".aep"
+       creatorAtom:invocationFlags="-ep"/>
+      <creatorAtom:macAtom
+       creatorAtom:applicationCode="1180193859"
+       creatorAtom:invocationAppleEvent="1131559026"/>
+      <creatorAtom:aeProjectLink
+       creatorAtom:compositionID="4697"
+       creatorAtom:renderQueueItemID="5212"
+       creatorAtom:renderOutputModuleIndex="0"
+       creatorAtom:fullPath="D:\Danil May\Estoniya_part_02.aep"/>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:d62ccad3-4633-a74a-ba45-e15a070a43ca"
+    stRef:documentID="xmp.did:d62ccad3-4633-a74a-ba45-e15a070a43ca"
+    stRef:originalDocumentID="xmp.did:d62ccad3-4633-a74a-ba45-e15a070a43ca"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"
+    creatorAtom:uncProjectPath="\\?\D:\Videos\Random\header_sigurnost.prproj"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:videoFrameSize
+    stDim:w="1920"
+    stDim:h="960"
+    stDim:unit="pixel"/>
+   <xmpDM:duration
+    xmpDM:value="97"
+    xmpDM:scale="1001/24000"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="23976Timecode"
+    xmpDM:timeValue="00:00:00:00"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:00:00"
+    xmpDM:timeFormat="23976Timecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
