@@ -2,7 +2,7 @@
 <html lang="hr">
 
 <?php
-$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/templates/native/sigurnost/obnova_doma/';
+$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/sigurnost/obnova_doma/';
 ?>
 
 <head>
