@@ -28,6 +28,7 @@ h1 {
 .single-head h1.title {
     margin: 0px;
     font-size: 32px;
+    margin-bottom: 8px;
 }
 .single-head p {
     font-family: pt sans,arial,helvetica,sans-serif;

@@ -11,7 +11,7 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
     <?php wp_head(); ?>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext" rel="stylesheet"> 
     <link rel="stylesheet" href="<?php echo $native_path; ?>tmg_framework.css?ver=1.1" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path; ?>/style.css?ver=1.2" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path; ?>/style.css?ver=1.3" type="text/css" />
     <script src="https://kit.fontawesome.com/4878256e09.js" crossorigin="anonymous"></script>
 </head>
 <div class="main-container barracuda">
