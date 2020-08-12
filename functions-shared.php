@@ -1133,3 +1133,10 @@ function telegram_coauthors($coauthors, $post_id) {
     }
 	return $coauthors;
 }
+
+add_filter('epr_post_types', 'telegram_epr_post_type');
+
+function telegram_epr_post_type($array) {
+    $array[] = 'partneri';
+    return $array;
+}
