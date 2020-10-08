@@ -114,7 +114,7 @@ class Telegram_Shortcodes {
 		if ( $is_desktop_only && wp_is_mobile() ) {
 		  return '';
 	  }
-		return '<video ' . ($autoplay?'autoplay ':'') .
+		return '<video playsinline ' . ($autoplay?'autoplay ':'') .
 		       ($loop?'loop ':'') .
 		       ($muted?'muted ':'') .
 		       ($controls?'controls ':'') .
