@@ -10,6 +10,10 @@ class Telegram_Comments extends WP_Widget {
     }
 
     public function widget( $args, $instance ) {
+        $date = current_time('timestamp');
+        if ($date > 1603443600 && $date < 1603450800) {
+            return;
+        }
         //ovdje ide sadržaj widgeta, cachirano
         if (get_field('iskljuci_komentare')==1) {
             return;
