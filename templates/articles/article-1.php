@@ -7,7 +7,7 @@
         </h1>
         <h2 class="subtitle">
             <?php
-            $subtitle = get_field('subtitle');
+            $subtitle = get_post_meta( get_the_ID(), 'subtitle', true ) ;
             if (!$subtitle) {
                 $subtitle = get_the_excerpt();
             }

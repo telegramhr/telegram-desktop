@@ -23,11 +23,11 @@ class Telegram_AndolPro extends WP_Widget
 	        ?>
             <div class="tg-widget rainbow-widget procitajte-danas">
                 <div class="tg-widget-head" style="text-transform: none;">
-                    <?php echo get_field('naslov_html', 810192) ?>
+                    <?php echo get_post_meta( get_the_ID(), 'naslov_html', 810192, true )  ?>
                 </div>
                 <div class="tg-widget-body">
 			        <?php
-                    $articles = get_field('clanci', 810192);
+                    $articles = get_post_meta( get_the_ID(), 'clanci', 810192, true ) ;
 			        foreach ($articles as $article) {
 				        ?>
                         <article class="article-rainbow-small andolpro">
@@ -57,7 +57,7 @@ class Telegram_AndolPro extends WP_Widget
 	        if (wp_is_mobile()) {
 		        ?><style>
                 .article-rainbow-small.andolpro .titles .title:before {
-                    content: "<?php echo get_field('naslov_css', 810192) ?>" !important;
+                    content: "<?php echo get_post_meta( get_the_ID(), 'naslov_css', 810192, true )  ?>" !important;
                 }
                 </style><?php
 	        }

@@ -46,7 +46,7 @@ if (is_home()) { ?>
                 <?php the_title(); ?>
             </h1>
             <h2 class="subtitle">
-                <?php echo get_excerpt(get_field('subtitle'), 141 ); ?>
+                <?php echo get_excerpt(get_post_meta( get_the_ID(), 'subtitle', true ) , 141 ); ?>
             </h2>
         </a>
 
@@ -55,7 +55,7 @@ if (is_home()) { ?>
             // Get authors
             $authors = get_coauthors();
             foreach($authors as $author) {
-                $avatar = get_field('avatar', 'user_' . $author->ID);
+                $avatar = get_post_meta( get_the_ID(), 'avatar', 'user_' . $author->ID, true ) ;
                 $size = 'thumbnail'; ?>
 
                 <div class="author cf">

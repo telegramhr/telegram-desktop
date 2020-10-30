@@ -7,10 +7,10 @@
         </div>
         <div class="nav-title">
             <?php
-            if( get_field('sticker') ) {
-                echo get_field('sticker');
+            if( get_post_meta( get_the_ID(), 'sticker', true )  ) {
+                echo get_post_meta( get_the_ID(), 'sticker', true ) ;
             }
-            else if (get_field('nadnaslov')) {
+            else if (get_post_meta( get_the_ID(), 'nadnaslov', true ) ) {
 	            the_field('nadnaslov');
             }
             else {

@@ -20,7 +20,7 @@ function telegram_scripts() {
 		wp_enqueue_script( 'slick');
 		wp_enqueue_script( 'wow');
 		wp_enqueue_style('native-animate');
-		if (get_field('include_styles')) {
+		if (get_post_meta( get_the_ID(), 'include_styles', true ) ) {
 			wp_enqueue_style( 'telegram-style' );
 			wp_enqueue_script( 'telegram-script' );
 		}

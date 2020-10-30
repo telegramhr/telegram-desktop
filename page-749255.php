@@ -19,7 +19,7 @@ if( have_posts() ) {
                         </h1>
                         <h2 class="subtitle">
                             <?php
-                            echo get_excerpt( get_field('subtitle'), 141 ); ?>
+                            echo get_excerpt( get_post_meta( get_the_ID(), 'subtitle', true ) , 141 ); ?>
                         </h2>
                     </div>
 
@@ -35,7 +35,7 @@ if( have_posts() ) {
                             // Article content
                             the_content();
 
-                            $kandidati = get_field('kandidat');
+                            $kandidati = get_post_meta( get_the_ID(), 'kandidat', true ) ;
                             usort($kandidati,function($first,$second){
 	                            return $first['postotak'] < $second['postotak'];
                             });

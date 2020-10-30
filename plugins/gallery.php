@@ -13,10 +13,10 @@ function telegram_gallery_shortcode($attr) {
 
 				<div class="gallery-meta">
 					<h2 class="caption"><?php $post = get_post($id); echo apply_filters( 'wp_content', $post->post_excerpt ); ?></h2>
-					<?php if ( get_field('fotograf', $id) || get_field('agencija', $id) ) { ?>
+					<?php if ( get_post_meta( get_the_ID(), 'fotograf', $id, true )  || get_post_meta( get_the_ID(), 'agencija', $id, true )  ) { ?>
 						<div class='photo-author'>
-							 | <?php echo get_field('fotograf', $id) ?>
-								<?php echo get_field('agencija', $id) ?>
+							 | <?php echo get_post_meta( get_the_ID(), 'fotograf', $id, true )  ?>
+								<?php echo get_post_meta( get_the_ID(), 'agencija', $id, true )  ?>
 						</div>
 					<?php } ?>
 				</div>

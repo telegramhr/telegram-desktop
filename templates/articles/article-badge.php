@@ -10,10 +10,10 @@ elseif ( strpos( $src_link, 'dblog') !== false ) {
 }
 
 // Get Sticker Badge
-if( get_field('sticker' ) && $src == 'telegram') { ?>
+if( get_post_meta( get_the_ID(), 'sticker' , true )  && $src == 'telegram') { ?>
     <div class="sticker">
         <h2>
-            <?php echo get_field('sticker'); ?>
+            <?php echo get_post_meta( get_the_ID(), 'sticker', true ) ; ?>
             <span class="decail"></span>
         </h2>
     </div>

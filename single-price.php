@@ -72,7 +72,7 @@ if( have_posts() ) {
                         </h1>
                         <h2 class="subtitle">
                             <?php
-                            echo get_field('subtitle'); ?>
+                            echo get_post_meta( get_the_ID(), 'subtitle', true ) ; ?>
                         </h2>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ if( have_posts() ) {
                     </h1>
                     <h2 class="subtitle">
                         <?php
-                        echo get_field('subtitle'); ?>
+                        echo get_post_meta( get_the_ID(), 'subtitle', true ) ; ?>
                     </h2>
                 </div>
             </div>
@@ -146,7 +146,7 @@ if( have_posts() ) {
                     </h1>
                     <h2 class="subtitle">
                         <?php
-                        echo get_field('subtitle'); ?>
+                        echo get_post_meta( get_the_ID(), 'subtitle', true ) ; ?>
                     </h2>
 
                     <div class="article-meta flex">
@@ -239,7 +239,7 @@ if( have_posts() ) {
                 </h1>
                 <h2 class="subtitle">
 				    <?php
-				    echo get_field('subtitle'); ?>
+				    echo get_post_meta( get_the_ID(), 'subtitle', true ) ; ?>
                 </h2>
             </div>
         </div>
@@ -250,7 +250,7 @@ if( have_posts() ) {
         <?php
         // Ako ne forsiramo bijeli logo:
         // namjesti automatski prema svjetlini slike
-        if( !get_field('white_logo') ) { ?>
+        if( !get_post_meta( get_the_ID(), 'white_logo', true )  ) { ?>
         <script type="text/javascript">
             window.white_logo = true
         </script>
@@ -271,8 +271,8 @@ if( have_posts() ) {
 
         <div class="single-body container">
 
-            <?php if( get_field('perex') ) {
-                echo '<div class="perex">'.get_field('perex').'</div>';
+            <?php if( get_post_meta( get_the_ID(), 'perex', true )  ) {
+                echo '<div class="perex">'.get_post_meta( get_the_ID(), 'perex', true ) .'</div>';
             } ?>
 
             <!-- Single Content -->

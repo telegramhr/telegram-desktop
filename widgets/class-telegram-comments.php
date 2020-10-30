@@ -15,7 +15,7 @@ class Telegram_Comments extends WP_Widget {
             return;
         }
         //ovdje ide sadržaj widgeta, cachirano
-        if (get_field('iskljuci_komentare')==1) {
+        if (get_post_meta( get_the_ID(), 'iskljuci_komentare', true ) ==1) {
             return;
         } ?>
         <div class="tg-comments-widget">

@@ -11,22 +11,22 @@ if( have_posts() ) {
 
     <div class="single-head">
         <h3 class="overtitle">TELEGRAM PARTNERI</h3>
-        <h3 class="partner-overtitle">U SURADNJI S <img  class="logo" height="100" src="<?php echo get_field('logo_partner'); ?>"/></h3>
+        <h3 class="partner-overtitle">U SURADNJI S <img  class="logo" height="100" src="<?php echo get_post_meta( get_the_ID(), 'logo_partner', true ) ; ?>"/></h3>
         <h1 class="title">
             <?php the_title(); ?>
         </h1>
         <h2 class="subtitle">
             <?php
-            echo get_excerpt( get_field('subtitle'), 141 ); ?>
+            echo get_excerpt( get_post_meta( get_the_ID(), 'subtitle', true ) , 141 ); ?>
         </h2>
         <div class="article-meta">
                 <div class="author-block">
                     <div class="author-thumb" style="background: none;">
-                        <img  class="partner-logo" height="100" src="<?php echo get_field('logo_partner'); ?>"/>
+                        <img  class="partner-logo" height="100" src="<?php echo get_post_meta( get_the_ID(), 'logo_partner', true ) ; ?>"/>
                     </div>
                     <span class="author">
                     <a href="#">
-                        U suradnji s <?php echo get_field('partner'); ?>
+                        U suradnji s <?php echo get_post_meta( get_the_ID(), 'partner', true ) ; ?>
                     </a>
                     </span>
                 </div>

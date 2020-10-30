@@ -10,7 +10,7 @@ if( have_posts() ) {
             <div class="container">
                 <div class="gallery-head">
                     <h3 class="overtitle"><?php
-	                    if (get_field('nadnaslov')) {
+	                    if (get_post_meta( get_the_ID(), 'nadnaslov', true ) ) {
 		                    the_field('nadnaslov');
 	                    }
 	                    else {
@@ -22,7 +22,7 @@ if( have_posts() ) {
                     </h1>
                     <h2 class="subtitle">
                         <?php
-                        echo get_excerpt( get_field('subtitle'), 141 ); ?>
+                        echo get_excerpt( get_post_meta( get_the_ID(), 'subtitle', true ) , 141 ); ?>
                     </h2>
                 </div>
                 <div class="gallery-container">

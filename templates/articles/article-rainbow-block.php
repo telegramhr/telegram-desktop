@@ -9,7 +9,7 @@
         <div class="article-meta">
             <span class="rcmds">
                 <?php
-                if (get_field('nadnaslov')) {
+                if (get_post_meta( get_the_ID(), 'nadnaslov', true ) ) {
 	                the_field('nadnaslov');
                 }
                 else {
@@ -20,8 +20,8 @@
         <h1 class="title">
                 <a href="<?php the_permalink(); ?>">
                 <?php
-                if ( get_field('short_title') ) {
-                    echo get_field('short_title');
+                if ( get_post_meta( get_the_ID(), 'short_title', true )  ) {
+                    echo get_post_meta( get_the_ID(), 'short_title', true ) ;
                 }
                 else {
                     the_title();

@@ -13,7 +13,7 @@ class Telegram_Izbori_Mobile extends WP_Widget
 
     public function widget($args, $instance)
     {
-        if (get_field('ukljuci', 749255)) {
+        if (get_post_meta( get_the_ID(), 'ukljuci', 749255, true ) ) {
 	        //$data = wp_cache_get( 'tg_izbori_mobile', 'widgets' );
 	        //if ( ! $data ) {
 		      //  ob_start();
@@ -25,7 +25,7 @@ class Telegram_Izbori_Mobile extends WP_Widget
                     </div>
                     <div class="tg-widget-body">
                         <?php
-                        $kandidati = get_field('kandidat', 749255);
+                        $kandidati = get_post_meta( get_the_ID(), 'kandidat', 749255, true ) ;
                         foreach ($kandidati as $kandidat) {
                             ?>
                             <article class="article-rainbow-small">
