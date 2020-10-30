@@ -11,7 +11,7 @@ if( have_posts() ) {
 
     <div class="single-head">
         <h3 class="overtitle">TELEGRAM PARTNERI</h3>
-        <h3 class="partner-overtitle">U SURADNJI S <img  class="logo" height="100" src="<?php echo get_post_meta( get_the_ID(), 'logo_partner', true ) ; ?>"/></h3>
+        <h3 class="partner-overtitle">U SURADNJI S <img  class="logo" height="100" src="<?php echo get_post(get_post_meta( get_the_ID(), 'logo_partner', true ))->guid ; ?>"/></h3>
         <h1 class="title">
             <?php the_title(); ?>
         </h1>
