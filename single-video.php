@@ -12,7 +12,7 @@ if( have_posts() ) {
             <div class="single-head">
                 <h3 class="overtitle"><?php
 	                if (get_post_meta( get_the_ID(), 'nadnaslov', true ) ) {
-		                the_field('nadnaslov');
+		                echo get_post_meta( get_the_ID(), 'nadnaslov', true ) ;
 	                }
 	                else {
 		                the_category();

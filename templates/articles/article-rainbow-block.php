@@ -10,7 +10,7 @@
             <span class="rcmds">
                 <?php
                 if (get_post_meta( get_the_ID(), 'nadnaslov', true ) ) {
-	                the_field('nadnaslov');
+	                echo get_post_meta( get_the_ID(), 'nadnaslov', true ) ;
                 }
                 else {
                     echo get_the_category()[0]->name;
