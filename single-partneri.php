@@ -22,7 +22,7 @@ if( have_posts() ) {
         <div class="article-meta">
                 <div class="author-block">
                     <div class="author-thumb" style="background: none;">
-                        <img  class="partner-logo" height="100" src="<?php echo get_post_meta( get_the_ID(), 'logo_partner', true ) ; ?>"/>
+                        <img  class="partner-logo" height="100" src="<?php echo get_post(get_post_meta( get_the_ID(), 'logo_partner', true ))->guid; ?>"/>
                     </div>
                     <span class="author">
                     <a href="#">
