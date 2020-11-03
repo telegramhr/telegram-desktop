@@ -437,7 +437,6 @@ class Telegram_Izbori_Us extends WP_Widget
                         <?php echo file_get_contents("https://telegram.hr/wp-content/themes/telegram2-desktop/assets/temp/karta_usa.svg"); ?>
                     </div>
                 </div>
-                <pre style="display: none;"><?php print_r($results_live); ?></pre>
             </div>
         </div>
         <script>
