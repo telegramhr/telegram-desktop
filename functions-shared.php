@@ -1143,3 +1143,15 @@ function telegram_epr_post_type($array) {
     $array[] = 'partneri';
     return $array;
 }
+
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page(array(
+		'page_title' 	=> 'US elections',
+		'menu_title'	=> 'US elections',
+		'menu_slug' 	=> 'us-elections',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+	include_once ('plugins/acf-us.php');
+}
