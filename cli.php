@@ -175,6 +175,50 @@ class Telegram_Command extends WP_CLI_Command {
 		$croatia= json_decode($data['body'], true);
 		update_option('tmg_covid_croatia', $croatia);
 	}
+
+	function us_elections() {
+		$states = ['DC', 'VT', 'MA', 'HI', 'NY', 'MD', 'CA', 'RI', 'DE', 'WA', 'CT', 'NJ', 'OR', 'IL', 'NM', 'CO', 'VA', 'ME', 'NH', 'MI', 'WI', 'MN','NV', 'PA', 'AZ', 'FL', 'NC', 'GA', 'IA', 'OH', 'TX', 'MT', 'SC', 'AK', 'MO', 'IN', 'KS', 'MS', 'UT', 'SD', 'TN', 'NE', 'KY', 'LA', 'AL', 'ND', 'ID', 'AR', 'OK', 'WV', 'WY'];
+		$results = [];
+		foreach ($states as $state) {
+			$url = 'https://politics-elex-results.data.api.cnn.io/results/view/2020-PG-'.$state.'.json';
+			$data = wp_remote_get($url);
+			$data = json_decode($data['body'], true);
+			$biden = [];
+			$trump = [];
+			foreach ($data['candidates'] as $candidate) {
+				if ($candidate['candidateId'] === 1036) {
+					$biden = [
+						'totalDelegates' => $candidate['totalDelegates'],
+						'voteNum' => $candidate['voteNum'],
+						'votePercent' => $candidate['votePercentNum'],
+					];
+					if ($candidate['winner']) {
+						$results[$state]['winner'] = 'biden';
+					}
+				}
+				else if ($candidate['candidateId'] === 8639) {
+					$trump = [
+						'totalDelegates' => $candidate['totalDelegates'],
+						'voteNum' => $candidate['voteNum'],
+						'votePercent' => $candidate['votePercentNum'],
+					];
+					if ($candidate['winner']) {
+						$results[$state]['winner'] = 'trump';
+					}
+				}
+			}
+			$results[$state] = [
+				'percentReporting' => $data['percentReporting'],
+				'totalVote' => $data['totalVote'],
+				'biden' => $biden,
+				'trump' => $trump
+			];
+		}
+
+		$results['lastUpdate'] = date('U');
+
+		update_option('us_elections', $results);
+	}
 }
 
 WP_CLI::add_command( 'telegram', 'Telegram_Command' );
