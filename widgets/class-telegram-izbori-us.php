@@ -331,11 +331,12 @@ class Telegram_Izbori_Us extends WP_Widget
         foreach ($results as $key => $value) {
             $results[$key]["counted"] = 0;
             $results[$key]["vote_d"] = $results_live[$key]["biden"]["votePercent"];
+            $results[$key]["vote_r"] = $results_live[$key]["trump"]["votePercent"];
             if ($results_live[$key]["biden"]["totalDelegates"]) {
                 $total_d = $total_d + $results_live[$key]["biden"]["totalDelegates"];
             }
             if ($results_live[$key]["trump"]["totalDelegates"]) {
-                $total_d = $total_r + $results_live[$key]["biden"]["totalDelegates"];
+                $total_d = $total_r + $results_live[$key]["trump"]["totalDelegates"];
             }
             $results[$key]["vote_r"] = 0;
             $results[$key]["counted"] = $results_live[$key]["percentReporting"];
