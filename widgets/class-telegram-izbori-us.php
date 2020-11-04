@@ -336,7 +336,7 @@ class Telegram_Izbori_Us extends WP_Widget
                 $total_d = $total_d + $results_live[$key]["biden"]["totalDelegates"];
             }
             if ($results_live[$key]["trump"]["totalDelegates"]) {
-                $total_d = $total_r + $results_live[$key]["trump"]["totalDelegates"];
+                $total_r = $total_r + $results_live[$key]["trump"]["totalDelegates"];
             }
             $results[$key]["counted"] = $results_live[$key]["percentReporting"];
         }
