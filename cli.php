@@ -187,24 +187,28 @@ class Telegram_Command extends WP_CLI_Command {
 			$trump = [];
 			foreach ($data['candidates'] as $candidate) {
 				if ($candidate['candidateId'] === 1036) {
+					$temp_winner=false;
+					if ($candidate['winner']) {
+						$temp_winner=true;
+					}
 					$biden = [
 						'totalDelegates' => $candidate['totalDelegates'],
 						'voteNum' => $candidate['voteNum'],
 						'votePercent' => $candidate['votePercentNum'],
+						'winner' => $temp_winner,
 					];
-					if ($candidate['winner']) {
-						$results[$state]['winner'] = 'biden';
-					}
 				}
 				else if ($candidate['candidateId'] === 8639) {
+					$temp_winner=false;
+					if ($candidate['winner']) {
+						$temp_winner=true;
+					}
 					$trump = [
 						'totalDelegates' => $candidate['totalDelegates'],
 						'voteNum' => $candidate['voteNum'],
 						'votePercent' => $candidate['votePercentNum'],
+						'winner' => $temp_winner,
 					];
-					if ($candidate['winner']) {
-						$results[$state]['winner'] = 'trump';
-					}
 				}
 			}
 			$results[$state] = [
