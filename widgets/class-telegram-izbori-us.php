@@ -375,14 +375,14 @@ class Telegram_Izbori_Us extends WP_Widget
                             $order = $order - 1;
                             if ($results_live[$key]["biden"]["winner"]) {
                                 $class="democrat winner-called";
-                                $order = $order - 10;
+                                $order = $order - 100;
                             }
                         } else if ($value["vote_d"] < $value["vote_r"]) {
                             $class = "republican";
                             $order = $order + 1;
                             if ($results_live[$key]["trump"]["winner"]) {
                                 $class="republican winner-called";
-                                $order = $order + 10;
+                                $order = $order + 100;
                             }
                         } else {
                             $class = "swing";
