@@ -371,18 +371,22 @@ class Telegram_Izbori_Us extends WP_Widget
                             $order = 501;
                         }
                         if ($value["vote_d"] > $value["vote_r"]) {
-                            $class = "democrat";
-                            $order = $order - 1;
                             if ($results_live[$key]["biden"]["winner"]) {
                                 $class="democrat winner-called";
-                                $order = $order - 100;
+                                $order = $order - 101;
+                            }
+                            else {
+                                $class = "democrat";
+                                $order = $order - 1;
                             }
                         } else if ($value["vote_d"] < $value["vote_r"]) {
-                            $class = "republican";
-                            $order = $order + 1;
                             if ($results_live[$key]["trump"]["winner"]) {
                                 $class="republican winner-called";
-                                $order = $order + 100;
+                                $order = $order + 101;
+                            }
+                            else {
+                                $class = "republican";
+                                $order = $order + 1;
                             }
                         } else {
                             $class = "swing";
@@ -1021,12 +1025,10 @@ class Telegram_Izbori_Us extends WP_Widget
             <?php
             foreach ($results as $key => $value) {
                 echo '.izbori-widget .map-usa #' . $key . ' { ';
-                if ($value["vote_d"] > $value["vote_r"]) {
+                if ($value["vote_d"] > $value["vote_r"] || $results_live[$key]["biden"]["winner"]) {
                     echo 'fill: #4c6aea; ';
-                    $order = $order - 1;
-                } else if ($value["vote_d"] < $value["vote_r"]) {
+                } else if ($value["vote_d"] < $value["vote_r"] || $results_live[$key]["trump"]["winner"]) {
                     echo 'fill: #dd393c; ';
-                    $order = $order + 1;
                 }
                 if ($value["forecast_d"] > 53) {
                     if ($value["vote_d"] < $value["vote_r"]) {
