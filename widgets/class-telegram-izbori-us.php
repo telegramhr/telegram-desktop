@@ -370,7 +370,7 @@ class Telegram_Izbori_Us extends WP_Widget
                         } else if ($value["forecast_r"] > 53) {
                             $order = 501;
                         }
-                        if ($value["vote_d"] > $value["vote_r"]) {
+                        if ($value["vote_d"] > $value["vote_r"] || $results_live[$key]["biden"]["winner"]) {
                             if ($results_live[$key]["biden"]["winner"]) {
                                 $class="democrat winner-called";
                                 $order = $order - 101;
@@ -379,7 +379,7 @@ class Telegram_Izbori_Us extends WP_Widget
                                 $class = "democrat";
                                 $order = $order - 1;
                             }
-                        } else if ($value["vote_d"] < $value["vote_r"]) {
+                        } else if ($value["vote_d"] < $value["vote_r"] || $results_live[$key]["trump"]["winner"]) {
                             if ($results_live[$key]["trump"]["winner"]) {
                                 $class="republican winner-called";
                                 $order = $order + 101;
