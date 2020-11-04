@@ -373,17 +373,19 @@ class Telegram_Izbori_Us extends WP_Widget
                         if ($value["vote_d"] > $value["vote_r"]) {
                             $class = "democrat";
                             $order = $order - 1;
+                            if ($value["biden"]["winner"]) {
+                                $class="democrat winner-called";
+                                $order = $order - 1;
+                            }
                         } else if ($value["vote_d"] < $value["vote_r"]) {
                             $class = "republican";
                             $order = $order + 1;
-                        } else {
-                            if ($value["forecast_d"] > 53) {
-                                $class = "lean-democrat";
-                            } else if ($value["forecast_r"] > 53) {
-                                $class = "lean-republican";
-                            } else {
-                                $class = "swing";
+                            if ($value["biden"]["winner"]) {
+                                $class="republican winner-called";
+                                $order = $order + 1;
                             }
+                        } else {
+                            $class = "swing";
                         }
                         if ($value["forecast_d"] > 53) {
                             if ($value["vote_d"] < $value["vote_r"]) {
@@ -420,10 +422,10 @@ class Telegram_Izbori_Us extends WP_Widget
                             </div>
                         </div>
                         <div class="full legend-line animate flex">
-                            <div class="democrat"></div>Biden osvaja<div class="lean-democrat"></div>ankete za Bidena<div class="democrat flipped"></div>Biden osvaja suprotno anketama
+                            <div class="democrat winner-called"></div>Biden osvaja<div class="democrat"></div>Biden vodi<div class="democrat flipped"></div>Biden osvaja suprotno anketama
                         </div>
                         <div class="full legend-line animate flex">
-                            <div class="republican"></div>Trump osvaja<div class="lean-republican"></div>ankete za Trumpa<div class="republican flipped"></div>Trump osvaja suprotno anketama
+                        <div class="republican winner-called"></div>Trump osvaja <div class="republican"></div>Trump vodi<div class="republican flipped"></div>Trump osvaja suprotno anketama
                         </div>
                     </div>
                     <div class="third flex-responsive">
@@ -788,6 +790,10 @@ class Telegram_Izbori_Us extends WP_Widget
                 background-color: #dd393c;
             }
 
+            .izbori-widget .winner-called {
+                border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+            }
+
             .izbori-widget .lean-democrat {
                 background-color: #2c3557;
             }
@@ -1021,12 +1027,6 @@ class Telegram_Izbori_Us extends WP_Widget
                 } else if ($value["vote_d"] < $value["vote_r"]) {
                     echo 'fill: #dd393c; ';
                     $order = $order + 1;
-                } else {
-                    if ($value["forecast_d"] > 53) {
-                        echo 'fill: #2c3557; ';
-                    } else if ($value["forecast_r"] > 53) {
-                        echo 'fill: #4f3435; ';
-                    }
                 }
                 if ($value["forecast_d"] > 53) {
                     if ($value["vote_d"] < $value["vote_r"]) {
