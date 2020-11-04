@@ -332,11 +332,11 @@ class Telegram_Izbori_Us extends WP_Widget
             $results[$key]["counted"] = 0;
             $results[$key]["vote_d"] = $results_live[$key]["biden"]["votePercent"];
             $results[$key]["vote_r"] = $results_live[$key]["trump"]["votePercent"];
-            if ($results_live[$key]["biden"]["totalDelegates"]) {
-                $total_d = $total_d + $results_live[$key]["biden"]["totalDelegates"];
+            if ($results_live[$key]["biden"]["winner"]) {
+                $total_d = $total_d + $results[$key]["votes"];
             }
-            if ($results_live[$key]["trump"]["totalDelegates"]) {
-                $total_r = $total_r + $results_live[$key]["trump"]["totalDelegates"];
+            if ($results_live[$key]["trump"]["winner"]) {
+                $total_r = $total_r + $results[$key]["votes"];
             }
             $results[$key]["counted"] = $results_live[$key]["percentReporting"];
         }
@@ -591,7 +591,6 @@ class Telegram_Izbori_Us extends WP_Widget
                         </svg>
                     </div>
                 </div>
-                <pre style="display: none;"><?php print_r($results_live); ?></pre>
             </div>
         </div>
         <script>
@@ -811,7 +810,7 @@ class Telegram_Izbori_Us extends WP_Widget
             }
 
             .izbori-widget .swing-state-info>.flex {
-                padding-right: 24px;
+                padding-right: 20px;
                 padding-top: 20px;
                 border-top: 1px solid #333;
                 position: relative;
