@@ -591,7 +591,7 @@ class Telegram_Izbori_Us extends WP_Widget
                         </svg>
                     </div>
                 </div>
-                <pre style="display: none;"><?php echo $results_live; ?></pre>
+                <pre style="display: none;"><?php print_r($results_live); ?></pre>
             </div>
         </div>
         <script>
