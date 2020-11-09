@@ -3,8 +3,7 @@ get_header(); ?>
 
 <div class="home-top-container">
     <?php
-        //the_widget('Telegram_Top_Vijesti');
-        the_widget('Telegram_Izbori_Us');
+        the_widget('Telegram_Top_Vijesti');
      ?>
 
     <div class="zones container">
