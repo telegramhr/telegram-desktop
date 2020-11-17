@@ -835,15 +835,20 @@ function telegram_load_megabreak($size, $number) {
     wp_reset_postdata();
 }
 
-function telegram_get_coauthors($post_id) {
+function telegram_get_coauthors($post_id, $linked = true) {
     $author = '';
 	foreach (get_coauthors($post_id) as $coauthor) {
 		if ($author) {
 			$author .= ', ';
 		}
 		//$link = coauthors_posts_links_single($coauthor);
+        if ($linked) {
 		$link = '<a href="'.get_author_posts_url($coauthor->ID, $coauthor->user_nicename).'">'.$coauthor->display_name.'</a>';
-        $author .= $link;
+        }
+        else {
+            $link = $coauthor->display_name;
+        }
+		$author .= $link;
 	}
 	return $author;
 }
