@@ -1,0 +1,105 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #111111;
+}
+img, video {
+    width: 100%;
+}
+
+/* Main */
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 92px;
+    line-height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #183e0d;
+    text-align: center;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.article {
+    max-width: 840px;
+    margin: 0 auto;
+}
+.infographic {
+    max-width: 840px;
+    margin: 50px auto;
+}
+.intro {
+    font-size: 24px;
+    line-height: 1.3em;
+    max-width: 840px;
+    margin: 50px auto;
+}
+.cta {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 50px;
+    border: 1px solid #183e0d;
+    color: #183e0d;
+    margin: 20px auto;
+}
+.cta:hover {
+    background-color: #183e0d;
+    color: white;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .intro {
+        font-size: 16px;
+    }
+    .container {
+        padding: 20px;
+    }
+    .article img, .infographic {
+        max-width: 100vw;
+        width: 100vw;
+        left: -20px;
+        position: relative;
+    }
+}
