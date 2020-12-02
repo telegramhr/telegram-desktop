@@ -1,0 +1,140 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+.native-title {
+    /*background: linear-gradient(to bottom, #cbd4f2, white);*/
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+img, video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.mc-blue {
+    color: #0095c1;
+}
+.mc-orange {
+    color: #ff671b;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    padding: 5vw;
+}
+h2 {
+    font-size: 48px;
+}
+.superbold {
+    font-weight: 700;
+}
+.article {
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.article::before {
+    content: ' ';
+    z-index: 5;
+    mix-blend-mode: color;
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.article-text {
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    width: 920px;
+    z-index: 10;
+    padding: 64px;
+    height: 100%;
+    position: relative;
+    color: white;
+    min-height: 40vw;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+.article-1 {
+    background-image: url('https://www.telegram.hr/wp-content/uploads/2020/11/gettyimages-1188628315.jpg');
+}
+.article-2 {
+    background-image: url('https://www.telegram.hr/wp-content/uploads/2020/11/dsc-1051-mastercard-840x530.jpg');
+}
+.article-1::before {
+    background-color: #0095c1;
+}
+.article-2::before {
+    background-color: #ff671b;
+}
+.cta {
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 8px 24px;
+    font-size: 16px;
+    margin-top: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.cta:hover {
+    background-color: white;
+    color: black;
+}
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+.white-space {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 32px;
+    }
+    .yt-embed {
+        height: 50vw;
+        margin: 16px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .article-text {
+        padding: 64px 16px;
+        width: 100%;
+        padding-right: 16px;
+        background: rgba(0,0,0,0.8);
+        background-attachment: initial;
+    }
+    .white-space {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
