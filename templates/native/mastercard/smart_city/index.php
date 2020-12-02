@@ -2,7 +2,7 @@
 <html lang="hr">
 
 <?php
-$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/mastercard/smart_city/';
+$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/mastercard/smart_city/';
 ?>
 
 <head>
