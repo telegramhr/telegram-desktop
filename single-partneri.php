@@ -11,7 +11,9 @@ if( have_posts() ) {
 
     <div class="single-head">
         <h3 class="overtitle">TELEGRAM PARTNERI</h3>
+        <?php if (get_field('logo_partner')) { ?>
         <h3 class="partner-overtitle">U SURADNJI S <img  class="logo" height="100" src="<?php echo get_post(get_post_meta( get_the_ID(), 'logo_partner', true ))->guid ; ?>"/></h3>
+        <?php } ?>
         <h1 class="title">
             <?php the_title(); ?>
         </h1>
@@ -21,6 +23,7 @@ if( have_posts() ) {
         </h2>
         <div class="article-meta">
                 <div class="author-block">
+	    <?php if (get_field('logo_partner')) { ?>
                     <div class="author-thumb" style="background: none;">
                         <img  class="partner-logo" height="100" src="<?php echo get_post(get_post_meta( get_the_ID(), 'logo_partner', true ))->guid; ?>"/>
                     </div>
@@ -29,6 +32,11 @@ if( have_posts() ) {
                         U suradnji s <?php echo get_post_meta( get_the_ID(), 'partner', true ) ; ?>
                     </a>
                     </span>
+            <?php } else { ?>
+                <span class="author">
+                    Promo
+                </span>
+                <?php } ?>
                 </div>
 
             <span class="time"><?php the_time() ?></span>
