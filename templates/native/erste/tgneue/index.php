@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hr">
 <?php
-    $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/erste/tgneue/';
+    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/erste/tgneue/';
 ?>
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@
     <div class="main-container flex">
         <header class="full flex relative">
             <div class="full center subheader relative">
-                <a href="https://pwa.telegram.hr/" class="logo" target="_blank"><img src="<?php echo $native_path ?>img/telegram_logo_white.svg" alt="Telegram logo"></a>
+                <a href="https://telegram.hr/" class="logo" target="_blank"><img src="<?php echo $native_path ?>img/telegram_logo_white.svg" alt="Telegram logo"></a>
             </div>
             <div class="full hero-element center relative">
                 <video preload="auto" autoplay="" muted="">
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="container flex relative">
-                <a class="full article center relative" href="#">
+                <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/stigao-je-novi-telegram-dizajn-smo-osvjezili-no-istrazivacko-autorska-sustina-ostaje-ista/" target="_blank">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                     <img src="https://www.telegram.hr/wp-content/uploads/2020/12/tg-background-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
@@ -144,7 +144,7 @@
                         <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                     </div>
                 </a>
-                <a class="full article center relative" href="#">
+                <a class="full article center relative" href="https://www.telegram.hr/politika-kriminal/u-ovih-pet-godina-telegram-je-otkrio-niz-afera-donosimo-11-najznacajnijih/" target="_blank">
                     <img src="https://www.telegram.hr/wp-content/uploads/2020/12/kujundzic-kuscevic-tolusic-840x530-1.jpeg" aria-hidden="true">
                     <div class="article-content relative flex">
                         <h2 class="full">U ovih pet godina Telegram je otkrio niz afera. Donosimo 11 najznačajnijih</h2>
@@ -211,7 +211,7 @@
                 </div>
             </div>
             <div class="container flex relative">
-                <a class="full article center relative" href="#">
+                <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/kroz-ovih-pet-godina-telegram-je-pedantno-pratio-price-o-poslovnim-uspjesima-donosimo-12-najinspirativnijih/" target="_blank">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                     <img src="https://www.telegram.hr/wp-content/uploads/2020/12/srednja1-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
@@ -223,11 +223,11 @@
                         <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                     </div>
                 </a>
-                <a class="full article center relative" href="#">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/grid-1-840x530.jpg" aria-hidden="true">
+                <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/u-ovih-pet-godina-telegram-je-osvojio-svjetske-nagrade-i-priznanja-na-ova-smo-najponosniji/" target="_blank">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/super1-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
-                        <h2 class="full">Pitali smo nekoliko redovnih čitatelja koje autore i teme najviše vole na Telegramu</h2>
-                        <p class="full">Ekonomisti, režiseri, dizajneri, glumci i znanstvenici o tome zašto čitaju Telegram</p>
+                        <h2 class="full">U ovih pet godina Telegram je osvojio svjetske nagrade i priznanja. Na ova smo najponosniji </h2>
+                        <p class="full">Nekoliko godina zaredom nalazimo se na Reutersovoj listi najutjecajnijih medija</p>
                         <div class="full flex">
                             <div class="btn">Pročitaj više</div>
                         </div>
@@ -295,17 +295,18 @@
                 </div>
             </div>
             <div class="container flex relative">
-                <a class="full article center relative" href="#">
+                <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/pitali-smo-nekoliko-redovnih-citatelja-koje-autore-i-teme-najvise-vole-na-telegramu/" target="_blank">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/super1-840x530.jpg" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/grid-1-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
-                        <h2 class="full">U ovih pet godina Telegram je osvojio svjetske nagrade i priznanja. Na ova smo najponosniji </h2>
-                        <p class="full">Nekoliko godina zaredom nalazimo se na Reutersovoj listi najutjecajnijih medija</p>
+                        <h2 class="full">Pitali smo nekoliko redovnih čitatelja koje autore i teme najviše vole na Telegramu</h2>
+                        <p class="full">Ekonomisti, režiseri, dizajneri, glumci i znanstvenici o tome zašto čitaju Telegram</p>
                         <div class="full flex">
                             <div class="btn">Pročitaj više</div>
                         </div>
                         <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                     </div>
+                    
                 </a>
             </div>
             <div class="full quotes center wrap">
