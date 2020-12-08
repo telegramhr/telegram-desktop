@@ -134,10 +134,10 @@
             <div class="container flex relative">
                 <a class="full article center relative" href="#">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    <img src="<?php echo $native_path; ?>img/grey_placeholder.png?ver=2.0" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/tg-background-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full">Sed sit amet nulla neque. Donec non fermentum diam. Sed eu sodales ligula.</p>
+                        <h2 class="full">Stigao je novi Telegram. Dizajn smo osvježili, no istraživačko-autorska suština ostaje ista</h2>
+                        <p class="full">Telegram je narastao. I zato nam je trebao novi dizajn</p>
                         <div class="full flex">
                             <div class="btn">Pročitaj više</div>
                         </div>
@@ -145,10 +145,10 @@
                     </div>
                 </a>
                 <a class="full article center relative" href="#">
-                    <img src="<?php echo $native_path; ?>img/grey_placeholder.png?ver=2.0" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/kujundzic-kuscevic-tolusic-840x530-1.jpeg" aria-hidden="true">
                     <div class="article-content relative flex">
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full">Sed sit amet nulla neque. Donec non fermentum diam. Sed eu sodales ligula.</p>
+                        <h2 class="full">U ovih pet godina Telegram je otkrio niz afera. Donosimo 11 najznačajnijih</h2>
+                        <p class="full">Podsjetnik na važna otkrića naših reportera</p>
                         <div class="full flex">
                             <div class="btn">Pročitaj više</div>
                         </div>
@@ -213,10 +213,10 @@
             <div class="container flex relative">
                 <a class="full article center relative" href="#">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    <img src="<?php echo $native_path; ?>img/grey_placeholder.png?ver=2.0" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/srednja1-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full">Sed sit amet nulla neque. Donec non fermentum diam. Sed eu sodales ligula.</p>
+                        <h2 class="full">Kroz ovih pet godina Telegram je pedantno pratio priče o poslovnim uspjesima. Donosimo 12 najinspirativnijih</h2>
+                        <p class="full">Pokušavamo afirmirati i predstavljati ljude koji stvaraju nove vrijednosti u Hrvatskoj</p>
                         <div class="full flex">
                             <div class="btn">Pročitaj više</div>
                         </div>
@@ -224,10 +224,10 @@
                     </div>
                 </a>
                 <a class="full article center relative" href="#">
-                    <img src="<?php echo $native_path; ?>img/grey_placeholder.png?ver=2.0" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/grid-1-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full">Sed sit amet nulla neque. Donec non fermentum diam. Sed eu sodales ligula.</p>
+                        <h2 class="full">Pitali smo nekoliko redovnih čitatelja koje autore i teme najviše vole na Telegramu</h2>
+                        <p class="full">Ekonomisti, režiseri, dizajneri, glumci i znanstvenici o tome zašto čitaju Telegram</p>
                         <div class="full flex">
                             <div class="btn">Pročitaj više</div>
                         </div>
@@ -297,27 +297,15 @@
             <div class="container flex relative">
                 <a class="full article center relative" href="#">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    <img src="<?php echo $native_path; ?>img/grey_placeholder.png?ver=2.0" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/super1-840x530.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full">Sed sit amet nulla neque. Donec non fermentum diam. Sed eu sodales ligula.</p>
+                        <h2 class="full">U ovih pet godina Telegram je osvojio svjetske nagrade i priznanja. Na ova smo najponosniji </h2>
+                        <p class="full">Nekoliko godina zaredom nalazimo se na Reutersovoj listi najutjecajnijih medija</p>
                         <div class="full flex">
                             <div class="btn">Pročitaj više</div>
                         </div>
                         <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                     </div>
-                </a>
-                <a class="full article center relative" href="#">
-                    <img src="<?php echo $native_path; ?>img/grey_placeholder.png?ver=2.0" aria-hidden="true">
-                    <div class="article-content relative flex">
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full">Sed sit amet nulla neque. Donec non fermentum diam. Sed eu sodales ligula.</p>
-                        <div class="full flex">
-                            <div class="btn">Pročitaj više</div>
-                        </div>
-                        <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    </div>
-                    <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                 </a>
             </div>
             <div class="full quotes center wrap">
