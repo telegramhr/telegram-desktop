@@ -59,8 +59,12 @@ class Telegram_Banner_Widget extends WP_Widget {
                 case 'telegram_desktop_intext_v2':
                 case 'telegram_desktop_intext_v3':
                 case 'telegram_desktop_intext_v4':
+                case 'telegram_desktop_intext_v5':
+                case 'telegram_desktop_intext_v6':
+                case 'telegram_desktop_intext_v7':
+                case 'telegram_desktop_intext_v8':
 	                ?>
-	                <div class="banner-intext intext">
+	                <div class="banner-intext center intext">
 		                <?php $this->banner_slave( $id, $instance ) ?>
 	                </div>
 	                <?php
@@ -74,7 +78,7 @@ class Telegram_Banner_Widget extends WP_Widget {
                     break;
 				default:
 					?>
-					<div class="banner">
+					<div class="banner center">
 						<?php $this->banner_slave( $id, $instance); ?>
 					</div>
 					<?php
