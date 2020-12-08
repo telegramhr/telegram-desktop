@@ -106,9 +106,9 @@
                 <div class="half vizek flex-responsive pad-me">
                     <div class="quote relative">
                         <div class="quotation-marks">„</div>
-                        <img class="quote-author-image" src="<?php echo $native_path ?>img/maruska-vizek.png?ver=2.0" alt="Maruška Vižek" />
+                        <img class="quote-author-image" src="<?php echo $native_path ?>img/maruska-vizek.png?ver=2.0" alt="Maruška Vizek" />
                         <h2 class="full">Telegram je definitivno drugačiji. Kontinuirano je liberalan i ne odstupa od svog vrijednosnog sustava, a istovremeno je u medijskom mainstreamu. Kod Telegrama je jasna politika promoviranja liberalnog svjetonazora. Čitam ga svaki dan. Volim vaše istraživačke ekskluzive, primjerice Andreja Dimitrijevića, posebno kada su u pitanju nekretninski skandali. Super mi je i Dora Kršul koja prati znanost i obrazovanje, što mi je zanimljivo za moju struku.</h2>
-                        <h3 class="quote-author">Maruška Vižek, ekonomistica</h3>
+                        <h3 class="quote-author">Maruška Vizek, ekonomistica</h3>
                         <div class="quotation-marks">“</div>
                     </div>
                 </div>
