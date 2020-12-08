@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hr">
 <?php
-    $native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/erste/tgneue/';
+    $native_path = 'http://staging.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/erste/tgneue/';
 ?>
 <head>
     <meta charset="UTF-8">
