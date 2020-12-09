@@ -38,11 +38,9 @@ class Telegram_Shortcodes {
 	function quote_box( $atts, $content ) {
 		ob_start();
         ?>
-        <blockquote class="quote cf">
-            <div class="decail"></div>
-            <?php echo do_shortcode( $content ); ?>
-            <div class="decail"></div>
-        </blockquote>
+        <div class="big-quote extra-width">
+            <p><?php echo do_shortcode( $content ); ?></p>
+        </div>
 
 <?php
         return ob_get_clean();
