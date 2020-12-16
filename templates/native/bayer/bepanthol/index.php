@@ -2,19 +2,20 @@
 <html lang="hr">
 
 <?php
+//$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/bayer/bepanthol/';
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/bayer/bepanthol/';
 $test_results = [
     [
-        'da_result' => 'Dok radite na računalu, postavite ekran malo ispod razine pogleda jer ćete tako smanjiti isparavanje suza. Možete si pomoći i umjetnim suzama koje služe kao nadomjestak prirodnima. Na tržištu se posebno ističu Bepanthol® kapi za oči jer sadrže dvije prirodne komponente – hijaluronsku kiselinu i dekspantenol. Formule s hijaluronskom kiselinom imaju sposobnost vezanja vode te tako omogućuju vlaženje oka. Također, hijaluronska kiselina zbog svojih fizikalnih svojstava stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid. Osim hijaluronske kiseline, Bepanthol® kapi sadrže i 2 posto dekspantenola, koji zbog visokog kapaciteta vezanja vode, vlaži i njeguje oko. Zajedno s natrijevim hijalurantom zadržava vlažnost oka.',
-        'ne_result' => 'Iako nemate klasične simptome suhoće očiju dobro se podsjetiti kako izbjeći ovaj problem. Dok radite na računalu, postavite ekran malo ispod razine pogleda jer ćete tako smanjiti isparavanje suza. Nošenje maski također isušuje oči pa ih je dobro odmoriti umjetnim suzama kako bi ostale svježe. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
+        'da_results' => 'Dok radite na računalu, postavite ekran malo ispod razine pogleda jer ćete tako smanjiti isparavanje suza. Možete si pomoći i umjetnim suzama koje služe kao nadomjestak prirodnima. Na tržištu se posebno ističu Bepanthol® kapi za oči jer sadrže dvije prirodne komponente – hijaluronsku kiselinu i dekspantenol. Formule s hijaluronskom kiselinom imaju sposobnost vezanja vode te tako omogućuju vlaženje oka. Također, hijaluronska kiselina zbog svojih fizikalnih svojstava stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid. Osim hijaluronske kiseline, Bepanthol® kapi sadrže i 2 posto dekspantenola, koji zbog visokog kapaciteta vezanja vode, vlaži i njeguje oko. Zajedno s natrijevim hijalurantom zadržava vlažnost oka.',
+        'ne_results' => 'Iako nemate klasične simptome suhoće očiju dobro se podsjetiti kako izbjeći ovaj problem. Dok radite na računalu, postavite ekran malo ispod razine pogleda jer ćete tako smanjiti isparavanje suza. Nošenje maski također isušuje oči pa ih je dobro odmoriti umjetnim suzama kako bi ostale svježe. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
     ],
     [
-        'da_result' => 'Suhoća očiju spada među najčešće očne tegobe. Radi se o simptomima koji se javljaju tijekom smanjenog lučenja suza. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
-        'ne_result' => 'Iako nemate klasične simptome suhoće očiju dobro se podsjetiti kako izbjeći ovaj problem. Dok radite na računalu, postavite ekran malo ispod razine pogleda jer ćete tako smanjiti isparavanje suza. Nošenje maski također isušuje oči pa ih je dobro odmoriti umjetnim suzama kako bi ostale svježe. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
+        'da_results' => 'Suhoća očiju spada među najčešće očne tegobe. Radi se o simptomima koji se javljaju tijekom smanjenog lučenja suza. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
+        'ne_results' => 'Sindrom suhog oka često je stanje u kojem je narušena proizvodnja i kvaliteta suza. To je jedan od najčešćih problema s očima koji postaje sve učestaliji s godinama jer se proizvodnja suza može smanjiti kao dio procesa starenja. Kako biste održali kvalitetu zdravlja svojih očiju, preporučujemo  Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
     ],
     [
-        'da_result' => 'Suhoća očiju spada među najčešće očne tegobe. Radi se o simptomima koji se javljaju tijekom smanjenog lučenja suza. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
-        'ne_result' => 'Iako nemate klasične simptome suhoće očiju dobro se podsjetiti kako izbjeći ovaj problem. Dok radite na računalu, postavite ekran malo ispod razine pogleda jer ćete tako smanjiti isparavanje suza. Nošenje maski također isušuje oči pa ih je dobro odmoriti umjetnim suzama kako bi ostale svježe. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
+        'da_results' => 'Kako biste smanjili rizik od pojave sindroma suhoga oka ili si olakšali tegobe pokušajte smanjiti izloženost čimbenicima koji mogu uzrokovati ili pogoršati stanje kao što su snažan vjetar, duhanski dim i kemijske pare. Također, koristite ovlaživač zraka u zatvorenim prostorima u kojima često i dugo boravite. Također preporučujemo za vas Bepanthol® kapi za oči jer sadrže dvije prirodne komponente - hijaluronsku kiselinu i dekspantenol. Formule s hijaluronskom kiselinom imaju sposobnost vezanja vode te tako omogućuju vlaženje oka. Također, hijaluronska kiselina zbog svojih fizikalnih svojstava stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
+        'ne_results' => 'Nošenje zaštitnih maski, kao i učestalo gledanje u monitore i ekrane, isušuje oči pa ih je dobro odmoriti umjetnim suzama kako bi ostale svježe. Na tržištu su prisutne inovativne formulacije s hijaluronskom kiselinom koje imaju sposobnost vezanja vode i na taj način omogućuju vlaženje oka. Posebno se ističu Bepanthol® kapi koje sadrže natrijevu sol hijaluronske kiseline uslijed čijih fizikalnih svojstava se stvara postojan, stabilan i dugotrajan zaštitni sloj na površini rožnice, koji ne zamućuje vid.',
     ]
 ]
 ?>
@@ -43,13 +44,25 @@ $test_results = [
                 <div class="article-content center">
                     <div class="full">
                         <h2 class="full center-text">Sindrom suhog oka sve je veći zdravstveni problem. Saznajte jeste li i vi u rizičnoj skupini</h2>
-                        <div class="full center"><div class="cta animate">Saznaj više</div></div>
+                        <div class="full center">
+                            <div class="cta animate">Saznaj više</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.telegram.hr/partneri/sva-stanja-koja-utjecu-na-pojavu-suhoce-oka-poremecaji-stitnjace-menopauza-manjak-vitamina/" target="_blank" class="article article-2">
+                <div class="article-content center">
+                    <div class="full">
+                        <h2 class="full center-text">Sva stanja koja utječu na pojavu suhoće oka: Poremećaji štitnjače, menopauza, manjak vitamina</h2>
+                        <div class="full center">
+                            <div class="cta animate">Saznaj više</div>
+                        </div>
                     </div>
                 </div>
             </a>
         </div>
     </div>
-    <div class="full flex color-section">
+    <div class="full flex color-section hide">
         <div class="container flex">
             <h2 class="full center-text shoo-top">Koliko brinete o svojim očima?</h2>
             <p class="full center-text">Riješite test i otkrijte koliko ste posvećeni ovom bitnom dijelu svog tijela</p>
@@ -77,7 +90,7 @@ $test_results = [
                     <!-- Slide 2 -->
                     <div data-slide="2" class="slide slide-2">
                         <h3 class="question">
-                        Koristite li svaki dan stolno računalo za rad od kuće ili u uredu?
+                            Koristite li svaki dan stolno računalo za rad od kuće ili u uredu?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -117,7 +130,7 @@ $test_results = [
                     <!-- Slide 4 -->
                     <div data-slide="4" class="slide slide-4">
                         <h3 class="question">
-                        Pogledate li na mobitel više od 10 puta dnevno?
+                            Pogledate li na mobitel više od 10 puta dnevno?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -137,7 +150,7 @@ $test_results = [
                     <!-- Slide 5 -->
                     <div data-slide="5" class="slide slide-5">
                         <h3 class="question">
-                        Primjećujete li crvenilo nakon dužeg nošenja zaštitne maske?
+                            Primjećujete li crvenilo nakon dužeg nošenja zaštitne maske?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -157,7 +170,7 @@ $test_results = [
                     <!-- Slide 6 -->
                     <div data-slide="6" class="slide slide-6">
                         <h3 class="question">
-                        Primjećujete li peckanje u očima nakon dužeg gledanja u ekran?
+                            Primjećujete li peckanje u očima nakon dužeg gledanja u ekran?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -173,11 +186,11 @@ $test_results = [
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Slide 7 -->
                     <div data-slide="7" class="slide slide-7">
                         <h3 class="question">
-                        Primjećujete li promjenu u oštrini vida nakon dužeg rada za računalom?
+                            Primjećujete li promjenu u oštrini vida nakon dužeg rada za računalom?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -197,7 +210,7 @@ $test_results = [
                     <!-- Slide 8 -->
                     <div data-slide="8" class="slide slide-8">
                         <h3 class="question">
-                        Primjećujete li peckanje, crvenilo u očima ili lagani pritisak u očima duže od 2 mjeseca?
+                            Primjećujete li peckanje, crvenilo u očima ili lagani pritisak u očima duže od 2 mjeseca?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -217,7 +230,7 @@ $test_results = [
                     <!-- Slide 9 -->
                     <div data-slide="9" class="slide slide-9">
                         <h3 class="question">
-                        Koristite li kapi za oči za osvježavanje svojih očiju?
+                            Koristite li kapi za oči za osvježavanje svojih očiju?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -237,7 +250,7 @@ $test_results = [
                     <!-- Slide 10 -->
                     <div data-slide="10" class="slide slide-10">
                         <h3 class="question">
-                        Nosite li leće ili naočale?
+                            Nosite li leće ili naočale?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -257,7 +270,7 @@ $test_results = [
                     <!-- Slide 11 -->
                     <div data-slide="11" class="slide slide-11">
                         <h3 class="question">
-                        Odmarate li svoje oči tijekom dana tako da gledate u daljinu i ne gledate barem 20 minuta u ekran?
+                            Odmarate li svoje oči tijekom dana tako da gledate u daljinu i ne gledate barem 20 minuta u ekran?
                         </h3>
                         <div class="answers flexNoWrap">
                             <div class="answer answer-1" data-answer="da">
@@ -310,6 +323,8 @@ $test_results = [
                 </div>
             </div>
             <script>
+                var da = 0;
+                var ne = 0;
                 jQuery(document).ready(function($) {
                     $('#restart').click(function() {
                         $('.slide').removeClass('active');
@@ -320,18 +335,16 @@ $test_results = [
                         return false;
                     });
                     var descriptions = <?php echo json_encode($test_results); ?>;
-                    var da = 0;
-                    var ne = 0;
-                    var da_result = 1;
-                    var ne_result = 1;
+                    var da_result = 0;
+                    var ne_result = 0;
                     $('.answer').click(function() {
                         var active = $('.slide.active').data('slide');
-                        $current_answer = $(this).attr('data-answer');
-                        if ($current_answer == 'da') {
-                            ne++;
+                        current_answer = $(this).attr('data-answer');
+                        if (current_answer == 'da') {
+                            ne = ne + 1;
                         }
-                        if ($current_answer == 'ne') {
-                            da++;
+                        if (current_answer == 'ne') {
+                            da = da + 1;
                         }
                         //advance
                         $('.slide.slide-' + active).removeClass('active');
@@ -341,26 +354,27 @@ $test_results = [
                             $('.slide.slide-' + active).addClass('active');
                             $('.fa.fa-' + active).addClass('fa-circle');
                         } else {
+
                             if (da > 7) {
-                                da_result = 2;
-                            }
-                            else if (da > 4) {
-                                da_result = 3;
+                                $('.result .description').html(descriptions[2].da_results);
+                            } else if (da > 4) {
+                                $('.result .description').html(descriptions[1].da_results);
+                            } else {
+                                $('.result .description').html(descriptions[0].da_results);
                             }
                             if (ne > 7) {
-                                ne_result = 2;
-                            }
-                            else if (ne > 4) {
-                                ne_result = 3;
+                                $('.result .description-2').html(descriptions[2].ne_results);
+                            } else if (ne > 4) {
+                                $('.result .description-2').html(descriptions[1].ne_results);
+                            } else {
+                                $('.result .description-2').html(descriptions[0].ne_results);
                             }
                             var da = 0;
                             var ne = 0;
-                            var da_result = 1;
-                            var ne_result = 1;
-                            $('.result .description').html(descriptions[da_result].da_result);
-                            $('.result .description-2').html(descriptions[ne_result].ne_result);
                             $('.slide.slide-' + active).addClass('active');
                             $('.progress-bar').fadeOut(0);
+                            var da_result = 1;
+                            var ne_result = 1;
                         }
                         return false;
                     });
@@ -368,21 +382,9 @@ $test_results = [
             </script>
         </div>
     </div>
-    <div class="full flex">
-        <div class="container flex">
-            <a href="https://www.telegram.hr/partneri/sva-stanja-koja-utjecu-na-pojavu-suhoce-oka-poremecaji-stitnjace-menopauza-manjak-vitamina/" target="_blank" class="article article-2">
-                <div class="article-content center">
-                    <div class="full">
-                        <h2 class="full center-text">Sva stanja koja utječu na pojavu suhoće oka: Poremećaji štitnjače, menopauza, manjak vitamina</h2>
-                        <div class="full center"><div class="cta animate">Saznaj više</div></div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
     <div class="full flex color-section">
         <div class="container flex center">
-            <video preload="auto" autoplay="" muted="" loop="" playsinline class="wow fadeIn" src="<?php echo $native_path ?>img/tg_animographic_bepanthol_kapi_web.mp4" type="video/mp4" aria-hidden="true"></video>
+            <video preload="auto" autoplay="" muted="" loop="" playsinline class="wow fadeIn" src="<?php echo $native_path ?>img/tg_animographic_bepanthol_kapi_web.mp4?ver=2.0" type="video/mp4" aria-hidden="true"></video>
         </div>
     </div>
     <div class="full flex">
@@ -391,7 +393,9 @@ $test_results = [
                 <div class="article-content center">
                     <div class="full">
                         <h2 class="full center-text">Maske nas štite od virusa, ali zbog njih mogu patiti naše oči – u pomoć stižu umjetne suze </h2>
-                        <div class="full center"><div class="cta animate">Saznaj više</div></div>
+                        <div class="full center">
+                            <div class="cta animate">Saznaj više</div>
+                        </div>
                     </div>
                 </div>
             </a>
@@ -399,7 +403,9 @@ $test_results = [
                 <div class="article-content center">
                     <div class="full">
                         <h2 class="full center-text">U prosjeku provodimo i po 10 sati prikovani uz računala i mobitele. Tako narušavamo vid. Kako vi stojite?</h2>
-                        <div class="full center"><div class="cta animate">Saznaj više</div></div>
+                        <div class="full center">
+                            <div class="cta animate">Saznaj više</div>
+                        </div>
                     </div>
                 </div>
             </a>
