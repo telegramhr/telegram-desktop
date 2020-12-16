@@ -1,0 +1,367 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #111;
+}
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 30px 15px;
+}
+.native-hero, .color-section {
+    background-color: #c9dcf0;
+}
+.native-title {
+    padding: 50px;
+}
+.native-visual {
+    justify-content: flex-end;
+}
+.native-title video {
+    height: 100%;
+    width: auto;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 92px;
+    font-weight: 900;
+}
+h1.section-title {
+    font-size: 48px;
+}
+ul {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+li {
+    list-style-type: disc;
+    padding-left: 10px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.article-link {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.article h2 {
+    text-transform: uppercase;
+}
+.article {
+    padding-bottom: 50px;
+}
+.article img {
+    margin-bottom: 30px;
+}
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+.article {
+    width: 100%;
+    padding-top: 50%;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 64px;
+    background-position: center center;
+}
+.article:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: inherit;
+    height: inherit;
+    z-index: -2;
+    -webkit-border-radius: inherit;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: inherit;
+    -moz-background-clip: padding;
+    border-radius: inherit;
+    background-clip: padding-box;
+    pointer-events: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+.article:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: inherit;
+    height: inherit;
+    z-index: -2;
+    -webkit-border-radius: inherit;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: inherit;
+    -moz-background-clip: padding;
+    border-radius: inherit;
+    background-clip: padding-box;
+    pointer-events: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.article-content::before {
+    content: ' ';
+    mix-blend-mode: color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c9dcf0;
+}
+.article:hover .cta {
+    background-color: white;
+    color: black;
+}
+/*.article:nth-child(2n) .article-content::before {
+    background-color: #4b9980;
+}*/
+.cta {
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 8px 24px;
+    font-size: 16px;
+    margin: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.article-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10%;
+}
+.article-content > div {
+    background-color: rgba(0,0,0,0.7);
+    padding: 32px;
+}
+.article-1 {
+    background-image: url('https://www.telegram.hr/wp-content/uploads/2020/10/gettyimages-840466270.jpg');
+}
+.article-2 {
+    background-image: url('https://www.telegram.hr/wp-content/uploads/2020/10/gettyimages-1189362136.jpg');
+}
+.article-3 {
+    background-image: url('https://www.telegram.hr/wp-content/uploads/2020/10/gettyimages-1216346428-1.jpg');
+}
+.article-4 {
+    background-image: url('https://www.telegram.hr/wp-content/uploads/2020/10/gettyimages-1192256180.jpg');
+}
+
+.quiz {
+    text-align: center;
+}
+.quiz-container {
+    background: white;
+    padding: 64px;
+    margin: 64px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    color: #333;
+  }
+  
+  .quiz-container .btn {
+    margin: 20px auto 0;
+  }
+  
+  .slide { display: none; width: 100%; }
+  .slide.active { display: block; }
+  
+  .answer {
+    position: relative;
+    top: 0;
+    transition: .3s;
+    -webkit-transition: .3s;
+  }
+  .answer-text {
+    word-wrap: break-word;
+    text-transform: none;
+  }
+  
+  .answer:hover {
+    top: -5px;
+    cursor: pointer;
+  }
+  
+  .answer:hover h4 {
+    color: #69737E;
+  }
+  
+  .answer h4 {
+    font-size: 20px;
+    transition: color .3s;
+    -webkit-transition: color .3s;
+  }
+  
+  .progress-bar {
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+  
+  .progress-bar i {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .progress-bar .fa-circle {
+    color: #333;
+  }
+  .shoo-top {
+      margin-top: 20px;
+  }
+  .quiz-container .share {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: #333;
+    color: white;
+    margin: 10px 5px;
+    top: 0;
+    position: relative;
+  }
+  .share i {
+    line-height: 50px !important;
+  }
+  .share {
+    text-align: center;
+  }
+  
+  .quiz-container .share:hover {
+    top: -5px;
+  }
+  .question {
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .answers {
+      display: flex;
+      padding-top: 20px;
+      flex-wrap: wrap;
+  }
+  .answer {
+    width: 49.99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.answer .answer-text {
+    text-align: center;
+    width: 80%;
+    max-width: 240px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #69737E;
+    color: #69737E;
+    padding: 5px 15px;
+}
+
+@media screen and (max-width: 1023px) {
+    .article {
+        margin: 32px 0px;
+        padding-top: 150%;
+    }
+    .article-content > div {
+        padding: 24px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .article-content {
+        padding: 0px;
+        padding-top: 20%;
+        align-items: flex-end;
+    }
+    .native-title {
+        padding: 30px;
+        margin-bottom: -30vw;
+        z-index: 5;
+        position: relative;
+    }
+    .native-title h1 {
+        text-align: center;
+    }
+    .native-visual {
+        position: relative;
+    }
+    .native-visual video {
+        width: 150%;
+        max-width: 150%;
+        position: relative;
+        right: -50%;
+        z-index: 1;
+    }
+    .native-visual::before {
+        content: ' ';
+        height: 30vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+        background: linear-gradient(to bottom, #c9dcf0, transparent);
+    }
+}
+@media screen and (max-width: 480px) {
+    .quiz-container {
+        margin: 0px;
+        padding: 32px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
