@@ -306,7 +306,18 @@
                         </div>
                         <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                     </div>
-                    
+                </a>
+                <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/za-otvaranje-tekuceg-racuna-u-erste-banci-mi-je-trebalo-oko-20-minuta-zahvaljujuci-georgeu/" target="_blank">
+                    <img src="https://images.telegram.hr/NeF7Rg8sJ16er8O9NiTPUDNQEg5-xguZffmgKtFlzAA/preset:article2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTIvZXJzdGUtaXZhbi1rb21wNC5qcGc.jpg" aria-hidden="true">
+                    <div class="article-content relative flex">
+                        <h2 class="full">Za otvaranje tekućeg računa u Erste banci mi je trebalo oko 20 minuta, zahvaljujući Georgeu</h2>
+                        <p class="full"> Nisam morao pripremiti nikakvu dokumentaciju niti otići u banku, samo sam trebao mobitel i osobnu iskaznicu</p>
+                        <div class="full flex">
+                            <div class="btn">Pročitaj više</div>
+                        </div>
+                        <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
+                    </div>
+                    <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                 </a>
             </div>
             <div class="full quotes center wrap">
