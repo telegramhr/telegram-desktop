@@ -1,8 +1,5 @@
 <?php
-require_once ('plugins/gallery.php');
 require_once ('plugins/shortcodes.php');
-require_once ('plugins/special.php');
-remove_action('wp_footer', 'jetpack_mobile_available');
 remove_action( 'do_pings', 'do_all_pings' );
 
 define('PARENT_PATH', get_theme_root_uri().'/telegram2-desktop');
@@ -18,35 +15,7 @@ function telegram_setup() {
 
     add_theme_support('post-thumbnails');
 
-    register_nav_menus(array(
-        'tg_menu' 	=> 'Telegram Izbornik',
-		'social'	=> 'Društvene mreže',
-		'left_menu'	=> 'Lijevi izbornik',
-        'footer_1'	=> 'Footer 1',
-        'footer_2' 	=> 'Footer 2',
-        'footer_3' 	=> 'Footer 3',
-		'channels'	=> 'Telegram Kanali'
-    ));
-
-    add_theme_support('html5', array(
-        'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
-    ));
-
     add_filter('use_default_gallery_style', '__return_false');
-
-	add_theme_support( 'infinite-scroll', array(
-		'container' => 'content',
-		'footer' => false,
-        'render' => 'telegram_infinite_render',
-        'type' => 'scroll'
-	) );
-}
-function telegram_infinite_render() {
-	while ( have_posts() ) {
-		the_post();
-		get_template_part('templates/articles/article-2');
-	}
-
 }
 
 add_action('admin_init', 'telegram_admin_init');
@@ -54,45 +23,11 @@ function telegram_admin_init() {
 	add_editor_style();
 }
 
-//Gets post cat slug and looks for single-[cat slug].php and applies it
-add_filter('single_template', 'telegram_single_template', 10, 1 );
-
-function telegram_single_template( $the_template ) {
-    foreach ( (array) get_the_category() as $cat ) {
-	    if ( file_exists(TEMPLATEPATH . "/single-{$cat->slug}.php") ) {
-		    return TEMPLATEPATH . "/single-{$cat->slug}.php";
-	    }
-    }
-    return $the_template;
-}
-
-// Image sizes
-function telegram_theme_setup() {
-    // Main sizes
-    add_image_size('article-head', 1200, 800, true);
-    add_image_size('article-1', 620, 370, true);
-    add_image_size('fourth', 280, 230, true);
-    add_image_size('sidebar', 320, 180, true);
-	add_image_size('single-v1', 840, 530, true);
-    add_image_size('article-rainbow-small', 190, 120, true);
-    add_image_size('article-poster', 325, 460, true);
-	// Longfoem sizes
-	add_image_size('fullpage', 1600, 899, true);
-	add_image_size('portrait', 800, 899, true);
-	add_image_size('widescreen', 1600, 650, true);
-	add_image_size('velike-price', 1600, 9999);
-    // Mobile
-    add_image_size('mobile-head', 375, 480, true);
-}
-
-add_action('after_setup_theme', 'telegram_theme_setup');
-
 add_filter( 'image_size_names_choose', 'telegram_custom_sizes', 10, 1 );
 
 function telegram_custom_sizes( $sizes ) {
 	return array(
         'large' => 'Slika u članku',
-		'velike-price' => 'Veliki format u članku',
         'full'      => __('Full Size'),
 	);
 }
@@ -137,241 +72,16 @@ function telegram_load_fonts() {
 
 add_action('wp_enqueue_scripts', 'telegram_main_scripts');
 
-add_filter( 'wp_default_scripts', 'telegram_dequeue_jquery_migrate' );
-
-function telegram_dequeue_jquery_migrate( &$scripts){
-	if(!is_admin()){
-		$scripts->remove( 'jquery');
-		$scripts->add( 'jquery', false, array( 'jquery-core' ), '1.10.2' );
-	}
-}
-
 function telegram_widgets_init() {
-    foreach (glob(dirname(__FILE__) . "/widgets/*.php") as $filename) {
-        require ($filename);
-    }
-    foreach (glob(dirname(__FILE__) . "/widgets/other/*.php") as $filename) {
-        require ($filename);
-    }
-    register_sidebar(
-        array(
-            'name' => 'Naslovnica srednji stupac 1',
-            'description' => 'Srednji stupac na naslovnici 1',
-            'id' => 'home_mid_1',
-            'before_widget' => '<div id="%1$s" class="%2$s">',
-            'after_widget' => '</div>',
-            'before_title' => '',
-            'after_title' => ''
-        )
-    );
-
-	register_sidebar(
-		array(
-			'name' => 'Naslovnica desni stupac 1',
-			'description' => 'Desni stupac na naslovnici 1',
-			'id' => 'home_sidebar_1',
-			'before_widget' => '<div id="%1$s" class="%2$s">',
-			'after_widget' => '</div>',
-			'before_title' => '',
-			'after_title' => ''
-		)
-	);
-
-	register_sidebar(
-		array(
-			'name' => 'Naslovnica srednji stupac 2',
-			'description' => 'Srednji stupac na naslovnici 2',
-			'id' => 'home_mid_2',
-			'before_widget' => '<div id="%1$s" class="%2$s">',
-			'after_widget' => '</div>',
-			'before_title' => '',
-			'after_title' => ''
-		)
-	);
-
-    register_sidebar(
-        array(
-            'name' => 'Naslovnica desni stupac 2',
-            'description' => 'Desni stupac na naslovnici 2',
-            'id' => 'home-sidebar-2',
-            'before_widget' => '<div id="%1$s" class="%2$s">',
-            'after_widget' => '</div>',
-            'before_title' => '',
-            'after_title' => ''
-        )
-    );
-
-	register_sidebar(
-		array(
-			'name' => 'Naslovnica desni stupac 3',
-			'description' => 'Desni stupac na naslovnici 3',
-			'id' => 'home-sidebar-3',
-			'before_widget' => '<div id="%1$s" class="%2$s">',
-			'after_widget' => '</div>',
-			'before_title' => '',
-			'after_title' => ''
-		)
-	);
-
-	register_sidebar(
-        array(
-            'name' => 'Članak',
-            'id' => 'sidebar-single',
-            'description' => 'Bočna traka na članku',
-            'before_widget' => '',
-            'after_widget' => '',
-            'before_title' => '',
-            'after_title' => '',
-        )
-    );
-
-     register_sidebar(
-        array(
-            'name' => 'Članak - Ispod contenta',
-            'id' => 'sidebar-single-bottom-1',
-            'description' => 'Doljnja traka na članku',
-            'before_widget' => '',
-            'after_widget' => '',
-            'before_title' => '',
-            'after_title' => '',
-        )
-    );
-
-     register_sidebar(
-        array(
-            'name' => 'Članak - Izvan contenta',
-            'id' => 'sidebar-single-bottom-2',
-            'description' => 'Doljnja traka na članku',
-            'before_widget' => '',
-            'after_widget' => '',
-            'before_title' => '',
-            'after_title' => '',
-        )
-    );
-
-	register_sidebar(
-		array(
-			'name' => 'Članak - Izvan contenta mobile',
-			'id' => 'mobile-sidebar-single-bottom-2',
-			'description' => 'Doljnja traka na članku-mobile',
-			'before_widget' => '',
-			'after_widget' => '',
-			'before_title' => '',
-			'after_title' => '',
-		)
-	);
-
-    register_sidebar(
-        array(
-            'name' => 'Galerija',
-            'id' => 'sidebar-gallery',
-            'description' => 'Bočna traka na galeriji',
-            'before_widget' => '',
-            'after_widget' => '',
-            'before_title' => '',
-            'after_title' => '',
-        )
-    );
-
-	register_sidebar(
-		array(
-			'name' => 'Video',
-			'id' => 'sidebar-video',
-			'description' => 'Bočna traka na video članku',
-			'before_widget' => '',
-			'after_widget' => '',
-			'before_title' => '',
-			'after_title' => '',
-		)
-	);
+    require ('widgets/class-telegram-banner-widget.php');
 }
 
 add_action('widgets_init', 'telegram_widgets_init');
 
-function get_excerpt($content, $limit) {
-    $excerpt = $content;
-    $stripped = strip_tags($excerpt);
-
-    if (strlen($stripped) > $limit) {
-        $trimmed = rtrim(mb_substr($stripped, 0, $limit));
-        $new_excerpt_array = explode(' ', $trimmed);
-        $last_word = array_pop($new_excerpt_array);
-        $forbidden = array('.', ',', '?', '!', ':', ';');
-        if (in_array(mb_substr($last_word, -1), $forbidden)) {
-            $last_word = mb_substr($last_word, 0, strlen($last_word) - 1);
-        }
-        array_push($new_excerpt_array, $last_word);
-        $new_excerpt = implode(' ', $new_excerpt_array) . '...';
-        return $new_excerpt;
-    } else {
-        return $excerpt;
-    }
-}
-
-add_action( 'init', 'telegram_register_taxonomy' );
-
-function telegram_register_taxonomy() {
-    register_taxonomy(
-        'positions',
-        array('post', 'fotogalerije', 'price', 'video'),
-        array(
-            'label' => 'Pozicije',
-            'rewrite' => false,
-            'hierarchical' => true,
-	        'public' => true
-        )
-    );
-    // Leave this for historic reasons
-	register_taxonomy(
-		'podformati',
-		array('price'),
-		array(
-			'label' => 'Podformati',
-			'rewrite' => false,
-			'hierarchical' => true,
-			'public' => false
-		)
-	);
-	register_taxonomy_for_object_type( 'podformati', 'price' );
-}
-
 add_action('pre_get_posts', 'telegram_pre_get_posts');
 
 function telegram_pre_get_posts($query) {
-	if (!is_admin() && $query->is_main_query()) {
-	    if ($query->is_front_page()) {
-	        $query->set('no_found_rows', true);
-	        $query->set('ignore_sticky_posts', true);
-	        $query->set('post_status', 'publish');
-        }
-
-		if ( ( $query->is_home() || $query->is_category() || $query->is_archive() ) ) {
-			if ( isset( $query->query['post_type'] ) && in_array( $query->query['post_type'], array(
-					'fotogalerije',
-					'video'
-				) )
-			) {
-
-			} else {
-				$query->set( 'post_type', array(
-					'post',
-					'price',
-					'video',
-                    'partneri',
-					'fotogalerije'
-				) );
-			}
-		}
-		if ( ! is_admin() && is_author() && $query->is_main_query() ) {
-
-			$query->set( 'post_type', array(
-				'post',
-				'fotogalerije',
-				'video',
-				'price'
-			) );
-		}
-		if ($query->is_feed() && $query->is_main_query()) {
+	if (!is_admin() && $query->is_main_query() && $query->is_feed()) {
 			$query->set( 'post_type', array(
 				'post',
 				'fotogalerije',
@@ -380,7 +90,6 @@ function telegram_pre_get_posts($query) {
                 'partneri'
 			) );
 			$query->set('no_found_rows', true);
-		}
 	}
 }
 
@@ -417,59 +126,8 @@ add_action( 'admin_enqueue_scripts', 'telegram_custom_wp_admin_style' );
 
 add_action( 'wp_ajax_telegram_widget_get_posts', 'telegram_get_posts' );
 
-//TODO: do we need this?
-function telegram_get_posts() {
-    $q = new WP_Query( array(
-        'posts_per_page' => 10,
-        's' => $_POST['term'],
-        'no_found_rows' => true,
-        'ignore_sticky_posts' => true,
-        'post_status' => 'publish'
-    ) );
-    $posts = array();
-    while ( $q->have_posts() ) {
-        $q->the_post();
-        $posts[] = array( 'label' => get_the_title(), 'value' => get_the_ID() );
-    }
-    header( 'Content-Type: text/json' );
-    echo json_encode( $posts );
-    die();
-}
 
-add_shortcode('galerija', 'telegram_galerija');
 
-// Pogledaj galeriju
-function telegram_galerija($atts, $content) {
-	$atts = shortcode_atts(array(
-		'id' => 0,
-		'url' => ''
-	), $atts);
-	if (!$atts['id'] && !$atts['url'])
-		return '';
-	$url = $atts['url'];
-	$id = $atts['id'];
-	if (!$url) {
-		$url = get_permalink($id);
-	}
-	else {
-		$id = url_to_postid($url);
-	}
-	ob_start();
-
-?>
-    <a href="<?php echo $url ?>" class="gallery-link uppercase">
-        <div class="inner">
-            <div class="gallery-link-text">
-                <i class="fa fa-camera"></i>&nbsp;<span>Pogledaj<br> fotogaleriju</span>
-                <br>
-                <div class="decail"></div>
-            </div>
-        </div>
-        <?php echo get_the_post_thumbnail($id, 'g1') ?>
-    </a>
-	<?php
-	return ob_get_clean();
-}
 
 
 add_filter( "shortcode_atts_caption", 'telegram_img_caption_atts', 10, 3 );
@@ -483,30 +141,6 @@ function telegram_img_caption_atts($out, $pairs, $atts ) {
 	return $out;
 }
 
-
-add_filter('get_the_time', 'telegram_custom_time', 10, 3);
-
-function telegram_custom_time($time, $d, $post) {
-	if ('' == $d) {
-		$gtime = strtotime($post->post_date_gmt);
-		$now = time();
-		$diff = $now-$gtime;
-		if ($diff < 3600) {
-			$minuta = round($diff/60);
-			if (substr($minuta, -1)>0 && substr($minuta, -1)<5 && substr($minuta, -2, 1) !=1) {
-				return 'prije '.$minuta.' minute';
-			}
-			else {
-				return 'prije '.$minuta.' minuta';
-				}
-		}
-		else if ($diff>12*3600) {
-			return get_post_time('d.m.Y', false, $post, true);
-		}
-	}
-	return $time;
-}
-
 function telegram_change_paste_as_text($mceInit, $editor_id){
 	//turn off paste_text_use_dialog and turn on sticky (and default)
 	//NB this has no effect on the browser's right-click context menu's paste!
@@ -514,17 +148,6 @@ function telegram_change_paste_as_text($mceInit, $editor_id){
 	return $mceInit;
 }
 add_filter('tiny_mce_before_init', 'telegram_change_paste_as_text', 1, 2);
-
-function telegram_debug($var, $die = false) {
-	if (in_array(get_current_user_id(), array(1,2))) {
-		echo '<pre>';
-		var_dump( $var );
-		echo '</pre>';
-		if ( $die ) {
-			die();
-		}
-	}
-}
 
 add_filter('the_content', 'telegram_trim', 1,1);
 
@@ -569,7 +192,6 @@ function telegram_pings($event) {
 add_filter('wp_update_attachment_metadata', 'telegram_attachment', 10, 2);
 
 function telegram_attachment($data, $post_id) {
-	$post = get_post($post_id);
 	if ( isset($data['image_meta']['caption']) && $data['image_meta']['caption'] ) {
 	    $fotograf = explode('Photo: ', $data['image_meta']['caption'])[1];
 	    if ($fotograf) {
@@ -580,27 +202,6 @@ function telegram_attachment($data, $post_id) {
 	    }
 	}
 	return $data;
-}
-
-add_filter( 'jetpack_content_width', 'telegram_content_width');
-
-function telegram_content_width($content_width) {
-	global $telegram_smaller;
-	if ($telegram_smaller) {
-		$telegram_smaller = false;
-		return 560;
-	}
-	else {
-		return 656;
-	}
-
-	return $content_width;
-}
-
-add_filter( 'embed_oembed_discover', 'telegram_enable_oembed_discovery' );
-
-function telegram_enable_oembed_discovery() {
-	return true;
 }
 
 add_filter( 'postmeta_form_limit', 'telegram_postmeta_form_limit' );
@@ -656,47 +257,6 @@ function telegram_disable_mce_wptextpattern( $opt ) {
 
 add_filter( 'tiny_mce_before_init', 'telegram_disable_mce_wptextpattern' );
 
-add_filter( 'admin_post_thumbnail_html', 'telegram_add_thumbnail_type', 10, 2 );
-
-function telegram_add_thumbnail_type( $content, $post_id ) {
-    if ( 'price' !== get_post_type($post_id) ) {
-        return $content;
-    }
-	$value = get_post_meta( $post_id, 'telegram_expanded', true );
-	if (!$value) {
-		$value = 1;
-	}
-	$content .= '<div>
-<br>
-<h1>Format članka</h1>
-<label>
-	<input type="radio" name="telegram_expanded" value="1" '.checked( $value, 1, false ).'> Naslov u slici</label>
-<label>
-<br>
-<label>
-	<input type="radio" name="telegram_expanded" value="2" '.checked( $value, 2, false ).'> Naslov ispod slike</label>
-</label>
-<br>
-<label>
-	<input type="radio" name="telegram_expanded" value="3" '.checked( $value, 3, false ).'> Portret</label>
-</label>
-<br>
-<label>
-	<input type="radio" name="telegram_expanded" value="4" '.checked( $value, 4, false ).'> Bez slike</label>
-<label>
-</div>';
-
-	return $content;
-}
-
-add_action( 'save_post', 'telegram_save_post_thumbnail', 10, 3 );
-
-function telegram_save_post_thumbnail($post_id, $post, $update) {
-	if (isset($_POST['telegram_expanded'])) {
-		update_post_meta( $post_id, 'telegram_expanded', intval($_POST['telegram_expanded']) );
-	}
-}
-
 add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
 add_shortcode('caption', 'fixed_img_caption_shortcode');
 function fixed_img_caption_shortcode($attr, $content = null) {
@@ -749,116 +309,12 @@ function capx_filter_guest_author_fields( $fields_to_return, $groups ) {
 	return $fields_to_return;
 }
 
-function telegram_load_megabreak($size, $number) {
-    global $post;
-    if ($size === 'break') {
-        $template = 'templates/articles/article-megabreak.php';
-        $image_size = 'fullpage';
-        if (wp_is_mobile()) {
-            $image_size = 'mobile-head';
-        }
-    }
-    else {
-        $template = 'templates/articles/article-poster.php';
-        $image_size = 'article-poster';
-    }
-	$meta = get_post_meta(get_option('telegram_breaks'));
-	$article1 = maybe_unserialize( $meta[$size.'_'.$number.'_article'][0] )[0];
-	$post = get_post($article1);
-	if (isset($meta[$size.'_'.$number.'_link'][0]) && $meta[$size.'_'.$number.'_link'][0]) {
-		$link = esc_url( $meta[$size.'_'.$number.'_link'][0] );
-	}
-	else if ($article1) {
-		$link = esc_url( get_the_permalink($article1) );
-	}
-	else {
-		$link = '#';
-	}
-	if ( isset($meta[$size.'_'.$number.'_overtitle'][0]) && $meta[$size.'_'.$number.'_overtitle'][0] ) {
-		$overtitle = $meta[$size.'_'.$number.'_overtitle'][0];
-		$overtitle_link = '#';
-	}
-	else if ($article1) {
-		$cat = get_the_category();
-		$overtitle = $cat[0]->name;
-		$overtitle_link = esc_url( get_category_link( $cat[0]->term_id ) );
-	}
-	else {
-		$overtitle = '';
-		$overtitle_link = '#';
-	}
-
-	$title = '';
-	if (isset($meta[$size.'_'.$number.'_title'][0]) && $meta[$size.'_'.$number.'_title'][0]) {
-	    $title = $meta[$size.'_'.$number.'_title'][0];
-    }
-    else if ($article1) {
-	    $title = get_post_meta($article1, 'short_title', true);
-	    if (!$title) {
-	        $title = get_the_title($article1);
-        }
-    }
-    $subtitle = '';
-	if (isset($meta[$size.'_'.$number.'_subtitle'][0]) && $meta[$size.'_'.$number.'_subtitle'][0]) {
-	    $subtitle = $meta[$size.'_'.$number.'_subtitle'][0];
-    }
-    else if($article1){
-	    if (isset($meta[$size.'_'.$number.'_title'][0]) && $meta[$size.'_'.$number.'_title'][0]) {
-	        $subtitle = get_post_meta($article1, 'subtitle', true);
-        }
-        else {
-	        $subtitle = get_the_title($article1);
-        }
-    }
-
-	if ( isset($meta[$size.'_'.$number.'_image'][0]) && $meta[$size.'_'.$number.'_image'][0] ) {
-		$image = wp_get_attachment_image($meta[$size.'_'.$number.'_image'][0], $image_size);
-	}
-	else if ($article1) {
-		$image = get_the_post_thumbnail($article1,$image_size);
-	}
-    $author = '';
-	if ($article1) {
-	    $author = telegram_get_coauthors($article1);
-    }
-    if (isset($meta[$size.'_'.$number.'_button_text']) && $meta[$size.'_'.$number.'_button_text']) {
-	    $button_text = esc_html($meta[$size.'_'.$number.'_button_text']);
-    }
-    else {
-	    $button_text = 'Pročitaj više';
-    }
-    $recommendations = 0;
-    if ($article1) {
-        $recommendations = get_post_meta($article1, '_recommendations', true);
-    }
-    include(locate_template($template));
-    wp_reset_postdata();
-}
-
-function telegram_get_coauthors($post_id, $linked = true) {
-    $author = '';
-	foreach (get_coauthors($post_id) as $coauthor) {
-		if ($author) {
-			$author .= ', ';
-		}
-		//$link = coauthors_posts_links_single($coauthor);
-        if ($linked) {
-		$link = '<a href="'.get_author_posts_url($coauthor->ID, $coauthor->user_nicename).'">'.$coauthor->display_name.'</a>';
-        }
-        else {
-            $link = $coauthor->display_name;
-        }
-		$author .= $link;
-	}
-	return $author;
-}
-
 add_filter( 'tiny_mce_before_init', 'telegram_disable_mce_wptextpattern' );
 
 add_filter( 'amt_image_size_content', 'telegram_amt_image_size', 10, 1 );
 
 function telegram_amt_image_size($size) {
-	return 'velike-price';
+	return 'large';
 }
 
 add_filter( 'amp_post_article_header_meta', 'telegram_amp_header_meta', 10, 1 );
@@ -867,15 +323,6 @@ function telegram_amp_header_meta($parts) {
 	return array( 'meta-subtitle', 'meta-author', 'meta-time' );
 }
 
-add_filter( 'amp_post_template_data', 'telegram_amp_fonts', 1, 2 );
-
-function telegram_amp_fonts($data, $post) {
-    $data['font_urls'] = array(
-	    'lora' => 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&subset=latin-ext',
-	    'ptsans' => 'https://fonts.googleapis.com/css?family=PT Sans:400,700&subset=latin-ext'
-    );
-	return $data;
-}
 
 add_filter( 'amp_site_icon_url', 'telegram_amp_site_icon' );
 
@@ -902,205 +349,19 @@ function telegram_filter_feeds() {
 	}
 }
 
-//add_filter( 'zoninator_zone_max_lock_period', 'z_disable_zoninator_locks' );
-
 add_filter('coauthors_guest_author_manage_cap', 'telegram_coauthors_cap', 10, 1);
 
 function telegram_coauthors_cap($caps) {
     return 'edit_others_posts';
 }
 
-function telegram_acf_query($args, $field, $post_id)
-{
-	$args['post_status'] = array('publish');
-
-	$args['orderby'] = 'date';
-	$args['order'] = 'DESC';
-	$args['no_found_rows'] = true;
-
-	return $args;
-}
-add_filter('acf/fields/relationship/query', 'telegram_acf_query', 10, 3);
-
-function telegram_after_save_image($new_status, $old_status, $post){
-
-	$run_on_statuses = array('publish', 'pending', 'future');
-
-	if(!in_array($new_status, $run_on_statuses))
-		return;
-
-	$post_id = $post->ID;
-	if ($post->post_type === 'guest-author') {
-	    return;
-    }
-
-	if (strtotime($post->post_date) < strtotime('1.10.2017.')) {
-	    return;
-    }
-
-	if ( wp_is_post_revision( $post_id ) )
-		return; //not sure about this.. but apparently save is called twice when this happens
-
-	$image_data = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), "full" );
-	if(!$image_data)
-		return; //separate message if no image at all. (I use a plugin for this)
-
-	$image_width = $image_data[1];
-	$image_height = $image_data[2];
-	switch ($post->post_type) {
-        case 'post':
-        case 'fotogalerija':
-        case 'video':
-            $min_width = 840;
-            $min_height = 530;
-            break;
-        case 'price':
-            $size = get_post_meta($post_id, 'telegram_expanded', true);
-            if (1 === intval($size)) {
-	            $min_width = 1600;
-	            $min_height = 899;
-            }
-            else if (2 === intval($size)) {
-	            $min_width = 1600;
-	            $min_height = 650;
-            }
-            else if (3 === intval($size)) {
-	            $min_width = 800;
-	            $min_height = 899;
-            }
-            else {
-                return;
-            }
-            break;
-        default: //for other post types don't check
-            return;
-            break;
-    }
-	if($image_width < $min_width || $image_height < $min_height){
-
-		// Being safe, honestly $old_status shouldn't be in $run_on_statuses... it wouldn't save the first time!
-		$reverted_status = in_array($old_status, $run_on_statuses) ? 'draft' : $old_status;
-
-		wp_update_post(array(
-			'ID' => $post_id,
-			'post_status' => $reverted_status,
-		));
-
-		$back_link = admin_url("post.php?post=$post_id&action=edit");
-
-		update_post_meta($post_id,'size_warning', "Naslovna slika mora biti najmanje $min_width x $min_height. Objava je ponovo u statusu '$reverted_status'");
-
-	}
-}
-//add_action('transition_post_status', 'telegram_after_save_image', 10, 3);
-
-# Output error message
-function telegram_image_notice(){
-    global $post;
-	if($post && get_post_meta($post->ID, 'size_warning', true)):?>
-
-        <div class="notice notice-error">
-            <p><?php echo get_post_meta($post->ID, 'size_warning', true); ?></p>
-        </div>
-
-	<?php
-        delete_post_meta($post->ID, 'size_warning');
-    endif;
-
-
-}
-add_action('admin_notices','telegram_image_notice');
-
-# Remove the 'Post updated. View post' message
-function telegram_remove_image_notice($messages){
-    global $post;
-	if($post && get_post_meta($post->ID, 'size_warning', true)){
-		return array();
-	}
-
-	return $messages;
-}
-add_filter( 'post_updated_messages', 'telegram_remove_image_notice' );
-
-//add_filter('admin_post_thumbnail_html', 'telegram_admin_thumbnail', 10, 2);
-
-function telegram_admin_thumbnail($content, $post_id) {
-	$id = get_post_thumbnail_id($post_id);
-	if ($id) {
-		$image = wp_get_attachment_image_src( $id, 'full' );
-		switch ($post->post_type) {
-			case 'post':
-			case 'fotogalerija':
-			case 'video':
-				$min_width = 840;
-				$min_height = 530;
-				break;
-			case 'price':
-				$size = get_post_meta($post_id, 'telegram_expanded', true);
-				if (1 === intval($size)) {
-					$min_width = 1600;
-					$min_height = 899;
-				}
-				else if (2 === intval($size)) {
-					$min_width = 1600;
-					$min_height = 650;
-				}
-				else if (3 === intval($size)) {
-					$min_width = 800;
-					$min_height = 899;
-				}
-				else {
-					return;
-				}
-				break;
-			default: //for other post types don't check
-				return;
-				break;
-		}
-		if ( $image[1] < $image_width || $image[2] <$image_height ) {
-			global $current_user;
-			delete_post_thumbnail($post_id);
-			remove_filter( 'admin_post_thumbnail_html', 'telegram_admin_thumbnail' );
-			$content = _wp_post_thumbnail_html(null, $post_id);
-			add_filter( 'admin_post_thumbnail_html', 'telegram_admin_thumbnail' );
-			$content = '<p>'.$current_user->first_name.', odabrana slika nije dovoljno velika za prikaz na ovoj poziciji. Ovaj incident će biti prijavljen.</p>' . $content;
-		}
-	}
-	return $content;
-}
-
-add_filter( 'instant_articles_content', 'telegram_add_perex', 10, 2);
-
-function telegram_add_perex($content, $post_id) {
-    $perex = get_post_meta($post_id, 'perex', true);
-    if ($perex) {
-        $content = '<h1>'.$perex.'</h1>' . $content;
-    }
-    return $content;
-}
-
-add_filter( 'next_posts_link_attributes', 'telegram_next_posts_link_attributes', 10, 1 );
-
-function telegram_next_posts_link_attributes($attr) {
-    $attr = 'class="btn" id="load-more"';
-
-    return $attr;
-}
-
 add_filter( 'coauthors_guest_author_avatar_sizes', 'telegram_avatar_sizes' );
 
 function telegram_avatar_sizes($sizes) {
     $sizes = [
-            30, 150, 200, 300,
+            300,
     ];
     return $sizes;
-}
-
-add_filter('body_class', 'telegram_body_class');
-
-function telegram_body_class($classes) {
-    $classes[] = 'tmg-no-cookie';
-    return $classes;
 }
 
 function telegram_enable_extended_upload ( $mime_types =array() ) {
@@ -1149,14 +410,31 @@ function telegram_epr_post_type($array) {
     return $array;
 }
 
-if( function_exists('acf_add_options_page') ) {
+function telegram_text_strings( $translated_text, $text, $context, $domain ) {
 
-	acf_add_options_page(array(
-		'page_title' 	=> 'US elections',
-		'menu_title'	=> 'US elections',
-		'menu_slug' 	=> 'us-elections',
-		'capability'	=> 'edit_posts',
-		'redirect'		=> false
-	));
-	include_once ('plugins/acf-us.php');
+	if ($context == 'double prime') {
+		if (trim($translated_text) == '&#8243;')
+			return '"';
+
+	}
+	return $translated_text;
 }
+add_filter( 'gettext_with_context', 'telegram_text_strings', 20, 4 );
+
+function telegram_tinymce($arr){
+	$arr['block_formats'] = 'Odlomak=p;Međunaslov=h2;Disclaimer=h6';
+
+	return $arr;
+}
+add_filter('tiny_mce_before_init', 'telegram_tinymce');
+
+function telegram_featured_RSS($content) {
+	global $post;
+	if ( has_post_thumbnail( $post->ID ) ){
+		$content = '<div>' . get_the_post_thumbnail( $post->ID, 'large', array( 'style' => 'margin-bottom: 15px;' ) ) . '</div>' . $content;
+	}
+	return $content;
+}
+
+add_filter('the_excerpt_rss', 'telegram_featured_RSS');
+add_filter('the_content_feed', 'telegram_featured_RSS');

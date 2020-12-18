@@ -26,7 +26,6 @@ function telegram_gallery_shortcode($attr) {
 				</div>
 			</div>
 		<?php
-			$post = get_post($id);
             $gallery_captions[] = array(
                     //'caption' => apply_filters( 'wp_content', $post->post_excerpt ),
                     //'foto' => telegram_get_photographer($id)
@@ -40,4 +39,19 @@ function telegram_gallery_shortcode($attr) {
     </script>
     <?php
 	return ob_get_clean();
+}
+
+function telegram_new_gallery_shortcode($attr) {
+	$ids = explode(',',$attr['ids']);
+	$gallery = [];
+	foreach ($ids as $id) {
+	    $id = intval($id);
+	    $post = get_post($id);
+	    $gallery[] = [
+            'caption' => apply_filters( 'wp_content', $post->post_excerpt ),
+            'author' => telegram_get_photographer($id),
+            'url' => wp_get_attachment_image_src($id, 'full')[0]
+		];
+	}
+	return json_encode($gallery);
 }
