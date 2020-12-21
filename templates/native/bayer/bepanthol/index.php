@@ -384,7 +384,7 @@ $test_results = [
     </div>
     <div class="full flex color-section">
         <div class="container flex center">
-            <video preload="auto" autoplay="" muted="" loop="" playsinline class="wow fadeIn" src="<?php echo $native_path ?>img/tg_animographic_bepanthol_kapi_web.mp4?ver=2.1" type="video/mp4" aria-hidden="true"></video>
+            <video preload="auto" autoplay="" muted="" loop="" playsinline class="wow fadeIn" src="<?php echo $native_path ?>img/tg_animographic_bepanthol_kapi_web.mp4?ver=2.2" type="video/mp4" aria-hidden="true"></video>
         </div>
     </div>
     <div class="full flex">
