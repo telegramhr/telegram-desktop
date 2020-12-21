@@ -58,36 +58,16 @@ class Telegram_Command extends WP_CLI_Command {
 	}
 
 	public function promo($args, $assoc_args) {
-		$position = $assoc_args['position'];
 		remove_action('pre_get_posts', 'telegram_pre_get_posts');
 		remove_action('pre_get_posts', 'telegram_main_query');
-		if ('desktop' == $position) {
 			$meta_query = array(
-				'relation' => 'OR',
 				array(
 					'key' => 'pozicija_1',
 					'value' => '1',
 				),
-				array(
-					'key' => 'pozicija_2',
-					'value' => '1',
-				),
-				array(
-					'key' => 'pozicija_4',
-					'value' => '1',
-				)
 			);
-		}
-		else {
-			$meta_query = array(
-				array(
-					'key' => 'pozicija_3',
-					'value' => '1'
-				)
-			);
-		}
 		$q = new WP_Query(array(
-			'post_type' => ['post', 'native', 'partneri', 'video'],
+			'post_type' => ['partneri'],
 			'post_status' => 'publish',
 			'posts_per_page' => 20,
 			'meta_query' => $meta_query,
@@ -96,7 +76,7 @@ class Telegram_Command extends WP_CLI_Command {
 		$pos = array();
 		while ($q->have_posts()) {
 			$q->the_post();
-			$obj = $this->get_object($q->post->ID, $position);
+			$obj = $this->get_object($q->post->ID);
 			if ($obj['od'] <= current_time('Ymd')) {
 				if ( $obj['do'] <= date( 'Ymd', current_time('U') ) ) {
 					update_post_meta( $q->post->ID, 'pozicija_' . $obj['pos'], 0 );
@@ -105,16 +85,11 @@ class Telegram_Command extends WP_CLI_Command {
 				}
 			}
 		}
-		update_option( 'telegram_promo_'.$position, $pos );
+		update_option( 'telegram_promo_desktop', $pos );
 	}
 
-	private function get_object($post_id, $position) {
-		if ($position == 'desktop') {
+	private function get_object($post_id) {
 			$pos1 = 1;
-		}
-		else {
-			$pos1 = 3;
-		}
 
 		return $object = array(
 			'ID'  => intval( $post_id ),
