@@ -8,6 +8,40 @@ class Telegram_Shortcodes {
 		add_shortcode( 'compare_box', array( $this, 'compare_box' ) );
 		add_shortcode('telegram_video', array( $this, 'video'));
 		add_shortcode('okvir', array( $this, 'okvir'));
+		add_shortcode('galerija', [$this,'telegram_galerija']);
+	}
+
+// Pogledaj galeriju
+	function telegram_galerija($atts, $content) {
+		$atts = shortcode_atts(array(
+			'id' => 0,
+			'url' => ''
+		), $atts);
+		if (!$atts['id'] && !$atts['url'])
+			return '';
+		$url = $atts['url'];
+		$id = $atts['id'];
+		if (!$url) {
+			$url = get_permalink($id);
+		}
+		else {
+			$id = url_to_postid($url);
+		}
+		ob_start();
+
+		?>
+        <a href="<?php echo $url ?>" class="gallery-link uppercase">
+            <div class="inner">
+                <div class="gallery-link-text">
+                    <i class="fa fa-camera"></i>&nbsp;<span>Pogledaj<br> fotogaleriju</span>
+                    <br>
+                    <div class="decail"></div>
+                </div>
+            </div>
+			<?php echo get_the_post_thumbnail($id, 'g1') ?>
+        </a>
+		<?php
+		return ob_get_clean();
 	}
 
 	function action_admin_init() {
