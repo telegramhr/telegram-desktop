@@ -319,6 +319,19 @@
                     </div>
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
                 </a>
+
+                <a class="full article center relative" href="https://www.telegram.hr/partneri/koliko-dugo-i-kako-se-razvijao-app-na-kojem-ce-se-uskoro-moci-dizati-i-krediti-saznali-smo-iz-prve-ruke/" target="_blank">
+                    <img src="https://images.telegram.hr/UI7UQHX2VVOlFfWTn3JSzbeAoes1xnPrMfERt_VEFIU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTIvZ2VvcmdlLW5hdGl2ZS1tYWluLmpwZw.jpg" aria-hidden="true">
+                    <div class="article-content relative flex">
+                        <h2 class="full">Koliko dugo i kako se razvijao app na kojem će se uskoro moći dizati i krediti? Saznali smo iz prve ruke</h2>
+                        <p class="full">S ovom aplikacijom svoje ćete financije voditi na autopilotu, ona će postati vaš digitalni financijski asistent, poručuju iz razvojnog tima </p>
+                        <div class="full flex">
+                            <div class="btn">Pročitaj više</div>
+                        </div>
+                        <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
+                    </div>
+                    <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
+                </a>
             </div>
             <div class="full quotes center wrap">
                 <h2 class="full section-title center-text">O nama pričaju...</h2>
