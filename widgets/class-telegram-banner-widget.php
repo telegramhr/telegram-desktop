@@ -95,7 +95,20 @@ class Telegram_Banner_Widget extends WP_Widget {
                 window.googletag = window.googletag || {}
                 window.googletag.cmd = window.googletag.cmd || []
                 window.googletag.cmd.push(function() {
-                  window.googletag.display('<?php echo esc_attr($id) ?>');
+	                <?php
+	                if (isset($instance['targeting']) && $instance['targeting']) {
+	                ?>
+                    const ds = window.googletag.defineSlot(
+                        '<?php echo esc_attr($instance['targeting']['adUnitPath']) ?>',
+		                <?php echo wp_json_encode($instance['targeting']['size']) ?>,
+                        '<?php echo esc_attr($instance['targeting']['opt_div']) ?>'
+                    );
+                    ds.addService(googletag.pubads());
+                    ds.setTargeting("upc", <?php echo esc_attr($instance['targeting']['up_b']) ?>);<?php
+	                }
+	                ?>
+
+                    window.googletag.display('<?php echo esc_attr($id) ?>');
                 });
             </script>
         </div>
