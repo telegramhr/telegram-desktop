@@ -90,7 +90,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 	function banner_slave($id, $instance) {
 		?>
         <!-- /1092744/telegram -->
-        <div class="intext_banner_wrap" id='<?php echo esc_attr($id) ?>'>
+        <div class="banner-slot" id='<?php echo esc_attr($id) ?>'>
             <script>
                 window.googletag = window.googletag || {}
                 window.googletag.cmd = window.googletag.cmd || []
