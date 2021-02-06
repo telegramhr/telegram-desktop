@@ -90,7 +90,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 	function banner_slave($id, $instance) {
 		?>
         <!-- /1092744/telegram -->
-        <div id='<?php echo esc_attr($id) ?>'>
+        <div class="intext_banner_wrap" id='<?php echo esc_attr($id) ?>'>
             <script>
                 window.googletag = window.googletag || {}
                 window.googletag.cmd = window.googletag.cmd || []
@@ -107,8 +107,6 @@ class Telegram_Banner_Widget extends WP_Widget {
                     ds.setTargeting("upc", <?php echo esc_attr($instance['targeting']['up_b']) ?>);<?php
 	                }
 	                ?>
-
-                    window.googletag.display('<?php echo esc_attr($id) ?>');
                 });
             </script>
         </div>
