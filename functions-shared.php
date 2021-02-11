@@ -158,9 +158,9 @@ function telegram_trim($content) {
 		$content = trim($content);
 	}
 
-	if (is_page()) {
+	//if (is_page()) {
 	    return $content;
-    }
+    //}
 	//add _blank to all outgoing links
     $content = preg_replace_callback('/]*href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function($m) {
         if (strpos($m[1], "www.telegram.hr") === false)
