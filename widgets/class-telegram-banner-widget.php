@@ -64,8 +64,15 @@ class Telegram_Banner_Widget extends WP_Widget {
                 case 'telegram_desktop_intext_v7':
                 case 'telegram_desktop_intext_v8':
 	                ?>
-	                <div class="banner-intext center intext">
+                    <div class="full flex">
+                        <div
+                          class="full center banner-separator relative mobile-only"
+                        >
+                          <div><span>Članak se nastavlja ispod oglasa</span></div>
+                        </div>
+                        <div class="full center">
 		                <?php $this->banner_slave( $id, $instance ) ?>
+		                </div>
 	                </div>
 	                <?php
 	                break;
