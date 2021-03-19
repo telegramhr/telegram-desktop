@@ -64,7 +64,7 @@ class Telegram_Banner_Widget extends WP_Widget {
                 case 'telegram_desktop_intext_v7':
                 case 'telegram_desktop_intext_v8':
 	                ?>
-                    <div class="full flex">
+                    <div class="full flex cxenseignore">
                         <div id="<?php echo $id ?>-info"
                           class="full center banner-separator relative mobile-only hide"
                         >
