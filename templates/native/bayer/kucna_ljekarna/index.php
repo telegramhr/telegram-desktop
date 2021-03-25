@@ -4,7 +4,7 @@
 <?php
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/bayer/kucna_ljekarna/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/bayer/kucna_ljekarna/';
-$native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/bayer/kucna_ljekarna/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/bayer/kucna_ljekarna/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/bayer/kucna_ljekarna/';
 $test_results = [
     [
