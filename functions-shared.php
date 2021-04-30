@@ -231,16 +231,14 @@ function telegram_rss_item_enclosure() {
 	if ( ! has_post_thumbnail() )
 		return;
 	$thumbnail_id = get_post_thumbnail_id( get_the_ID() );
-	$thumbnail = image_get_intermediate_size( $thumbnail_id, 'full' );
+	$thumbnail = image_get_intermediate_size( $thumbnail_id );
 	if ( empty( $thumbnail ) )
 		return;
-	$upload_dir = wp_upload_dir();
-	printf(
-		'<enclosure url="%s" length="%s" type="%s" />',
-		$thumbnail['url'],
-		filesize( path_join( $upload_dir['basedir'], $thumbnail['path'] ) ),
-		get_post_mime_type( $thumbnail_id )
-	);
+
+	echo '<media:content height="150" width="150" url="'.$thumbnail['url'].'" medium="image" />';
+	echo '<media:credit>'.telegram_get_photographer($thumbnail_id).'</media:credit>';
+	echo '<media:description>'.get_the_post_thumbnail_caption(get_the_ID()).'</media:description>';
+
 }
 
 function telegram_disable_mce_wptextpattern( $opt ) {
