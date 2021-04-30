@@ -230,9 +230,8 @@ add_action( 'rss2_item', 'telegram_rss_item_enclosure' );
 function telegram_rss_item_enclosure() {
 	if ( ! has_post_thumbnail() )
 		return;
-	$thumbnail_size = apply_filters( 'rss_enclosure_image_size', 'full' );
 	$thumbnail_id = get_post_thumbnail_id( get_the_ID() );
-	$thumbnail = image_get_intermediate_size( $thumbnail_id, $thumbnail_size );
+	$thumbnail = image_get_intermediate_size( $thumbnail_id, 'full' );
 	if ( empty( $thumbnail ) )
 		return;
 	$upload_dir = wp_upload_dir();
