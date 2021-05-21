@@ -178,6 +178,10 @@ h3.slider-title {
     font-style: italic;
     font-weight: 400;
 }
+p a {
+    color: #ae3737;
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 1023px) {
     .native-hero video {
