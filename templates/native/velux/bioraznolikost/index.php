@@ -77,7 +77,7 @@ $native_path = get_stylesheet_directory_uri() . '/templates/native/velux/biorazn
             <h3 class="full center-text slider-title">7 najugroženijih vrsta Jadrana</h3>
             <div class="full gallery relative">
                 <div>
-                    <img src="<?php echo $native_path ?>img/jadran/novisklat.jpg" aria-hidden="true">
+                    <img src="<?php echo $native_path ?>img/novisklat.jpg" aria-hidden="true">
                     <h3 class="full">SKLAT SIVAC (Squatina squatina)</h3>
                     <p>Jedna od najugroženijih vrsta hrskavičnih riba (morskih pasa i raža) u Jadranu. Ugroženost sklatova u Jadranu posljedica su dugotrajnog i intenzivnog ribolova koćom, mrežama stajaćicama i pridnenim parangalima, ali i gubitkom staništa uzrokovanog ribolovnim aktivnostima. Opstanak ove vrste ovisi o razvoju mjera zaštite kao što su područja ograničena za ribolov. Foto: Aquarium Pula</p>
                 </div>
