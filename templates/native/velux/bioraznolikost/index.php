@@ -2,7 +2,7 @@
 <html lang="hr">
 
 <?php
-$native_path = get_stylesheet_directory_uri() . '/templates/native/velux/bioraznolikost/';
+$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/velux/bioraznolikost/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/velux/bioraznolikost/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/velux/bioraznolikost/';
 ?>
