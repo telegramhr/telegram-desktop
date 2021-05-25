@@ -4,7 +4,7 @@ class Telegram_Command extends WP_CLI_Command {
 
 	public function facebook($args, $assoc_args) {
 		$page = 1;
-		while ($page < 5) {
+		while ($page < 2) {
 			$q = new WP_Query( array(
 				'post_status'    => 'publish',
 				'post_type'      => array( 'post', 'price', 'partneri', 'fotogalerije', 'video', 'native' ),
@@ -12,14 +12,13 @@ class Telegram_Command extends WP_CLI_Command {
 				'paged'           => $page,
 				'ignore_sticky_posts' => true,
 				'no_found_rows'       => true,
+				'p' => 10070077
 			) );
 			while ( $q->have_posts() ) {
 				$q->the_post();
 				$url     = get_the_permalink();
 				$id      = get_the_ID();
-				$request = wp_remote_get( 'https://graph.facebook.com/v3.3/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa&fields=engagement'
-				//$request = wp_remote_get( 'https://graph.facebook.com/v2.10/?id=' . rawurlencode( $url ) . '&access_token=645760695871359|7270df2e6f1aef8f96019feca8861316&fields=engagement'
-				);
+				$request = wp_remote_get( 'https://graph.facebook.com/v10.0/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa&fields=engagement' );
 				if ( ! is_wp_error( $request ) ) {
 					$body = json_decode( $request['body'], true );
 					if ( intval( $body['engagement']['comment_plugin_count'] ) ) {
@@ -197,6 +196,21 @@ class Telegram_Command extends WP_CLI_Command {
 		$results['lastUpdate'] = date('U');
 
 		update_option('us_elections', $results);
+	}
+
+	public function test() {
+		switch_to_blog(2);
+		$rewrites = get_option('rewrite_rules');
+
+		$post = get_post(179252);
+		$url = get_permalink($post);
+		$rule = array_search('index.php?post_type=' . $post->post_type, $rewrites);
+		var_dump($rule);
+	/*	$post_type_object = get_post_type_object($post->post_type);
+		\WP_CLI::line($url . ' ' . $post->post_type);
+		var_dump($post_type_object);
+*/
+		restore_current_blog();
 	}
 }
 
