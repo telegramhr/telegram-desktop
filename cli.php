@@ -4,7 +4,7 @@ class Telegram_Command extends WP_CLI_Command {
 
 	public function facebook($args, $assoc_args) {
 		$page = 1;
-		while ($page < 2) {
+		while ($page < 5) {
 			$q = new WP_Query( array(
 				'post_status'    => 'publish',
 				'post_type'      => array( 'post', 'price', 'partneri', 'fotogalerije', 'video', 'native' ),
@@ -12,7 +12,6 @@ class Telegram_Command extends WP_CLI_Command {
 				'paged'           => $page,
 				'ignore_sticky_posts' => true,
 				'no_found_rows'       => true,
-				'p' => 10070077
 			) );
 			while ( $q->have_posts() ) {
 				$q->the_post();
