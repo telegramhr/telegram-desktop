@@ -24,31 +24,17 @@ class Telegram_Command extends WP_CLI_Command {
 						update_post_meta( $id, '_comments', intval( $body['engagement']['comment_plugin_count'] ) );
 					}
 
-					if ( $id == 402226 ) {
-						return;
-					}
 					$face = intval( $body['engagement']['reaction_count'] ) + intval( $body['engagement']['comment_count'] ) + intval( $body['engagement']['share_count'] ) + intval( $body['engagement']['comment_plugin_count'] );
-					if (  $id === 612167 && $face < 67) {
-						$face = 67;
-					}
-					if (  $id === 696993 && $face < 162) {
-						$face = 162;
-					}
-					if (  $id === 700102 && $face < 122) {
-						$face = 122;
-					}
+
 					$fake = get_post_meta($id, 'fake_recommendations', true);
 					if ($fake && intval($fake) > $face ) {
 						$face = $fake;
 					}
-					update_post_meta( $id, '_face_recommendations', $face );
-					$total   = intval( $face );
-					if ( intval( $total ) ) {
-						if ($id == 508451) {
-							$total += 147;
-						}
+					$total = intval( $face );
+					if ( $total ) {
 						update_post_meta( $id, '_recommendations', $total );
 					}
+
 				}
 			}
 			$page++;
