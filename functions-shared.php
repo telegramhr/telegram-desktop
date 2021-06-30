@@ -424,6 +424,3 @@ function telegram_tinymce($arr){
 	return $arr;
 }
 add_filter('tiny_mce_before_init', 'telegram_tinymce');
-
-
-add_filter('acf/fields/post_object/query', 'telegram_acf_query', 10, 3);
