@@ -425,13 +425,5 @@ function telegram_tinymce($arr){
 }
 add_filter('tiny_mce_before_init', 'telegram_tinymce');
 
-function telegram_featured_RSS($content) {
-	global $post;
-	if ( has_post_thumbnail( $post->ID ) ){
-		$content = '<div>' . get_the_post_thumbnail( $post->ID, 'large', array( 'style' => 'margin-bottom: 15px;' ) ) . '</div>' . $content;
-	}
-	return $content;
-}
 
-//add_filter('the_excerpt_rss', 'telegram_featured_RSS');
-//add_filter('the_content_feed', 'telegram_featured_RSS');
+add_filter('acf/fields/post_object/query', 'telegram_acf_query', 10, 3);
