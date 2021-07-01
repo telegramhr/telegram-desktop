@@ -428,7 +428,7 @@ add_filter('tiny_mce_before_init', 'telegram_tinymce');
 add_filter('pre_option_rss_use_excerpt', 'telegram_rss_load_content', 10, 1);
 
 function telegram_rss_load_content($value) {
-	if ($_GET['esp'] === '1312') {
+	if ($_GET['espf'] === '1312') {
 		return 0;
 	}
 
