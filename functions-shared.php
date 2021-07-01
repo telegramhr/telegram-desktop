@@ -337,7 +337,7 @@ function telegram_filter_feeds() {
 	if( !is_feed() || is_404() )
 		return;
 	global $wp_rewrite, $wp_query;
-	if ( is_author() || is_date() || is_singular() || is_tax() ) {
+	if ( is_date() || is_singular() || is_tax() ) {
 		$wp_query->is_feed = false;
 		$wp_query->set_404();
 		status_header( 404 );
@@ -424,3 +424,13 @@ function telegram_tinymce($arr){
 	return $arr;
 }
 add_filter('tiny_mce_before_init', 'telegram_tinymce');
+
+add_filter('pre_option_rss_use_excerpt', 'telegram_rss_load_content', 10, 1);
+
+function telegram_rss_load_content($value) {
+	if ($_GET['esp'] === '1312') {
+		return 0;
+	}
+
+	return false;
+}
