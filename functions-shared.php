@@ -434,3 +434,11 @@ function telegram_rss_load_content($value) {
 
 	return false;
 }
+
+function telegram_oembed_result($data, $url, $args) {
+	if (strpos($url, 'yout') !== false) {
+		return str_replace('<iframe', '<iframe class="yt-embed"', $data);
+	}
+	return $data;
+}
+add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
