@@ -442,3 +442,13 @@ function telegram_oembed_result($data, $url, $args) {
 	return $data;
 }
 add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
+
+add_action('the_content', 'telegram_content');
+
+function telegram_content($content) {
+	if (strpos($content, 'src="https://youtube')) {
+		$content = str_replace('src="https://www.youtube', 'class="yt-embed" src=https://www.youtube"', $content);
+	}
+
+	return $content;
+}
