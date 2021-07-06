@@ -441,7 +441,7 @@ function telegram_oembed_result($data, $url, $args) {
 	}
 	return $data;
 }
-//add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
+add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
 
 add_action('the_content', 'telegram_content');
 
