@@ -435,6 +435,15 @@ function telegram_rss_load_content($value) {
 	return false;
 }
 
+add_filter( 'get_the_excerpt', 'telegram_rss_excerpt', 10, 2 );
+
+function telegram_rss_excerpt($excerpt, $post) {
+	if ($_GET['espf'] === '1312') {
+		return $post->post_content;
+	}
+	return $excerpt;
+}
+
 function telegram_oembed_result($data, $url, $args) {
 	if (strpos($url, 'yout') !== false) {
 		return str_replace('<iframe', '<iframe class="yt-embed"', $data);
