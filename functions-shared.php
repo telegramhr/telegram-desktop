@@ -312,6 +312,11 @@ function capx_filter_guest_author_fields( $fields_to_return, $groups ) {
 			'label'    => 'Newsletter list',
 			'group'    => 'name',
 		);
+		$fields_to_return[] = array(
+			'key'      => 'newsletter_description',
+			'label'    => 'Newsletter Description',
+			'group'    => 'name',
+		);
 	}
 	return $fields_to_return;
 }
