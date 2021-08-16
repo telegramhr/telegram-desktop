@@ -170,7 +170,7 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
     <footer class="full native-signature">
         <div class="container flex">
             <div class="full center">
-                <img src="<?php echo $native_path ?>img/vegetamaestro_square.png" alt="Vegeta Logo" data-aos="fade-up">
+                <img src="<?php echo $native_path ?>img/vegetamaestro_square.png?ver=2.0" alt="Vegeta Logo" data-aos="fade-up">
                 <img src="<?php echo $native_path ?>img/vegetanatur_square.png" alt="Vegeta Logo" data-aos="fade-up" data-aos-delay="500">
                 <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="750">
                 <img src="<?php echo $native_path ?>img/addiko_square.png" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="1000">
