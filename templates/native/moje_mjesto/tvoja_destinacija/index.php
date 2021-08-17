@@ -97,7 +97,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <div class="half flex-responsive flex">
             <p class="full episode-description" data-aos="fade-right">Na šetnju Dubrovnikom poveo nas je mladi IT-ijevac Ivan Ivušić. Nakon osam godina u Zagrebu odlučio se vratiti u svoj kraj, gdje je osnovao IT firmu koja se bavi digitalnim recenzijama. Njegovi klijenti primarno su ugostitelji iz Hrvatske pa sve do Japana. Kroz šetnju svojim gradom pokazao nam je tko su ljudi i mjesta zbog kojih voli Dubrovnik. Pokazao nam je djelić bogate gastronomske ponude i odao tajnu zašto je ostao vjeran Dubrovniku.</p>
-            <a href="https://www.telegram.hr/zivot/svojim-it-rjesenjima-vec-je-na-trzistu-japana-ali-ivan-je-vjeran-dubrovniku-posjetili-smo-ga-i-saznali-zasto/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledajte video</a>
+            <a href="https://www.telegram.hr/zivot/svojim-it-rjesenjima-vec-je-na-trzistu-japana-ali-ivan-je-vjeran-dubrovniku-posjetili-smo-ga-i-saznali-zasto/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="sibenik">
