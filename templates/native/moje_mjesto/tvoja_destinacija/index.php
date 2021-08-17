@@ -42,7 +42,7 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
                 <a class="full flex" href="#sibenik">Šibenik</a>
                 <a class="full flex" href="#korcula">Korčula</a>
                 <a class="full flex hide" href="#zadar">Zadar</a>
-                <a class="full flex" href="#procitajte-vise">Pročitaj više</a>
+                <a class="full flex hide" href="#procitajte-vise">Pročitaj više</a>
                 <a class="full flex hide" href="#pozovi-nas">Pozovi nas</a>
             </nav>
         </div>
@@ -125,7 +125,7 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
             <p class="full episode-description" data-aos="fade-right">Dolazi uskoro...</p>
         </div>
     </section>
-    <section class="full episode relative" id="procitajte-vise">
+    <section class="full episode relative hide" id="procitajte-vise">
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici flex stretch">
