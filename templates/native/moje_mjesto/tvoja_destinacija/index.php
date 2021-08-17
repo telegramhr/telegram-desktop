@@ -3,7 +3,8 @@
 
 <?php
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/moje_mjesto/tvoja_destinacija/';
-$native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/moje_mjesto/tvoja_destinacija/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/moje_mjesto/tvoja_destinacija/';
+//$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/moje_mjesto/tvoja_destinacija/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/moje_mjesto/tvoja_destinacija/';
 ?>
 
@@ -16,7 +17,8 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=2.0" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.0" type="text/css" />
+    <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
 <div class="main-container flex relative">
@@ -43,12 +45,12 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
                 <a class="full flex" href="#korcula">Korčula</a>
                 <a class="full flex hide" href="#zadar">Zadar</a>
                 <a class="full flex hide" href="#procitajte-vise">Pročitaj više</a>
-                <a class="full flex hide" href="#pozovi-nas">Pozovi nas</a>
+                <a class="full flex" href="#pozovi-nas">Pozovi nas</a>
             </nav>
         </div>
         <div class="flex hero-right center">
-            <img src="<?php echo $native_path ?>img/vegetamaestro_white_square.png" alt="Vegeta Logo">
             <img src="<?php echo $native_path ?>img/vegetanatur_white_square.png" alt="Vegeta Logo">
+            <img src="<?php echo $native_path ?>img/vegetamaestro_white_square.png" alt="Vegeta Logo">
             <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo">
             <img src="<?php echo $native_path ?>img/addiko_white_square.png" alt="Addiko Bank Logo">
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
@@ -95,7 +97,7 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
         </div>
         <div class="half flex-responsive flex">
             <p class="full episode-description" data-aos="fade-right">Na šetnju Dubrovnikom poveo nas je mladi IT-ijevac Ivan Ivušić. Nakon osam godina u Zagrebu odlučio se vratiti u svoj kraj, gdje je osnovao IT firmu koja se bavi digitalnim recenzijama. Njegovi klijenti primarno su ugostitelji iz Hrvatske pa sve do Japana. Kroz šetnju svojim gradom pokazao nam je tko su ljudi i mjesta zbog kojih voli Dubrovnik. Pokazao nam je djelić bogate gastronomske ponude i odao tajnu zašto je ostao vjeran Dubrovniku.</p>
-            <div class="insite-btn" data-aos="fade-right" style="cursor: not-allowed;" data-aos-delay="1000">Dolazi uskoro</div>
+            <a href="https://www.telegram.hr/zivot/svojim-it-rjesenjima-vec-je-na-trzistu-japana-ali-ivan-je-vjeran-dubrovniku-posjetili-smo-ga-i-saznali-zasto/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledajte video</a>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="sibenik">
@@ -147,7 +149,7 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
             </div>
         </div>
     </section>
-    <section class="full episode flex relative stretch hide" id="pozovi-nas">
+    <section class="full episode flex relative stretch" id="pozovi-nas">
         <div class="half flex-responsive flex relative form-parent">
             <h2 class="full episode-title" data-aos="fade-left">Pozovi nas u svoje mjesto</h2>
             <form id="applications" class="full flex" data-aos="fade-left" data-aos-delay="500">
@@ -155,25 +157,40 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
                 Želimo čuti i tvoju priču. Pozovi nas u svoje mjesto, ispričaj nam sve što te veže uz tvoje mjesto, odaj nam zašto živiš tu.
                 </p>
                 <label class="full">Tvoje ime:</label>
-                <input type="text" class="full" id="ime">
+                <input type="text" class="full" id="ime" name="ime">
                 <label class="full">Tvoj e-mail:</label>
-                <input type="email" class="full" id="email">
+                <input type="email" class="full" id="email" name="email">
                 <label class="full">Što nam u svom mjestu želite pokazati i zašto:</label>
-                <textarea type="text" class="full" id="mjesto"></textarea>
-                <div class="insite-btn">Pošalji prijavu</div>
+                <textarea type="text" class="full" id="poruka" name="poruka"></textarea>
+                <div class="full flex">
+                    <input type="checkbox" required id="pravila-privatnosti" name="pravila-privatnosti">
+                    <label class="clickable" for="pravila-privatnosti">Prihvaćam <a href="https://www.telegram.hr/stranica/pravila-privatnosti/" target="_blank">pravila privatnosti Telegrama.</a></label>
+                </div>
+                <div class="full flex">
+                <div id="submit-application" class="insite-btn">Pošalji prijavu</div>
+                </div>
+                <div class="full flex">
+                <p id="error-msg" class="bold hide">Morate prihvatiti pravila privatnosti!</p>
+                </div>
+                <div class="full flex hide" id="loading-indicator">
+                <div class="lds-facebook"><div></div><div></div><div></div></div>
+                </div>
+                <div class="full flex">
+                <p id="response-msg" class="bold hide">Vaša prijava je spremljena. Hvala na sudjelovanju!</p>
+                </div>
             </form>
         </div>
-        <div class="half flex-responsive flex desktop-only" data-aos="fade-right">
+        <div class="half flex-responsive flex desktop-only hide" data-aos="fade-right">
             <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true">
         </div>
     </section>
     <footer class="full native-signature">
         <div class="container flex">
             <div class="full center">
-                <img src="<?php echo $native_path ?>img/vegetamaestro_square.png?ver=4.0" alt="Vegeta Logo" data-aos="fade-up">
                 <img src="<?php echo $native_path ?>img/vegetanatur_square.png" alt="Vegeta Logo" data-aos="fade-up" data-aos-delay="500">
+                <img src="<?php echo $native_path ?>img/vegetamaestro_square.png?ver=4.0" alt="Vegeta Logo" data-aos="fade-up">
                 <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="750">
-                <img src="<?php echo $native_path ?>img/addiko_square.png" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="1000">
+                <img src="<?php echo $native_path ?>img/addiko_square.png?ver=2.0" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="1000">
                 <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1250">
             </div>
             <div class="full center">
@@ -181,6 +198,33 @@ $native_path = 'http://telegram.hr/wp-content/themes/telegram2-desktop/templates
             </div>
             <p class="full center-text">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerima i po najvišim uredničkim standardima Telegram Media Grupe.</p>
         </div>
+        <script>
+        var $form = jQuery('form#applications'),
+            url = 'https://script.google.com/macros/s/AKfycbwRXtkq9CyRS2emXaxpgxiWCGwepukRS3cX_rIr9rc4wqDXFaAP/exec'
+
+        jQuery('#submit-application').on('click', function(e) {
+            e.preventDefault();
+            if(document.getElementById('pravila-privatnosti').checked) {
+                $('#submit-application').hide();
+                $('#error-msg').hide();
+                $('#loading-indicator').removeClass('hide');
+                var jqxhr = jQuery.ajax({
+                    url: url,
+                    method: "GET",
+                    dataType: "json",
+                    data: $form.serializeObject()
+                }).done(
+                    function(){
+                        $('#loading-indicator').hide();
+                        $('#response-msg').removeClass('hide');
+                    }
+                );
+            }
+            else {
+                $('#error-msg').removeClass('hide');
+            }
+        })
+    </script>
     </footer>
 </div>
 
