@@ -44,7 +44,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <a class="full flex" href="#sibenik">Šibenik</a>
                 <a class="full flex" href="#korcula">Korčula</a>
                 <a class="full flex hide" href="#zadar">Zadar</a>
-                <a class="full flex hide" href="#procitajte-vise">Pročitaj više</a>
+                <a class="full flex" href="#procitajte-vise">Pročitaj više</a>
                 <a class="full flex" href="#pozovi-nas">Pozovi nas</a>
             </nav>
         </div>
@@ -127,22 +127,22 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <p class="full episode-description" data-aos="fade-right">Dolazi uskoro...</p>
         </div>
     </section>
-    <section class="full episode relative hide" id="procitajte-vise">
+    <section class="full episode relative" id="procitajte-vise">
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici flex stretch">
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
-                    <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true">
-                    <h3 class="full">Lorem Ipsum Dolor Sit Amet</h3>
-                    <p>In imperdiet mauris purus, eget volutpat lacus faucibus non. Sed in euismod orci, sit amet sodales risus.</p>
+                <a href="https://super1.telegram.hr/relax/donosimo-vam-recept-za-brudet-s-lignjama-koji-smo-probali-u-dubrovniku/" target="_blank" class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/vegeta-01-880x520.jpg" aria-hidden="true">
+                    <h3 class="full">Donosimo vam recept za brudet s lignjama koji smo probali u Dubrovniku</h3>
+                    <p>Rješenje za dane kada vam se jede brudet, ali ne čisti riba</p>
                     <a href="#" class="insite-btn">Pročitaj više</a>
-                </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
-                    <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true">
-                    <h3 class="full">Lorem Ipsum Dolor Sit Amet</h3>
-                    <p>In imperdiet mauris purus, eget volutpat lacus faucibus non. Sed in euismod orci, sit amet sodales risus.</p>
+                </a>
+                <a href="https://super1.telegram.hr/relax/u-dubrovniku-smo-probali-zelenu-pastu-s-plodovima-mora-donosimo-vam-brzi-recept/" target="_blank" class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/dubrovnik-5-2-1-880x520.jpg" aria-hidden="true">
+                    <h3 class="full">U Dubrovniku smo probali zelenu paštu s plodovima mora. Donosimo vam brzi recept</h3>
+                    <p>Ovo je naša inačica zelene pašte koju smo degustirali u Dubrovniku</p>
                     <a href="#" class="insite-btn">Pročitaj više</a>
-                </div>
+                </a>
                 <div class="third flex-responsive center" data-aos="fade-right" data-aos-delay="1500">
                     <h2 class="full center-text">Uskoro više...</h2>
                 </div>
