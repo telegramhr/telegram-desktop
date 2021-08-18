@@ -131,18 +131,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici flex stretch">
-                <a href="https://super1.telegram.hr/relax/donosimo-vam-recept-za-brudet-s-lignjama-koji-smo-probali-u-dubrovniku/" target="_blank" class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/vegeta-01-880x520.jpg" aria-hidden="true">
                     <h3 class="full">Donosimo vam recept za brudet s lignjama koji smo probali u Dubrovniku</h3>
                     <p>Rješenje za dane kada vam se jede brudet, ali ne čisti riba</p>
-                    <a href="#" class="insite-btn">Pročitaj više</a>
-                </a>
-                <a href="https://super1.telegram.hr/relax/u-dubrovniku-smo-probali-zelenu-pastu-s-plodovima-mora-donosimo-vam-brzi-recept/" target="_blank" class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <a href="https://super1.telegram.hr/relax/donosimo-vam-recept-za-brudet-s-lignjama-koji-smo-probali-u-dubrovniku/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/dubrovnik-5-2-1-880x520.jpg" aria-hidden="true">
                     <h3 class="full">U Dubrovniku smo probali zelenu paštu s plodovima mora. Donosimo vam brzi recept</h3>
                     <p>Ovo je naša inačica zelene pašte koju smo degustirali u Dubrovniku</p>
-                    <a href="#" class="insite-btn">Pročitaj više</a>
-                </a>
+                    <a href="https://super1.telegram.hr/relax/u-dubrovniku-smo-probali-zelenu-pastu-s-plodovima-mora-donosimo-vam-brzi-recept/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
                 <div class="third flex-responsive center" data-aos="fade-right" data-aos-delay="1500">
                     <h2 class="full center-text">Uskoro više...</h2>
                 </div>
