@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.0" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.1" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -54,6 +54,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo">
             <img src="<?php echo $native_path ?>img/addiko_white_square.png" alt="Addiko Bank Logo">
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
+            <img src="<?php echo $native_path ?>img/jaguar_white_square.png" class="jaguar-logo" alt="Jaguar Logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
@@ -192,6 +193,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="750">
                 <img src="<?php echo $native_path ?>img/addiko_square.png?ver=2.0" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="1000">
                 <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1250">
+            </div>
+            <div class="full center">
+                <img src="<?php echo $native_path ?>img/jaguar_white_square.png" class="jaguar-logo" alt="Jaguar Logo">
             </div>
             <div class="full center">
             <img class="tg-studio" src="<?php echo $native_path ?>img/tg_studio_white.svg" alt="TG Studio logo" />
