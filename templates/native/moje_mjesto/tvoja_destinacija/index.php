@@ -109,7 +109,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <div class="half flex-responsive flex">
             <p class="full episode-description" data-aos="fade-right">Ulicama Šibenika proveo nas je dizajner Danijel Hrg, čiji je dućan s unikatnim nakitom smješten u samom centru grada. Osim nakita, Danijel je autor impresivnih umjetničkih instalacija koje krase grad i kultni klub Azimut. S Danijelom smo posjetili Azimut i prekrasnu Tvrđavu sv. Mihovila, upoznali smo gastronomsku i kulturnu ponudu grada te na vlastitoj koži osjetili veliko gostoprimstvo Šibenčana.</p>
-            <div class="insite-btn" data-aos="fade-right" style="cursor: not-allowed;" data-aos-delay="1000">Dolazi uskoro</div>
+            <a href="https://www.telegram.hr/zivot/prvu-ogrlicu-izradio-je-za-djevojku-ona-mu-je-danas-supruga-a-on-poznati-sibenski-dizajner-posjetili-smo-ga/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</div>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="korcula">
