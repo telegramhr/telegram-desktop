@@ -282,6 +282,11 @@ h3 {
 label a {
     text-decoration: underline;
 }
+#procitajte-vise .sugovornici .third img {
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
 
 /* Footer */
 
@@ -470,6 +475,9 @@ footer .center {
     }
     .native-signature .container p {
         padding: 6vw;
+    }
+    #procitajte-vise .sugovornici .third img {
+        height: 40vw;
     }
 }
 
