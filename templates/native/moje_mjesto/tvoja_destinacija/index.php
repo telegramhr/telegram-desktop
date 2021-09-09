@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.22" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.3" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -132,7 +132,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <section class="full episode relative" id="procitajte-vise">
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
-            <div class="full sugovornici flex stretch">
+            <div class="full sugovornici extra-content flex stretch">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="https://images.telegram.hr/A0bTk2contU-bMAE_iUm4IrAa_xw2NXRFOTQt9A_H8E/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvcGV4ZWxzLWluY2hzLTc5ODg5NzEtODgweDUyMC0xLmpwZw.jpg" aria-hidden="true">
+                    <h3 class="full">Ove smo sezone proputovali obalu. Odabrali smo top destinacije za sve koji vole aktivni odmor</h3>
+                    <p>Mnogo je prilika za aktivni odmor u Hrvatskoj. Donosimo nekoliko prijedloga</p>
+                    <a href="https://www.telegram.hr/partneri/ove-smo-sezone-proputovali-obalu-odabrali-smo-top-destinacije-za-sve-koji-vole-aktivni-odmor/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
                     <img src="https://images.telegram.hr/e2IAQHoUfZY5icMBm80_ttR7D3_AMD9v4ZnEbQ7tywc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvNDAwYTUwMTctc2NhbGVkLmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Testirali smo novi Huawei Watch 3 Pro tijekom šetnje Zadrom. Evo zašto nam se sviđa</h3>

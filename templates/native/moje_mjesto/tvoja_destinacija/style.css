@@ -165,6 +165,9 @@ p {
 h3 {
     font-size: 46px;
 }
+.extra-content h3 {
+    font-size: 36px;
+}
 .sugovornici .third {
     padding: 32px;
     scroll-snap-align: start;
@@ -365,6 +368,16 @@ footer .center {
     max-height: 13vh;
     object-fit: contain;
     object-position: center center;
+}
+.extra-content {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    display: flex;
+}
+.extra-content .third {
+    scroll-snap-align: start;
+    width: 25vw;
+    min-width: 25vw;
 }
 
 @media screen and (max-width: 1279px) {
