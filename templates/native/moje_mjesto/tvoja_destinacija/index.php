@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.0" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.22" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -54,6 +54,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo">
             <img src="<?php echo $native_path ?>img/addiko_white_square.png" alt="Addiko Bank Logo">
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
+            <img src="<?php echo $native_path ?>img/huawei_square_white.png" alt="Huawei Logo">
+            <img src="<?php echo $native_path ?>img/jaguar_white_square.png" class="jaguar-logo" alt="Jaguar Logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
@@ -107,7 +109,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <div class="half flex-responsive flex">
             <p class="full episode-description" data-aos="fade-right">Ulicama Šibenika proveo nas je dizajner Danijel Hrg, čiji je dućan s unikatnim nakitom smješten u samom centru grada. Osim nakita, Danijel je autor impresivnih umjetničkih instalacija koje krase grad i kultni klub Azimut. S Danijelom smo posjetili Azimut i prekrasnu Tvrđavu sv. Mihovila, upoznali smo gastronomsku i kulturnu ponudu grada te na vlastitoj koži osjetili veliko gostoprimstvo Šibenčana.</p>
-            <div class="insite-btn" data-aos="fade-right" style="cursor: not-allowed;" data-aos-delay="1000">Dolazi uskoro</div>
+            <a href="https://www.telegram.hr/zivot/prvu-ogrlicu-izradio-je-za-djevojku-ona-mu-je-danas-supruga-a-on-poznati-sibenski-dizajner-posjetili-smo-ga/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="korcula">
@@ -132,19 +134,22 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici flex stretch">
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="https://images.telegram.hr/e2IAQHoUfZY5icMBm80_ttR7D3_AMD9v4ZnEbQ7tywc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvNDAwYTUwMTctc2NhbGVkLmpwZw.jpg" aria-hidden="true">
+                    <h3 class="full">Testirali smo novi Huawei Watch 3 Pro tijekom šetnje Zadrom. Evo zašto nam se sviđa</h3>
+                    <p>Novi Huawei Watch 3 Pro s nama je prešao na tisuće koraka</p>
+                    <a href="https://www.telegram.hr/partneri/testirali-smo-novi-huawei-watch-3-pro-tijekom-setnje-zadrom-evo-zasto-nam-se-svida/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/vegeta-01-880x520.jpg" aria-hidden="true">
                     <h3 class="full">Donosimo vam recept za brudet s lignjama koji smo probali u Dubrovniku</h3>
                     <p>Rješenje za dane kada vam se jede brudet, ali ne čisti riba</p>
                     <a href="https://super1.telegram.hr/relax/donosimo-vam-recept-za-brudet-s-lignjama-koji-smo-probali-u-dubrovniku/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/dubrovnik-5-2-1-880x520.jpg" aria-hidden="true">
                     <h3 class="full">U Dubrovniku smo probali zelenu paštu s plodovima mora. Donosimo vam brzi recept</h3>
                     <p>Ovo je naša inačica zelene pašte koju smo degustirali u Dubrovniku</p>
                     <a href="https://super1.telegram.hr/relax/u-dubrovniku-smo-probali-zelenu-pastu-s-plodovima-mora-donosimo-vam-brzi-recept/" target="_blank" class="insite-btn">Pročitaj više</a>
-                </div>
-                <div class="third flex-responsive center" data-aos="fade-right" data-aos-delay="1500">
-                    <h2 class="full center-text">Uskoro više...</h2>
                 </div>
             </div>
         </div>
@@ -192,6 +197,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="750">
                 <img src="<?php echo $native_path ?>img/addiko_square.png?ver=2.0" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="1000">
                 <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1250">
+                <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="1500">
+            </div>
+            <div class="full center">
+                <img src="<?php echo $native_path ?>img/jaguar_white_square.png" class="jaguar-logo" alt="Jaguar Logo">
             </div>
             <div class="full center">
             <img class="tg-studio" src="<?php echo $native_path ?>img/tg_studio_white.svg" alt="TG Studio logo" />

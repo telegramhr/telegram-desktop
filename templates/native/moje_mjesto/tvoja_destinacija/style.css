@@ -282,6 +282,11 @@ h3 {
 label a {
     text-decoration: underline;
 }
+#procitajte-vise .sugovornici .third img {
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
 
 /* Footer */
 
@@ -297,8 +302,8 @@ footer {
     padding: 0px 50px;
 }
 .native-signature img {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
     margin: 30px
 }
@@ -352,6 +357,14 @@ footer .center {
     margin: 0 auto;
     width: 10vw;
     margin-bottom: 2px;
+}
+.jaguar-logo {
+    margin-top: 48px;
+}
+.hero-right img {
+    max-height: 13vh;
+    object-fit: contain;
+    object-position: center center;
 }
 
 @media screen and (max-width: 1279px) {
@@ -462,6 +475,9 @@ footer .center {
     }
     .native-signature .container p {
         padding: 6vw;
+    }
+    #procitajte-vise .sugovornici .third img {
+        height: 40vw;
     }
 }
 
