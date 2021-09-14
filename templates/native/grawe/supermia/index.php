@@ -3,7 +3,8 @@
 
 <?php
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/grawe/supermia/';
-$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/grawe/supermia/';
+//$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/grawe/supermia/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/grawe/supermia/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/grawe/supermia/';
 
 ?>
@@ -118,17 +119,17 @@ $native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/te
         <div class="full flex main-color-bg relative">
             <div class="container relative flex articles-container">
                 <h2 class="full center-text" data-aos="fade-up">Još sadržaja o financijskoj stabilnosti</h2>
-                <a class="third flex-responsive article" data-aos="fade-up" data-aos-delay="750">
+                <a class="third flex-responsive article hide" data-aos="fade-up" data-aos-delay="750">
                     <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true" />
                     <h3 class="full flex">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                     <div class="cta animate">Saznaj više</div>
                 </a>
-                <a class="third flex-responsive article" data-aos="fade-up" data-aos-delay="1250">
+                <a class="third flex-responsive article hide" data-aos="fade-up" data-aos-delay="1250">
                     <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true" />
                     <h3 class="full flex">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                     <div class="cta animate">Saznaj više</div>
                 </a>
-                <a class="third flex-responsive article" data-aos="fade-up" data-aos-delay="1750">
+                <a class="third flex-responsive article hide" data-aos="fade-up" data-aos-delay="1750">
                     <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true" />
                     <h3 class="full flex">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                     <div class="cta animate">Saznaj više</div>
