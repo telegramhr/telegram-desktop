@@ -338,7 +338,6 @@ footer .center {
     border-top: 1px solid rgba(255,255,255,0.25);
 }
 .mobile-nav a.fourth {
-    width: 33.33%;
     margin: 0px;
     font-size: 16px;
     height: 20vw;
@@ -491,6 +490,9 @@ footer .center {
     }
     #procitajte-vise .sugovornici .third img {
         height: 40vw;
+    }
+    .extra-content h3 {
+        font-size: 26px;
     }
 }
 

@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.3" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=4.0" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -42,8 +42,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <a class="full flex" href="#o-projektu">O projektu</a>
                 <a class="full flex" href="#dubrovnik">Dubrovnik</a>
                 <a class="full flex" href="#sibenik">Šibenik</a>
+                <a class="full flex" href="#zadar">Zadar</a>
                 <a class="full flex" href="#korcula">Korčula</a>
-                <a class="full flex hide" href="#zadar">Zadar</a>
                 <a class="full flex" href="#procitajte-vise">Pročitaj više</a>
                 <a class="full flex" href="#pozovi-nas">Pozovi nas</a>
             </nav>
@@ -64,8 +64,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <nav class="full flex mobile-nav stretch">
         <a class="fourth center" href="#dubrovnik"><img src="<?php echo $native_path ?>img/icon_dubrovnik.png" aria-hidden="true"><span>Dubrovnik</span></a>
         <a class="fourth center" href="#sibenik"><img src="<?php echo $native_path ?>img/icon_sibenik.png" aria-hidden="true"><span>Šibenik</span></a>
+        <a class="fourth center" href="#zadar"><img src="<?php echo $native_path ?>img/icon_zadar.png" aria-hidden="true"><span>Zadar</span></a>
         <a class="fourth center" href="#korcula"><img src="<?php echo $native_path ?>img/icon_korcula.png" aria-hidden="true"><span>Korčula</span></a>
-        <a class="fourth center hide" href="#zadar"><img src="<?php echo $native_path ?>img/icon_zadar.png" aria-hidden="true"><span>Zadar</span></a>
     </nav>
     <section class="full episode relative" id="o-projektu">
         <div class="full flex">
@@ -112,6 +112,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <a href="https://www.telegram.hr/zivot/prvu-ogrlicu-izradio-je-za-djevojku-ona-mu-je-danas-supruga-a-on-poznati-sibenski-dizajner-posjetili-smo-ga/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
+    <section class="full episode episode-overlay flex relative stretch" id="zadar">
+        <video src="<?php echo $native_path ?>img/tg_videobg_zadar.mp4" autoplay loop muted playsinline class="background-video"></video>
+        <div class="half flex-responsive flex">
+            <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Zadar</h2>
+        </div>
+        <div class="half flex-responsive flex">
+            <p class="full episode-description" data-aos="fade-right">Dolazi uskoro...</p>
+        </div>
+    </section>
     <section class="full episode episode-overlay flex relative stretch" id="korcula">
         <video src="<?php echo $native_path ?>img/tg_videobg_korcula.mp4" autoplay loop muted playsinline class="background-video"></video>
         <div class="half flex-responsive flex">
@@ -121,18 +130,16 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <p class="full episode-description" data-aos="fade-right">Dolazi uskoro...</p>
         </div>
     </section>
-    <section class="full episode flex relative stretch hide" id="zadar">
-        <div class="half flex-responsive flex">
-            <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Zadar</h2>
-        </div>
-        <div class="half flex-responsive flex">
-            <p class="full episode-description" data-aos="fade-right">Dolazi uskoro...</p>
-        </div>
-    </section>
     <section class="full episode relative" id="procitajte-vise">
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
+            <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="https://images.telegram.hr/l6ujBbUQwcEF-sGJQ-SHNM6hjXYb1sA01xPc0TJQ4eg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvdW5uYW1lZDIyLXNjYWxlZC5qcGc.jpg" aria-hidden="true">
+                    <h3 class="full">Fitness trener nam je objasnio zašto se ne trebamo osjećati loše ako nismo vježbali tijekom ljeta</h3>
+                    <p>Tomislav Skoko objasnio nam je važnost odmora u fitness rutini</p>
+                    <a href="https://www.telegram.hr/partneri/fitness-trener-nam-je-objasnio-zasto-se-ne-trebamo-osjecati-lose-ako-nismo-vjezbali-tijekom-ljeta/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
                     <img src="https://images.telegram.hr/A0bTk2contU-bMAE_iUm4IrAa_xw2NXRFOTQt9A_H8E/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvcGV4ZWxzLWluY2hzLTc5ODg5NzEtODgweDUyMC0xLmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Ove smo sezone proputovali obalu. Odabrali smo top destinacije za sve koji vole aktivni odmor</h3>
