@@ -86,7 +86,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <p>Danijel svojim umjetničkim instalacijama obogaćuje kulturnu ponudu grada i šire. Posjetili smo ga u Šibeniku.</p>
                     <a href="#sibenik" class="insite-btn">Pogledaj epizodu</a>
                 </div>
-                <div class="third flex-responsive center" data-aos="fade-right" data-aos-delay="1750">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1750">
+                    <img src="<?php echo $native_path ?>img/sugovornik_vinko.jpg" aria-hidden="true">
+                    <div class="full sugovornik-episode">03</div>
+                    <h3 class="full">Vinko iz Zadra</h3>
+                    <p>Vinkovu Lektiru na sceni pogledalo je više od 6000 srednjoškolaca. Mladog redatelja posjetili smo u Zadru.</p>
+                    <a href="#zadar" class="insite-btn">Pogledaj epizodu</a>
+                </div>
+                <div class="third flex-responsive center hide" data-aos="fade-right" data-aos-delay="2000">
                     <h2 class="full center-text">Uskoro više...</h2>
                 </div>
             </div>
@@ -118,7 +125,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Zadar</h2>
         </div>
         <div class="half flex-responsive flex">
-            <p class="full episode-description" data-aos="fade-right">Dolazi uskoro...</p>
+            <p class="full episode-description" data-aos="fade-right">Pronašli smo prekrasne ljude u prekrasnim mjestima. Kroz šetnju svojim mjestom ispričali su nam zašto su ostali vjerni svom kraju. U trećem nastavku video serijala "Moje mjesto, tvoja destinacija" posjetili smo Zadar. Naš domaćin je kazališni redatelj Vinko Radovčić. Ovo je njegova priča.</p>
+            <a href="https://www.telegram.hr/zivot/vinkovu-lektiru-na-sceni-pogledalo-je-vise-od-6000-srednjoskolaca-mladog-redatelja-posjetili-smo-u-zadru/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="korcula">
