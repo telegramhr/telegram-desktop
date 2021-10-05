@@ -142,31 +142,37 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
-            <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/wellness-spa8-880x520.jpg" aria-hidden="true">
+                    <h3 class="full">Vrijeme je za jesenski wellness. Ovaj hotel u Istri ima sve, pa i bazen s grijanom morskom vodom </h3>
+                    <p>Želite li se razmaziti, Hotel Aminess Maestral u Novigradu ima posebnu ponudu</p>
+                    <a href="https://super1.telegram.hr/relax/vrijeme-je-za-jesenski-wellness-ovaj-hotel-u-istri-ima-sve-pa-i-bazen-s-grijanom-morskom-vodom/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
                     <img src="https://images.telegram.hr/l6ujBbUQwcEF-sGJQ-SHNM6hjXYb1sA01xPc0TJQ4eg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvdW5uYW1lZDIyLXNjYWxlZC5qcGc.jpg" aria-hidden="true">
                     <h3 class="full">Fitness trener nam je objasnio zašto se ne trebamo osjećati loše ako nismo vježbali tijekom ljeta</h3>
                     <p>Tomislav Skoko objasnio nam je važnost odmora u fitness rutini</p>
                     <a href="https://www.telegram.hr/partneri/fitness-trener-nam-je-objasnio-zasto-se-ne-trebamo-osjecati-lose-ako-nismo-vjezbali-tijekom-ljeta/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
                     <img src="https://images.telegram.hr/A0bTk2contU-bMAE_iUm4IrAa_xw2NXRFOTQt9A_H8E/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvcGV4ZWxzLWluY2hzLTc5ODg5NzEtODgweDUyMC0xLmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Ove smo sezone proputovali obalu. Odabrali smo top destinacije za sve koji vole aktivni odmor</h3>
                     <p>Mnogo je prilika za aktivni odmor u Hrvatskoj. Donosimo nekoliko prijedloga</p>
                     <a href="https://www.telegram.hr/partneri/ove-smo-sezone-proputovali-obalu-odabrali-smo-top-destinacije-za-sve-koji-vole-aktivni-odmor/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1750">
                     <img src="https://images.telegram.hr/e2IAQHoUfZY5icMBm80_ttR7D3_AMD9v4ZnEbQ7tywc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDkvNDAwYTUwMTctc2NhbGVkLmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Testirali smo novi Huawei Watch 3 Pro tijekom šetnje Zadrom. Evo zašto nam se sviđa</h3>
                     <p>Novi Huawei Watch 3 Pro s nama je prešao na tisuće koraka</p>
                     <a href="https://www.telegram.hr/partneri/testirali-smo-novi-huawei-watch-3-pro-tijekom-setnje-zadrom-evo-zasto-nam-se-svida/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="2000">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/vegeta-01-880x520.jpg" aria-hidden="true">
                     <h3 class="full">Donosimo vam recept za brudet s lignjama koji smo probali u Dubrovniku</h3>
                     <p>Rješenje za dane kada vam se jede brudet, ali ne čisti riba</p>
                     <a href="https://super1.telegram.hr/relax/donosimo-vam-recept-za-brudet-s-lignjama-koji-smo-probali-u-dubrovniku/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="2250">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/dubrovnik-5-2-1-880x520.jpg" aria-hidden="true">
                     <h3 class="full">U Dubrovniku smo probali zelenu paštu s plodovima mora. Donosimo vam brzi recept</h3>
                     <p>Ovo je naša inačica zelene pašte koju smo degustirali u Dubrovniku</p>
