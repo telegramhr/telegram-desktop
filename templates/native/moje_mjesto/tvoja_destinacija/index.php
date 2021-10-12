@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=4.0" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=4.20" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -72,29 +72,33 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">O projektu</h2>
             <p class="full project-intro" data-aos="fade-left" data-aos-delay="750">U dokumentarnom serijalu "Moje mjesto, tvoja destinacija" vodimo vas na ulice prekrasnih hrvatskih gradova uz lokalne vodiče - pojedince koji su odlučili ostati u svojim mjestima i graditi njihovu kulturu.</p>
             <div class="full sugovornici flex stretch">
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
+                <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
                     <img src="<?php echo $native_path ?>img/sugovornik_ivan.jpg" aria-hidden="true">
                     <div class="full sugovornik-episode">01</div>
                     <h3 class="full">Ivan iz Dubrovnika</h3>
                     <p>Ivan svojim IT rješenjima osvaja svijet. Nedavno je ušao na tržište Japana. Posjetili smo ga u Dubrovniku.</p>
                     <a href="#dubrovnik" class="insite-btn">Pogledaj epizodu</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
+                <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
                     <img src="<?php echo $native_path ?>img/sugovornik_danijel.jpg" aria-hidden="true">
                     <div class="full sugovornik-episode">02</div>
                     <h3 class="full">Danijel iz Šibenika</h3>
                     <p>Danijel svojim umjetničkim instalacijama obogaćuje kulturnu ponudu grada i šire. Posjetili smo ga u Šibeniku.</p>
                     <a href="#sibenik" class="insite-btn">Pogledaj epizodu</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1750">
+                <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1750">
                     <img src="<?php echo $native_path ?>img/sugovornik_vinko.jpg" aria-hidden="true">
                     <div class="full sugovornik-episode">03</div>
                     <h3 class="full">Vinko iz Zadra</h3>
                     <p>Vinkovu Lektiru na sceni pogledalo je više od 6000 srednjoškolaca. Mladog redatelja posjetili smo u Zadru.</p>
                     <a href="#zadar" class="insite-btn">Pogledaj epizodu</a>
                 </div>
-                <div class="third flex-responsive center hide" data-aos="fade-right" data-aos-delay="2000">
-                    <h2 class="full center-text">Uskoro više...</h2>
+                <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="2000">
+                    <img src="<?php echo $native_path ?>img/sugovornik_marijana.jpg" aria-hidden="true">
+                    <div class="full sugovornik-episode">04</div>
+                    <h3 class="full">Marijana iz Korčule</h3>
+                    <p>Dok su se druga djeca igrala ona je konobarila i prodavala sladoled. Sad na Korčuli vodi obiteljski restoran.</p>
+                    <a href="#korcula" class="insite-btn">Pogledaj epizodu</a>
                 </div>
             </div>
         </div>
@@ -135,7 +139,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Korčula</h2>
         </div>
         <div class="half flex-responsive flex">
-            <p class="full episode-description" data-aos="fade-right">Dolazi uskoro...</p>
+            <p class="full episode-description" data-aos="fade-right">U Zagrebu je studirala odnose s javnošću. Na praksi je shvatila da to nije posao kojem želi posvetiti život. Vratila se doma. I isplatilo se. Na Korčuli ugostila nas je PR stručnjakinja Marijana Kapor. Ovo je njezina priča.</p>
+            <a href="https://www.telegram.hr/zivot/dok-su-se-druga-djeca-igrala-ona-je-konobarila-i-prodavala-sladoled-sad-na-korculi-vodi-obiteljski-restoran/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
     <section class="full episode relative" id="procitajte-vise">

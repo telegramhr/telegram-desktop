@@ -157,7 +157,7 @@ p {
     padding-left: 32px;
 }
 .sugovornici p {
-    font-size: 24px;
+    font-size: 23px;
     opacity: .7;
     padding-top: 20px;
     border-top: 1px solid rgba(255,255,255,0.25);
@@ -168,7 +168,7 @@ h3 {
 .extra-content h3 {
     font-size: 36px;
 }
-.sugovornici .third {
+.sugovornici .third, .sugovornici .fourth {
     padding: 32px;
     scroll-snap-align: start;
     position: relative;
@@ -426,7 +426,7 @@ footer .center {
         display: flex;
         scroll-snap-type: x mandatory;
     }
-    .sugovornici .third {
+    .sugovornici .third, .sugovornici .fourth {
         padding: 0px;
         padding-right: 6vw;
         margin-right: 6vw;
