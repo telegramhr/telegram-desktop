@@ -147,6 +147,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="750">
+                    <img src="https://images.telegram.hr/Ikp0Al1HkYEtSmVpXdU4ETf0YRPglp17jpmwN4m59Rc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMTAvdHp6ei1va3VzaS1wcmlqZS1zdmVnYS1zdGlsbC0xMTEucG5n.jpg" aria-hidden="true">
+                    <h3 class="full">Pitoreskne vinske ceste u okolici Zagreba imaju top ponude za vikend izlete. Saznali smo što sve nude</h3>
+                    <p>Ponuda ovog kraja pokriva sve, od vina iz amfora do pjenušaca i famoznih autohtonih sorti</p>
+                    <a href="https://www.telegram.hr/partneri/pitoreskne-vinske-ceste-u-okolici-zagreba-imaju-top-ponude-za-vikend-izlete-saznali-smo-sto-sve-nude/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/wellness-spa8-880x520.jpg" aria-hidden="true">
                     <h3 class="full">Vrijeme je za jesenski wellness. Ovaj hotel u Istri ima sve, pa i bazen s grijanom morskom vodom </h3>
