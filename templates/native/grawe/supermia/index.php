@@ -119,19 +119,54 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex main-color-bg relative">
             <div class="container relative flex articles-container">
                 <h2 class="full center-text" data-aos="fade-up">Još sadržaja o financijskoj stabilnosti</h2>
-                <a class="third flex-responsive article hide" data-aos="fade-up" data-aos-delay="750">
-                    <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true" />
-                    <h3 class="full flex">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <a class="third flex-responsive article" href="https://super1.telegram.hr/relax/znate-li-s-novcem-rijesite-kviz-i-otkrijte-kako-stojite-mi-smo-u-pozitivnom-soku/" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/naslovna-1.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Znate li s novcem? Riješite kviz i otkrijte kako stojite. Mi smo u pozitivnom šoku </h3>
                     <div class="cta animate">Saznaj više</div>
                 </a>
-                <a class="third flex-responsive article hide" data-aos="fade-up" data-aos-delay="1250">
-                    <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true" />
-                    <h3 class="full flex">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/snaga/troje-mladih-otkrilo-nam-je-kako-ulazu-novac-svoj-novac-cilj-im-je-bezbrizan-i-siguran-zivot/" data-aos-delay="200">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/03/s1-naslovna-2021-03-11-financije-1.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Razgovarali smo s mladim ljudima koji “znaju s novcem”. Evo što su nam poručili </h3>
                     <div class="cta animate">Saznaj više</div>
                 </a>
-                <a class="third flex-responsive article hide" data-aos="fade-up" data-aos-delay="1750">
-                    <img src="<?php echo $native_path ?>img/grey_placeholder.png" aria-hidden="true" />
-                    <h3 class="full flex">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/relax/samopouzdanje-vlastiti-prihodi-i-krug-pravih-prijatelja-ovo-je-niz-razloga-zasto-volimo-30-e/" data-aos-delay="300">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/2021-9-7-naslovna3.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Samopouzdanje, vlastiti prihodi i krug pravih prijatelja. Ovo je niz razloga zašto volimo 30-e </h3>
+                    <div class="cta animate">Saznaj više</div>
+                </a>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/relax/ekonomska-klinika-nas-vodi-na-pregled-pet-najcescih-zabluda-o-novcu/" data-aos-delay="400">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/10/grrrr-880x520.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Ekonomska klinika nas vodi na pregled pet najčešćih zabluda o novcu </h3>
+                    <div class="cta animate">Saznaj više</div>
+                </a>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/snaga/pitali-smo-mlade-kako-zamisljaju-idealnu-starost-odgovori-su-nas-iznenadili/" data-aos-delay="500">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/03/matteo-di-iorio-vd-vjc8vmra-unsplash-880x520.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Pitali smo mlade kako zamišljaju idealnu starost. Odgovori su nas iznenadili </h3>
+                    <div class="cta animate">Saznaj više</div>
+                </a>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/relax/pronasli-smo-5-aplikacija-za-uspjesno-upravljanje-novcem-svasta-smo-naucili/" data-aos-delay="600">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/magnet-me-ayx2m0iivfq-unsplash-1-880x520.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Pronašli smo 5 aplikacija za uspješno upravljanje novcem. Svašta smo naučili </h3>
+                    <div class="cta animate">Saznaj više</div>
+                </a>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/snaga/ova-platforma-govori-o-zivotu-i-novcu-na-drugaciji-nacin-evo-zasto-nam-se-svida/" data-aos-delay="700">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/grawe-cover.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Ova platforma govori o životu i novcu na drugačiji način. Evo zašto nam se sviđa </h3>
+                    <div class="cta animate">Saznaj više</div>
+                </a>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/emocije/novac-ne-kupuje-srecu-ali-moze-pomoci-kod-zdravlja-braka-i-opceg-zadovoljstva-psiholog-objasnjava-kako/" data-aos-delay="800">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/02/priscilla-du-preez-9r8terq66hu-unsplash-880x520.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Novac ne kupuje sreću, ali može pomoći kod zdravlja, braka i općeg zadovoljstva. Psiholog objašnjava kako </h3>
+                    <div class="cta animate">Saznaj više</div>
+                </a>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/snaga/analizirajte-svoje-financijske-greske-ovo-su-koraci-uz-koje-cete-se-osloboditi-brige-o-novcu/" data-aos-delay="900">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/06/cover-fotka-5-1536x908.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Analizirajte svoje financijske greške: Ovo su koraci uz koje ćete se osloboditi brige o novcu </h3>
+                    <div class="cta animate">Saznaj više</div>
+                </a>
+                <a class="third flex-responsive article" data-aos="fade-up" href="https://super1.telegram.hr/snaga/provjerili-smo-s-edukatoricom-za-odgoj-ovo-su-zivotne-vjestine-koje-bismo-trebali-uciti-djecu/" data-aos-delay="1000">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/06/400a0037-880x520.jpg" aria-hidden="true" />
+                    <h3 class="full flex">Provjerili smo s edukatoricom za odgoj, ovo su životne vještine koje bismo trebali učiti djecu </h3>
                     <div class="cta animate">Saznaj više</div>
                 </a>
                 <p class="full center-text bottomad">Više informacija o ulozi osiguranja u očuvanju financijske pismenosti pronađite na stranici <a href="https://sigurnijesutra.huo.hr/" target="_blank">sigurnije sutra.</a></p>
