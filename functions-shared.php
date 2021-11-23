@@ -176,7 +176,7 @@ add_filter( 'coauthors_count_published_post_types', 'telegram_coauthors_posts', 
 
 function telegram_coauthors_posts($post_types) {
 	return array(
-		'post', 'price', 'fotogalerije', 'video'
+		'post', 'price', 'fotogalerije', 'video',
 	);
 }
 
@@ -280,10 +280,10 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 
 	$photo = telegram_get_photographer($image_id);
     if ($photo) {
-	    return '<figure ' . $id . 'class="wp-caption ' . esc_attr( $align ) . '">'
+	    return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
 	           . do_shortcode( $content ) . '<figcaption class="wp-caption-text">' . $caption . ' <span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
-	return '<figure ' . $id . 'class="wp-caption ' . esc_attr( $align ) . '">'
+	return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
 	       . do_shortcode( $content ) . '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>';
 }
 
