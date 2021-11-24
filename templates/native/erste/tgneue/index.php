@@ -297,7 +297,7 @@
             <div class="container flex relative">
                 <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/pitali-smo-nekoliko-redovnih-citatelja-koje-autore-i-teme-najvise-vole-na-telegramu/" target="_blank">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/grid-1-840x530.jpg" aria-hidden="true">
+                    <img src="https://images.telegram.hr/FE1xStWcMmasbukUkQkKiZHVIy-TzIbGLmr9TeBgFg8/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTIvZ3JpZC0xLmpwZw.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
                         <h2 class="full">Pitali smo nekoliko redovnih čitatelja koje autore i teme najviše vole na Telegramu</h2>
                         <p class="full">Ekonomisti, režiseri, dizajneri, glumci i znanstvenici o tome zašto čitaju Telegram</p>
