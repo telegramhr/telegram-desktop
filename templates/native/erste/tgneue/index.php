@@ -134,7 +134,7 @@
             <div class="container flex relative">
                 <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/stigao-je-novi-telegram-dizajn-smo-osvjezili-no-istrazivacko-autorska-sustina-ostaje-ista/" target="_blank">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/tg-background-840x530.jpg" aria-hidden="true">
+                    <img src="https://images.telegram.hr/BHfDd0Kb-jI6FwSzpD26UI7W9S05KU0EDMYU8eZH4vo/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTIvdGctYmFja2dyb3VuZC5qcGc.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
                         <h2 class="full">Stigao je novi Telegram. Dizajn smo osvježili, no istraživačko-autorska suština ostaje ista</h2>
                         <p class="full">Telegram je narastao. I zato nam je trebao novi dizajn</p>
@@ -145,7 +145,7 @@
                     </div>
                 </a>
                 <a class="full article center relative" href="https://www.telegram.hr/politika-kriminal/u-ovih-pet-godina-telegram-je-otkrio-niz-afera-donosimo-11-najznacajnijih/" target="_blank">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/kujundzic-kuscevic-tolusic-840x530-1.jpeg" aria-hidden="true">
+                    <img src="https://images.telegram.hr/O-dBKoZITVCxSoaUe2t0NhIe7bWS9LDJpbiyQF188pk/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDEva3VqdW5kemljX2t1c2NldmljX3RvbHVzaWMuanBlZw.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
                         <h2 class="full">U ovih pet godina Telegram je otkrio niz afera. Donosimo 11 najznačajnijih</h2>
                         <p class="full">Podsjetnik na važna otkrića naših reportera</p>
@@ -213,7 +213,7 @@
             <div class="container flex relative">
                 <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/kroz-ovih-pet-godina-telegram-je-pedantno-pratio-price-o-poslovnim-uspjesima-donosimo-12-najinspirativnijih/" target="_blank">
                     <div class="line-decoration-box animate"><div class="line-1 animate"></div><div class="line-2 animate"></div><div class="line-3 animate"></div></div>
-                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/srednja1-840x530.jpg" aria-hidden="true">
+                    <img src="https://images.telegram.hr/vnyLlmsQj7IfUxGhz0q1MmfKveIQAlbQHAANUifAPBg/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTIvc3JlZG5qYTEuanBn.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
                         <h2 class="full">Kroz ovih pet godina Telegram je pedantno pratio priče o poslovnim uspjesima. Donosimo 12 najinspirativnijih</h2>
                         <p class="full">Pokušavamo afirmirati i predstavljati ljude koji stvaraju nove vrijednosti u Hrvatskoj</p>
@@ -224,7 +224,7 @@
                     </div>
                 </a>
                 <a class="full article center relative" href="https://www.telegram.hr/biznis-tech/u-ovih-pet-godina-telegram-je-osvojio-svjetske-nagrade-i-priznanja-na-ova-smo-najponosniji/" target="_blank">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2020/12/super1-840x530.jpg" aria-hidden="true">
+                    <img src="https://images.telegram.hr/6ou473GaSNtn7d6XbAOBw9U4wniOY-U-e9fNLvEv2BA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTIvc3VwZXIxLmpwZw.jpg" aria-hidden="true">
                     <div class="article-content relative flex">
                         <h2 class="full">U ovih pet godina Telegram je osvojio svjetske nagrade i priznanja. Na ova smo najponosniji </h2>
                         <p class="full">Nekoliko godina zaredom nalazimo se na Reutersovoj listi najutjecajnijih medija</p>
