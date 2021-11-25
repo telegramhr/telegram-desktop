@@ -1,0 +1,173 @@
+@media (min-width: 768px) {
+  .mobile{ display:none !important;}
+}
+@media (max-width: 980px) {
+  body {
+    font-size: 16px;
+}
+h2 {
+    font-size: 2em;
+}
+.first-section {
+    background-size: cover;
+}
+h1.title {
+    font-size: 3em;
+}
+h1.title span {
+    font-size: 16px;
+    max-width: 130px;
+}
+.top-btn {
+    bottom: -20px;
+    right: 15%;
+}
+.slick-slider, .slick-track, .slick-list{
+    height: auto;
+    min-height: 400px;
+}
+.slide-main {
+    background-size: cover;
+    height: auto;
+    min-height: 400px;
+}
+.slide-text {
+    margin-top: 10%;
+}
+.slick-arrow {
+    bottom: 5%;
+}
+.black-bg-text {
+    height: 95px;
+    width: 95px;
+}
+.black-bg-text p {
+    margin: 0;
+}
+.arrow-text{/* transform: translate(-50%, 0); */ left: 36%; bottom: 5%; width: 150px;}
+}
+@media (max-width: 767px) {
+body{
+  font-size:15px;
+
+}
+.desktop{ display:none !important;}
+.row{
+margin:0;
+}
+.container-fluid {
+    padding: 0;
+}
+.link .fa {
+    margin-left: 0.1rem;
+}
+h2 {
+    font-size: 1.5em;
+}
+.btn {
+    font-size: 27px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+.link {
+    font-size: 16px;
+}
+.link-section{ padding-left:0px !important;}
+.first-section {
+    background-size: 100% 100%;
+}
+h1.title {
+    font-size: 5em;
+}
+.top-btn {
+    bottom: 50px;
+}
+span.mobile {
+    font-size: 20px;
+}
+h1.title span {
+    font-size: 16px;
+    max-width: 120px;
+}
+
+.banner-text {
+    max-width: 100%;
+}
+.slide-text {
+    margin-top: 10%;
+	top:0;
+}
+.second-section .slick-list {
+	height:auto;
+}
+.slide-main {
+    background-size: cover;
+    height: auto;
+    min-height: 250px;
+}
+.slick-arrow {
+    bottom: 7%;
+}
+button.slick-next {
+    left: 25%;
+}
+.video-section {
+    padding: 0 20px;
+}
+iframe {
+    height: auto;
+    width: 100%;
+}
+.second-section .slide-main {
+    background-image: url(../images/bg1.png), url(../images/bg2.png), url(../images/bg3.png), none;
+    background-position:top 10% left -15%, top 25% left 55%, top 20% right -60% , 0;
+    background-size:150px auto, 200px auto, 200px auto, 0;
+	 min-height: 350px;
+}
+.second-section .slide-text {
+    top: 10%;
+}
+.second-section .slide-text h2 {
+    font-size: 44px;
+}
+.third-section h2 {
+    font-size: 1.2em;
+}
+.bg-text {
+    margin-top: -70px;
+}
+.black-bg-text {
+    height: 90px;
+    width: 90px;
+}
+.black-bg-text p {
+    margin: 0;
+    transform: rotate(10deg);
+}
+.btm-table {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.left-section {
+    padding-left: 0;
+}
+
+.right-section {
+    padding-right: 0;
+}
+.left-section h2 {
+    font-size: 28px;
+}
+.fifth-section p {
+    font-size: 16px;
+}
+.fifth-section button.slick-prev {
+    left: 4%;
+}
+.fifth-section button.slick-next {
+    left: 20%;
+}
+.pogledaj-first-img{ display: none;}
+}
