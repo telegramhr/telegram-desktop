@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php
-		$native_path = get_stylesheet_directory_uri() . '/templates/native/telegram/nosim-kulturu';
+		$native_path = get_template_directory_uri() . '/templates/native/telegram/nosim-kulturu';
 	?>
   <head>
     <meta charset="utf-8">
