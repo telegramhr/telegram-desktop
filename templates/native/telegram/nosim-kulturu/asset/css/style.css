@@ -52,7 +52,7 @@ h5 {
     padding: 0;
     width: 70px;
     height: 70px;
-	line-height:70px;
+	line-height:4px;
 	-webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
 }
@@ -147,6 +147,7 @@ h1.title span {
 .top-btn {
     bottom: -15px;
     right: 10%;
+	 line-height: 67px;
 }
 .second-section .slide-main {
     width: 100%;
@@ -320,8 +321,9 @@ button.slick-next {
 
 .black-bg-text p {
     transform: rotate(15deg);
-    font-size: 12px;
-	font-family: var(--rock-font);
+    font-size: 1.1em;
+    font-family: var(--rock-font);
+    line-height: 1;
 }
 .pogledaj-first-img{ width: 380px;}
 
