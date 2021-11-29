@@ -102,7 +102,6 @@ if( have_posts() ) {
                 <div class="ender">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tg-logo-red.svg"/>
                 </div>
-
                 <?php // Article bottom sidebar
                 dynamic_sidebar('sidebar-single-bottom-1'); ?>
 
@@ -116,7 +115,8 @@ if( have_posts() ) {
         </div>
     </div>
     <?php
-        // Bottom single sidebar - Fullwidth
+
+    // Bottom single sidebar - Fullwidth
         dynamic_sidebar('sidebar-single-bottom-2'); ?>
 
 </div>
