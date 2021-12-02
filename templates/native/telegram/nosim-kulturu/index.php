@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegram/nosim-kulturu';
-
+$v = 2;
 ?>
   <head>
     <meta charset="utf-8">
@@ -23,16 +23,16 @@ $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegr
 	<!--bootstrap-->
 	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/bootstrap.min.css" >
 	<!--custom style-->
-	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/style.css" >
-	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/pen.css" >
-	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/responsive.css" >
+	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/style.css?v=<?php echo $v ?>" >
+	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/pen.css?v=<?php echo $v ?>" >
+	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/responsive.css?v=<?php echo $v ?>" >
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css'>
   </head>
   <body>
 	<section class="first-section">
 	 <div class="container">
       <div class="row align-items-center">
-	   <div class="col-6"><span><img src="<?php echo $native_path ?>/asset/images/has-black.png" class="img-fluid"/>nosimkulturu</span></div>
+	   <div class="col-6"><span><img src="<?php echo $native_path ?>/asset/images/has-black.png?v=<?php echo $v ?>" class="img-fluid"/>nosimkulturu</span></div>
 	    <div class="col-6">
 		 <div id="mySidenav" class="sidenav">
 			  <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
@@ -43,11 +43,11 @@ $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegr
 			</div>
 			
 			<div id="nav" class="text-right">		
-			  <span onClick="openNav()"><img src="<?php echo $native_path ?>/asset/images/nav.png" class="img-fluid"/></span>
+			  <span onClick="openNav()"><img src="<?php echo $native_path ?>/asset/images/nav.png?v=<?php echo $v ?>" class="img-fluid"/></span>
 			</div>
 		 </div>
 	   </div>
-	   <div class="row py-md-5" id="naslovnica">
+	   <div class="row pb-md-5 pt-md-0" id="naslovnica">
 	      <div class="col-md-7 mt-4 mt-md-0 fadeInLeft animated" data-wow-duration="2s" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
 		    <h1 class="title mb-0">Nosim<span class="d-inline-block desktop text-uppercase ml-4">ona je uvijek u modi</span></h1>
 			<h1 class="title text-right font-italic pr-md-5">kulturu</h1>
@@ -58,14 +58,14 @@ $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegr
 			 </div>
 			<div class="row btm-text">
 			  <div class="col-md-6 link-section text-left text-uppercase">
-			    <a class="link pogledaj d-flex align-items-start" href="#"><span class="rock-font">pogledaj editorijal</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png" class="img-fluid arrow-pink"/></a>
+			    <a class="link pogledaj d-flex align-items-start" target="_blank" href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/"><span class="rock-font">pogledaj editorijal</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
 			  </div>
 			  <div class="col-md-6 text-right text-uppercase desktop"><p>Muzej za<br> umjetnost i obrt</p></div>
 			</div>
 		  </div> 
 		  <div class="col-md-5 pt-5 pt-md-0 wow fadeIn animated" data-wow-duration="4s" style="visibility: visible;-webkit-animation-duration: 4s; -moz-animation-duration: 4s; animation-duration: 4s;">
-		    <div class="img-box"><img src="<?php echo $native_path ?>/asset/images/img1.png" class="img-fluid"/></div>
-			<a href="#" class="btn top-btn position-absolute"><img src="<?php echo $native_path ?>/asset/images/arrow.png" class="img-fluid"/></a>
+		    <div class="img-box"><img src="<?php echo $native_path ?>/asset/images/img1.png?v=<?php echo $v ?>" class="img-fluid"/></div>
+			<a href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/" class="btn top-btn position-absolute"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid"/></a>
 			
 			<p class="mobile mt-3">Muzej za<br> umjetnost i obrt</p>
 		  </div>
@@ -79,14 +79,14 @@ $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegr
 			   <div class="products-grid items1">
                 <div class="slide slide1 text-center">	
 				  <div class="slide-text">		   
-				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png" class="img-fluid"/>1</p>	
-				   <h2 class="mb-5 mb-md-3">Muzej za<br> umjetnost i obrt</h2>	
-				   <a href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png" class="img-fluid arrow-left"/></a>
+				   <p class="text-uppercase small-has mb-0">editorijal <!-- <img src="<?php echo $native_path ?>/asset/images/has-white.png?v=<?php echo $v ?>" class="img-fluid"/> -->#1</p>
+				   <h2 class="mb-2 mb-md-3">Muzej za<br> umjetnost i obrt</h2>	
+				   <a href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid arrow-left"/></a>
 				  </div>						
                 </div>
 				
              </div>
-			  <span class="arrow-text">istraži druge editorijale</span>
+			  <span class="arrow-text d-none">istraži druge editorijale</span>
 			</div> 	
 		 </div>		
 	   </div>
@@ -222,15 +222,15 @@ $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegr
 	<footer class="page-footer py-3 py-md-5">
 		<div class="container wow fadeIn animated" data-wow-duration="5s" style="visibility: visible;-webkit-animation-duration: 5s; -moz-animation-duration: 4s; animation-duration: 5s;">
 		<div class="row top-logo text-center d-block w-100 pt-5">
-		<p class="footer-text text-center">Powered by</p>
-		<a href="https://www.designeroutletcroatia.com/" target="_blank" class="pt-md-5"><img src="<?php echo $native_path ?>/asset/images/logo-5.png" class="img-fulid" /></a>
+		<p class="text-uppercase rock-font pb-3">POWERED BY</p>
+		<a href="https://www.designeroutletcroatia.com/" target="_blank" class="pt-md-5"><img src="<?php echo $native_path ?>/asset/images/logo-5.png?v=<?php echo $v ?>" class="img-fulid" /></a>
 		</div>
 		<div class="row btm-logo align-items-center pt-4 pb-5">
 		<div class="col-6 col-md-2 d-none d-sm-block"></div>
-		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="http://www.msu.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-1.png" class="img-fulid" /></a></div>
-		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="http://emz.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-2.png" class="img-fulid" /></a></div>
-		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="https://www.muo.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-3.png" class="img-fulid" /></a></div>
-		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="http://mgz.hr/hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-4.png" class="img-fulid" /></a></div>
+		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="http://www.msu.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-1.png?v=<?php echo $v ?>" class="img-fulid" /></a></div>
+		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="http://emz.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-2.png?v=<?php echo $v ?>" class="img-fulid" /></a></div>
+		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="https://www.muo.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-3.png?v=<?php echo $v ?>" class="img-fulid" /></a></div>
+		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="http://mgz.hr/hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-4.png?v=<?php echo $v ?>" class="img-fulid" /></a></div>
 		  <div class="col-6 col-md-2 d-none d-sm-block"></div>
 		  <!-- <div class="col-6 col-md-2 py-3 py-md-0"><img src="asset/images/demo-img.jpg" class="img-fulid" /></div> -->
 		</div>
