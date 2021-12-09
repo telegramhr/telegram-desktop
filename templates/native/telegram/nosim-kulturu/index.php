@@ -58,7 +58,7 @@ $v = 2;
 			 </div>
 			<div class="row btm-text">
 			  <div class="col-md-6 link-section text-left text-uppercase">
-			    <a class="link pogledaj d-flex align-items-start" target="_blank" href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/"><span class="rock-font">pogledaj editorijal</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
+			    <a class="link pogledaj d-flex align-items-start" target="_blank" href="https://www.telegram.hr/partneri/slama-mi-se-srce-pri-pomisli-da-taj-muzej-zatvara-svoja-vrata-poznati-kulturnjaci-o-projektu-nosim-kulturu/"><span class="rock-font">više o projektu</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
 			  </div>
 			  <div class="col-md-6 text-right text-uppercase desktop"><p>Muzej za<br> umjetnost i obrt</p></div>
 			</div>
