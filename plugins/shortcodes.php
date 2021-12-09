@@ -9,7 +9,12 @@ class Telegram_Shortcodes {
 		add_shortcode('telegram_video', array( $this, 'video'));
 		add_shortcode('okvir', array( $this, 'okvir'));
 		add_shortcode('galerija', [$this,'telegram_galerija']);
+		add_shortcode('telegram_quiz', [$this,'telegram_quiz']);
 	}
+
+    function telegram_quiz() {
+        return '<div id="quiz-container"></div>';
+    }
 
 // Pogledaj galeriju
 	function telegram_galerija($atts, $content) {
