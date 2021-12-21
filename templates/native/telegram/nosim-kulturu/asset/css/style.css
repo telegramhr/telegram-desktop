@@ -52,7 +52,7 @@ h5 {
     padding: 0;
     width: 70px;
     height: 70px;
-	line-height:4px;
+	line-height:70px;
 	-webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
 }
@@ -74,9 +74,14 @@ h5 {
 }
 .link {
     color: #000;
-	font-family: var(--rock-font);
+
 }
 .link:hover{color:var(--primary);}
+.link2 {
+    color: #fff;
+
+}
+.link2:hover{color:var(--primary);}
 .link .fa {
     margin-left: 0.6rem;
 }
@@ -147,7 +152,6 @@ h1.title span {
 .top-btn {
     bottom: -15px;
     right: 10%;
-	 line-height: 67px;
 }
 .second-section .slide-main {
     width: 100%;
@@ -321,9 +325,8 @@ button.slick-next {
 
 .black-bg-text p {
     transform: rotate(15deg);
-    font-size: 1.1em;
-    font-family: var(--rock-font);
-    line-height: 1;
+    font-size: 12px;
+	font-family: var(--rock-font);
 }
 .pogledaj-first-img{ width: 380px;}
 

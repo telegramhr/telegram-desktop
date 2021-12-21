@@ -44,7 +44,7 @@ h1.title span {
 .black-bg-text p {
     margin: 0;
 }
-.arrow-text{/* transform: translate(-50%, 0); */ left: 36%; bottom: 5%; width: 150px;}
+.arrow-text{/* transform: translate(-50%, 0); */ left: 36%; bottom: 1%; width: 150px;}
 }
 @media (max-width: 767px) {
 body{

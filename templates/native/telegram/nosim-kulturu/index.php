@@ -2,12 +2,14 @@
 <html lang="en">
 <?php
 $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegram/nosim-kulturu';
-$v = 2;
+$v = 3;
 ?>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <?php wp_head() ?>
+
+    <?php wp_head(); ?>
 	<!--font-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,15 +20,15 @@ $v = 2;
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500&display=swap" rel="stylesheet">
 	<!--slick-theme-->
-	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/slick.css" >
-	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/slick-theme.css" >
+	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/slick.css?v=<?php echo $v ?>" >
+	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/slick-theme.css?v=<?php echo $v ?>" >
 	<!--bootstrap-->
-	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/bootstrap.min.css?v=<?php echo $v ?>" >
 	<!--custom style-->
 	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/style.css?v=<?php echo $v ?>" >
 	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/pen.css?v=<?php echo $v ?>" >
 	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/responsive.css?v=<?php echo $v ?>" >
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css?v=<?php echo $v ?>'>
   </head>
   <body>
 	<section class="first-section">
@@ -39,6 +41,8 @@ $v = 2;
 			  <a href="#naslovnica">NASLOVNICA</a>
 			  <a href="#editorijali">EDITORIJALI</a>
 			  <a href="#vise">VIŠE O MUZEJIMA</a>
+			  <a href="#izsvijeta">Više iz svijeta kulture</a>
+
 			  
 			</div>
 			
@@ -47,7 +51,7 @@ $v = 2;
 			</div>
 		 </div>
 	   </div>
-	   <div class="row pb-md-5 pt-md-0" id="naslovnica">
+	   <div class="row py-md-5" id="naslovnica">
 	      <div class="col-md-7 mt-4 mt-md-0 fadeInLeft animated" data-wow-duration="2s" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
 		    <h1 class="title mb-0">Nosim<span class="d-inline-block desktop text-uppercase ml-4">ona je uvijek u modi</span></h1>
 			<h1 class="title text-right font-italic pr-md-5">kulturu</h1>
@@ -58,16 +62,21 @@ $v = 2;
 			 </div>
 			<div class="row btm-text">
 			  <div class="col-md-6 link-section text-left text-uppercase">
-			    <a class="link pogledaj d-flex align-items-start" target="_blank" href="https://www.telegram.hr/partneri/slama-mi-se-srce-pri-pomisli-da-taj-muzej-zatvara-svoja-vrata-poznati-kulturnjaci-o-projektu-nosim-kulturu/"><span class="rock-font">više o projektu</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
+			    <a class="link pogledaj d-flex align-items-start" href="#"><span class="rock-font">pogledaj editorijal</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
 			  </div>
-			  <div class="col-md-6 text-right text-uppercase desktop"><p>Muzej za<br> umjetnost i obrt</p></div>
+			  <div class="col-md-6 text-right text-uppercase desktop"><p><a target="blank" class="link" href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/">Muzej<br> suvremene umjetnosti</a></p></div>
 			</div>
 		  </div> 
 		  <div class="col-md-5 pt-5 pt-md-0 wow fadeIn animated" data-wow-duration="4s" style="visibility: visible;-webkit-animation-duration: 4s; -moz-animation-duration: 4s; animation-duration: 4s;">
-		    <div class="img-box"><img src="<?php echo $native_path ?>/asset/images/img1.png?v=<?php echo $v ?>" class="img-fluid"/></div>
-			<a href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/" class="btn top-btn position-absolute"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid"/></a>
+		    <div class="img-box"><a target="blank" href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/"><img src="<?php echo $native_path ?>/asset/images/img1.png?v=<?php echo $v ?>" class="img-fluid"/></a></div>
+			<a href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/" class="btn top-btn position-absolute" target="blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid"/></a>
 			
 			<p class="mobile mt-3">Muzej za<br> umjetnost i obrt</p>
+
+
+
+
+
 		  </div>
 	   </div>
 	  </div>
@@ -75,18 +84,29 @@ $v = 2;
 	<section class="second-section" id="editorijali">	  
 	  <div class="container-fluid">
 	   <div class="row">
+			
 		    <div class="slide-main">
 			   <div class="products-grid items1">
-                <div class="slide slide1 text-center">	
+			   <div class="slide slide1 text-center">
+					
 				  <div class="slide-text">		   
-				   <p class="text-uppercase small-has mb-0">editorijal <!-- <img src="<?php echo $native_path ?>/asset/images/has-white.png?v=<?php echo $v ?>" class="img-fluid"/> -->#1</p>
-				   <h2 class="mb-2 mb-md-3">Muzej za<br> umjetnost i obrt</h2>	
+				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png?v=<?php echo $v ?>" class="img-fluid"/>1</p>	
+				   <h2 class="mb-5 mb-md-3">Muzej za<br> umjetnost i obrt</h2>	
 				   <a href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid arrow-left"/></a>
+				  </div>						
+                </div>
+                <div class="slide slide2 text-center">
+					
+				  <div class="slide-text">		   
+				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png?v=<?php echo $v ?>" class="img-fluid"/>2</p>	
+				   <h2 class="mb-5 mb-md-3">MUZEJ SUVREMENE <br> UMJETNOSTI</h2>	
+				   <a href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid arrow-left"/></a>
 				  </div>						
                 </div>
 				
              </div>
-			  <span class="arrow-text d-none">istraži druge editorijale</span>
+			 
+			  <span class="arrow-text ">istraži druge editorijale</span>
 			</div> 	
 		 </div>		
 	   </div>
@@ -99,7 +119,7 @@ $v = 2;
 			  <p class="mb-4 text-uppercase rock-font">pogledaj video</p>
 			    <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=TZD9VVMJhQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
 				<iframe width="900" height="500" src="https://www.youtube.com/embed/HunCLk67rEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			   <!-- <img src="asset/images/POGLEDAJ-VIDEO-img.jpg" class="img-fluid"/> -->
+			   <!-- <img src="asset/images/POGLEDAJ-VIDEO-img.jpg?v=<?php echo $v ?>" class="img-fluid"/> -->
 			</div>
 	   </div>
 	   <div class="row bg-text heading-font font-light z-index-0">
@@ -140,10 +160,10 @@ $v = 2;
               <div class="row">			
 				  <div class="col-8 left-section col-md-10 d-md-flex">
 				  <span>(01)</span>
-				  <h2 class="pl-md-5">muzej za <br>umjetnost i obrt</h2> 
+				  <h2 class="pl-md-5"><a href="https://www.telegram.hr/promo/ucimo-o-muzejima-i-dijelimo-nagrade-zavirili-smo-u-najstariju-zbirku-tekstila-u-hrvatskoj-tu-je-i-vjencanica-bake-vesne-pusic/" target="_blank" class="link">muzej za <br>umjetnost i obrt</a></h2> 
 				  </div>
 				  <div class="col-4 col-md-2 right-section d-flex justify-content-end">
-					<div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
+					<div class="black-bg-text d-none align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
 				  </div>
 			 </div>
 			</div>
@@ -186,43 +206,43 @@ $v = 2;
 		  </div>		
 	   </div>
 	</section>
-	<!--<section class="fifth-section pb-5 pt-4 py-md-5" id="izsvijeta">
+	<section class="fifth-section pb-5 pt-4 py-md-5" id="izsvijeta">
 	  <div class="container">
 	    <p class="text-center text-uppercase w-100 mb-5 pt-5 pt-md-4">više iz svijeta kulture</p>
 	     <div class="row py-5">
 		 <div class="slide-main">
 			   <div class="products-grid items2">
                 <div class="col-md-3 slide">	
-				  <img src="asset/images/product-img1.jpg" class="img-fulid" />
-			  <h5 class="mt-3">Otvaramo vrata zagrebačkih muzeja</h5>						
+				  <img src="<?php echo $native_path ?>/asset/images/product-img1.jpg?v=<?php echo $v ?>" class="img-fulid" />
+			  <h5 class="mt-3"><a href="https://www.telegram.hr/kultura/znate-li-koji-je-gradski-muzej-najveci-i-jedan-od-najstarijih-u-hrvatskoj-nedavno-je-proslavio-114-rodendan/" target="_blank" class="link2">Znate li koji je gradski muzej najveći i jedan od najstarijih u Hrvatskoj? Nedavno je proslavio 114. rođendan</a></h5>						
                 </div>
 				<div class="col-md-3 slide">	
-				  <img src="asset/images/product-img2.jpg" class="img-fulid" />
-			  <h5 class="mt-3">Nudimo vam jedan potpuno novi pogled</h5>						
+				  <img src="<?php echo $native_path ?>/asset/images/product-img2.jpg?v=<?php echo $v ?>" class="img-fulid" />
+			  <h5 class="mt-3"><a href="https://super1.telegram.hr/relax/otvorena-izlozba-arheologija-i-speleologija-iz-tame-podzemlja-do-svjetla-spoznaje/" target="_blank" class="link2">Otvorena izložba Arheologija i speleologija – iz tame podzemlja do svjetla spoznaje</a></h5>						
                 </div>
 				<div class="col-md-3 slide">	
-				  <img src="asset/images/product-img3.jpg" class="img-fulid" />
-			  <h5 class="mt-3">Neka kultura ostane u modi</h5>						
+				  <img src="<?php echo $native_path ?>/asset/images/product-img3.jpg?v=<?php echo $v ?>" class="img-fulid" />
+			  <h5 class="mt-3"><a href="https://super1.telegram.hr/relax/evo-u-kojim-zagrebackim-muzejima-mozete-virtualno-razgledavati-izlozbe/" target="_blank" class="link2">Evo u kojim zagrebačkim muzejima možete virtualno razgledavati izložbe</a></h5>						
                 </div>
 				<div class="col-md-3 slide">	
-				  <img src="asset/images/product-img4.jpg" class="img-fulid" />
-			  <h5 class="mt-3">Otvaramo vrata zagrebačkih muzeja</h5>						
+				  <img src="<?php echo $native_path ?>/asset/images/product-img4.jpg?v=<?php echo $v ?>" class="img-fulid" />
+			  <h5 class="mt-3"><a href="https://www.telegram.hr/zivot/u-arheoloskom-muzeju-su-napravili-zastitni-okvir-tezak-150-kilograma-kako-bi-sacuvali-zagrebacku-lanenu-knjigu/" target="_blank" class="link2">U Arheološkom muzeju su napravili zaštitni okvir težak 150 kilograma kako bi sačuvali Zagrebačku lanenu knjigu</a></h5>						
                 </div>
 				<div class="col-md-3 slide">	
-				  <img src="asset/images/product-img2.jpg" class="img-fulid" />
-			  <h5 class="mt-3">Otvaramo vrata zagrebačkih muzeja</h5>						
+				  <img src="<?php echo $native_path ?>/asset/images/product-img5.jpg?v=<?php echo $v ?>" class="img-fulid" />
+			  <h5 class="mt-3"><a href="https://www.telegram.hr/kultura/muo-je-proslavio-140-rodendan-ima-novi-postav-u-njemu-je-i-cuvena-fotografija-sanadera-koju-je-snimio-nas-vjekoslav-skledar/" target="_blank" class="link2">MUO slavi 140. rođendan. Ima novi postav, u njemu je i čuvena fotografija Sanadera koju je snimio Telegramov Vjekoslav Skledar</a></h5>						
                 </div>
              </div>
 			</div>
 		  </div>		
 	   </div>
-	</section>-->
+	</section>
 
 
 	<footer class="page-footer py-3 py-md-5">
 		<div class="container wow fadeIn animated" data-wow-duration="5s" style="visibility: visible;-webkit-animation-duration: 5s; -moz-animation-duration: 4s; animation-duration: 5s;">
 		<div class="row top-logo text-center d-block w-100 pt-5">
-		<p class="text-uppercase rock-font pb-3">POWERED BY</p>
+		<p class="footer-text text-center">Powered by</p>
 		<a href="https://www.designeroutletcroatia.com/" target="_blank" class="pt-md-5"><img src="<?php echo $native_path ?>/asset/images/logo-5.png?v=<?php echo $v ?>" class="img-fulid" /></a>
 		</div>
 		<div class="row btm-logo align-items-center pt-4 pb-5">
@@ -232,7 +252,7 @@ $v = 2;
 		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="https://www.muo.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-3.png?v=<?php echo $v ?>" class="img-fulid" /></a></div>
 		  <div class="col-6 col-md-2 py-3 py-md-0"><a href="http://mgz.hr/hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/logo-4.png?v=<?php echo $v ?>" class="img-fulid" /></a></div>
 		  <div class="col-6 col-md-2 d-none d-sm-block"></div>
-		  <!-- <div class="col-6 col-md-2 py-3 py-md-0"><img src="asset/images/demo-img.jpg" class="img-fulid" /></div> -->
+		  <!-- <div class="col-6 col-md-2 py-3 py-md-0"><img src="asset/images/demo-img.jpg?v=<?php echo $v ?>" class="img-fulid" /></div> -->
 		</div>
 		
 		<p class="footer-text text-center pt-md-5">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom Designer Outlet Croatia i po najvišim uredničkim standardima Telegram Media Grupe.</p>
