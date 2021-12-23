@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <?php
-$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/telegram/nosim-kulturu';
-$v = 3;
+$native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegram/nosim-kulturu';
+$v = 4;
 ?>
 
   <head>
@@ -40,8 +40,8 @@ $v = 3;
 			  <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
 			  <a href="#naslovnica">NASLOVNICA</a>
 			  <a href="#editorijali">EDITORIJALI</a>
-			  <a href="#vise">VIŠE O MUZEJIMA</a>
-			  <a href="#izsvijeta">Više iz svijeta kulture</a>
+			  <a href="#vise">OSVOJI NAGRADE</a>
+			  <a href="#izsvijeta">VIŠE IZ SVIJETA KULTURE</a>
 
 			  
 			</div>
@@ -62,7 +62,7 @@ $v = 3;
 			 </div>
 			<div class="row btm-text">
 			  <div class="col-md-6 link-section text-left text-uppercase">
-			    <a class="link pogledaj d-flex align-items-start" href="#"><span class="rock-font">pogledaj editorijal</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
+			    <a class="link pogledaj d-flex align-items-start" href="https://www.telegram.hr/partneri/slama-mi-se-srce-pri-pomisli-da-taj-muzej-zatvara-svoja-vrata-poznati-kulturnjaci-o-projektu-nosim-kulturu/" target="_blank"><span class="rock-font">SAZNAJ VIŠE O PROJEKTU</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
 			  </div>
 			  <div class="col-md-6 text-right text-uppercase desktop"><p><a target="blank" class="link" href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/">Muzej<br> suvremene umjetnosti</a></p></div>
 			</div>
@@ -118,7 +118,8 @@ $v = 3;
 		 	<div class="video-section wow animated" data-wow-duration="2s" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
 			  <p class="mb-4 text-uppercase rock-font">pogledaj video</p>
 			    <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=TZD9VVMJhQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
-				<iframe width="900" height="500" src="https://www.youtube.com/embed/HunCLk67rEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<!--<iframe width="900" height="500" src="https://www.youtube.com/embed/HunCLk67rEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+				<iframe width="900" height="500" src="https://www.youtube.com/embed/lKtHnf-cluI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			   <!-- <img src="asset/images/POGLEDAJ-VIDEO-img.jpg?v=<?php echo $v ?>" class="img-fluid"/> -->
 			</div>
 	   </div>

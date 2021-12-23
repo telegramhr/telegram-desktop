@@ -155,13 +155,21 @@ h1.title span {
 }
 .second-section .slide-main {
     width: 100%;
-	background-image: url(../images/bg1.png), url(../images/bg2.png), url(../images/bg3.png), url(../images/bg4.png);
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position:top 0% left 0%, top 45% left 28%, top 45% right 28% , bottom 0% right 0%;
+
 	background-color:var(--deepgrey);
 	overflow: hidden;
 	min-height:775px;
 	position: relative;
+}
+.second-section .slide-main .slide1{
+		background-image: url(../images/slide-bg1.png), url(../images/slide-bg2.png), url(../images/slide-bg3.png), url(../images/slide-bg4.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position:top 0% left 0%, top 45% left 28%, top 45% right 28% , bottom 0% right 0%;
+}
+.second-section .slide-main .slide2{
+		background-image: url(../images/bg1.png), url(../images/bg2.png), url(../images/bg3.png), url(../images/bg4.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position:top 0% left 0%, top 45% left 28%, top 45% right 28% , bottom 0% right 0%;
 }
 .arrow-text{ 
     position: absolute;
