@@ -172,10 +172,10 @@ $v = 5;
 			 <div class="row">			
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(02)</span>
-			  <h2 class="pl-md-5">MUZEJ SUVREMENE <br> UMJETNOSTI</h2> 
+			  <h2 class="pl-md-5"><a href="https://www.telegram.hr/zivot/od-odijevanja-u-socijalizmu-do-performansa-ivane-popovic-koji-je-emitirao-mtv-saznali-smo-kakve-veze-imaju-moda-i-msu/" class="link" target="_blank">MUZEJ SUVREMENE <br> UMJETNOSTI</a></h2> 
 			  </div>
 			  <div class="col-4 col-md-2 right-section d-flex justify-content-end">
-			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
+			    <div class="black-bg-text d-none align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
 			  </div>
 			 </div>
 			</div>
