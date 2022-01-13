@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 $native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/telegram/nosim-kulturu';
-$v = 4;
+$v = 5;
 ?>
 
   <head>
