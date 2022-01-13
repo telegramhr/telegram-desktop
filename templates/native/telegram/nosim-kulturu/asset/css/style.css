@@ -162,12 +162,12 @@ h1.title span {
 	position: relative;
 }
 .second-section .slide-main .slide1{
-		background-image: url(../images/slide-bg1.png), url(../images/slide-bg2.png), url(../images/slide-bg3.png), url(../images/slide-bg4.png);
+		background-image: url(../images/slide-bg1.png?v=2), url(../images/slide-bg2.png?v=2), url(../images/slide-bg3.png?v=2), url(../images/slide-bg4.png?v=2);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position:top 0% left 0%, top 45% left 28%, top 45% right 28% , bottom 0% right 0%;
 }
 .second-section .slide-main .slide2{
-		background-image: url(../images/bg1.png), url(../images/bg2.png), url(../images/bg3.png), url(../images/bg4.png);
+		background-image: url(../images/bg1.png?v=2), url(../images/bg2.png?v=2), url(../images/bg3.png?v=2), url(../images/bg4.png?v=2);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position:top 0% left 0%, top 45% left 28%, top 45% right 28% , bottom 0% right 0%;
 }
