@@ -25,7 +25,7 @@ $v = 5;
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="img/logo.svg" class="img-fluid" alt="..."></a>
+                <a class="navbar-brand" href="#"><img src="<?php echo $native_path ?>/img/logo.svg" class="img-fluid" alt="..."></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -65,7 +65,7 @@ $v = 5;
                         <div class="kreni d-inline-flex">
 
                         <p>Kreni sada</p>
-                        <img src="img/strelica.svg" alt="" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/strelica.svg" alt="" class="img-fluid">
                     </div>
                 </a>
                     </div>
@@ -73,9 +73,9 @@ $v = 5;
 
               <div class="row ilustracija justify-content-end text-right">
                   <div class="col-lg-6 special">
-                  <img src="img/ilustracija.svg" alt="" class="img-fluid krug">
-                  <img src="img/kap.svg" alt="" class="img-fluid kap">
-                  <img src="img/kap.svg" alt="" class="img-fluid kap2">
+                  <img src="<?php echo $native_path ?>/img/ilustracija.svg" alt="" class="img-fluid krug">
+                  <img src="<?php echo $native_path ?>/img/kap.svg" alt="" class="img-fluid kap">
+                  <img src="<?php echo $native_path ?>/img/kap.svg" alt="" class="img-fluid kap2">
                 </div>
               </div>
             
@@ -339,7 +339,7 @@ $v = 5;
       <div class="modal-content">
         <div class="modal-header  bc-header">
           <div class="kap1">
-              <img src="img/kap1.svg" alt="" class="img-fluid">
+              <img src="<?php echo $native_path ?>/img/kap1.svg" alt="" class="img-fluid">
           </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -360,7 +360,7 @@ $v = 5;
       <div class="modal-content">
         <div class="modal-header pd-header">
           <div class="kap1">
-              <img src="img/kap3.svg" alt="" class="img-fluid">
+              <img src="<?php echo $native_path ?>/img/kap3.svg" alt="" class="img-fluid">
           </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -381,7 +381,7 @@ $v = 5;
       <div class="modal-content">
         <div class="modal-header zo-header">
           <div class="kap1">
-              <img src="img/kap2.svg" alt="" class="img-fluid">
+              <img src="<?php echo $native_path ?>/img/kap2.svg" alt="" class="img-fluid">
           </div>
           <button type="button" class="btn-close  black-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -398,10 +398,10 @@ $v = 5;
   </div>
 
   <div class="fotka1" id="reveal1">
-      <img src="img/tvoje3-1.png" alt="" class="img-fluid">
+      <img src="<?php echo $native_path ?>/img/tvoje3-1.png" alt="" class="img-fluid">
   </div>
   <div class="fotka2" id="reveal2">
-    <img src="img/tvoje3-2.png" alt="" class="img-fluid">
+    <img src="<?php echo $native_path ?>/img/tvoje3-2.png" alt="" class="img-fluid">
 </div>
 
         </section>
@@ -411,7 +411,7 @@ $v = 5;
                 <div class="container" id="trigger3">
                     <div class="row justify-content-center sijecanj-content">
                         <div class="col-lg-5" id="reveal3">
-                            <img src="img/suhisijecanj-1.png" alt="" class="img-fluid">
+                            <img src="<?php echo $native_path ?>/img/suhisijecanj-1.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-5 offset-lg-1 razmak">
                             <span>#idejazasiječanj</span>
@@ -429,8 +429,8 @@ $v = 5;
                             <p>kapi sakupljeno dosad</p>
                         </div>
                         <div class="col-lg-6" id="reveal4">
-                            <img src="img/suhisijecanj-2.png" alt="" class="img-fluid d-none d-lg-flex">
-                            <img src="img/suhisijecanj-2-mob.png" alt="" class="img-fluid d-flex d-lg-none suhisijecanj-fotka2">
+                            <img src="<?php echo $native_path ?>/img/suhisijecanj-2.png" alt="" class="img-fluid d-none d-lg-flex">
+                            <img src="<?php echo $native_path ?>/img/suhisijecanj-2-mob.png" alt="" class="img-fluid d-flex d-lg-none suhisijecanj-fotka2">
                         </div>
                     </div>
                 </div>
@@ -463,9 +463,9 @@ $v = 5;
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija" id="reveal5">
                    
-                            <img src="img/posaljikap.png" alt="" class="img-fluid">
+                            <img src="<?php echo $native_path ?>/img/posaljikap.png" alt="" class="img-fluid">
                         <div class="pk-kapi">
-                            <img src="img/posaljikap-kapi.svg" alt="" class="img-fluid">
+                            <img src="<?php echo $native_path ?>/img/posaljikap-kapi.svg" alt="" class="img-fluid">
                         </div>
                         
                     </div>
@@ -477,10 +477,10 @@ $v = 5;
                     <div class="col-lg-2">
                         <div class="arrows d-inline-flex justify-content-between">
                             <div class="prev">
-                                <img src="img/prev.svg" alt="" class="img-fluid">
+                                <img src="<?php echo $native_path ?>/img/prev.svg" alt="" class="img-fluid">
                             </div>
                             <div class="next">
-                                <img src="img/next.svg" alt="" class="img-fluid">
+                                <img src="<?php echo $native_path ?>/img/next.svg" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -537,7 +537,7 @@ $v = 5;
                         <a href="#" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="img/pomozi-drustvu-modal.jpg" alt="" class="img-fluid">
+                                <img src="<?php echo $native_path ?>/img/pomozi-drustvu-modal.jpg" alt="" class="img-fluid">
                             </div>
                         
                                 <p>Koja je tvoja kap u moru rješenja?</p>
@@ -549,7 +549,7 @@ $v = 5;
                         <a href="#" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="img/clanak.jpg" alt="" class="img-fluid">
+                                <img src="<?php echo $native_path ?>/img/clanak.jpg" alt="" class="img-fluid">
                             </div>
                         
                                 <p>Koja je tvoja kap u moru rješenja?</p>
@@ -561,7 +561,7 @@ $v = 5;
                         <a href="#" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="img/zastiti-okolis-modal.jpg" alt="" class="img-fluid">
+                                <img src="<?php echo $native_path ?>/img/zastiti-okolis-modal.jpg" alt="" class="img-fluid">
                             </div>
                         
                                 <p>Koja je tvoja kap u moru rješenja?</p>
@@ -577,10 +577,10 @@ $v = 5;
             <div class="container">
                 <div class="row justify-content-center align-items-center text-center logotipi">
                     <div class="col-lg-4 col-10">
-                        <img src="img/heineken.png" alt="" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/heineken.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-lg-3 col-10">
-                        <img src="img/telegram.svg" alt="" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/telegram.svg" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="row justify-content-center">
