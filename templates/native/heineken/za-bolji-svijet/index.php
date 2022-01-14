@@ -466,8 +466,9 @@ $v = 5;
                                   </div>
 
                                 <button id="submit-form" type="submit" class="btn btn-zeleni">ovo je moja kap u moru rješenja</button>
-                                <h2 id="submitted" style="display: none;">Hvala na kapi</h2>
+                                
                               </form>
+                              <h2 id="submitted" style="display: none;">Hvala na kapi</h2>
                               <script>
                                   var $form = jQuery('form#test_form'),
                                     url = 'https://script.google.com/macros/s/AKfycby3gBn-PUiZsF0XNXu4pZatIQa1kRQFRaxxG9hyzFrPpelLBAYayh1C1MiYG8wuQec5BA/exec'
