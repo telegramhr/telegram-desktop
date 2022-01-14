@@ -447,7 +447,7 @@ $v = 5;
                             </p>
                             <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
     
-                            <form id="test-form">
+                            <form id="test_form">
                                 <div class="mb-3">
                                   <label for="ime" class="form-label">Tvoje ime</label>
                                   <input class="form-control form-control-lg" id="ime" type="text" name="ime"  aria-label="tvoje ime">
