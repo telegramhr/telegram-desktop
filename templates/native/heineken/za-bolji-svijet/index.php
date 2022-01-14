@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/telegram/nosim-kulturu';
+$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heineken/za-bolji-svijet';
 $v = 5;
 ?>
 <html <?php language_attributes(); ?>>
