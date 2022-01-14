@@ -425,7 +425,7 @@ $v = 5;
                     </div>
                     <div class="row justify-content-center align-items-center broj-kapi" id="trigger4">
                         <div class="col-lg-5 brojac text-center">
-                            <h1>468</h1>
+                            <h1>0</h1>
                             <p>kapi sakupljeno dosad</p>
                         </div>
                         <div class="col-lg-6" id="reveal4">
@@ -560,7 +560,7 @@ $v = 5;
                 </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <a href="https://www.telegram.hr/pitanje-zdravlja/posljednjih-je-godina-postalo-dosta-popularno-provesti-sijecanj-bez-kapi-alkohola-ovo-su-koristi/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
@@ -572,7 +572,7 @@ $v = 5;
                         </div>
                     </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <a href="https://www.telegram.hr/biznis-tech/eu-postavlja-ambicioznije-ekoloske-ciljeve-ugljicna-neutralnost-do-2050-godine/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
@@ -584,14 +584,26 @@ $v = 5;
                         </div>
                     </a>
                     </div>
-                    <div class="col-lg-4">
-                        <a href="#" target="_blank">
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/velike-price/ovi-hrvatski-znanstvenici-spasavaju-risove-od-izumiranja-nakon-dvije-godine-borbe-imaju-par-senzacionalnih-vijesti/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="<?php echo $native_path ?>/img/zastiti-okolis-modal.jpg" alt="" class="img-fluid">
+                                <img src="https://www.telegram.hr/wp-content/uploads/2021/04/ris-zajednicka-2.jpg" alt="" class="img-fluid">
                             </div>
                         
-                                <p>Koja je tvoja kap u moru rješenja?</p>
+                                <p>Ovi hrvatski znanstvenici spašavaju risove od izumiranja. Nakon dvije godine borbe imaju par senzacionalnih vijesti</p>
+                       
+                        </div>
+                    </a> 
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/velike-price/ovi-mladi-ljudi-izvukli-su-se-iz-romskih-naselja-studiraju-idu-u-super-skole-rade-donosimo-njihove-price/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/Pbbkfc0Y_lsWwOit8Od6PtG9Jijt0q9aIpFKkiZUqR4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMTEvcm9taS16YWplZG5pY2thMS0xLmpwZw.jpg" alt="" class="img-fluid">
+                            </div>
+                        
+                                <p>Ovi mladi ljudi izvukli su se iz romskih naselja, studiraju, idu u super škole, rade. Donosimo njihove priče</p>
                        
                         </div>
                     </a> 
