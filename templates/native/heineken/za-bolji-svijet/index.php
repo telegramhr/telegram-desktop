@@ -419,7 +419,7 @@ $v = 5;
                             <p>Ovaj mjesec obilježavamo #suhisiječanj. </p>
                             <p>Suhi siječanj označava period u kojem mnogi svojevoljno odlučuju prestati piti alkohol te započeti godinu trijezni, čisti i svježi. Ova inicijativa počela je prije devet godina u organizaciji Alcohol Change UK s ciljem promocije trijeznosti. </p>
                             <p>Kako se možeš uključiti? Pokaži da si cool i bez alkohola. Ne zaboravi da sada možeš konzumirati i alkoholno piće koje sadrži 0.0 promila alkohola.</p>
-                            <a href="#" target="_blank"><button type="button" class="btn btn-zeleni">Saznaj više</button>
+                            <a href="https://www.telegram.hr/partneri/ovi-ljudi-svijet-su-ucinili-boljim-mjestom-mozete-i-vi-ukljucite-se-u-nasu-akciju-moja-kap-za-bolji-svijet/" target="_blank"><button type="button" class="btn btn-zeleni">Saznaj više</button>
                             </a>
                         </div>
                     </div>
@@ -534,25 +534,25 @@ $v = 5;
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <a href="#" target="_blank">
+                        <a href="https://www.telegram.hr/pitanje-zdravlja/posljednjih-je-godina-postalo-dosta-popularno-provesti-sijecanj-bez-kapi-alkohola-ovo-su-koristi/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="<?php echo $native_path ?>/img/pomozi-drustvu-modal.jpg" alt="" class="img-fluid">
+                                <img src="https://images.telegram.hr/O9erAjhBlwPu_KGM4YYmUmLLj1Gp2jjVsSnd6l4OjXg/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMTkvMDQvR2V0dHlJbWFnZXMtNTE2ODI4MDIyLmpwZw.jpg" alt="" class="img-fluid">
                             </div>
                         
-                                <p>Koja je tvoja kap u moru rješenja?</p>
+                                <p>Posljednjih je godina postalo dosta popularno provesti siječanj bez kapi alkohola. Ovo su koristi</p>
                        
                         </div>
                     </a>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#" target="_blank">
+                        <a href="https://www.telegram.hr/biznis-tech/eu-postavlja-ambicioznije-ekoloske-ciljeve-ugljicna-neutralnost-do-2050-godine/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="<?php echo $native_path ?>/img/clanak.jpg" alt="" class="img-fluid">
+                                <img src="https://images.telegram.hr/fLZ-kvrHKwbLcyBWSYztXQC4u1LgAZ3E7q2KFa43BQM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDcvdHlsZXItY2FzZXktZmljYml3Zm9wc28tdW5zcGxhc2gtc2NhbGVkLmpwZw.jpg" alt="" class="img-fluid">
                             </div>
                         
-                                <p>Koja je tvoja kap u moru rješenja?</p>
+                                <p>EU postavlja ambicioznije ekološke ciljeve: ugljična neutralnost do 2050. godine</p>
                        
                         </div>
                     </a>
