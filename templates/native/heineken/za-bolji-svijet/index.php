@@ -445,7 +445,8 @@ $v = 5;
                         <p>Podijeli s nama svoju odluku za ovu godinu i osvoji nagrade. 
                             Odredi tri stvari koje ćeš raditi za bolji svijet do kraja godine. Pošalji nam kap za svaku od tri odluke. Nagrađujemo 30 najkreativnijih sa Heineken 0.0 poklon paketom, a broj kapi koje možete poslati je neograničen. 
                             </p>
-
+                            <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
+    
                             <form id="test-form">
                                 <div class="mb-3">
                                   <label for="ime" class="form-label">Tvoje ime</label>
