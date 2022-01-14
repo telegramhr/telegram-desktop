@@ -3,7 +3,7 @@
 $native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/telegram/nosim-kulturu';
 $v = 5;
 ?>
-<html lang="en">
+<html <?php language_attributes(); ?>>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -603,8 +603,6 @@ $v = 5;
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="<?php echo $native_path ?>/js/scripts.js"></script>
 
 
         <script src="<?php echo $native_path ?>/js/app.js"></script>

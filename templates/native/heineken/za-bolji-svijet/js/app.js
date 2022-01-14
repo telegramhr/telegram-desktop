@@ -1,4 +1,4 @@
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
     $('.poruke-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
