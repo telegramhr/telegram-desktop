@@ -446,20 +446,47 @@ $v = 5;
                             Odredi tri stvari koje ćeš raditi za bolji svijet do kraja godine. Pošalji nam kap za svaku od tri odluke. Nagrađujemo 30 najkreativnijih sa Heineken 0.0 poklon paketom, a broj kapi koje možete poslati je neograničen. 
                             </p>
 
-                            <form>
+                            <form id="test-form">
                                 <div class="mb-3">
                                   <label for="ime" class="form-label">Tvoje ime</label>
-                                  <input class="form-control form-control-lg" id="ime" type="text"  aria-label="tvoje ime">
+                                  <input class="form-control form-control-lg" id="ime" type="text" name="ime"  aria-label="tvoje ime">
+
+                                </div>
+
+                                <div class="mb-3">
+                                  <label for="email" class="form-label">Tvoj email</label>
+                                  <input class="form-control form-control-lg" id="email" type="text" name="email"  aria-label="tvoj email">
 
                                 </div>
                             
                                 <div class="mb-3">
                                     <label for="exampleFormControlTextarea1" class="form-label">Što ćeš raditi za bolji svijet i zašto baš to?</label>
-                                    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="4" maxlength="300"></textarea>
+                                    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" name="poruka" rows="4" maxlength="300"></textarea>
                                   </div>
 
-                                <button type="submit" class="btn btn-zeleni">ovo je moja kap u moru rješenja</button>
+                                <button id="submit-form" type="submit" class="btn btn-zeleni">ovo je moja kap u moru rješenja</button>
+                                <h2 id="submitted" style="display: none;">Hvala na kapi</h2>
                               </form>
+                              <script>
+                                  var $form = jQuery('form#test_form'),
+                                    url = 'https://script.google.com/macros/s/AKfycby3gBn-PUiZsF0XNXu4pZatIQa1kRQFRaxxG9hyzFrPpelLBAYayh1C1MiYG8wuQec5BA/exec'
+
+                                jQuery('#submit-form').on('click', function(e) {
+                                    e.preventDefault();
+                                    jQuery('#submit-form').attr('disable', true);
+                                    var jqxhr = jQuery.ajax({
+                                        url: url,
+                                        method: "GET",
+                                        dataType: "json",
+                                        data: $form.serializeObject()
+                                    }).done(
+                                        function(){
+                                            jQuery('#test_form').hide();
+                                            jQuery('#submitted').show();
+                                        }
+                                    );
+                                })
+                              </script>
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija" id="reveal5">
                    
