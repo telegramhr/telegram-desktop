@@ -2,6 +2,7 @@
 <?php
 $native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heineken/za-bolji-svijet';
 $v = 5;
+$num = wp_cache_get('sheet_1j69ejJhk14AEHS4KaAZFtrfIgeUNm72UiABdl2uF638_count', 4);
 ?>
 <html <?php language_attributes(); ?>>
     <head>
@@ -425,7 +426,7 @@ $v = 5;
                     </div>
                     <div class="row justify-content-center align-items-center broj-kapi" id="trigger4">
                         <div class="col-lg-5 brojac text-center">
-                            <h1>0</h1>
+                            <h1><?php echo $num ?></h1>
                             <p>kapi sakupljeno dosad</p>
                         </div>
                         <div class="col-lg-6" id="reveal4">
