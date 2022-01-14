@@ -2,7 +2,10 @@
 <?php
 $native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heineken/za-bolji-svijet';
 $v = 5;
-$num = wp_cache_get('sheet_1j69ejJhk14AEHS4KaAZFtrfIgeUNm72UiABdl2uF638_count', 4);
+$num = wp_cache_get('sheet_1j69ejJhk14AEHS4KaAZFtrfIgeUNm72UiABdl2uF638_count', 'sheets');
+if (!$num) {
+    $num = 10;
+}
 ?>
 <html <?php language_attributes(); ?>>
     <head>
