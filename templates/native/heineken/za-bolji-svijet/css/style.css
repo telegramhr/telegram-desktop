@@ -1,44 +1,46 @@
-body{
+body {
     font-family: 'Varela', sans-serif;
     color: #000;
     font-size: 16px;
     position: relative;
     background: radial-gradient(82.18% 82.18% at 0.46% 100%, rgba(0, 130, 0, 0.2) 34.38%, rgba(122, 184, 0, 0.2) 66.88%, rgba(232, 244, 232, 0.2) 100%),
-    radial-gradient(94.39% 29.78% at 102.33% 57.36%, rgba(122, 184, 0, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
-	background-size: 100%;
-	animation: gradient 10s ease infinite;
-    line-height: 1.65;  
+        radial-gradient(94.39% 29.78% at 102.33% 57.36%, rgba(122, 184, 0, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    background-size: 100%;
+    animation: gradient 10s ease infinite;
+    line-height: 1.65;
     width: 100%;
-    max-width: 100vw; 
+    max-width: 100vw;
     overflow-x: hidden;
 }
 
-p{
+p {
     font-size: 1rem;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
 
-a:hover{
+a:hover {
     color: #000;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-.linije{
+/* .linije{
     position: fixed;
     height: 100vh;
     width: calc(100% - 30px);
@@ -47,31 +49,31 @@ a:hover{
     margin-left: 15px;
     margin-right: 15px;
     z-index: -1;
-}
+} */
 
-.navbar{
+.navbar {
     border-bottom: 1px solid #C4C4C4;
     background-color: #fff !important;
 }
 
-.navbar-nav{
+.navbar-nav {
     align-items: center;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: #000;
     text-transform: uppercase;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     max-width: 100px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
 }
 
-.btn-zeleni{
+.btn-zeleni {
     background-color: #008200;
     color: #fff;
     border-radius: 50px;
@@ -80,50 +82,52 @@ a:hover{
     font-weight: 300;
     font-size: 16px;
     padding: .5rem 2rem;
- 
+
 }
 
-.btn-zeleni:hover{
+.btn-zeleni:hover {
     background-color: #7AB800;
     color: #fff;
 }
 
-.nav-item:last-of-type{
+.nav-item:last-of-type {
     margin-left: 1rem;
 }
 
 @media (min-width: 992px) {
-    body{
+    body {
         font-family: 'Varela', sans-serif;
         color: #000;
         font-size: 16px;
         position: relative;
         background: radial-gradient(82.18% 82.18% at 0.46% 100%, rgba(0, 130, 0, 0.2) 34.38%, rgba(122, 184, 0, 0.2) 66.88%, rgba(232, 244, 232, 0.2) 100%),
-        radial-gradient(94.39% 29.78% at 102.33% 57.36%, rgba(122, 184, 0, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+            radial-gradient(94.39% 29.78% at 102.33% 57.36%, rgba(122, 184, 0, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
         background-size: 400% 400%;
         animation: gradient 10s ease infinite;
-        line-height: 1.65;  
-        max-width: 100vw; 
+        line-height: 1.65;
+        max-width: 100vw;
         overflow-x: hidden;
     }
-    
-    p{
+
+    p {
         font-size: 1.125rem;
     }
-    
+
     @keyframes gradient {
         0% {
             background-position: 0% 50%;
         }
+
         50% {
             background-position: 100% 50%;
         }
+
         100% {
             background-position: 0% 50%;
         }
     }
-    
-    .linije{
+
+    /*   .linije{
         position: fixed;
         height: 100vh;
         width: 92vw;
@@ -132,27 +136,27 @@ a:hover{
         margin-left: 4vw;
         margin-right: 4vw;
         z-index: -1;
-    }
-    
-    .navbar{
+    } */
+
+    .navbar {
         border-bottom: 1px solid #C4C4C4;
         background-color: #fff !important;
     }
-    
-    .navbar-nav{
+
+    .navbar-nav {
         align-items: center;
     }
-    
-    .navbar-light .navbar-nav .nav-link{
+
+    .navbar-light .navbar-nav .nav-link {
         color: #000;
         text-transform: uppercase;
     }
 
-    .navbar-brand img{
-        max-width: 200px;
+    .navbar-brand img {
+        max-width: 100px;
     }
-    
-    .btn-zeleni{
+
+    .btn-zeleni {
         background-color: #008200;
         color: #fff;
         border-radius: 50px;
@@ -161,42 +165,42 @@ a:hover{
         font-weight: 300;
         font-size: 16px;
         padding: .5rem 2rem;
-     
+
     }
-    
-    .nav-item:last-of-type{
+
+    .nav-item:last-of-type {
         margin-left: 1rem;
     }
 }
 
 
-header{
-    background: url('../img/bg.png') no-repeat;
+header {
+    background: url('../img/bg.png?v=2') no-repeat;
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    border-bottom: 1px solid #C4C4C4;
+    /* border-bottom: 1px solid #C4C4C4; */
     position: relative;
     padding-bottom: 5rem;
 }
 
-.uvod{
+.uvod {
     position: relative;
 }
 
-.bolji{
+.bolji {
     padding-top: 30vw;
     z-index: 2;
 }
 
-.bolji p{
+.bolji p {
     font-size: 8vw;
     text-transform: uppercase;
     line-height: 1;
     z-index: 99;
 }
 
-.svijet p{
+.svijet p {
     font-size: 16vw;
     font-family: manofa, sans-serif;
     text-transform: uppercase;
@@ -204,11 +208,11 @@ header{
     z-index: 99;
 }
 
-.special{
+.special {
     padding: 0;
 }
 
-.ilustracija{
+.ilustracija {
     position: absolute;
     width: 100%;
     top: 0;
@@ -216,180 +220,185 @@ header{
     z-index: 1;
 }
 
-.krug{
+.krug {
     width: 70vw;
     position: absolute;
     right: 5vw;
     top: 5vw;
 }
 
-.kap{
+.kap {
     position: relative;
     left: 50%;
     top: 60vw;
     z-index: 1;
 }
 
-.kap2{
+.kap2 {
     position: relative;
     left: 40%;
     top: 60vw;
     z-index: 1;
 }
 
-.uvod-text{
+.uvod-text {
     padding-top: 40vw;
 }
 
-.kreni{
+.kreni {
     padding-top: 2rem;
 }
 
-.kreni p{
+.kreni p {
     text-transform: uppercase;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-right: 1rem;
 }
 
-.kap-link a:hover .kap-link img{
+.kap-link a:hover .kap-link img {
     transform: translateX(10px);
 }
 
-p.istaknuto{
+p.istaknuto {
     font-family: manofa, sans-serif;
 }
 
-.uvod-text p{
+.uvod-text p {
     font-size: 1.125rem;
     line-height: 1.65;
 }
 
 @media (min-width: 992px) {
-    header{
+    header {
         background: url('../img/bg.png') no-repeat;
         background-size: cover;
         background-position: center center;
         min-height: 100vh;
-        border-bottom: 1px solid #C4C4C4;
+        /* border-bottom: 1px solid #C4C4C4; */
         position: relative;
         padding-bottom: 10rem;
     }
-    
-    .uvod{
+
+    .uvod {
         position: relative;
     }
-    
-    .bolji{
+
+    .bolji {
         padding-top: 20%;
     }
-    
-    .bolji p{
+
+    .bolji p {
         font-size: 6rem;
         text-transform: uppercase;
         line-height: 1;
     }
-    
-    .svijet p{
+
+    .svijet p {
         font-size: 9rem;
         font-family: manofa, sans-serif;
         text-transform: uppercase;
         font-weight: 800;
     }
-    
-    .ilustracija{
+
+    .ilustracija {
         position: absolute;
         width: 100%;
         top: 0;
         right: 0;
     }
 
-    .krug{
+    .krug {
         width: 90%;
         position: relative;
         right: 0;
         top: 12%;
     }
-    
-    .kap{
+
+    .kap {
         position: relative;
         left: -50%;
         top: 20%;
     }
 
-    .kap2{
+    .kap2 {
         position: relative;
         left: -45%;
         top: 20%;
     }
-    
-    .uvod-text{
+
+    .uvod-text {
         padding-top: 8rem;
     }
 
-    .kreni{
+    .kreni {
         padding-top: 0;
     }
-    
-    .kreni p{
+
+    .kreni p {
         text-transform: uppercase;
         padding-bottom: 0;
         margin-bottom: 0;
         margin-right: 1rem;
     }
-    
-    p.istaknuto{
+
+    p.istaknuto {
         font-family: manofa, sans-serif;
     }
-    
-    .uvod-text p{
+
+    .uvod-text p {
         font-size: 1.125rem;
         line-height: 1.65;
     }
 }
 
 
-#tvoje3, #suhisijecanj, #posaljikap, #clanci{
+#tvoje3,
+#suhisijecanj,
+#posaljikap,
+#clanci {
     padding: 5rem 0;
-    border-bottom: 1px solid #C4C4C4;
+    /* border-bottom: 1px solid #C4C4C4; */
     position: relative;
 }
 
-#tvoje3{
+#tvoje3 {
     padding: 12rem 0;
 }
 
-.tvoje3svg{
+.tvoje3svg {
     z-index: 99;
 }
 
-#budi-cool, #pomozi-drustvu, #zastiti-okolis{
+#budi-cool,
+#pomozi-drustvu,
+#zastiti-okolis {
     cursor: pointer;
 }
 
-#budi-cool:hover #budi-cool-grey{
-transform: scale(1.15);
-transform-origin: 50% 17.5%;
+#budi-cool:hover #budi-cool-grey {
+    transform: scale(1.15);
+    transform-origin: 50% 17.5%;
 }
 
- #pomozi-drustvu:hover #pomozi-drustvu-grey{
+#pomozi-drustvu:hover #pomozi-drustvu-grey {
     transform: scale(1.15);
     transform-origin: 18.5% 60%;
-    }
+}
 
-    #zastiti-okolis:hover #zastiti-okolis-grey{
-        transform: scale(1.15);
-        transform-origin: 81% 60%;
-        }
+#zastiti-okolis:hover #zastiti-okolis-grey {
+    transform: scale(1.15);
+    transform-origin: 81% 60%;
+}
 
-.fotka1{
+.fotka1 {
     position: absolute;
     left: 0;
     top: 1rem;
     width: 20vw;
 }
 
-.fotka2{
+.fotka2 {
     position: absolute;
     right: 0;
     bottom: 1rem;
@@ -397,182 +406,187 @@ transform-origin: 50% 17.5%;
 }
 
 #reveal1 {
- 
+
     opacity: 0;
-				-webkit-transform: translateY(-40px);
-					 -moz-transform: translateY(-40px);
-						-ms-transform: translateY(-40px);
-						 -o-transform: translateY(-40px);
-								transform: translateY(-40px);
-				-webkit-transition: all 0.6s ease-out;
-					 -moz-transition: all 0.6s ease-out;
-						-ms-transition: all 0.6s ease-out;
-						 -o-transition: all 0.6s ease-out;
-								transition: all 0.6s ease-out;
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    transform: translateY(-40px);
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
 }
+
 #reveal1.visible {
     opacity: 1;
     -webkit-transform: none;
-         -moz-transform: none;
-            -ms-transform: none;
-             -o-transform: none;
-                    transform: none;
-                }
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
 
-                #reveal2 {
- 
-                    opacity: 0;
-                                -webkit-transform: translateY(40px);
-                                     -moz-transform: translateY(40px);
-                                        -ms-transform: translateY(40px);
-                                         -o-transform: translateY(40px);
-                                                transform: translateY(40px);
-                                -webkit-transition: all 0.6s ease-out;
-                                     -moz-transition: all 0.6s ease-out;
-                                        -ms-transition: all 0.6s ease-out;
-                                         -o-transition: all 0.6s ease-out;
-                                                transition: all 0.6s ease-out;
-                }
-                #reveal2.visible {
-                    opacity: 1;
-                    -webkit-transform: none;
-                         -moz-transform: none;
-                            -ms-transform: none;
-                             -o-transform: none;
-                                    transform: none;
-                                }
+#reveal2 {
 
-                                #reveal3 {
-                                    opacity: 0;
-                                    -webkit-transform: scale(0.9);
-                                         -moz-transform: scale(0.9);
-                                            -ms-transform: scale(0.9);
-                                             -o-transform: scale(0.9);
-                                                    transform: scale(0.9);
-                                    -webkit-transition: all 0.8s ease-in-out;
-                                         -moz-transition: all 0.8s ease-in-out;
-                                            -ms-transition: all 0.8s ease-in-out;
-                                             -o-transition: all 0.8s ease-in-out;
-                                                    transition: all 0.8s ease-in-out;
-                                }
-                                #reveal3.visible {
-                                    opacity: 1;
-                                    -webkit-transform: none;
-                                         -moz-transform: none;
-                                            -ms-transform: none;
-                                             -o-transform: none;
-                                                    transform: none;
-                                }
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px);
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
 
-                                #reveal4 {
-                                    opacity: 0;
-                                    -webkit-transform: scale(0.9);
-                                         -moz-transform: scale(0.9);
-                                            -ms-transform: scale(0.9);
-                                             -o-transform: scale(0.9);
-                                                    transform: scale(0.9);
-                                    -webkit-transition: all 0.8s ease-in-out;
-                                         -moz-transition: all 0.8s ease-in-out;
-                                            -ms-transition: all 0.8s ease-in-out;
-                                             -o-transition: all 0.8s ease-in-out;
-                                                    transition: all 0.8s ease-in-out;
-                                }
-                                #reveal4.visible {
-                                    opacity: 1;
-                                    -webkit-transform: none;
-                                         -moz-transform: none;
-                                            -ms-transform: none;
-                                             -o-transform: none;
-                                                    transform: none;
-                                }
+#reveal2.visible {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
 
-                                #reveal5 {
-                                    opacity: 0;
-                                    -webkit-transform: scale(0.9);
-                                         -moz-transform: scale(0.9);
-                                            -ms-transform: scale(0.9);
-                                             -o-transform: scale(0.9);
-                                                    transform: scale(0.9);
-                                    -webkit-transition: all 0.8s ease-in-out;
-                                         -moz-transition: all 0.8s ease-in-out;
-                                            -ms-transition: all 0.8s ease-in-out;
-                                             -o-transition: all 0.8s ease-in-out;
-                                                    transition: all 0.8s ease-in-out;
-                                }
-                                #reveal5.visible {
-                                    opacity: 1;
-                                    -webkit-transform: none;
-                                         -moz-transform: none;
-                                            -ms-transform: none;
-                                             -o-transform: none;
-                                                    transform: none;
-                                }
+#reveal3 {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
 
-.modal-header{
+#reveal3.visible {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+#reveal4 {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+#reveal4.visible {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+#reveal5 {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+#reveal5.visible {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.modal-header {
     height: 265px;
     align-items: start;
 }
 
-.bc-header{
+.bc-header {
     background: url('../img/budi-cool-modal.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
 
-.pd-header{
+.pd-header {
     background: url('../img/pomozi-drustvu-modal.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
 
-.zo-header{
+.zo-header {
     background: url('../img/zastiti-okolis-modal.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
 
-.modal-dialog{
+.modal-dialog {
     max-width: 100%;
 }
 
-.btn-close{
+.btn-close {
     color: #fff;
     background: url('../img/menu/close_small.svg') no-repeat;
     background-size: contain;
     background-position: center center;
 }
 
-.black-close{
+.black-close {
     color: #000;
     background: url('../img/menu/menu/close_smallblack.svg') no-repeat;
     background-size: contain;
     background-position: center center;
 }
 
-.kap1{
+.kap1 {
     position: absolute;
     top: -10%;
     left: calc(50% - 30px);
     width: 60px;
 }
 
-.modal-body{
+.modal-body {
     padding: 2rem 3rem 3rem;
 }
 
-.modal-body h1{
- font-size: 1.75rem;
- color: #008200;
- font-family: manofa, sans-serif;
- font-weight: 500;
- padding-bottom: 1rem;
- text-transform: uppercase;
+.modal-body h1 {
+    font-size: 1.75rem;
+    color: #008200;
+    font-family: manofa, sans-serif;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
 }
 
-.modal-body h4{
+.modal-body h4 {
     font-size: 1rem;
     font-family: manofa, sans-serif;
     font-style: italic;
@@ -580,134 +594,140 @@ transform-origin: 50% 17.5%;
     line-height: 1.75;
 }
 
-.modal-body p{
+.modal-body p {
     line-height: 1.65;
 }
 
 
-@media (min-width: 992px){
-    #tvoje3, #suhisijecanj, #posaljikap, #clanci{
+@media (min-width: 992px) {
+
+    #tvoje3,
+    #suhisijecanj,
+    #posaljikap,
+    #clanci {
         padding: 10rem 0;
-        border-bottom: 1px solid #C4C4C4;
+        /* border-bottom: 1px solid #C4C4C4; */
         position: relative;
     }
-    
-    .tvoje3svg{
+
+    .tvoje3svg {
         z-index: 99;
     }
-    
-    #budi-cool, #pomozi-drustvu, #zastiti-okolis{
+
+    #budi-cool,
+    #pomozi-drustvu,
+    #zastiti-okolis {
         cursor: pointer;
     }
-    
-    #budi-cool:hover #budi-cool-grey{
-    transform: scale(1.15);
-    transform-origin: 50% 25%;
+
+    #budi-cool:hover #budi-cool-grey {
+        transform: scale(1.15);
+        transform-origin: 50% 25%;
     }
-    
-     #pomozi-drustvu:hover #pomozi-drustvu-grey{
+
+    #pomozi-drustvu:hover #pomozi-drustvu-grey {
         transform: scale(1.15);
         transform-origin: 18.5% 62.5%;
-        }
-    
-        #zastiti-okolis:hover #zastiti-okolis-grey{
-            transform: scale(1.15);
-            transform-origin: 81% 62.5%;
-            }
-    
-    .fotka1{
+    }
+
+    #zastiti-okolis:hover #zastiti-okolis-grey {
+        transform: scale(1.15);
+        transform-origin: 81% 62.5%;
+    }
+
+    .fotka1 {
         position: absolute;
         left: 0;
         top: 5rem;
         width: auto;
     }
-    
-    .fotka2{
+
+    .fotka2 {
         position: absolute;
         right: 0;
         bottom: 5rem;
         width: auto;
     }
-    
-    .modal-header{
+
+    .modal-header {
         height: 265px;
         align-items: start;
     }
-    
-    .bc-header{
+
+    .bc-header {
         background: url('../img/budi-cool-modal.jpg') no-repeat;
         background-size: cover;
         background-position: center center;
         position: relative;
     }
-    
-    .pd-header{
+
+    .pd-header {
         background: url('../img/pomozi-drustvu-modal.jpg') no-repeat;
         background-size: cover;
         background-position: center center;
         position: relative;
     }
-    
-    .zo-header{
+
+    .zo-header {
         background: url('../img/zastiti-okolis-modal.jpg') no-repeat;
         background-size: cover;
         background-position: center center;
         position: relative;
     }
-    
-    .modal-dialog{
+
+    .modal-dialog {
         max-width: 565px;
     }
-    
-    .btn-close{
+
+    .btn-close {
         color: #fff;
         background: url('../img/menu/close_small.svg') no-repeat;
         background-size: contain;
         background-position: center center;
     }
-    
-    .black-close{
+
+    .black-close {
         color: #000;
         background: url('../img/menu/menu/close_smallblack.svg') no-repeat;
         background-size: contain;
         background-position: center center;
     }
-    
-    .kap1{
+
+    .kap1 {
         position: absolute;
         top: -10%;
         left: calc(50% - 30px);
         width: 60px;
     }
-    
-    .modal-body{
+
+    .modal-body {
         padding: 2rem 3rem 3rem;
     }
-    
-    .modal-body h1{
-     font-size: 2rem;
-     color: #008200;
-     font-family: manofa, sans-serif;
-     font-weight: 500;
-     padding-bottom: 1rem;
-     text-transform: uppercase;
+
+    .modal-body h1 {
+        font-size: 2rem;
+        color: #008200;
+        font-family: manofa, sans-serif;
+        font-weight: 500;
+        padding-bottom: 1rem;
+        text-transform: uppercase;
     }
-    
-    .modal-body h4{
+
+    .modal-body h4 {
         font-size: 1.125rem;
         font-family: manofa, sans-serif;
         font-style: italic;
         padding-bottom: 1rem;
         line-height: 1.75;
     }
-    
-    .modal-body p{
+
+    .modal-body p {
         line-height: 1.65;
     }
 }
 
 
-.sijecanj-content span{
+.sijecanj-content span {
     background-color: #7AB800;
     padding: .25rem 1rem;
     color: #fff;
@@ -715,7 +735,7 @@ transform-origin: 50% 17.5%;
     border-radius: 4px;
 }
 
-.sijecanj-content h2{
+.sijecanj-content h2 {
     font-family: manofa, sans-serif;
     font-size: 2.25rem;
     text-transform: uppercase;
@@ -724,31 +744,31 @@ transform-origin: 50% 17.5%;
     line-height: 1.35;
 }
 
-.razmak{
+.razmak {
     padding-top: 2rem;
 }
 
-.sijecanj-content button{
+.sijecanj-content button {
     margin-top: 1rem;
 }
 
-.broj-kapi{
+.broj-kapi {
     padding-top: 5rem;
 }
 
-.brojac h1{
+.brojac h1 {
     font-family: manofa, sans-serif;
     font-size: 9rem;
     color: #008200;
     font-weight: 300;
 }
 
-.brojac p{
+.brojac p {
     text-transform: uppercase;
     font-size: 1.125rem;
 }
 
-.pk-content h2{
+.pk-content h2 {
     font-family: manofa, sans-serif;
     font-size: 2.25rem;
     text-transform: uppercase;
@@ -756,62 +776,67 @@ transform-origin: 50% 17.5%;
     line-height: 1.35;
 }
 
-.pk-ilutracija{
+.pk-ilutracija {
     padding-top: 15rem;
     position: relative;
 }
 
-.pk-kapi{
+.pk-kapi {
     position: absolute;
     top: 30%;
     right: 10%;
     width: 120px;
 }
 
-form{
+form {
     padding-top: 2rem;
 }
 
-.form-label{
+.form-label {
     font-family: manofa, sans-serif;
     font-weight: 300;
 }
 
-form button{
+form button {
     margin-top: 1rem;
 }
 
-.poruke{
+.form-check a {
+    color: #008200;
+    text-decoration: underline;
+}
+
+.poruke {
     padding-top: 5rem;
 }
 
-.prev{
+.prev {
     margin-right: 1rem;
 }
 
-.poruke h4{
+.poruke h4 {
     font-family: manofa, sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
     text-transform: uppercase;
 }
 
-.poruke-slider{
+.poruke-slider {
     padding-top: 2rem;
 }
 
-.poruka{
+.poruka {
     background-color: #fff;
     border: 1px solid #E5E5E5;
     border-radius: 4px;
     margin-right: 1rem;
 }
 
-.body-poruke{
+.body-poruke {
     padding: 2rem 3rem;
 }
 
-.footer-poruke{
+.footer-poruke {
     background: url('../img/footer-poruka.jpg') no-repeat;
     background-size: cover;
     height: 55px;
@@ -823,22 +848,23 @@ form button{
 
 }
 
-.footer-poruke p{
+.footer-poruke p {
     margin-bottom: 0;
     font-family: manofa, sans-serif;
     color: #fff;
     font-weight: 300;
 }
-@media (min-width: 992px){
-    .sijecanj-content span{
+
+@media (min-width: 992px) {
+    .sijecanj-content span {
         background-color: #7AB800;
         padding: .25rem 1rem;
         color: #fff;
         text-transform: uppercase;
         border-radius: 4px;
     }
-    
-    .sijecanj-content h2{
+
+    .sijecanj-content h2 {
         font-family: manofa, sans-serif;
         font-size: 2.25rem;
         text-transform: uppercase;
@@ -846,95 +872,95 @@ form button{
         padding-bottom: 1.5rem;
         line-height: 1.35;
     }
-    
-    .razmak{
+
+    .razmak {
         padding-top: 5rem;
     }
-    
-    .sijecanj-content button{
+
+    .sijecanj-content button {
         margin-top: 1rem;
     }
-    
-    .broj-kapi{
+
+    .broj-kapi {
         padding-top: 15rem;
     }
-    
-    .brojac h1{
+
+    .brojac h1 {
         font-family: manofa, sans-serif;
         font-size: 9rem;
         color: #008200;
         font-weight: 300;
     }
-    
-    .brojac p{
+
+    .brojac p {
         text-transform: uppercase;
         font-size: 1.125rem;
     }
-    
-    .pk-content h2{
+
+    .pk-content h2 {
         font-family: manofa, sans-serif;
         font-size: 2.25rem;
         text-transform: uppercase;
         padding-bottom: 1.5rem;
         line-height: 1.35;
     }
-    
-    .pk-ilutracija{
+
+    .pk-ilutracija {
         padding-top: 15rem;
         position: relative;
     }
-    
-    .pk-kapi{
+
+    .pk-kapi {
         position: absolute;
         top: 15%;
         right: 15%;
         width: auto;
     }
-    
-    form{
+
+    form {
         padding-top: 2rem;
     }
-    
-    .form-label{
+
+    .form-label {
         font-family: manofa, sans-serif;
         font-weight: 300;
     }
-    
-    form button{
+
+    form button {
         margin-top: 1rem;
     }
-    
-    .poruke{
+
+    .poruke {
         padding-top: 10rem;
     }
-    
-    .prev{
+
+    .prev {
         margin-right: 1rem;
     }
-    
-    .poruke h4{
+
+    .poruke h4 {
         font-family: manofa, sans-serif;
         font-weight: 500;
         font-size: 1.5rem;
         text-transform: uppercase;
     }
-    
-    .poruke-slider{
+
+    .poruke-slider {
         padding-top: 2rem;
     }
-    
-    .poruka{
+
+    .poruka {
         background-color: #fff;
         border: 1px solid #E5E5E5;
         border-radius: 4px;
         margin-right: 1rem;
     }
-    
-    .body-poruke{
+
+    .body-poruke {
         padding: 2rem 3rem;
     }
-    
-    .footer-poruke{
+
+    .footer-poruke {
         background: url('../img/footer-poruka.jpg') no-repeat;
         background-size: cover;
         height: 55px;
@@ -943,17 +969,18 @@ form button{
         border-radius: 4px;
         border: 1px solid #E5E5E5;
         padding: 1rem;
-    
+
     }
-    
-    .footer-poruke p{
+
+    .footer-poruke p {
         margin-bottom: 0;
         font-family: manofa, sans-serif;
         color: #fff;
         font-weight: 300;
     }
 }
-.naslov h2{
+
+.naslov h2 {
     font-family: manofa, sans-serif;
     font-size: 2.25rem;
     text-transform: uppercase;
@@ -961,100 +988,98 @@ form button{
     line-height: 1.35;
 }
 
-.clanak{
-text-align: center;
-margin-top: 2rem;
+.clanak {
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.clanak img{
+.clanak img {
     width: 100%;
     border-radius: 8px;
-   height: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
-.clanak p{
+.clanak p {
     font-family: manofa, sans-serif;
     font-size: 1.25rem;
     line-height: 1.25;
     margin-top: 1.5rem;
 }
 
-#clanci a{
+#clanci a {
     text-decoration: none;
     color: #000;
 }
 
-.suhisijecanj-fotka2{
+.suhisijecanj-fotka2 {
     padding-top: 2rem;
 }
 
 
-footer{
+footer {
     background-color: #008200;
     padding: 5rem 0;
     color: #fff;
 }
 
-.logotipi{
+.logotipi {
     padding-bottom: 3rem;
 }
 
-footer p{
+footer p {
     font-size: 1rem;
 }
 
-@media (min-width: 992px){
-    .naslov h2{
+@media (min-width: 992px) {
+    .naslov h2 {
         font-family: manofa, sans-serif;
         font-size: 2.25rem;
         text-transform: uppercase;
         padding-bottom: 1.5rem;
         line-height: 1.35;
     }
-    
-    .clanak{
-    text-align: center;
-    margin-top: 2rem;
+
+    .clanak {
+        text-align: center;
+        margin-top: 2rem;
     }
-    
-    .clanak img{
+
+    .clanak img {
         width: 100%;
         border-radius: 8px;
-       height: 300px;
+        height: 300px;
         object-fit: cover;
     }
-    
-    .clanak p{
+
+    .clanak p {
         font-family: manofa, sans-serif;
         font-size: 1.5rem;
         line-height: 1.25;
         margin-top: 1.5rem;
     }
-    
-    #clanci a{
+
+    #clanci a {
         text-decoration: none;
         color: #000;
     }
-    
-    .suhisijecanj-fotka2{
+
+    .suhisijecanj-fotka2 {
         padding-top: 2rem;
     }
-    
-    
-    footer{
+
+
+    footer {
         background-color: #008200;
         padding: 10rem 0;
         color: #fff;
     }
-    
-    .logotipi{
+
+    .logotipi {
         padding-bottom: 3rem;
     }
-    
-    footer p{
+
+    footer p {
         font-size: 1.25rem;
     }
 }
-
-

@@ -28,7 +28,7 @@ var yPercent2 = 220;
 
 if (windowWidth > 992) {
     yPercent1 = -600;
-    yPercent2 = 600;
+    yPercent2 = 680;
 }
 
 gsap.fromTo(".kap", {
@@ -53,7 +53,7 @@ gsap.fromTo(".kap2", {
     ease: "power2.in",
     repeat: -1,
     repeatDelay: 1.5,
-    delay: 0.5
+    delay: 2
 });
 
 var controller = new ScrollMagic.Controller();
