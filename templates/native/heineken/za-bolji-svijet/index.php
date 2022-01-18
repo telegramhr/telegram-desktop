@@ -425,7 +425,7 @@ if (!$num) {
                 <div class="row justify-content-lg-center pk-content">
                     <div class="col-lg-5">
                         <h2>pošalji svoju kap</h2>
-                        <p>Podijeli s nama svoju odluku za ovu godinu i osvoji nagrade. Odredi tri stvari koje ćeš raditi za bolji svijet do kraja godine. Pošalji nam kap za svaku od tri odluke. Nagrađujemo 30 najkreativnijih s Heineken 0.0 poklo- paketom, a broj kapi koje možeš poslati je neograničen. 
+                        <p>Podijeli s nama svoju odluku za ovu godinu i osvoji nagrade. Odredi tri stvari koje ćeš raditi za bolji svijet do kraja godine. Pošalji nam kap za svaku od tri odluke. Nagrađujemo 30 najkreativnijih s Heineken 0.0 poklon-paketom, a broj kapi koje možeš poslati je neograničen. 
                             </p>
                             <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
     
