@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
 <?php
-$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/telegram/nosim-kulturu';
-$v = 5;
+$native_path = get_stylesheet_directory_uri() . '/templates/native/telegram/nosim-kulturu';
+$v = 6;
 ?>
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <?php wp_head(); ?>
+    
+	<title>nosimkulturu</title>
 	<!--font-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,12 +65,12 @@ $v = 5;
 			  <div class="col-md-6 link-section text-left text-uppercase">
 			    <a class="link pogledaj d-flex align-items-start" href="https://www.telegram.hr/partneri/slama-mi-se-srce-pri-pomisli-da-taj-muzej-zatvara-svoja-vrata-poznati-kulturnjaci-o-projektu-nosim-kulturu/" target="_blank"><span class="rock-font">SAZNAJ VIŠE O PROJEKTU</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
 			  </div>
-			  <div class="col-md-6 text-right text-uppercase desktop"><p><a target="blank" class="link" href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/">Muzej<br> suvremene umjetnosti</a></p></div>
+			  <div class="col-md-6 text-right text-uppercase desktop"><p><a target="blank" class="link" href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/">Etnografski<br> muzej Zagreb</a></p></div>
 			</div>
 		  </div> 
 		  <div class="col-md-5 pt-5 pt-md-0 wow fadeIn animated" data-wow-duration="4s" style="visibility: visible;-webkit-animation-duration: 4s; -moz-animation-duration: 4s; animation-duration: 4s;">
-		    <div class="img-box"><a target="blank" href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/"><img src="<?php echo $native_path ?>/asset/images/img1.png?v=<?php echo $v ?>" class="img-fluid"/></a></div>
-			<a href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/" class="btn top-btn position-absolute" target="blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid"/></a>
+		    <div class="img-box"><a target="blank" href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/"><img src="<?php echo $native_path ?>/asset/images/img1.png?v=<?php echo $v ?>" class="img-fluid"/></a></div>
+			<a href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/" class="btn top-btn position-absolute" target="blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid"/></a>
 			
 			<p class="mobile mt-3">Muzej za<br> umjetnost i obrt</p>
 
@@ -87,7 +88,14 @@ $v = 5;
 			
 		    <div class="slide-main">
 			   <div class="products-grid items1">
-			   <div class="slide slide1 text-center">
+			   <div class="slide slide3 text-center">
+			   <div class="slide-text">		   
+				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png" class="img-fluid"/>3</p>	
+				   <h2 class="mb-5 mb-md-3">ETNOGRAFSKI<br> MUZEJ ZAGREB</h2>	
+				   <a href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png" class="img-fluid arrow-left"/></a>
+				  </div>
+				 </div> 
+			    <div class="slide slide1 text-center">
 					
 				  <div class="slide-text">		   
 				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png?v=<?php echo $v ?>" class="img-fluid"/>1</p>	
@@ -95,14 +103,14 @@ $v = 5;
 				   <a href="https://www.telegram.hr/kultura/nakon-140-godina-muzej-za-umjetnost-i-obrt-zatvara-svoja-vrata-ove-smo-fotografije-snimili-u-njemu/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid arrow-left"/></a>
 				  </div>						
                 </div>
-                <div class="slide slide2 text-center">
+               <div class="slide slide2 text-center">
 					
 				  <div class="slide-text">		   
 				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png?v=<?php echo $v ?>" class="img-fluid"/>2</p>	
 				   <h2 class="mb-5 mb-md-3">MUZEJ SUVREMENE <br> UMJETNOSTI</h2>	
 				   <a href="https://www.telegram.hr/kultura/novi-nastavak-hit-serijala-nosimkulturu-magicni-editorijal-iz-muzeja-suvremene-umjetnosti/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid arrow-left"/></a>
 				  </div>						
-                </div>
+                </div> 
 				
              </div>
 			 
@@ -119,7 +127,7 @@ $v = 5;
 			  <p class="mb-4 text-uppercase rock-font">pogledaj video</p>
 			    <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=TZD9VVMJhQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
 				<!--<iframe width="900" height="500" src="https://www.youtube.com/embed/HunCLk67rEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-				<iframe width="900" height="500" src="https://www.youtube.com/embed/lKtHnf-cluI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="900" height="500" src="https://www.youtube.com/embed/tb7k0y0mF14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			   <!-- <img src="asset/images/POGLEDAJ-VIDEO-img.jpg?v=<?php echo $v ?>" class="img-fluid"/> -->
 			</div>
 	   </div>
@@ -179,10 +187,21 @@ $v = 5;
 			  </div>
 			 </div>
 			</div>
-			<div class="col-12 btm-table py-4 wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;" >
+			<div class="col-12 btm-table py-4 border-bottom wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
 			 <div class="row">			
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(03)</span>
+			  <h2 class="pl-md-5">etnografski <br> muzej</h2>
+			  </div>
+			  <!-- <div class="col-4 col-md-2 right-section d-flex justify-content-end">
+			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
+			  </div> -->
+			 </div>
+			</div>
+			<div class="col-12 btm-table py-4 wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;" >
+			 <div class="row">			
+			  <div class="col-8 left-section col-md-10 d-md-flex">
+			  <span>(04)</span>
 			  <h2 class="pl-md-5">muzej grada <br> zagreba</h2>
 			  </div>
 			  <div class="col-4 col-md-2 right-section d-flex justify-content-end">
@@ -190,17 +209,7 @@ $v = 5;
 			  </div>
 			 </div>
 			</div>
-			<div class="col-12 btm-table py-4 border-bottom wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
-			 <div class="row">			
-			  <div class="col-8 left-section col-md-10 d-md-flex">
-			  <span>(04)</span>
-			  <h2 class="pl-md-5">etnografski <br> muzej</h2>
-			  </div>
-			  <div class="col-4 col-md-2 right-section d-flex justify-content-end">
-			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
-			  </div>
-			 </div>
-			</div>
+			
 			
 			
 			
@@ -343,6 +352,6 @@ jQuery(document).ready(function($){
 });
 </script>
 
-<?php wp_footer(); ?>
+<!-- <?php wp_footer(); ?> -->
   </body>
   </html>
