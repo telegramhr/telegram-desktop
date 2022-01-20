@@ -431,7 +431,7 @@ if (!$num) {
     
                             <form id="test_form">
                                 <div class="mb-3">
-                                  <label for="ime" class="form-label">Tvoje ime</label>
+                                  <label for="ime" class="form-label">Tvoje ime i prezime</label>
                                   <input class="form-control form-control-lg" id="ime" type="text" name="ime"  aria-label="tvoje ime">
 
                                 </div>
