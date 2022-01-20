@@ -581,13 +581,13 @@ if (!$num) {
                 </div>
                 <div class="row">
                     <div class="col-lg-3">
-                        <a href="https://www.telegram.hr/pitanje-zdravlja/posljednjih-je-godina-postalo-dosta-popularno-provesti-sijecanj-bez-kapi-alkohola-ovo-su-koristi/" target="_blank">
+                        <a href="https://www.telegram.hr/partneri/treneri-i-strucnjaci-za-samodisciplinu-otkrivaju-ovo-su-kljucni-trenuci-u-kojima-99-posto-ljudi-poklekne/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="https://images.telegram.hr/O9erAjhBlwPu_KGM4YYmUmLLj1Gp2jjVsSnd6l4OjXg/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMTkvMDQvR2V0dHlJbWFnZXMtNTE2ODI4MDIyLmpwZw.jpg" alt="" class="img-fluid">
+                                <img src="https://images.telegram.hr/yCUq7QNnIXCJNNwmitkiUJFqjFWw4b1rLrvDaFtAkig/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDEva292YTI3OTYuanBn.jpg" alt="" class="img-fluid">
                             </div>
                         
-                                <p>Posljednjih je godina postalo dosta popularno provesti siječanj bez kapi alkohola. Ovo su koristi</p>
+                                <p>Treneri i stručnjaci za samodisciplinu otkrivaju: 'Ovo su ključni trenuci u kojima 99 posto ljudi poklekne'</p>
                        
                         </div>
                     </a>
