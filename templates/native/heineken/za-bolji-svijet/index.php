@@ -503,63 +503,66 @@ if (!$num) {
                     <div class="col-lg-12">
                         
                         <div class="poruke-slider">
-                            <?php $messages = [
-                                [
-                                    'message' => 'Odlučila sam stati na kraj svojoj impulzivnoj kupovini odjeće. Ne želim podržavati fast fashion. Čini se kao malo djelo, ali je zapravo velika stvar za mene.',
-                                    'person' => 'Ivana Kraljić',
-                                ],
-                                [
-                                    'message' => 'Zbog utjecaja uzgoja mesa na okoliš moja obitelj sada jede četiri, a ne sedam mesnih obroka na tjedan kao prije. Nadam se da ćemo kroz vrijeme i taj broj smanjiti i da će ta naša odluka biti kap koja će pokrenuti rijeku dobrih promjena.',
-                                    'person' => 'Snježana Horvat',
-                                ],
-                                [
-                                    'message' => 'Odlučila sam smanjiti količinu otpada i promijeniti odnos prema svom tijelu. Zamijenit ću svoje dosadašnje higijenske proizvode s njihovim održivim varijantama.',
-                                    'person' => 'Valentina Hribar',
-                                ],
-                                [
-                                    'message' => 'Imam problem s kovanicama. Ne volim ih imati u novčaniku i ne volim ih koristiti. Neki dan sam spremala sobu, pronašla kovanicu i poželjela je baciti u smeće, no onda sam shvatila bizarnost situacije i odlučila sam da ću od sada svaki put kad sretnem ulične performere ili prosjake dati im kovanice.',
-                                    'person' => 'Dobra Savić',
-                                ],
-                                [
-                                    'message' => 'Idući tjedan se pridružujem organizaciji za pomoć azilantima. Pomagat ću djeci s učenjem hrvatskog jezika. Jako se veselim što ću svojim malim doprinosom nekome olakšati djetinjstvo.',
-                                    'person' => 'Davor Prusac',
-                                ],
-                                [
-                                    'message' => 'Odlučila sam kupovati sve voće i povrće na placu. Tako ću podržati male uzgajivače, ali i generirati manje otpada! Nevjerojatno je koliko nepotrebnog pakiranja voća i povrća ima u trgovinama…',
-                                    'person' => 'Mirjana Lepen',
-                                ],
-                                [
-                                    'message' => 'Moja starija susjeda je jako oslabila posljednjih godinu dana. Pošto i dalje može i voli čitati, sjetila sam se da bih joj mogla ponuditi rješenje. Donosit ću joj  knjige iz knjižnice kako se sama ne bi morala brinuti o rokovima i prijevozu. Nadam se da ću s vremenom moći pomoći i oko drugih stvari.',
-                                    'person' => 'Nikolina Dugić',
-                                ],
-                                [
-                                    'message' => 'Do sada nisam odvajala otpad u kućanstvu. Govorila sam si da je to zato što nemam mjesta za tri kante, ali zapravo je u pitanju bila lijenost. Odlučujem da ću pronaći rješenje i shvatiti to ozbiljno. Žao mi je što to nisam ranije shvatila.',
-                                    'person' => 'Lana Kovač',
-                                ],
-                                [
-                                    'message' => 'Ove godine želim posaditi najmanje jedno stablo i naučiti nešto o uzgajanju biljaka. Moje malo stablo će rasti i proizvoditi kisik, a moj budući vrt će prehranjivati moju obitelj. Najmanje pet ljudi će zbog toga biti bolje.',
-                                    'person' => 'Mateo Hrnjak',
-                                ],
-                                [
-                                    'message' => 'U blizini mog stana postoji udruga koja pruža pomoć životinjama. Svaki puta kada prođem pored nje, rastuži me što ne mogu udomiti jednog psa. To se nije promijenilo, ali odlučilo sam da ću pristupiti udruzi i pitati ih kako mogu pomoći svojim radom. Možda, se stvori i prilika za udomljenje!',
-                                    'person' => 'Vanja Kos',
-                                ],
-                                [
-                                    'message' => 'Moja draga prijateljica je nedavno dobila dijete. Pošto se ona i muž nemaju nekog na kog se uvijek mogu osloniti, želim im pomoći čuvanjem bebe kad ostanu bez drugih opcija. Ove godine želim pokoji provod petkom ili kavu na špici zamijeniti čuvanjem njihove curice, kako bi se mama i tata stigli sami družiti.',
-                                    'person' => 'Divna Novosel',
-                                ],
-                                [
-                                    'message' => 'Zbog užurbanosti života, sve manje posjećujem svoje roditelje. Ove godine ću pronaći način da se vidimo češće i družimo kvalitetnije. Mislim da, kod odluka o boljem životu, često zaboravimo na one kojima najviše trebamo i koji su nam zapravo najbliži.',
-                                    'person' => 'Leon Jurić',
-                                ],
-                            ]; 
+                            <?php $messages = wp_cache_get('sheet_1j69ejJhk14AEHS4KaAZFtrfIgeUNm72UiABdl2uF638_messages', 'sheets');
+                            if (!$messages) {
+                                $messages = [
+                                    [
+                                        'message' => 'Odlučila sam stati na kraj svojoj impulzivnoj kupovini odjeće. Ne želim podržavati fast fashion. Čini se kao malo djelo, ali je zapravo velika stvar za mene.',
+                                        'person' => 'Ivana Kraljić',
+                                    ],
+                                    [
+                                        'message' => 'Zbog utjecaja uzgoja mesa na okoliš moja obitelj sada jede četiri, a ne sedam mesnih obroka na tjedan kao prije. Nadam se da ćemo kroz vrijeme i taj broj smanjiti i da će ta naša odluka biti kap koja će pokrenuti rijeku dobrih promjena.',
+                                        'person' => 'Snježana Horvat',
+                                    ],
+                                    [
+                                        'message' => 'Odlučila sam smanjiti količinu otpada i promijeniti odnos prema svom tijelu. Zamijenit ću svoje dosadašnje higijenske proizvode s njihovim održivim varijantama.',
+                                        'person' => 'Valentina Hribar',
+                                    ],
+                                    [
+                                        'message' => 'Imam problem s kovanicama. Ne volim ih imati u novčaniku i ne volim ih koristiti. Neki dan sam spremala sobu, pronašla kovanicu i poželjela je baciti u smeće, no onda sam shvatila bizarnost situacije i odlučila sam da ću od sada svaki put kad sretnem ulične performere ili prosjake dati im kovanice.',
+                                        'person' => 'Dobra Savić',
+                                    ],
+                                    [
+                                        'message' => 'Idući tjedan se pridružujem organizaciji za pomoć azilantima. Pomagat ću djeci s učenjem hrvatskog jezika. Jako se veselim što ću svojim malim doprinosom nekome olakšati djetinjstvo.',
+                                        'person' => 'Davor Prusac',
+                                    ],
+                                    [
+                                        'message' => 'Odlučila sam kupovati sve voće i povrće na placu. Tako ću podržati male uzgajivače, ali i generirati manje otpada! Nevjerojatno je koliko nepotrebnog pakiranja voća i povrća ima u trgovinama…',
+                                        'person' => 'Mirjana Lepen',
+                                    ],
+                                    [
+                                        'message' => 'Moja starija susjeda je jako oslabila posljednjih godinu dana. Pošto i dalje može i voli čitati, sjetila sam se da bih joj mogla ponuditi rješenje. Donosit ću joj  knjige iz knjižnice kako se sama ne bi morala brinuti o rokovima i prijevozu. Nadam se da ću s vremenom moći pomoći i oko drugih stvari.',
+                                        'person' => 'Nikolina Dugić',
+                                    ],
+                                    [
+                                        'message' => 'Do sada nisam odvajala otpad u kućanstvu. Govorila sam si da je to zato što nemam mjesta za tri kante, ali zapravo je u pitanju bila lijenost. Odlučujem da ću pronaći rješenje i shvatiti to ozbiljno. Žao mi je što to nisam ranije shvatila.',
+                                        'person' => 'Lana Kovač',
+                                    ],
+                                    [
+                                        'message' => 'Ove godine želim posaditi najmanje jedno stablo i naučiti nešto o uzgajanju biljaka. Moje malo stablo će rasti i proizvoditi kisik, a moj budući vrt će prehranjivati moju obitelj. Najmanje pet ljudi će zbog toga biti bolje.',
+                                        'person' => 'Mateo Hrnjak',
+                                    ],
+                                    [
+                                        'message' => 'U blizini mog stana postoji udruga koja pruža pomoć životinjama. Svaki puta kada prođem pored nje, rastuži me što ne mogu udomiti jednog psa. To se nije promijenilo, ali odlučilo sam da ću pristupiti udruzi i pitati ih kako mogu pomoći svojim radom. Možda, se stvori i prilika za udomljenje!',
+                                        'person' => 'Vanja Kos',
+                                    ],
+                                    [
+                                        'message' => 'Moja draga prijateljica je nedavno dobila dijete. Pošto se ona i muž nemaju nekog na kog se uvijek mogu osloniti, želim im pomoći čuvanjem bebe kad ostanu bez drugih opcija. Ove godine želim pokoji provod petkom ili kavu na špici zamijeniti čuvanjem njihove curice, kako bi se mama i tata stigli sami družiti.',
+                                        'person' => 'Divna Novosel',
+                                    ],
+                                    [
+                                        'message' => 'Zbog užurbanosti života, sve manje posjećujem svoje roditelje. Ove godine ću pronaći način da se vidimo češće i družimo kvalitetnije. Mislim da, kod odluka o boljem životu, često zaboravimo na one kojima najviše trebamo i koji su nam zapravo najbliži.',
+                                        'person' => 'Leon Jurić',
+                                    ],
+                                ]; 
+                            }
                             foreach ($messages as $message) {
                                 ?><div class="poruka">
                                 <div class="body-poruke">
-                                    <p><?php echo $message['message']; ?></p>
+                                    <p><?php echo $message[2]; ?></p>
                                 </div>
                                 <div class="footer-poruke text-right">
-                                    <p><?php echo $message['person']; ?></p>
+                                    <p><?php echo $message[0]; ?></p>
                                 </div>
                             </div><?php
                             }
