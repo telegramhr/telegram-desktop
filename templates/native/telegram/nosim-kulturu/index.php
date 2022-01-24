@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php
-$native_path = get_stylesheet_directory_uri() . '/templates/native/telegram/nosim-kulturu';
+$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/nosim-kulturu';
 $v = 6;
 ?>
 
@@ -191,7 +191,7 @@ $v = 6;
 			 <div class="row">			
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(03)</span>
-			  <h2 class="pl-md-5">etnografski <br> muzej</h2>
+			  <h2 class="pl-md-5"><a href="https://www.telegram.hr/partneri/ucimo-o-muzejima-i-dijelimo-nagrade-kako-su-oglavlja-od-sinonima-za-eleganciju-postala-simboli-aktivizma/" target="_blank">etnografski <br> muzej</a></h2>
 			  </div>
 			  <!-- <div class="col-4 col-md-2 right-section d-flex justify-content-end">
 			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
