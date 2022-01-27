@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Avenir-Medium';
+    src: url('../fonts/Avenir-Medium.woff2') format('woff2'),
+         url('../fonts/Avenir-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../fonts/Avenir-Black.woff2') format('woff2'),
+         url('../fonts/Avenir-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aaux_proboldregular';
+    src: url('../fonts/aauxprobold-webfont.woff2') format('woff2'),
+         url('../fonts/aauxprobold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aaux_prolightregular';
+    src: url('../fonts/aauxprolight-webfont.woff2') format('woff2'),
+         url('../fonts/aauxprolight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aaux_problackregular';
+    src: url('../fonts/aauxproblack-webfont.woff2') format('woff2'),
+         url('../fonts/aauxproblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary: #0679AE; 
+  --body-font-color:#474747;
+  /* --body-font:aaux_prolightregular;
+	--bold-font: aaux_problackregular; */
+	--bold-font: 'Open Sans', sans-serif;
+	--second-font:aaux_proboldregular;
+	--third-font:Avenir-Medium;
+	--fourth-font:Avenir-Black;
+
+}
+body{
+  font-family: var(--body-font);
+  color:var(--body-font-color);
+  font-size:18px;
+  margin:0;
+  padding:0;
+  background: #f2f2f2;
+}
+
+
+h1, h2, h3, h4 {
+	font-family: var(--body-font);	
+	color:var(--primary);
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+	color:var(--primary);
+}
+h1 span{font-family: var(--bold-font);}
+
+h2{ font-size: 1.8em; font-family: var(--fourth-font); /* font-weight: 800; */ line-height: 40px;}
+
+a{font-family: var(--third-font); color:var(--primary); /* font-weight: 500; */ }
+
+a.otk-link:before{ 
+ content:""; height: 60px; width:2px; 
+ border-right: 2px dotted var(--primary); 
+ position: absolute; left: 50%; top: -34px; transform: translate(-50%, 0); }
+
+li {
+    list-style-type: none;
+}
+
+
+.btn {
+    color:var(--primary);
+    background-color: #DAE6EB;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 8px 15px;
+	border-radius:0;
+	line-height:24px;
+}
+/*--------- top banner start -----------*/
+
+.top-banner{
+	background: rgb(121,212,237);
+background: linear-gradient(180deg, rgba(121,212,237,1) 0%, rgba(242,242,242,1) 100%);
+}
+.top-banner h1{
+/* text-shadow:
+       1px 1px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+-webkit-text-stroke: 1px #000; */
+}
+.top-banner span{ 
+	font-family: var(--second-font);
+	top: 160px;
+	right: -75px;}
+
+/*----------------*/
+
+.info-section{ padding-top: 120px;}
+
+.img-info-banner{ object-fit: cover; width: 100%;}
+
+.info-head-images{ left: 50%; top:-28px; /* top:15px; */ transform: translate(-50%, 0);}
+.info-head-images-block{ width: 54px; height:54px;}
+
+.info-banner-one{ background: url(../images/banner1.jpg) no-repeat fixed;}
+.info-banner-two{ background: url(../images/banner2.jpg) no-repeat fixed;}
+.info-banner-three{ background: url(../images/banner3.jpg) no-repeat fixed;}
+.info-banner-four{ 
+    background: url(../images/banner4.jpg) no-repeat fixed;
+    
+}
+.info-banner{
+	background-size: cover;
+    /* padding: 100px 0; */
+	min-height: 440px;}
+/*--------------*/
+
+footer{ background:var(--primary);}
+/* .footer-logo li{ padding:0 10px;} */
+
+.footer-text {
+    max-width: 650px;
+    margin: 0px auto;
+	color: #fff;
+}
+
+/*------------------*/

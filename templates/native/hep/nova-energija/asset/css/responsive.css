@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  
+}
+@media (max-width: 980px) {
+  
+}
+@media (max-width: 767px) {
+.top-banner{ padding-top:150px;}
+.info-banner{ min-height: 300px;}
+}
