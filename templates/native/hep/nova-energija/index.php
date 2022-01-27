@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php
-		$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/hep/nova-energija';
+		$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/hep/nova-energija';
 	?>
   <head>
     <meta charset="utf-8">
@@ -174,7 +174,7 @@
 		  <li class="w-sm-50 w-md-25 text-center"><a href="https://www.telegram.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/t-logo.png" class="img-fluid"/></a></li> 
 		</ul>
 		<div class="footer-text text-center pt-5">
-		  <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom Designer Outlet Croatia i po najvišim uredničkim standardima Telegram Media Grupe.</p>
+		  <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom HEP i po najvišim uredničkim standardima Telegram Media Grupe.</p>
 		</div>
 		</div>
 	</footer>
