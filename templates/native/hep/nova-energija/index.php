@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php
-		$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/hep';
+		$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/hep/nova-energija';
 	?>
   <head>
     <meta charset="utf-8">
