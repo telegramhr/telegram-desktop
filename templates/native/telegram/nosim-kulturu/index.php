@@ -284,8 +284,9 @@ $v = 7;
 	</footer>
 
   <!--js script-->
-	<?php wp_footer(); ?>
-    <script src="<?php echo $native_path ?>/asset/js/bootstrap.bundle.min.js"></script>
+    <?php wp_footer() ?>
+	<script src="<?php echo $native_path ?>/asset/js/jquery-3.5.1.min.js"></script>
+	<script src="<?php echo $native_path ?>/asset/js/bootstrap.bundle.min.js"></script>
 	<script src="<?php echo $native_path ?>/asset/js/wow.min.js"></script>
 	<script>
      new WOW().init();
