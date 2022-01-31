@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/nosim-kulturu';
-$v = 6;
+$v = 7;
 ?>
 
   <head>
@@ -65,12 +65,12 @@ $v = 6;
 			  <div class="col-md-6 link-section text-left text-uppercase">
 			    <a class="link pogledaj d-flex align-items-start" href="https://www.telegram.hr/partneri/slama-mi-se-srce-pri-pomisli-da-taj-muzej-zatvara-svoja-vrata-poznati-kulturnjaci-o-projektu-nosim-kulturu/" target="_blank"><span class="rock-font">SAZNAJ VIŠE O PROJEKTU</span><img src="<?php echo $native_path ?>/asset/images/arrow-black.png?v=<?php echo $v ?>" class="img-fluid arrow-black"/><img src="<?php echo $native_path ?>/asset/images/arrow-pink.png?v=<?php echo $v ?>" class="img-fluid arrow-pink"/></a>
 			  </div>
-			  <div class="col-md-6 text-right text-uppercase desktop"><p><a target="blank" class="link" href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/">Etnografski<br> muzej Zagreb</a></p></div>
+			  <div class="col-md-6 text-right text-uppercase desktop"><p><a target="blank" class="link" href="https://www.telegram.hr/partneri/u-novom-nastavku-serijala-nosimkulturu-posjetili-smo-muzej-grada-zagreba-i-odali-pocast-modi-20-stoljeca/">Muzej<br> grada Zagreba</a></p></div>
 			</div>
 		  </div> 
 		  <div class="col-md-5 pt-5 pt-md-0 wow fadeIn animated" data-wow-duration="4s" style="visibility: visible;-webkit-animation-duration: 4s; -moz-animation-duration: 4s; animation-duration: 4s;">
-		    <div class="img-box"><a target="blank" href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/"><img src="<?php echo $native_path ?>/asset/images/img1.png?v=<?php echo $v ?>" class="img-fluid"/></a></div>
-			<a href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/" class="btn top-btn position-absolute" target="blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid"/></a>
+		    <div class="img-box"><a target="blank" href="https://www.telegram.hr/partneri/u-novom-nastavku-serijala-nosimkulturu-posjetili-smo-muzej-grada-zagreba-i-odali-pocast-modi-20-stoljeca/"><img src="<?php echo $native_path ?>/asset/images/img1-1.png?v=<?php echo $v ?>" class="img-fluid"/></a></div>
+			<a href="https://www.telegram.hr/partneri/u-novom-nastavku-serijala-nosimkulturu-posjetili-smo-muzej-grada-zagreba-i-odali-pocast-modi-20-stoljeca/" class="btn top-btn position-absolute" target="blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png?v=<?php echo $v ?>" class="img-fluid"/></a>
 			
 			<p class="mobile mt-3">Muzej za<br> umjetnost i obrt</p>
 
@@ -89,12 +89,25 @@ $v = 6;
 		    <div class="slide-main">
 			   <div class="products-grid items1">
 			   <div class="slide slide3 text-center">
-			   <div class="slide-text">		   
+			     <div class="slide-text">		   
 				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png" class="img-fluid"/>3</p>	
 				   <h2 class="mb-5 mb-md-3">ETNOGRAFSKI<br> MUZEJ ZAGREB</h2>	
 				   <a href="https://www.telegram.hr/zivot/novi-nastavak-hit-serijala-nosimkulturu-nostalgicni-editorijal-iz-etnografskog-muzeja/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png" class="img-fluid arrow-left"/></a>
 				  </div>
 				 </div> 
+				 
+				 
+				 <div class="slide slide4 text-center">
+			     <div class="slide-text">		   
+				   <p class="text-uppercase small-has mb-0">editorijal <img src="<?php echo $native_path ?>/asset/images/has-white.png" class="img-fluid"/>4</p>	
+				   <h2 class="mb-5 mb-md-3">Muzej<br> grada Zagreba</h2>	
+				   <a href="https://www.telegram.hr/partneri/u-novom-nastavku-serijala-nosimkulturu-posjetili-smo-muzej-grada-zagreba-i-odali-pocast-modi-20-stoljeca/" class="btn" target="_blank"><img src="<?php echo $native_path ?>/asset/images/arrow.png" class="img-fluid arrow-left"/></a>
+				  </div>
+				 </div>
+				 
+				 
+				 
+				 
 			    <div class="slide slide1 text-center">
 					
 				  <div class="slide-text">		   
@@ -127,7 +140,7 @@ $v = 6;
 			  <p class="mb-4 text-uppercase rock-font">pogledaj video</p>
 			    <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=TZD9VVMJhQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
 				<!--<iframe width="900" height="500" src="https://www.youtube.com/embed/HunCLk67rEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-				<iframe width="900" height="500" src="https://www.youtube.com/embed/tb7k0y0mF14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="900" height="500" src="https://www.youtube.com/embed/mea2m7Zn8sU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			   <!-- <img src="asset/images/POGLEDAJ-VIDEO-img.jpg?v=<?php echo $v ?>" class="img-fluid"/> -->
 			</div>
 	   </div>
@@ -191,7 +204,7 @@ $v = 6;
 			 <div class="row">			
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(03)</span>
-			  <h2 class="pl-md-5"><a href="https://www.telegram.hr/partneri/ucimo-o-muzejima-i-dijelimo-nagrade-kako-su-oglavlja-od-sinonima-za-eleganciju-postala-simboli-aktivizma/" class="link" target="_blank">etnografski <br> muzej</a></h2>
+			  <h2 class="pl-md-5">etnografski <br> muzej</h2>
 			  </div>
 			  <!-- <div class="col-4 col-md-2 right-section d-flex justify-content-end">
 			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
@@ -204,7 +217,7 @@ $v = 6;
 			  <span>(04)</span>
 			  <h2 class="pl-md-5">muzej grada <br> zagreba</h2>
 			  </div>
-			  <div class="col-4 col-md-2 right-section d-flex justify-content-end">
+			   <div class="col-4 col-md-2 right-section d-flex justify-content-end">
 			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
 			  </div>
 			 </div>
@@ -271,8 +284,8 @@ $v = 6;
 	</footer>
 
   <!--js script-->
-	<script src="<?php echo $native_path ?>/asset/js/jquery-3.5.1.min.js"></script>
-	<script src="<?php echo $native_path ?>/asset/js/bootstrap.bundle.min.js"></script>
+	<?php wp_footer(); ?>
+    <script src="<?php echo $native_path ?>/asset/js/bootstrap.bundle.min.js"></script>
 	<script src="<?php echo $native_path ?>/asset/js/wow.min.js"></script>
 	<script>
      new WOW().init();
@@ -351,7 +364,5 @@ jQuery(document).ready(function($){
 
 });
 </script>
-
-<!-- <?php wp_footer(); ?> -->
   </body>
   </html>
