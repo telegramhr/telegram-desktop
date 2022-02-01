@@ -2,6 +2,7 @@
 <html lang="en">
 <?php
 		$native_path = 'http://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/hep/nova-energija';
+        $v = 2;
 	?>
   <head>
     <meta charset="utf-8">
@@ -18,7 +19,7 @@
 	<!--bootstrap-->
 	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/bootstrap.min.css" >
 	<!--custom style-->
-	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/style.css" >
+	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/style.css?v=<?php echo $v ?>" >
 	<link rel="stylesheet" href="<?php echo $native_path ?>/asset/css/responsive.css" >
 
   </head>
@@ -30,7 +31,7 @@
 	   </div> -->
 	   <div class="text-center">
 	     <!-- <img src="asset/images/grad_animacija.svg" class="img-fluid"/> -->
-        <embed src="<?php echo $native_path ?>/asset/images/grad_animacija.svg">		 
+        <embed src="<?php echo $native_path ?>/asset/images/grad_animacija.svg?v=<?php echo $v ?>">
 	    <h1 class="pt-4 pb-5">NOVA <span>ENERGIJA</span></h1>
 		<div class="d-flex justify-content-center">
 		  <a href="" class="otk-link position-relative pt-5">Otkrij</a>
@@ -41,7 +42,7 @@
   
   <section class="info-section">
     <div class="container text-center pb-4">
-	  <img src="<?php echo $native_path ?>/asset/images/small-img-1.png" class="img-fluid"/>
+	  <img src="<?php echo $native_path ?>/asset/images/small-img-1.png?v=<?php echo $v ?>" class="section-top-img"/>
 		<h2 class="py-4">Stručnjakinja o prelasku na održivo poslovanje: Tvrtke koje se ne uključe sada izgubit će bitku na tržištu</h2>
 	  <div class="row justify-content-center ">
 	    <div class="col-md-7 ms-auto">	     
@@ -53,7 +54,7 @@
 	<div class="info-banner info-banner-one mt-5 position-relative">
 	   <div class="d-flex info-head-images position-absolute">
 	     <div class="info-head-images-block">
-		   <img src="<?php echo $native_path ?>/asset/images/person-img-1.png" class="img-fluid rounded-circle"/>
+		   <img src="<?php echo $native_path ?>/asset/images/person-img-1.png?v=<?php echo $v ?>" class="img-fluid rounded-circle"/>
 		 </div>
 	   </div>
 	  <!-- <img src="asset/images/banner-2.png" class="img-info-banner d-none d-sm-block"/>
@@ -64,7 +65,7 @@
   
   <section class="info-section">
     <div class="container text-center pb-4">
-	  <img src="<?php echo $native_path ?>/asset/images/small-img-2.png" class="img-fluid"/>
+	  <img src="<?php echo $native_path ?>/asset/images/small-img-2.png?v=<?php echo $v ?>" class="section-top-img"/>
 	  <div class="row justify-content-center ">
 	    <div class="col-md-9 ms-auto">
 		<h2 class="py-4">Kako će baterije budućnosti utjecati na tržište električnih automobila? Razgovarali smo s profesorom s FER-a</h2>
@@ -80,7 +81,7 @@
 	<div class="info-banner info-banner-two mt-5 position-relative">
 	   <div class="d-flex info-head-images position-absolute">
 	     <div class="info-head-images-block">
-		   <img src="<?php echo $native_path ?>/asset/images/person-img-2.png" class="img-fluid rounded-circle"/>
+		   <img src="<?php echo $native_path ?>/asset/images/person-img-2.png?v=<?php echo $v ?>" class="img-fluid rounded-circle"/>
 		 </div>
 	   </div>
 	 <!--  <img src="asset/images/banner-3.png" class="img-info-banner d-none d-sm-block"/>
@@ -92,7 +93,7 @@
   
   <section class="info-section">
     <div class="container text-center pb-4">
-	  <img src="<?php echo $native_path ?>/asset/images/small-img-3.png" class="img-fluid"/>
+	  <img src="<?php echo $native_path ?>/asset/images/small-img-3.png?v=<?php echo $v ?>" class="section-top-img"/>
 	  <div class="row justify-content-center ">
 	    <div class="col-md-9 ms-auto">
 		<h2 class="py-4">Istražili smo kojim projektima hrvatski gradovi i tvrtke love titulu pametnih i održivih. <br/>Ima sjajnih primjera</h2>
@@ -107,18 +108,18 @@
 	</div>
 	<div class="info-banner d-flex justify-content-between flex-md-nowrap pt-5 position-relative">
 	   <div class="w-100">
-	     <img src="<?php echo $native_path ?>/asset/images/side-img-1.png" class="img-info-banner d-none d-sm-block"/>
-		 <img src="<?php echo $native_path ?>/asset/images/side-small-img-1.png" class="img-info-banner d-block d-sm-none"/>
+	     <img src="<?php echo $native_path ?>/asset/images/side-img-1.png?v=<?php echo $v ?>" class="img-info-banner d-none d-sm-block"/>
+		 <img src="<?php echo $native_path ?>/asset/images/side-small-img-1.png?v=<?php echo $v ?>" class="img-info-banner d-block d-sm-none"/>
 	   </div>
 	   <div class="w-100 d-none d-sm-block">
-	     <img src="<?php echo $native_path ?>/asset/images/side-img-2.png" class="img-info-banner"/>
+	     <img src="<?php echo $native_path ?>/asset/images/side-img-2.png?v=<?php echo $v ?>" class="img-info-banner"/>
 	   </div>	  
 	</div>
   </section>
   
   <section class="info-section">
     <div class="container text-center pb-4">
-	  <img src="<?php echo $native_path ?>/asset/images/small-img-4.png" class="img-fluid"/>
+	  <img src="<?php echo $native_path ?>/asset/images/small-img-4.png?v=<?php echo $v ?>" class="section-top-img"/>
 	  <div class="row justify-content-center ">
 	    <div class="col-md-9 ms-auto">
 		<h2 class="py-4">Na korak smo od budućnosti koju je predvidio Jules Verne. O vodiku govore naša dva najveća stručnjaka</h2>	
@@ -134,10 +135,10 @@
 	<div class="info-banner info-banner-three mt-5 position-relative">
 	   <div class="d-flex info-head-images position-absolute">
 	     <div class="info-head-images-block mr-2">
-		   <img src="<?php echo $native_path ?>/asset/images/person-img-3.png" class="img-fluid rounded-circle"/>
+		   <img src="<?php echo $native_path ?>/asset/images/person-img-3.png?v=<?php echo $v ?>" class="img-fluid rounded-circle"/>
 		 </div>
 		 <div class="info-head-images-block">
-		   <img src="<?php echo $native_path ?>/asset/images/person-img-4.png" class="img-fluid rounded-circle"/>
+		   <img src="<?php echo $native_path ?>/asset/images/person-img-4.png?v=<?php echo $v ?>" class="img-fluid rounded-circle"/>
 		 </div>
 	   </div>
 	  <!-- <img src="asset/images/banner-4.png" class="img-info-banner d-none d-sm-block"/>
@@ -148,7 +149,7 @@
   
   <section class="info-section">
     <div class="container text-center pb-4">
-	  <img src="<?php echo $native_path ?>/asset/images/small-img-5.png" class="img-fluid"/>
+	  <img src="<?php echo $native_path ?>/asset/images/small-img-5.png?v=<?php echo $v ?>" class="section-top-img"/>
 		<!-- <h2 class="py-4">Istraživanja pokazuju da studenti STEM-a očekuju najveće plaće. No jesu li takva očekivanja opravdana?</h2> -->
 	  <div class="row justify-content-center ">
 	    <div class="col-md-8 ms-auto">
@@ -170,8 +171,8 @@
 	<footer class="pt-5 pb-4">
 		<div class="container">
 		<ul class="d-flex justify-content-center align-center p-0 m-0 flex-md-nowrap footer-logo">
-		  <li class="w-sm-50 w-md-25 text-center"><a href="https://www.hep.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/h-logo.png" class="img-fluid"/></a></li> 
-		  <li class="w-sm-50 w-md-25 text-center"><a href="https://www.telegram.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/t-logo.png" class="img-fluid"/></a></li> 
+		  <li class="w-sm-50 w-md-25 text-center"><a href="https://www.hep.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/h-logo.png?v=<?php echo $v ?>" class="img-fluid"/></a></li>
+		  <li class="w-sm-50 w-md-25 text-center"><a href="https://www.telegram.hr/" target="_blank"><img src="<?php echo $native_path ?>/asset/images/t-logo.png?v=<?php echo $v ?>" class="img-fluid"/></a></li>
 		</ul>
 		<div class="footer-text text-center pt-5">
 		  <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom HEP i po najvišim uredničkim standardima Telegram Media Grupe.</p>

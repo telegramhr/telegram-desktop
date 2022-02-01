@@ -128,17 +128,24 @@ background: linear-gradient(180deg, rgba(121,212,237,1) 0%, rgba(242,242,242,1) 
 .info-head-images{ left: 50%; top:-28px; /* top:15px; */ transform: translate(-50%, 0);}
 .info-head-images-block{ width: 54px; height:54px;}
 
-.info-banner-one{ background: url(../images/banner1.jpg) no-repeat fixed;}
-.info-banner-two{ background: url(../images/banner2.jpg) no-repeat fixed;}
-.info-banner-three{ background: url(../images/banner3.jpg) no-repeat fixed;}
+.info-banner-one{ background: url(../images/banner1.jpg);}
+.info-banner-two{ background: url(../images/banner2.jpg);}
+.info-banner-three{ background: url(../images/banner3.jpg);}
 .info-banner-four{ 
-    background: url(../images/banner4.jpg) no-repeat fixed;
+    background: url(../images/banner4.jpg);
     
 }
 .info-banner{
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   /*position: fixed;
 	background-size: cover;
-    /* padding: 100px 0; */
+    padding: 100px 0; */
 	min-height: 440px;}
+	
+.section-top-img{ width:200px; height: auto;}
 /*--------------*/
 
 footer{ background:var(--primary);}
