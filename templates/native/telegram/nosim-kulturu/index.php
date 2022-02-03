@@ -189,7 +189,7 @@ $v = 7;
 				  </div>
 			 </div>
 			</div>
-			<div class="col-12 btm-table py-4 mt-md-2 wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
+			<div class="col-12 line-text-circle btm-table py-4 mt-md-2 wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
 			 <div class="row">			
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(02)</span>
@@ -201,15 +201,17 @@ $v = 7;
 			 </div>
 			</div>
 			<div class="col-12 btm-table py-4 border-bottom wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
+			 
 			 <div class="row">			
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(03)</span>
-			  <h2 class="pl-md-5">etnografski <br> muzej</h2>
+			  <h2 class="pl-md-5"><a href="https://www.telegram.hr/partneri/ucimo-o-muzejima-i-dijelimo-nagrade-kako-su-oglavlja-od-sinonima-za-eleganciju-postala-simboli-aktivizma/" class="link" target="_blank">etnografski <br> muzej</a></h2>
 			  </div>
 			  <!-- <div class="col-4 col-md-2 right-section d-flex justify-content-end">
 			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
 			  </div> -->
 			 </div>
+			 
 			</div>
 			<div class="col-12 btm-table py-4 wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;" >
 			 <div class="row">			
@@ -284,7 +286,7 @@ $v = 7;
 	</footer>
 
   <!--js script-->
-    <?php wp_footer() ?>
+	<?php wp_footer(); ?>
 	<script src="<?php echo $native_path ?>/asset/js/jquery-3.5.1.min.js"></script>
 	<script src="<?php echo $native_path ?>/asset/js/bootstrap.bundle.min.js"></script>
 	<script src="<?php echo $native_path ?>/asset/js/wow.min.js"></script>
