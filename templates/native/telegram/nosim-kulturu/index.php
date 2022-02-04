@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/nosim-kulturu';
-$v = 7;
+$v = 8;
 ?>
 
   <head>
@@ -10,7 +10,7 @@ $v = 7;
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     
-	<title>nosimkulturu</title>
+	<?php wp_head(); ?>
 	<!--font-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -257,6 +257,11 @@ $v = 7;
 				  <img src="<?php echo $native_path ?>/asset/images/product-img5.jpg?v=<?php echo $v ?>" class="img-fulid" />
 			  <h5 class="mt-3"><a href="https://www.telegram.hr/kultura/muo-je-proslavio-140-rodendan-ima-novi-postav-u-njemu-je-i-cuvena-fotografija-sanadera-koju-je-snimio-nas-vjekoslav-skledar/" target="_blank" class="link2">MUO slavi 140. rođendan. Ima novi postav, u njemu je i čuvena fotografija Sanadera koju je snimio Telegramov Vjekoslav Skledar</a></h5>						
                 </div>
+				<div class="col-md-3 slide">	
+				  <img src="<?php echo $native_path ?>/asset/images/product-img6.jpg?v=<?php echo $v ?>" class="img-fulid" />
+			  <h5 class="mt-3"><a href="https://super1.telegram.hr/relax/u-petak-je-noc-muzeja-zagrebacki-muzeji-pripremili-su-bogat-program-evo-sto-se-nudi/" target="_blank" class="link2">Pred nama je sedamnaesto izdanje Noći Muzeja. Za tu smo vam prigodu pripremili dobre popuste na šoping</a></h5>						
+                </div>
+				
              </div>
 			</div>
 		  </div>		
