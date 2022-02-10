@@ -69,7 +69,7 @@ if (!$num) {
                         <div class="kreni d-inline-flex">
 
                         <p>Kreni sada</p>
-                        <img src="<?php echo $native_path ?>/img/strelica.svg" alt="" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/strelica.svg" aria-hidden="true" class="img-fluid">
                     </div>
                 </a>
                     </div>
@@ -77,9 +77,9 @@ if (!$num) {
 
               <div class="row ilustracija justify-content-end text-right">
                   <div class="col-lg-6 special">
-                  <img src="<?php echo $native_path ?>/img/ilustracija.svg" alt="" class="img-fluid krug">
-                  <img src="<?php echo $native_path ?>/img/kap.svg" alt="" class="img-fluid kap">
-                  <img src="<?php echo $native_path ?>/img/kap.svg" alt="" class="img-fluid kap2">
+                  <img src="<?php echo $native_path ?>/img/ilustracija.svg" aria-hidden="true" class="img-fluid krug">
+                  <img src="<?php echo $native_path ?>/img/kap.svg" aria-hidden="true" class="img-fluid kap">
+                  <img src="<?php echo $native_path ?>/img/kap.svg" aria-hidden="true" class="img-fluid kap2">
                 </div>
               </div>
             
@@ -320,7 +320,7 @@ if (!$num) {
       <div class="modal-content">
         <div class="modal-header  bc-header">
           <div class="kap1">
-              <img src="<?php echo $native_path ?>/img/kap1.svg" alt="" class="img-fluid">
+              <img src="<?php echo $native_path ?>/img/kap1.svg" aria-hidden="true" class="img-fluid">
           </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -341,7 +341,7 @@ if (!$num) {
       <div class="modal-content">
         <div class="modal-header pd-header">
           <div class="kap1">
-              <img src="<?php echo $native_path ?>/img/kap3.svg" alt="" class="img-fluid">
+              <img src="<?php echo $native_path ?>/img/kap3.svg" aria-hidden="true" class="img-fluid">
           </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -362,7 +362,7 @@ if (!$num) {
       <div class="modal-content">
         <div class="modal-header zo-header">
           <div class="kap1">
-              <img src="<?php echo $native_path ?>/img/kap2.svg" alt="" class="img-fluid">
+              <img src="<?php echo $native_path ?>/img/kap2.svg" aria-hidden="true" class="img-fluid">
           </div>
           <button type="button" class="btn-close  black-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -379,10 +379,10 @@ if (!$num) {
   </div>
 
   <div class="fotka1" id="reveal1">
-      <img src="<?php echo $native_path ?>/img/tvoje3-1.png?v=2" alt="" class="img-fluid">
+      <img src="<?php echo $native_path ?>/img/tvoje3-1.png?v=2" aria-hidden="true" class="img-fluid">
   </div>
   <div class="fotka2" id="reveal2">
-    <img src="<?php echo $native_path ?>/img/tvoje3-2.png" alt="" class="img-fluid">
+    <img src="<?php echo $native_path ?>/img/tvoje3-2.png" aria-hidden="true" class="img-fluid">
 </div>
 
         </section>
@@ -392,7 +392,7 @@ if (!$num) {
                 <div class="container" id="trigger3">
                     <div class="row justify-content-center sijecanj-content">
                         <div class="col-lg-5" id="reveal3">
-                            <img src="<?php echo $native_path ?>/img/suhisijecanj-1.png?v=2" alt="" class="img-fluid">
+                            <img src="<?php echo $native_path ?>/img/suhisijecanj-1.png?v=2" aria-hidden="true" class="img-fluid">
                         </div>
                         <div class="col-lg-5 offset-lg-1 razmak">
                             <span>#idejazasiječanj</span>
@@ -412,8 +412,8 @@ if (!$num) {
                             </a>
                         </div>
                         <div class="col-lg-6" id="reveal4">
-                            <img src="<?php echo $native_path ?>/img/suhisijecanj-2.png" alt="" class="img-fluid d-none d-lg-flex">
-                            <img src="<?php echo $native_path ?>/img/suhisijecanj-2-mob.png" alt="" class="img-fluid d-flex d-lg-none suhisijecanj-fotka2">
+                            <img src="<?php echo $native_path ?>/img/suhisijecanj-2.png" aria-hidden="true" class="img-fluid d-none d-lg-flex">
+                            <img src="<?php echo $native_path ?>/img/suhisijecanj-2-mob.png" aria-hidden="true" class="img-fluid d-flex d-lg-none suhisijecanj-fotka2">
                         </div>
                     </div>
                 </div>
@@ -479,9 +479,9 @@ if (!$num) {
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija" id="reveal5">
                    
-                            <img src="<?php echo $native_path ?>/img/posaljikap.png" alt="" class="img-fluid">
+                            <img src="<?php echo $native_path ?>/img/posaljikap.png" aria-hidden="true" class="img-fluid">
                         <div class="pk-kapi">
-                            <img src="<?php echo $native_path ?>/img/posaljikap-kapi.svg" alt="" class="img-fluid">
+                            <img src="<?php echo $native_path ?>/img/posaljikap-kapi.svg" aria-hidden="true" class="img-fluid">
                         </div>
                         
                     </div>
@@ -493,10 +493,10 @@ if (!$num) {
                     <div class="col-lg-2">
                         <div class="arrows d-inline-flex justify-content-between">
                             <div class="prev">
-                                <img src="<?php echo $native_path ?>/img/prev.svg" alt="" class="img-fluid">
+                                <img src="<?php echo $native_path ?>/img/prev.svg" aria-hidden="true" class="img-fluid">
                             </div>
                             <div class="next">
-                                <img src="<?php echo $native_path ?>/img/next.svg" alt="" class="img-fluid">
+                                <img src="<?php echo $native_path ?>/img/next.svg" aria-hidden="true" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -581,10 +581,48 @@ if (!$num) {
                 </div>
                 <div class="row">
                     <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/u-sijecnju-je-260-citatelja-dalo-svoju-kap-za-bolji-svijet-otkrili-su-sto-ce-ciniti-za-bolje-sutra/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/Heo3qsJL2ib6Fklw-PMReHpODcJZgL04M2sFglznFyw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDIvc2h1dHRlcnN0b2NrLTE5MTIwMTE5NTguanBn.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>U siječnju je 260 čitatelja dalo svoju kap za bolji svijet. Otkrili su što će činiti za bolje sutra</p>
+                       
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/ovi-ljudi-svijet-su-ucinili-boljim-mjestom-mozete-i-vi-ukljucite-se-u-nasu-akciju-moja-kap-za-bolji-svijet/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/qtAd-FGcatqpAkTp7VgrimeaNOdf0fFbB8WN6lur_tE/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMTIvc2h1dHRlcnN0b2NrLTEwMTAwMTkwOTQuanBn.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>Ovi ljudi svijet su učinili boljim mjestom. Možete i vi, uključite se u našu akciju Moja kap za bolji svijet</p>
+                       
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/psiholog-kaze-da-su-i-odrasli-cesto-izlozeni-vrsnjackom-pritisku-znati-uljudno-reci-ne-pravo-je-blago/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/J1E0DvQLwbYjS7hZZTIpgRFMfoM3bjr_Vn6fg0KHQYA/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDEvc2FuZHJvLWtyYWxqZXZpYzAxMTEzLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>Psiholog kaže da su i odrasli često izloženi vršnjačkom pritisku: 'Znati uljudno reći ne pravo je blago'</p>
+                       
+                        </div>
+                    </a>
+                    </div>
+
+
+                    <div class="col-lg-3">
                         <a href="https://www.telegram.hr/partneri/treneri-i-strucnjaci-za-samodisciplinu-otkrivaju-ovo-su-kljucni-trenuci-u-kojima-99-posto-ljudi-poklekne/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="https://images.telegram.hr/yCUq7QNnIXCJNNwmitkiUJFqjFWw4b1rLrvDaFtAkig/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDEva292YTI3OTYuanBn.jpg" alt="" class="img-fluid">
+                                <img src="https://images.telegram.hr/yCUq7QNnIXCJNNwmitkiUJFqjFWw4b1rLrvDaFtAkig/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDEva292YTI3OTYuanBn.jpg" aria-hidden="true" class="img-fluid">
                             </div>
                         
                                 <p>Treneri i stručnjaci za samodisciplinu otkrivaju: 'Ovo su ključni trenuci u kojima 99 posto ljudi poklekne'</p>
@@ -596,7 +634,7 @@ if (!$num) {
                         <a href="https://www.telegram.hr/biznis-tech/eu-postavlja-ambicioznije-ekoloske-ciljeve-ugljicna-neutralnost-do-2050-godine/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="https://images.telegram.hr/fLZ-kvrHKwbLcyBWSYztXQC4u1LgAZ3E7q2KFa43BQM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDcvdHlsZXItY2FzZXktZmljYml3Zm9wc28tdW5zcGxhc2gtc2NhbGVkLmpwZw.jpg" alt="" class="img-fluid">
+                                <img src="https://images.telegram.hr/fLZ-kvrHKwbLcyBWSYztXQC4u1LgAZ3E7q2KFa43BQM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDcvdHlsZXItY2FzZXktZmljYml3Zm9wc28tdW5zcGxhc2gtc2NhbGVkLmpwZw.jpg" aria-hidden="true" class="img-fluid">
                             </div>
                         
                                 <p>EU postavlja ambicioznije ekološke ciljeve: ugljična neutralnost do 2050. godine</p>
@@ -608,7 +646,7 @@ if (!$num) {
                         <a href="https://www.telegram.hr/velike-price/ovi-hrvatski-znanstvenici-spasavaju-risove-od-izumiranja-nakon-dvije-godine-borbe-imaju-par-senzacionalnih-vijesti/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="https://www.telegram.hr/wp-content/uploads/2021/04/ris-zajednicka-2.jpg" alt="" class="img-fluid">
+                                <img src="https://www.telegram.hr/wp-content/uploads/2021/04/ris-zajednicka-2.jpg" aria-hidden="true" class="img-fluid">
                             </div>
                         
                                 <p>Ovi hrvatski znanstvenici spašavaju risove od izumiranja. Nakon dvije godine borbe imaju par senzacionalnih vijesti</p>
@@ -620,7 +658,7 @@ if (!$num) {
                         <a href="https://www.telegram.hr/velike-price/ovi-mladi-ljudi-izvukli-su-se-iz-romskih-naselja-studiraju-idu-u-super-skole-rade-donosimo-njihove-price/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
-                                <img src="https://images.telegram.hr/Pbbkfc0Y_lsWwOit8Od6PtG9Jijt0q9aIpFKkiZUqR4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMTEvcm9taS16YWplZG5pY2thMS0xLmpwZw.jpg" alt="" class="img-fluid">
+                                <img src="https://images.telegram.hr/Pbbkfc0Y_lsWwOit8Od6PtG9Jijt0q9aIpFKkiZUqR4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMTEvcm9taS16YWplZG5pY2thMS0xLmpwZw.jpg" aria-hidden="true" class="img-fluid">
                             </div>
                         
                                 <p>Ovi mladi ljudi izvukli su se iz romskih naselja, studiraju, idu u super škole, rade. Donosimo njihove priče</p>
@@ -636,10 +674,10 @@ if (!$num) {
             <div class="container">
                 <div class="row justify-content-center align-items-center text-center logotipi">
                     <div class="col-lg-4 col-10">
-                        <img src="<?php echo $native_path ?>/img/heineken.png" alt="" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/heineken.png" aria-hidden="true" class="img-fluid">
                     </div>
                     <div class="col-lg-3 col-10">
-                        <img src="<?php echo $native_path ?>/img/telegram.svg" alt="" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/telegram.svg" aria-hidden="true" class="img-fluid">
                     </div>
                 </div>
                 <div class="row justify-content-center">
