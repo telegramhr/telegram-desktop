@@ -10,7 +10,12 @@ class Telegram_Shortcodes {
 		add_shortcode('okvir', array( $this, 'okvir'));
 		add_shortcode('galerija', [$this,'telegram_galerija']);
 		add_shortcode('telegram_quiz', [$this,'telegram_quiz']);
+		add_shortcode('shop_guide', [$this,'shop_guide']);
 	}
+
+    function shop_guide() {
+	    return '<div id="guide-container"></div>';
+    }
 
     function telegram_quiz() {
         return '<div id="quiz-container"></div>';
