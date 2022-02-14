@@ -237,6 +237,10 @@ $v = 8;
 	     <div class="row py-5">
 		 <div class="slide-main">
 			   <div class="products-grid items2">
+			   <div class="col-md-3 slide">	
+				  <img src="<?php echo $native_path ?>/asset/images/product-img7.jpg?v=<?php echo $v ?>" class="img-fulid" />
+			  <h5 class="mt-3"><a href="https://www.telegram.hr/partneri/zahvaljujuci-digitalizaciji-kulturni-sektor-pokazao-je-otpornost-na-krizu-pokrenut-je-lanac-promjena/" target="_blank" class="link2">Zahvaljujući digitalizaciji kulturni sektor pokazao je otpornost na krizu. Pokrenut je lanac promjena</a></h5>						
+                </div>
                 <div class="col-md-3 slide">	
 				  <img src="<?php echo $native_path ?>/asset/images/product-img1.jpg?v=<?php echo $v ?>" class="img-fulid" />
 			  <h5 class="mt-3"><a href="https://www.telegram.hr/kultura/znate-li-koji-je-gradski-muzej-najveci-i-jedan-od-najstarijih-u-hrvatskoj-nedavno-je-proslavio-114-rodendan/" target="_blank" class="link2">Znate li koji je gradski muzej najveći i jedan od najstarijih u Hrvatskoj? Nedavno je proslavio 114. rođendan</a></h5>						
