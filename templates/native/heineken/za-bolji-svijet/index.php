@@ -425,57 +425,7 @@ if (!$num) {
                 <div class="row justify-content-lg-center pk-content">
                     <div class="col-lg-5">
                         <h2>pošalji svoju kap</h2>
-                        <p>Podijeli s nama svoju odluku za ovu godinu i osvoji nagrade. Odredi tri stvari koje ćeš raditi za bolji svijet do kraja godine. Pošalji nam kap za svaku od tri odluke. Nagrađujemo 30 najkreativnijih s Heineken 0.0 poklon-paketom, a broj kapi koje možeš poslati je neograničen. 
-                            </p>
-                            <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
-    
-                            <form id="test_form">
-                                <div class="mb-3">
-                                  <label for="ime" class="form-label">Tvoje ime i prezime</label>
-                                  <input class="form-control form-control-lg" id="ime" type="text" name="ime"  aria-label="tvoje ime">
-
-                                </div>
-
-                                <div class="mb-3">
-                                  <label for="email" class="form-label">Tvoj email</label>
-                                  <input class="form-control form-control-lg" id="email" type="text" name="email"  aria-label="tvoj email">
-
-                                </div>
-                            
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Što ćeš raditi za bolji svijet i zašto baš to?</label>
-                                    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" name="poruka" rows="4" maxlength="300"></textarea>
-                                  </div>
-
-                                  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Prihvaćam <a href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-heineken/" target="_blank">pravila nagradnog natječaja</a></label>
-  </div>
-
-                                <button id="submit-form" type="submit" class="btn btn-zeleni">ovo je moja kap u moru rješenja</button>
-                                
-                              </form>
-                              <h2 id="submitted" style="display: none;">Hvala na kapi</h2>
-                              <script>
-                                  var $form = jQuery('form#test_form'),
-                                    url = 'https://script.google.com/macros/s/AKfycby3gBn-PUiZsF0XNXu4pZatIQa1kRQFRaxxG9hyzFrPpelLBAYayh1C1MiYG8wuQec5BA/exec'
-
-                                jQuery('#submit-form').on('click', function(e) {
-                                    e.preventDefault();
-                                    jQuery('#submit-form').attr('disable', true);
-                                    var jqxhr = jQuery.ajax({
-                                        url: url,
-                                        method: "GET",
-                                        dataType: "json",
-                                        data: $form.serializeObject()
-                                    }).done(
-                                        function(){
-                                            jQuery('#test_form').hide();
-                                            jQuery('#submitted').show();
-                                        }
-                                    );
-                                })
-                              </script>
+                        <p>Nagradni natječaj je završio.</p>
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija" id="reveal5">
                    
