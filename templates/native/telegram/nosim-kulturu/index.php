@@ -217,7 +217,11 @@ $v = 8;
 			 <div class="row">			
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(04)</span>
-			  <h2 class="pl-md-5">muzej grada <br> zagreba</h2>
+			  <h2 class="pl-md-5">
+                  <a href="https://www.telegram.hr/partneri/ucimo-o-muzejima-i-dijelimo-nagrade-sto-je-za-hrvatsku-modu-znacila-zuzi-jelinek/" class="link" target="_blank">
+                  muzej grada <br> zagreba
+                  </a>
+              </h2>
 			  </div>
 			   <div class="col-4 col-md-2 right-section d-flex justify-content-end">
 			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
