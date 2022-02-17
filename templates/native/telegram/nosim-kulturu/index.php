@@ -184,9 +184,6 @@ $v = 8;
 				  <span>(01)</span>
 				  <h2 class="pl-md-5"><a href="https://www.telegram.hr/promo/ucimo-o-muzejima-i-dijelimo-nagrade-zavirili-smo-u-najstariju-zbirku-tekstila-u-hrvatskoj-tu-je-i-vjencanica-bake-vesne-pusic/" target="_blank" class="link">muzej za <br>umjetnost i obrt</a></h2> 
 				  </div>
-				  <div class="col-4 col-md-2 right-section d-flex justify-content-end">
-					<div class="black-bg-text d-none align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
-				  </div>
 			 </div>
 			</div>
 			<div class="col-12 line-text-circle btm-table py-4 mt-md-2 wow animated" style="visibility: visible;-webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s;">
@@ -194,9 +191,6 @@ $v = 8;
 			  <div class="col-8 left-section col-md-10 d-md-flex">
 			  <span>(02)</span>
 			  <h2 class="pl-md-5"><a href="https://www.telegram.hr/zivot/od-odijevanja-u-socijalizmu-do-performansa-ivane-popovic-koji-je-emitirao-mtv-saznali-smo-kakve-veze-imaju-moda-i-msu/" class="link" target="_blank">MUZEJ SUVREMENE <br> UMJETNOSTI</a></h2> 
-			  </div>
-			  <div class="col-4 col-md-2 right-section d-flex justify-content-end">
-			    <div class="black-bg-text d-none align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
 			  </div>
 			 </div>
 			</div>
@@ -207,9 +201,6 @@ $v = 8;
 			  <span>(03)</span>
 			  <h2 class="pl-md-5"><a href="https://www.telegram.hr/partneri/ucimo-o-muzejima-i-dijelimo-nagrade-kako-su-oglavlja-od-sinonima-za-eleganciju-postala-simboli-aktivizma/" class="link" target="_blank">etnografski <br> muzej</a></h2>
 			  </div>
-			  <!-- <div class="col-4 col-md-2 right-section d-flex justify-content-end">
-			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
-			  </div> -->
 			 </div>
 			 
 			</div>
@@ -222,9 +213,6 @@ $v = 8;
                   muzej grada <br> zagreba
                   </a>
               </h2>
-			  </div>
-			   <div class="col-4 col-md-2 right-section d-flex justify-content-end">
-			    <div class="black-bg-text d-flex align-items-center justify-content-center text-center"><p>uskoro <br> objavljujemo</p></div>
 			  </div>
 			 </div>
 			</div>
