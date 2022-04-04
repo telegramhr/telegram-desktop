@@ -24,7 +24,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
 <div class="main-container flex">
-    <div class="full flex sticky-menu">
+    <div class="full flex sticky-menu hide">
         <nav class="container flex relative">
             <div class="page-logo">Školica financija</div>
             <a href="#uvod"><i class="fa-solid fa-glasses"></i> Uvod uz Super Emu</a>
