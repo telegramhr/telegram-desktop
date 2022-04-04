@@ -20,7 +20,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="<?php echo $native_path ?>aos.css" type="text/css" />
     <script src="<?php echo $native_path ?>aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=2.1" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.0" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
 <div class="main-container flex">
