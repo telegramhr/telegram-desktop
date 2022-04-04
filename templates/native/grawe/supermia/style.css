@@ -7,6 +7,7 @@
 
 html {
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 body {
     font-family: basic-sans, sans-serif;
@@ -58,6 +59,7 @@ h2 {
 }
 .native-hero {
     padding-bottom: 3vw;
+    padding-top: 60px;
 }
 .native-title .overtitle {
     background-color: #f46e86;
@@ -273,6 +275,33 @@ iframe.videogame {
     margin-bottom: -15vw;
 }
 
+/* Sticky menu */
+
+.sticky-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #212121;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+}
+.sticky-menu .container {
+    padding: 15px 30px;
+}
+.sticky-menu nav a i {
+    margin-right: 8px;
+}
+.sticky-menu nav a {
+    margin-right: 32px;
+}
+.sticky-menu .page-logo {
+    font-weight: 700;
+    margin-right: 48px;
+    font-size: 20px;
+}
+
 /* Footer */
 
 .native-signature {
@@ -294,6 +323,13 @@ iframe.videogame {
     padding: 10px;
     opacity: .7;
     font-weight: 500;
+}
+
+@media screen and (max-width: 1160px) {
+    .sticky-menu {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -371,6 +407,31 @@ iframe.videogame {
     .blob-top-mobile {
         margin-top: -15vw;
     }
+    .sticky-menu {
+        top: auto;
+        bottom: 0;
+    }
+    .sticky-menu .container .page-logo {
+        display: none;
+    }
+    .sticky-menu .container {
+        padding: 1vw 0px;
+    }
+    .sticky-menu .container a {
+        width: 24.99%;
+        margin-right: 0px;
+        padding: 2vw;
+        text-align: center;
+    }
+    .sticky-menu .container i {
+        font-size: 7vw;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4px;
+    }
+    .native-hero {
+        padding-top: 0px;
+    }
 }
 @media screen and (max-height: 720px) {
     iframe.videogame {
@@ -386,5 +447,9 @@ iframe.videogame {
     iframe.videogame {
         width: 100%;
         height: 120vw;
+    }
+    .sticky-menu {
+        font-size: 12px;
+        line-height: 16px;
     }
 }
