@@ -530,6 +530,18 @@ if (!$num) {
                 </div>
                 </div>
                 <div class="row">
+                <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/nase-top-menadzerice-o-liderskim-vjestinama-buducnosti-dobar-voda-vise-slusa-i-manje-govori/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/eQ8yf6gMfZc6iVsZoybP5JqaSLgEXM77uTcMk6YSUPc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDMvM2E1YTgxMDIuanBn.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>Naše top menadžerice o liderskim vještinama budućnosti. 'Dobar vođa više sluša i manje govori'</p>
+                       
+                        </div>
+                    </a>
+                    </div>
                     <div class="col-lg-3">
                         <a href="https://www.telegram.hr/partneri/u-sijecnju-je-260-citatelja-dalo-svoju-kap-za-bolji-svijet-otkrili-su-sto-ce-ciniti-za-bolje-sutra/" target="_blank">
                         <div class="clanak">
