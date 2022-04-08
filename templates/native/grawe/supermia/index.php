@@ -16,15 +16,25 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     ?>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/yeg5fde.css">
+    <script src="https://kit.fontawesome.com/ceece53a09.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>aos.css" type="text/css" />
     <script src="<?php echo $native_path ?>aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=2.1" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.0" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
 <div class="main-container flex">
+    <div class="full flex sticky-menu hide">
+        <nav class="container flex relative">
+            <div class="page-logo">Školica financija</div>
+            <a href="#uvod"><i class="fa-solid fa-glasses"></i> Uvod uz Super Emu</a>
+            <a href="#igra"><i class="fa-solid fa-gamepad"></i> Zaigrajte videoigru</a>
+            <a href="#grafika"><i class="fa-solid fa-coins"></i> Financijska stabilnost</a>
+            <a href="#ekstra"><i class="fa-solid fa-newspaper"></i> Naučite od drugih</a>
+        </nav>
+    </div>
     <div class="native-hero full flex relative center" style="background-image: url('<?php echo $native_path ?>img/math.svg');">
-        <div class="container flex stretch">
+        <div class="container flex stretch" id="uvod">
             <div class="native-title half center flex-responsive main-color-text">
                 <div class="full flex">
                     <h3 class="overtitle" data-aos="fade-right">Školica financija</h3>
@@ -42,7 +52,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     </div>
     <img src="<?php echo $native_path ?>img/green_blob_top.svg" class="blob-top" aria-hidden="true" />
     <div class="full flex main-color-bg relative">
-        <div class="container relative flex game-segment">
+        <div class="container relative flex game-segment" id="igra">
             <h2 class="full center-text" data-aos="fade-up">Zaigraj Super Ema videoigru</h2>
             <p class="full center-text" data-aos="fade-up" data-aos-delay="1000">Istraži mali isječak Zagreba pun skrivenih kovanica. Možeš li sakupiti svih 20?</p>
         </div>
@@ -53,7 +63,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     </div>
     <img src="<?php echo $native_path ?>img/green_blob_bottom.svg" class="blob-bottom" aria-hidden="true" />
     <div class="native-hero after-blob full flex relative center" style="background-image: url('<?php echo $native_path ?>img/math.svg');">
-        <div class="container flex stretch">
+        <div class="container flex stretch" id="grafika">
             <div class="native-title half center flex-responsive main-color-text">
                 <div class="full flex">
                     <h3 class="overtitle" data-aos="fade-right">Abeceda financijske stabilnosti</h3>
@@ -117,7 +127,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     </div>
     <img src="<?php echo $native_path ?>img/green_blob_top.svg" class="blob-top blob-top-mobile" aria-hidden="true" />
         <div class="full flex main-color-bg relative">
-            <div class="container relative flex articles-container">
+            <div class="container relative flex articles-container" id="ekstra">
                 <h2 class="full center-text" data-aos="fade-up">Još sadržaja o financijskoj stabilnosti</h2>
                 <a class="third flex-responsive article" href="https://super1.telegram.hr/relax/znate-li-s-novcem-rijesite-kviz-i-otkrijte-kako-stojite-mi-smo-u-pozitivnom-soku/" data-aos="fade-up" data-aos-delay="100">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/naslovna-1.jpg" aria-hidden="true" />
