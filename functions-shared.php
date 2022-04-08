@@ -214,7 +214,7 @@ add_action('save_post', 'telegram_save_post', 99, 1);
 
 function telegram_save_post($post_id) {
 	// bail early if no ACF data
-	if( empty($_POST['acf']) ) {
+	if( empty($_POST['acf']) || !isset( $_POST['acf']['field_54cb837145dc6'] ) ) {
 		return;
 	}
 	// specific field value
@@ -436,7 +436,7 @@ add_filter('tiny_mce_before_init', 'telegram_tinymce');
 add_filter('pre_option_rss_use_excerpt', 'telegram_rss_load_content', 10, 1);
 
 function telegram_rss_load_content($value) {
-	if ($_GET['espf'] === '1312') {
+	if (isset($_GET['espf']) &&  $_GET['espf'] === '1312') {
 		return 0;
 	}
 
@@ -446,7 +446,7 @@ function telegram_rss_load_content($value) {
 add_filter( 'get_the_excerpt', 'telegram_rss_excerpt', 10, 2 );
 
 function telegram_rss_excerpt($excerpt, $post) {
-	if ($_GET['espf'] === '1312') {
+    if (isset($_GET['espf']) &&  $_GET['espf'] === '1312') {
 		return $post->post_content;
 	}
 	return $excerpt;
