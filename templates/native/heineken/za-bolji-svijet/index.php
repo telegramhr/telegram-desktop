@@ -33,8 +33,9 @@ if (!$num) {
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#tvoje3">Tvoje 3 do 2023.</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#suhisijecanj">#suhisiječanj</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tvoje3">Pomozi društvu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tvoje3">Umjerenost je cool</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tvoje3">Zaštita okoliša</a></li>
                         <li class="nav-item ">
                             <a class="nav-link" href="#posaljikap">
                             <button class="btn btn-zeleni me-2" type="button">Pošalji kap</button></a>
@@ -395,12 +396,12 @@ if (!$num) {
                             <img src="<?php echo $native_path ?>/img/suhisijecanj-1.png?v=2" aria-hidden="true" class="img-fluid">
                         </div>
                         <div class="col-lg-5 offset-lg-1 razmak">
-                            <span>#idejazasiječanj</span>
-                            <h2>tvoja kap za <br>suhi siječanj</h2>
-                            <p>Ovaj mjesec obilježavamo #suhisiječanj. </p>
-                            <p>Suhi siječanj označava period u kojem mnogi svojevoljno odlučuju prestati piti alkohol te započeti godinu trijezni, čisti i svježi. Ova inicijativa počela je prije devet godina u organizaciji Alcohol Change UK s ciljem promocije trijeznosti. </p>
-                            <p>Kako se možeš uključiti? Pokaži da si cool i bez alkohola. Ne zaboravi da sada možeš konzumirati i alkoholno piće koje sadrži 0.0 promila alkohola.</p>
-                            <a href="https://www.telegram.hr/partneri/ovi-ljudi-svijet-su-ucinili-boljim-mjestom-mozete-i-vi-ukljucite-se-u-nasu-akciju-moja-kap-za-bolji-svijet/" target="_blank"><button type="button" class="btn btn-zeleni">Saznaj više</button>
+                            <span>#UMJERENOSTJECOOL</span>
+                            <h2>tvoja kap za <br>odgovorno konzumiranje</h2>
+                            <p>U želji da se poveća svijest o problemu konzumiranja alkohola od strane maloljetnika, kompanija HEINEKEN Hrvatska je u suradnji sa Psihološkim centrom TESA pokrenula edukativni projekt "Za odgovorno odrastanje mladih". Cilj projekta je pružanje podrške za zdravo odrastanje mladih i prevencija maloljetničke konzumacije alkohola, a namijenjen je roditeljima srednjoškolaca te stručnim suradnicima, koji sudjeluju u odgoju i utječu na mentalno zdravlje adolescenata.</p>
+                            <p>Kako se možeš uključiti?</p>
+                            <p>Pročitaj što roditelji mogu učiniti kako bi pomogli svojoj djeci u nošenju s ovim problemom. Podijeli ovaj članak s onima za koje smatraš da bi im pomogao. </p>
+                            <a href="https://www.telegram.hr/partneri/obitelj-ima-vaznu-ulogu-u-prevenciji-psihologinja-otkriva-kako-s-djecom-razgovarati-o-alkoholu/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
                             </a>
                         </div>
                     </div>
@@ -425,7 +426,52 @@ if (!$num) {
                 <div class="row justify-content-lg-center pk-content">
                     <div class="col-lg-5">
                         <h2>pošalji svoju kap</h2>
-                        <p>Nagradni natječaj je završio.</p>
+                        <p>Stvarajmo bolji svijet zajedno! Odredi tri stvari koje ćeš raditi za bolji svijet do kraja godine. Podijeli s nama svoju odluku za 2022. godinu i tako inspiriraj druge da učine isto. Broj kapi koje možeš poslati je neograničen. 
+                            </p>
+                            <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
+    
+                            <form id="test_form">
+                                <div class="mb-3">
+                                  <label for="ime" class="form-label">Tvoje ime i prezime</label>
+                                  <input class="form-control form-control-lg" id="ime" type="text" name="ime"  aria-label="tvoje ime">
+
+                                </div>
+
+                                <div class="mb-3">
+                                  <label for="email" class="form-label">Tvoj email</label>
+                                  <input class="form-control form-control-lg" id="email" type="text" name="email"  aria-label="tvoj email">
+
+                                </div>
+                            
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Što ćeš raditi za bolji svijet i zašto baš to?</label>
+                                    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" name="poruka" rows="4" maxlength="300"></textarea>
+                                  </div>
+
+                                <button id="submit-form" type="submit" class="btn btn-zeleni">ovo je moja kap u moru rješenja</button>
+                                
+                              </form>
+                              <h2 id="submitted" style="display: none;">Hvala na kapi</h2>
+                              <script>
+                                  var $form = jQuery('form#test_form'),
+                                    url = 'https://script.google.com/macros/s/AKfycby3gBn-PUiZsF0XNXu4pZatIQa1kRQFRaxxG9hyzFrPpelLBAYayh1C1MiYG8wuQec5BA/exec'
+
+                                jQuery('#submit-form').on('click', function(e) {
+                                    e.preventDefault();
+                                    jQuery('#submit-form').attr('disable', true);
+                                    var jqxhr = jQuery.ajax({
+                                        url: url,
+                                        method: "GET",
+                                        dataType: "json",
+                                        data: $form.serializeObject()
+                                    }).done(
+                                        function(){
+                                            jQuery('#test_form').hide();
+                                            jQuery('#submitted').show();
+                                        }
+                                    );
+                                })
+                              </script>
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija" id="reveal5">
                    
@@ -530,7 +576,58 @@ if (!$num) {
                 </div>
                 </div>
                 <div class="row">
-                <div class="col-lg-3">
+                    <!-- 04-19 update -->
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/obitelj-ima-vaznu-ulogu-u-prevenciji-psihologinja-otkriva-kako-s-djecom-razgovarati-o-alkoholu/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/gywNwPbZLZpfjk6y50q7mik-pnn82TnR7pQwrtg1gSY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDIvM2E1YTY1ODQuanBn.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>Obitelj ima važnu ulogu u prevenciji. Psihologinja otkriva kako s djecom razgovarati o alkoholu</p>
+                       
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/od-prvih-proizvodacica-piva-preko-tabu-teme-do-razdoblja-kad-u-njemu-zene-uzivaju-jednako-kao-i-muskarci/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/pCOcJ-NqYrtg3xAKGDQw6PTPd_Mo-JsGPCFPOrB6PDI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDMvc2h1dHRlcnN0b2NrLTEwNzYwOTY1MjUuanBn.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>Od prvih proizvođačica piva, preko tabu teme do razdoblja kad u njemu žene uživaju jednako kao i muškarci</p>
+                       
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="
+ https://www.telegram.hr/partneri/projekt-za-odgovorno-odrastanje-mladih-ulazi-u-desetu-godinu-djelovanja-s-ciljem-prevencije-problema-maloljetnicke-konzumacije-alkohola/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/L3jrTQWaGBxIWTxP8BPCAqvqnHSCpwb3bA5DQ_GonmY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDIvY292ZXItZm90a2EuanBn.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>Projekt „Za odgovorno odrastanje mladih“ ulazi u desetu godinu djelovanja s ciljem prevencije problema maloljetničke konzumacije alkohola</p>
+                       
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/projekt-za-odgovorno-odrastanje-mladih-ulazi-u-svoje-deseto-izdanje-i-u-ovogodisnje-aktivnosti-ukljucuje-cak-58-skola-iz-citave-hrvatske/" target="_blank">
+                        <div class="clanak">
+                            <div class="slika">
+                                <img src="https://images.telegram.hr/TTlMn4uGeICz_rumwSksY91faPK1liRIDOylTmJbI9c/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDMvemEtb2Rnb3Zvcm5vLW9kcmFzdGFuamUtbWxhZGloLTEuanBn.jpg" aria-hidden="true" class="img-fluid">
+                            </div>
+                        
+                                <p>Projekt „Za odgovorno odrastanje mladih“ ulazi u svoje deseto izdanje i u ovogodišnje aktivnosti uključuje čak 58 škola iz čitave Hrvatske</p>
+                       
+                        </div>
+                    </a>
+                    </div>
+                    <!-- Before -->
+                    <div class="col-lg-3">
                         <a href="https://www.telegram.hr/partneri/nase-top-menadzerice-o-liderskim-vjestinama-buducnosti-dobar-voda-vise-slusa-i-manje-govori/" target="_blank">
                         <div class="clanak">
                             <div class="slika">
