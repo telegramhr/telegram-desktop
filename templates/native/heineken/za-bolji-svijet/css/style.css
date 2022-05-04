@@ -1082,4 +1082,10 @@ footer p {
     footer p {
         font-size: 1.25rem;
     }
+    .mob-order-1 {
+        order: 1;
+    }
+    .mob-order-2 {
+        order: 2;
+    }
 }
