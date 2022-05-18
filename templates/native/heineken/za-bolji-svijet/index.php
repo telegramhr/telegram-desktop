@@ -14,7 +14,7 @@ if (!$num) {
         <?php wp_head(); ?>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="<?php echo $native_path ?>/css/styles.css" rel="stylesheet" />
-        <link href="<?php echo $native_path ?>/css/style.css?v=1.2" rel="stylesheet" />
+        <link href="<?php echo $native_path ?>/css/style.css?v=1.3" rel="stylesheet" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -388,6 +388,7 @@ if (!$num) {
 
         </section>
 
+
         <section class="container-fluid" id="suhisijecanj">
          
                 <div class="container" id="trigger3">
@@ -576,6 +577,19 @@ if (!$num) {
                 </div>
                 </div>
                 <div class="row">
+                    <!-- 05-04 update -->
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/najnovija-sigurnosna-rjesenja-stite-zdravlje-zaposlenika-te-doprinose-konkurentnosti-kompanija/" target="_blank">
+                            <div class="clanak">
+                                <div class="slika">
+                                    <img src="https://images.telegram.hr/8SAnOl3BlwXhEOI8O0tg3GTUShZC1aRPKeOEkcj_xWQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDQvZm90a2EtMS5qcGc.jpg" aria-hidden="true" class="img-fluid">
+                                </div>
+                            
+                                    <p>Najnovija sigurnosna rješenja štite zdravlje zaposlenika te doprinose konkurentnosti kompanija</p>
+                        
+                            </div>
+                        </a>
+                    </div>
                     <!-- 04-19 update -->
                     <div class="col-lg-3">
                         <a href="https://www.telegram.hr/partneri/obitelj-ima-vaznu-ulogu-u-prevenciji-psihologinja-otkriva-kako-s-djecom-razgovarati-o-alkoholu/" target="_blank">
