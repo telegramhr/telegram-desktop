@@ -5,7 +5,7 @@ $native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heine
 //$native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/heineken/za-bolji-svijet';
 //$native_path = "http://localhost/telegram-desktop/templates/native/heineken/za-bolji-svijet";
 
-$num = wp_cache_get('sheet_1j69ejJhk14AEHS4KaAZFtrfIgeUNm72UiABdl2uF638_count', 'sheets');
+$num = wp_cache_get('sheet_1vCIe7X0Z27ezQ8NVkWnvvPK7lepvbZ6S6fd98jgKOa8_count', 'sheets');
 if (!$num) {
     $num = 10;
 }
@@ -771,10 +771,10 @@ if (!$num) {
                                   <input class="form-control form-control-lg" id="slika" type="file" name="slika"  aria-label="tvoja fotografija">
                                 </div>
                             
-                                <div class="mb-3">
+                               <!-- <div class="mb-3">
                                     <label for="exampleFormControlTextarea1" class="form-label">Što ćeš raditi za bolji svijet i zašto baš to?</label>
                                     <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" name="poruka" rows="4" maxlength="300"></textarea>
-                                  </div>
+                                  </div>-->
                                 <?php wp_nonce_field('heineken_submit', 'heineken_submit'); ?>
                               <input type="hidden" name="action" value="heineken_prijava">
                                 <button id="submit-form" type="submit" class="btn btn-zeleni">ovo je moja kap u moru rješenja</button>
@@ -808,7 +808,7 @@ if (!$num) {
                     <div class="col-lg-12">
                         
                         <div class="poruke-slider">
-                            <?php $messages = wp_cache_get('sheet_1j69ejJhk14AEHS4KaAZFtrfIgeUNm72UiABdl2uF638_messages', 'sheets');
+                            <?php $messages = wp_cache_get('sheet_1vCIe7X0Z27ezQ8NVkWnvvPK7lepvbZ6S6fd98jgKOa8_messages', 'sheets');
                             if (!$messages) {
                                 $messages = [
                                     [
@@ -864,7 +864,7 @@ if (!$num) {
                             foreach ($messages as $message) {
                                 ?><div class="poruka">
                                 <div class="body-poruke">
-                                    <p><?php echo $message[2]; ?></p>
+                                    <p><img src="<?php echo $message[3]; ?>"></p>
                                 </div>
                                 <div class="footer-poruke text-right">
                                     <p><?php echo $message[0]; ?></p>
