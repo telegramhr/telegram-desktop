@@ -910,7 +910,7 @@ if (!$num) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-        <script src="<?php echo $native_path ?>/js/app.js?v=1.3"></script>
+        <script src="<?php echo $native_path ?>/js/app.js?v=1.4"></script>
 
         
 
