@@ -149,9 +149,9 @@ function telegram_change_paste_as_text($mceInit, $editor_id){
 }
 add_filter('tiny_mce_before_init', 'telegram_change_paste_as_text', 1, 2);
 
-add_filter('the_content', 'telegram_trim', 1,1);
+add_filter('the_content', 'telegram_trim', 1,2);
 
-function telegram_trim($content) {
+function telegram_trim($content, $id = 0) {
 	if (strpos($content, "&nbsp;")==0) {
 		$count = 1;
 		$content = str_replace("&nbsp;", '', $content, $count );
@@ -159,16 +159,24 @@ function telegram_trim($content) {
 	}
 
 	//if (is_page()) {
-	    return $content;
+	    //return $content;
     //}
 	//add _blank to all outgoing links
-    $content = preg_replace_callback('/]*href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function($m) {
-        if (strpos($m[1], "www.telegram.hr") === false)
-            return '<a href="'.$m[1].'" target="_blank">'.$m[2].'</a>';
-        else
-            return '<a href="'.$m[1].'">'.$m[2].'</a>';
-    }, $content);
-
+    if ( $id ) {
+        $post = get_post_type($id);
+        $cat = get_the_category($id);
+        $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function ($m) use ($post, $cat) {
+            if (strpos($m[2], "www.telegram.hr") === false) {
+                if ($post === 'partneri' || $cat[0]->slug === 'promo') {
+                    $rel = 'sponsored';
+                } else {
+                    $rel = 'noopener noreferrer';
+                }
+                return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
+            } else
+                return '<a href="' . $m[2] . '">' . $m[3] . '</a>';
+        }, $content);
+    }
 	return $content;
 }
 
@@ -468,4 +476,40 @@ function telegram_content($content) {
 	}
 
 	return $content;
+}
+
+add_filter( 'zoninator_recent_posts_args', 'telegram_zoninator_recent_posts_args', 10, 1);
+
+function telegram_zoninator_recent_posts_args($args) {
+    $args['post_status'] = 'publish';
+
+    return $args;
+}
+
+
+add_action( 'admin_post_nopriv_heineken_prijava', 'heineken_submit' );
+add_action( 'admin_post_heineken_prijava', 'heineken_submit' );
+
+function heineken_submit() {
+    if (!wp_verify_nonce($_POST['heineken_submit'], 'heineken_submit')) {
+        //die("Wrong nonce");
+    }
+
+    $ime = sanitize_text_field($_POST['ime']);
+    $email = sanitize_text_field($_POST['email']);
+    $poruka = sanitize_text_field($_POST['poruka']);
+    $uploaddir = dirname(__FILE__) . '/templates/native/heineken/za-bolji-svijet/uploads/';
+    $name = uniqid() . basename($_FILES['slika']['name']);
+    $uploadfile = $uploaddir . $name;
+    move_uploaded_file($_FILES['slika']['tmp_name'], $uploadfile);
+
+    $url = add_query_arg([
+        'ime' => $ime,
+        'email' => $email,
+        'poruka' => $poruka,
+        'slika' => site_url('/wp-content/themes/telegram2-desktop/templates/native/heineken/za-bolji-svijet/uploads'.$name),
+    ], 'https://script.google.com/macros/s/AKfycbwDZx5xEGxxyCW55LYHb_dZsh0M19DFXVywaVlgFaiQFO_85rrxZhkNQGtrGlFoN8Y/exec');
+    wp_remote_get($url);
+    wp_redirect(site_url('native/moja-kap/?success=true'));
+    die();
 }
