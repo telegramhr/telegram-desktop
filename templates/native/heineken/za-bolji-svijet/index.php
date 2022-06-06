@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
 
-//$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heineken/za-bolji-svijet';
-$native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/heineken/za-bolji-svijet';
+$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heineken/za-bolji-svijet';
+//$native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/heineken/za-bolji-svijet';
 //$native_path = "http://localhost/telegram-desktop/templates/native/heineken/za-bolji-svijet";
 
 $num = wp_cache_get('sheet_1vCIe7X0Z27ezQ8NVkWnvvPK7lepvbZ6S6fd98jgKOa8_count', 'sheets');
