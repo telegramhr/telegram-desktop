@@ -1219,3 +1219,15 @@ footer p {
 .hide {
     display: none !important;
 }
+.special-drop {
+    padding-right: 7.5%;
+    padding-bottom: 7.5%;
+    position: relative;
+}
+.drop-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    z-index: 5;
+}
