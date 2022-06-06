@@ -507,7 +507,7 @@ function heineken_submit() {
         'ime' => $ime,
         'email' => $email,
         'poruka' => $poruka,
-        'slika' => site_url('/wp-content/themes/telegram2-desktop/templates/native/heineken/za-bolji-svijet/uploads'.$name),
+        'slika' => site_url('/wp-content/themes/telegram2-desktop/templates/native/heineken/za-bolji-svijet/uploads/'.$name),
     ], 'https://script.google.com/macros/s/AKfycbwDZx5xEGxxyCW55LYHb_dZsh0M19DFXVywaVlgFaiQFO_85rrxZhkNQGtrGlFoN8Y/exec');
     wp_remote_get($url);
     wp_redirect(site_url('native/moja-kap/?success=true'));

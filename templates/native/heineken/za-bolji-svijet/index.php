@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
 
-$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heineken/za-bolji-svijet';
-//$native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/heineken/za-bolji-svijet';
+//$native_path = get_theme_root_uri() . '/telegram2-desktop/templates/native/heineken/za-bolji-svijet';
+$native_path = get_theme_root_uri() . '/telegram-desktop/templates/native/heineken/za-bolji-svijet';
 //$native_path = "http://localhost/telegram-desktop/templates/native/heineken/za-bolji-svijet";
 
 $num = wp_cache_get('sheet_1vCIe7X0Z27ezQ8NVkWnvvPK7lepvbZ6S6fd98jgKOa8_count', 'sheets');
@@ -17,7 +17,7 @@ if (!$num) {
         <?php wp_head(); ?>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="<?php echo $native_path ?>/css/styles.css" rel="stylesheet" />
-        <link href="<?php echo $native_path ?>/css/style.css?v=1.4" rel="stylesheet" />
+        <link href="<?php echo $native_path ?>/css/style.css?v=1.51" rel="stylesheet" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -391,14 +391,14 @@ if (!$num) {
         <section class="container-fluid" id="section-drustvo">
             <div class="container">
                 <div class="row justify-content-center sijecanj-content">
-                    <div class="col-lg-6">
-                        <img src="<?php echo $native_path ?>/img/heineken_drustvo.png?v=1" aria-hidden="true" class="img-fluid">
+                    <div class="col-lg-6 special-drop">
+                        <img src="https://images.telegram.hr/n0V9IRMbVDluO925shuGMq-WO-CU_ZZlRLcQrIjx88c/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvMjY5NzM3NjAzLTE4MzgzMTA1NTk2ODk1NTMtNzM1Nzc4NjQzMjU2NTgyNzQ0NS1uLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/tg_heineken_drop.png" aria-hidden="true" class="drop-overlay">
                     </div>
                     <div class="col-lg-5 offset-lg-1 ">
                         <h2>Pomozi društvu</h2>
-                        <p>Obitelj ima važnu ulogu u prevenciji. Psihologinja otkriva kako s djecom razgovarati o alkoholu</p>
-                        <p> Psihologinja Tanja Dejanović Šagadin otkriva u čemu roditelji najviše griješe.</p>
-                        <a href="https://www.telegram.hr/partneri/obitelj-ima-vaznu-ulogu-u-prevenciji-psihologinja-otkriva-kako-s-djecom-razgovarati-o-alkoholu/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
+                        <p>Karlovac nastavlja s projektom KAkvart. Otvaraju nove runde prijava za gradske četvrti i mjesne odbore</p>
+                        <a href="https://www.telegram.hr/partneri/karlovac-nastavlja-s-projektom-kakvart-otvaraju-nove-runde-prijava-za-gradske-cetvrti-i-mjesne-odbore/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
                         </a>
                     </div>
                 </div>
@@ -413,14 +413,14 @@ if (!$num) {
                 </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <a href="https://www.telegram.hr/partneri/karlovac-nastavlja-s-projektom-kakvart-otvaraju-nove-runde-prijava-za-gradske-cetvrti-i-mjesne-odbore/" target="_blank">
+                <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/obitelj-ima-vaznu-ulogu-u-prevenciji-psihologinja-otkriva-kako-s-djecom-razgovarati-o-alkoholu/" target="_blank">
                             <div class="clanak">
                                 <div class="slika">
-                                    <img src="https://images.telegram.hr/n0V9IRMbVDluO925shuGMq-WO-CU_ZZlRLcQrIjx88c/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvMjY5NzM3NjAzLTE4MzgzMTA1NTk2ODk1NTMtNzM1Nzc4NjQzMjU2NTgyNzQ0NS1uLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                                    <img src="https://images.telegram.hr/gywNwPbZLZpfjk6y50q7mik-pnn82TnR7pQwrtg1gSY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDIvM2E1YTY1ODQuanBn.jpg" aria-hidden="true" class="img-fluid">
                                 </div>
                             
-                                    <p>Karlovac nastavlja s projektom KAkvart. Otvaraju nove runde prijava za gradske četvrti i mjesne odbore</p>
+                                    <p>Obitelj ima važnu ulogu u prevenciji. Psihologinja otkriva kako s djecom razgovarati o alkoholu</p>
                         
                             </div>
                         </a>
@@ -743,7 +743,7 @@ if (!$num) {
             </div>
         </section>
 
-        <section class="container-fluid hide" id="posaljikap">
+        <section class="container-fluid" id="posaljikap">
             <div class="container" id="trigger5">
                 <div class="row justify-content-lg-center pk-content">
                     <div class="col-lg-6">
@@ -864,7 +864,7 @@ if (!$num) {
                             foreach ($messages as $message) {
                                 ?><div class="poruka">
                                 <div class="body-poruke">
-                                    <p><img src="<?php echo $message[3]; ?>"></p>
+                                    <p><img src="<?php echo $message[3]; ?>" style="width: 100%;"></p>
                                 </div>
                                 <div class="footer-poruke text-right">
                                     <p><?php echo $message[0]; ?></p>
