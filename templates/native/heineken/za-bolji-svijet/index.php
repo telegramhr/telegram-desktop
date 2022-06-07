@@ -90,7 +90,7 @@ if (!$num) {
             </div>
         </header>
         <section class="container-fluid" id="tvoje3">
-            <div class="container" id="trigger1">
+            <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-8 text-center">
                         <div class="tvoje3svg">                 
@@ -744,7 +744,7 @@ if (!$num) {
         </section>
 
         <section class="container-fluid" id="posaljikap">
-            <div class="container" id="trigger5">
+            <div class="container">
                 <div class="row justify-content-lg-center pk-content">
                     <div class="col-lg-6">
                         <h2>pošalji svoju kap</h2>
@@ -910,7 +910,7 @@ if (!$num) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-        <script src="<?php echo $native_path ?>/js/app.js?v=1.4"></script>
+        <script src="<?php echo $native_path ?>/js/app.js?v=1.5"></script>
 
         
 

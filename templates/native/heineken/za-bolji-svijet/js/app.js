@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
     });
 });
 
-var windowWidth = window.innerWidth ||
+/*var windowWidth = window.innerWidth ||
     document.documentElement.clientWidth ||
     document.body.clientWidth;
 
@@ -129,4 +129,4 @@ new ScrollMagic.Scene({
     })
     .setClassToggle("#reveal5", "visible") // add class to reveal
 
-    .addTo(controller);
+    .addTo(controller);*/
