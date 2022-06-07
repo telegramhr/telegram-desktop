@@ -17,7 +17,7 @@ if (!$num) {
         <?php wp_head(); ?>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="<?php echo $native_path ?>/css/styles.css" rel="stylesheet" />
-        <link href="<?php echo $native_path ?>/css/style.css?v=1.51" rel="stylesheet" />
+        <link href="<?php echo $native_path ?>/css/style.css?v=1.6" rel="stylesheet" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -379,10 +379,10 @@ if (!$num) {
     </div>
   </div>
 
-  <div class="fotka1" id="reveal1">
+  <div class="fotka1">
       <img src="<?php echo $native_path ?>/img/tvoje3-1.png?v=2" aria-hidden="true" class="img-fluid">
   </div>
-  <div class="fotka2" id="reveal2">
+  <div class="fotka2">
     <img src="<?php echo $native_path ?>/img/tvoje3-2.png" aria-hidden="true" class="img-fluid">
 </div>
 
@@ -782,7 +782,7 @@ if (!$num) {
                               </form>
                           <?php } ?>
                     </div>
-                    <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija" id="reveal5">
+                    <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija">
                    
                             <img src="<?php echo $native_path ?>/img/posaljikap.png" aria-hidden="true" class="img-fluid">
                         <div class="pk-kapi">
@@ -900,10 +900,8 @@ if (!$num) {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 
         <!-- Bootstrap core JS-->
