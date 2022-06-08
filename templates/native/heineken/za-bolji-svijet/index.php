@@ -756,19 +756,19 @@ if (!$num) {
                             <form id="test_form" method="post" enctype="multipart/form-data" action="<?php echo admin_url('admin-post.php') ?>">
                                 <div class="mb-3">
                                   <label for="ime" class="form-label">Tvoje ime i prezime</label>
-                                  <input class="form-control form-control-lg" id="ime" type="text" name="ime"  aria-label="tvoje ime">
+                                  <input class="form-control form-control-lg" id="ime" type="text" name="ime" required  aria-label="tvoje ime">
 
                                 </div>
 
                                 <div class="mb-3">
                                   <label for="email" class="form-label">Tvoj email</label>
-                                  <input class="form-control form-control-lg" id="email" type="text" name="email"  aria-label="tvoj email">
+                                  <input class="form-control form-control-lg" id="email" type="text" name="email" required  aria-label="tvoj email">
 
                                 </div>
 
                                 <div class="mb-3">
                                   <label for="slika" class="form-label">Tvoja fotografija</label>
-                                  <input class="form-control form-control-lg" id="slika" type="file" name="slika"  aria-label="tvoja fotografija">
+                                  <input class="form-control form-control-lg" id="slika" type="file" name="slika" required  aria-label="tvoja fotografija">
                                 </div>
                             
                                <!-- <div class="mb-3">
