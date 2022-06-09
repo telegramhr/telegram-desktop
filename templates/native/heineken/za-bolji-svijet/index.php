@@ -791,7 +791,7 @@ if (!$num) {
                         
                     </div>
                 </div>
-                <div class="row poruke justify-content-between hide">
+                <div class="row poruke justify-content-between">
                     <div class="col-lg-6">
                         <h4>vaše kapi u moru rješenja</h4>
                     </div>
