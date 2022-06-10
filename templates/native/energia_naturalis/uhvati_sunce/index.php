@@ -106,6 +106,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <section class="full flex relative white-bg">
             <div class="container flex relative calculator column-vertical-pad">
                 <h2 class="full center-text relative">Izračunaj koliko štediš</h2> 
+                <p class="full center-text relative">Prelaskom na solarnu energiju možete ostvariti dramatične uštede, evo koliko</p>
                 <iframe scrolling="no" src="https://www.energianaturalis.hr/enapi?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"></iframe>
             </div>
         </section>
