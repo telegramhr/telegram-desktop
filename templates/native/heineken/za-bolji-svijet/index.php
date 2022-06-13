@@ -398,8 +398,7 @@ if (!$num) {
                     <div class="col-lg-5 offset-lg-1 ">
                         <h2>Pomozi društvu</h2>
                         <p>HEINEKEN Hrvatska će stipendirati troje studenata karlovačkog Veleučilišta</p>
-                        <a href="https://www.telegram.hr/partneri/heineken-hrvatska-ce-stipendirati-troje-studenata-karlovackog-veleucilista/">Otvori članak</button>
-                        </a>
+                        <a href="https://www.telegram.hr/partneri/heineken-hrvatska-ce-stipendirati-troje-studenata-karlovackog-veleucilista/" target="_blank">Otvori članak</a>
                     </div>
                 </div>
             </div>
