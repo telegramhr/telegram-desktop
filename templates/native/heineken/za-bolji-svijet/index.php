@@ -392,13 +392,13 @@ if (!$num) {
             <div class="container">
                 <div class="row justify-content-center sijecanj-content">
                     <div class="col-lg-6 special-drop">
-                        <img src="https://images.telegram.hr/n0V9IRMbVDluO925shuGMq-WO-CU_ZZlRLcQrIjx88c/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvMjY5NzM3NjAzLTE4MzgzMTA1NTk2ODk1NTMtNzM1Nzc4NjQzMjU2NTgyNzQ0NS1uLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                        <img src="https://images.telegram.hr/HMbkMFVnLnWNGARRVPpTL2H7YZfEzsd3kM0B2v8SRpk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvaW1nLTU5MDkuanBn.jpg" aria-hidden="true" class="img-fluid">
                         <img src="<?php echo $native_path ?>/img/tg_heineken_drop.png" aria-hidden="true" class="drop-overlay">
                     </div>
                     <div class="col-lg-5 offset-lg-1 ">
                         <h2>Pomozi društvu</h2>
-                        <p>Karlovac nastavlja s projektom KAkvart. Otvaraju nove runde prijava za gradske četvrti i mjesne odbore</p>
-                        <a href="https://www.telegram.hr/partneri/karlovac-nastavlja-s-projektom-kakvart-otvaraju-nove-runde-prijava-za-gradske-cetvrti-i-mjesne-odbore/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
+                        <p>HEINEKEN Hrvatska će stipendirati troje studenata karlovačkog Veleučilišta</p>
+                        <a href="https://www.telegram.hr/partneri/heineken-hrvatska-ce-stipendirati-troje-studenata-karlovackog-veleucilista/">Otvori članak</button>
                         </a>
                     </div>
                 </div>
@@ -413,7 +413,19 @@ if (!$num) {
                 </div>
                 </div>
                 <div class="row">
-                <div class="col-lg-3">
+                    <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/karlovac-nastavlja-s-projektom-kakvart-otvaraju-nove-runde-prijava-za-gradske-cetvrti-i-mjesne-odbore/" target="_blank">
+                            <div class="clanak">
+                                <div class="slika">
+                                    <img src="https://images.telegram.hr/n0V9IRMbVDluO925shuGMq-WO-CU_ZZlRLcQrIjx88c/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvMjY5NzM3NjAzLTE4MzgzMTA1NTk2ODk1NTMtNzM1Nzc4NjQzMjU2NTgyNzQ0NS1uLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                                </div>
+                            
+                                    <p>arlovac nastavlja s projektom KAkvart. Otvaraju nove runde prijava za gradske četvrti i mjesne odbore</p>
+                        
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
                         <a href="https://www.telegram.hr/partneri/obitelj-ima-vaznu-ulogu-u-prevenciji-psihologinja-otkriva-kako-s-djecom-razgovarati-o-alkoholu/" target="_blank">
                             <div class="clanak">
                                 <div class="slika">
