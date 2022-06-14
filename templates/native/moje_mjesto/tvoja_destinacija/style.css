@@ -364,7 +364,7 @@ footer .center {
     margin-top: 48px;
 }
 .hero-right img {
-    max-height: 13vh;
+    max-height: 12vh;
     object-fit: contain;
     object-position: center center;
 }
