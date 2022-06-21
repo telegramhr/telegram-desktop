@@ -3,7 +3,7 @@
 
 <?php
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/energia_naturalis/uhvati_sunce/';
-$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/energia_naturalis/uhvati_sunce/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/tools/dajmi/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/energia_naturalis/uhvati_sunce/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/tools/dajmi/';
 ?>
