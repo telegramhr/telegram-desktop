@@ -420,7 +420,7 @@ if (!$num) {
                                     <img src="https://images.telegram.hr/n0V9IRMbVDluO925shuGMq-WO-CU_ZZlRLcQrIjx88c/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvMjY5NzM3NjAzLTE4MzgzMTA1NTk2ODk1NTMtNzM1Nzc4NjQzMjU2NTgyNzQ0NS1uLmpwZw.jpg" aria-hidden="true" class="img-fluid">
                                 </div>
                             
-                                    <p>arlovac nastavlja s projektom KAkvart. Otvaraju nove runde prijava za gradske četvrti i mjesne odbore</p>
+                                    <p>Karlovac nastavlja s projektom KAkvart. Otvaraju nove runde prijava za gradske četvrti i mjesne odbore</p>
                         
                             </div>
                         </a>
