@@ -61,7 +61,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <script>
         var native_path = "<?php echo $native_path; ?>";
         var img_data;
-        var imgurl;
         var counter = 1;
         var filename = "tg_naslovna.jpg";
         function update_date(date) {
@@ -112,26 +111,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             }, 2000)
         }
         document.querySelector("#modric").addEventListener('change', function() {
-            imgurl = native_path+"img/tg_dajmi_overlay_modric.png";
-                fetch(imgurl)
-                .then(response => response.blob())
-                .then(myBlob => {
-                    var urlCreator = window.URL || window.webkitURL;
-                    var imageUrl = urlCreator.createObjectURL(myBlob);
-                    const myImgElem = document.getElementById('img-overlay');
-                    myImgElem.src = imageUrl
-                })
+            document.querySelector("#img-overlay").src=native_path+"img/tg_dajmi_overlay_modric.png";
         });
         document.querySelector("#redzepovic").addEventListener('change', function() {
-            imgurl = native_path+"img/tg_dajmi_overlay_redzepovic.png";
-                fetch(imgurl)
-                .then(response => response.blob())
-                .then(myBlob => {
-                    var urlCreator = window.URL || window.webkitURL;
-                    var imageUrl = urlCreator.createObjectURL(myBlob);
-                    const myImgElem = document.getElementById('img-overlay');
-                    myImgElem.src = imageUrl
-                })
+            document.querySelector("#img-overlay").src=native_path+"img/tg_dajmi_overlay_redzepovic.png";
         });
         document.getElementById('chooseFile').addEventListener('change', readURL, true);
         function readURL(){
