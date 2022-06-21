@@ -3,15 +3,15 @@
 
 <?php
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/energia_naturalis/uhvati_sunce/';
-//$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/energia_naturalis/uhvati_sunce/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/energia_naturalis/uhvati_sunce/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/energia_naturalis/uhvati_sunce/';
-$native_path = 'http://localhost/telegram-desktop/templates/native/tools/dajmi/';
+//$native_path = 'http://localhost/telegram-desktop/templates/native/tools/dajmi/';
 ?>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,7 +89,7 @@ $native_path = 'http://localhost/telegram-desktop/templates/native/tools/dajmi/'
                 a.href = img_data;
                 a.download = filename;
                 a.click();
-                switch (getRandomInt(3)) {
+                switch (getRandomInt(4)) {
                     case 0:
                         $("#saveimagebutton").text("Hitno!");
                         break;
@@ -98,6 +98,9 @@ $native_path = 'http://localhost/telegram-desktop/templates/native/tools/dajmi/'
                         break;
                     case 2:
                         $("#saveimagebutton").text("Brzo!");
+                        break;
+                    case 3:
+                        $("#saveimagebutton").text("Što prije!");
                         break;
                     default:
                         $("#saveimagebutton").text("Hitno!");
@@ -127,7 +130,7 @@ $native_path = 'http://localhost/telegram-desktop/templates/native/tools/dajmi/'
         }
 
     </script>
-    <?php //wp_footer(); ?>
+    <?php wp_footer(); ?>
 </body>
 
 </html>
