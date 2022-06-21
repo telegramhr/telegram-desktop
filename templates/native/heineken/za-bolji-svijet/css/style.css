@@ -843,8 +843,6 @@ form button {
 }
 
 .footer-poruke {
-    background: url('../img/footer-poruka.jpg') no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: flex-end;
     border-radius: 4px;
@@ -972,9 +970,6 @@ form button {
     }
 
     .footer-poruke {
-        background: url('../img/footer-poruka.jpg') no-repeat;
-        background-size: cover;
-        height: 55px;
         display: flex;
         justify-content: flex-end;
         border-radius: 4px;

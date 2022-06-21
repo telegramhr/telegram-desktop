@@ -17,7 +17,7 @@ if (!$num) {
         <?php wp_head(); ?>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="<?php echo $native_path ?>/css/styles.css" rel="stylesheet" />
-        <link href="<?php echo $native_path ?>/css/style.css?v=1.7" rel="stylesheet" />
+        <link href="<?php echo $native_path ?>/css/style.css?v=1.71" rel="stylesheet" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
