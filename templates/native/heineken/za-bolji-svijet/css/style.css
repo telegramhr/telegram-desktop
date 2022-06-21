@@ -851,8 +851,9 @@ form button {
     border: 1px solid #E5E5E5;
     padding: 1rem;
 }
-.citati-slider .footer-poruke {
+.footer-poruke {
     background: #008200;
+    height: auto;
 }
 
 .footer-poruke p {
@@ -1230,4 +1231,8 @@ footer p {
     right: 0;
     width: 30%;
     z-index: 5;
+}
+.poruka .body-poruke img {
+    max-height: 350px;
+    object-fit: contain;
 }

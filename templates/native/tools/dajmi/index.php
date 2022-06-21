@@ -53,8 +53,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <div class="full flex relative">
             <div id="img-render">
-                <img src="img/grey_placeholder.png" width="2664" height="1680" id="img-deliver">
-                <img src="img/tg_dajmi_overlay_modric.png" width="2664" height="1680" id="img-overlay">
+                <img src="<?php echo $native_path ?>img/grey_placeholder.png" width="2664" height="1680" id="img-deliver">
+                <img src="<?php echo $native_path ?>img/tg_dajmi_overlay_modric.png" width="2664" height="1680" id="img-overlay">
             </div>
         </div>
     </div>
