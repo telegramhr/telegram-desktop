@@ -1,0 +1,99 @@
+/*
+* Daj mi CSS
+* by TG Studio Marijan
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+.container {
+    width: 1248px;
+    padding: 24px;
+    margin: 24px auto;
+}
+.center {
+    flex-wrap: wrap;
+}
+#img-render {
+    width: 2664px;
+    height: 1680px;
+    background-size: cover;
+    background-position: center;
+}
+#img-deliver {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 3;
+}
+#img-overlay {
+    position: relative;
+    z-index: 5;
+}
+#img-render img {
+    max-width: 2664px;
+    width: 2664px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 72px;
+    margin-bottom: 48px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.third {
+    padding: 24px;
+}
+input[type=radio] {
+    display: none;
+}
+label {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #ccc;
+    color: #555;
+    margin-bottom: 16px;
+}
+input[type=radio]:checked+label {
+    border: 2px solid #34495e;
+    color: #34495e;
+    font-weight: bold;
+}
+.btn {
+    background-color: #dce4ec;
+    padding: 11px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+.btn:hover {
+    background-color: #34495e;
+    color: white;
+}
+
+/* File uploader */
+
+.file-upload{display:block;text-align:center;font-family: Helvetica, Arial, sans-serif;font-size: 12px;}
+.file-upload .file-select{display:block;border: 2px solid #dce4ec;color: #34495e;cursor:pointer;height:40px;line-height:40px;text-align:left;background:#FFFFFF;overflow:hidden;position:relative;}
+.file-upload .file-select .file-select-button{background:#dce4ec;padding:0 10px;display:inline-block;height:40px;line-height:40px;}
+.file-upload .file-select .file-select-name{line-height:40px;display:inline-block;padding:0 10px;}
+.file-upload .file-select:hover{border-color:#34495e;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload .file-select:hover .file-select-button{background:#34495e;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select{border-color:#3fa46a;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select .file-select-button{background:#3fa46a;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload .file-select input[type=file]{z-index:100;cursor:pointer;position:absolute;height:100%;width:100%;top:0;left:0;opacity:0;filter:alpha(opacity=0);}
+.file-upload .file-select.file-select-disabled{opacity:0.65;}
+.file-upload .file-select.file-select-disabled:hover{cursor:default;display:block;border: 2px solid #dce4ec;color: #34495e;cursor:pointer;height:40px;line-height:40px;margin-top:5px;text-align:left;background:#FFFFFF;overflow:hidden;position:relative;}
+.file-upload .file-select.file-select-disabled:hover .file-select-button{background:#dce4ec;color:#666666;padding:0 10px;display:inline-block;height:40px;line-height:40px;}
+.file-upload .file-select.file-select-disabled:hover .file-select-name{line-height:40px;display:inline-block;padding:0 10px;}
