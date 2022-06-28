@@ -40,6 +40,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </a>
             <nav class="full flex">
                 <a class="full flex" href="#o-projektu">O projektu</a>
+                <a class="full flex" href="#varazdin">Varaždin</a>
                 <a class="full flex" href="#dubrovnik">Dubrovnik</a>
                 <a class="full flex" href="#sibenik">Šibenik</a>
                 <a class="full flex" href="#zadar">Zadar</a>
@@ -63,7 +64,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
     </header>
     <nav class="full flex mobile-nav stretch">
+      <a class="fourth center" href="#varazdin"><img src="<?php echo $native_path ?>img/icon_varazdin.png" aria-hidden="true"><span>Varaždin</span></a>
         <a class="fourth center" href="#dubrovnik"><img src="<?php echo $native_path ?>img/icon_dubrovnik.png" aria-hidden="true"><span>Dubrovnik</span></a>
+
         <a class="fourth center" href="#sibenik"><img src="<?php echo $native_path ?>img/icon_sibenik.png" aria-hidden="true"><span>Šibenik</span></a>
         <a class="fourth center" href="#zadar"><img src="<?php echo $native_path ?>img/icon_zadar.png" aria-hidden="true"><span>Zadar</span></a>
         <a class="fourth center" href="#korcula"><img src="<?php echo $native_path ?>img/icon_korcula.png" aria-hidden="true"><span>Korčula</span></a>
@@ -73,30 +76,39 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">O projektu</h2>
             <p class="full project-intro" data-aos="fade-left" data-aos-delay="750">U dokumentarnom serijalu "Moje mjesto, tvoja destinacija" vodimo vas na ulice prekrasnih hrvatskih gradova uz lokalne vodiče - pojedince koji su odlučili ostati u svojim mjestima i graditi njihovu kulturu.</p>
             <div class="full sugovornici flex stretch">
-                <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
-                    <img src="<?php echo $native_path ?>img/sugovornik_ivan.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">01</div>
-                    <h3 class="full">Ivan iz Dubrovnika</h3>
-                    <p>Ivan svojim IT rješenjima osvaja svijet. Nedavno je ušao na tržište Japana. Posjetili smo ga u Dubrovniku.</p>
-                    <a href="#dubrovnik" class="insite-btn">Pogledaj epizodu</a>
-                </div>
+
+              <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
+                <img src="https://www.telegram.hr/wp-content/uploads/2022/05/bozic-nikola9.jpg" aria-hidden="true">
+                <div class="full sugovornik-episode">01</div>
+                <h3 class="full">Nikola iz Varaždina</h3>
+                <p>Uspješni ugostitelj Nikola Božić proveo nas je rodnim Varaždinom. Odveo nas je i u dvorište o kojem je pisao New York Times</p>
+                <a href="#varazdin" class="insite-btn">Pogledaj epizodu</a>
+              </div>
+
+              <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
+                <img src="<?php echo $native_path ?>img/sugovornik_ivan.jpg" aria-hidden="true">
+                <div class="full sugovornik-episode">02</div>
+                <h3 class="full">Ivan iz Dubrovnika</h3>
+                <p>Ivan svojim IT rješenjima osvaja svijet. Nedavno je ušao na tržište Japana. Posjetili smo ga u Dubrovniku.</p>
+                <a href="#dubrovnik" class="insite-btn">Pogledaj epizodu</a>
+              </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
                     <img src="<?php echo $native_path ?>img/sugovornik_danijel.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">02</div>
+                    <div class="full sugovornik-episode">03</div>
                     <h3 class="full">Danijel iz Šibenika</h3>
                     <p>Danijel svojim umjetničkim instalacijama obogaćuje kulturnu ponudu grada i šire. Posjetili smo ga u Šibeniku.</p>
                     <a href="#sibenik" class="insite-btn">Pogledaj epizodu</a>
                 </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1750">
                     <img src="<?php echo $native_path ?>img/sugovornik_vinko.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">03</div>
+                    <div class="full sugovornik-episode">04</div>
                     <h3 class="full">Vinko iz Zadra</h3>
                     <p>Vinkovu Lektiru na sceni pogledalo je više od 6000 srednjoškolaca. Mladog redatelja posjetili smo u Zadru.</p>
                     <a href="#zadar" class="insite-btn">Pogledaj epizodu</a>
                 </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="2000">
                     <img src="<?php echo $native_path ?>img/sugovornik_marijana.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">04</div>
+                    <div class="full sugovornik-episode">05</div>
                     <h3 class="full">Marijana iz Korčule</h3>
                     <p>Dok su se druga djeca igrala ona je konobarila i prodavala sladoled. Sad na Korčuli vodi obiteljski restoran.</p>
                     <a href="#korcula" class="insite-btn">Pogledaj epizodu</a>
@@ -144,6 +156,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <a href="https://www.telegram.hr/zivot/dok-su-se-druga-djeca-igrala-ona-je-konobarila-i-prodavala-sladoled-sad-na-korculi-vodi-obiteljski-restoran/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
+
+  <section class="full episode episode-overlay flex relative stretch" id="varazdin">
+    <video src="<?php echo $native_path ?>img/tg_videobg_varazdin.mp4" autoplay loop muted playsinline class="background-video"></video>
+    <div class="half flex-responsive flex">
+      <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Varaždin</h2>
+    </div>
+    <div class="half flex-responsive flex">
+      <p class="full episode-description" data-aos="fade-right">U prvom nastavku druge sezone video serijala "Moje mjesto, tvoja destinacija" posjetili smo Varaždin. Naš domaćin je Nikola Božić koji stoji iza jedne od najboljih gastro destinacija u regiji</p>
+      <a href="https://www.telegram.hr/velike-price/veliki-vodic-po-varazdinu-i-okolici-najbolje-kobasice-kul-kafic-i-steak-na-koji-dolaze-svjetske-glazbene-zvijezde/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
+    </div>
+  </section>
+
     <section class="full episode relative" id="procitajte-vise">
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
