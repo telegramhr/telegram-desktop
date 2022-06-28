@@ -164,7 +164,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     </div>
     <div class="half flex-responsive flex">
       <p class="full episode-description" data-aos="fade-right">U prvom nastavku druge sezone video serijala "Moje mjesto, tvoja destinacija" posjetili smo Varaždin. Naš domaćin je Nikola Božić koji stoji iza jedne od najboljih gastro destinacija u regiji</p>
-      <a href="https://www.telegram.hr/velike-price/veliki-vodic-po-varazdinu-i-okolici-najbolje-kobasice-kul-kafic-i-steak-na-koji-dolaze-svjetske-glazbene-zvijezde/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
+      <a href="https://www.telegram.hr/velike-price/vodic-varazdin-kobasice-kafic-zvijezde/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
     </div>
   </section>
 
