@@ -167,7 +167,7 @@ function telegram_trim($content, $id = 0) {
         $cat = get_the_category($id);
         $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function ($m) use ($post, $cat) {
             if (strpos($m[2], "www.telegram.hr") === false) {
-                if ($post === 'partneri' || $cat[0]->slug === 'promo') {
+                if ($post === 'partneri' || ($cat && $cat[0]->slug === 'promo')) {
                     $rel = 'sponsored';
                 } else {
                     $rel = 'noopener noreferrer';
