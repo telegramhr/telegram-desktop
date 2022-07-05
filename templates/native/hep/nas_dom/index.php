@@ -12,14 +12,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <?php wp_head(); ?>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.00" type="text/css" />
-    <script src="<?php echo $native_path ?>html2canvas.min.js"></script>
-    <script src="<?php echo $native_path ?>functions.js"></script>
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/bootstrap.min.css" />
     <!--====== Line Icons css ======-->
@@ -47,7 +39,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                 <div class="header-image">
-                    <img src="<?php echo $native_path ?>assets/images/hero-svg_01.svg" alt="#" />
+                    <img src="<?php echo $native_path ?>assets/images/hero-svg_01.svg" alt="Animirana ilustracija grada pogonjenog zelenom energijom sunca i vjetra" />
                 </div>
                 </div>
             </div>
@@ -197,7 +189,7 @@
             <div class="footer-top">
             <div class="row">
                     <div class="col-lg-12 col-md-12 col-12" style="text-align:center;">
-                    <img src="assets/images/ikona.png" alt="HEP" style="width:auto; height:150px; margin:20px;">
+                    <img src="<?php echo $native_path ?>assets/images/ikona.png" alt="HEP" style="width:auto; height:150px; margin:20px;">
                     </div>
             </div>
             <div class="container">
@@ -208,7 +200,7 @@
                     <div class="footer-widget f-about">
                         <div class="logo">
                         <a href="index.html">
-                            <img src="<?php echo $native_path ?>assets/images/hep_logo.svg" alt="#" class="img-fluid" style="width: auto; height: 35px; margin-top:25px; margin-right: 20px; " /> <img src="<?php echo $native_path ?>assets/images/telegram_logo.svg" alt="#" class="img-fluid" style="width: auto; height: 35px; margin-top:25px" />
+                            <img src="<?php echo $native_path ?>assets/images/hep_logo.svg" alt="HEP logo" class="img-fluid" style="width: auto; height: 35px; margin-top:25px; margin-right: 20px; " /> <img src="<?php echo $native_path ?>assets/images/telegram_logo.svg" alt="Telegram Logo" class="img-fluid" style="width: auto; height: 35px; margin-top:25px" />
                         </a>
                         </div>
                         <p class="copyright-text">
