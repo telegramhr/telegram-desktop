@@ -12,7 +12,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php wp_head(); 
+    <?php wp_head();
     ?>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/yeg5fde.css">
@@ -24,7 +24,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
 <div class="main-container flex">
-    <div class="full flex sticky-menu hide">
+    <div class="full flex sticky-menu">
         <nav class="container flex relative">
             <div class="page-logo">Školica financija</div>
             <a href="#uvod"><i class="fa-solid fa-glasses"></i> Uvod uz Super Emu</a>
@@ -129,6 +129,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex main-color-bg relative">
             <div class="container relative flex articles-container" id="ekstra">
                 <h2 class="full center-text" data-aos="fade-up">Još sadržaja o financijskoj stabilnosti</h2>
+              <a class="third flex-responsive article" href="https://super1.telegram.hr/relax/istrazila-sam-sve-o-ugovaranju-zivotnog-osiguranja-umjesto-vas-ovo-je-sve-sto-trebate-znati/" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2022/03/2022-3-3-naslovna-880x520.jpg" aria-hidden="true" />
+                <h3 class="full flex">Istražila sam sve o ugovaranju životnog osiguranja umjesto vas. Ovo je sve što trebate znati </h3>
+                <div class="cta animate">Saznaj više</div>
+              </a>
                 <a class="third flex-responsive article" href="https://super1.telegram.hr/relax/znate-li-s-novcem-rijesite-kviz-i-otkrijte-kako-stojite-mi-smo-u-pozitivnom-soku/" data-aos="fade-up" data-aos-delay="100">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/09/naslovna-1.jpg" aria-hidden="true" />
                     <h3 class="full flex">Znate li s novcem? Riješite kviz i otkrijte kako stojite. Mi smo u pozitivnom šoku </h3>
@@ -195,7 +200,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </section>
 </div>
-<?php wp_footer(); 
+<?php wp_footer();
 ?>
 </body>
 

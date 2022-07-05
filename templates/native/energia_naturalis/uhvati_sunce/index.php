@@ -27,7 +27,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </header>
         <section class="full flex relative">
             <div class="container flex relative infographics">
-                <h2 class="full center-text relative">Energija budućnosti</h2> 
+                <h2 class="full center-text relative">Energija budućnosti</h2>
                 <div class="third flex flex-responsive column-full-pad">
                     <div class="full flex center infographic-icon" data-aos="flip-up">
                         <?php echo file_get_contents($native_path.'img/sun-thin.svg'); ?>
@@ -86,12 +86,26 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative white-bg">
             <div class="container flex relative articles column-vertical-pad">
-                <h2 class="full center-text relative">Više o temi</h2> 
+                <h2 class="full center-text relative">Više o temi</h2>
+              <article class="full flex relative stretch">
+                <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/jesu-li-solari-buducnost-ovi-gradovi-i-drzave-misle-da-apsolutno-jesu-imaju-dobre-argumente/">
+                  <div class="half center flex-responsive column-full-pad">
+                    <div class="full flex relative">
+                      <h3>Jesu li solari budućnost? Ovi gradovi i države misle da apsolutno jesu, imaju dobre argumente</h3>
+                        <p>Donosimo najbolje primjere iz inozemstva koje bi Hrvatska mogla slijediti</p>
+                        <div class="btn">Pročitaj više</div>
+                    </div>
+                  </div>
+                  <div class="half center flex-responsive column-full-pad article-img">
+                    <img src="https://images.telegram.hr/zI7jdiNFcHhit8NO02etG2OQTftED5bW0pB01WGnTOQ/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvc2h1dHRlcnN0b2NrLTEwODI2Nzc4MDIuanBn.jpg" aria-hidden="true">
+                  </div>
+                </a>
+              </article>
                 <article class="full flex relative stretch">
                     <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/cijene-energenata-divljaju-a-krizi-se-ne-nazire-kraj-energetski-strucnjak-savjetuje-kako-ustedjeti">
                         <div class="half center flex-responsive column-full-pad">
                             <div class="full flex relative">
-                                <h3>Cijene energenata divljaju, a krizi se ne nazire kraj. Energetski stručnjak savjetuje kako uštedjeti</h2>
+                                <h3>Cijene energenata divljaju, a krizi se ne nazire kraj. Energetski stručnjak savjetuje kako uštedjeti</h3>
                                 <p>Naš sugovornik naglašava i kako treba gledati u budućnost te tražiti alternativne izvore energije poput solarnih elektrana</p>
                                 <div class="btn">Pročitaj više</div>
                             </div>
@@ -105,14 +119,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative white-bg">
             <div class="container flex relative calculator column-vertical-pad">
-                <h2 class="full center-text relative">Izračunaj koliko štediš</h2> 
+                <h2 class="full center-text relative">Izračunaj koliko štediš</h2>
                 <p class="full center-text relative">Prelaskom na solarnu energiju možete ostvariti dramatične uštede, evo koliko</p>
                 <iframe scrolling="no" src="https://www.energianaturalis.hr/enapi?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"></iframe>
             </div>
         </section>
         <section class="full flex relative white-bg">
             <div class="container flex relative more-info column-full-pad">
-                <h2 class="full center-text relative">Želim znati</h2> 
+                <h2 class="full center-text relative">Želim znati</h2>
                 <p>Solarnom elektranom kupac proizvodi električnu energiju za svoje potrebe i postaje energetski neovisan.</p>
                 <h4>Što je solarna elektrana?</h4>
                 <p>Pod pojmom solarna elektrana najčešće mislimo na sunčevu fotonaponsku elektranu koja solarnu energiju pretvara u električnu energiju koju koristimo u svakodnevnom životu.</p>
