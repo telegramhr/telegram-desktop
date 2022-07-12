@@ -16,7 +16,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/gaa4apb.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.00" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.10" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
 <body>
@@ -84,9 +84,32 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </section>
+        <a class="full flex relative fancy-article" href="https://www.telegram.hr/partneri/informaticar-i-njegova-obitelj-pronasli-spas-u-solarima-ove-zime-na-grijanju-ustedjeli-su-oko-5000-kuna/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/07/tg-naslovna-2022-7-1.jpg" alt="Solarni paneli na kući">
+            <div class="full relative flex">
+                <div class="container flex relative column-full-pad">
+                    <h2 class="full center-text relative">Informatičar i njegova obitelj pronašli spas u solarima: ove zime na grijanju uštedjeli su oko 5000 kuna</h2>
+                    <div class="full center relative"><div class="btn">Pročitaj više</div></div>
+                </div>
+            </div>
+        </a>
         <section class="full flex relative white-bg">
             <div class="container flex relative articles column-vertical-pad">
                 <h2 class="full center-text relative">Više o temi</h2>
+                <article class="full flex relative stretch">
+                    <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/ultimativni-vodic-za-ugradnju-solarnih-panela-plus-je-sto-su-otporni-testirani-i-osigurani-od-tuce/">
+                    <div class="half center flex-responsive column-full-pad">
+                        <div class="full flex relative">
+                        <h3>Ultimativni vodič za ugradnju solarnih panela. Plus je što su otporni, testirani i osigurani od tuče</h3>
+                            <p> Sve počinje projektiranjem solarne elektrane prema potrošnji električne energije</p>
+                            <div class="btn">Pročitaj više</div>
+                        </div>
+                    </div>
+                    <div class="half center flex-responsive column-full-pad article-img">
+                        <img src="https://images.telegram.hr/2PmG7LqqEOvgyR4RDuiH6OQ6DfQ39O7pexgK3zeQbcI/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvc2h1dHRlcnN0b2NrLTEwNTYyNjQwODkuanBn.jpg" aria-hidden="true">
+                    </div>
+                    </a>
+                </article>
               <article class="full flex relative stretch">
                 <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/jesu-li-solari-buducnost-ovi-gradovi-i-drzave-misle-da-apsolutno-jesu-imaju-dobre-argumente/">
                   <div class="half center flex-responsive column-full-pad">
