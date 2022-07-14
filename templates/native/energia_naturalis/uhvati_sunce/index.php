@@ -97,11 +97,25 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container flex relative articles column-vertical-pad">
                 <h2 class="full center-text relative">Više o temi</h2>
                 <article class="full flex relative stretch">
+                    <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/razmisljate-o-prelasku-na-solarnu-energiju-ovo-su-najvaznije-stvari-koje-svakako-morate-znati/">
+                    <div class="half center flex-responsive column-full-pad">
+                        <div class="full flex relative">
+                        <h3>Razmišljate o prelasku na solarnu energiju? Ovo su najvažnije stvari koje svakako morate znati</h3>
+                            <p>Istraživanja kažu kako će do 2050. godine solarne elektrane biti među najjeftinijima izvorima energije</p>
+                            <div class="btn">Pročitaj više</div>
+                        </div>
+                    </div>
+                    <div class="half center flex-responsive column-full-pad article-img">
+                        <img src="https://images.telegram.hr/ICPRieRSvieW4DCAxSqe2dCp_G4IH22fe4vWCfbfHzk/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDcvc2h1dHRlcnN0b2NrLTEwOTM5NDE4MDAuanBn.jpg" aria-hidden="true">
+                    </div>
+                    </a>
+                </article>
+                <article class="full flex relative stretch">
                     <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/ultimativni-vodic-za-ugradnju-solarnih-panela-plus-je-sto-su-otporni-testirani-i-osigurani-od-tuce/">
                     <div class="half center flex-responsive column-full-pad">
                         <div class="full flex relative">
                         <h3>Ultimativni vodič za ugradnju solarnih panela. Plus je što su otporni, testirani i osigurani od tuče</h3>
-                            <p> Sve počinje projektiranjem solarne elektrane prema potrošnji električne energije</p>
+                            <p>Sve počinje projektiranjem solarne elektrane prema potrošnji električne energije</p>
                             <div class="btn">Pročitaj više</div>
                         </div>
                     </div>
