@@ -97,6 +97,21 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container flex relative articles column-vertical-pad">
                 <h2 class="full center-text relative">Više o temi</h2>
                 <article class="full flex relative stretch">
+                    <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/danas-je-apsolutno-jasno-da-se-svijet-mora-okrenuti-zelenoj-energiji-europa-razmislja-o-vrlo-odlucnim-mjerama/">
+                    <div class="half center flex-responsive column-full-pad">
+                        <div class="full flex relative">
+                            <h3>Danas je apsolutno jasno da se svijet mora okrenuti zelenoj energiji. Europa razmišlja o vrlo odlučnim mjerama</h3>
+                            <p> Plan Europske unije je do 2025. udvostručiti količinu električne energije dobivene solarnim elektranama</p>
+                            <div class="btn">Pročitaj više</div>
+                        </div>
+                    </div>
+                    <div class="half center flex-responsive column-full-pad article-img">
+                        <img src="https://images.telegram.hr/XaAQ3C5VMhyXnX3y97UCnwoKRTgalZRCpM6HoeyZOFQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDcvMS0xLmpwZw.jpg" aria-hidden="true">
+                    </div>
+                    </a>
+                </article>
+
+                <article class="full flex relative stretch">
                     <a class="full flex relative stretch" target="_blank" href="https://www.telegram.hr/partneri/razmisljate-o-prelasku-na-solarnu-energiju-ovo-su-najvaznije-stvari-koje-svakako-morate-znati/">
                     <div class="half center flex-responsive column-full-pad">
                         <div class="full flex relative">
