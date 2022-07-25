@@ -256,6 +256,7 @@ h3 {
 #applications label {
     font-weight: 700;
     margin-bottom: 16px;
+    width: 80%;
 }
 #applications input, #applications textarea {
     outline: none;
@@ -337,14 +338,14 @@ footer .center {
     color: white;
     border-top: 1px solid rgba(255,255,255,0.25);
 }
-.mobile-nav a.fourth {
+.mobile-nav a.fifth {
     margin: 0px;
     font-size: 16px;
     height: 20vw;
     padding: 4px;
     flex-wrap: wrap;
 }
-.mobile-nav a.fourth span {
+.mobile-nav a.fifth span {
     width: 100%;
     text-align: center;
     opacity: .5;
@@ -368,10 +369,20 @@ footer .center {
     object-fit: contain;
     object-position: center center;
 }
+.sugovornici {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    display: flex;
+}
 .extra-content {
     flex-wrap: nowrap;
     overflow-x: scroll;
     display: flex;
+}
+.sugovornici .fourth {
+    scroll-snap-align: start;
+    width: 20vw;
+    min-width: 20vw;
 }
 .extra-content .third {
     scroll-snap-align: start;
@@ -495,7 +506,11 @@ footer .center {
         font-size: 26px;
     }
 }
-
+@media screen and (max-width: 360px) {
+    .mobile-nav a.fifth {
+        font-size: 12px;
+    }
+}
 .lds-facebook {
     display: inline-block;
     position: relative;
