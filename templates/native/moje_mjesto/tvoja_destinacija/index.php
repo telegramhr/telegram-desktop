@@ -172,7 +172,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
-            <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="500">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="500">
+                    <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2022/07/2022-7-19-naslovna2.jpg" aria-hidden="true">
+                    <h3 class="full">Istok Lijepe naše ima toliko toga za ponuditi. Evo što je oduševilo poznatog blogera </h3>
+                    <p>Kontinentalni turizam treba dobiti svoje zasluženo mjesto na karti Hrvatske</p>
+                    <a href="https://super1.telegram.hr/relax/istok-lijepe-nase-ima-toliko-toga-za-ponuditi-evo-sto-je-odusevilo-poznatog-blogera/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="500">
                     <img src="https://super1.telegram.hr/wp-content/uploads/sites/3/2021/08/d7fa4f22-72c5-4264-8f5c-28644d2eb84b-880x520.jpg" aria-hidden="true">
                     <h3 class="full">Pronašli smo još jedan prekrasan svjetionik u Istri koji možete iznajmiti za boravak </h3>
                     <p>U ovaj svjetionik u Istri koji može primiti osam gostiju zaljubili smo se na prvi pogled</p>
