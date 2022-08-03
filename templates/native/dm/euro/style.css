@@ -1,0 +1,289 @@
+/*
+* CSS by TG Studio Marijan
+*/
+
+/* Basics */
+
+html {
+    font-size: 20px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.container {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 24px;
+}
+header, section {
+    padding: 5vh 0px;
+}
+.pad-me {
+    padding: 24px;
+}
+h1, h2 {
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: rgb(0, 40, 120);
+}
+.blue-section {
+    background: #e8f6fd;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 42px;
+}
+p {
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
+p:last-child {
+    margin-bottom: 0px;
+}
+.blue-section p {
+    opacity: 1;
+}
+.flex-table {
+    max-width: 85%;
+    border-radius: 5px;
+}
+.flex-table-row {
+    font-size: 14px;
+    background-color: #efefef;
+}
+.flex-table-row:nth-child(odd) {
+    background-color: #dedede;
+}
+.flex-table-row:first-child {
+    background-color: rgb(0, 40, 120);
+    color: white;
+    font-weight: 700;
+}
+.flex-table-row .third {
+    padding: 8px;
+}
+.dm-logo {
+    height: 45px;
+    position: relative;
+    left: -2px;
+}
+footer .dm-logo {
+    height: 80px;
+    left: 0px;
+}
+.tg-studio {
+    width: 100px;
+    margin-left: 32px;
+    margin-right: 8px;
+}
+footer {
+    background-color: #efefef;
+}
+footer p {
+    font-size: 14px;
+    max-width: 720px;
+    margin: 24px auto;
+}
+  
+@media screen and (min-width: 767px) {
+    .half {
+        order: 1;
+    }
+    .desktop-second {
+        order: 2;
+    }
+}
+
+/* Waves */
+
+.waves-container {
+    position: absolute;
+    top: -2vw;
+    left: 0;
+    transform: rotate(180deg);
+}
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px; 
+}
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+.converter .center {
+    flex-wrap: nowrap;
+}
+.converter input[type=number] {
+    margin-right: 4px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: #ceebfa;
+    padding: 4px;
+}
+.blue-section svg {
+    fill: #6594ac;
+    max-width: 20vw;
+}
+.countdown-day-block {
+    width: 96px;
+    flex-wrap: wrap;
+}
+.countdown-day-block:first-child {
+    width: 144px;
+}
+.countdown-tiles {
+    flex-wrap: nowrap;
+}
+.countdown-tile {
+    padding: 10px;
+    background: #e8f6fd;
+    border-radius: 5px;
+    height: 69px;
+    width: 40px;
+    font-size: 32px;
+    font-size: 1.6rem;
+    margin-right: 8px;
+    text-align: center;
+}
+.countdown-day-divider {
+    font-size: 32px;
+    font-size: 1.6rem;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+.countdown-subtitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 0.7rem;
+    opacity: .7;
+}
+.countdown-element {
+    margin-bottom: 24px;
+    z-index: 10;
+}
+
+
+/* Animation */
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+}
+@media (max-width: 767px) {
+    .waves {
+      height: 40px;
+      min-height: 40px;
+    }
+    .content {
+      height: 30vh;
+    }
+    h1 {
+      font-size: 24px;
+    }
+}
+@media screen and (min-width: 767px) {
+    .countdown-element {
+        min-width: 550px;
+    }
+}
+@media (max-width: 1080px) { 
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .waves-container {
+        top: -1vw;
+    }
+    .flex-table-row {
+        font-size: 12px;
+    }
+    .container {
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .countdown-day-block {
+        width: 15vw;
+    }
+    .countdown-day-block:first-child {
+        width: 22.5vw;
+    }
+    .countdown-tile {
+        padding: 1vw;
+        border-radius: 0.5vw;
+        height: 11vw;
+        width: 7vw;
+        font-size: 6vw;
+        margin-right: 0.5vw;
+    }
+    .countdown-day-divider {
+        font-size: 6vw;
+        margin-left: 1vw;
+        margin-right: 2vw;
+    }
+    .countdown-subtitle {
+        font-size: 3vw;
+    }
+    .flex-table {
+        margin: 10vw auto;
+    }
+    .mobile-order-1 {
+        order: 1;
+    }
+    .mobile-order-2 {
+        order: 2;
+    }
+    header, section {
+        padding: 5vw 0px;
+    }
+    .converter .center {
+        flex-wrap: wrap;
+    }
+    footer {
+        padding: 24px;
+    }
+    header .desktop-second img {
+        padding: 0px 24px;
+    }
+}
