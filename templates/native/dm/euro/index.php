@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.10" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.11" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js?ver=1.10"></script>
 </head>
 <body>
@@ -89,15 +89,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </header>
         <section class="full flex relative">
             <div class="container flex relative stretch">
-                <a href="https://www.telegram.hr/partneri/i-kod-dvojnog-iskazivanja-cijena-postoje-iznimke-neka-prodajna-mjesta-ne-moraju-ih-imati-znamo-koja/" class="full center flex-responsive blue-section relative" target="_blank">
+                <a href="https://www.telegram.hr/partneri/ova-poznata-drogerija-odlucila-je-trajno-zadrzati-dobre-cijene-i-nakon-promjene-valute/" class="full center flex-responsive blue-section relative" target="_blank">
                     <div class="full flex relative">
                         <div class="two-thirds flex flex-responsive pad-me mobile-order-2">
-                            <h2 class="full">I kod dvojnog iskazivanja cijena postoje iznimke. Neka prodajna mjesta ne moraju ih imati, znamo koja</h2>
-                            <p>Kako bi se potrošači što lakše priviknuli na novu valutu, obveza prikazivanja cijena u kunama i eurima trajat će do 1.1.2024. </p>
+                            <h2 class="full">Ova poznata drogerija odlučila je trajno zadržati dobre cijene i nakon promjene valute</h2>
+                            <p>U svojim su prodavaonicama već započeli s uvođenjem dvojnog iskazivanja cijena</p>
                             <p class="italic">Pročitajte više...</p>
                         </div>
                         <div class="third flex flex-responsive pad-me mobile-order-1">
-                            <img src="https://images.telegram.hr/ULlzaoPhjpvqFsEkaphxYcbZHWbSzSnBLfQTgZsq0BI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDcvaW1nLTU2MDQuanBn.jpg" alt="Primjer dvojnog iskazivanja cijena u dm-u">
+                            <img src="https://images.telegram.hr/pPQTaQQ90fFDXkH15q1kId-IrX-DlQWTe7xLPDZjPcE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDcvZG0uanBn.jpg" alt="Police povoljne zdrave hrane u dm-u">
                         </div>
                     </div>
                 </a>
@@ -186,6 +186,36 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="full flex relative">
+            <div class="container flex relative stretch">
+                <a href="https://www.telegram.hr/partneri/i-kod-dvojnog-iskazivanja-cijena-postoje-iznimke-neka-prodajna-mjesta-ne-moraju-ih-imati-znamo-koja/" class="full center flex-responsive blue-section relative" target="_blank">
+                    <div class="full flex relative">
+                        <div class="two-thirds flex flex-responsive pad-me mobile-order-2">
+                            <h2 class="full">I kod dvojnog iskazivanja cijena postoje iznimke. Neka prodajna mjesta ne moraju ih imati, znamo koja</h2>
+                            <p>Kako bi se potrošači što lakše priviknuli na novu valutu, obveza prikazivanja cijena u kunama i eurima trajat će do 1.1.2024. </p>
+                            <p class="italic">Pročitajte više...</p>
+                        </div>
+                        <div class="third flex flex-responsive pad-me mobile-order-1">
+                            <img src="https://images.telegram.hr/ULlzaoPhjpvqFsEkaphxYcbZHWbSzSnBLfQTgZsq0BI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDcvaW1nLTU2MDQuanBn.jpg" alt="Primjer dvojnog iskazivanja cijena u dm-u">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="full flex relative">
+            <a href="https://www.telegram.hr/partneri/tajni-kupci-krecu-u-nadzor-preracunavanja-cijena-u-euro-otkrili-su-nam-gdje-bi-moglo-biti-najvise-problema/" target="_blank" class="container flex relative stretch">
+                <div class="half center flex-responsive relative desktop-second">
+                    <img src="<?php echo $native_path ?>img/tg_visual_dmeuro_blob_kupci.jpg" alt="Ana Knežević, preddsjednica Hrvatske udruge za zaštitu potrošača">
+                </div>
+                <div class="half center flex-responsive relative">
+                    <div class="full flex relative pad-me">
+                        <h2 class="full">Tajni kupci kreću u nadzor preračunavanja cijena u euro. Otkrili su nam gdje bi moglo biti najviše problema</h2>
+                        <p>Razgovarali smo s Anom Knežević, predsjednicom Hrvatske udruge za zaštitu potrošača.</p>
+                        <p class="italic">Pročitajte više...</p>
+                    </div>
+                </div>
+            </a>
         </section>
         <section class="full flex relative">
             <div class="container flex relative stretch">
