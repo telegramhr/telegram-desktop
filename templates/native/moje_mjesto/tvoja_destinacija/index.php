@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.0" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.1" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -50,8 +50,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </nav>
         </div>
         <div class="flex hero-right center">
+            <img src="<?php echo $native_path ?>img/mastercard_white_square.png" alt="Mastercard Logo">
+            <img src="<?php echo $native_path ?>img/toyota_white_square.png" alt="Toyota Logo">
             <img src="<?php echo $native_path ?>img/vegetanatur_white_square.png" alt="Vegeta Logo">
-            <img src="<?php echo $native_path ?>img/vegetamaestro_white_square.png" alt="Vegeta Logo">
+            <img src="<?php echo $native_path ?>img/vegetamaestro_white_square.png" alt="Vegeta Maestro Logo">
             <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo">
             <img src="<?php echo $native_path ?>img/addiko_white_square.png" alt="Addiko Bank Logo">
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
@@ -271,6 +273,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <footer class="full native-signature">
         <div class="container flex">
             <div class="full center">
+                <img src="<?php echo $native_path ?>img/mastercard_square.png" alt="Mastercard Logo" data-aos="fade-up" data-aos-delay="0">
+                <img src="<?php echo $native_path ?>img/toyota_white_square.png" alt="Toyota Logo" data-aos="fade-up" data-aos-delay="250">
                 <img src="<?php echo $native_path ?>img/vegetanatur_square.png" alt="Vegeta Logo" data-aos="fade-up" data-aos-delay="500">
                 <img src="<?php echo $native_path ?>img/vegetamaestro_square.png?ver=4.0" alt="Vegeta Logo" data-aos="fade-up">
                 <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="750">

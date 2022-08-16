@@ -79,7 +79,7 @@ nav a {
     top: 0;
     right: 0;
     height: 100%;
-    width: 240px;
+    width: 180px;
     z-index: 7;
     padding: 128px 48px;
     border-left: 1px solid rgba(255,255,255,0.25);
@@ -99,7 +99,7 @@ nav a {
     height: 128px;
     padding: 16px;
     padding-left: 360px;
-    padding-right: 280px;
+    padding-right: 220px;
     z-index: 5;
     justify-content: flex-end;
 }
@@ -365,7 +365,7 @@ footer .center {
     margin-top: 48px;
 }
 .hero-right img {
-    max-height: 12vh;
+    max-height: 9vh;
     object-fit: contain;
     object-position: center center;
 }
