@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.1" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.3" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -40,7 +40,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </a>
             <nav class="full flex">
                 <a class="full flex" href="#o-projektu">O projektu</a>
+                <a class="full flex" href="#pula">Pula</a>
                 <a class="full flex" href="#varazdin">Varaždin</a>
+                <a class="full flex" href="#avanture">Avanture</a>
                 <a class="full flex" href="#dubrovnik">Dubrovnik</a>
                 <a class="full flex" href="#sibenik">Šibenik</a>
                 <a class="full flex" href="#zadar">Zadar</a>
@@ -59,19 +61,19 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
             <img src="<?php echo $native_path ?>img/huawei_square_white.png" alt="Huawei Logo">
             <img src="<?php echo $native_path ?>img/elen_square_white.png" alt="ELEN Logo">
-            <img src="<?php echo $native_path ?>img/jaguar_white_square.png" class="jaguar-logo" alt="Jaguar Logo">
+            <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" class="jaguar-logo" alt="Jaguar Logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
         </div>
     </header>
     <nav class="full flex mobile-nav stretch">
+        <a class="fifth center" href="#pula"><img src="<?php echo $native_path ?>img/icon_pula.png" aria-hidden="true"><span>Pula</span></a>
         <a class="fifth center" href="#varazdin"><img src="<?php echo $native_path ?>img/icon_varazdin.png" aria-hidden="true"><span>Varaždin</span></a>
         <a class="fifth center" href="#dubrovnik"><img src="<?php echo $native_path ?>img/icon_dubrovnik.png" aria-hidden="true"><span>Dubrovnik</span></a>
 
         <a class="fifth center" href="#sibenik"><img src="<?php echo $native_path ?>img/icon_sibenik.png" aria-hidden="true"><span>Šibenik</span></a>
         <a class="fifth center" href="#zadar"><img src="<?php echo $native_path ?>img/icon_zadar.png" aria-hidden="true"><span>Zadar</span></a>
-        <a class="fifth center" href="#korcula"><img src="<?php echo $native_path ?>img/icon_korcula.png" aria-hidden="true"><span>Korčula</span></a>
     </nav>
     <section class="full episode relative" id="o-projektu">
         <div class="full flex">
@@ -79,9 +81,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <p class="full project-intro" data-aos="fade-left" data-aos-delay="750">U dokumentarnom serijalu "Moje mjesto, tvoja destinacija" vodimo vas na ulice prekrasnih hrvatskih gradova uz lokalne vodiče - pojedince koji su odlučili ostati u svojim mjestima i graditi njihovu kulturu.</p>
             <div class="full sugovornici flex stretch">
 
+                <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                <img src="<?php echo $native_path ?>img/sugovornik_nikola2.jpg" aria-hidden="true">
+                <div class="full sugovornik-episode">01</div>
+                <h3 class="full">Nikola iz Pule</h3>
+                <p>Nikola Pezić, koji stoji iza projekta Eat Istria, odveo nas je u pulsku galeriju u kojoj lokalci preko dana ispijaju kavu</p>
+                <a href="#pula" class="insite-btn">Pogledaj epizodu</a>
+              </div>
+
               <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
                 <img src="<?php echo $native_path ?>img/sugovornik_nikola.jpg" aria-hidden="true">
-                <div class="full sugovornik-episode">01</div>
+                <div class="full sugovornik-episode">02</div>
                 <h3 class="full">Nikola iz Varaždina</h3>
                 <p>Uspješni ugostitelj Nikola Božić proveo nas je rodnim Varaždinom. Odveo nas je i u dvorište o kojem je pisao New York Times</p>
                 <a href="#varazdin" class="insite-btn">Pogledaj epizodu</a>
@@ -89,33 +99,43 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
               <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
                 <img src="<?php echo $native_path ?>img/sugovornik_ivan.jpg" aria-hidden="true">
-                <div class="full sugovornik-episode">02</div>
+                <div class="full sugovornik-episode">03</div>
                 <h3 class="full">Ivan iz Dubrovnika</h3>
                 <p>Ivan svojim IT rješenjima osvaja svijet. Nedavno je ušao na tržište Japana. Posjetili smo ga u Dubrovniku.</p>
                 <a href="#dubrovnik" class="insite-btn">Pogledaj epizodu</a>
               </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
                     <img src="<?php echo $native_path ?>img/sugovornik_danijel.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">03</div>
+                    <div class="full sugovornik-episode">04</div>
                     <h3 class="full">Danijel iz Šibenika</h3>
                     <p>Danijel svojim umjetničkim instalacijama obogaćuje kulturnu ponudu grada i šire. Posjetili smo ga u Šibeniku.</p>
                     <a href="#sibenik" class="insite-btn">Pogledaj epizodu</a>
                 </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1750">
                     <img src="<?php echo $native_path ?>img/sugovornik_vinko.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">04</div>
+                    <div class="full sugovornik-episode">05</div>
                     <h3 class="full">Vinko iz Zadra</h3>
                     <p>Vinkovu Lektiru na sceni pogledalo je više od 6000 srednjoškolaca. Mladog redatelja posjetili smo u Zadru.</p>
                     <a href="#zadar" class="insite-btn">Pogledaj epizodu</a>
                 </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="2000">
                     <img src="<?php echo $native_path ?>img/sugovornik_marijana.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">05</div>
+                    <div class="full sugovornik-episode">06</div>
                     <h3 class="full">Marijana iz Korčule</h3>
                     <p>Dok su se druga djeca igrala ona je konobarila i prodavala sladoled. Sad na Korčuli vodi obiteljski restoran.</p>
                     <a href="#korcula" class="insite-btn">Pogledaj epizodu</a>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="full episode episode-overlay flex relative stretch" id="pula">
+        <video src="<?php echo $native_path ?>img/tg_videobg_pula.mp4?ver=2.0" autoplay loop muted playsinline class="background-video"></video>
+        <div class="half flex-responsive flex">
+        <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Pula</h2>
+        </div>
+        <div class="half flex-responsive flex">
+        <p class="full episode-description" data-aos="fade-right">Čarobni jug Istre: radili smo fuže, kušali aceto koji nastaje po recepturi iz 13. stoljeća i najbolje polpete u Puli</p>
+        <a href="https://www.telegram.hr/velike-price/carobni-jug-istre-radili-smo-fuze-kusali-aceto-koji-nastaje-po-recepturi-iz-13-stoljeca-i-najbolje-polpete-u-puli/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="varazdin">
@@ -126,6 +146,39 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="half flex-responsive flex">
         <p class="full episode-description" data-aos="fade-right">U prvom nastavku druge sezone video serijala "Moje mjesto, tvoja destinacija" posjetili smo Varaždin. Naš domaćin je Nikola Božić koji stoji iza jedne od najboljih gastro destinacija u regiji</p>
         <a href="https://www.telegram.hr/velike-price/vodic-varazdin-kobasice-kafic-zvijezde/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
+        </div>
+    </section>
+    <section class="full episode relative" id="avanture">
+        <div class="full flex">
+            <h2 class="full relative episode-title" data-aos="fade-left">Nezaboravne avanture</h2>
+            <p class="full project-intro" data-aos="fade-left" data-aos-delay="750">Donosi <a href="https://www.priceless.com/" target="_blank">Priceless.com</a></p>
+            <div class="full sugovornici extra-content flex stretch">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
+                    <img src="<?php echo $native_path ?>/img/eatistria.jpg" aria-hidden="true">
+                    <h3 class="full">Iskustvo u suradnji s EatIstriom</h3>
+                    <a href="https://www.priceless.com/culinary/product/175489/enjoy-the-beauties-of-istria-with-a-unique-cooking-class/0/4007/options/location/5767//options/sortBy/popularity/location/5767/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="400">
+                    <img src="<?php echo $native_path ?>/img/san_rocco.jpg" aria-hidden="true">
+                    <h3 class="full">Iskustvo u suradnji sa San Roccom</h3>
+                    <a href="https://www.priceless.com/travel/product/175558/stories-san-rocco-luxury-hotel/0/4007/options/location/5767//options/sortBy/popularity/location/5767/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="600">
+                    <img src="<?php echo $native_path ?>/img/thrillseeker.jpg" aria-hidden="true">
+                    <h3 class="full">Iskustvo uz Thrillseeker Croatia</h3>
+                    <a href="https://www.priceless.com/travel/product/168622/experience-slavonia-with-thrillseeker" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="800">
+                    <img src="<?php echo $native_path ?>/img/olympia_sky.jpg" aria-hidden="true">
+                    <h3 class="full">Iskustvo u suradnji s hotelom Olympia Sky</h3>
+                    <a href="https://www.priceless.com/travel/product/168836/gastro-experience-in-vodice-olympia-sky/0/4007/options/location/5767//options/sortBy/popularity/location/5767/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="<?php echo $native_path ?>/img/liburnia.jpg" aria-hidden="true">
+                    <h3 class="full">Iskustvo u suradnji s lancem Liburnia Hotels and Villas</h3>
+                    <a href="https://www.priceless.com/travel/product/166620/experience-the-heart-of-kvarner-and-join-local-family-farms/0/4007/options/location/5767//options/sortBy/popularity/location/5767/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+            </div>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="dubrovnik">
@@ -282,7 +335,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1250">
                 <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="1500">
                 <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="1750">
-                <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" data-aos="fade-up" alt="Jaguar Logo" data-aos-delay="2000">
+            </div>
+            <div class="full center">
+                <img src="<?php echo $native_path ?>img/jaguar_white_square.png" class="jaguar-logo" alt="Jaguar Logo">
             </div>
             <div class="full center">
             <img class="tg-studio" src="<?php echo $native_path ?>img/tg_studio_white.svg" alt="TG Studio logo" />
