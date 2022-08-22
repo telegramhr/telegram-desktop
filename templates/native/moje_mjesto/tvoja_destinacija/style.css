@@ -52,6 +52,10 @@ h2 {
     font-size: 54px;
     margin-bottom: 32px;
 }
+p a {
+    font-weight: bold;
+    text-decoration: underline;
+}
 .native-title div:nth-child(1) {
     padding-right: 128px;
 }
@@ -197,7 +201,7 @@ h3 {
     font-size: 24px;
     margin-top: 32px;
 }
-#o-projektu h2, #procitajte-vise h2 {
+#o-projektu h2, #procitajte-vise h2, #avanture h2 {
     padding-left: 64px;
     margin-top: 64px;
 }
@@ -420,13 +424,13 @@ footer .center {
         padding-left: 0px;
         padding: 12vw 6vw;
     }
-    #o-projektu h2, #procitajte-vise h2 {
+    #o-projektu h2, #procitajte-vise h2, #avanture h2 {
         padding-left: 0px;
         margin-top: 0px;
     }
     .episode .episode-title {
-        font-size: 15vw;
-        line-height: 18vw;
+        font-size: 12vw;
+        line-height: 15vw;
     }
     .sugovornici {
         margin-top: 16px;
