@@ -282,7 +282,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1250">
                 <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="1500">
                 <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="1750">
-                <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" class="fade-up" alt="Jaguar Logo" data-aos-delay="2000">
+                <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" data-aos="fade-up" alt="Jaguar Logo" data-aos-delay="2000">
             </div>
             <div class="full center">
             <img class="tg-studio" src="<?php echo $native_path ?>img/tg_studio_white.svg" alt="TG Studio logo" />
