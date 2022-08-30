@@ -468,19 +468,12 @@ function telegram_oembed_result($data, $url, $args) {
 }
 add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
 
-add_action('the_content', 'telegram_content', 1, 1);
+add_action('the_content', 'telegram_content', 10, 1);
 
 function telegram_content($content) {
 	if (strpos($content, 'src="https://www.youtube')) {
 		$content = str_replace('src="https://www.youtube', 'class="yt-embed" src="https://www.youtube', $content);
 	}
-
-    $content = preg_replace(
-        '/<p>\\s*?(<a rel=\"attachment.*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s',
-        '<figure>$1</figure>',
-        $content
-    );
-
     return $content;
 }
 
@@ -519,3 +512,121 @@ function heineken_submit() {
     wp_redirect(site_url('native/moja-kap/?success=true'));
     die();
 }
+
+function super1_unautop_4_img( $content )
+{
+
+    $content = preg_replace_callback(
+        '/<p>\\s*?(<a rel=\"attachment.*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s',
+        function($m) {
+            if (count($m)<2) {
+                return $m[0];
+            }
+            $matches = [];
+            preg_match('@class="([^"]+)"@', $m[1], $matches);
+            $classes = explode(' ', $matches[1]);
+            foreach ($classes as $class) {
+                if (strpos($class, 'wp-image-')!==false) {
+                    $image_id = str_replace( 'wp-image-', '', $class );
+                    break;
+                }
+            }
+            if ($image_id) {
+                $photo   = telegram_get_photographer( $image_id );
+                $caption = wp_get_attachment_caption( $image_id );
+                if ( $photo ) {
+                    return '<figure class="wp-caption">' . $m[1] . '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>';
+                }
+                return '<figure class="wp-caption">' . $m[1] . '<figcaption class="wp-caption-text">' . $caption . ' </figcaption></figure>';
+            }
+        },
+        $content, -1
+    );
+
+    $content = preg_replace_callback('/(<figure class="wp-block-media-text.*?><img(.*?)><\/figure>)/s',
+        function($m) {
+            if (count($m)<2) {
+                return $m[0];
+            }
+            $matches = [];
+            preg_match('@class="([^"]+)"@', $m[2], $matches);
+            $classes = explode(' ', $matches[1]);
+            foreach ($classes as $class) {
+                if (strpos($class, 'wp-image-')!==false) {
+                    $image_id = str_replace( 'wp-image-', '', $class );
+                    break;
+                }
+            }
+            if ($image_id) {
+                $photo   = telegram_get_photographer( $image_id );
+                $caption = wp_get_attachment_caption( $image_id );
+                if ( $photo ) {
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>', $m[1]);
+                }
+                else {
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>', $m[1]);;
+                }
+                return $content;
+            }
+        },
+        $content, -1);
+
+    $content = preg_replace_callback('/(<figure class="wp-block-image.*?><img(.*?)><\/figure>)/s',
+        function($m) {
+            if (count($m)<2) {
+                return $m[0];
+            }
+            $matches = [];
+            preg_match('@class="([^"]+)"@', $m[2], $matches);
+            $classes = explode(' ', $matches[1]);
+            foreach ($classes as $class) {
+                if (strpos($class, 'wp-image-')!==false) {
+                    $image_id = str_replace( 'wp-image-', '', $class );
+                    break;
+                }
+            }
+            if ($image_id) {
+                $photo   = telegram_get_photographer( $image_id );
+                $caption = wp_get_attachment_caption( $image_id );
+                if ( $photo ) {
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>', $m[1]);
+                }
+                else {
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>', $m[1]);;
+                }
+                return $content;
+            }
+        },
+        $content, -1);
+
+    $content = preg_replace_callback('/(<div class="wp-block-image.*?><figure.*?><img(.*?)><\/figure><\/div>)/s',
+        function($m) {
+            if (count($m)<2) {
+                return $m[0];
+            }
+            $matches = [];
+            preg_match('@class="([^"]+)"@', $m[2], $matches);
+            $classes = explode(' ', $matches[1]);
+            foreach ($classes as $class) {
+                if (strpos($class, 'wp-image-')!==false) {
+                    $image_id = str_replace( 'wp-image-', '', $class );
+                    break;
+                }
+            }
+            if ($image_id) {
+                $photo   = telegram_get_photographer( $image_id );
+                $caption = wp_get_attachment_caption( $image_id );
+                if ( $photo ) {
+                    $content = str_replace('</figcaption>', '<div class="photographer">' . $photo . '</div></figcaption>', $m[1]);
+                }
+                else {
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>', $m[1]);;
+                }
+                return $content;
+            }
+        },
+        $content, -1);
+
+    return $content;
+}
+add_filter( 'the_content', 'super1_unautop_4_img', 99 );
