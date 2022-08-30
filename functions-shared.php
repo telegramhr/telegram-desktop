@@ -524,7 +524,11 @@ function super1_unautop_4_img( $content )
             }
             $matches = [];
             preg_match('@class="([^"]+)"@', $m[1], $matches);
+            if (!isset($matches[1])) {
+                return $m[0];
+            }
             $classes = explode(' ', $matches[1]);
+            $image_id = false;
             foreach ($classes as $class) {
                 if (strpos($class, 'wp-image-')!==false) {
                     $image_id = str_replace( 'wp-image-', '', $class );
