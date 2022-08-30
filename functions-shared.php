@@ -475,7 +475,13 @@ function telegram_content($content) {
 		$content = str_replace('src="https://www.youtube', 'class="yt-embed" src="https://www.youtube', $content);
 	}
 
-	return $content;
+    $content = preg_replace(
+        '/<p>\\s*?(<a rel=\"attachment.*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s',
+        '<figure>$1</figure>',
+        $content
+    );
+
+    return $content;
 }
 
 add_filter( 'zoninator_recent_posts_args', 'telegram_zoninator_recent_posts_args', 10, 1);
