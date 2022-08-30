@@ -468,7 +468,7 @@ function telegram_oembed_result($data, $url, $args) {
 }
 add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
 
-add_action('the_content', 'telegram_content');
+add_action('the_content', 'telegram_content', 1, 1);
 
 function telegram_content($content) {
 	if (strpos($content, 'src="https://www.youtube')) {
