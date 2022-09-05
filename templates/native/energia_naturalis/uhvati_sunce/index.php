@@ -16,13 +16,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/gaa4apb.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.10" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.20" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
 <body>
     <div class="main-container flex relative">
         <header class="full relative">
             <h1 class="full center-text" data-aos="fade-down">Uhvati sunce</h1>
+            <p class="full center-text" data-aos="fade-down" data-aos-delay="1000">Je li solarna energija najbolje rješenje za aktualnu energetsku krizu? Isplati li se zaista postaviti solare? Koliko oni uopće traju? Kako znamo kolika nam je elektrana potrebna? Koliko će me sve to koštati?</p>
+            <p class="full center-text" data-aos="fade-down" data-aos-delay="1500">Razgovarali smo s građanima i stručnjacima, pretražili studije i politike, napravili vlastite izračune kako bismo na jednom mjestu odgovorili na sva vaša pitanja. A odgovor na ono ključno je – da, isplati se, već danas. Evo kako.</p>
             <img src="<?php echo $native_path ?>/img/tg_visual_solar_city.svg" alt="Ilustracija grada opremljenog solarnim panelima">
         </header>
         <section class="full flex relative">

@@ -18,6 +18,12 @@ header {
 .blue-bg {
     background-color: #f2feff;
 }
+header p {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px;
+    font-size: 24px;
+}
 h1 {
     font-family: rig-solid-bold-reverse, sans-serif;
     font-weight: 700;
@@ -128,6 +134,9 @@ h3 {
     h1 {
         margin-top: 10vw;
         font-size: 20vw;
+    }
+    header p {
+        font-size: 19px;
     }
     header img {
         max-width: 300vw;
