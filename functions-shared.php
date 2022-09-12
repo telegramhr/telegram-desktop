@@ -577,6 +577,7 @@ function super1_unautop_4_img( $content )
 
     $content = preg_replace_callback('/(<figure class="wp-block-image.*?><img(.*?)><\/figure>)/s',
         function($m) {
+        $image_id = false;
             if (count($m)<2) {
                 return $m[0];
             }
