@@ -413,6 +413,18 @@ if (!$num) {
                 </div>
                 </div>
                 <div class="row">
+                <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/ovogodisnje-dane-piva-obiljezila-vrhunska-zabava-ali-i-brojne-suradnje-s-lokalnom-zajednicom-te-briga-o-okolisu-i-odgovornoj-konzumaciji/" target="_blank">
+                            <div class="clanak">
+                                <div class="slika">
+                                    <img src="https://images.telegram.hr/W8OitjF2VGDTSXEqN1bG6Rz_kx__WXif2wL9bSlIidQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDkvZGFuaS1waXZhLWthcmxvdmFjLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                                </div>
+                            
+                                    <p>Ovogodišnje Dane piva obilježila vrhunska zabava, ali i brojne suradnje s lokalnom zajednicom te briga o okolišu i odgovornoj konzumaciji</p>
+                        
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-lg-3">
                         <a href="https://www.telegram.hr/partneri/karlovac-nastavlja-s-projektom-kakvart-otvaraju-nove-runde-prijava-za-gradske-cetvrti-i-mjesne-odbore/" target="_blank">
                             <div class="clanak">
