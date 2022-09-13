@@ -392,13 +392,13 @@ if (!$num) {
             <div class="container">
                 <div class="row justify-content-center sijecanj-content">
                     <div class="col-lg-6 special-drop">
-                        <img src="https://images.telegram.hr/HMbkMFVnLnWNGARRVPpTL2H7YZfEzsd3kM0B2v8SRpk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvaW1nLTU5MDkuanBn.jpg" aria-hidden="true" class="img-fluid">
+                        <img src="https://images.telegram.hr/W8OitjF2VGDTSXEqN1bG6Rz_kx__WXif2wL9bSlIidQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDkvZGFuaS1waXZhLWthcmxvdmFjLmpwZw.jpg" aria-hidden="true" class="img-fluid">
                         <img src="<?php echo $native_path ?>/img/tg_heineken_drop.png" aria-hidden="true" class="drop-overlay">
                     </div>
                     <div class="col-lg-5 offset-lg-1 ">
                         <h2>Pomozi društvu</h2>
-                        <p>HEINEKEN Hrvatska će stipendirati troje studenata karlovačkog Veleučilišta</p>
-                        <a href="https://www.telegram.hr/partneri/heineken-hrvatska-ce-stipendirati-troje-studenata-karlovackog-veleucilista/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
+                        <p>Ovogodišnje Dane piva obilježila vrhunska zabava, ali i brojne suradnje s lokalnom zajednicom te briga o okolišu i odgovornoj konzumaciji</p>
+                        <a href="https://www.telegram.hr/partneri/ovogodisnje-dane-piva-obiljezila-vrhunska-zabava-ali-i-brojne-suradnje-s-lokalnom-zajednicom-te-briga-o-okolisu-i-odgovornoj-konzumaciji/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
                         </a>
                     </div>
                 </div>
@@ -414,13 +414,13 @@ if (!$num) {
                 </div>
                 <div class="row">
                 <div class="col-lg-3">
-                        <a href="https://www.telegram.hr/partneri/ovogodisnje-dane-piva-obiljezila-vrhunska-zabava-ali-i-brojne-suradnje-s-lokalnom-zajednicom-te-briga-o-okolisu-i-odgovornoj-konzumaciji/" target="_blank">
+                        <a href="https://www.telegram.hr/partneri/heineken-hrvatska-ce-stipendirati-troje-studenata-karlovackog-veleucilista/" target="_blank">
                             <div class="clanak">
                                 <div class="slika">
-                                    <img src="https://images.telegram.hr/W8OitjF2VGDTSXEqN1bG6Rz_kx__WXif2wL9bSlIidQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDkvZGFuaS1waXZhLWthcmxvdmFjLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                                    <img src="https://images.telegram.hr/HMbkMFVnLnWNGARRVPpTL2H7YZfEzsd3kM0B2v8SRpk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDYvaW1nLTU5MDkuanBn.jpg" aria-hidden="true" class="img-fluid">
                                 </div>
                             
-                                    <p>Ovogodišnje Dane piva obilježila vrhunska zabava, ali i brojne suradnje s lokalnom zajednicom te briga o okolišu i odgovornoj konzumaciji</p>
+                                    <p>HEINEKEN Hrvatska će stipendirati troje studenata karlovačkog Veleučilišta</p>
                         
                             </div>
                         </a>
