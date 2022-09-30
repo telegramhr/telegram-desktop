@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.3" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.4" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -40,6 +40,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </a>
             <nav class="full flex">
                 <a class="full flex" href="#o-projektu">O projektu</a>
+                <a class="full flex" href="#brtonigla">Brtonigla</a>
                 <a class="full flex" href="#pula">Pula</a>
                 <a class="full flex" href="#varazdin">Varaždin</a>
                 <a class="full flex" href="#avanture">Avanture</a>
@@ -58,30 +59,40 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/vegetamaestro_white_square.png" alt="Vegeta Maestro Logo">
             <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo">
             <img src="<?php echo $native_path ?>img/addiko_white_square.png" alt="Addiko Bank Logo">
+            <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" alt="Jaguar Logo">
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
             <img src="<?php echo $native_path ?>img/huawei_square_white.png" alt="Huawei Logo">
             <img src="<?php echo $native_path ?>img/elen_square_white.png" alt="ELEN Logo">
-            <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" class="jaguar-logo" alt="Jaguar Logo">
+            <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
         </div>
     </header>
     <nav class="full flex mobile-nav stretch">
+    <a class="fifth center" href="#brtonigla"><img src="<?php echo $native_path ?>img/icon_brtonigla.png" aria-hidden="true"><span>Brtonigla</span></a>
         <a class="fifth center" href="#pula"><img src="<?php echo $native_path ?>img/icon_pula.png" aria-hidden="true"><span>Pula</span></a>
         <a class="fifth center" href="#varazdin"><img src="<?php echo $native_path ?>img/icon_varazdin.png" aria-hidden="true"><span>Varaždin</span></a>
-        <a class="fifth center" href="#dubrovnik"><img src="<?php echo $native_path ?>img/icon_dubrovnik.png" aria-hidden="true"><span>Dubrovnik</span></a>
 
+        <a class="fifth center" href="#dubrovnik"><img src="<?php echo $native_path ?>img/icon_dubrovnik.png" aria-hidden="true"><span>Dubrovnik</span></a>
         <a class="fifth center" href="#sibenik"><img src="<?php echo $native_path ?>img/icon_sibenik.png" aria-hidden="true"><span>Šibenik</span></a>
         <a class="fifth center" href="#zadar"><img src="<?php echo $native_path ?>img/icon_zadar.png" aria-hidden="true"><span>Zadar</span></a>
+        <a class="fifth center" href="#korcula"><img src="<?php echo $native_path ?>img/icon_korcula.png" aria-hidden="true"><span>Korčula</span></a>
     </nav>
     <section class="full episode relative" id="o-projektu">
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">O projektu</h2>
             <p class="full project-intro" data-aos="fade-left" data-aos-delay="750">U dokumentarnom serijalu "Moje mjesto, tvoja destinacija" vodimo vas na ulice prekrasnih hrvatskih gradova uz lokalne vodiče - pojedince koji su odlučili ostati u svojim mjestima i graditi njihovu kulturu.</p>
             <div class="full sugovornici flex stretch">
+            <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="750">
+                <img src="<?php echo $native_path ?>img/sugovornik_luana.jpg" aria-hidden="true">
+                <div class="full sugovornik-episode">01</div>
+                <h3 class="full">Luana iz Brtonigle</h3>
+                <p>Luana Fernetich Ladavac, koja je s braćom odlučila nastaviti uspješan obiteljski biznis i stvoriti vrhunsku turističku destinaciju</p>
+                <a href="#brtonigla" class="insite-btn">Pogledaj epizodu</a>
+              </div>
 
-                <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
+            <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
                 <img src="<?php echo $native_path ?>img/sugovornik_nikola2.jpg" aria-hidden="true">
                 <div class="full sugovornik-episode">01</div>
                 <h3 class="full">Nikola iz Pule</h3>
@@ -126,6 +137,16 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <a href="#korcula" class="insite-btn">Pogledaj epizodu</a>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="full episode episode-overlay flex relative stretch" id="brtonigla">
+        <video src="<?php echo $native_path ?>img/tg_videobg_brtonigla.mp4?ver=1.0" autoplay loop muted playsinline class="background-video"></video>
+        <div class="half flex-responsive flex">
+        <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Brtonigla</h2>
+        </div>
+        <div class="half flex-responsive flex">
+        <p class="full episode-description" data-aos="fade-right">Kći vlasnika i voditeljica nagrađivanog San Rocco heritage hotela otkrila nam je svoje omiljene susjede i prepoznate proizvođače lokalnih delicija</p>
+        <a href="https://www.telegram.hr/zivot/nasem-su-ocu-govorili-da-je-lud-sto-ovdje-otvara-hotel-a-danas-je-jedan-od-najboljih-na-jadranu/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="pula">
@@ -225,6 +246,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
+            <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
+                    <img src="https://images.telegram.hr/r0bXjv94V-g1db9npmFAFHC5ju9mM9Fis0Vhv1wPVrU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDkvYXV0b3ItZGF2b3Jpbi1rcmVzaWMtaXp2b3ItdnN6LmpwZw.jpg" aria-hidden="true">
+                    <h3 class="full">Pronašli smo sedam stvari radi kojih znamo da Slavonci uživaju u životu. Jedna nam je svima draga</h3>
+                    <p>Budite spremni otkriti neotkriveno - muzeje, kulturu, nematerijalna zaštićena dobra i bogatu gastronomsku ponudu </p>
+                    <a href="https://www.telegram.hr/partneri/pronasli-smo-sedam-stvari-radi-kojih-znamo-da-slavonci-uzivaju-u-zivotu-jedna-nam-je-svima-draga/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
                     <img src="https://images.telegram.hr/HjC2PmBOu6_rtlUENjOZRRh1yPd9QQdi-Vz-Ea1Gisg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDgvaWR6MjUwMC5qcGc.jpg" aria-hidden="true">
                     <h3 class="full">Podno Papuka proizvode gin koji osvaja ozbiljne svjetske nagrade. U planu je i slavonski viski </h3>
@@ -332,12 +359,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/vegetamaestro_square.png?ver=4.0" alt="Vegeta Logo" data-aos="fade-up">
                 <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="750">
                 <img src="<?php echo $native_path ?>img/addiko_square.png?ver=2.0" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="1000">
-                <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1250">
-                <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="1500">
-                <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="1750">
+                <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" alt="Jaguar Logo" data-aos="fade-up" data-aos-delay="1250">
+                <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1500">
+                <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="1750">
+                <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="2000">
+                <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo" data-aos="fade-up" data-aos-delay="2250">
             </div>
             <div class="full center">
-                <img src="<?php echo $native_path ?>img/jaguar_white_square.png" class="jaguar-logo" alt="Jaguar Logo">
+                
             </div>
             <div class="full center">
             <img class="tg-studio" src="<?php echo $native_path ?>img/tg_studio_white.svg" alt="TG Studio logo" />

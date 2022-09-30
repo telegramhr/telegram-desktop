@@ -341,6 +341,9 @@ footer .center {
     background-color: #121212;
     color: white;
     border-top: 1px solid rgba(255,255,255,0.25);
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 .mobile-nav a.fifth {
     margin: 0px;
@@ -348,6 +351,7 @@ footer .center {
     height: 20vw;
     padding: 4px;
     flex-wrap: wrap;
+    min-width: 20vw;
 }
 .mobile-nav a.fifth span {
     width: 100%;
@@ -369,7 +373,7 @@ footer .center {
     margin-top: 48px;
 }
 .hero-right img {
-    max-height: 9vh;
+    max-height: 8vh;
     object-fit: contain;
     object-position: center center;
 }
