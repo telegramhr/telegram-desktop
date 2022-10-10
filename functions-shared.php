@@ -1,5 +1,7 @@
 <?php
 require_once ('plugins/shortcodes.php');
+require_once ('plugins/charts.php');
+
 remove_action( 'do_pings', 'do_all_pings' );
 
 define('PARENT_PATH', get_theme_root_uri().'/telegram2-desktop');
