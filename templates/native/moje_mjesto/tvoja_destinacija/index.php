@@ -246,7 +246,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
-            <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                    <img src="https://images.telegram.hr/nLUdbbDampfteuoxZBFInrzWI0XuGwr5JjsJkxdDmv0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvYXV0b3ItbGp1ZGV2aXQtZ2FjaWMtaXp2b3ItdHotdnN6LmpwZw.jpg" aria-hidden="true">
+                    <h3 class="full">Istok Hrvatske posjećuje sve više stranih gostiju. Istražili smo u čemu je fora, evo par zanimljivosti</h3>
+                    <p> Nezaobilazni dio ponude ovog kraja su i suveniri koji u sebi kriju tradiciju i povijest</p>
+                    <a href="https://www.telegram.hr/partneri/istok-hrvatske-posjecuje-sve-vise-stranih-gostiju-istrazili-smo-u-cemu-je-fora-evo-par-zanimljivosti/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
                     <img src="https://images.telegram.hr/r0bXjv94V-g1db9npmFAFHC5ju9mM9Fis0Vhv1wPVrU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDkvYXV0b3ItZGF2b3Jpbi1rcmVzaWMtaXp2b3ItdnN6LmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Pronašli smo sedam stvari radi kojih znamo da Slavonci uživaju u životu. Jedna nam je svima draga</h3>
                     <p>Budite spremni otkriti neotkriveno - muzeje, kulturu, nematerijalna zaštićena dobra i bogatu gastronomsku ponudu </p>
