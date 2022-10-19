@@ -64,6 +64,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/huawei_square_white.png" alt="Huawei Logo">
             <img src="<?php echo $native_path ?>img/elen_square_white.png" alt="ELEN Logo">
             <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo">
+            <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
@@ -247,9 +248,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                    <img src="https://images.telegram.hr/Uzxp_A5GrjLqhlJ1xO1WyEf6aVvbKdMWn_nDkrQa6As/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvcmFtYXJpbi02LmpwZw.jpg" aria-hidden="true">
+                    <h3 class="full">Jezero u obliku konja, kućice kao iz Hobita i besplatni avanturistički park do kraja godine. Znamo detalje</h3>
+                    <p>Nagradite se već ovog vikenda i stvorite nezaboravna iskustva na samo dva sata vremena vožnje od Zagreba </p>
+                    <a href="https://www.telegram.hr/partneri/jezero-u-obliku-konja-kucice-kao-iz-hobita-i-besplatni-avanturisticki-park-do-kraja-godine-znamo-detalje/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="100">
                     <img src="https://images.telegram.hr/nLUdbbDampfteuoxZBFInrzWI0XuGwr5JjsJkxdDmv0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvYXV0b3ItbGp1ZGV2aXQtZ2FjaWMtaXp2b3ItdHotdnN6LmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Istok Hrvatske posjećuje sve više stranih gostiju. Istražili smo u čemu je fora, evo par zanimljivosti</h3>
-                    <p> Nezaobilazni dio ponude ovog kraja su i suveniri koji u sebi kriju tradiciju i povijest</p>
+                    <p>Nezaobilazni dio ponude ovog kraja su i suveniri koji u sebi kriju tradiciju i povijest</p>
                     <a href="https://www.telegram.hr/partneri/istok-hrvatske-posjecuje-sve-vise-stranih-gostiju-istrazili-smo-u-cemu-je-fora-evo-par-zanimljivosti/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
@@ -370,6 +377,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="1750">
                 <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="2000">
                 <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo" data-aos="fade-up" data-aos-delay="2250">
+                <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo" data-aos="fade-up" data-aos-delay="2500">
             </div>
             <div class="full center">
                 
