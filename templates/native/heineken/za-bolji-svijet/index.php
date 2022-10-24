@@ -758,7 +758,7 @@ if (!$num) {
                         <a href="https://www.telegram.hr/partneri/europa-zeli-biti-prvi-klimatski-neutralan-kontinent-ako-ne-ucinimo-nista-cekaju-nas-skupa-hrana-poplave/" target="_blank">
                             <div class="clanak">
                                 <div class="slika">
-                                    <img src="https://images.telegram.hr/p4yi9Q4yMV_DJPE1TbCeZzvBOsYkd76mqcGHZcoAY0o/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDcvdHlsZXItY2FzZXktZmljYml3Zm9wc28tdW5zcGxhc2gtc2NhbGVkLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                                    <img src="https://images.telegram.hr/InAw1kCAk-4064HNvVM_ErjZ9IL-JwvbDJ9S7I2tHis/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDQvc2h1dHRlcnN0b2NrLTEzMTU2MTU0OTAuanBn.webp" aria-hidden="true" class="img-fluid">
                                 </div>
                                 <p>Europa želi biti prvi klimatski neutralan kontinent. Ako ne učinimo ništa čekaju nas skupa hrana, poplave...</p>
                             </div>
