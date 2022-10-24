@@ -94,7 +94,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <p>Još 11 prekretnica stignemo spriječiti, upozoravaju znanstvenici. No, isključivo ako ostvarimo međunarodno postavljene ciljeve za smanjenje emisija ugljikovog dioksida. To možemo ostvariti jedino zajedničkim snagama.</p>
                 </div>
                 <div class="half flex-responsive flex relative shoo-bottom pad-me noho-padme">
-                    <?php echo do_shortcode('[wpdatachart id=2]'); ?>
+                    <?php echo do_shortcode('[wpdatachart id=4]'); ?>
                 </div>
                 <div class="full mobile-only flex relative pad-me">
                     <a href="https://www.telegram.hr/partneri/zagrijavanjem-od-1-1-c-stupnja-vec-smo-otpisali-neke-krajeve-zemlje-ima-nade-ako-ucinimo-sljedece/" target="_blank" class="cta-btn animate">Saznaj više</a>
