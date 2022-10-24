@@ -1,0 +1,294 @@
+/*
+* Uhvati sunce CSS
+* by TG Studio Marijan
+*/
+
+/* Basics */
+
+html {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    background-image: url("img/whitenoise.png");
+}
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}  
+header.flex {
+    padding: 24px;
+    height: 150vw;
+    align-content: flex-end;
+    overflow: hidden;
+    z-index: 5;
+}
+.header-fade {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+    z-index: 3;
+}
+header.flex::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    mix-blend-mode: soft-light;
+    background:
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 800 800' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+header.flex .container {
+    z-index: 5;
+}
+h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+.bigger-h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.text-container h2, p, .shoo-bottom {
+    margin-bottom: 16px;
+}
+.subsection-title {
+    border-bottom: 3px solid #B00402;
+    font-size: 40px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    margin-top: 48px;
+}
+nav.desktop-only .container {
+    padding: 8px 24px;
+}
+nav.desktop-only img {
+    height: 32px;
+}
+.pad-me {
+    padding: 24px;
+}
+.horizontal-pad {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.black-bg {
+    background-image: url("img/graybg.png");
+    color: white;
+}
+.section-title {
+    background: #B00402;
+    z-index: 2;
+    padding: 24px;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.inpage-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    border-top: 1px solid #333;
+    z-index: 99;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.inpage-nav svg {
+    fill: #B00402;
+    height: 28px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.inpage-nav .center {
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.inpage-nav .center-text {
+    margin-top: 6px;
+}
+.article-embed p {
+    font-size: 26px;
+    padding-top: 16px;
+    margin-top: 32px;
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+    position: relative;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.article-embed p::before {
+    content: "“";
+    position: absolute;
+    font-size: 72px;
+    color: #B00402;
+    top: -36px;
+    left: -8px;
+    font-weight: 700;
+    height: 64px;
+    background-color: white;
+    z-index: 5;
+}
+.article-embed p span {
+    position: relative;
+    z-index: 10;
+}
+.article-embed p::after {
+    content: "”";
+    position: absolute;
+    font-size: 72px;
+    color: #B00402;
+    bottom: -32px;
+    right: -8px;
+    font-weight: 700;
+    height: 64px;
+    background-color: white;
+    z-index: 5;
+}
+.apexcharts-text {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.topnav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.topnav .container {
+    justify-content: space-between;
+}
+.topnav svg {
+    display: inline-block;
+    height: 32px;
+    fill: #B00402;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.topnav > div {
+    height: 48px;
+}
+.topnav .textlogo {
+    font-weight: 700;
+    font-size: 24px;
+}
+.topnav a {
+    opacity: 0.85;
+}
+.topnav a:hover {
+    opacity: 1;
+}
+.topnav a div {
+    opacity: .85;
+    font-size: 18px;
+}
+.separator-line {
+    height: 2px;
+    background-color: #aaa;
+}
+.gray-bg {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(0,0,0,0.1);
+}
+.cta {
+    font-size: 18px;
+    font-style: italic;
+    opacity: .7;
+    margin-top: -8px;
+    color: #B00402;
+}
+.article-embed:hover .cta {
+    opacity: 1;
+}
+.third .cta {
+    margin-top: 4px;
+}
+.cta-btn {
+    padding: 8px 24px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    border: 2px solid #B00402;
+    background-color: rgba(176, 4, 2, 0);
+    color: white;
+    text-align: center;
+}
+.cta-btn:hover {
+    background-color: rgba(176, 4, 2, 1);
+}
+
+@media screen and (max-width: 1024px) {
+    header .horizontal-pad {
+        padding: 0px;
+    }
+    .subsection-title {
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+    footer {
+        padding-bottom: 100px;
+    }
+    .noho-padme {
+        padding: 24px 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inpage-nav {
+        width: 360px;
+        bottom: 24px;
+        left: auto;
+        right: 24px;
+        border: 1px solid #888;
+    }
+    .desktop-order-1 {
+        order: 1;
+    }
+    .desktop-order-2 {
+        order: 2;
+    }
+    h1 {
+        font-size: 64px;
+    }
+    .bigger-h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    .subsection-title {
+        font-size: 64px;
+    }
+    header.flex {
+        height: 80vh;
+    }
+    .article-embed .pad-me:nth-child(2) {
+        padding-top: 0px;
+    }
+    .third h2 {
+        font-size: 24px;
+    }
+}
