@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.4" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.5" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -65,6 +65,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/elen_square_white.png" alt="ELEN Logo">
             <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo">
             <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo">
+            <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
@@ -248,6 +249,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                    <img src="https://images.telegram.hr/-AOOEs5cnswmUtqYhqvS64TFmhJu4kYxzxD7w9j2PmA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvdGctbmFzbG92bmEtMjAyMi0xMC0xMi01LmpwZw.webp" aria-hidden="true">
+                    <h3 class="full">Na Zelenoj ruti možete spavati u dvorcu i slikati uz čašu finog vina. Imamo još super ideja za ovaj vikend</h3>
+                    <p> Znamo i gdje kušati jedan od prvih hrvatskih pjenušaca po recepturi iz 19. stoljeća</p>
+                    <a href="https://www.telegram.hr/partneri/na-zelenoj-ruti-mozete-spavati-u-dvorcu-i-slikati-uz-casu-finog-vina-imamo-jos-super-ideja-za-ovaj-vikend/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
                     <img src="https://images.telegram.hr/Uzxp_A5GrjLqhlJ1xO1WyEf6aVvbKdMWn_nDkrQa6As/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvcmFtYXJpbi02LmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Jezero u obliku konja, kućice kao iz Hobita i besplatni avanturistički park do kraja godine. Znamo detalje</h3>
                     <p>Nagradite se već ovog vikenda i stvorite nezaboravna iskustva na samo dva sata vremena vožnje od Zagreba </p>
@@ -367,17 +374,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="container flex">
             <div class="full center">
                 <img src="<?php echo $native_path ?>img/mastercard_square.png" alt="Mastercard Logo" data-aos="fade-up" data-aos-delay="0">
-                <img src="<?php echo $native_path ?>img/toyota_white_square.png" alt="Toyota Logo" data-aos="fade-up" data-aos-delay="250">
-                <img src="<?php echo $native_path ?>img/vegetanatur_square.png" alt="Vegeta Logo" data-aos="fade-up" data-aos-delay="500">
-                <img src="<?php echo $native_path ?>img/vegetamaestro_square.png?ver=4.0" alt="Vegeta Logo" data-aos="fade-up">
-                <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="750">
-                <img src="<?php echo $native_path ?>img/addiko_square.png?ver=2.0" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="1000">
-                <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" alt="Jaguar Logo" data-aos="fade-up" data-aos-delay="1250">
-                <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="1500">
-                <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="1750">
-                <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="2000">
-                <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo" data-aos="fade-up" data-aos-delay="2250">
-                <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo" data-aos="fade-up" data-aos-delay="2500">
+                <img src="<?php echo $native_path ?>img/toyota_white_square.png" alt="Toyota Logo" data-aos="fade-up" data-aos-delay="100">
+                <img src="<?php echo $native_path ?>img/vegetanatur_square.png" alt="Vegeta Logo" data-aos="fade-up" data-aos-delay="200">
+                <img src="<?php echo $native_path ?>img/vegetamaestro_square.png?ver=4.0" alt="Vegeta Logo" data-aos="fade-up" data-aos-delay="300">
+                <img src="<?php echo $native_path ?>img/benussi_white_square.png" alt="Benussi Logo" data-aos="fade-up" data-aos-delay="400">
+                <img src="<?php echo $native_path ?>img/addiko_square.png?ver=2.0" alt="Addiko Bank Logo" data-aos="fade-up" data-aos-delay="500">
+                <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" alt="Jaguar Logo" data-aos="fade-up" data-aos-delay="600">
+                <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="700">
+                <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="800">
+                <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="900">
+                <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo" data-aos="fade-up" data-aos-delay="1000">
+                <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo" data-aos="fade-up" data-aos-delay="1100">
+                <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo" data-aos="fade-up" data-aos-delay="1200">
             </div>
             <div class="full center">
                 
