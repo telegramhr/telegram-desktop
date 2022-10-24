@@ -599,14 +599,15 @@ if (!$num) {
         <section class="container-fluid" id="section-okolis">
             <div class="container">
                 <div class="row justify-content-center sijecanj-content shoo-bottom">
-                    <div class="col-lg-5 offset-lg-1 mob-order-2">
-                        <img src="<?php echo $native_path ?>/img/heineken_okolis.png?v=2" aria-hidden="true" class="img-fluid">
+                <div class="col-lg-6 special-drop">
+                        <img src="https://images.telegram.hr/YxjLooO2oTQZYGYKJski3sC7pa97PZLp0x2Ys5sunsY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvcHJlZHNqZWRuaWNhLXVwcmF2ZS1oZWluZWtlbmEtaHJ2YXRza2EtbWFydGEtYnVsaGFrLWktcHJlZHNqZWRuaWstcmgtem9yYW4tbWlsYW5vdmljLmpwZw.webp" aria-hidden="true" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/tg_heineken_drop.png" aria-hidden="true" class="drop-overlay">
                     </div>
-                    <div class="col-lg-6 mob-order-1">
+                    <div class="col-lg-5 offset-lg-1">
                         <h2>Zaštita okoliša</h2>
-                        <p>Europa želi biti prvi klimatski neutralan kontinent. Ako ne učinimo ništa čekaju nas skupa hrana, poplave...</p>
-                        <p> Stručnjaci prognoziraju da će zbog razornih poplava mnogi ljudi izgubiti dom</p>
-                        <a href="https://www.telegram.hr/partneri/europa-zeli-biti-prvi-klimatski-neutralan-kontinent-ako-ne-ucinimo-nista-cekaju-nas-skupa-hrana-poplave/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
+                        <p>HEINEKENU Hrvatska stigla najveća nagrada za održivo poslovanje – Hrvatski indeks održivosti (HRIO) u kategoriji Velikih poduzeća</p>
+                        <p> Najnovije priznanje kruna je napretka kompanije kad je riječ o održivom poslovanju</p>
+                        <a href="https://www.telegram.hr/partneri/heinekenu-hrvatska-stigla-najveca-nagrada-za-odrzivo-poslovanje-hrvatski-indeks-odrzivosti-hrio-u-kategoriji-velikih-poduzeca/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
                         </a>
                     </div>
                 </div>
@@ -753,6 +754,16 @@ if (!$num) {
                 </div>
                 </div>
                 <div class="row">
+                <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/partneri/europa-zeli-biti-prvi-klimatski-neutralan-kontinent-ako-ne-ucinimo-nista-cekaju-nas-skupa-hrana-poplave/" target="_blank">
+                            <div class="clanak">
+                                <div class="slika">
+                                    <img src="https://images.telegram.hr/p4yi9Q4yMV_DJPE1TbCeZzvBOsYkd76mqcGHZcoAY0o/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDcvdHlsZXItY2FzZXktZmljYml3Zm9wc28tdW5zcGxhc2gtc2NhbGVkLmpwZw.jpg" aria-hidden="true" class="img-fluid">
+                                </div>
+                                <p>Europa želi biti prvi klimatski neutralan kontinent. Ako ne učinimo ništa čekaju nas skupa hrana, poplave...</p>
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-lg-3">
                         <a href="https://www.telegram.hr/biznis-tech/eu-postavlja-ambicioznije-ekoloske-ciljeve-ugljicna-neutralnost-do-2050-godine/" target="_blank">
                             <div class="clanak">
