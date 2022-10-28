@@ -62,7 +62,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" alt="Jaguar Logo">
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
             <img src="<?php echo $native_path ?>img/huawei_square_white.png" alt="Huawei Logo">
-            <img src="<?php echo $native_path ?>img/hep_square_white.png" alt="HEP Logo">
+            <img src="<?php echo $native_path ?>img/hep_white_square.png" alt="HEP Logo">
             <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo">
             <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo">
             <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo">
