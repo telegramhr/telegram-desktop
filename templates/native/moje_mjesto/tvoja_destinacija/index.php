@@ -62,7 +62,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" alt="Jaguar Logo">
             <img src="<?php echo $native_path ?>img/enterprise_white_square.png" alt="Enterprise Logo">
             <img src="<?php echo $native_path ?>img/huawei_square_white.png" alt="Huawei Logo">
-            <img src="<?php echo $native_path ?>img/elen_square_white.png" alt="ELEN Logo">
+            <img src="<?php echo $native_path ?>img/hep_square_white.png" alt="HEP Logo">
             <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo">
             <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo">
             <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo">
@@ -382,7 +382,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/jaguar_white_squre2.png" alt="Jaguar Logo" data-aos="fade-up" data-aos-delay="600">
                 <img src="<?php echo $native_path ?>img/enterprise_square.png" alt="Enterprise Logo" data-aos="fade-up" data-aos-delay="700">
                 <img src="<?php echo $native_path ?>img/huawei_square.png" alt="Huawei Logo" data-aos="fade-up" data-aos-delay="800">
-                <img src="<?php echo $native_path ?>img/elen_square.png" alt="Elen Logo" data-aos="fade-up" data-aos-delay="900">
+                <img src="<?php echo $native_path ?>img/hep_white_square.png" alt="HEP Logo" data-aos="fade-up" data-aos-delay="900">
                 <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo" data-aos="fade-up" data-aos-delay="1000">
                 <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo" data-aos="fade-up" data-aos-delay="1100">
                 <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo" data-aos="fade-up" data-aos-delay="1200">
