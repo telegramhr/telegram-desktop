@@ -1,6 +1,7 @@
 <?php
 require_once ('plugins/shortcodes.php');
 require_once ('plugins/charts.php');
+require_once ('plugins/acf.php');
 
 remove_action( 'do_pings', 'do_all_pings' );
 
@@ -167,12 +168,15 @@ function telegram_trim($content, $id = 0) {
     if ( $id ) {
         $post = get_post_type($id);
         $cat = get_the_category($id);
-        $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function ($m) use ($post, $cat) {
+        $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function ($m) use ($post, $cat, $id) {
             if (strpos($m[2], "www.telegram.hr") === false) {
                 if ($post === 'partneri' || ($cat && $cat[0]->slug === 'promo')) {
                     $rel = 'sponsored';
                 } else {
                     $rel = 'noopener noreferrer';
+                }
+                if (in_array($id, [1324535, 1317378, 1317364, 1314950, 1314931, 1314919, 1314902])) {
+                    $rel = 'dofollow';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
             } else
