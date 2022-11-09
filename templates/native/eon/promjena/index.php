@@ -164,6 +164,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full flex horizontal-pad">
                     <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="1000">Evo kako.</h2>
                 </div>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="2000" href="https://www.telegram.hr/partneri/razgovarali-smo-sa-strucnjakom-solari-mogu-zbog-bure-biti-ucinkovitiji-zimi-nego-ljeti-evo-sto-jos-imati-na-umu/" target="_blank">
+                    <img class="shoo-bottom" src="https://www.telegram.hr/wp-content/uploads/2022/11/eon-karabatic2.jpg">
+                    <div class="full flex">
+                        <h2 class="full">Razgovarali smo sa stručnjakom: 'Solari mogu zbog bure biti učinkovitiji zimi nego ljeti. Evo što još imati na umu'</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="2000" href="https://www.telegram.hr/partneri/ucinite-svoj-dom-isplativijim-smanjite-racune-za-struju-do-75-a-one-za-vodu-do-50-posto-otkrivamo-kako/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/EMr9GXJ2_E--MmTQr9F_5PGlcy4wbOV2muaMKkGXHwM/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvdGctbmFzbG92bmEtc2h1dHRlcmZhbWlsaWphLmpwZw.webp">
                     <div class="full flex">
