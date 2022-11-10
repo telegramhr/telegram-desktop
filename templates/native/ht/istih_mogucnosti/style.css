@@ -1,0 +1,404 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Embed fonts */
+@font-face {
+    font-family: "Targa MS";
+    src: url('img/targa_ms.eot');
+    src: url('img/targa_ms.eot?#iefix') format('embedded-opentype'),
+    url('img/targa_ms.woff2') format('woff2'),
+    url('img/targa_ms.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gen Next Regular';
+    src: url('img/gennextregular.eot');
+    src: url('img/gennextregular.eot?#iefix') format('embedded-opentype'),
+    url('img/gennextregular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Basics */
+
+.main-container {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.container {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+.main-container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+.slide {
+    scroll-snap-align: start;
+    padding: 4vw;
+    height: 100vh;
+}
+.side-nav {
+    display: none;
+    color: white;
+    background: url('img/pattern_dark.gif');
+    background-repeat: repeat;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 285px;
+    height: 100%;
+    z-index: 9;
+}
+.side-nav a {
+    padding: 8px 48px;
+    font-family: "Targa MS", monospace;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 48px;
+    padding-bottom: 16px;
+    font-family: "Gen Next Regular", Impact, sans-serif;
+}
+.side-nav a:hover {
+    color: #ff128c;
+}
+h1 {
+    font-size: 120px;
+    font-family: "Gen Next Regular", Impact, sans-serif;
+}
+h2 {
+    font-size: 64px;
+    font-family: "Gen Next Regular", Impact, sans-serif;
+}
+.half h2 {
+    font-size: 48px;
+}
+.header-p {
+    max-width: 820px;
+    margin-top: 24px;
+    padding-top: 32px;
+    border-top: 1px solid #ff128c;
+}
+header.slide p.bold {
+    margin-top: 16px;
+}
+.slide-bottom-left {
+    align-content: flex-end;
+}
+.slide-bottom-right {
+    align-content: flex-end;
+    justify-items: flex-end;
+    text-align: right;
+}
+.article-text {
+    width: 60%;
+    z-index: 5;
+    background-color: white;
+    padding: 2vw;
+}
+.header-text {
+    z-index: 5;
+}
+.dec-line {
+    height: 64px;
+    width: auto;
+    position: absolute;
+    top: -32px;
+    left: 16px;
+    z-index: 3;
+}
+.cta {
+    font-family: "Targa MS", monospace;
+    color: #ff128c;
+    font-size: 24px;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+footer .logo-line img {
+    height: 120px;
+    width: 180px;
+}
+footer p {
+    max-width: 640px;
+}
+.arrow-indicator {
+    position: absolute;
+    bottom: 96px;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+}
+.arrow-indicator div {
+    width: 50px;
+    height: 50px;
+    border-right: 10px solid #ff128c;
+    border-bottom: 10px solid #ff128c;
+    transform: rotate(45deg);
+    opacity: 0;
+    top: 0;
+    position: relative;
+    animation-name: point-down;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.fact-description {
+    max-width: 520px;
+    font-size: 30px;
+}
+@keyframes point-down {
+    0%   {
+        opacity: 0;
+        top: 0;
+    }
+    40% {
+        opacity: 1;
+        top: 30px;
+    }
+    60% {
+        opacity: 1;
+        top: 30px;
+    }
+    100%   {
+        opacity: 0;
+        top: 60px;
+    }
+}
+.big-fact {
+    font-family: "Targa MS", monospace;
+    color: #ff128c;
+    font-size: 120px;
+    text-transform: uppercase;
+}
+.side-nav img {
+    width: 60px;
+    height: 60px;
+}
+.side-nav > div {
+    padding-top: 16px;
+    padding-left: 32px;
+}
+.side-nav-bar {
+    height: 1px;
+    background-color: #ff128c;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 70px;
+}
+.slide .half {
+    height: 100%;
+}
+header .bg-img {
+    opacity: .2;
+}
+.video-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .4;
+    z-index: 1;
+    object-fit: cover;
+    object-position: top center;
+}
+.upzindex {
+    z-index: 5;
+}
+.dark-only {
+    display: none;
+}
+
+@media screen and (min-width: 1279px) {
+    .slide, .arrow-indicator {
+        padding-left: 335px;
+    }
+    .side-nav {
+        display: flex;
+    }
+    .half-slide {
+        padding:  0px;
+        padding-left: 285px;
+    }
+    .half-slide .half {
+        padding: 4vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    h2 {
+        font-size: 48px;
+    }
+    .article-text {
+        width: 75%;
+    }
+    .half .article-text {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slide .bg-img {
+        height: auto;
+        max-width: 150vw;
+        width: 150vw;
+        left: -25vw;
+        position: relative;
+    }
+    .half-slide .bg-img {
+        padding-top: 6vw;
+        height: 100vw;
+        object-fit: cover;
+        object-position: top center;
+        max-width: 100vw;
+        width: 100vw;
+        left: 0vw;
+    }
+    header.slide .bg-img {
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+        left: 0px;
+        position: absolute;
+    }
+    .slide {
+        min-height: 80vh;
+        height: auto;
+        padding: 6vw;
+        padding-top: 0px;
+    }
+    h1 {
+        font-size: 24vw;
+    }
+    h2, .half h2 {
+        font-size: 32px;
+    }
+    .article-text {
+        padding-top: 16px;
+        width: 100%;
+        z-index: 5;
+    }
+    .slide-bottom-left {
+        align-content: flex-start;
+    }
+    .slide-bottom-left::before, .slide-bottom-right::before {
+        display: none;
+    }
+    .arrow-indicator {
+        bottom: 14vw;
+    }
+    .arrow-indicator div {
+        width: 20px;
+        height: 20px;
+        border-right: 5px solid #ff128c;
+        border-bottom: 5px solid #ff128c;
+    }
+    .big-fact {
+        font-size: 25vw;
+    }
+    .small-fact {
+        font-size: 15vw;
+    }
+    header .bg-img {
+        opacity: .1;
+    }
+    .dec-line {
+        left: -8px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .article-text {
+        width: 60%;
+        z-index: 5;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        padding: 0px;
+        background: transparent;
+    }
+    .header-text {
+        z-index: 5;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    }
+    .slide-bottom-left::before, .slide-bottom-right::before {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40vw;
+        background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+        z-index: 2;
+    }
+    .slide {
+        scroll-snap-align: start;
+        padding: 4vw;
+        height: 100vh;
+        color: white;
+        background-color: #212121;
+    }
+    .darker-bg {
+        background-color: #121212;
+    }
+    .dec-line {
+        left: -16px;
+    }
+    .dark-only {
+        display: inherit;
+    }
+    .hide-on-dark {
+        display: none;
+    }
+    .video-bg {
+        opacity: .2;
+    }
+}
+@media (prefers-color-scheme: dark) and (min-width: 1279px) {
+    .slide, .arrow-indicator {
+        padding-left: 325px;
+    }
+    header.slide::before, .slide-bottom-right::before {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80vw;
+        height: 100%;
+        background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0));
+        z-index: 2;
+    }
+    .side-nav {
+        display: flex;
+    }
+    .half-slide {
+        padding:  0px;
+        padding-left: 15vw;
+    }
+    .half-slide .half {
+        padding: 4vw;
+    }
+}
+@media (prefers-color-scheme: dark) and (max-width: 1024px) {
+    .slide {
+        min-height: 80vh;
+        height: auto;
+        padding: 6vw;
+        padding-top: 0px;
+    }
+    .article-text {
+        padding-top: 16px;
+        width: 100%;
+        z-index: 5;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    }
+}
