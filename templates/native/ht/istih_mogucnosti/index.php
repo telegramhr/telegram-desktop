@@ -50,7 +50,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="https://www.telegram.hr/wp-content/uploads/2022/10/talita1.jpg" alt="Talita pred prozorima u vrijeme sumraka" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
-                <h2 class="full animate">U školi su je maltretirali, no nije se dala uplašiti. Talita je edukatorica, aktivistica i svojim radom pomiče granice umjetnosti</h2>
+                <h2 class="full animate">U školi su je maltretirali, no nije se dala uplašiti. Talita je edukatorica, aktivistica i umjetnica</h2>
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>

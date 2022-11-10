@@ -78,7 +78,7 @@ h1 {
     font-family: "Gen Next Regular", Impact, sans-serif;
 }
 h2 {
-    font-size: 64px;
+    font-size: 54px;
     font-family: "Gen Next Regular", Impact, sans-serif;
 }
 .half h2 {
@@ -102,7 +102,7 @@ header.slide p.bold {
     text-align: right;
 }
 .article-text {
-    width: 60%;
+    width: 75%;
     z-index: 5;
     background-color: white;
     padding: 2vw;
