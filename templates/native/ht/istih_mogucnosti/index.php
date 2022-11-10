@@ -46,11 +46,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
             <div class="arrow-indicator center"><div></div></div>
         </header>
-        <a class="full flex relative slide slide-bottom-left" id="talita" href="https://www.telegram.hr/partneri/u-skoli-su-je-maltretirali-no-nije-se-dala-uplasiti-talita-je-edukatorica-aktivistica-i-svojim-radom-pomice-granice-umjetnosti/" target="_blank">
+        <a class="full flex relative slide slide-bottom-left" id="talita" href="https://www.telegram.hr/partneri/u-skoli-su-me-maltretirali-jer-sam-drugacija-izvukla-me-genijalna-profesorica-sada-ja-pomazem-drugim-romima-da-uspiju/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/10/talita1.jpg" alt="Talita pred prozorima u vrijeme sumraka" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
-                <h2 class="full animate">U školi su je maltretirali, no nije se dala uplašiti. Talita je edukatorica, aktivistica i umjetnica</h2>
+                <h2 class="full animate">U školi su me maltretirali jer sam drugačija, izvukla me genijalna profesorica. Sada ja pomažem drugima</h2>
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>
@@ -106,7 +106,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <p class="full fact-description">godine za osobe s invaliditetom proglašen je Hrvatski Telekom</p>
             </div>
         </div>
-        <a class="full flex relative slide slide-bottom-left" id="anka" href="https://www.telegram.hr/wp-content/uploads/2022/09/sliskovic-anka2.jpg" target="_blank">
+        <a class="full flex relative slide slide-bottom-left" id="anka" href="https://www.telegram.hr/velike-price/gospoda-anka-postala-influencerica-u-60-ima-bojala-sam-se-mirovine-a-onda-su-me-kceri-nagovorile-na-instagram/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/09/sliskovic-anka2.jpg" alt="Protagonistica članka gospođa Anka, sa smješkom na licu" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
