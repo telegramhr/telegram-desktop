@@ -1,0 +1,418 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Basics */
+
+.container {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+body,
+p,
+h2 {
+    font-family: 'rawline';
+    font-size: 25px;
+}
+
+/*HEADER*/
+
+.decorative-balls {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -100px;
+}
+header {
+    min-height: 90vh;
+    color: white;
+    background: linear-gradient(to bottom, #0F8A5F, #0F5A3F);
+    text-shadow: 2px 2px 10px #0F5A3F;
+    padding: 48px 8px;
+    padding-bottom: 164px;
+}
+section {
+    margin-bottom: 80px;
+}
+header .container {
+    z-index: 10;
+}
+
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 64px;
+    margin-bottom: 34px;
+}
+
+header h1 {
+    font-size: 120px;
+}
+.horizontal-pad {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.vertical-pad {
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.pad-bot {
+    padding-bottom: 25px
+}
+
+.margin-top {
+    margin-top: 25px
+}
+
+.margin-bot {
+    margin-bottom: 50px
+}
+
+.bg-img {
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    left: 0px;
+    background-image: url(./img/grey_placeholder.png);
+}
+.img-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wide-article-image {
+    height: 30vw;
+}
+header .img-bg {
+    opacity: .15;
+    mix-blend-mode: luminosity;
+}
+.brought-by-sticker {
+    position: absolute;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+    right: 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+.lidl-logo {
+    width: 30%;
+    margin: 0 auto;
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+/*TIMER SECTION*/
+
+.red-bg {
+    background-color: #a9200f;
+}
+
+.white-text {
+    color: white;
+}
+
+.timer-text {
+    font-size: 40px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.countdown-tile {
+    padding: 10px;
+    background: #e8f6fd;
+    border-radius: 5px;
+    width: 40px;
+    font-size: 32px;
+    font-size: 1.6rem;
+    margin-right: 2px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.countdown-day-divider {
+    font-size: 32px;
+
+}
+
+.countdown-subtitle {
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    opacity: .5;
+}
+
+.big-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*Mama section*/
+
+h1.container.full.center-text {
+    margin-bottom: 60px;
+}
+
+section.full.flex.relative.blue-bg {
+    margin-bottom: 50px;
+}
+.circle-img {
+    margin-bottom: -30px;
+}
+.circle-img img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50% !important;
+    margin: 0px 8px;
+    z-index: 10;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+.upside-down {
+    transform: rotate(180deg);
+}
+
+
+/*Videos Section*/
+
+
+h2.full {
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/*Stories*/
+
+.cta {
+    border: none;
+    color: #a9200f;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+a:hover .cta {
+    color: #0f8a5f;
+}
+
+
+/*Form element*/
+.green-bg {
+    background-color: #0F8A5F;
+}
+
+.white-text {
+    color: white;
+}
+
+.form-text {
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 22px;
+
+
+}
+
+.textarea-label {
+    margin-bottom: 30px;
+
+}
+
+#applications input,
+#applications textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 24px;
+    padding: 8px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: 'rawline';
+}
+#applications input[type=file] {
+    color: white;
+    border-bottom: none;
+}
+
+.insite-btn {
+    padding: 8px 48px;
+    padding-top: 6px;
+    font-size: 20px;
+    font-family: 'rawline';
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #eee;
+    margin-top: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 60px;
+    color: white;
+    letter-spacing: 1.2px;
+    background-color: #124433;
+
+}
+.insite-btn:hover {
+    background-color: #a9200f;
+    transition: 0.5s;
+
+}
+
+.form-section {
+    padding-top: 20vh;
+    margin-bottom: 0px;
+}
+
+/*Footer*/
+
+.footer-logo {
+    height: 80px;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    object-position: center center;
+
+}
+
+
+.footer-text {
+    color: black;
+    max-width: 730px;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-top: 16px;
+}
+
+footer {
+    margin-top: 0px;
+}
+
+a p {
+    font-size: 20px;
+}
+.topdeco {
+    width: 30%;
+    max-width: 100px;
+    margin-bottom: 8px;
+}
+.holiday-leaves {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: auto;
+    position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+
+    .mobile-order-1 {
+        order: 1;
+    }
+
+    .mobile-order-2 {
+        order: 2;
+    }
+
+    p.full {
+        font-size: 18px;
+    }
+
+    h1.full {
+        font-size: 40px;
+    }
+    header h1.full {
+        font-size: 15vw;
+    }
+
+    h1.container.full.center-text {
+        padding-top: 0;
+    }
+
+
+    section {
+        margin-bottom: 60px
+    }
+
+    .container.center.relative.red-bg {
+        padding-top: 5px;
+    }
+
+    h2.full.bold {
+        margin-top: 0px;
+        font-size: 26px;
+    }
+
+    .timer-text {
+        font-size: 38px;
+        padding-bottom: 30px;
+    }
+
+    .form-text {
+        font-size: 20px;
+    }
+
+    .story-img {
+        margin-bottom: 22px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .insite-btn {
+        margin-bottom: 30px;
+    }
+    .form-section {
+        padding-top: 12vh;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .desktop-order-1 {
+        order: 1;
+        text-align: right;
+    }
+    .desktop-order-1 .full {
+        justify-content: flex-end;
+    }
+
+    .desktop-order-2 {
+        order: 2;
+    }
+
+    .holiday-plants {
+        overflow: hidden;
+    }
+    .holiday-plants img.desktop-only:first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 800px;
+    }
+    .holiday-plants img.desktop-only:last-child {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 800px;
+    }
+
+}
