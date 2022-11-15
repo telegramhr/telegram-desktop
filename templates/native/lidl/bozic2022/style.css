@@ -266,12 +266,16 @@ a:hover .cta {
     color: white;
     letter-spacing: 1.2px;
     background-color: #124433;
-
 }
 .insite-btn:hover {
     background-color: #a9200f;
     transition: 0.5s;
-
+}
+.insite-btn:disabled,
+.insite-btn[disabled] {
+    opacity: .25;
+    cursor: not-allowed;
+    background-color: #0f8a5f !important;
 }
 
 .form-section {
@@ -319,6 +323,14 @@ a p {
     left: 0;
     height: auto;
     position: absolute;
+}
+#applications input[type="checkbox"] {
+    margin-right: 16px;
+    position: relative;
+    bottom: -8.5px;
+}
+label a {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 767px) {

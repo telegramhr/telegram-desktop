@@ -6,6 +6,10 @@ jQuery(document).ready(function () {
         delay: 500
     });
 
+    $('#uvjeti').change(function () {
+        $('#submit-application').prop("disabled", !this.checked);
+    });
+
     // Countdown
     var countDownDate = new Date("Dec 25, 2022 00:00:01").getTime();
     var x = setInterval(function() {

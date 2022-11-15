@@ -21,8 +21,8 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>font/rawline.css?ver=1.10" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.21" type="text/css" />
-    <script src="<?php echo $native_path ?>functions.js?ver=1.10"></script>
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.24" type="text/css" />
+    <script src="<?php echo $native_path ?>functions.js?ver=1.11"></script>
 </head>
 <body>
     <div class="main-container flex relative">
@@ -101,7 +101,7 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
         </div>
         <section class="full flex relative bg-img wide-article-image"></section>
         */ ?>
-        
+
         <!--Video Section-->
         <?php /*
         <section class="full flex relative">
@@ -178,8 +178,12 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
                     <input type="file" accept="image/*" name="slika">
                   <input type="hidden" name="campaign" value="lidl">
                   <input type="hidden" name="action" value="image_submit">
+                  <div class="full flex white-text">
+                    <input type="checkbox" required="" id="uvjeti" name="uvjeti">
+                    <label class="clickable" for="uvjeti">Prihvaćam <a href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-lidl/" target="_blank">pravila nagradnog natječaja.</a></label>
+                </div>
                     <div class="full center">
-                        <button type="submit" id="submit-application" class="insite-btn">Pošalji prijavu</button>
+                        <button type="submit" id="submit-application" disabled class="insite-btn">Pošalji prijavu</button>
                     </div>
                 </form>
             </div>
