@@ -14,13 +14,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <?php wp_head(); ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=3.00" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.13" type="text/css" />
 </head>
 <body>
     <nav class="side-nav center">
         <a class="full" href="#uvod"><h3 class="full">Svijet istih mogućnosti</h3></a>
+        <a class="full" href="#hayden">Chloé</a>
         <a class="full" href="#talita">Talita</a>
         <a class="full" href="#molly">Molly</a>
         <a class="full" href="#hrvoje">Hrvoje</a>
@@ -46,6 +47,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
             <div class="arrow-indicator center"><div></div></div>
         </header>
+      <a class="full flex relative slide slide-bottom-left" id="hayden" href="https://www.telegram.hr/partneri/s-13-je-otkrila-da-ima-autizam-a-zatim-i-adhd-danas-glumi-u-popularnoj-seriji-i-rusi-sve-stereotipe/" target="_blank">
+        <img src="https://www.telegram.hr/wp-content/uploads/2022/11/310752918-1186327728584352-4534313082420931214-n.jpg" alt="Chloe Hayden" class="bg-img">
+        <div class="article-text relative">
+          <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+          <h2 class="full animate">S 13 je otkrila da ima autizam, a zatim i ADHD. Danas glumi u popularnoj seriji i ruši sve stereotipe</h2>
+          <div class="cta">Pročitaj priču ></div>
+        </div>
+      </a>
         <a class="full flex relative slide slide-bottom-left" id="talita" href="https://www.telegram.hr/partneri/u-skoli-su-me-maltretirali-jer-sam-drugacija-izvukla-me-genijalna-profesorica-sada-ja-pomazem-drugim-romima-da-uspiju/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/10/talita1.jpg" alt="Talita pred prozorima u vrijeme sumraka" class="bg-img">
             <div class="article-text relative">
