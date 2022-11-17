@@ -786,7 +786,7 @@ Saznaj kako!
 				<div class="tm-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 "><article class="themetechmount-box themetechmount-box-service themetechmount-box-view-top-image themetechmount-service-box-view-top-image ">
 	<div class="themetechmount-post-item">
 		<div class="themetechmount-post-item-inner">
-			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="#"><img width="720" height="500" src="<?php  echo $native_path; ?>files/man-big-table-with-food-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3958" /></a></div>		</div>
+			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/" target="_blank"><img width="720" height="500" src="<?php  echo $native_path; ?>files/man-big-table-with-food-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3958" /></a></div>		</div>
 
 		<div class="themetechmount-box-bottom-content">
 			<div class="tm-service-iconbox"><span class="tm-service-icon"><i class="kw_nutrico flaticon-fruits"></i></span></div>			<div class="themetechmount-box-title"><h4><a href="#">Učestala glad</a></h4></div>			<div class="themetechmount-box-desc">
@@ -801,7 +801,7 @@ Saznaj kako!
 </article></div><div class="tm-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 "><article class="themetechmount-box themetechmount-box-service themetechmount-box-view-top-image themetechmount-service-box-view-top-image ">
 	<div class="themetechmount-post-item">
 		<div class="themetechmount-post-item-inner">
-			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="#"><img width="720" height="500" src="<?php  echo $native_path; ?>files/stressful-businesswoman-working-office-tired-bored-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3959" /></a></div>		</div>
+			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/" target="_blank"><img width="720" height="500" src="<?php  echo $native_path; ?>files/stressful-businesswoman-working-office-tired-bored-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3959" /></a></div>		</div>
 
 		<div class="themetechmount-box-bottom-content">
 			<div class="tm-service-iconbox"><span class="tm-service-icon"><i class="kw_nutrico flaticon-reduce"></i></span></div>			<div class="themetechmount-box-title"><h4><a href="#">Učestali umor</a></h4></div>			<div class="themetechmount-box-desc">
@@ -816,10 +816,10 @@ Saznaj kako!
 </article></div><div class="tm-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 "><article class="themetechmount-box themetechmount-box-service themetechmount-box-view-top-image themetechmount-service-box-view-top-image ">
 	<div class="themetechmount-post-item">
 		<div class="themetechmount-post-item-inner">
-			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="#"><img width="720" height="500" src="<?php  echo $native_path; ?>files/close-up-natural-woman-bad-acne-skin-with-scars-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3960" /></a></div>		</div>
+			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/" target="_blank"><img width="720" height="500" src="<?php  echo $native_path; ?>files/close-up-natural-woman-bad-acne-skin-with-scars-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3960" /></a></div>		</div>
 
 		<div class="themetechmount-box-bottom-content">
-			<div class="tm-service-iconbox"><span class="tm-service-icon"><i class="kw_nutrico flaticon-gym"></i></span></div>			<div class="themetechmount-box-title"><h4><a href="#">Suha usta</a></h4></div>			<div class="themetechmount-box-desc">
+			<div class="tm-service-iconbox"><span class="tm-service-icon"><i class="kw_nutrico flaticon-gym"></i></span></div>			<div class="themetechmount-box-title"><h4><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/" target="_blank">Suha usta</a></h4></div>			<div class="themetechmount-box-desc">
 				<div class="tm-short-desc">
 					<p>Prekomjerno mokrenje posljedično vodi ka povećanoj žeđi i osjećaju suhoće u ustima jer bubrezi crpe svu raspoloživu tekućinu kako bi razrijedili mokraću.</p>
 				</div>
@@ -831,7 +831,7 @@ Saznaj kako!
 </article></div><div class="tm-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 "><article class="themetechmount-box themetechmount-box-service themetechmount-box-view-top-image themetechmount-service-box-view-top-image ">
 	<div class="themetechmount-post-item">
 		<div class="themetechmount-post-item-inner">
-			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="#"><img width="720" height="500" src="<?php  echo $native_path; ?>files/young-man-scratching-hand-indoors-space-text-allergies-symptoms-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3961" /></a></div>		</div>
+			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/" target="_blank"><img width="720" height="500" src="<?php  echo $native_path; ?>files/young-man-scratching-hand-indoors-space-text-allergies-symptoms-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3961" /></a></div>		</div>
 
 		<div class="themetechmount-box-bottom-content">
 			<div class="tm-service-iconbox"><span class="tm-service-icon"><i class="kw_nutrico flaticon-bicycle"></i></span></div>			<div class="themetechmount-box-title"><h4><a href="#">Svrbljiva koža</a></h4></div>			<div class="themetechmount-box-desc">
@@ -846,7 +846,7 @@ Saznaj kako!
 </article></div><div class="tm-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 "><article class="themetechmount-box themetechmount-box-service themetechmount-box-view-top-image themetechmount-service-box-view-top-image ">
 	<div class="themetechmount-post-item">
 		<div class="themetechmount-post-item-inner">
-			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="#"><img width="720" height="500" src="<?php  echo $native_path; ?>files/young-woman-touching-her-eyes-eyeglasses-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3957" /></a></div>		</div>
+			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/" target="_blank"><img width="720" height="500" src="<?php  echo $native_path; ?>files/young-woman-touching-her-eyes-eyeglasses-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="3957" /></a></div>		</div>
 
 		<div class="themetechmount-box-bottom-content">
 			<div class="tm-service-iconbox"><span class="tm-service-icon"><i class="kw_nutrico flaticon-meditation"></i></span></div>			<div class="themetechmount-box-title"><h4><a href="#">Nejasan vid</a></h4></div>			<div class="themetechmount-box-desc">
@@ -861,7 +861,7 @@ Saznaj kako!
 </article></div><div class="tm-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 "><article class="themetechmount-box themetechmount-box-service themetechmount-box-view-top-image themetechmount-service-box-view-top-image ">
 	<div class="themetechmount-post-item">
 		<div class="themetechmount-post-item-inner">
-			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="#"><img width="720" height="500" src="<?php  echo $native_path; ?>files/toilet-sign-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="4153" /></a></div>		</div>
+			<div class="tm-featured-wrapper tm-tm_service-featured-wrapper"><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/" target="_blank"><img width="720" height="500" src="<?php  echo $native_path; ?>files/toilet-sign-720x500.jpg" class="attachment-themetechmount-img-blog-top size-themetechmount-img-blog-top wp-post-image" alt="" decoding="async" loading="lazy" data-id="4153" /></a></div>		</div>
 
 		<div class="themetechmount-box-bottom-content">
 			<div class="tm-service-iconbox"><span class="tm-service-icon"><i class="kw_nutrico flaticon-nutritionist-1"></i></span></div>			<div class="themetechmount-box-title"><h4><a href="#">Učestalo uriniranje</a></h4></div>			<div class="themetechmount-box-desc">
@@ -1053,15 +1053,6 @@ Saznaj kako!
 
 
 	</div>
-
-
-
-
-
-
-
-
-
 
 
 <div data-vc-full-width="true" data-vc-full-width-init="false" class="tm-row wpb_row vc_row-fluid vc_custom_1668110801257 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 tm-bgimage-position-center_center tm-bg tm-bgimage-yes">
