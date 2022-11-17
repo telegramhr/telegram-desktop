@@ -47,12 +47,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
             <div class="arrow-indicator center"><div></div></div>
         </header>
-      <a class="full flex relative slide slide-bottom-left" id="hayden" href="https://www.telegram.hr/partneri/s-13-je-otkrila-da-ima-autizam-a-zatim-i-adhd-danas-glumi-u-popularnoj-seriji-i-rusi-sve-stereotipe/" target="_blank">
-        <img src="https://www.telegram.hr/wp-content/uploads/2022/11/310752918-1186327728584352-4534313082420931214-n.jpg" alt="Chloe Hayden" class="bg-img">
-        <div class="article-text relative">
-          <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
-          <h2 class="full animate">S 13 je otkrila da ima autizam, a zatim i ADHD. Danas glumi u popularnoj seriji i ruši sve stereotipe</h2>
-          <div class="cta">Pročitaj priču ></div>
+      <a class="full flex relative slide stretch half-slide" id="hayden" href="https://www.telegram.hr/partneri/s-13-je-otkrila-da-ima-autizam-a-zatim-i-adhd-danas-glumi-u-popularnoj-seriji-i-rusi-sve-stereotipe/" target="_blank">
+        <div class="half flex flex-responsive relative">
+          <img src="https://www.telegram.hr/wp-content/uploads/2022/11/310752918-1186327728584352-4534313082420931214-n.jpg" aria-hidden="true" class="bg-img">
+        </div>
+        <div class="half center flex flex-responsive">
+          <div class="article-text relative">
+            <h2 class="full animate">S 13 je otkrila da ima autizam, a zatim i ADHD. Danas glumi u popularnoj seriji i ruši sve stereotipe</h2>
+            <div class="cta">Pročitaj priču ></div>
+          </div>
         </div>
       </a>
         <a class="full flex relative slide slide-bottom-left" id="talita" href="https://www.telegram.hr/partneri/u-skoli-su-me-maltretirali-jer-sam-drugacija-izvukla-me-genijalna-profesorica-sada-ja-pomazem-drugim-romima-da-uspiju/" target="_blank">
