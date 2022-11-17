@@ -745,7 +745,7 @@ Saznaj kako!
 
 	<div class="wpb_text_column wpb_content_element " >
 		<div class="wpb_wrapper">
-			<h5 style="text-align: center;"><strong>#3 Rezultati na glukometri</strong></h5>
+			<h5 style="text-align: center;"><strong>#3 Rezultati na glukometru</strong></h5>
 
 		</div>
 	</div>
@@ -1023,7 +1023,7 @@ Saznaj kako!
 
 	<div class="wpb_text_column wpb_content_element " >
 		<div class="wpb_wrapper">
-			<p><strong>Dijabetes tip 1</strong> je kronična genetska bolest. Ljudi oboljeli od dijabetesa tip 1 ne mogu proizvesti samostalno inzulin jer je njihovo tijelo napalo stanice gušterače odgovorne za njegovu proizvodnju. Zato simptomi bolesti brzo nastupaju, a bolest otkriju relativno rano u životu, u djetinjstvu ili adolescenciji. Dijabetes tip 1 nije moguće prevenirati. Oboljeli od dijabetesa tip 1 moraju redovito primati inzulin.</p>
+			<p><strong>Dijabetes tip 1</strong> je autoimuna bolest. Ljudi oboljeli od dijabetesa tip 1 ne mogu proizvesti samostalno inzulin jer je njihovo tijelo napalo stanice gušterače odgovorne za njegovu proizvodnju. Zato simptomi bolesti brzo nastupaju, a bolest otkriju relativno rano u životu, u djetinjstvu ili adolescenciji. Dijabetes tip 1 nije moguće prevenirati. Oboljeli od dijabetesa tip 1 moraju redovito primati inzulin.</p>
 
 		</div>
 	</div>
@@ -1041,7 +1041,7 @@ Saznaj kako!
 
 	<div class="wpb_text_column wpb_content_element " >
 		<div class="wpb_wrapper">
-			<p><strong>Dijabetes tip 2</strong> kronična je i autoimuna bolest na koju utječe više faktora, posebice način života. Ljudi oboljeli od dijabetesa tip 2 ne mogu proizvesti dovoljno inzulina samostalno ili su rezistentni na onaj koji proizvedu. Zato simptomi mogu nastupiti godinama nakon začetka bolesti i vrlo polako. Dijabetes tip 2 moguće je prevenirati ili staviti u remisiju. Oboljeli imaju više potencijalnih načina liječenja, poput primanja inzulina, terapije lijekovima, redovite tjelovježbe i kontrolirane prehrane.</p>
+			<p><strong>Dijabetes tip 2</strong> kronična bolest. Ljudi oboljeli od dijabetesa tip 2 ne mogu proizvesti dovoljno inzulina samostalno ili su rezistentni na onaj koji proizvedu. Zato simptomi mogu nastupiti godinama nakon začetka bolesti i vrlo polako. Dijabetes tip 2 moguće je prevenirati ili staviti u remisiju. Oboljeli imaju više potencijalnih načina liječenja, poput primanja inzulina, terapije lijekovima, redovite tjelovježbe i kontrolirane prehrane.</p>
 
 		</div>
 	</div>
