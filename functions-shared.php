@@ -179,8 +179,10 @@ function telegram_trim($content, $id = 0) {
                     $rel = 'dofollow';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
-            } else
+            } else {
+                return $m[0];
                 return '<a href="' . $m[2] . '">' . $m[3] . '</a>';
+            }
         }, $content);
     }
 	return $content;
@@ -293,7 +295,7 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 	if ( $id ) $id = 'id="' . esc_attr($id) . '" ';
 
 	$photo = telegram_get_photographer($image_id);
-    if ($photo) {
+    if ($photo && get_post_type() != 'shop-guide') {
 	    return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
 	           . do_shortcode( $content ) . '<figcaption class="wp-caption-text">' . $caption . ' <span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
@@ -521,6 +523,9 @@ function heineken_submit() {
 
 function super1_unautop_4_img( $content )
 {
+    if (get_post_type() == 'shop-guide') {
+        return $content;
+    }
 
     $content = preg_replace_callback(
         '/<p>\\s*?(<a rel=\"attachment.*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s',

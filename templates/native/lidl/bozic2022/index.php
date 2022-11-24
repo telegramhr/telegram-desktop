@@ -155,6 +155,25 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
                     </div>
                 </div>
             </a>
+          <a class="container flex relative stretch" href="https://www.telegram.hr/partneri/djecjoj-masti-nema-kraja-pitali-smo-klince-sto-zele-za-bozic-neki-odgovori-su-urnebesni/" target="_blank">
+            <div class="half flex-responsive center relative desktop-order-1 mobile-order-2" data-aos="fade-left" data-aos-delay="1000">
+              <div class="full relative flex horizontal-pad">
+                <img src="<?php echo $native_path ?>img/tg_visual_holiday_topdeco.svg" class="topdeco">
+                <h2 class="full bold">Dječjoj mašti nema kraja. Pitali smo klince što žele za Božić, neki odgovori su urnebesni</h2>
+                <p class="full">
+                  Ni manje ni više, poželjeli su dron, aparat za šećernu vunu i električni romobil
+                </p>
+                <div class="full flex relative">
+                  <div class="cta italic" href="">Pročitaj više...</div>
+                </div>
+              </div>
+            </div>
+            <div class="half flex-responsive center relative mobile-order-1 desktop-order-2" data-aos="fade-right" data-aos-delay="1000">
+              <div class="full flex relative story-img">
+                <img src="https://images.telegram.hr/sUn29l2DryclqaZCSZVfWeS-hSJL5MsNS205j2oNRUI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTEvd2hhdHNhcHAtaW1hZ2UtMjAyMi0xMS0wNC1hdC0xNTUyMDUuanBlZw.webp" aria-hidden="true" class="horizontal-pad">
+              </div>
+            </div>
+          </a>
         </section>
         <!--Form section-->
         <section class="full flex relative green-bg form-section">

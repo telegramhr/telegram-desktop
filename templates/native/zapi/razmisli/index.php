@@ -70,7 +70,7 @@ $native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/te
                 <p class="full" data-aos="fade-right" data-aos-delay="500">Konzumiranje alkohola smanjuje sposobnost upravljanja vozilom.</p>
                 <p class="full" data-aos="fade-right" data-aos-delay="750">Razmislite kad sjedate za volan.</p>
                 <p class="full" data-aos="fade-right" data-aos-delay="1000">Evo što su nam Remi, Daniel i Hrvoje još rekli.</p>
-                <a href="#" class="insite-btn" target="_blank" data-aos="fade-right" data-aos-delay="1750">Pročitajte više</a>
+                <a href="https://www.telegram.hr/partneri/keckes-bilic-i-remi-o-voznji-pod-utjecajem-alkohola-bilo-je-alkohola-bilo-je-umora-cijela-kombinacija-bila-je-pogubna/" class="insite-btn" target="_blank" data-aos="fade-right" data-aos-delay="1750">Pročitajte više</a>
             </div>
         </section>
         <section class="full episode relative" id="utjecaj">
@@ -125,6 +125,31 @@ $native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/te
             <div class="full flex">
                 <h2 class="full relative episode-title" data-aos="fade-left">Oni su podjelili svoje priče</h2>
                 <div class="full sugovornici flex stretch">
+                  <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="300">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2021/01/krog-davor4.jpg" aria-hidden="true">
+                    <h3 class="full">Imao sam 19, napio sam se i sjeo u auto. Ovo je priča o mom životu nakon te večeri koja je promijenila sve</h3>
+                    <p>Nakon teške nesreće koju je skrivio, Davoru Krogu prije 26 godina rekli su da više nikada neće hodati. No doktori i tehničari očito nisu bili svjesni koliko je uporan </p>
+                    <a href="https://www.telegram.hr/velike-price/imao-sam-19-napio-sam-se-i-sjeo-u-auto-ovo-je-prica-o-mom-zivotu-nakon-te-veceri-koja-je-promijenila-sve/" target="_blank" class="insite-btn">Pročitaj više</a>
+                  </div>
+                  <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="300">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2020/11/nikolina4.jpg" aria-hidden="true">
+                    <h3 class="full">Moj zaručnik Vatroslav malo je popio i počeo voziti brzo. Sletjeli smo s ceste i on je poginuo, a ja sam pala u komu</h3>
+                    <p>Nikolina Štimac iz Velike Gorice imala je 23, kada je doživjela užasnu prometnu nesreću. Za Telegram govori o toj večeri i životu nakon nje </p>
+                    <a href="https://www.telegram.hr/price/moj-zarucnik-vatroslav-malo-je-popio-i-poceo-voziti-brzo-sletjeli-smo-s-ceste-i-on-je-poginuo-a-ja-sam-pala-u-komu/" target="_blank" class="insite-btn">Pročitaj više</a>
+                  </div>
+                  <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="300">
+                    <img src="https://images.telegram.hr/HwRQYsS-gUaUSgD951Y8CCe81Vd-Lw1UzTiMFI54VjQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTIvY3JuY2VjLWRhbmlqZWwzLmpwZw.webp" aria-hidden="true">
+                    <h3 class="full">Uspješan poduzetnik iz Zagreba: ‘Godinama sam znao voziti posve pijan. Danas me prenerazi pomisao što se sve moglo desiti’</h3>
+                    <p> Priča Danijela Č., koji dugo nije shvaćao ni prihvaćao problem s alkoholom. Snima Vjekoslav Skledar
+                    </p>
+                    <a href="https://www.telegram.hr/velike-price/uspjesan-poduzetnik-iz-zagreba-godinama-sam-znao-voziti-posve-pijan-danas-me-prenerazi-pomisao-sto-se-sve-moglo-desiti/" target="_blank" class="insite-btn">Pročitaj više</a>
+                  </div>
+                  <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="300">
+                    <img src="https://images.telegram.hr/mHcbIB8mqz9KmLiSTLMaTU4Dp-X8uqRgSILA6hnTElE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTEvZ29yamFuZWMtbWF0aWphLmpwZw.webp" aria-hidden="true">
+                    <h3 class="full">Zadnje čega se sjećam je piće koje sam popio, a onda sam sjeo na motor. Ovo je priča o mom životu nakon jezive nesreće</h3>
+                    <p>Ova priča dio je serijala napravljenog za kampanju Razmisli, s ciljem edukacije javnosti o odgovornom konzumiranju alkohola. Snima Vjekoslav Skledar </p>
+                    <a href="https://www.telegram.hr/velike-price/zadnje-cega-se-sjecam-je-pice-koje-sam-popio-a-onda-sam-sjeo-na-motor-ovo-je-prica-o-mom-zivotu-nakon-jezive-nesrece/" target="_blank" class="insite-btn">Pročitaj više</a>
+                  </div>
                     <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="300">
                         <img src="https://images.telegram.hr/qODwSP81KMdvmTn5jBrgZhi3CaDybEIqAJMwa3sw7SE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDIva2Vja2VzLWhydm9qZS5qcGc.webp" aria-hidden="true">
                         <h3 class="full">Poznati glumac otkriva detalje nesreće: 'Vozili smo se iz Milana s Dinamove utakmice. Popili smo i bili umorni, pogubna kombinacija...'</h3>

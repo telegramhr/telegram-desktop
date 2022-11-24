@@ -11,7 +11,12 @@ class Telegram_Shortcodes {
 		add_shortcode('galerija', [$this,'telegram_galerija']);
 		add_shortcode('telegram_quiz', [$this,'telegram_quiz']);
 		add_shortcode('shop_guide', [$this,'shop_guide']);
+		add_shortcode('shop_category_guide', [$this,'shop_category_guide']);
 	}
+
+    function shop_category_guide() {
+        return '<div id="guide-category-container"></div>';
+    }
 
     function shop_guide() {
 	    return '<div id="guide-container"></div>';
