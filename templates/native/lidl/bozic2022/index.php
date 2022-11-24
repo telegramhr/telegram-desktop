@@ -101,7 +101,13 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
         </div>
         <section class="full flex relative bg-img wide-article-image"></section>
         */ ?>
-
+      <section class="full flex relative">
+        <a href="https://www.telegram.hr/partneri/proveli-smo-dan-s-nasom-influencericom-u-pripremama-za-bozic-imamo-savjete-recepte-i-ideje-za-poklone/" target="_blank" class="container center relative center-text horizontal-pad">
+          <h2 class="full bold">Proveli smo dan s našom influencericom u pripremama za Božić. Imamo savjete, recepte i ideje za poklone</h2>
+          <p class="full text-container"> Otkrila nam je tri zanimljiva i kreativna načina za umatanje božićnih darova </p>
+          <img src="https://www.telegram.hr/wp-content/uploads/2022/11/super1-lidl-dorin-21xxyy.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
+        </a>
+      </section>
         <!--Video Section-->
         <?php /*
         <section class="full flex relative">
