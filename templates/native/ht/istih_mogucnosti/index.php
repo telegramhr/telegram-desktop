@@ -48,12 +48,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
             <div class="arrow-indicator center"><div></div></div>
         </header>
-      <a class="full flex relative slide slide-bottom-left" id="ulmer" href="https://www.telegram.hr/partneri/ovaj-ucitelj-napustio-je-skolu-i-postigao-vise-od-2-milijarde-pregleda-yt-videa-danas-mijenja-zivote-diljem-svijeta/" target="_blank">
-        <img src="https://images.telegram.hr/GThiALT02rW_Aim2EzDDw1HCPIdAyfTUS5ThHFskchc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvY2hyaXN1bG1lci10d2l0dGVyLmpwZw.webp" alt="Ulmer i njegova obitelj" class="bg-img">
-        <div class="article-text relative">
-          <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
-          <h2 class="full animate">Ovaj učitelj napustio je školu i postigao više od 2 milijarde pregleda YT videa. Danas mijenja živote diljem svijeta</h2>
-          <div class="cta">Pročitaj priču ></div>
+      <a class="full flex relative slide stretch half-slide" id="ulmer" href="https://www.telegram.hr/partneri/ovaj-ucitelj-napustio-je-skolu-i-postigao-vise-od-2-milijarde-pregleda-yt-videa-danas-mijenja-zivote-diljem-svijeta/" target="_blank">
+        <div class="half flex flex-responsive relative">
+          <img src="https://www.telegram.hr/wp-content/uploads/2022/11/240820825-955149098449007-689163342823245274-n.jpg" aria-hidden="true" class="bg-img">
+        </div>
+        <div class="half center flex flex-responsive">
+          <div class="article-text relative">
+            <h2 class="full animate">Ovaj učitelj napustio je školu i postigao više od 2 milijarde pregleda YT videa. Danas mijenja živote diljem svijeta</h2>
+            <div class="cta">Pročitaj priču ></div>
+          </div>
         </div>
       </a>
       <a class="full flex relative slide stretch half-slide" id="hayden" href="https://www.telegram.hr/partneri/s-13-je-otkrila-da-ima-autizam-a-zatim-i-adhd-danas-glumi-u-popularnoj-seriji-i-rusi-sve-stereotipe/" target="_blank">
