@@ -1,0 +1,28 @@
+/******* Customized Bootstrap ********/
+
+$primary: #fc0000;
+$secondary: #FF9933;
+$light: #F6FFF2;
+$dark: #263A4F;
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$headings-font-family: 'Poppins', sans-serif;
+
+$body-color: #8D9AA8;
+
+$headings-color: $dark;
+
+$headings-font-weight: 700;
+
+$display-font-weight: 700;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: false;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+@import "bootstrap/scss/bootstrap";
