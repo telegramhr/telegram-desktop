@@ -31,7 +31,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex d-lg-none">
+        <a href="<?php the_permalink(); ?>" class="navbar-brand d-flex d-lg-none">
             <h1 class="m-0 display-4 text-secondary"><span  style="font-weight: 700; text-transform: uppercase; font-size: 22px; color:#000"><i>Siguran put za mene</i></span></h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
 
-                <a href="/" class="nav-item nav-link"><span  style="font-weight: 700; text-transform: uppercase;" class="naslovni"><i>Siguran put za mene</i></span></h1></a>
+                <a href="<?php the_permalink(); ?>" class="nav-item nav-link"><span  style="font-weight: 700; text-transform: uppercase;" class="naslovni"><i>Siguran put za mene</i></span></h1></a>
 
 
                 <a href="#home" class="nav-item nav-link">Istraži tržište</a>
@@ -59,28 +59,28 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('img/gen-z-o-kupnji-auta.jpg') no-repeat; background-size: cover !important">
+                    <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('<?php echo $native_path ?>img/gen-z-o-kupnji-auta.jpg') no-repeat; background-size: cover !important">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h1 class="display-1 text-white" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;"><span style="font-weight:700">Gen Z o kupnji auta:</span> jedni ih posuđuju od roditelja, drugi unajmljuju po potrebi, a treći smatraju neophodnima</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3" style="margin-top:30px !important">Saznaj više</a>
+                            <a target="_blank"  href="https://www.telegram.hr/partneri/gen-z-o-kupnji-auta-jedni-ih-posuduju-od-roditelja-drugi-unajmljuju-po-potrebi-a-treci-smatraju-neophodnima/" class="btn btn-primary py-md-3 px-md-5 me-3" style="margin-top:30px !important">Saznaj više</a>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('img/10-god-skuplji.jpg') no-repeat; background-size: cover !important">
+                    <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('<?php echo $native_path ?>img/10-god-skuplji.jpg') no-repeat; background-size: cover !important">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h1 class="display-1 text-white mb-md-4" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;"><span style="font-weight:700">Novi automobili gotovo su 10 tisuća eura skuplji nego prije 7 godina</span> , a prosječna starost diljem EU sve je viša</font></h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
+                            <a target="_blank" href="https://www.telegram.hr/partneri/novi-automobili-gotovo-su-10-tisuca-eura-skuplji-nego-prije-7-godina-a-prosjecna-starost-diljem-eu-sve-je-visa/" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('img/euri.jpg') no-repeat; background-size: cover !important">
+                    <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('<?php echo $native_path ?>img/euri.jpg') no-repeat; background-size: cover !important">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h1 class="display-1 text-white mb-md-4" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;">Dok inflacija trese cijelu Europu, svaka je ušteda ključna.  <span style="font-weight:700">Pronašli smo uslugu koja će nam u tome pomoći</span></font></h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
+                            <a target="_blank" href="https://www.telegram.hr/partneri/dok-inflacija-trese-cijelu-europu-svaka-je-usteda-kljucna-pronasli-smo-uslugu-koja-ce-nam-u-tome-pomoci/" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
                         </div>
 
                     </div>
@@ -109,8 +109,8 @@
         <div class="container py-5 pb-lg-0">
             <div class="mx-auto text-center mb-3 pb-2" style="max-width: 900px;">
                 <h6 class="text-uppercase text-secondary">Siguran put za mene</h6>
-                <h1 class="display-5 text-black" style="color:#000 !important; margin-bottom: 30px !important">Odgovori na naših deset pitanja i <span style="font-weight:700">otkrij koji je auto za tebe.</span></h1>
-                <a href="test/index.html" data-padding-bottom="56.25%" aria-hidden="true" rel="lightbox" aria-label=""  class="btn btn-primary py-md-3 px-md-5 me-3 iframe-lightbox-link">Saznaj više</a>
+                <h1 class="display-5 text-black" style="color:#000 !important; margin-bottom: 30px !important">Odgovori na naših devet pitanja i <span style="font-weight:700">otkrij koji je auto za tebe.</span></h1>
+                <a href="<?php echo $native_path ?>test/index.html" data-padding-bottom="56.25%" aria-hidden="true" rel="lightbox" aria-label=""  class="btn btn-primary py-md-3 px-md-5 me-3 iframe-lightbox-link">Saznaj više</a>
                 <img src="<?php echo $native_path ?>img/auta.png" style="max-width:100%;margin-bottom: 50px;" />
             </div>
 
@@ -120,12 +120,12 @@
 
 
     <!-- Features Start -->
-    <div class="container-fluid bg-primary feature py-5 pb-lg-0 my-5" style="margin:0 !important; margin-top:-16px !important; margin-bottom:-16px !important; padding-top:100px !important; padding-bottom: 100px !important; background: url('img/clanak.jpg') no-repeat center center !important; background-size: cover !important;" id="otkrij-pogodnosti">
+    <div class="container-fluid bg-primary feature py-5 pb-lg-0 my-5" style="margin:0 !important; margin-top:-16px !important; margin-bottom:-16px !important; padding-top:100px !important; padding-bottom: 100px !important; background: url('<?php echo $native_path ?>img/clanak.jpg') no-repeat center center !important; background-size: cover !important;" id="otkrij-pogodnosti">
         <div class="container py-5 pb-lg-0">
             <div class="mx-auto text-center mb-3 pb-2" style="max-width: 900px;">
                 <h6 class="text-uppercase text-secondary">HERTZ NAJAM VOZILA</h6>
                 <h1 class="display-5 text-black" style="color:#fff !important; margin-bottom: 30px !important">Jeste li čuli za Flex Drive višemjesečni najam vozila u Hertzu? <span style="font-weight:700">Potpuno novi koncept najma na hrvatskom tržištu </span></h1>
-                <a class="btn btn-primary py-md-3 px-md-5 me-3">Saznaj više</a>
+                <a target="_blank" href="https://www.telegram.hr/partneri/jeste-li-culi-za-flex-drive-visemjesecni-najam-vozila-u-hertzu-potpuno-novi-koncept-najma-na-hrvatskom-trzistu/" class="btn btn-primary py-md-3 px-md-5 me-3">Saznaj više</a>
             </div>
 
         </div>
@@ -186,7 +186,8 @@
                 });
             })("undefined" !== typeof window ? window : this, document);
         </script>
-    <?php wp_head(); ?>
+    <?php wp_footer
+    (); ?>
 </body>
 
 </html>

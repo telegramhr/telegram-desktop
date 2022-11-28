@@ -31,7 +31,7 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
     <p class="py-2">
       U svojoj blizini sigurno imaš osobu koja dugo sanja o nekoj želji, ali nikako da je ostvari. Mama koja želi proputovati svijet, ali nikako da napravi plan. Tata koji u donjoj ladici stola skriva pjesme, ali nikako da ih pokaže svijetu. Brat koji sanja o dizajnu video igrica, ali nikako da se javi game studiju. Prijateljica koja je talent za crtanje, ali nikako da se ohrabri pokazati svoj rad drugima.
     </p><p class="py-2">
-      Ovih blagdana Telegram i Telemach udružuju snage kako bi tebi pomogli dok ti pomažeš drugima. Podijeli s nama želju koju želiš ostvariti, za koga i zašto, a mi ćemo se pobrinuti da u tome uspiješ.
+      Ovih blagdana Telegram i Telemach udružujhttps://wa.link/0kew2ou snage kako bi tebi pomogli dok ti pomažeš drugima. Podijeli s nama želju koju želiš ostvariti, za koga i zašto, a mi ćemo se pobrinuti da u tome uspiješ.
     </p><p class="py-2">
       Učiniti nešto za druge najljepši je dar. Dopusti da mi darujemo tebe, dok ti daruješ svoje bližnje.
     </p>
@@ -44,7 +44,7 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
       Vodi me na WhatsApp:
     </p>
     <p class="flex content-center justify-center">
-    <a href="https://wa.me/qr/SSP33NNB7C45K1" target="_blank" class="block">
+    <a href="https://wa.link/0kew2o" target="_blank" class="block">
       <img src="<?php echo $native_path ?>img/frame.png">
     </a>
     </p>
