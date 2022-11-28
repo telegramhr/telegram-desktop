@@ -1,7 +1,7 @@
 <?php
 require_once ('plugins/shortcodes.php');
 require_once ('plugins/charts.php');
-require_once ('plugins/acf.php');
+//require_once ('plugins/acf.php');
 
 remove_action( 'do_pings', 'do_all_pings' );
 
@@ -49,7 +49,7 @@ function telegram_main_scripts() {
 		'slick', 'slick-theme', 'fontawesome'
 	]);
 	wp_deregister_script('jquery');
-	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1', false);
+	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js', false, '3.2.1', false);
 
     telegram_load_fonts();
 }
@@ -179,10 +179,8 @@ function telegram_trim($content, $id = 0) {
                     $rel = 'dofollow';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
-            } else {
-                return $m[0];
+            } else
                 return '<a href="' . $m[2] . '">' . $m[3] . '</a>';
-            }
         }, $content);
     }
 	return $content;
@@ -295,7 +293,7 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 	if ( $id ) $id = 'id="' . esc_attr($id) . '" ';
 
 	$photo = telegram_get_photographer($image_id);
-    if ($photo && get_post_type() != 'shop-guide') {
+    if ($photo) {
 	    return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
 	           . do_shortcode( $content ) . '<figcaption class="wp-caption-text">' . $caption . ' <span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
@@ -523,9 +521,6 @@ function heineken_submit() {
 
 function super1_unautop_4_img( $content )
 {
-    if (get_post_type() == 'shop-guide') {
-        return $content;
-    }
 
     $content = preg_replace_callback(
         '/<p>\\s*?(<a rel=\"attachment.*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s',
@@ -646,3 +641,50 @@ function super1_unautop_4_img( $content )
     return $content;
 }
 add_filter( 'the_content', 'super1_unautop_4_img', 99 );
+
+add_action( 'admin_post_nopriv_image_submit', 'image_submit' );
+add_action( 'admin_post_image_submit', 'image_submit' );
+
+function image_submit() {
+    $campaign = sanitize_text_field($_POST['campaign']);
+    if (!$campaign) {
+        die('Ovo ne radi!');
+    }
+    $ime = sanitize_text_field($_POST['ime']);
+    $email = sanitize_text_field($_POST['email']);
+    $poruka = sanitize_text_field($_POST['poruka']);
+    $broj = sanitize_text_field($_POST['broj']);
+
+    $uploaddir = ABSPATH . '/wp-content/uploads/forms/' . $campaign . '/';
+    $name = false;
+    if ($_FILES['slika']['name']) {
+        $id = uniqid();
+        $uploadfile = $uploaddir . $id . basename($_FILES['slika']['name']);
+        $name = $id . basename($_FILES['slika']['name']);
+        move_uploaded_file($_FILES['slika']['tmp_name'], $uploadfile);
+    }
+    $url = '';
+    switch ($campaign) {
+        case 'lidl':
+            $url = 'https://script.google.com/macros/s/AKfycbzaQ_ielN8ZayEK6EQ6QkeNao8rtgUxmX4cXDhAqpUYzZtBgWJScXCs2IULAu0nP1Yorg/exec';
+            break;
+    }
+    if (!$url) {
+        return;
+    }
+
+    $data = [
+        'ime' => $ime,
+        'email' => $email,
+        'broj' => $broj,
+        'poruka' => $poruka,
+        'slika' =>  $name ?: ''
+    ];
+    $query_url = $url.'?'.http_build_query($data);
+    $r = wp_remote_get($query_url);
+
+    $ref = wp_get_referer();
+
+    wp_safe_redirect($ref . '?success=true');
+    die();
+}

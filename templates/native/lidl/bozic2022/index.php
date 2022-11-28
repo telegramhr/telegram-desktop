@@ -23,6 +23,11 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.24" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js?ver=1.11"></script>
+  <?php if (isset($_GET['success']) && $_GET['success'] = 'true') { ?>
+  <script>
+    alert('Hvala na prijavi')
+  </script>
+  <?php } ?>
 </head>
 <body>
     <div class="main-container flex relative">
