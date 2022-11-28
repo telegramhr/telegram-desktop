@@ -1,7 +1,7 @@
 <?php
 require_once ('plugins/shortcodes.php');
 require_once ('plugins/charts.php');
-//require_once ('plugins/acf.php');
+require_once ('plugins/acf.php');
 
 remove_action( 'do_pings', 'do_all_pings' );
 
