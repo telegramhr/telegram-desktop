@@ -67,8 +67,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </header>
         <!-- Ana -->
-        <a class="full flex relative slide slide-bottom-left" id="ana" href="https://www.telegram.hr/partneri/mama-ju-je-napustila-protiv-tate-je-digla-tuzbu-ana-je-s-23-otkrila-da-je-depresivna-sada-svojim-iskustvom-pomaze-drugima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa6441x-ppw-1.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
+        <a class="full flex relative slide slide-bottom-left" id="ana" href="https://www.telegram.hr/wp-content/uploads/2022/11/sasa6375x-ppw-1536x1024.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Mama ju je napustila, protiv tate je digla tužbu. Ana je s 23 otkrila da je depresivna, sada svojim iskustvom pomaže drugima</h2>
