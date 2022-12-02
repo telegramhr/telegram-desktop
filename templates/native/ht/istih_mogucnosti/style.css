@@ -59,14 +59,18 @@ body {
     width: 285px;
     height: 100%;
     z-index: 9;
+    overflow-x: scroll;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .side-nav a {
-    padding: 8px 48px;
+    padding: 6px 48px;
     font-family: "Targa MS", monospace;
     text-transform: uppercase;
+    font-size: 
 }
 h3 {
-    font-size: 48px;
+    font-size: 42px;
     padding-bottom: 16px;
     font-family: "Gen Next Regular", Impact, sans-serif;
 }
