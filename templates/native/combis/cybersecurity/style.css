@@ -1,0 +1,398 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Basics */
+
+html {
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    scroll-behavior: smooth;
+    background-image: url("img/whitenoise.png");
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+header {
+    margin-top: 60px;
+    padding: 24px;
+    padding-top: 24px;
+    height: 40vw;
+    overflow: hidden;
+    z-index: 5;
+    color: white;
+}
+
+.header-fade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .4));
+    z-index: 3;
+}
+
+header.flex::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    mix-blend-mode: soft-light;
+    background:
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 800 800' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+header .container {
+    z-index: 5;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+}
+
+.text-container h2,
+p,
+.shoo-bottom {
+    margin-bottom: 16px;
+}
+
+.subsection-title {
+    border-bottom: 3px solid rgb(153, 30, 102);
+    ;
+    font-size: 40px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    margin-top: 48px;
+}
+
+nav {
+    font-family: 'Space Mono', monospace;
+}
+
+nav.desktop-only .container {
+    padding: 8px 24px;
+}
+
+nav.desktop-only img {
+    height: 32px;
+}
+
+.pad-me {
+    padding: 24px;
+}
+
+.horizontal-pad {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.black-bg {
+    background-image: url("img/graybg.png");
+    color: white;
+}
+
+.section-title {
+    background: rgb(153, 30, 102);
+    ;
+    z-index: 2;
+    padding: 24px;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.inpage-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    border-top: 1px solid #333;
+    z-index: 99;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.inpage-nav svg {
+    fill: rgb(153, 30, 102);
+    height: 28px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.inpage-nav .center {
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.inpage-nav .center-text {
+    margin-top: 6px;
+}
+
+.article-embed {
+    padding: 64px 0px;
+}
+
+.article-embed h3 {
+    color: rgb(153, 30, 102);
+    font-size: 20px;
+}
+
+.article-embed h2,
+.special-section h2 {
+    font-size: 92px;
+    line-height: 0.9em;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+}
+
+.fourth.article-embed {
+    padding: 24px;
+}
+
+.fourth.article-embed h2 {
+    font-size: 40px;
+    margin-top: 0px;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-shadow: 0px -1px 5px white;
+}
+
+.fourth.article-embed:hover h2 {
+    text-decoration-color: rgb(153, 30, 102);
+}
+
+.fourth.article-embed>div.full {
+    padding-left: 24px;
+    margin-top: -32px;
+}
+
+.article-embed .fourth h3 {
+    padding-top: 8px;
+    border-top: 5px solid black;
+}
+
+.topnav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.topnav .container {
+    justify-content: space-between;
+}
+
+.topnav svg {
+    display: inline-block;
+    height: 32px;
+    fill: rgb(153, 30, 102);
+    ;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.topnav>div {
+    height: 66px;
+}
+
+.topnav .textlogo {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.topnav .textlogo img {
+    height: 50px;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid rgb(153, 30, 102);
+}
+
+.topnav a {
+    opacity: 0.85;
+}
+
+.topnav a:hover {
+    opacity: 1;
+}
+
+.topnav a div {
+    opacity: .85;
+    font-size: 14px;
+}
+
+.separator-line {
+    height: 2px;
+    background-color: #aaa;
+}
+
+.gray-bg {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+    background-color: rgb(153, 30, 102);
+    color: white;
+    padding: 5px 24px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.infographic-element p:first-child {
+    font-size: 64px;
+    line-height: 64px;
+    font-family: 'Space Mono', monospace;
+    color: rgb(153, 30, 102);
+    margin-bottom: 8px;
+}
+
+.shoo-top {
+    margin-top: 48px;
+}
+
+.infographic-descriptor {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid rgb(153, 30, 102);
+}
+
+footer p {
+    font-size: 15px;
+    opacity: .7;
+}
+
+footer {
+    padding: 48px 0px;
+}
+
+.send-icon-up {
+    margin-top: -69px;
+}
+
+.special-section {
+    margin-top: 128px;
+    margin-bottom: 48px;
+}
+
+.special-section .cta {
+    padding: 10px 32px;
+    padding-top: 15px;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: -45px;
+}
+
+.send-icon-up svg {
+    width: 40%;
+    max-width: 180px;
+    fill: rgb(153, 30, 102);
+}
+
+.tiny-text p {
+    font-size: 12px;
+    opacity: .5;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        padding-bottom: 100px;
+    }
+
+    .inpage-nav .center-text {
+        font-size: 13px;
+    }
+
+    header {
+        height: 80vh;
+        margin-top: 0px;
+    }
+
+    .background-video {
+        min-height: 80vh;
+    }
+
+    h1 {
+        font-size: 20vw;
+        padding-right: 1vw;
+    }
+
+    .article-embed .fourth h3 {
+        border-top: none;
+    }
+
+    .shoo-top {
+        margin-top: 10vw;
+    }
+
+    .article-embed {
+        padding: 0px;
+    }
+
+    .article-embed h2,
+    .special-section h2 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inpage-nav {
+        width: 360px;
+        bottom: 24px;
+        left: auto;
+        right: 24px;
+        border: 1px solid #888;
+    }
+
+    .desktop-order-1 {
+        order: 1;
+    }
+
+    .desktop-order-2 {
+        order: 2;
+    }
+}
