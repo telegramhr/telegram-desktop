@@ -30,12 +30,12 @@
     <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel" >
             <div class="carousel-inner">
-                <div class="carousel-item active"  style="height: 600px; background: url('img/carousel-1.jpg') no-repeat center fixed; background-size: cover;">
+                <div class="carousel-item active"  style="height: 600px; background: url('<?php echo $native_path; ?>img/carousel-1.jpg') no-repeat center fixed; background-size: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center text-center">
                         <div class="p-5">
 
                             <h1 class="display-3 text-white mb-md-4">Manje je više</h1>
-                            <p>Moj plan za energetsku učinkovitost<br/><br/>Sadržaj omogućava <b>HEP</b><br/>&nbsp;</p>
+
                             <a target="_blank" href="#kreni" class="btn btn-primary">Saznajte više</a>
                         </div>
                     </div>
