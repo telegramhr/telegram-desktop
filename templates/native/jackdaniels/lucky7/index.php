@@ -3,16 +3,16 @@
 
 <?php
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/jackdaniels/lucky7/';
-//$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/jackdaniels/lucky7/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/jackdaniels/lucky7/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/jackdaniels/lucky7/';
-$native_path = 'http://localhost/telegram-desktop/templates/native/jackdaniels/lucky7/';
+//$native_path = 'http://localhost/telegram-desktop/templates/native/jackdaniels/lucky7/';
 
 ?>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">    
@@ -102,7 +102,7 @@ $native_path = 'http://localhost/telegram-desktop/templates/native/jackdaniels/l
             </div>
         </footer>
     </div>
-    <?php //wp_footer(); ?>
+    <?php wp_footer(); ?>
 </body>
 
 </html>
