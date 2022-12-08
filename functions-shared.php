@@ -175,7 +175,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'noopener noreferrer';
                 }
-                if (in_array($id, [1324535, 1317378, 1317364, 1314950, 1314931, 1314919, 1314902])) {
+                if (in_array($id, [1324535, 1317378, 1317364, 1314950, 1314931, 1314919, 1314902, 1355655])) {
                     $rel = 'dofollow';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';

@@ -58,7 +58,16 @@
     <div class="container-fluid p-0" id="home">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div class="carousel-item active">
+                <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('https://www.telegram.hr/wp-content/uploads/2022/11/sasa6838xw.jpg') no-repeat; background-size: cover !important">
+                  <div class="text-start p-5" style="max-width: 900px;">
+                    <h1 class="display-1 text-white mb-md-4" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;">Mladi ne kupuju aute, žele automobile na pretplatu poput one za mobitel. <span style="font-weight:700">Važnija im je sloboda od vlasništva</span></font></h1>
+                    <a target="_blank" href="https://www.telegram.hr/partneri/mladi-ne-kupuju-aute-zele-automobile-na-pretplatu-poput-one-za-mobitel-vaznija-im-je-sloboda-od-vlasnistva/" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
+                  </div>
+
+                </div>
+              </div>
+                <div class="carousel-item">
                     <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('<?php echo $native_path ?>img/gen-z-o-kupnji-auta.jpg') no-repeat; background-size: cover !important">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h1 class="display-1 text-white" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;"><span style="font-weight:700">Gen Z o kupnji auta:</span> jedni ih posuđuju od roditelja, drugi unajmljuju po potrebi, a treći smatraju neophodnima</h1>
