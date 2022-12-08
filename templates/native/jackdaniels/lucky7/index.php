@@ -6,6 +6,7 @@
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/jackdaniels/lucky7/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/jackdaniels/lucky7/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/jackdaniels/lucky7/';
+//$native_path = 'http://localhost/lucky7/';
 
 ?>
 
@@ -28,64 +29,70 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <nav class = "full topnav flex relative">
             <div class = "container full flex">
                 <div class="center full relative textlogo center-text"><div></div>Lucky no.7<div></div></div>
-                    <!-- <div class = "center relative">
-                        <div class = "full bold uppercase navtext">Make it Count</div>
-                </div> -->
             </div>
         </nav>
-        <!-- ARTICLES --------------------------->
-    <section class = "full flex relative margin-top">
-        <a class = "full center relative" href="https://telesport.telegram.hr/partneri/mbappe-vitez/" target = "_blank">
-            <div class = "full center relative flex-responsive">
-                <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/11/jack-daniels-mbappe-sedmica-uvodna-fin.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
-            </div>
-            <div class = "container full center relative">
-                <div class = "full flex relative center center-text horizontal-pad flex-responsive">
-                    <h2 class = "full">Mbappé: Vitez</h2>
-                    <!-- <p class = "full text-container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sollicitudin quam, id mattis odio. Cras mattis lacus lectus, vel condimentum velit fringilla nec. Vestibulum tempor eros sit amet neque efficitur, eu congue massa lobortis. Fusce sollicitudin sollicitudin tempor. Nulla at diam ut elit fringilla efficitur sit amet eu massa.</p> -->
+        <!-- Articles -->
+        <section class = "full flex relative margin-top">
+            <a class = "full center relative" href="https://telesport.telegram.hr/partneri/mbappe-vitez/" target = "_blank">
+                <div class = "full center relative flex-responsive">
+                    <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/11/jack-daniels-mbappe-sedmica-uvodna-fin.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
                 </div>
-                <div class="full center relative">
-                    <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                <div class = "container full center relative">
+                    <div class = "full flex relative center center-text horizontal-pad flex-responsive">
+                        <h2 class = "full">Mbappé: Vitez</h2>
+                    </div>
+                    <div class="full center relative">
+                        <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                    </div>
                 </div>
-            </div>
-        </a>
-    </section>
-    <section class = "full flex relative margin-top">
-        <a class = "full center relative" href="https://telesport.telegram.hr/partneri/garrincha-andeo/" target = "_blank">
-            <div class = "full center relative flex-responsive">
-                <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/11/jack-daniels-garicnha-uvodna.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
-            </div>
-            <div class = "container full center relative">
-                <div class = "full flex relative center center-text horizontal-pad flex-responsive">
-                    <h2 class = "full">Garrincha: Anđeo</h2>
-                    <!-- <p class = "full text-container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sollicitudin quam, id mattis odio. Cras mattis lacus lectus, vel condimentum velit fringilla nec. Vestibulum tempor eros sit amet neque efficitur, eu congue massa lobortis. Fusce sollicitudin sollicitudin tempor. Nulla at diam ut elit fringilla efficitur sit amet eu massa.</p> -->
+            </a>
+        </section>
+        <section class = "full flex relative margin-top">
+            <a class = "full center relative" href="https://telesport.telegram.hr/partneri/garrincha-andeo/" target = "_blank">
+                <div class = "full center relative flex-responsive">
+                    <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/11/jack-daniels-garicnha-uvodna.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
                 </div>
-                <div class="full center relative">
-                    <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                <div class = "container full center relative">
+                    <div class = "full flex relative center center-text horizontal-pad flex-responsive">
+                        <h2 class = "full">Garrincha: Anđeo</h2>
+                    </div>
+                    <div class="full center relative">
+                        <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                    </div>
                 </div>
-            </div>
-        </a>
-    </section>
-    <section class = "full flex relative margin-top">
-        <a class = "full center relative" href="https://telesport.telegram.hr/partneri/rakitic-klasa-iz-sjene/" target = "_blank">
-            <div class = "full center relative flex-responsive">
-                <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/11/jack-daniels-rakitic-uvodna.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
-            </div>
-            <div class = "container full center relative">
-                <div class = "full flex relative center center-text horizontal-pad flex-responsive">
-                    <h2 class = "full margin-bot">Rakitić: Klasa iz sjene</h2>
-                    <!-- <p class = "full text-container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sollicitudin quam, id mattis odio. Cras mattis lacus lectus, vel condimentum velit fringilla nec. Vestibulum tempor eros sit amet neque efficitur, eu congue massa lobortis. Fusce sollicitudin sollicitudin tempor. Nulla at diam ut elit fringilla efficitur sit amet eu massa.</p> -->
+            </a>
+        </section>
+        <section class = "full flex relative margin-top">
+            <a class = "full center relative" href="https://telesport.telegram.hr/partneri/rakitic-klasa-iz-sjene/" target = "_blank">
+                <div class = "full center relative flex-responsive">
+                    <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/11/jack-daniels-rakitic-uvodna.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
                 </div>
-                <!-- <div class="full center relative">
-                    <a class="cta" href="#">Pročitaj više...</a>
-                </div> -->
-                <div class = "full center relative">
-                    <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                <div class = "container full center relative">
+                    <div class = "full flex relative center center-text horizontal-pad flex-responsive">
+                        <h2 class = "full margin-bot">Rakitić: Klasa iz sjene</h2>
+                    </div>
+                    <div class = "full center relative">
+                        <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                    </div>
                 </div>
-            </div>
-        </a>
-    </section>
-    <!--Footer-->
+            </a>
+        </section>
+        <section class = "full flex relative margin-top">
+            <a class = "full center relative" href="https://telesport.telegram.hr/partneri/beckham-galactico/" target = "_blank">
+                <div class = "full center relative flex-responsive">
+                    <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/11/jack-daniels-beckham-uvodna.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
+                </div>
+                <div class = "container full center relative">
+                    <div class = "full flex relative center center-text horizontal-pad flex-responsive">
+                        <h2 class = "full">Beckham: Galáctico</h2>
+                    </div>
+                    <div class="full center relative">
+                        <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <!--Footer-->
         <footer class="full flex relative">
             <div class="container flex relative">
                 <div class="full flex-responsive relative flex">
