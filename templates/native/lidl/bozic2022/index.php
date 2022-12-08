@@ -6,7 +6,7 @@
 $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/lidl/bozic2022/';
 //$native_path='http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/lidl/bozic2022/';
 //$native_path='http://localhost/telegram-desktop/templates/native/lidl/bozic2022/';
-//$native_path='http://localhost/lidl_bozic2022/';
+//$native_path='http://localhost/bozic2022/';
 ?>
 
 <head>
@@ -23,14 +23,13 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.24" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js?ver=1.11"></script>
+  <?php if (isset($_GET['success']) && $_GET['success'] = 'true') { ?>
+  <script>
+    alert('Hvala na prijavi')
+  </script>
+  <?php } ?>
 </head>
 <body>
-<?php if (isset($_GET['success']) && $_GET['success'] = 'true') { ?>
-  <script>
-  fbq('track', 'SubmitApplication')
-  alert('Hvala na prijavi')
-  </script>
-<?php } ?>
     <div class="main-container flex relative">
         <header class="full center relative sky">
             <img src="<?php echo $native_path ?>img/tg_header_lidlbozic_desktop.jpg" class="img-bg desktop-only">
@@ -109,9 +108,22 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
         */ ?>
       <section class="full flex relative">
         <a href="https://www.telegram.hr/partneri/proveli-smo-dan-s-nasom-influencericom-u-pripremama-za-bozic-imamo-savjete-recepte-i-ideje-za-poklone/" target="_blank" class="container center relative center-text horizontal-pad">
-          <h2 class="full bold">Proveli smo dan s našom influencericom u pripremama za Božić. Imamo savjete, recepte i ideje za poklone</h2>
-          <p class="full text-container"> Otkrila nam je tri zanimljiva i kreativna načina za umatanje božićnih darova </p>
-          <img src="https://www.telegram.hr/wp-content/uploads/2022/11/super1-lidl-dorin-21xxyy.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
+            <div class="text-container flex relative">
+            <div class="full center"  data-aos="fade-up" data-aos-delay="250"><img src="<?php echo $native_path ?>img/tg_visual_holiday_topdeco.svg" class="topdeco"></div>
+            <h2 class="full bold"  data-aos="fade-up" data-aos-delay="500">Nina, Andrijana i Dorin otkrivaju svoje trikove pomoću kojih preživljavaju blagdansko ludilo</h2>
+            <p class="full text-container" data-aos="fade-up" data-aos-delay="750">Podijelile su s nama 10 savjeta kojih se one drže otkad blagdane slave s klincima </p>
+            </div>
+          <img src="https://www.telegram.hr/wp-content/uploads/2022/11/tg-naslovna-kolaz11-30.jpeg" aria-hidden="true" class="horizontal-pad pad-bot margin-top" data-aos="fade-up" data-aos-delay="1000"s>
+        </a>
+      </section>
+      <section class="full flex relative">
+        <a href="https://www.telegram.hr/partneri/proveli-smo-dan-s-nasom-influencericom-u-pripremama-za-bozic-imamo-savjete-recepte-i-ideje-za-poklone/" target="_blank" class="container center relative center-text horizontal-pad">
+        <div class="text-container flex relative">
+            <div class="full center" data-aos="fade-up" data-aos-delay="250"><img src="<?php echo $native_path ?>img/tg_visual_holiday_topdeco.svg" class="topdeco"></div>
+          <h2 class="full bold" data-aos="fade-up" data-aos-delay="500">Proveli smo dan s našom influencericom u pripremama za Božić. Imamo savjete, recepte i ideje za poklone</h2>
+          <p class="full text-container" data-aos="fade-up" data-aos-delay="750"> Otkrila nam je tri zanimljiva i kreativna načina za umatanje božićnih darova </p>
+        </div>
+          <img src="https://www.telegram.hr/wp-content/uploads/2022/11/super1-lidl-dorin-21xxyy.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top"  data-aos="fade-up" data-aos-delay="1000">
         </a>
       </section>
         <!--Video Section-->
