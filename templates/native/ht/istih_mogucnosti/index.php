@@ -25,6 +25,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#miroslav">Miroslav</a>
         <a class="full" href="#ana">Ana</a>
         <a class="full" href="#podaci4">
             <div class="side-nav-bar"></div>
@@ -66,6 +67,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Miroslav -->
+        <a class="full flex relative slide slide-bottom-left" id="miroslav" href="https://www.telegram.hr/partneri/profesor-iz-rijeke-napravio-je-senzorni-dvorac-u-kojem-djeca-s-autizmom-i-downovim-sindromom-uce-kroz-igru-posjetili-smo-ga/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/miroslav-vrankic-1.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Profesor iz Rijeke napravio je senzorni dvorac u kojem djeca s autizmom i Downovim sindromom uče kroz igru</h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Ana -->
         <a class="full flex relative slide slide-bottom-left" id="ana" href="https://www.telegram.hr/partneri/mama-ju-je-napustila-protiv-tate-je-digla-tuzbu-ana-je-s-23-otkrila-da-je-depresivna-sada-svojim-iskustvom-pomaze-drugima/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa6375x-ppw-1536x1024.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
