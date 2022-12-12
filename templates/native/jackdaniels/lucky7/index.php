@@ -99,7 +99,22 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
                 <div class = "container full center relative">
                     <div class = "full flex relative center center-text horizontal-pad flex-responsive">
-                        <h2 class = "full">Ronaldo: 7 kao brand </h2>
+                        <h2 class = "full">Ronaldo: 7 kao brand</h2>
+                    </div>
+                    <div class="full center relative">
+                        <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <section class = "full flex relative margin-top">
+            <a class = "full center relative" href="https://telesport.telegram.hr/partneri/figo-imao-je-sve/" target = "_blank">
+                <div class = "full center relative flex-responsive">
+                    <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/12/jack-daniels-figo-uvodna.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
+                </div>
+                <div class = "container full center relative">
+                    <div class = "full flex relative center center-text horizontal-pad flex-responsive">
+                        <h2 class = "full">Figo: Imao je sve</h2>
                     </div>
                     <div class="full center relative">
                         <div class="button-48"><span class="text">Pročitaj više...</span></div>
