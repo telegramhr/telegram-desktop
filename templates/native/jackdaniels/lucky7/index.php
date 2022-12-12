@@ -95,7 +95,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <section class = "full flex relative margin-top">
             <a class = "full center relative" href="https://telesport.telegram.hr/partneri/ronaldo-7-kao-brand/" target = "_blank">
                 <div class = "full center relative flex-responsive">
-                    <img class = "full" src="https://telesport.telegram.hr/wp-content/themes/telesport-desktop/assets/img/shadow.png" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
+                    <img class = "full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/12/jack-daniels-ronaldo-uvodna.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
                 </div>
                 <div class = "container full center relative">
                     <div class = "full flex relative center center-text horizontal-pad flex-responsive">
