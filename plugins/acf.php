@@ -2878,7 +2878,7 @@ random : Nasumično',
 
     acf_add_local_field_group(array(
         'key' => 'group_5965fb9d18a42',
-        'title' => 'Meta tags',
+        'title' => 'Facebook meta tags',
         'fields' => array(
             array(
                 'key' => 'field_5965fbacb6c85',
