@@ -1,0 +1,379 @@
+/*
+* Native Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center-text {
+    text-align: center;
+}
+.full {
+    width: 100%;
+}
+.white-space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.faded {
+    opacity: 0.5;
+}
+.faded:hover {
+    opacity: 0.75;
+}
+.shoo-top {
+    margin-top: 30px;
+}
+.relative {
+    position: relative;
+}
+
+/* Hero */
+
+.native-hero video{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+.native-page {
+    margin-top: -40px;
+    background: url("https://super1.telegram.hr/wp-content/uploads/sites/3/2019/06/fant_bg.jpg");
+    background-repeat: repeat;
+    font-family: 'Libre Baskerville', serif;
+    background-size: 960px;
+    margin-bottom: -40px;
+}
+.native-hero {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.native-hero .container {
+    padding: 25px;
+    position: relative;
+    top: -125px;
+    z-index: 2;
+}
+.native-title {
+    z-index: 3;
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 30px;
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5 {
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+.single-head .title {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+.single-head h1.title  {
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+}
+h2, h3 {
+    font-size: 24px;
+}
+.single-head {
+    padding: 0px;
+    padding-bottom: 15px;
+}
+p {
+    max-width: 900px;
+}
+.text-container {
+    max-width: 960px;
+}
+.recepti {
+    background: #F5EBC9;
+    color: #37055A;
+    border-bottom: 10px solid #37055A;
+    border-top: 10px solid #37055A;
+}
+.overtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+}
+.recept .overtitle {
+    margin-top: 15px;
+    font-size: 18px;
+}
+.overtitle .line {
+    position: relative;
+}
+.lift {
+    margin-top: -100px;
+    z-index: 5;
+    position: relative;
+    margin-bottom: 0px;
+    background: inherit;
+}
+.recept .single-head {
+    padding-bottom: 15px;
+}
+.recept p:last-child {
+    margin-bottom: 0px;
+}
+.recept p, .recept li {
+    color: #333;
+}
+.recept h2 {
+    font-size: 30px;
+}
+.recept .recept-text {
+    padding-left: 0px;
+}
+.native-page .container {
+    width: 100%;
+    max-width: 930px;
+    padding: 30px 15px;
+}
+li {
+    list-style: disc inside;
+    margin-bottom: 15px;
+}
+/*.recept-line {
+    margin: 30px auto;
+    max-width: 480px;
+    width: 80%;
+    height: 10px;
+    background: #37055A;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}*/
+.recept-video {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 56%;
+}
+.recept-video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+summary h3 {
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: -11px;
+    position: relative;
+}
+summary {
+    cursor: pointer;
+    height: 20px;
+    line-height: 16px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+/* Footer */
+
+.native-page .native-signature {
+    padding-bottom: 30px;
+}
+.native-page .native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+    border-top: 1px solid gray;
+    margin-bottom: 30px;
+}
+.native-page .native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.native-page .native-signature .container p {
+    padding-left: 150px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+.recept .third img {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+.recept-details i {
+    display: inline-block;
+    height: 24px;
+    color: #bc1039;
+    font-size: 24px;
+}
+.recept-details span {
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 24px;
+    padding-left: 15px;
+}
+.recept-details .half:first-child {
+    justify-content: flex-end;
+}
+.recept-details .half {
+    padding: 25px;
+}
+.recept-text .half {
+    padding-right: 30px;
+}
+.recept-video {
+    margin-bottom: 50px;
+}
+.recept .overtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+.fant-spoon {
+    width: 35vw;
+    height: 35vw;
+    background-image: url("https://super1.telegram.hr/wp-content/uploads/sites/3/2019/06/fant_kuhaca.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fant-fork {
+    width: 35vw;
+    height: 36vw;
+    background-image: url("https://super1.telegram.hr/wp-content/uploads/sites/3/2019/06/fant_fork.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.recept-pictures {
+    height: 338px;
+    margin-top: 50px;
+}
+.recept-pictures img {
+    width: 285px;
+    height: 161px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.recept-pictures img:first-child {
+    width: 600px;
+    height: 338px;
+    right: auto;
+    left: 0;
+}
+.recept-pictures img:last-child {
+    top: auto;
+    bottom: 0;
+}
+iframe, .recept-pictures img {
+    filter: drop-shadow(0px 0px 7px rgba(0,0,0,0.4));
+}
+.text-container iframe {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+details img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 929px) {
+    .flex-responsive {
+        width: 100%;
+    }
+    .native-hero {
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .lift {
+        margin-top: 0px;
+    }
+    .native-hero video{
+        position: relative;
+        width: 150%;
+        left: -25%;
+    }
+    h1, h2, h3, .single-head .title {
+        line-height: normal;
+    }
+    h1, .single-head .title {
+        font-size: 30px;
+    }
+    h2, .recept h2 {
+        font-size: 24px;
+    }
+    summary h3 {
+        font-size: 16px;
+        width: 100%;
+        padding-left: 20px;
+        margin-top: -18px;
+        margin-bottom: 0px;
+    }
+    summary {
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .native-title {
+        background-color: rgba(255,255,255,0.9);
+    }
+    .recept-pictures {
+        height: auto;
+        width: 100%;
+    }
+    .recept-pictures img, .recept-pictures img:first-child, .recept-pictures img:last-child {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .recept-details .half {
+        padding: 15px 5px;
+    }
+    .recept-details .half:first-child {
+        padding-right: 10px;
+    }
+    .recept-details .half:last-child {
+        padding-left: 10px;
+    }
+}

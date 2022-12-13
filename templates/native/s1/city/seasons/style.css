@@ -1,0 +1,215 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    margin: 5vw 0px;
+}
+img, video {
+    width: 100%;
+}
+.hero {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+    background-attachment: fixed;
+}
+#proljece {
+    background-image: url("img/header_proljece.jpg");
+}
+#ljeto{
+    background-image: url("img/header_ljeto.jpg");  
+}
+/*#jesen {
+    background-image: url("img/header_jesen.jpg"); 
+}
+#zima {
+    background-image: url("img/header_zima.jpg"); 
+}*/
+.inpage-menu {
+    justify-content: space-between;
+}
+header {
+    max-height: 90vh;
+}
+
+.hero > div {
+    background: linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+    padding: 10vw;
+    padding-top: 50vh;
+    padding-bottom: 16px;
+    color: white;
+}
+h1 {
+    font-size: 103px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+h3 {
+    font-size: 24px;
+}
+.narrow-container {
+    max-width: 748px;
+}
+.galerija-slika > .third {
+    padding: 8px;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature .partner {
+    width: 130px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+}
+.boja{
+    display: block;
+    margin:0 auto;
+    width: 40%;
+    margin-top: 32px;
+    padding: 5px 54px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.cta {
+    display: block;
+    margin-top: 32px;
+    text-transform: uppercase;
+    background-color: #121212;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.cta:focus {
+    outline: 0;
+}
+.cta:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.cta:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+.locked-cta {
+    border: #121212 solid 1px;
+    color: #121212;
+    background-color: white;
+    cursor: not-allowed;
+    opacity: .5;
+}
+.locked-cta:after {
+    border: none;
+}
+.quote-section {
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1023px) {
+    .hero {
+        background-attachment: unset;
+    }
+    .hero > div {
+        padding: 0px;
+        padding-top: 70vw;
+    }
+    h1 {
+        font-size: 11vw;
+    }
+    h2 {
+        font-size: 7vw;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .boja{
+        display: block;
+        margin:0 auto;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 0px;
+        color: white;
+        background-color:transparent;
+        text-align: center;
+    
+    }
+    .inpage-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cta {
+        margin-top: 24px;
+        padding: .75rem 3rem;
+        font-size: 1.1rem;
+    }
+    .inpage-menu .cta {
+        width: 44.99%;
+        margin: 2.49%;
+    }
+}

@@ -1,0 +1,601 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    color: #111;
+}
+img {
+    width: 100%;
+}
+
+/* Main */
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2em;
+    margin-bottom: 15px;
+    font-family: 'Barlow', sans-serif;
+}
+.whiteSpace {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.whiteSpace2 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.whiteSpace2x {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.mainColor {
+    background: #008fcd;
+    color: white;
+}
+.gray-bg {
+    background: #b3c8d9;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    padding: 30px;
+}
+.bold {
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Lora', sans-serif;
+    margin-top: 16px;
+    font-size: 54px;
+    font-weight: 700;
+}
+h3 {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+h3.overtitle {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #008fcd;
+    padding: 5px 20px;
+    padding-top: 4px;
+}
+.mainColor h3.overtitle {
+    color: #008fcd;
+    background-color: white;
+}
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.desktop-pad-left p {
+    padding-bottom: 0px;
+}
+.cta {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    color: #008fcd;
+    font-family: 'Barlow', sans-serif;
+}
+.cta i {
+    margin-right: 8px;
+}
+.cta:hover {
+    padding-left: 8px;
+    font-weight: bold;
+}
+.header-logos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 16px;
+    z-index: 5;
+}
+.header-logos img {
+    width: 50%;
+    max-width: 120px;
+}
+.header-partner-logos {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+}
+.header-partner-logos img {
+    width: 140px;
+    margin: 20px;
+}
+.sliderText h4 {
+    color: #008fcd;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+p.semibold {
+    font-weight: 500;
+}
+
+.relative {
+    position: relative;
+}
+.sunce {
+    position: absolute;
+    width: 75px;
+    height: auto;
+    top: 149px;
+    left: 18px;
+    z-index: 3;
+}
+#slider {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    z-index: 7;
+    margin-top: 30px;
+}
+.sliderText {
+    padding: 16px;
+    padding-top: 32px;
+}
+.sliderText h3 {
+    margin-top: 0px;
+}
+.drawingContainer {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+.gradic {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.oblaci {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    margin: 0 auto;
+    z-index: 5;
+    opacity: 0.75;
+}
+p {
+    padding-top: 5px;
+    line-height: 1.5em;
+}
+.infografika {
+    zoom: 1;
+    margin: 32px auto;
+    width: 100%;
+}
+.disclaimer {
+    font-size: 12px;
+}
+.sliderInput {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 5;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.fillCircle {
+    background: white;
+}
+.story-day {
+    margin-top: 64px;
+    position: relative;
+}
+.story-day h4 {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #b3c8d9;
+    z-index: 3;
+}
+.story-day-line {
+    position: absolute;
+    top: 25px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+.white-slider-girl .story-day-line {
+    background-color: #008fcd;
+}
+.white-slider-girl .story-day h4 {
+    background-color: white;
+    color: #008fcd;
+}
+.gray-bg .story-day h4 {
+    background-color: #b3c8d9;
+}
+.white-slider-girl .sliderInput {
+    border: 1px solid #b3c8d9;
+}
+.white-slider-girl .fillCircle {
+    background-color: #b3c8d9;
+}
+.sliderText p {
+    font-size: 24px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+}
+.slider-girls .container {
+    max-width: 840px;
+}
+.slick {
+    margin-top: 32px;
+}
+.slick div {
+    margin: 16px;
+}
+.slick .slick-slide a {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    padding: 16px;
+    text-align: center;
+    background-color: #008fcd;
+    text-shadow: 1px 1px 2px #008fcd;
+}
+.shadow-me {
+    text-shadow: 2px 2px 0px #008fcd;
+}
+.slick div a span {
+    display: inline-block;
+    opacity: 1;
+    color: white;
+    font-size: 32px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    z-index: 5;
+}
+.slick div a img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .5;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+.slick .slick-slide:nth-child(2n) a {
+    background-color: #cdae00;
+    text-shadow: 1px 1px 2px #cdae00;
+}
+.slick .slick-slide:nth-child(3n) a {
+    background-color: #cd003f;
+    text-shadow: 1px 1px 2px #cd003f;
+}
+.slick .arrow {
+    font-size: 70px;
+    line-height: 1em;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    cursor: pointer;
+    color: #b3c8d9;
+}
+.slick-slider .arrow-next {
+    right: -45px;
+}
+.slick-slider .arrow-prev {
+    left: -45px;
+}
+.zg-alex, .os-lorin, .st-pasalic {
+    margin-bottom: 64px;
+}
+.infografika {
+    max-width: 780px;
+    margin: 0 auto;
+}
+.mini-articles img {
+    width: 128px;
+    margin: 16px 0px;
+}
+.article-title {
+    font-size: 32px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.quiz-container a {
+    font-weight: 700;
+}
+p {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+}
+.desktop-pad-left {
+    padding-left: 64px;
+}
+.desktop-pad-left h3.overtitle {
+    margin-top: 0px;
+}
+.product-images img{
+    margin: 20px;
+    max-width: 300px;
+}
+/* The Quiz */
+
+.quiz-container {
+    background: white;
+    padding: 64px;
+    margin: 64px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    color: #333;
+  }
+  
+  .quiz-container .btn {
+    margin: 20px auto 0;
+  }
+  
+  .slide { display: none; }
+  .slide.active { display: block; }
+  
+  .answer {
+    position: relative;
+    top: 0;
+    margin: 25px;
+    margin-left: 0px;
+    padding-left: 15px;
+    transition: .3s;
+    -webkit-transition: .3s;
+  }
+  .answer-text {
+    word-wrap: break-word;
+    text-transform: none;
+  }
+  
+  .answer:hover {
+    top: -5px;
+    cursor: pointer;
+  }
+  
+  .answer:hover h4 {
+    color: #008fcd;
+  }
+  
+  .answer h4 {
+    margin: 15px 0 0 0;
+    font-size: 20px;
+    transition: color .3s;
+    -webkit-transition: color .3s;
+  }
+  
+  .progress-bar {
+    margin-bottom: -20px;
+  }
+  
+  .progress-bar i {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .progress-bar .fa-circle {
+    color: #333;
+  }
+  
+  .quiz-container .share {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: #333;
+    color: white;
+    margin: 10px 5px;
+    top: 0;
+    position: relative;
+  }
+  .share i {
+    line-height: 50px !important;
+  }
+  .share {
+    text-align: center;
+  }
+  
+  .quiz-container .share:hover {
+    top: -5px;
+  }
+  
+  .quiz-container .fb {
+    background: #485b96;
+  }
+  
+  .quiz-container .tw {
+    background: #00aced;
+  }
+  .question {
+    margin-top: 0px;
+  }
+  .answer {
+    border-left: 2px solid #666;
+  }
+
+
+/* Native hero */
+
+
+@keyframes scroll-down {
+    0%   {
+        opacity: 0;
+        bottom: 0;
+    }
+    35% {
+        opacity: 1;
+        bottom: -5vw;
+    }
+    70% {
+        opacity: 1;
+        bottom: -5vw;
+    }
+    100% {
+        opacity: 0;
+        bottom: -7vw;
+    }
+  }
+.native-hero-logo {
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    width: 45vw;
+}
+.native-hero {
+    height: 70vw;
+    max-height: 90vh;
+    overflow: hidden;
+}
+.native-hero-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.scroll-down-prompt {
+    position: absolute;
+    bottom: 5vw;
+    width: 100%;
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+}
+.scroll-down-prompt i {
+    animation-name: scroll-down;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.quiz-container div.full > a {
+    margin-bottom: 32px;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature .partner {
+    width: 140px;
+    height: 70px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    padding-left: 30px;
+    font-weight: 500;
+}
+.half img {
+    align-self: bottom;
+}
+.sliderText {
+    height: 300px;
+}
+.sliderText a {
+    color: #d46432;
+}
+.sliderText a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1023px) {
+    .os-lorin .half {
+        order: 1;
+    }
+    .os-lorin .sliderText {
+        order: 2;
+    }
+    .desktop-pad-left {
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3.overtitle {
+        font-size: 14px;
+    }  
+    .scroll-down-prompt {
+        display: none;
+    }
+    .native-hero-logo {
+        position: absolute;
+        top: 60px;
+        left: 10vw;
+        width: 80vw;
+    }
+    .header-logos img {
+        width: 50%;
+        max-width: 80px;
+    }
+    .header-partner-logos {
+        width: 180px;
+    }
+    .header-partner-logos img {
+        width: 70px;
+    }
+    .slick .arrow {
+        display: none;
+    }
+    .native-footer .tg-studio {
+        width: 35px;
+    }
+    .native-footer .partner {
+        width: 70px;
+    }
+    .whiteSpace2x {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .drawingContainer {
+        margin-left: -30px;
+    }
+    .story-day {
+        padding: 0px 32px;
+        text-align: center;
+    }
+    .quiz-container {
+        margin: 0px;
+        padding: 32px;
+        border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    }
+}

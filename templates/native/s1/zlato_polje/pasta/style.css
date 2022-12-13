@@ -1,0 +1,260 @@
+/*
+* Native Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center-text {
+    text-align: center;
+}
+.relative {
+    position: relative;
+}
+.full {
+    width: 100%;
+}
+.white-space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.faded {
+    opacity: 0.5;
+}
+.faded:hover {
+    opacity: 0.75;
+}
+.shoo-top {
+    margin-top: 30px;
+}
+.native-page {
+    margin-top: -40px;
+}
+.native-hero {
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    background-image: url('https://super1.telegram.hr/wp-content/uploads/sites/3/2019/06/pattern_pasta_blue_3.gif');
+    background-size: 400px 400px;
+    margin-bottom: 50px;
+}
+.native-title {
+    background-color: #ffebc2;
+    padding: 50px;
+    color: #333;
+    font-family: 'Amatic SC', cursive;
+}
+.native-title h1 {
+    padding-bottom: 30px;
+    color: #005a94;
+    font-weight: 700;
+}
+h1 {
+    font-size: 72px;
+}
+h2, h3 {
+    font-size: 36px;
+}
+.article-container {
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.article-image::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #005a94;
+}
+.article-image:first-child::before {
+    right: auto;
+    left: 0;
+}
+.article-image {
+    padding: 50px;
+}
+.article-image img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+}
+.article-container .overtitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #005a94;
+    position: relative;
+    font-size: 16px;
+}
+.article-container h2 {
+    font-family: 'Slabo 27px', serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* FX */
+.cta {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #005a94;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #005a94;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.cta::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #005a94;
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+}
+.cta:hover {
+    cursor: pointer;
+    color: white;
+}
+.cta:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+}
+.article-container .overtitle::before, span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #005a94;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+}
+  
+.article-container .overtitle::before {
+    top: 0;
+    transform-origin: center right;
+}
+  
+.article-container .overtitle:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+}
+  
+.article-container .overtitle::after {
+    bottom: 0;
+    transform-origin: center left;
+}
+  
+.article-container .overtitle:hover::after {
+    transform-origin: center right;
+    transform: scaleX(1);
+}
+  
+
+
+/* Footer */
+
+.native-page .native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+    border-top: 1px solid gray;
+}
+.native-page .native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.native-page .native-signature .zlato-polje {
+    width: 90px;
+    height: 52px;
+    object-fit: contain;
+    position: absolute;
+    top: 34px;
+    left: 150px;
+}
+.native-page .native-signature .container p {
+    padding-left: 230px;
+    margin-bottom: 0px;
+}
+.infografika {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.infografika p {
+    padding: 15px 50px;
+    font-family: 'Slabo 27px', serif;
+}
+.infografika h2 {
+    font-family: 'Slabo 27px', serif;
+}
+.infografika video {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .flex-responsive {
+        width: 100%;
+    }
+    h1, h2, h3, .single-head .title {
+        line-height: normal;
+    }
+    h1, .single-head .title {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .article-text {
+        order: 2;
+    }
+    .article-image {
+        order: 1;
+    }
+    .article-text {
+        padding: 30px 0px;
+    }
+    .native-page .native-signature .container p {
+        padding-left: 0px;
+        padding-top: 130px;
+    }
+}

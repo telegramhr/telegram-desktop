@@ -1,0 +1,154 @@
+:root {
+    --primary: #ff5740;
+    --primaryHover: #eb442d;
+	--link: #82BC00;
+    --linkHover: #000000;
+    --body-font:'Noto Sans', sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 24px;
+    color:#353535;
+    line-height: 32px;
+    position: relative;
+	letter-spacing:0.07em;
+	
+}
+
+h1, h2, h3, h4 {
+	font-weight:700;
+	
+}
+
+h1 {
+    font-size:70px;
+	line-height:95px;
+	color:#82BC00;
+}
+li {
+    list-style:none;
+}
+ul {
+    padding: 0;
+}
+img {
+    width:100%;
+}
+.btn, .btn:hover {
+ color:var(--link);
+ font-size: 18px;
+}
+
+/*banner css*/
+header {
+    position: relative;
+}
+.header-content {
+    position: relative;
+}
+header .overlay {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.absolute-text-sec {
+    height: auto;
+    left: 5%;
+    position: absolute;
+    top: 10%;
+    width: auto;
+}
+.absolute-text-sec .txt {
+    text-align: center;
+}
+.left-fix-img {
+    bottom: -20%;
+    left: 0;
+    position: absolute;
+    width: 175px;
+}
+
+.icon-inr {
+    position: relative;
+}
+.icon-txt img {
+    display: inline-block;
+    width: auto;
+}
+.icon-txt span {
+    border: 2px solid #98d400;
+    height: 0;
+    left: -135px;
+    position: absolute;
+    top: -185px;
+    transform: rotate(90deg);
+    width: 390px;
+}
+.icon {
+    left: 0;
+    position: absolute;
+}
+.section-1 .row {
+    position: relative;
+}
+
+
+.section .col-md-7 img.gray-bg {
+    height: auto;
+    left: 0;
+    position: absolute;
+    width: auto;
+}
+.mid-txt {
+    padding: 0 10rem;
+	color:#242424;
+}
+.col-md-7 .inner-sec {
+    position: relative;
+	top: 2rem;
+	left: 4rem;
+}
+.col-md-5 img {
+    width: auto;
+}
+.section-2 {
+    margin: 4rem 0;
+}
+.section.section-2 .col-md-7 img.gray-bg {
+    left: 25%;
+}
+
+.page-footer {
+    background:#F0EEE2;
+}
+.page-footer .col-md-12 .footer-logo {
+    display: inline-block;
+    padding: 0 3%;
+}
+.page-footer .col-md-12 p {
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+.page-footer .ftr-txt-bx {
+    border: 3px solid #82bc00;
+    padding: 1.5rem;
+}
+.page-footer .ftr-txt-bx p {
+    font-size: 44px;
+    line-height: 60px;
+}
+
+a{
+    color: #242424;
+    text-decoration: none;
+}
+a:hover{
+    color: #353535;
+    text-decoration: none;
+}

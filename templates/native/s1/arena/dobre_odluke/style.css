@@ -1,0 +1,320 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.barracuda .full {
+    width: 100%;
+}
+.barracuda .white-space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.barracuda .container {
+    max-width: 1280px;
+}
+.barracuda .animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.barracuda .faded {
+    opacity: 0.5;
+}
+.barracuda .faded:hover {
+    opacity: 0.75;
+}
+
+/* Hero */
+
+.barracuda .hero {
+    font-family: 'frank ruhl libre', sans-serif;
+    background-image: url("https://super1.telegram.hr/wp-content/uploads/sites/3/2019/06/arena_header_art_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 50vw;
+    height: 45vw;
+}
+.barracuda .hero .hero-title h1 {
+    font-size: 72px;
+}
+.barracuda .hero .hero-title h2 {
+    font-size: 42px;
+}
+
+/* Content */
+
+.barracuda .introduction {
+    width: 100%;
+    max-width: 960px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'frank ruhl libre', sans-serif;
+    line-height: 2rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.barracuda .introduction::first-letter {
+    font-size: 64px;
+    color: #bc1039;
+    font-weight: 700;
+}
+.barracuda .super-tim {
+    padding: 10px 20px;
+    padding-left: 120px;
+    position: relative;
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: auto;
+}
+.super-tim img {
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.super-tim:hover .first-name, .super-tim:hover .last-name {
+    color: #bc1039;
+}
+.super-tim .first-name, .super-tim .last-name {
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'frank ruhl libre', sans-serif;
+    font-weight: 700;
+}
+.super-tim .person-credit {
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'frank ruhl libre', sans-serif;
+}
+.super-tim .credit-border {
+    width: 100px;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #bc1039;
+}
+.barracuda h3.super-tim-title {
+    font-size: 32px;
+    font-family: 'frank ruhl libre', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.barracuda .week-container {
+    background-image: url("https://super1.telegram.hr/wp-content/uploads/sites/3/2019/05/arena_clouds_whiteBG.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.barracuda .week {
+    padding: 14px;
+    /*box-shadow: 0 0 10px #ddd;*/
+    margin-bottom: 30px;
+}
+/*.barracuda .week:hover {
+    box-shadow: 0 0 5px #bbb;
+}*/
+.barracuda .week-header {
+    padding-top: 100px;
+}
+.barracuda .week-header-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: -30px;
+}
+.barracuda .background-shade {
+    /*background-color: #efefef;*/
+    padding-bottom: 30px;
+}
+.barracuda .week-header h4 {
+    text-transform: uppercase;
+    color: #bc1039;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+}
+.barracuda .week-header h2 {
+    font-family: 'frank ruhl libre', sans-serif;
+    font-size: 54px;
+    padding: 10px 0px;
+}
+.barracuda .week-header h5 {
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.barracuda .week-header-title {
+    padding: 15px;
+    background: linear-gradient(to right, rgba(255,255,255,0.75), rgba(255,255,255,0));
+    border-radius: 25px;
+}
+.super-tim-title span {
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.super-tim-title span::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -0.25em;
+    right: -0.25em;
+    background-color: #bc1039;
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+}
+  
+.super-tim-title span:hover::before {
+    transform: scaleX(1);
+    transform-origin: center left;
+}
+.super-tim-title span:hover {
+    color: white;
+}
+
+/* Footer */
+
+.barracuda .native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.barracuda .native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.barracuda .native-signature .container p {
+    padding-left: 150px;
+}
+
+@media screen and (max-width: 1279px) {
+    .barracuda .flex-responsive {
+        width: 100%;
+    }
+    .barracuda .week-header-img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        right: 0px;
+    }
+    .barracuda .week-header h4 {
+        font-size: 16px;
+    }
+    .barracuda .week-header h2 {
+        font-size: 32px;
+        padding: 5px 0px;
+    }
+    .barracuda .week-header h5 {
+        font-size: 14px;
+    }
+    .barracuda .hero .hero-title h1 {
+        font-size: 28px;
+    }
+    .barracuda .hero .hero-title h2 {
+        font-size: 20px;
+    }
+    .barracuda .hero {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        min-height: 45vw;
+        padding: 30px 0px;
+        padding-left: 50vw;
+        height: auto;
+    }
+    .barracuda .introduction {
+        font-size: 18px;
+    }
+    .barracuda .introduction::first-letter {
+        font-size: 40px;
+    }
+    .barracuda .native-signature .container p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .barracuda .native-signature .tg-studio {
+        top: 45px;
+    }
+    .barracuda .week-header .half:first-child {
+        order: 2;
+    }
+    .barracuda .week-header-img {
+        left: 0px;
+        top: -20vw;
+        margin-bottom: -20vw;
+    }
+    .barracuda .super-tim {
+        padding: 0px;
+        padding-left: 85px;
+        width: 49.99%;
+        min-height: 75px;
+    }
+    .barracuda .super-tim img {
+        width: 75px;
+        height: 75px;
+    }
+    .barracuda .week-header-title {
+        padding: 0px;
+    }
+    .super-tim .first-name, .super-tim .last-name {
+        height: 20px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .super-tim .person-credit {
+        height: 18px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .super-tim .credit-border {
+        width: 50px;
+    }
+    .single-body {
+        margin-top: 30px;
+    }
+    .barracuda .person-credit {
+        position: relative;
+        z-index: 5;
+        padding-right: 3px;
+        border-radius: 3px;
+        background: rgba(255,255,255,0.75);
+    }
+}

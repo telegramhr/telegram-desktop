@@ -1,0 +1,575 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #efefef;
+    background-color: #111;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 740px;
+}
+.slider-container {
+    padding: 48px;
+    padding-top: 0px;
+}
+
+/* Hero */
+
+.native-title {
+    padding-left: 100px;
+}
+.native-hero {
+    padding: 64px 0px;
+    overflow: hidden;
+}
+.native-hero > div {
+    z-index: 3;
+}
+.native-hero video {
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.native-hero::before {
+    content: ' ';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 2;
+    height: 20vw;
+    width: 100%;
+    background-image: linear-gradient(to top, #111, transparent);
+}
+h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 16px;
+    letter-spacing: 6px;
+    line-height: 1.2em;
+}
+form p {
+    font-size: 16px;
+    opacity: .7;
+    padding-top: 8px;
+}
+h1 > div {
+    display: inline-block;
+}
+h1 > div:nth-child(2) {
+    padding-left: 64px;
+}
+h1 > div:last-child {
+    padding-top: 20px;
+    font-size: 120px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+h3 {
+    padding-left: 200px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.column {
+    padding: 16px;
+}
+.card {
+    /*background: #4ECDC4;
+    background: -webkit-linear-gradient(45deg, #556270, #4ECDC4);
+    background: linear-gradient(45deg, #556270, #4ECDC4);*/
+    border: 1px solid #444;
+    padding-left: 200px;
+    height: 200px;
+    padding-top: 36px;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    overflow: hidden;
+    opacity: .8;
+}
+.card:hover {
+    opacity: 1;
+}
+/*.card:last-child {
+    background: #FC5C7D;
+    background: -webkit-linear-gradient(45deg, #6A82FB, #FC5C7D);
+    background: linear-gradient(45deg, #6A82FB, #FC5C7D);
+}
+.column:nth-child(2n) .card {
+    background: #C33764;
+    background: -webkit-linear-gradient(45deg, #1D2671, #C33764);
+    background: linear-gradient(45deg, #1D2671, #C33764);
+}
+.column:nth-child(2n) .card:last-child {
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(45deg, #3a6073, #3a7bd5);
+    background: linear-gradient(45deg, #3a6073, #3a7bd5);
+}*/
+.card img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.card-content {
+    width: 100%;
+    height: 100%;
+}
+.card-content .center {
+    padding: 8px;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.card-content .center:nth-child(1) {
+    opacity: 1;
+    animation-name: center1;
+}
+.card-content .center:nth-child(2) {
+    animation-name: center2;
+}
+.card-content .center:nth-child(3) {
+    animation-name: center3;
+}
+/*.circle > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    position: absolute;
+    animation-duration: 15s;
+    opacity: 0;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle > img:nth-child(1) {
+    opacity: 1;
+    top: 60%;
+    left: 94%;
+    animation-name: center1;
+}*/
+.circle > img:nth-child(2) {
+    top: 18%;
+    left: 5%;
+    animation-name: center2;
+}
+.circle > img:nth-child(3) {
+    bottom: 0%;
+    right: 65%;
+    animation-name: center3;
+}
+.native-creative > div {
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    border: 1px solid #444;
+}
+.circle > div {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    padding-top: 100%;
+}
+.circle > .featured-lady {
+    top: -15%;
+    padding-top: 133.33%;
+}
+img {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.native-logos img {
+    width: 100px;
+    margin-right: 32px;
+    object-fit: contain;
+    height: 30px;
+    margin-bottom: 24px;
+    opacity: .5;
+}
+.featured-lady img {
+    filter: grayscale(100);
+}
+.infographic h1 {
+    color: #bc1039;
+}
+.featured-lady:hover img {
+    filter: none;
+}
+.featured-lady img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.featured-lady img:nth-child(1) {
+    opacity: 1;
+    animation-name: center1;
+}
+.featured-lady img:nth-child(2) {
+    animation-name: center2;
+}
+.featured-lady img:nth-child(3) {
+    animation-name: center3;
+}
+.card h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+.question, .answer {
+    width: 100%;
+    text-align: center;
+}
+.question {
+    opacity: .7;
+    font-size: 15px;
+}
+.answer {
+    font-style: italic;
+    font-size: 20px;
+}
+.slick-dots li button::before {
+    color: white;
+}
+.slick-dots li.slick-active button::before {
+    color: white;
+}
+.infographic-disclaimer {
+    width: 100%;
+    text-align: center;
+    opacity: .5;
+    font-size: 14px;
+}
+p a {
+    font-weight: 700;
+    color: #bc1039;
+}
+p {
+    font-size: 20px;
+    line-height: 1.8em;
+    margin-bottom: 16px;
+}
+.articles .fourth {
+    padding: 16px;
+    padding-top: 100px;
+}
+.article {
+    padding: 16px;
+    border: 1px solid #444;
+}
+.article img {
+    position: relative;
+    top: -100px;
+    margin-bottom: -100px;
+}
+.article-pad {
+    padding-right: 15%;
+    position: relative;
+    top: -48px;
+    margin-bottom: -48px;
+}
+.article-pad h4 {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    background-color: #111;
+    z-index: 3;
+    position: relative;
+}
+.cta {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.article:hover .cta {
+    opacity: 1;
+}
+input[type=text], input[type=text-area], input[type=email] {
+    border: 1px solid rgba(255,255,255,0.4);
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+    color: white;
+}
+label {
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+.submit-btn {
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    background-color: #bc1039;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.consent-label a {
+    font-weight: bold;
+    color: #bc1039;
+}
+.consent-parent {
+    padding-left: 40px;
+    position: relative;
+}
+.consent-parent input {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+}
+.big-title {
+    display: block;
+    font-size: 120px;
+    font-weight: 900;
+    overflow: hidden;
+    opacity: .2;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.big-title::before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 3;
+    opacity: .5;
+    background-color: #111;
+}
+.circle > .anon-lady {
+    padding-top: 0px;
+}
+.circle > .anon-lady img {
+    border-radius: 50%;
+}
+
+
+
+@keyframes center1 {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    32.5% {
+        opacity: 0;
+    }
+    97.5% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes center2 {
+    0% {
+        opacity: 0;
+    }
+    32.5% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 1;
+    }
+    65% {
+        opacity: 1;
+    }
+    67.5% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes center3 {
+    0% {
+        opacity: 0;
+    }
+    67.5% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1
+    }
+    97.5% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.partner {
+    width: 150px;
+    height: 40px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+.infographic .fourth {
+    padding: 16px;
+}
+
+@media screen and (max-width: 1599px) {
+    .articles .fourth {
+        width: 49.99%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .articles {
+        padding: 16px;
+    }
+    .articles .fourth {
+        width: 100%;
+    }
+    .main-container {
+        padding: 0px;
+    }
+    .slider-container {
+        padding: 36px;
+        padding-top: 0px;
+    }
+    .card h3 {
+        padding-left: 110px;
+        font-size: 12px;
+    }
+    .card {
+        padding-left: 110px;
+        height: 200px;
+    }
+    .card img {
+        width: 90px;
+        height: 180px;
+    }
+    .native-title {
+        padding-left: 16px;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .native-title h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .native-hero video {
+        width: 400vw;
+        left: -150vw;
+    }
+    .native-creative > div {
+        height: 90vw;
+        width: 90vw;
+    }
+    .article-pad h4 {
+        font-size: 20px;
+    }
+    h1 > div:nth-child(2) {
+        padding-left: 0px;
+    }
+    h1 > div:last-child, .infographic h1 {
+        font-size: 54px;
+    }
+    .question {
+        font-size: 12px;
+    }
+    .answer {
+        font-size: 14px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .big-title {
+        font-size: 30px;
+    }
+    .card {
+        opacity: 1;
+    }
+    .native-logos {
+        align-items: center;
+        justify-content: center;
+    }
+    .native-logos img {
+        height: 20px;
+        object-position: center center;
+        width: 80px;
+    }
+    .native-logos img:last-child {
+        margin-right: 0px;
+        height: 18px;
+    }
+}

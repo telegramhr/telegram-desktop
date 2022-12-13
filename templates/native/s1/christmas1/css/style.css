@@ -1,0 +1,1900 @@
+body {
+    font-family: aileron, sans-serif;
+    font-size: 16px;
+    color: #011A17;
+    position: relative;
+}
+
+.snowflake {
+    width: 2vw;
+    z-index: 1;
+}
+
+@-webkit-keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+
+    100% {
+        top: 100%
+    }
+}
+
+@-webkit-keyframes snowflakes-shake {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+
+    50% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px)
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+}
+
+@keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+
+    100% {
+        top: 100%
+    }
+}
+
+@keyframes snowflakes-shake {
+    0% {
+        transform: translateX(0px)
+    }
+
+    50% {
+        transform: translateX(80px)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+.snowflake {
+    position: fixed;
+    top: -10%;
+    z-index: 999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+    -webkit-animation-duration: 10s, 3s;
+    -webkit-animation-timing-function: linear, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-play-state: running, running;
+    animation-name: snowflakes-fall, snowflakes-shake;
+    animation-duration: 10s, 3s;
+    animation-timing-function: linear, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-play-state: running, running
+}
+
+.snowflake:nth-of-type(0) {
+    left: 1%;
+    -webkit-animation-delay: 0s, 0s;
+    animation-delay: 0s, 0s
+}
+
+.snowflake:nth-of-type(1) {
+    left: 10%;
+    -webkit-animation-delay: 1s, 1s;
+    animation-delay: 1s, 1s
+}
+
+.snowflake:nth-of-type(2) {
+    left: 20%;
+    -webkit-animation-delay: 6s, .5s;
+    animation-delay: 6s, .5s
+}
+
+.snowflake:nth-of-type(3) {
+    left: 30%;
+    -webkit-animation-delay: 4s, 2s;
+    animation-delay: 4s, 2s
+}
+
+.snowflake:nth-of-type(4) {
+    left: 40%;
+    -webkit-animation-delay: 2s, 2s;
+    animation-delay: 2s, 2s
+}
+
+.snowflake:nth-of-type(5) {
+    left: 50%;
+    -webkit-animation-delay: 8s, 3s;
+    animation-delay: 8s, 3s
+}
+
+.snowflake:nth-of-type(6) {
+    left: 60%;
+    -webkit-animation-delay: 6s, 2s;
+    animation-delay: 6s, 2s
+}
+
+.snowflake:nth-of-type(7) {
+    left: 70%;
+    -webkit-animation-delay: 2.5s, 1s;
+    animation-delay: 2.5s, 1s
+}
+
+.snowflake:nth-of-type(8) {
+    left: 80%;
+    -webkit-animation-delay: 1s, 0s;
+    animation-delay: 1s, 0s
+}
+
+.snowflake:nth-of-type(9) {
+    left: 90%;
+    -webkit-animation-delay: 3s, 1.5s;
+    animation-delay: 3s, 1.5s
+}
+
+
+
+@-webkit-keyframes swinging {
+    0% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-2deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(5deg);
+    }
+}
+
+@keyframes swinging {
+    0% {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+    }
+}
+
+#pocetna {
+    background-color: #064A42;
+    min-height: 100vh;
+    padding: 30vh 0 8vh;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+}
+
+.uvod p {
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.uvod {
+    padding-top: 10vh;
+}
+
+.donosi {
+    padding-top: 10vh;
+}
+
+.donosi p {
+    text-transform: uppercase;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.ukras {
+    position: absolute;
+    z-index: 999999;
+}
+
+.prvi {
+    top: 0;
+    width: 12vw;
+    left: 1%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+
+.drugi {
+    top: 0;
+    width: 17vw;
+    left: 12%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+    animation: swinging 2.5s ease-in-out forwards infinite;
+}
+
+.treci {
+    top: 0;
+    width: 15vw;
+    left: 35%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3s ease-in-out forwards infinite;
+    animation: swinging 3s ease-in-out forwards infinite;
+}
+
+.cetvrti {
+    top: 0;
+    width: 15vw;
+    right: 40%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+    animation: swinging 2.5s ease-in-out forwards infinite;
+}
+
+.peti {
+    top: 0;
+    width: 18vw;
+    right: 25%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.sesti {
+    top: 0;
+    width: 10vw;
+    right: 10%;
+    z-index: 99;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.sedmi {
+    top: 0;
+    width: 15vw;
+    right: 1%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 4.5s ease-in-out forwards infinite;
+    animation: swinging 4.5s ease-in-out forwards infinite;
+}
+
+
+.btn-crveni {
+    background-color: #A82F13;
+    color: #fff;
+    font-family: artigo-display, serif;
+    font-weight: 400;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    min-width: 50%;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border: 1px solid #E14A34;
+    position: relative;
+
+}
+
+.btn-crveni:hover {
+    background-color: #91250c;
+    color: #fff;
+}
+
+.btn-crveni p {
+    margin-bottom: .25rem;
+    text-align: left;
+}
+
+.btn-crveni p::after {
+    content: "";
+    width: 30px;
+    height: 12px;
+    background: url('../img/strelica.svg') no-repeat;
+    background-position: center right;
+    background-size: contain;
+    display: inline-block;
+    margin-left: .5rem;
+}
+
+.btn-crveni:hover p::after {
+    margin-left: 1.5rem;
+}
+
+@media (min-width: 992px) {
+
+    #pocetna {
+        background-color: #064A42;
+        min-height: 100vh;
+        padding: 4vh 0;
+        color: #fff;
+        position: relative;
+        z-index: 99;
+    }
+
+    .uvod p {
+        font-size: 1.375rem;
+        font-weight: 300;
+    }
+
+    .uvod {
+        padding-top: 10vh;
+    }
+
+    .donosi {
+        padding-top: 10vh;
+    }
+
+    .donosi p {
+        text-transform: uppercase;
+        font-size: .875rem;
+        font-weight: 700;
+    }
+
+    .ukras {
+        position: absolute;
+        z-index: 999999;
+    }
+
+    .prvi {
+        top: 0;
+        width: 8vw;
+        left: 1%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+        animation: swinging 3.5s ease-in-out forwards infinite;
+    }
+
+
+    .drugi {
+        top: 0;
+        width: 8vw;
+        left: 6%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+        animation: swinging 2.5s ease-in-out forwards infinite;
+    }
+
+    .treci {
+        top: 0;
+        width: 8vw;
+        left: 15%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3s ease-in-out forwards infinite;
+        animation: swinging 3s ease-in-out forwards infinite;
+    }
+
+    .cetvrti {
+        top: 0;
+        width: 8vw;
+        right: 16%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+        animation: swinging 2.5s ease-in-out forwards infinite;
+    }
+
+    .peti {
+        top: 0;
+        width: 9vw;
+        right: 11%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+        animation: swinging 3.5s ease-in-out forwards infinite;
+    }
+
+    .sesti {
+        top: 0;
+        width: 4vw;
+        right: 5%;
+        z-index: 99;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+        animation: swinging 3.5s ease-in-out forwards infinite;
+    }
+
+    .sedmi {
+        top: 0;
+        width: 8vw;
+        right: 1%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 4.5s ease-in-out forwards infinite;
+        animation: swinging 4.5s ease-in-out forwards infinite;
+    }
+
+
+    .btn-crveni {
+        background-color: #A82F13;
+        color: #fff;
+        font-family: artigo-display, serif;
+        font-weight: 400;
+        padding: 1rem 4rem;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        min-width: 45%;
+        font-size: 1.625rem;
+        margin-top: 2rem;
+        border: 1px solid #E14A34;
+        position: relative;
+
+    }
+
+    .btn-crveni:hover {
+        background-color: #91250c;
+        color: #fff;
+    }
+
+    .btn-crveni p {
+        margin-bottom: .25rem;
+        text-align: left;
+    }
+
+    .btn-crveni p::after {
+        content: "";
+        width: 40px;
+        height: 12px;
+        background: url('../img/strelica.svg') no-repeat;
+        background-position: center center;
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .btn-crveni:hover p::after {
+        margin-left: 1.5rem;
+    }
+}
+
+header {
+    min-height: 100vh;
+    background: url('../img/bg-mob.svg') no-repeat, url('../img/shape-bijeli-mob.svg') no-repeat, linear-gradient(180deg, rgba(255, 224, 220, 1) 0%, rgba(255, 224, 220, 1) 100%);
+    background-position: top center, bottom center, center center;
+    background-size: contain, contain;
+    padding: 4rem 0 24rem;
+}
+
+.btn-zeleni {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #064A42;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    padding: .5rem;
+}
+
+.btn-zeleni p {
+    margin-bottom: 0;
+    margin-left: .75rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+}
+
+.kalendar {
+    position: relative;
+    width: 100%;
+    padding-top: 0rem;
+    height: 320vh;
+}
+
+.dan {
+    position: absolute;
+    pointer-events: none;
+}
+
+.dan:hover {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+}
+
+.otvoren {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.jedan {
+    left: 0%;
+    top: 0;
+    width: 40vw;
+    height: 215px;
+    background: url('../img/pokloni-zatvoreni/1.svg') no-repeat;
+    background-size: contain;
+}
+
+.jedan.otvoren {
+    background: url('../img/pokloni-otvoreni/1.svg') no-repeat;
+}
+
+.dva {
+    left: 50%;
+    top: 4%;
+    width: 40vw;
+    height: 160px;
+    background: url('../img/pokloni-zatvoreni/2.svg') no-repeat;
+    background-size: contain;
+}
+
+.dva.otvoren {
+    background: url('../img/pokloni-otvoreni/2.svg') no-repeat;
+}
+
+.tri {
+    left: 0%;
+    top: 12%;
+    width: 40vw;
+    height: 160px;
+    background: url('../img/pokloni-zatvoreni/3.svg') no-repeat;
+    background-size: contain;
+}
+
+.tri.otvoren {
+    background: url('../img/pokloni-otvoreni/3.svg') no-repeat;
+}
+
+.cetri {
+    left: 50%;
+    top: 12%;
+    width: 40vw;
+    height: 135px;
+    background: url('../img/pokloni-zatvoreni/4.svg') no-repeat;
+    background-size: contain;
+}
+
+.cetri.otvoren {
+    background: url('../img/pokloni-otvoreni/4.svg') no-repeat;
+}
+
+.pet {
+    left: 0%;
+    top: 20%;
+    width: 50vw;
+    height: 140px;
+    background: url('../img/pokloni-zatvoreni/5.svg') no-repeat;
+    background-size: contain;
+}
+
+.pet.otvoren {
+    background: url('../img/pokloni-otvoreni/5.svg') no-repeat;
+}
+
+.sest {
+    left: 52%;
+    top: 20%;
+    width: 40vw;
+    height: 200px;
+    background: url('../img/pokloni-zatvoreni/6.svg') no-repeat;
+    background-size: contain;
+}
+
+ .sest.otvoren {
+    background: url('../img/pokloni-otvoreni/6.svg') no-repeat;
+}
+.sedam {
+    left: 0%;
+    top: 29%;
+    width: 40vw;
+    height: 390px;
+    background: url('../img/pokloni-zatvoreni/7.svg') no-repeat;
+    background-size: contain;
+}
+
+.sedam.otvoren {
+    background: url('../img/pokloni-otvoreni/7.svg') no-repeat;
+}
+
+.osam {
+    right: 0%;
+    top: 31%;
+    width: 40vw;
+    height: 145px;
+    background: url('../img/pokloni-zatvoreni/8.svg') no-repeat;
+    background-size: contain;
+}
+
+.osam.otvoren {
+    background: url('../img/pokloni-otvoreni/8-1.svg') no-repeat;
+}
+
+.devet {
+    left: unset;
+    right: 0;
+    top: 38%;
+    width: 40vw;
+    height: 160px;
+    background: url('../img/pokloni-zatvoreni/9.svg') no-repeat;
+    background-size: contain;
+}
+
+.devet.otvoren {
+    background: url('../img/pokloni-otvoreni/9.svg') no-repeat;
+}
+
+.deset {
+    left: 0%;
+    top: 46%;
+    width: 90vw;
+    height: 180px;
+    background: url('../img/pokloni-zatvoreni/10.svg') no-repeat;
+    background-size: contain;
+}
+
+.deset.otvoren {
+    background: url('../img/pokloni-otvoreni/10-3.svg') no-repeat;
+}
+
+.jedanaest {
+    right: unset;
+    left: 0;
+    top: 55%;
+    width: 35vw;
+    height: 200px;
+    background: url('../img/pokloni-zatvoreni/11.svg') no-repeat;
+    background-size: contain;
+}
+
+.jedanaest.otvoren {
+    background: url('../img/pokloni-otvoreni/11.svg') no-repeat;
+}
+
+
+.dvanaest {
+    left: unset;
+    right: 0;
+    top: 55%;
+    width: 50vw;
+    height: 145px;
+    background: url('../img/pokloni-zatvoreni/12.svg') no-repeat;
+    background-size: contain;
+}
+
+.dvanaest.otvoren {
+    background: url('../img/pokloni-otvoreni/12.svg') no-repeat;
+}
+
+
+.trinaest {
+    left: 0;
+    top: 64%;
+    width: 40vw;
+    height: 220px;
+    background: url('../img/pokloni-zatvoreni/13.svg') no-repeat;
+    background-size: contain;
+}
+
+.trinaest.otvoren {
+    background: url('../img/pokloni-otvoreni/13.svg') no-repeat;
+}
+
+.cetrnaest {
+    left: unset;
+    right: 0;
+    top: 64%;
+    width: 45vw;
+    height: 220px;
+    background: url('../img/pokloni-zatvoreni/14.svg') no-repeat;
+    background-size: contain;
+}
+
+.cetrnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/14.svg') no-repeat;
+}
+
+.petnaest {
+    right: 2%;
+    top: 72%;
+    width: 40vw;
+    height: 120px;
+    background: url('../img/pokloni-zatvoreni/15.svg') no-repeat;
+    background-size: contain;
+}
+
+.petnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/15.svg') no-repeat;
+}
+
+.sesnaest {
+    right: 2%;
+    left: unset;
+    top: 80%;
+    width: 40vw;
+    height: 120px;
+    background: url('../img/pokloni-zatvoreni/16.svg') no-repeat;
+    background-size: contain;
+}
+
+.sesnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/16.svg') no-repeat;
+}
+
+.sedamnaest {
+    left: 0;
+    top: 72%;
+    width: 40vw;
+    height: 290px;
+    background: url('../img/pokloni-zatvoreni/17.svg') no-repeat;
+    background-size: contain;
+}
+
+.sedamnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/17.svg') no-repeat;
+}
+
+.osamnaest {
+    left: 0;
+    top: 88%;
+    width: 90vw;
+    height: 145px;
+    background: url('../img/pokloni-zatvoreni/18.svg') no-repeat;
+    background-size: contain;
+}
+
+.osamnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/18.svg') no-repeat;
+}
+
+.devetnaest {
+    left: 0;
+    top: 97%;
+    width: 40vw;
+    height: 174px;
+    background: url('../img/pokloni-zatvoreni/19.svg') no-repeat;
+    background-size: contain;
+}
+
+.devetnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/19.svg') no-repeat;
+}
+
+.naslov h2 {
+    font-size: 2.35rem;
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    color: #064A42;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.pokloni {
+    padding-top: 2rem;
+}
+
+@media (min-width: 992px) {
+    header {
+        min-height: 100vh;
+        background: url('../img/bg.svg') no-repeat, url('../img/shape-bijeli.svg') no-repeat, linear-gradient(180deg, rgba(255, 224, 220, 1) 0%, rgba(255, 224, 220, 1) 100%);
+        background-position: top center, bottom center, center center;
+        background-size: contain, contain;
+        padding: 4rem 0 26rem;
+    }
+
+    .btn-zeleni {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #064A42;
+        border-radius: 32px;
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+        -ms-border-radius: 32px;
+        -o-border-radius: 32px;
+        padding: .5rem;
+    }
+
+    .btn-zeleni p {
+        margin-bottom: 0;
+        margin-left: .75rem;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .kalendar {
+        position: relative;
+        width: 100%;
+        padding-top: 0rem;
+        height: 1250px;
+    }
+
+    .dan {
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .dan:hover {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transition: all 250ms ease;
+        -webkit-transition: all 250ms ease;
+        -moz-transition: all 250ms ease;
+        -ms-transition: all 250ms ease;
+        -o-transition: all 250ms ease;
+    }
+
+    .otvoren {
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+    .jedan {
+        left: 42%;
+        top: 0%;
+        width: 145px;
+        height: 215px;
+        background: url('../img/pokloni-zatvoreni/1.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .jedan.otvoren {
+        background: url('../img/pokloni-otvoreni/1.svg') no-repeat;
+    }
+
+    .dva {
+        left: 60%;
+        top: 6%;
+        width: 175px;
+        height: 160px;
+        background: url('../img/pokloni-zatvoreni/2.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .dva.otvoren {
+        background: url('../img/pokloni-otvoreni/2.svg') no-repeat;
+    }
+
+    .tri {
+        left: 20%;
+        top: 10%;
+        width: 175px;
+        height: 160px;
+        background: url('../img/pokloni-zatvoreni/3.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .tri.otvoren {
+        background: url('../img/pokloni-otvoreni/3.svg') no-repeat;
+    }
+
+    .cetri {
+        left: 5%;
+        top: 26%;
+        width: 140px;
+        height: 135px;
+        background: url('../img/pokloni-zatvoreni/4.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .cetri.otvoren {
+        background: url('../img/pokloni-otvoreni/4.svg') no-repeat;
+    }
+
+    .pet {
+        left: 23%;
+        top: 25%;
+        width: 140px;
+        height: 140px;
+        background: url('../img/pokloni-zatvoreni/5.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .pet.otvoren {
+        background: url('../img/pokloni-otvoreni/5.svg') no-repeat;
+    }
+
+    .sest {
+        left: 42%;
+        top: 20%;
+        width: 145px;
+        height: 200px;
+        background: url('../img/pokloni-zatvoreni/6.svg') no-repeat;
+        background-size: contain;
+    }
+
+ .sest.otvoren {
+        background: url('../img/pokloni-otvoreni/6.svg') no-repeat;
+    }
+
+    .sedam {
+        left: 60%;
+        top: 21%;
+        width: 165px;
+        height: 390px;
+        background: url('../img/pokloni-zatvoreni/7.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .sedam.otvoren {
+        background: url('../img/pokloni-otvoreni/7.svg') no-repeat;
+    }
+
+    .osam {
+        right: 0%;
+        top: 25%;
+        width: 175px;
+        height: 145px;
+        background: url('../img/pokloni-zatvoreni/8.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .osam.otvoren {
+        background: url('../img/pokloni-otvoreni/8-1.svg') no-repeat;
+    }
+
+    .devet {
+        left: 0%;
+        right: unset;
+        top: 39%;
+        width: 175px;
+        height: 160px;
+        background: url('../img/pokloni-zatvoreni/9.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .devet.otvoren {
+        background: url('../img/pokloni-otvoreni/9.svg') no-repeat;
+    }
+
+    .deset {
+        left: 21%;
+        top: 38%;
+        width: 345px;
+        height: 180px;
+        background: url('../img/pokloni-zatvoreni/10.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .deset.otvoren {
+        background: url('../img/pokloni-otvoreni/10-3.svg') no-repeat;
+    }
+
+    .jedanaest {
+        right: 0%;
+        left: unset;
+        top: 39%;
+        width: 160px;
+        height: 200px;
+        background: url('../img/pokloni-zatvoreni/11.svg') no-repeat;
+        background-size: contain;
+    }
+
+    
+    .jedanaest.otvoren {
+        background: url('../img/pokloni-otvoreni/11.svg') no-repeat;
+    }
+
+
+    .dvanaest {
+        left: 0%;
+        right: unset;
+        top: 54%;
+        width: 185px;
+        height: 145px;
+        background: url('../img/pokloni-zatvoreni/12.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .dvanaest.otvoren {
+        background: url('../img/pokloni-otvoreni/12.svg') no-repeat;
+    }
+
+    .trinaest {
+        left: 24%;
+        top: 54%;
+        width: 230px;
+        height: 220px;
+        background: url('../img/pokloni-zatvoreni/13.svg') no-repeat;
+        background-size: contain;
+    }
+    .trinaest.otvoren {
+        background: url('../img/pokloni-otvoreni/13.svg') no-repeat;
+    }
+
+    .cetrnaest {
+        left: 52%;
+        right: unset;
+        top: 54%;
+        width: 260px;
+        height: 220px;
+        background: url('../img/pokloni-zatvoreni/14.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .cetrnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/14.svg') no-repeat;
+    }
+
+    .petnaest {
+        right: 2%;
+        top: 58%;
+        width: 140px;
+        height: 120px;
+        background: url('../img/pokloni-zatvoreni/15.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .petnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/15.svg') no-repeat;
+    }
+
+    .sesnaest {
+        left: 9%;
+        right: unset;
+        top: 74%;
+        width: 175px;
+        height: 145px;
+        background: url('../img/pokloni-zatvoreni/16.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .sesnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/16.svg') no-repeat;
+    }
+
+    .sedamnaest {
+        left: 31%;
+        top: 74%;
+        width: 167px;
+        height: 390px;
+        background: url('../img/pokloni-zatvoreni/17.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .sedamnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/17.svg') no-repeat;
+    }
+
+    .osamnaest {
+        left: 52%;
+        top: 73%;
+        width: 346px;
+        height: 177px;
+        background: url('../img/pokloni-zatvoreni/18.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .osamnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/18.svg') no-repeat;
+    }
+
+    .devetnaest {
+        left: 52%;
+        top: 88%;
+        width: 144px;
+        height: 216px;
+        background: url('../img/pokloni-zatvoreni/19.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .devetnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/19.svg') no-repeat;
+    }
+
+    .naslov h2 {
+        font-size: 3rem;
+        font-family: artigo-display, serif;
+        font-weight: 700;
+        color: #064A42;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+
+    .pokloni {
+        padding-top: 5rem;
+    }
+}
+
+#dan {
+    background: url('../img/shape-bez.svg') no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    padding: 4rem 0 14rem;
+    position: relative;
+}
+
+.ukras-klijent {
+    position: absolute;
+    right: 10%;
+    width: 10vw;
+}
+
+.ukras-klijent2 {
+    position: absolute;
+    right: 0%;
+    bottom: 5%;
+    width: 20vw;
+}
+
+.naslov span {
+    background-color: #064A42;
+    color: #fff;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+}
+
+.naslov p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+
+.pow {
+    padding-top: 4rem;
+}
+
+.pow p {
+    text-transform: uppercase;
+    color: #064A42;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    max-width: 160px;
+    margin: 0 auto;
+}
+
+.logo img{
+    max-width: 160px;
+    max-height: 140px;
+}
+
+.okvir {
+    position: relative;
+    border: 6px solid #064A42;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+
+.cane {
+    position: absolute;
+    width: 100px;
+    left: -30px;
+    bottom: -50px
+}
+
+.poklon-klijent {
+    padding-top: 6rem;
+}
+
+.poklon-klijent a {
+    color: #A82F13;
+    font-weight: 700;
+}
+
+.poklon-klijent a:hover {
+    text-decoration: none;
+    color: #91250c;
+}
+
+
+.poklon-klijent h4 {
+    color: #011A17;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.45;
+    padding-bottom: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0;
+}
+
+.poklon-klijent p {
+    font-size: 1rem;
+    line-height: 1.55;
+    padding-left: 0rem;
+    padding-right: 0;
+}
+
+.pobjednik {
+    background-color: #FAF7F4;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 3rem 1rem;
+    margin-top: 4rem;
+}
+
+.pobjednik h2 {
+    text-transform: uppercase;
+    color: #03342E;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.pobjednik h3 {
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #A82F13;
+    padding-bottom: 1.5rem;
+}
+
+.pobjednik p {
+    padding: 0 !important;
+    font-size: 1rem !important;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5 !important;
+    border-left: none;
+    padding-left: 0 !important;
+}
+
+@media (min-width: 992px) {
+    #dan {
+        background: url('../img/shape-bez.svg') no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        padding: 4rem 0 24rem;
+        position: relative;
+    }
+
+    .ukras-klijent {
+        position: absolute;
+        right: 10%;
+    }
+
+    .ukras-klijent2 {
+        position: absolute;
+        right: 0%;
+        bottom: 30%;
+        width: 10vw;
+    }
+
+    .naslov span {
+        background-color: #064A42;
+        color: #fff;
+        text-transform: uppercase;
+        padding: .5rem 1rem;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .naslov p {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .pow {
+        padding-top: 4rem;
+    }
+
+    .pow p {
+        text-transform: uppercase;
+        color: #064A42;
+        font-size: .875rem;
+        margin-bottom: 1rem;
+    }
+
+    .logo {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+
+    .okvir {
+        position: relative;
+        border: 6px solid #064A42;
+        border-radius: 8px;
+        padding: 2rem;
+    }
+
+    .cane {
+        position: absolute;
+        width: 160px;
+        left: -70px;
+        bottom: -70px
+    }
+
+    .poklon-klijent {
+        padding-top: 8rem;
+    }
+
+    .poklon-klijent a {
+        color: #A82F13;
+        font-weight: 700;
+    }
+
+    .poklon-klijent a:hover {
+        text-decoration: none;
+        color: #91250c;
+    }
+
+
+    .poklon-klijent h4 {
+        color: #011A17;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 1.25rem;
+        line-height: 1.35;
+        padding-bottom: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .poklon-klijent p {
+        font-size: 1.15rem;
+        line-height: 1.45;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .pobjednik {
+        background-color: #FAF7F4;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        padding: 4rem 2rem;
+        margin-top: 3rem;
+    }
+
+    .pobjednik h2 {
+        text-transform: uppercase;
+        color: #03342E;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .pobjednik h3 {
+        font-family: artigo-display, serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #A82F13;
+        padding-bottom: 1.5rem;
+    }
+
+    .pobjednik p {
+        padding: 0 !important;
+        font-size: 1rem !important;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 1.5 !important;
+        border-left: 1px solid #FFDEBD;
+        padding-left: 4rem !important;
+    }
+}
+
+#forma {
+    background: url('../img/shape-zeleni-mob.svg') no-repeat, linear-gradient(180deg, rgba(252, 241, 230, 1) 0%, rgba(252, 241, 230, 1) 100%);
+    background-position: bottom center, center 20%;
+    background-size: contain, contain;
+    padding: 4rem 0 20rem;
+}
+
+.naslov h3 {
+    font-size: 2.5rem;
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    color: #064A42;
+}
+
+form {
+    padding-top: 3rem;
+}
+
+.form-control {
+    background-color: #FAF7F4;
+    border: 1px solid #FFDEBD;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: .75rem;
+    height: calc(1.5em + .75rem + 15px);
+    color: #03342E;
+}
+
+label {
+    color: #03342E;
+}
+
+label a {
+    color: #A82F13;
+    font-weight: 700;
+}
+
+label a:hover {
+    color: #91250c;
+    text-decoration: none;
+}
+
+.btn-forma {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #A82F13;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    font-weight: 600;
+    margin-top: 2rem;
+
+}
+
+.btn-forma:hover {
+    background-color: #91250c;
+    color: #fff;
+}
+
+.ilu {
+    padding-top: 8rem;
+}
+
+.uspjeh {
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color: #A82F13;
+
+
+}
+
+@media (min-width: 992px) {
+    #forma {
+        background: url('../img/shape-zelen.svg') no-repeat, linear-gradient(180deg, rgba(252, 241, 230, 1) 0%, rgba(252, 241, 230, 1) 100%);
+        background-position: bottom center, center 20%;
+        background-size: contain, contain;
+        padding: 0rem 0 28rem;
+    }
+
+    .naslov h3 {
+        font-size: 2.5rem;
+        font-family: artigo-display, serif;
+        font-weight: 700;
+        color: #064A42;
+    }
+
+    form {
+        padding-top: 3rem;
+    }
+
+    .form-control {
+        background-color: #FAF7F4;
+        border: 1px solid #FFDEBD;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        padding: .75rem;
+        height: calc(1.5em + .75rem + 15px);
+        color: #03342E;
+    }
+
+    label {
+        color: #03342E;
+    }
+
+    label a {
+        color: #A82F13;
+        font-weight: 700;
+    }
+
+    label a:hover {
+        color: #91250c;
+        text-decoration: none;
+    }
+
+    .btn-forma {
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        background-color: #A82F13;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 1rem 4rem;
+        font-weight: 600;
+        margin-top: 2rem;
+
+    }
+
+    .btn-forma:hover {
+        background-color: #91250c;
+        color: #fff;
+    }
+}
+
+#zelje {
+    padding: 0 0 8rem;
+    background-color: #064A42;
+}
+
+.bijeli h3 {
+    color: #fff;
+}
+
+.slider{
+    padding-top: 3rem;
+}
+
+.zelja {
+    background-color: #fff;
+    border: 8px solid #FFE0BF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 0 .5rem 1rem;
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
+.varjedan {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.vardva {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.zelja1 {
+    width: 50px;
+    height: 50px;
+    background: url('../img/zelja1.svg') no-repeat;
+    background-size: contain;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+}
+
+.zelja2 {
+    width: 50px;
+    height: 50px;
+    background: url('../img/zelja2.svg') no-repeat;
+    background-size: contain;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+}
+
+.zelja p {
+    font-family: artigo-display, serif;
+    font-weight: 500;
+    color: #064A42;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+.zelja h5 {
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #DF4629;
+}
+
+.slick-track {
+    padding: 1rem 0;
+}
+
+.arrows {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.prev {
+
+    position: absolute;
+
+    cursor: pointer;
+
+    display: block;
+
+    height: 50px;
+
+    width: 50px;
+
+    left: -75px;
+
+    background: url("../img/prev.svg") no-repeat;
+
+    background-position: top;
+
+    background-size: contain;
+
+
+
+}
+
+
+
+.next {
+
+    position: absolute;
+
+    cursor: pointer;
+
+    display: block;
+
+    height: 50px;
+
+    width: 50px;
+
+    right: -75px;
+
+    background: url("../img/next.svg") no-repeat;
+
+    background-position: top;
+
+    background-size: contain;
+
+}
+
+@media (min-width: 992px) {
+    #zelje {
+        padding: 0 0 12rem;
+        background-color: #064A42;
+    }
+
+    .bijeli h3 {
+        color: #fff;
+    }
+
+    .zelja {
+        background-color: #fff;
+        border: 12px solid #FFE0BF;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        margin: 0 1rem;
+        padding: 2rem 1.5rem;
+        position: relative;
+    }
+
+    .varjedan {
+        transform: rotate(1deg);
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+    }
+
+    .vardva {
+        transform: rotate(-1deg);
+        -webkit-transform: rotate(-1deg);
+        -moz-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        -o-transform: rotate(-1deg);
+    }
+
+    .zelja1 {
+        width: 75px;
+        height: 75px;
+        background: url('../img/zelja1.svg') no-repeat;
+        background-size: contain;
+        bottom: 15px;
+        right: 15px;
+        position: absolute;
+    }
+
+    .zelja2 {
+        width: 75px;
+        height: 75px;
+        background: url('../img/zelja2.svg') no-repeat;
+        background-size: contain;
+        bottom: 15px;
+        right: 15px;
+        position: absolute;
+    }
+
+    .zelja p {
+        font-family: artigo-display, serif;
+        font-weight: 500;
+        color: #064A42;
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+
+    .zelja h5 {
+        font-size: .875rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #DF4629;
+    }
+
+    .slick-track {
+        padding: 1rem 0;
+    }
+
+    .arrows {
+        top: 30%;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    .prev {
+
+        position: absolute;
+
+        cursor: pointer;
+
+        display: block;
+
+        height: 50px;
+
+        width: 50px;
+
+        left: -75px;
+
+        background: url("../img/prev.svg") no-repeat;
+
+        background-position: top;
+
+        background-size: contain;
+
+
+
+    }
+
+
+
+    .next {
+
+        position: absolute;
+
+        cursor: pointer;
+
+        display: block;
+
+        height: 50px;
+
+        width: 50px;
+
+        right: -75px;
+
+        background: url("../img/next.svg") no-repeat;
+
+        background-position: top;
+
+        background-size: contain;
+
+    }
+}
+
+footer {
+    padding: 4rem 0 6rem;
+    position: relative;
+}
+
+footer img {
+    padding: 0 1rem;
+    margin-top: 3rem;
+}
+
+.zavrsni {
+    padding-top: 4rem;
+}
+
+.ukras-footer {
+    position: absolute;
+    top: -6rem;
+    width: 30vw;
+}
+
+.ukras-footer2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 30vw;
+}
+
+@media (min-width: 992px) {
+
+    footer {
+        padding: 8rem 0 4rem;
+        position: relative;
+    }
+
+    footer img {
+        padding: 0 1rem;
+        margin-top: 0;
+    }
+
+    .zavrsni {
+        padding-top: 4rem;
+    }
+
+    .ukras-footer {
+        position: absolute;
+        top: -5rem;
+        width: 10vw;
+    }
+
+    .ukras-footer2 {
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        width: 10vw;
+    }
+}

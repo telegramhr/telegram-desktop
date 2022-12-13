@@ -1,0 +1,159 @@
+@media (min-width: 768px) {
+.bnr-mb {
+    display: none;
+}
+}
+@media (max-width: 767px) {
+.row {
+    margin: 0;
+    padding: 0;
+}
+.bnr-desk{
+    display: none;
+}
+h1 {
+    font-size: 36px;
+    line-height: 54px;
+}
+.left-fix-img {
+    bottom: -25%;
+    left: 0;
+    position: absolute;
+    width: 125px;
+}
+.icon {
+    left: 0;
+    position: relative;
+    text-align: left;
+}
+.icon-txt img {
+    margin-left: 3rem;
+    width: 100px;
+}
+.icon-txt span {
+    border: 1px solid #98d400;
+    left: -27px;
+    top: -115px;
+    width: 250px;
+}
+.mid-txt {
+    padding: 1.5rem 0 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 54px;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.section .col-md-7 img.gray-bg {
+    left: auto;
+    right: 40px;
+    width: 60%;
+}
+.col-md-7 .inner-sec {
+    left: 0;
+}
+.section .col-md-5 {
+    padding-top: 7rem;
+}
+.section-2 {
+    margin: 0;
+    padding-top: 0 !important;
+}
+.section-2 .col-md-7 {
+    order: -1;
+}
+
+.page-footer {
+    margin-top: 0 !important;
+}
+.page-footer .ftr-txt-bx {
+    padding: 1rem;
+}
+.page-footer .ftr-txt-bx p {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+}
+.page-footer .col-md-12 p {
+    font-size: 16px;
+	margin-bottom: 1rem;
+}
+}
+@media (min-width: 400px) and (max-width: 639px) {
+.icon-txt span {
+    left: -40px;
+    top: -125px;
+    width: 275px;
+}
+}
+@media (min-width: 640px) and (max-width: 767px) {
+h1 {
+    font-size: 70px;
+    line-height: 95px;
+}
+.section .col-md-5 {
+    padding-top: 10rem;
+}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+.absolute-text-sec {
+    left: 5%;
+    top: 0;
+}
+h1 {
+    font-size: 44px;
+    line-height: 54px;
+}
+.left-fix-img {
+    width: 125px;
+}
+.icon-txt span {
+    left: -75px;
+    top: -125px;
+    width: 270px;
+}
+.col-md-7 .inner-sec {
+    left: 1rem;
+    top: 0rem;
+}
+.section.section-2 .col-md-7 img.gray-bg {
+    left: 15%;
+}
+.page-footer .ftr-txt-bx p {
+    font-size: 35px;
+    line-height: 50px;
+}
+}
+@media (min-width: 980px) and (max-width: 1280px) {
+.icon {
+    left: 5%;
+}
+.icon-txt img {
+    width: 100px;
+}
+h1 {
+    font-size: 54px;
+    line-height: 70px;
+}
+.icon-txt span {
+    left: -98px;
+    top: -145px;
+    width: 300px;
+}
+}
+@media (min-width: 1600px) and (max-width: 1920px) {
+.absolute-text-sec {
+    left: 14%;
+	top: 10%;
+}
+.icon-txt span {
+    left: -240px;
+    top: -290px;
+    width: 600px;
+}
+}

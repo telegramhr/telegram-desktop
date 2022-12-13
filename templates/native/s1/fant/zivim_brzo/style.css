@@ -1,0 +1,236 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    width: 100%;
+}
+
+/* Header */
+
+.main-container {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.native-hero {
+    width: 100%;
+    height: 95vh;
+    padding: 5%;
+}
+.native-title {
+    padding: 5%;
+    z-index: 20;
+}
+h1, h2 {
+    font-family: 'Staatliches', cursive;
+}
+.hero-frame {
+    width: 90%;
+    z-index: 10;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border: 15px solid #962624;
+}
+.native-hero > img {
+    position: absolute;
+}
+.hero-image-1 {
+    z-index: 15;
+    width: 13%;
+    top: -15%;
+    left: 70%;
+}
+.hero-image-2 {
+    width: 35%;
+    top: -10%;
+    left: -10%;
+    z-index: 15;
+}
+.hero-image-3 {
+    width: 25%;
+    bottom: -5%;
+    right: -10%;
+    z-index: 15;
+}
+.native-title h1 {
+    font-size: 150px;
+    line-height: 160px;
+    color: #962624;
+}
+.hero-image-4 {
+    z-index: 15;
+    width: 22%;
+    bottom: -5%;
+    left: 5%;
+}
+h2 {
+    font-size: 32px;
+}
+.native-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.tenth {
+    width: 9.99%;
+}
+.recipe-menu {
+    position: relative;
+    z-index: 20;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.recipe-menu .tenth {
+    padding: 5px;
+}
+.recipe-button {
+    background-color: white;
+    color: #962624;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.active-button {
+    background-color: #962624;
+    color: white;
+}
+.recipe-number {
+    padding-left: 6px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.recipe-number, .day-element {
+    text-align: center;
+}
+.day-element {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.recipe {
+    display: block;
+    cursor: pointer;
+    background-color: #962624;
+    color: white;
+    padding: 30px;
+    padding-left: 20%;
+    position: relative;
+    display: none;
+    opacity: 0;
+}
+.recipe > img {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: -5%;
+    top: -10%;
+    z-index: 10;
+}
+.recipe > img:hover {
+    width: 25%;
+    left: -7.5%;
+    top: -20%;
+}
+.active-recipe {
+    display: block;
+    opacity: 1;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+.shoo-top {
+    margin-top: 50px;
+}
+ul {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+    .native-title h1 {
+        font-size: 64px;
+        line-height: 72px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .native-title {
+        padding: 15%;
+    }
+    .hero-frame {
+        border: 15px solid #962624;
+    }
+    .hero-image-2 {
+        width: 60%;
+        top: -5%;
+        left: -5%;
+    }
+    .hero-image-3 {
+        width: 35%;
+        bottom: -5%;
+        right: -5%;
+    }
+    .hero-image-4 {
+        width: 40%;
+        bottom: 10%;
+        left: -8%;
+    }
+    .recipe {
+        background-color: #962624;
+        color: white;
+        padding: 20px;
+        padding-top: 20%;
+        margin-top: 80%;
+    }
+    .recipe > img {
+        position: absolute;
+        width: 60%;
+        height: auto;
+        left: 20%;
+        top: -25vw;
+        z-index: 10;
+    }
+    .recipe > img:hover {
+        width: 60%;
+        height: auto;
+        left: 20%;
+        top: -25vw;
+    }
+    .tenth {
+        width: 19.99%;
+    }
+    .recipe-number {
+        padding-left: 4px;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}

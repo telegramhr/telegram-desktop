@@ -1,0 +1,187 @@
+/* 
+* Page style
+* by TG Studio
+*/
+
+/* Header */
+
+body {
+    font-family: 'Libre Baskerville', serif;    
+}
+.container {
+    background-color: white;
+}
+a.container {
+    display: block;
+}
+.pattern-bg {
+    background-image: url("img/pattern_fashion_geometry.gif");
+    background-repeat: repeat;
+}
+.pattern-bg .container, footer .container {
+    background: transparent;
+}
+.header-video {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+h2 {
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.title {
+    position: relative;
+    height: 300px;
+    padding: 50px;
+}
+.title-border {
+    position: relative;
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: -150px;
+    top: -150px;
+    z-index: 3;
+    background-image: url("img/pattern_dark_triangles.jpg");
+    background-size: 290px;
+    background-repeat: repeat;
+    /*border: 0.5vw solid #c39447;
+    padding: 50px;*/
+}
+h1 {
+    color: #c39447;
+    background: -webkit-linear-gradient(#c39447, #81622f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 35px;
+}
+.title h2 {
+    color: white;
+}
+.topbar {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.topbar-logo {
+    height: 35px;
+}
+.infographic {
+    mix-blend-mode: darken;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.icongraphic p {
+    font-size: 64px;
+    color: #81622f;
+    margin-top: 50px;
+}
+.icongraphic h5 {
+    font-size: 18px;
+    padding: 5px 25px;
+    color: black;
+    margin-bottom: 0px;
+}
+.sale-box {
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.icongraphic .sale-box p {
+    margin-top: 25px;
+}
+/* Content */
+
+.decorative-article-title {
+    line-height: 1.3em;
+}
+/*.decorative-article-img {
+    padding: 3px;
+    background: linear-gradient(to top, #81622f, #c39447);
+}
+.decorative-article-img img {
+    border: 15px solid white;
+}*/
+.cta {
+    margin-top: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 12px;
+    font-size: 14px;
+    border: #81622f 1px solid;
+    color: #81622f;
+}
+.cta:hover {
+    background-color: #81622f;
+    color: white;
+}
+.overtitle {
+    color: #81622f;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.infographic {
+    background-color: #dbe6ed;
+}
+.infographic img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 880px;
+}
+.container {
+    padding: 50px 30px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1023px) {
+    .article-link:nth-child(2n) .flex-responsive{
+        text-align: right;
+    }
+    .article-link:nth-child(2n) .cta{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header-video {
+        width: 200%;
+        margin-left: -50%;
+    }
+    .title {
+        height: auto;
+    }
+    .title, .title-border {
+        padding: 25px;
+    }
+    .title-border {
+        margin-bottom: -20vw;
+        top: -20vw;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .article-link:nth-child(2n) .flex-responsive:nth-child(1) {
+        order: 2;
+    }
+    .article-link:nth-child(2n) .flex-responsive:nth-child(2) {
+        order: 1;
+    }
+    .article-link .padding25 {
+        padding: 25px 0px;
+    }
+}

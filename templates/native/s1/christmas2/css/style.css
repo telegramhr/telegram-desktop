@@ -1,0 +1,2181 @@
+body {
+    font-family: aileron, sans-serif;
+    font-size: 16px;
+    color: #011A17;
+    position: relative;
+}
+
+.snowflake {
+    width: 2vw;
+    z-index: 1;
+}
+
+@-webkit-keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+
+    100% {
+        top: 100%
+    }
+}
+
+@-webkit-keyframes snowflakes-shake {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+
+    50% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px)
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+}
+
+@keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+
+    100% {
+        top: 100%
+    }
+}
+
+@keyframes snowflakes-shake {
+    0% {
+        transform: translateX(0px)
+    }
+
+    50% {
+        transform: translateX(80px)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+.snowflake {
+    position: fixed;
+    top: -10%;
+    z-index: 999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+    -webkit-animation-duration: 10s, 3s;
+    -webkit-animation-timing-function: linear, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-play-state: running, running;
+    animation-name: snowflakes-fall, snowflakes-shake;
+    animation-duration: 10s, 3s;
+    animation-timing-function: linear, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-play-state: running, running
+}
+
+.snowflake:nth-of-type(0) {
+    left: 1%;
+    -webkit-animation-delay: 0s, 0s;
+    animation-delay: 0s, 0s
+}
+
+.snowflake:nth-of-type(1) {
+    left: 10%;
+    -webkit-animation-delay: 1s, 1s;
+    animation-delay: 1s, 1s
+}
+
+.snowflake:nth-of-type(2) {
+    left: 20%;
+    -webkit-animation-delay: 6s, .5s;
+    animation-delay: 6s, .5s
+}
+
+.snowflake:nth-of-type(3) {
+    left: 30%;
+    -webkit-animation-delay: 4s, 2s;
+    animation-delay: 4s, 2s
+}
+
+.snowflake:nth-of-type(4) {
+    left: 40%;
+    -webkit-animation-delay: 2s, 2s;
+    animation-delay: 2s, 2s
+}
+
+.snowflake:nth-of-type(5) {
+    left: 50%;
+    -webkit-animation-delay: 8s, 3s;
+    animation-delay: 8s, 3s
+}
+
+.snowflake:nth-of-type(6) {
+    left: 60%;
+    -webkit-animation-delay: 6s, 2s;
+    animation-delay: 6s, 2s
+}
+
+.snowflake:nth-of-type(7) {
+    left: 70%;
+    -webkit-animation-delay: 2.5s, 1s;
+    animation-delay: 2.5s, 1s
+}
+
+.snowflake:nth-of-type(8) {
+    left: 80%;
+    -webkit-animation-delay: 1s, 0s;
+    animation-delay: 1s, 0s
+}
+
+.snowflake:nth-of-type(9) {
+    left: 90%;
+    -webkit-animation-delay: 3s, 1.5s;
+    animation-delay: 3s, 1.5s
+}
+
+
+
+@-webkit-keyframes swinging {
+    0% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-2deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(5deg);
+    }
+}
+
+@keyframes swinging {
+    0% {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+    }
+}
+
+#pocetna {
+    background-color: #064A42;
+    min-height: auto;
+    padding: 20vh 0 8vh;
+    padding-bottom: 200px;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+}
+
+.uvod p {
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.uvod {
+    padding-top: 10vh;
+}
+
+.donosi {
+    padding-top: 10vh;
+}
+
+.donosi p {
+    text-transform: uppercase;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.ukras {
+    position: absolute;
+    z-index: 999999;
+}
+
+.prvi {
+    top: 0;
+    width: 12vw;
+    left: 1%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+
+.drugi {
+    top: 0;
+    width: 17vw;
+    left: 12%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+    animation: swinging 2.5s ease-in-out forwards infinite;
+}
+
+.treci {
+    top: 0;
+    width: 15vw;
+    left: 35%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3s ease-in-out forwards infinite;
+    animation: swinging 3s ease-in-out forwards infinite;
+}
+
+.cetvrti {
+    top: 0;
+    width: 15vw;
+    right: 40%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+    animation: swinging 2.5s ease-in-out forwards infinite;
+}
+
+.peti {
+    top: 0;
+    width: 18vw;
+    right: 25%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.sesti {
+    top: 0;
+    width: 10vw;
+    right: 10%;
+    z-index: 99;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.sedmi {
+    top: 0;
+    width: 15vw;
+    right: 1%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 4.5s ease-in-out forwards infinite;
+    animation: swinging 4.5s ease-in-out forwards infinite;
+}
+
+
+.btn-crveni {
+    background-color: #A82F13;
+    color: #fff;
+    font-family: artigo-display, serif;
+    font-weight: 400;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    min-width: 50%;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border: 1px solid #E14A34;
+    position: relative;
+
+}
+
+.btn-crveni:hover {
+    background-color: #91250c;
+    color: #fff;
+}
+
+.btn-crveni p {
+    margin-bottom: .25rem;
+    text-align: left;
+}
+
+.btn-crveni p::after {
+    content: "";
+    width: 30px;
+    height: 12px;
+    background: url('../img/strelica.svg') no-repeat;
+    background-position: center right;
+    background-size: contain;
+    display: inline-block;
+    margin-left: .5rem;
+}
+
+.btn-crveni:hover p::after {
+    margin-left: 1.5rem;
+}
+
+@media (min-width: 992px) {
+
+    #pocetna {
+        padding: 3vh 0;
+        padding-bottom: 200px;
+    }
+
+    .uvod p {
+        font-size: 1.375rem;
+        font-weight: 300;
+    }
+
+    .uvod {
+        padding-top: 5vh;
+    }
+
+    .donosi {
+        padding-top: 10vh;
+    }
+
+    .donosi p {
+        text-transform: uppercase;
+        font-size: .875rem;
+        font-weight: 700;
+    }
+
+    .ukras {
+        position: absolute;
+        z-index: 999999;
+    }
+
+    .prvi {
+        top: 0;
+        width: 8vw;
+        left: 1%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+        animation: swinging 3.5s ease-in-out forwards infinite;
+    }
+
+
+    .drugi {
+        top: 0;
+        width: 8vw;
+        left: 6%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+        animation: swinging 2.5s ease-in-out forwards infinite;
+    }
+
+    .treci {
+        top: 0;
+        width: 8vw;
+        left: 15%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3s ease-in-out forwards infinite;
+        animation: swinging 3s ease-in-out forwards infinite;
+    }
+
+    .cetvrti {
+        top: 0;
+        width: 8vw;
+        right: 16%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+        animation: swinging 2.5s ease-in-out forwards infinite;
+    }
+
+    .peti {
+        top: 0;
+        width: 9vw;
+        right: 11%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+        animation: swinging 3.5s ease-in-out forwards infinite;
+    }
+
+    .sesti {
+        top: 0;
+        width: 4vw;
+        right: 5%;
+        z-index: 99;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+        animation: swinging 3.5s ease-in-out forwards infinite;
+    }
+
+    .sedmi {
+        top: 0;
+        width: 8vw;
+        right: 1%;
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 4.5s ease-in-out forwards infinite;
+        animation: swinging 4.5s ease-in-out forwards infinite;
+    }
+
+
+    .btn-crveni {
+        background-color: #A82F13;
+        color: #fff;
+        font-family: artigo-display, serif;
+        font-weight: 400;
+        padding: 1rem 4rem;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        min-width: 45%;
+        font-size: 1.625rem;
+        margin-top: 2rem;
+        border: 1px solid #E14A34;
+        position: relative;
+
+    }
+
+    .btn-crveni:hover {
+        background-color: #91250c;
+        color: #fff;
+    }
+
+    .btn-crveni p {
+        margin-bottom: .25rem;
+        text-align: left;
+    }
+
+    .btn-crveni p::after {
+        content: "";
+        width: 40px;
+        height: 12px;
+        background: url('../img/strelica.svg') no-repeat;
+        background-position: center center;
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .btn-crveni:hover p::after {
+        margin-left: 1.5rem;
+    }
+}
+
+header {
+    min-height: 100vh;
+    background: url('../img/bg-mob.svg') no-repeat, url('../img/shape-bijeli-mob.svg') no-repeat, linear-gradient(180deg, rgba(255, 224, 220, 1) 0%, rgba(255, 224, 220, 1) 100%);
+    background-position: top center, bottom center, center center;
+    background-size: contain, contain;
+    padding: 4rem 0 24rem;
+}
+
+.btn-zeleni {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #064A42;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    padding: .5rem;
+}
+
+.btn-zeleni p {
+    margin-bottom: 0;
+    margin-left: .75rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+}
+
+.kalendar {
+    position: relative;
+    width: 100%;
+    padding-top: 0rem;
+    height: 320vh;
+}
+
+.dan {
+    position: absolute;
+    pointer-events: none;
+}
+
+.dan:hover {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+}
+
+.otvoren {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.jedan {
+    left: 0%;
+    top: 0;
+    width: 40vw;
+    height: 215px;
+    background: url('../img/pokloni-zatvoreni/1.svg') no-repeat;
+    background-size: contain;
+}
+
+.jedan.otvoren {
+    background: url('../img/pokloni-otvoreni/1.svg') no-repeat;
+}
+
+.dva {
+    left: 50%;
+    top: 4%;
+    width: 40vw;
+    height: 160px;
+    background: url('../img/pokloni-zatvoreni/2.svg') no-repeat;
+    background-size: contain;
+}
+
+.dva.otvoren {
+    background: url('../img/pokloni-otvoreni/2.svg') no-repeat;
+}
+
+.tri {
+    left: 0%;
+    top: 12%;
+    width: 40vw;
+    height: 160px;
+    background: url('../img/pokloni-zatvoreni/3.svg') no-repeat;
+    background-size: contain;
+}
+
+.tri.otvoren {
+    background: url('../img/pokloni-otvoreni/3.svg') no-repeat;
+}
+
+.cetri {
+    left: 50%;
+    top: 12%;
+    width: 40vw;
+    height: 135px;
+    background: url('../img/pokloni-zatvoreni/4.svg') no-repeat;
+    background-size: contain;
+}
+
+.cetri.otvoren {
+    background: url('../img/pokloni-otvoreni/4.svg') no-repeat;
+}
+
+.pet {
+    left: 0%;
+    top: 20%;
+    width: 50vw;
+    height: 140px;
+    background: url('../img/pokloni-zatvoreni/5.svg') no-repeat;
+    background-size: contain;
+}
+
+.pet.otvoren {
+    background: url('../img/pokloni-otvoreni/5.svg') no-repeat;
+}
+
+.sest {
+    left: 52%;
+    top: 20%;
+    width: 40vw;
+    height: 200px;
+    background: url('../img/pokloni-zatvoreni/6.svg') no-repeat;
+    background-size: contain;
+}
+
+ .sest.otvoren {
+    background: url('../img/pokloni-otvoreni/6.svg') no-repeat;
+}
+.sedam {
+    left: 0%;
+    top: 29%;
+    width: 40vw;
+    height: 390px;
+    background: url('../img/pokloni-zatvoreni/7.svg') no-repeat;
+    background-size: contain;
+}
+
+.sedam.otvoren {
+    background: url('../img/pokloni-otvoreni/7.svg') no-repeat;
+}
+
+.osam {
+    right: 0%;
+    top: 31%;
+    width: 40vw;
+    height: 145px;
+    background: url('../img/pokloni-zatvoreni/8.svg') no-repeat;
+    background-size: contain;
+}
+
+.osam.otvoren {
+    background: url('../img/pokloni-otvoreni/8-1.svg') no-repeat;
+}
+
+.devet {
+    left: unset;
+    right: 0;
+    top: 38%;
+    width: 40vw;
+    height: 160px;
+    background: url('../img/pokloni-zatvoreni/9.svg') no-repeat;
+    background-size: contain;
+}
+
+.devet.otvoren {
+    background: url('../img/pokloni-otvoreni/9.svg') no-repeat;
+}
+
+.deset {
+    left: 0%;
+    top: 46%;
+    width: 90vw;
+    height: 180px;
+    background: url('../img/pokloni-zatvoreni/10.svg') no-repeat;
+    background-size: contain;
+}
+
+.deset.otvoren {
+    background: url('../img/pokloni-otvoreni/10-3.svg') no-repeat;
+}
+
+.jedanaest {
+    right: unset;
+    left: 0;
+    top: 55%;
+    width: 35vw;
+    height: 200px;
+    background: url('../img/pokloni-zatvoreni/11.svg') no-repeat;
+    background-size: contain;
+}
+
+.jedanaest.otvoren {
+    background: url('../img/pokloni-otvoreni/11.svg') no-repeat;
+}
+
+
+.dvanaest {
+    left: unset;
+    right: 0;
+    top: 55%;
+    width: 50vw;
+    height: 145px;
+    background: url('../img/pokloni-zatvoreni/12.svg') no-repeat;
+    background-size: contain;
+}
+
+.dvanaest.otvoren {
+    background: url('../img/pokloni-otvoreni/12.svg') no-repeat;
+}
+
+
+.trinaest {
+    left: 0;
+    top: 64%;
+    width: 40vw;
+    height: 220px;
+    background: url('../img/pokloni-zatvoreni/13.svg') no-repeat;
+    background-size: contain;
+}
+
+.trinaest.otvoren {
+    background: url('../img/pokloni-otvoreni/13.svg') no-repeat;
+}
+
+.cetrnaest {
+    left: unset;
+    right: 0;
+    top: 64%;
+    width: 45vw;
+    height: 220px;
+    background: url('../img/pokloni-zatvoreni/14.svg') no-repeat;
+    background-size: contain;
+}
+
+.cetrnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/14.svg') no-repeat;
+}
+
+.petnaest {
+    right: 2%;
+    top: 72%;
+    width: 40vw;
+    height: 120px;
+    background: url('../img/pokloni-zatvoreni/15.svg') no-repeat;
+    background-size: contain;
+}
+
+.petnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/15.svg') no-repeat;
+}
+
+.sesnaest {
+    right: 2%;
+    left: unset;
+    top: 80%;
+    width: 40vw;
+    height: 120px;
+    background: url('../img/pokloni-zatvoreni/16.svg') no-repeat;
+    background-size: contain;
+}
+
+.sesnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/16.svg') no-repeat;
+}
+
+.sedamnaest {
+    left: 0;
+    top: 72%;
+    width: 40vw;
+    height: 290px;
+    background: url('../img/pokloni-zatvoreni/17.svg') no-repeat;
+    background-size: contain;
+}
+
+.sedamnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/17.svg') no-repeat;
+}
+
+.osamnaest {
+    left: 0;
+    top: 88%;
+    width: 90vw;
+    height: 145px;
+    background: url('../img/pokloni-zatvoreni/18.svg') no-repeat;
+    background-size: contain;
+}
+
+.osamnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/18.svg') no-repeat;
+}
+
+.devetnaest {
+    left: 0;
+    top: 97%;
+    width: 40vw;
+    height: 174px;
+    background: url('../img/pokloni-zatvoreni/19.svg') no-repeat;
+    background-size: contain;
+}
+
+.devetnaest.otvoren {
+    background: url('../img/pokloni-otvoreni/19.svg') no-repeat;
+}
+
+.naslov h2 {
+    font-size: 2.35rem;
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    color: #064A42;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.pokloni {
+    padding-top: 2rem;
+}
+
+@media (min-width: 992px) {
+    header {
+        min-height: 100vh;
+        background: url('../img/bg.svg') no-repeat, url('../img/shape-bijeli.svg') no-repeat, linear-gradient(180deg, rgba(255, 224, 220, 1) 0%, rgba(255, 224, 220, 1) 100%);
+        background-position: top center, bottom center, center center;
+        background-size: contain, contain;
+        padding: 4rem 0 26rem;
+    }
+
+    .btn-zeleni {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #064A42;
+        border-radius: 32px;
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+        -ms-border-radius: 32px;
+        -o-border-radius: 32px;
+        padding: .5rem;
+    }
+
+    .btn-zeleni p {
+        margin-bottom: 0;
+        margin-left: .75rem;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .kalendar {
+        position: relative;
+        width: 100%;
+        padding-top: 0rem;
+        height: 1250px;
+    }
+
+    .dan {
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .dan:hover {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transition: all 250ms ease;
+        -webkit-transition: all 250ms ease;
+        -moz-transition: all 250ms ease;
+        -ms-transition: all 250ms ease;
+        -o-transition: all 250ms ease;
+    }
+
+    .otvoren {
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+    .jedan {
+        left: 42%;
+        top: 0%;
+        width: 145px;
+        height: 215px;
+        background: url('../img/pokloni-zatvoreni/1.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .jedan.otvoren {
+        background: url('../img/pokloni-otvoreni/1.svg') no-repeat;
+    }
+
+    .dva {
+        left: 60%;
+        top: 6%;
+        width: 175px;
+        height: 160px;
+        background: url('../img/pokloni-zatvoreni/2.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .dva.otvoren {
+        background: url('../img/pokloni-otvoreni/2.svg') no-repeat;
+    }
+
+    .tri {
+        left: 20%;
+        top: 10%;
+        width: 175px;
+        height: 160px;
+        background: url('../img/pokloni-zatvoreni/3.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .tri.otvoren {
+        background: url('../img/pokloni-otvoreni/3.svg') no-repeat;
+    }
+
+    .cetri {
+        left: 5%;
+        top: 26%;
+        width: 140px;
+        height: 135px;
+        background: url('../img/pokloni-zatvoreni/4.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .cetri.otvoren {
+        background: url('../img/pokloni-otvoreni/4.svg') no-repeat;
+    }
+
+    .pet {
+        left: 23%;
+        top: 25%;
+        width: 140px;
+        height: 140px;
+        background: url('../img/pokloni-zatvoreni/5.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .pet.otvoren {
+        background: url('../img/pokloni-otvoreni/5.svg') no-repeat;
+    }
+
+    .sest {
+        left: 42%;
+        top: 20%;
+        width: 145px;
+        height: 200px;
+        background: url('../img/pokloni-zatvoreni/6.svg') no-repeat;
+        background-size: contain;
+    }
+
+ .sest.otvoren {
+        background: url('../img/pokloni-otvoreni/6.svg') no-repeat;
+    }
+
+    .sedam {
+        left: 60%;
+        top: 21%;
+        width: 165px;
+        height: 390px;
+        background: url('../img/pokloni-zatvoreni/7.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .sedam.otvoren {
+        background: url('../img/pokloni-otvoreni/7.svg') no-repeat;
+    }
+
+    .osam {
+        right: 0%;
+        top: 25%;
+        width: 175px;
+        height: 145px;
+        background: url('../img/pokloni-zatvoreni/8.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .osam.otvoren {
+        background: url('../img/pokloni-otvoreni/8-1.svg') no-repeat;
+    }
+
+    .devet {
+        left: 0%;
+        right: unset;
+        top: 39%;
+        width: 175px;
+        height: 160px;
+        background: url('../img/pokloni-zatvoreni/9.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .devet.otvoren {
+        background: url('../img/pokloni-otvoreni/9.svg') no-repeat;
+    }
+
+    .deset {
+        left: 21%;
+        top: 38%;
+        width: 345px;
+        height: 180px;
+        background: url('../img/pokloni-zatvoreni/10.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .deset.otvoren {
+        background: url('../img/pokloni-otvoreni/10-3.svg') no-repeat;
+    }
+
+    .jedanaest {
+        right: 0%;
+        left: unset;
+        top: 39%;
+        width: 160px;
+        height: 200px;
+        background: url('../img/pokloni-zatvoreni/11.svg') no-repeat;
+        background-size: contain;
+    }
+
+    
+    .jedanaest.otvoren {
+        background: url('../img/pokloni-otvoreni/11.svg') no-repeat;
+    }
+
+
+    .dvanaest {
+        left: 0%;
+        right: unset;
+        top: 54%;
+        width: 185px;
+        height: 145px;
+        background: url('../img/pokloni-zatvoreni/12.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .dvanaest.otvoren {
+        background: url('../img/pokloni-otvoreni/12.svg') no-repeat;
+    }
+
+    .trinaest {
+        left: 24%;
+        top: 54%;
+        width: 230px;
+        height: 220px;
+        background: url('../img/pokloni-zatvoreni/13.svg') no-repeat;
+        background-size: contain;
+    }
+    .trinaest.otvoren {
+        background: url('../img/pokloni-otvoreni/13.svg') no-repeat;
+    }
+
+    .cetrnaest {
+        left: 52%;
+        right: unset;
+        top: 54%;
+        width: 260px;
+        height: 220px;
+        background: url('../img/pokloni-zatvoreni/14.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .cetrnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/14.svg') no-repeat;
+    }
+
+    .petnaest {
+        right: 2%;
+        top: 58%;
+        width: 140px;
+        height: 120px;
+        background: url('../img/pokloni-zatvoreni/15.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .petnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/15.svg') no-repeat;
+    }
+
+    .sesnaest {
+        left: 9%;
+        right: unset;
+        top: 74%;
+        width: 175px;
+        height: 145px;
+        background: url('../img/pokloni-zatvoreni/16.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .sesnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/16.svg') no-repeat;
+    }
+
+    .sedamnaest {
+        left: 31%;
+        top: 74%;
+        width: 167px;
+        height: 390px;
+        background: url('../img/pokloni-zatvoreni/17.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .sedamnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/17.svg') no-repeat;
+    }
+
+    .osamnaest {
+        left: 52%;
+        top: 73%;
+        width: 346px;
+        height: 177px;
+        background: url('../img/pokloni-zatvoreni/18.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .osamnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/18.svg') no-repeat;
+    }
+
+    .devetnaest {
+        left: 52%;
+        top: 88%;
+        width: 144px;
+        height: 216px;
+        background: url('../img/pokloni-zatvoreni/19.svg') no-repeat;
+        background-size: contain;
+    }
+
+    .devetnaest.otvoren {
+        background: url('../img/pokloni-otvoreni/19.svg') no-repeat;
+    }
+
+    .naslov h2 {
+        font-size: 3rem;
+        font-family: artigo-display, serif;
+        font-weight: 700;
+        color: #064A42;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+
+    .pokloni {
+        padding-top: 5rem;
+    }
+}
+
+#dan {
+    background: url('../img/shape-bez.svg') no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    padding: 4rem 0 14rem;
+    position: relative;
+}
+
+.ukras-klijent {
+    position: absolute;
+    right: 10%;
+    width: 10vw;
+}
+
+.ukras-klijent2 {
+    position: absolute;
+    right: 0%;
+    bottom: 5%;
+    width: 20vw;
+}
+
+.naslov span {
+    background-color: #064A42;
+    color: #fff;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+}
+
+.naslov p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+
+.pow {
+    padding-top: 4rem;
+}
+
+.pow p {
+    text-transform: uppercase;
+    color: #064A42;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    max-width: 160px;
+    margin: 0 auto;
+}
+
+.logo img{
+    max-width: 160px;
+    max-height: 140px;
+}
+
+.okvir {
+    position: relative;
+    border: 6px solid #064A42;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+
+.cane {
+    position: absolute;
+    width: 100px;
+    left: -30px;
+    bottom: -50px
+}
+
+.poklon-klijent {
+    padding-top: 6rem;
+}
+
+.poklon-klijent a {
+    color: #A82F13;
+    font-weight: 700;
+}
+
+.poklon-klijent a:hover {
+    text-decoration: none;
+    color: #91250c;
+}
+
+
+.poklon-klijent h4 {
+    color: #011A17;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.45;
+    padding-bottom: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0;
+}
+
+.poklon-klijent p {
+    font-size: 1rem;
+    line-height: 1.55;
+    padding-left: 0rem;
+    padding-right: 0;
+}
+
+.pobjednik {
+    background-color: #FAF7F4;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 3rem 1rem;
+    margin-top: 4rem;
+}
+
+.pobjednik h2 {
+    text-transform: uppercase;
+    color: #03342E;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.pobjednik h3 {
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #A82F13;
+    padding-bottom: 1.5rem;
+}
+
+.pobjednik p {
+    padding: 0 !important;
+    font-size: 1rem !important;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5 !important;
+    border-left: none;
+    padding-left: 0 !important;
+}
+
+@media (min-width: 992px) {
+    #dan {
+        background: url('../img/shape-bez.svg') no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        padding: 4rem 0 24rem;
+        position: relative;
+    }
+
+    .ukras-klijent {
+        position: absolute;
+        right: 10%;
+    }
+
+    .ukras-klijent2 {
+        position: absolute;
+        right: 0%;
+        bottom: 30%;
+        width: 10vw;
+    }
+
+    .naslov span {
+        background-color: #064A42;
+        color: #fff;
+        text-transform: uppercase;
+        padding: .5rem 1rem;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .naslov p {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .pow {
+        padding-top: 4rem;
+    }
+
+    .pow p {
+        text-transform: uppercase;
+        color: #064A42;
+        font-size: .875rem;
+        margin-bottom: 1rem;
+    }
+
+    .logo {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+
+    .okvir {
+        position: relative;
+        border: 6px solid #064A42;
+        border-radius: 8px;
+        padding: 2rem;
+    }
+
+    .cane {
+        position: absolute;
+        width: 160px;
+        left: -70px;
+        bottom: -70px
+    }
+
+    .poklon-klijent {
+        padding-top: 8rem;
+    }
+
+    .poklon-klijent a {
+        color: #A82F13;
+        font-weight: 700;
+    }
+
+    .poklon-klijent a:hover {
+        text-decoration: none;
+        color: #91250c;
+    }
+
+
+    .poklon-klijent h4 {
+        color: #011A17;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 1.25rem;
+        line-height: 1.35;
+        padding-bottom: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .poklon-klijent p {
+        font-size: 1.15rem;
+        line-height: 1.45;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .pobjednik {
+        background-color: #FAF7F4;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        padding: 4rem 2rem;
+        margin-top: 3rem;
+    }
+
+    .pobjednik h2 {
+        text-transform: uppercase;
+        color: #03342E;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .pobjednik h3 {
+        font-family: artigo-display, serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #A82F13;
+        padding-bottom: 1.5rem;
+    }
+
+    .pobjednik p {
+        padding: 0 !important;
+        font-size: 1rem !important;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 1.5 !important;
+        border-left: 1px solid #FFDEBD;
+        padding-left: 4rem !important;
+    }
+}
+
+#forma {
+    background: url('../img/shape-zeleni-mob.svg') no-repeat, linear-gradient(180deg, rgba(252, 241, 230, 1) 0%, rgba(252, 241, 230, 1) 100%);
+    background-position: bottom center, center 20%;
+    background-size: contain, contain;
+    padding: 4rem 0 20rem;
+}
+
+.naslov h3 {
+    font-size: 2.5rem;
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    color: #064A42;
+}
+
+form {
+    padding-top: 3rem;
+}
+
+.form-control {
+    background-color: #FAF7F4;
+    border: 1px solid #FFDEBD;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: .75rem;
+    height: calc(1.5em + .75rem + 15px);
+    color: #03342E;
+}
+
+label {
+    color: #03342E;
+}
+
+label a {
+    color: #A82F13;
+    font-weight: 700;
+}
+
+label a:hover {
+    color: #91250c;
+    text-decoration: none;
+}
+
+.btn-forma {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #A82F13;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    font-weight: 600;
+    margin-top: 2rem;
+
+}
+
+.btn-forma:hover {
+    background-color: #91250c;
+    color: #fff;
+}
+
+.ilu {
+    padding-top: 8rem;
+}
+
+.uspjeh {
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color: #A82F13;
+
+
+}
+
+@media (min-width: 992px) {
+    #forma {
+        background: url('../img/shape-zelen.svg') no-repeat, linear-gradient(180deg, rgba(252, 241, 230, 1) 0%, rgba(252, 241, 230, 1) 100%);
+        background-position: bottom center, center 20%;
+        background-size: contain, contain;
+        padding: 0rem 0 28rem;
+    }
+
+    .naslov h3 {
+        font-size: 2.5rem;
+        font-family: artigo-display, serif;
+        font-weight: 700;
+        color: #064A42;
+    }
+
+    form {
+        padding-top: 3rem;
+    }
+
+    .form-control {
+        background-color: #FAF7F4;
+        border: 1px solid #FFDEBD;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        padding: .75rem;
+        height: calc(1.5em + .75rem + 15px);
+        color: #03342E;
+    }
+
+    label {
+        color: #03342E;
+    }
+
+    label a {
+        color: #A82F13;
+        font-weight: 700;
+    }
+
+    label a:hover {
+        color: #91250c;
+        text-decoration: none;
+    }
+
+    .btn-forma {
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        background-color: #A82F13;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 1rem 4rem;
+        font-weight: 600;
+        margin-top: 2rem;
+
+    }
+
+    .btn-forma:hover {
+        background-color: #91250c;
+        color: #fff;
+    }
+}
+
+#zelje {
+    padding: 0 0 8rem;
+    background-color: #064A42;
+}
+
+.bijeli h3 {
+    color: #fff;
+}
+
+.slider{
+    padding-top: 3rem;
+}
+
+.zelja {
+    background-color: #fff;
+    border: 8px solid #FFE0BF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 0 .5rem 1rem;
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
+.varjedan {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.vardva {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.zelja1 {
+    width: 50px;
+    height: 50px;
+    background: url('../img/zelja1.svg') no-repeat;
+    background-size: contain;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+}
+
+.zelja2 {
+    width: 50px;
+    height: 50px;
+    background: url('../img/zelja2.svg') no-repeat;
+    background-size: contain;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+}
+
+.zelja p {
+    font-family: artigo-display, serif;
+    font-weight: 500;
+    color: #064A42;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+.zelja h5 {
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #DF4629;
+}
+
+.arrows {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.prev {
+
+    position: absolute;
+
+    cursor: pointer;
+
+    display: block;
+
+    height: 50px;
+
+    width: 50px;
+
+    left: -75px;
+
+    background: url("../img/prev.svg") no-repeat;
+
+    background-position: top;
+
+    background-size: contain;
+
+
+
+}
+
+
+
+.next {
+
+    position: absolute;
+
+    cursor: pointer;
+
+    display: block;
+
+    height: 50px;
+
+    width: 50px;
+
+    right: -75px;
+
+    background: url("../img/next.svg") no-repeat;
+
+    background-position: top;
+
+    background-size: contain;
+
+}
+
+@media (min-width: 992px) {
+    #zelje {
+        padding: 0 0 12rem;
+        background-color: #064A42;
+    }
+
+    .bijeli h3 {
+        color: #fff;
+    }
+
+    .zelja {
+        background-color: #fff;
+        border: 12px solid #FFE0BF;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        margin: 0 1rem;
+        padding: 2rem 1.5rem;
+        position: relative;
+    }
+
+    .varjedan {
+        transform: rotate(1deg);
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+    }
+
+    .vardva {
+        transform: rotate(-1deg);
+        -webkit-transform: rotate(-1deg);
+        -moz-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        -o-transform: rotate(-1deg);
+    }
+
+    .zelja1 {
+        width: 75px;
+        height: 75px;
+        background: url('../img/zelja1.svg') no-repeat;
+        background-size: contain;
+        bottom: 15px;
+        right: 15px;
+        position: absolute;
+    }
+
+    .zelja2 {
+        width: 75px;
+        height: 75px;
+        background: url('../img/zelja2.svg') no-repeat;
+        background-size: contain;
+        bottom: 15px;
+        right: 15px;
+        position: absolute;
+    }
+
+    .zelja p {
+        font-family: artigo-display, serif;
+        font-weight: 500;
+        color: #064A42;
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+
+    .zelja h5 {
+        font-size: .875rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #DF4629;
+    }
+
+    .arrows {
+        top: 30%;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    .prev {
+
+        position: absolute;
+
+        cursor: pointer;
+
+        display: block;
+
+        height: 50px;
+
+        width: 50px;
+
+        left: -75px;
+
+        background: url("../img/prev.svg") no-repeat;
+
+        background-position: top;
+
+        background-size: contain;
+
+
+
+    }
+
+
+
+    .next {
+
+        position: absolute;
+
+        cursor: pointer;
+
+        display: block;
+
+        height: 50px;
+
+        width: 50px;
+
+        right: -75px;
+
+        background: url("../img/next.svg") no-repeat;
+
+        background-position: top;
+
+        background-size: contain;
+
+    }
+}
+
+footer {
+    padding: 4rem 0 6rem;
+    position: relative;
+}
+
+footer img {
+    padding: 0 1rem;
+    margin-top: 3rem;
+}
+
+.zavrsni {
+    padding-top: 4rem;
+}
+
+.ukras-footer {
+    position: absolute;
+    top: -6rem;
+    width: 30vw;
+}
+
+.ukras-footer2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 30vw;
+}
+
+@media (min-width: 992px) {
+
+    footer {
+        padding: 8rem 0 4rem;
+        position: relative;
+    }
+
+    footer img {
+        padding: 0 1rem;
+        margin-top: 0;
+    }
+
+    .zavrsni {
+        padding-top: 4rem;
+    }
+
+    .ukras-footer {
+        position: absolute;
+        top: -5rem;
+        width: 10vw;
+    }
+
+    .ukras-footer2 {
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        width: 10vw;
+    }
+}
+
+/* New stuff */
+
+.gallery .full {
+    width: 100%;
+}
+.column-pad {
+    padding: 24px;
+}
+.gallery .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery {
+    width: 100%;
+    margin-top: -150px;
+    z-index: 1000;
+    padding-bottom: 32px;
+    margin-bottom: 300px;
+}
+.gallery .column-pad > .full {
+    background-color: #B85243;
+    color: white;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.gallery .column-pad > .full .slide-padding {
+    padding: 0px 16px;
+}
+.gallery .slide-padding h3 {
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    margin-top: 16px;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+}
+h1 {
+    font-family: artigo-display, serif;
+    font-weight: 700;
+    font-size: 72px;
+    margin-bottom: 24px;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+}
+.gallery .slide-padding p {
+    text-align: center;
+}
+.gallery .column-pad > .full::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: white;
+    opacity: .2;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -ms-transition: all 0.75s;
+    -o-transition: all 0.75s;
+    transition: all 0.75s;
+    pointer-events: none;
+}
+.gallery .slick-current.column-pad {
+    transform: scale(1.08);
+}
+.gallery .slick-current.column-pad .full::before {
+    opacity: 0;
+}
+.arrow {
+    width: 24px;
+    height: 24px;
+    transform: rotate(-135deg);
+    border-right: 5px solid #fff;
+    border-top: 5px solid #fff;
+}
+.gallery .arrow {
+    position: absolute;
+    top: 64px;
+    cursor: pointer;
+    color: #fff;
+    left: -64px;
+}
+.gallery .arrow-right {
+    left: auto;
+    right: -64px;
+    transform: rotate(48deg);
+}
+.gallery img {
+    width: 100%;
+}
+.element-of-surprise {
+    position: relative;
+    padding-top: 100%;
+}
+.clickable {
+    cursor: pointer;
+}
+.element-of-surprise {
+    background-image: url(../img/gift_pattern_1.png);
+    background-size: cover;
+}
+.gallery .slick-track > .flex:nth-child(2) .element-of-surprise, 
+.gallery .slick-track > .flex:nth-child(8) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(14) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(20) .element-of-surprise {
+    background-image: url(../img/gift_pattern_2.png);
+}
+.gallery .slick-track > .flex:nth-child(3) .element-of-surprise, 
+.gallery .slick-track > .flex:nth-child(9) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(15) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(21) .element-of-surprise {
+    background-image: url(../img/gift_pattern_3.png);
+}
+.gallery .slick-track > .flex:nth-child(4) .element-of-surprise, 
+.gallery .slick-track > .flex:nth-child(10) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(16) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(22) .element-of-surprise {
+    background-image: url(../img/gift_pattern_4.png);
+}
+.gallery .slick-track > .flex:nth-child(5) .element-of-surprise, 
+.gallery .slick-track > .flex:nth-child(11) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(17) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(23) .element-of-surprise {
+    background-image: url(../img/gift_pattern_5.png);
+}
+.gallery .slick-track > .flex:nth-child(6) .element-of-surprise, 
+.gallery .slick-track > .flex:nth-child(12) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(18) .element-of-surprise,
+.gallery .slick-track > .flex:nth-child(24) .element-of-surprise {
+    background-image: url(../img/gift_pattern_6.png);
+}
+.element-of-surprise .gift-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+img.client-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    object-position: bottom right;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .gallery .slick-current.column-pad {
+        transform: scale(1);
+    }
+    .gallery .arrow {
+        top: 200px;
+        left: 8px;
+        width: 18px;
+        height: 18px;
+        border-width: 3px;
+        z-index: 30;
+        border-color: black;
+    }
+    .gallery .column-pad > .full::before {
+        opacity: .6;
+    }
+    /*.gallery .column-pad > .full {
+        overflow: hidden;
+    }*/
+    .gallery {
+        padding-bottom: 64px;
+    }
+    .gallery .arrow-right {
+        left: auto;
+        right: 8px;
+    }
+    .column-pad {
+        padding: 12px;
+    }
+    h1 {
+        font-size: 64px;
+    }
+}
+.embiggen-container {
+    max-width: 1400px;
+}
+
+.button {
+	display: inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+	min-width:100px;
+	padding: 16px 24px;
+	font-family: artigo-display, serif;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-bottom: 16px;
+	font-size: 20px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #FFF;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+	background: #5e0d0c;
+	outline: none;
+	border-radius: 15px;
+	border: 1px solid #4c0300;
+	box-shadow:
+		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
+		inset 0 0 6px #a23227, /* inner glow */
+		inset 0 80px 80px -40px #ac3223, /* gradient */
+		1px 1px 3px rgba(0,0,0,0.75); /* shadow */
+		
+	position: relative;
+	overflow: visible; /* IE9 & 10 */
+	-webkit-transition: 500ms linear;
+	   -moz-transition: 500ms linear;
+	     -o-transition: 500ms linear;
+					transition: 500ms linear;
+}
+
+.button::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -7px;
+	left: -3px;
+	right: 0;
+	height: 23px;	
+}
+.button:hover {
+	background: #a61715;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.75), 0 0 40px #FFF;
+	box-shadow:
+		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
+		inset 0 0 6px #da3b2c, /* inner glow */
+		inset 0 80px 80px -40px #dd4330, /* gradient */
+		1px 1px 3px rgba(0,0,0,0.75); /* shadow */
+		
+}
+.button:focus {
+	outline: none; /*FF*/
+}
+.button:active {
+	box-shadow:
+		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
+		inset 0 0 6px #da3b2c, /* inner glow */
+		inset 0 80px 80px -40px #dd4330, /* gradient */
+		0px 1px 0px rgba(255,255,255,0.25); /* shadow */
+		
+	-webkit-transition: 50ms linear;
+	   -moz-transition: 50ms linear;
+	     -o-transition: 50ms linear;
+	        transition: 50ms linear;
+}
+.locked-btn {
+    cursor: not-allowed;
+    opacity: .2;
+}
+
+
+/* other styles */
+.gallery-link {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNkMzU0NDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNGExMTBjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-radial-gradient(center, ellipse cover, #d35448 0%, #4a110c 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d35448), color-stop(100%,#4a110c)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #d35448 0%,#4a110c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #d35448 0%,#4a110c 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #d35448 0%,#4a110c 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #d35448 0%,#4a110c 100%); /* W3C */
+}
+.noisy-boi {
+    /* noise image */
+    background-image: url(data:image/png;base64,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);
+
+}
+
+/*Copyright (c) 2022 by sam hawkz (https://codepen.io/sam-hawkz/pen/WwrGox)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/

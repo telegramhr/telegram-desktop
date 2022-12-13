@@ -1,0 +1,160 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+header {
+    margin: 10vw 0px;
+}
+img, video {
+    width: 100%;
+}
+.hero {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+    background-attachment: fixed;
+}
+.diana {
+    background-image: url("img/header_diana.jpg");
+}
+.iris{
+    background-image: url("img/header_iris.jpg");  
+}
+.bond {
+    background-image: url("img/header_bond.jpg"); 
+}
+.sade {
+    background-image: url("img/header_sade.jpg"); 
+}
+.gaga {
+    background-image: url("img/header_gaga.jpg"); 
+}
+.inpage-menu {
+    justify-content: space-between;
+}
+
+.hero > div {
+    background: linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+    padding: 10vw;
+    padding-top: 35vw;
+    padding-bottom: 16px;
+    color: white;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 109px;
+    font-weight: 500;
+}
+h2 {
+    font-family: 'Cardo', serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 22px;
+}
+.narrow-container {
+    max-width: 748px;
+}
+.galerija-slika > .third {
+    padding: 8px;
+}
+.cta {
+    display: block;
+    background: #111;
+    margin-top: 32px;
+    color: white;
+    padding: 12px 54px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature .partner {
+    width: 130px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+}
+.boja{
+    display: block;
+    margin:0 auto;
+    width: 40%;
+    margin-top: 32px;
+    padding: 5px 54px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    header > div {
+        padding: 0px;
+        padding-top: 70vw;
+    }
+    h1 {
+        font-size: 13vw;
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .boja{
+        display: block;
+        margin:0 auto;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 0px;
+        color: white;
+        background-color:transparent;
+        text-align: center;
+    
+    }
+    .inpage-menu {
+        justify-content: center;
+    }
+    .cta {
+        margin-top: 24px;
+        color: white;
+        padding: 8px 32px;
+        font-size: 16px;
+    }
+    .inpage-menu .cta {
+        margin: 8px;
+    }
+}

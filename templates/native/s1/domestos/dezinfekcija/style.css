@@ -1,0 +1,278 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+
+html {
+    scroll-behavior: smooth;
+}
+.main-container {
+    width: 100%;
+    overflow: hidden;
+}
+body {
+    font-family: garamond-premier-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #111;
+    /*background-color: #f8f9fa;*/
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 1040px;
+    padding: 0px 100px;
+}
+h1, h2, h3, h4 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.gray-bg {
+    background-color: #f8f9fa;
+}
+.domestos {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 1;
+    width: 256px;
+    height: auto;
+}
+.domestos:first-child {
+    right: auto;
+    left: 50px;
+}
+
+/* Header */
+
+.native-header-image {
+    max-height: 80vh;
+    object-fit: cover;
+    object-position: center center;
+    position: relative;
+    z-index: 5;
+}
+.native-title {
+    padding: 40px;
+    background-color: #c6e4f8;
+    text-align: right;
+    background-size: 256px;
+    background-repeat: repeat;
+    z-index: 5;
+    position: relative;
+}
+.give-space {
+    background-color: #c6e4f8;
+    background-size: 256px;
+    background-repeat: repeat;
+    position: relative;
+    height: 256px;
+    width: 100%;
+    margin-bottom: -128px;
+    z-index: 2;
+}
+article {
+    background-color: white;
+    z-index: 3;
+}
+.shoo-top {
+    margin-top: 64px;
+}
+.shoo-bottom {
+    margin-bottom: 64px;
+}
+.native-title h1 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 92px;
+    line-height: 100px;
+    font-weight: 900;
+    /*text-transform: uppercase;*/
+    color: #204697;
+}
+.header-red {
+    color: #ec2028;
+}
+p {
+    font-size: 22px;
+    line-height: 1.55em;
+    margin-bottom: 16px;
+}
+h2 {
+    font-size: 56px;
+    margin-bottom: 48px;
+}
+h3.overtitle {
+    font-size: 24px;
+    padding-top: 64px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    opacity: .5;
+}
+.faded {
+    opacity: .5;
+}
+h4 {
+    font-size: 36px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.odred h4 {
+    margin-bottom: 12px;
+}
+.odred p {
+    font-size: 26px;
+    opacity: .7;
+}
+.cta {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    background-color: #204697;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    margin: 24px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+}
+.cta:hover {
+    top: -2px;
+    background-color: #224ba3;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+}
+.slick-prev::before, .slick-next::before {
+    color: #111;
+    font-size: 32px;
+}
+.slick-prev {
+    left: -64px;
+}
+.slick-next {
+    right: -64px;
+}
+.slick img {
+    max-width: 512px;
+    margin: 0 auto;
+}
+.prostori div img {
+    width: 25%;
+    float: right;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.prostori div {
+    margin-top: 48px;
+}
+.prostori h4 {
+    margin-top: 0px;
+}
+.cta img {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    bottom: -3px;
+    left: -6px;
+    margin-right: 4px;
+}
+.content-table {
+    padding: 48px 0px;
+}
+.content-table h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    opacity: .5;
+}
+.content-table a {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 22px;
+    opacity: .7;
+}
+.content-table b a, .content-table a:hover {
+    opacity: 1;
+}
+
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    padding-left: 30px;
+    font-weight: 500;
+}
+.native-title h2 {
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 1423px) {
+    .native-header-image {
+        height: 100%;
+        max-height: 100%;
+    }
+    .domestos {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .native-title h1 {
+        font-size: 42px;
+        line-height: 1.3em;
+    }
+    .native-title {
+        text-align: center;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .container {
+        padding: 0 24px;
+    }
+    .slick-prev, .slick-next {
+        display: none;
+    }
+}

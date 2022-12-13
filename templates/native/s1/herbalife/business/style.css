@@ -1,0 +1,190 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+}
+h2,h3 {
+    font-weight: 700;
+}
+.native-hero {
+    background-color: #94D1D6;
+    color: #1b3b3e;
+    left: 0;
+}
+.green-section {
+    background-color: #3e4c33;
+    color: white;
+}
+.native-title {
+    position: absolute;
+    top: 2vw;
+    z-index: 10;
+}
+.article:first-child {
+    margin-top: 100px;
+}
+.native-hero::before {
+    content: ' ';
+    height: 50vw;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0vw;
+    z-index: 7;
+    background: linear-gradient(to top, #94D1D6 0%, 50% #94D1D6, 100% transparent);
+}
+.sales-pitch-header {
+    padding: 100px 0px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.sales-pitch-header > .container {
+    z-index: 5;
+}
+.sales-pitch h3.overtitle {
+    color: white;
+}
+.sales-pitch-header > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: .2;
+    z-index: 1;
+}
+.hn-logo img {
+    max-width: 320px;
+    height: auto;
+}
+.sales-pitch p.bold {
+    margin-top: 25px;
+}
+.city {
+    margin-top: 250px;
+    width: 100%;
+    height: auto;
+    z-index: 7;
+}
+.clouds {
+    width: 96%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    z-index: 3;
+}
+h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+h1 .superbold {
+    font-weight: 900;
+}
+h2 {
+    font-size: 36px;
+}
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+.article-text {
+    padding: 25px;
+}
+.half:first-child .article-text {
+    text-align: right;
+    justify-content: flex-end;
+}
+.article {
+    margin-bottom: 50px;
+}
+h3.overtitle {
+    text-transform: uppercase;
+    color: #638749;
+}
+.cta {
+    border: 2px solid #638749;
+    color: #638749;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.cta:hover {
+    background-color: #638749;
+    color: white;
+}
+.sales-pitch .cta {
+    width: auto;
+    padding: 30px 70px;
+    background-color: white;
+    color: #1b3b3e;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.sales-pitch .cta:hover {
+    background-color: white;
+    color: #1b3b3e;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+@media screen and (max-width: 1023px) {
+    .clouds, .native-title {
+        position: sticky;
+    }
+    .container {
+        padding: 16px;
+    }
+    .article .half {
+        order: 2;
+    }
+    .city {
+        margin-top: 15vw;
+    }
+    .article .article-image {
+        order: 1;
+    }
+    .article-text {
+        padding: 20px 0px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .article:first-child {
+        margin-top: 32px;
+    }
+    .half:first-child .article-text {
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .sales-pitch .cta {
+        padding: 30px;
+        font-size: 20px;
+    }
+}

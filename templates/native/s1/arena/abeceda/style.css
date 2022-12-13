@@ -1,0 +1,234 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+.barracuda {
+    margin-bottom: -30px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.barracuda .full {
+    width: 100%;
+}
+.barracuda .white-space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.barracuda .container {
+    max-width: 1280px;
+}
+.barracuda .animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.barracuda .faded {
+    opacity: 0.5;
+}
+.barracuda .faded:hover {
+    opacity: 0.75;
+}
+
+/* Hero */
+
+.barracuda .hero {
+    font-family: 'Catamaran', sans-serif;
+    background-image: url("http://super1.staging.telegram.hr/wp-content/themes/super1-theme/templates/native/arena/abeceda/img/header1.png");
+    margin-bottom: 50px;
+    position: relative;
+    height: 35vw;
+    padding-bottom: 5vw;
+    background-size: cover;
+    text-align: center;
+}
+.barracuda .hero .wave {
+    width: 110%;
+    position: absolute;
+    bottom: -1px;
+    left: -5%;
+    z-index: 3;
+}
+.barracuda .hero img {
+    width: 100%;
+}
+.barracuda .hero-title {
+    left:40%;
+}
+.barracuda .hero .hero-title h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+    font-size: 100px;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px #3c3b7b;
+    color: white;
+}
+.barracuda .hero .hero-title h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #3c3b7b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 2px;
+}
+
+/* Content */
+
+.barracuda .introduction {
+    width: 100%;
+    max-width: 960px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'frank ruhl libre', sans-serif;
+    line-height: 2rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.barracuda .outro {
+    border: 1px solid #bc1039;
+    width: 100%;
+    max-width: 1080px;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'frank ruhl libre', sans-serif;
+    line-height: 2rem;
+    margin: 50px auto;
+}
+.barracuda .outro:hover {
+    background-color: #bc1039;
+    color: white;
+}
+.barracuda .introduction.first::first-letter {
+    font-size: 64px;
+    color: #bc1039;
+    font-weight: 700;
+}
+.barracuda .arena-container {
+    max-width: 1650px;
+    padding: 0px;
+}
+.barracuda .pad-me {
+    padding: 25px;
+}
+.barracuda .tilt-card {
+    display: block;
+    background-repeat: repeat;
+    transform-style: preserve-3d;
+    font-family: 'Catamaran', sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 30px;
+    position: relative;
+    background-image: linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+}
+.barracuda .card-info {
+    background-color: white;
+    border-radius: 15px;
+}
+.barracuda .tilt-card img {
+    width: 100%;
+    height: auto;
+}
+.barracuda .tilt-card .letter {
+    font-size: 72px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    mix-blend-mode: overlay;
+}
+.barracuda .img-parent {
+    background-image: url("http://super1.staging.telegram.hr/wp-content/themes/super1-theme/templates/native/arena/abeceda/img/white-circle.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.barracuda .tilt-card:hover img {
+    transform: translateZ(100px);
+}
+.barracuda .third:nth-child(2n) .tilt-card {
+    background-image: linear-gradient(to right top, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);
+}
+.barracuda .card-info h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+.barracuda .card-info p {
+    color: #666;
+    font-weight: 300;
+}
+.barracuda .card-info p.info {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* Footer */
+
+.barracuda .native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.barracuda .native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.barracuda .native-signature .container p {
+    padding-left: 150px;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .barracuda .flex-responsive {
+        width: 100%;
+    }
+    .barracuda .introduction {
+        font-size: 18px;
+    }
+    .barracuda .introduction.first::first-letter {
+        font-size: 40px;
+    }
+    .barracuda .native-signature .container p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .barracuda .native-signature .tg-studio {
+        top: 45px;
+    }
+    .barracuda .hero .hero-title {
+        left: 0;
+    }
+    .barracuda .hero .hero-title h1 {
+        padding-top: 30px;
+        font-size: 10vw;
+    }
+    .barracuda .hero .hero-title h2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .tilt-card img {
+        transform: translateZ(100px);
+    }
+}

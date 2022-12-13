@@ -1,0 +1,314 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #111111;
+    font-size: 24px;
+}
+h1 {
+    font-size: 110px;
+    color: white;
+}
+.main-menu {
+    overflow: hidden;
+    background-image: url('img/adidas_bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30vw;
+}
+.intro-screen {
+    background-image: url('img/adidas_bg_2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40vh 0px;
+}
+.intro-screen p {
+    padding: 16px;
+    background: white;
+    margin-bottom: 0px;
+}
+.people-select {
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 36px;
+}
+.introtv::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.introtv::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: url('img/gridtile.png') repeat;
+}
+.menu-selection {
+    color: black;
+    background-color: white;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+.introtv .container {
+    z-index: 4;
+}
+.introtv video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.people-select .third { 
+    height: 100%;
+    min-height: 900px;
+}
+.people-select .third div {
+    cursor: pointer;
+}
+.people-select .third .windowpic {
+    cursor: auto;
+}
+.people-select .third:hover {
+    text-decoration: underline;
+}
+.windowpic {
+    position: absolute;
+    max-width: 400px;
+    border: 2px solid #ef7b30;
+    background-color: white;
+    padding-top: 32px;
+    z-index: 5;
+}
+.windowpic::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    background-color: #ef7b30;
+}
+.windowpic-title {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.windowpic .exit {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    height: 18px;
+    width: 18px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+}
+.windowpic .exit:hover {
+    background: white;
+}
+.windowpic-img {
+    position: relative;
+}
+.windowpic-quote {
+    padding: 16px;
+    font-size: 16px;
+}
+@keyframes imagetwo {
+    0%   {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100%   {
+        opacity: 0;
+    }
+}
+@keyframes imagethree {
+    0%   {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100%   {
+        opacity: 0;
+    }
+}
+.windowpic-img img:nth-child(2) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    animation: imagetwo 6s infinite;
+}
+.windowpic-img img:nth-child(3) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    animation: imagethree 6s infinite;
+}
+
+.dario {
+    top: 5%;
+    left: 15%;
+}
+.toni {
+    top: 10%;
+    left: 15%;
+}
+.marko {
+    top: 15%;
+    left: 15%;
+}
+.ytwindow {
+    display: none;
+    max-width: 100%;
+    width: 100%;
+    top: -30%;
+    left: 0px;
+}
+
+.cta {
+    background-color: #ef7b30;
+    color: black;
+    padding: 6px 24px;
+    margin: 4px auto;
+    margin-top: 16px;
+    font-size: 15px;
+}
+.introtv .cta {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.adidas {
+    width: 10vw;
+    max-width: 100px;
+    margin-bottom: 8px;
+    opacity: 1;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .container {
+        padding: 16px;
+    }
+    h1 {
+        font-size: 15vw;
+    }
+    .main-menu {
+        height: auto;
+        background-image: none;
+        padding-top: 0px;
+    }
+    .people-select .third > div {
+        display: none;
+    }
+    .people-select {
+        height: auto;
+    }
+    .people-select .third {
+        height: auto;
+        min-height: auto;
+    }
+    .people-select .third > .windowpic {
+        display: flex;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 36px;
+    }
+    .people-select div {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .introtv {
+        height: 100vh;
+    }
+    .introtv video {
+        width: 200vw;
+        left: -50%;
+    }
+    .windowpic .exit {
+        display: none;
+    }
+    .windowpic-title {
+        left: 0px;
+    }
+    .intro-screen {
+        background: transparent;
+        padding: 10vh 0px;
+    }
+    .intro-screen p {
+        padding: 0px;
+        background: none;
+    }
+}

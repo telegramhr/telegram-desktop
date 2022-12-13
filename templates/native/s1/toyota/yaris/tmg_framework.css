@@ -1,0 +1,228 @@
+/* 
+* Telegram Media Grupa CSS Framework
+* by TG Studio
+*/
+
+/* CSS Reset */
+
+html { 
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline; 
+    list-style: none;
+}
+
+/* Basics */
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+:focus { 
+    outline: none; 
+}
+
+/* Typography */
+
+b, strong, .bold { 
+    font-weight: 700; 
+}
+i, em, .italic { 
+    font-style: italic; 
+}
+.center-text {
+    text-align: center;
+}
+.left-text {
+    text-align: left;
+}
+.right-text {
+    text-align: right;
+}
+.white-text {
+    color: white;
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Media */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img.responsive {
+    zoom: 0.5;
+}
+
+/* Layout */ 
+
+.main-container {
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.text-container {
+    max-width: 780px;
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+.flex {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.no-wrap {
+    flex-wrap: nowrap;
+}
+.half {
+    width: 49.99%;
+}
+.fourth {
+    width: 24.99%;
+}
+.third {
+    width: 33.33%;
+}
+.two-thirds {
+    width: 66.66%;
+}
+.full {
+    width: 100%;
+}
+.three-fourths {
+    width: 74.99%;
+}
+.center {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.center-margin {
+    margin: 0 auto;
+}
+.padding10 {
+    padding: 10px;
+}
+.padding25 {
+    padding: 25px;
+}
+.padding50 {
+    padding: 50px;
+}
+.margin10 {
+    margin: 10px;
+}
+.margin25 {
+    margin: 25px;
+}
+.margin50 {
+    margin: 50px;
+}
+.shoo-bottom {
+    margin-bottom: 25px;
+}
+.shoo-top {
+    margin-top: 25px;
+}
+
+/* Functions */
+
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.hide {
+    display: none !important;
+}
+.mobile-only {
+    display: none;
+}
+.faded {
+    opacity: 0.75;
+}
+.yt-embed {
+    width: 100%;
+    max-width: 1024px;
+    height: 576px;
+}
+.gray-bg {
+    background-color: #EFEFEF;
+}
+.white-bg {
+    background-color: white;
+}
+.relative {
+    position: relative;
+}
+footer img {
+    width: 150px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+footer p {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1023px) {
+    .mobile-only {
+        display: inherit;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .flex-responsive {
+        width: 100%;
+    }
+    .yt-embed {
+        height: 56.25vw;
+    }
+}

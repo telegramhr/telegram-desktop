@@ -1,0 +1,324 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+}
+img, video {
+    width: 100%;
+}
+
+
+/* Advertorial header */
+
+.header-logos {
+    width: 100%;
+    padding: 24px;
+    z-index: 99;
+}
+.header-logos img {
+    height: 32px;
+    width: auto;
+}
+.native-hero-adv img {
+    max-height: 90vh;
+    object-fit: cover;
+    object-position: center center;
+}
+.native-hero-adv video {
+    /*max-width: 1280px;*/
+    margin: 0 auto;
+}
+.native-hero-adv .native-title {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pull-above {
+    position: relative;
+    z-index: 5;
+    margin-top: -160px;
+    background-color: white;
+}
+.column-full-pad {
+    padding: 32px;
+}
+
+/* Advertorial content */
+
+.text-container {
+    max-width: 1280px;
+    width: 100%;
+    position: relative;
+}
+.text-container > * {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-container img {
+    margin-bottom: 24px;
+}
+.text-container > .fullstretch {
+    max-width: 100%;
+    display: flex;
+}
+h1, h2, h3 {
+    font-family: "Frank Ruhl Libre", serif;
+}
+.native-title {
+    padding-top: 25vw;
+}
+h1 {
+    font-size: 84px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    background-color: rgba(255,255,255,0.35);
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+h2.special-title {
+    font-size: 54px;
+    line-height: 64px;
+    margin-top: 48px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #821a43;
+}
+h3, .special-subtitle {
+    font-family: 'Georgia', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    padding-top: 16px;
+    margin-top: 16px;
+    position: relative;
+}
+.special-subtitle {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.testimonial {
+    flex-wrap: nowrap;
+    margin-bottom: 8px;
+}
+.text-container .testimonial img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    position: relative;
+    left: -8px;
+}
+.testimonial .bold {
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.testimonial > div {
+    width: auto;
+    align-content: center;
+}
+h3::before {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10%;
+    height: 4px;
+    background-color: #821a43;
+}
+.gallery {
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+.arrow {
+    width: 8px;
+    height: 8px;
+    transform: rotate(-135deg);
+    border-right: 2px solid #999;
+    border-top: 2px solid #999;
+}
+.gallery .arrow {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    left: -8px;
+}
+.gallery .arrow-right {
+    left: auto;
+    right: -8px;
+    transform: rotate(48deg);
+}
+.cta {
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 4px 24px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    background-color: #821a43;
+    color: white;
+    margin-top: 8px;
+}
+.galleries {
+    padding-top: 24px;
+    padding-bottom: 36px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.gallery img {
+    height: auto;
+    margin: 0 auto;
+    max-height: 300px;
+    object-fit: contain;
+    object-position: center center;
+}
+.text-container a {
+    text-decoration: underline;
+    color: #821a43;
+    font-weight: bold;
+}
+.gallery p {
+    padding: 8px;
+    margin-bottom: 0px;
+}
+.gallery a {
+    text-decoration: none;
+    color: #111;
+    font-weight: normal;
+}
+.remove-top-pad {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+details {
+    margin-bottom: 32px;
+}
+summary {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+    color: #821a43;
+    text-transform: uppercase;
+    padding-top: 135px;
+    top: -160px;
+    background: linear-gradient(to top, white 0%, white 15%, transparent 100%);
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+    margin-bottom: -100px;
+}
+details > summary:first-of-type {
+    list-style-type: none;
+}
+details summary::-webkit-details-marker {
+    display:none;
+}
+p.filler {
+    height: 24px;
+}
+details p {
+    position: relative;
+    background-color: white;
+    z-index: 5;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .partner {
+    width: 140px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    .native-title {
+        padding-top: 50px;
+    }
+    .column-full-pad {
+        padding: 16px;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h2.special-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    h3, .special-subtitle {
+        font-size: 20px;
+    }
+    .gallery img {
+        max-width: 70%;
+    }
+    .gallery .arrow {
+        left: 0px;
+    }
+    .gallery .arrow-right {
+        left: auto;
+        right: 0px;
+    }
+    .native-hero-adv .native-title {
+        padding-top: 75vw;
+    }
+    .native-hero-adv video {
+        max-width: 200vw;
+        width: 200vw;
+        position: relative;
+        left: -50%;
+    }
+    .text-container .testimonial img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-right: 16px;
+        margin-bottom: 0px;
+        position: relative;
+        left: -8px;
+    }
+}

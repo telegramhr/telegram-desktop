@@ -1,0 +1,405 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #111111;
+    font-size: 24px;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+img {
+    width: 100%;
+}
+h2.tekst{
+    color: #009ee2;
+}
+.main-container > .container {
+    background-color: white;
+    box-shadow: 0 0 2.25rem 1.125rem rgba(0,0,0,.1);
+    z-index: 5;
+} 
+
+/* Hero */
+
+.native-hero {
+    height: 50vw;
+    overflow: hidden;
+}
+.native-hero video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.gific {
+    width: 100%;
+    height: auto;
+    margin-bottom: 82px;
+    z-index: 1;
+}
+.notice {
+    border: 1px solid #009ee2;
+    padding: 24px;
+}
+.native-title {
+    position: relative;
+    z-index: 5;
+}
+.arrow-indicator {
+    position: absolute;
+    top: 80vh;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+}
+.arrow-indicator div {
+    width: 50px;
+    height: 50px;
+    border-right: 10px solid #009ee2;
+    border-bottom: 10px solid #009ee2;
+    transform: rotate(45deg);
+    opacity: 0;
+    top: 0;
+    position: relative;
+    animation-name: point-down;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes point-down {
+    0%   {
+        opacity: 0;
+        top: 0;
+    }
+    40% {
+        opacity: 1;
+        top: 30px;
+    }
+    60% {
+        opacity: 1;
+        top: 30px;
+    }
+    100%   {
+        opacity: 0;
+        top: 60px;
+    }
+  }
+.native-hero::before {
+    content: ' ';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 2;
+    height: 20vw;
+    width: 100%;
+    background-image: linear-gradient(to top, #ffffff, transparent);
+}
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    color: #009ee2;
+    font-size: 88px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 26px;
+}
+.native-hero h2 {
+    margin-bottom: 48px;
+}
+h3 {
+    font-style: normal;
+    font-size: 18px;
+    opacity: .5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.content > * {
+    max-width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    line-height: 1.825em;
+    margin-bottom: 16px;
+}
+.shoo-bottom {
+    margin-bottom: 48px;
+}
+.content h2 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+input[type=text], input[type=email], textarea {
+    border: 1px solid rgba(0,0,0,0.2);
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+}
+textarea {
+    font-family: futura-pt, sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+}
+label {
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+.infographic-1 div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding: 10%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0px #009ee2;
+}
+.infographic-1 {
+    margin-bottom: 32px;
+}
+.column-right-pad {
+    padding-right: 10%;
+}
+.top-border {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    margin-top: 32px;
+    padding-top: 32px;
+}
+.content h3 {
+    color: #009ee2;
+    font-size: 20px;
+    opacity: 1;
+    font-weight: 700;
+}
+.content a {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #009ee2;
+}
+.submit-btn {
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 50px;
+    outline: none;
+    background-color: #009ee2;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.infographic-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    z-index: 5;
+}
+#vichy-apply input[type=radio] {
+    display: none;
+}
+#vichy-apply .small-label {
+    font-size: 18px;
+    padding: 5px 20px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+#vichy-apply .small-label::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: #009ee2;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+}
+#vichy-apply .small-label:hover::before {
+    width: 15px;
+}
+#vichy-apply input[type=radio]:checked ~ .small-label {
+    color: white;
+}
+#vichy-apply input[type=radio]:checked ~ .small-label::before {
+    width: 100%;
+}
+.question {
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+.small-text {
+    font-size: 16px;
+    opacity: .5;
+    position: relative;
+    top: -8px;
+    margin-bottom: 8px;
+}
+textarea {
+    min-height: 300px;
+}
+.one-to-five .small-label {
+    width: 100%;
+}
+.consent-label a {
+    font-weight: 700;
+    color: #009ee2;
+}
+.consent-parent {
+    padding-left: 40px;
+    position: relative;
+}
+.consent-parent input {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+}
+.native-title img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 8px;
+}
+.disclaimer {
+    font-size: 16px;
+    font-style: italic;
+}
+.enable-exp-hide .hide-if-no-exp {
+    display: none;
+}
+.intro a {
+    text-decoration: underline;
+}
+.article-mini img {
+    margin-bottom: 16px;
+}
+.content a.cta {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: black;
+}
+.dividing-line {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    height: 1px;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+}
+
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .content h2 {
+        font-size: 30px;
+    }
+    .native-hero {
+        height: 150vw;
+    }
+    .native-hero video {
+        width: 300%;
+        left: -100%;
+        height: auto;
+    }
+    body {
+        font-size: 18px;
+    }
+    .submit-btn {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #009ee2;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+    50%, 100% {
+        top: 24px;
+        height: 32px;
+    }
+}

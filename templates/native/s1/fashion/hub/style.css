@@ -1,0 +1,233 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: 'Georgia', serif;
+    color: #111;
+}
+img {
+    width: 100%;
+}
+
+.native-hero {
+    height: 90vh;
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+.header-logos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 16px;
+    z-index: 5;
+}
+.header-logos img {
+    width: 50%;
+    max-width: 120px;
+}
+.native-hero video {
+    width: 100%;
+    z-index: 1;
+}
+.native-title {
+    z-index: 3;
+    /*margin-top: -200px;*/
+    position: absolute;
+    bottom: 5vw;
+    background-color: white;
+}
+.horizontal-pad {
+    padding: 0px 24px;
+}
+.native-title img {
+    max-width: 920px;
+    margin: 0 auto;
+}
+.native-title h2, .custom-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.intro {
+    font-size: 24px;
+}
+.girl_svg {
+    width: 100%;
+}
+.girl_colored {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.article-4 {
+    width: 100%;
+    padding: 0px 16px;
+}
+.article-1 {
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff7b4;
+    /*text-shadow: 2px 0px #fff7b4;*/
+    margin-bottom: 32px;
+}
+.article-1:last-child {
+    background-color: #d4b4ff;
+}
+.custom-title {
+    margin-top: 32px;
+}
+.article-1 h1.title, .article-4 h1.title {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.3em;
+    margin-top: 0px;
+    z-index: 5;
+}
+.article-4 h1.title {
+    font-size: 24px;
+}
+.article-1 .article-text, .article-4 .article-text {
+    padding: 0 16px;
+    margin-top: 0px;
+    z-index: 3;
+    min-height: auto;
+}
+.article-4 .article-text {
+    background-color: #fff7b4;
+}
+.fourth:nth-child(2n) .article-4 .article-text {
+    background-color: #b4ecff;
+}
+.fourth:nth-child(3n) .article-4 .article-text {
+    background-color: #e9ffb4;
+}
+.fourth:nth-child(4n) .article-4 .article-text {
+    background-color: #f0b4ff;
+}
+.article-1 .article-text .text-area, .article-4 .article-text .text-area {
+    background: transparent;
+    padding: 25px 10px;
+    padding-top: 15px;
+}
+.article-4 .article-text .text-area {
+    padding-bottom: 4px;
+}
+.article-1 h3.overtitle, .article-4 h3.overtitle {
+    display: none;
+}
+.article-1 .img-shadow, .article-4 .img-shadow {
+    display: none;
+}
+.article-1 .article-img img, .article-4 .article-img img {
+    mix-blend-mode: multiply;
+}
+.article-1 .article-img::before, .article-4 .article-img::before {
+    /*content: ' ';*/
+    height: 62px;
+    width: 100%;
+    background-color: #fff7b4;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    z-index: 3;
+}
+.two-thirds:first-child {
+    padding-right: 220px;
+}
+.two-thirds:last-child{
+    padding-left: 220px;
+}
+/*.article-1:last-child {
+    background-color: #236993;
+    text-shadow: 2px 0px #236993;
+    color: white;
+}
+.article-1:last-child .article-meta {
+    color: #aaa;
+}
+.two-thirds .half:first-child {
+    padding-right: 12px;
+}
+.two-thirds .half:last-child {
+    padding-left: 12px;
+}
+.two-thirds .half .article-1 .title {
+    font-size: 32px;
+}
+.two-thirds .half .article-1 .article-text .text-area {
+    padding: 15px 0px;
+}
+.two-thirds .half .article-1 .article-img img {
+    mix-blend-mode: normal;
+}*/
+
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+    padding-left: 30px;
+    font-weight: 500;
+}
+.article-4 .article-meta {
+    padding-bottom: 12px;
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        padding: 30px 0px;
+    }
+    .two-thirds:first-child {
+        padding-right: 0px;
+    }
+    .two-thirds:last-child{
+        padding-left: 0px;
+    }
+    .article-1 h1.title, .article-4 h1.title {
+        font-size: 32px;
+    }
+    .native-hero {
+        height: auto;
+        margin-bottom: 0px;
+    }
+    .native-title {
+        position: relative;
+        padding: 30px;
+    }
+    .native-title h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .article-4 {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .third {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,266 @@
+/*
+* Dormeo Anketa CSS
+* by Marijan Mikolić
+*/
+
+/* Basics */
+
+*, *::before,
+*::after {
+    box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+ul[class],
+ol[class] {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Basic styling */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+b, 
+strong, 
+.bold { 
+    font-weight: 700; 
+}
+i, 
+em, 
+.italic { 
+    font-style: italic; 
+}
+.underline {
+    text-decoration: underline;
+}
+:focus { 
+    outline: none; 
+}
+.faded {
+    opacity: 0.5;
+}
+.faded:hover {
+    opacity: 0.75;
+}
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+:root {
+    font-size: 20px;
+}
+.native-page {
+    margin-top: -40px;
+    max-width: 100%;
+}
+
+/* Layout templates */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.full {
+    width: 100%;
+}
+.half {
+    width: 49.99%;
+}
+.white-space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container {
+    max-width: 1260px;
+    padding: 30px;
+}
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.center-text {
+    text-align: center;
+}
+.stretch {
+    align-items: stretch;
+}
+.relative {
+    position: relative;
+}
+
+/* The Page */
+
+.native-page {
+    background-color: #120d1e;
+    color: #f6f6f6;
+    font-family: 'frank ruhl libre', serif;
+    background-attachment: fixed;
+    background-image: url("http://super1.staging.telegram.hr/wp-content/themes/super1-theme/templates/native/dormeo/anketa/img/night_sky.jpg");
+    background-size: 100vw;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 5vw;
+}
+.forest {
+    width: 100%;
+}
+.dark-purple {
+    background-color: #120d1e;
+}
+.native-hero-image {
+    position: absolute;
+    top: -20vw;
+    right: 0px;
+}
+.native-hero-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height: 10vw;
+    background: linear-gradient(to top, rgba(18, 13, 30, 1) 0%, rgba(18, 13, 30, 0) 100%);
+}
+.native-title-text {
+    text-align: right;
+    padding-left: 10vw;
+    padding-bottom: 10vw;
+    padding-right: 48px;
+}
+h4 {
+    font-family: 'catamaran', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-size: 1.2rem;
+}
+h1 {
+    font-size: 72px;
+    font-size: 3.6rem;
+    padding-bottom: 16px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 28px;
+    font-size: 1.4rem;
+}
+.main-infographic-content {
+    z-index: 3;
+}
+
+
+/* Footer */
+
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    padding-left: 30px;
+}
+.infografika {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    :root {
+        font-size: 14px;
+    }
+    .native-signature .container p {
+        text-align: center;
+    }
+    .native-page {
+        background-size: 200vw;
+        background-position: top left;
+        background-repeat: no-repeat;
+        padding-top: 50vw;
+    }
+    .mobile-only {
+        display: block;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .flex-responsive {
+        width: 100%;
+    }
+    .native-hero-image {
+        order: 1;
+        position: relative;
+        top: -40vw;
+        margin-bottom: -30vw;
+    }
+    .native-title-text {
+        text-align: center;
+        order: 2;
+    }
+}
+

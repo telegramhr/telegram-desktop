@@ -1,0 +1,362 @@
+/*
+* Barracuda Page Style CSS
+* by TG Studio
+*/
+
+/* Basics */
+
+body {
+    font-family: omnes-cond, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #111111;
+    font-size: 24px;
+    background-color: #fab7ea;
+}
+img {
+    width: 100%;
+}
+
+/* Hero */
+
+.native-hero {
+    height: 50vw;
+    overflow: hidden;
+}
+.native-hero video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.gific {
+    width: 100%;
+    height: auto;
+    margin-bottom: 82px;
+    z-index: 1;
+}
+.cloud {
+    position: absolute;
+    width: 240px;
+    height: auto;
+    opacity: .9;
+    z-index: 5;
+}
+.notice {
+    border: 1px solid #df1990;
+    padding: 24px;
+}
+.cloud-1 {
+    width: 360px;
+    bottom: -16px;
+    left: -92px;
+    animation-name: cloud-anim-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.cloud-2 {
+    right: 0px;
+    bottom: 128px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    animation-name: cloud-anim-2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.native-title {
+    position: relative;
+    z-index: 5;
+}
+.arrow-indicator {
+    position: absolute;
+    top: 80vh;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+}
+.arrow-indicator div {
+    width: 50px;
+    height: 50px;
+    border-right: 10px solid #df1990;
+    border-bottom: 10px solid #df1990;
+    transform: rotate(45deg);
+    opacity: 0;
+    top: 0;
+    position: relative;
+    animation-name: point-down;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes point-down {
+    0%   {
+        opacity: 0;
+        top: 0;
+    }
+    40% {
+        opacity: 1;
+        top: 30px;
+    }
+    60% {
+        opacity: 1;
+        top: 30px;
+    }
+    100%   {
+        opacity: 0;
+        top: 60px;
+    }
+  }
+  @keyframes cloud-anim-1 {
+    0%   {
+        left: -128px;
+    }
+    40% {
+        left: -92px;
+    }
+    100%   {
+        left: -128px;
+    }
+  }
+  @keyframes cloud-anim-2 {
+    0%   {
+        right: 0px;
+    }
+    60% {
+        right: -32px;
+    }
+    100%   {
+        right: 0px;
+    }
+  }
+.native-hero::before {
+    content: ' ';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 2;
+    height: 20vw;
+    width: 100%;
+    background-image: linear-gradient(to top, #fab7ea, transparent);
+}
+h1 {
+    font-family: blenny,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #df1990;
+    font-size: 100px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-style: normal;
+    font-size: 18px;
+    opacity: .5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.content > * {
+    max-width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    line-height: 1.825em;
+    margin-bottom: 16px;
+}
+.content h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.content h2.blenny {
+    font-family: blenny,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #df1990;
+    font-size: 64px;
+}
+input[type=text], input[type=text-area], input[type=email] {
+    border: 1px solid rgba(0,0,0,0.2);
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+}
+label {
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+.submit-btn {
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 50px;
+    outline: none;
+    background-color: #df1990;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#always-review input[type=radio] {
+    display: none;
+}
+#always-review .small-label {
+    font-size: 18px;
+    padding: 5px 20px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+#always-review .small-label::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: #df1990;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+}
+#always-review .small-label:hover::before {
+    width: 15px;
+}
+#always-review input[type=radio]:checked ~ .small-label {
+    color: white;
+}
+#always-review input[type=radio]:checked ~ .small-label::before {
+    width: 100%;
+}
+.question {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.small-text {
+    font-size: 16px;
+    opacity: .5;
+    position: relative;
+    top: -8px;
+    margin-bottom: 8px;
+}
+.one-to-five .small-label {
+    width: 100%;
+}
+.consent-label a {
+    font-weight: bold;
+    color: #df1990;
+}
+.consent-parent {
+    padding-left: 40px;
+    position: relative;
+}
+.consent-parent input {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+}
+.native-title img.logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 8px;
+}
+.cta {
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #df1990;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.article {
+    border-top: 8px solid #df1990;
+}
+.article h2 {
+    padding-left: 16px;
+    padding-right: 16px
+}
+.yt-embed {
+    max-width: 710px;
+    height: 399px;
+    margin-bottom: 24px;
+}
+
+/* Footer */
+
+.native-signature {
+    padding-bottom: 50px;
+}
+.native-signature .container {
+    min-height: 120px;
+    padding: 0px 50px;
+}
+.native-signature .tg-studio {
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
+}
+.native-signature img {
+    margin: 30px
+}
+.native-signature .container p {
+    padding: 10px;
+    opacity: .7;
+}
+
+
+
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .native-hero {
+        height: 150vw;
+    }
+    .native-hero video {
+        width: 300%;
+        left: -100%;
+        height: auto;
+    }
+    body {
+        font-size: 20px;
+    }
+    .submit-btn {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    .cloud {
+        width: 128px;
+    }
+    .cloud-1 {
+        width: 240px;
+    }
+    .content h2.blenny {
+        font-size: 36px;
+    }
+    .article h2 {
+        font-size: 24px;
+    }
+    .yt-embed {
+        height: 47.25vw;
+    }
+}

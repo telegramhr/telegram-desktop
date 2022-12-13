@@ -1,0 +1,152 @@
+/* 
+* Jana CSS
+* by TG Studio
+*/
+
+/* Variables */
+
+:root {
+    --main-color: #6DD5FA;
+    --main-text-color: #333333;
+    --highlight-color: #2980B9;
+}
+
+/* Header */
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    background: url("img/jana_bg.svg");
+    background-size: cover;
+}
+header {
+    background-image: url("img/jana_new_header2.jpg");
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    padding: 0px 50px;
+    height: 900px;
+    max-height: 70vh;
+    background-position: bottom;
+}
+h1 {
+    color: #111;
+    font-size: 64px;
+    font-weight: normal;
+    font-family: "Playfair Display", serif;
+}
+h2 {
+    letter-spacing: 4px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.title h2 {
+    color: #00695b;
+}
+.title {
+    margin-top: 5vw;
+}
+
+.video-container {
+    padding: 50px 0;
+    -webkit-box-shadow: inset 0px 10px 30px 0px rgba(39, 120, 190, 0.8);
+    box-shadow: inset 0px 10px 30px 0px rgba(39, 120, 190, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 131, 205, 0.6)), to(rgba(116, 199, 238, 0.6)));
+    background: linear-gradient(to bottom, rgba(38, 131, 205, 0.6) 0%, rgba(116, 199, 238, 0.6) 100%);
+}
+
+.video-container .container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Content */
+
+.decorative-article-title {
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+.decorative-article-img img {
+    border-radius: 20px;
+}
+.cta {
+    margin-top: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 12px;
+    font-size: 14px;
+    border: #00695b 1px solid;
+    color: #00695b;
+    border-radius: 30px;
+}
+.cta:hover {
+    background-color: #00695b;
+    color: white;
+}
+.overtitle {
+    color: #00695b;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.infographic img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 880px;
+}
+.container {
+    padding: 50px 30px;
+}
+header .title, .title h1, .title h2 {
+    max-width: 1024px;
+}
+header .title, header video {
+    margin: 0 auto;
+}
+header .title {
+    margin-top: 50px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1023px) {
+    .article-link:nth-child(2n) .flex-responsive{
+        text-align: right;
+    }
+    .article-link:nth-child(2n) .cta{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    header video {
+        height: 30vw;
+    }
+    .article-link:nth-child(2n) .flex-responsive:nth-child(1) {
+        order: 2;
+    }
+    .article-link:nth-child(2n) .flex-responsive:nth-child(2) {
+        order: 1;
+    }
+    .article-link .padding25 {
+        padding: 25px 0px;
+    }
+}

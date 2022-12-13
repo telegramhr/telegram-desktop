@@ -1,0 +1,342 @@
+
+@media (max-width: 768px) {
+	.row {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	section {
+		padding: 50px 0;
+	}
+	.section-1{
+		height: auto;
+	}
+	.section-1 .inner-content {
+		box-sizing: border-box;
+		float: left;
+		height: auto;
+		padding: 30px 0px !important;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+	.section-1 video.embed-responsive-item {
+		height: 100%;
+		width: auto;
+	}
+	/* .inr-txt {
+		padding:30px !important;
+		width: 100%;
+	} */
+	.inr-txt h1 {
+		font-size: 32px;
+		line-height: 40px;
+		padding: 0 0 15px !important;
+	}
+	h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	
+	.section-1 .slick-prev {
+		left: 0;
+	}
+
+	
+	.section-2 .col-md-6, .section-1 .col-md-6 {
+		padding: 0 !important;
+	}
+	.section-2 .col-md-6.rght{
+		order: -1;
+	}
+	
+	.section-3 {
+		padding: 10px 0 !important;
+	}
+	.section-3 .container-fluid {
+		padding-top: 0 !important;
+	}
+	.option-holder span a {
+    font-size: 1.2em;
+}
+	.section-3 .col-md-6,
+	.section-4 .col-12,
+	.section-4 .col-md-4 {
+		padding: 0 !important;
+	}
+	.section-4 {
+		padding: 0 !important;
+	}
+	.section-5 .container-fluid {
+		padding: 0 30px !important;
+	}
+	.section-5 .row, .section-5 .col-md-6 {
+		padding: 0 !important;
+	}
+	.section-6 .col-md-6 {
+		padding: 0 !important;
+	}
+	.btm-img-sec img, .row.btm-bg.pt-5 img {
+		width: 100%;
+	}
+	footer .col-md-6.frst {
+		padding-bottom: 50px;
+	}
+	.slick-arrow {
+		display: block !important;
+	}
+	.row.btm-bg.pt-5 {
+		margin: 0 -30px !important;
+		padding:0px 0 !important;
+	}
+	.slide h2.title { display:none;}
+
+	.slider{
+		height: 320px;
+	}
+	.spin-text img.izazov02 {
+    z-index: 2;
+    position: absolute;
+    transform: rotate( 90deg);
+    top: 152px;
+    left: 22px;
+    cursor: pointer;
+    width: 130px;
+	}
+	.spin-text img.istina02 {
+    z-index: 2;
+    position: absolute;
+    top: 235px;
+    left: 98px;
+    cursor: pointer;
+    width: 130px;
+}
+.spin-text img.izazov01 {
+    z-index: 2;
+    position: absolute;
+    top: 155px;
+    left: 185px;
+    transform: rotate( 
+90deg
+);
+    cursor: pointer;
+    width: 130px;
+}
+.spin-text img.istina01 {
+    z-index: 2;
+    position: absolute;
+    top: 64px;
+    left: 106px;
+    cursor: pointer;
+    width: 134px;
+}
+.section-5 .ft18.pt-5{
+	padding-top:0 !important;
+}
+.section-6 .inr-txt .py-3{padding-top:0 !important;}
+.section-6 .inr-txt{padding-top:0 !important;}
+.saznaj-link{position:relative;}
+.saznaj-link:before{
+	    content: "";
+    width: 86%;
+    height: 4px;
+        background: #005aa6;
+    position: absolute;
+    bottom: -2px;
+	}
+.blue-bg2 .saznaj-link:before{
+	    content: "";
+    width: 86%;
+    height: 4px;
+        background: #fff;
+    position: absolute;
+    bottom: -3px;
+	}
+.header-slider .slick-prev:before, .header-slider .slick-next:before{display:none;}
+.klikom-text{font-size:15px;}
+.inr-txt{padding: .8rem!important;} 
+section a.lnk::before{display:none;}
+section a.lnk{text-align:center;}
+.ft18.lnk span{width:100%;    padding-left: 0;}
+.aquarius-option {
+    height: 390px;
+}
+.option-holder span {
+    font-size: 58px;
+    margin-top: 24%;
+    line-height: 1.1;
+    position: relative;
+}
+.option-holder {
+    position: relative;
+    top: 0;
+}
+.right-cont h2{margin-left:1%; text-align: center;}
+.second-block .img-sec {
+    width: 100%;
+    float: right;
+	}
+	.ft18.lnk span{
+		font-size: 1.2em
+	}
+	.percent-area{
+		    width: 100%;
+	}
+	.percent-area span {
+    height: 200px;
+
+    font-size: 1em;
+	}
+	.truth {
+		bottom: inherit;
+		left: 50%;
+		top: -30px;
+		margin-left: -88px;
+	}
+	.dare {
+		bottom: -36px;
+		right: 50%;
+		margin-right: -99px;
+	}
+	.spin-class {
+    position: relative;
+    width: 100%;
+    margin: 80px auto;
+    height: auto;
+	}
+	.header-content h1 {
+    font-size: 2em;
+	    margin-bottom: 17px;
+    line-height: 1;
+	}
+	.header-content p {
+    font-family: 'DrukCyr-BoldItalic';
+    font-size: 1.2em;
+    line-height: 1;
+	}
+	.align-center {
+    height: auto;
+
+    margin: 50px 0;
+	}
+	.left-cont h2{
+		margin-left: 0;
+    	text-align: center;
+		width: 100%;
+	}
+	.right-cont a.lnk {
+    	text-align: center;
+	}
+	.img-sec {
+    	width: 100%;
+    }
+    .right-cont h2,
+	.blue-bg2 .right-cont h2{
+    margin-right: 0;
+    width: 100%;
+}
+	.first-block .left-cont {
+		order:2;
+	}
+	.first-block .right-img {
+		order:1;
+	}
+	.blue-bg2 .container-fluid{margin:0 8px;}
+	.result {
+    width: 320px;
+
+    left: -129px;
+    top: -142px;
+	}
+	
+
+	
+.section-4 p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}	
+.section-5 {
+    padding-bottom: 0 !important;
+}
+.blue-bg2 .second-block .right-cont .align-center {
+    margin: 0;
+}
+.blue-bg2 .second-block .right-cont .align-center h2 {
+    margin-bottom: 1rem;
+}	
+.section-2 .left-cont .img-sec {
+    padding-bottom: 2rem;
+}
+}
+
+@media (max-width: 550px){
+	.section-1 {
+		height: 235px;
+	}
+	.section-1 video.embed-responsive-item {
+		height: auto;
+		width: 100%;
+	}
+	
+.section-3 .option-holder span {
+    font-size: 28px;
+    width: 100%;
+}
+.section-3 .option-holder .left span { padding-right:30px !important;}
+.section-3 .option-holder .fadeInRight span { padding-left:30px !important;}
+.section-3 .option-holder span::after {
+    bottom: auto;
+    top: 80px;
+}
+.section-3 .option-holder .col-md-6:nth-child(1) {
+    padding-bottom: 4rem !important;
+    padding-top: 1rem !important;
+}
+
+
+	.last-logo{
+	margin-top: 0px;
+	}
+	.footer .first-logo img{
+		    left: inherit;
+	}
+	.footer .last-logo img{
+		margin-top: 8px;
+    right: inherit;
+	}
+	
+
+
+.nav li {
+    margin: 0 15px;
+}
+.nav li:first-child {
+    margin-left: 10px;
+}
+.nav li:last-child {
+    margin-right: 10px;
+}
+.nav li a {
+    font-size: 1.5em;
+}
+
+
+}
+@media (max-width: 359px){
+.nav li {
+    margin: 0 10px;
+}
+.nav li:first-child {
+    margin-left: 5px;
+}
+.nav li:last-child {
+    margin-right: 5px;
+}
+.nav li a {
+    font-size: 1.4em;
+}
+}
+@media (max-width: 319px){
+.nav li a {
+    font-size: 1.3em;
+}
+}

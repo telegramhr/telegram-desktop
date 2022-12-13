@@ -1,0 +1,302 @@
+@media (min-width: 1580px) {
+	.padding-image {
+    	padding: 0 18%;
+	}
+	.section-4{ 
+	    background: rgba(0, 0, 14, 0) url(../images/sto-bg.jpg) no-repeat scroll 48% center !important;
+    	background-size: 685px 100%;
+	}
+
+	.section-6{ 
+	    background: url(../images/sto-bg2.jpg) no-repeat scroll 48% center !important;
+	    background-size: 685px 100% ;
+	}
+}
+@media (min-width: 1480px) {
+	.padding-image {
+    	padding: 0 18%;
+	}
+	.section-4{ 
+	    background: rgba(0, 0, 14, 0) url(../images/sto-bg.jpg) no-repeat scroll 47% center;
+	}
+	.section-6{ 
+	    background: url(../images/sto-bg2.jpg) no-repeat scroll 47% center;
+	}
+}
+@media (max-width: 1320px) {
+	.padding-image {
+    	padding: 0 10%;
+	}
+	.section-4{ 
+	    background: rgba(0, 0, 14, 0) url(../images/sto-bg.jpg) no-repeat scroll 47% center;
+	}
+	.section-6{ 
+	    background: url(../images/sto-bg2.jpg) no-repeat scroll 47% center;
+	}
+}
+@media (max-width: 768px) {
+	.social-inr {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: auto;
+    float: none;
+    text-align: center;
+}
+.absolute-text-sec .social {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+}
+	.section-1 .img-abs {
+	    width: 46%;
+	}
+	.section {
+	    margin-top: 0;
+	}
+	h1 {
+	    font-size: 54px;
+    	line-height: 62px;
+	}
+	.absolute-text-sec .txt p {
+    	font-size: 21px;
+	}
+	.header-bg img {
+	    height: 520px;
+	    object-fit: cover;
+	}
+	.absolute-text-sec .social{
+		height: 100%;
+	}
+	.section-1 .leaf-over.top-10{
+		width: 80%;
+	}
+	.section-1 .col-md-7 .txt {
+    	padding: 1rem 1rem 0;
+    }
+    .section-2 .inner-sec {
+	    padding: 4rem 2rem 6rem;
+	}
+	.section-2 .col-md-6.rght {
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	    top: -4rem;
+	    text-align: center;
+	}
+	.section-2 .col-md-6.rght img{
+		width: 70%;
+		margin: 0 auto -18%;	
+	}
+	video {
+	    height: 100%;
+	}
+	.section-4 {
+	    background: rgba(0, 0, 14, 0) url(../images/sto-bg.jpg) no-repeat scroll top center;
+	    background-size: 100% 142px;
+	    margin-bottom: 102px;
+    	padding-bottom: 80px !important;
+	}
+	.section-6 {
+	    background: url(../images/sto-bg2.jpg) no-repeat scroll top center;
+	    background-size: 100% 142px;
+	    margin-bottom: 102px;
+    	padding-bottom: 80px !important;
+	}
+	.padding-image h2 {
+	    margin-bottom: 80px;
+	}
+	.left-side {
+	    width: 100%;
+	    float: left;
+	    padding-left: 15px;
+	}
+	.middle-side {
+	    width: auto;
+	    float: left;
+	    padding-left: 15px;
+	}
+	.right-side {
+	    width: auto;
+	    float: none;
+	}
+	.masonry-sec .grid-item--height3 {
+	    height: 327px;
+	}
+	.masonry-sec .grid-item {
+	    width: 119px;
+	    float: right;
+	}
+	.grid-item.grid-item--width2.big-img.grid-item--height3 {
+	    width: 230px;
+	}
+	.masonry-sec .grid-item.frst {
+	    width: 229px;
+	}
+	.masonry-sec .big-img .img-col img {
+	    height: 316px;
+	}
+	.rotate-content {
+	    right: 0;
+	    top: 10%;
+	    left: 0;
+	}
+	.rotate-content::after {
+	    left: -82px;
+	    width: 68px;
+	}
+	.dble-img-sec .col-md-9 {
+	    padding-right: 0;
+	    padding-left: 0;
+	    padding-bottom: 30px;
+	    padding-top: 50px;
+	}
+	.dble-img-sec .col-md-3 {
+	    padding-right: 0;
+	    padding-left: 0;
+	    padding-bottom: 30px;
+	}
+	.dble-img-sec .d-flex{
+		display: block !important; 
+	}
+	p.top-tilte {
+	    padding: 0 20px;
+	    line-height: 38px;
+	}
+	.section-8 button.slick-next {
+	    right: 3%;
+	    bottom: 0;
+	    top: auto;
+	    z-index: 999;
+	}
+	.section-8 button.slick-prev {
+	    left: 3%;
+	    bottom: 0;
+	    top: auto;
+	    z-index: 999;
+	}
+	.section-8 .products-grid {
+	    width: 92%;
+	    margin: 0 auto;
+	}
+	.section-9 .inner-col {
+	    margin-bottom: 50px;
+	}
+	.page-footer {
+	    margin-top: 0 !important;
+	    padding-right: 28px;
+	    padding-left: 28px;
+	}
+	.section-6.masonry-sec .grid-item.frst {
+    width: 114px;
+    height: 222px;
+    float: left;
+}
+.section-6.masonry-sec .grid-item {
+    width: 119px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 1px;
+}
+.section-6.masonry-sec .right-side .grid-item {
+    width: 119px;
+    height: 140px;
+    float: left;
+}
+.section-6.masonry-sec .big-img .img-col img {
+    height: 377px;
+    object-position: left;
+}
+.section-6 .grid-item.grid-item--width1 {
+    width: 119px !important;
+    height: 106px !important;
+}
+.section-10 .col-md-3{
+	width: 50%;
+	padding: 0 15px;
+}
+.section-10 .inner-col {
+    margin-bottom: 55px;
+}
+}
+
+@media (max-width: 550px){
+	.header-bg img{
+		height: 504px;
+	}
+	.section-4,
+	.section-6{
+		background-size: 100% 280px;
+	}
+	.padding-image h2{
+		padding-top: 2em;
+		margin-bottom: 6em;
+	}
+	.left-side, .middle-side, .right-side {
+		width: 320px;
+		float: none;
+    	margin: 0 auto;
+		padding: 0;
+	}
+	.left-side::after,
+	.middle-side::after,
+	.right-side::after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+	
+	/* .masonry-sec .grid-item--height3 {
+		height: 326px;
+	} */
+	.grid-item.grid-item--width2.big-img.grid-item--height3{
+		width: 100%;
+    	height: auto;
+	}
+	.masonry-sec .big-img .img-col img,
+	.section-6.masonry-sec .big-img .img-col img{
+		height: auto;
+	}
+	.masonry-sec .grid-item,
+	.section-6.masonry-sec .grid-item,
+	.section-6.masonry-sec .right-side .grid-item {
+		width: 106px;
+		height: 109px;
+	}
+	.section-6.masonry-sec .grid-item{
+		float: left;
+		padding: 5px;
+	}
+	.section-6.masonry-sec .grid-item.grid-item-third{
+		margin-top: -34%;
+	}
+	.masonry-sec .grid-item.frst,
+	.section-6.masonry-sec .grid-item.frst{
+		width: 212px;
+		height: 327px;
+	}
+	.section-6.masonry-sec .grid-item.grid-item-fourth {
+	    height: 108px;
+	    margin-top: -4px;
+	}
+	.section-6.masonry-sec .grid-item.grid-item-fourth  .img-col img{
+		height: 90px;
+    	width: auto;
+	}
+	.section-6.masonry-sec .grid-item.grid-item--width1{
+		width: 50% !important;
+	}
+	.section-7 img.main-image{
+		height: 220px;
+		width: 100%;
+		object-fit: cover;
+	}
+	.page-footer .col-md-12 .footer-logo {
+	    padding: 0 2%;
+	}
+}

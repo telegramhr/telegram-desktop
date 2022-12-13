@@ -1,0 +1,180 @@
+@media (min-width: 768px) {
+.banner h1.text-white {
+    font-size: 60px;
+    top: 85px;
+}
+}
+@media (max-width: 768px) {
+body {
+    padding-top: 0;
+}
+.res-hide{ display:none;}
+.third-area .icon-1::before, .third-area .icon-1::after, .third-area .icon-3::after{
+content:none;
+}
+.banner h1 {
+    font-size: 2em;
+    top: 50px;
+}
+.banner .container {
+    padding: 0;
+}
+.second-area .container {
+    padding: 0;
+}
+.second-area .red-area {
+    padding: 30px 15px 120px;
+    width: 100% !important;
+}
+.red-area h3 {
+    font-size: 20px;
+}
+.red-area span {
+    font-size: 16px;
+}
+@include reset-box-sizing;
+@include reset-lists;
+
+@keyframes wave {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 200px 0;
+	}
+}
+.wave-wht {
+    margin-top: -90px;
+}
+.wave-wht span.img {
+    width: 100%;
+}
+.wave-wht .line {
+    width: 30%;
+}
+.rectangle-img {
+    left: 5%;
+	width: 90%;
+}
+
+.third-area .col-md-6.img-sec {
+    padding: 0;
+}
+.third-area .row2 .col-md-6.scnd {
+    order: -1;
+}
+.third-area .row2 .col-md-6.scnd .content-block {
+    margin: 50px 0 0;
+    top: 0;
+}
+.third-area .row3 .col-md-6.frst .content-block {
+    top: 0;
+}
+.third-area .row3 .col-md-6.scnd .pic-holder {
+    margin-top: 50px;
+    top: 0;
+}
+.fourth-area {
+    padding-top: 5rem;
+}
+.fourth-area .col-md-6.lst {
+    margin-top: 3rem;
+    padding: 0;
+}
+.fourth-area .col-md-6.lst .content-block {
+    padding: 0 15px;
+}
+.wave {
+    border-top: medium none;
+    height: auto;
+    overflow: hidden;
+}
+.wave .line {
+    top: -25px;
+    width: 100%;
+}
+.wave img {
+    max-width: none;
+    width: 115%;
+}
+.wave {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.wave span.line {
+    background-position: 200% 0;
+    background-size: 300% 100%;
+}
+.wave-wht span.img{ top:2px;}
+section.fifth-area {
+    margin-top: 0rem;
+}
+.fifth-area h2, .fifth-area p {
+    padding: 0 15px;
+}
+.fifth-area .embed-responsive img {
+    width: 100%;
+}
+.six-area {
+    padding-top: 0 !important;
+}
+.six-area .col-auto {
+    margin-bottom: 30px;
+}
+.six-area .img-center h3 {
+    bottom: 3rem;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0rem;
+    position: absolute;
+}
+footer {
+    overflow: hidden;
+}
+.footer-area .col-md-6 {
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+.footer-area .col-6.frst::before, .footer-area .col-6.frst::after, .footer-area .col-6.scnd::after {
+    background-size: 80px auto;
+}
+.footer-area .col-6.frst::before {
+    left: -10px;
+}
+.footer-area .col-6.frst::after {
+    right: -18%;
+    top: 70%;
+}
+.footer-area .col-6.scnd::after {
+    bottom: 0;
+    left: 0;
+    right: auto;
+}
+.footer-area .col-6 .card{
+max-width:260px;
+}
+}
+@media (max-width: 359px) {
+.wave .line {
+    top: -22px;
+}
+}
+@media (max-width: 479px) and (min-width: 400px) {
+ .wave .line {
+    top: -27px;
+}
+}
+@media (min-width: 1400px) and (max-width: 1920px) {
+.wave-wht {
+    margin-top: -5rem;
+    top: -40px;
+    position: relative;
+}
+.wave-wht span.img {
+    top: -1px;
+}
+.wave-wht span.img img {
+    width: 100%;
+}
+}
