@@ -110,10 +110,7 @@ body{background-color:#ffffff;background-position:0% 0%;background-size:auto;bac
 <div class="themetechmount-topbar-wrapper tm-bgcolor-darkgrey tm-textcolor-white">
 	<div class="themetechmount-topbar-inner">
 		<div class="container tm-container-for-topbar">
-			<div class="tm-wrap tm-topbar-content"><div class="tm-wrap-cell"><ul class="top-contact"><li><i class="fa fa-map-marker"></i>24 Tech Roqad st Ny 10023</li><li><i class="fa fa-clock-o"></i>Mon-Sat: 9am to 6pm</li></ul></div><div class="tm-wrap-cell tm-align-right"><ul class="top-contact"><li><i class="fa fa-envelope-o"></i><a href="mailto:info@example.com.com">info@example.com</a></li></ul><div class="themetechmount-social-links-wrapper"><ul class="social-icons"><li class="tm-social-facebook"><a class=" tooltip-top" target="_blank" href="#"><i class="tm-nutrico-icon-facebook"></i></a></li>
-<li class="tm-social-twitter"><a class=" tooltip-top" target="_blank" href="#"><i class="tm-nutrico-icon-twitter"></i></a></li>
-<li class="tm-social-flickr"><a class=" tooltip-top" target="_blank" href="#"><i class="tm-nutrico-icon-flickr"></i></a></li>
-<li class="tm-social-linkedin"><a class=" tooltip-top" target="_blank" href=""><i class="tm-nutrico-icon-linkedin"></i></a></li>
+			<div class="tm-wrap tm-topbar-content"><div class="tm-wrap-cell"><ul class="top-contact">
 </ul></div>
 		<div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-square tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" href="#" title="">View Shedule</a></div></div></div>		</div>
 	</div>
@@ -137,9 +134,6 @@ body{background-color:#ffffff;background-position:0% 0%;background-size:auto;bac
 
 
 <div class="nav-menu"><ul id="menu-main-menu" class="nav-menu"><li id="menu-item-3814" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3814"><a title="												" href="<?php the_permalink(); ?>" aria-current="page">Naslovnica</a></li>
-<li id="menu-item-3901" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3901"><a href="#">Župa Plina-Stablina</a></li>
-<li id="menu-item-3902" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3902"><a href="#">Župa Baćina</a></li>
-<li id="menu-item-3906" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3906"><a href="#">Kontakti</a></li>
 </ul></div>				</nav><!-- .main-navigation -->
 			</div><!-- .site-header-menu -->
 
@@ -1151,7 +1145,7 @@ Saznaj kako!
 			</div>
 			<div class="themetechmount-box-desc">
 				<div class="entry-header">
-										<div class="themetechmount-box-title"><h4><a href="#"><strong>Redoviti pregledi</strong></a></h4></div>				</div>
+										<div class="themetechmount-box-title"><h4><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/"><strong>Redoviti pregledi</strong></a></h4></div>				</div>
 				<div class="themetechmount-box-desc-text">Vaš liječnik najvrjedniji je resurs za savjete kako spriječiti i upravljati dijabetesom...</div>
 				<div class="themetechmount-blogbox-footer-readmore">
 									</div>
@@ -1167,7 +1161,7 @@ Saznaj kako!
 			</div>
 			<div class="themetechmount-box-desc">
 				<div class="entry-header">
-										<div class="themetechmount-box-title"><h4><a href="#"><strong>Prestanite pušiti</strong></a></h4></div>				</div>
+										<div class="themetechmount-box-title"><h4><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/"><strong>Prestanite pušiti</strong></a></h4></div>				</div>
 				<div class="themetechmount-box-desc-text">Pušači imaju od 30 do 40 posto veće šanse da dobiju dijabetes tipa 2...</div>
 				<div class="themetechmount-blogbox-footer-readmore">
 									</div>
@@ -1183,7 +1177,7 @@ Saznaj kako!
 			</div>
 			<div class="themetechmount-box-desc">
 				<div class="entry-header">
-										<div class="themetechmount-box-title"><h4><a href="#"><strong>Izbjegavajte alkohol</strong></a></h4></div>				</div>
+										<div class="themetechmount-box-title"><h4><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/"><strong>Izbjegavajte alkohol</strong></a></h4></div>				</div>
 				<div class="themetechmount-box-desc-text">Alkohol uzrokuje slabije oslobađanje ugljikohidrata iz jetre i oscilacije razine šećera...</div>
 				<div class="themetechmount-blogbox-footer-readmore">
 									</div>
@@ -1199,7 +1193,7 @@ Saznaj kako!
 			</div>
 			<div class="themetechmount-box-desc">
 				<div class="entry-header">
-										<div class="themetechmount-box-title"><h4><a href="#"><strong>Izbjegavajte stres</strong></a></h4></div>				</div>
+										<div class="themetechmount-box-title"><h4><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/"><strong>Izbjegavajte stres</strong></a></h4></div>				</div>
 				<div class="themetechmount-box-desc-text">On uzrokuje ubrzanje srca, skok krvnog tlaka te posljedično i rast razine šećera u krvi...</div>
 				<div class="themetechmount-blogbox-footer-readmore">
 									</div>
@@ -1215,7 +1209,7 @@ Saznaj kako!
 			</div>
 			<div class="themetechmount-box-desc">
 				<div class="entry-header">
-										<div class="themetechmount-box-title"><h4><a href="#"><strong>Fizička aktivnost</strong></a></h4></div>				</div>
+										<div class="themetechmount-box-title"><h4><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/"><strong>Fizička aktivnost</strong></a></h4></div>				</div>
 				<div class="themetechmount-box-desc-text">Samo 30 minuta dnevne aktivnosti ubrzava rad organizma i njegovu osjetljivost na inzulin...</div>
 				<div class="themetechmount-blogbox-footer-readmore">
 									</div>
@@ -1231,7 +1225,7 @@ Saznaj kako!
 			</div>
 			<div class="themetechmount-box-desc">
 				<div class="entry-header">
-										<div class="themetechmount-box-title"><h4><a href="#"><strong>Uravnotežena prehrana</strong></a></h4></div>				</div>
+										<div class="themetechmount-box-title"><h4><a href="https://www.telegram.hr/pitanje-zdravlja/ovih-pet-aktivnosti-kljucno-je-za-kvalitetniji-zivot-s-dijabetesom-ali-i-bez-njega-evo-sto-mozete-uciniti/"><strong>Uravnotežena prehrana</strong></a></h4></div>				</div>
 				<div class="themetechmount-box-desc-text">Kad god je moguće, smanjite ili izbacite unos soli, zasićenih masti i dodanih šećera...</div>
 				<div class="themetechmount-blogbox-footer-readmore">
 									</div>
