@@ -97,7 +97,7 @@ class Telegram_Banner_Widget extends WP_Widget {
 	function banner_slave($id, $instance) {
 		?>
         <!-- /1092744/telegram -->
-        <div class="banner-slot" id='<?php echo esc_attr($id) ?>' style="min-height: 250px;">
+        <div class="banner-slot" id='<?php echo esc_attr($id) ?>'>
         </div>
 	<?php
 	}

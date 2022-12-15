@@ -12,7 +12,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php wp_head(); 
+    <?php wp_head();
     ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +71,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full flex">
                             <input type="radio" id="slavenom-bilicem" value="slavenom-bilicem" name="pitanje2"><label for="slavenom-bilicem" class="full">Slavenom Bilićem</label>
                         </div>
-                                            
+
                         <label class="full">3.	Manuel Francisco dos Santos Mané Garrincha rođen je s:</label>
                         <div class="full flex">
                             <input type="radio" id="kracom-lijevom-nogom" value="kracom-lijevom-nogom" name="pitanje3"><label for="kracom-lijevom-nogom" class="full">lijevom nogom šest centimetara kraćom i svinutom prema van</label>
@@ -82,7 +82,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full flex">
                             <input type="radio" id="deformiranom-kraljeznicom" value="deformiranom-kraljeznicom" name="pitanje3"><label for="deformiranom-kraljeznicom" class="full">deformiranom kralježnicom i oslabljenim vidom</label>
                         </div>
-                                            
+
                         <label class="full">4.	Kylian Mbappé Lottin završio je školovanje u čuvenoj nogometnoj akademiji Clairefontaine, a nakon toga je potpisao prvi ugovor s:</label>
                         <div class="full flex">
                             <input type="radio" id="real-madridom" value="real-madridom" name="pitanje4"><label for="real-madridom" class="full">Real Madridom</label>
@@ -93,7 +93,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full flex">
                             <input type="radio" id="as-monacom" value="as-monacom" name="pitanje4"><label for="as-monacom" class="full">AS Monacom</label>
                         </div>
-                                            
+
                         <label class="full">5.	Luis Figo izazvao je veliki bijes kod navijača Barcelone nakon što je napustio klub i potpisao ugovor s: </label>
                         <div class="full flex">
                             <input type="radio" id="interom" value="interom" name="pitanje5"><label for="interom" class="full">Interom</label>
@@ -104,7 +104,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full flex">
                             <input type="radio" id="manchester-unitedom" value="manchester-unitedom" name="pitanje5"><label for="manchester-unitedom" class="full">Manchester Unitedom</label>
                         </div>
-                                            
+
                         <label class="full">6.	U svojih 49 nastupa za hrvatsku reprezentaciju, Milan Rapaić zabio je: </label>
                         <div class="full flex">
                             <input type="radio" id="sest-golova" value="sest-golova" name="pitanje6"><label for="sest-golova" class="full">6 golova</label>
@@ -115,7 +115,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full flex">
                             <input type="radio" id="deset-golova" value="deset-golova" name="pitanje6"><label for="deset-golova" class="full">10 golova</label>
                         </div>
-                                            
+
                         <label class="full">7.	Cristiano Ronaldo osvojio je Zlatnu loptu:</label>
                         <div class="full flex">
                             <input type="radio" id="tri-puta" value="tri-puta" name="pitanje7"><label for="tri-puta" class="full">tri puta</label>
@@ -299,6 +299,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         function(){
                             $('#loading-indicator').hide();
                             $('#response-msg').removeClass('hide');
+                            fbq('track', 'SubmitApplication');
                         }
                     );
                 }
@@ -308,7 +309,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             })
         </script>
     </div>
-    <?php wp_footer(); 
+    <?php wp_footer();
     ?>
 </body>
 

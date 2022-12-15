@@ -25,6 +25,7 @@ $native_path='https://telegram.hr/wp-content/themes/telegram2-desktop/templates/
     <script src="<?php echo $native_path ?>functions.js?ver=1.11"></script>
   <?php if (isset($_GET['success']) && $_GET['success'] = 'true') { ?>
   <script>
+      fbq('track', 'SubmitApplication')
     alert('Hvala na prijavi')
   </script>
   <?php } ?>

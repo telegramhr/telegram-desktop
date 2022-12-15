@@ -1,6 +1,40 @@
 <?php
 
 remove_shortcode('gallery');
+add_shortcode('gallery', 'super1_gallery_shortcode');
+
+function super1_gallery_shortcode($attr) {
+    $ids = explode(',',$attr['ids']);
+    ob_start();
+    ?>
+    <div class="article-gallery flex">
+        <?php
+        foreach ($ids as $id) { $id = intval($id); ?>
+            <figure class="wp-caption article-gallery-img">
+                <?php $p = get_post($id); ?>
+                <?php $image = wp_get_attachment_image_src($id, 'gallery') ?>
+                <img data-lazy='<?php echo $image[0] ?>' width="<?php echo $image[1] ?>"  height="<?php echo $image[2] ?>" />
+                <h1 class="gallery-title">
+                    <?php if($p->post_title) { echo $p->post_title; } ?>
+                </h1>
+                <figcaption class="wp-caption-text">
+                    <?php $post = get_post($id); echo apply_filters( 'wp_content', $post->post_excerpt ); ?>
+                    <div class="photographer">
+                        <?php echo get_post_meta( $id, 'fotograf', true )  ?>
+                        <?php echo get_post_meta( $id, 'agencija', true )  ?>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <?php
+        }
+        ?>
+    </div> <!-- end .article-gallery -->
+    <?php
+    return ob_get_clean();
+}
+/*
+remove_shortcode('gallery');
 add_shortcode('gallery', 'telegram_gallery_shortcode');
 
 function telegram_gallery_shortcode($attr) {
@@ -55,3 +89,4 @@ function telegram_new_gallery_shortcode($attr) {
 	}
 	return json_encode($gallery);
 }
+*/
