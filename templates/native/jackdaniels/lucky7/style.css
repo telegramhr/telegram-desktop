@@ -9,11 +9,6 @@
     background-image: url(img/duotone_background.png);
     background-size: 100%;
 }
-.container {
-    width: 100%;
-    max-width: 1248px;
-    margin: 0 auto;
-}
 
 body {
     font-family: 'Domine', serif;
@@ -30,10 +25,9 @@ h2 {
 
 p {
     font-family: 'Domine', serif;
-    font-size: 18xpx;
     margin-top: 10px;
     margin-bottom: 30px;
-
+    line-height: 28px;
 }
 
 .horizontal-pad {
@@ -218,6 +212,9 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    .mobile-side-pad {
+        padding: 0px 4vw;
+    }
     /* section img {
         height: 40vh;
         object-fit: cover;
@@ -236,5 +233,136 @@ footer {
 
     .footer-text {
         max-width: 750px;
+    }
+}
+
+/* Form */
+
+.text-container {
+    max-width: 660px;
+}
+#applications {
+    padding-top: 30px;
+}
+#applications label {
+    font-weight: 700;
+    margin-bottom: 16px;
+    width: 80%;
+    line-height: 28px;
+    margin-top: 32px;
+}
+#applications label.ruleslabel {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+#applications input, #applications textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    background-color: transparent;
+    font-size: 24px;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+    font-family: 'Domine', serif;
+}
+#applications textarea {
+    height: 150px;
+}
+#applications input[type=radio] {
+    display: none;
+}
+#applications input[type=radio] ~ label {
+    display: block;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    position: relative;
+    z-index: 5;
+    width: auto;
+}
+#applications input[type=radio] ~ label::before {
+    content: ' ';
+    position: absolute;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    top: -2px;
+    left: 0px;
+    height: 30px;
+    width: 5px;
+    background-color: #252525;
+    opacity: .5;
+    z-index: -1;
+}
+#applications input[type=radio] ~ label:hover::before {
+    width: 7px;
+    opacity: .7;
+}
+#applications input[type=radio]:checked ~ label::before {
+    width: 100%;
+    opacity: 1;
+}
+#applications input[type=radio]:checked ~ label {
+    color: white;
+}
+.smaller-text {
+    font-size: 16px;
+    opacity: .6;
+}
+#error-msg {
+    color: #ae3737;
+    margin-top: 16px;
+}
+#applications input[type="checkbox"] {
+    margin-right: 8px;
+    position: relative;
+    bottom: -1.5px;
+}
+label a, p a {
+    text-decoration: underline;
+}
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #baab8f;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+    50%, 100% {
+        top: 24px;
+        height: 32px;
     }
 }
