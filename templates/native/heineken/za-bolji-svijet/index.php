@@ -63,16 +63,15 @@ if (!$num) {
 
                 <div class="row justify-content-between uvod-text align-items-end">
                     <div class="col-lg-4 offset-lg-2">
-                        <p>Čini ti se da postoji more problema koje kao društvo trebamo riješiti? Nemoj se osjećati preplavljeno. Za nas je čaša ipak napola puna, mi vidimo more rješenja. 
-                            Možda ne možeš riješiti sve probleme, ali možeš biti kap u moru rješenja. 
+                        <p>Održivi razvoj i društvena odgovornost dio su strategije HEINEKEN Hrvatska već trinaest godina, a sve kako bi do 2030. godine postigli glavni, najambiciozniji cilj - potpunu ugljičnu neutralnost u proizvodnji. 
                             </p>
                             <p class="istaknuto">Pridruži se našoj akciji prikupljanja kapi za bolji svijet. Kreni već sada i pomozi nam skupiti što više kapi. Svaku kap brojimo! </p>
                     </div>
                     <div class="col-lg-4 kap-link">
-                        <a href="#posaljikap">
+                        <a href="https://www.telegram.hr/partneri/heineken-hrvatska-objavio-izvjesce-o-odrzivosti-za-2021-godinu/" target="_blank">
                         <div class="kreni d-inline-flex">
 
-                        <p>Kreni sada</p>
+                        <p>Saznaj kako u HEINEKENU Hrvatska stvaraju bolji svijet</p>
                         <img src="<?php echo $native_path ?>/img/strelica.svg" aria-hidden="true" class="img-fluid">
                     </div>
                 </a>
@@ -780,52 +779,6 @@ if (!$num) {
 
         <section class="container-fluid" id="posaljikap">
             <div class="container">
-                <div class="row justify-content-lg-center pk-content">
-                    <div class="col-lg-6">
-                        <h2>pošalji svoju kap</h2>
-                        <p>Stvarajmo bolji svijet zajedno! Odredi tri stvari koje ćeš raditi za bolji svijet do kraja godine. Podijeli s nama svoju odluku zajedno s fotografijom koja pokazuje kako već slijediš svoj cilj i tako inspiriraj druge da učine isto. Tvoja će fotografija (ili više njih, jer je količina dobrih odluka neograničena), biti objavljena u našoj velikoj galeriji, a one najinspirativnije HEINEKEN Hrvatska nagradit će posebnim poklon paketom.
-                            </p>
-                            <?php if (isset($_GET['success']) && $_GET['success']) {
-                                ?><h2 id="submitted">Hvala na kapi</h2><?php
-                            } else { ?>
-                            <form id="test_form" method="post" enctype="multipart/form-data" action="<?php echo admin_url('admin-post.php') ?>">
-                                <div class="mb-3">
-                                  <label for="ime" class="form-label">Tvoje ime i prezime</label>
-                                  <input class="form-control form-control-lg" id="ime" type="text" name="ime" required  aria-label="tvoje ime">
-
-                                </div>
-
-                                <div class="mb-3">
-                                  <label for="email" class="form-label">Tvoj email</label>
-                                  <input class="form-control form-control-lg" id="email" type="text" name="email" required  aria-label="tvoj email">
-
-                                </div>
-
-                                <div class="mb-3">
-                                  <label for="slika" class="form-label">Tvoja fotografija</label>
-                                  <input class="form-control form-control-lg" id="slika" type="file" name="slika" required  aria-label="tvoja fotografija">
-                                </div>
-                            
-                               <!-- <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Što ćeš raditi za bolji svijet i zašto baš to?</label>
-                                    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" name="poruka" rows="4" maxlength="300"></textarea>
-                                  </div>-->
-                                <?php wp_nonce_field('heineken_submit', 'heineken_submit'); ?>
-                              <input type="hidden" name="action" value="heineken_prijava">
-                                <button id="submit-form" type="submit" class="btn btn-zeleni">ovo je moja kap u moru rješenja</button>
-                                
-                              </form>
-                          <?php } ?>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1 col-10 pk-ilutracija">
-                   
-                            <img src="<?php echo $native_path ?>/img/posaljikap.png" aria-hidden="true" class="img-fluid">
-                        <div class="pk-kapi">
-                            <img src="<?php echo $native_path ?>/img/posaljikap-kapi.svg" aria-hidden="true" class="img-fluid">
-                        </div>
-                        
-                    </div>
-                </div>
                 <div class="row poruke justify-content-between">
                     <div class="col-lg-6">
                         <h4>vaše kapi u moru rješenja</h4>
@@ -908,6 +861,23 @@ if (!$num) {
                             }
                             ?>    
                           </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid shoo-bottom" id="section-odrzivost">
+            <div class="container">
+                <div class="row justify-content-center sijecanj-content">
+                    <div class="col-lg-6 special-drop">
+                        <img src="https://images.telegram.hr/FNh-6-Te9wOgcb5gOoRONzqWjX6WWUSdQe92x1JiT2A/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTIvaGVpbmVrZW4taHJ2YXRza2EuanBlZw.webp" aria-hidden="true" class="img-fluid">
+                        <img src="<?php echo $native_path ?>/img/tg_heineken_drop.png" aria-hidden="true" class="drop-overlay">
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 ">
+                        <h2>HEINEKEN Hrvatska objavio Izvješće o održivosti za 2021. godinu </h2>
+                        <p> Smanjenje količine komunalnog otpada za više od 40% po hektolitru piva te nastavak korištenja 100 posto električne energije dobivene iz obnovljivih izvora samo su neki od uspjeha koje je HEINEKEN Hrvatska predstavio u svom najnovijem Izvješću o održivosti</p>
+                        <a href="https://www.telegram.hr/partneri/heineken-hrvatska-objavio-izvjesce-o-odrzivosti-za-2021-godinu/" target="_blank"><button type="button" class="btn btn-zeleni">Otvori članak</button>
+                        </a>
                     </div>
                 </div>
             </div>
