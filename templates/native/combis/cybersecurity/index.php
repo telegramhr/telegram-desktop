@@ -12,7 +12,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>img/aos.css?ver=1.00" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
