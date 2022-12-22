@@ -23,7 +23,7 @@
     <link href="<?php echo $native_path ?>css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="<?php echo $native_path ?>css/style.css" rel="stylesheet">
+    <link href="<?php echo $native_path ?>css/style.css?ver=1.1" rel="stylesheet">
 </head>
 
 <body>
@@ -59,10 +59,10 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('https://www.telegram.hr/wp-content/uploads/2022/11/sasa6838xw.jpg') no-repeat; background-size: cover !important">
+                <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center sasa-carousel">
                   <div class="text-start p-5" style="max-width: 900px;">
                     <h1 class="display-1 text-white mb-md-4" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;">Mladi ne kupuju aute, žele automobile na pretplatu poput one za mobitel. <span style="font-weight:700">Važnija im je sloboda od vlasništva</span></font></h1>
-                    <a target="_blank" href="https://www.telegram.hr/partneri/mladi-ne-kupuju-aute-zele-automobile-na-pretplatu-poput-one-za-mobitel-vaznija-im-je-sloboda-od-vlasnistva/" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
+                    <a target="_blank" href="https://www.telegram.hr/partneri/mladi-ne-kupuju-aute-zele-automobile-na-pretplatu-poput-one-za-mobitel-vaznija-im-je-sloboda-od-vlasnistva/" class="btn btn-primary py-md-3 px-md-5 me-3" >Saznaj više</a>
                   </div>
 
                 </div>
@@ -71,7 +71,7 @@
                     <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('<?php echo $native_path ?>img/gen-z-o-kupnji-auta.jpg') no-repeat; background-size: cover !important">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h1 class="display-1 text-white" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;"><span style="font-weight:700">Gen Z o kupnji auta:</span> jedni ih posuđuju od roditelja, drugi unajmljuju po potrebi, a treći smatraju neophodnima</h1>
-                            <a target="_blank"  href="https://www.telegram.hr/partneri/gen-z-o-kupnji-auta-jedni-ih-posuduju-od-roditelja-drugi-unajmljuju-po-potrebi-a-treci-smatraju-neophodnima/" class="btn btn-primary py-md-3 px-md-5 me-3" style="margin-top:30px !important">Saznaj više</a>
+                            <a target="_blank"  href="https://www.telegram.hr/partneri/gen-z-o-kupnji-auta-jedni-ih-posuduju-od-roditelja-drugi-unajmljuju-po-potrebi-a-treci-smatraju-neophodnima/" class="btn btn-primary py-md-3 px-md-5 me-3">Saznaj više</a>
                         </div>
 
                     </div>
@@ -80,7 +80,7 @@
                     <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('<?php echo $native_path ?>img/10-god-skuplji.jpg') no-repeat; background-size: cover !important">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h1 class="display-1 text-white mb-md-4" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;"><span style="font-weight:700">Novi automobili gotovo su 10 tisuća eura skuplji nego prije 7 godina</span> , a prosječna starost diljem EU sve je viša</font></h1>
-                            <a target="_blank" href="https://www.telegram.hr/partneri/novi-automobili-gotovo-su-10-tisuca-eura-skuplji-nego-prije-7-godina-a-prosjecna-starost-diljem-eu-sve-je-visa/" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
+                            <a target="_blank" href="https://www.telegram.hr/partneri/novi-automobili-gotovo-su-10-tisuca-eura-skuplji-nego-prije-7-godina-a-prosjecna-starost-diljem-eu-sve-je-visa/" class="btn btn-primary py-md-3 px-md-5 me-3">Saznaj više</a>
                         </div>
 
                     </div>
@@ -89,7 +89,7 @@
                     <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center" style="background:#000 url('<?php echo $native_path ?>img/euri.jpg') no-repeat; background-size: cover !important">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h1 class="display-1 text-white mb-md-4" style="font-size: 40px; font-family: 'Poppins'; font-weight: 200;">Dok inflacija trese cijelu Europu, svaka je ušteda ključna.  <span style="font-weight:700">Pronašli smo uslugu koja će nam u tome pomoći</span></font></h1>
-                            <a target="_blank" href="https://www.telegram.hr/partneri/dok-inflacija-trese-cijelu-europu-svaka-je-usteda-kljucna-pronasli-smo-uslugu-koja-ce-nam-u-tome-pomoci/" class="btn btn-primary py-md-3 px-md-5 me-3"  style="margin-top:30px !important">Saznaj više</a>
+                            <a target="_blank" href="https://www.telegram.hr/partneri/dok-inflacija-trese-cijelu-europu-svaka-je-usteda-kljucna-pronasli-smo-uslugu-koja-ce-nam-u-tome-pomoci/" class="btn btn-primary py-md-3 px-md-5 me-3">Saznaj više</a>
                         </div>
 
                     </div>
@@ -195,8 +195,7 @@
                 });
             })("undefined" !== typeof window ? window : this, document);
         </script>
-    <?php wp_footer
-    (); ?>
+    <?php wp_footer(); ?>
 </body>
 
 </html>

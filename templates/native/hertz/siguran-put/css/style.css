@@ -303,5 +303,56 @@
 
 }
 
-
+.sasa-carousel {
+    background:#000 url('https://www.telegram.hr/wp-content/uploads/2022/11/sasa6838xw.jpg') no-repeat; 
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+.sasa-carousel * {
+    z-index: 2;
+}
+.sasa-carousel::before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.carousel-caption h1 {
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.carousel-caption .btn {
+    margin-top: 30px;
+}
+.navbar-toggler {
+    background-color: rgba(0,0,0,0.2);
+}
+@media (max-width: 991.98px) {
+    .carousel-caption {
+        justify-content: flex-end !important;
+    }
+    .carousel-caption .p-5 {
+        padding: 0px 50px !important;
+    }
+    .sasa-carousel {
+        background-position: top center;
+    }
+    .carousel-caption .p-5 h1 {
+        font-size: 30px !important;
+    }
+    .carousel-caption .btn {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .carousel-caption .p-5 h1 {
+        font-size: 25px !important;
+    }
+    .carousel-caption .btn {
+        margin-top: 5px;
+    }
+}
 
