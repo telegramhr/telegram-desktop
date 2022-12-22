@@ -25,12 +25,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#helena">Helena</a>
+        <a class="full" href="#chris">Chris</a>
         <a class="full" href="#miroslav">Miroslav</a>
         <a class="full" href="#ana">Ana</a>
         <a class="full" href="#podaci4">
             <div class="side-nav-bar"></div>
         </a>
-        <a class="full" href="#chris">Chris</a>
         <a class="full" href="#talita">Talita</a>
         <a class="full" href="#chloe">Chloe</a>
         <a class="full" href="#dominik">Dominik</a>
@@ -67,6 +68,27 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Helena -->
+        <a class="full flex relative slide slide-bottom-left" id="helena" href="https://www.telegram.hr/zivot/u-tunelu-na-putu-za-pag-uhvatio-me-napadaj-opsesije-prestravila-sam-se-sada-na-youtubeu-pomazem-svima-s-kompulzivnim-poremecajima/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/helena-duplic-7.jpg" alt="Protagonistica članka Helena u svijetloj prostoriji" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">'U tunelu na putu za Pag uhvatio me napadaj opsesije, prestravila sam se. Sada na YouTubeu pomažem svima s kompulzivnim poremećajima' </h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
+        <!-- Chris -->
+        <a class="full flex relative slide stretch half-slide" id="chris" href="https://www.telegram.hr/partneri/ovaj-ucitelj-napustio-je-skolu-i-postigao-vise-od-2-milijarde-pregleda-yt-videa-danas-mijenja-zivote-diljem-svijeta/" target="_blank">
+            <div class="half flex flex-responsive relative">
+                <img src="https://www.telegram.hr/wp-content/uploads/2022/11/240820825-955149098449007-689163342823245274-n.jpg" aria-hidden="true" class="bg-img">
+            </div>
+            <div class="half center flex flex-responsive">
+                <div class="article-text relative">
+                    <h2 class="full animate">Ovaj učitelj napustio je školu i postigao više od 2 milijarde pregleda YT videa. Danas mijenja živote diljem svijeta</h2>
+                    <div class="cta">Pročitaj priču ></div>
+                </div>
+            </div>
+        </a>
         <!-- Miroslav -->
         <a class="full flex relative slide slide-bottom-left" id="miroslav" href="https://www.telegram.hr/partneri/profesor-iz-rijeke-napravio-je-senzorni-dvorac-u-kojem-djeca-s-autizmom-i-downovim-sindromom-uce-kroz-igru-posjetili-smo-ga/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/12/miroslav-vrankic-1.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
@@ -93,18 +115,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <p class="full fact-description">hrvatska kompanija na listi najetičnijih svjetskih kompanija je Hrvatski Telekom</p>
             </div>
         </div>
-        <!-- Chris -->
-        <a class="full flex relative slide stretch half-slide" id="chris" href="https://www.telegram.hr/partneri/ovaj-ucitelj-napustio-je-skolu-i-postigao-vise-od-2-milijarde-pregleda-yt-videa-danas-mijenja-zivote-diljem-svijeta/" target="_blank">
-            <div class="half flex flex-responsive relative">
-                <img src="https://www.telegram.hr/wp-content/uploads/2022/11/240820825-955149098449007-689163342823245274-n.jpg" aria-hidden="true" class="bg-img">
-            </div>
-            <div class="half center flex flex-responsive">
-                <div class="article-text relative">
-                    <h2 class="full animate">Ovaj učitelj napustio je školu i postigao više od 2 milijarde pregleda YT videa. Danas mijenja živote diljem svijeta</h2>
-                    <div class="cta">Pročitaj priču ></div>
-                </div>
-            </div>
-        </a>
         <!-- Talita -->
         <a class="full flex relative slide slide-bottom-left" id="talita" href="https://www.telegram.hr/partneri/u-skoli-su-me-maltretirali-jer-sam-drugacija-izvukla-me-genijalna-profesorica-sada-ja-pomazem-drugim-romima-da-uspiju/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/10/talita1.jpg" alt="Talita pred prozorima u vrijeme sumraka" class="bg-img">
