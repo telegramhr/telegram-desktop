@@ -293,14 +293,6 @@ Saznaj kako!
 			</rs-module-wrap>
 			<!-- END REVOLUTION SLIDER -->
 </div>	</div>
-
-
-
-
-
-
-
-	</div>
 </header><!-- .site-header -->
 		<div id="content-wrapper" class="site-content-wrapper">
 			<div id="content" class="site-content ">
@@ -629,10 +621,67 @@ Saznaj kako!
 
 
 
+        <div data-vc-full-width="true" data-vc-full-width-init="false" class="tm-row wpb_row vc_row-fluid slajder vc_custom_1671831187180 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 tm-bgimage-position-center_center tm-bgimage-fixed tm-bg tm-bgimage-yes">
+
+            <div class="tm-row-wrapper-bg-layer tm-bg-layer"></div><!-- ThemetechMount custom DIV added -->
+
+            <div class="vc_row container">
+
+
+                <div class="wpb_column tm-column vc_column_container vc_col-sm-12 vc_col-has-fill tm-zindex-0">
+                    <div class="vc_column-inner vc_custom_1668504836197 ">
+                        <div class="wpb_wrapper">
+
+                            <div class="tm-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1671831143723 tm-zindex-0">
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-2 tm-zindex-0">
+                                    <div class="vc_column-inner  ">
+
+                                        <div class="wpb_wrapper">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-8 tm-zindex-0">
+                                    <div class="vc_column-inner  ">
+
+                                        <div class="wpb_wrapper">
+
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h3 class="full" style="text-align: center;"><span style="color: #ffffff;">Proveli smo akciju mjerenja glukoze u krvi: Rezultati su ozbiljni, opasne vrijednosti imalo je više od 16 posto ljudi</span></h3>
+                                                    <p class="full" style="text-align: center;"><span style="color: #ffffff;">Budući da oko 200 tisuća ljudi u Hrvatskoj ne zna da ima dijabetes, odlučili smo podići svijest o ‘tihom ubojici’</span></p>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="tm-vc_btn3-container tm-vc_btn3-center"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-lg tm-vc_btn3-shape-square tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" href="https://www.telegram.hr/pitanje-zdravlja/proveli-smo-akciju-mjerenja-glukoze-u-krvi-rezultati-su-ozbiljni-opasne-vrijednosti-imalo-je-vise-od-16-posto-ljudi/" title="" target="_blank">Saznaj više</a></div>		</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-2 tm-zindex-0">
+                                    <div class="vc_column-inner  ">
+
+                                        <div class="wpb_wrapper">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
 
 
 
+            </div> </div>
+
+
+        <div class="vc_row-full-width vc_clearfix"></div>
 
 <div id="pretrage-i-simptomi" data-vc-full-width="true" data-vc-full-width-init="false" class="tm-row wpb_row vc_row-fluid vc_custom_1668166304520 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 tm-bgimage-position-center_center">
 
@@ -754,11 +803,67 @@ Saznaj kako!
 
 
 
+        <div data-vc-full-width="true" data-vc-full-width-init="false" class="tm-row wpb_row vc_row-fluid vc_custom_1671831595935 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 tm-bgimage-position-center_center tm-bg tm-bgimage-yes">
+
+            <div class="tm-row-wrapper-bg-layer tm-bg-layer"></div><!-- ThemetechMount custom DIV added -->
+
+            <div class="vc_row container">
+
+
+                <div class="wpb_column tm-column vc_column_container vc_col-sm-12 tm-zindex-0">
+                    <div class="vc_column-inner  ">
+                        <div class="wpb_wrapper">
+
+                            <div class="tm-row-inner vc_row wpb_row vc_inner vc_row-fluid tm-zindex-0">
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-4 tm-zindex-0">
+                                    <div class="vc_column-inner  ">
+
+                                        <div class="wpb_wrapper">
+
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="https://telegram.reset.hr/wp-content/uploads/2022/12/cura.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="https://telegram.reset.hr/wp-content/uploads/2022/12/cura.png 400w, https://telegram.reset.hr/wp-content/uploads/2022/12/cura-300x300.png 300w, https://telegram.reset.hr/wp-content/uploads/2022/12/cura-150x150.png 150w" sizes="(max-width: 400px) 100vw, 400px" data-id="4178" width="400" height="400"></div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-8 tm-zindex-0">
+                                    <div class="vc_column-inner vc_custom_1668111225340 ">
+
+                                        <div class="wpb_wrapper">
+
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h3><span style="color: #ffffff;">“Ako pacijent kaže da nikad lakše nije izgubio 15 kilograma nego u zadnja tri mjeseca, to je alarmantan znak te je praktički indikacija za terapiju”</span></h3>
+                                                    <p><span style="color: #ffffff;">dr. Marin Deškin<br>
+subspecijalist endokrinolog i dijabetolog</span></p>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-round tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" href="https://www.telegram.hr/pitanje-zdravlja/doktor-nam-je-otkrio-kako-se-pripremiti-i-koje-nalaze-ponijeti-na-pregled-kod-dijabetologa/" title="">Saznaj kako se pripremiti za posjetu liječniku</a></div>		</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
 
 
 
+            </div> </div>
 
+
+
+        <div class="vc_row-full-width vc_clearfix"></div>
 
 
 
@@ -949,9 +1054,65 @@ Saznaj kako!
 <div class="vc_row-full-width vc_clearfix"></div>
 
 
+        <div data-vc-full-width="true" data-vc-full-width-init="false" class="tm-row wpb_row vc_row-fluid vc_custom_1671831595935 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 tm-bgimage-position-center_center tm-bg tm-bgimage-yes">
+
+            <div class="tm-row-wrapper-bg-layer tm-bg-layer"></div><!-- ThemetechMount custom DIV added -->
+
+            <div class="vc_row container">
+
+
+                <div class="wpb_column tm-column vc_column_container vc_col-sm-12 tm-zindex-0">
+                    <div class="vc_column-inner  ">
+                        <div class="wpb_wrapper">
+
+                            <div class="tm-row-inner vc_row wpb_row vc_inner vc_row-fluid tm-zindex-0">
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-4 tm-zindex-0">
+                                    <div class="vc_column-inner  ">
+
+                                        <div class="wpb_wrapper">
+
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="https://telegram.reset.hr/wp-content/uploads/2022/12/cura.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="https://telegram.reset.hr/wp-content/uploads/2022/12/cura.png 400w, https://telegram.reset.hr/wp-content/uploads/2022/12/cura-300x300.png 300w, https://telegram.reset.hr/wp-content/uploads/2022/12/cura-150x150.png 150w" sizes="(max-width: 400px) 100vw, 400px" data-id="4178" width="400" height="400"></div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-8 tm-zindex-0">
+                                    <div class="vc_column-inner vc_custom_1668111225340 ">
+
+                                        <div class="wpb_wrapper">
+
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h3><span style="color: #ffffff;">Najbolje je kombinirati mjerenja pa glukozu jedan dan mjeriti ujutro na tašte, drugi dan dva sata nakon doručka, a treći dan dva sata nakon ručka i tako u krug</span></h3>
+                                                    <p><span style="color: #ffffff;">dr. Marin Deškin<br>
+subspecijalist endokrinolog i dijabetolog</span></p>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-round tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" href="https://www.telegram.hr/pitanje-zdravlja/doktor-nam-je-otkrio-kako-se-pripremiti-i-koje-nalaze-ponijeti-na-pregled-kod-dijabetologa/" title="">Saznaj kako se pripremiti za posjetu liječniku</a></div>		</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
 
 
+
+            </div> </div>
+
+        <div class="vc_row-full-width vc_clearfix"></div>
 
 
 
