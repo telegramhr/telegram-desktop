@@ -35,10 +35,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <?php echo file_get_contents($native_path.'img/user-secret-solid.svg'); ?>
                         <div class="full">Ekspert 2</div>
                     </a>
-                    <!--<a href="#haker3" class="center relative animate">
+                    <?php /*
+                    <a href="#haker3" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/user-visor-solid.svg'); ?>
                         <div class="full">Ekspert 3</div>
-                    </a>-->
+                    </a> */ ?>
                     <a href="#napadi" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?>
                         <div class="full">Informiraj se</div>
@@ -55,11 +56,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <?php echo file_get_contents($native_path.'img/user-secret-solid.svg'); ?>
                 <div class="full center-text">Ekspert 2</div>
             </a>
-            <!--
+            <?php /*
             <a href="#haker3" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/user-visor-solid.svg'); ?>
                 <div class="full center-text">Ekspert 3</div>
-            </a>-->
+            </a> */ ?>
             <a href="#napadi" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?>
                 <div class="full center-text">Info</div>
