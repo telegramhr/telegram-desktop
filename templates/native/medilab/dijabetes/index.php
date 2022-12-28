@@ -841,14 +841,14 @@ Saznaj kako!
 
                                             <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper">
-                                                    <h3><span style="color: #ffffff;">“Ako pacijent kaže da nikad lakše nije izgubio 15 kilograma nego u zadnja tri mjeseca, to je alarmantan znak te je praktički indikacija za terapiju”</span></h3>
+                                                    <h3><span style="color: #ffffff;">Ako pacijent kaže da nikad lakše nije izgubio 15 kilograma nego u zadnja tri mjeseca, to je alarmantan znak te je praktički indikacija za terapiju</span></h3>
                                                     <p><span style="color: #ffffff;">dr. Marin Deškin<br>
 subspecijalist endokrinolog i dijabetolog</span></p>
 
                                                 </div>
                                             </div>
 
-                                            <div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-round tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" href="https://www.telegram.hr/pitanje-zdravlja/doktor-nam-je-otkrio-kako-se-pripremiti-i-koje-nalaze-ponijeti-na-pregled-kod-dijabetologa/" title="">Saznaj kako se pripremiti za posjetu liječniku</a></div>		</div>
+                                            <div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-round tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" target="_blank" href="https://www.telegram.hr/pitanje-zdravlja/doktor-nam-je-otkrio-kako-se-pripremiti-i-koje-nalaze-ponijeti-na-pregled-kod-dijabetologa/" title="">Saznaj kako se pripremiti za posjetu liječniku</a></div>		</div>
                                     </div>
                                 </div>
 
@@ -1099,7 +1099,7 @@ subspecijalist endokrinolog i dijabetolog</span></p>
                                                 </div>
                                             </div>
 
-                                            <div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-round tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" href="https://www.telegram.hr/pitanje-zdravlja/doktor-nam-je-otkrio-kako-se-pripremiti-i-koje-nalaze-ponijeti-na-pregled-kod-dijabetologa/" title="">Saznaj kako se pripremiti za posjetu liječniku</a></div>		</div>
+                                            <div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-round tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" target="_blank" href="https://www.telegram.hr/pitanje-zdravlja/doktor-nam-je-otkrio-kako-se-pripremiti-i-koje-nalaze-ponijeti-na-pregled-kod-dijabetologa/" title="">Saznaj kako se pripremiti za posjetu liječniku</a></div>		</div>
                                     </div>
                                 </div>
 
