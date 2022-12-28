@@ -5,8 +5,6 @@
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/combis/cybersecurity/';
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/combis/cybersecurity/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/combis/cybersecurity/';
-//$native_path = 'http://localhost/telegram-desktop/templates/native/combis/cybersecurity/';
-//$native_path = 'http://localhost/cybersecurity/';
 ?>
 
 <head>
@@ -17,7 +15,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="<?php echo $native_path ?>img/aos.css?ver=1.00" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Mono&family=Teko:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Mono&family=Teko:wght@500&display=swap" rel="stylesheet">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.20" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.32" type="text/css" />
@@ -33,16 +31,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <?php echo file_get_contents($native_path.'img/user-headset-solid.svg'); ?>
                         <div class="full">Ekspert 1</div>
                     </a>
-                    <?php /*
                     <a href="#haker2" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/user-secret-solid.svg'); ?>
                         <div class="full">Ekspert 2</div>
                     </a>
-                    <a href="#haker3" class="center relative animate">
+                    <!--<a href="#haker3" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/user-visor-solid.svg'); ?>
                         <div class="full">Ekspert 3</div>
-                    </a>
-                    */ ?>
+                    </a>-->
                     <a href="#napadi" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?>
                         <div class="full">Informiraj se</div>
@@ -55,16 +51,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <?php echo file_get_contents($native_path.'img/user-headset-solid.svg'); ?>
                 <div class="full center-text">Ekspert 1</div>
             </a>
-            <?php /*
             <a href="#haker2" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/user-secret-solid.svg'); ?>
                 <div class="full center-text">Ekspert 2</div>
             </a>
+            <!--
             <a href="#haker3" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/user-visor-solid.svg'); ?>
                 <div class="full center-text">Ekspert 3</div>
-            </a>
-            */ ?>
+            </a>-->
             <a href="#napadi" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?>
                 <div class="full center-text">Info</div>
@@ -112,9 +107,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </a>
         </section>
-        <?php /*
         <section class="full flex relative shoo-top" id="haker2">
-            <a href = "https://www.telegram.hr/preview/1345681"
+            <a href = "https://www.telegram.hr/biznis-tech/strucnjak-za-sigurnost-racunalnih-sustava-nikome-ne-vjerujem-provjeravam-i-mamin-mail-kad-mi-ga-posalje/"
             class="container flex article-embed"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad desktop-order-2">
@@ -128,21 +122,20 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </a>
         </section>
-        <section class="full flex relative shoo-top" id="haker3">
+       <!-- <section class="full flex relative shoo-top" id="haker3">
             <a class="container flex article-embed"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
-                    <img src="<?php echo $native_path ?>img/haker1.jpg" alt="Haker 1">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2022/12/g12a2995.jpg" alt="Haker 1">
                 </div>
                 <div class="third flex flex-responsive horizontal-pad">
                     <h3 class="full">Ekspert 3</h3>
                     <h2 class="full">GORAN ŽIVKOVIĆ</h2>
-                    <p class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ipsum vel nunc tempus, venenatis interdum est ultricies. Fusce elementum velit id lorem dignissim, a vehicula urna egestas. Sed non finibus ipsum.</p>
+                    <p class="full">Iz banke je prešao u Combis kako bi uspostavio sustavno rješenje: 'Hakerima praktički na pladnju serviramo sve informacije koje im trebaju za napad'</p>
                     <div class="cta">Pročitaj više</div>
                 </div>
             </a>
-        </section> */
-        ?>
+        </section>-->
         <section class="full flex relative shoo-top">
             <div class="container flex center-text relative">
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
@@ -205,7 +198,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </a>
             </div>
         </section>
-        
+
         <footer class="full flex relative native-signature">
             <div class="container text-container flex relative stretch">
                 <div class="full center logo-line">
