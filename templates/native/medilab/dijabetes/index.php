@@ -1479,7 +1479,39 @@ subspecijalist endokrinolog i dijabetolog</span></p>
 
 
 
+        <div class="tm-row wpb_row vc_row-fluid vc_custom_1668119336662 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 vc_row container tm-bgimage-position-center_center">
 
+
+
+
+
+            <div class="wpb_column tm-column vc_column_container vc_col-sm-12 tm-zindex-0">
+                <div class="vc_column-inner  ">
+                    <div class="wpb_wrapper">
+                        <h2 style="text-align:center;" class="tm-custom-heading "><b>Testirali smo svoj šećer tjedan dana. </b> Evo što smo saznali</h2>
+
+                        <div class="wpb_text_column wpb_content_element ">
+                            <div class="wpb_wrapper">
+                                <p style="text-align: center;">Dina, Mario, Mateja i Zoran nisu mijenjali svoje uobičajene životne navike pa su, kako bi dobili što točniji uvid u svoje zdravstveno stanje, jeli hranu koja se inače nalazi na njihovom jelovniku u ovo doba godine i pritom se nisu odricali grickalica i slatkiša.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1672258507772">
+
+                            <figure class="wpb_wrapper vc_figure">
+                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="https://telegram.reset.hr/wp-content/uploads/2022/12/graf-1-1.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="https://telegram.reset.hr/wp-content/uploads/2022/12/graf-1-1.png 1922w, https://telegram.reset.hr/wp-content/uploads/2022/12/graf-1-1-300x97.png 300w, https://telegram.reset.hr/wp-content/uploads/2022/12/graf-1-1-1024x332.png 1024w, https://telegram.reset.hr/wp-content/uploads/2022/12/graf-1-1-768x249.png 768w, https://telegram.reset.hr/wp-content/uploads/2022/12/graf-1-1-1536x499.png 1536w" sizes="(max-width: 1922px) 100vw, 1922px" data-id="4188" width="1922" height="624"></div>
+                            </figure>
+                        </div>
+
+                        <div class="tm-vc_btn3-container tm-vc_btn3-center"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-square tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" href="https://www.telegram.hr/pitanje-zdravlja/proveli-smo-eksperiment-kolege-su-sest-dana-mjerile-secer-u-krvi-mislim-da-moram-otici-na-kontrolu/" title="" target="_blank">Saznaj više</a></div>		</div>
+                </div>
+            </div>
+
+
+
+
+        </div>
 
 
 
