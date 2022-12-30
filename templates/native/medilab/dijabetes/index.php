@@ -1514,7 +1514,67 @@ subspecijalist endokrinolog i dijabetolog</span></p>
         </div>
 
 
+        <div data-vc-full-width="true" data-vc-full-width-init="false" class="tm-row wpb_row vc_row-fluid vc_custom_1671831595935 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 tm-bgimage-position-center_center tm-bg tm-bgimage-yes">
 
+            <div class="tm-row-wrapper-bg-layer tm-bg-layer"></div><!-- ThemetechMount custom DIV added -->
+
+            <div class="vc_row container">
+
+
+                <div class="wpb_column tm-column vc_column_container vc_col-sm-12 tm-zindex-0">
+                    <div class="vc_column-inner  ">
+                        <div class="wpb_wrapper">
+
+                            <div class="tm-row-inner vc_row wpb_row vc_inner vc_row-fluid tm-zindex-0">
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-4 tm-zindex-0">
+                                    <div class="vc_column-inner  ">
+
+                                        <div class="wpb_wrapper">
+
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="<?php echo $native_path ?>/files/dr.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" data-id="4178" width="400" height="400"></div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="wpb_column tm-column-inner vc_column_container vc_col-sm-8 tm-zindex-0">
+                                    <div class="vc_column-inner vc_custom_1668111225340 ">
+
+                                        <div class="wpb_wrapper">
+
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <h3><span style="color: #ffffff;">Što se tjelesne aktivnosti tiče, preporučuje se redovito provođenje umjerene do srednje aerobne tjelesne aktivnosti minimalno 150 minuta tjedno, a uz to i provođenje vježbi snage dva puta tjedno.</span></h3>
+                                                    <p><span style="color: #ffffff;">doc. dr. sc. prim. Valerija Bralić Lang<br>
+specijalistica obiteljske medicine</span></p>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="tm-vc_btn3-container tm-vc_btn3-inline"><a class="tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-round tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-skincolor" target="_blank" href="https://www.telegram.hr/pitanje-zdravlja/lijecnica-o-komplikacijama-koje-prate-secernu-bolest-osobe-s-dijabetesom-imaju-sest-puta-veci-rizik-od-infarkta/" title="">Saznaj kako se pripremiti za posjetu liječniku</a></div>		</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div> </div>
+
+
+
+        <div class="vc_row-full-width vc_clearfix"></div>
 
 <div class="tm-row wpb_row vc_row-fluid vc_custom_1668119336662 tm-responsive-custom-41549285 vc_row-has-fill tm-zindex-0 vc_row container tm-bgimage-position-center_center">
 
