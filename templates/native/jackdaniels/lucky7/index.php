@@ -34,6 +34,37 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </nav>
+        <!-- Articles -->
+        <section class="full flex relative margin-top">
+            <a class="full center relative" href="https://telesport.telegram.hr/partneri/ana-je-osvojila-koznu-nogometnu-loptu-na-nasoj-pitalici-poklonit-cu-je-sinu-bit-ce-izvan-sebe/" target="_blank">
+                <div class="full center relative flex-responsive">
+                    <img class="full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/12/sasa1343xw-1600x899.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
+                </div>
+                <div class="container full center relative">
+                    <div class="full flex relative center center-text horizontal-pad flex-responsive">
+                        <h2 class="full">Ana je osvojila kožnu nogometnu loptu na našoj pitalici: ‘Poklonit ću je sinu, bit će izvan sebe’ </h2>
+                    </div>
+                    <div class="full center relative">
+                        <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <section class="full flex relative margin-top">
+            <a class="full center relative" href="https://telesport.telegram.hr/partneri/jedinstvena-lopta-s-radom-poznatog-umjetnika-osvojite-je-u-nasem-kvizu/" target="_blank">
+                <div class="full center relative flex-responsive">
+                    <img class="full" src="https://telesport.telegram.hr/wp-content/uploads/sites/2/2022/12/telesportslika-final.jpg" aria-hidden="true" class="horizontal-pad pad-bot margin-top">
+                </div>
+                <div class="container full center relative">
+                    <div class="full flex relative center center-text horizontal-pad flex-responsive">
+                        <h2 class="full">Jedinstvena lopta s radom poznatog umjetnika. Osvojite je u našem kvizu</h2>
+                    </div>
+                    <div class="full center relative">
+                        <div class="button-48"><span class="text">Pročitaj više...</span></div>
+                    </div>
+                </div>
+            </a>
+        </section>
         <!-- Form -->
         <section class="full flex relative margin-top quiz-form">
             <div class="full center relative flex-responsive">
