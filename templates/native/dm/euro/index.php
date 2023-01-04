@@ -18,7 +18,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.00" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.11" type="text/css" />
-    <script src="<?php echo $native_path ?>functions.js?ver=1.10"></script>
+    <script src="<?php echo $native_path ?>functions.js?ver=1.20"></script>
 </head>
 <body>
     <div class="main-container flex relative">
