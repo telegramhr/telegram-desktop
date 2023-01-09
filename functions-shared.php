@@ -445,7 +445,7 @@ function telegram_text_strings( $translated_text, $text, $context, $domain ) {
 add_filter( 'gettext_with_context', 'telegram_text_strings', 20, 4 );
 
 function telegram_tinymce($arr){
-	$arr['block_formats'] = 'Odlomak=p;Međunaslov=h2;Disclaimer=h6';
+	$arr['block_formats'] = 'Odlomak=p;Međunaslov=h2;H3=h3;H4=h4Disclaimer=h6';
 
 	return $arr;
 }
