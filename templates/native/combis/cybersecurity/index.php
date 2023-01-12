@@ -35,11 +35,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <?php echo file_get_contents($native_path.'img/user-secret-solid.svg'); ?>
                         <div class="full">Ekspert 2</div>
                     </a>
-                    <?php /*
                     <a href="#haker3" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/user-visor-solid.svg'); ?>
                         <div class="full">Ekspert 3</div>
-                    </a> */ ?>
+                    </a>
                     <a href="#napadi" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?>
                         <div class="full">Informiraj se</div>
@@ -56,11 +55,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <?php echo file_get_contents($native_path.'img/user-secret-solid.svg'); ?>
                 <div class="full center-text">Ekspert 2</div>
             </a>
-            <?php /*
             <a href="#haker3" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/user-visor-solid.svg'); ?>
                 <div class="full center-text">Ekspert 3</div>
-            </a> */ ?>
+            </a>
             <a href="#napadi" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?>
                 <div class="full center-text">Info</div>
@@ -98,7 +96,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <a href = "https://www.telegram.hr/partneri/danijel-je-moralni-haker-u-combis-je-dosao-kao-student-a-danas-probija-racunalne-sustave-velikih-kompanija/ " class="container flex article-embed"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa2451xw.jpg" alt="Haker 1">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa2451xw.jpg" alt="Ekspert Danijel Teslić">
                 </div>
                 <div class="third flex flex-responsive horizontal-pad">
                     <h3 class="full">Ekspert 1</h3>
@@ -113,7 +111,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             class="container flex article-embed"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad desktop-order-2">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa4625xw.jpg" alt="Haker 1">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa4625xw.jpg" alt="Ekspert Pero Kristić">
                 </div>
                 <div class="third flex flex-responsive horizontal-pad desktop-order-1">
                     <h3 class="full">Ekspert 2</h3>
@@ -123,11 +121,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </a>
         </section>
-       <!-- <section class="full flex relative shoo-top" id="haker3">
-            <a class="container flex article-embed"
+       <section class="full flex relative shoo-top" id="haker3">
+            <a class="container flex article-embed" href="https://www.telegram.hr/biznis-tech/sigurnosni-strucnjak-hakerima-prakticki-na-pladnju-serviramo-sve-informacije-koje-su-im-potrebne-da-nas-napadnu/"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2022/12/g12a2995.jpg" alt="Haker 1">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2022/12/g12a2995.jpg" alt="Ekspert Goran Žiković">
                 </div>
                 <div class="third flex flex-responsive horizontal-pad">
                     <h3 class="full">Ekspert 3</h3>
@@ -136,7 +134,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <div class="cta">Pročitaj više</div>
                 </div>
             </a>
-        </section>-->
+        </section>
         <section class="full flex relative shoo-top">
             <div class="container flex center-text relative">
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
