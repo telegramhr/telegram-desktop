@@ -32,6 +32,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#podaci4">
             <div class="side-nav-bar"></div>
         </a>
+        <a class="full" href="#daniel">Daniel</a>
         <a class="full" href="#talita">Talita</a>
         <a class="full" href="#chloe">Chloe</a>
         <a class="full" href="#dominik">Dominik</a>
@@ -115,6 +116,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <p class="full fact-description">hrvatska kompanija na listi najetičnijih svjetskih kompanija je Hrvatski Telekom</p>
             </div>
         </div>
+        <!-- Daniel -->
+        <a class="full flex relative slide stretch half-slide" id="daniel" href="https://www.telegram.hr/zivot/cijeli-zivot-nije-razumio-sto-mu-se-dogada-sve-dok-u-26-nije-doznao-da-ima-autizam-danas-ga-prati-220-000-ljudi/" target="_blank">
+            <div class="half flex flex-responsive relative">
+            <img src="<?php echo $native_path ?>img/daniel.jpg" aria-hidden="true" class="bg-img">
+            </div>
+            <div class="half center flex flex-responsive">
+                <div class="article-text relative">
+                    <h2 class="full animate">Cijeli život nije razumio što mu se događa, sve dok u 26. nije doznao da ima autizam. Danas ga prati 220.000 ljudi </h2>
+                    <div class="cta">Pročitaj priču ></div>
+                </div>
+            </div>
+        </a>
         <!-- Talita -->
         <a class="full flex relative slide slide-bottom-left" id="talita" href="https://www.telegram.hr/partneri/u-skoli-su-me-maltretirali-jer-sam-drugacija-izvukla-me-genijalna-profesorica-sada-ja-pomazem-drugim-romima-da-uspiju/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/10/talita1.jpg" alt="Talita pred prozorima u vrijeme sumraka" class="bg-img">
