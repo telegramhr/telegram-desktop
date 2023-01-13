@@ -1737,7 +1737,7 @@ random : Nasumično',
     ));
 
 
-    /*acf_add_local_field_group(array(
+    /* acf_add_local_field_group(array(
         'key' => 'group_62a358dade9a0',
         'title' => 'Sales widget',
         'fields' => array(
@@ -1946,27 +1946,6 @@ random : Nasumično',
                         ),
                         'default_value' => '',
                         'placeholder' => '',
-                        'parent_repeater' => 'field_62a359abaedcc',
-                    ),
-                    array(
-                        'key' => 'field_62a359c1aedcda',
-                        'label' => 'CTA',
-                        'name' => 'cta',
-                        'aria-label' => '',
-                        'type' => 'text',
-                        'instructions' => '',
-                        'required' => 0,
-                        'conditional_logic' => 0,
-                        'wrapper' => array(
-                            'width' => '',
-                            'class' => '',
-                            'id' => '',
-                        ),
-                        'default_value' => '',
-                        'placeholder' => '',
-                        'prepend' => '',
-                        'append' => '',
-                        'maxlength' => '',
                         'parent_repeater' => 'field_62a359abaedcc',
                     ),
                 ),
@@ -2203,27 +2182,6 @@ random : Nasumično',
                         'default_value' => '',
                         'placeholder' => '',
                         'parent_repeater' => 'field_62e0e69e4cff8',
-                    ),
-                    array(
-                        'key' => 'field_63adbbb88c08d',
-                        'label' => 'CTA',
-                        'name' => 'cta',
-                        'aria-label' => '',
-                        'type' => 'text',
-                        'instructions' => '',
-                        'required' => 0,
-                        'conditional_logic' => 0,
-                        'wrapper' => array(
-                            'width' => '',
-                            'class' => '',
-                            'id' => '',
-                        ),
-                        'default_value' => 'Pogledaj letak',
-                        'maxlength' => '',
-                        'placeholder' => '',
-                        'prepend' => '',
-                        'append' => '',
-                        'parent_repeater' => 'field_62a359abaedcc',
                     ),
                 ),
                 'rows_per_page' => 20,
@@ -2744,7 +2702,7 @@ random : Nasumično',
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ));*/
+    )); */
 
     acf_add_local_field_group(array(
         'key' => 'group_6185054c9f5a3',
