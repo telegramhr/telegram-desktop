@@ -42,6 +42,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#anja">Anja</a>
         <a class="full" href="#molly">Molly</a>
         <a class="full" href="#hrvoje">Hrvoje</a>
+        <a class="full" href="#mark">Mark</a>
         <a class="full" href="#podaci2">
             <div class="side-nav-bar"></div>
         </a>
@@ -194,6 +195,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Hrvoje je od rođenja gotovo potpuno slijep, ali odbio se predati. Danas ima super posao i osmišljava genijalne aplikacije</h2>
                 <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
+        <!-- Mark -->
+        <a class="full flex relative slide stretch half-slide" id="mark" href="https://www.telegram.hr/zivot/jednim-je-intervjuom-preko-noci-stekao-pola-milijuna-pratitelja-i-promijenio-zivot-mlade-beskucnice/" target="_blank">
+            <div class="half flex flex-responsive relative">
+                <img src="<?php echo $native_path ?>img/mark.jpg" aria-hidden="true" class="bg-img">
+            </div>
+            <div class="half center flex flex-responsive">
+                <div class="article-text relative">
+                    <h2 class="full animate">Jednim je intervjuom preko noći stekao pola milijuna pratitelja i promijenio život mlade beskućnice </h2>
+                    <div class="cta">Pročitaj priču ></div>
+                </div>
             </div>
         </a>
         <!-- Podaci 2 -->
