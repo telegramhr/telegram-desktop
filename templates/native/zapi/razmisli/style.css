@@ -633,6 +633,9 @@ footer .center {
     .extra-content h3 {
         font-size: 26px;
     }
+    .pad-left {
+        padding-left: 0px;
+    }
 }
 
 .lds-facebook {

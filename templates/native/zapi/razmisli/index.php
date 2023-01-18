@@ -5,7 +5,6 @@
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/zapi/razmisli/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/zapi/razmisli/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/zapi/razmisli/';
-//$native_path = 'http://localhost/razmisli/';
 ?>
 
 <head>
@@ -18,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=2.1" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=2.11" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -250,9 +249,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full center hide">
                 </div>
                 <div class="full center">
+                    <img src="<?php echo $native_path ?>img/zapi.jpg" alt="Zagrebačka Pivovara logo" />
                     <img class="tg-studio" src="<?php echo $native_path ?>img/tg_studio_white.svg" alt="TG Studio logo" />
                 </div>
-                <p class="full center-text">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerima i po najvišim uredničkim standardima Telegram Media Grupe.</p>
+                <p class="full center-text">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom Zagrebačka Pivovara i po najvišim uredničkim standardima Telegram Media Grupe.</p>
             </div>
         </footer>
         <script>
