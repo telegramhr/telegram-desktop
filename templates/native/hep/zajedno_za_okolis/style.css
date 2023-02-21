@@ -1,0 +1,271 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Basics */
+
+html {
+    scroll-behavior: smooth;
+}
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+.container {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Navigation */
+
+nav.desktop-only .container {
+    padding: 8px 24px;
+}
+
+nav.desktop-only img {
+    height: 32px;
+}
+.inpage-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.7);
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.inpage-nav svg {
+    fill: #3c4682;
+    height: 28px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.inpage-nav .center {
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 8px;
+}
+
+.inpage-nav .center-text {
+    margin-top: 6px;
+    font-size: 14px;
+}
+.topnav {
+    background-color: rgba(255,255,255,0.7);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.topnav .container {
+    justify-content: space-between;
+}
+
+.topnav svg {
+    display: inline-block;
+    height: 40px;
+    fill: #3c4682;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.topnav>div {
+    height: 66px;
+}
+
+.topnav .textlogo {
+    font-weight: 900;
+    font-size: 27px;
+}
+
+.topnav .textlogo img {
+    height: 24px;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid black;
+}
+
+.topnav a {
+    opacity: 0.85;
+}
+
+.topnav a:hover {
+    opacity: 1;
+}
+
+.topnav a div {
+    opacity: .85;
+    font-size: 14px;
+}
+
+.separator-line {
+    height: 2px;
+    background-color: #aaa;
+}
+@media screen and (min-width: 1024px) {
+    .inpage-nav {
+        width: 360px;
+        bottom: 24px;
+        left: auto;
+        right: 24px;
+        border: 1px solid #888;
+    }
+}
+
+/* Slide */
+
+.slide {
+    min-height: 100vh;
+    flex-wrap: wrap;
+    padding: 5vw;
+}
+.slide * {
+    z-index: 5;
+}
+.slide .bg-video {
+    opacity: .4;
+    z-index: 1;
+}
+h2 {
+    font-size: 18vw;
+    font-weight: 900;
+    color: teal;
+    text-transform: uppercase;
+    mix-blend-mode: color;
+    line-height: 14vw;
+    margin-bottom: 32px;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+.intro {
+    max-width: 780px;
+    font-size: 24px;
+    padding: 48px;
+    background-color: rgba(255,255,255,0.75);
+    border: 10px solid #3c4682;
+}
+.intro p {
+    margin-top: 24px;
+}
+.intro h3 {
+    font-size: 72px;
+    color: #3c4682;
+    margin-top: -8px;
+}
+.article-teaser {
+    max-width: 900px;
+    margin: 0px auto;
+    margin-top: 32px;
+    padding-left: 130px;
+}
+.article-author {
+    width: 100px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+.article-author img {
+    width: 100px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.cta {
+    background: teal;
+    border-radius: 2px;
+    font-weight: 700;
+    padding: 6px 12px;
+    margin-top: 16px;
+    color: white;
+    opacity: .7;
+}
+.article-teaser:hover .cta {
+    opacity: 1;
+}
+.slide-2 h2 {
+    color: #34733b;
+}
+.slide-2 .cta {
+    background: #34733b;
+}
+.slide-3 h2 {
+    color: #346973;
+}
+.slide-3 .cta {
+    background: #346973;
+}
+.slide-4 h2 {
+    color: #733438;
+}
+.slide-4 .cta {
+    background: #733438;
+}
+.slide-5 h2 {
+    color: #346673;
+}
+.slide-5 .cta {
+    background: #346673;
+}
+@media screen and (max-width: 1024px) {
+    h3 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 30vw;
+    }
+    .slide-2 h2 {
+        font-size: 18vw;
+    }
+    .intro {
+        padding: 5vw;
+        font-size: 18px;
+    }
+    .topnav .container {
+        justify-content: center;
+    }
+    .topnav .textlogo img {
+        height: 20px;
+    }
+    .topnav .textlogo {
+        font-size: 20px;
+    }
+    .article-teaser {
+        padding-left: 96px;
+    }
+    .article-author img {
+        width: 75px;
+        border-radius: 37.5px;
+    }
+    header.slide {
+        padding-top: 80px;
+    }
+    footer {
+        padding-bottom: 80px;
+    }
+    .intro h3 {
+        font-size: 9vw;
+    }
+    .intro {
+        padding: 5vw;
+        border: 1vw solid #3c4682;
+    }
+}
