@@ -26,7 +26,7 @@ class Telegram_Shortcodes {
 	}
 
     function telegram_hidden($atts, $content) {
-        return '<div id="hidden-content">' . $content . '</div>';
+        return '<div id="hidden-content">' . do_shortcode($content) . '</div>';
     }
 
     function form($atts, $content) {
