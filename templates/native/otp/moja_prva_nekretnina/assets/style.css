@@ -1,0 +1,206 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 47, 121, 9;
+}
+
+/* Typography */
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h1.column-full-pad {
+    font-weight: 700;
+    padding-top: 64px;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+header h1 {
+    margin-bottom: 24px;
+    margin-bottom: 1.2rem;
+}
+
+header p {
+    font-size: 24px;
+    font-size: 1.2rem;
+}
+
+/* Expert element */
+
+.expert-element .fourth img {
+    background-color: white;
+}
+
+.expert-element p {
+    font-size: 24px;
+    font-size: 1.2rem;
+}
+
+/* Advice element */
+
+.advice-element {
+    padding-left: 48px;
+}
+
+.advice-element p {
+    font-size: 20px;
+    font-size: 1rem;
+}
+
+.advice-element .third {
+    padding-left: 64px;
+}
+
+.advice-element .third::before {
+    content: "1";
+    position: absolute;
+    top: -2px;
+    left: 16px;
+    font-size: 40px;
+    font-size: 2rem;
+    opacity: .5;
+}
+
+.advice-element .third:nth-child(2)::before {
+    content: "2";
+}
+
+.advice-element .third:nth-child(3)::before {
+    content: "3";
+}
+
+/* Five things */
+
+.five-things .fifth {
+    padding: 24px;
+}
+
+.five-things img {
+    max-width: 120px;
+    margin-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Mini facts bar */
+
+.green-bg {
+    background-color: rgb(var(--highlight-color));
+    color: white;
+}
+
+.mini-facts-bar .arrow {
+    border-color: white;
+    opacity: .5;
+    transition: 0.3s;
+    width: 16px;
+    height: 16px;
+}
+
+.mini-facts-bar p {
+    font-size: 24px;
+    font-size: 1.2rem;
+    padding: 24px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+}
+
+.mini-facts-bar .arrow:hover {
+    opacity: 1;
+}
+
+.mini-facts-bar .slick-dots li.slick-active button::before,
+.mini-facts-bar .slick-dots li button::before {
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .mini-facts-bar .arrow {
+        top: 24px;
+    }
+}
+
+.darker-bg {
+    padding-bottom: 64px;
+}
+
+/* Mobile tweaks */
+
+@media screen and (max-width: 1024px) {
+    .top-nav .text-logo span {
+        font-size: 18px;
+        font-size: 0.9rem;
+        line-height: 0.7rem;
+    }
+
+    .top-nav .text-logo img {
+        height: 20px;
+        height: 1rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .article .half>img {
+        margin-bottom: 8px;
+    }
+
+    .expert-element .fourth {
+        padding-right: 0px;
+    }
+
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+/* ICONS */
+
+
+.fa-solid {
+    border-radius: 0.2em;
+    padding: 30px;
+    color: green;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    fill: #286707;
+
+}
+
+.euro-solid {
+    width: 105px;
+    height: 105px;
+}
+
+.building-solid {
+    width: 110px;
+    height: 110px;
+}
+
+.pad-top {
+    padding-top: 16px;
+}
+
+.shoo-top {
+    padding-top: 11px;
+}
