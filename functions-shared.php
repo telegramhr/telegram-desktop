@@ -177,7 +177,7 @@ function telegram_trim($content, $id = 0) {
                 if ($post === 'partneri' || ($cat && $cat[0]->slug === 'promo')) {
                     $rel = 'sponsored';
                 } else {
-                    $rel = 'noopener noreferrer';
+                    $rel = 'nofollow noopener noreferrer';
                 }
                 if (in_array($id, [1324535, 1317378, 1317364, 1314950, 1314931, 1314919, 1314902, 1355655, 1624246])) {
                     $rel = 'dofollow';
@@ -364,19 +364,19 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 	require_once dirname( __FILE__ ) . '/cli.php';
 }
 
-add_action( 'template_redirect','telegram_filter_feeds', 1 );
+//add_action( 'template_redirect','telegram_filter_feeds', 1 );
 
 function telegram_filter_feeds() {
 	if( !is_feed() || is_404() )
 		return;
 	global $wp_rewrite, $wp_query;
-	if ( is_date() || is_singular() || is_tax() ) {
+	/*if ( is_date() || is_singular() || is_tax() ) {
 		$wp_query->is_feed = false;
 		$wp_query->set_404();
 		status_header( 404 );
 		// Override the xml+rss header set by WP in send_headers
 		header( 'Content-Type: ' . get_option('html_type') . '; charset=' . get_option('blog_charset') );
-	}
+	}*/
 }
 
 add_filter('coauthors_guest_author_manage_cap', 'telegram_coauthors_cap', 10, 1);
@@ -476,7 +476,7 @@ function telegram_oembed_result($data, $url, $args) {
 	}
 	return $data;
 }
-add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
+//add_filter( 'oembed_result', 'telegram_oembed_result', 10, 3 );
 
 add_action('the_content', 'telegram_content', 10, 1);
 
@@ -692,3 +692,10 @@ function image_submit() {
     wp_safe_redirect($ref . '?success=true');
     die();
 }
+
+
+function fix_post_titles($data) {
+    $data['post_title'] = str_replace('&amp;', '&', $data['post_title']);
+    return $data;
+}
+add_filter('wp_insert_post_data', 'fix_post_titles', 99, 1);
