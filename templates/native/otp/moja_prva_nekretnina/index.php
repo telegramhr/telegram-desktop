@@ -103,7 +103,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <h1 id="iskustva" class="full center-text column-full-pad">Iskustva</h1>
         <section class="full flex relative">
             <div class="container flex relative">
-                <a class="full flex relative article featured-article column-vertical-pad stretch">
+                <a class="full flex relative article featured-article column-vertical-pad stretch" href="https://www.telegram.hr/zivot/izabela-zoran-i-marijan-su-nam-ispricali-kako-su-dobili-drzavnu-subvenciju-za-nekretninu-slazu-se-oko-tri-stvari" target="_blank">
                     <div class="half center flex-responsive column-horizontal-pad">
                         <img src="https://www.telegram.hr/wp-content/uploads/2023/01/tg-naslovna-kolaz2023-1-26-1.jpg" aria-hidden="true">
                     </div>
@@ -213,7 +213,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </div>
                 </div>
                 <div class="lazy-boy"></div>
-                <a class="full flex relative article featured-article column-vertical-pad stretch">
+                <a class="full flex relative article featured-article column-vertical-pad stretch" href="https://www.telegram.hr/zivot/pripremili-smo-rjecnik-20-pojmova-koji-ce-vam-olaksati-kupnju-prve-nekretnine-evo-sto-je-sve-korisno-znati/" target="_blank">
                     <div class="half center flex-responsive column-horizontal-pad">
                         <img src="https://images.telegram.hr/0dQRCvL6tuwyITPA7xB5uR-fwGqCnnnyE69j6V299gc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDEvcHhsLTA5MTAxOC0yMjI3NjQzMi5qcGc.webp" aria-hidden="true">
                     </div>
