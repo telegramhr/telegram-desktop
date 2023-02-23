@@ -10,6 +10,7 @@ class Telegram_Shortcodes {
 		add_shortcode('okvir', array( $this, 'okvir'));
 		add_shortcode('galerija', [$this,'telegram_galerija']);
 		add_shortcode('telegram_quiz', [$this,'telegram_quiz']);
+		add_shortcode('telegram_hidden', [$this,'telegram_hidden']);
 		add_shortcode('shop_guide', [$this,'shop_guide']);
 		add_shortcode('shop_category_guide', [$this,'shop_category_guide']);
 
@@ -23,6 +24,10 @@ class Telegram_Shortcodes {
         add_shortcode('super1_form', [$this, 'form']);
         add_shortcode('super1_quiz', [$this, 'quiz']);
 	}
+
+    function telegram_hidden($atts, $content) {
+        return '<div id="hidden-content">' . do_shortcode($content) . '</div>';
+    }
 
     function form($atts, $content) {
         extract( shortcode_atts(
@@ -339,16 +344,11 @@ class Telegram_Shortcodes {
 	function compare_box($atts, $content) {
 		$img1 = intval($atts['img1']);
 		$img2 = intval($atts['img2']);
-		global $post;
 		$size = 'g1';
 		if (isset($atts['full']) && intval($atts['full'])) {
 			$size = 'full';
 		}
 		$class = 'special-left cd-image-container';
-		if ('price' == $post->post_type) {
-			$size = 'velike-price';
-			$class = 'size-large cd-image-container';
-		}
 		ob_start();
 		?>
 
