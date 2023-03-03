@@ -25,6 +25,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#ena">Ena</a>
         <a class="full" href="#helena">Helena</a>
         <a class="full" href="#chris">Chris</a>
         <a class="full" href="#miroslav">Miroslav</a>
@@ -70,6 +71,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Ena -->
+        <a class="full flex relative slide slide-bottom-left" id="ena" href="https://www.telegram.hr/zivot/uvrede-na-racun-izgleda-pretvorila-je-u-umjetnost-fotkala-sam-celulit-strije-slaufice-i-ljudi-su-se-odusevili/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/02/ena-ht1.jpg" alt="Ovo je priča 24-godišnje Ene Dragičević kojoj su društvene mreže platforma za kreativni rad" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Uvrede na račun izgleda pretvorila je u umjetnost: 'Fotkala sam celulit, strije, šlaufiće i ljudi su se oduševili'</h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Helena -->
         <a class="full flex relative slide slide-bottom-left" id="helena" href="https://www.telegram.hr/zivot/u-tunelu-na-putu-za-pag-uhvatio-me-napadaj-opsesije-prestravila-sam-se-sada-na-youtubeu-pomazem-svima-s-kompulzivnim-poremecajima/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/12/helena-duplic-7.jpg" alt="Protagonistica članka Helena u svijetloj prostoriji" class="bg-img">
