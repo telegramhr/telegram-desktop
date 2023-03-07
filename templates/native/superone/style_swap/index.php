@@ -48,7 +48,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </header>
         <!-- Nina i Aida -->
-        <a class="full flex relative slide stretch half-slide" id="nina" href="https://www.telegram.hr/super1/look/aida-i-nina-su-majka-i-kci-sa-sasvim-drugacijim-stilovima-odijevanja-na-jedan-dan-zamijenili-smo-im-outfite/">
+        <a class="full flex relative slide stretch half-slide" id="nina" target="_blank" href="https://www.telegram.hr/super1/look/aida-i-nina-su-majka-i-kci-sa-sasvim-drugacijim-stilovima-odijevanja-na-jedan-dan-zamijenili-smo-im-outfite/">
             <div class="half center flex flex-responsive white-bg mobile-order-1">
                 <div class="article-text relative">
                     <h3 class="full animate">Nina & Aida</h3>
