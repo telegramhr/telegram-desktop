@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=3.00" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.22" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.23" type="text/css" />
 </head>
 
 <body>
@@ -25,14 +25,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#nada">Nada</a>
         <a class="full" href="#ena">Ena</a>
-        <a class="full" href="#helena">Helena</a>
         <a class="full" href="#chris">Chris</a>
+        <a class="full" href="#helena">Helena</a>
         <a class="full" href="#miroslav">Miroslav</a>
-        <a class="full" href="#ana">Ana</a>
         <a class="full" href="#podaci4">
             <div class="side-nav-bar"></div>
         </a>
+        <a class="full" href="#ana">Ana</a>
         <a class="full" href="#daniel">Daniel</a>
         <a class="full" href="#talita">Talita</a>
         <a class="full" href="#chloe">Chloe</a>
@@ -71,21 +72,21 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Nada -->
+        <a class="full flex relative slide slide-bottom-left" id="nada" href="https://www.telegram.hr/zivot/divna-prica-o-uspjehu-umirovljenica-nada-na-youtubeu-otkrila-klipove-s-filcanjem-vune-i-pokrenula-super-biznis-s-tepisima/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/03/lika-mee3.jpg" alt="Filcanje je tehnika kojom se oblikuju češljane vunene niti u određene predmete " class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Divna priča o uspjehu: umirovljenica Nada na YouTubeu otkrila klipove s filcanjem vune i pokrenula super biznis s tepisima</h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Ena -->
         <a class="full flex relative slide slide-bottom-left" id="ena" href="https://www.telegram.hr/zivot/uvrede-na-racun-izgleda-pretvorila-je-u-umjetnost-fotkala-sam-celulit-strije-slaufice-i-ljudi-su-se-odusevili/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2023/02/ena-ht1.jpg" alt="Ovo je priča 24-godišnje Ene Dragičević kojoj su društvene mreže platforma za kreativni rad" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Uvrede na račun izgleda pretvorila je u umjetnost: 'Fotkala sam celulit, strije, šlaufiće i ljudi su se oduševili'</h2>
-                <div class="cta">Pročitaj priču ></div>
-            </div>
-        </a>
-        <!-- Helena -->
-        <a class="full flex relative slide slide-bottom-left" id="helena" href="https://www.telegram.hr/zivot/u-tunelu-na-putu-za-pag-uhvatio-me-napadaj-opsesije-prestravila-sam-se-sada-na-youtubeu-pomazem-svima-s-kompulzivnim-poremecajima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/helena-duplic-7.jpg" alt="Protagonistica članka Helena u svijetloj prostoriji" class="bg-img">
-            <div class="article-text relative">
-                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
-                <h2 class="full animate">'U tunelu na putu za Pag uhvatio me napadaj opsesije, prestravila sam se. Sada na YouTubeu pomažem svima s kompulzivnim poremećajima' </h2>
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>
@@ -101,21 +102,21 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </a>
+        <!-- Helena -->
+        <a class="full flex relative slide slide-bottom-left" id="helena" href="https://www.telegram.hr/zivot/u-tunelu-na-putu-za-pag-uhvatio-me-napadaj-opsesije-prestravila-sam-se-sada-na-youtubeu-pomazem-svima-s-kompulzivnim-poremecajima/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/helena-duplic-7.jpg" alt="Protagonistica članka Helena u svijetloj prostoriji" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">'U tunelu na putu za Pag uhvatio me napadaj opsesije, prestravila sam se. Sada na YouTubeu pomažem svima s kompulzivnim poremećajima' </h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Miroslav -->
         <a class="full flex relative slide slide-bottom-left" id="miroslav" href="https://www.telegram.hr/partneri/profesor-iz-rijeke-napravio-je-senzorni-dvorac-u-kojem-djeca-s-autizmom-i-downovim-sindromom-uce-kroz-igru-posjetili-smo-ga/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2022/12/miroslav-vrankic-1.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Profesor iz Rijeke napravio je senzorni dvorac u kojem djeca s autizmom i Downovim sindromom uče kroz igru</h2>
-                <div class="cta">Pročitaj priču ></div>
-            </div>
-        </a>
-        <!-- Ana -->
-        <a class="full flex relative slide slide-bottom-left" id="ana" href="https://www.telegram.hr/partneri/mama-ju-je-napustila-protiv-tate-je-digla-tuzbu-ana-je-s-23-otkrila-da-je-depresivna-sada-svojim-iskustvom-pomaze-drugima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa6375x-ppw-1536x1024.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
-            <div class="article-text relative">
-                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
-                <h2 class="full animate">Mama ju je napustila, protiv tate je digla tužbu. Ana je s 23 otkrila da je depresivna, sada svojim iskustvom pomaže drugima</h2>
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>
@@ -127,6 +128,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <p class="full fact-description">hrvatska kompanija na listi najetičnijih svjetskih kompanija je Hrvatski Telekom</p>
             </div>
         </div>
+        <!-- Ana -->
+        <a class="full flex relative slide slide-bottom-left" id="ana" href="https://www.telegram.hr/partneri/mama-ju-je-napustila-protiv-tate-je-digla-tuzbu-ana-je-s-23-otkrila-da-je-depresivna-sada-svojim-iskustvom-pomaze-drugima/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa6375x-ppw-1536x1024.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Mama ju je napustila, protiv tate je digla tužbu. Ana je s 23 otkrila da je depresivna, sada svojim iskustvom pomaže drugima</h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Daniel -->
         <a class="full flex relative slide stretch half-slide" id="daniel" href="https://www.telegram.hr/zivot/cijeli-zivot-nije-razumio-sto-mu-se-dogada-sve-dok-u-26-nije-doznao-da-ima-autizam-danas-ga-prati-220-000-ljudi/" target="_blank">
             <div class="half flex flex-responsive relative">
