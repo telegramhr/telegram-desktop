@@ -28,6 +28,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img class="logo" src="<?php echo $native_path ?>img/s1_logo_clean_noline_white.svg" alt="Super1 logo" />
             <h3 class="full">Style Swap</h3>
         </a>
+        <a class="full" href="#jadranka">Jadranka & Vanda</a>
         <a class="full" href="#nina">Nina & Aida</a>
         <a class="full" href="#poklon">Osvoji Poklon Bon</a>
         <a class="full flex partners" href="#partneri">
@@ -47,6 +48,23 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Jadranka i Vanda -->
+        <a class="full flex relative slide stretch half-slide" id="jadranka" target="_blank" href="https://www.telegram.hr/super1/look/jadranka-je-mislila-da-se-nikad-nece-odijevati-poput-svoje-kceri-vande-sad-su-na-jedan-dan-zamijenile-stil/">
+            <div class="half center flex flex-responsive white-bg mobile-order-1">
+                <div class="article-text relative">
+                    <h3 class="full animate">Jadranka & Vanda</h3>
+                    <h2 class="full animate">Jadranka je mislila da se nikad neće odijevati poput svoje kćeri Vande. Sad su na jedan dan zamijenile stil</h2>
+                    <div class=" flex relative article-author">
+                        <img src="https://images.telegram.hr/wWCPv8rC8Izz54CH51LzfcZvgLCztz5qOBM6i_IVbWI/preset:author/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDgvbml2ZXMucG5n.webp">
+                        <h3 class="animate">Nives Bošnjak</h3>
+                    </div>
+                    <div class="cta slide-bottom-right">Pročitaj priču ></div>
+                </div>
+            </div>
+            <div class="half flex flex-responsive relative mobile-order-2">
+                <img src="<?php echo $native_path ?>/img/styleswap2.jpg" aria-hidden="true" class="bg-img">
+            </div>
+        </a>
         <!-- Nina i Aida -->
         <a class="full flex relative slide stretch half-slide" id="nina" target="_blank" href="https://www.telegram.hr/super1/look/aida-i-nina-su-majka-i-kci-sa-sasvim-drugacijim-stilovima-odijevanja-na-jedan-dan-zamijenili-smo-im-outfite/">
             <div class="half center flex flex-responsive white-bg mobile-order-1">
