@@ -6,7 +6,6 @@
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/superone/style_swap/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/superone/style_swap/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/superone/style_swap/';
-//$native_path = 'http://localhost/style_swap/';
 
 ?>
 
@@ -58,7 +57,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <img src="https://images.telegram.hr/wWCPv8rC8Izz54CH51LzfcZvgLCztz5qOBM6i_IVbWI/preset:author/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDgvbml2ZXMucG5n.webp">
                         <h3 class="animate">Nives Bošnjak</h3>
                     </div>
-                    <div class="cta slide-bottom-right">Pročitaj priču ></div>
+                    <div class="cta">Pročitaj priču ></div>
                 </div>
             </div>
             <div class="half flex flex-responsive relative mobile-order-2">
@@ -75,43 +74,27 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <img src="https://images.telegram.hr/wWCPv8rC8Izz54CH51LzfcZvgLCztz5qOBM6i_IVbWI/preset:author/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDgvbml2ZXMucG5n.webp">
                         <h3 class="animate">Nives Bošnjak</h3>
                     </div>
-                    <div class="cta slide-bottom-right">Pročitaj priču ></div>
+                    <div class="cta">Pročitaj priču ></div>
                 </div>
             </div>
             <div class="half flex flex-responsive relative mobile-order-2">
                 <img src="<?php echo $native_path ?>/img/styleswap1.jpg" aria-hidden="true" class="bg-img">
             </div>
         </a>
-        <!-- Jadranka i Vanda -->
-        <?php /*
-        <a class="full flex relative slide stretch half-slide" id="jadranka">
-            <div class="half flex flex-responsive relative mobile-order-2">
-                <img src="<?php echo $native_path ?>/img/grey_placeholder.png" aria-hidden="true" class="bg-img">
-            </div>
-            <div class="half center flex flex-responsive mobile-order-1">
-                <div class="article-text relative">
-                    <h3 class="full animate">Jadranka & Vanda</h3>
-                    <h2 class="full animate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt turpis orci, vel scelerisque lorem mollis in. Sed mollis egestas scelerisque.</h2>
-                    <div class=" flex relative article-author">
-                        <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png">
-                        <h3 class="animate">Mateja Ježovita</h3>
-                    </div>
-                    <div class="cta slide-bottom-right">Pročitaj priču ></div>
-                </div>
-            </div>
-        </a>
-        */ ?>
-        <div class="full flex relative slide stretch half-slide" id="poklon">
+        <!-- Giveaway -->
+        <a class="full flex relative slide stretch half-slide" id="poklon" href="https://www.instagram.com/p/Cp0Fv_sICPd/" target="_blank">
             <div class="half center flex flex-responsive white-bg mobile-order-1">
                 <div class="article-text relative">
                     <h3 class="full animate">Zalando te nagrađuje</h3>
-                    <h2 class="full animate">Objavi na Instagramu fotografiju svoje mame i sebe u zamijenjenim stilovima uz hashtag #styleswap, tagiraj @Super1.hr i @Zalando i osvoji jedan od dva poklon bona u vrijednosti od 50 i 70 eura</h2>
+                    <h2 class="full animate">Posjeti Super1 Instagram profil i priključi se giveawayu dvije Zalando poklon bon kartice - jednu u vrijednosti od 70 eura, a drugu u vrijednosti od 50 eura.</h2>
+                    <h2 class="full animate">Natječaj traje do 24.03. Požuri!</h2>
+                    <div class="cta">Vodi me na natječaj ></div>
                 </div>
             </div>
             <div class="half flex flex-responsive relative mobile-order-2">
                 <img src="<?php echo $native_path ?>/img/zalando_kolaz.jpg" aria-hidden="true" class="bg-img">
             </div>
-        </div>
+</a>
         <div class="full center relative slide stretch" id="partneri">
             <div class="full flex flex-responsive">
                 <h3 class="full center-text">Partner</h3>
