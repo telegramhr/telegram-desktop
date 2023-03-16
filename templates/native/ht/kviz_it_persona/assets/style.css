@@ -1,0 +1,187 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Fonts */
+
+@font-face {
+    font-family: "Targa MS";
+    src: url('targa_ms.eot');
+    src: url('targa_ms.eot?#iefix') format('embedded-opentype'),
+    url('targa_ms.woff2') format('woff2'),
+    url('targa_ms.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gen Next Regular';
+    src: url('gennextregular.eot');
+    src: url('gennextregular.eot?#iefix') format('embedded-opentype'),
+    url('gennextregular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Colors */
+
+:root {
+    --highlight-color: 174, 55, 55;
+}
+
+/* Typography */
+
+html {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.main-container {
+    padding: 4vw;
+    background-color: black;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.main-container .background-video {
+    opacity: .5;
+    z-index: 2;
+}
+.quiz-container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 48px;
+    padding-bottom: 64px;
+    background-color: white;
+    z-index: 5;
+    position: relative;
+}
+.slide { 
+    display: none; 
+}
+.slide.active { 
+    display: block; 
+}
+.quiz-container p {
+    font-size: 18px;
+    font-size: 0.9rem;
+    line-height: 1.3em;
+    margin-bottom: 8px;
+}
+.question {
+    font-family: "Gen Next Regular", Impact, sans-serif;
+    font-size: 48px;
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+}
+.answers {
+    width: 100%;
+}
+.answer, .restart {
+    padding: 8px 32px;
+    text-align: center;
+    width: auto;
+    width: auto;
+    cursor: pointer;
+    color: #212121;
+    font-size: 17px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-right: 16px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0);
+    position: relative;
+    top: 0px;
+}
+.answer-yes {
+    /*background-image: linear-gradient( 155deg,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );*/
+    background-color: #2ea44f;
+    color: #eee;
+}
+.answer-no {
+    /*background-image: linear-gradient( 155deg,  rgba(147,67,67,1) 0%, rgba(111,27,27,1) 90% );*/
+    background-color: #b33f3f;
+    color: #eee;
+}
+.answer:hover, .restart:hover {
+    box-shadow: 0px 7px 7px rgba(0,0,0,0.2);
+    top: -2px;
+    color: white;
+}
+/*.answer-yes:hover {
+    background-color: #dcf7da;
+}
+.answer-no:hover {
+    background-color: #f7dada;
+}*/
+.progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    bottom: 0;
+    left: 0;
+    background-color: #dedede;
+}
+.progress-indicator {
+    width: 1%;
+    height: 16px;
+    background-color: #aaa;
+}
+footer .logo-line img {
+    height: 60px;
+    width: 60px;
+    margin: 0px;
+    object-fit: contain;
+    object-position: center center;
+    display: inline-block;
+}
+footer {
+    z-index: 5;
+    color: white;
+}
+footer p {
+    font-size: 14px;
+    font-size: 0.7rem;
+}
+.slide img {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+}
+.karijere-cta {
+    background-color: #e20074;
+    color: white;
+    padding: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.answer-no.restart {
+    background-color: #666;
+}
+
+@media screen and (max-width: 1024px) {
+    .quiz-container {
+        padding: 6vw;
+        padding-bottom: 10vw;
+    }
+    .question {
+        font-size: 36px;
+        font-size: 1.8rem;
+    }
+    .quiz-container p {
+        font-size: 16px;
+        font-size: 0.8rem;
+        line-height: 1.3em;
+        margin-bottom: 8px;
+    }
+    .answer {
+        margin-right: 0px;
+    }
+    .answers {
+        justify-content: space-between;
+    }
+}
