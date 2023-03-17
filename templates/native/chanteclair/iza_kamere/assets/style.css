@@ -1,0 +1,284 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 1, 59, 137;
+}
+
+/* Typography */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Spacing */
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+h3.full {
+    padding-top: 1rem;
+}
+
+h4 {
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.2rem;
+    min-width: 50px;
+}
+
+ul {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.col-horizontal-margin {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+}
+
+.column-vertical-margin {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.margin-left {
+    margin-left: 400px;
+}
+
+
+
+/* Effects */
+
+
+
+.red-line {
+    border-bottom: 5px solid #C70039;
+}
+
+.red-bg {
+    background-color: #C70039;
+}
+
+.yellow-line {
+    border-bottom: 5px solid #FFDB58;
+}
+
+.yellow-bg {
+    background-color: #FFDB58;
+}
+
+.blue-line {
+    border-bottom: 5px solid #013b89;
+}
+
+.blue-bg {
+    background-color: #013b89;
+}
+
+/* Box */
+
+.box,
+.inverse-box {
+    border: 2px solid #16161d;
+    box-shadow: -15px 16px rgba(0, 0, 0, .15);
+    margin-top: 3rem;
+}
+
+.inverse-box {
+    box-shadow: 15px 16px rgba(0, 0, 0, .15);
+}
+
+.box h2,
+.inverse-box h2 {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+.tips-title {
+    margin-top: 3rem;
+    padding: 0.8rem;
+}
+
+
+
+
+/* Button-24 */
+.button-24 {
+    border: 1px solid rgba(var(--highlight-color), 1);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    color: rgba(var(--highlight-color), 1);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.button-24:hover,
+.button-24:active {
+    background: rgba(var(--highlight-color), 1);
+    color: #FFFFFF;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+
+.big-btn {
+    padding: 2.5rem 2.2rem;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 100px;
+    line-height: 1.3em;
+
+}
+
+/* Media */
+
+
+@media screen and (min-width: 767px) {
+
+    .desktop-order-1 {
+        order: 1;
+    }
+
+    .desktop-order-2 {
+        order: 2;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-order-1 {
+        order: 1;
+    }
+
+    .mobile-order-2 {
+        order: 2;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .margin-left {
+        margin-left: 0px;
+    }
+
+    .box-wrap {
+        flex-wrap: wrap;
+    }
+
+    .big-btn {
+        padding: 2rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:426px) {
+    .article .article-author {
+        font-size: 0.7rem;
+    }
+
+    .article-author span {
+        margin-top: 0.28rem;
+    }
+
+    .button-24 {
+        font-size: 14px;
+    }
+
+    .video-text {
+        margin-bottom: 1rem;
+    }
+
+    .tips-title {
+        font-size: 1.4rem;
+    }
+
+    .box h2,
+    .inverse-box h2 {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        font-size: 0.95rem;
+    }
+
+    .big-btn {
+        padding: 1.2rem 1.2rem;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .article .article-author {
+        font-size: 0.65rem;
+    }
+
+    .article-author span {
+        margin-top: 0.35rem;
+    }
+
+    .mobile-title {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .article p {
+        font-size: 0.9rem;
+    }
+
+    .tips-title {
+        font-size: 1.2rem;
+    }
+
+}
