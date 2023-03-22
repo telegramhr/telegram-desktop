@@ -120,6 +120,23 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         </div>
                     </div>
                 </a>
+                <a class="full flex relative article featured-article column-vertical-pad stretch" href="https://www.telegram.hr/zivot/kupujete-stan-terezija-i-kristijan-ispricali-su-nam-kako-su-nasli-svoj-u-zagrebu-na-ove-stvari-morate-paziti/" target="_blank">
+                    <div class="half center flex-responsive column-horizontal-pad">
+                        <img src="https://www.telegram.hr/wp-content/uploads/2023/02/pxl-060520-28885803-e1676627824462.jpg" aria-hidden="true">
+                    </div>
+                    <div class="half center flex-responsive column-horizontal-pad">
+                        <div class="full flex relative">
+                            <h2 class="full">Kupujete stan? Terezija i Kristijan ispričali su nam kako su našli svoj u Zagrebu: ‘Na ove stvari morate paziti’ </h2>
+                            <p class="full">Razgovarali smo s ljudima koji su u procesu kupnje i gradnje nekretnine </p>
+                            <div class="full flex article-author">
+                                <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png"><span class="bold">Piše</span><span>Mateja Ježovita</span>
+                            </div>
+                            <div class="full flex stretch">
+                                <div class="animate flex relative cta-btn-1">Pročitaj više</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <!-- Ekspert -->
