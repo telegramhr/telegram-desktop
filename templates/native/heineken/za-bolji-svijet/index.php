@@ -562,6 +562,16 @@ if (!$num) {
                 </div>
                 <div class="row">
                     <div class="col-lg-3">
+                        <a href="https://www.telegram.hr/promo/godinama-slusamo-predrasude-vezane-uz-bezalkoholna-piva-sada-ih-rusimo-uz-heineken-0-0/" target="_blank">
+                            <div class="clanak">
+                                <div class="slika">
+                                    <img src="https://images.telegram.hr/NDYfBERE1FwtenJjFzPmoATXAXWY9U0XDENzI_uzPBE/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDMvaG5rLTAtMC1jcm9hdGlhLTg4OHg1NjAtMS5qcGc.webp" aria-hidden="true" class="img-fluid">
+                                </div>
+                                <p>Godinama slušamo predrasude vezane uz bezalkoholna piva. Sada ih rušimo – uz Heineken 0.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
                         <a href="https://www.telegram.hr/partneri/projekt-za-odgovorno-odrastanje-mladih-ulazi-u-desetu-godinu-djelovanja-s-ciljem-prevencije-problema-maloljetnicke-konzumacije-alkohola/" target="_blank">
                             <div class="clanak">
                                 <div class="slika">
