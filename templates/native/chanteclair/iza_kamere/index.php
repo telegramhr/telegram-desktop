@@ -127,16 +127,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <!-- KUPAONICA -->
         <section class="full flex relative" id="kupaonica">
-            <?php /*
-            <a class="container flex relative article featured-article stretch">
+            <a class="container flex relative article featured-article stretch" href="https://www.telegram.hr/super1/prvi-video-snimila-je-s-14-nakon-izgubljene-oklade-a-sad-je-prati-vise-od-200k-ljudi-otkrila-nam-je-kako/" target="_blank">
                 <div class="half center flex-responsive column-full-pad desktop-order-1">
-                    <img src="<?php echo $native_path ?>assets/placeholders/grey_placeholder.png" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2023/03/super1-chanteclair-nika-7.jpg" aria-hidden="true">
                 </div>
                 <div class="half flex flex-responsive column-full-pad desktop-order-2">
                     <div class="full flex relative">
                         <h4 class="bold capitalize blue-line mobile-title">Kupaonica</h4>
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full column-bottom-pad">Aliquam a rhoncus velit. Fusce ut odio justo. Praesent a vestibulum dui. Pellentesque faucibus, ipsum non eleifend consequat.</p>
+                        <h2 class="full"> Prvi video snimila je s 14 nakon izgubljene oklade, a sad je prati više od 200k ljudi. Otkrila nam je kako </h2>
+                        <p class="full column-bottom-pad">Danas joj za neka videa treba svega pola sata montaže</p>
                         <div class="animate flex relative button-24">Pročitaj priču</div>
                         <div class="flex article-author">
                             <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png"><span class="bold">Piše</span><span>Mateja Ježovita</span>
@@ -144,37 +143,33 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </div>
                 </div>
             </a>
-            */ ?>
             <div class="full flex">
                 <div class="container flex relative stretch column-full-pad">
                     <h2 class = "full blue-line center-text capitalize bold tips-title">Savjeti za kupaonicu by Nika Pavičić</h2>
-                    <p class="full center-text column-vertical-margin">Stiže uskoro...</p>
                 </div>
             </div>
-            <?php /*
             <div class="container center box-wrap relative stretch">
-                <div class="half center box flex-responsive column-vertical-margin col-horizontal-margin">
+                <div class="half flex box flex-responsive column-vertical-margin col-horizontal-margin">
                     <div class="full flex relative">
-                        <h2 class = "full center-text blue-bg">Za objave:</h2>
+                        <h2 class = "full center-text blue-bg">Savjeti za snimanje:</h2>
                         <ul class = "full">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Zapišite si na papir ili u glavi složite scenarij za video. Bit će vam ga lakše snimiti.</li>
+                            <li>Ako nemate inspiracije, nemojte forsirati. Radije prosurfajte dok ne nađete nešto što vam je interesantno.</li>
+                            <li>Olakšajte si montiranje i nastojite snimati kratke videe. Danas ih pratitelji ionako više preferiraju naspram vlogova.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="half center inverse-box flex-responsive column-vertical-margin col-horizontal-margin">
+                <div class="half flex inverse-box flex-responsive column-vertical-margin col-horizontal-margin">
                     <div class="full flex relative">
-                        <h2 class = "full center-text blue-bg">Za čišćenje:</h2>
+                        <h2 class = "full center-text blue-bg">Savjeti za čišćenje:</h2>
                         <ul class = "full">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Ne bojite se nereda tijekom snimanja. S pravim sredstvom nema te šminke koju ne možete očistiti.</li>
+                            <li>Ladice držite uredne, a korisno je pored umivaonika imati spremni čisti ručnik.</li>
+                            <li>Uz sebe uvijek imajte vlažne maramice i obrišite sitne mrlje odmah kad ih napravite.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            */ ?>
         </section>
         <!-- RADIONICA -->
         <section class="full flex relative" id ="radionica">
