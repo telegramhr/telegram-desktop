@@ -173,16 +173,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <!-- RADIONICA -->
         <section class="full flex relative" id ="radionica">
-            <?php /*
-            <a class="container flex relative article featured-article stretch">
+            <a class="container flex relative article featured-article stretch" href="https://www.telegram.hr/super1/farmaceutkinja-i-povjesnicarka-umjetnosti-preselila-na-selo-kod-ivanica-i-pokrenula-megapopularni-profil-na-instagramu/" target="_blank">
                 <div class="half center flex-responsive column-full-pad desktop-order-2">
-                    <img src="<?php echo $native_path ?>assets/placeholders/grey_placeholder.png" aria-hidden="true">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2023/03/sasa0332x-ppxw.jpg" aria-hidden="true">
                 </div>
                 <div class="half center flex-responsive column-full-pad desktop-order-1">
                     <div class="full flex relative">
                         <h4 class="left-text bold capitalize blue-line mobile-title">Radionica</h4>
-                        <h2 class="full">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                        <p class="full column-bottom-pad">Aliquam a rhoncus velit. Fusce ut odio justo. Praesent a vestibulum dui. Pellentesque faucibus, ipsum non eleifend consequat.</p>
+                        <h2 class="full">Farmaceutkinja i povjesničarka umjetnosti preselila na selo kod Ivanića i pokrenula megapopularni profil na Instagramu</h2>
+                        <p class="full column-bottom-pad">Pratitelji je prepoznaju po fotografijama konja i idiličnom životu na selu</p>
                         <div class="animate flex relative button-24">Pročitaj priču</div>
                         <div class="flex article-author">
                             <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png"><span class="bold">Piše</span><span>Mateja Ježovita</span>
@@ -190,22 +189,19 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </div>
                 </div>
             </a>
-            */ ?>
             <div class="full flex">
                 <div class="container flex relative stretch column-full-pad">
                     <h2 class = "full blue-line center-text capitalize bold tips-title">Savjeti za radionicu by Ivona Štimac</h2>
-                    <p class="full center-text column-vertical-margin">Stiže uskoro...</p>
                 </div>
             </div>
-            <?php /*
             <div class="container center box-wrap relative stretch">
                 <div class="half center box flex-responsive column-vertical-margin col-horizontal-margin">
                     <div class="full flex relative">
-                        <h2 class = "full center-text blue-bg">Za objave:</h2>
+                        <h2 class = "full center-text blue-bg">Za snimanje:</h2>
                         <ul class = "full">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Ako želite čist i topao kadar, maknite iz njega pozadinske stvari koje su vam višak. Slijedite pravilno neparnih brojeva stvari na slici.</li>
+                            <li>Kada fotografirate, a aparat vam je na stalku, pazite da vam kamera bude skroz mirna. Ne hodajte oko aparata jer vam se neće fokusirati.</li>
+                            <li>Za fotografiranje djece i životinja se naoružajte strpljenjem. Budući da su rijetko mirni, trebat će više pokušaja da uhvatite kadar koji nije mutan.</li>
                         </ul>
                     </div>
                 </div>
@@ -213,14 +209,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <div class="full flex relative">
                         <h2 class = "full center-text blue-bg">Za čišćenje:</h2>
                         <ul class = "full">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Ako presađujete biljke, obavezno to radite negdje vani. Najbolje na terasi da ne zaprljate cijelu kuću.</li>
+                            <li>Uvijek imajte pri ruci rukavice da se zaštitite od prljavština, zemlje i sredstva za čišćenje.</li>
+                            <li>Imajte u ormaru posebnu odjeću koju nosite samo kada čistite. Tada ne morate brinuti o mrljama koje se teško isperu.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            */ ?>
         </section>
         <!-- Big Button -->
         <?php /*
