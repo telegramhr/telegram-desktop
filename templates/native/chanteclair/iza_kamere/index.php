@@ -229,11 +229,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </section>
         <!-- Big Button -->
-        <?php /*
         <div class="full center column-horizontal-pad">
-            <div class="animate flex relative button-24 big-btn">Provjeri sve naše savjete za život bez masnoće</div>
+            <a href="https://www.telegram.hr/super1/life/vodic-za-zivot-bez-zakorjelih-mrlja-donosimo-20-savjeta-a-znamo-kako-ocistiti-i-one-najtvrdokornije/" target="_blank" class="animate flex relative button-24 big-btn">Provjeri sve naše savjete za život bez masnoće</a>
         </div>
-        */ ?>
         <!-- Footer -->
         <footer class="full flex relative">
             <div class="container text-container flex relative column-full-pad">
