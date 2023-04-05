@@ -24,7 +24,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <script src="<?php echo $native_path ?>assets/aos/aos.js"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/operon.css?v=1.20" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.20" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.21" type="text/css" />
     <!-- Slick slider -->
     <script src="<?php echo $native_path ?>assets/slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/slick/slick.css" type="text/css" />
@@ -151,7 +151,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container center box-wrap relative stretch">
                 <div class="half flex box flex-responsive column-vertical-margin col-horizontal-margin">
                     <div class="full flex relative">
-                        <h2 class = "full center-text blue-bg">Savjeti za snimanje:</h2>
+                        <h2 class = "full center-text blue-bg">Za objave:</h2>
                         <ul class = "full">
                             <li>Zapišite si na papir ili u glavi složite scenarij za video. Bit će vam ga lakše snimiti.</li>
                             <li>Ako nemate inspiracije, nemojte forsirati. Radije prosurfajte dok ne nađete nešto što vam je interesantno.</li>
@@ -161,7 +161,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
                 <div class="half flex inverse-box flex-responsive column-vertical-margin col-horizontal-margin">
                     <div class="full flex relative">
-                        <h2 class = "full center-text blue-bg">Savjeti za čišćenje:</h2>
+                        <h2 class = "full center-text blue-bg">Za čišćenje:</h2>
                         <ul class = "full">
                             <li>Ne bojite se nereda tijekom snimanja. S pravim sredstvom nema te šminke koju ne možete očistiti.</li>
                             <li>Ladice držite uredne, a korisno je pored umivaonika imati spremni čisti ručnik.</li>
@@ -195,9 +195,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
             <div class="container center box-wrap relative stretch">
-                <div class="half center box flex-responsive column-vertical-margin col-horizontal-margin">
+                <div class="half flex box flex-responsive column-vertical-margin col-horizontal-margin">
                     <div class="full flex relative">
-                        <h2 class = "full center-text blue-bg">Za snimanje:</h2>
+                        <h2 class = "full center-text blue-bg">Za objave:</h2>
                         <ul class = "full">
                             <li>Ako želite čist i topao kadar, maknite iz njega pozadinske stvari koje su vam višak. Slijedite pravilno neparnih brojeva stvari na slici.</li>
                             <li>Kada fotografirate, a aparat vam je na stalku, pazite da vam kamera bude skroz mirna. Ne hodajte oko aparata jer vam se neće fokusirati.</li>
@@ -205,7 +205,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         </ul>
                     </div>
                 </div>
-                <div class="half center inverse-box flex-responsive column-vertical-margin col-horizontal-margin">
+                <div class="half flex inverse-box flex-responsive column-vertical-margin col-horizontal-margin">
                     <div class="full flex relative">
                         <h2 class = "full center-text blue-bg">Za čišćenje:</h2>
                         <ul class = "full">
@@ -215,6 +215,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         </ul>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- VIDEO -->
+        <section class="full flex relative" id ="video">
+            <div class="container center relative stretch">
+                <video autoplay loop muted playsinline controls class="normal-video desktop-only">
+                    <source src="<?php echo $native_path ?>assets/chanteclair_horizontal.mp4?v=1.00" type="video/mp4">
+                </video>
+                <video autoplay loop muted playsinline controls class="normal-video mobile-only">
+                    <source src="<?php echo $native_path ?>assets/chanteclair_vertical.mp4?v=1.00" type="video/mp4">
+                </video>
             </div>
         </section>
         <!-- Big Button -->
