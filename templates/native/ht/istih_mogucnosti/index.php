@@ -11,13 +11,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php wp_head(); 
-    ?>
+    <?php wp_head(); ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=3.00" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.25" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=3.26" type="text/css" />
 </head>
 
 <body>
@@ -25,10 +24,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#ivan">Ivan</a>
+        <a class="full" href="#hesam">Hesam</a>
+        <a class="full" href="#daniel">Daniel</a>
         <a class="full" href="#sarah">Sarah</a>
         <a class="full" href="#chris">Chris</a>
         <a class="full" href="#nada">Nada</a>
-        <a class="full" href="#daniel">Daniel</a>
         <a class="full" href="#ena">Ena</a>
         <a class="full" href="#podaci4">
             <div class="side-nav-bar"></div>
@@ -73,6 +74,36 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Ivan -->
+        <a class="full flex relative slide slide-bottom-left" id="ivan" href="https://www.telegram.hr/zivot/kakva-inspirativna-prica-ivan-je-uz-downov-sindrom-zavrsio-srednju-skolu-naucio-turski-i-dobio-posao-na-aerodromu/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/04/sasa3334xw.jpg" alt="Dosad je posjetio Istanbul i četiri puta bio u Portugalu, a sljedeća destinacija koju želi obići je Sarajevo" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Kakva inspirativna priča. Ivan je, uz Downov sindrom, završio srednju školu, naučio turski i dobio posao na aerodromu </h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
+        <!-- Hesam -->
+        <a class="full flex relative slide slide-bottom-left" id="hesam" href="https://www.telegram.hr/zivot/u-iranu-kao-djecak-nisam-smio-imati-traperice-ni-duzu-kosu-sada-gradim-biznise-po-hrvatskoj-jedinoj-zemlji-koja-mi-je-dala-sansu/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/04/hasem-quaydi3.jpg" alt="Ovo je priča 45-godišnjeg Hesama Qaydija koji ima plan izgraditi najveći zabavni park u zemlji" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">U Iranu kao dječak nisam smio imati traperice ni dužu kosu. Sada gradim biznise po Hrvatskoj, jedinoj zemlji koja mi je dala šansu </h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
+                <!-- Daniel -->
+                <a class="full flex relative slide stretch half-slide" id="daniel" href="https://www.telegram.hr/zivot/cijeli-zivot-nije-razumio-sto-mu-se-dogada-sve-dok-u-26-nije-doznao-da-ima-autizam-danas-ga-prati-220-000-ljudi/" target="_blank">
+            <div class="half flex flex-responsive relative">
+            <img src="<?php echo $native_path ?>img/daniel.jpg" aria-hidden="true" class="bg-img">
+            </div>
+            <div class="half center flex flex-responsive">
+                <div class="article-text relative">
+                    <h2 class="full animate">Cijeli život nije razumio što mu se događa, sve dok u 26. nije doznao da ima autizam. Danas ga prati 220.000 ljudi </h2>
+                    <div class="cta">Pročitaj priču ></div>
+                </div>
+            </div>
+        </a>
         <!-- Sarah -->
         <a class="full flex relative slide slide-bottom-left" id="sarah" href="https://www.telegram.hr/zivot/iz-kanade-je-dosla-u-zagreb-i-rintala-za-2000-kuna-mjesecno-sada-cijeli-svijet-gleda-njezine-snimke-zivota-u-hrvatskoj/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2023/03/sasa2754xw.jpg" alt="Ovo je priča o 39-godišnjoj Sari Ćosić iz Toronta koja je doselila u Zagreb, pokrenula biznis i kreirala omiljeni YouTube kanal" class="bg-img">
@@ -101,18 +132,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Divna priča o uspjehu: umirovljenica Nada na YouTubeu otkrila klipove s filcanjem vune i pokrenula super biznis s tepisima</h2>
                 <div class="cta">Pročitaj priču ></div>
-            </div>
-        </a>
-        <!-- Daniel -->
-        <a class="full flex relative slide stretch half-slide" id="daniel" href="https://www.telegram.hr/zivot/cijeli-zivot-nije-razumio-sto-mu-se-dogada-sve-dok-u-26-nije-doznao-da-ima-autizam-danas-ga-prati-220-000-ljudi/" target="_blank">
-            <div class="half flex flex-responsive relative">
-            <img src="<?php echo $native_path ?>img/daniel.jpg" aria-hidden="true" class="bg-img">
-            </div>
-            <div class="half center flex flex-responsive">
-                <div class="article-text relative">
-                    <h2 class="full animate">Cijeli život nije razumio što mu se događa, sve dok u 26. nije doznao da ima autizam. Danas ga prati 220.000 ljudi </h2>
-                    <div class="cta">Pročitaj priču ></div>
-                </div>
             </div>
         </a>
         <!-- Ena -->
