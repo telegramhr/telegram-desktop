@@ -179,7 +179,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1324535, 1317378, 1317364, 1314950, 1314931, 1314919, 1314902, 1355655, 1624246])) {
+                if (in_array($id, [1733848, 1733874, 1732851])) {
                     $rel = 'dofollow';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
@@ -299,7 +299,7 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 	$photo = telegram_get_photographer($image_id);
     if ($photo) {
 	    return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
-	           . do_shortcode( $content ) . '<figcaption class="wp-caption-text">' . $caption . ' <span class="photographer">' . $photo . '</span></figcaption></figure>';
+	           . do_shortcode( $content ) . '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
 	return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
 	       . do_shortcode( $content ) . '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>';
