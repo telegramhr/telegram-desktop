@@ -1,0 +1,271 @@
+/*
+* Hrvatska Lutrija - Sve ili Ništa CSS
+* by TG Studio Marijan
+*/
+
+/* Basics */
+
+html {
+    font-size: 20px;
+}
+body {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    background-color: #eee;
+}
+.container {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+.white-bg {
+    background-color: white;
+}
+.column-pad {
+    padding: 24px;
+}
+.column-margin {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+h2 {
+    font-weight: 900;
+    font-size: 32px;
+    font-size: 1.6rem;
+    line-height: 1.2em;
+    margin-bottom: 16px;
+}
+.pattern-bg {
+    background-image: url('img/tg_pattern_clovers.png');
+    background-size: 400px;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .15;
+    mix-blend-mode: overlay;
+}
+
+/* Header */
+
+header {
+    padding: 5vw;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    color: #efefef;
+    padding-bottom: 12vw;
+    margin-bottom: -7vw;
+}
+header .pattern-bg {
+    opacity: .075;
+}
+header h3 {
+    font-size: 48px;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+header h1 {
+    font-size: 150px;
+    font-size: 7.5rem;
+    line-height: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: linear-gradient(to left, #e63647, #f8d73f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 48px;
+}
+header p {
+    font-weight: 300;
+    font-size: 29px;
+    font-size: 1.45rem;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+/* Video slider */
+
+.youtube-embed {
+    position: relative;
+    padding-bottom: 177.77%;
+    width: 100%;
+    text-align: left;
+}
+.gallery {
+    margin-bottom: 64px;
+}
+.youtube-embed iframe {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+}
+.gallery .column-pad .full {
+    background-color: white;
+}
+.gallery .column-pad .full::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: white;
+    opacity: .2;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -ms-transition: all 0.75s;
+    -o-transition: all 0.75s;
+    transition: all 0.75s;
+    pointer-events: none;
+}
+.gallery .slick-current.column-pad {
+    transform: scale(1.08);
+}
+.gallery .slick-current.column-pad .full::before {
+    opacity: 0;
+}
+.gallery p {
+    padding: 8px;
+    text-align: center;
+    font-weight: 800;
+}
+.gallery .deco-line {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, #e63647, #f8d73f);
+}
+.gallery.slick-dotted.slick-slider {
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+}
+
+/* Lutrija element */
+
+.lutrija-element {
+    background: -webkit-linear-gradient(to bottom, #203A43, #0F2027); 
+    background: linear-gradient(to bottom, #203A43, #0F2027);
+    color: white;
+}
+.lutrija-btn {
+    width: 50%;
+    max-width: 240px;
+}
+.lutrija-element img {
+    max-width: 970px;
+    margin: 0px auto;
+    margin-bottom: 24px;
+}
+.lutrija-element p a {
+    font-weight: 900;
+    background: linear-gradient(to right, #e63647, #d4b010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 767px) {
+    .lutrija-element {
+        margin-top: 166px;
+    }
+    .lutrija-element img {
+        margin-top: -150px;
+    }
+}
+
+/* Articles */
+
+.content-card p {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 767px) {
+    .content-card img {
+        filter: saturate(0.5);
+    }
+    .content-card:hover img {
+        filter: saturate(1);
+    }
+    .content-card .half {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 5;
+    }
+    .content-card {
+        padding-left: 33.33%;
+    }
+    .content-card:nth-child(even) {
+        padding-left: 0%;
+        padding-right: 33.33%;
+    }
+    .content-card:nth-child(even) .half {
+        left: auto;
+        right: 0;
+    }
+}
+
+/* Footer */
+
+footer p {
+    line-height: 1.2em;
+    opacity: .7;
+    font-weight: 300;
+}
+p.limited-width {
+    max-width: 692px;
+    margin: 0 auto;
+}
+.logo-line {
+    margin-bottom: 16px;
+}
+.logo-line img {
+    width: 200px;
+    height: 125px;
+    object-fit: contain;
+    object-position: center center;
+    margin: 16px;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+    header h3 {
+        font-size: 24px;
+        font-size: 1.2rem;
+    }
+    header h1 {
+        font-size: 27vw;
+    }
+    header p {
+        font-size: 18px;
+        font-size: 0.9rem;
+        margin-bottom: 10vw;
+    }
+    header {
+        padding: 10vw;
+        background-color: #121212;
+        color: #efefef;
+        padding-bottom: 20vh;
+        margin-bottom: -20vh;
+    }
+    .gallery .arrow {
+        top: 35vh;
+        left: 10px;
+        width: 18px;
+        height: 18px;
+        border-width: 3px;
+        z-index: 30;
+    }
+    .gallery .arrow-right {
+        left: auto;
+        right: 10px;
+    }
+    .vertical-yt-embed {
+        height: 163.5vw;
+    }
+}
