@@ -66,6 +66,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo">
             <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo">
             <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo">
+            <img src="<?php echo $native_path ?>img/gklogo.svg" alt="Gorski kotar - neodoljiv logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
@@ -248,10 +249,16 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
+            <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                    <img src="https://images.telegram.hr/TMtuHmvjGCaP1t7tt09-mrh3A4Qx3nDbCDy0H-5gMvo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvZHZvcmFjLXN0YXJhLXN1c2ljYS1yYXZuYS1nb3JhLWxqZXRvLW1hcmlvLWp1cmluYS0yLmpwZw.webp" aria-hidden="true">
+                    <h3 class="full">Kaubojski gradić, ostaci pračovjeka i dvorci kao iz svijeta Harryja Pottera na samo sat i pol vožnje od Zagreba</h3>
+                    <p>Ondje vas čekaju i panoramsko letenje, tirkizno jezero i najdublja špilja u Hrvatskoj </p>
+                    <a href="https://www.telegram.hr/zivot/kaubojski-gradic-ostaci-pracovjeka-i-dvorci-kao-iz-svijeta-harryja-pottera-na-samo-sat-i-pol-voznje-od-zagreba/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
                     <img src="https://images.telegram.hr/-AOOEs5cnswmUtqYhqvS64TFmhJu4kYxzxD7w9j2PmA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvdGctbmFzbG92bmEtMjAyMi0xMC0xMi01LmpwZw.webp" aria-hidden="true">
                     <h3 class="full">Na Zelenoj ruti možete spavati u dvorcu i slikati uz čašu finog vina. Imamo još super ideja za ovaj vikend</h3>
-                    <p> Znamo i gdje kušati jedan od prvih hrvatskih pjenušaca po recepturi iz 19. stoljeća</p>
+                    <p>Znamo i gdje kušati jedan od prvih hrvatskih pjenušaca po recepturi iz 19. stoljeća</p>
                     <a href="https://www.telegram.hr/partneri/na-zelenoj-ruti-mozete-spavati-u-dvorcu-i-slikati-uz-casu-finog-vina-imamo-jos-super-ideja-za-ovaj-vikend/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
@@ -386,6 +393,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/slavonija_white_square.png" alt="Srijem i Slavonija Logo" data-aos="fade-up" data-aos-delay="1000">
                 <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo" data-aos="fade-up" data-aos-delay="1100">
                 <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo" data-aos="fade-up" data-aos-delay="1200">
+                <img src="<?php echo $native_path ?>img/gklogo.svg" alt="Gorski kotar - neodoljiv logo" data-aos="fade-up" data-aos-delay="1300">
             </div>
             <div class="full center">
                 
