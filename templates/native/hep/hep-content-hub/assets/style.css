@@ -1,0 +1,270 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 174, 55, 55;
+}
+
+/* Typography */
+
+html {
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.capatalise {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* HEADER */
+
+header {
+    margin-top: 58px;
+}
+
+header h1 {
+    padding-bottom: 20px;
+    font-size: 80px;
+}
+
+header .sub-title {
+    font-size: 22px;
+    padding-bottom: 15px;
+
+}
+
+header h3,
+h4 {
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+/* ARTICLES */
+
+section h2 {
+    padding-bottom: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+section h3 {
+    padding-bottom: 15px;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.kviz-text {
+    color: white;
+}
+
+.featured-article {
+    border: 2px solid black;
+    margin-left: 1.5rem;
+}
+
+header a {
+    border: 2px solid black;
+    border-top: none;
+}
+
+.old-news {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    padding: 2px 7px;
+    z-index: 30;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+}
+
+
+
+@media screen and (min-width: 767px) {
+
+    .desktop-order-1 {
+        order: 1;
+    }
+
+    .desktop-order-2 {
+        order: 2;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-order-1 {
+        order: 1;
+    }
+
+    .mobile-order-2 {
+        order: 2;
+    }
+
+    .featured-article {
+        margin-left: 0px;
+    }
+
+    header h1 {
+        font-size: 2.4rem;
+    }
+
+    header .sub-title {
+        font-size: 19px;
+    }
+
+    nav h3 {
+        font-size: 1.5rem;
+        border-right: none;
+        border-left: none;
+    }
+
+    section h2 {
+        padding-left: 0rem;
+    }
+
+    .top-nav .full {
+        justify-content: center;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .column-bottom-pad {
+        padding-bottom: 1.0rem;
+    }
+
+    .half.center .old-news {
+        font-size: 0.65rem;
+    }
+
+}
+
+/* Quiz */
+
+.quiz-container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 48px;
+    padding-bottom: 64px;
+    border: 1px solid white;
+    color: white;
+    z-index: 5;
+    position: relative;
+}
+
+.slide {
+    display: none;
+    min-height: 360px;
+    align-content: space-between;
+}
+
+.slide.active {
+    display: flex;
+}
+
+.quiz-container p {
+    font-size: 18px;
+    font-size: 0.9rem;
+    line-height: 1.3em;
+    margin-bottom: 8px;
+}
+
+.question {
+    width: 100%;
+    font-size: 32px;
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+}
+
+.answer-text {
+    padding-bottom: 4px;
+}
+
+.answers {
+    width: 100%;
+}
+
+.answer,
+.restart {
+    margin-bottom: 16px;
+    padding: 8px 24px;
+    text-align: center;
+    width: auto;
+    width: auto;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: #ccc 1px solid;
+    border-radius: 3px;
+    margin-right: 16px;
+    position: relative;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.answer:hover,
+.restart:hover {
+    top: -2px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.progress-indicator {
+    width: 1%;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+    .quiz-container {
+        padding: 24px;
+    }
+
+    .question {
+        font-size: 24px;
+        font-size: 1.2rem;
+    }
+
+    .answer,
+    .restart {
+        margin-bottom: 8px;
+        padding: 4px 8px;
+        font-size: 14px;
+        font-size: 0.7rem;
+        margin-right: 8px;
+    }
+
+    .slide {
+        min-height: auto;
+    }
+}
