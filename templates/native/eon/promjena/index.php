@@ -164,7 +164,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full flex horizontal-pad">
                     <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="1000">Evo kako.</h2>
                 </div>
-                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="2000" href="https://www.telegram.hr/partneri/razgovarali-smo-sa-strucnjakom-solari-mogu-zbog-bure-biti-ucinkovitiji-zimi-nego-ljeti-evo-sto-jos-imati-na-umu/" target="_blank">
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="1500" href="https://www.telegram.hr/promo/nikad-veci-porast-broja-instaliranih-solarnih-elektrana-ali-gradani-jos-uvijek-imaju-pitanja-i-brige-odgovorili-smo-na-njih/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/p4MeKjBxFdE76g5F7JCG7QzEFToFqB02c2zBRV23JrY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvaW1hZ2UtMS5wbmc.webp">
+                    <div class="full flex">
+                        <h2 class="full">Nikad veći porast broja instaliranih solarnih elektrana, ali građani još uvijek imaju pitanja i brige. Odgovorili smo na njih </h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="1750" href="https://www.telegram.hr/partneri/razgovarali-smo-sa-strucnjakom-solari-mogu-zbog-bure-biti-ucinkovitiji-zimi-nego-ljeti-evo-sto-jos-imati-na-umu/" target="_blank">
                     <img class="shoo-bottom" src="https://www.telegram.hr/wp-content/uploads/2022/11/eon-karabatic2.jpg">
                     <div class="full flex">
                         <h2 class="full">Razgovarali smo sa stručnjakom: 'Solari mogu zbog bure biti učinkovitiji zimi nego ljeti. Evo što još imati na umu'</h2>
