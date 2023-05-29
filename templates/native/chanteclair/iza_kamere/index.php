@@ -225,10 +225,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <section class="full flex relative" id ="video">
             <div class="container center relative stretch">
                 <video autoplay loop muted playsinline controls class="normal-video desktop-only">
-                    <source src="<?php echo $native_path ?>assets/chanteclair_horizontal.mp4?v=1.00" type="video/mp4">
+                    <source src="<?php echo $native_path ?>assets/chanteclair_horizontal.mp4?v=1.01" type="video/mp4">
                 </video>
                 <video autoplay loop muted playsinline controls class="normal-video mobile-only">
-                    <source src="<?php echo $native_path ?>assets/chanteclair_vertical.mp4?v=1.00" type="video/mp4">
+                    <source src="<?php echo $native_path ?>assets/chanteclair_vertical.mp4?v=1.01" type="video/mp4">
                 </video>
             </div>
         </section>

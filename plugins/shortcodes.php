@@ -23,7 +23,13 @@ class Telegram_Shortcodes {
         add_shortcode('super1_forma', [$this, 'forma']);
         add_shortcode('super1_form', [$this, 'form']);
         add_shortcode('super1_quiz', [$this, 'quiz']);
+
+        add_shortcode('energia_kalkulator', [$this, 'energia_kalkulator']);
 	}
+
+    public function energia_kalkulator() {
+        return '<p><iframe style="width: 100%; height: 720px;" src="https://www.energianaturalis.hr/enapi?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';
+    }
 
     function telegram_hidden($atts, $content) {
         return '<div id="hidden-content">' . do_shortcode($content) . '</div>';
