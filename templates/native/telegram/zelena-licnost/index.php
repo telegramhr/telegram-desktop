@@ -286,8 +286,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full flex sixths-parent gallery">
                     <div class="sixth flex">
                         <div class="full">
-                            <h2 class = "smaller-font">5084-5096</h2>
-                            <p class = "column-bottom-margin"><strong>2,12 tona</strong> otpada proizvede se u svijetu svake godine</p>
+                            <h2 class = "smaller-font">2,12 tona</h2>
+                            <p class = "column-bottom-margin">otpada proizvede se u svijetu svake godine</p>
                             <p class = "izvor italic">Izvor: The World Counts, <a class = "izvor" href="http://theworldcounts.com" target="_blank">http://theworldcounts.com</a></p>
                         </div>
                     </div>
@@ -295,7 +295,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full">
                             <h2>553</h2>
                             <p class = "column-bottom-margin">čestice plastike unesemo u prosjeku u svoje tijelo svakog dana</p>
-                            <p class = "izvor italic">Izvor: Mohamed et al. (2021). Environmental science & technology, 55(8).</p>
+                            <p class = "izvor italic">Izvor: Mohamed et al. (2021). Environmental science & technology, 55(8), 5084-5096</p>
                         </div>
                     </div>
                     <div class="sixth flex">
