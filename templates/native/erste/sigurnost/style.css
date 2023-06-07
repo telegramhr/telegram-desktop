@@ -1,0 +1,445 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Basics */
+
+html {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    background-image: url("img/whitenoise.png");
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+header {
+    margin-top: 60px;
+    padding: 24px;
+    padding-top: 24px;
+    height: 40vw;
+    overflow: hidden;
+    z-index: 5;
+    color: white;
+}
+
+.header-fade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .4));
+    z-index: 3;
+}
+
+header.flex::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    mix-blend-mode: soft-light;
+    background:
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 800 800' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+header .container {
+    z-index: 5;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    font-size: 63px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.text-container h2,
+p,
+.shoo-bottom {
+    margin-bottom: 16px;
+}
+
+.margin-bottom {
+    margin-bottom: 22px;
+}
+
+.subsection-title {
+    border-bottom: 3px solid #2870ed;
+    ;
+    font-size: 40px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    margin-top: 48px;
+}
+
+nav.desktop-only .container {
+    padding: 8px 24px;
+}
+
+nav.desktop-only img {
+    height: 32px;
+}
+
+.pad-me {
+    padding: 24px;
+}
+
+.horizontal-pad {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.black-bg {
+    background-image: url("img/graybg.png");
+    color: white;
+}
+
+.section-title {
+    background: #2870ed;
+    ;
+    z-index: 2;
+    padding: 24px;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.inpage-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    border-top: 1px solid #333;
+    z-index: 99;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.inpage-nav svg {
+    fill: #2870ed;
+    height: 28px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.inpage-nav .center {
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.inpage-nav .center-text {
+    margin-top: 6px;
+}
+
+.article-embed {
+    padding: 32px 0px;
+}
+
+.article-embed h3 {
+    color: #2870ed;
+    font-size: 20px;
+}
+
+.plus-font {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.article-embed h2,
+.special-section h2 {
+    font-size: 26px;
+    line-height: 1.2em;
+    margin-top: 12px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.article-embed p {
+    font-size: 16px;
+}
+
+.half.article-embed {
+    padding: 24px;
+}
+
+.half.article-embed h2 {
+    font-size: 28px;
+    margin-top: 0px;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-shadow: 0px -1px 5px white;
+    margin-bottom: 16px;
+}
+
+.half.article-embed:hover h2 {
+    text-decoration-color: #2870ed;
+}
+
+.half.article-embed>div.full {
+    padding-left: 24px;
+    margin-top: -36px;
+}
+
+.article-embed .half h3 {
+    padding-top: 8px;
+    border-top: 5px solid black;
+}
+
+.topnav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.topnav .container {
+    justify-content: space-between;
+}
+
+.topnav svg {
+    display: inline-block;
+    height: 32px;
+    fill: #2870ed;
+    ;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.topnav>div {
+    height: 66px;
+}
+
+.topnav .textlogo {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.topnav .textlogo img {
+    height: 40px;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #2870ed;
+}
+
+.topnav a {
+    opacity: 0.85;
+}
+
+.topnav a:hover {
+    opacity: 1;
+}
+
+.topnav a div {
+    opacity: .85;
+    font-size: 14px;
+}
+
+.separator-line {
+    height: 2px;
+    background-color: #aaa;
+}
+
+.gray-bg {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 60px;
+    margin-bottom: 32px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+    background-color: #2870ed;
+    color: white;
+    padding: 6px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.infographic-element p:first-child {
+    font-size: 64px;
+    line-height: 64px;
+    color: #2870ed;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.shoo-top {
+    margin-top: 30px;
+}
+
+.infographic-descriptor {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #2870ed;
+}
+
+footer p {
+    font-size: 15px;
+    opacity: .7;
+}
+
+footer {
+    padding: 48px 0px;
+}
+
+.send-icon-up {
+    margin-top: -69px;
+}
+
+.special-section {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+
+.special-section .cta {
+    padding: 10px 32px;
+    padding-top: 15px;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: -45px;
+}
+
+.send-icon-up svg {
+    width: 40%;
+    max-width: 180px;
+    fill: #2870ed;
+}
+
+.tiny-text p {
+    font-size: 12px;
+    opacity: .5;
+    margin-bottom: 2px;
+}
+
+.game-intro {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        padding-bottom: 100px;
+    }
+
+    .inpage-nav .center-text {
+        font-size: 13px;
+    }
+
+    header {
+        height: 80vh;
+        margin-top: 0px;
+    }
+
+    .background-video {
+        min-height: 80vh;
+    }
+
+    h1 {
+        font-size: 12vw;
+        padding-right: 1vw;
+        margin-bottom: 4vw;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 12px;
+    }
+
+    .infographic-element p:first-child {
+        font-size: 46px;
+    }
+
+    .article-embed .half h3 {
+        border-top: none;
+    }
+
+    .shoo-top {
+        margin-top: 7vw;
+    }
+
+    .article-embed {
+        padding: 0px;
+    }
+
+    .article-embed h2,
+    .special-section h2,
+    .half.article-embed h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .game-intro {
+        font-size: 18px;
+    }
+
+    #izazov {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inpage-nav {
+        width: 360px;
+        bottom: 24px;
+        left: auto;
+        right: 24px;
+        border: 1px solid #888;
+    }
+
+    .desktop-order-1 {
+        order: 1;
+    }
+
+    .desktop-order-2 {
+        order: 2;
+    }
+}
+
+.videogame iframe {
+    height: 640px;
+    width: 100%;
+    max-width: 480px;
+}
+
+@media screen and (max-width: 480px) {
+    .videogame iframe {
+        height: 133vw;
+    }
+}
