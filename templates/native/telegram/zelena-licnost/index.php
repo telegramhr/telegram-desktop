@@ -811,6 +811,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <img src="<?php echo $native_path ?>assets/logos/enna_energija_naturalis-logo.svg" alt="ENNA Energija Naturalis logo" />
                     <img src="<?php echo $native_path ?>assets/logos/Hrvatska_posta_paket_24-logo.svg" alt="Hrvatska Pošta Paket 24logo" />
                     <img src="<?php echo $native_path ?>assets/logos/HGK_plavi-logo.svg" alt="Hrvatska Gospodarska Komora logo" />
+                    <img src="<?php echo $native_path ?>assets/logos/answear.png" alt="Answear logo" />
                     <img src="<?php echo $native_path ?>assets/logos/tg_studio_horizontal_color.png" alt="TG Studio logo" />
                 </div>
                 <p class="full center-text">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerima i po najvišim uredničkim standardima Telegram Media Grupe.</p>
