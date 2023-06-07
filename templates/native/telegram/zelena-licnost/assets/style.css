@@ -353,6 +353,9 @@ a:hover .button-24 {
     }
 }
 
+footer .logo-line {
+    flex-wrap: wrap;
+}
 .featured-article h2 {
     font-size: 1.5rem;
 }
