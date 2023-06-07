@@ -114,37 +114,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </a>
         </section>
-        <section class="full flex relative shoo-top">
-            <a href="https://www.telegram.hr/zivot/probrali-smo-genijalne-mailove-koje-primamo-kako-bi-nas-prevarili-predstavljaju-se-kao-porezna-europol-i-hakeri/"
-                class="container flex article-embed" target="_blank">
-                <div class="two-thirds flex flex-responsive horizontal-pad">
-                    <img
-                        src="https://images.telegram.hr/rjHFQmmxCYA7svHAPesnF1Jcw-c12s7XaBsfHC3Djsk/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDQvc2h1dHRlcnN0b2NrLTcyNTExNTUyMC5qcGc.jpg">
-                </div>
-                <div class="third flex flex-responsive horizontal-pad">
-                    <h2 class="full">Probrali smo genijalne mailove koje primamo kako bi nas prevarili. Predstavljaju se
-                        kao porezna, Europol i hakeri</h2>
-                    <p class="full shoo-bottom">Mnogima od njih je cilj ukrasti osobne podatke, identitet ili pristup
-                        financijskim sredstvima</p>
-                    <div class="cta">Pročitaj više</div>
-                </div>
-            </a>
-        </section>
-        <section class="full flex relative shoo-top">
-            <a href="https://www.telegram.hr/zivot/vodic-za-sljedece-putovanje-kako-sprijeciti-blokadu-kartica-kradu-podataka-i-sto-nas-ceka-na-bankomatu/"
-                class="container flex article-embed" target="_blank">
-                <div class="two-thirds flex flex-responsive horizontal-pad desktop-order-2">
-                    <img src="https://images.telegram.hr/BrbwqVht8STO5qh7znM59GXkRVUoDtAOFzdeT3BphVA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDQvc2h1dHRlcnN0b2NrLTY2MDYwNTg1Ny5qcGc.jpg"
-                        alt="">
-                </div>
-                <div class="third flex flex-responsive horizontal-pad desktop-order-1">
-                    <h2 class="full">Vodič za sljedeće putovanje: Kako spriječiti blokadu kartica, krađu podataka i što
-                        nas čeka na bankomatu</h2>
-                    <p class="full">Obišli smo svijet sa savjetima kako pripremiti svoj novčanik za daleka putovanja</p>
-                    <div class="cta">Pročitaj više</div>
-                </div>
-            </a>
-        </section>
         <section class="full flex relative shoo-top margin-bottom">
             <div class="container flex center-text relative">
                 <div class="full center wrap flex-responsive infographic-element horizontal-pad margin-bottom shoo-top">
