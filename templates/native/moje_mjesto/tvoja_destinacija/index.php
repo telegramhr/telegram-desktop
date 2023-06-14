@@ -40,6 +40,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </a>
             <nav class="full flex">
                 <a class="full flex" href="#o-projektu">O projektu</a>
+                <a class="full flex" href="#losinj">Mali Lošinj</a>
                 <a class="full flex" href="#brtonigla">Brtonigla</a>
                 <a class="full flex" href="#pula">Pula</a>
                 <a class="full flex" href="#varazdin">Varaždin</a>
@@ -73,7 +74,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
     </header>
     <nav class="full flex mobile-nav stretch">
-    <a class="fifth center" href="#brtonigla"><img src="<?php echo $native_path ?>img/icon_brtonigla.png" aria-hidden="true"><span>Brtonigla</span></a>
+        <a class="fifth center" href="#losinj"><img src="<?php echo $native_path ?>img/icon_losinj.png" aria-hidden="true"><span>Lošinj</span></a>
+        <a class="fifth center" href="#brtonigla"><img src="<?php echo $native_path ?>img/icon_brtonigla.png" aria-hidden="true"><span>Brtonigla</span></a>
         <a class="fifth center" href="#pula"><img src="<?php echo $native_path ?>img/icon_pula.png" aria-hidden="true"><span>Pula</span></a>
         <a class="fifth center" href="#varazdin"><img src="<?php echo $native_path ?>img/icon_varazdin.png" aria-hidden="true"><span>Varaždin</span></a>
 
@@ -87,9 +89,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">O projektu</h2>
             <p class="full project-intro" data-aos="fade-left" data-aos-delay="750">U dokumentarnom serijalu "Moje mjesto, tvoja destinacija" vodimo vas na ulice prekrasnih hrvatskih gradova uz lokalne vodiče - pojedince koji su odlučili ostati u svojim mjestima i graditi njihovu kulturu.</p>
             <div class="full sugovornici flex stretch">
+            <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="500">
+                <img src="<?php echo $native_path ?>img/sugovornik_sarah.jpg" aria-hidden="true">
+                <div class="full sugovornik-episode">01</div>
+                <h3 class="full">Sarah iz Lošinja</h3>
+                <p>Sarah je obišla 30 zemalja svijeta, radila u Kanadi i na Novom Zelandu. Naposljetku ju je na Lošinj vratila ljubav prema otoku</p>
+                <a href="#losinj" class="insite-btn">Pogledaj epizodu</a>
+              </div>
+
             <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="750">
                 <img src="<?php echo $native_path ?>img/sugovornik_luana.jpg" aria-hidden="true">
-                <div class="full sugovornik-episode">01</div>
+                <div class="full sugovornik-episode">02</div>
                 <h3 class="full">Luana iz Brtonigle</h3>
                 <p>Luana Fernetich Ladavac, koja je s braćom odlučila nastaviti uspješan obiteljski biznis i stvoriti vrhunsku turističku destinaciju</p>
                 <a href="#brtonigla" class="insite-btn">Pogledaj epizodu</a>
@@ -97,7 +107,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
             <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1000">
                 <img src="<?php echo $native_path ?>img/sugovornik_nikola2.jpg" aria-hidden="true">
-                <div class="full sugovornik-episode">01</div>
+                <div class="full sugovornik-episode">03</div>
                 <h3 class="full">Nikola iz Pule</h3>
                 <p>Nikola Pezić, koji stoji iza projekta Eat Istria, odveo nas je u pulsku galeriju u kojoj lokalci preko dana ispijaju kavu</p>
                 <a href="#pula" class="insite-btn">Pogledaj epizodu</a>
@@ -105,7 +115,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
               <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
                 <img src="<?php echo $native_path ?>img/sugovornik_nikola.jpg" aria-hidden="true">
-                <div class="full sugovornik-episode">02</div>
+                <div class="full sugovornik-episode">04</div>
                 <h3 class="full">Nikola iz Varaždina</h3>
                 <p>Uspješni ugostitelj Nikola Božić proveo nas je rodnim Varaždinom. Odveo nas je i u dvorište o kojem je pisao New York Times</p>
                 <a href="#varazdin" class="insite-btn">Pogledaj epizodu</a>
@@ -113,33 +123,43 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
               <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1250">
                 <img src="<?php echo $native_path ?>img/sugovornik_ivan.jpg" aria-hidden="true">
-                <div class="full sugovornik-episode">03</div>
+                <div class="full sugovornik-episode">05</div>
                 <h3 class="full">Ivan iz Dubrovnika</h3>
                 <p>Ivan svojim IT rješenjima osvaja svijet. Nedavno je ušao na tržište Japana. Posjetili smo ga u Dubrovniku.</p>
                 <a href="#dubrovnik" class="insite-btn">Pogledaj epizodu</a>
               </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1500">
                     <img src="<?php echo $native_path ?>img/sugovornik_danijel.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">04</div>
+                    <div class="full sugovornik-episode">06</div>
                     <h3 class="full">Danijel iz Šibenika</h3>
                     <p>Danijel svojim umjetničkim instalacijama obogaćuje kulturnu ponudu grada i šire. Posjetili smo ga u Šibeniku.</p>
                     <a href="#sibenik" class="insite-btn">Pogledaj epizodu</a>
                 </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="1750">
                     <img src="<?php echo $native_path ?>img/sugovornik_vinko.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">05</div>
+                    <div class="full sugovornik-episode">07</div>
                     <h3 class="full">Vinko iz Zadra</h3>
                     <p>Vinkovu Lektiru na sceni pogledalo je više od 6000 srednjoškolaca. Mladog redatelja posjetili smo u Zadru.</p>
                     <a href="#zadar" class="insite-btn">Pogledaj epizodu</a>
                 </div>
                 <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="2000">
                     <img src="<?php echo $native_path ?>img/sugovornik_marijana.jpg" aria-hidden="true">
-                    <div class="full sugovornik-episode">06</div>
+                    <div class="full sugovornik-episode">08</div>
                     <h3 class="full">Marijana iz Korčule</h3>
                     <p>Dok su se druga djeca igrala ona je konobarila i prodavala sladoled. Sad na Korčuli vodi obiteljski restoran.</p>
                     <a href="#korcula" class="insite-btn">Pogledaj epizodu</a>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="full episode episode-overlay flex relative stretch" id="losinj">
+        <video src="<?php echo $native_path ?>img/tg_videobg_losinj.mp4?ver=1.0" autoplay loop muted playsinline class="background-video"></video>
+        <div class="half flex-responsive flex">
+        <h2 class="full episode-title" data-aos="fade-left">Moje mjesto Mali Lošinj</h2>
+        </div>
+        <div class="half flex-responsive flex">
+        <p class="full episode-description" data-aos="fade-right">Sarah nam je pokazala pet zanosnih i jedinstvenih lokacija, od kojih su nas najviše oduševili Miomirisni vrt i vidikovac Providenca</p>
+        <a href="https://www.telegram.hr/zivot/sarah-je-obisla-30-zemalja-svijeta-radila-u-kanadi-i-na-novom-zelandu-naposljetku-ju-je-na-losinj-vratila-ljubav-prema-otoku/" class="insite-btn" data-aos="fade-right" target="_blank" data-aos-delay="1000">Pogledaj video</a>
         </div>
     </section>
     <section class="full episode episode-overlay flex relative stretch" id="brtonigla">
