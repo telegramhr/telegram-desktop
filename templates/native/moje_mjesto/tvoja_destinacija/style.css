@@ -83,7 +83,7 @@ nav a {
     top: 0;
     right: 0;
     height: 100%;
-    width: 150px;
+    width: 320px;
     z-index: 7;
     padding: 128px 48px;
     border-left: 1px solid rgba(255,255,255,0.25);
@@ -103,7 +103,7 @@ nav a {
     height: 128px;
     padding: 16px;
     padding-left: 360px;
-    padding-right: 200px;
+    padding-right: 360px;
     z-index: 5;
     justify-content: flex-end;
 }
@@ -373,8 +373,10 @@ footer .center {
     margin-top: 48px;
 }
 .hero-right img {
-    max-height: 7vh;
+    max-height: 10vh;
     object-fit: contain;
+    width: 50%;
+    padding: 8px;
     object-position: center center;
 }
 .sugovornici {

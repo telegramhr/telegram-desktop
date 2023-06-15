@@ -17,7 +17,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="https://use.typekit.net/yjw4lwh.css">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=2.0" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.5" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=5.7" type="text/css" />
     <script src="<?php echo $native_path ?>jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>functions.js"></script>
 </head>
@@ -68,6 +68,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo">
             <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo">
             <img src="<?php echo $native_path ?>img/gklogo.svg" alt="Gorski kotar - neodoljiv logo">
+            <img src="<?php echo $native_path ?>img/kvarner_white.png" alt="Kvarner logo">
+            <img src="<?php echo $native_path ?>img/losinj_white.png" alt="Lošinj logo">
+            <img src="<?php echo $native_path ?>img/losinj_hotel_white.png" alt="Lošinj hotels & villas logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
@@ -414,6 +417,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/tzbpz_white_square.png" alt="TZ Brodsko-Posavske Logo" data-aos="fade-up" data-aos-delay="1100">
                 <img src="<?php echo $native_path ?>img/podravina_white_square.png" alt="Slavonija Podravina Logo" data-aos="fade-up" data-aos-delay="1200">
                 <img src="<?php echo $native_path ?>img/gklogo.svg" alt="Gorski kotar - neodoljiv logo" data-aos="fade-up" data-aos-delay="1300">
+                <img src="<?php echo $native_path ?>img/kvarner.png" alt="Kvarner logo" data-aos="fade-up" data-aos-delay="1400">
+                <img src="<?php echo $native_path ?>img/losinj.png" alt="Lošinj logo" data-aos="fade-up" data-aos-delay="1500">
+                <img src="<?php echo $native_path ?>img/losinj_hotel_logo.png" alt="Lošinj hotels & villas logo" data-aos="fade-up" data-aos-delay="1600">
             </div>
             <div class="full center">
                 
