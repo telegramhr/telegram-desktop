@@ -1,45 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="hr">
+<?php
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/sesta-zelena-licnost/';
+?>
   <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-
-    <title>6. Zelena ličnost - Telegram</title>
-
-    <meta property="og:url"                content="http://www.telegram.hr" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="6. Zelena ličnost - Telegram" />
-    <meta property="og:description"        content="Svaka odluka koju donesemo odraz je naše osobnosti. Volimo li promjene, jesmo li otvoreni novim idejama, koliko nam je važna vlastita a koliko tuđa dobrobit - samo su neke od stvari opisane s 5 velikih osobnosti. A mi ti danas predstavljamo šestu - zelenu ličnost" />
-    <meta property="og:image"              content="assets/images/facebook.jpg" />
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $native_path ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-<!--
-
-TemplateMo 568 DigiMedia
-
-https://templatemo.com/tm-568-digimedia
-
--->
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/animated.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/owl.css">
+    <?php wp_head(); ?>
   </head>
 
 <body>
-
+<?php do_action('telegram_body_start'); ?>
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
@@ -62,7 +46,7 @@ https://templatemo.com/tm-568-digimedia
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/logo-v1.png" alt="">
+              <img src="<?php echo $native_path ?>assets/images/logo-v1.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -72,7 +56,7 @@ https://templatemo.com/tm-568-digimedia
               <li class="scroll-to-section"><a href="index.html#kviz" class="active">Kviz</a></li>
               <li class="scroll-to-section"><a href="index.html#clanci">Članci</a></li>
               <li class="scroll-to-section"><a href="#about"></a></li>
-            </ul>        
+            </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
@@ -89,7 +73,7 @@ https://templatemo.com/tm-568-digimedia
     <div class="container">
       <div class="row">
         <div class="col-lg-8  offset-lg-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-            
+
 
         <h3>1. Potražnja za solarnom energijom u Hrvatskoj je unatrag godinu dana porasla za 300 posto. Na distribucijsku mrežu su priključene:</h3>
         <form name="pitanje1" action="" method="POST">
@@ -100,7 +84,7 @@ https://templatemo.com/tm-568-digimedia
             <input type="radio" name="pitanje1" value="3" id="p1_odgovor3">
             <label for="p1_odgovor3">10.693 sunčane elektrane</label>
         </form>
-        
+
         <h3>2. Jedna europska država ima plan do 2025. postati ugljično neutralna u pogledu automobila. Lani je imala udio novokupljenih električnih automobila od gotovo 90 posto. Riječ je o:</h3>
         <form name="pitanje2" action="" method="POST">
             <input type="radio" name="pitanje2" value="1" id="p2_odgovor1">
@@ -207,52 +191,52 @@ https://templatemo.com/tm-568-digimedia
             <h4>Ekskluzivni <em>partner</em></h4>
         </div>
         <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.3s">
-            <img style="max-width:300px; height: auto;" src="assets/images/energia-naturalis.png"/><br/>
+            <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>assets/images/energia-naturalis.png"/><br/>
             <br/><br/>
         </div>
         <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
             <h4>Zlatni <em>partner</em></h4>
         </div>
         <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.6s" data-wow-delay="1.6s">
-            <img style="max-width:200px; height: auto;" src="assets/images/hgk.png"/><br/>
-            <img style="max-width:130px; height: auto;" src="assets/images/ht.png"/>
+            <img style="max-width:200px; height: auto;" src="<?php echo $native_path ?>assets/images/hgk.png"/><br/>
+            <img style="max-width:130px; height: auto;" src="<?php echo $native_path ?>assets/images/ht.png"/>
             <br/><br/>
         </div>
-        
+
         <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1.8s">
             <h4>Brončani <em>partner</em></h4>
         </div>
         <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
-            <img style="max-width:220px; height: auto;" src="assets/images/kaufland.png"/><br/>
-            <img style="max-width:220px; height: auto;" src="assets/images/posta.png"/><br/>
-            <img style="max-width:220px; height: auto;" src="assets/images/answear.png"/>
+            <img style="max-width:220px; height: auto;" src="<?php echo $native_path ?>assets/images/kaufland.png"/><br/>
+            <img style="max-width:220px; height: auto;" src="<?php echo $native_path ?>assets/images/posta.png"/><br/>
+            <img style="max-width:220px; height: auto;" src="<?php echo $native_path ?>assets/images/answear.png"/>
             <br/><br/>
         </div>
        <div class="col-lg-6 offset-md-3 text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
-            <img style="max-width:300px; height: auto;" src="assets/images/zl.png"/><br/>
+            <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>assets/images/zl.png"/><br/>
             <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing prema uredničkim standardima Telegram Media Grupe.</p><br/><br/>
-            <img style="max-width:186px; height: auto;" src="assets/images/telegram.png"/>
+            <img style="max-width:186px; height: auto;" src="<?php echo $native_path ?>assets/images/telegram.png"/>
             <br/><br/>
         </div>
 
 
-      
+
       </div>
   </div>
   </div>
 
 
   <!-- Scripts -->
-  
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
-  <script src="assets/js/required.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/custom.js"></script>
-
+  <script src="<?php echo $native_path ?>assets/js/required.js"></script>
+  <script src="<?php echo $native_path ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo $native_path ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo $native_path ?>assets/js/owl-carousel.js"></script>
+  <script src="<?php echo $native_path ?>assets/js/animation.js"></script>
+  <script src="<?php echo $native_path ?>assets/js/imagesloaded.js"></script>
+  <script src="<?php echo $native_path ?>assets/js/custom.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>

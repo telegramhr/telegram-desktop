@@ -23,7 +23,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
   </head>
 
 <body>
-
+<?php do_action('telegram_body_start'); ?>
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
