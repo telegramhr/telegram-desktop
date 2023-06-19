@@ -103,20 +103,25 @@ function telegram_pre_get_posts($query) {
 function telegram_get_photographer($id = false) {
 	if (!$id)
 		$id = get_post_thumbnail_id();
-	$name = get_post_meta( $id, 'fotograf', true );
-	$agency = get_post_meta( $id, 'agencija', true );
-	$photo = '';
-	if ( $name ) {
-		$photo .= $name;
-	}
-	if ( $agency ) {
-		if ( $photo ) {
-			$photo .= '/';
-		}
-		$photo .= $agency;
-	}
 
-	return esc_html( $photo );
+    $out = wp_cache_get('photographer_'.$id, 'pwa');
+    if (!$out) {
+        $name = get_post_meta($id, 'fotograf', true);
+        $agency = get_post_meta($id, 'agencija', true);
+        $photo = '';
+        if ($name) {
+            $photo .= $name;
+        }
+        if ($agency) {
+            if ($photo) {
+                $photo .= '/';
+            }
+            $photo .= $agency;
+        }
+        $out = esc_html( $photo );
+        wp_cache_set('photographer_'.$id, $out, 'pwa', HOUR_IN_SECONDS);
+    }
+	return $out;
 }
 // Custom login
 function telegram_login_stylesheet() {
@@ -179,7 +184,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1733848, 1733874, 1732851])) {
+                if (in_array($id, [1733848, 1733874, 1732851, 1768545])) {
                     $rel = 'dofollow';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
