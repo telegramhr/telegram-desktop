@@ -69,6 +69,25 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 <!-- ***** Header Area End ***** -->
 
 
+<div id="kvizticker" class="kvizticker" style="display:none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 show-up prednost wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                <h3>
+                    Znamo da možeš bolje! Pročitaj naše tekstove pa probaj ponovno.
+                </h3>
+                <div class="col-lg-12">
+                    <div class="border-first-button scroll-to-section">
+                        <a href="https://www.telegram.hr/native/sesta-zelena-licnost/kviz/">POKUŠAJ PONOVNO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <div id="kviz" class="kviz">
     <div class="container">
         <div class="row">
@@ -230,7 +249,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/required.js"></script>
+  <script src="<?php echo $native_path ?>assets/js/required.js?v=2"></script>
   <script src="<?php echo $native_path ?>vendor/jquery/jquery.min.js"></script>
   <script src="<?php echo $native_path ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo $native_path ?>assets/js/owl-carousel.js"></script>

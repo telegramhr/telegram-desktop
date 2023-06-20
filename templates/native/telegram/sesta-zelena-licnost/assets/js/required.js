@@ -13,16 +13,22 @@ $(window).on("load", function () {
 
     switch (true) {
       case brojTocnih < 4:
-        window.location.href = "01.html";
+        jQuery('#kvizticker h3').text('Znamo da možeš bolje! Pročitaj naše tekstove pa probaj ponovno.');
+        jQuery('#kvizticker a').text('POKUŠAJ PONOVNO');
         break;
       case brojTocnih < 7:
-        window.location.href = "02.html";
+        jQuery('#kvizticker h3').text('Nije loše, bravo. Nadamo se da si naučio/la nešto novo.');
+        jQuery('#kvizticker a').text('POKUŠAJ PONOVNO');
         break;
       case brojTocnih >= 9:
-        window.location.href = "03.html";
+        jQuery('#kvizticker h3').text('Odlično! Imaš zavidno znanje o održivosti.');
+        jQuery('#kvizticker a').text('ZAIGRAJ OPET');
         break;
       default:
-        window.location.href = "01.html";
+        jQuery('#kvizticker h3').text('Znamo da možeš bolje! Pročitaj naše tekstove pa probaj ponovno.');
+        jQuery('#kvizticker a').text('POKUŠAJ PONOVNO');
     }
+    jQuery('#kvizticker').show();
+    jQuery('#kviz').hide();
   });
 });
