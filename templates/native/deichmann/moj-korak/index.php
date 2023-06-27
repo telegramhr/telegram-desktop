@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="<?php echo $native_path ?>/assets/images/favicon.png">
+
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -87,7 +87,7 @@
         </div>
         <div class="col-lg-6">
           <div class="sticky-top">
-            <p class="tekst-gornji">Ljeto je godišnje doba u kojem najviše pažnje pridajemo odijevanju. Da, nosimo najmanje odjeće, ali dok zimi možemo na sebe nabaciti više slojeva u različitim teksturama i bojama, prava je umjetnost složiti jednoslojnu ljetnu kombinaciju u kojoj nam neće biti prevruće, a koja će zadovoljiti sve kućice koje stoje ispred destinacije na koju idemo. Neovisno o tome provodimo li ga na užarenom gradskom asfaltu, na kakvoj egzotičnoj plaži ili u obiteljskoj kući na otoku, dobar par sandala ili natikača nešto je bez čega ne možemo. Zato smo u suradnji s <a  href="https://www.deichmann.com/HR/hr/shop/welcome.html" target="_blank" >Deichmannom</a> pripremili inspirativan modni editorijal u kojem smo tri različite odjevne kombinacije za ljetne dane spojili s devet pari natikača i sandala koje ćete obožavati.</p>
+            <p class="tekst-gornji">Ljeto je godišnje doba u kojem najviše pažnje pridajemo odijevanju. Da, nosimo najmanje odjeće, ali dok zimi možemo na sebe nabaciti više slojeva u različitim teksturama i bojama, prava je umjetnost složiti jednoslojnu ljetnu kombinaciju u kojoj nam neće biti prevruće, a koja će zadovoljiti sve kućice koje stoje ispred destinacije na koju idemo. Neovisno o tome provodimo li ga na užarenom gradskom asfaltu, na kakvoj egzotičnoj plaži ili u obiteljskoj kući na otoku, dobar par sandala ili natikača nešto je bez čega ne možemo. Zato smo u suradnji s brendom <a  href="https://www.deichmann.com/HR/hr/shop/welcome.html" target="_blank" >Deichmann</a> pripremili inspirativan modni editorijal u kojem smo tri različite odjevne kombinacije za ljetne dane spojili s devet pari natikača i sandala koje ćete obožavati.</p>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="sticky-top">
-            <p class="tekst-gornji" style="padding-bottom:20px;">Izbor obuće nikada nije bio raskošniji pa smo iz Deichmannove ponude izabrali tri različita modela cipela s kojima ćete biti pokriveni za cijelo ljeto. To su sandale s tankim remenčićima koje variraju od robusnih modela do elegantnih japanki, natikače s dva remena koje će biti sjajne u svim ležernim kombinacijama i profinjene sandale na petu u kojima ćete bez problema provesti čitavu noć na vjenčanju ili proslavi rođendana prijateljice.</p>
+            <p class="tekst-gornji" style="padding-bottom:20px;">Izbor obuće nikada nije bio raskošniji pa smo iz Deichmann ponude izabrali tri različita modela cipela s kojima ćete biti pokriveni za cijelo ljeto. To su sandale s tankim remenčićima koje variraju od robusnih modela do elegantnih japanki, natikače s dva remena koje će biti sjajne u svim ležernim kombinacijama i profinjene sandale na petu u kojima ćete bez problema provesti čitavu noć na vjenčanju ili proslavi rođendana prijateljice.</p>
           </div>
         </div>
         <div class="col-lg-6">
