@@ -274,37 +274,43 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="full flex">
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
-            <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                    <img src="https://images.telegram.hr/1fofpmJGk172e13qVHaVNvMtzQsuSDEX2VUR2NxyouE/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvYW50ZS1oYW1lcnNtaXQtcXNkMWhjcjR4c20tdW5zcGxhc2guanBn.webp" aria-hidden="true">
+                    <h3 class="full">Dan dupina, Osorske večeri i Festival balkona pravi su povod za posjetiti cresko-lošinjski arhipelag</h3>
+                    <p> Ove sezone uživajte u posebnim manifestacijama popularnih jadranskih otoka</p>
+                    <a href="https://www.telegram.hr/super1/life/dan-dupina-osorske-veceri-i-festival-balkona-pravi-su-povod-za-posjetiti-cresko-losinjski-arhipelag/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="50">
                     <img src="https://images.telegram.hr/TMtuHmvjGCaP1t7tt09-mrh3A4Qx3nDbCDy0H-5gMvo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvZHZvcmFjLXN0YXJhLXN1c2ljYS1yYXZuYS1nb3JhLWxqZXRvLW1hcmlvLWp1cmluYS0yLmpwZw.webp" aria-hidden="true">
                     <h3 class="full">Kaubojski gradić, ostaci pračovjeka i dvorci kao iz svijeta Harryja Pottera na samo sat i pol vožnje od Zagreba</h3>
                     <p>Ondje vas čekaju i panoramsko letenje, tirkizno jezero i najdublja špilja u Hrvatskoj </p>
                     <a href="https://www.telegram.hr/zivot/kaubojski-gradic-ostaci-pracovjeka-i-dvorci-kao-iz-svijeta-harryja-pottera-na-samo-sat-i-pol-voznje-od-zagreba/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="100">
                     <img src="https://images.telegram.hr/-AOOEs5cnswmUtqYhqvS64TFmhJu4kYxzxD7w9j2PmA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvdGctbmFzbG92bmEtMjAyMi0xMC0xMi01LmpwZw.webp" aria-hidden="true">
                     <h3 class="full">Na Zelenoj ruti možete spavati u dvorcu i slikati uz čašu finog vina. Imamo još super ideja za ovaj vikend</h3>
                     <p>Znamo i gdje kušati jedan od prvih hrvatskih pjenušaca po recepturi iz 19. stoljeća</p>
                     <a href="https://www.telegram.hr/partneri/na-zelenoj-ruti-mozete-spavati-u-dvorcu-i-slikati-uz-casu-finog-vina-imamo-jos-super-ideja-za-ovaj-vikend/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="150">
                     <img src="https://images.telegram.hr/Uzxp_A5GrjLqhlJ1xO1WyEf6aVvbKdMWn_nDkrQa6As/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvcmFtYXJpbi02LmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Jezero u obliku konja, kućice kao iz Hobita i besplatni avanturistički park do kraja godine. Znamo detalje</h3>
                     <p>Nagradite se već ovog vikenda i stvorite nezaboravna iskustva na samo dva sata vremena vožnje od Zagreba </p>
                     <a href="https://www.telegram.hr/partneri/jezero-u-obliku-konja-kucice-kao-iz-hobita-i-besplatni-avanturisticki-park-do-kraja-godine-znamo-detalje/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="100">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
                     <img src="https://images.telegram.hr/nLUdbbDampfteuoxZBFInrzWI0XuGwr5JjsJkxdDmv0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTAvYXV0b3ItbGp1ZGV2aXQtZ2FjaWMtaXp2b3ItdHotdnN6LmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Istok Hrvatske posjećuje sve više stranih gostiju. Istražili smo u čemu je fora, evo par zanimljivosti</h3>
                     <p>Nezaobilazni dio ponude ovog kraja su i suveniri koji u sebi kriju tradiciju i povijest</p>
                     <a href="https://www.telegram.hr/partneri/istok-hrvatske-posjecuje-sve-vise-stranih-gostiju-istrazili-smo-u-cemu-je-fora-evo-par-zanimljivosti/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="250">
                     <img src="https://images.telegram.hr/r0bXjv94V-g1db9npmFAFHC5ju9mM9Fis0Vhv1wPVrU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDkvYXV0b3ItZGF2b3Jpbi1rcmVzaWMtaXp2b3ItdnN6LmpwZw.jpg" aria-hidden="true">
                     <h3 class="full">Pronašli smo sedam stvari radi kojih znamo da Slavonci uživaju u životu. Jedna nam je svima draga</h3>
                     <p>Budite spremni otkriti neotkriveno - muzeje, kulturu, nematerijalna zaštićena dobra i bogatu gastronomsku ponudu </p>
                     <a href="https://www.telegram.hr/partneri/pronasli-smo-sedam-stvari-radi-kojih-znamo-da-slavonci-uzivaju-u-zivotu-jedna-nam-je-svima-draga/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="300">
                     <img src="https://images.telegram.hr/HjC2PmBOu6_rtlUENjOZRRh1yPd9QQdi-Vz-Ea1Gisg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDgvaWR6MjUwMC5qcGc.jpg" aria-hidden="true">
                     <h3 class="full">Podno Papuka proizvode gin koji osvaja ozbiljne svjetske nagrade. U planu je i slavonski viski </h3>
                     <p> S prijateljima su pokrenuli Ideš i piješ, 12 kilometara dugu eno-gastro šetnju koja počinje 27. kolovoza</p>
