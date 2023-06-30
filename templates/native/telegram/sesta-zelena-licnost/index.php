@@ -3,7 +3,7 @@
 <?php
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/sesta-zelena-licnost/';
 ?>
-  <head>
+<head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,26 +16,26 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/style.css?v=2">
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/owl.css">
     <?php wp_head(); ?>
   </head>
 
 <body>
-<?php do_action('telegram_body_start'); ?>
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+
+<!-- ***** Preloader Start ***** -->
+<div id="js-preloader" class="js-preloader">
+  <div class="preloader-inner">
+    <span class="dot"></span>
+    <div class="dots">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
-  <!-- ***** Preloader End ***** -->
+</div>
+<!-- ***** Preloader End ***** -->
 
 
 <!-- ***** Header Area Start ***** -->
@@ -84,7 +84,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
                 <div class="col-lg-12">
                   <div class="border-first-button scroll-to-section">
-                    <a href="#contact">TEST LIČNOSTI! USKORO...</a>
+                    <a href="https://www.telegram.hr/native/sesta-zelena-licnost/test-licnosti/">TEST LIČNOSTI</a>
                   </div>
                 </div>
               </div>
@@ -107,12 +107,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
       <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
         <div class="blog-post">
           <div class="thumb">
-            <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><img src="<?php echo $native_path ?>assets/images/ugrozili-smo.jpg" alt=""></a>
+            <a href="https://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><img src="<?php echo $native_path ?>assets/images/levisice.jpeg" alt=""></a>
           </div>
           <div class="down-content">
-            <span class="category">Priroda</span>
-            <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><h4>Ugrozili smo mediteransku vrstu koja u danu proizvede do 20 litara kisika. Ova inicijativa pokušava je spasiti</h4></a>
-            <p>Zasigurno ste barem jednom iz mora izašli s komadićem trave koji vam se priljubio uz nogu ili ste u dubinama okrznuli stopalima nešto nalik tome. Velika je vjerojatnost da je upravo ta trava bila posidonija – biljka koja se protiv klimatskih promjena bori tiho, ali efikasno...</p>
+            <span class="category">Moda</span>
+            <a href="https://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><h4>Levisice su se prije kupovale svake druge godine, a sad traperice kupujemo svakih par mjeseci. Evo zašto</h4></a>
+            <p>Procjenjuje se da je proizvodnja tekstila odgovorna za oko 20 posto globalnog onečišćenja čiste vode zbog bojenja tkanina i za 10 posto globalnih emisija ugljika godišnje. Bez brzog djelovanja, ova industrija bi mogla činiti četvrtinu svjetskog proračuna...</p>
           </div>
         </div>
       </div>
@@ -237,13 +237,127 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 <div id="kviz" class="free-quote">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 offset-lg-4">
+      <div class="col-lg-8 offset-lg-2">
         <div class="section-heading  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-          <h6>ZAIGRAJ NAŠ KVIZ</h6>
-          <h4>Poznaješ li dobro svijet ekologije?</h4>
-          <div class="col-lg-12">
-            <div class="border-first-button scroll-to-section">
-              <a href="https://www.telegram.hr/native/sesta-zelena-licnost/kviz/">ZAIGRAJ KVIZ</a>
+
+
+          <div class="quiz-container">
+            <h2>Poznaješ li dobro svijet ekologije?</h2>
+            <button onclick="startQuiz()">Zaigraj kviz</button>
+
+            <div id="quiz-content" style="display: none;">
+              <form id="quiz-form">
+                <div id="question-1" class="question">
+                  <h3>1. Potražnja za solarnom energijom u Hrvatskoj je unatrag godinu dana porasla za 300 posto. Na distribucijsku mrežu su priključene:</h3>
+                  <div class="options">
+                    <input type="radio" name="q1" value="a"> a) 9.053 sunčane elektrane<br>
+                    <input type="radio" name="q1" value="b"> b) 8.632 sunčane elektrane<br>
+                    <input type="radio" name="q1" value="c"> c) 10.693 sunčane elektrane<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+
+                <div id="question-2" class="question">
+                  <h3>2. Jedna europska država ima plan do 2025. postati ugljično neutralna u pogledu automobila. Lani je imala udio novokupljenih električnih automobila od gotovo 90 posto. Riječ je o:</h3>
+                  <div class="options">
+                    <input type="radio" name="q2" value="a"> a) Španjolskoj<br>
+                    <input type="radio" name="q2" value="b"> b) Norveškoj<br>
+                    <input type="radio" name="q2" value="c"> c) Švicarskoj<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+
+                <div id="question-3" class="question">
+                  <h3>3. U Europi prosječno se proizvede 486 kilograma komunalnog otpada po glavi stanovnika u godini dana. Najmanje otpada reciklira Srbija – tek jedan posto, a najvišu stopu recikliranja od skoro 70 posto ima:</h3>
+                  <div class="options">
+                    <input type="radio" name="q3" value="a"> a) Slovenija<br>
+                    <input type="radio" name="q3" value="b"> b) Estonija<br>
+                    <input type="radio" name="q3" value="c"> c) Njemačka<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+                <!-- Repeat the above structure for the remaining questions -->
+
+                <div id="question-4" class="question">
+                  <h3>4. Hrvati čuvaju pet milijuna starih mobitela po ladicama, a mogli bi ih reciklirati jer sadrže vrijedne sirovine. Koliko posto materijala u mobilnim telefonima se može reciklirati?</h3>
+                  <div class="options">
+                    <input type="radio" name="q4" value="a"> a) 100 %<br>
+                    <input type="radio" name="q4" value="b"> b) 90 %<br>
+                    <input type="radio" name="q4" value="c"> c) 80 %<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+                <!-- Repeat the above structure for the remaining questions -->
+
+                <div id="question-5" class="question">
+                  <h3>5. Ulaganje u održivost u sportskoj industriji jedna je od tema o kojoj se često raspravlja u javnom prostoru. Naime, brojke pokazuju da su Olimpijske igre u Riju 2016. godine proizvele 4,5 milijuna tona CO2, dok je Svjetsko prvenstvo u nogometu u Kataru 2022. godine proizvelo:</h3>
+                  <div class="options">
+                    <input type="radio" name="q5" value="a"> a) 3,6 milijuna tona<br>
+                    <input type="radio" name="q5" value="b"> b) 5,5 milijuna tona<br>
+                    <input type="radio" name="q5" value="c"> c) 6,2 milijuna tona<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+                <!-- Repeat the above structure for the remaining questions -->
+
+                <div id="question-6" class="question">
+                  <h3>6. Modna industrija je jedan od najvećih zagađivača okoliša. Proizvodnja tekstila odgovorna je za oko 20% globalnog onečišćenja čiste vode i 10% emisija ugljika godišnje. Zato se potražnja za održivim komadima u Hrvatskoj lani u odnosnu na godinu prije povećala za:</h3>
+                  <div class="options">
+                    <input type="radio" name="q6" value="a"> a) 37 %<br>
+                    <input type="radio" name="q6" value="b"> b) 50 %<br>
+                    <input type="radio" name="q6" value="c"> c) 94 %<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+
+                <div id="question-7" class="question">
+                  <h3>7. Europska unija se Pariškim sporazumom do 2030. godine obvezala smanjiti emisije stakleničkih plinova za najmanje 55 % i da se globalno zagrijavanje ograniči na 1,5 stupnjeva. Među državama koje provode najkorisnije mjere za ostvarivanje ciljeva su:</h3>
+                  <div class="options">
+                    <input type="radio" name="q7" value="a"> a) Hrvatska i Cipar<br>
+                    <input type="radio" name="q7" value="b"> b) Estonija i Latvija<br>
+                    <input type="radio" name="q7" value="c"> c) Luksemburg i Belgija<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+
+                <div id="question-8" class="question">
+                  <h3>8. Osam zemalja svijeta je dosad postiglo nultu emisiju stakleničkih plinova. To su Butan, Madagaskar, Komori, Gabon, Gvajana, Niue, Surinam i:</h3>
+                  <div class="options">
+                    <input type="radio" name="q8" value="a"> a) Monako<br>
+                    <input type="radio" name="q8" value="b"> b) Panama<br>
+                    <input type="radio" name="q8" value="c"> c) Tuvalu<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+
+                <div id="question-9" class="question">
+                  <h3>9. Učenje o održivosti se pokušava sve više implementirati u sustav obrazovanja. Prva zemlja u Europi koja je u klimatsku krizu uključila u školski kurikulum 2019. godine bila je:</h3>
+                  <div class="options">
+                    <input type="radio" name="q9" value="a"> a) Njemačka<br>
+                    <input type="radio" name="q9" value="b"> b) Francuska<br>
+                    <input type="radio" name="q9" value="c"> c) Italija<br>
+                  </div>
+                  <button type="button" onclick="nextQuestion()">Dalje</button>
+                </div>
+
+                <div id="question-10" class="question">
+                  <h3>10. Dan planeta Zemlje se u svijetu obilježava 22. travnja, službeno od 1992. godine. Mi smo ga počeli organizirano obilježavati:</h3>
+                  <div class="options">
+                    <input type="radio" name="q10" value="a"> a) 2000. godine<br>
+                    <input type="radio" name="q10" value="b"> b) 1995. godine<br>
+                    <input type="radio" name="q10" value="c"> c) 1990. godine<br>
+                  </div>
+                  <button type="submit">Odgovori</button>
+                </div>
+              </form>
+
+              <div id="results" style="display: none;">
+                <h2 id="score"></h2>
+                <div id="message" class="message"></div>
+                <div class="border-first-button scroll-to-section">
+                  <a href="https://www.telegram.hr/native/sesta-zelena-licnost/#kviz">ZAIGRAJ PONOVNO</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -335,6 +449,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
               </div>
             </div>
+            <div class="col-lg-12">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><img src="<?php echo $native_path ?>assets/images/more-square.jpg" alt=""></a>
+                </div>
+                <div class="right-content">
+                  <span class="category">Priroda</span>
+                  <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><h4>Ugrozili smo mediteransku vrstu koja u danu proizvede do 20 litara kisika. Ova inicijativa pokušava je spasiti</h4></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -381,45 +506,169 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>assets/images/energia-naturalis.png"/><br/>
         <br/><br/>
       </div>
-      <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-        <h4>Zlatni <em>partner</em></h4>
+      <div class="col-lg-4 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+        <div class="container">
+          <div class="row">
+            <h4>Zlatni <em>partneri</em></h4>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-wow-duration="1s" data-wow-delay="1s">
+              <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>assets/images/hgk.png"/>
+            </div>
+            <div class="col-lg-6" data-wow-duration="1s" data-wow-delay="1s">
+              <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>assets/images/ht.png"/>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.6s" data-wow-delay="1.6s">
-        <img style="max-width:200px; height: auto;" src="<?php echo $native_path ?>assets/images/hgk.png"/><br/>
-        <img style="max-width:130px; height: auto;" src="<?php echo $native_path ?>assets/images/ht.png"/>
-        <br/><br/>
+      <div class="col-lg-8 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+        <div class="container">
+          <div class="row">
+            <h4>Brončani <em>partneri</em></h4>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
+              <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/kaufland.png"/>
+            </div>
+            <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
+              <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/answear.png"/>
+            </div>
+            <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
+              <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/posta.png"/>
+            </div>
+            <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
+              <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/janaf.png"/>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="row" style="margin-top: 50px;">
 
-      <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1.8s">
-        <h4>Brončani <em>partner</em></h4>
-      </div>
-      <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
-        <img style="max-width:220px; height: auto;" src="<?php echo $native_path ?>assets/images/kaufland.png"/><br/>
-        <img style="max-width:220px; height: auto;" src="<?php echo $native_path ?>assets/images/posta.png"/><br/>
-        <img style="max-width:220px; height: auto;" src="<?php echo $native_path ?>assets/images/answear.png"/>
-        <br/><br/>
-      </div>
-      <div class="col-lg-6 offset-md-3 text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+      <div class="col-lg-6 offset-md-3 text-center wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
         <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>assets/images/zl.png"/><br/>
         <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing prema uredničkim standardima Telegram Media Grupe.</p><br/><br/>
         <img style="max-width:186px; height: auto;" src="<?php echo $native_path ?>assets/images/telegram.png"/>
         <br/><br/>
       </div>
-
-
-
     </div>
   </div>
 </div>
 
 
-  <!-- Scripts -->
-  <script src="<?php echo $native_path ?>vendor/jquery/jquery.min.js"></script>
-  <script src="<?php echo $native_path ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/owl-carousel.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/animation.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/imagesloaded.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/custom.js"></script>
-<?php wp_footer(); ?>
+<!-- Scripts -->
+<script src="<?php echo $native_path ?>vendor/jquery/jquery.min.js"></script>
+<script src="<?php echo $native_path ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $native_path ?>assets/js/owl-carousel.js"></script>
+<script src="<?php echo $native_path ?>assets/js/animation.js"></script>
+<script src="<?php echo $native_path ?>assets/js/imagesloaded.js"></script>
+<script src="<?php echo $native_path ?>assets/js/custom.js"></script>
+<script>
+  let currentQuestion = 1;
+  const totalQuestions = 10;
+
+  function showQuestion(questionNumber) {
+    document.getElementById(`question-${questionNumber}`).style.display = 'block';
+  }
+
+  function hideQuestion(questionNumber) {
+    document.getElementById(`question-${questionNumber}`).style.display = 'none';
+  }
+
+  function nextQuestion() {
+    hideQuestion(currentQuestion);
+    currentQuestion++;
+    if (currentQuestion <= totalQuestions) {
+      showQuestion(currentQuestion);
+    }
+  }
+
+  function startQuiz() {
+    const quizContent = document.getElementById('quiz-content');
+    const headline = document.querySelector('.free-quote h2');
+    const startButton = document.querySelector('.free-quote button');
+
+    quizContent.style.display = 'block';
+    headline.style.display = 'none';
+    startButton.style.display = 'none';
+
+    showQuestion(currentQuestion);
+  }
+
+
+  document.getElementById('quiz-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    showResults();
+  });
+
+  function showResults() {
+    const form = document.getElementById('quiz-form');
+    const formData = new FormData(form);
+    let score = 0;
+
+    for (let pair of formData.entries()) {
+      const questionNumber = pair[0];
+      const answer = pair[1];
+
+
+      // Check if the answer is correct and increment the score
+      if (questionNumber === 'q1' && answer === 'a') {
+        score++;
+      }
+      if (questionNumber === 'q2' && answer === 'b') {
+        score++;
+      }
+      if (questionNumber === 'q3' && answer === 'c') {
+        score++;
+      }
+      if (questionNumber === 'q4' && answer === 'c') {
+        score++;
+      }
+      if (questionNumber === 'q5' && answer === 'a') {
+        score++;
+      }
+      if (questionNumber === 'q6' && answer === 'c') {
+        score++;
+      }
+      if (questionNumber === 'q7' && answer === 'a') {
+        score++;
+      }
+      if (questionNumber === 'q8' && answer === 'b') {
+        score++;
+      }
+      if (questionNumber === 'q9' && answer === 'c') {
+        score++;
+      }
+      if (questionNumber === 'q10' && answer === 'c') {
+        score++;
+      }
+      // Add simila
+      // Add similar conditions for the remaining questions
+    }
+
+    const resultContainer = document.getElementById('results');
+    const scoreElement = document.getElementById('score');
+    const messageElement = document.getElementById('message');
+    scoreElement.textContent = 'Rezultat: ' + score + '/10';
+
+    if (score === 10) {
+      messageElement.textContent = 'Odlično! Imaš zavidno znanje o održivosti.';
+    } else if (score >= 6) {
+      messageElement.textContent = 'Nije loše, bravo. Nadamo se da si naučio/la nešto novo.';
+    } else if (score >= 3) {
+      messageElement.textContent = 'Znamo da možeš bolje! Pročitaj naše tekstove pa probaj ponovno.';
+    } else {
+      messageElement.textContent = 'Znamo da možeš bolje! Pročitaj naše tekstove pa probaj ponovno.';
+    }
+
+    // Hide the last question and display only the results
+    document.getElementById(`question-${totalQuestions}`).style.display = 'none';
+    resultContainer.style.display = 'block';
+  }
+</script>
 </body>
 </html>
