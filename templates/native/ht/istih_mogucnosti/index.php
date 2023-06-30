@@ -24,14 +24,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#durdica">Đurđica</a>
         <a class="full" href="#ivan">Ivan</a>
         <a class="full" href="#hesam">Hesam</a>
         <a class="full" href="#daniel">Daniel</a>
+        <a class="full" href="#podaci4">
+            <div class="side-nav-bar"></div>
+        </a>
         <a class="full" href="#sarah">Sarah</a>
         <a class="full" href="#chris">Chris</a>
         <a class="full" href="#nada">Nada</a>
         <a class="full" href="#ena">Ena</a>
-        <a class="full" href="#podaci4">
+        <a class="full" href="#podaci1">
             <div class="side-nav-bar"></div>
         </a>
         <a class="full" href="#helena">Helena</a>
@@ -39,7 +43,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#chloe">Chloe</a>
         <a class="full" href="#ana">Ana</a>
         <a class="full" href="#talita">Talita</a>
-        <a class="full" href="#podaci1">
+        <a class="full" href="#podaci2">
             <div class="side-nav-bar"></div>
         </a>
         <a class="full" href="#dominik">Dominik</a>
@@ -47,16 +51,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#anja">Anja</a>
         <a class="full" href="#mark">Mark</a>
         <a class="full" href="#hrvoje">Hrvoje</a>
-        <a class="full" href="#podaci2">
+        <a class="full" href="#podaci3">
             <div class="side-nav-bar"></div>
         </a>
         <a class="full" href="#stipo">Stipo</a>
         <a class="full" href="#hannah">Hannah</a>
         <a class="full" href="#anka">Anka</a>
         <a class="full" href="#chella">Chella</a>
-        <a class="full" href="#podaci3">
-            <div class="side-nav-bar"></div>
-        </a>
         <a class="full" href="#partneri">Partneri</a>
         <div class="full flex">
             <img src="<?php echo $native_path ?>img/ht.svg" alt="Hrvatski telekom logo" />
@@ -74,6 +75,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Đurđica -->
+        <a class="full flex relative slide slide-bottom-left" id="durdica" href="https://www.telegram.hr/zivot/od-rodenja-sam-gluha-i-jedva-sam-zavrsila-skolu-pobijedila-sam-danas-sam-nastavnica-i-sviram-violinu/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/06/sakic1.jpg" alt="Ovo je priča o 45-godišnjoj Đurđici Šakić kojoj ni roditelji ni učitelji nisu vjerovali da ne čuje" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Od rođenja sam gluha i jedva sam završila školu. Pobijedila sam; danas sam nastavnica i sviram violinu </h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Ivan -->
         <a class="full flex relative slide slide-bottom-left" id="ivan" href="https://www.telegram.hr/zivot/kakva-inspirativna-prica-ivan-je-uz-downov-sindrom-zavrsio-srednju-skolu-naucio-turski-i-dobio-posao-na-aerodromu/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2023/04/sasa3334xw.jpg" alt="Dosad je posjetio Istanbul i četiri puta bio u Portugalu, a sljedeća destinacija koju želi obići je Sarajevo" class="bg-img">
@@ -92,8 +102,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>
-                <!-- Daniel -->
-                <a class="full flex relative slide stretch half-slide" id="daniel" href="https://www.telegram.hr/zivot/cijeli-zivot-nije-razumio-sto-mu-se-dogada-sve-dok-u-26-nije-doznao-da-ima-autizam-danas-ga-prati-220-000-ljudi/" target="_blank">
+        <!-- Daniel -->
+        <a class="full flex relative slide stretch half-slide" id="daniel" href="https://www.telegram.hr/zivot/cijeli-zivot-nije-razumio-sto-mu-se-dogada-sve-dok-u-26-nije-doznao-da-ima-autizam-danas-ga-prati-220-000-ljudi/" target="_blank">
             <div class="half flex flex-responsive relative">
             <img src="<?php echo $native_path ?>img/daniel.jpg" aria-hidden="true" class="bg-img">
             </div>
@@ -104,6 +114,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </a>
+        <!-- Podaci 4 -->
+        <div class="full center relative slide darker-bg" id="podaci4">
+            <video src="<?php echo $native_path ?>img/meeting.mp4" autoplay muted playsinline loop class="video-bg"></video>
+            <div class="full flex relative stretch upzindex">
+                <p class="full big-fact">#1</p>
+                <p class="full fact-description">hrvatska kompanija na listi najetičnijih svjetskih kompanija je Hrvatski Telekom</p>
+            </div>
+        </div>
         <!-- Sarah -->
         <a class="full flex relative slide slide-bottom-left" id="sarah" href="https://www.telegram.hr/zivot/iz-kanade-je-dosla-u-zagreb-i-rintala-za-2000-kuna-mjesecno-sada-cijeli-svijet-gleda-njezine-snimke-zivota-u-hrvatskoj/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2023/03/sasa2754xw.jpg" alt="Ovo je priča o 39-godišnjoj Sari Ćosić iz Toronta koja je doselila u Zagreb, pokrenula biznis i kreirala omiljeni YouTube kanal" class="bg-img">
@@ -143,12 +161,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>
-        <!-- Podaci 4 -->
-        <div class="full center relative slide darker-bg" id="podaci4">
-            <video src="<?php echo $native_path ?>img/meeting.mp4" autoplay muted playsinline loop class="video-bg"></video>
+        <!-- Podaci 1 -->
+        <div class="full center relative slide darker-bg" id="podaci1">
+            <video src="<?php echo $native_path ?>img/elderly.mp4" autoplay muted playsinline loop class="video-bg"></video>
             <div class="full flex relative stretch upzindex">
-                <p class="full big-fact">#1</p>
-                <p class="full fact-description">hrvatska kompanija na listi najetičnijih svjetskih kompanija je Hrvatski Telekom</p>
+                <p class="full big-fact">54</p>
+                <p class="full fact-description">doma za starije sudjeluje u programu digitalnog opismenjavanja Hrvatskog Telekoma</p>
             </div>
         </div>
         <!-- Helena -->
@@ -199,12 +217,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>
-        <!-- Podaci 1 -->
-        <div class="full center relative slide darker-bg" id="podaci1">
-            <video src="<?php echo $native_path ?>img/elderly.mp4" autoplay muted playsinline loop class="video-bg"></video>
+        <!-- Podaci 2 -->
+        <div class="full center relative slide darker-bg" id="podaci2">
+            <video src="<?php echo $native_path ?>img/worker.mp4" autoplay muted playsinline loop class="video-bg"></video>
             <div class="full flex relative stretch upzindex">
-                <p class="full big-fact">54</p>
-                <p class="full fact-description">doma za starije sudjeluje u programu digitalnog opismenjavanja Hrvatskog Telekoma</p>
+                <p class="full big-fact small-fact">Poslodavcem</p>
+                <p class="full fact-description">godine za osobe s invaliditetom proglašen je Hrvatski Telekom</p>
             </div>
         </div>
         <!-- Dominik -->
@@ -258,12 +276,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="cta">Pročitaj priču ></div>
             </div>
         </a>
-        <!-- Podaci 2 -->
-        <div class="full center relative slide darker-bg" id="podaci2">
-            <video src="<?php echo $native_path ?>img/worker.mp4" autoplay muted playsinline loop class="video-bg"></video>
+        <!-- Podaci 3 -->
+        <div class="full center relative slide darker-bg" id="podaci3">
+            <video src="<?php echo $native_path ?>img/lady.mp4" autoplay muted playsinline loop class="video-bg"></video>
             <div class="full flex relative stretch upzindex">
-                <p class="full big-fact small-fact">Poslodavcem</p>
-                <p class="full fact-description">godine za osobe s invaliditetom proglašen je Hrvatski Telekom</p>
+                <p class="full big-fact">41%</p>
+                <p class="full fact-description">rukovodećih pozicija u HT-u drže žene</p>
             </div>
         </div>
         <!-- Stipo -->
@@ -308,14 +326,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </a>
-        <!-- Podaci 3 -->
-        <div class="full center relative slide darker-bg" id="podaci3">
-            <video src="<?php echo $native_path ?>img/lady.mp4" autoplay muted playsinline loop class="video-bg"></video>
-            <div class="full flex relative stretch upzindex">
-                <p class="full big-fact">41%</p>
-                <p class="full fact-description">rukovodećih pozicija u HT-u drže žene</p>
-            </div>
-        </div>
         <!-- Partneri -->
         <footer class="full center relative slide" id="partneri">
             <div class="full center logo-line">
