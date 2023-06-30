@@ -42,17 +42,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="<?php echo site_url() ?>" class="logo">
               <img src="<?php echo $native_path ?>assets/images/logo-v1.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="index.html#top">Naslovnica</a></li>
-              <li class="scroll-to-section"><a href="index.html#infografike">Infografike</a></li>
-              <li class="scroll-to-section"><a href="#"  class="active">Kviz</a></li>
-              <li class="scroll-to-section"><a href="index.html#clanci">Članci</a></li>
-              <li class="scroll-to-section"><a href="index.html#about"></a></li>
+              <li class="scroll-to-section"><a href="https://www.telegram.hr/native/sesta-zelena-licnost#top">Naslovnica</a></li>
+              <li class="scroll-to-section"><a href="https://www.telegram.hr/native/sesta-zelena-licnost#infografike">Infografike</a></li>
+              <li class="scroll-to-section"><a href="https://www.telegram.hr/native/sesta-zelena-licnost/test-licnosti"  class="active">Kviz</a></li>
+              <li class="scroll-to-section"><a href="https://www.telegram.hr/native/sesta-zelena-licnost#clanci">Članci</a></li>
+              <li class="scroll-to-section"><a href="https://www.telegram.hr/native/sesta-zelena-licnost#about"></a></li>
             </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>

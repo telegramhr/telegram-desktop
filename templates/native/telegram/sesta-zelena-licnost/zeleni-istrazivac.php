@@ -154,11 +154,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/super1/power/pricu-oko-otpada-i-ekologije-ucinila-je-razumljivom-svima-vise-od-11-tisuca-ljudi-su-zbog-nje-bolji-gradani/" target="_blank"><img src="<?php echo $native_path ?>assets/images/zbog-nje.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><img src="https://images.telegram.hr/TAufL_jSfyKPmTmYATMERHoMWaFRGr8JHe0Rda17MlU/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvc2h1dHRlcnN0b2NrLTEzNzg1OTM1NzIuanBn.webp" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Ljudi</span>
-              <a href="https://www.telegram.hr/super1/power/pricu-oko-otpada-i-ekologije-ucinila-je-razumljivom-svima-vise-od-11-tisuca-ljudi-su-zbog-nje-bolji-gradani/" target="_blank"><h4>Super1 intervju Priču oko otpada i ekologije učinila je razumljivom svima. Više od 11 tisuća ljudi su zbog nje bolji građani</h4></a>
+              <a href="https://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><h4>Super1 intervju Priču oko otpada i ekologije učinila je razumljivom svima. Više od 11 tisuća ljudi su zbog nje bolji građani</h4></a>
               <p>Ako moram ocijeniti svoju generalnu ekološku osviještenost, svoj bih život, odnosno navike, mogla podijeliti na dva dijela...</p>
             </div>
           </div>
