@@ -137,7 +137,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative shoo-top" id="vodici">
             <div class="container flex relative">
-                <a class="fourth flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/zivot/vise-od-38-posto-prevara-dogada-se-tijekom-kupnje-na-internetu-izdvojili-smo-neke-od-novijih-slucajeva/" target="_blank">
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/zivot/vise-od-38-posto-prevara-dogada-se-tijekom-kupnje-na-internetu-izdvojili-smo-neke-od-novijih-slucajeva/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/NyD0rwImgan-nEpk2YXOJKCl7yOMKjLb5tlSSf1c1zk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvYmVuY2gtYWNjb3VudGluZy1jM3Y4OGJvb3JvbS11bnNwbGFzaC5qcGc.webp">
                     <div class="full flex">
                         <h2 class="full">Više od 38 posto prevara događa se tijekom kupnje na internetu. Izdvojili smo neke od novijih slučajeva</h2>
