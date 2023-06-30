@@ -76,7 +76,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </header>
         <!-- Đurđica -->
-        <a class="full flex relative slide slide-bottom-left" id="durdica" href="https://www.telegram.hr/wp-content/uploads/2023/06/sakic1.jpg" alt="Ovo je priča o 45-godišnjoj Đurđici Šakić kojoj ni roditelji ni učitelji nisu vjerovali da ne čuje" class="bg-img">
+        <a class="full flex relative slide slide-bottom-left" id="ivan" href="https://www.telegram.hr/zivot/od-rodenja-sam-gluha-i-jedva-sam-zavrsila-skolu-pobijedila-sam-danas-sam-nastavnica-i-sviram-violinu/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/06/sakic1.jpg" alt="Ovo je priča o 45-godišnjoj Đurđici Šakić kojoj ni roditelji ni učitelji nisu vjerovali da ne čuje" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Od rođenja sam gluha i jedva sam završila školu. Pobijedila sam; danas sam nastavnica i sviram violinu </h2>
