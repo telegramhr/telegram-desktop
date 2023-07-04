@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <?php
-$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/sesta-zelena-licnost/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/sesta-zelena-licnost';
 ?>
-  <head>
+
+<head>
+    <!-- this is required to load all the analytics and other scripts -->
+    <?php wp_head(); ?>
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo $native_path ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/style.css?v=2">
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/animated.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/css/owl.css">
-<?php wp_head(); ?>
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
+
   </head>
 
 <body>
@@ -44,7 +51,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="<?php echo site_url() ?>" class="logo">
-              <img src="<?php echo $native_path ?>assets/images/logo-v1.png" alt="">
+              <img src="<?php echo $native_path ?>/assets/images/logo-v1.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -84,7 +91,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="<?php echo $native_path ?>assets/images/strateg.png" alt="">
+                <img src="<?php echo $native_path ?>/assets/images/strateg.png" alt="">
               </div>
             </div>
           </div>
@@ -99,24 +106,24 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><img src="<?php echo $native_path ?>assets/images/inicijativa-gen.jpeg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/auti.jpeg" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Moda</span>
-              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><h4>Genijalna incijativa Godišnje skupimo 11 kilograma nepotrebne odjeće. Svoju smo natrpale u 5 velikih vreća</h4></a>
-              <p>Obratite pozornost na sadržaj svojeg ormara – primjećujete li odjeću koju gotovo pa ni ne prepoznajete, stisnutu u neki ćošak? Ako je vaš odgovor da, pripadate među većinu ljudi koja 80 posto vremena nosi samo 20 posto od sve odjeće koju inače posjeduje....</p>
+              <span class="category">Energija</span>
+              <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><h4>Stručnjak o održivosti prometa: 'Budućnost ne leži samo u električnim vozilima. Postoje još dva važna rješenja'</h4></a>
+              <p>Zamislite si situaciju da direktor neke velike kompanije kod nas dođe na sastanak s biciklom. U najmanju ruku bi ga čudno gledali jer je iznimka, dok je u Kopenhagenu to sasvim normalna stvar. Ondje postoje mostovi na koje mogu isključivo bicikli...</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><img src="<?php echo $native_path ?>assets/images/ugrozili-smo.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/inicijativa-gen.jpeg" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Priroda</span>
-              <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><h4>Ugrozili smo mediteransku vrstu koja u danu proizvede do 20 litara kisika. Ova inicijativa pokušava je spasiti</h4></a>
-              <p>Zasigurno ste barem jednom iz mora izašli s komadićem trave koji vam se priljubio uz nogu ili ste u dubinama okrznuli stopalima nešto nalik tome. Velika je vjerojatnost da je upravo ta trava bila posidonija – biljka koja se protiv klimatskih promjena bori tiho, ali efikasno...</p>
+              <span class="category">Moda</span>
+              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><h4>Genijalna incijativa Godišnje skupimo 11 kilograma nepotrebne odjeće. Svoju smo natrpale u 5 velikih vreća</h4></a>
+              <p>Obratite pozornost na sadržaj svojeg ormara – primjećujete li odjeću koju gotovo pa ni ne prepoznajete, stisnutu u neki ćošak? Ako je vaš odgovor da, pripadate među većinu ljudi koja 80 posto vremena nosi samo 20 posto od sve odjeće koju inače posjeduje....</p>
             </div>
           </div>
         </div>
@@ -126,10 +133,22 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
   <div id="clanci" class="blog" style="padding-top:40px !important">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="blog-post">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+          <div class="blog-post" style="margin-bottom: 30px;">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>assets/images/solari.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/ugrozili-smo.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><h4>Ugrozili smo mediteransku vrstu koja u danu proizvede do 20 litara kisika. Ova inicijativa pokušava je spasiti</h4></a>
+              <p>Zasigurno ste barem jednom iz mora izašli s komadićem trave koji vam se priljubio uz nogu ili ste u dubinama okrznuli stopalima nešto nalik...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post" style="margin-bottom: 30px;">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/solari.jpg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Energija</span>
@@ -139,9 +158,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
           </div>
         </div>
         <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-          <div class="blog-post">
+          <div class="blog-post" style="margin-bottom: 30px;">
             <div class="thumb">
-              <a href="https://www.telegram.hr/super1/look/gdje-pronaci-savrsen-par-odrzivih-traperica-ovi-brendovi-rade-najbolje-na-svijetu/" target="_blank"><img src="<?php echo $native_path ?>assets/images/traperice.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/super1/look/gdje-pronaci-savrsen-par-odrzivih-traperica-ovi-brendovi-rade-najbolje-na-svijetu/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/traperice.jpg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Moda</span>
@@ -151,9 +170,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
           </div>
         </div>
         <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-          <div class="blog-post">
+          <div class="blog-post" style="margin-bottom: 30px;">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><img src="<?php echo $native_path ?>assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Priroda</span>
@@ -176,7 +195,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h4>Ekskluzivni <em>partner</em></h4>
         </div>
         <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.3s">
-            <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>assets/images/energia-naturalis.png"/><br/>
+            <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>/assets/images/energia-naturalis.png"/><br/>
             <br/><br/>
         </div>
         <div class="col-lg-4 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
@@ -188,10 +207,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container">
               <div class="row">
                   <div class="col-lg-6" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>assets/images/hgk.png"/>
+                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>/assets/images/hgk.png"/>
                   </div>
                   <div class="col-lg-6" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>assets/images/ht.png"/>
+                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>/assets/images/ht.png"/>
                   </div>
               </div>
           </div>
@@ -205,16 +224,16 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container">
               <div class="row">
                   <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/kaufland.png"/>
+                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>/assets/images/kaufland.png"/>
                   </div>
                   <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/answear.png"/>
+                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>/assets/images/answear.png"/>
                   </div>
                   <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/posta.png"/>
+                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>/assets/images/posta.png"/>
                    </div>
                   <div class="col-lg-3" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>assets/images/janaf.png"/>
+                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>/assets/images/janaf.png"/>
                   </div>
               </div>
           </div>
@@ -223,9 +242,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
       <div class="row" style="margin-top: 50px;">
 
        <div class="col-lg-6 offset-md-3 text-center wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
-            <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>assets/images/zl.png"/><br/>
+            <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>/assets/images/zl.png"/><br/>
             <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing prema uredničkim standardima Telegram Media Grupe.</p><br/><br/>
-            <img style="max-width:186px; height: auto;" src="<?php echo $native_path ?>assets/images/telegram.png"/>
+            <img style="max-width:186px; height: auto;" src="<?php echo $native_path ?>/assets/images/telegram.png"/>
             <br/><br/>
         </div>
       </div>
@@ -234,12 +253,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
 
   <!-- Scripts -->
-  <script src="<?php echo $native_path ?>vendor/jquery/jquery.min.js"></script>
-  <script src="<?php echo $native_path ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/owl-carousel.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/animation.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/imagesloaded.js"></script>
-  <script src="<?php echo $native_path ?>assets/js/custom.js"></script>
+  <script src="<?php echo $native_path ?>/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo $native_path ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo $native_path ?>/assets/js/owl-carousel.js"></script>
+  <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
+  <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
+  <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
   <script>
     let currentQuestion = 1;
     const totalQuestions = 10;
@@ -343,6 +362,7 @@ function startQuiz() {
       resultContainer.style.display = 'block';
     }
   </script>
-<?php wp_footer(); ?>
+    <!-- this is required to load all the analytics and other scripts -->
+    <?php wp_footer(); ?>
 </body>
 </html>

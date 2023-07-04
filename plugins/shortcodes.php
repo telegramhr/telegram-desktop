@@ -25,7 +25,12 @@ class Telegram_Shortcodes {
         add_shortcode('super1_quiz', [$this, 'quiz']);
 
         add_shortcode('energia_kalkulator', [$this, 'energia_kalkulator']);
+        add_shortcode('energia_forma', [$this, 'energia_forma']);
 	}
+
+    public function energia_forma() {
+        return '<p><iframe style="width: 100%; height: 720px;" src="https://www.energianaturalis.hr/eform?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';
+    }
 
     public function energia_kalkulator() {
         return '<p><iframe style="width: 100%; height: 720px;" src="https://www.energianaturalis.hr/enapi?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';
