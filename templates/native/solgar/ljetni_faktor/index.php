@@ -32,6 +32,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <a class="full" href="#vitamini">Ključni vitamini</a>
             <a class="full" href="#dnevnik">Dnevnik novinarke</a>
             <a class="full" href="#znakove">Spriječi znakove starenja</a>
+            <a class="full" href="#hiperpigmentacija">Izbjegni hiperpigmentaciju</a>
             <a class="full" href="#izbor">Tvoj izbor za zdravu kožu</a>
         </div>
         <div class="full flex">
@@ -56,7 +57,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </header>
         <!-- Priprema za ljeto -->
         <div class="full center relative slide slide-article" id="priprema">
-            <img class = "full-img" src="<?php echo $native_path ?>img/solgar-giveaway.jpeg" alt="" />
+            <img class = "full-img" src="<?php echo $native_path ?>img/solgar-giveaway.jpeg" aria-hidden="true" />
             <a class="full flex relative stretch article upzindex" href = "https://www.telegram.hr/super1/life/pitali-smo-kolegice-kako-se-pripremaju-za-ljeto-njihove-navike-i-vama-mogu-biti-vrlo-korisne/" target = "_blank">
                 <h2 class="full"> Pitali smo kolegice kako se pripremaju za ljeto. Njihove navike i vama mogu biti vrlo korisne</h2>
                 <!-- <div class="full article-cta"><img src="<?php //echo $native_path ?>img/longarrow.png" alt="Dugačka strelica prema desno">Pročitaj više</div> -->
@@ -71,7 +72,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <source src="<?php echo $native_path ?>img/tg_videobg_wellness.mp4" type="video/webm">
                 <source src="<?php echo $native_path ?>img/tg_videobg_wellness.webm" type="video/mp4">
             </video>
-            <img class = "full-img" src="<?php echo $native_path ?>img/stock-photo-1.png" alt="" />
+            <img class = "full-img" src="<?php echo $native_path ?>img/stock-photo-1.png" aria-hidden="true" />
             <a class="full flex relative stretch article upzindex">
                 <h2 class="full">Dermatologinja nam je odgovorila na sva vaša pitanja. Ovo su najčešće greške koje činimo ljeti</h2>
                 <div class = "full flex relative article-cta">
@@ -81,7 +82,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div> -->
         <!-- Kviz -->
         <div class="full center relative slide slide-article special-slide" id="kviz">
-            <img class = "full-img" src="<?php echo $native_path ?>img/slogar-tekst.jpeg" alt="" />
+            <img class = "full-img" src="<?php echo $native_path ?>img/slogar-tekst.jpeg" aria-hidden="true" />
             <a href="https://mysun.expert/?utm_source=microsite&utm_medium=landing_page&utm_campaign=solgar#upitnik" target="_blank" class="full flex relative stretch article upzindex">
                 <h2 class="full">Odgovori na par pitanja u upitniku i doznaj svoj fototip kože i kako je najbolje zaštititi</h2>
                 <!-- <div class="full article-cta"><img src="<?php //echo $native_path ?>img/longarrow.png" alt="Dugačka strelica prema desno">Vodi me na upitnik</div> -->
@@ -92,7 +93,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <!-- Vitamini -->
         <div class="full center relative slide slide-article" id="vitamini">
-            <img class = "full-img" src="https://images.telegram.hr/jFg9Lu0oIeuH9knGtJReBoJsGEkcB5y1DY5zpfHwakM/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvcm9iZXJ0by1uaWNrc29uLWFzdm91aHg4NG84LXVuc3BsYXNoLmpwZw.webp" alt="" />
+            <img class = "full-img" src="https://images.telegram.hr/jFg9Lu0oIeuH9knGtJReBoJsGEkcB5y1DY5zpfHwakM/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvcm9iZXJ0by1uaWNrc29uLWFzdm91aHg4NG84LXVuc3BsYXNoLmpwZw.webp" aria-hidden="true" />
             <a class="full flex relative stretch article upzindex" href = "https://www.telegram.hr/super1/life/sacuvajte-kozu-od-sunca-i-krenite-s-pripremom-vec-danas-ovih-cemo-se-savjeta-i-vitamina-definitivno-drzati/" target = "_blank">
                 <h2 class="full">Sačuvajte kožu od sunca i krenite s pripremom već danas. Ovih ćemo se savjeta i vitamina definitivno držati</h2>
                 <!-- <div class="full article-cta"><img src="<?php //echo $native_path ?>img/longarrow.png" alt="Dugačka strelica prema desno">Pročitaj više</div> -->
@@ -103,7 +104,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>        
         <!-- Dnevnik -->
         <div class="full center relative slide slide-article" id="dnevnik">
-            <img class = "full-img" src="https://www.telegram.hr/wp-content/uploads/2023/06/super1-ljekarnesvaljek-solgar-14.jpg" alt="" />
+            <img class = "full-img" src="https://www.telegram.hr/wp-content/uploads/2023/06/super1-ljekarnesvaljek-solgar-14.jpg" aria-hidden="true" />
             <a class="full flex relative stretch article upzindex" target = "_blank" href = "https://www.telegram.hr/super1/bez-obzira-na-zastitni-faktor-redovito-izgorim-na-suncu-otisla-sam-kod-strucnjaka-po-savjet-i-plan-za-ljeto/">
                 <h2 class="full">Bez obzira na zaštitni faktor, redovito izgorim na suncu. Otišla sam kod stručnjaka po savjet i plan za ljeto</h2>
                 <!-- <div class="full article-cta"><img src="<?php //echo $native_path ?>img/longarrow.png" alt="Dugačka strelica prema desno">Pročitaj više</div> -->
@@ -112,9 +113,20 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </a>
         </div>
-        <!-- Znakove-->
+        <!-- Znakove -->
         <div class="full center relative slide slide-article" id="znakove">
-            <img class = "full-img" src="https://images.telegram.hr/nClrCcm5amRiZ6T3xDZc_rKm_Uu4gIWich6lkSUmDoI/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvY29zbWljLXRpbWV0cmF2ZWxlci1xMzVudGdqcGNqdy11bnNwbGFzaC5qcGc.webp" alt="" />
+            <img class = "full-img" src="https://images.telegram.hr/4RPjxLHjGXc8V4_0XPosLIf59P8IqxKAPCAJuv0LV-M/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvYWRyeWFuLXJhLWxtZG93Z2djamI0LXVuc3BsYXNoLmpwZw.webp" aria-hidden="true" />
+            <a class="full flex relative stretch article upzindex" href = "https://www.telegram.hr/super1/beauty/fotostarenje-najcesce-je-uzrokovano-nekontroliranim-izlaganjem-suncu-evo-kako-ga-sprijeciti/" target = "_blank">
+                <h2 class="full">Fotostarenje najčešće je uzrokovano nekontroliranim izlaganjem suncu. Evo kako ga spriječiti</h2>
+                <!-- <div class="full article-cta"><img src="<?php //echo $native_path ?>img/longarrow.png" alt="Dugačka strelica prema desno">Pročitaj više</div> -->
+                <div class = "full flex relative article-cta">
+                    <div class = "animate flex relative aricle-cta button-59 center">Pročitaj Više</div>
+                </div>
+            </a>
+        </div> 
+        <!-- Hiperpigmentacija -->
+        <div class="full center relative slide slide-article" id="hiperpigmentacija">
+            <img class = "full-img" src="https://images.telegram.hr/nClrCcm5amRiZ6T3xDZc_rKm_Uu4gIWich6lkSUmDoI/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvY29zbWljLXRpbWV0cmF2ZWxlci1xMzVudGdqcGNqdy11bnNwbGFzaC5qcGc.webp" aria-hidden="true" />
             <a class="full flex relative stretch article upzindex" href = "https://www.telegram.hr/super1/life/sprijecite-hiperpigmentaciju-i-ljetna-ostecenja-koze-za-djelovanje-nikada-nije-kasno/" target = "_blank">
                 <h2 class="full">Spriječite hiperpigmentaciju i ljetna oštećenja kože. Za djelovanje nikada nije kasno</h2>
                 <!-- <div class="full article-cta"><img src="<?php //echo $native_path ?>img/longarrow.png" alt="Dugačka strelica prema desno">Pročitaj više</div> -->
@@ -125,7 +137,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>        
         <!-- Izbor -->
         <div class="full center relative slide slide-article-top " id="izbor">
-            <img class = "full-img" src="<?php echo $native_path ?>img/stock-photo-4.jpeg" alt="" />
+            <img class = "full-img" src="<?php echo $native_path ?>img/stock-photo-4.jpeg" aria-hidden="true" />
             <a href = "https://www.solgar.hr/?utm_source=microsite&utm_medium=landing_page&utm_campaign=solgar" target="_blank" class="full flex relative stretch article upzindex">
                 <h2 class="full">Tvoj izbor za zdravu kožu</h2>
                 <!-- <div class="full article-cta button-34"><img src="<?php //echo $native_path ?>img/longarrow.png" alt="Dugačka strelica prema desno">Pročitaj više</div> -->
