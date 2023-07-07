@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hr">
 <?php
-$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/sesta-zelena-licnost/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/sesta-zelena-licnost';
 ?>
 
 <head>
@@ -111,18 +111,29 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/auti.jpeg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpeg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Energija</span>
-              <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><h4>Stručnjak o održivosti prometa: 'Budućnost ne leži samo u električnim vozilima. Postoje još dva važna rješenja'</h4></a>
-              <p>Zamislite si situaciju da direktor neke velike kompanije kod nas dođe na sastanak s biciklom. U najmanju ruku bi ga čudno gledali jer je iznimka, dok je u Kopenhagenu to sasvim normalna stvar. Ondje postoje mostovi na koje mogu isključivo bicikli...</p>
+              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><h4>Obiteljske kuće sa solarima: Samo jedna smanji ekološki otisak za 3300 kilograma CO2 godišnje</h4></a>
+              <p>Krov obiteljske kuće u Dugom Selu na 50 metara kvadratnih prekriven je s 24 solarna panela. To je dovoljno za solarnu elektranu snage 9,84 kWp koja ondje ima odličan solarni potencijal od 1150 kwh/m2. To znači da jedan kilovat instalirane...</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/autimala.jpeg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Energija</span>
+                    <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><h4>Stručnjak o održivosti prometa: 'Budućnost ne leži samo u električnim vozilima. Postoje još dva važna rješenja'</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
@@ -142,17 +153,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Zdravlje</span>
                     <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><h4>Ako nastavimo ovim tempom, do 2035. će s debljinom živjeti polovica Hrvata</h4></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="post-item">
-                  <div class="thumb">
-                    <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/rekord-hr.jpg" alt=""></a>
-                  </div>
-                  <div class="right-content">
-                    <span class="category">Energija</span>
-                    <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><h4>Hrvatska bi ove godine mogla postaviti novi rekord po broju instaliranih solarnih elektrana</h4></a>
                   </div>
                 </div>
               </div>
@@ -461,6 +461,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Priroda</span>
                     <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><h4>Ugrozili smo mediteransku vrstu koja u danu proizvede do 20 litara kisika. Ova inicijativa pokušava je spasiti</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/rekord-hr.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Energija</span>
+                    <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><h4>Hrvatska bi ove godine mogla postaviti novi rekord po broju instaliranih solarnih elektrana</h4></a>
                   </div>
                 </div>
               </div>

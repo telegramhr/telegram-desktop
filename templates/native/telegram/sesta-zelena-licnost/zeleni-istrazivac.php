@@ -104,12 +104,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/auti.jpeg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpeg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Energija</span>
-              <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><h4>Stručnjak o održivosti prometa: 'Budućnost ne leži samo u električnim vozilima. Postoje još dva važna rješenja'</h4></a>
-              <p>Zamislite si situaciju da direktor neke velike kompanije kod nas dođe na sastanak s biciklom. U najmanju ruku bi ga čudno gledali jer je iznimka, dok je u Kopenhagenu to sasvim normalna stvar. Ondje postoje mostovi na koje mogu isključivo bicikli...</p>
+              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><h4>Obiteljske kuće sa solarima: Samo jedna smanji ekološki otisak za 3300 kilograma CO2 godišnje</h4></a>
+              <p>Krov obiteljske kuće u Dugom Selu na 50 metara kvadratnih prekriven je s 24 solarna panela. To je dovoljno za solarnu elektranu snage 9,84 kWp koja ondje ima odličan solarni potencijal od 1150 kwh/m2. To znači da jedan kilovat instalirane...</p>
             </div>
           </div>
         </div>
@@ -131,6 +131,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
   <div id="clanci" class="blog" style="padding-top:40px !important">
     <div class="container">
       <div class="row">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+          <div class="blog-post" style="margin-bottom:30px;">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/solari.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Energija</span>
+              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><h4>Hrvatska bi ove godine mogla postaviti novi rekord po broju instaliranih solarnih elektrana. Uštede su neupitne</h4></a>
+              <p>Vodeća tvrtka u segmentu solarnih elektrana u Hrvatskoj, Energia Naturalis, u protekloj je godini ugovorila više od 1000 solarnih elektrana. Postavljene solarne elektrane smanjile su ekološki otisak za oko 2000 tona C02...</p>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
