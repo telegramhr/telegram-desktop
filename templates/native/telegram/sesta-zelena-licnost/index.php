@@ -137,11 +137,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
-                    <a href="hhttps://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/levisice-blok.jpeg" alt=""></a>
+                    <a href="https://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/levisice-blok.jpeg" alt=""></a>
                   </div>
                   <div class="right-content">
                     <span class="category">Moda</span>
-                    <a href="hhttps://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><h4>Levisice su se prije kupovale svake druge godine, a sad traperice kupujemo svakih par mjeseci. Evo zašto</h4></a>
+                    <a href="https://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><h4>Levisice su se prije kupovale svake druge godine, a sad traperice kupujemo svakih par mjeseci. Evo zašto</h4></a>
                   </div>
                 </div>
               </div>
