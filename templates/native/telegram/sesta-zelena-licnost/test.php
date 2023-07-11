@@ -243,11 +243,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
       // Preusmjeri na odgovarajuću stranicu na temelju rezultata
       if (maxSum === sumGroup1) {
-        window.location.href = "zeleni-istrazivac.php";
+        window.location.href = "https://www.telegram.hr/native/sesta-zelena-licnost/zeleni-istrazivac/;
       } else if (maxSum === sumGroup2) {
-        window.location.href = "zeleni-drustvenjak.php";
+        window.location.href = "https://www.telegram.hr/native/sesta-zelena-licnost/zeleni-drustvenjak/";
       } else {
-        window.location.href = "zeleni-strateg.php";
+        window.location.href = "https://www.telegram.hr/native/sesta-zelena-licnost/zeleni-strateg/";
       }
     }
   </script>
