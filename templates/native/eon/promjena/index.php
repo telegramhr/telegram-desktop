@@ -87,7 +87,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <a data-aos="fade-left" data-aos-delay="1000" href="https://www.telegram.hr/partneri/zagrijavanjem-od-1-1-c-stupnja-vec-smo-otpisali-neke-krajeve-zemlje-ima-nade-ako-ucinimo-sljedece/" target="_blank" class="cta-btn animate">Saznaj više</a>
                     <p data-aos="fade-left" data-aos-delay="1250"><b>Postani dio promjene!</b> Instaliraj solarnu elektranu u svom domu i osiguraj si bolju sadašnjost i budućnost. Solarna energija već dvije godine prednjači kao najisplativiji izvor energije koji ti garantira vidljive uštede od prvog dana i potpunu energetsku neovisnost.</p>
                     <p data-aos="fade-left" data-aos-delay="1500">U pričama koje slijede saznaj kako se pridružiti Hrvatima koji su svoje elektrane već stavili u pogon – provjeri koliko su investirali, koliko dugo su čekali, što su sve trebali napraviti, koliko su zadovoljni, kolike su im uštede te koliko brzo će im se početna investicija isplatiti.</p>
-                    <a data-aos="fade-left" data-aos-delay="1750" href="https://www.eon.hr/hr/kucanstva/solarni-kalk-2.html?utm_source=Telegram&utm_medium=banner&utm_campaign=Telegram_solarni_kalkulator&utm_id=Telegram" target="_blank" class="cta-btn animate">Izračunaj svoj solarni potencijal</a>
+                    <a data-aos="fade-left" data-aos-delay="1750" href="https://www.eon.hr/hr/kucanstva/solarni-kalkulator.html?utm_source=telegram&utm_medium=native&utm_campaign=Publicis_Eon_Solari_May_June_2023&utm_content=native_kalkulator3" target="_blank" class="cta-btn animate">Izračunaj svoj solarni potencijal</a>
                 </div>
                 <div class="full mobile-only flex relative pad-me">
                     <p>Čovječanstvo je postavilo rok trajanja na ledene kape svjetskih mora, permafrost sjevernih krajeva i tropske koraljne grebene. Točku bez povratka prijeći ćemo svakog trenutka.</p>
@@ -100,7 +100,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <a href="https://www.telegram.hr/partneri/zagrijavanjem-od-1-1-c-stupnja-vec-smo-otpisali-neke-krajeve-zemlje-ima-nade-ako-ucinimo-sljedece/" target="_blank" class="cta-btn animate">Saznaj više</a>
                     <p>Postani dio promjene! Instaliraj solarnu elektranu u svom domu i osiguraj si bolju sadašnjost i budućnost. Solarna energija već dvije godine prednjači kao najisplativiji izvor energije koji ti garantira vidljive uštede od prvog dana i potpunu energetsku neovisnost.</p>
                     <p>U pričama koje slijede saznaj kako se pridružiti Hrvatima koji su svoje elektrane već stavili u pogon – provjeri koliko su investirali, koliko dugo su čekali, što su sve trebali napraviti, koliko su zadovoljni, kolike su im uštede te koliko brzo će im se početna investicija isplatiti.</p>
-                    <a href="https://www.eon.hr/hr/kucanstva/solarni-kalk-2.html?utm_source=Telegram&utm_medium=banner&utm_campaign=Telegram_solarni_kalkulator&utm_id=Telegram" target="_blank" class="cta-btn animate">Izračunaj svoj solarni potencijal</a>
+                    <a href="https://www.eon.hr/hr/kucanstva/solarni-kalkulator.html?utm_source=telegram&utm_medium=native&utm_campaign=Publicis_Eon_Solari_May_June_2023&utm_content=native_kalkulator3" target="_blank" class="cta-btn animate">Izračunaj svoj solarni potencijal</a>
                 </div>
             </div>
         </section>
