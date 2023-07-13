@@ -40,7 +40,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <?php echo file_get_contents($native_path.'img/lightbulb-on-solid.svg'); ?>
                         <div class="full">Evo kako</div>
                     </a>
-                    <a href="https://www.eon.hr/hr/kucanstva/solarni-kalk-2.html?utm_source=Telegram&utm_medium=banner&utm_campaign=Telegram_solarni_kalkulator&utm_id=Telegram" target="_blank" class="center relative animate">
+                    <a href="https://www.eon.hr/hr/kucanstva/solarni-kalkulator.html?utm_source=telegram&utm_medium=native&utm_campaign=Publicis_Eon_Solari_May_June_2023&utm_content=native_kalkulator3" target="_blank" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/calculator-simple-solid.svg'); ?>
                         <div class="full">Evo izračuna</div>
                     </a>
@@ -164,6 +164,21 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full flex horizontal-pad">
                     <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="1000">Evo kako.</h2>
                 </div>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="1000" href="https://www.telegram.hr/biznis-tech/solari-su-sve-isplativiji-donose-energetsku-neovisnost-manje-racune-i-pozitivno-utjecu-na-okolis/" target="_blank">
+                    <img class="shoo-bottom" src="https://www.telegram.hr/wp-content/uploads/2023/06/sasa8117xw.jpg">
+                    <div class="full flex">
+                        <h2 class="full">Solari su sve isplativiji: Donose energetsku neovisnost, manje račune i pozitivno utječu na okoliš</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="1250" href="https://www.telegram.hr/biznis-tech/u-prva-cetiri-mjeseca-vise-od-2-000-novih-solarnih-elektrana-ovim-tempom-udvostrucit-cemo-ukupni-broj-do-kraja-godine/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/e1drL4s_TzL9n_gaKA55rWl6OWXGVBubxMbozgJQrh4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvZW9uLXNvbGFybmktcGFuZWxpLXNpYmVuaWsucG5n.webp">
+                    <div class="full flex">
+                        <h2 class="full">Od početka godine postavljeno je više od 2000 novih solarnih elektrana. Ovim tempom, udvostručit će se ukupni broj do kraja 2023.</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+
                 <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="1500" href="https://www.telegram.hr/promo/nikad-veci-porast-broja-instaliranih-solarnih-elektrana-ali-gradani-jos-uvijek-imaju-pitanja-i-brige-odgovorili-smo-na-njih/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/p4MeKjBxFdE76g5F7JCG7QzEFToFqB02c2zBRV23JrY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvaW1hZ2UtMS5wbmc.webp">
                     <div class="full flex">
