@@ -60,7 +60,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <?php echo file_get_contents($native_path.'img/lightbulb-on-solid.svg'); ?>
                 <div class="full center-text">Kako</div>
             </a>
-            <a href="https://www.eon.hr/hr/kucanstva/solarni-kalk-2.html?utm_source=Telegram&utm_medium=banner&utm_campaign=Telegram_solarni_kalkulator&utm_id=Telegram" target="_blank" class="fourth center relative">
+            <a href="https://www.eon.hr/hr/kucanstva/solarni-kalkulator.html?utm_source=telegram&utm_medium=native&utm_campaign=Publicis_Eon_Solari_May_June_2023&utm_content=native_kalkulator3" target="_blank" class="fourth center relative">
                 <?php echo file_get_contents($native_path.'img/calculator-simple-solid.svg'); ?>
                 <div class="full center-text">Izračun</div>
             </a>
