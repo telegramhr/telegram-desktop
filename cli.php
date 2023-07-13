@@ -184,18 +184,23 @@ class Telegram_Command extends WP_CLI_Command {
 	}
 
 	public function test() {
-		switch_to_blog(2);
-		$rewrites = get_option('rewrite_rules');
+		$q = 'Drugi najveći ruski grad uskoro će se naći u poluokruženju, a strateški opskrbni pravac u dosegu NATO-a';
+        $args = apply_filters( 'zoninator_search_args', array(
+            's' => $q,
+            'post_status' => array( 'publish', 'future' ),
+            'order' => 'DESC',
+            'orderby' => 'post_date',
+            'suppress_filters' => true,
+            'no_found_rows' => true,
+            'ignore_sticky_posts' => true,
+            'year' => 2023,
+        ) );
 
-		$post = get_post(179252);
-		$url = get_permalink($post);
-		$rule = array_search('index.php?post_type=' . $post->post_type, $rewrites);
-		var_dump($rule);
-	/*	$post_type_object = get_post_type_object($post->post_type);
-		\WP_CLI::line($url . ' ' . $post->post_type);
-		var_dump($post_type_object);
-*/
-		restore_current_blog();
+        $query = new WP_Query( $args );
+        while($query->have_posts()) {
+            	$query->the_post();
+            	echo $query->post->ID."\n";
+        }
 	}
 }
 

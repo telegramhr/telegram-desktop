@@ -212,7 +212,7 @@ function telegram_pings($event) {
 	return $event;
 }
 
-add_filter('wp_update_attachment_metadata', 'telegram_attachment', 10, 2);
+//add_filter('wp_update_attachment_metadata', 'telegram_attachment', 10, 2);
 
 function telegram_attachment($data, $post_id) {
 	if ( isset($data['image_meta']['caption']) && $data['image_meta']['caption'] ) {
@@ -233,7 +233,7 @@ function telegram_postmeta_form_limit($limit) {
 	return 1;
 }
 
-add_action('save_post', 'telegram_save_post', 99, 1);
+//add_action('save_post', 'telegram_save_post', 99, 1);
 
 function telegram_save_post($post_id) {
 	// bail early if no ACF data
@@ -408,7 +408,7 @@ function telegram_enable_extended_upload ( $mime_types =array() ) {
 	return $mime_types;
 }
 
-add_filter('upload_mimes', 'telegram_enable_extended_upload');
+//add_filter('upload_mimes', 'telegram_enable_extended_upload');
 
 /**
  * Fix a race condition in alloptions caching
@@ -425,9 +425,9 @@ function _wpcom_vip_maybe_clear_alloptions_cache( $option ) {
 	}
 }
 
-add_action( 'added_option',   '_wpcom_vip_maybe_clear_alloptions_cache' );
-add_action( 'updated_option', '_wpcom_vip_maybe_clear_alloptions_cache' );
-add_action( 'deleted_option', '_wpcom_vip_maybe_clear_alloptions_cache' );
+//add_action( 'added_option',   '_wpcom_vip_maybe_clear_alloptions_cache' );
+//add_action( 'updated_option', '_wpcom_vip_maybe_clear_alloptions_cache' );
+//add_action( 'deleted_option', '_wpcom_vip_maybe_clear_alloptions_cache' );
 
 add_filter( 'get_coauthors', 'telegram_coauthors', 10, 2 );
 
