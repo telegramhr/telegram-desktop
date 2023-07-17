@@ -27,7 +27,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="text-logo full">Tvoj ljetni faktor</div>
             </a>
             <a class="full" href="#priprema">Priprema za ljeto</a>
-            <!-- <a class="full" href="#savjeti">Savjeti Stručnjaka</a> -->
+            <a class="full" href="#savjeti">Savjet stručnjaka</a>
             <a class="full" href="#kviz">Otkrij svoj fototip</a>
             <a class="full" href="#vitamini">Ključni vitamini</a>
             <a class="full" href="#dnevnik">Dnevnik novinarke</a>
@@ -67,19 +67,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </a>
         </div>
         <!-- Savjeti -->
-        <!-- <div class="full center relative slide slide-article" id="savjeti">
-            <video autoplay muted playsinline loop class="video-bg">
-                <source src="<?php echo $native_path ?>img/tg_videobg_wellness.mp4" type="video/webm">
-                <source src="<?php echo $native_path ?>img/tg_videobg_wellness.webm" type="video/mp4">
-            </video>
-            <img class = "full-img" src="<?php echo $native_path ?>img/stock-photo-1.png" aria-hidden="true" />
-            <a class="full flex relative stretch article upzindex">
-                <h2 class="full">Dermatologinja nam je odgovorila na sva vaša pitanja. Ovo su najčešće greške koje činimo ljeti</h2>
+        <div class="full center relative slide slide-article" id="savjeti">
+            <img class = "full-img" src="<?php echo $native_path ?>img/stock-photo-5.jpg" aria-hidden="true" />
+            <a href="https://www.telegram.hr/super1/life/dermatologica-nam-je-savjetovala-na-sto-pripaziti-ovog-ljeta-i-kada-izbjegavati-izlazak-na-sunce/" target="_blank" class="full flex relative stretch article upzindex">
+                <h2 class="full">Dermatologica nam je savjetovala na što pripaziti ovog ljeta i kada izbjegavati izlazak na sunce</h2>
                 <div class = "full flex relative article-cta">
                     <div class = "animate flex relative aricle-cta button-59 center">Pročitaj Više</div>
                 </div>
             </a>
-        </div> -->
+        </div>
         <!-- Kviz -->
         <div class="full center relative slide slide-article special-slide" id="kviz">
             <img class = "full-img" src="<?php echo $native_path ?>img/slogar-tekst.jpeg" aria-hidden="true" />
