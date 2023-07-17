@@ -110,7 +110,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
       <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
         <div class="blog-post">
           <div class="thumb">
-            <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpg" alt=""></a>
+            <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpeg" alt=""></a>
           </div>
           <div class="down-content">
             <span class="category">Energija</span>
@@ -125,7 +125,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="col-lg-12">
               <div class="post-item last-post-item">
                 <div class="thumb">
-                  <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/autimala.jpg" alt=""></a>
+                  <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/autimala.jpeg" alt=""></a>
                 </div>
                 <div class="right-content">
                   <span class="category">Energija</span>

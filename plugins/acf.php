@@ -2717,6 +2717,7 @@ add_action( 'acf/include_fields', function() {
                         ),
                         'post_type' => array(
                             0 => 'partneri',
+                            1 => 'post',
                         ),
                         'post_status' => array(
                             0 => 'publish',

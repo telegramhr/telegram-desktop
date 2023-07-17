@@ -212,7 +212,7 @@ function telegram_pings($event) {
 	return $event;
 }
 
-//add_filter('wp_update_attachment_metadata', 'telegram_attachment', 10, 2);
+add_filter('wp_update_attachment_metadata', 'telegram_attachment', 10, 2);
 
 function telegram_attachment($data, $post_id) {
 	if ( isset($data['image_meta']['caption']) && $data['image_meta']['caption'] ) {
