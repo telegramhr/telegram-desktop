@@ -55,7 +55,7 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="<?php echo site_url() ?>>" class="logo">
+            <a href="index.php" class="logo">
               <img src="<?php echo $native_path ?>/assets/images/logo-v1.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->

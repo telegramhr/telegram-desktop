@@ -115,11 +115,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="hhttps://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092.webp" alt=""></a>
+              <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092.webp" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Hrvatski Telekom</span>
-              <a href="hhttps://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><h4>Bliži se Dan ekološkog duga, ali Hrvatska je svoj odavno prešišala. Evo kako osigurati da nam...</h4></a>
+              <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><h4>Bliži se Dan ekološkog duga, ali Hrvatska je svoj odavno prešišala. Evo kako osigurati da nam...</h4></a>
               <p>Dan ekološkog duga – globalno poznatiji kao Earth Overshoot Day obilježava datum kada potražnja čovječanstva za ekološkim resursima i uslugama premašuje ono što Zemlja može regenerirati u toj godini...</p>
             </div>
           </div>

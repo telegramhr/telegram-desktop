@@ -110,12 +110,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/promjene.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Energija</span>
-              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><h4>Obiteljske kuće sa solarima: Samo jedna smanji ekološki otisak za 3300 kilograma CO2 godišnje</h4></a>
-              <p>Krov obiteljske kuće u Dugom Selu na 50 metara kvadratnih prekriven je s 24 solarna panela. To je dovoljno za solarnu elektranu snage 9,84 kWp koja ondje ima odličan solarni potencijal od 1150 kwh/m2. To znači da jedan kilovat instalirane...</p>
+              <span class="category">Janaf</span>
+              <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><h4>Izgleda da ima nade: 10 pozitivnih stvari za naš planet koje su se dogodile u prvoj polovici godine</h4></a>
+              <p>Unazad desetak godina, klimatske promjene bile su nešto što se rijetko spominjalo. Danas pak gotovo svaki čovjek, društvo i razne tvrtke o održivosti razmišljaju svakodnevno. Sve izraženije posljedice, kontinuirano crpljenje Zemljinih resursa i ubrzano zagrijavanje planeta...</p>
             </div>
           </div>
         </div>
@@ -125,11 +125,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
-                    <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/autimala.jpg" alt=""></a>
+                    <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092_small.webp" alt=""></a>
                   </div>
                   <div class="right-content">
-                    <span class="category">Energija</span>
-                    <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><h4>Stručnjak o održivosti prometa: 'Budućnost ne leži samo u električnim vozilima. Postoje još dva važna rješenja'</h4></a>
+                    <span class="category">Hrvatski Telekom</span>
+                    <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><h4>Bliži se Dan ekološkog duga, ali Hrvatska je svoj odavno prešišala. Evo kako osigurati da nam...</h4></a>
                   </div>
                 </div>
               </div>
@@ -510,6 +510,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Moda</span>
                     <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><h4>Genijalna incijativa Godišnje skupimo 11 kilograma nepotrebne odjeće...</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/autimala.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Energija</span>
+                    <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><h4>Stručnjak o održivosti prometa: 'Budućnost ne leži samo u električnim vozilima. Postoje još dva važna rješenja'</h4></a>
                   </div>
                 </div>
               </div>
