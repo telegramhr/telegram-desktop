@@ -58,7 +58,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#infografike">Infografike</a></li>
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#kviz">Kviz</a></li>
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#clanci">Članci</a></li>
-              <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#about"></a></li>
             </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
@@ -104,7 +103,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpeg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Energija</span>
@@ -116,12 +115,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/solari.jpg" alt=""></a>
+              <a href="hhttps://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Energija</span>
-              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><h4>Hrvatska bi ove godine mogla postaviti novi rekord po broju instaliranih solarnih elektrana. Uštede su neupitne</h4></a>
-              <p>Vodeća tvrtka u segmentu solarnih elektrana u Hrvatskoj, Energia Naturalis, u protekloj je godini ugovorila više od 1000 solarnih elektrana. Postavljene solarne elektrane smanjile su ekološki otisak za oko 2000 tona C02...</p>
+              <span class="category">Hrvatski Telekom</span>
+              <a href="hhttps://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><h4>Bliži se Dan ekološkog duga, ali Hrvatska je svoj odavno prešišala. Evo kako osigurati da nam...</h4></a>
+              <p>Dan ekološkog duga – globalno poznatiji kao Earth Overshoot Day obilježava datum kada potražnja čovječanstva za ekološkim resursima i uslugama premašuje ono što Zemlja može regenerirati u toj godini...</p>
             </div>
           </div>
         </div>
@@ -131,6 +130,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
   <div id="clanci" class="blog" style="padding-top:40px !important">
     <div class="container">
       <div class="row">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+          <div class="blog-post" style="margin-bottom:30px;">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/solari.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Energija</span>
+              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><h4>Hrvatska bi ove godine mogla postaviti novi rekord po broju instaliranih solarnih elektrana. Uštede su neupitne</h4></a>
+              <p>Vodeća tvrtka u segmentu solarnih elektrana u Hrvatskoj, Energia Naturalis, u protekloj je godini ugovorila više od 1000 solarnih elektrana. Postavljene solarne elektrane smanjile su ekološki otisak za oko 2000 tona C02...</p>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">

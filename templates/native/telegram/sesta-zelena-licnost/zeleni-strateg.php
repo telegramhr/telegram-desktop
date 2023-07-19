@@ -60,7 +60,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#infografike">Infografike</a></li>
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#kviz">Kviz</a></li>
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#clanci">Članci</a></li>
-              <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#about"></a></li>
             </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>

@@ -65,7 +65,6 @@
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#infografike">Infografike</a></li>
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#kviz">Kviz</a></li>
               <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#clanci">Članci</a></li>
-              <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#about"></a></li>
             </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
@@ -111,12 +110,12 @@
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/debljina-problem.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/promjene.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Zdravlje</span>
-              <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><h4>Ako nastavimo ovim tempom, do 2035. će s debljinom živjeti polovica Hrvata. Vrijeme je za promjene</h4></a>
-              <p>Ne baš tako davne 2016. godine bili smo osmi, a sada smo po pretilosti prvi u Europskoj uniji. Nošenje ove titule košta nas 1.7 milijuna eura godišnje, što je nešto manje od tri posto ukupnog bruto domaćeg proizvoda, kako je ranije ove godine na zasjedanju Izvršnog Odbora...</p>
+              <span class="category">Janaf</span>
+              <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><h4>Izgleda da ima nade: 10 pozitivnih stvari za naš planet koje su se dogodile u prvoj polovici godine</h4></a>
+              <p>Unazad desetak godina, klimatske promjene bile su nešto što se rijetko spominjalo. Danas pak gotovo svaki čovjek, društvo i razne tvrtke o održivosti razmišljaju svakodnevno. Sve izraženije posljedice, kontinuirano crpljenje Zemljinih resursa i ubrzano zagrijavanje planeta...</p>
             </div>
           </div>
         </div>
@@ -138,7 +137,19 @@
   <div id="clanci" class="blog" style="padding-top:40px !important">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+        <div class="col-lg-4 show-up prednost wow  fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><h4>U dva dana iz Jadrana kod Mljeta izvađeno više od tone otpada. Plastika je bila tek druga na listi po količini</h4></a>
+              <p>Na Mljetu je tijekom dva dana izvađena jedna tona i 100 kilograma otpada. Više od 25 ronilaca, zaposlenici Nacionalnog parka...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 show-up wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
               <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/inicijativa-gen.jpeg" alt=""></a>
@@ -150,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="col-lg-4 show-up wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="blog-post">
             <div class="thumb">
               <a href="https://www.telegram.hr/biznis-tech/omiljene-hrvatske-tiktokerice-jedan-mali-uredaj-moze-vam-stvoriti-veliki-problem-ali-mozete-ga-rijesiti/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/omiljene-hrvatske-tiktokerice.jpg" alt=""></a>
@@ -162,8 +173,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-          <div class="blog-post">
+        <div class="col-lg-4 show-up wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.7s">
+          <div class="blog-post" style="margin-top:40px;">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/jadransko-more-suocava-se-s-ekoloskom-krizom-imamo-fotografije-koje-to-dokazuju/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
             </div>
