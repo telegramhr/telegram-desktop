@@ -110,18 +110,29 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/promjene.webp" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/juice-yx-bmnafcje-unsplash.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Janaf</span>
-              <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><h4>Izgleda da ima nade: 10 pozitivnih stvari za naš planet koje su se dogodile u prvoj polovici godine</h4></a>
-              <p>Unazad desetak godina, klimatske promjene bile su nešto što se rijetko spominjalo. Danas pak gotovo svaki čovjek, društvo i razne tvrtke o održivosti razmišljaju svakodnevno. Sve izraženije posljedice, kontinuirano crpljenje Zemljinih resursa i ubrzano zagrijavanje planeta...</p>
+              <span class="category">Hrvatska pošta</span>
+              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
+              <p>Prodaja električnih automobila – uključujući električna vozila na baterije i plug-in hibridna električna vozila premašila je brojku od 10 milijuna prošle godine, što je za oko 55 posto više u odnosu na 2021., kazuju podaci izvještaja Međunarodne agencije za energiju.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/promjene_small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Janaf</span>
+                    <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><h4>Izgleda da ima nade: 10 pozitivnih stvari za naš planet koje su se dogodile u prvoj polovici godine</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
@@ -141,17 +152,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Moda</span>
                     <a href="hhttps://www.telegram.hr/zivot/levisice-su-se-prije-kupovale-svake-druge-godine-a-sad-traperice-kupujemo-svakih-par-mjeseci-evo-zasto/" target="_blank"><h4>Levisice su se prije kupovale svake druge godine, a sad traperice kupujemo svakih par mjeseci. Evo zašto</h4></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="post-item">
-                  <div class="thumb">
-                    <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/ako-nastavimo.jpg" alt=""></a>
-                  </div>
-                  <div class="right-content">
-                    <span class="category">Zdravlje</span>
-                    <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><h4>Ako nastavimo ovim tempom, do 2035. će s debljinom živjeti polovica Hrvata</h4></a>
                   </div>
                 </div>
               </div>
@@ -471,6 +471,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Energija</span>
                     <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><h4>Hrvatska bi ove godine mogla postaviti novi rekord po broju instaliranih solarnih elektrana</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/ako-nastavimo.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Zdravlje</span>
+                    <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><h4>Ako nastavimo ovim tempom, do 2035. će s debljinom živjeti polovica Hrvata</h4></a>
                   </div>
                 </div>
               </div>

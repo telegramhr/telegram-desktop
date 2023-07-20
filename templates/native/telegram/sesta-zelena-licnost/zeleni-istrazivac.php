@@ -103,12 +103,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/juice-yx-bmnafcje-unsplash.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Energija</span>
-              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><h4>Obiteljske kuće sa solarima: Samo jedna smanji ekološki otisak za 3300 kilograma CO2 godišnje</h4></a>
-              <p>Krov obiteljske kuće u Dugom Selu na 50 metara kvadratnih prekriven je s 24 solarna panela. To je dovoljno za solarnu elektranu snage 9,84 kWp koja ondje ima odličan solarni potencijal od 1150 kwh/m2. To znači da jedan kilovat instalirane...</p>
+              <span class="category">Hrvatska pošta</span>
+              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
+              <p>Prodaja električnih automobila – uključujući električna vozila na baterije i plug-in hibridna električna vozila premašila je brojku od 10 milijuna prošle godine, što je za oko 55 posto više u odnosu na 2021., kazuju podaci izvještaja Međunarodne agencije za energiju.</p>
             </div>
           </div>
         </div>
@@ -133,16 +133,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/solari.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/wide6-29.jpg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Energija</span>
-              <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><h4>Hrvatska bi ove godine mogla postaviti novi rekord po broju instaliranih solarnih elektrana. Uštede su neupitne</h4></a>
-              <p>Vodeća tvrtka u segmentu solarnih elektrana u Hrvatskoj, Energia Naturalis, u protekloj je godini ugovorila više od 1000 solarnih elektrana. Postavljene solarne elektrane smanjile su ekološki otisak za oko 2000 tona C02...</p>
+              <a href="https://www.telegram.hr/zivot/obiteljske-kuce-sa-solarima-samo-jedna-smanji-ekoloski-otisak-za-3300-kilograma-co2-godisnje/" target="_blank"><h4>Obiteljske kuće sa solarima: Samo jedna smanji ekološki otisak za 3300 kilograma CO2 godišnje</h4></a>
+              <p>Krov obiteljske kuće u Dugom Selu na 50 metara kvadratnih prekriven je s 24 solarna panela. To je dovoljno za solarnu elektranu snage 9,84 kWp koja ondje ima odličan solarni potencijal od 1150 kwh/m2. To znači da jedan kilovat instalirane...</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/hrvatska-bi-ove-godine-mogla-postaviti-novi-rekord-po-broju-instaliranih-solarnih-elektrana-ustede-su-neupitne/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/solari.jpg" alt=""></a>
@@ -154,7 +155,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/ugrozili-smo-mediteransku-vrstu-koja-u-danu-proizvede-do-20-litara-kisika-ova-inicijativa-pokusava-je-spasiti/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/ugrozili-smo.jpg" alt=""></a>
@@ -178,7 +179,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/jadransko-more-suocava-se-s-ekoloskom-krizom-imamo-fotografije-koje-to-dokazuju/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
@@ -190,7 +191,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
               <a href="https://www.telegram.hr/super1/power/pricu-oko-otpada-i-ekologije-ucinila-je-razumljivom-svima-vise-od-11-tisuca-ljudi-su-zbog-nje-bolji-gradani/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/zbog-nje.jpg" alt=""></a>
