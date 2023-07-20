@@ -275,12 +275,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                    <img src="https://images.telegram.hr/Ug2PDDTUnlVxMjkK2FQ6RKO0rXyyKQb3zMailJnjHjY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDcvcHhsLTE0MDgyMi05NTEyNzIyOS5qcGc.webp" aria-hidden="true">
+                    <h3 class="full">Najviše prometnih nesreća u Hrvatskoj dogodi se tijekom ljeta. Pratite ove savjete za sigurniji put na more</h3>
+                    <p> Sigurnosni pojas spriječi 50 posto ozbiljnijih ozljeda i smrti prilikom prometnih nesreća</p>
+                    <a href="https://www.telegram.hr/zivot/najvise-prometnih-nesreca-u-hrvatskoj-dogodi-se-tijekom-ljeta-pratite-ove-savjete-za-sigurniji-put-na-more/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="50">
                     <img src="https://images.telegram.hr/1fofpmJGk172e13qVHaVNvMtzQsuSDEX2VUR2NxyouE/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvYW50ZS1oYW1lcnNtaXQtcXNkMWhjcjR4c20tdW5zcGxhc2guanBn.webp" aria-hidden="true">
                     <h3 class="full">Dan dupina, Osorske večeri i Festival balkona pravi su povod za posjetiti cresko-lošinjski arhipelag</h3>
                     <p> Ove sezone uživajte u posebnim manifestacijama popularnih jadranskih otoka</p>
                     <a href="https://www.telegram.hr/super1/life/dan-dupina-osorske-veceri-i-festival-balkona-pravi-su-povod-za-posjetiti-cresko-losinjski-arhipelag/" target="_blank" class="insite-btn">Pročitaj više</a>
                 </div>
-                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="50">
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="75">
                     <img src="https://images.telegram.hr/TMtuHmvjGCaP1t7tt09-mrh3A4Qx3nDbCDy0H-5gMvo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvZHZvcmFjLXN0YXJhLXN1c2ljYS1yYXZuYS1nb3JhLWxqZXRvLW1hcmlvLWp1cmluYS0yLmpwZw.webp" aria-hidden="true">
                     <h3 class="full">Kaubojski gradić, ostaci pračovjeka i dvorci kao iz svijeta Harryja Pottera na samo sat i pol vožnje od Zagreba</h3>
                     <p>Ondje vas čekaju i panoramsko letenje, tirkizno jezero i najdublja špilja u Hrvatskoj </p>
