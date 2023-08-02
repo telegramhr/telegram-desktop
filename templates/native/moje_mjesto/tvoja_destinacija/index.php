@@ -99,7 +99,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <p class="full project-intro" data-aos="fade-left" data-aos-delay="750">U dokumentarnom serijalu "Moje mjesto, tvoja destinacija" vodimo vas na ulice prekrasnih hrvatskih gradova uz lokalne vodiče - pojedince koji su odlučili ostati u svojim mjestima i graditi njihovu kulturu.</p>
             <div class="full sugovornici flex stretch">
             <div class="fourth flex-responsive flex" data-aos="fade-right" data-aos-delay="200">
-                <img src="<?php echo $native_path ?>img/sugovornik_zednka.jpg" aria-hidden="true">
+                <img src="<?php echo $native_path ?>img/sugovornik_zdenka.jpg" aria-hidden="true">
                 <div class="full sugovornik-episode">01</div>
                 <h3 class="full">Zdenka iz Buzeta</h3>
                 <p>Zdenka je rad na recepciji zamijenila lovom na tartufe i oslikavanjem freski. Odvela je i nas u pustolovinu</p>
