@@ -106,7 +106,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/juice-yx-bmnafcje-unsplash.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Hrvatska pošta</span>
+              <span class="category">Energija</span>
               <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
               <p>Prodaja električnih automobila – uključujući električna vozila na baterije i plug-in hibridna električna vozila premašila je brojku od 10 milijuna prošle godine, što je za oko 55 posto više u odnosu na 2021., kazuju podaci izvještaja Međunarodne agencije za energiju.</p>
             </div>
@@ -118,7 +118,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Hrvatski Telekom</span>
+              <span class="category">Priroda</span>
               <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><h4>Bliži se Dan ekološkog duga, ali Hrvatska je svoj odavno prešišala. Evo kako osigurati da nam...</h4></a>
               <p>Dan ekološkog duga – globalno poznatiji kao Earth Overshoot Day obilježava datum kada potražnja čovječanstva za ekološkim resursima i uslugama premašuje ono što Zemlja može regenerirati u toj godini...</p>
             </div>

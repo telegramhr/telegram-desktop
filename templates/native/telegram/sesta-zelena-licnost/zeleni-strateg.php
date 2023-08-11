@@ -102,6 +102,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
   <div id="blog" class="blog" style="padding-top:50px">
     <div class="container">
       <div class="row">
+        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar.webp" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Ljudi</span>
+              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
+              <p>Prodaja električnih automobila – uključujući električna vozila na baterije i plug-in hibridna električna vozila premašila je brojku od 10 milijuna prošle godine, što je za oko 55 posto više u odnosu na 2021., kazuju podaci izvještaja Međunarodne agencije za energiju.</p>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
@@ -114,24 +126,24 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-          <div class="blog-post">
-            <div class="thumb">
-              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/inicijativa-gen.jpeg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Moda</span>
-              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><h4>Genijalna incijativa Godišnje skupimo 11 kilograma nepotrebne odjeće. Svoju smo natrpale u 5 velikih vreća</h4></a>
-              <p>Obratite pozornost na sadržaj svojeg ormara – primjećujete li odjeću koju gotovo pa ni ne prepoznajete, stisnutu u neki ćošak? Ako je vaš odgovor da, pripadate među većinu ljudi koja 80 posto vremena nosi samo 20 posto od sve odjeće koju inače posjeduje....</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
   <div id="clanci" class="blog" style="padding-top:40px !important">
     <div class="container">
       <div class="row">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+          <div class="blog-post" style="margin-bottom: 30px;">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/inicijativa-gen.jpeg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Moda</span>
+              <a href="https://www.telegram.hr/super1/life/godisnje-skupimo-11-kilograma-nepotrebne-odjece-svoju-smo-natrpale-u-5-velikih-vreca-i-pridruzile-se-genijalnoj-inicijativi/" target="_blank"><h4>Genijalna incijativa Godišnje skupimo 11 kilograma nepotrebne odjeće. Svoju smo natrpale u 5 velikih vreća</h4></a>
+              <p>Obratite pozornost na sadržaj svojeg ormara – primjećujete li odjeću koju gotovo pa ni ne prepoznajete, stisnutu u neki ćošak? Ako je vaš odgovor da, pripadate među većinu ljudi koja...</p>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post" style="margin-bottom: 30px;">
             <div class="thumb">

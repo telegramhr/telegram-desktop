@@ -113,7 +113,7 @@
               <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/promjene.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Janaf</span>
+              <span class="category">Priroda</span>
               <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><h4>Izgleda da ima nade: 10 pozitivnih stvari za naš planet koje su se dogodile u prvoj polovici godine</h4></a>
               <p>Unazad desetak godina, klimatske promjene bile su nešto što se rijetko spominjalo. Danas pak gotovo svaki čovjek, društvo i razne tvrtke o održivosti razmišljaju svakodnevno. Sve izraženije posljedice, kontinuirano crpljenje Zemljinih resursa i ubrzano zagrijavanje planeta...</p>
             </div>
