@@ -34,7 +34,8 @@
     padding: 0px;
     border-radius: 0px;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
-    max-width: 80%;
+    max-width: 570px;
+    margin: 30px;
     max-height: 90%;
     overflow: auto;
     position: relative;
@@ -70,29 +71,6 @@
     overlay.style.display = 'none';
   }
 </script>
-
-
-<?php
-$clickCountFile = 'click_counts.json';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (isset($_POST['button_id'])) {
-        $buttonId = $_POST['button_id'];
-        $clickData = json_decode(file_get_contents($clickCountFile), true);
-
-        if (!isset($clickData[$buttonId])) {
-            $clickData[$buttonId] = 1;
-        } else {
-            $clickData[$buttonId]++;
-        }
-
-        file_put_contents($clickCountFile, json_encode($clickData));
-
-        echo $clickData[$buttonId]; // Respond with the updated click count for the button
-    }
-}
-?>
-
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -175,7 +153,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="col-lg-5">
           <div class="section-heading wow fadeInLeft" >
             <h4>Ponuda <span style="font-weight: 400 !important;">popusta</span></h4>
-            <p>Super1 i partneri pripremili su ti kolekciju odličnih pogodnosti kako bi povratak na radna mjesta i klupe bio slađi. <span style="font-weight: 700">Većina popusta traje do kraja rujna.</span>. Sakupi ih sve.</p>
+            <p>Super1 i partneri pripremili su ti kolekciju odličnih pogodnosti kako bi povratak na radna mjesta i klupe bio slađi. <span style="font-weight: 700">Većina popusta traje do kraja rujna.</span> Sakupi ih sve.</p>
           </div>
         </div>
       </div>
@@ -401,10 +379,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content1" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/skolskaknjiga.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/skolskaknjiga.png"/>
   <div style="padding:30px;">
     <h3>10 % na izdanja Školske Knjige i Lumena</h3>
-    <p>Popust se odnosi na sva izdanja Školske Knjige I Lumena osim udžbenika, radnih bilježnica i već sniženog.</p>
+    <p>Popust se odnosi na sva izdanja Školske Knjige i Lumena osim udžbenika, radnih bilježnica i već sniženog.</p>
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">Promo kod</p>
     <h1 style="font-weight:900; color:#da2127">SKOLSKAKNJIGA10</h1>
     <div class="buttonupopupu"><a href="https://shop.skolskaknjiga.hr/knjizare-skolske-knjige" target="_blank" id="sk-web">POGLEDAJ POSLOVNICE</a></div>
@@ -414,33 +392,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content2" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/fabu.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/fabu.png"/>
   <div style="padding:30px;">
     <h3>20% popusta na gotovo sve</h3>
     <p>popust se ne odnosi na već snižene proizvode te brendove Davines, Jo Malone London i La Mer.</p>
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">Promo kod</p>
     <h1 style="font-weight:900; color:#da2127">fabulous20</h1>
     <div class="buttonupopupu"><a href="https://fabuspot.com/" target="_blank" id="fabu-web">POSJETITE STRANICU</a></div>
-     <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi do 27.8. do 3. 9.</p>
+     <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi od 27.8. do 3.9.</p>
   </div>
 </div>
 
 <!-- Hidden lightbox content -->
 <div id="popup-content3" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/bjelic.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/bjelic.png"/>
   <div style="padding:30px;">
     <h3>20% popusta</h3>
     <p>na e-cigarete</p>
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">Promo kod</p>
     <h1 style="font-weight:900; color:#da2127">SuperELF</h1>
     <div class="buttonupopupu"><a href="https://venkon.hr/e-cigarete" target="_blank" id="elf-web">POSJETITE STRANICU</a></div>
-    <p style="font-size: 16px; padding-top: 30px;">Namijenjeno isključivo osobama iznad 18 godina! Popust do 17.09.2023.</p>
+    <p style="font-size: 16px; padding-top: 30px;">Namijenjeno isključivo osobama iznad 18 godina! Popust do 17.09.</p>
   </div>
 </div>
 
 <!-- Hidden lightbox content -->
 <div id="popup-content4" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/amazinga.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/amazinga.png"/>
   <div style="padding:30px;">
     <h3>10% popusta</h3>
     <p>na Amazinga Pack rođendan</p>
@@ -454,20 +432,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content5" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/hervis.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/hervis.png"/>
   <div style="padding:30px;">
     <h3>10% popusta</h3>
     <p>na kupnju u internet trgovini</p>
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">Promo kod</p>
     <h1 style="font-weight:900; color:#da2127">POPUST-10</h1>
     <div class="buttonupopupu"><a href="https://www.hervis.hr/shop/" target="_blank" id="hervis-web">POSJETITE STRANICU</a></div>
-    <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi od 25.8. do 03.09.2023. Popust se ne odnosi na električne bicikle, sportske satove i biciklistička računala</p>
+    <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi od 25.8. do 03.09. Popust se ne odnosi na električne bicikle, sportske satove i biciklistička računala</p>
   </div>
 </div>
 
 <!-- Hidden lightbox content -->
 <div id="popup-content6" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/bodyshop.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/bodyshop.png"/>
   <div style="padding:30px;">
     <h3>20% popusta</h3>
     <p>na artikle na punoj cijeni</p>
@@ -480,7 +458,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content7" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/beautygarden.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/beautygarden.png"/>
   <div style="padding:30px;">
     <h3>15% popusta</h3>
     <p>na cijeli asortiman, osim na pakete koji već imaju popust i na već snižene proizvode </p>
@@ -493,7 +471,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content8" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/bonami.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/bonami.png"/>
   <div style="padding:30px;">
     <h3>15% popusta</h3>
     <p>na sve proizvode</p>
@@ -506,20 +484,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content9" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/bijelatehnika.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/bijelatehnika.png"/>
   <div style="padding:30px;">
     <h3>30% popusta</h3>
     <p>na asortiman Ecovacs</p>
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">Promo kod</p>
     <h1 style="font-weight:900; color:#da2127">ECOGRAM30</h1>
     <div class="buttonupopupu"><a href="https://bijela-tehnika.hr/ecovacs-345/479/" target="_blank" id="eco-web">POSJETITE STRANICU</a></div>
-    <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi od 25.8. do 03.09.2023.</p>
+    <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi od 25.8. do 03.09.</p>
   </div>
 </div>
 
 <!-- Hidden lightbox content -->
 <div id="popup-content10" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/rosalique.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/rosalique.png"/>
   <div style="padding:30px;">
     <h3>15% popusta</h3>
     <p>na Rosalique kremu </p>
@@ -532,7 +510,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content11" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/mimanamjestaj.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/mimanamjestaj.png"/>
   <div style="padding:30px;">
     <h3>30% popusta</h3>
     <p>na sve sjedeće garniture </p>
@@ -545,7 +523,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content12" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/nuggela.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/nuggela.png"/>
   <div style="padding:30px;">
     <h3>15% popusta</h3>
     <p>na cijeli asortiman</p>
@@ -559,12 +537,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Hidden lightbox content -->
 <div id="popup-content13" style="display: none;">
-  <img src="<?php echo $native_path ?>/assets/images/acermod.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/acermod.png"/>
   <div style="padding:30px;">
     <h3>Akcijska ponuda</h3>
     <p>na laptope</p>
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">PROVJERITE PONUDU KOD NAŠIH PARTNERA</p>
-    <p><a href="https://www.makromikrogrupa.hr/laptop-acer-aspire-5-amd-ryzen-3-5425u-16gb-512gb-ssd-dos-15-6-nx-k80ex-00h-b01" style="color:#000; font-weight: 700;" target="_blank">Makro Mikro Grupa</a></p>
+    <p><a href="https://www.makromikrogrupa.hr/laptop-acer-aspire-5-amd-ryzen-3-5425u-16gb-512gb-ssd-dos-15-6-nx-k80ex-00h-b01" style="color:#000; font-weight: 700;" target="_blank">Makromikro Grupa</a></p>
     <p><a href="https://www.links.hr/hr/laptop-acer-aspire-5-nx-k80ex-00g-win-ryzen-3-5425u-8gb-512gb-ssd-amd-radeon-graphics-15-6-fhd-led-windows-11-pro-sivi-navlaka-i-mis-010101841" style="color:#000; font-weight: 700;" target="_blank">Links</a></p>
     <p><a href="https://www.hgspot.hr/laptop-acer-aspire-5-ryzen-3-5425u-16gb-512gb-ssd-amd-radeon-15-6-fhd-win-11-nx-k80ex-00m" style="color:#000; font-weight: 700;" target="_blank">HG Spot</a></p>
 
@@ -580,68 +558,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
-
-<script>
-  function trackButtonClick(buttonId) {
-
-  }
-
-  document.getElementById('bodyshop').addEventListener('click', function() {
-    trackButtonClick('bodyshop');
-  });
-
-  document.getElementById('hervis').addEventListener('click', function() {
-    trackButtonClick('hervis');
-  });
-
-
-  document.getElementById('skolskaknjiga').addEventListener('click', function() {
-    trackButtonClick('skolskaknjiga');
-  });
-
-
-  document.getElementById('amazinga').addEventListener('click', function() {
-    trackButtonClick('amazinga');
-  });
-
-
-  document.getElementById('acer').addEventListener('click', function() {
-    trackButtonClick('acer');
-  });
-
-   document.getElementById('bjelic').addEventListener('click', function() {
-    trackButtonClick('bjelic');
-  });
-
-   document.getElementById('fabu').addEventListener('click', function() {
-    trackButtonClick('fabu');
-  });
-
-   document.getElementById('garden').addEventListener('click', function() {
-    trackButtonClick('garden');
-  });
-
-
-   document.getElementById('bonami').addEventListener('click', function() {
-    trackButtonClick('bonami');
-  });
-
-   document.getElementById('bijelatehnika').addEventListener('click', function() {
-    trackButtonClick('bijelatehnika');
-  });
-
-   document.getElementById('rosalique').addEventListener('click', function() {
-    trackButtonClick('rosalique');
-  });
-
-   document.getElementById('mima').addEventListener('click', function() {
-    trackButtonClick('mima');
-  });
-
-    document.getElementById('nuggela').addEventListener('click', function() {
-    trackButtonClick('nuggela');
-  });
-</script>
 <?php wp_footer(); ?>
 </body>
 </html>
