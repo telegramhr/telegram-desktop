@@ -184,8 +184,8 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1733848, 1733874, 1732851, 1768545])) {
-                    $rel = 'dofollow';
+                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006])) {
+                    $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
             } else
@@ -341,6 +341,45 @@ function capx_filter_guest_author_fields( $fields_to_return, $groups ) {
 			'group'    => 'name',
 		);
 	}
+    if (in_array( 'all', $groups ) || in_array( 'contact-info', $groups )) {
+        $fields_to_return[] = array(
+            'key'      => 'facebook',
+            'label'    => 'Facebook',
+            'group' => 'contact-info',
+            'input' => 'url',
+        );
+        $fields_to_return[] = array(
+            'key'      => 'instagram',
+            'label'    => 'Instagram',
+            'group' => 'contact-info',
+            'input' => 'url',
+        );
+
+        $fields_to_return[] = array(
+            'key'      => 'twitter',
+            'label'    => 'Twitter/X',
+            'group' => 'contact-info',
+            'input' => 'url',
+        );
+        $fields_to_return[] = array(
+            'key'      => 'mastodon',
+            'label'    => 'Mastodon',
+            'group' => 'contact-info',
+            'input' => 'url',
+        );
+        $fields_to_return[] = array(
+            'key'      => 'bluesky',
+            'label'    => 'BlueSky',
+            'group' => 'contact-info',
+            'input' => 'url',
+        );
+        $fields_to_return[] = array(
+            'key'      => 'linkedin',
+            'label'    => 'LinkedIn',
+            'group' => 'contact-info',
+            'input' => 'url',
+        );
+    }
 	return $fields_to_return;
 }
 
