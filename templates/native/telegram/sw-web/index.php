@@ -72,6 +72,7 @@
   }
 </script>
 
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -412,7 +413,7 @@
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">Promo kod</p>
     <h1 style="font-weight:900; color:#da2127">SuperELF</h1>
     <div class="buttonupopupu"><a href="https://venkon.hr/e-cigarete" target="_blank" id="elf-web">POSJETITE STRANICU</a></div>
-    <p style="font-size: 16px; padding-top: 30px;">Namijenjeno isključivo osobama iznad 18 godina! Popust do 17.09.</p>
+    <p style="font-size: 16px; padding-top: 30px;">Namijenjeno isključivo osobama iznad 18 godina! Popust vrijedi do 17.09.</p>
   </div>
 </div>
 
@@ -452,7 +453,7 @@
     <p style="font-size: 16px; text-transform: uppercase; padding-top: 30px;">Promo kod</p>
     <h1 style="font-weight:900; color:#da2127">SUPERTBS20</h1>
     <div class="buttonupopupu"><a href="https://www.thebodyshop.hr/" target="_blank" id="bs-web">POSJETITE STRANICU</a></div>
-    <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi od 25.8. do 15.9. u internet trgovini i na prodajnim mjestima Arena centar, Vice Vukova 6, 10000 Zagreb Bogovićeva 5, 10000 Zagreb</p>
+    <p style="font-size: 16px; padding-top: 30px;">Popust vrijedi od 25.8. do 15.9. u internet trgovini i na prodajnim mjestima: Arena centar, Vice Vukova 6, 10000 Zagreb, Bogovićeva 5, 10000 Zagreb</p>
   </div>
 </div>
 
@@ -558,6 +559,7 @@
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
