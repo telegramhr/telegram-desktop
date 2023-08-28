@@ -248,7 +248,7 @@
                   <p style="font-size:12px; color: #fff; padding-top: 10px;">Namijenjeno isključivo osobama iznad 18 godina</p>
               </div>
               <div class="col-lg-6 text-right" style="padding: 0">
-                  <img src="<?php echo $native_path ?>/assets/images/bjelicsl.png" alt="" style="height: auto;" >
+                  <img src="<?php echo $native_path ?>/assets/images/elf_bar_kupon_300x300.png" alt="" style="height: auto;" >
               </div>
             </div>
           </div>
@@ -406,7 +406,7 @@
 
 <!-- Hidden lightbox content -->
 <div id="popup-content3" style="display: none;">
-  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/bjelic.png"/>
+  <img style="max-width:570px; max-height: auto;" src="<?php echo $native_path ?>/assets/images/elf_bar_kupon_570x300.png"/>
   <div style="padding:30px;">
     <h3>20% popusta</h3>
     <p>na e-cigarete</p>
