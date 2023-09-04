@@ -110,18 +110,29 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar.webp" alt=""></a>
+              <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/offgridbox.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Ljudi</span>
-              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
-              <p>Prodaja električnih automobila – uključujući električna vozila na baterije i plug-in hibridna električna vozila premašila je brojku od 10 milijuna prošle godine, što je za oko 55 posto više u odnosu na 2021., kazuju podaci izvještaja Međunarodne agencije za energiju.</p>
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><h4>Od usisavača smoga do papira izrađenog od kamena. Pronašli smo osam genijalnih ekoloških inovacija</h4></a>
+              <p>Zaštita okoliša i održivost nikada nisu bili važniji. Iz dana u dan svjedoci smo posljedica klimatskih promjena pa osviještenost globalne populacije kontinuirano raste. Tomu svjedoče i rezultati istraživanja koji pokazuju da polovica globalnih potrošača svrstava održivost među pet najvećih pokretača vrijednosti.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar-small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Ljudi</span>
+                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
@@ -141,17 +152,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Priroda</span>
                     <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><h4>Izgleda da ima nade: 10 pozitivnih stvari za naš planet koje su se dogodile u prvoj polovici godine</h4></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="post-item last-post-item">
-                  <div class="thumb">
-                    <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092_small.webp" alt=""></a>
-                  </div>
-                  <div class="right-content">
-                    <span class="category">Priroda</span>
-                    <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><h4>Bliži se Dan ekološkog duga, ali Hrvatska je svoj odavno prešišala. Evo kako osigurati da nam...</h4></a>
                   </div>
                 </div>
               </div>
@@ -430,6 +430,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092_small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Priroda</span>
+                    <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><h4>Bliži se Dan ekološkog duga, ali Hrvatska je svoj odavno prešišala. Evo kako osigurati da nam...</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item">
                   <div class="thumb">

@@ -103,6 +103,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
+              <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/offgridbox.webp" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><h4>Od usisavača smoga do papira izrađenog od kamena. Pronašli smo osam genijalnih ekoloških inovacija</h4></a>
+              <p>Zaštita okoliša i održivost nikada nisu bili važniji. Iz dana u dan svjedoci smo posljedica klimatskih promjena pa osviještenost globalne populacije kontinuirano raste. Tomu svjedoče i rezultati istraživanja koji pokazuju da polovica globalnih potrošača svrstava održivost među pet najvećih pokretača vrijednosti.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="blog-post">
+            <div class="thumb">
               <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/juice-yx-bmnafcje-unsplash.webp" alt=""></a>
             </div>
             <div class="down-content">
@@ -112,8 +124,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-          <div class="blog-post">
+      </div>
+    </div>
+  </div>
+  <div id="clanci" class="blog" style="padding-top:40px !important">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
               <a href="https://www.telegram.hr/partneri/blizi-se-dan-ekoloskog-duga-ali-hrvatska-je-svoj-odavno-presisala-evo-kako-osigurati-da-nam-jedna-zemlja-bude-dovoljna/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2055681092.webp" alt=""></a>
             </div>
@@ -124,12 +142,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div id="clanci" class="blog" style="padding-top:40px !important">
-    <div class="container">
-      <div class="row">
         <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
           <div class="blog-post" style="margin-bottom:30px;">
             <div class="thumb">
