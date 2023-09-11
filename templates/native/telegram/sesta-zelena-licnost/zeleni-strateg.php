@@ -50,7 +50,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="<?php echo site_url() ?>" class="logo">
+            <a href="https://www.telegram.hr/native/sesta-zelena-licnost/" class="logo">
               <img src="<?php echo $native_path ?>/assets/images/logo-v1.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
@@ -105,12 +105,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar.webp" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar.webp" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Ljudi</span>
-              <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
-              <p>Prodaja električnih automobila – uključujući električna vozila na baterije i plug-in hibridna električna vozila premašila je brojku od 10 milijuna prošle godine, što je za oko 55 posto više u odnosu na 2021., kazuju podaci izvještaja Međunarodne agencije za energiju.</p>
+              <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><h4>Oko 2000 poštara svakog dana dostavi gotovo milijun pošiljaka. Ova rješenja uvelike im olakšavaju posao</h4></a>
+              <p>Iščekivanje naručenog paketa i trenutak u kojem nam on stigne pred vrata mnogima od nas predstavlja posebno zadovoljstvo. Samo u Hrvatskoj svakog dana oko dvije tisuće poštara dostavi gotovo milijun pošiljaka. Iz dana u dan obaraju nove rekorde u broju paketa, pa je tako tijekom prosinca prošle godine u samo jednom danu zaprimljeno 100.000 njih.</p>
             </div>
           </div>
         </div>

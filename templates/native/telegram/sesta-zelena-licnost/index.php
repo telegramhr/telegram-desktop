@@ -49,7 +49,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="<?php echo site_url() ?>" class="logo">
+            <a href="https://www.telegram.hr/native/sesta-zelena-licnost/" class="logo">
               <img src="<?php echo $native_path ?>/assets/images/logo-v1.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
@@ -125,11 +125,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
-                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar-small.webp" alt=""></a>
+                    <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar-small.webp" alt=""></a>
                   </div>
                   <div class="right-content">
                     <span class="category">Ljudi</span>
-                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
+                    <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><h4>Oko 2000 poštara svakog dana dostavi gotovo milijun pošiljaka. Ova rješenja uvelike im olakšavaju posao</h4></a>
                   </div>
                 </div>
               </div>
@@ -358,7 +358,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <h2 id="score"></h2>
                     <div id="message" class="message"></div>
                      <div class="border-first-button scroll-to-section">
-                        <a href="/index.php#kviz">ZAIGRAJ PONOVNO</a>
+                        <a href="https://www.telegram.hr/native/sesta-zelena-licnost/#kviz">ZAIGRAJ PONOVNO</a>
                       </div>
                   </div>
                 </div>

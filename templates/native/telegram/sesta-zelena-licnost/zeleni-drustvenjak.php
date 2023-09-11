@@ -55,7 +55,7 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.php" class="logo">
+            <a href="https://www.telegram.hr/native/sesta-zelena-licnost/" class="logo">
               <img src="<?php echo $native_path ?>/assets/images/logo-v1.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
@@ -137,18 +137,6 @@
   <div id="clanci" class="blog" style="padding-top:40px !important">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 show-up prednost wow  fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-          <div class="blog-post">
-            <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Priroda</span>
-              <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><h4>U dva dana iz Jadrana kod Mljeta izvađeno više od tone otpada. Plastika je bila tek druga na listi po količini</h4></a>
-              <p>Na Mljetu je tijekom dva dana izvađena jedna tona i 100 kilograma otpada. Više od 25 ronilaca, zaposlenici Nacionalnog parka...</p>
-            </div>
-          </div>
-        </div>
         <div class="col-lg-4 show-up wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
@@ -176,7 +164,7 @@
         <div class="col-lg-4 show-up wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.7s">
           <div class="blog-post" style="margin-top:40px;">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/jadransko-more-suocava-se-s-ekoloskom-krizom-imamo-fotografije-koje-to-dokazuju/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/jadransko-more-suocava-se-s-ekoloskom-krizom-imamo-fotografije-koje-to-dokazuju/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/more-jadransko.jpg" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Priroda</span>
