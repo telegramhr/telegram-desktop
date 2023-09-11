@@ -107,6 +107,18 @@
   <div id="blog" class="blog"style="padding-top:50px">
     <div class="container">
       <div class="row">
+        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-1664636416.webp" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Ljudi</span>
+              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>Unatoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
+              <p>Odgovorna potrošnja i proizvodnja, kako je navedeno u jednom od UN-ovih ciljeva održivog razvoja, zahtijeva minimiziranje utjecaja na okoliš, povećanje učinkovitosti resursa te smanjenje otpada. U njihovom ostvarenju značajnu ulogu imaju globalna trgovina i navike potrošača, a istraživanja pokazuju da smo na poprilično dobrom putu.</p>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
@@ -119,7 +131,13 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+      </div>
+    </div>
+  </div>
+  <div id="clanci" class="blog" style="padding-top:40px !important">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
@@ -131,12 +149,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div id="clanci" class="blog" style="padding-top:40px !important">
-    <div class="container">
-      <div class="row">
         <div class="col-lg-4 show-up wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
