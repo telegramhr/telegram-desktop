@@ -743,3 +743,29 @@ function fix_post_titles($data) {
     return $data;
 }
 add_filter('wp_insert_post_data', 'fix_post_titles', 99, 1);
+
+add_filter( 'msm_sitemap_skip_post', 'telegram_sitemap_skip' );
+
+function telegram_sitemap_skip($skip) {
+    if (get_post_meta(get_the_ID(), '_links_to', true)) {
+        return true;
+    }
+    return $skip;
+
+}
+
+add_filter( 'msm_sitemap_entry', 'telegram_sitemap_entry', 10, 1 );
+
+function telegram_sitemap_entry($url) {
+    $news = $url->addChild( 'xlmns:news:news' );
+    $publication = $news->addChild( 'xlmns:news:publication' );
+    $publication->addChild( 'xlmns:news:name', 'Telegram.hr' );
+    $publication->addChild( 'xlmns:news:language', 'hr' );
+    $news->addChild( 'xlmns:news:publication_date', get_the_date('Y-m-d\TH:i:sP') );
+    $news->addChild( 'xlmns:news:title', get_the_title() );
+    $news->addChild( 'xlmns:news:keywords', get_the_tags() ? implode(', ', wp_list_pluck(get_the_tags(), 'name')) : '' );
+
+    $image = $url->addChild('xmlns:image:image');
+    $image->addChild('xmlns:image:loc', get_the_post_thumbnail_url(get_the_ID(), 'full'));
+    return $url;
+}
