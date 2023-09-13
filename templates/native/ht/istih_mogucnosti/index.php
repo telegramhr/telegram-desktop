@@ -24,6 +24,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#magdalena">Magdalena</a>
         <a class="full" href="#durdica">Đurđica</a>
         <a class="full" href="#ivan">Ivan</a>
         <a class="full" href="#hesam">Hesam</a>
@@ -75,6 +76,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Magdalena -->
+        <a class="full flex relative slide slide-bottom-left" id="magdalena" href="https://www.telegram.hr/zivot/nevjerojatna-prica-magdalene-14-iz-varazdina-pobijedila-tumor-na-mozgu-ponovno-naucila-hodati-i-danas-rastura-u-plesu/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/09/wide9-1.jpg" alt="Magdalena se ničeg ne boji i puna je životnih mudrosti koje se rijetko čuju od djece njezine dobi " class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Nevjerojatna priča Magdalene (14) iz Varaždina. Pobijedila tumor na mozgu, ponovno naučila hodati i danas rastura u plesu</h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Đurđica -->
         <a class="full flex relative slide slide-bottom-left" id="durdica" href="https://www.telegram.hr/zivot/od-rodenja-sam-gluha-i-jedva-sam-zavrsila-skolu-pobijedila-sam-danas-sam-nastavnica-i-sviram-violinu/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2023/06/sakic1.jpg" alt="Ovo je priča o 45-godišnjoj Đurđici Šakić kojoj ni roditelji ni učitelji nisu vjerovali da ne čuje" class="bg-img">
