@@ -548,6 +548,24 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- PRIRODA -->
         <section class="container full flex relative column-full-pad" id="priroda">
             <h2 class="full bold capatalise">Priroda</h2>
+            <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/zivot/populacija-bjeloglavih-supova-ozbiljno-je-ugrozena-no-ovaj-bi-projekt-u-hrvatskoj-to-mogao-promijeniti/" target="_blank">
+                <div class="half center flex-responsive">
+                    <img class="full" src="https://images.telegram.hr/DVEnZ8o7iodl02G17wS_enp1gVk_u4vHsoO56A00ksE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDcvMzA2MjM0NzA0MTMtZGExZDQzMzk0Zi1vLmpwZw.webp" aria-hidden="true">
+                </div>
+                <div class="half center flex-responsive column-full-pad">
+                    <div class="full flex relative">
+                        <h4 class="full bold capatalise">Priroda</h4>
+                        <h3 class="full">Populacija bjeloglavih supova ozbiljno je ugrožena, no ovaj bi projekt u Hrvatskoj to mogao promijeniti </h3>
+                        <p class="full">Na domaćem terenu trenutno obitava 129 parova</p>
+                        <!-- <div class="full flex article-author">
+                            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png"><span class="bold">Piše</span><span>Mateja Ježovita</span>
+                        </div> -->
+                        <div class="full flex stretch">
+                            <div class="animate flex relative cta-btn-1 capatalise">Pročitaj više</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
             <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/zivot/svjetska-meteoroloska-organizacija-upozorava-pred-nama-je-pet-najtoplijih-ljeta-u-povijesti-i-moramo-se-pripremiti/" target="_blank">
                 <div class="half center flex-responsive">
                     <img class="full" src="https://images.telegram.hr/_2_8HPyaSdODIWaQYaGNZX1sLeFIsx4gApSUVq5NAXY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvc3VuY2FuYS1lbGVrdHJhbmEta29zb3JlLWp1Zy5qcGc.jpg" aria-hidden="true">
@@ -726,6 +744,24 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- DRUSTVO -->
         <section class="container full flex relative column-full-pad" id="drustvo">
             <h2 class="full bold capatalise">Društvo</h2>
+            <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/zivot/ivna-kompostira-ana-restaurira-a-kristina-biciklira-evo-sto-sve-mozes-uciniti-za-okolis-vec-danas/" target="_blank">
+                <div class="half center flex-responsive">
+                    <img class="full" src="https://images.telegram.hr/NIjt55NIdVUplHIGV6dsA9KyndRP27l0m3YJoF6Bedw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvcHhsLTE3MDgyMC0yOTgzOTYyNC5qcGc.webp" aria-hidden="true">
+                </div>
+                <div class="half center flex-responsive column-full-pad">
+                    <div class="full flex relative">
+                        <h4 class="full bold capatalise">Društvo</h4>
+                        <h3 class="full">Ivna kompostira, Ana restaurira, a Kristina biciklira. Evo što sve možeš učiniti za okoliš već danas </h3>
+                        <p class="full">Pitali smo kolege u redakciji kako žive zelenije, neki odgovori su nas ugodno iznenadili</p>
+                        <!-- <div class="full flex article-author">
+                            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png"><span class="bold">Piše</span><span>Mateja Ježovita</span>
+                        </div> -->
+                        <div class="full flex stretch">
+                            <div class="animate flex relative cta-btn-1 capatalise">Pročitaj više</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
             <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/biznis-tech/odlican-nacin-ustede-ovi-genijalci-s-fer-a-osmislili-su-uredaj-koji-prati-potrosnju-struje-u-svakoj-sekundi/" target="_blank">
                 <div class="half center flex-responsive">
                     <img class="full" src="https://www.telegram.hr/wp-content/uploads/2023/04/sasa5149xw.jpg" aria-hidden="true">
