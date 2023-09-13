@@ -664,6 +664,24 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Energetika -->
         <section class="container full flex relative column-full-pad" id="energetika">
             <h2 class="full bold capatalise">Energetika</h2>
+            <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/partneri/priprema-se-rekonstrukcija-hidroelektrane-u-slivu-rijeke-cetine-u-vrijednosti-od-75-milijuna-eura-evo-o-cemu-je-rijec/" target="_blank">
+                <div class="half center flex-responsive">
+                    <img class="full" src="https://images.telegram.hr/PAb_1qciQAlGLr20qfus2hbjg2nntDR8ZX2SpCKdR0A/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDcvaGUtb3Jsb3ZhYy5qcGc.webp" aria-hidden="true">
+                </div>
+                <div class="half center flex-responsive column-full-pad">
+                    <div class="full flex relative">
+                        <h4 class="full bold capatalise">Priroda</h4>
+                        <h3 class="full">Priprema se rekonstrukcija hidroelektrane u slivu rijeke Cetine u vrijednosti od 75 milijuna eura. Evo o čemu je riječ</h3>
+                        <p class="full">Hidroelektrana Orlovac dnevno proizvede dovoljno energije za cijeli Zaprešić ili Solin. I tako već 50 godina </p>
+                        <!-- <div class="full flex article-author">
+                            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png"><span class="bold">Piše</span><span>Mateja Ježovita</span>
+                        </div> -->
+                        <div class="full flex stretch">
+                            <div class="animate flex relative cta-btn-1 capatalise">Pročitaj više</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
             <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/partneri/izracunali-smo-godisnje-cijene-grijanja-s-razlicitim-energentima-strucnjaci-otkrivaju-sto-provjeriti-u-svome-domu/" target="_blank">
                 <div class="half center flex-responsive">
                     <img class="full" src="https://images.telegram.hr/WbljGc-cShr5zgggF4Q-0Dn9pK8T76UqyZ_Avry-vV4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTEvdGctbmFzbG92bmEtMjAyMi0xMS00LTEuanBn.jpg" aria-hidden="true">
