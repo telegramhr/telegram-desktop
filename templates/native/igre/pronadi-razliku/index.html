@@ -728,6 +728,7 @@
                 document.querySelector('.final-time').innerHTML = timer;
             }
             else {
+                document.querySelector('#round-'+round+' .counter').innerHTML = diff_count;
                 document.querySelector('#round-'+round).classList.remove('hide');
                 const differences = document.querySelectorAll('#round-'+round+' .difference-hidden');
                 differences.forEach(element => {
