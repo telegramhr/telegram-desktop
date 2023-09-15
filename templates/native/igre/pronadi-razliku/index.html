@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pronađi razlike | Openspace.hr</title>
+    <meta name="title" content="Pronađi razlike | Openspace.hr">
+    <meta property="og:title" content="Pronađi razlike | Openspace.hr" />
+    <meta name="description" content="Zaigraj Openspace igru i pronađi sve razlike između dva vizuala poslovnih okruženja!">
+    <link data-n-head="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&amp;display=swap">
+</head>
+
+<body>
+    <div class="full flex center main-container">
+        <div class="full contain-game flex center wrap">
+            <div class="full flex relative" id="intro">
+                <h2 class="full center-text">Pronađi razliku</h2>
+                <p class="full center-text column-bottom-pad">3 runde. 5 razlika u svakoj rundi. 1 brojač.</p>
+                <p class="full center-text">Pronađi i klikni razlike na donjoj od dvije slike.</p>
+                <p class="full center-text">Sve pronađene razlike ostaju označene do kraja runde.</p>
+                <p class="full center-text">Razlike se nikada ne preklapaju u svojem području.</p>
+                <p class="full center-text">Netočan klik kažnjava se sa +2 sekunde na brojaču vremena.</p>
+                <p class="full center-text bold column-top-pad">Hoćeš li ti imati najbrži rezultat?</p>
+                <div class="full center">
+                    <div class="btn-go">Kreni</div>
+                </div>
+            </div>
+            <div class="full flex relative round hide" id="round-1">
+                <h2 class="full center-text">Runda #1 - kreativni studio</h2>
+                <div id="office-chill-1" class="full game-illustration no-guess-here relative">
+                    <img src="tg_minigame_chilloffice1.jpg">
+                </div>
+                <div class="full flex mid-divider"><div class="third"><span class="timer">0</span>s</div><div class="third center-text">👇</div><div class="third right-text"><span class="counter">0</span>/<span class="total">5</span></div></div>
+                <div id="office-chill-2" class="full game-illustration guess-here relative">
+                    <img src="tg_minigame_chilloffice2.jpg">
+                    <div class="difference difference-hidden dif-oc1"></div>
+                    <div class="difference difference-hidden dif-oc2"></div>
+                    <div class="difference difference-hidden dif-oc3"></div>
+                    <div class="difference difference-hidden dif-oc4"></div>
+                    <div class="difference difference-hidden dif-oc5"></div>
+                </div>
+            </div>
+            <div class="full flex relative round hide" id="round-2">
+                <h2 class="full center-text">Runda #2 - ured vikendom</h2>
+                <div id="empty-office-1" class="full game-illustration no-guess-here relative">
+                    <img src="tg_minigame_emptyoffice1.jpg">
+                </div>
+                <div class="full flex mid-divider"><div class="third"><span class="timer">0</span>s</div><div class="third center-text">👇</div><div class="third right-text"><span class="counter">0</span>/<span class="total">5</span></div></div>
+                <div id="empty-office-2" class="full game-illustration guess-here relative">
+                    <img src="tg_minigame_emptyoffice2.jpg">
+                    <div class="difference difference-hidden dif-eo1"></div>
+                    <div class="difference difference-hidden dif-eo2"></div>
+                    <div class="difference difference-hidden dif-eo3"></div>
+                    <div class="difference difference-hidden dif-eo4"></div>
+                    <div class="difference difference-hidden dif-eo5"></div>
+                </div>
+            </div>
+            <div class="full flex relative round hide" id="round-3">
+                <h2 class="full center-text">Runda #3 - rad od doma</h2>
+                <div id="home-office-1" class="full game-illustration no-guess-here relative">
+                    <img src="tg_minigame_homeoffice1.jpg">
+                </div>
+                <div class="full flex mid-divider"><div class="third"><span class="timer">0</span>s</div><div class="third center-text">👇</div><div class="third right-text"><span class="counter">0</span>/<span class="total">5</span></div></div>
+                <div id="home-office-2" class="full game-illustration guess-here relative">
+                    <img src="tg_minigame_homeoffice2.jpg">
+                    <div class="difference difference-hidden dif-ho1"></div>
+                    <div class="difference difference-hidden dif-ho2"></div>
+                    <div class="difference difference-hidden dif-ho3"></div>
+                    <div class="difference difference-hidden dif-ho4"></div>
+                    <div class="difference difference-hidden dif-ho5"></div>
+                </div>
+            </div>
+            <div class="full flex relative hide" id="outro">
+                <h2 class="full center-text">Kraj igre</h2>
+                <p class="full center-text">Tvoj finalni rezultat je: <span class="bold final-time"></span>s</p>
+                <p class="full center-text">Hvala na igranju!</p>
+                <div class="full center">
+                    <div class="btn-restart">Povratak</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        /* CSS Reset */
+
+        html {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        body,
+        div,
+        span,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        q,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        dialog,
+        figure,
+        footer,
+        header,
+        hgroup,
+        nav,
+        section {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-weight: inherit;
+            font-style: inherit;
+            font-size: 100%;
+            font-family: inherit;
+            vertical-align: baseline;
+            list-style: none;
+        }
+
+        .main-container {
+            width: 100%;
+            overflow-x: hidden;
+            position: relative;
+            border: 5px solid black;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+
+        :focus {
+            outline: none;
+        }
+
+        /* Typography */
+
+        html {
+            font-size: 20px;
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+        }
+
+        b,
+        strong,
+        .bold {
+            font-weight: 700;
+        }
+
+        .superbold {
+            font-weight: 900;
+        }
+
+        i,
+        em,
+        .italic {
+            font-style: italic;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .left-text {
+            text-align: left;
+        }
+
+        .right-text {
+            text-align: right;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .white-text {
+            color: white;
+        }
+
+        .strikethrough {
+            text-decoration: line-through;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+        }
+
+        h2 {
+            font-size: 2.4rem;
+        }
+
+        h3 {
+            font-size: 1.32rem;
+        }
+
+        h4 {
+            font-size: 1.0rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            h1 {
+                font-size: 2.1rem;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            h4 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Layout */
+
+        .container {
+            width: 100%;
+            max-width: 1248px;
+            margin: 0 auto;
+        }
+
+        .text-container {
+            max-width: 680px;
+        }
+
+        .flex {
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            align-content: flex-start;
+        }
+
+        .hide {
+            display: none !important;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .mobile-only {
+            display: none;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .align-end {
+            align-self: flex-end;
+        }
+
+        .justify-end {
+            justify-content: flex-end;
+        }
+
+        .reset-flex-order>* {
+            order: initial !important;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .stretch-content {
+            align-content: stretch;
+        }
+
+        .no-wrap {
+            flex-wrap: nowrap;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .half {
+            width: 49.99%;
+        }
+
+        .fourth {
+            width: 24.99%;
+        }
+
+        .fifth {
+            width: 19.99%;
+        }
+
+        .eighty {
+            width: 79.99%;
+        }
+
+        .third {
+            width: 33.33%;
+        }
+
+        .two-thirds {
+            width: 66.66%;
+        }
+
+        .full {
+            width: 100%;
+        }
+
+        .five-sixths {
+            width: 83.33%;
+        }
+
+        .sixth {
+            width: 16.66%;
+        }
+
+        .three-fourths {
+            width: 74.99%;
+        }
+
+        .forty {
+            width: 39.99%;
+        }
+
+        .sixty {
+            width: 59.99%;
+        }
+
+        .thirty {
+            width: 29.99%;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .mobile-only {
+                display: inherit;
+            }
+
+            .desktop-only {
+                display: none;
+            }
+
+            .flex-responsive {
+                width: 100%;
+            }
+        }
+
+        /* Whitespace and borders */
+
+        .column-full-pad {
+            padding: 1.2rem;
+        }
+
+        .column-horizontal-pad {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        .column-right-pad {
+            padding-right: 1.2rem;
+        }
+
+        .column-left-pad {
+            padding-left: 1.5rem;
+        }
+
+        .column-vertical-pad {
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+        }
+
+        .column-top-pad {
+            padding-top: 1.2rem;
+        }
+
+        .column-bottom-pad {
+            padding-bottom: 1.8rem;
+        }
+
+        .column-no-pad {
+            padding: 0px;
+        }
+
+        .column-bottom-border {
+            border-bottom: 1px solid #c8c8c8;
+        }
+
+        .column-top-border {
+            border-top: 1px solid #c8c8c8;
+        }
+
+        .column-right-border {
+            border-right: 1px solid #c8c8c8;
+        }
+
+        .column-left-border {
+            border-left: 1px solid #c8c8c8;
+        }
+
+        .column-top-margin {
+            margin-top: 2.2rem;
+        }
+
+        .column-bottom-margin {
+            margin-bottom: 2.2rem;
+        }
+
+        /* Media */
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .yt-embed {
+            width: 100%;
+            max-width: 710px;
+            height: 400px;
+        }
+
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 100vh;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .yt-embed {
+                height: 51.5vw;
+            }
+        }
+
+        /* Functions */
+
+        .clickable {
+            cursor: pointer;
+        }
+
+        .animate,
+        svg {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            -webkit-transform: translateZ(0);
+            -moz-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            -o-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .faded-50,
+        .faded {
+            opacity: 0.5
+        }
+
+        .faded-70 {
+            opacity: 0.7;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <style>
+        html {
+            font-family: 'Barlow', sans-serif;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -.01em;
+            margin-bottom: 16px;
+        }
+        p {
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+        .main-container {
+            height: 100vh;
+        }
+        .mid-divider {
+            padding-bottom: 16px;
+            padding-top: 14px;
+        }
+        .contain-game {
+            width: 100%;
+            max-width: 70vh;
+        }
+        .difference {
+            border: 2px dashed transparent;
+            position: absolute;
+            z-index: 5;
+            transition: 0.5s all;
+        }
+        .difference-shown {
+            border-color: #ae3737;
+        }
+        .dif-oc1 {
+            width: 10%;
+            height: 19%;
+            top: 38%;
+            left: 30%;
+        }
+        .dif-oc2 {
+            width: 12%;
+            height: 15%;
+            top: 39%;
+            left: 11%;
+        }
+        .dif-oc3 {
+            width: 8%;
+            height: 14%;
+            top: 62%;
+            left: 17%;
+        }
+        .dif-oc4 {
+            width: 7%;
+            height: 10%;
+            top: 67%;
+            left: 42%;
+        }
+        .dif-oc5 {
+            width: 5%;
+            height: 8%;
+            top: 58%;
+            left: 54%;
+        }
+        .dif-eo1 {
+            width: 4%;
+            height: 13%;
+            top: 40%;
+            left: 28%;
+        }
+        .dif-eo2 {
+            width: 5%;
+            height: 8%;
+            top: 53%;
+            left: 46%;
+        }
+        .dif-eo3 {
+            width: 10%;
+            height: 13%;
+            top: 50%;
+            left: 57%;
+        }
+        .dif-eo4 {
+            width: 10%;
+            height: 13%;
+            top: 56%;
+            left: 13%;
+        }
+        .dif-eo5 {
+            width: 4%;
+            height: 10%;
+            top: 26%;
+            left: 48%;
+        }
+        .dif-ho1 {
+            width: 8%;
+            height: 16%;
+            top: 19%;
+            left: 57%;
+        }
+        .dif-ho2 {
+            width: 5%;
+            height: 11%;
+            top: 76%;
+            left: 71%;
+        }
+        .dif-ho3 {
+            width: 4%;
+            height: 8%;
+            top: 42%;
+            left: 36%;
+        }
+        .dif-ho4 {
+            width: 5%;
+            height: 8%;
+            top: 81%;
+            left: 25%;
+        }
+        .dif-ho5 {
+            width: 10%;
+            height: 26%;
+            top: 6%;
+            left: 4%;
+        }
+        .btn-go, .btn-restart {
+            padding: 8px 24px;
+            text-transform: uppercase;
+            background-color: #7077b7;
+            color: white;
+            font-weight: 700;
+            margin-top: 16px;
+        }
+    </style>
+    <script>
+        let diff_count = 0;
+        let timer = 0;
+        setInterval(fps, 1000);
+        let rounds_num = 0;
+        const rounds = document.querySelectorAll('.round');
+        rounds.forEach(element => {
+            rounds_num++;
+        });
+        function update_counter() {
+            diff_count++;
+            document.querySelector('#round-'+round+' .counter').innerHTML = diff_count;
+            if (diff_count > 4) {
+                setTimeout(() => {
+                    next_round();
+                }, 1000);
+            }
+        }
+        function diff_clicked(event) {
+            this.classList.remove('difference-hidden');
+            this.classList.add('difference-shown');
+            update_counter();
+            this.removeEventListener('click', diff_clicked);
+            event.stopPropagation();
+        }
+        function fps() {
+            timer++;
+            document.querySelector('.timer').innerHTML = timer;
+            const timers = document.querySelectorAll('.timer');
+            timers.forEach(element => {
+                element.innerHTML = timer;
+            });
+        }
+        function start_game () {
+            timer = 0;
+            document.querySelector('.timer').innerHTML = timer;
+            diff_count = 0;
+            round = 0;
+            next_round();
+        }
+        function reset_game () {
+            timer = 0;
+            diff_count = 0;
+            round = 0;
+            document.querySelector('#outro').classList.add('hide');
+            document.querySelector('#intro').classList.remove('hide');
+        }
+        function missclick() {
+            timer++;
+            timer++;
+        }
+        function next_round() {
+            diff_count = 0;
+            if (round > 0) {
+                document.querySelector('#round-'+round).classList.add('hide');
+            }
+            else {
+                document.querySelector('#intro').classList.add('hide');
+            }
+            round++;
+            if (round > rounds_num) {
+                document.querySelector('#outro').classList.remove('hide');
+                document.querySelector('.final-time').innerHTML = timer;
+            }
+            else {
+                document.querySelector('#round-'+round).classList.remove('hide');
+                const differences = document.querySelectorAll('#round-'+round+' .difference-hidden');
+                differences.forEach(element => {
+                    element.addEventListener('click', diff_clicked);
+                });
+                document.querySelector('#round-'+round+' .guess-here').addEventListener('click', missclick);
+            }
+        }
+        document.querySelector('.btn-go').addEventListener('click', start_game);
+        document.querySelector('.btn-restart').addEventListener('click', reset_game);
+    </script>
+</body>
+
+</html>
