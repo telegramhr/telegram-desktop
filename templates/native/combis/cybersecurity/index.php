@@ -152,6 +152,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </section>
+        <section class="full flex relative shoo-top">
+            <div class="container center relative">
+                <iframe class="yt-embed" width="710" height="400" src="https://www.youtube-nocookie.com/embed/TbhGA_DfhSw?si=8O5dkishuM43YUMq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
         <div class="full flex" id="napadi"></div>
         <section class="full flex relative special-section gray-bg">
             <a class="container flex center-text relative horizontal-pad">
