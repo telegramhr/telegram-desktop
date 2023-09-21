@@ -548,6 +548,24 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- PRIRODA -->
         <section class="container full flex relative column-full-pad" id="priroda">
             <h2 class="full bold capatalise">Priroda</h2>
+            <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/zivot/ispraznili-su-ga-nakon-22-godine-i-nasli-ostatke-starog-naselja-sada-se-popularno-jezero-lokvarka-ponovno-pocelo-puniti/" target="_blank">
+                <div class="half center flex-responsive">
+                    <img class="full" src="https://images.telegram.hr/Sus5YnmTNerz8KcTegB8Sy41VWeqohkuj53FBwlcxak/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvbG9rdmFyc2tvLWplemVyby0zLmpwZw.webp" aria-hidden="true">
+                </div>
+                <div class="half center flex-responsive column-full-pad">
+                    <div class="full flex relative">
+                        <h4 class="full bold capatalise">Priroda</h4>
+                        <h3 class="full">Ispraznili su ga nakon 22 godine i našli ostatke starog naselja. Sada se popularno jezero Lokvarka ponovno počelo puniti</h3>
+                        <p class="full"> Punjenje jezera bi, prema procjenama stručnjaka, trebalo trajati od jednog do šest mjeseci</p>
+                        <!-- <div class="full flex article-author">
+                            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/mateajezovita.png"><span class="bold">Piše</span><span>Mateja Ježovita</span>
+                        </div> -->
+                        <div class="full flex stretch">
+                            <div class="animate flex relative cta-btn-1 capatalise">Pročitaj više</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
             <a class="container flex relative article featured-article stretch column-bottom-margin" href="https://www.telegram.hr/zivot/populacija-bjeloglavih-supova-ozbiljno-je-ugrozena-no-ovaj-bi-projekt-u-hrvatskoj-to-mogao-promijeniti/" target="_blank">
                 <div class="half center flex-responsive">
                     <img class="full" src="https://images.telegram.hr/DVEnZ8o7iodl02G17wS_enp1gVk_u4vHsoO56A00ksE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDcvMzA2MjM0NzA0MTMtZGExZDQzMzk0Zi1vLmpwZw.webp" aria-hidden="true">
