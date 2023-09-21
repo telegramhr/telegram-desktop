@@ -101,6 +101,20 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </section>
         <section class="full flex relative shoo-top" id="strucnjaci">
+            <a href="https://www.telegram.hr/biznis-tech/strucnjakinja-o-karticnim-prijevarama-mogu-se-dogoditi-bilo-kome-a-najvise-se-treba-paziti-direktnih-oglasa/"
+                class="container flex article-embed" target="_blank">
+                <div class="two-thirds flex flex-responsive horizontal-pad">
+                    <img
+                        src="https://www.telegram.hr/wp-content/uploads/2023/09/sasa8017xw.jpg">
+                </div>
+                <div class="third flex flex-responsive horizontal-pad">
+                    <h2 class="full">Stručnjakinja o kartičnim prijevarama: 'Mogu se dogoditi bilo kome, a najviše se treba paziti direktnih oglasa'</h2>
+                    <p class="full shoo-bottom">Aleksandra Capan je protekle četiri godine voditeljica Službe kartične podrške i sigurnosti u Erste banci </p>
+                    <div class="cta">Pročitaj više</div>
+                </div>
+            </a>
+        </section>
+        <section class="full flex relative shoo-top">
             <a href="https://www.telegram.hr/zivot/bankari-su-nam-otkrili-najcesce-financijske-prevare-kod-nas-i-10-savjeta-kako-se-zastititi/"
                 class="container flex article-embed" target="_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad desktop-order-2">
