@@ -110,18 +110,29 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-1664636416.webp" alt=""></a>
+              <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2229856827.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Ljudi</span>
-              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>Unatoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
-              <p>Odgovorna potrošnja i proizvodnja, kako je navedeno u jednom od UN-ovih ciljeva održivog razvoja, zahtijeva minimiziranje utjecaja na okoliš, povećanje učinkovitosti resursa te smanjenje otpada. U njihovom ostvarenju značajnu ulogu imaju globalna trgovina i navike potrošača, a istraživanja pokazuju da smo na poprilično dobrom putu.</p>
+              <span class="category">Energija</span>
+              <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><h4>Ako mislite kupiti električni auto ili energetski obnoviti dom, razmislite o eko kreditima. Evo koje su prednosti</h4></a>
+              <p>Kupujete li energetski učinkovito vozilo ili pak razmišljate svoj dom nadograditi opremom za korištenje obnovljivih izvora energije, sve to od sada možete financirati uz pomoć sve popularnijih održivih kredita koji su još poznati i kao eko ili zeleni krediti.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-1664636416_small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Ljudi</span>
+                    <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>natoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
@@ -141,17 +152,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Ljudi</span>
                     <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><h4>Oko 2000 poštara svakog dana dostavi gotovo milijun pošiljaka. Ova rješenja uvelike im olakšavaju posao</h4></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="post-item last-post-item">
-                  <div class="thumb">
-                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/juice-yx-bmnafcje-unsplash_small.webp" alt=""></a>
-                  </div>
-                  <div class="right-content">
-                    <span class="category">Energija</span>
-                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
                   </div>
                 </div>
               </div>
@@ -430,6 +430,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/juice-yx-bmnafcje-unsplash_small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Energija</span>
+                    <a href="https://www.telegram.hr/zivot/prosle-godine-prodano-je-10-milijuna-elektricnih-vozila-istrazili-smo-tko-ima-najveci-vozni-park-u-hrvatskoj/" target="_blank"><h4>Prošle godine prodano je 10 milijuna električnih vozila. Istražili smo tko ima najveći vozni park u Hrvatskoj</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">

@@ -757,11 +757,13 @@ function telegram_sitemap_skip($skip) {
 add_filter( 'msm_sitemap_entry', 'telegram_sitemap_entry', 10, 1 );
 
 function telegram_sitemap_entry($url) {
+    global $post;
+    $date = date( 'Y-m-d', strtotime( $post->post_date ) );
     $news = $url->addChild( 'xlmns:news:news' );
     $publication = $news->addChild( 'xlmns:news:publication' );
     $publication->addChild( 'xlmns:news:name', 'Telegram.hr' );
     $publication->addChild( 'xlmns:news:language', 'hr' );
-    $news->addChild( 'xlmns:news:publication_date', get_the_date('Y-m-d\TH:i:sP') );
+    $news->addChild( 'xlmns:news:publication_date', $date );
     $news->addChild( 'xlmns:news:title', get_the_title() );
     $news->addChild( 'xlmns:news:keywords', get_the_tags() ? implode(', ', wp_list_pluck(get_the_tags(), 'name')) : '' );
 

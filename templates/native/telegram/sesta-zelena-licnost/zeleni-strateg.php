@@ -55,13 +55,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li><a href="index.php#top">Naslovnica</a></li>
-              <li><a href="index.php#infografike">Infografike</a></li>
-              <li><a href="index.php#kviz">Kviz</a></li>
-              <li><a href="index.php#clanci">Članci</a></li>
-              <li><a href="index.php#about"></a></li>
-            </ul>
+              <ul class="nav">
+                  <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#top">Naslovnica</a></li>
+                  <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#infografike">Infografike</a></li>
+                  <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#kviz">Kviz</a></li>
+                  <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#clanci">Članci</a></li>
+              </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
@@ -106,6 +105,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post">
             <div class="thumb">
+              <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2229856827.webp" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Energija</span>
+              <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><h4>Ako mislite kupiti električni auto ili energetski obnoviti dom, razmislite o eko kreditima. Evo koje su prednosti</h4></a>
+              <p>Kupujete li energetski učinkovito vozilo ili pak razmišljate svoj dom nadograditi opremom za korištenje obnovljivih izvora energije, sve to od sada možete financirati uz pomoć sve popularnijih održivih kredita koji su još poznati i kao eko ili zeleni krediti.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post">
+            <div class="thumb">
               <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar.webp" alt=""></a>
             </div>
             <div class="down-content">
@@ -115,7 +126,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+      </div>
+    </div>
+  </div>
+  <div id="clanci" class="blog" style="padding-top:40px !important">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="0s" data-wow-delay="0.0s">
           <div class="blog-post">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/strucnjak-o-odrzivosti-prometa-buducnost-ne-lezi-samo-u-elektricnim-vozilima-postoje-jos-dva-vazna-rjesenja/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/auti.jpeg" alt=""></a>
@@ -127,12 +144,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div id="clanci" class="blog" style="padding-top:40px !important">
-    <div class="container">
-      <div class="row">
         <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
           <div class="blog-post" style="margin-bottom: 30px;">
             <div class="thumb">
