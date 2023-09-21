@@ -409,7 +409,7 @@
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
 
-
+<SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/trackimpj/N1025728.3833264SUPER1.TELEGRAM./B30691137.376847379;dc_trk_aid=567362249;dc_trk_cid=199232764;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?" attributionsrc ></SCRIPT>
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>
 </body>
