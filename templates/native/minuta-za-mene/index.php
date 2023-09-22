@@ -22,6 +22,7 @@
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css">
@@ -119,11 +120,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2 text-center show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <p style="font-weight: 700; font-size: 22px;">Ukoliko si primjetila neku promjenu ili kvržicu, obrati se svom liječniku.</p>
-          <p style="font-weight: 700; font-size: 22px;">On će te pregledati i, ukoliko je potrebno, naručiti daljnje pretrage.</p>
-          <p style="font-weight: 700; font-size: 22px;">I ne zaboravi, barem jednom mjesečno, izdvojiti minutu za sebe.</p>
+          <p style="font-weight: 700; font-size: 20px; padding-bottom: 10px;">Ukoliko si primjetila neku promjenu ili kvržicu, obrati se svom liječniku.</p>
+          <p style="font-weight: 700; font-size: 20px; padding-bottom: 10px;">On će te pregledati i, ukoliko je potrebno, naručiti daljnje pretrage.</p>
+          <p style="font-weight: 700; font-size: 20px; padding-bottom: 10px;">I ne zaboravi, barem jednom mjesečno, izdvojiti minutu za sebe.</p>
           <p>&nbsp;</p>
-          <img src="<?php echo $native_path ?>/assets/images/logo.png" alt="" style="width:auto; height:120px;">
+          <img src="<?php echo $native_path ?>/assets/images/logo.png" alt="" style="width:auto; height:100px; margin-top: 20px;">
         </div>
 
       </div>
