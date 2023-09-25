@@ -159,18 +159,27 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <div class="full flex" id="napadi"></div>
         <section class="full flex relative special-section gray-bg">
-            <a class="container flex center-text relative horizontal-pad">
+            <a class="container flex center-text relative horizontal-pad" href="#citaj-vise">
                 <div class="full center send-icon-up"><?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?></div>
                 <h2 class="full center-text">Informiraj Se</h2>
                 <p class="full center-text">Žrtve online napada nisu samo kompanije i njihovi zaposlenici. Rizici za sve nalaze se na svakom koraku, a zaštititi se možemo samo informiranjem i kritičkim razmišljanjem. Od napada na naše bankovne račune, do napada na nas kao ličnosti, bili odrasli ili djeca, evo kako se pripaziti.</p>
                 <div class="full center relative"><div class="cta">Pročitaj više</div></div>
             </a>
         </section>
-        <section class="full flex relative">
+        <section class="full flex relative" id="citaj-vise">
             <div class="container flex relative">
+                <a href = "https://www.telegram.hr/biznis-tech/ne-nasjedajte-na-lazne-profile-na-drustvenim-mrezama-na-globalnoj-razini-su-uzrokovali-stetu-od-53-milijardi-dolara/"
+                target = "_blank"
+                class="third flex flex-responsive relative article-embed stretch pad-me">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/1-KCR8PMhZqyINfcv_BmB3z8MuoJoXzRR3-AJAciuWw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvZHJ1c3R2ZW5lLW1yZXplLmpwZw.webp">
+                    <div class="full flex">
+                        <h2 class="full">Ne nasjedajte na lažne profile na društvenim mrežama</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a href = "https://www.telegram.hr/partneri/getinvolved-sto-je-potrebno-da-biste-bili-sigurni "
                 target = "_blank"
-                class="fourth flex flex-responsive relative article-embed stretch pad-me">
+                class="third flex flex-responsive relative article-embed stretch pad-me">
                     <img class="shoo-bottom" src="https://images.telegram.hr/3e4t60XICO0HTDV8dZ4dz8TGkv9Mn9pV_w6u82KT4fI/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTEvNW03YTc4MzUtZWRpdC5qcGc.webp">
                     <div class="full flex">
                         <h2 class="full">#GetInvolved - što je potrebno da biste bili sigurni?</h2>
@@ -179,21 +188,21 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </a>
                 <a href = "https://www.telegram.hr/partneri/ovih-deset-savjeta-ucinit-ce-vam-online-soping-sigurnijim-provjerili-smo-koliko-ih-se-drzimo-u-redakciji/ "
                 target = "_blank"
-                class="fourth flex flex-responsive relative article-embed stretch pad-me">
+                class="third flex flex-responsive relative article-embed stretch pad-me">
                     <img class="shoo-bottom" src="https://images.telegram.hr/yoPliGrPxnFWVAShsjPlAq67Bjk5FJrAZNKINxrSB1c/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTEvcnVwaXhlbi1jb20tcTU5aG16azM4ZXEtdW5zcGxhc2guanBn.webp">
                     <div class="full flex">
                         <h2 class="full">Ovih deset savjeta učinit će vam online šoping sigurnijim. Evo koliko ih se držimo u redakciji</h2>
                         <div class="cta animate">Pročitaj više...</div>
                     </div>
                 </a>
-                <a class="fourth flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/cyberbullying-je-sve-cesci-i-ozbiljniji-problem-psihologinja-nam-objasnjava-kako-dolazi-do-njega-i-kako-se-nositi-s-njime/ " target="_blank">
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/cyberbullying-je-sve-cesci-i-ozbiljniji-problem-psihologinja-nam-objasnjava-kako-dolazi-do-njega-i-kako-se-nositi-s-njime/ " target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/didb8RlhRqjxU6CbW9VP_Roa-SmvDenTjGe2zCk4Lg4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTEvdGlqYW5hLTE5MDAuanBn.webp">
                     <div class="full flex">
                         <h2 class="full">Cyberbullying je sve češći i ozbiljniji problem. Psihologinja objašnjava kako dolazi do njega</h2>
                         <div class="cta animate">Pročitaj više...</div>
                     </div>
                 </a>
-                <a class="fourth flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-vise-mlade-djece-vrijeme-provodi-na-internetu-ove-slikovnice-uce-ih-oprezu/ " target="_blank">
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-vise-mlade-djece-vrijeme-provodi-na-internetu-ove-slikovnice-uce-ih-oprezu/ " target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/MPSAhH0Q1VQqy_pGXoLHzshR7I6jnwZfEFCX1CUtx0o/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTEvaW1hZ2UwMDAxNy5qcGVn.webp">
                     <div class="full flex">
                         <h2 class="full">Sve više mlađe djece vrijeme provodi na internetu. Ove slikovnice uče ih oprezu</h2>
