@@ -178,11 +178,11 @@ nav.desktop-only img {
     font-family: 'Teko', sans-serif;
 }
 
-.fourth.article-embed {
+.third.article-embed {
     padding: 24px;
 }
 
-.fourth.article-embed h2 {
+.third.article-embed h2 {
     font-size: 40px;
     margin-top: 0px;
     text-decoration: underline;
@@ -190,11 +190,11 @@ nav.desktop-only img {
     text-shadow: 0px -1px 5px white;
 }
 
-.fourth.article-embed:hover h2 {
+.third.article-embed:hover h2 {
     text-decoration-color: rgb(153, 30, 102);
 }
 
-.fourth.article-embed>div.full {
+.third.article-embed>div.full {
     padding-left: 24px;
     margin-top: -32px;
 }

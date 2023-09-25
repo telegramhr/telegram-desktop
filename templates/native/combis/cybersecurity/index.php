@@ -18,7 +18,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Mono&family=Teko:wght@500&display=swap" rel="stylesheet">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.20" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.32" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.33" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js?ver=1.00"></script>
 </head>
 <body>
@@ -159,7 +159,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <div class="full flex" id="napadi"></div>
         <section class="full flex relative special-section gray-bg">
-            <a class="container flex center-text relative horizontal-pad" href="#citaj-vise">
+            <a class="container flex center-text relative horizontal-pad" href="citaj-vise">
                 <div class="full center send-icon-up"><?php echo file_get_contents($native_path.'img/shield-keyhole-solid.svg'); ?></div>
                 <h2 class="full center-text">Informiraj Se</h2>
                 <p class="full center-text">Žrtve online napada nisu samo kompanije i njihovi zaposlenici. Rizici za sve nalaze se na svakom koraku, a zaštititi se možemo samo informiranjem i kritičkim razmišljanjem. Od napada na naše bankovne račune, do napada na nas kao ličnosti, bili odrasli ili djeca, evo kako se pripaziti.</p>
