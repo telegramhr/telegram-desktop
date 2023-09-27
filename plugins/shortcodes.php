@@ -26,7 +26,26 @@ class Telegram_Shortcodes {
 
         add_shortcode('energia_kalkulator', [$this, 'energia_kalkulator']);
         add_shortcode('energia_forma', [$this, 'energia_forma']);
+
+        add_shortcode('telegram_special_embed', [$this, 'telegram_embed']);
 	}
+
+    public function telegram_embed($atts, $content) {
+        extract( shortcode_atts(
+            array(
+                'id' => ''
+            ),
+            $atts
+        ));
+        switch ($id) {
+            case '1':
+                return '<iframe src="https://wiener-test.easyeditcms.hr/dopunsko-zdravstveno-osiguranje-v2.aspx?socf=1&hhf=1&hhlg=1" frameborder="0" allowtransparency="true" style="width: 100%;height: 1200px;"></iframe>';
+            case '2':
+                return '<iframe src="https://www.wiener.hr/dodatno-zdravstveno-osiguranje-v3.aspx?socf=1&hhf=1&hhlg=1" frameborder="0" allowtransparency="true" style="width: 100%;height: 1200px;"></iframe>';
+
+        }
+        return '';
+    }
 
     public function energia_forma() {
         return '<p><iframe style="width: 100%; height: 720px;" src="https://www.energianaturalis.hr/eform?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';

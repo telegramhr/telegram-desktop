@@ -4,7 +4,7 @@
     // use this native path to embed all the files from project that are included with project, images, scripts, ...
     // we will change this when we upload the project to the server
     // this way we only need to change in one place
-    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/minuta-za-mene/';
+    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/minuta-za-mene';
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
@@ -120,9 +120,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2 text-center show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <p style="font-weight: 700; font-size: 20px; padding-bottom: 10px;">Ukoliko si primjetila neku promjenu ili kvržicu, obrati se svom liječniku.</p>
-          <p style="font-weight: 700; font-size: 20px; padding-bottom: 10px;">On će te pregledati i, ukoliko je potrebno, naručiti daljnje pretrage.</p>
-          <p style="font-weight: 700; font-size: 20px; padding-bottom: 10px;">I ne zaboravi, barem jednom mjesečno, izdvojiti minutu za sebe.</p>
+          <p style="font-weight: 700; font-size: 22px;">Ukoliko si primjetila neku promjenu ili kvržicu, obrati se svom liječniku.</p>
+          <p style="font-weight: 700; font-size: 22px;">On će te pregledati i, ukoliko je potrebno, naručiti daljnje pretrage.</p>
+          <p style="font-weight: 700; font-size: 22px;">I ne zaboravi, barem jednom mjesečno, izdvojiti minutu za sebe.</p>
           <p>&nbsp;</p>
           <img src="<?php echo $native_path ?>/assets/images/logo.png" alt="" style="width:auto; height:100px; margin-top: 20px;">
         </div>

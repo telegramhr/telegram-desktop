@@ -188,7 +188,7 @@ body {
   }
 .padinzh {padding-top: 10px;}
   .blog h2 {  padding-top: 10px !important;}
- .blog {text-align: center !important;}
+ .blog {text-align: center !important; padding-top: 50px !important; padding-bottom: 50px !important;}
   .blog img {width: 150px; height: auto; margin-top: -50px; text-align: center;}
 
 .keyvizual {margin-bottom: 50px !important;}
