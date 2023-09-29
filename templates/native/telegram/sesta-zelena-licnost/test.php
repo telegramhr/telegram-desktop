@@ -159,7 +159,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>/assets/images/energia-naturalis.png"/><br/>
             <br/><br/>
         </div>
-        <div class="col-lg-4 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+        <div class="col-lg-6 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
             <div class="container">
               <div class="row">
             <h4>Zlatni <em>partneri</em></h4>
@@ -168,15 +168,30 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container">
               <div class="row">
                   <div class="col-lg-6" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>/assets/images/hgk.png"/>
+                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>/assets/images/hgk.png"/>
                   </div>
                   <div class="col-lg-6" data-wow-duration="1s" data-wow-delay="1s">
-                    <img  style="width: auto; max-height: 70px;" src="<?php echo $native_path ?>/assets/images/ht.png"/>
+                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>/assets/images/ht.png"/>
                   </div>
               </div>
           </div>
         </div>
-        <div class="col-lg-8 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+        <div class="col-lg-6 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+            <div class="container">
+              <div class="row">
+            <h4>Srebrni <em>partner</em></h4>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 offset-lg-3" data-wow-duration="1s" data-wow-delay="1s">
+                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>/assets/images/hrana-se-ne-baca.png"/>
+                  </div>
+              </div>
+          </div>
+          <br/><br/>
+        </div>
+        <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
             <div class="container">
               <div class="row">
             <h4>Brončani <em>partneri</em></h4>

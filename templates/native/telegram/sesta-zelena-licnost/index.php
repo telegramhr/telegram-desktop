@@ -87,7 +87,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   </div>
                   <div class="col-lg-12">
                     <div class="border-first-button scroll-to-section">
-                      <a href="https://www.telegram.hr/native/sesta-zelena-licnost/test-licnosti">TEST LIČNOSTI</a>
+                      <a href="test.html">TEST LIČNOSTI</a>
                     </div>
                   </div>
                 </div>
@@ -110,18 +110,29 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2229856827.webp" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/pxl-201122-96981021.webp" alt=""></a>
             </div>
             <div class="down-content">
-              <span class="category">Energija</span>
-              <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><h4>Ako mislite kupiti električni auto ili energetski obnoviti dom, razmislite o eko kreditima. Evo koje su prednosti</h4></a>
-              <p>Kupujete li energetski učinkovito vozilo ili pak razmišljate svoj dom nadograditi opremom za korištenje obnovljivih izvora energije, sve to od sada možete financirati uz pomoć sve popularnijih održivih kredita koji su još poznati i kao eko ili zeleni krediti.</p>
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><h4>Iznenađujuće dobri podaci: Hrvatska ima umjerenu potrošnju plastike i relativno dobro upravlja otpadom</h4></a>
+              <p>Međunarodni dan prekoračenja plastike, poznatiji kao Plastic Overshoot Day označava dan u kojem se u svijetu proizvelo više plastike no što se može zbrinuti. Globalno smo taj prag prešli 28. srpnja, no postoji i određeni datum za svaku zemlju zasebno. Hrvatsku pak očekuje 11. listopada.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-2229856827_small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Energija</span>
+                    <a href="https://www.telegram.hr/biznis-tech/ako-mislite-kupiti-elektricni-auto-ili-energetski-obnoviti-dom-razmislite-o-eko-kreditima-evo-koje-su-prednosti/" target="_blank"><h4>Ako mislite kupiti električni auto ili energetski obnoviti dom, razmislite o eko kreditima. Evo koje su prednosti</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
@@ -144,17 +155,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   </div>
                 </div>
               </div>
-              <div class="col-lg-12">
-                <div class="post-item last-post-item">
-                  <div class="thumb">
-                    <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar-small.webp" alt=""></a>
-                  </div>
-                  <div class="right-content">
-                    <span class="category">Ljudi</span>
-                    <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><h4>Oko 2000 poštara svakog dana dostavi gotovo milijun pošiljaka. Ova rješenja uvelike im olakšavaju posao</h4></a>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
@@ -516,6 +517,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/paketomat-postar-small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Ljudi</span>
+                    <a href="https://www.telegram.hr/zivot/oko-2000-postara-svakog-dana-dostavi-gotovo-milijun-posiljaka-ova-rjesenja-uvelike-im-olaksavaju-posao/" target="_blank"><h4>Oko 2000 poštara svakog dana dostavi gotovo milijun pošiljaka. Ova rješenja uvelike im olakšavaju posao</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
                     <a href="https://www.telegram.hr/partneri/izgleda-da-ima-nade-10-pozitivnih-stvari-za-nas-planet-koje-su-se-dogodile-u-prvoj-polovici-godine/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/promjene_small.webp" alt=""></a>
                   </div>
                   <div class="right-content">
@@ -597,7 +609,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>/assets/images/energia-naturalis.png"/><br/>
             <br/><br/>
         </div>
-        <div class="col-lg-4 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+        <div class="col-lg-6 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
             <div class="container">
               <div class="row">
             <h4>Zlatni <em>partneri</em></h4>
@@ -614,7 +626,22 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
               </div>
           </div>
         </div>
-        <div class="col-lg-8 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+        <div class="col-lg-6 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+            <div class="container">
+              <div class="row">
+            <h4>Srebrni <em>partner</em></h4>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 offset-lg-3" data-wow-duration="1s" data-wow-delay="1s">
+                    <img  style="width: auto; height: 100px;" src="<?php echo $native_path ?>/assets/images/hrana-se-ne-baca.png"/>
+                  </div>
+              </div>
+          </div>
+          <br/><br/>
+        </div>
+        <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
             <div class="container">
               <div class="row">
             <h4>Brončani <em>partneri</em></h4>
