@@ -75,6 +75,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <img src="<?php echo $native_path ?>img/losinj_hotel_white.png" alt="Lošinj hotels & villas logo">
             <img src="<?php echo $native_path ?>img/hac_white.png" alt="Hrvatske autoceste logo">
             <img src="<?php echo $native_path ?>img/zapresic_white.png" alt="Zaprešić logo">
+            <img src="<?php echo $native_path ?>img/tzzz_white_square.png" alt="Turistička zajednica Zagrebačke županije logo">
         </div>
         <div class="flex hero-top">
             <h2 data-aos="fade-down" data-aos-delay="1500">Odat ću ti zašto živim ovdje</h2>
@@ -474,6 +475,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <img src="<?php echo $native_path ?>img/losinj_hotel_logo.png" alt="Lošinj hotels & villas logo" data-aos="fade-up" data-aos-delay="1600">
                 <img src="<?php echo $native_path ?>img/hac_white.png" alt="Hrvatske autoceste logo" data-aos="fade-up" data-aos-delay="1700">
                 <img src="<?php echo $native_path ?>img/zapresic_white.png" alt="Zaprešić logo" data-aos="fade-up" data-aos-delay="1800">
+                <img src="<?php echo $native_path ?>img/tzzz_white_square.png" alt="Turistička zajednica Zagrebačke županije logo" data-aos="fade-up" data-aos-delay="1900">
             </div>
             <div class="full center">
                 
