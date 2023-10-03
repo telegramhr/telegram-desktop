@@ -314,6 +314,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <h2 class="full relative episode-title" data-aos="fade-left">Pročitaj više</h2>
             <div class="full sugovornici extra-content flex stretch">
                 <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="0">
+                    <img src="https://images.telegram.hr/zHETshr36gh4VzEmqI2UorCFUE1--586xnrUQialT10/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvdGctbmFzbG92bmEta29sYXo5LTI4LmpwZw.webp" aria-hidden="true">
+                    <h3 class="full">Jesenski odmor nadomak Zagreba: imamo popis atrakcija na 9 destinacija koje morate posjetiti</h3>
+                    <p>Ondje ćete, između ostaloga, naći i dvorce, vinske ceste, biciklističke staze i prekrasne kuće za odmor</p>
+                    <a href="https://www.telegram.hr/zivot/jesenski-odmor-nadomak-zagreba-imamo-popis-atrakcija-na-9-destinacija-koje-morate-posjetiti/" target="_blank" class="insite-btn">Pročitaj više</a>
+                </div>
+                <div class="third flex-responsive flex" data-aos="fade-right" data-aos-delay="25">
                     <img src="https://images.telegram.hr/Ug2PDDTUnlVxMjkK2FQ6RKO0rXyyKQb3zMailJnjHjY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDcvcHhsLTE0MDgyMi05NTEyNzIyOS5qcGc.webp" aria-hidden="true">
                     <h3 class="full">Najviše prometnih nesreća u Hrvatskoj dogodi se tijekom ljeta. Pratite ove savjete za sigurniji put na more</h3>
                     <p> Sigurnosni pojas spriječi 50 posto ozbiljnijih ozljeda i smrti prilikom prometnih nesreća</p>
