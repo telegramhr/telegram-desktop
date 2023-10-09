@@ -87,7 +87,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   </div>
                   <div class="col-lg-12">
                     <div class="border-first-button scroll-to-section">
-                      <a href="test.html">TEST LIČNOSTI</a>
+                        <a href="https://www.telegram.hr/native/sesta-zelena-licnost/test-licnosti">TEST LIČNOSTI</a>
                     </div>
                   </div>
                 </div>
