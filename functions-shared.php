@@ -95,9 +95,9 @@ function telegram_pre_get_posts($query) {
 			$query->set('no_found_rows', true);
 	}
 
-    if (is_admin() && $query->is_main_query()) {
+    /*if (is_admin() && $query->is_main_query()) {
         $query->set('posts_per_page', 20);
-    }
+    }*/
 }
 
 function telegram_get_photographer($id = false) {

@@ -33,54 +33,287 @@
 
 <body>
 
+    <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 text-left">
+          <nav class="main-nav">
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#ambasadori">AMBASADORI</a></li>
+              <li class="scroll-to-section"><a href="#ispovijesti">ISPOVIJESTI</a></li>
+              <li class="scroll-to-section"><a href="#procitaj-vise">PROČITAJ VIŠE</a></li>
+              <li class="scroll-to-section"><a href="#kviz">KVIZ</a></li>
+              <li></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-4 text-right">
+          <nav class="main-nav"  style="float: right;">
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#potpisi-povelju">POTPIŠI POVELJU</a></li>
+              <li></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
   <div class="main-banner" id="top">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
-            <div class="col-lg-5 align-self-center">
-              <div class="left-content">
+            <div class="col-lg-10 offset-lg-1 align-self-center">
                 <div class="row">
-                  <div class="col-lg-12 text-left">
+                  <div class="col-lg-12 text-center">
                     <img src="<?php echo $native_path ?>/assets/images/logo.png" alt="" class="keyvizual">
-                    <h2 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">Svaka četvrta žena u Hrvatskoj kojoj je dijagnosticiran rak, ima rak dojke.</h2>
+                    <h2 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">Minuta za mene je minuta kojom spašavam svoj život.</h2>
+                    <p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="font-size: 24px !important;">U mjesecu borbe protiv raka dojke, naglašavamo važnost samopregleda.<br/>Za njega nam je potrebno svega 60 sekundi.</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-7 align-self-center">
-              <div class="left-content">
-                <div class="row">
-                  <div class="col-lg-12 text-left padinzh">
-                    <p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Rak dojke vodeći je po broju i smrtnosti među ženama.<br/>
-                      Pravovremeni početak terapije uspješno liječi u više od 90 posto slučajeva.<br/>
-                      Ključan korak? Samopregled dojki.<br/>
-                      Za njega nam je potrebno svega - 60 sekundi.</p>
-
-                  </div>
-                  <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
-                    <div class="border-first-button">
-                      <button class="border-first-button" id="startButton">Pokreni minutu za mene</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container blokscrtom" style="padding-top: 30px !important;">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <p style="font-size:24px;">Odradili smo potpuni takeover <span style="letter-spacing: 3px; font-weight:700">SUPER1</span> portala: tijekom dva tjedna, dosegnuli smo više od 200.000 čitateljica i čitatelja, a poziv ženama da naprave samopregled dojki podržalo je i više od 20 influencerica, glumica, pjevačica, novinarki, poduzetnica i kreativnih direktorica.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="ambasadori" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> AMBASADORI <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <img src="<?php echo $native_path ?>/assets/images/ambasadori-01.png" alt="">
+        </div>
+        <div class="col-lg-7 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+          <h3>AMBASADORI</h3>
+          <p>Našu je kampanju poduprijelo više od 20 glumica, pjevačica, influencerica, vizažistica i novinarki. Više o tome pročitajte uskoro. </p>
+          <div class="border-first-button">
+              <button class="border-first-button" id="startButton">Uskoro</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container blokscrtom">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <p>Svaka četvrta žena u Hrvatskoj kojoj je dijagnosticiran rak, ima rak dojke.</p>
         </div>
       </div>
     </div>
   </div>
 
 
-  <div id="element1" class="blog">
+  <div id="ispovijesti" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> ISPOVIJESTI <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-bottom: 80px !important;">
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-01.png" alt="">
+        </div>
+        <div class="col-lg-7">
+          <h3 style="margin-top: 20px !important">ISPOVIJEST #1</h3>
+          <h2>Ivana Mihaljević</h2>
+          <p>Šest mjeseci me nešto zatezalo iznad dojke, a onda mi je kirurg rekao da smo zakasnili. Ovo je moja priča</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/power/sest-mjeseci-me-nesto-zatezalo-iznad-dojke-a-onda-mi-je-kirurg-saopcio-da-smo-zakasnili-ovo-je-moja-prica/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-bottom: 80px !important;">
+      <div class="row">
+        <div class="col-lg-5 order-lg-2">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-02.png" alt="">
+        </div>
+        <div class="col-lg-7 order-lg-1">
+          <h3 style="margin-top: 20px !important">ISPOVIJEST #2</h3>
+          <h2>Simona Augustić</h2>
+          <p>Preboljela je rak dojke, osnovala brend donjeg rublja za oboljele i sada pokreće prvu online trgovinu za onkološke pacijentice</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/power/preboljela-je-rak-dojke-osnovala-brend-donjeg-rublja-za-oboljele-i-sada-pokrece-prvu-online-trgovinu-za-onkoloske-pacijentice/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-bottom: 80px !important;">
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-03.png" alt="">
+        </div>
+        <div class="col-lg-7">
+          <h3 style="margin-top: 20px !important">ISPOVIJEST #3</h3>
+          <h2 style="opacity: 0.3;">IME I PREZIME</h2>
+          <p style="opacity: 0.3;">Uskoro. </p>
+          <div class="border-first-button">
+              <button class="border-first-button" id="startButton">Uskoro</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-bottom: 80px !important;">
+      <div class="row">
+        <div class="col-lg-5 order-lg-2">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-04.png" alt="">
+        </div>
+        <div class="col-lg-7 order-lg-1">
+          <h3 style="margin-top: 20px !important">ISPOVIJEST #4</h3>
+          <h2>Marina Zubak</h2>
+          <p>Moždani udari, fibromialgija i karcinom nisu zaustavili život Marine Zubak. Ovo je njezina priča </p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/power/mozdani-udari-fibromialgija-i-karcinom-nisu-zaustavili-zivot-marine-zubak-ovo-je-njezina-prica/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container blokscrtom">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <p>Pravovremeni početak terapije uspješno liječi u 90 posto slučajeva.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="procitaj-vise" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> PROČITAJ VIŠE <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 80px !important;">
+      <div class="row">
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-01.png" alt="">
+          <p>Robert već 30 godina oboljelim ženama pomaže pronaći idealnu periku, ali i izgubljeno samopouzdanje. Razgovarali smo s njim</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/power/robert-vec-30-godina-oboljelim-zenama-pomaze-pronaci-idealnu-periku-ali-i-izgubljeno-samopouzdanje-razgovarali-smo-s-njim/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-02.png" alt="">
+          <p>ORana pojava menstruacije povećava rizik od raka dojke za pet do 20 posto. Evo što kažu stručnjaci</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/partneri/rana-pojava-menstruacije-povecava-rizik-od-raka-dojke-za-pet-do-20-posto-evo-sto-kazu-strucnjaci/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-03.png" alt="">
+          <p>Pripremite maramice: U mjesecu borbe protiv raka dojke, gledamo ovih 10 genijalnih filmova</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/life/u-mjesecu-borbe-protiv-raka-dojke-gledamo-ovih-10-genijalnih-filmova/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-04.png" alt="">
+          <p>Prevencija je pola zdravlja: ovih 12 pregleda svaka bi žena trebala napraviti barem jednom godišnje</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/partneri/prevencija-je-pola-zdravlja-ovih-12-pregleda-svaka-bi-zena-trebala-napraviti-barem-jednom-godisnje/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-05.png" alt="">
+          <p>Naša liječnica sama je sebi postavila dijagnozu pa pobijedila rak dojke. Prošlo je 8 godina i sve je dobro</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/nasa-lijecnica-sama-je-sebi-postavila-dijagnozu-pa-pobijedila-rak-dojke-proslo-je-8-godina-i-sve-je-dobro/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-06.png" alt="">
+          <p>Od stresa do ozbiljnih zdravstvenih stanja. Ovo su najčešći razlozi poremećaja menstrualnog ciklusa</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/partneri/od-stresa-do-ozbiljnih-zdravstvenih-stanja-ovo-su-najcesci-razlozi-poremecaja-menstrualnog-ciklusa/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-07.png" alt="">
+          <p>este li već otkrili brend Planina? Jako su nam fora njihove šalice i vaze s motivom grudi</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/life/hrvatski-brend-keramike-ponovno-odusevljava-nakon-genijalnih-salica-s-motivom-grudi-stigle-su-i-vaze/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container blokscrtom">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <p>Rak dojke vodeći je po broju i smrtnosti među ženama. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="kviz" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> KVIZ <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <p>Pitali smo umjetnu inteligenciju da nam složi kviz o raku dojke. Provjerite tko je bolji - vi ili računalo.</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/pitali-smo-umjetnu-inteligenciju-da-slozi-kviz-o-raku-dojke-provjerite-tko-je-bolji-vi-ili-racunalo/" target="_blank"><button class="border-first-button" id="startButton">Riješi kviz</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="samopregled" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 show-up prednost wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> SAMOPREGLED <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-5 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <img src="<?php echo $native_path ?>/assets/images/01.png" alt="">
         </div>
         <div class="col-lg-7 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-          <h2>Stani ispred ogledala</h2>
+          <h2 class="korak">Stani ispred ogledala</h2>
           <p>Stavi ruku na bokove, stisni prsne mišiće i vizualno pregledaj dojke. Obrati pažnju na veličinu, oblik i boju i traži bilo kakvu promjenu, uključujući kvržice, promjene u boji ili izgledu kože te izbočine ili udubine. Podigni desnu ruku kako bi detaljno pregledala desnu dojku. Isto učini i s lijevom. Nježno pritisni bradavicu i promotri javlja li se iscjedak.</p>
         </div>
       </div>
@@ -91,7 +324,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7 order-lg-1 order-2 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <h2>Stani uspravno</h2>
+          <h2 class="korak">Stani uspravno</h2>
           <p>Tijelo namaži mlijekom ili losionom. Vrijeme je za pipanje dojki ili palpaciju. Za pregled lijeve dojke koristi desnu, a za pregled desne dojke lijevu ruku. Spoji jagodice tri srednja prsta i započni s kružnim pokretima. Kreni od vanjskih rubova dojke prema bradavicama ili obrnuto, bitno je da pregledaš cijelu površinu. Neka ti pokreti najprije budu nježni i površinski, a zatim čvršći i dublji. Obavezno ispipaj i prostor iznad i ispod dojki te pazušnu jamu. Ovaj korak možeš učiniti i u tušu, samo se dobro nasapunaj.</p>
         </div>
         <div class="col-lg-5 order-lg-2 order-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
@@ -109,30 +342,68 @@
           <img src="<?php echo $native_path ?>/assets/images/03.png" alt="">
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-          <h2>Namjesti se u ležeći položaj</h2>
+          <h2 class="korak">Namjesti se u ležeći položaj</h2>
           <p>Stavi jastuk ili složeni ručnik ispod ramena, a ruku na kojoj ležiš iznad glave. Ponovno spoji tri srednja prsta suprotne ruke te kreni s nježnim kružnim pokretima, a zatim manjim i čvršćim. Završi pregled opipavanjem područja ispod pazuha tako što ćeš ruku koja miruje i na kojoj ležiš u potpunosti opustiti, a suprotnom rukom duboko opipati cijeli pazuh. Ponovi postupak na drugoj dojci.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="element4" class="blog">
+  <div id="potpisi-povelju" class="blog">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 offset-lg-2 text-center show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <p style="font-weight: 700; font-size: 22px;">Ukoliko si primjetila neku promjenu ili kvržicu, obrati se svom liječniku.</p>
-          <p style="font-weight: 700; font-size: 22px;">On će te pregledati i, ukoliko je potrebno, naručiti daljnje pretrage.</p>
-          <p style="font-weight: 700; font-size: 22px;">I ne zaboravi, barem jednom mjesečno, izdvojiti minutu za sebe.</p>
-          <p>&nbsp;</p>
-          <img src="<?php echo $native_path ?>/assets/images/logo.png" alt="" style="width:auto; height:100px; margin-top: 20px;">
+        <div class="col-lg-12 show-up prednost wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> POTPIŠI POVELJU <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
+          <p>Obećajem sebi kako ću redovito uzimati minutu za samopregled dojki jer svaka minuta koju provedem brinući se za svoje zdravlje je minuta - za mene</p>
+          <form>
+              <label for="ime">Ime i prezime:</label>
+              <input type="text" id="ime" name="ime" required><br><br>
 
+              <input type="submit" id="submit_form" value="Potpiši povelju">
+          </form>
+        </div>
       </div>
     </div>
   </div>
-    <div id="progress-container">
-        <div id="progress-bar"></div>
-    </div>
+
+
+<div id="sponsors" class="sponsors">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+            <h2>Sponzori projekta</h2>
+        </div>
+        <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+          <div class="row">
+            <div class="col-lg-4 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+                <img src="<?php echo $native_path ?>/assets/images/biobaza.png"/>
+            </div>
+            <div class="col-lg-4 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+                <img src="<?php echo $native_path ?>/assets/images/dm.png"/>
+            </div>
+            <div class="col-lg-4 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+                <img src="<?php echo $native_path ?>/assets/images/librese.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px;">
+
+       <div class="col-lg-6 offset-md-3 text-center wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
+            <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing prema uredničkim standardima Telegram Media Grupe.</p><br/><br/>
+            <img style="max-width:186px; height: auto;" src="<?php echo $native_path ?>/assets/images/telegram.png"/>
+            <br/><br/>
+        </div>
+      </div>
+  </div>
+  </div>
+
 
 
   <!-- Scripts -->
@@ -142,69 +413,27 @@
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
-    <script>
-        var currentId = 1;
-        var maxId = 4;
-        var intervalId; // To hold the interval ID
-
-        // Function to scroll to the next element
-        function scrollToNextElement() {
-            var currentElement = document.getElementById("element" + currentId);
-            if (currentElement) {
-                currentElement.scrollIntoView({ behavior: "smooth" });
-            }
-
-            currentId++;
-
-            if (currentId > maxId) {
-                clearInterval(intervalId); // Stop the interval when the last element is reached
-            }
-        }
-
-        // Function to start automatic navigation
-        function startNavigation() {
-            // Scroll to the first element instantly
-            var firstElement = document.getElementById("element1");
-            if (firstElement) {
-                firstElement.scrollIntoView({ behavior: "auto" });
-            }
-
-            // Show the progress bar container
-            var progressContainer = document.getElementById("progress-container");
-            if (progressContainer) {
-                progressContainer.style.display = "block";
-            }
-
-            // Set up the progress bar
-            var progressBar = document.getElementById("progress-bar");
-            var progress = 0;
-            var intervalDuration = 100; // 100 milliseconds
-            var totalTime = 60000; // 60 seconds
-
-            intervalId = setInterval(function () {
-                progress += (intervalDuration / totalTime) * 100;
-                progressBar.style.width = progress + "%";
-
-                if (progress >= 100) {
-                    clearInterval(intervalId); // Stop the interval when the progress reaches 100%
-                    progressContainer.style.display = "none"; // Hide the progress bar container
-                }
-            }, intervalDuration);
-
-            // Wait for a very short time (instantly) before starting the interval
-            setTimeout(function () {
-                currentId++; // Move to the next element
-                intervalId = setInterval(scrollToNextElement, 20000); // Start the interval
-            }, 10);
-        }
-
-        // Add a click event listener to the start button
-        var startButton = document.getElementById("startButton");
-        if (startButton) {
-            startButton.addEventListener("click", startNavigation);
-        }
-    </script>
         <!-- this is required to load all the analytics and other scripts -->
+    <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
+    <script>
+        var $form = jQuery('form#test_form'),
+            url = 'https://script.google.com/macros/s/AKfycbwkBAd0Ie7xBEIeizxeNG-1UP8npjMonbqLUQuCywn6TVZyHwfyHBt5rOB5zSXFP1Kx/exec'
+
+        jQuery('#submit-form').on('click', function(e) {
+            e.preventDefault();
+            jQuery('#submit-form').attr('disable', true);
+            var jqxhr = jQuery.ajax({
+                url: url,
+                method: "GET",
+                dataType: "json",
+                data: $form.serializeObject()
+            }).done(
+                function(){
+                    windows.location.href = 'https://www.telegram.hr/native/minuta-za-mene/povelja'
+                }
+            );
+        })
+    </script>
     <?php wp_footer(); ?>
 </body>
 </html>

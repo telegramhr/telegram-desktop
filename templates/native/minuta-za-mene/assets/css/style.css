@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.blog h2 {  padding-top: 100px !important;}
+.blog h2 {  padding-top: 10px !important;}
 
 ul {
   margin-bottom: 0px;
@@ -180,18 +180,28 @@ body {
             transition: width 1s linear; /* Smooth transition */
         }
 .padinzh {padding-top: 250px;}
-.keyvizual {width:auto; height:180px; margin-bottom: 100px;}
+.keyvizual {width:auto; max-height:180px; margin-bottom: 100px;}
+ .blog .korak {  padding-top: 100px !important;}
+
+label {margin-bottom: 10px; color: #fff}
 
 @media (max-width: 991px) {
   html, body {
     overflow-x: hidden;
   }
+
+.header-area {display: none;} 
+.cicenaheadlineu {display: none}
 .padinzh {padding-top: 10px;}
   .blog h2 {  padding-top: 10px !important;}
  .blog {text-align: center !important; padding-top: 50px !important; padding-bottom: 50px !important;}
-  .blog img {width: 150px; height: auto; margin-top: -50px; text-align: center;}
+  .blog .koraci img {width: 150px; height: auto; margin-top: -50px; text-align: center;}
 
-.keyvizual {margin-bottom: 50px !important;}
+  .korak {  padding-top: 30px !important;}
+
+.clanak {height: 150px !important; position: relative;}
+
+.keyvizual {margin-bottom: 50px !important; width: 220px; height: auto;}
   .test-osobnosti  {
   padding-bottom: 110px !important;
 }
@@ -519,17 +529,18 @@ header
 }
 
 .header-area {
-  background-color: #fff;
+  background-color: #aa3687;
   box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
-  position: absolute;
+  position: fixed;
   left: 0px;
   right: 0px;
   z-index: 100;
-  height: 100px;
+  height: 60px;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
+
 }
 
 .header-area .main-nav {
@@ -563,8 +574,7 @@ header
 }
 
 .header-area .main-nav .nav {
-  float: right;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-right: 0px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -600,7 +610,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: #fff;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -614,7 +624,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #aa3687!important;
+  color: #fff!important; opacity: 0.7;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -637,6 +647,8 @@ header
   right: 18px;
   top: 12px;
 }
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {border-radius: 50px; background: #aa3687; font-weight: 900; color: #fff;}
 
 .background-header .main-nav .nav li.submenu:after {
   color: #2a2a2a;
@@ -1087,7 +1099,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 100px 0px 120px 0px;
+  padding: 150px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1122,8 +1134,9 @@ Banner Style
   margin-bottom: 20px;
 }
 
-.main-banner .left-content p {
+.main-banner p {
   margin-bottom: 30px;
+  font-size: 24px;
   color: #fff;
 }
 
@@ -1913,11 +1926,12 @@ Blog
 --------------------------------------------- 
 */
 
+.blokscrtom {padding-top: 10px; padding-bottom: 10px; border-top: 1px solid #f0cedd; border-bottom: 1px solid #f0cedd; margin-top: 100px; margin-bottom: 100px;}
 
 .blog {
   position: relative;
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .blog .section-heading {
@@ -1925,6 +1939,9 @@ Blog
   margin-bottom: 80px;
 }
 
+.blog p {margin-top: 20px; margin-bottom: 20px;}
+.blog h3 {opacity: 0.6; margin-top: 40px; font-size: 20px;}
+.blog h1 {margin-bottom: 50px;}
 .blog .section-heading .line-dec {
   margin: 0 auto;
 }
@@ -2462,7 +2479,7 @@ responsive
 
 .owl-dots {color:#000; text-align: center;}
 
-.owl-dots button, input, optgroup, select, textarea {width:16px; height: 16px; color: #000;}
+.owl-dots button, input, optgroup, select, textarea {width:100%; height: 60px; color: #000; border:0;}
 
 .owl-carousel button.owl-dot {background: #5C903E !important;
     color: #fff !important;
