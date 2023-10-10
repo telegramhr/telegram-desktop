@@ -162,8 +162,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <section class="full flex relative" id="kako">
             <div class="container flex relative">
                 <div class="full flex horizontal-pad">
-                    <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="1000">Evo kako.</h2>
+                    <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="750">Evo kako.</h2>
                 </div>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="750" href="https://www.telegram.hr/biznis-tech/energetski-strucnjak-postoji-model-kojim-se-mogu-zastititi-ranjive-skupine-ali-i-potaknuti-ulaganja-u-sektor/" target="_blank">
+                    <img class="shoo-bottom" src="https://www.telegram.hr/wp-content/uploads/2023/10/sasa3941xw.jpg">
+                    <div class="full flex">
+                        <h2 class="full">Energetski stručnjak: 'Postoji model kojim se mogu zaštititi ranjive skupine, ali i potaknuti ulaganja u sektor' </h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="1000" href="https://www.telegram.hr/biznis-tech/solari-su-sve-isplativiji-donose-energetsku-neovisnost-manje-racune-i-pozitivno-utjecu-na-okolis/" target="_blank">
                     <img class="shoo-bottom" src="https://www.telegram.hr/wp-content/uploads/2023/06/sasa8117xw.jpg">
                     <div class="full flex">
@@ -180,7 +187,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </a>
 
                 <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="1500" href="https://www.telegram.hr/promo/nikad-veci-porast-broja-instaliranih-solarnih-elektrana-ali-gradani-jos-uvijek-imaju-pitanja-i-brige-odgovorili-smo-na-njih/" target="_blank">
-                    <img class="shoo-bottom" src="https://images.telegram.hr/p4MeKjBxFdE76g5F7JCG7QzEFToFqB02c2zBRV23JrY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvaW1hZ2UtMS5wbmc.webp">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/RVrXAyLoa91aiSgPVN1CGesd460S3wxukJ-F0JiEbN0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDUvcHhsLTA3MDcyMy0xMDEzNTMwMjEuanBn.webp">
                     <div class="full flex">
                         <h2 class="full">Nikad veći porast broja instaliranih solarnih elektrana, ali građani još uvijek imaju pitanja i brige. Odgovorili smo na njih </h2>
                         <div class="cta animate">Pročitaj više...</div>
