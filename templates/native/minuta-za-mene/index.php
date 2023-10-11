@@ -14,8 +14,6 @@
     <?php wp_head(); ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -25,9 +23,9 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=3">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css?v=2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css?v=3">
 
   </head>
 
@@ -40,7 +38,7 @@
         <div class="col-8 text-left">
           <nav class="main-nav">
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#ambasadori">AMBASADORI</a></li>
+              <li class="scroll-to-section"><a href="#ambasadorice">AMBASADORICE</a></li>
               <li class="scroll-to-section"><a href="#ispovijesti">ISPOVIJESTI</a></li>
               <li class="scroll-to-section"><a href="#procitaj-vise">PROČITAJ VIŠE</a></li>
               <li class="scroll-to-section"><a href="#kviz">KVIZ</a></li>
@@ -88,11 +86,11 @@
     </div>
   </div>
 
-  <div id="ambasadori" class="blog">
+  <div id="ambasadorice" class="blog">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 show-up prednost wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.3s">
-          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> AMBASADORI <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
+          <h1><img src="<?php echo $native_path ?>/assets/images/headline_left.png" style="height: 40px; width: auto; margin-right: 50px;" class="cicenaheadlineu" /> AMBASADORICE <img src="<?php echo $native_path ?>/assets/images/headline_right.png" style="height: 40px; width: auto; margin-left: 50px;" class="cicenaheadlineu" /></h1>
         </div>
       </div>
     </div>
@@ -218,7 +216,7 @@
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
           <img src="<?php echo $native_path ?>/assets/images/clanak-02.png" alt="">
-          <p>ORana pojava menstruacije povećava rizik od raka dojke za pet do 20 posto. Evo što kažu stručnjaci</p>
+          <p>Rana pojava menstruacije povećava rizik od raka dojke za pet do 20 posto. Evo što kažu stručnjaci</p>
           <div class="border-first-button">
               <a href="https://www.telegram.hr/partneri/rana-pojava-menstruacije-povecava-rizik-od-raka-dojke-za-pet-do-20-posto-evo-sto-kazu-strucnjaci/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
@@ -259,7 +257,7 @@
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
           <img src="<?php echo $native_path ?>/assets/images/clanak-07.png" alt="">
-          <p>este li već otkrili brend Planina? Jako su nam fora njihove šalice i vaze s motivom grudi</p>
+          <p>Jeste li već otkrili brend Planina? Jako su nam fora njihove šalice i vaze s motivom grudi</p>
           <div class="border-first-button">
               <a href="https://www.telegram.hr/super1/life/hrvatski-brend-keramike-ponovno-odusevljava-nakon-genijalnih-salica-s-motivom-grudi-stigle-su-i-vaze/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
@@ -361,11 +359,11 @@
       <div class="row">
         <div class="col-lg-4 offset-lg-4 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
           <p>Obećajem sebi kako ću redovito uzimati minutu za samopregled dojki jer svaka minuta koju provedem brinući se za svoje zdravlje je minuta - za mene</p>
-          <form id="test_form">
+          <form action="povelja.php" method="POST">
               <label for="ime">Ime i prezime:</label>
               <input type="text" id="ime" name="ime" required><br><br>
 
-              <input type="submit" id="submit-form" value="Potpiši povelju">
+              <input type="submit" value="Potpiši povelju">
           </form>
         </div>
       </div>
