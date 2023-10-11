@@ -25,9 +25,9 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=2">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css?v=2">
 
   </head>
 
@@ -361,11 +361,11 @@
       <div class="row">
         <div class="col-lg-4 offset-lg-4 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
           <p>Obećajem sebi kako ću redovito uzimati minutu za samopregled dojki jer svaka minuta koju provedem brinući se za svoje zdravlje je minuta - za mene</p>
-          <form>
+          <form id="test_form">
               <label for="ime">Ime i prezime:</label>
               <input type="text" id="ime" name="ime" required><br><br>
 
-              <input type="submit" id="submit_form" value="Potpiši povelju">
+              <input type="submit" id="submit-form" value="Potpiši povelju">
           </form>
         </div>
       </div>
@@ -429,7 +429,7 @@
                 data: $form.serializeObject()
             }).done(
                 function(){
-                    windows.location.href = 'https://www.telegram.hr/native/minuta-za-mene/povelja'
+                    window.location.href = 'https://www.telegram.hr/native/minuta-za-mene/povelja'
                 }
             );
         })
