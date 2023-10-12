@@ -6,7 +6,7 @@
     // this way we only need to change in one place
     $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/minuta-za-mene';
     // use this for versioning, to avoid cache problems
-    $version = 4;
+    $version = 5;
 ?>
 <head>
 
@@ -269,9 +269,9 @@
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
           <img src="<?php echo $native_path ?>/assets/images/clanak-09.png" alt="">
-          <p>Ove jeseni pojačajte brigu o sebi. Imamo 12 kozmetičkih proizvoda koje trebate isprobati</p>
+          <p>O mentalnom zdravlju, seksu, hormonima i menstruaciji. Imamo detalje s prve ženske konferencije</p>
           <div class="border-first-button">
-              <a href="https://www.telegram.hr/beauty/ove-jeseni-pojacajte-brigu-o-sebi-imamo-12-kozmetickih-proizvoda-koje-trebate-isprobati/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+              <a href="https://www.telegram.hr/life/o-mentalnom-zdravlju-seksu-hormonima-i-menstruaciji-imamo-detalje-s-prve-zenske-konferencije/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
         </div>
       </div>
