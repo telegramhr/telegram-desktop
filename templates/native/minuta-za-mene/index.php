@@ -6,7 +6,7 @@
     // this way we only need to change in one place
     $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/minuta-za-mene';
     // use this for versioning, to avoid cache problems
-    $version = 1;
+    $version = 4;
 ?>
 <head>
 
@@ -23,9 +23,9 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=3">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=<?php echo $version ?>">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css?v=3">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css?v=<?php echo $version ?>">
 
   </head>
 
@@ -159,14 +159,14 @@
     <div class="container" style="margin-bottom: 80px !important;">
       <div class="row">
         <div class="col-lg-5">
-          <img src="<?php echo $native_path ?>/assets/images/ispovijest-03.png" alt="">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-04.png" alt="">
         </div>
         <div class="col-lg-7">
           <h3 style="margin-top: 20px !important">ISPOVIJEST #3</h3>
-          <h2 style="opacity: 0.3;">IME I PREZIME</h2>
-          <p style="opacity: 0.3;">Uskoro. </p>
+          <h2>Marina Zubak</h2>
+          <p>Moždani udari, fibromialgija i karcinom nisu zaustavili život Marine Zubak. Ovo je njezina priča </p>
           <div class="border-first-button">
-              <button class="border-first-button" id="startButton">Uskoro</button>
+              <a href="https://www.telegram.hr/super1/power/mozdani-udari-fibromialgija-i-karcinom-nisu-zaustavili-zivot-marine-zubak-ovo-je-njezina-prica/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
         </div>
       </div>
@@ -176,12 +176,12 @@
         <div class="col-lg-5 order-lg-2">
           <img src="<?php echo $native_path ?>/assets/images/ispovijest-04.png" alt="">
         </div>
-        <div class="col-lg-7 order-lg-1">
+        <div class="col-lg-7  order-lg-1">
           <h3 style="margin-top: 20px !important">ISPOVIJEST #4</h3>
-          <h2>Marina Zubak</h2>
-          <p>Moždani udari, fibromialgija i karcinom nisu zaustavili život Marine Zubak. Ovo je njezina priča </p>
+          <h2 style="opacity: 0.3;">IME I PREZIME</h2>
+          <p style="opacity: 0.3;">Uskoro. </p>
           <div class="border-first-button">
-              <a href="https://www.telegram.hr/super1/power/mozdani-udari-fibromialgija-i-karcinom-nisu-zaustavili-zivot-marine-zubak-ovo-je-njezina-prica/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+              <button class="border-first-button" id="startButton">Uskoro</button>
           </div>
         </div>
       </div>
@@ -254,6 +254,11 @@
       </div>
       <div class="row">
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-08.png" alt="">
+          <p>Učinite dobru stvar. Kupnjom ovih proizvoda pomažete udruzi posvećenoj ženama oboljelih od raka</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/life/ucinite-dobru-stvar-kupnjom-ovih-proizvoda-pomazete-udruzi-posvecenoj-zenama-oboljelih-od-raka/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
           <img src="<?php echo $native_path ?>/assets/images/clanak-07.png" alt="">
@@ -263,6 +268,11 @@
           </div>
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-09.png" alt="">
+          <p>Ove jeseni pojačajte brigu o sebi. Imamo 12 kozmetičkih proizvoda koje trebate isprobati</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/beauty/ove-jeseni-pojacajte-brigu-o-sebi-imamo-12-kozmetickih-proizvoda-koje-trebate-isprobati/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
         </div>
       </div>
     </div>
