@@ -24,6 +24,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#josip">Josip</a>
         <a class="full" href="#magdalena">Magdalena</a>
         <a class="full" href="#durdica">Đurđica</a>
         <a class="full" href="#ivan">Ivan</a>
@@ -76,6 +77,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Josip -->
+        <a class="full flex relative slide slide-bottom-left" id="josip" href="https://www.telegram.hr/velike-price/u-tragicnoj-eksploziji-josip-je-ostao-bez-saka-noge-vida-i-sluha-herojski-se-borio-zavrsio-dva-faksa-i-zeli-pomagati-invalidima/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/10/josip-naslovna.jpg" alt="Upoznali smo 30-godišnjaka koji je iz svoje tragedije izvukao samo pozitivu i ono najbolje  " class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">U tragičnoj eksploziji Josip je ostao bez šaka, noge, vida i sluha. Herojski se borio, završio dva faksa i želi pomagati invalidima </h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Magdalena -->
         <a class="full flex relative slide slide-bottom-left" id="magdalena" href="https://www.telegram.hr/zivot/nevjerojatna-prica-magdalene-14-iz-varazdina-pobijedila-tumor-na-mozgu-ponovno-naucila-hodati-i-danas-rastura-u-plesu/" target="_blank">
             <img src="https://www.telegram.hr/wp-content/uploads/2023/09/wide9-1.jpg" alt="Magdalena se ničeg ne boji i puna je životnih mudrosti koje se rijetko čuju od djece njezine dobi " class="bg-img">
