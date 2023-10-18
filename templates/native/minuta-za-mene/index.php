@@ -174,7 +174,7 @@
     <div class="container" style="margin-bottom: 80px !important;">
       <div class="row">
         <div class="col-lg-5 order-lg-2">
-          <img src="<?php echo $native_path ?>/assets/images/ispovijest-04.png" alt="">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-03.png" alt="">
         </div>
         <div class="col-lg-7  order-lg-1">
           <h3 style="margin-top: 20px !important">ISPOVIJEST #4</h3>
