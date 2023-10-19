@@ -174,14 +174,15 @@
     <div class="container" style="margin-bottom: 80px !important;">
       <div class="row">
         <div class="col-lg-5 order-lg-2">
-          <img src="<?php echo $native_path ?>/assets/images/ispovijest-03.png" alt="">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-05.png" alt="">
         </div>
         <div class="col-lg-7  order-lg-1">
           <h3 style="margin-top: 20px !important">ISPOVIJEST #4</h3>
-          <h2 style="opacity: 0.3;">IME I PREZIME</h2>
-          <p style="opacity: 0.3;">Uskoro. </p>
+          <h2>Vesna Ramljak</h2>
+          <p>Naša liječnica sama je sebi postavila dijagnozu pa pobijedila rak dojke. Prošlo je 8 godina i sve je dobro</p>
           <div class="border-first-button">
-              <button class="border-first-button" id="startButton">Uskoro</button>
+
+              <a href="https://www.telegram.hr/super1/nasa-lijecnica-sama-je-sebi-postavila-dijagnozu-pa-pobijedila-rak-dojke-proslo-je-8-godina-i-sve-je-dobro/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
         </div>
       </div>
@@ -239,9 +240,9 @@
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
           <img src="<?php echo $native_path ?>/assets/images/clanak-05.png" alt="">
-          <p>Naša liječnica sama je sebi postavila dijagnozu pa pobijedila rak dojke. Prošlo je 8 godina i sve je dobro</p>
+          <p>Priče koje slamaju srca. Ove žene su napisale knjige o vlastitim borbama s rakom dojke</p>
           <div class="border-first-button">
-              <a href="https://www.telegram.hr/super1/nasa-lijecnica-sama-je-sebi-postavila-dijagnozu-pa-pobijedila-rak-dojke-proslo-je-8-godina-i-sve-je-dobro/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+              <a href="https://www.telegram.hr/super1/price-koje-slamaju-srca-ove-zene-su-napisale-knjige-o-vlastitim-borbama-s-rakom-dojke/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
@@ -273,6 +274,46 @@
           <div class="border-first-button">
               <a href="https://www.telegram.hr/life/o-mentalnom-zdravlju-seksu-hormonima-i-menstruaciji-imamo-detalje-s-prve-zenske-konferencije/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-10.png" alt="">
+          <p>Karcinom može uzeti kosu, ali ne i vašu ljepotu. Ovo je 8 chic načina kako možete nositi maramu</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/karcinom-moze-uzeti-kosu-ali-ne-i-vasu-ljepotu-imamo-sedam-sik-nacina-kako-mozete-nositi-maramu/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-11.png" alt="">
+          <p>Pričali smo s Darkom, tattoo artistom koji ženama oboljelima od raka besplatno tetovira bradavice</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/power/pricali-smo-s-darkom-tattoo-artistom-koji-zenama-oboljelima-od-raka-besplatno-tetovira-bradavice/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-12.png" alt="">
+          <p>Što nakon dijagnoze raka dojke? Ove hvalevrijedne udruge pružaju podršku ženama u Hrvatskoj</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/sto-nakon-dijagnoze-raka-dojke-ove-hvalevrijedne-udruge-pruzaju-podrsku-zenama-u-hrvatskoj/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/clanak-13.png" alt="">
+          <p>Poznate žene koje su preboljele rak dojke, neke su na kemoterapiju išle u pauzama od snimanja</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/poznate-zene-koje-su-preboljele-rak-dojke-neke-su-na-kemoterapiju-isle-u-pauzama-od-snimanja/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+
         </div>
       </div>
     </div>
