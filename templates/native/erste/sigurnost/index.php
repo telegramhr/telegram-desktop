@@ -151,6 +151,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative shoo-top" id="vodici">
             <div class="container flex relative">
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/biznis-tech/pazite-se-laznih-oglasa-i-internet-kupovine-kiberneticki-kriminal-u-hrvatskoj-lani-porastao-za-gotovo-20-posto/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/1yGpDjqXhSHJylYbVFpin0tjXNYvzIcRwJhwdWRd8pQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvb25saW5lLWt1cG92aW5hLmpwZw.webp">
+                    <div class="full flex">
+                        <h2 class="full">Pazite se lažnih oglasa i internet kupovine. Kibernetički kriminal u Hrvatskoj lani porastao za gotovo 20 posto</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/zivot/vise-od-38-posto-prevara-dogada-se-tijekom-kupnje-na-internetu-izdvojili-smo-neke-od-novijih-slucajeva/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/NyD0rwImgan-nEpk2YXOJKCl7yOMKjLb5tlSSf1c1zk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDYvYmVuY2gtYWNjb3VudGluZy1jM3Y4OGJvb3JvbS11bnNwbGFzaC5qcGc.webp">
                     <div class="full flex">
