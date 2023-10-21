@@ -310,7 +310,7 @@
             <img src="<?php echo $native_path ?>/assets/images/arena18.png" style="margin-top: 15px; opacity: 0.4;" />
         </div>
         <div class="col-lg-3  wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.2s">
-            <img src="<?php echo $native_path ?>/assets/images/arena17.png" style="margin-top: 15px;" />
+            <img src="<?php echo $native_path ?>/assets/images/arena17.png?v=2" style="margin-top: 15px;" />
         </div>
         <div class="col-lg-3  wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0s">
             <img src="<?php echo $native_path ?>/assets/images/arena18.png" style="margin-top: 15px;" />
