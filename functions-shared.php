@@ -383,6 +383,12 @@ function capx_filter_guest_author_fields( $fields_to_return, $groups ) {
             'group' => 'contact-info',
             'input' => 'url',
         );
+        $fields_to_return[] = array(
+            'key'      => 'wikipedia',
+            'label'    => 'Wikipedia',
+            'group' => 'contact-info',
+            'input' => 'url',
+        );
     }
 	return $fields_to_return;
 }
