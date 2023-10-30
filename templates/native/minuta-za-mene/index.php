@@ -187,6 +187,21 @@
         </div>
       </div>
     </div>
+    <div class="container" style="margin-bottom: 80px !important;">
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-06.png" alt="">
+        </div>
+        <div class="col-lg-7">
+          <h3 style="margin-top: 20px !important">ISPOVIJEST #5</h3>
+          <h2>Lovorka Brajković</h2>
+          <p>Naša psihologinja provela je istraživanje o kvaliteti seksualnog života žena oboljelih od raka. Evo što kaže </p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/nasa-psihologinja-provela-je-istrazivanje-o-kvaliteti-seksualnog-zivota-zena-oboljelih-od-raka-evo-sto-kaze/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container blokscrtom">
       <div class="row">
         <div class="col-lg-12 show-up prednost wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -303,7 +318,11 @@
 
       <div class="row">
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
-
+          <img src="<?php echo $native_path ?>/assets/images/clanak-14.png" alt="">
+          <p>Prekrivene gumenim bombonima, pucketavom ambalažom ili u sendviču. Ovaj umjetnički projekt ima za cilj otkriti što definira grudi</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/power/prekrivene-gumenim-bombonima-pucketavom-ambalazom-ili-u-sendvicu-ovaj-umjetnicki-projekt-ima-za-cilj-otkriti-sto-definira-grudi/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
           <img src="<?php echo $native_path ?>/assets/images/clanak-13.png" alt="">
@@ -313,7 +332,11 @@
           </div>
         </div>
         <div class="col-lg-4 text-center"  style="margin-top:50px;">
-
+          <img src="<?php echo $native_path ?>/assets/images/clanak-15.png" alt="">
+          <p>Ovaj francuski brend nakita i ukrasa za kosu ima za ideju da ženske grudi budu slobodne. Dostupan je i kod nas</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/look/ovaj-francuski-brend-nakita-i-ukrasa-za-kosu-ima-za-ideju-da-zenske-grudi-budu-slobodne-dostupan-je-i-kod-nas/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
         </div>
       </div>
     </div>
