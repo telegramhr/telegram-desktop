@@ -104,12 +104,15 @@ function telegram_pre_get_posts($query) {
     }*/
 }
 
-function telegram_get_photographer($id = false) {
+function telegram_get_photographer($id = false, $blog_id = 1) {
 	if (!$id)
 		$id = get_post_thumbnail_id();
 
-    $out = wp_cache_get('photographer_'.$id, 'pwa');
+    $out = wp_cache_get('photographer_'.$id.$blog_id, 'pwa');
     if (!$out) {
+        if ($blog_id !== 1) {
+            switch_to_blog($blog_id);
+        }
         $name = get_post_meta($id, 'fotograf', true);
         $agency = get_post_meta($id, 'agencija', true);
         $photo = '';
@@ -123,7 +126,10 @@ function telegram_get_photographer($id = false) {
             $photo .= $agency;
         }
         $out = esc_html( $photo );
-        wp_cache_set('photographer_'.$id, $out, 'pwa', HOUR_IN_SECONDS);
+        if ($blog_id !== 1) {
+            restore_current_blog();
+        }
+        wp_cache_set('photographer_'.$id.$blog_id, $out, 'pwa', HOUR_IN_SECONDS);
     }
 	return $out;
 }
@@ -188,7 +194,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741])) {
+                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509])) {
                     $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
@@ -600,8 +606,19 @@ function super1_unautop_4_img( $content )
                 }
             }
             if ($image_id) {
-                $photo   = telegram_get_photographer( $image_id );
+                if (str_contains($m[0], 'super1.telegram.hr')) {
+                    $blog_id = 3;
+                } else {
+                    $blog_id = 1;
+                }
+                $photo   = telegram_get_photographer( $image_id, $blog_id );
+                if ($blog_id !== 1) {
+                    switch_to_blog($blog_id);
+                }
                 $caption = wp_get_attachment_caption( $image_id );
+                if ($blog_id !== 1) {
+                    restore_current_blog();
+                }
                 if ( $photo ) {
                     return '<figure class="wp-caption">' . $m[1] . '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>';
                 }

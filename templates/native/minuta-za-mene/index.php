@@ -190,14 +190,30 @@
     <div class="container" style="margin-bottom: 80px !important;">
       <div class="row">
         <div class="col-lg-5">
-          <img src="<?php echo $native_path ?>/assets/images/ispovijest-06.png" alt="">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-07.png" alt="">
         </div>
         <div class="col-lg-7">
           <h3 style="margin-top: 20px !important">ISPOVIJEST #5</h3>
-          <h2>Lovorka Brajković</h2>
-          <p>Naša psihologinja provela je istraživanje o kvaliteti seksualnog života žena oboljelih od raka. Evo što kaže </p>
+          <h2>Katarina Rukavina</h2>
+          <p>Napipala sam kvržicu i odmah sam znala da nešto nije u redu. Dijagnozu sam dobila na svoj 37. rođendan</p>
           <div class="border-first-button">
-              <a href="https://www.telegram.hr/super1/nasa-psihologinja-provela-je-istrazivanje-o-kvaliteti-seksualnog-zivota-zena-oboljelih-od-raka-evo-sto-kaze/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+              <a href="https://www.telegram.hr/super1/power/napipala-sam-kvrzicu-i-odmah-sam-znala-da-nesto-nije-u-redu-dijagnozu-sam-dobila-na-svoj-37-rodendan/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-bottom: 80px !important;">
+      <div class="row">
+        <div class="col-lg-5 order-lg-2">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-08.png" alt="">
+        </div>
+        <div class="col-lg-7  order-lg-1">
+          <h3 style="margin-top: 20px !important">ISPOVIJEST #6</h3>
+          <h2>Sonja Grgat</h2>
+          <p>S dijagnozom raka dojke, dobila sam i otkaz. Nisam imala podršku i zato danas vodim udrugu za oboljele žene</p>
+          <div class="border-first-button">
+
+              <a href="https://www.telegram.hr/super1/power/s-dijagnozom-raka-dojke-dobila-sam-i-otkaz-nisam-imala-podrsku-i-zato-danas-vodim-udrugu-za-oboljele-zene/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
         </div>
       </div>
@@ -337,6 +353,21 @@
           <div class="border-first-button">
               <a href="https://www.telegram.hr/super1/look/ovaj-francuski-brend-nakita-i-ukrasa-za-kosu-ima-za-ideju-da-zenske-grudi-budu-slobodne-dostupan-je-i-kod-nas/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
+          <img src="<?php echo $native_path ?>/assets/images/ispovijest-06.png" alt="">
+          <p>Naša psihologinja provela je istraživanje o kvaliteti seksualnog života žena oboljelih od raka. Evo što kaže</p>
+          <div class="border-first-button">
+              <a href="https://www.telegram.hr/super1/nasa-psihologinja-provela-je-istrazivanje-o-kvaliteti-seksualnog-zivota-zena-oboljelih-od-raka-evo-sto-kaze/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center"  style="margin-top:50px;">
         </div>
       </div>
     </div>
