@@ -101,9 +101,9 @@
         </div>
         <div class="col-lg-7 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
           <h3>AMBASADORI</h3>
-          <p>Minutu za mene podržalo je 50-ak poznatih žena na društvenim mrežama. Otkrile su nam zašto</p>
+          <p>Minutu za mene podržalo je više od 20 poznatih žena na društvenim mrežama. Otkrile su nam zašto</p>
           <div class="border-first-button">
-              <a href="https://www.telegram.hr/super1/power/minutu-za-mene-podrzalo-je-50-ak-poznatih-zena-na-drustvenim-mrezama-otkrile-su-nam-zasto/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
+              <a href="https://www.telegram.hr/super1/power/minutu-za-mene-podrzalo-je-20-ak-poznatih-zena-na-drustvenim-mrezama-otkrile-su-nam-zasto/" target="_blank"><button class="border-first-button" id="startButton">Pročitaj više</button></a>
           </div>
         </div>
       </div>
