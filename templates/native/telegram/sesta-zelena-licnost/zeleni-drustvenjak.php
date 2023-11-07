@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="hr">
 <?php
-    // use this native path to embed all the files from project that are included with project, images, scripts, ...
-    // we will change this when we upload the project to the server
-    // this way we only need to change in one place
-    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/generic/';
-    // use this for versioning, to avoid cache problems
-    $version = 1;
-?>
-
-<?php
-$counterFile = 'drustvenjak.txt';
-$count = intval(file_get_contents($counterFile));
-$count++;
-file_put_contents($counterFile, $count);
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/telegram/sesta-zelena-licnost';
 ?>
 
 
@@ -23,21 +11,9 @@ file_put_contents($counterFile, $count);
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="<?php echo $native_path ?>/assets/images/favicon.png">
-
-    <title>6. Zelena ličnost - Telegram</title>
-
-    <meta property="og:url"                content="http://www.telegram.hr" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="6. Zelena ličnost - Telegram" />
-    <meta property="og:description"        content="Svaka odluka koju donesemo odraz je naše osobnosti. Volimo li promjene, jesmo li otvoreni novim idejama, koliko nam je važna vlastita a koliko tuđa dobrobit - samo su neke od stvari opisane s 5 velikih osobnosti. A mi ti danas predstavljamo šestu - zelenu ličnost" />
-    <meta property="og:image"              content="<?php echo $native_path ?>/assets/images/facebook.jpg" />
-
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -79,12 +55,11 @@ file_put_contents($counterFile, $count);
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li><a href="index.php#top">Naslovnica</a></li>
-              <li><a href="index.php#infografike">Infografike</a></li>
-              <li><a href="index.php#kviz">Kviz</a></li>
-              <li><a href="index.php#clanci">Članci</a></li>
-              <li><a href="index.php#about"></a></li>
-            </ul>        
+                <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#top">Naslovnica</a></li>
+                <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#infografike">Infografike</a></li>
+                <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#kviz">Kviz</a></li>
+                <li><a href="https://www.telegram.hr/native/sesta-zelena-licnost/#clanci">Članci</a></li>
+            </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
@@ -129,24 +104,24 @@ file_put_contents($counterFile, $count);
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post">
             <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/oko-76-posto-ukupnog-otpada-od-hrane-proizvode-kucanstva-istovremeno-svaki-peti-hrvat-zivi-na-rubu-siromastva/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/hrana.webp" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/zivot/oko-76-posto-ukupnog-otpada-od-hrane-proizvode-kucanstva-istovremeno-svaki-peti-hrvat-zivi-na-rubu-siromastva/" target="_blank"><h4>Oko 76 posto ukupnog otpada od hrane proizvode kućanstva. Istovremeno, svaki peti Hrvat živi na rubu siromaštva</h4></a>
+              <p>Veliki problem modernog doba jest ono što jedemo, odnosno što ne pojedemo. Na globalnoj razini baci se oko trećina ukupno proizvedene hrane, koja istovremeno može nahraniti 1,26 milijardi ljudi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post">
+            <div class="thumb">
               <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/pxl-201122-96981021.webp" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Priroda</span>
               <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><h4>Iznenađujuće dobri podaci: Hrvatska ima umjerenu potrošnju plastike i relativno dobro upravlja otpadom</h4></a>
               <p>Međunarodni dan prekoračenja plastike, poznatiji kao Plastic Overshoot Day označava dan u kojem se u svijetu proizvelo više plastike no što se može zbrinuti. Globalno smo taj prag prešli 28. srpnja, no postoji i određeni datum za svaku zemlju zasebno. Hrvatsku pak očekuje 11. listopada.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div class="blog-post">
-            <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-1664636416.webp" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Ljudi</span>
-              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>Unatoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
-              <p>Odgovorna potrošnja i proizvodnja, kako je navedeno u jednom od UN-ovih ciljeva održivog razvoja, zahtijeva minimiziranje utjecaja na okoliš, povećanje učinkovitosti resursa te smanjenje otpada. U njihovom ostvarenju značajnu ulogu imaju globalna trgovina i navike potrošača, a istraživanja pokazuju da smo na poprilično dobrom putu.</p>
             </div>
           </div>
         </div>
@@ -216,11 +191,23 @@ file_put_contents($counterFile, $count);
             </div>
           </div>
         </div>
+        <div class="col-lg-4 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/shutterstock-1664636416.webp" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Ljudi</span>
+              <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>Unatoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
+              <p>Odgovorna potrošnja i proizvodnja, kako je navedeno u jednom od UN-ovih ciljeva održivog razvoja, zahtijeva minimiziranje utjecaja na okoliš...</p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
   </div>
-  
+
 
 
 
@@ -291,7 +278,7 @@ file_put_contents($counterFile, $count);
         </div>
       </div>
       <div class="row" style="margin-top: 50px;">
-        
+
        <div class="col-lg-6 offset-md-3 text-center wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <img style="max-width:300px; height: auto;" src="<?php echo $native_path ?>/assets/images/zl.png"/><br/>
             <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing prema uredničkim standardima Telegram Media Grupe.</p><br/><br/>
@@ -333,11 +320,11 @@ function startQuiz() {
   const quizContent = document.getElementById('quiz-content');
   const headline = document.querySelector('.free-quote h2');
   const startButton = document.querySelector('.free-quote button');
-  
+
   quizContent.style.display = 'block';
   headline.style.display = 'none';
   startButton.style.display = 'none';
-  
+
   showQuestion(currentQuestion);
 }
 

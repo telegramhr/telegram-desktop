@@ -110,18 +110,29 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="col-lg-6 show-up prednost wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
-              <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/pxl-201122-96981021.webp" alt=""></a>
+              <a href="https://www.telegram.hr/zivot/oko-76-posto-ukupnog-otpada-od-hrane-proizvode-kucanstva-istovremeno-svaki-peti-hrvat-zivi-na-rubu-siromastva/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/hrana.webp" alt=""></a>
             </div>
             <div class="down-content">
               <span class="category">Priroda</span>
-              <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><h4>Iznenađujuće dobri podaci: Hrvatska ima umjerenu potrošnju plastike i relativno dobro upravlja otpadom</h4></a>
-              <p>Međunarodni dan prekoračenja plastike, poznatiji kao Plastic Overshoot Day označava dan u kojem se u svijetu proizvelo više plastike no što se može zbrinuti. Globalno smo taj prag prešli 28. srpnja, no postoji i određeni datum za svaku zemlju zasebno. Hrvatsku pak očekuje 11. listopada.</p>
+              <a href="https://www.telegram.hr/zivot/oko-76-posto-ukupnog-otpada-od-hrane-proizvode-kucanstva-istovremeno-svaki-peti-hrvat-zivi-na-rubu-siromastva/" target="_blank"><h4>Oko 76 posto ukupnog otpada od hrane proizvode kućanstva. Istovremeno, svaki peti Hrvat živi na rubu siromaštva</h4></a>
+              <p>Veliki problem modernog doba jest ono što jedemo, odnosno što ne pojedemo. Na globalnoj razini baci se oko trećina ukupno proizvedene hrane, koja istovremeno može nahraniti 1,26 milijardi ljudi.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-posts">
             <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/pxl-201122-96981021-small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Priroda</span>
+                    <a href="https://www.telegram.hr/zivot/iznenadujuce-dobri-podaci-hrvatska-ima-umjerenu-potrosnju-plastike-i-relativno-dobro-upravlja-otpadom/" target="_blank"><h4>Iznenađujuće dobri podaci: Hrvatska ima umjerenu potrošnju plastike i relativno dobro upravlja otpadom</h4></a>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
                   <div class="thumb">
@@ -141,17 +152,6 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Ljudi</span>
                     <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>natoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="post-item last-post-item">
-                  <div class="thumb">
-                    <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/offgridbox_small.webp" alt=""></a>
-                  </div>
-                  <div class="right-content">
-                    <span class="category">Priroda</span>
-                    <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><h4>Od usisavača smoga do papira izrađenog od kamena. Pronašli smo osam genijalnih ekoloških inovacija</h4></a>
                   </div>
                 </div>
               </div>
@@ -505,6 +505,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   <div class="right-content">
                     <span class="category">Zdravlje</span>
                     <a href="https://www.telegram.hr/zivot/ako-nastavimo-ovim-tempom-do-2035-ce-s-debljinom-zivjeti-polovica-hrvata-vrijeme-je-za-promjene/" target="_blank"><h4>Ako nastavimo ovim tempom, do 2035. će s debljinom živjeti polovica Hrvata</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/offgridbox_small.webp" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Priroda</span>
+                    <a href="https://www.telegram.hr/biznis-tech/od-usisavaca-smoga-do-papira-izradenog-od-kamena-pronasli-smo-osam-genijalnih-ekoloskih-inovacija/" target="_blank"><h4>Od usisavača smoga do papira izrađenog od kamena. Pronašli smo osam genijalnih ekoloških inovacija</h4></a>
                   </div>
                 </div>
               </div>

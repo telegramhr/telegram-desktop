@@ -109,6 +109,7 @@ function telegram_get_photographer($id = false, $blog_id = 1) {
 		$id = get_post_thumbnail_id();
 
     $out = wp_cache_get('photographer_'.$id.$blog_id, 'pwa');
+    //$out = false;
     if (!$out) {
         if ($blog_id !== 1) {
             switch_to_blog($blog_id);
@@ -619,10 +620,11 @@ function super1_unautop_4_img( $content )
                 if ($blog_id !== 1) {
                     restore_current_blog();
                 }
+                $link = str_replace('src=', 'loading="lazy" src=', $m[1]);
                 if ( $photo ) {
-                    return '<figure class="wp-caption">' . $m[1] . '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>';
+                    return '<figure class="wp-caption">' . $link . '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>';
                 }
-                return '<figure class="wp-caption">' . $m[1] . '<figcaption class="wp-caption-text">' . $caption . ' </figcaption></figure>';
+                return '<figure class="wp-caption">' . $link . '<figcaption class="wp-caption-text">' . $caption . ' </figcaption></figure>';
             }
         },
         $content, -1
