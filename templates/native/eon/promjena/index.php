@@ -109,14 +109,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full flex horizontal-pad">
                     <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="1000">Evo tko.</h2>
                 </div>
-                <a class="full flex relative article-embed stretch" target="_blank" href="https://www.telegram.hr/partneri/ivan-iz-jaske-na-stoljetnom-imanju-ugradio-je-solare-ljetos-su-mi-stizali-racuni-od-nula-kuna/">
+                <a class="full flex relative article-embed stretch" target="_blank" href="https://www.telegram.hr/zivot/obitelj-volarevic-sa-solarima-na-struji-stedi-130-eura-mjesecno-rekli-su-nam-i-kako-su-se-prijavili-za-subvenciju/">
                     <div class="half pad-me flex-responsive flex desktop-order-2" data-aos="fade-left" data-aos-delay="1000">
-                        <img src="https://www.telegram.hr/wp-content/uploads/2022/10/eon-prhoc7.jpg">
+                        <img src="https://www.telegram.hr/wp-content/uploads/2023/10/sasa4170xw.jpg">
                     </div>
                     <div class="half pad-me flex-responsive center desktop-order-1" data-aos="fade-right" data-aos-delay="1000">
                         <div class="full flex">
-                            <h2 class="full">Ivan iz Jaske</h2>
-                            <p class="full"><span>Ljetos su mi stizali računi od nula kuna</span></p>
+                            <h2 class="full">Hrvoje iz Zagreba</h2>
+                            <p class="full"><span>Zadnji račun smo platili za ožujak kad smo tek počeli s proizvodnjom vlastite struje i iznosio je 10 eura</span></p>
                             <div class="cta animate">Pročitaj više...</div>
                         </div>
                     </div>
@@ -145,6 +145,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
             <div class="container flex relative">
+                <a class="full flex relative article-embed stretch" target="_blank" href="https://www.telegram.hr/partneri/ivan-iz-jaske-na-stoljetnom-imanju-ugradio-je-solare-ljetos-su-mi-stizali-racuni-od-nula-kuna/">
+                    <div class="half pad-me flex-responsive flex desktop-order-2" data-aos="fade-left" data-aos-delay="1000">
+                        <img src="https://www.telegram.hr/wp-content/uploads/2022/10/eon-prhoc7.jpg">
+                    </div>
+                    <div class="half pad-me flex-responsive center desktop-order-1" data-aos="fade-right" data-aos-delay="1000">
+                        <div class="full flex">
+                            <h2 class="full">Ivan iz Jaske</h2>
+                            <p class="full"><span>Ljetos su mi stizali računi od nula kuna</span></p>
+                            <div class="cta animate">Pročitaj više...</div>
+                        </div>
+                    </div>
+                </a>
                 <a class="full flex relative article-embed stretch" target="_blank" href="https://www.telegram.hr/partneri/dragan-iz-sibenika-sa-solarnom-elektranom-snizio-sam-racune-za-400-kuna-prebacit-cu-i-grijanje-na-struju/">
                     <div class="half pad-me flex-responsive flex desktop-order-1" data-aos="fade-left" data-aos-delay="1000">
                         <img src="https://www.telegram.hr/wp-content/uploads/2022/09/vukorepa-dragan2.jpg">
@@ -164,6 +176,20 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full flex horizontal-pad">
                     <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="750">Evo kako.</h2>
                 </div>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="250" href="https://www.telegram.hr/zivot/energetska-obnova-2023-poticaji-za-solarne-panele/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/x0_A7KkpOqOn9zdfPCZG2wdb5SxPu7VDgLyVWOsX65k/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvcHhsLTI2MDgyMi05NTMwNDE4NC5qcGc.webp">
+                    <div class="full flex">
+                        <h2 class="full">Znamo kako umanjiti trošak ugradnje solarne elektrane. Donosimo vam sve korisne savjete na jednom mjestu </h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="500" href="https://www.telegram.hr/zivot/vise-od-70-posto-elektricne-energije-koristimo-iz-zelenih-izvora-strucnjak-nam-je-otkrio-glavni-razlog/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/PylLrGmQE_uboevGg3iGRlyDTkxDkHaf7YOXkuASbbE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvc29sYXJuaS1wYW5lbGkta3VjYS5qcGc.webp">
+                    <div class="full flex">
+                        <h2 class="full">Više od 70 posto električne energije koristimo iz zelenih izvora. Stručnjak nam je otkrio glavni razlog </h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="750" href="https://www.telegram.hr/biznis-tech/energetski-strucnjak-postoji-model-kojim-se-mogu-zastititi-ranjive-skupine-ali-i-potaknuti-ulaganja-u-sektor/" target="_blank">
                     <img class="shoo-bottom" src="https://www.telegram.hr/wp-content/uploads/2023/10/sasa3941xw.jpg">
                     <div class="full flex">
