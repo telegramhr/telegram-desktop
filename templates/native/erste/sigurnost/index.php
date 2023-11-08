@@ -136,7 +136,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
                     <p class="full">61%</p>
-                    <p class="full">više u odnosu na 2022.</p>
+                    <p class="full">više u odnosu na 2021.</p>
                 </div>
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
                     <p class="full">50%</p>
