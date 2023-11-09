@@ -101,6 +101,20 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </section>
         <section class="full flex relative shoo-top" id="strucnjaci">
+            <a href="https://www.telegram.hr/biznis-tech/ne-padajte-na-ove-kripto-prijevare-ekspertica-za-karticnu-sigurnost-objasnila-je-kako-nas-hakeri-namame/"
+                class="container flex article-embed" target="_blank">
+                <div class="two-thirds flex flex-responsive horizontal-pad desktop-order-2">
+                    <img
+                        src="https://www.telegram.hr/wp-content/uploads/2023/10/sasa7175xw.jpg">
+                </div>
+                <div class="third flex flex-responsive horizontal-pad desktop-order-1">
+                    <h2 class="full">Ne padajte na ove kripto prijevare. Ekspertica za kartičnu sigurnost objasnila je kako nas hakeri namame </h2>
+                    <p class="full shoo-bottom">Razgovarali smo s Anitom Tadić, višom stručnom suradnicom za kartičnu sigurnost </p>
+                    <div class="cta">Pročitaj više</div>
+                </div>
+            </a>
+        </section>
+        <section class="full flex relative shoo-top">
             <a href="https://www.telegram.hr/biznis-tech/strucnjakinja-o-karticnim-prijevarama-mogu-se-dogoditi-bilo-kome-a-najvise-se-treba-paziti-direktnih-oglasa/"
                 class="container flex article-embed" target="_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
