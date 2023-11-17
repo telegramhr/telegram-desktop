@@ -145,7 +145,7 @@
 
     jQuery('#submit-form').on('click', function(e) {
         e.preventDefault();
-        jQuery('#submit-form').attr('disable', true);
+        jQuery('#submit-form').hide()
         var jqxhr = jQuery.ajax({
             url: url,
             method: "GET",
