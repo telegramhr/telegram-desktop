@@ -51,8 +51,19 @@ class Telegram_Shortcodes {
         return '<p><iframe style="width: 100%; height: 720px;" src="https://www.energianaturalis.hr/eform?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';
     }
 
-    public function energia_kalkulator() {
-        return '<p><iframe style="width: 100%; height: 720px;" src="https://www.energianaturalis.hr/enapi?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';
+    public function energia_kalkulator($atts) {
+        extract( shortcode_atts(
+            array(
+                'id' => ''
+            ),
+            $atts
+        ));
+        if ($id == 2) {
+            return '<p><iframe style="width: 100%; height: 800px;" src="https://www.energianaturalis.hr/bfform?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';
+        }
+        if (!$id) {
+            return '<p><iframe style="width: 100%; height: 720px;" src="https://www.energianaturalis.hr/enapi?h=d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"></span></iframe></p>';
+        }
     }
 
     function telegram_hidden($atts, $content) {
