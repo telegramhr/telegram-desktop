@@ -77,7 +77,10 @@
             <p class="ostali">Dobro pregledaj sve postojeće salate na GoodFood jelovniku kako bi osigurao da je tvoja kreacija jedinstvena - tražimo originalnost i raznolikost! Pripazi da su tvoju sastojci lako dostupni, stoga izbjegavaj sastojke poput kokihija ili novozelandskog špinata. Detaljno razradi svoj umak i ne zaboravi salati dati kreativno ime imajući na umu kako GoodFood inače naziva svoja jela. Prati naše upute i nećeš imati problema sa stvaranjem salate koja će se istaknuti. </p>
             <p class="ostali"><a href="https://www.telegram.hr/super1/life/pravila-nagradnog-natjecaja-good-food/" target="_blank">Detalje i pravila nagradnog natječaja pronađi ovdje.</a></p>
             <p class="ostali">
-                    <form id="test_form">
+                <div>
+                <h3>Hvala na prijavama. Natječaj je završen. Uskoro ćemo objaviti pobjednika.</h3>
+            </div>
+                    <!--<form id="test_form">
                         <h3 style="font-weight: 900;">Osobni podaci</h3>
                         <label for="ime">Ime:</label>
                         <input type="text" name="ime" placeholder="Ivana" required><br>
@@ -112,8 +115,8 @@
                         <textarea name="umak" rows="4" cols="50" placeholder="Maslinovo ulje, ocat, Worstershire, ljuti umak" style="height: 100px;" required></textarea><br>
 
                         <input type="submit" id="submit-form" value="Pošalji">
-                    </form>
-            <div class="col-lg-6 kontent" id="hvala" style="display: none;">
+                    </form>-->
+            <!--<div class="col-lg-6 kontent" id="hvala" style="display: none;">
                 <img src="<?php echo $native_path ?>/assets/images/logos.png" class="slikahero" />
                 <h1>Hvala <span style="color:#e5d6a2">na sudjelovanju!</span></h1>
                 <h3>Osmislio/la si svoju superzdravu i superukusnu salatu, idealnu za jesenski radni dan.</h3>
@@ -121,7 +124,7 @@
                     <a href="">PRIJAVI SE PONOVNO</a>
                 </div>
 
-            </div>
+            </div>-->
                     <br/><br/>
             </p>
             <p class="prviblok">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom GoodFood i po najvišim uredničkim standardima Telegram Media Grupe.</p>
