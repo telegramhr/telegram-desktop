@@ -176,6 +176,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="full flex horizontal-pad">
                     <h2 class="full subsection-title relative" data-aos="fade-left" data-aos-delay="750">Evo kako.</h2>
                 </div>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="0" href="https://www.telegram.hr/partneri/raspisan-poziv-za-sufinanciranje-kucnih-solarnih-elektrana-provjerite-jeste-li-kandidat/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/5w66GWrwRMjIfvWuZAVcXm1y_fZNwqm5h6LoPmjicgs/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMTEvc2h1dHRlcnN0b2NrLTIwODY3MzM2NjIuanBn.webp">
+                    <div class="full flex">
+                        <h2 class="full">Raspisan poziv za sufinanciranje kućnih solarnih elektrana. Provjerite jeste li kandidat </h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="third flex flex-responsive relative article-embed stretch pad-me" data-aos="fade-up" data-aos-delay="250" href="https://www.telegram.hr/zivot/energetska-obnova-2023-poticaji-za-solarne-panele/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/x0_A7KkpOqOn9zdfPCZG2wdb5SxPu7VDgLyVWOsX65k/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvcHhsLTI2MDgyMi05NTMwNDE4NC5qcGc.webp">
                     <div class="full flex">
