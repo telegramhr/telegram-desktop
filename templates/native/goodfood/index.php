@@ -77,55 +77,58 @@
             <p class="ostali">Dobro pregledaj sve postojeće salate na GoodFood jelovniku kako bi osigurao da je tvoja kreacija jedinstvena - tražimo originalnost i raznolikost! Pripazi da su tvoju sastojci lako dostupni, stoga izbjegavaj sastojke poput kokihija ili novozelandskog špinata. Detaljno razradi svoj umak i ne zaboravi salati dati kreativno ime imajući na umu kako GoodFood inače naziva svoja jela. Prati naše upute i nećeš imati problema sa stvaranjem salate koja će se istaknuti. </p>
             <p class="ostali"><a href="https://www.telegram.hr/super1/life/pravila-nagradnog-natjecaja-good-food/" target="_blank">Detalje i pravila nagradnog natječaja pronađi ovdje.</a></p>
             <p class="ostali">
-                <div>
-                <h3>Hvala na prijavama. Natječaj je završen. Uskoro ćemo objaviti pobjednika.</h3>
-            </div>
-                    <!--<form id="test_form">
-                        <h3 style="font-weight: 900;">Osobni podaci</h3>
-                        <label for="ime">Ime:</label>
-                        <input type="text" name="ime" placeholder="Ivana" required><br>
-
-                        <label for="prezime">Prezime:</label>
-                        <input type="text" name="prezime" placeholder="Ivanić" required><br>
-
-                        <label for="lokacija">Mjesto:</label>
-                        <input type="text" name="lokacija" placeholder="Ivanić Grad" required><br>
-
-                        <label for="telefon">Kontakt telefon:</label>
-                        <input type="tel" name="telefon" placeholder="098 2323 333" required><br>
-
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email" placeholder="ivana.ivanic@gmail.com" required><br>
-
-                        <label class="prihvacanjelabela">
-                                    <input type="checkbox" name="pravila" class="prihvacanje" required><span style="margin-top: 25px !important; position: absolute; margin-left: 10px;">Prihvaćam pravila i uvjete natječaja
-                                </span></label>
-
-                        <h3 style="padding-top: 30px !important; font-weight: 900;">Tvoja salata</h3>
-                        <label style="align-items: top !important;" for="imesalate">Ime salate:</label>
-                        <input type="text" name="imesalate" placeholder="Buffalo Bill" required><br>
-
-                        <label style="align-items: top !important;"  for="baza">Baza:</label>
-                        <input type="text" name="baza" style="margin-bottom: 10px;" placeholder="Salata romana, kristal salata, crveni kupus"  required><br>
-
-                        <label for="dodaci">Dodaci:</label>
-                        <textarea name="dodaci" rows="4" cols="50" placeholder="Crispy pileća krilca, avokado, plavi sir, celer, mrkva, krastavac" style="height: 100px; margin-bottom: 0px;" required></textarea><br>
-
-                        <label for="umak">Umak:</label>
-                        <textarea name="umak" rows="4" cols="50" placeholder="Maslinovo ulje, ocat, Worstershire, ljuti umak" style="height: 100px;" required></textarea><br>
-
-                        <input type="submit" id="submit-form" value="Pošalji">
-                    </form>-->
-            <!--<div class="col-lg-6 kontent" id="hvala" style="display: none;">
-                <img src="<?php echo $native_path ?>/assets/images/logos.png" class="slikahero" />
-                <h1>Hvala <span style="color:#e5d6a2">na sudjelovanju!</span></h1>
-                <h3>Osmislio/la si svoju superzdravu i superukusnu salatu, idealnu za jesenski radni dan.</h3>
-                <div class="border-first-button scroll-to-section">
-                    <a href="">PRIJAVI SE PONOVNO</a>
-                </div>
-
-            </div>-->
-                    <br/><br/>
+                Dragi sudionici natječaja,
+            </p> <p class="ostali">
+                Hvala vam na fantastičnim prijavama - zatvorili smo prvu fazu našeg nagradnog natječaja. Vaše su nas super salate ostavile bez daha i izazovno je bilo izabrati samo 10 najboljih. No, ovo su salate koje su se istaknule i osvojile nagradu:
+            </p> <p class="ostali">
+                Top 10 i vaučer u iznosu od 50 € osvajaju salate (autori):
+            </p>
+            <p class="ostali">
+                <ul>
+                <li>
+                Quinoa Glow Bowl (Sanja Novotny)
+                </li><li>
+                Eve’s Apple (Jan Cegnar)
+                </li><li>
+                Greenie Beenie Zucchini (Ivana Poljanac)
+                </li><li>
+                East West (Laura Novak)
+                </li><li>
+                Beetlejuice (Kristiana Božičević)
+                </li><li>
+                Think Pink (Vana Grgurinović)
+                </li><li>
+                Cheesy Kale (Tena Marčac)
+                </li><li>
+                Fetalicious Falafel (Helena Hastor)
+                </li><li>
+                Piri-Piri Salata (Klara Kolarić)
+                </li><li>
+                Vegan Winter (Lara Levak)
+                </li></ul>
+            </p> <p class="ostali">
+                Top 5 i prolaze dalje u drugu fazu natječaja:
+            </p> <p class="ostali">
+                <ul>
+                <li>
+                Think Pink (Vana Grgurinović)
+                </li><li>
+                Cheesy Kale (Tena Marčac)
+                </li><li>
+                Fetalicious Falafel (Helena Hastor)
+                </li><li>
+                Piri-Piri Salata (Klara Kolarić)
+                </li><li>
+                Vegan Winter (Lara Levak)
+                </li></ul>
+            <p class="ostali">
+                S obzirom na veliki broj prijava, morali smo pomaknuti fazu glasovanja na ponedjeljak (4.12.2023.). Hvala Vam na strpljenju! Pozivamo Vas da od ponedjeljka ostavite svoj glas i tako izravno sudjelujete u odabiru Super1 Salad Stilista. Pobjednika objavljujemo 16. prosinca.
+            </p>
+            <p class="ostali">
+                Izmijenjena pravila nagradnog natječaja pročitajte <a href="https://www.telegram.hr/super1/life/pravila-nagradnog-natjecaja-good-food/" target="_blank">ovdje</a>.
+            </p>
+            <p class="ostali">
+                Sretno svima!
             </p>
             <p class="prviblok">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom GoodFood i po najvišim uredničkim standardima Telegram Media Grupe.</p>
             <img src="<?php echo $native_path ?>/assets/images/telegram-studio.png" style="max-width: 180px; height: auto;" /><br/><br/>
