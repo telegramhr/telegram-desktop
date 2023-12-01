@@ -68,7 +68,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-          <div class="kartica  <?php echo date('mdH') < 120109 ? 'skrivena' : '' ?>">
+          <div class="kartica  <?php echo date('mdH') < 120114 ? 'skrivena' : '' ?>">
             <img src="<?php echo $native_path ?>/assets/images/mima.jpg" />
             <h4>01. prosinca 2023.</h4>
             <h2>Mima namještaj</h2>
@@ -76,7 +76,7 @@
               <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
             </div>
           </div>
-            <div class="karticaoff <?php echo date('mdH') > 120109 ? 'skrivena' : '' ?>">
+            <div class="karticaoff <?php echo date('mdH') > 120114 ? 'skrivena' : '' ?>">
                 <h2>01</h2>
             </div>
         </div>
