@@ -5,6 +5,8 @@
     $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/goodfood';
     // use this for versioning, to avoid cache problems
     $version = 1;
+    $votes_total = wp_cache_get('sheet_19wADYkOoYl5aRA8fLl_AAlBEf0tk4x41mzkcbUAxEA8_count', 'sheets');
+    $votes = wp_cache_get('sheet_19wADYkOoYl5aRA8fLl_AAlBEf0tk4x41mzkcbUAxEA8_messages', 'sheets');
 ?>
 <!DOCTYPE html>
 <html lang="hr">
@@ -61,6 +63,7 @@
                 <div class="col-lg-4">
                     <img src="<?php echo $native_path ?>/assets/images/s01.png"/>
                     <p style="text-align: center !important;"><span data-artikl="1" class="artikl-score" style="font-weight:900; ">
+                            <?php echo number_format($votes[1]/$votes_total * 100) ?>%
                     </span>
                     </p>
                     <center><form>
@@ -82,7 +85,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <img src="<?php echo $native_path ?>/assets/images/s02.png"/>
-                    <p style="text-align: center !important;"><span data-artikl="2" class="artikl-score" style="font-weight:900; "></span>
+                    <p style="text-align: center !important;"><span data-artikl="2" class="artikl-score" style="font-weight:900; "><?php echo number_format($votes[2]/$votes_total * 100) ?>%</span>
                     </p>
                     <center> <form>
                         <button class="glasackibutton"  type="button" name="id_artikla" value="2">❤</button>
@@ -104,7 +107,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <img src="<?php echo $native_path ?>/assets/images/s03.png"/>
-                    <p style="text-align: center !important;"><span  data-artikl="3" class="artikl-score" style="font-weight:900; "></span>
+                    <p style="text-align: center !important;"><span  data-artikl="3" class="artikl-score" style="font-weight:900; "><?php echo number_format($votes[3]/$votes_total * 100) ?>%</span>
                     </p>
                     <center> <form>
                         <button class="glasackibutton"  type="buton" name="id_artikla" value="3">❤</button>
@@ -128,6 +131,7 @@
                 <div class="col-lg-4">
                     <img src="<?php echo $native_path ?>/assets/images/s04.png"/>
                     <p style="text-align: center !important;"><span  data-artikl="4" class="artikl-score" style="font-weight:900; ">
+                            <?php echo number_format($votes[4]/$votes_total * 100) ?>%
                    </span>
                     </p>
                     <center> <form>
@@ -149,7 +153,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <img src="<?php echo $native_path ?>/assets/images/s05.png"/>
-                    <p style="text-align: center !important;"><span  data-artikl="5" class="artikl-score" style="font-weight:900; "></span>
+                    <p style="text-align: center !important;"><span  data-artikl="5" class="artikl-score" style="font-weight:900; "><?php echo number_format($votes[5]/$votes_total * 100) ?>%</span>
                     </p>
                     <center> <form>
                         <button class="glasackibutton"  type="button" name="id_artikla" value="5">❤</button>
@@ -171,7 +175,7 @@
 
 
         </div>
-
+            <div class="poruka" style="display:none;">Već ste glasovali. Možete glasovati samo jednom!</div>
 
             <p class="prviblok">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom GoodFood i po najvišim uredničkim standardima Telegram Media Grupe.</p>
             <img src="<?php echo $native_path ?>/assets/images/telegram-studio.png" style="max-width: 180px; height: auto;" /><br/><br/>
@@ -189,15 +193,20 @@
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
 <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
 <script>
-    var $form = jQuery('form#test_form'),
+    var voted = false,
         url = 'https://script.google.com/macros/s/AKfycbzKRR797zOgV8-J3pfBNm8sJwYo_WaIQM9xYBXKGziCsjq0HHiAX9QcWRF5_LTS7f4OZw/exec'
 
     jQuery('.glasackibutton').on('click', function(e) {
-        if (getCookie('good_food_vote') == 1) {
-            jQuery(this).parents('form')[0].html('<div class="poruka">Već ste glasovali. Možete glasovati samo jednom!</div>')
-        }
         e.preventDefault();
         jQuery('.glasackibutton').attr('disable', true);
+        if (getCookie('good_food_vote') == 1 || voted) {
+            jQuery('.poruka').text('Već ste glasovali. Možete glasovati samo jednom!').show()
+            //jQuery('.poruka').show();
+            return;
+        }
+        jQuery('.poruka').text('Hvala na glasu!').show();
+        setCookie('good_food_vote', 1, 30)
+        voted = true;
         var jqxhr = jQuery.ajax({
             url: url,
             method: "GET",
@@ -205,12 +214,7 @@
             data: {
                 vote: jQuery(this).val()
             }
-        }).done(
-            function(){
-                jQuery(this).parents('form')[0].html('<div class="poruka">Hvala vam na glasovanju!</div>')
-                setCookie('good_food_vote', 1, 30)
-            }
-        );
+        })
     })
 
     function getCookie(cname) {
