@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="hr">
 <?php
     // use this native path to embed all the files from project that are included with project, images, scripts, ...
     // we will change this when we upload the project to the server
@@ -8,128 +6,173 @@
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
+<!DOCTYPE html>
+<html lang="hr">
 
 
 <head>
-    <?php wp_head(); ?>
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <?php wp_head(); ?>
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
-    <style>
-          @-webkit-keyframes puls { 0% { -webkit-transform:scale(1) } 50% {-webkit-transform: scale(1.4);} 100% { -webkit-transform:scale(1) } }
-           @keyframes puls { 0% { transform:scale(1) } 50% {transform: scale(1.4);} 100% { transform:scale(1) } }
-
-          @-webkit-keyframes pulsbubblea { 0% { margin-top:0; } 50% {margin-top: 10px;} 100% { margin-top:0; } }
-           @keyframes pulsbubblea { 0% { margin-top:0 } 50% {margin-top: 10px;} 100% { margin-top:0 } }
-    </style>
 </head>
 
 <body>
-<?php do_action('telegram_body_start'); ?>
 
+<?php do_action('telegram_body_start'); ?>
   <div id="clanci" class="blog">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-6 text-center" style="margin:0; padding: 0;">
             <div class="sticky-top">
-                    <img src="<?php echo $native_path ?>/assets/images/salata.png" style="-webkit-animation: pulse 2s ease-in-out 0s infinite; animation: pulse 2s ease-in-out 0s infinite; z-index: 9; position: relative;"/>
+                    <img src="<?php echo $native_path ?>/assets/images/salata.png"/>
           </div>
         </div>
         <div class="col-lg-6 text-left kontent">
             <img src="<?php echo $native_path ?>/assets/images/logos.png" class="slikahero" />
-            <h1>Postani <span style="color:#e5d6a2">Super1</span> Salad Stilist</h1>
-            <h3>Najzdraviji nagradni natječaj: tvoja superzdrava salata na GoodFood meniju?</h3>
+            <h1>Biramo <span style="color:#e5d6a2">Super1</span> Salad Stilista</h1>
+            <h3>Svojim glasom podrži salatu koju želiš vidjeti na GoodFood meniju.</h3>
             <div class="border-first-button scroll-to-section">
-               <a href="#detaljna-pravila">PRIJAVI SE</a>
+               <a href="#odaberi-pobjednika">Odaberi pobjednika</a>
             </div>
             <img src="<?php echo $native_path ?>/assets/images/salata01.png"/>
-            <p class="prviblok" id="procitaj-vise"><span style="font-weight: 900;">GoodFood i Super1 te pozivaju da postaneš Salad Stilist!</span> Osmisli svoju superzdravu i superukusnu salatu, idealnu za jesenski radni dan. <span style="font-weight: 900;">Želiš svojim kreativnim receptom obogatiti GoodFood meni?</span> Sada imaš priliku!</p>
-            <p  class="ostali"><img src="<?php echo $native_path ?>/assets/images/crta.png" style="max-width: 70px; height:auto" /></p>
-            <p class="ostali">Natječaj je super jednostavan - samo slijedi ovih nekoliko koraka:</p>
-            <ul>
-              <li>Razmisli o svojoj omiljenoj salati koju bi volio vidjeti na GoodFood meniju. Bez ograničenja - danas ti biraš!</li>
-              <li>Što joj čini bazu - hrskavi listovi zelene kristal salate ili voliš više gorčinu iz rukole? </li>
-              <li>Koje joj dodatke dodaješ - je li to svježe ili grill povrće, mladi ili tvrdi sir, orašasto ili sušeno voće, sočan ili hrskavi komad mesa?</li>
-              <li>Umak je tajna svakog velikog majstora salate. Što se nalazi u tvom - je li kiseo, sladak, gorak, gust, ljut, osvježavajući?</li>
-              <li>Na kraju razmisli o imenu koje će se savršeno uklopiti u GoodFood meni. Daj mašti na volju.</li>
-            </ul>
-            <p  class="ostali"><img src="<?php echo $native_path ?>/assets/images/crta.png" style="max-width: 70px; height:auto" /></p>
-            <p class="ostali"><span style="font-weight: 900;">Autore top 10 najboljih salata nagradit ćemo GoodFood vaučerom u vrijednosti od 50€.</span> Među njima top 5 najboljih proći će u drugi krug u kojemu pozivamo sve čitatelje da glasuju za onaj recept koji im se najviše sviđa. Najbolji recept, po izboru publike, završit će na GoodFood meniju i biti dostupan baš svima čak mjesec dana. Uz to, kreator pobjedničkog recepta dobit će udio zarade od prodaje svoje salate te 30 dana besplatno jesti u restoranima GoodFooda!</p>
-            <p class="ostali">Pokaži svoju kulinarsku kreativnost i osvoji mjesto na GoodFood jelovniku. Naše savjete za pobjedničku salatu potraži ispod.</p>
-            <div class="border-first-button scroll-to-section">
-               <a href="#detaljna-pravila">PRIJAVI SE</a>
+
+            <h3 id="odaberi-pobjednika" style="font-weight:900">Zaprimili smo više od 250 originalnih recepata za hranjivu i ukusnu salatu od čitatelja. </h3>
+            <p class="ostali">Sada se ovih pet finalista bori za titulu najboljeg. Glasovanje traje do ponedjeljka 11. prosinca u 23:59. U svakom trenutku možeš vidjeti tko u tom trenutku ima najviše glasova, a svoj možeš dodijeliti samo jednom.</p>
+            <p class="ostali">Pobjednička salata mjesec dana nalazit će se na GoodFood meniju, a njezin autor osvojit će mjesec dana besplatnih obroka u GoodFoodu i udio zarade od svoje salate. Pobjednika ćemo proglasiti na Super1 portalu do 20. prosinca.</p>
+            <p class="ostali"><a href="#" target="_blank">Pravila nagradnog natječaja pronađi ovdje.</a></p>
+            <p class="ostali">Daj glas za najbolju kombinaciju okusa!</p>
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="<?php echo $native_path ?>/assets/images/s01.png"/>
+                    <p style="text-align: center !important;"><span data-artikl="1" class="artikl-score" style="font-weight:900; ">
+                    </span>
+                    </p>
+                    <center><form>
+                            <button class="glasackibutton"  type="button" name="id_artikla" value="1">❤</button>
+                    </form>
+                    </center>
+
+                </div>
+                <div class="col-lg-8">
+                        <h3>Think Pink </h3>
+                        <p><span style="font-weight:900;">Baza:</span> Quinoa, rikola & crveni radič<br/>
+                        <span style="font-weight:900;">Dodaci:</span> Pileći file, prepečeni tofu, edamame & rotkvica<br/>
+                        <span style="font-weight:900;">Umak:</span> Pink hummus: slanutak, cikla, češnjak, limun, sol, papar & maslinovo ulje<br/><br/>
+
+                        Think Pink stilist: <span style="font-weight:900;">Vana Grgurinović </span></p>
+                </div>
             </div>
-            <p class="ostali"><a href="#detaljna-pravila" >Pročitaj detaljna pravila</a></p>
-            <img src="<?php echo $native_path ?>/assets/images/salata02.png"/>
-            <h3 id="detaljna-pravila" style="font-weight:900">Evo kako tvoja salata može biti ona pobjednička</h3>
-            <p class="ostali">Dobro pregledaj sve postojeće salate na GoodFood jelovniku kako bi osigurao da je tvoja kreacija jedinstvena - tražimo originalnost i raznolikost! Pripazi da su tvoju sastojci lako dostupni, stoga izbjegavaj sastojke poput kokihija ili novozelandskog špinata. Detaljno razradi svoj umak i ne zaboravi salati dati kreativno ime imajući na umu kako GoodFood inače naziva svoja jela. Prati naše upute i nećeš imati problema sa stvaranjem salate koja će se istaknuti. </p>
-            <p class="ostali"><a href="https://www.telegram.hr/super1/life/pravila-nagradnog-natjecaja-good-food/" target="_blank">Detalje i pravila nagradnog natječaja pronađi ovdje.</a></p>
-            <p class="ostali">
-                Dragi sudionici natječaja,
-            </p> <p class="ostali">
-                Hvala vam na fantastičnim prijavama - zatvorili smo prvu fazu našeg nagradnog natječaja. Vaše su nas super salate ostavile bez daha i izazovno je bilo izabrati samo 10 najboljih. No, ovo su salate koje su se istaknule i osvojile nagradu:
-            </p> <p class="ostali">
-                Top 10 i vaučer u iznosu od 50 € osvajaju salate (autori):
-            </p>
-            <p class="ostali">
-                <ul>
-                <li>
-                Quinoa Glow Bowl (Sanja Novotny)
-                </li><li>
-                Eve’s Apple (Jan Cegnar)
-                </li><li>
-                Greenie Beenie Zucchini (Ivana Poljanac)
-                </li><li>
-                East West (Laura Novak)
-                </li><li>
-                Beetlejuice (Kristiana Božičević)
-                </li><li>
-                Think Pink (Vana Grgurinović)
-                </li><li>
-                Cheesy Kale (Tena Marčac)
-                </li><li>
-                Fetalicious Falafel (Helena Hastor)
-                </li><li>
-                Piri-Piri Salata (Klara Kolarić)
-                </li><li>
-                Vegan Winter (Lara Levak)
-                </li></ul>
-            </p> <p class="ostali">
-                Top 5 i prolaze dalje u drugu fazu natječaja:
-            </p> <p class="ostali">
-                <ul>
-                <li>
-                Think Pink (Vana Grgurinović)
-                </li><li>
-                Cheesy Kale (Tena Marčac)
-                </li><li>
-                Fetalicious Falafel (Helena Hastor)
-                </li><li>
-                Piri-Piri Salata (Klara Kolarić)
-                </li><li>
-                Vegan Winter (Lara Levak)
-                </li></ul>
-            <p class="ostali">
-                S obzirom na veliki broj prijava, morali smo pomaknuti fazu glasovanja na ponedjeljak (4.12.2023.). Hvala Vam na strpljenju! Pozivamo Vas da od ponedjeljka ostavite svoj glas i tako izravno sudjelujete u odabiru Super1 Salad Stilista. Pobjednika objavljujemo 16. prosinca.
-            </p>
-            <p class="ostali">
-                Izmijenjena pravila nagradnog natječaja pročitajte <a href="https://www.telegram.hr/super1/life/pravila-nagradnog-natjecaja-good-food/" target="_blank">ovdje</a>.
-            </p>
-            <p class="ostali">
-                Sretno svima!
-            </p>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="<?php echo $native_path ?>/assets/images/s02.png"/>
+                    <p style="text-align: center !important;"><span data-artikl="2" class="artikl-score" style="font-weight:900; "></span>
+                    </p>
+                    <center> <form>
+                        <button class="glasackibutton"  type="button" name="id_artikla" value="2">❤</button>
+                    </form>
+                    </center>
+
+                </div>
+                <div class="col-lg-8">
+                        <h3>Cheesy Kale </h3>
+                        <p><span style="font-weight:900;">Baza:</span> Kovrčavi kelj<br/>
+                        <span style="font-weight:900;">Dodaci:</span> Smeđa riža ili kvinoja, listići parmezana, pečeni hrskavi slanutak, avokado i piletina<br/>
+                        <span style="font-weight:900;">Umak:</span> Maslinovo ulje, sok limuna, sol, papar, češnjak, ribani parmezan, majčina dušica<br/><br/>
+
+                        Cheesy Kale stilist: <span style="font-weight:900;">Tena Marčac</span></p>
+                </div>
+            </div>
+
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="<?php echo $native_path ?>/assets/images/s03.png"/>
+                    <p style="text-align: center !important;"><span  data-artikl="3" class="artikl-score" style="font-weight:900; "></span>
+                    </p>
+                    <center> <form>
+                        <button class="glasackibutton"  type="buton" name="id_artikla" value="3">❤</button>
+                    </form>
+                    </center>
+
+                </div>
+                <div class="col-lg-8">
+                        <h3>Fetalicious Falafel</h3>
+                        <p><span style="font-weight:900;">Baza:</span> Iceberg, radič, rikula<br/>
+                        <span style="font-weight:900;">Dodaci:</span> Falafel, batat, sjemenke suncokreta, marinirane pečene cherry rajčice u češnjaku i ulju od bosiljka & mrkva<br/>
+                        <span style="font-weight:900;">Umak:</span> Blend fete, grčkog jogurta, češnjaka & kopra <br/><br/>
+
+                        Fetalicious Falafel stilist: <span style="font-weight:900;">Helena Hastor</span></p>
+                </div>
+            </div>
+
+
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="<?php echo $native_path ?>/assets/images/s04.png"/>
+                    <p style="text-align: center !important;"><span  data-artikl="4" class="artikl-score" style="font-weight:900; ">
+                   </span>
+                    </p>
+                    <center> <form>
+                        <button class="glasackibutton"  type="button" name="id_artikla" value="4">❤</button>
+                    </form>
+                    </center>
+
+                </div>
+                <div class="col-lg-8">
+                        <h3>Piri-Piri Salata</h3>
+                        <p><span style="font-weight:900;">Baza:</span> Špinat, crveni radič & rikula<br/>
+                        <span style="font-weight:900;">Dodaci:</span> Pileća krilca marinirana, pirjani šampinjoni, cikla, pečena tikva, pečena mrkva, avokado, krastavac, klice soje & klice alfa alfa<br/>
+                        <span style="font-weight:900;">Umak:</span> Balsamico dressing<br/><br/>
+
+                        Piri-Piri Salata stilist: <span style="font-weight:900;">Klara Kolarić</span></p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="<?php echo $native_path ?>/assets/images/s05.png"/>
+                    <p style="text-align: center !important;"><span  data-artikl="5" class="artikl-score" style="font-weight:900; "></span>
+                    </p>
+                    <center> <form>
+                        <button class="glasackibutton"  type="button" name="id_artikla" value="5">❤</button>
+                        <input type="hidden" name="glasaj" value="1">
+                    </form>
+                    </center>
+
+                </div>
+                <div class="col-lg-8">
+                        <h3>Vegan Winter</h3>
+                        <p><span style="font-weight:900;">Baza:</span> Kristal salata, matovilac, crveni kupus<br/>
+                        <span style="font-weight:900;">Dodaci:</span> Pečeni dimljeni tofu, pečeni batat, pečene prokulice, ukiseljena mrkva & zrnca šipka<br/>
+                        <span style="font-weight:900;">Umak:</span> Veganski ranch (veganska majoneza, biljno mlijeko, jabučni ocat, češnjak u prahu, luk u prahu, peršin, kopar & papar)<br/><br/>
+
+                        Vegan Winter stilist: <span style="font-weight:900;">Lara Levak</span></p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
             <p class="prviblok">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom GoodFood i po najvišim uredničkim standardima Telegram Media Grupe.</p>
             <img src="<?php echo $native_path ?>/assets/images/telegram-studio.png" style="max-width: 180px; height: auto;" /><br/><br/>
         </div>
@@ -147,24 +190,52 @@
 <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
 <script>
     var $form = jQuery('form#test_form'),
-        url = 'https://script.google.com/macros/s/AKfycby8hA1X1rowN32CFzZSkX-d_0TXSWtBYULVac8zMSN8_JIq6Htk-0VVGWlynV1Zqj0Y/exec'
+        url = 'https://script.google.com/macros/s/AKfycbzKRR797zOgV8-J3pfBNm8sJwYo_WaIQM9xYBXKGziCsjq0HHiAX9QcWRF5_LTS7f4OZw/exec'
 
-    jQuery('#submit-form').on('click', function(e) {
+    jQuery('.glasackibutton').on('click', function(e) {
+        if (getCookie('good_food_vote') == 1) {
+            jQuery(this).parents('form')[0].html('<div class="poruka">Već ste glasovali. Možete glasovati samo jednom!</div>')
+        }
         e.preventDefault();
-        jQuery('#submit-form').hide()
+        jQuery('.glasackibutton').attr('disable', true);
         var jqxhr = jQuery.ajax({
             url: url,
             method: "GET",
             dataType: "json",
-            data: $form.serializeObject()
+            data: {
+                vote: jQuery(this).val()
+            }
         }).done(
             function(){
-                jQuery('#test_form').hide();
-                jQuery('#hvala').show();
+                jQuery(this).parents('form')[0].html('<div class="poruka">Hvala vam na glasovanju!</div>')
+                setCookie('good_food_vote', 1, 30)
             }
         );
     })
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i <ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        let expires = "expires="+ d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
 </script>
-    <?php wp_footer(); ?>
+<?php wp_footer(); ?>
 </body>
 </html>
