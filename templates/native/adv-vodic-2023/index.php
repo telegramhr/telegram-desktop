@@ -29,7 +29,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=3">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
     <link href="<?php echo $native_path ?>/assets/dist/css/lightbox.css" rel="stylesheet" />
@@ -98,21 +98,7 @@
               </div>
             </div>
     </div>
-        <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
-    <div class="container flixbus">
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-3 text-center">
-          <img src="<?php echo $native_path ?>/assets/images/bus.png" />
-        </div>
-        <div class="col-lg-8">
-          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
-          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
-        </div>
-      </div>
-    </div>
-    </a>
+
 </div>
 
 
@@ -142,21 +128,7 @@
               </div>
             </div>
     </div>
-        <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
-    <div class="container flixbus">
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-3 text-center">
-          <img src="<?php echo $native_path ?>/assets/images/bus.png" />
-        </div>
-        <div class="col-lg-8">
-          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
-          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
-        </div>
-      </div>
-    </div>
-    </a>
+
 </div>
 
 
@@ -186,21 +158,7 @@
               </div>
             </div>
     </div>
-        <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
-    <div class="container flixbus">
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-3 text-center">
-          <img src="<?php echo $native_path ?>/assets/images/bus.png" />
-        </div>
-        <div class="col-lg-8">
-          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
-          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
-        </div>
-      </div>
-    </div>
-    </a>
+
   </div>
 
   <div id="zagrebacka-zupanija" class="blog" style="padding-top: 0;">
@@ -228,7 +186,7 @@
               </div>
             </div>
     </div>
-        <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+  <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
     <div class="container flixbus">
       <div class="row">
         <div class="col-lg-1">
@@ -272,21 +230,7 @@
               </div>
             </div>
     </div>
-        <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
-    <div class="container flixbus">
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-3 text-center">
-          <img src="<?php echo $native_path ?>/assets/images/bus.png" />
-        </div>
-        <div class="col-lg-8">
-          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
-          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
-        </div>
-      </div>
-    </div>
-    </a>
+
   </div>
 
 
@@ -315,21 +259,7 @@
               </div>
             </div>
     </div>
-        <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
-    <div class="container flixbus">
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-3 text-center">
-          <img src="<?php echo $native_path ?>/assets/images/bus.png" />
-        </div>
-        <div class="col-lg-8">
-          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
-          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
-        </div>
-      </div>
-    </div>
-    </a>
+
 </div>
 
 
@@ -359,21 +289,7 @@
               </div>
             </div>
     </div>
-        <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
-    <div class="container flixbus">
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-3 text-center">
-          <img src="<?php echo $native_path ?>/assets/images/bus.png" />
-        </div>
-        <div class="col-lg-8">
-          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
-          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
-        </div>
-      </div>
-    </div>
-    </a>
+
   </div>
 
     <div id="zadar" class="blog" style="padding-top: 0;">

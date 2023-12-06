@@ -181,6 +181,7 @@ font-size: 32px !important;
   color: #fff !important;
 }
 
+.blog.prvi {padding-top: 100px !important; padding-bottom: 60px;}
 
 .sponsors .animated-headline {
   opacity: 0; /* Hide the headlines initially */
