@@ -62,7 +62,7 @@
         <div class="col-lg-6 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0s">
           <h1>Advent u<br/>našem kraju</h1>
           <p style="text-align:center;">Obišli smo najatraktivnije lokacije ovih blagdana diljem Hrvatske i donosimo vam spektakularno putovanje kroz destinacije koje morate posjetiti ovog adventa. Krenite s nama na avanturu punu divnih ukrasa i poklona, ukusnih slanih i slatkih zalogaja, dobre muzike i odličnih domaćina.</p>
-          <p style="text-align:center;"> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagreb" style="display: none;"><button class="border-first-button">Zagreb</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek" style="display:none"><button class="border-first-button">Osijek</button></a></p>
+          <p style="text-align:center;"> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagreb" style="display: none;"><button class="border-first-button">Zagreb</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek" style="display:none"><button class="border-first-button">Osijek</button></a> <a href="#zadar"><button class="border-first-button">Zadar</button></a></p>
           <p>&nbsp;</p>
         </div>
         <div class="col-lg-3 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0.5s">
@@ -98,6 +98,16 @@
               </div>
             </div>
     </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
 </div>
 
 
@@ -127,6 +137,16 @@
               </div>
             </div>
     </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
 </div>
 
 
@@ -156,6 +176,16 @@
               </div>
             </div>
     </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
   </div>
 
   <div id="zagrebacka-zupanija" class="blog" style="padding-top: 0;">
@@ -183,6 +213,16 @@
               </div>
             </div>
     </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
 </div>
 
 
@@ -212,6 +252,16 @@
               </div>
             </div>
     </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
   </div>
 
 
@@ -240,6 +290,16 @@
               </div>
             </div>
     </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
 </div>
 
 
@@ -269,7 +329,54 @@
               </div>
             </div>
     </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
   </div>
+
+    <div id="zadar" class="blog" style="padding-top: 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+          <h2>Zadar</h2>
+          <p>Njihova se gastronomska ponuda prošle godine proširila diljem zemlje, a ove nam sezone nude to i još više, popraćeno bogatim muzičkim programom, jedinstvenom adventskom trkačkom utrkom i zimskim parkom na čak 500 četvornih metara. Ovo su samo neki od razloga zašto se sljedeći vikend uputiti prema moru.</p>
+          <p><a href="https://www.telegram.hr/partneri/drugacija-sarma-burger-s-tripicama-i-zimski-kokteli-ove-se-godine-grijemo-na-standovima-u-zadru/" target="_blank">OTKRIJTE ADVENT U ZADRU</a></p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+          <img src="<?php echo $native_path ?>/assets/images/zadar.png" />
+        </div>
+      </div>
+            <div class="row">
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/zadar-01.jpeg" data-lightbox="image-1" data-title="Zadar"><img src="<?php echo $native_path ?>/assets/images/zadar01.png" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/zadar-02.jpg" data-lightbox="image-1" data-title="Zadar"><img src="<?php echo $native_path ?>/assets/images/zadar02.png" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/zadar-03.jpeg" data-lightbox="image-1" data-title="Zadar"><img src="<?php echo $native_path ?>/assets/images/zadar03.png" /></a>
+              </div>
+            </div>
+    </div>
+    <a href="https://www.telegram.hr/super1/najbolji-adventski-programi-diljem-zemlje-napravili-smo-popis-onih-koje-morate-obici/" target="_blank">
+    <div class="container flixbus">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Otputuj na svoju sljedeću adventsku destinaciju bezbrižno</h3>
+          <p>Provjeri kuda sve možeš s najpopularnijim zelenim busevima već sljedećeg vikenda.</p>
+        </div>
+      </div>
+    </div>
+    </a>
+</div>
 
 
 
