@@ -192,6 +192,7 @@
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
 <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
+<?php if (date('YmdH') < 2023121111): ?>
 <script>
     var voted = false,
         url = 'https://script.google.com/macros/s/AKfycbzKRR797zOgV8-J3pfBNm8sJwYo_WaIQM9xYBXKGziCsjq0HHiAX9QcWRF5_LTS7f4OZw/exec'
@@ -240,6 +241,7 @@
         document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
 </script>
+<?php endif; ?>
 <?php wp_footer(); ?>
 </body>
 </html>

@@ -185,7 +185,7 @@
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
-          <div class="kartica <?php echo date('mdH') < 121008 ? 'skrivena' : '' ?>">
+          <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/kotanyi.jpg" />
             <h4>10. prosinca 2023.</h4>
             <h2>Kotanyi</h2>
@@ -193,7 +193,7 @@
               <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
             </div>
           </div>
-          <div class="karticaoff <?php echo date('mdH') > 121108 ? 'skrivena' : '' ?>">
+          <div class="karticaoff skrivena">
             <h2>10</h2>
           </div>
         </div>
