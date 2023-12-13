@@ -62,7 +62,7 @@
         <div class="col-lg-6 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0s">
           <h1>Advent u<br/>našem kraju</h1>
           <p style="text-align:center;">Obišli smo najatraktivnije lokacije ovih blagdana diljem Hrvatske i donosimo vam spektakularno putovanje kroz destinacije koje morate posjetiti ovog adventa. Krenite s nama na avanturu punu divnih ukrasa i poklona, ukusnih slanih i slatkih zalogaja, dobre muzike i odličnih domaćina.</p>
-          <p style="text-align:center;"> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagreb" style="display: none;"><button class="border-first-button">Zagreb</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek" style="display:none"><button class="border-first-button">Osijek</button></a> <a href="#zadar"><button class="border-first-button">Zadar</button></a></p>
+          <p style="text-align:center;"> <a href="#zagreb"><button class="border-first-button">Zagreb</button></a> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek" style="display:none"><button class="border-first-button">Osijek</button></a> <a href="#zadar"><button class="border-first-button">Zadar</button></a> <a href="#jj-sound-bar"><button class="border-first-button">JJ Sound bar</button></a></p>
           <p>&nbsp;</p>
         </div>
         <div class="col-lg-3 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0.5s">
@@ -73,17 +73,45 @@
   </div>
 
 
+  <div id="zagreb" class="blog" style="padding-top: 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+          <h2>Zagreb</h2>
+          <p>Advent koji je tri godine za redom proglašen najboljim u Europi, svake godine svojim sadržajem i energijom doziva sve više posjetitelja koji će ove sezone u njemu moći uživati u muzejima, kazalištima, crkvama, pa čak i tunelima, umjetničkim punktovima i brojnim trgovima.</p>
+          <p><a href="https://www.telegram.hr/partneri/od-koncerata-i-flashmoba-do-programa-u-muzejima-na-adventu-zagreb-ocekuju-vas-najljepse-blagdanske-uspomene/" target="_blank" class="linkovi">OTKRIJTE ADVENT U ZAGREBU</a></p>
+          <p><a href="https://www.telegram.hr/partneri/blagdanska-carolija-u-zagrebu-je-krenula-ove-godine-secemo-medu-divovima-u-parku-i-idemo-na-bal-na-mazurancu/" target="_blank" class="linkovi">EVO ŠTO JE JOŠ NOVO</a></p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+          <img src="<?php echo $native_path ?>/assets/images/zagreb.png" />
+        </div>
+      </div>
+            <div class="row">
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/zagreb-01.jpg" data-lightbox="image-1" data-title="Zagreb"><img src="<?php echo $native_path ?>/assets/images/zagreb01.png" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/zagreb-02.jpg" data-lightbox="image-1" data-title="Zagreb"><img src="<?php echo $native_path ?>/assets/images/zagreb02.png" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/zagreb-03.jpg" data-lightbox="image-1" data-title="Zagreb"><img src="<?php echo $native_path ?>/assets/images/zagreb03.png" /></a>
+              </div>
+            </div>
+    </div>
+  </div>
+
   <div id="samobor" class="blog" style="padding-top: 0px;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-          <img src="<?php echo $native_path ?>/assets/images/samobor.png" />
-        </div>
         <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>Samobor</h2>
           <p>Tisuće lampica tvorit će zvjezdano nebo iznad klizališta i svjetlucavu šetnicu kroz centar grada koja će vas odvesti do uređenih foto kutaka i još brojnijih eno gastro štandova. Dok se probijate kroz magične ulice s radovima lokalnih umjetnika idealnima za blagdanski poklon, pratit će vas tonovi brojnih poznatih hrvatski izvođača.</p>
           <p><a href="https://www.telegram.hr/partneri/carobni-advent-u-samoboru/" target="_blank">OTKRIJTE ADVENT U SAMOBORU</a></p>
           <p>&nbsp;</p>
+        </div>
+        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+          <img src="<?php echo $native_path ?>/assets/images/samobor.png" />
         </div>
       </div>
             <div class="row">
@@ -98,7 +126,6 @@
               </div>
             </div>
     </div>
-
 </div>
 
 
@@ -133,44 +160,17 @@
 
 
 
-  <div id="zagreb" class="blog" style="padding-top: 0; display: none;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-          <img src="<?php echo $native_path ?>/assets/images/zagreb.png" />
-        </div>
-        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
-          <h2>Zagreb</h2>
-          <p>Advent koji je tri godine za redom proglašen najboljim u Europi, svake godine svojim sadržajem i energijom doziva sve više posjetitelja koji će ove sezone u njemu moći uživati u muzejima, kazalištima, crkvama, pa čak i tunelima, umjetničkim punktovima i brojnim trgovima.</p>
-          <p><a href="#" target="_blank" class="linkovi">OTKRIJTE ADVENT U ZAGREBU</a></p>
-          <p>&nbsp;</p>
-        </div>
-      </div>
-            <div class="row">
-              <div class="col-lg-4" style="margin:0; padding: 0;">
-                <a href="<?php echo $native_path ?>/assets/images/zagreb-01.jpg" data-lightbox="image-1" data-title="Zagreb"><img src="<?php echo $native_path ?>/assets/images/zagreb01.png" /></a>
-              </div>
-              <div class="col-lg-4" style="margin:0; padding: 0;">
-                <a href="<?php echo $native_path ?>/assets/images/zagreb-02.jpg" data-lightbox="image-1" data-title="Zagreb"><img src="<?php echo $native_path ?>/assets/images/zagreb02.png" /></a>
-              </div>
-              <div class="col-lg-4" style="margin:0; padding: 0;">
-                <a href="<?php echo $native_path ?>/assets/images/zagreb-03.jpg" data-lightbox="image-1" data-title="Zagreb"><img src="<?php echo $native_path ?>/assets/images/zagreb03.png" /></a>
-              </div>
-            </div>
-    </div>
-
-  </div>
 
   <div id="zagrebacka-zupanija" class="blog" style="padding-top: 0;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>Zagrebačka županija</h2>
           <p>Bogata gastro ponuda, glazbeni koncerti, klizališta, ručni radovi, radionice, raznolike aktivnosti za velike i male, čine pravu božićnu atmosferu koja nikoga ne ostavlja ravnodušnim diljem županije.</p>
           <p><a href="https://www.telegram.hr/partneri/otkrijte-caroliju-bozica-u-zagrebackoj-zupaniji/" target="_blank">OTKRIJTE ADVENT U ZAGREBAČKOJ ŽUPANIJI</a></p>
           <p>&nbsp;</p>
         </div>
-        <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
           <img src="<?php echo $native_path ?>/assets/images/zag-zup.png" />
         </div>
       </div>
@@ -208,14 +208,14 @@
   <div id="rovinj" class="blog" style="padding-top: 0;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-          <img src="<?php echo $native_path ?>/assets/images/rovinj.png" />
-        </div>
-        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>Rovinj</h2>
           <p>Advent inspiriran morem i tradicijom ove nas godine očekuje sa šaolikim programom žive glazbe, vrhunske hrane i pića i brojnih iskustava za velike i male s vrhunskom ponudom za prenoćiti i uživati u potpunom adventskom vikend iskustvu.</p>
           <p><a href="https://www.telegram.hr/partneri/advent-inspiriran-morem-i-tradicijom/" target="_blank">OTKRIJTE ADVENT U ROVINJU</a></p>
           <p>&nbsp;</p>
+        </div>
+        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+          <img src="<?php echo $native_path ?>/assets/images/rovinj.png" />
         </div>
       </div>
             <div class="row">
@@ -237,13 +237,13 @@
   <div id="trogir" class="blog" style="padding-top: 0;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>Trogir</h2>
           <p>Program šestog izdanja Zimske Adventure uistinu je raznolik i broji više od 40 događanja na različitim lokacijama u gradu, koja će poprimiti čarobnu blagdansku vizuru obogaćenu zvjezdanim nebom, novim svjetlucavim ukrasima i dekoracijama.</p>
           <p><a href="https://www.telegram.hr/partneri/predstavljen-program-zimske-adventure-2023-u-trogiru/" target="_blank">OTKRIJTE ADVENT U TROGIRU</a></p>
           <p>&nbsp;</p>
         </div>
-        <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
           <img src="<?php echo $native_path ?>/assets/images/trogir.png" />
         </div>
       </div>
@@ -267,14 +267,14 @@
   <div id="osijek" class="blog" style="padding-top: 0; display: none;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-          <img src="<?php echo $native_path ?>/assets/images/osijek.png" />
-        </div>
         <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>Osijek</h2>
           <p>Posljednje dvije godine nositelj titule Najljepšeg Adventa u Hrvatskoj zna kako zaključiti godinu sa stilom pa tijekom čitavog prosinca u njemu živi blagdanski duh i odzvanja zvuk zabave. Saznajte što donosi ovogodišnji Advent zbog kojeg se itekako isplati provesti zimski vikend na istoku zemlje.</p>
           <p style="display: none;"><a href="#" target="_blank" class="linkovi">OTKRIJTE ADVENT U OSIJEKU</a></p>
           <p>&nbsp;</p>
+        </div>
+        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+          <img src="<?php echo $native_path ?>/assets/images/osijek.png" />
         </div>
       </div>
             <div class="row">
@@ -333,6 +333,34 @@
     </div>
     </a>
 </div>
+
+  <div id="jj-sound-bar" class="blog" style="padding-top: 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+          <h2>JJ Sound Bar</h2>
+          <p>Posljednje dvije godine nositelj titule Najljepšeg Adventa u Hrvatskoj zna kako zaključiti godinu sa stilom pa tijekom čitavog prosinca u njemu živi blagdanski duh i odzvanja zvuk zabave. Saznajte što donosi ovogodišnji Advent zbog kojeg se itekako isplati provesti zimski vikend na istoku zemlje.</p>
+          <p><a href="https://www.telegram.hr/partneri/jj-sound-donosi-posebnu-ponudu-zimskih-koktela/" target="_blank" class="linkovi">OTKRIJTE ADVENT U JJ SOUND BARU</a></p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+          <img src="<?php echo $native_path ?>/assets/images/jjsoundbar.png" />
+        </div>
+      </div>
+            <div class="row">
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/jjsound-01.jpeg" data-lightbox="image-1" data-title="JJ Sound Bar"><img src="<?php echo $native_path ?>/assets/images/jjsound01.png" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/jjsound-02.jpg" data-lightbox="image-1" data-title="JJ Sound Bar"><img src="<?php echo $native_path ?>/assets/images/jjsound02.png" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/jjsound-03.jpeg" data-lightbox="image-1" data-title="JJ Sound Bar"><img src="<?php echo $native_path ?>/assets/images/jjsound03.png" /></a>
+              </div>
+            </div>
+    </div>
+
+  </div>
 
 
 
