@@ -29,7 +29,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=3">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=4">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
     <link href="<?php echo $native_path ?>/assets/dist/css/lightbox.css" rel="stylesheet" />
@@ -62,7 +62,7 @@
         <div class="col-lg-6 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0s">
           <h1>Advent u<br/>našem kraju</h1>
           <p style="text-align:center;">Obišli smo najatraktivnije lokacije ovih blagdana diljem Hrvatske i donosimo vam spektakularno putovanje kroz destinacije koje morate posjetiti ovog adventa. Krenite s nama na avanturu punu divnih ukrasa i poklona, ukusnih slanih i slatkih zalogaja, dobre muzike i odličnih domaćina.</p>
-          <p style="text-align:center;"> <a href="#zagreb"><button class="border-first-button">Zagreb</button></a> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek" style="display:none"><button class="border-first-button">Osijek</button></a> <a href="#zadar"><button class="border-first-button">Zadar</button></a> <a href="#jj-sound-bar"><button class="border-first-button">JJ Sound bar</button></a></p>
+          <p style="text-align:center;"> <a href="#zagreb"><button class="border-first-button">Zagreb</button></a> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek"><button class="border-first-button">Osijek</button></a> <a href="#zadar"><button class="border-first-button">Zadar</button></a> <a href="#jj-sound-bar"><button class="border-first-button">JJ Sound bar</button></a></p>
           <p>&nbsp;</p>
         </div>
         <div class="col-lg-3 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0.5s">
@@ -264,16 +264,16 @@
 
 
 
-  <div id="osijek" class="blog" style="padding-top: 0; display: none;">
+  <div id="osijek" class="blog">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>Osijek</h2>
           <p>Posljednje dvije godine nositelj titule Najljepšeg Adventa u Hrvatskoj zna kako zaključiti godinu sa stilom pa tijekom čitavog prosinca u njemu živi blagdanski duh i odzvanja zvuk zabave. Saznajte što donosi ovogodišnji Advent zbog kojeg se itekako isplati provesti zimski vikend na istoku zemlje.</p>
-          <p style="display: none;"><a href="#" target="_blank" class="linkovi">OTKRIJTE ADVENT U OSIJEKU</a></p>
+          <p><a href="https://www.telegram.hr/partneri/advent-na-istoku-hrvatske-dvaput-je-proglasen-najljepsim-od-igrokaza-u-tramvaju-do-koncerata-program-je-bogat/" target="_blank" class="linkovi">OTKRIJTE ADVENT U OSIJEKU</a></p>
           <p>&nbsp;</p>
         </div>
-        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
           <img src="<?php echo $native_path ?>/assets/images/osijek.png" />
         </div>
       </div>
@@ -295,13 +295,13 @@
     <div id="zadar" class="blog" style="padding-top: 0;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>Zadar</h2>
           <p>Njihova se gastronomska ponuda prošle godine proširila diljem zemlje, a ove nam sezone nude to i još više, popraćeno bogatim muzičkim programom, jedinstvenom adventskom trkačkom utrkom i zimskim parkom na čak 500 četvornih metara. Ovo su samo neki od razloga zašto se sljedeći vikend uputiti prema moru.</p>
           <p><a href="https://www.telegram.hr/partneri/drugacija-sarma-burger-s-tripicama-i-zimski-kokteli-ove-se-godine-grijemo-na-standovima-u-zadru/" target="_blank">OTKRIJTE ADVENT U ZADRU</a></p>
           <p>&nbsp;</p>
         </div>
-        <div class="col-lg-6 order-lg-1  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+        <div class="col-lg-6 order-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
           <img src="<?php echo $native_path ?>/assets/images/zadar.png" />
         </div>
       </div>
@@ -337,13 +337,13 @@
   <div id="jj-sound-bar" class="blog" style="padding-top: 0;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
           <h2>JJ Sound Bar</h2>
           <p>Posljednje dvije godine nositelj titule Najljepšeg Adventa u Hrvatskoj zna kako zaključiti godinu sa stilom pa tijekom čitavog prosinca u njemu živi blagdanski duh i odzvanja zvuk zabave. Saznajte što donosi ovogodišnji Advent zbog kojeg se itekako isplati provesti zimski vikend na istoku zemlje.</p>
           <p><a href="https://www.telegram.hr/partneri/jj-sound-donosi-posebnu-ponudu-zimskih-koktela/" target="_blank" class="linkovi">OTKRIJTE ADVENT U JJ SOUND BARU</a></p>
           <p>&nbsp;</p>
         </div>
-        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
           <img src="<?php echo $native_path ?>/assets/images/jjsoundbar.png" />
         </div>
       </div>
