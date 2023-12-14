@@ -212,7 +212,7 @@
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
           <div class="kartica  <?php echo date('mdH') < 121208 ? 'skrivena' : '' ?>">
-            <img src="<?php echo $native_path ?>/assets/images/ht.jpg" />
+            <img src="<?php echo $native_path ?>/assets/images/ht.jpg?v=2" />
             <h4>12. prosinca 2023.</h4>
             <h2 style="font-size:20px !important; margin-bottom:16px !important">Hrvatski Telekom</h2>
             <div class="border-second-button scroll-to-section">
