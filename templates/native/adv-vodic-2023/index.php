@@ -62,7 +62,7 @@
         <div class="col-lg-6 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0s">
           <h1>Advent u<br/>našem kraju</h1>
           <p style="text-align:center;">Obišli smo najatraktivnije lokacije ovih blagdana diljem Hrvatske i donosimo vam spektakularno putovanje kroz destinacije koje morate posjetiti ovog adventa. Krenite s nama na avanturu punu divnih ukrasa i poklona, ukusnih slanih i slatkih zalogaja, dobre muzike i odličnih domaćina.</p>
-          <p style="text-align:center;"> <a href="#zagreb"><button class="border-first-button">Zagreb</button></a> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek"><button class="border-first-button">Osijek</button></a> <a href="#zadar"><button class="border-first-button">Zadar</button></a> <a href="#jj-sound-bar"><button class="border-first-button">JJ Sound bar</button></a></p>
+          <p style="text-align:center;"> <a href="#zagreb"><button class="border-first-button">Zagreb</button></a> <a href="#samobor"><button class="border-first-button">Samobor</button></a> <a href="#vinkovci"><button class="border-first-button">Vinkovci</button></a> <a href="#zagrebacka-zupanija"><button class="border-first-button">Zagrebačka županija</button></a> <a href="#rovinj"><button class="border-first-button">Rovinj</button></a> <a href="#trogir"><button class="border-first-button">Trogir</button></a> <a href="#osijek"><button class="border-first-button">Osijek</button></a> <a href="#zadar"><button class="border-first-button">Zadar</button></a> <a href="#jj-sound-bar"><button class="border-first-button">JJ Sound bar</button></a> <a href="#varazdin"><button class="border-first-button">Varaždin</button></a></p>
           <p>&nbsp;</p>
         </div>
         <div class="col-lg-3 text-center wow fadeIn"  data-wow-duration="1s" data-wow-delay="0.5s">
@@ -356,6 +356,34 @@
               </div>
               <div class="col-lg-4" style="margin:0; padding: 0;">
                 <a href="<?php echo $native_path ?>/assets/images/jjsound-03.jpeg" data-lightbox="image-1" data-title="JJ Sound Bar"><img src="<?php echo $native_path ?>/assets/images/jjsound03.png" /></a>
+              </div>
+            </div>
+    </div>
+
+  </div>
+
+  <div id="varazdin" class="blog" style="padding-top: 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+          <h2>Varaždin</h2>
+          <p>Povijesna jezgra Varaždina dodatno je zablistala božićnim sjajem. Posjetite Djeda Mraza u njegovom Čarobnom gradu, provozajte se u 33 metarskom panoramskom kotaču ili se zaustavite kod instalacije Mjesec za nevjerojatnu fotografiju. Varaždin i njegova toplina vas čekaju. </p>
+          <p><a href="https://www.telegram.hr/partneri/carobni-advent-u-varazdinu-u-kojem-price-postaju-stvarnost/" target="_blank" class="linkovi">OTKRIJTE ADVENT U VARAŽDINU</a></p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+          <img src="<?php echo $native_path ?>/assets/images/varazdin.png" />
+        </div>
+      </div>
+            <div class="row">
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/varazdin-01.jpg" data-lightbox="image-1" data-title="Varaždin"><img src="<?php echo $native_path ?>/assets/images/varazdin01.jpg" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/varazdin-02.jpg" data-lightbox="image-1" data-title="Varaždin"><img src="<?php echo $native_path ?>/assets/images/varazdin02.jpg" /></a>
+              </div>
+              <div class="col-lg-4" style="margin:0; padding: 0;">
+                <a href="<?php echo $native_path ?>/assets/images/varazdin-03.jpg" data-lightbox="image-1" data-title="Varaždin"><img src="<?php echo $native_path ?>/assets/images/varazdin03.jpg" /></a>
               </div>
             </div>
     </div>
