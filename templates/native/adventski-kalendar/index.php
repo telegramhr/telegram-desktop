@@ -185,7 +185,7 @@
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
-          <div class="kartica">
+          <div class="kartica ">
             <img src="<?php echo $native_path ?>/assets/images/kotanyi.jpg" />
             <h4>10. prosinca 2023.</h4>
             <h2>Kotanyi</h2>
@@ -211,20 +211,20 @@
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
-          <div class="kartica  <?php echo date('mdH') < 121208 ? 'skrivena' : '' ?>">
-            <img src="<?php echo $native_path ?>/assets/images/ht.jpg?v=2" />
+          <div class="kartica ">
+            <img src="<?php echo $native_path ?>/assets/images/ht.jpg" />
             <h4>12. prosinca 2023.</h4>
             <h2 style="font-size:20px !important; margin-bottom:16px !important">Hrvatski Telekom</h2>
             <div class="border-second-button scroll-to-section">
               <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
             </div>
           </div>
-          <div class="karticaoff  <?php echo date('mdH') > 121208 ? 'skrivena' : '' ?>">
+          <div class="karticaoff skrivena">
             <h2>12</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s">
-          <div class="kartica  <?php echo date('mdH') < 121308 ? 'skrivena' : '' ?>">
+          <div class="kartica ">
             <img src="<?php echo $native_path ?>/assets/images/purina.jpg" />
             <h4>13. prosinca 2023.</h4>
             <h2>Purina</h2>
@@ -232,12 +232,12 @@
               <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
             </div>
           </div>
-          <div class="karticaoff  <?php echo date('mdH') > 121308 ? 'skrivena' : '' ?>">
+          <div class="karticaoff skrivena">
             <h2>13</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.3s">
-          <div class="kartica  <?php echo date('mdH') < 121408 ? 'skrivena' : '' ?>">
+          <div class="kartica ">
             <img src="<?php echo $native_path ?>/assets/images/gorenje.jpg" />
             <h4>14. prosinca 2023.</h4>
             <h2>Gorenje</h2>
@@ -245,12 +245,12 @@
               <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
             </div>
           </div>
-          <div class="karticaoff  <?php echo date('mdH') > 121408 ? 'skrivena' : '' ?>">
+          <div class="karticaoff skrivena">
             <h2>14</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.4s">
-          <div class="kartica  <?php echo date('mdH') < 121508 ? 'skrivena' : '' ?>">
+          <div class="kartica ">
             <img src="<?php echo $native_path ?>/assets/images/plodine.jpg" />
             <h4>15. prosinca 2023.</h4>
             <h2>Plodine</h2>
@@ -258,12 +258,12 @@
               <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
             </div>
           </div>
-          <div class="karticaoff  <?php echo date('mdH') > 121508 ? 'skrivena' : '' ?>">
+          <div class="karticaoff skrivena">
             <h2>15</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
-          <div class="kartica  <?php echo date('mdH') < 121608 ? 'skrivena' : '' ?>">
+          <div class="kartica ">
             <img src="<?php echo $native_path ?>/assets/images/lelo.jpg" />
             <h4>16. prosinca 2023.</h4>
             <h2>Lelo</h2>
@@ -271,12 +271,12 @@
               <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
             </div>
           </div>
-          <div class="karticaoff  <?php echo date('mdH') > 121608 ? 'skrivena' : '' ?>">
+          <div class="karticaoff skrivena">
             <h2>16</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.6s">
-          <div class="kartica  <?php echo date('mdH') < 121708 ? 'skrivena' : '' ?>">
+          <div class="kartica ">
             <img src="<?php echo $native_path ?>/assets/images/daruvarska-pivovara.jpg" />
             <h4>17. prosinca 2023.</h4>
             <h2 style="font-size:20px !important; margin-bottom:16px !important">Daruvarska Pivovara</h2>
@@ -289,37 +289,93 @@
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.7s">
-          <div class="karticaoff ">
+          <div class="kartica ">
+            <img src="<?php echo $native_path ?>/assets/images/erborian.jpg" />
+            <h4>18. prosinca 2023.</h4>
+            <h2>Erborian</h2>
+            <div class="border-second-button scroll-to-section">
+              <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
+            </div>
+          </div>
+          <div class="karticaoff skrivena">
             <h2>18</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.8s">
-          <div class="karticaoff ">
+          <div class="kartica ">
+            <img src="<?php echo $native_path ?>/assets/images/melvita.jpg" />
+            <h4>19. prosinca 2023.</h4>
+            <h2>Melvita</h2>
+            <div class="border-second-button scroll-to-section">
+              <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
+            </div>
+          </div>
+          <div class="karticaoff skrivena">
             <h2>19</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.9s">
-          <div class="karticaoff ">
+          <div class="kartica  <?php echo date('mdH') < 122008 ? 'skrivena' : '' ?>">
+            <img src="<?php echo $native_path ?>/assets/images/jimmy-choo.jpg" />
+            <h4>20. prosinca 2023.</h4>
+            <h2>Jimmy Choo</h2>
+            <div class="border-second-button scroll-to-section">
+              <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
+            </div>
+          </div>
+          <div class="karticaoff  <?php echo date('mdH') > 122008 ? 'skrivena' : '' ?>">
             <h2>20</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
-          <div class="karticaoff ">
+          <div class="kartica  <?php echo date('mdH') < 122108 ? 'skrivena' : '' ?>">
+            <img src="<?php echo $native_path ?>/assets/images/esthederm.jpg" />
+            <h4>21. prosinca 2023.</h4>
+            <h2>Esthederm</h2>
+            <div class="border-second-button scroll-to-section">
+              <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
+            </div>
+          </div>
+          <div class="karticaoff  <?php echo date('mdH') > 122108 ? 'skrivena' : '' ?>">
             <h2>21</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="2.1s">
-          <div class="karticaoff ">
+          <div class="kartica  <?php echo date('mdH') < 122208 ? 'skrivena' : '' ?>">
+            <img src="<?php echo $native_path ?>/assets/images/lancome.jpg" />
+            <h4>22. prosinca 2023.</h4>
+            <h2>Lancome</h2>
+            <div class="border-second-button scroll-to-section">
+              <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
+            </div>
+          </div>
+          <div class="karticaoff  <?php echo date('mdH') > 122208 ? 'skrivena' : '' ?>">
             <h2>22</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="2.2s">
-          <div class="karticaoff ">
+          <div class="kartica  <?php echo date('mdH') < 122308 ? 'skrivena' : '' ?>">
+            <img src="<?php echo $native_path ?>/assets/images/bioderma.jpg" />
+            <h4>23. prosinca 2023.</h4>
+            <h2>Bioderma</h2>
+            <div class="border-second-button scroll-to-section">
+              <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
+            </div>
+          </div>
+          <div class="karticaoff  <?php echo date('mdH') > 122308 ? 'skrivena' : '' ?>">
             <h2>23</h2>
           </div>
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="2.3s">
-          <div class="karticaoff ">
+          <div class="kartica  <?php echo date('mdH') < 122408 ? 'skrivena' : '' ?>">
+            <img src="<?php echo $native_path ?>/assets/images/anja-beauty-koncept.jpg" />
+            <h4>24. prosinca 2023.</h4>
+            <h2  style="font-size:20px !important; margin-bottom:16px !important">Anja Beauty Koncept</h2>
+            <div class="border-second-button scroll-to-section">
+              <a href="https://www.instagram.com/super1.hr/" target="_blank">Nagradno darivanje</a>
+            </div>
+          </div>
+          <div class="karticaoff  <?php echo date('mdH') > 122408 ? 'skrivena' : '' ?>">
             <h2>24</h2>
           </div>
         </div>
