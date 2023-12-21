@@ -483,7 +483,7 @@
         <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0s">
            <div style="padding-top:100px; padding-bottom: 100px; color: #fff;">
               <p style="text-align: center; color: #fff !important">Fotografija: Marko Miščević<br/>
-                  Model: Laura Bračun<br/>
+                  Model: Ingrid Nikolić (Talia Model)<br/>
                   Styling: Studio Onne<br/>
                   Makeup: Saša Knežević<br/>
                   Kosa: Davor Hair & Soul<br/>
