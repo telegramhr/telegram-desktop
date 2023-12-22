@@ -368,7 +368,7 @@
         </div>
         <div class="col-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="2.3s">
           <div class="kartica  <?php echo date('mdH') < 122408 ? 'skrivena' : '' ?>">
-            <img src="<?php echo $native_path ?>/assets/images/anja-beauty-koncept.jpg" />
+            <img src="<?php echo $native_path ?>/assets/images/anja-beauty-koncept.jpg?v=2" />
             <h4>24. prosinca 2023.</h4>
             <h2  style="font-size:20px !important; margin-bottom:16px !important">Anja Beauty Koncept</h2>
             <div class="border-second-button scroll-to-section">
