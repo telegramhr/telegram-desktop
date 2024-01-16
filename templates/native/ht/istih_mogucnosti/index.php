@@ -24,6 +24,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <a class="full" href="#uvod">
             <h3 class="full">Svijet istih mogućnosti</h3>
         </a>
+        <a class="full" href="#jadranka">Jadranka</a>
         <a class="full" href="#anita">Anita</a>
         <a class="full" href="#josip">Josip</a>
         <a class="full" href="#magdalena">Magdalena</a>
@@ -82,9 +83,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div></div>
             </div>
         </header>
+        <!-- Jadranka -->
+        <a class="full flex relative slide slide-bottom-left" id="jadranka" href="https://www.telegram.hr/zivot/hrabra-zena-iz-zagreba-30-godina-volontira-i-brine-o-tesko-bolesnima-najteze-je-kada-zaborave-tko-si-srce-mi-pukne/" target="_blank">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/12/sasa1835xw.jpg" alt="I prije nego što je otišla u mirovinu, Jadranka je pomagala drugima u pučkoj kuhinji i Caritasu" loading="lazy" class="bg-img">
+            <div class="article-text relative">
+                <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
+                <h2 class="full animate">Hrabra žena iz Zagreba 30 godina volontira i brine o teško bolesnima: 'Najteže je kada zaborave tko si, srce mi pukne...' </h2>
+                <div class="cta">Pročitaj priču ></div>
+            </div>
+        </a>
         <!-- Anita -->
         <a class="full flex relative slide slide-bottom-left" id="anita" href="https://www.telegram.hr/velike-price/ova-djevojka-iz-sesveta-studira-radi-ima-decka-i-prsti-humorom-a-s-15-je-ostala-bez-obje-noge-zbog-rijetke-bolesti/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/11/anita-markus001.jpg" alt="Anita je prava inspiracija. Nitko joj nije htio pomoći kad joj je bilo najgore, ali se ona danas bori za druge" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/11/anita-markus001.jpg" alt="Anita je prava inspiracija. Nitko joj nije htio pomoći kad joj je bilo najgore, ali se ona danas bori za druge" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Ova djevojka iz Sesveta studira, radi, ima dečka i pršti humorom. A s 15 je ostala bez obje noge zbog rijetke bolesti</h2>
@@ -93,7 +103,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Josip -->
         <a class="full flex relative slide slide-bottom-left" id="josip" href="https://www.telegram.hr/velike-price/u-tragicnoj-eksploziji-josip-je-ostao-bez-saka-noge-vida-i-sluha-herojski-se-borio-zavrsio-dva-faksa-i-zeli-pomagati-invalidima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/10/josip-naslovna.jpg" alt="Upoznali smo 30-godišnjaka koji je iz svoje tragedije izvukao samo pozitivu i ono najbolje  " class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/10/josip-naslovna.jpg" alt="Upoznali smo 30-godišnjaka koji je iz svoje tragedije izvukao samo pozitivu i ono najbolje  " loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">U tragičnoj eksploziji Josip je ostao bez šaka, noge, vida i sluha. Herojski se borio, završio dva faksa i želi pomagati invalidima </h2>
@@ -102,7 +112,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Magdalena -->
         <a class="full flex relative slide slide-bottom-left" id="magdalena" href="https://www.telegram.hr/zivot/nevjerojatna-prica-magdalene-14-iz-varazdina-pobijedila-tumor-na-mozgu-ponovno-naucila-hodati-i-danas-rastura-u-plesu/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/09/wide9-1.jpg" alt="Magdalena se ničeg ne boji i puna je životnih mudrosti koje se rijetko čuju od djece njezine dobi " class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/09/wide9-1.jpg" alt="Magdalena se ničeg ne boji i puna je životnih mudrosti koje se rijetko čuju od djece njezine dobi " loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Nevjerojatna priča Magdalene (14) iz Varaždina. Pobijedila tumor na mozgu, ponovno naučila hodati i danas rastura u plesu</h2>
@@ -111,7 +121,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Đurđica -->
         <a class="full flex relative slide slide-bottom-left" id="durdica" href="https://www.telegram.hr/zivot/od-rodenja-sam-gluha-i-jedva-sam-zavrsila-skolu-pobijedila-sam-danas-sam-nastavnica-i-sviram-violinu/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/06/sakic1.jpg" alt="Ovo je priča o 45-godišnjoj Đurđici Šakić kojoj ni roditelji ni učitelji nisu vjerovali da ne čuje" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/06/sakic1.jpg" alt="Ovo je priča o 45-godišnjoj Đurđici Šakić kojoj ni roditelji ni učitelji nisu vjerovali da ne čuje" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Od rođenja sam gluha i jedva sam završila školu. Pobijedila sam; danas sam nastavnica i sviram violinu </h2>
@@ -128,7 +138,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <!-- Ivan -->
         <a class="full flex relative slide slide-bottom-left" id="ivan" href="https://www.telegram.hr/zivot/kakva-inspirativna-prica-ivan-je-uz-downov-sindrom-zavrsio-srednju-skolu-naucio-turski-i-dobio-posao-na-aerodromu/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/04/sasa3334xw.jpg" alt="Dosad je posjetio Istanbul i četiri puta bio u Portugalu, a sljedeća destinacija koju želi obići je Sarajevo" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/04/sasa3334xw.jpg" alt="Dosad je posjetio Istanbul i četiri puta bio u Portugalu, a sljedeća destinacija koju želi obići je Sarajevo" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Kakva inspirativna priča. Ivan je, uz Downov sindrom, završio srednju školu, naučio turski i dobio posao na aerodromu </h2>
@@ -137,7 +147,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Hesam -->
         <a class="full flex relative slide slide-bottom-left" id="hesam" href="https://www.telegram.hr/zivot/u-iranu-kao-djecak-nisam-smio-imati-traperice-ni-duzu-kosu-sada-gradim-biznise-po-hrvatskoj-jedinoj-zemlji-koja-mi-je-dala-sansu/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/04/hasem-quaydi3.jpg" alt="Ovo je priča 45-godišnjeg Hesama Qaydija koji ima plan izgraditi najveći zabavni park u zemlji" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/04/hasem-quaydi3.jpg" alt="Ovo je priča 45-godišnjeg Hesama Qaydija koji ima plan izgraditi najveći zabavni park u zemlji" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">U Iranu kao dječak nisam smio imati traperice ni dužu kosu. Sada gradim biznise po Hrvatskoj, jedinoj zemlji koja mi je dala šansu </h2>
@@ -147,7 +157,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Daniel -->
         <a class="full flex relative slide stretch half-slide" id="daniel" href="https://www.telegram.hr/zivot/cijeli-zivot-nije-razumio-sto-mu-se-dogada-sve-dok-u-26-nije-doznao-da-ima-autizam-danas-ga-prati-220-000-ljudi/" target="_blank">
             <div class="half flex flex-responsive relative">
-            <img src="<?php echo $native_path ?>img/daniel.jpg" aria-hidden="true" class="bg-img">
+            <img src="<?php echo $native_path ?>img/daniel.jpg" aria-hidden="true" loading="lazy" class="bg-img">
             </div>
             <div class="half center flex flex-responsive">
                 <div class="article-text relative">
@@ -158,7 +168,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Sarah -->
         <a class="full flex relative slide slide-bottom-left" id="sarah" href="https://www.telegram.hr/zivot/iz-kanade-je-dosla-u-zagreb-i-rintala-za-2000-kuna-mjesecno-sada-cijeli-svijet-gleda-njezine-snimke-zivota-u-hrvatskoj/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/03/sasa2754xw.jpg" alt="Ovo je priča o 39-godišnjoj Sari Ćosić iz Toronta koja je doselila u Zagreb, pokrenula biznis i kreirala omiljeni YouTube kanal" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/03/sasa2754xw.jpg" alt="Ovo je priča o 39-godišnjoj Sari Ćosić iz Toronta koja je doselila u Zagreb, pokrenula biznis i kreirala omiljeni YouTube kanal" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Iz Kanade je došla u Zagreb i rintala za 2000 kuna mjesečno. Sada cijeli svijet gleda njezine snimke života u Hrvatskoj</h2>
@@ -176,7 +186,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Chris -->
         <a class="full flex relative slide stretch half-slide" id="chris" href="https://www.telegram.hr/partneri/ovaj-ucitelj-napustio-je-skolu-i-postigao-vise-od-2-milijarde-pregleda-yt-videa-danas-mijenja-zivote-diljem-svijeta/" target="_blank">
             <div class="half flex flex-responsive relative">
-                <img src="https://www.telegram.hr/wp-content/uploads/2022/11/240820825-955149098449007-689163342823245274-n.jpg" aria-hidden="true" class="bg-img">
+                <img src="https://www.telegram.hr/wp-content/uploads/2022/11/240820825-955149098449007-689163342823245274-n.jpg" aria-hidden="true" loading="lazy" class="bg-img">
             </div>
             <div class="half center flex flex-responsive">
                 <div class="article-text relative">
@@ -187,7 +197,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Nada -->
         <a class="full flex relative slide slide-bottom-left" id="nada" href="https://www.telegram.hr/zivot/divna-prica-o-uspjehu-umirovljenica-nada-na-youtubeu-otkrila-klipove-s-filcanjem-vune-i-pokrenula-super-biznis-s-tepisima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/03/lika-mee3.jpg" alt="Filcanje je tehnika kojom se oblikuju češljane vunene niti u određene predmete " class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/03/lika-mee3.jpg" alt="Filcanje je tehnika kojom se oblikuju češljane vunene niti u određene predmete " loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Divna priča o uspjehu: umirovljenica Nada na YouTubeu otkrila klipove s filcanjem vune i pokrenula super biznis s tepisima</h2>
@@ -196,7 +206,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Ena -->
         <a class="full flex relative slide slide-bottom-left" id="ena" href="https://www.telegram.hr/zivot/uvrede-na-racun-izgleda-pretvorila-je-u-umjetnost-fotkala-sam-celulit-strije-slaufice-i-ljudi-su-se-odusevili/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2023/02/ena-ht1.jpg" alt="Ovo je priča 24-godišnje Ene Dragičević kojoj su društvene mreže platforma za kreativni rad" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2023/02/ena-ht1.jpg" alt="Ovo je priča 24-godišnje Ene Dragičević kojoj su društvene mreže platforma za kreativni rad" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Uvrede na račun izgleda pretvorila je u umjetnost: 'Fotkala sam celulit, strije, šlaufiće i ljudi su se oduševili'</h2>
@@ -205,7 +215,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Helena -->
         <a class="full flex relative slide slide-bottom-left" id="helena" href="https://www.telegram.hr/zivot/u-tunelu-na-putu-za-pag-uhvatio-me-napadaj-opsesije-prestravila-sam-se-sada-na-youtubeu-pomazem-svima-s-kompulzivnim-poremecajima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/helena-duplic-7.jpg" alt="Protagonistica članka Helena u svijetloj prostoriji" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/helena-duplic-7.jpg" alt="Protagonistica članka Helena u svijetloj prostoriji" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">'U tunelu na putu za Pag uhvatio me napadaj opsesije, prestravila sam se. Sada na YouTubeu pomažem svima s kompulzivnim poremećajima' </h2>
@@ -222,7 +232,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <!-- Miroslav -->
         <a class="full flex relative slide slide-bottom-left" id="miroslav" href="https://www.telegram.hr/partneri/profesor-iz-rijeke-napravio-je-senzorni-dvorac-u-kojem-djeca-s-autizmom-i-downovim-sindromom-uce-kroz-igru-posjetili-smo-ga/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/miroslav-vrankic-1.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/12/miroslav-vrankic-1.jpg" alt="Ana u zimskom žutom outfitu" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Profesor iz Rijeke napravio je senzorni dvorac u kojem djeca s autizmom i Downovim sindromom uče kroz igru</h2>
@@ -232,7 +242,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Chloe -->
         <a class="full flex relative slide stretch half-slide" id="chloe" href="https://www.telegram.hr/partneri/s-13-je-otkrila-da-ima-autizam-a-zatim-i-adhd-danas-glumi-u-popularnoj-seriji-i-rusi-sve-stereotipe/" target="_blank">
             <div class="half flex flex-responsive relative">
-                <img src="https://www.telegram.hr/wp-content/uploads/2022/11/310752918-1186327728584352-4534313082420931214-n.jpg" aria-hidden="true" class="bg-img">
+                <img src="https://www.telegram.hr/wp-content/uploads/2022/11/310752918-1186327728584352-4534313082420931214-n.jpg" aria-hidden="true" loading="lazy" class="bg-img">
             </div>
             <div class="half center flex flex-responsive">
                 <div class="article-text relative">
@@ -243,7 +253,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Ana -->
         <a class="full flex relative slide slide-bottom-left" id="ana" href="https://www.telegram.hr/partneri/mama-ju-je-napustila-protiv-tate-je-digla-tuzbu-ana-je-s-23-otkrila-da-je-depresivna-sada-svojim-iskustvom-pomaze-drugima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa6375x-ppw-1536x1024.jpg" alt="Ana u zimskom žutom outfitu" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa6375x-ppw-1536x1024.jpg" alt="Ana u zimskom žutom outfitu" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Mama ju je napustila, protiv tate je digla tužbu. Ana je s 23 otkrila da je depresivna, sada svojim iskustvom pomaže drugima</h2>
@@ -252,7 +262,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Talita -->
         <a class="full flex relative slide slide-bottom-left" id="talita" href="https://www.telegram.hr/partneri/u-skoli-su-me-maltretirali-jer-sam-drugacija-izvukla-me-genijalna-profesorica-sada-ja-pomazem-drugim-romima-da-uspiju/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/10/talita1.jpg" alt="Talita pred prozorima u vrijeme sumraka" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/10/talita1.jpg" alt="Talita pred prozorima u vrijeme sumraka" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">U školi su me maltretirali jer sam drugačija, izvukla me genijalna profesorica. Sada ja pomažem drugima</h2>
@@ -269,7 +279,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </div>
         <!-- Dominik -->
         <a class="full flex relative slide slide-bottom-left" id="dominik" href="https://www.telegram.hr/partneri/kad-se-dominik-rodio-doktori-su-rekli-da-ce-biti-biljka-nakon-teskih-operacija-rastura-na-faksu-i-pise-popularni-blog/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/10/sasa7885xw.jpg" alt="Puljanin Dominik sa smješkom na licu" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/10/sasa7885xw.jpg" alt="Puljanin Dominik sa smješkom na licu" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Kad se Dominik rodio, doktori su rekli da će biti biljka. Nakon teških operacija, rastura na faksu i piše popularni blog</h2>
@@ -279,7 +289,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Molly -->
         <a class="full flex relative slide stretch half-slide" id="molly" href="https://www.telegram.hr/partneri/do-14-godine-je-izgubila-vid-i-pala-u-depresiju-danas-je-savjetnica-za-inkluziju-googleu-netflixu-i-microsoftu/" target="_blank">
             <div class="half flex flex-responsive relative">
-                <img src="<?php echo $native_path ?>img/molly.jpg" aria-hidden="true" class="bg-img">
+                <img src="<?php echo $native_path ?>img/molly.jpg" aria-hidden="true" loading="lazy" class="bg-img">
             </div>
             <div class="half center flex flex-responsive">
                 <div class="article-text relative">
@@ -290,7 +300,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Anja -->
         <a class="full flex relative slide slide-bottom-left" id="anja" href="https://www.telegram.hr/partneri/skola-je-anju-gurnula-do-ruba-no-uz-mamu-se-digla-nakon-svakog-pada-danas-je-medicinska-sestra-i-blogerica-o-disleksiji/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/10/norda-anja.jpg" alt="Anja okružena starim zidinama" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/10/norda-anja.jpg" alt="Anja okružena starim zidinama" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Škola je Anju gurnula do ruba, no uz mamu se digla nakon svakog pada. Danas je medicinska sestra i blogerica o disleksiji</h2>
@@ -300,7 +310,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Mark -->
         <a class="full flex relative slide stretch half-slide" id="mark" href="https://www.telegram.hr/zivot/jednim-je-intervjuom-preko-noci-stekao-pola-milijuna-pratitelja-i-promijenio-zivot-mlade-beskucnice/" target="_blank">
             <div class="half flex flex-responsive relative">
-                <img src="<?php echo $native_path ?>img/mark.jpg" aria-hidden="true" class="bg-img">
+                <img src="<?php echo $native_path ?>img/mark.jpg" aria-hidden="true" loading="lazy" class="bg-img">
             </div>
             <div class="half center flex flex-responsive">
                 <div class="article-text relative">
@@ -311,7 +321,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Hrvoje -->
         <a class="full flex relative slide slide-bottom-left" id="hrvoje" href="https://www.telegram.hr/partneri/hrvoje-je-od-rodenja-gotovo-potpuno-slijep-ali-odbio-se-predati-danas-ima-super-posao-i-osmisljava-genijalne-aplikacije/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/sasa4157xw.jpg" alt="Hrvoje, u hodniku" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/sasa4157xw.jpg" alt="Hrvoje, u hodniku" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Hrvoje je od rođenja gotovo potpuno slijep, ali odbio se predati. Danas ima super posao i osmišljava genijalne aplikacije</h2>
@@ -320,7 +330,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Stipo -->
         <a class="full flex relative slide slide-bottom-left" id="stipo" href="https://www.telegram.hr/partneri/ovo-je-stipo-nas-novi-heroj-nije-dozvolio-da-ga-dijagnoza-dotuce-upisao-je-faks-i-razvio-genijalni-servis-za-ljude-u-kolicima/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/margic-stipo.jpg" alt="Protagonist članka Stipo, sa smješkom na licu" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/margic-stipo.jpg" alt="Protagonist članka Stipo, sa smješkom na licu" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Ovo je Stipo, naš novi heroj. Nije dozvolio da ga dijagnoza dotuče, upisao je faks i razvio genijalni servis za ljude u kolicima</h2>
@@ -330,7 +340,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Hannah -->
         <a class="full flex relative slide stretch half-slide" id="hannah" href="https://www.telegram.hr/partneri/rodila-se-12-tjedana-ranije-rekli-su-da-nikad-nece-ni-hodati-ni-govoriti-danas-mijenja-svjetsku-glazbenu-scenu/" target="_blank">
             <div class="half flex flex-responsive relative">
-                <img src="<?php echo $native_path ?>img/hannah.jpg" aria-hidden="true" class="bg-img">
+                <img src="<?php echo $native_path ?>img/hannah.jpg" aria-hidden="true" loading="lazy" class="bg-img">
             </div>
             <div class="half center flex flex-responsive">
                 <div class="article-text relative">
@@ -341,7 +351,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </a>
         <!-- Anka -->
         <a class="full flex relative slide slide-bottom-left" id="anka" href="https://www.telegram.hr/velike-price/gospoda-anka-postala-influencerica-u-60-ima-bojala-sam-se-mirovine-a-onda-su-me-kceri-nagovorile-na-instagram/" target="_blank">
-            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/sliskovic-anka2.jpg" alt="Protagonistica članka gospođa Anka, sa smješkom na licu" class="bg-img">
+            <img src="https://www.telegram.hr/wp-content/uploads/2022/09/sliskovic-anka2.jpg" alt="Protagonistica članka gospođa Anka, sa smješkom na licu" loading="lazy" class="bg-img">
             <div class="article-text relative">
                 <img src="<?php echo $native_path ?>img/line.png" aria-hidden="true" class="dec-line">
                 <h2 class="full animate">Gospođa Anka postala influencerica u 60-ima: ‘Bojala sam se mirovine, a onda su me kćeri nagovorile na Instagram’</h2>
@@ -351,7 +361,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Chella -->
         <a class="full flex relative slide stretch half-slide" id="chella" href="https://www.telegram.hr/partneri/s-13-je-izgubio-sluh-a-danas-je-uspjesan-vloger-model-i-glumac-najponosniji-je-na-ulogu-nijemog-superjunaka/" target="_blank">
             <div class="half flex flex-responsive relative">
-                <img src="<?php echo $native_path ?>img/chella.jpg" aria-hidden="true" class="bg-img">
+                <img src="<?php echo $native_path ?>img/chella.jpg" aria-hidden="true" loading="lazy" class="bg-img">
             </div>
             <div class="half center flex flex-responsive">
                 <div class="article-text relative">

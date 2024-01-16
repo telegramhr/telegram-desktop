@@ -96,8 +96,17 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </div> -->
                     <div class="full flex stretch gallery">
                         <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/hr-direktorica-o-trendovima-na-trzistu-i-projektima-koje-provode-interno-ima-super-primjera/" target="_blank">
+                                <img class="shoo-bottom full" src="https://images.telegram.hr/Zfq7Sn6bF6kG2UjNx5IDS3s2sJqvXjrUi7owNMRXi6M/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMTIvc2FzYTE5MTV4dy5qcGc.webp">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text">HR direktorica o trendovima na tržištu i projektima koje provode interno. Ima super primjera</h2>
+                                    <div class=" flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex flex-responsive horizontal-pad">
                             <a class="full flex relative" href="https://www.telegram.hr/biznis-tech/odrzive-kompanije-lakse-privlace-nove-radnike-i-imaju-bolje-poslovne-rezultate-strucnjakinje-nam-objasnile-zasto/" target="_blank">
-                                <img class="shoo-bottom full" src="https://www.telegram.hr/wp-content/uploads/2023/09/sasa3039xw.jpg">
+                                <img class="shoo-bottom full" src="https://images.telegram.hr/nefhvbV5Tp54eR8-yOUhWt381BRPiEtPLi0YhLxZXfs/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvc2FzYTMwMzl4dy5qcGc.webp">
                                 <div class="full center center-wrap">
                                     <h2 class="full center-text">Održive kompanije lakše privlače nove radnike i imaju bolje poslovne rezultate. Stručnjakinje nam objasnile zašto</h2>
                                     <div class=" flex button-52">Pročitaj više...</div>
@@ -346,6 +355,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
                 <div class="full flex">
                     <div class="full flex stretch gallery">
+                        <div class="third flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/heineken-hrvatska-objavio-svoja-postignuca-u-podrucjima-odrzivosti-u-2022-godini/" target="_blank">
+                                <img class="shoo-bottom full" src="https://images.telegram.hr/vnZzi_uc64oJDm70-lm7IVtfzkeNc5nQ9L6odw6QQnQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMTIvMS01LTEuanBn.webp">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text">HEINEKEN Hrvatska objavio svoja postignuća u područjima održivosti u 2022. godini</h2>
+                                    <div class=" flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
                         <div class="third flex flex-responsive horizontal-pad">
                             <a class="full flex relative" href="https://www.telegram.hr/partneri/odgovorno-gospodarenje-otpadom-i-kruznost-danas-odlikuju-uspjesne-kompanije-heineken-hrvatska-u-tom-podrucju-provodi-niz-vaznih-projekata/" target="_blank">
                                 <img class="shoo-bottom full" src="https://images.telegram.hr/Ixoela5WyHzHvYT0stRSQBfb3QyYmVPq2KUjW_RWeNw/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDgva2FybG92YWNrYS1waXZvdmFyYTEtMzAxMDE4LmpwZw.jpg">
