@@ -17,7 +17,7 @@ class Telegram_Command extends WP_CLI_Command {
 				$q->the_post();
 				$url     = get_the_permalink();
 				$id      = get_the_ID();
-				$request = wp_remote_get( 'https://graph.facebook.com/v10.0/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa&fields=engagement' );
+				$request = wp_remote_get( 'https://graph.facebook.com/v19.0/?id=' . rawurlencode( $url ) . '&access_token=1383786971938581|5a3bbbbddd912a9b600ffd6516c780fa&fields=engagement' );
 				if ( ! is_wp_error( $request ) ) {
 					$body = json_decode( $request['body'], true );
 					if ( intval( $body['engagement']['comment_plugin_count'] ) ) {
@@ -202,6 +202,18 @@ class Telegram_Command extends WP_CLI_Command {
             	echo $query->post->ID."\n";
         }
 	}
+
+    public function clean() {
+        global $wpdb;
+        while(true) {
+            $wpdb->query("DELETE FROM wp_options WHERE option_name LIKE '_transient_%' LIMIT 1000");
+            \WP_CLI::line('Deleted ' . $wpdb->rows_affected . ' rows' . time());
+            sleep(10);
+            if ($wpdb->rows_affected < 1000) {
+                break;
+            }
+        }
+    }
 }
 
 WP_CLI::add_command( 'telegram', 'Telegram_Command' );
