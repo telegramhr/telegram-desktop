@@ -485,6 +485,12 @@ function capx_filter_guest_author_fields( $fields_to_return, $groups ) {
 			'label'    => 'Byline',
 			'group'    => 'name',
 		);
+        $fields_to_return[] = array(
+            'key'      => 'paywall',
+            'label'    => 'Paywall',
+            'group'    => 'name',
+            'input' => 'checkbox',
+        );
 	}
     if (in_array( 'all', $groups ) || in_array( 'contact-info', $groups )) {
         $fields_to_return[] = array(

@@ -47,11 +47,10 @@
     </div>
   </div>
   <!-- ***** Preloader End ***** -->
-<video autoplay muted loop preload="auto" id="video-bg">
-  <source src="<?php echo $native_path ?>/assets/images/video.mp4" type="video/mp4">
-  <!-- Dodajte fallback slike ili poruke za preglednike koji ne podržavaju HTML5 video -->
-  Your browser does not support the video tag.
-</video>
+
+<div class="video-background" >
+<iframe class="video-background" src="https://www.youtube.com/embed/lSqjNNuZc9Y?autoplay=1&loop=1&controls=0&mute=1&playlist=lSqjNNuZc9Y"  frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+</div>
 
 <div style="top:0; left:0; width: 100%; height: 100%; position: absolute; z-index: 1;"><img src="<?php echo $native_path ?>/assets/images/ferlauf.png" style="height: 100%;"></div>
 
