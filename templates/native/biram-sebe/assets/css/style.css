@@ -71,6 +71,17 @@ figure, header, nav, section, article, aside, footer, figcaption {
   height: 0;
 }
 
+.video-background {
+    position: fixed;
+    top: 0;
+    left: -25%;
+    min-width: 150vw;
+    min-height: 1080px;
+    z-index: 1;
+    object-fit: fill;
+}
+
+
 .clearfix {
   display: inline-block;
 }
@@ -114,7 +125,7 @@ html, body {
 
 
 #video-bg {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -250,6 +261,9 @@ body {
     background-size: cover;
     background-position: bottom right;
   }
+
+  .video-background { height: 100vh; width: 1920px;
+    left: -50%; }
 
 .buttoni {position: relative; margin-top: 20px;}
 .naoblakuefikasnosti {padding: 50px; padding-top: 30px;}
