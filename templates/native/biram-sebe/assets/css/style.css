@@ -74,11 +74,15 @@ figure, header, nav, section, article, aside, footer, figcaption {
 .video-background {
     position: fixed;
     top: 0;
-    left: -25%;
-    min-width: 150vw;
-    min-height: 1080px;
+    left: -60%;
+    min-width: 220vw;
+    min-height: 130vh;
     z-index: 1;
     object-fit: fill;
+}
+
+.scroll-transform {
+  transition: transform 0.1s ease; /* Dodajemo tranziciju da bi transformacija bila glatka */
 }
 
 
@@ -175,8 +179,28 @@ img {
 
 }
 
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
 
-.partneri {margin-top: 50px; width: 70%;}
+.marquee-content {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+
+
+
+
+.scroll-transform h1 {transform: translateX(0%) !important; text-align: left; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra h1 {transform: translateX(0%) !important; text-align: right;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+.partneri {margin-top: 0px; width: 80%;}
 /* 
 ---------------------------------------------
 global styles
@@ -189,12 +213,12 @@ body {
 }
 
 ::selection {
-  background: #f4752b;
+  background: #7B19C8 ;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: #f4752b;
+  background: #7B19C8 ;
   color: #fff !important;
 }
 
@@ -231,7 +255,7 @@ body {
 
 
 
-.oblakslika {max-width: 515px; height:auto;}
+.oblakslika { height:auto;}
 
 
 
@@ -260,6 +284,12 @@ body {
   html, body {
     background-size: cover;
     background-position: bottom right;
+    .saznajvise {text-align: center;}
+
+
+    .scroll-transform h1 {transform: translateX(-400px) !important; text-align: left; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra h1 {transform: translateX(400px) !important; text-align: right;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
   }
 
   .video-background { height: 100vh; width: 1920px;
@@ -268,6 +298,8 @@ body {
 .buttoni {position: relative; margin-top: 20px;}
 .naoblakuefikasnosti {padding: 50px; padding-top: 30px;}
 .oblakslika {width: 70%; height:auto;}
+
+
 
 h1 {
   color: #fff !important;
@@ -409,7 +441,9 @@ h2 {font-size: 40px; font-weight: 700}
   color: #fff !important;
 }
 
-a:hover {color:#ccc !important}
+a:hover {color:#ccc !important; transition: 200ms}
+
+.saznajvise {text-align: left;}
 
 /* 
 ---------------------------------------------
@@ -472,8 +506,8 @@ h1 {
 .intro-banner a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #f4752b !important;
-  border: 1px solid #f4752b !important;
+  color: #7B19C8  !important;
+  border: 1px solid #7B19C8  !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -483,7 +517,7 @@ h1 {
 }
 
 .intro-banner a:hover {
-  background-color: #f4752b;
+  background-color: #7B19C8 ;
   color: #fff !important;
 }
 
@@ -542,7 +576,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
-  color: #f4752b;
+  color: #7B19C8 ;
 }
 
 .pre-header ul.info li a i {
@@ -572,7 +606,7 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: #f4752b;
+  background-color: #7B19C8 ;
 }
 
 .background-header {
@@ -591,7 +625,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #f4752b;
+  color: #7B19C8 ;
 }
 
 .background-header .nav li a.active {
@@ -603,7 +637,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #f4752b;
+  background-color: #7B19C8 ;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -710,12 +744,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f4752b!important;
+  color: #7B19C8 !important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f4752b!important;
+  color: #7B19C8 !important;
   opacity: 1;
 }
 
@@ -777,7 +811,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #f4752b!important;
+  color: #7B19C8 !important;
   padding-left: 25px;
 }
 
@@ -920,7 +954,7 @@ header
 .prednost {z-index: 9;}
 
 .header-area.header-sticky .nav li a.active {
-  color: #f4752b;
+  color: #7B19C8 ;
 }
 
 @media (max-width: 1200px) {
@@ -959,7 +993,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #f4752b!important;
+    color: #7B19C8 !important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -1021,7 +1055,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #f4752b!important;
+    color: #7B19C8 !important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -1135,7 +1169,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #f4752b;
+    background: #7B19C8 ;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -1158,7 +1192,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #f4752b;
+    background: #7B19C8 ;
     border-radius: 50%;
 }
 
@@ -1203,7 +1237,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 500;
-  color: #f4752b;
+  color: #7B19C8 ;
   margin-bottom: 15px;
   
 }
@@ -1309,7 +1343,7 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #f4752b;
+  border-color: #7B19C8 ;
 }
 
 .second-skill-item .progress .progress-bar {
@@ -1653,7 +1687,7 @@ Services Style
 .services .left-text h4 {
   font-size: 20px;
   font-weight: 500;
-  color: #f4752b !important;
+  color: #7B19C8  !important;
 }
 
 .services .left-text p {
@@ -1798,7 +1832,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-  color: #f4752b;
+  color: #7B19C8 ;
 }
 
 .portfolio-item .thumb img {
@@ -1855,7 +1889,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #fff;
-  background-color: #f4752b;
+  background-color: #7B19C8 ;
 }
 
 
@@ -1912,8 +1946,8 @@ Kviz
     display: inline-block !important;
     padding: 20px 30px !important;
     color: #fff !important;
-    background: #f4752b !important;
-    border: 1px solid #f4752b !important;
+    background: #7B19C8  !important;
+    border: 1px solid #7B19C8  !important;
     border-radius: 50px;
     font-weight: 900 !important;
     letter-spacing: 0.3px !important;
@@ -1953,7 +1987,8 @@ Blog
 
 .blog {
   position: relative;
-  padding-top: 90px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .blog .section-heading {
@@ -2309,7 +2344,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-  color: #f4752b;
+  color: #7B19C8 ;
 }
 
 form#contact input {
@@ -2357,20 +2392,20 @@ form#contact button {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #f4752b;
+  color: #7B19C8 ;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #f4752b;
+  border: 1px solid #7B19C8 ;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #f4752b!important;
+  background-color: #7B19C8 !important;
   color: #fff!important;
 }
 
@@ -2517,7 +2552,7 @@ responsive
     margin-top: 30px;
   }
 
-  .blog {padding-top:15px;}
+  .blog {padding-top:220px;}
 
   .news-posts {
     margin-left: 0px;
@@ -2550,8 +2585,8 @@ responsive
     border-radius: 10px;
   }
 
-.owl-carousel button.owl-dot.active {background: #f4752b !important;
-    color: #f4752b !important;
+.owl-carousel button.owl-dot.active {background: #7B19C8  !important;
+    color: #7B19C8  !important;
     border: solid;
     padding: 0 !important;
     font: inherit;

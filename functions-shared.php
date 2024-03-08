@@ -195,7 +195,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325])) {
+                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700])) {
                     $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
@@ -786,3 +786,27 @@ function disallow_insert_term($term, $taxonomy) {
 }
 
 //add_filter('pre_insert_term', 'disallow_insert_term', 10, 2);
+
+add_action( 'web_stories_print_analytics', 'amp_analytics' );
+function amp_analytics() {
+    ?>
+    <amp-analytics config="https://events.newsroom.bi/amp.v2.json" data-credentials="include">
+        <script type="application/json" >
+            {
+                "vars" : {
+                    "accountId": "1279"
+                }
+            }
+        </script>
+    </amp-analytics>
+    <amp-analytics config="https://gahr.hit.gemius.pl/amp.config.json">
+        <script type="application/json">
+            {
+                "vars": {
+                    "identifier": "nSblbvtw7YnzUiC8AtarvJdS3yggumM2F_xjEZ.9W1..57"
+                }
+            }
+        </script>
+    </amp-analytics>
+    <?php
+}
