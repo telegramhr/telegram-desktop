@@ -21,14 +21,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="<?php echo $native_path ?>/assets/images/favicon.png">
-
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?=23022024v2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?=08032024v1">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 <style type="text/css">
@@ -318,7 +317,7 @@
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
-  <script src="<?php echo $native_path ?>/assets/js/script.js?v=2"></script>
+  <script src="<?php echo $native_path ?>/assets/js/script.js?v3"></script>
 
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>
