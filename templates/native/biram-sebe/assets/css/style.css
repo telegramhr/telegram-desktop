@@ -193,12 +193,123 @@ img {
 }
 
 
+.marquee-2 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-2 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+
+.marquee-3 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-3 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+
+.marquee-4 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-4 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-5 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-5 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-6 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-6 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-7 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-7 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
 
 
 
-.scroll-transform h1 {transform: translateX(0%) !important; text-align: left; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra h1 {transform: translateX(0%) !important; text-align: right;   font-family: "Poppins", sans-serif;
+
+.scroll-transform h1 {transform: translateX(-30%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra h1 {transform: translateX(30%) !important; text-align: center !important;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
+
+
+.scroll-transform-2 h1 {transform: translateX(-80%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-2 h1 {transform: translateX(80%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+.scroll-transform-3 h1 {transform: translateX(-130%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-3 h1 {transform: translateX(130%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+
+.scroll-transform-4 h1 {transform: translateX(-180%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-4 h1 {transform: translateX(180%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+
+
+.scroll-transform-5 h1 {transform: translateX(-220%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-5 h1 {transform: translateX(220%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+
+
+.scroll-transform-6 h1 {transform: translateX(-270%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-6 h1 {transform: translateX(270%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+.scroll-transform-7 h1 {transform: translateX(-300%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-7 h1 {transform: translateX(300%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
 
 .partneri {margin-top: 0px; width: 80%;}
 /* 
@@ -287,13 +398,46 @@ body {
     .saznajvise {text-align: center;}
 
 
-    .scroll-transform h1 {transform: translateX(-400px) !important; text-align: left; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra h1 {transform: translateX(400px) !important; text-align: right;   font-family: "Poppins", sans-serif;
+    .scroll-transform h1 {transform: translateX(-600px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra h1 {transform: translateX(600px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important; font-size: 20px !important}
+
+
+      .scroll-transform-2 h1 {transform: translateX(-1700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-2 h1 {transform: translateX(1700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
+
+
+      .scroll-transform-3 h1 {transform: translateX(-2700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-3 h1 {transform: translateX(2700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+
+      .scroll-transform-4 h1 {transform: translateX(-3700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-4 h1 {transform: translateX(3700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+      .scroll-transform-5 h1 {transform: translateX(-4700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-5 h1 {transform: translateX(4700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+      .scroll-transform-6 h1 {transform: translateX(-5500px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-6 h1 {transform: translateX(5500px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+
+      .scroll-transform-7 h1 {transform: translateX(-6600px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-7 h1 {transform: translateX(6600px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+
   }
 
-  .video-background { height: 100vh; width: 1920px;
-    left: -50%; }
+
+
+
+  .video-background { height: 120vh; width: 2220px;
+    left: -70%; }
 
 .buttoni {position: relative; margin-top: 20px;}
 .naoblakuefikasnosti {padding: 50px; padding-top: 30px;}
