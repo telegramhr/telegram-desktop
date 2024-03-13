@@ -39,6 +39,8 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+
+
 /* clear fix */
 .grid:after {
   content: '';
@@ -115,7 +117,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
     font-family: "Cormorant", serif;
   font-weight: 400;
-  background-color: #04070c !important;
+  background-color: #fff !important;
   background-position: right bottom;
   background-attachment: fixed !important;
   background-size: cover;
@@ -125,6 +127,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+
 }
 
 
@@ -139,7 +142,7 @@ html, body {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 800;
   color: #000;
 }
@@ -161,12 +164,19 @@ p {
   font-weight: 300;
   color: #393939;
   margin-top: 20px;
-  padding-bottom:50px;
 }
 
 img {
   width: 100%;
   overflow: hidden;
+}
+
+.blog {
+
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .maloveci {
@@ -274,6 +284,33 @@ img {
 }
 
 
+.marquee-8 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-8 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+
+.marquee-9 {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Poppins';
+  color: #bababa;
+}
+
+.marquee-content-9 {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
 
 
 .scroll-transform h1 {transform: translateX(-30%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
@@ -281,35 +318,45 @@ img {
   font-weight: 900; color: #7B19C8 !important;}
 
 
-.scroll-transform-2 h1 {transform: translateX(-80%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-2 h1 {transform: translateX(80%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+.scroll-transform-2 h1 {transform: translateX(-130%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-2 h1 {transform: translateX(130%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
-.scroll-transform-3 h1 {transform: translateX(-130%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-3 h1 {transform: translateX(130%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-.scroll-transform-4 h1 {transform: translateX(-180%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-4 h1 {transform: translateX(180%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+.scroll-transform-3 h1 {transform: translateX(-190%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-3 h1 {transform: translateX(190%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
 
-
-.scroll-transform-5 h1 {transform: translateX(-220%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-5 h1 {transform: translateX(220%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+.scroll-transform-4 h1 {transform: translateX(-280%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-4 h1 {transform: translateX(280%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
 
 
-.scroll-transform-6 h1 {transform: translateX(-270%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-6 h1 {transform: translateX(270%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+.scroll-transform-5 h1 {transform: translateX(-330%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-5 h1 {transform: translateX(330%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
-.scroll-transform-7 h1 {transform: translateX(-300%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-7 h1 {transform: translateX(300%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+
+
+.scroll-transform-6 h1 {transform: translateX(-360%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-6 h1 {transform: translateX(360%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
+
+
+.scroll-transform-9 h1 {transform: translateX(-420%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-9 h1 {transform: translateX(420%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
+  font-weight: 900; color: #7B19C8 !important;}
+
+.tekstulja {margin-left: -40px; padding-top: 50px; padding-bottom: 50px}
+.tekstulja2 {margin-left: 60px; padding-top: 50px; padding-bottom: 50px}
+
+.stvarnoiskustvo {position: absolute; bottom: 40px; left: 50px; width: 220px; animation: rotacija 8s linear 0s infinite;}
+
+.strucnjaknaslov {margin-top:80px !important; color:#000 !important; }
+
+.strucnjaktekst {margin-top: 50px; font-weight: 500;}
 
 .partneri {margin-top: 0px; width: 80%;}
 /* 
@@ -397,37 +444,42 @@ body {
     background-position: bottom right;
     .saznajvise {text-align: center;}
 
+.tekstulja {margin-left: 0px; padding-top: 20px;}
+.tekstulja2 {margin-left: 0px; padding-top: 20px;}
+.stvarnoiskustvo {width: 150px; }
+.strucnjaknaslov {margin-top:50px !important; color:#000 !important; text-align: left !important;}
+.strucnjaktekst {margin-top: 20px; text-align: left !important;}
 
     .scroll-transform h1 {transform: translateX(-600px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
 .scroll-transform-kontra h1 {transform: translateX(600px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important; font-size: 20px !important}
 
 
-      .scroll-transform-2 h1 {transform: translateX(-1700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-2 h1 {transform: translateX(1700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+      .scroll-transform-2 h1 {transform: translateX(-2900px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-2 h1 {transform: translateX(2900px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
 
-      .scroll-transform-3 h1 {transform: translateX(-2700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-3 h1 {transform: translateX(2700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+      .scroll-transform-3 h1 {transform: translateX(-3800px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-3 h1 {transform: translateX(3800px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
 
-      .scroll-transform-4 h1 {transform: translateX(-3700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-4 h1 {transform: translateX(3700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+      .scroll-transform-4 h1 {transform: translateX(-5700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-4 h1 {transform: translateX(5700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
-      .scroll-transform-5 h1 {transform: translateX(-4700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-5 h1 {transform: translateX(4700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+      .scroll-transform-5 h1 {transform: translateX(-6700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-5 h1 {transform: translateX(6700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
-      .scroll-transform-6 h1 {transform: translateX(-5500px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-6 h1 {transform: translateX(5500px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+      .scroll-transform-6 h1 {transform: translateX(-7500px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-6 h1 {transform: translateX(7500px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
 
-      .scroll-transform-7 h1 {transform: translateX(-6600px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-7 h1 {transform: translateX(6600px) !important; text-align: center;   font-family: "Poppins", sans-serif;
+      .scroll-transform-9 h1 {transform: translateX(-8400px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
+.scroll-transform-kontra-9 h1 {transform: translateX(8400px) !important; text-align: center;   font-family: "Poppins", sans-serif;
   font-weight: 900; color: #7B19C8 !important;}
 
 
@@ -453,7 +505,7 @@ h1 {
 
 p {    margin-top: 20px;
   font-size:18px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
     padding: 0 !important}
 
 .oblakslika {width: 315px;}

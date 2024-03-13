@@ -11,6 +11,9 @@
 ?>
 
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap')
+    </style>
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_head(); ?>
 
@@ -27,27 +30,30 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?=08032024v1">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=13032024v2">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 <style type="text/css">
 
       @-webkit-keyframes micanje { 0% { margin-left:0px; } 50% {margin-left:10px;} 100% { margin-left:0px;} }
     @keyframes micanje { 0% { margin-left:0px; } 50% {margin-left:10px;} 100% { margin-left:0px;} }
+
+      @-webkit-keyframes rotacija { 0% { -webkit-transform: rotate(0deg) } 100% { -webkit-transform: rotate(360deg);} }
+    @keyframes rotacija { 0% { transform: rotate(0deg) } 100% { transform: rotate(360deg);} }
 </style>
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15" class="pozadina">
 <?php do_action('telegram_body_start'); ?>
   <!-- ***** Preloader Start ***** -->
 
+
+
 <div style="top:20px; right:20px; position: absolute; z-index: 10;"><img src="<?php echo $native_path ?>/assets/images/super1.png" ></div>
 
-<div class="video-background" >
-<iframe class="video-background" src="https://www.youtube.com/embed/f3uVW1znWN0?autoplay=1&loop=1&controls=0&mute=1&playlist=f3uVW1znWN0"  frameborder="0" allow="autoplay;" allowfullscreen></iframe>
-</div>
 
 <div style="top:0; left:0; width: 100%; height: 100%; position: absolute; z-index: 1;"><img src="<?php echo $native_path ?>/assets/images/ferlauf.png" style="height: 100%;"></div>
+
 
   <div class="blog">
     <div class="container-fluid">
@@ -87,18 +93,39 @@
           <h1 style="font-size: 34px !important; font-weight: 200;"><span style="font-weight: 900;">44%</span> danas ima manje samopouzdanja nego prije 5 godina</span></h1>
         </div>
 
-      <div class="col-lg-4 offset-lg-4 text-center" >
 
-
-        <p style="margin-top: 50px;">Koliko god se trudim, ne pomičem se i to jako utječe na moje samopouzdanje jer imam osjećaj kao da sam sama sebe iznevjerila, ostvarila puno manje od ljudi za koje smatram da ne vrijede više.
-          <br/>
-        <svg style="width:70px;" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-dhaba5" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>
+    </div>
+  </div>
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-5 text-center wow fadeInLeft" data-wow-duration="1.9s" data-wow-delay="0s"><a href="https://www.telegram.hr/super1/arhitektica-tina-iskreno-o-zivotu-s-kcerima-nakon-gubitka-partnera-nas-tri-se-nismo-imale-cemu-vratiti/" target="_blank">
+              <img src="<?php echo $native_path ?>/assets/images/tina-biloglav.jpg">
+              <img src="<?php echo $native_path ?>/assets/images/si.png" class="stvarnoiskustvo">
+            </a>
+            </div>
+          <div class="col-lg-5 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+            <a href="https://www.telegram.hr/super1/arhitektica-tina-iskreno-o-zivotu-s-kcerima-nakon-gubitka-partnera-nas-tri-se-nismo-imale-cemu-vratiti/" target="_blank">
+              <p class="sticky-top  tekstulja" style=" font-weight: 500;">Ako postoji jedna osoba kojoj je lakše zbog mene, onda je to što radim dobro. Zato sam i nastavila pokazivati da sam okej. Ljudi često govore da sam ja prošla kroz traumu, ali imam njih dvije za koje moram živjeti. Ne, ja imam sebe.<br/><br/>
+              <span style="padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Tina Biloglav, arhitektica</span>
+              </p>
+            </a>
+            </div>
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+            <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
+            <p class="strucnjaktekst">Često smo svjedoci da neki ljudi ne bi trebali biti samopouzdani pa ipak jesu, dok oni koji bi trebali pucati od samopouzdanja često ulaze u ‘mišju rupu’ . Izgleda da koncept jest kompleksan, ali to ne znači da ne postoje stvari koje možete poduzeti po pitanju izgradnje samopouzdanja. Mi znanstvenici našli smo način<br/><br/>
+            <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Ana Čerenšek, psihologinja</span>
+          <br/><br/>
+        <img src="<?php echo $native_path ?>/assets/images/ana.png" style="width:180px; height: auto;" />
       </p>
 
 
         </div>
+      </div>
     </div>
-  </div>
 </div>
 
 
@@ -120,7 +147,7 @@
           <h1>Više od trećine izbjegava razne aktivnosti zbog izgleda</h1>
         </div>
       <div class="col-lg-12 text-center scroll-transform-kontra-2">
-          <h1  style="font-size: 34px !important; font-weight: 200;">poput izlazaka, seksa, teretane, druženja, kupanja...</h1>
+           <h1  style="font-size: 34px !important; font-weight: 200;">poput izlazaka, seksa, teretane, druženja, kupanja...</h1>
         </div>
       <div class="col-lg-4 offset-lg-4 text-center" >
 
@@ -155,18 +182,40 @@
       <div class="col-lg-12 text-center scroll-transform-kontra-3">
           <h1  style="font-size: 34px !important; font-weight: 200;">Posao je vodeći <span style="font-weight: 900;">uzrok stresa</span> i nezadovoljstva</h1>
         </div>
-      <div class="col-lg-4 offset-lg-4 text-center" >
 
+    </div>
 
-        <p style="margin-top: 50px;">Ako nisam u svakom zadatku izvrsna i najbolja onda mislim da ne vrijedim dovoljno za taj posao. Također, moram podmetnuti leđa za cijeli tim i biti na usluzi kolegama i kolegicama, jer više vrijedim ako sam od koristi drugima nego da se borim za svoje ciljeve.
-          <br/>
-        <svg style="width:70px;" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-dhaba5" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>
+  </div>
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-1 order-lg-4 text-center">
+          </div>
+          <div class="col-lg-5 order-lg-2 text-center wow fadeInRight" data-wow-duration="1.9s" data-wow-delay="0s"><a href="https://www.telegram.hr/super1/velika-ispovijest-ivane-paradzikovic-u-vrijeme-kada-se-sve-oko-mene-raspadalo-sin-me-drzao-za-ruku/" target="_blank">
+              <img src="<?php echo $native_path ?>/assets/images/ivana-paradzikovic.jpg">
+              <img src="<?php echo $native_path ?>/assets/images/si.png" class="stvarnoiskustvo">
+            </a>
+            </div>
+          <div class="col-lg-5 order-lg-1 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+            <a href="https://www.telegram.hr/super1/velika-ispovijest-ivane-paradzikovic-u-vrijeme-kada-se-sve-oko-mene-raspadalo-sin-me-drzao-za-ruku/" target="_blank">
+              <p class="sticky-top  tekstulja2" style=" font-weight: 500;">Ja sam zauzela određeni gard, nisam ljude puštala blizu sebe, bila sam u tom korporacijskom svijetu i prihvatila sam takvu ulogu. Malo tko zna da sam vikendima iznajmljivala stan kako bih mogla otplaćivati kredit<br/><br/>
+              <span style="padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Ivana Paradžiković, urednica</span>
+              </p>
+            </a>
+            </div>
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-6 order-lg-3 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+            <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
+            <p class="strucnjaktekst">Mnoge žene sebi postavljaju vrlo visoke kriterije uspjeha pa ako ne ostvare u svim situacijama maksimalan rezultat ili u samo jednoj situaciji dobiju reakciju nezadovoljstva iz okoline, to ih može dovesti do toga da negiraju cjelokupnu svoju vrijednost<br/><br/>
+            <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;">Tanja Pureta, psihologinja</span>
+          <br/><br/>
+        <img src="<?php echo $native_path ?>/assets/images/tanja.png" style="width:180px; height: auto;" />
       </p>
 
 
         </div>
+      </div>
     </div>
-  </div>
 </div>
 
 
@@ -268,24 +317,21 @@
 
 
 
-<div class="blog" style="padding-bottom: 0px !important;">
+<div class="blog" style="padding-bottom: 0px !important; padding-top: 50px;">
   <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 120px; overflow: hidden;">
 
     <div class="row">
       <div class="col-lg-12 text-center" style="padding-bottom:150px">
 
 
-        <div class="marquee-7">
-          <div class="marquee-content-7">USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="marquee-9">
+          <div class="marquee-content-9">USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </div>
-
-
-
         </div>
-      <div class="col-lg-12 text-right scroll-transform-7">
+      <div class="col-lg-12 text-right scroll-transform-9">
           <h1>Više rezultata i priča</h1>
         </div>
-      <div class="col-lg-12 text-right scroll-transform-kontra-7">
+      <div class="col-lg-12 text-right scroll-transform-kontra-9">
           <h1>dolazi uskoro...</h1>
         </div>
     </div>
@@ -317,7 +363,7 @@
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
-  <script src="<?php echo $native_path ?>/assets/js/script.js?v3"></script>
+  <script src="<?php echo $native_path ?>/assets/js/script.js"></script>
 
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>

@@ -310,15 +310,21 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 		return $content;
 	$image_id = str_replace('attachment_', '', $id);
 
+    $content = do_shortcode($content);
+    preg_match('/href="([^"]+)"/', $content, $m2);
+    $link = $m2[1];
 	if ( $id ) $id = 'id="' . esc_attr($id) . '" ';
 
 	$photo = telegram_get_photographer($image_id);
+    if ($link) {
+        $caption = '<a href="' . $link . '">' . $caption . '</a>';
+    }
     if ($photo) {
 	    return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
-	           . do_shortcode( $content ) . '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><span class="photographer">' . $photo . '</span></figcaption></figure>';
+	           . $content . '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
 	return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
-	       . do_shortcode( $content ) . '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>';
+	       . $content . '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>';
 }
 
 function super1_unautop_4_img( $content )
