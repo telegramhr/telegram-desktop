@@ -7,7 +7,7 @@
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/franck/kralju-kavu/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/client/landing/';
-//$native_path = 'http://localhost/telegram-desktop/templates/native/client/landing/';
+//$native_path = 'http://localhost/telegram-desktop/templates/native/franck/kralju-kavu/';
 //$native_path = 'http://localhost/kralju-kavu/';
 ?>
 
@@ -114,7 +114,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="fourty center flex-responsive column-full-pad wrap mobile-order-2 bg-color">
                     <form class="full flex relative form-text" id="kavu-form">
                         <p class="full input-text">Vaše ime i prezime</p>
-                        <input required type="text" id="ime" name="ime" placeholder="Pero Perić" class="full styledinput">
+                        <input required type="text" id="ime" name="ime" placeholder="Ivan Horvat" class="full styledinput">
                         <p class="full input-text">Vaša adresa stanovanja</p>
                         <input required type="text" id="adresa" name="adresa" placeholder="Vukovarsko ulica 75a, Zagreb 10000" class="full styledinput">
                         <p class="full input-text">Vaš kontakt broj</p>
