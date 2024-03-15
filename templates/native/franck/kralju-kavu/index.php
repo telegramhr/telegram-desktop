@@ -5,7 +5,7 @@
 
 /* Potential native paths */
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
-$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/client/landing/';
+$native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/franck/kralju-kavu/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/client/landing/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/client/landing/';
 //$native_path = 'http://localhost/kralju-kavu/';
