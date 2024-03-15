@@ -1,0 +1,534 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 174, 55, 55;
+}
+
+/* Main container and Spacing*/
+
+.main-container {
+    scroll-behavior: smooth;
+    background-color: #faf0e5;
+}
+
+@media screen and (min-width: 1024px) {
+    .main-container {
+        height: 100vh;
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: start;
+    }
+}
+
+
+header,
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+
+}
+
+
+section .container {
+    margin-top: 50px;
+}
+
+form {
+    margin-left: 20px;
+}
+
+.half.white-bg {
+    height: 80vh;
+    padding: 2.2rem 4rem;
+}
+
+img.column-full-pad {
+    padding: 1.2rem;
+}
+
+/* Colors */
+
+.white-bg {
+    background-color: #FFFFFFCC;
+
+}
+
+.red-border-right {
+    border-right: 5px solid #e5243b;
+}
+
+.red-border-left {
+    border-left: 5px solid #e5243b;
+}
+
+/* Typography */
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+h1,
+a.center-text {
+    font-family: "Oleo Script Swash Caps", sans-serif;
+    font-size: 36px;
+}
+
+h2.red-text {
+    padding: 3.2rem;
+}
+
+h1.red-text {
+    font-size: 120px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.red-text {
+    color: #e5243b;
+}
+
+
+
+h3.red-text {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+p.full {
+    font-size: 20px;
+    margin-bottom: 0.8rem
+}
+
+
+.form-text p {
+    font-size: 18px;
+    margin-bottom: 0.1rem;
+
+}
+
+
+label.center-text {
+    font-size: 15px;
+}
+
+
+/* Inputs for Form*/
+
+input.styledinput {
+    padding: 10px;
+    margin-bottom: 0.8rem;
+    border: none;
+    border-left: 5px solid #e5243b;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+
+}
+
+
+textarea {
+    font-family: "Montserrat", sans-serif;
+    resize: none;
+    height: 18vh;
+    padding: 10px;
+    border: none;
+    border-left: 5px solid #e5243b;
+    outline: none;
+    line-height: 1.4;
+    margin-bottom: 1.1rem;
+
+}
+
+input#myCheckbox {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.right-side {
+    margin-left: auto;
+    display: block;
+}
+
+.shoo-bottom {
+    margin-bottom: 0.5rem;
+}
+
+.shoo-left {
+    margin-left: 20px;
+}
+
+
+/* The sidepanel menu */
+
+.mobile-only.side-menu {
+    z-index: 101;
+    position: fixed;
+}
+
+.sidepanel {
+    width: 70vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: -71vw;
+    background-color: #faf0e5;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidepanel a div {
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #312C1A;
+    transition: 0.3s;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    margin-top: 30px;
+
+}
+
+.sidepanel a div:hover {
+    opacity: 1;
+    border-bottom: 3px solid #e5243b;
+    color: #e5243b;
+    transition: all 0.2s;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 40px;
+    color: #312C1A;
+    font-weight: 500;
+
+}
+
+.openbtn {
+    font-size: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #312C1A;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: transparent;
+}
+
+
+/* Images */
+
+.santa-bg-img {
+    position: absolute;
+    z-index: 0;
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    border-top-left-radius: 300px 65%;
+    border-bottom-left-radius: 300px 65%;
+    padding-left: 2.2rem;
+
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Button */
+
+
+.button-24 {
+    background: #e5243b;
+    border: 1px solid #e5243b;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #e5243b;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+/* Laptop */
+@media only screen and (max-width: 1440px)
+
+/* Typography */
+    {
+
+    h1.red-text {
+        font-size: 100px;
+    }
+
+    h2.red-text {
+        font-size: 31px;
+    }
+
+    h3.red-text {
+        font-size: 30px;
+    }
+
+    p.full,
+    .form-text p {
+        font-size: 17px;
+        margin-bottom: 1.3rem
+    }
+
+    .form-text p {
+        margin-bottom: 0.2rem;
+    }
+
+    textarea {
+        height: 16vh;
+    }
+
+    header,
+    section#form {
+        height: auto;
+    }
+
+    /* Images */
+
+    img.column-full-pad {
+        height: 42vh;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 1024px) {
+
+    /* Spacing */
+
+    header .center,
+    section .center {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+
+    header,
+    section#form {
+        height: auto;
+    }
+
+    form {
+        margin-left: 0px;
+        margin-top: -35px;
+    }
+
+    textarea {
+        height: 25vh;
+        font-size: 14px;
+    }
+
+
+    .half.white-bg {
+        padding: 1rem;
+        margin-top: 20px;
+    }
+
+    .featured-article {
+        padding: 1rem;
+    }
+
+    .button-24 {
+        width: 100%;
+        margin-top: 1.3rem;
+    }
+
+    img.column-full-pad {
+        padding: 0;
+    }
+
+    section .container {
+        margin-top: 20px;
+    }
+
+
+
+    /* Images */
+    .santa-bg-img {
+        position: relative;
+        z-index: 0;
+        width: 100vw;
+        max-width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+        border-top-left-radius: 0px 0%;
+        border-bottom-left-radius: 0px 0%;
+        padding: 0%;
+
+    }
+
+    .santa-fade {
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(360deg, #FAF0E5 40.83%, rgba(250, 240, 229, 0) 82.1%);
+        z-index: 3;
+    }
+
+    img.column-full-pad {
+        height: auto;
+    }
+
+    /* Typography */
+
+    h1.red-text {
+        font-size: 63px;
+        margin-top: -65px;
+        margin-bottom: 0.8rem;
+        z-index: 50;
+    }
+
+    h2.red-text {
+        font-size: 20px;
+        width: 100%;
+        text-align: left;
+        padding: 1.0rem;
+
+    }
+
+    h3.red-text {
+        font-size: 20px;
+    }
+
+
+    .negative-margin {
+        margin-top: -200px;
+        z-index: 5;
+    }
+
+    p.full {
+        font-size: 16px;
+        margin-bottom: 1.3rem
+    }
+
+    .form-text p {
+        margin-bottom: 0.2rem;
+    }
+
+    label.center-text {
+        font-size: 11px;
+        margin-top: 4px;
+        text-align: left;
+    }
+}
+
+/* Order */
+
+@media screen and (min-width: 767px) {
+
+    .desktop-order-1 {
+        order: 1;
+    }
+
+    .desktop-order-2 {
+        order: 2;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .mobile-order-1 {
+        order: 1;
+    }
+
+    .mobile-order-2 {
+        order: 2;
+    }
+
+    .mobile-order-3 {
+        order: 3;
+    }
+
+}
+
+/* Marijan */
+
+@media screen and (min-width: 1025px) {
+    .santa-bg-img {
+        position: relative;
+        z-index: 100;
+        width: 55vw;
+        height: 125vh;
+        object-fit: cover;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        padding-left: 2.2rem;
+        max-width: 200%;
+        top: -10vh;
+        object-position: bottom center;
+        right: 2vw;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .mobile-70 {
+        width: 70%;
+    }
+}
+.bg-color {
+    position: relative;
+    z-index: 100;
+    background-color: #faf0e5;
+}
+.top-nav {
+    background-color: #faf0e5;
+}
+.form-text a {
+    color: #e5243b;
+    text-decoration: underline;
+}
+.sidepanel {
+    border-right: 1px solid #c8c8c8;
+}
