@@ -189,165 +189,53 @@ img {
 
 }
 
-.marquee {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
+/* Stil za marquee kontejner */
+.marquee-container {
+  overflow: hidden; /* Skriva sadržaj izvan kontejnera */
+  width: 100%; /* Prilagodljiva širina */
 }
 
+/* Stil za marquee tekst */
 .marquee-content {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-
-.marquee-2 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
+  white-space: nowrap; /* Sprječava prelazak teksta u novi red */
+  display: inline-block; /* Osigurava da se sadržaj ne prelazi u novi red */
+  animation: marquee 500s linear infinite; /* Animacija marquee efekta */
+    font-family: 'Poppins';
   color: #bababa;
 }
 
-.marquee-content-2 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-
-.marquee-3 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
-}
-
-.marquee-content-3 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-
-.marquee-4 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
-}
-
-.marquee-content-4 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-.marquee-5 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
-}
-
-.marquee-content-5 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-.marquee-6 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
-}
-
-.marquee-content-6 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-.marquee-7 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
-}
-
-.marquee-content-7 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-
-.marquee-8 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
-}
-
-.marquee-content-8 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
-}
-
-
-.marquee-9 {
-  width: 100%;
-  overflow: hidden;
-  font-family: 'Poppins';
-  color: #bababa;
-}
-
-.marquee-content-9 {
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 10s linear infinite;
+/* Ključna animacija za marquee efekt */
+@keyframes marquee {
+  0% { transform: translateX(0); } /* Tekst se počinje pomicati s početne pozicije */
+  100% { transform: translateX(-100%); } /* Tekst završava pomak na lijevu stranu */
 }
 
 
 
-.scroll-transform h1 {transform: translateX(-30%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra h1 {transform: translateX(30%) !important; text-align: center !important;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
+/* Define the initial state of your elements */
+.scroll-transform-1 h1, .scroll-transform-2 h1, .scroll-transform-3 h1, .scroll-transform-4 h1, .scroll-transform-5 h1, .scroll-transform-6 h1, .scroll-transform-7 h1, .scroll-transform-8 h1, .scroll-transform-9 h1 {
+  transition: transform 1.2s ease-in-out; /* Transition for smooth movement */
+  transform: translateX(-100%); /* Initial position outside viewport */
+  text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important
+}
+
+/* Define the initial state of your elements */
+.scroll-transform-kontra-1 h1, .scroll-transform-kontra-2 h1, .scroll-transform-kontra-3 h1, .scroll-transform-kontra-4 h1, .scroll-transform-kontra-5 h1, .scroll-transform-kontra-6 h1, .scroll-transform-kontra-7 h1, .scroll-transform-kontra-8 h1, .scroll-transform-kontra-9 h1{
+  transition: transform 1.2s ease-in-out; /* Transition for smooth movement */
+  transform: translateX(100%); /* Initial position outside viewport */
+  text-align: center !important; font-family: "Poppins", sans-serif; font-weight: 900; color: #7B19C8 !important;
+}
 
 
-.scroll-transform-2 h1 {transform: translateX(-130%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-2 h1 {transform: translateX(130%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
+/* Define the class that will be added when the element is in viewport */
+.scroll-transform-1.animiraj h1, .scroll-transform-2.animiraj h1, .scroll-transform-3.animiraj h1, .scroll-transform-4.animiraj h1, .scroll-transform-5.animiraj h1, .scroll-transform-6.animiraj h1, .scroll-transform-7.animiraj h1, .scroll-transform-28.animiraj h1, .scroll-transform-9.animiraj h1{
+  transform: translateX(0); /* Move the element to its final position */
+}
 
-.scroll-transform-3 h1 {transform: translateX(-190%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-3 h1 {transform: translateX(190%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-.scroll-transform-4 h1 {transform: translateX(-280%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-4 h1 {transform: translateX(280%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-
-.scroll-transform-5 h1 {transform: translateX(-330%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-5 h1 {transform: translateX(330%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-
-.scroll-transform-6 h1 {transform: translateX(-360%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-6 h1 {transform: translateX(360%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-
-.scroll-transform-9 h1 {transform: translateX(-420%) !important; text-align: center !important; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-9 h1 {transform: translateX(420%) !important; text-align: center !important; font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
+/* Define the class that will be added when the element is in viewport */
+.scroll-transform-kontra-1.animiraj h1, .scroll-transform-kontra-2.animiraj h1, .scroll-transform-kontra-3.animiraj h1, .scroll-transform-kontra-4.animiraj h1, .scroll-transform-kontra-5.animiraj h1, .scroll-transform-kontra-6.animiraj h1, .scroll-transform-kontra-7.animiraj h1, .scroll-transform-kontra-8.animiraj h1, .scroll-transform-kontra-9.animiraj h1{
+  transform: translateX(0); /* Move the element to its final position */
+}
 
 .tekstulja {margin-left: -40px; padding-top: 50px; padding-bottom: 50px}
 .tekstulja2 {margin-left: 60px; padding-top: 50px; padding-bottom: 50px}
@@ -450,38 +338,7 @@ body {
 .strucnjaknaslov {margin-top:50px !important; color:#000 !important; text-align: left !important;}
 .strucnjaktekst {margin-top: 20px; text-align: left !important;}
 
-    .scroll-transform h1 {transform: translateX(-600px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra h1 {transform: translateX(600px) !important; text-align: center;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important; font-size: 20px !important}
-
-
-      .scroll-transform-2 h1 {transform: translateX(-2900px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-2 h1 {transform: translateX(2900px) !important; text-align: center;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-      .scroll-transform-3 h1 {transform: translateX(-3800px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-3 h1 {transform: translateX(3800px) !important; text-align: center;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-      .scroll-transform-4 h1 {transform: translateX(-5700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-4 h1 {transform: translateX(5700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-      .scroll-transform-5 h1 {transform: translateX(-6700px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-5 h1 {transform: translateX(6700px) !important; text-align: center;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-      .scroll-transform-6 h1 {transform: translateX(-7500px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-6 h1 {transform: translateX(7500px) !important; text-align: center;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
-
-      .scroll-transform-9 h1 {transform: translateX(-8400px) !important; text-align: center; font-family: "Cormorant", serif; font-style: italic; margin-bottom: 0; color: #404040 !important}
-.scroll-transform-kontra-9 h1 {transform: translateX(8400px) !important; text-align: center;   font-family: "Poppins", sans-serif;
-  font-weight: 900; color: #7B19C8 !important;}
-
+    
 
   }
 
@@ -2185,6 +2042,11 @@ Blog
   position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
+  min-height: 100vh;
+}
+
+.blogdva {
+  min-height: 200vh;
 }
 
 .blog .section-heading {
