@@ -6,7 +6,7 @@
 /* Potential native paths */
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/franck/kralju-kavu/';
-//$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/client/landing/';
+//$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/franck/kralju-kavu/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/franck/kralju-kavu/';
 //$native_path = 'http://localhost/kralju-kavu/';
 ?>
@@ -41,12 +41,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <div class="mobile-only side-menu">
             <div id="mySidepanel" class="sidepanel flex">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <a href="#" class="center-text full red-text bold">Kralju Kavu</a>
+                <a href="#" class="center-text full red-text bold">Tko je tvoj kralj ili kraljica?</a>
                 <a href="#pocetna" class="relative animate shoo-left">
                     <div class="full">Početna</div>
                 </a>
                 <a href="#form" class="relative animate shoo-left">
-                    <div class="full">Pošalji Kralju Kavu</div>
+                    <div class="full">Nagradite ih Ciglicom</div>
                 </a>
                 <a href="#price" class="relative animate shoo-left">
                     <div class="full">Vaše priče</div>
@@ -62,7 +62,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full center-text">Početna</div>
                     </a>
                     <a href="#form" class="center relative animate">
-                        <div class="full center-text">Pošalji Kralju Kavu</div>
+                        <div class="full center-text">Nagradite ih Ciglicom</div>
                     </a>
                     <a href="#" class="center relative animate">
                         <div class="full center-text red-text">|</div>
@@ -76,22 +76,22 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Header -->
         <header class="full flex relative" id="pocetna">
             <div class="container center relative stretch">
-                <div class="half flex flex-responsive column-full-pad mobile-order-2 negative-margin">
+                <div class="half flex flex-responsive column-full-pad mobile-order-2">
                     <div class="full flex relative">
-                        <h1 class="full red-text bold" data-aos="fade-down">Kralju Kavu</h1>
+                        <h1 class="full red-text bold" data-aos="fade-down">Tko je tvoj kralj ili kraljica?</h1>
                         <p class="full" data-aos="fade-right" data-aos-delay="500">U srcu svakog doma u Hrvatskoj, već se tradicionalno krije crveno pakiranje četvrtastog oblika. Simbol ljubavi, pažnje i darivanja - kultna Franckova ciglica. Međutim, nije potrebno čekati posebne pozivnice ili proslave kako biste svojim najmilijima pokazali koliko vam znače.</p>
                         <p class="full" data-aos="fade-right" data-aos-delay="1000">U suradnji s Telegramom, Franck vam pruža priliku da poklonite "ciglicu" onome tko je u vašem životu pravi kralj ili kraljica. Otvorite svoje srce i podijelite priču o njima, a mi ćemo najbolje nagraditi ekskluzivnim Franck poklon paketom.</p>
                         <div class="full stretch flex mobile-order-3"  data-aos="fade-right" data-aos-delay="1500">
-                            <a href="#form" class="animate flex relative button-24">Pošalji Kralju kavu</a>
+                            <a href="#form" class="animate flex relative button-24">Nagradite ih Ciglicom</a>
                         </div>
                         <div class="full flex relative">
-                            <img src="<?php echo $native_path ?>assets/placeholders/jubilarna.png" aria-hidden="true" class=" column-full-pad">
+                            <img src="<?php echo $native_path ?>assets/placeholders/jubilarna.png?ver=1.0" aria-hidden="true" class=" column-vertical-pad">
                         </div>
                     </div>
                 </div>
-                <div class="half flex flex-responsive mobile-order-1">
+                <div class="half flex flex-responsive mobile-order-1 relative">
                     <div class="santa-fade"></div>
-                    <img src="<?php echo $native_path ?>assets/placeholders/santa-kava.jpg" aria-hidden="true" class="santa-bg-img">
+                    <img src="<?php echo $native_path ?>assets/placeholders/yetanothercoffee.jpg" aria-hidden="true" class="santa-bg-img">
                 </div>
             </div>
         </header>
@@ -101,13 +101,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="sixty center flex-responsive column-full-pad mobile-order-1">
                     <div class="full flex relative">
                         <div class="full flex relative mobile-only">
-                            <img src="<?php echo $native_path ?>assets/placeholders/two-kings-coffee.png" aria-hidden="true" class=" column-full-pad ">
+                            <img src="<?php echo $native_path ?>assets/placeholders/many_coffees.png" aria-hidden="true" class=" column-full-pad ">
                         </div>
-                        <h3 class="full red-text bold">Tko je za vas kralj ili kraljica?</h3>
-                        <p class="full">Možda je to vaša supruga koja nesebično volontira, najbolji prijatelj koji je prigrlio slijepog psa kao člana obitelji, ili kolegica koja vas stalno pokriva na poslu. Neka Franck kava postane nota ljubavi prema onima koji zaslužuju krunu u vašem životu.</p>
-                        <p class="full">Za sve kraljeve i kraljice koje znamo – Franck, jer svaki trenutak zaslužuje kraljevski tretman.</p>
+                        <h3 class="full red-text bold">Nagradite ih Ciglicom</h3>
+                        <p class="full">Možda je to vaša supruga koja nesebično volontira, najbolji prijatelj koji je uspješno obranio svoj diplomski rad, ili kolegica koja vas stalno pokriva na poslu. Neka Franck kava postane nota ljubavi prema onima koji zaslužuju krunu u vašem životu.</p>
+                        <p class="full">Za sve kraljeve i kraljice koje znamo – <a href="https://shop.franck.eu/hr/kava/mljevena-kava/jubilarna/?utm_medium=display&utm_source=telegram&utm_campaign=jubilarna&utm_content=nagradni_natjecaj&utm_term=croatia_web_jubilarna_telegram_nagradni_natjecaj" target="_blank" class="decorate-link">Franck, jer svaki trenutak zaslužuje kraljevski tretman.</a></p>
                         <div class="full flex relative column-full-pad desktop-only">
-                            <img src="<?php echo $native_path ?>assets/placeholders/two-kings-coffee.png" aria-hidden="true" class="">
+                            <img src="<?php echo $native_path ?>assets/placeholders/many_coffees.png" aria-hidden="true" class="">
                         </div>
                     </div>
                 </div>
@@ -121,13 +121,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <input required type="text" id="broj" name="broj" placeholder="091 123 4567" class="full styledinput">
                         <p class="full input-text">Tko je kralj ili kraljica u vašem životu i zašto?</p>
                         <textarea required type="text" id="kralj" name="kralj" placeholder="Pero Perić je za mene kralj jer..." class="full"></textarea>
-                        <p class="full input-text">Ispričaj nam najdražu anegdotu koju vežeš uz imenovanog karlja ili kraljicu?</p>
+                        <p class="full input-text">Ispričaj nam najdražu anegdotu koju vežeš uz imenovanog kralja ili kraljicu?</p>
                         <textarea required type="text" id="prica" name="prica" placeholder="Najdraža mi je anegdota kada smo..." class="full shoo-bottom"></textarea>
                         <input type="checkbox" id="prihvacam" name="prihvacam" value="">
                         <label for="prihvacam" class="center-text mobile-70">Prihvaćam <a href="https://www.telegram.hr/promo/pravila-nagradnog-natjecaja-kralju-kavu/" target="_blank">pravila privatnosti i uvjete nagradnog natječaja.</a></label>
                     </form>
                     <div class="full stretch flex">
-                        <div class="animate flex relative button-24 right-side" id="submit-form">Pošalji Kralju kavu</div>
+                        <div class="animate flex relative button-24 right-side" id="submit-form">Nagradite ih Ciglicom</div>
                     </div>
                     <p class="full center-text column-top-pad hide" id="warning">Morate prihvatiti pravila privatnost i uvjete.</p>
                     <p class="full center-text column-top-pad hide" id="success">Uspjeh! Vaša prijava je predana.</p>
@@ -136,7 +136,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <!-- Vase price----------- -->
         <section class="full center relative" id="price">
-            <img src="<?php echo $native_path ?>assets/placeholders/coffee-bg.jpeg" aria-hidden="true" class="bg-img">
+            <img src="<?php echo $native_path ?>assets/placeholders/yetanothercoffee.jpg" aria-hidden="true" class="bg-img">
             <div class="full center flex-responsive relative white-bg">
                 <h2 class="red-text center-text bold seventy">U fazi smo prikupljanja priča o genijalnim kraljevima i kraljicama. Uskoro ih objavljujemo!</h2>
             </div>
