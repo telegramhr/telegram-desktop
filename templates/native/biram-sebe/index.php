@@ -29,7 +29,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=13032024v2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=21032024v3">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 <style type="text/css">
@@ -115,7 +115,9 @@
           </div>
           <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
             <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
-            <p class="strucnjaktekst">Često smo svjedoci da neki ljudi ne bi trebali biti samopouzdani pa ipak jesu, dok oni koji bi trebali pucati od samopouzdanja često ulaze u ‘mišju rupu’ . Izgleda da koncept jest kompleksan, ali to ne znači da ne postoje stvari koje možete poduzeti po pitanju izgradnje samopouzdanja. Mi znanstvenici našli smo način<br/><br/>
+            <p class="strucnjaktekst">Često smo svjedoci da neki ljudi ne bi trebali biti samopouzdani pa ipak jesu, dok oni koji bi trebali pucati od samopouzdanja često ulaze u ‘mišju rupu’ . Izgleda da koncept jest kompleksan, ali to ne znači da ne postoje stvari koje možete poduzeti po pitanju izgradnje samopouzdanja. Mi znanstvenici našli smo način</p>
+                        <p class="saznajvise text-center"><a href="https://www.telegram.hr/super1/zene-se-cesto-odricu-stvari-koje-ih-vesele-i-kad-mislis-da-nisi-dovoljno-zgodna-imas-pravo-plivati/" target="_blank" style="font-family: 'Poppins', sans-serif; color: #7B19C8; font-size: 16px; text-decoration: none; letter-spacing: 1px; font-weight: 500;">PROČITAJ VIŠE <span style="-webkit-animation: micanje 1s ease-in-out 0s infinite; animation: micanje 1s ease-in-out 0s infinite;"><img src="<?php echo $native_path ?>/assets/images/strelica.svg" style="width: 50px;" /></span></a></p>
+                <br/><br/>
             <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Ana Čerenšek, psihologinja</span>
           <br/><br/>
         <img src="<?php echo $native_path ?>/assets/images/ana.png" style="width:180px; height: auto;" />
@@ -148,18 +150,41 @@
       <div class="col-lg-12 text-center scroll-transform-kontra-2">
            <h1  style="font-size: 34px !important; font-weight: 200;">poput izlazaka, seksa, teretane, druženja, kupanja...</h1>
         </div>
-      <div class="col-lg-4 offset-lg-4 text-center" >
 
-
-        <p style="margin-top: 50px;">Ne idem na plažu jer se sramim kako izgledam u kupaćem, ne idem u prirodu jer čekam dan kad će mi tajice stajati bolje, ne idem na druženja jer se brinem hoće li ljudi misliti kako sam ostarila. Na poslovnim sastancima gledam u pod jer me sram kako mi izgleda kosa, kako mi stoji odjeća.
-          <br/>
-        <svg style="width:70px;" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-dhaba5" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>
+    </div>
+  </div>
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-5 text-center wow fadeInLeft" data-wow-duration="1.9s" data-wow-delay="0s"><a href="https://www.telegram.hr/super1/zbog-oziljaka-na-kozi-skrivala-je-svoje-tijelo-13-godina-sve-je-pocelo-kad-mi-je-umrla-mama/" target="_blank">
+              <img src="<?php echo $native_path ?>/assets/images/lana-bizelj.jpg">
+              <img src="<?php echo $native_path ?>/assets/images/si.png" class="stvarnoiskustvo">
+            </a>
+            </div>
+          <div class="col-lg-5 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+            <a href="https://www.telegram.hr/super1/zbog-oziljaka-na-kozi-skrivala-je-svoje-tijelo-13-godina-sve-je-pocelo-kad-mi-je-umrla-mama/" target="_blank">
+              <p class="sticky-top  tekstulja" style=" font-weight: 500;">Prvi keloid pojavio mi se na prsima nakon što mi je umrla mama. Imala sam 16 godina. Nakon toga, skrivala sam svoje tijelo punih 13 godina, nisam posjedovala majicu na bretelu sve dok jednog dana nisam odlučila pokazati svoje ožiljke. Danas ih ponosno nosim.<br/><br/>
+              <span style="padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Lana Biželj </span>
+              </p>
+            </a>
+            </div>
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+            <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
+            <p class="strucnjaktekst">Ljudi se pripremaju za pojedino događanje ili za odlazak na plažu, a nakon toga se opuste i ponovno vrate na isto. Bitno je stvoriti dobar odnos s hranom i onda u tim situacijama možemo uživati u zdravoj prehrani, pa i u ‘nezdravim’ namirnicama.</p>
+            <p class="saznajvise text-center"><a href="https://www.telegram.hr/super1/omiljena-nutricionistica-s-instagrama-iz-djetinjstva-proizlazi-vecina-problema-ali-ovo-treba-posebno-izbjegavati/" target="_blank" style="font-family: 'Poppins', sans-serif; color: #7B19C8; font-size: 16px; text-decoration: none; letter-spacing: 1px; font-weight: 500;">PROČITAJ VIŠE <span style="-webkit-animation: micanje 1s ease-in-out 0s infinite; animation: micanje 1s ease-in-out 0s infinite;"><img src="<?php echo $native_path ?>/assets/images/strelica.svg" style="width: 50px;" /></span></a></p>
+              <br/><br/>
+            <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Petra Alpeza, nutricionistica</span>
+          <br/><br/>
+        <img src="<?php echo $native_path ?>/assets/images/petra.png" style="width:180px; height: auto;" />
       </p>
 
 
         </div>
+      </div>
     </div>
-  </div>
 </div>
 
 
