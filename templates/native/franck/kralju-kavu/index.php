@@ -29,7 +29,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <script src="<?php echo $native_path ?>assets/aos/aos.js"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/operon.css?v=1.10" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.10" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.20" type="text/css" />
     <!-- Functions -->
     <script src="<?php echo $native_path ?>assets/jquery.serialize-object.min.js"></script>
     <script src="<?php echo $native_path ?>assets/functions.js"></script>
