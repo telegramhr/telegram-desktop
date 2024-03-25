@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/trackimpj/N1025728.3833264SUPER1.TELEGRAM./B31662841.391507026;dc_trk_aid=582680879;dc_trk_cid=212591549;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?" attributionsrc ></SCRIPT>
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15" class="pozadina">
@@ -53,7 +54,7 @@
 
           <div class="col-lg-8 offset-lg-2 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
             <h2>Proljeće je doba novih početaka i ponovnog rođenja, a ove sezone osim u prirodi procvat želimo doživjeti i u - našim ormarima. </h2>
-             <p class="sticky-top" style=" font-weight: 500;">Inspiraciju smo potražili u nostalgiji za nekim prošlim vremenima koja u svojim godinama skrivaju stilsko blago i ponovno podsjećaju na to da je ponekad poželjno pogledati unatrag. <a href="https://www2.hm.com/en_eur/free-form-campaigns/1019-ss-2024-women.html#/women/view" target="_blank" style="font-weight:700 !important; text-decoration:underline !important; color: #000 !important">Proljetna H&amp;M kolekcija</a> donosi komade koji neodoljivo podsjećaju na trendove iz prošlih desetljeća, a istovremeno idealno nadopunjuju svaku suvremenu garderobu.
+             <p class="sticky-top" style=" font-weight: 500;">Inspiraciju smo potražili u nostalgiji za nekim prošlim vremenima koja u svojim godinama skrivaju stilsko blago i ponovno podsjećaju na to da je ponekad poželjno pogledati unatrag. <a href="https://ad.doubleclick.net/ddm/trackclk/N1025728.3833264SUPER1.TELEGRAM./B31662841.391507026;dc_trk_aid=582680879;dc_trk_cid=212591549;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1" target="_blank" style="font-weight:700 !important; text-decoration:underline !important; color: #000 !important">Proljetna H&amp;M kolekcija</a> donosi komade koji neodoljivo podsjećaju na trendove iz prošlih desetljeća, a istovremeno idealno nadopunjuju svaku suvremenu garderobu.
               </p>
           </div>
         </div>
