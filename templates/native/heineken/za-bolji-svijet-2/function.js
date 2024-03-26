@@ -1,4 +1,9 @@
 // Load main functions...
+function hideEverything() {
+    $('#header-form-success').removeClass('hide');
+    $('.hide-later').addClass('hide');
+    $('.header-form').addClass('hide-before');
+  }
 
 jQuery(document).ready(function () {
 
@@ -43,6 +48,23 @@ jQuery(document).ready(function () {
         autoplay: false,
         autoplaySpeed: 5000
     });
+
+    var $form = $('form#pitanje-strucnjacima'),
+    url = 'https://script.google.com/macros/s/AKfycbw5UMTk2_4IMikXgHUcJ9nasjRDNgJRTb-07oQ14VAZZCK9MfeDHgBeZz1zDy17Ay8_gw/exec'
+
+
+    $('#submit-form').on('click', function (e) {
+        let submit_data = {pitanje: $('form#pitanje-strucnjacima textarea').val()};
+          e.preventDefault();
+          var jqxhr = $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: submit_data
+          }).done(
+            hideEverything()
+          );
+      })
 });
 
 

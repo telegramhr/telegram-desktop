@@ -194,20 +194,19 @@ header {
     padding-top: 100px;
 }
 
-header .flex {
+header .flex, section.intro .flex {
     align-content: center;
     overflow: hidden;
     object-fit: cover;
 }
 
-header p {
+header p, section.intro p {
     font-size: 24px;
     font-family: 'Fira Sans', sans-serif;
 
 }
 
 .header-text-container {
-    max-width: 470px;
     line-height: 35px;
 }
 
@@ -226,10 +225,12 @@ h1.full {
 
 }
 
-header h1.full {
+section.intro {
+    padding-bottom: 70px;
+}
+header h1.full, section.intro h1.full {
     border-bottom: none;
     padding-bottom: 0px;
-    color: white;
     font-weight: 700;
     font-size: 54px;
     font-size: 2.7rem;
@@ -715,16 +716,14 @@ h3.full.bord {
 }
 
 .hero-video {
-    height: 80vh;
-    align-content: flex-end;
     overflow: hidden;
     z-index: 5;
-    color: white;
+    padding-top: 115px;
+    padding-bottom: 50px;
 }
 
 .hero-video .container {
     z-index: 5;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 .header-fade {
@@ -849,4 +848,106 @@ h3.full {
         padding-left: 64px;
         padding-right: 64px;
     }
+}
+
+
+.bg-transparent {
+    opacity: .25;
+}
+
+.green-bg {
+    background-color: #ebf2ea;
+}
+
+.header-form textarea {
+    width: 500px;
+    height: 200px;
+    border: none;
+    padding: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+    z-index: 5;
+    resize: none;
+    max-width: 100%;
+}
+.header-form::before {
+    content: " ";
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 500px;
+    height: 200px;
+    max-width: 100%;
+    border: 2px solid #008200;
+    z-index: 3;
+}
+.header-form .form-text-bubble {
+    position: absolute;
+    width: 50px;
+    top: -30px;
+    right: 8%;
+    z-index: 10;
+}
+.header-form .form-cross {
+    position: absolute;
+    width: 50px;
+    bottom: -25px;
+    left: 5%;
+    z-index: 10;
+}
+.header-form .center {
+    z-index: 10;
+    position: absolute;
+    bottom: -48px;
+}
+header .new-btn {
+    overflow: visible;
+}
+.new-btn div {
+    position: relative;
+    font-size: 20px;
+    padding: 7px 16px 9px;
+    color: white;
+    background-color: #13670b;
+    z-index: 10;
+    overflow: visible;
+    cursor: pointer;
+}
+.new-btn::before {
+    content: " ";
+    transition: all 0.3s;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    z-index: -1;
+}
+.new-btn:hover::before {
+    bottom: -6px;
+    right: -6px;
+}
+.hide-before::before {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header-form, .header-form::before, .header-form textarea {
+        width: 100%;
+    }
+    .header-form-parent {
+        padding-top: 48px;
+        padding-bottom: 72px;
+    }
+    .header-form .center {
+        bottom: -60px;
+    }
+}
+.teaser-element {
+    padding: 24px;
+    font-size: 24px;
+    background-color: #dedede;
+    margin-bottom: 64px;
 }

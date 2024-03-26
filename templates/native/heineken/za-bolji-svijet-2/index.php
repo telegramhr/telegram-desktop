@@ -15,12 +15,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <?php wp_head(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo $native_path ?>img/aos.js"></script>
-    <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.12" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.12" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.13" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.13" type="text/css" />
     <script src="<?php echo $native_path ?>slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick-theme.css" type="text/css" />
-    <script src="<?php echo $native_path ?>function.js?ver=1.12"></script>
+    <script src="<?php echo $native_path ?>function.js?ver=1.13"></script>
     <!-- Fonts -------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +46,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </nav>
         <!-- Top Sticky Nav -->
         <nav class="full top-nav flex relative">
-            <div class="container column-horizontal-pad flex relative">
+            <div class="container horizontal-pad flex relative">
                 <div class="center relative text-logo"><img src="<?php echo $native_path ?>img/za-bolji-svijet-logo.svg" alt="Za bolji svijet logo"></div>
                 <div class="center relative desktop-only">
                     <a href="#drustvo" class="center relative animate">
@@ -65,25 +65,53 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </nav>
         <!-- Hero Video -->
-        <header class="full center relative hero-video">
-            <div class="header-fade"></div>
-            <div class="header-noise"></div>
-            <video autoplay loop muted playsinline class="background-video">
-                <source src="<?php echo $native_path ?>img/tg_videobg_deepforest.webm?v=1.00" type="video/webm">
-                <source src="<?php echo $native_path ?>img/tg_videobg_deepforest.mp4?v=1.00" type="video/mp4">
+        <header class="full center relative hero-video green-bg">
+            <video autoplay loop muted playsinline class="background-video bg-transparent">
+                <source src="<?php echo $native_path ?>img/tg_videobg_gentle_flowers.webm?v=2.00" type="video/webm">
+                <source src="<?php echo $native_path ?>img/tg_videobg_gentle_flowers.mp4?v=2.00" type="video/mp4">
             </video>
-            <div class="container relative horizontal-pad">
+            <div class="container flex relative horizontal-pad stretch">
                 <div class="half flex-responsive flex relative">
-                    <h1 class="full">Moja kap za bolji svijet</h1>
+                    <h1 class="full">Postavite pitanje stručnjacima</h1>
                     <p class="full header-text-container">
-                        Čini ti se da postoji more problema koje kao društvo trebamo riješiti? Nemoj se osjećati preplavljeno. Za nas je čaša ipak napola puna, mi vidimo more rješenja. Možda ne možeš riješiti sve probleme, ali možeš biti kap u moru rjesenja.
+                    Pozivamo roditelje maloljetnika da potpuno anonimno postave pitanja o mentalnom zdravlju i konzumaciji alkohola kod mlađih od 18. Vaša pitanja omogućit će nam stvaranje informativnog i relevantnog sadržaja usmjerenog upravo prema rješavanju vaših briga. 
                     </p>
                     <p class="full header-text-container margin-top">
+                    Želimo potaknuti dijalog o ključnim temama unutar zajednice u isto vrijeme pružajući podršku i razumijevanje. Sudjelujte u anonimnoj anketi jer vaše mišljenje igra ključnu ulogu u oblikovanju informacija koje dijelimo. Sav sadržaj pripremamo u suradnji sa stručnjacima. 
+                    </p>
+                </div>
+                <div class="half flex-responsive center flex-end relative header-form-parent">
+                    <form class="header-form relative" id="pitanje-strucnjacima">
+                        <img src="<?php echo $native_path ?>/img/text_bubble.png" aria-hidden="true" class="form-text-bubble hide-later">
+                        <img src="<?php echo $native_path ?>/img/cross.png" aria-hidden="true" class="form-cross hide-later">
+                        <textarea placeholder="Upišite svoje pitanje" class="hide-later" id="pitanje"></textarea>
+                        <div class="full center hide-later"><div class="flex new-btn relative" id="submit-form"><div>Postavite pitanje</div></div></div>
+                        <div class="full center-text hide" id="header-form-success">Hvala, vaše pitanje smo spremili.</div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <section class="full flex relative" id="okolis">
+            <div class="full flex relative">
+                <div class="full center relative horizontal-pad">
+                    <div class="full center teaser-element">Uskoro za odgovorno odrastanje donosimo savjete i odgovore stručnjaka...</div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Video -->
+        <section class="full center relative green-bg intro">
+            <div class="container relative center horizontal-pad">
+                <div class="two-thirds flex-responsive flex">
+                    <h1 class="full center-text">Moja kap za bolji svijet</h1>
+                    <p class="full header-text-container center-text">
+                        Čini ti se da postoji more problema koje kao društvo trebamo riješiti? Nemoj se osjećati preplavljeno. Za nas je čaša ipak napola puna, mi vidimo more rješenja. Možda ne možeš riješiti sve probleme, ali možeš biti kap u moru rjesenja.
+                    </p>
+                    <p class="full header-text-container margin-top center-text">
                         Istraži naš specijal o pojedincima, timovima i kompaniji koje iz dana u dan teže zelenijoj budućnosti i rade na rješenjima. Evo kako.
                     </p>
                 </div>
             </div>
-        </header>
+        </section>
         <!-- DRUSTVO--------- -->
         <section class="full flex relative" id="drustvo">
             <div class="full flex relative">
@@ -615,8 +643,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
     </div>
 
-    <?php wp_footer();
-    ?>
+    <?php wp_footer(); ?>
 
 </body>
 
