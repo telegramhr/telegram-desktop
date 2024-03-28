@@ -74,10 +74,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="half flex-responsive flex relative">
                     <h1 class="full">Postavite pitanje stručnjacima</h1>
                     <p class="full header-text-container">
-                    Pozivamo roditelje maloljetnika da potpuno anonimno postave pitanja o mentalnom zdravlju i konzumaciji alkohola kod mlađih od 18. Vaša pitanja omogućit će nam stvaranje informativnog i relevantnog sadržaja usmjerenog upravo prema rješavanju vaših briga. 
+                    Pozivamo roditelje tinejdžera da potpuno anonimno s nama podijele s kojim se izazovima susreću na temu mentalnog zdravlja i maloljetničke konzumacije alkohola. Na pitanja koja ovdje postavite odgovarat će stručnjaci, a izazovi koje s nama podijelite omogućit će nam stvaranje relevantnog informativnog sadržaja usmjerenog upravo prema rješavanju vaših briga.
                     </p>
                     <p class="full header-text-container margin-top">
-                    Želimo potaknuti dijalog o ključnim temama unutar zajednice u isto vrijeme pružajući podršku i razumijevanje. Sudjelujte u anonimnoj anketi jer vaše mišljenje igra ključnu ulogu u oblikovanju informacija koje dijelimo. Sav sadržaj pripremamo u suradnji sa stručnjacima. 
+                    Na ovaj način želimo potaknuti dijalog o ključnim temama unutar zajednice i pružiti vam podršku u odgoju. Sudjelujte u anonimnoj anketi jer vaše mišljenje igra ključnu ulogu u oblikovanju informacija koje pripremamo u suradnji sa stručnjacima i koje ćemo uskoro s vama podijeliti.
                     </p>
                 </div>
                 <div class="half flex-responsive center flex-end relative header-form-parent">
