@@ -311,8 +311,11 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 	$image_id = str_replace('attachment_', '', $id);
 
     $content = do_shortcode($content);
+    $link = '';
     preg_match('/href="([^"]+)"/', $content, $m2);
-    $link = $m2[1];
+    if ($m2) {
+        $link = $m2[1];
+    }
 	if ( $id ) $id = 'id="' . esc_attr($id) . '" ';
 
 	$photo = telegram_get_photographer($image_id);
