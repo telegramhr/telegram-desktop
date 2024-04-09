@@ -1,0 +1,159 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 174, 55, 55;
+}
+
+/* Typography */
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    background-color: #121212;
+    color: white;
+}
+
+.main-element {
+    min-height: 80vh;
+}
+
+.header-image {
+    position: absolute;
+    width: 62vw;
+    height: 125vh;
+    top: -12.5vh;
+    right: -1vw;
+}
+.header-image > img {
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    object-position: bottom center;
+}
+
+.header-logos {
+    width: 80%;
+}
+
+.column-giga-left-pad {
+    padding-left: 5rem;
+}
+h1 {
+    font-weight: 500;
+    font-size: 3.6rem;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin-right: 10vw;
+}
+h2 {
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1600px) {
+    .main-element > .third {
+        width: 40%;
+    }
+    .main-element .header-image {
+        width: 58vw;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .column-giga-left-pad {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .main-element > .third {
+        width: 100%;
+    }
+    .main-element .header-image {
+        width: 100vw;
+        position: relative;
+        height: 60vh;
+    }
+    .header-image {
+        top: 0px;
+        right: 0px;
+    }
+    .header-image > img {
+        width: 150vw;
+        left: -25vw;
+        max-width: 150vw;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    h1.sixty {
+        width: 100%;
+        padding: 4vw;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-right: 0px;
+    }
+}
+
+input, textarea {
+    border: 1px solid white;
+    padding: 4px;
+    color: white;
+    background: none;
+    outline: none;
+}
+
+label {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 4px; 
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+}
+.button:hover {
+    background-color: #ddd;
+}
+
+input[type=checkbox] {
+    padding: 0px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+    .mobile-70 {
+      width: 70%;
+    }
+}
+label a {
+    text-decoration: underline;
+}
+
+img.telesport {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    width: 120px;
+    z-index: 5;
+}
+
+@media screen and (max-width: 1024px) {
+    img.telesport {
+        position: absolute;
+        top: 4vw;
+        right: 40%;
+        width: 20%;
+    }
+}
