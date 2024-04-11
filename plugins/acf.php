@@ -190,6 +190,25 @@ if( function_exists('acf_add_local_field_group') ):
         'title' => 'Dodatno za članak',
         'fields' => array(
             array(
+                'key' => 'field_5d11b23758c62',
+                'label' => 'Uživo',
+                'name' => 'live',
+                'type' => 'true_false',
+                'instructions' => 'Označiti za live članak',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+            ),
+            array(
                 'key' => 'field_5d11b23758c6d',
                 'label' => 'Nadnaslov',
                 'name' => 'nadnaslov',

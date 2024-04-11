@@ -195,7 +195,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673])) {
+                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770])) {
                     $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
@@ -818,4 +818,30 @@ function amp_analytics() {
         </script>
     </amp-analytics>
     <?php
+}
+
+function my_disable_fonts_rest_api_endpoints( $arg, $post_type ) {
+    if ( 'wp_font_family' === $post_type || 'wp_font_face' === $post_type ) {
+        $arg['show_in_rest'] = false;
+    }
+
+    return $arg;
+}
+add_filter( 'register_post_type_args', 'my_disable_fonts_rest_api_endpoints', 10, 2 );
+
+function my_disable_font_collections_rest_api_endpoints( $endpoints ) {
+    foreach ( $endpoints as $route => $endpoint ){
+        if ( str_starts_with( $route, '/wp/v2/font-collections' ) ) {
+            unset( $endpoints[ $route ] );
+        }
+    }
+
+    return $endpoints;
+}
+add_filter( 'rest_endpoints', 'my_disable_font_collections_rest_api_endpoints' );
+
+add_filter('web_stories_hide_auto_generated_attachments', 'telegram_web_stories_media_lib', 10, 2);
+
+function telegram_web_stories_media_lib($return, $args) {
+    return false;
 }
