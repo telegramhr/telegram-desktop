@@ -6,6 +6,7 @@
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/erste/sigurnost/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/erste/sigurnost/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/erste/sigurnost/';
+//$native_path = 'http://localhost/sigurnost/';
 ?>
 
 <head>
@@ -72,21 +73,21 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <section class="full flex relative shoo-top">
             <div class="container flex center-text relative">
                 <div class="full center wrap flex-responsive infographic-element horizontal-pad margin-bottom shoo-top">
-                    <p class="full">506.116.177</p>
-                    <p class="full bold">ukupan broj transakcija platnim karticama koje su izdane u Hrvatskoj u 2022. godini</p>
+                    <p class="full">589.468.664</p>
+                    <p class="full bold">ukupan broj transakcija platnim karticama koje su izdane u Hrvatskoj u 2023. godini</p>
                 </div>
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
-                    <p class="full">81,87%</p>
+                    <p class="full">84,98%</p>
                     <p class="full">debitne kartice</p>
                 </div>
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
-                    <p class="full">18,13%</p>
+                    <p class="full">15,01%</p>
                     <p class="full">kreditne kartice</p>
                 </div>
                 <div class="full flex horizontal-pad tiny-text">
                     <p class="full infographic-descriptor">Izvori:</p>
                     <p class="full">Hrvatska narodna banka, Izvještaj o bezgotovinskim platnim transakcijama u RH za
-                        2022.</p>
+                        2023.</p>
                 </div>
             </div>
         </section>
@@ -145,26 +146,33 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <section class="full flex relative shoo-top margin-bottom">
             <div class="container flex center-text relative">
                 <div class="full center wrap flex-responsive infographic-element horizontal-pad margin-bottom shoo-top">
-                    <p class="full">255+</p>
-                    <p class="full">milijuna phishing napada zabilježeno u 2022.</p>
+                    <p class="full">1256%</p>
+                    <p class="full">više malicioznih e-mailova otkad je aktivan ChatGPT</p>
                 </div>
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
-                    <p class="full">61%</p>
-                    <p class="full">više u odnosu na 2021.</p>
+                    <p class="full">31+</p>
+                    <p class="full">tisuća prijetnji dnevno</p>
                 </div>
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
-                    <p class="full">50%</p>
-                    <p class="full">su porasli napadi putem mobilnih aplikacija za komunikaciju</p>
+                    <p class="full">39%</p>
+                    <p class="full">svih napada krpz mobilne uređaje započinju SMSom</p>
                 </div>
                 <div class="full flex horizontal-pad tiny-text">
                     <p class="full infographic-descriptor">Izvori:</p>
-                    <p class="full">SlashNext, The State of Phishing 2022</p>
+                    <p class="full">SlashNext, The State of Phishing 2023</p>
 
                 </div>
             </div>
         </section>
         <section class="full flex relative shoo-top" id="vodici">
             <div class="container flex relative">
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/prevaranti-su-osmislili-novi-nacin-evo-kako-vam-mogu-ukrasti-novac-ako-kupujete-online/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/WVWHgc2ySEEMj-ZWSA4xXyJBpwMUrDceD-fQ29g4HRY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDMvcGV4ZWxzLWNvdHRvbmJyby1zdHVkaW8tMzk0NDQwNS5qcGc.jpg">
+                    <div class="full flex">
+                        <h2 class="full">Prevaranti su osmislili novi način: Evo kako vam mogu ukrasti novac ako kupujete online</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/biznis-tech/pazite-se-laznih-oglasa-i-internet-kupovine-kiberneticki-kriminal-u-hrvatskoj-lani-porastao-za-gotovo-20-posto/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/1yGpDjqXhSHJylYbVFpin0tjXNYvzIcRwJhwdWRd8pQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDkvb25saW5lLWt1cG92aW5hLmpwZw.webp">
                     <div class="full flex">
