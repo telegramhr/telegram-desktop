@@ -116,7 +116,7 @@ ksort($map);
         <div class="container flex relative">
             <h2 class="full"><?php echo $results['dip']?'Uživo: rezultati izbora':'Izlazne ankete' ?></h2>
             <div class="mini-data"><span id="data-counted-total">Prebrojano <?php echo $results["counted"]; ?>% glasova. </span><span id="data-age">Podaci ažurirani u <?php echo $results["age"]; ?>h. </span><!--<span id="data-refresh">Pokušati ćemo ažurirati podatke za 15 sekundi.</span>--></div>
-            <div class="full flex relative">                
+            <div class="full flex relative">
                 <div class="restart-line"><span><?php echo round($results["total"]["restart"]["mandati"]); ?></span> Restart</div>
                 <div class="hdz-line">HDZ <span><?php echo round($results["total"]["hdz"]["mandati"]); ?></span></div>
             </div>
@@ -168,7 +168,7 @@ ksort($map);
             </div>
             <h3 class="full white-space">Po izbornim jedinicama</h3>
             <div class="full flex relative izborne-jedinice">
-                <?php 
+                <?php
                 for ($i=1; $i < 11; $i++) {
                     ?>
                     <div class="half flex-responsive flex">
@@ -265,7 +265,7 @@ ksort($map);
 <style>
     <?php
         if ($results['dip']) {
-            for ($i=1; $i < 11; $i++) { 
+            for ($i=1; $i < 11; $i++) {
                 echo '.main-karta #izborna_x5F_'.$i.' path, .karta-'.$i.' #izborna_x5F_'.$i.' path {
                     position: relative; z-index: 2; ';
                  if ($results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["restart"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] >= $results[$i]['party']["hdz"]["mandati"] && $results[$i]['party']["mozemo"]["mandati"] > 0) {

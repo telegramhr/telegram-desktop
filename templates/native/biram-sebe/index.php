@@ -29,7 +29,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=21032024v3">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=21032024v2">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 <style type="text/css">
@@ -130,7 +130,7 @@
 </div>
 
 
-<div class="blog" style="padding-bottom: 0px !important;">
+<div class="blog" style="padding-bottom: 100px !important;">
   <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 30px; overflow: hidden;">
 
     <div class="row">
@@ -188,7 +188,142 @@
 </div>
 
 
-<div class="blog blogdva" style="padding-bottom: 0px !important;">
+<div class="blogdva our-portfolio section" style="padding-bottom: 0px !important; padding-top: 0px;">
+  <div class="container-fluid" style="background: #7B19C8; z-index: 100; position: relative; padding-top: 120px; padding-bottom: 0px; overflow: hidden;">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+          <h1 style="font-weight: 700; font-size: 6em; margin-bottom: 50px;">#nepobjedive</h1>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+      <div class="row">
+        <div class="col-lg-12"  style="padding-bottom: 0px !important;">
+          <div class="loop owl-carousel">
+            <div class="item">
+
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/marketinska-strucnjakinja-koja-vodi-najjacu-roza-kampanju-u-zemlji-nismo-jednaki-ali-trebamo-imati-jednake-prilike/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/zeljka-mojzes.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">Marketinška stručnjakinja koja vodi najjaču roza kampanju u zemlji: 'Nismo jednaki, ali trebamo imati jednake prilike'</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+
+            </div>
+            <div class="item">
+
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/poznajete-li-vise-sefova-ili-sefica-znamo-odgovor-na-to-pitanje-a-saznali-smo-i-zasto-je-to-slucaj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/clanak-2.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">Poznajete li više šefova ili šefica? Znamo odgovor na to pitanje, a saznali smo i zašto je to slučaj</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+
+            </div>
+            <div class="item">
+
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/nase-ikone-ove-su-zene-uspjele-iznijeti-svoje-price-kad-je-sve-islo-protiv-njih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/clanak-3.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">Naše ikone: Ove su žene uspjele iznijeti svoje priče kad je sve išlo protiv njih</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+
+            </div>
+            <div class="item">
+
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/ove-su-zene-obiljezile-posljednjih-70-godina-njihovi-su-postupci-doveli-do-svijeta-kakav-poznajemo/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/clanak-4.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">Ove su žene obilježile posljednjih 70 godina: Njihovi su postupci doveli do svijeta kakav poznajemo</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+
+            </div>
+            <div class="item">
+
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/u-zagrebu-je-fokus-na-zenama-i-njihovoj-sigurnosti-promoviramo-grad-kao-jedan-od-najsigurnijih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/martina-bienenfeld.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">U Zagrebu je fokus na ženama i njihovoj sigurnosti: 'Promoviramo grad kao jedan od najsigurnijih'</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="blogdva" style="padding-bottom: 0px !important; padding-top: 0px; background: #7B19C8;">
+  <div class="container-fluid" style="background: background: #7B19C8 !important; z-index: 100; position: relative; padding-top: 120px; padding-bottom: 120px; overflow: hidden;">
+
+    <div class="row">
+
+      <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
+          <h1 style="color:#fff !important">Preuzmi vodič za izgradnju samopouzdanja</h1>
+          <p style="color:#fff !important">Uz pomoć pet stručnjakinja, redom psihologinja, seksologinja, psihoterapeutkinja te savjetnica za prehranu, kreirali smo vodič za izgradnju tvog samopouzdanja. Upiši svoju e-mail adresu i preuzmi booklet sa savjetima kako izgraditi samopouzdanje na poslu, u majčinstvu, u odnosu prema vlastitom tijelu te partnerstvu. </p>
+
+         <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div id="emailForm">
+                        <form id="emailInputForm">
+                            <div class="form-group">
+                                <label for="email" style="color:#fff !important">Unesite svoj e-mail:</label>
+                                <input class="mailinput" type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="form-group form-check text-left">
+                                <label style="color:#fff !important">Klikom na 'Pošalji' dajem privolu da se moja email adresa koristi od strane Telegram media grupe i partnera projekta Biram sebe.</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Pošalji</button>
+                        </form>
+                    </div>
+                    <div id="downloadButton" style="display: none;">
+                        <a href="<?php echo $native_path ?>/assets/vodic-za-izgradnju-samopouzdanja.pdf"><button class="btn btn-primary">Preuzmi PDF</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <script>
+            document.getElementById('emailInputForm').addEventListener('submit', function(event) {
+              event.preventDefault();
+              var email = document.getElementById('email').value;
+
+              // Ovdje implementirajte logiku slanja e-pošte s unesenim e-mailom
+
+              // Simulacija slanja e-pošte (nije stvarno slanje)
+              setTimeout(function() {
+                document.getElementById('emailForm').style.display = 'none';
+                document.getElementById('downloadButton').style.display = 'block';
+              }, 2000); // Promijenite ovo prema vašim potrebama
+
+              console.log('E-mail poslan na: ' + email);
+            });
+          </script>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="blog blogdva" style="padding-bottom: 0px !important; padding-top:0px !important">
   <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 30px; overflow: hidden;">
 
     <div class="row">
@@ -246,7 +381,66 @@
 </div>
 
 
-<div class="blog" style="padding-bottom: 0px !important;">
+<div class="blog" style="padding-bottom: 50px !important;">
+  <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 30px; overflow: hidden;">
+
+    <div class="row">
+      <div class="col-lg-12 text-center" style="padding-bottom:120px">
+
+
+        <div class="marquee">
+          <div class="marquee-content">RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        </div>
+      <div class="col-lg-12 text-center scroll-transform-6">
+          <h1>Svaka druga majka nema vremena za svoje potrebe</h1>
+        </div>
+      <div class="col-lg-12 text-center scroll-transform-kontra-6">
+          <h1  style="font-size: 34px !important; font-weight: 200;"><span style="font-weight: 900;">35%</span> smatra da druge majke sve postižu bolje od nje</h1>
+        </div>
+
+    </div>
+  </div>
+
+
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-5 text-center wow fadeInLeft" data-wow-duration="1.9s" data-wow-delay="0s"><a href="https://www.telegram.hr/super1/glumica-lana-gojak-bajt-rekli-su-mi-da-nisam-lijepa-i-da-nikad-necu-glumiti-ljepotice-onda-sam-rodila-i-shvatila-da-mogu-sve/" target="_blank">
+              <img src="<?php echo $native_path ?>/assets/images/lana-gojak.jpg">
+              <img src="<?php echo $native_path ?>/assets/images/si.png" class="stvarnoiskustvo">
+            </a>
+            </div>
+          <div class="col-lg-5 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+            <a href="https://www.telegram.hr/super1/glumica-lana-gojak-bajt-rekli-su-mi-da-nisam-lijepa-i-da-nikad-necu-glumiti-ljepotice-onda-sam-rodila-i-shvatila-da-mogu-sve/" target="_blank">
+              <p class="sticky-top  tekstulja" style=" font-weight: 500;">Ako sam preživjela porod, mogu sve i više mi nitko ništa ne može. Majčinstvo mi je dalo nevjerojatan poticaj i potpuno drugačiju sliku o sebi. Moja djevojčica mi je pokazala koliko zapravo mogu imati samopouzdanja.<br/><br/>
+              <span style="padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;">Lana Gojak Bajt, glumica</span>
+              </p>
+            </a>
+            </div>
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+            <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
+            <p class="strucnjaktekst">Iako se često zna reći da se s djetetom rađa i majka, zapravo je realnost puno žena da se ta uloga ne stvori sama od sebe, nego da je potrebna prilagodba, vrijeme, podrška i polagano stjecanje povjerenja u samu sebe kao majku.</p>
+            <p class="saznajvise text-center"><a href="https://www.telegram.hr/super1/kad-postanes-mama-imas-osjecaj-da-nemas-vremena-za-sebe-ali-nisi-sama-psihologinja-nam-je-dala-savjete-kako-si-pomoci/" target="_blank" style="font-family: 'Poppins', sans-serif; color: #7B19C8; font-size: 16px; text-decoration: none; letter-spacing: 1px; font-weight: 500;">PROČITAJ VIŠE <span style="-webkit-animation: micanje 1s ease-in-out 0s infinite; animation: micanje 1s ease-in-out 0s infinite;"><img src="<?php echo $native_path ?>/assets/images/strelica.svg" style="width: 50px;" /></span></a></p>
+              <br/><br/>
+            <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Maja Vujčić Vračević, psihologinja</span>
+          <br/><br/>
+        <img src="<?php echo $native_path ?>/assets/images/maja.png" style="width:180px; height: auto;" />
+      </p>
+
+
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+
+<div class="blog" style="padding-top: 0px !important;">
   <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 30px; overflow: hidden;">
 
     <div class="row">
@@ -294,82 +488,44 @@
       <div class="col-lg-12 text-center scroll-transform-kontra-5">
           <h1  style="font-size: 34px !important; font-weight: 200;"><span style="font-weight: 900;">36%</span> je neugodno skinuti se pred partnerom</h1>
         </div>
-      <div class="col-lg-4 offset-lg-4 text-center" >
 
-
-        <p style="margin-top: 50px;">Seksualni život mi stagnira jer se ne osjećam dovoljno zgodnom i osjećam se loše s par kila viška i neutegnutim tijelom, mada partner stalno govori da sam mu taman i da sam mu zgodna. Izbjegavam seks i znam da je to loše.
-          <br/>
-        <svg style="width:70px;" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-dhaba5" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>
-      </p>
-
-
-        </div>
     </div>
+
   </div>
-</div>
 
 
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-1 text-center">
+          </div>
+          <div class="col-lg-5 text-center wow fadeInLeft" data-wow-duration="1.9s" data-wow-delay="0s"><a href="https://www.telegram.hr/super1/svaka-treca-majka-misli-da-nije-dovoljno-dobra-una-nam-je-otkrila-vlastito-iskustvo-i-kako-je-postala-doula/" target="_blank">
+              <img src="<?php echo $native_path ?>/assets/images/una.png">
+              <img src="<?php echo $native_path ?>/assets/images/si.png" class="stvarnoiskustvo">
+            </a>
+            </div>
+          <div class="col-lg-5 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+            <a href="https://www.telegram.hr/super1/svaka-treca-majka-misli-da-nije-dovoljno-dobra-una-nam-je-otkrila-vlastito-iskustvo-i-kako-je-postala-doula/" target="_blank">
+              <p class="sticky-top  tekstulja" style=" font-weight: 500;">Muž i ja smo odmah poslije vjenčanja htjeli obitelj, ali sam imala puno zdravstvenih problema i rekli su nam da neću moći imati djecu. Bio je to dosta težak i mračan period.<br/><br/>
+              <span style="padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;">Una Pašić Gregović</span>
+              </p>
+            </a>
+            </div>
+          <div class="col-lg-1 text-center">
+          </div>
 
-<div class="blog" style="padding-bottom: 0px !important;">
-  <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 30px; overflow: hidden;">
-
-    <div class="row">
-      <div class="col-lg-12 text-center" style="padding-bottom:120px">
-
-
-        <div class="marquee">
-          <div class="marquee-content">RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RODITELJSTVO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        </div>
-        </div>
-      <div class="col-lg-12 text-center scroll-transform-6">
-          <h1>Svaka druga majka nema vremena za svoje potrebe</h1>
-        </div>
-      <div class="col-lg-12 text-center scroll-transform-kontra-6">
-          <h1  style="font-size: 34px !important; font-weight: 200;"><span style="font-weight: 900;">35%</span> smatra da druge majke sve postižu bolje od nje</h1>
-        </div>
-      <div class="col-lg-4 offset-lg-4 text-center" >
-
-        <p style="margin-top: 50px;">Nedovoljno vježbam i nemam više svoje tijelo. Kad pomislim na to iznerviram se jer znam koliko truda i vremena moram uložit da se vratim na svoje, a to ne mogu s četiri djeteta u dobi od tri mjeseca do 6 godina.
-
-          <br/>
-        <svg style="width:70px;" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-dhaba5" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>
-      </p>
-
-
-        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-
-
-
-<div class="blog" style="padding-bottom: 0px !important; padding-top: 50px;">
-  <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 120px; overflow: hidden;">
-
-    <div class="row">
-      <div class="col-lg-12 text-center" style="padding-bottom:150px">
-
-
-        <div class="marquee">
-          <div class="marquee-content">USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USKORO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        </div>
-        </div>
-      <div class="col-lg-12 text-right scroll-transform-9">
-          <h1>Više rezultata i priča</h1>
-        </div>
-      <div class="col-lg-12 text-right scroll-transform-kontra-9">
-          <h1>dolazi uskoro...</h1>
-        </div>
-    </div>
-  </div>
 </div>
 
 
 
 
 
-  <div id="clanci" class="blog" style="z-index: 100; position: relative; padding-top: 0px; padding-bottom: 120px; overflow: hidden;">
+
+
+
+  <div id="clanci" class="blog" style="z-index: 100; position: relative; padding-top: 120px; padding-bottom: 120px; overflow: hidden;">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 offset-lg-4 text-center">
