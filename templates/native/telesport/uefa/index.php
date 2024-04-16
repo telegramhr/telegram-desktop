@@ -45,8 +45,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <img src="<?php echo $native_path ?>assets/logos_uefa_mc.png" class="header-logos" alt="Službeni sponzori promocije: Mastercard i UEFA">
                 </div>
                 <h2 class="full column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="0">Probudi komentatora u sebi</h2>
-                <p class="full column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="500">Pozivamo čitatelje da podijele svoje osvrte na utakmice UEFA Lige prvaka, točnije utakmice četvrtfinala od 10.04. do 18.04.</p>
-                <p class="full bold column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="1000">Možda će baš vas Telesport, u suradnji s Mastercardom, voditi na finale lige prvaka</p>
+                <p class="full column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="500">Pozivamo čitatelje da podijele svoje osvrte na utakmice UEFA Lige prvaka, točnije utakmice četvrtfinala od 10.04. do 21.04.</p>
+                <p class="full bold column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="1000">Možda će baš vas Telesport, u suradnji s Mastercardom, voditi na finale Lige prvaka</p>
                 <p class="full column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="1500">Vaš zadatak je napisati kreativan i zanimljiv osvrt, izraziti svoje emocije i doživljaje te pokazati strast prema nogometu.</p>
                 <p class="full column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="2000">Najboljeg komentatora biraju sportski novinari redakcije Telesporta, a pobjednika objavljujemo 26.04.</p>
                 <p class="full bold column-mini-bottom-pad" data-aos="fade-right" data-aos-delay="2500">Ulaznice za finale osigurao je Mastercard, službeni sponzor  UEFA Champions League.</p>
@@ -81,7 +81,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </div>
                     <div class="full flex column-top-pad">
                         <input type="checkbox" id="prihvacam" name="prihvacam" value="">
-                        <label for="prihvacam" class="mobile-70 clickable">Prihvaćam <a href="https://www.telegram.hr/" target="_blank">pravila privatnosti i uvjete nagradnog natječaja.</a></label>
+                        <label for="prihvacam" class="mobile-70 clickable">Prihvaćam <a href="https://www.telegram.hr/promo/pravila-nagradnog-natjecaja/" target="_blank">pravila privatnosti i uvjete nagradnog natječaja.</a></label>
                     </div>
                     <div class="full flex column-top-pad">
                         <div class="animate flex relative button clickable" id="submit-form">Pošalji komentar</div>
