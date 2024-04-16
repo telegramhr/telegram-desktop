@@ -296,6 +296,7 @@
                 </div>
             </div>
         </div>
+          <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
 
           <script>
             document.getElementById('emailInputForm').addEventListener('submit', function(event) {
@@ -303,16 +304,25 @@
               var email = document.getElementById('email').value;
 
               // Ovdje implementirajte logiku slanja e-pošte s unesenim e-mailom
+                var $form = jQuery('form#emailInputForm),
+                    url = 'https://script.google.com/macros/s/AKfycbykLoeIuh1vba1D_NOKi-_X8YCdxgR6soa8Hn7mcLhkKXD7hmfP36hgVyNIx0-inuBKyw/exec'
 
-              // Simulacija slanja e-pošte (nije stvarno slanje)
-              setTimeout(function() {
-                document.getElementById('emailForm').style.display = 'none';
-                document.getElementById('downloadButton').style.display = 'block';
-              }, 2000); // Promijenite ovo prema vašim potrebama
+                var jqxhr = jQuery.ajax({
+                    url: url,
+                    method: "GET",
+                    dataType: "json",
+                    data: $form.serializeObject()
+                }).done(
+                    function(){
+                        document.getElementById('emailForm').style.display = 'none';
+                        document.getElementById('downloadButton').style.display = 'block';
+                    }
+                );
 
               console.log('E-mail poslan na: ' + email);
             });
           </script>
+
 
         </div>
 
