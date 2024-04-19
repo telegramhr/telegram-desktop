@@ -42,7 +42,6 @@ form {
 }
 
 .half.white-bg {
-    height: 80vh;
     padding: 2.2rem 4rem;
 }
 
@@ -96,7 +95,7 @@ h1.red-text {
 
 h3.red-text {
     font-size: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 p.full {
@@ -516,6 +515,13 @@ input#myCheckbox {
 @media screen and (max-width: 1024px) {
     .mobile-70 {
         width: 70%;
+    }
+    section {
+        height: 150vw;
+        align-items: flex-end !important;
+    }
+    section#theend {
+        height: auto;
     }
 }
 .bg-color {
