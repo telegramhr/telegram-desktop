@@ -24,12 +24,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="<?php echo $native_path ?>/assets/images/favicon.png">
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=21032024v2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=23042024v3">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 <style type="text/css">
@@ -154,7 +154,7 @@
     </div>
   </div>
       <div class="container">
-      <div class="row">
+        <div class="row">
           <div class="col-lg-1 text-center">
           </div>
           <div class="col-lg-5 text-center wow fadeInLeft" data-wow-duration="1.9s" data-wow-delay="0s"><a href="https://www.telegram.hr/super1/zbog-oziljaka-na-kozi-skrivala-je-svoje-tijelo-13-godina-sve-je-pocelo-kad-mi-je-umrla-mama/" target="_blank">
@@ -193,7 +193,7 @@
 
     <div class="row">
       <div class="col-lg-12 text-center">
-          <h1 style="font-weight: 700; font-size: 6em; margin-bottom: 50px;">#nepobjedive</h1>
+          <h1 style="font-weight: 700; font-size: 6em; margin-bottom: 50px;">#nepobjedive <img src="<?php echo $native_path ?>/assets/images/bs-logo.png" style="max-width:60px; height: auto; margin-top: 10px; margin-bottom: 20px;"></h1>
         </div>
 
     </div>
@@ -269,10 +269,10 @@
 <div class="blogdva" style="padding-bottom: 0px !important; padding-top: 0px; background: #7B19C8;">
   <div class="container-fluid" style="background: background: #7B19C8 !important; z-index: 100; position: relative; padding-top: 120px; padding-bottom: 120px; overflow: hidden;">
 
-    <div class="row">
+    <div class="row" id="vodic">
 
       <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
-          <h1 style="color:#fff !important">Preuzmi vodič za izgradnju samopouzdanja</h1>
+          <h1 style="color:#fff !important; margin-top:80px;">Preuzmi vodič za izgradnju samopouzdanja</h1>
           <p style="color:#fff !important">Uz pomoć pet stručnjakinja, redom psihologinja, seksologinja, psihoterapeutkinja te savjetnica za prehranu, kreirali smo vodič za izgradnju tvog samopouzdanja. Upiši svoju e-mail adresu i preuzmi booklet sa savjetima kako izgraditi samopouzdanje na poslu, u majčinstvu, u odnosu prema vlastitom tijelu te partnerstvu. </p>
 
          <div class="container mt-5">
@@ -475,10 +475,30 @@
         <svg style="width:70px;" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-dhaba5" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>
       </p>
 
+      </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+
+          <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+            <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
+            <p class="strucnjaktekst">Snažan i slobodan ženski um ne ugrožava ni vlastitu ni tuđu ženstvenost, niti tuđu muževnost, odnosno muškost. Ne postoji niti jedan racionalan razlog zašto je potrebno ženu sputavati u intelektualnom i kreativnom razvoju, zašto ju je potrebno svoditi na objekt, odnosno na komad mesa – oduzimajući joj pritom identitet, osobnost, snagu jedinke.</p>
+            <p class="saznajvise text-center"><a href="https://www.telegram.hr/super1/zbog-ideala-ljepote-u-medijima-imamo-sve-vise-srednjoskolki-koje-idu-na-estetske-operacije-strucnjakinja-nam-pojasnjava-cijeli-niz-ozbiljnih-opasnosti/" target="_blank" style="font-family: 'Poppins', sans-serif; color: #7B19C8; font-size: 16px; text-decoration: none; letter-spacing: 1px; font-weight: 500;">PROČITAJ VIŠE <span style="-webkit-animation: micanje 1s ease-in-out 0s infinite; animation: micanje 1s ease-in-out 0s infinite;"><img src="<?php echo $native_path ?>/assets/images/strelica.svg" style="width: 50px;" /></span></a></p>
+              <br/><br/>
+            <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Viktorija Car, stručnjakinja za društvo</span>
+          <br/><br/>
+        <img src="<?php echo $native_path ?>/assets/images/viktorija.png" style="width:180px; height: auto;" />
+      </p>
+
 
         </div>
-    </div>
-  </div>
+
+      </div>
+      </div>
+
+
 </div>
 
 <div class="blog" style="padding-bottom: 0px !important;">
@@ -504,7 +524,7 @@
   </div>
 
 
-      <div class="container">
+    <div class="container">
       <div class="row">
           <div class="col-lg-1 text-center">
           </div>
@@ -520,9 +540,23 @@
               </p>
             </a>
             </div>
+
           <div class="col-lg-1 text-center">
           </div>
+          <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+            <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
+            <p class="strucnjaktekst">Postoje ljudi, no nadam se da nisu većina, koji će sebi dati za pravo da komentiraju izgled svoje partnerice, neovisno o tome radi li se tu o veličini ili manjini grudi, kosi, stražnjici, šminkanju, oblačenju.</p>
+            <p class="saznajvise text-center"><a href="https://www.telegram.hr/super1/svaka-treca-zena-u-hrvatskoj-srami-se-razodjenuti-pred-partnerom-seksologinja-je-s-nama-podijelila-korisne-savjete/" target="_blank" style="font-family: 'Poppins', sans-serif; color: #7B19C8; font-size: 16px; text-decoration: none; letter-spacing: 1px; font-weight: 500;">PROČITAJ VIŠE <span style="-webkit-animation: micanje 1s ease-in-out 0s infinite; animation: micanje 1s ease-in-out 0s infinite;"><img src="<?php echo $native_path ?>/assets/images/strelica.svg" style="width: 50px;" /></span></a></p>
+              <br/><br/>
+            <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Nataša Barolin Belić, stručnjakinja za intimne odnose</span>
+          <br/><br/>
+        <img src="<?php echo $native_path ?>/assets/images/natasa.png" style="width:180px; height: auto;" />
+      </p>
 
+
+        </div>
+
+      </div>
       </div>
     </div>
 
@@ -550,8 +584,8 @@
   </div>
 
   <!-- Scripts -->
-  <script src="<?php echo $native_path ?>/vendor/jquery/jquery.min.js"></script>
-  <script src="<?php echo $native_path ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/owl-carousel.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
