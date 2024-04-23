@@ -304,14 +304,14 @@
               var email = document.getElementById('email').value;
 
               // Ovdje implementirajte logiku slanja e-pošte s unesenim e-mailom
-                var $form = jQuery('form#emailInputForm),
-                    url = 'https://script.google.com/macros/s/AKfycbykLoeIuh1vba1D_NOKi-_X8YCdxgR6soa8Hn7mcLhkKXD7hmfP36hgVyNIx0-inuBKyw/exec'
+                var $form = jQuery('form#emailInputForm');
+                    var url = 'https://script.google.com/macros/s/AKfycbykLoeIuh1vba1D_NOKi-_X8YCdxgR6soa8Hn7mcLhkKXD7hmfP36hgVyNIx0-inuBKyw/exec'
 
                 var jqxhr = jQuery.ajax({
                     url: url,
                     method: "GET",
                     dataType: "json",
-                    data: $form.serializeObject()
+                    data: { email: email }
                 }).done(
                     function(){
                         document.getElementById('emailForm').style.display = 'none';
