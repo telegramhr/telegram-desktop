@@ -5,7 +5,7 @@
     // use this native path to embed all the files from project that are included with project, images, scripts, ...
     // we will change this when we upload the project to the server
     // this way we only need to change in one place
-    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/biram-sebe/';
+    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/biram-sebe';
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="<?php echo $native_path ?>/assets/images/favicon.png">
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
@@ -32,14 +32,6 @@
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=23042024v3">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
-<style type="text/css">
-
-      @-webkit-keyframes micanje { 0% { margin-left:0px; } 50% {margin-left:10px;} 100% { margin-left:0px;} }
-    @keyframes micanje { 0% { margin-left:0px; } 50% {margin-left:10px;} 100% { margin-left:0px;} }
-
-      @-webkit-keyframes rotacija { 0% { -webkit-transform: rotate(0deg) } 100% { -webkit-transform: rotate(360deg);} }
-    @keyframes rotacija { 0% { transform: rotate(0deg) } 100% { transform: rotate(360deg);} }
-</style>
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15" class="pozadina">
@@ -71,7 +63,8 @@
   </div>
 </div>
 </div>
-<div id="vise" class="blog blogdva" style="padding-bottom: 0px !important;">
+
+<div class="blog blogdva" style="padding-bottom: 0px !important;">
   <div class="container-fluid" style="background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); z-index: 100; position: relative; padding-top: 30px; padding-bottom: 30px; overflow: hidden;">
 
     <div class="row">
@@ -84,18 +77,18 @@
 
 
 
-        </div>
+      </div>
       <div class="col-lg-12 text-center scroll-transform-1">
           <h1>Tek svaka 10. žena je sasvim zadovoljna sobom</h1>
         </div>
       <div class="col-lg-12 text-center scroll-transform-kontra-1">
           <h1 style="font-size: 34px !important; font-weight: 200;"><span style="font-weight: 900;">44%</span> danas ima manje samopouzdanja nego prije 5 godina</span></h1>
-        </div>
+      </div>
 
 
     </div>
   </div>
-      <div class="container">
+    <div class="container">
       <div class="row">
           <div class="col-lg-1 text-center">
           </div>
@@ -103,25 +96,25 @@
               <img src="<?php echo $native_path ?>/assets/images/tina-biloglav.jpg">
               <img src="<?php echo $native_path ?>/assets/images/si.png" class="stvarnoiskustvo">
             </a>
-            </div>
+          </div>
           <div class="col-lg-5 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
             <a href="https://www.telegram.hr/super1/arhitektica-tina-iskreno-o-zivotu-s-kcerima-nakon-gubitka-partnera-nas-tri-se-nismo-imale-cemu-vratiti/" target="_blank">
               <p class="sticky-top  tekstulja" style=" font-weight: 500;">Ako postoji jedna osoba kojoj je lakše zbog mene, onda je to što radim dobro. Zato sam i nastavila pokazivati da sam okej. Ljudi često govore da sam ja prošla kroz traumu, ali imam njih dvije za koje moram živjeti. Ne, ja imam sebe.<br/><br/>
               <span style="padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Tina Biloglav, arhitektica</span>
               </p>
             </a>
-            </div>
+          </div>
           <div class="col-lg-1 text-center">
           </div>
           <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
             <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
             <p class="strucnjaktekst">Često smo svjedoci da neki ljudi ne bi trebali biti samopouzdani pa ipak jesu, dok oni koji bi trebali pucati od samopouzdanja često ulaze u ‘mišju rupu’ . Izgleda da koncept jest kompleksan, ali to ne znači da ne postoje stvari koje možete poduzeti po pitanju izgradnje samopouzdanja. Mi znanstvenici našli smo način</p>
                         <p class="saznajvise text-center"><a href="https://www.telegram.hr/super1/zene-se-cesto-odricu-stvari-koje-ih-vesele-i-kad-mislis-da-nisi-dovoljno-zgodna-imas-pravo-plivati/" target="_blank" style="font-family: 'Poppins', sans-serif; color: #7B19C8; font-size: 16px; text-decoration: none; letter-spacing: 1px; font-weight: 500;">PROČITAJ VIŠE <span style="-webkit-animation: micanje 1s ease-in-out 0s infinite; animation: micanje 1s ease-in-out 0s infinite;"><img src="<?php echo $native_path ?>/assets/images/strelica.svg" style="width: 50px;" /></span></a></p>
-                <br/><br/>
-            <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Ana Čerenšek, psihologinja</span>
-          <br/><br/>
-        <img src="<?php echo $native_path ?>/assets/images/ana.png" style="width:180px; height: auto;" />
-      </p>
+                         <br/><br/>
+                      <span style="margin-top:30px; padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;"> Ana Čerenšek, psihologinja</span>
+                   <br/><br/>
+                    <img src="<?php echo $native_path ?>/assets/images/ana.png" style="width:180px; height: auto;" />
+               </p>
 
 
         </div>
@@ -285,6 +278,7 @@
                                 <input class="mailinput" type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                             </div>
                             <div class="form-group form-check text-left">
+
                                 <label style="color:#fff !important">Klikom na 'Pošalji' dajem privolu da se moja email adresa koristi od strane Telegram media grupe i partnera projekta Biram sebe.</label>
                             </div>
                             <button type="submit" class="btn btn-primary">Pošalji</button>
@@ -584,8 +578,8 @@
   </div>
 
   <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo $native_path ?>/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo $native_path ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/owl-carousel.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
