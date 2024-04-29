@@ -81,13 +81,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </p>
                 </div>
                 <div class="half flex-responsive center flex-end relative header-form-parent">
-                    <form class="header-form relative" id="pitanje-strucnjacima">
+                    <!--<form class="header-form relative" id="pitanje-strucnjacima">
                         <img src="<?php echo $native_path ?>/img/text_bubble.png" aria-hidden="true" class="form-text-bubble hide-later">
                         <img src="<?php echo $native_path ?>/img/cross.png" aria-hidden="true" class="form-cross hide-later">
                         <textarea placeholder="Upišite svoje pitanje" class="hide-later" id="pitanje"></textarea>
                         <div class="full center hide-later"><div class="flex new-btn relative" id="submit-form"><div>Postavite pitanje</div></div></div>
                         <div class="full center-text hide" id="header-form-success">Hvala, vaše pitanje smo spremili.</div>
-                    </form>
+                    </form>-->
                 </div>
             </div>
         </header>
