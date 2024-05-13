@@ -51,6 +51,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <a href="#price-2" class="full relative animate shoo-left">
                     <div class="full">Vaše priče II</div>
                 </a>
+                <a href="#price-3" class="full relative animate shoo-left">
+                    <div class="full">Vaše priče III</div>
+                </a>
+                <a href="#price-4" class="full relative animate shoo-left">
+                    <div class="full">Vaše priče IV</div>
+                </a>
+                <a href="#price-5" class="full relative animate shoo-left">
+                    <div class="full">Vaše priče V</div>
+                </a>
+                <a href="#price-6" class="full relative animate shoo-left">
+                    <div class="full">Vaše priče VI</div>
+                </a>
             </div>
             <button class="openbtn" onclick="openNav()">☰</button>
         </div>
@@ -69,6 +81,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </a>
                     <a href="#price-2" class="center relative animate">
                         <div class="full center-text">Vaše priče II</div>
+                    </a>
+                    <a href="#price-3" class="center relative animate">
+                        <div class="full center-text">Vaše priče III</div>
+                    </a>
+                    <a href="#price-4" class="center relative animate">
+                        <div class="full center-text">Vaše priče IV</div>
+                    </a>
+                    <a href="#price-5" class="center relative animate">
+                        <div class="full center-text">Vaše priče V</div>
+                    </a>
+                    <a href="#price-6" class="center relative animate">
+                        <div class="full center-text">Vaše priče VI</div>
                     </a>
                 </div>
             </div>
@@ -115,6 +139,54 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <div class="half flex flex-responsive column-full-pad desktop-order-2 white-bg red-border-left">
                     <div class="full flex relative">
                         <h3 class="full red-text bold">Oni su osobe koje nam dane čine ljepšima. Ovo su njihove priče: 'Moja supruga je moja kraljica i moj heroj'</h3>
+                        <div class="animate flex relative button-24">Pročitajte više</div>
+                    </div>
+                </div>
+                <div class="half center flex-responsive column-full-pad desktop-order-1"></div>
+            </a>
+        </section>
+        <section class="full center relative" id="price-3">
+            <img src="https://images.telegram.hr/3kc7AjJHRpC41xIGOJ_yGc6yE-J_x93MoA_AbTJTaGI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDQvbGlhbmEtbWlrYWgtNXJsNzFkY3huN3MtdW5zcGxhc2guanBn.webp" aria-hidden="true" class="bg-img">
+            <a class="full flex relative featured-article stretch"  href="https://www.telegram.hr/partneri/iako-ima-82-godine-jos-uvijek-se-brine-o-svojem-suprugu-djeci-i-unucima-moja-mama-ankica-je-kraljica/" target="_blank">
+                <div class="half flex flex-responsive column-full-pad desktop-order-2 white-bg red-border-left">
+                    <div class="full flex relative">
+                        <h3 class="full red-text bold">Iako ima 82 godine, još uvijek se brine o svojem suprugu, djeci i unucima: 'Moja mama Ankica je kraljica'</h3>
+                        <div class="animate flex relative button-24">Pročitajte više</div>
+                    </div>
+                </div>
+                <div class="half center flex-responsive column-full-pad desktop-order-1"></div>
+            </a>
+        </section>
+        <section class="full center relative" id="price-4">
+            <img src="https://images.telegram.hr/3dPw_qBHQJo765lZWUxblF4vzGs6eI_Vl-goF_NaUwA/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDQvaW1hZ2UtMS5wbmc.webp" aria-hidden="true" class="bg-img">
+            <a class="full flex relative featured-article stretch"  href="https://www.telegram.hr/partneri/ivani-i-anti-iz-vrgorca-godisnji-odmor-spasio-je-par-amerikanaca-zvali-smo-i-112-i-lokalne-vatrogasce/" target="_blank">
+                <div class="half flex flex-responsive column-full-pad desktop-order-2 white-bg red-border-left">
+                    <div class="full flex relative">
+                        <h3 class="full red-text bold">Ivani i Anti iz Vrgorca godišnji odmor spasio je par Amerikanaca: 'Zvali smo i 112 i lokalne vatrogasce'</h3>
+                        <div class="animate flex relative button-24">Pročitajte više</div>
+                    </div>
+                </div>
+                <div class="half center flex-responsive column-full-pad desktop-order-1"></div>
+            </a>
+        </section>
+        <section class="full center relative" id="price-5">
+            <img src="https://images.telegram.hr/AGuxrci2avyspn5JtMHiF09x--GPjdH4Y08Sw-3eSJ4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDUvb21hci1sb3Blei03NzBqYmFqLXd2cS11bnNwbGFzaC5qcGc.webp" aria-hidden="true" class="bg-img">
+            <a class="full flex relative featured-article stretch"  href="https://www.telegram.hr/partneri/najbolja-prijateljica-joj-je-pomogla-kad-nije-znala-kako-dalje-zbog-nje-danas-imam-obitelj-i-dvoje-djece/" target="_blank">
+                <div class="half flex flex-responsive column-full-pad desktop-order-2 white-bg red-border-left">
+                    <div class="full flex relative">
+                        <h3 class="full red-text bold">Najbolja prijateljica joj je pomogla kad nije znala kako dalje: 'Zbog nje danas imam obitelj i dvoje djece'</h3>
+                        <div class="animate flex relative button-24">Pročitajte više</div>
+                    </div>
+                </div>
+                <div class="half center flex-responsive column-full-pad desktop-order-1"></div>
+            </a>
+        </section>
+        <section class="full center relative" id="price-6">
+            <img src="https://images.telegram.hr/YjMUP59mseR0Zf7Irv-eTVb_M-e1KGyXm5Ua9C_bW8g/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDUvYmV3YWtvb2YtY29tLW9mZmljaWFsLW1nLWhkanlpcHRlLXVuc3BsYXNoLmpwZw.webp" aria-hidden="true" class="bg-img">
+            <a class="full flex relative featured-article stretch"  href="https://www.telegram.hr/partneri/vise-od-1000-citatelja-otkrilo-nam-je-koga-najvise-cijene-u-svom-zivotu-neke-su-price-nevjerojatne/" target="_blank">
+                <div class="half flex flex-responsive column-full-pad desktop-order-2 white-bg red-border-left">
+                    <div class="full flex relative">
+                        <h3 class="full red-text bold">Više od 1000 čitatelja otkrilo nam je koga najviše cijene u svom životu. Neke su priče nevjerojatne</h3>
                         <div class="animate flex relative button-24">Pročitajte više</div>
                     </div>
                 </div>
