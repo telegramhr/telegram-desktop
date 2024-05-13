@@ -28,7 +28,8 @@ class Telegram_Shortcodes {
         add_shortcode('energia_forma', [$this, 'energia_forma']);
 
         add_shortcode('telegram_special_embed', [$this, 'telegram_embed']);
-	}
+    }
+
 
     public function telegram_embed($atts, $content) {
         extract( shortcode_atts(
