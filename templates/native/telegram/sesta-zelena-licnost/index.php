@@ -384,6 +384,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     </div>
     <div class="container">
       <div class="row">
+        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/partneri/projekt-hgk-dobio-priznanje-europske-komisije-za-plavo-gospodarstvo/" target="_blank"><img src="https://images.telegram.hr/_tBwiXv-fYDyOTCKdnA-AwY3aoI04_Zv4CIrlKDRU3o/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDUvYmx1ZS1jaGFtcGlvbi1maW5hbGlzdGkuanBn.webp" aria-hidden="true"></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/partneri/projekt-hgk-dobio-priznanje-europske-komisije-za-plavo-gospodarstvo/" target="_blank"><h4>Projekt HGK dobio priznanje Europske komisije za plavo gospodarstvo</h4></a>
+              <p>Priznanje Europske komisije treći je stadij razvoja projekta Innovamare</p>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="blog-post">
             <div class="thumb">
