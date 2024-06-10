@@ -241,8 +241,8 @@
               </div>
 
             </div>
-            <div class="item">
 
+            <div class="item">
                 <div class="portfolio-item">
                 <div class="thumb">
                   <a href="https://www.telegram.hr/super1/u-zagrebu-je-fokus-na-zenama-i-njihovoj-sigurnosti-promoviramo-grad-kao-jedan-od-najsigurnijih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/martina-bienenfeld.jpg"><br/>
@@ -250,7 +250,46 @@
                   <br/><br/>
                 </div>
               </div>
+            </div>
 
+            <div class="item">
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/life/jasmina-je-kroz-uspjesnu-karijeru-izgradila-i-samopouzdanje-pomaze-kad-radis-ondje-gdje-mozes-biti-svoj/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/clanak-5.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">Jasmina je kroz uspješnu karijeru izgradila i samopouzdanje: 'Pomaže kad radiš ondje gdje možeš biti svoj'</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/power/estetika-zuba-nije-i-ne-smije-biti-tabu-mnogi-skrivaju-svoj-osmijeh-rukama-i-srame-se-a-sve-je-rjesivo/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/clanak-6.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">Estetika zuba nije i ne smije biti tabu: 'Mnogi skrivaju svoj osmijeh rukama i srame se, a sve je rješivo'</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/life/vise-od-200-000-ljudi-procitalo-je-nase-price-o-hrabrim-zenama-velikim-eventom-proslavili-smo-svaku-od-njih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/clanak-7.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">Više od 200.000 ljudi pročitalo je naše priče o hrabrim ženama: Velikim eventom proslavili smo svaku od njih</p></a>
+                  <br/><br/>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+                <div class="portfolio-item">
+                <div class="thumb">
+                  <a href="https://www.telegram.hr/super1/life/budite-hrabre-zene-ste-i-mozete-sve-evo-kako-smo-slavili-zensko-samopouzdanje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/clanak-8.jpg"><br/>
+                  <p style="color:#fff; padding-top:0px; margin-top: 5px; text-decoration:none">"Budite hrabre, žene ste i možete sve": Evo kako smo slavili žensko samopouzdanje</p></a>
+                  <br/><br/>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -474,24 +513,8 @@
   </div>
 </div>
 
-      <div class="container">
+    <div class="container">
       <div class="row">
-          <div class="col-lg-1 text-center">
-          </div>
-          <div class="col-lg-5 text-center wow fadeInLeft" data-wow-duration="1.9s" data-wow-delay="0s"><a href="https://www.telegram.hr/super1/natasa-janjic-medancic-potpuno-iskreno-za-super1-ne-trebaju-me-svi-voljeti-i-ne-trebam-se-svima-dokazivati/" target="_blank">
-              <img src="<?php echo $native_path ?>/assets/images/natasa.jpg">
-              <img src="<?php echo $native_path ?>/assets/images/si.png" class="stvarnoiskustvo">
-            </a>
-            </div>
-          <div class="col-lg-5 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-            <a href="https://www.telegram.hr/super1/natasa-janjic-medancic-potpuno-iskreno-za-super1-ne-trebaju-me-svi-voljeti-i-ne-trebam-se-svima-dokazivati/" target="_blank">
-              <p class="sticky-top  tekstulja" style=" font-weight: 500;">Neke moje kolegice su opterećene da uvijek moraju dobro izgledati, ali ja nemam taj imperativ da moram savršeno izgledati – ja sam osoba, čovjek. Samo se bavim javnim poslom koji izgleda nedostižan i glamurozan, a zapravo je jednostavan i običan.<br/><br/>
-              <span style="padding-top:0px; font-weight: 500; font-size: 19px !important;  font-family: 'Poppins'; letter-spacing: 2px;">Nataša Janjić Medančić, glumica</span>
-              </p>
-            </a>
-            </div>
-          <div class="col-lg-1 text-center">
-          </div>
 
           <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
             <h1 class="strucnjaknaslov">Riječ stručnjaka</h1>
