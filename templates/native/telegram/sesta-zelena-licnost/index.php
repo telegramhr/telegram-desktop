@@ -151,7 +151,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                   </div>
                   <div class="right-content">
                     <span class="category">Ljudi</span>
-                    <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>natoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
+                    <a href="https://www.telegram.hr/zivot/unatoc-inflaciji-svaka-druga-osoba-platit-ce-vise-za-ekoloski-prihvatljive-proizvode-istrazili-smo-zasto/" target="_blank"><h4>Unatoč inflaciji svaka druga osoba platit će više za ekološki prihvatljive proizvode. Istražili smo zašto</h4></a>
                   </div>
                 </div>
               </div>
@@ -384,7 +384,19 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+      <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="https://www.telegram.hr/partneri/evolucija-ambalaze-sokova-najvise-se-toga-promijenilo-u-zadnjih-100-godina-ali-ova-inovacija-je-kljucni-iskorak/" target="_blank"><img src="https://images.telegram.hr/nf9eJEnKYPRTtiM037_F3COgT9Yp_e7vxTXVocm0Sio/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDYvdGctbmFzbG92bmEta29sYXo2LTI1LmpwZw.webp" aria-hidden="true"></a>
+            </div>
+            <div class="down-content">
+              <span class="category">Priroda</span>
+              <a href="https://www.telegram.hr/partneri/evolucija-ambalaze-sokova-najvise-se-toga-promijenilo-u-zadnjih-100-godina-ali-ova-inovacija-je-kljucni-iskorak/" target="_blank"><h4>Evolucija ambalaže sokova: Najviše se toga promijenilo u zadnjih 100 godina, ali ova inovacija je ključni iskorak</h4></a>
+              <p>Svaka promjena bila je odgovor na aktualni izazov i potrebe društva, pa tako i ova</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="blog-post">
             <div class="thumb">
               <a href="https://www.telegram.hr/partneri/projekt-hgk-dobio-priznanje-europske-komisije-za-plavo-gospodarstvo/" target="_blank"><img src="https://images.telegram.hr/_tBwiXv-fYDyOTCKdnA-AwY3aoI04_Zv4CIrlKDRU3o/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDUvYmx1ZS1jaGFtcGlvbi1maW5hbGlzdGkuanBn.webp" aria-hidden="true"></a>
@@ -408,7 +420,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
           <div class="blog-post">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/u-dva-dana-iz-jadrana-kod-mljeta-izvadeno-vise-od-tone-otpada-plastika-je-bila-tek-druga-na-listi-po-kolicini/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/u-dva-dana-iz-jadrana.jpg" alt=""></a>
@@ -420,7 +432,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
           </div>
         </div>
-        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+        <div class="col-lg-4 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="blog-post">
             <div class="thumb">
               <a href="https://www.telegram.hr/zivot/klimatolozi-zabrinuti-izasli-preliminarni-podaci-za-lipanj-ovo-sto-se-dogada-nije-uobicajeno-a-el-nino-se-tek-ocekuje/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/klimatolozi-zabrinuti.jpg" alt=""></a>
