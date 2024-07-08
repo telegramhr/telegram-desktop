@@ -51,7 +51,7 @@ jQuery(document).ready(function ($) {
             var response_object = { result: result, time: rightnow_test };
 
             var jqxhr = $.ajax({
-                url: 'https://script.google.com/macros/s/abcdefghijklmnopqrstuvwxyz1234567890/exec',
+                url: 'https://script.google.com/macros/s/AKfycbwbLUPyelV9SDDhoS65a_VScIjwQLts49XoR4vVQFOoIzCXRnKqawOuKOFezLrFyvk3/exec',
                 method: "GET",
                 dataType: "json",
                 data: response_object

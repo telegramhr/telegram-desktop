@@ -37,7 +37,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/slick/slick.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/slick/slick-theme.css" type="text/css" />
     <!-- Functions -->
-    <script src="<?php echo $native_path ?>assets/functions.js"></script>
+    <script src="<?php echo $native_path ?>assets/functions.js?ver=1.1"></script>
 </head>
 <body>
     <div class="main-container flex relative">
