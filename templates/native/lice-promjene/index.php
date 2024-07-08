@@ -14,7 +14,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <script src="<?php echo $native_path ?>assets/jquery.js"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -619,7 +619,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </footer>
-        <?php //wp_footer(); ?>
+        <?php wp_footer(); ?>
     </div>
 </body>
 

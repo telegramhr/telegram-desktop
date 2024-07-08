@@ -1,10 +1,10 @@
 // Load main functions...
 
-jQuery(document).ready(function($) {
-    var scores = {typeA: 0, typeB: 0, typeC: 0, typeD: 0};
+jQuery(document).ready(function ($) {
+    var scores = { typeA: 0, typeB: 0, typeC: 0, typeD: 0 };
     var result = '';
-    
-    $('.answer').click(function() {
+
+    $('.answer').click(function () {
         var active = $('.slide.active').data('slide');
         var category = $(this).data('category'); // Assuming each answer has a data-category attribute
         if (category) {
@@ -21,10 +21,10 @@ jQuery(document).ready(function($) {
         } else {
             // Determine which personality type has the highest score
             var highestType = Object.keys(scores).reduce((a, b) => scores[a] > scores[b] ? a : b);
-            
+
             result = highestType; // Use highest scoring type as the result identifier
             var resultMessage = '';
-            switch(result) {
+            switch (result) {
                 case 'typeA':
                     resultMessage = "Kategorija: Za dostojanstvo.<br> Borac protiv nepravde. <br> Ti si Robin Hood, Erin Brockovich ili Katness Everdeen - neumorno se boriš protiv nepravde i uvijek si na prvoj liniji kada treba pomoći onima kojima je to najpotrebnije. Poznat si u društvu kao netko tko će uvijek biti moralna podrška i reći koji je put ispravan bez obzira na to hoće li se sugovorniku odgovor svidjeti. Uvijek naglašavaš važnost pravde i jednakosti.";
                     break;
@@ -40,21 +40,36 @@ jQuery(document).ready(function($) {
                 default:
                     resultMessage = "Nešto ne radi kod nas :(";
             }
-            
+
             $('.result .question span').html(resultMessage);
-            $('.result .description').text("Nastavi istraživati ličnost.");
+            $('.result .description').text("Nastavi istraživati ličnost:");
             $('.slide.slide-' + active).addClass('active');
+
+            // Sending the result with time to our Google Sheet
+            var rightnow = Date.now();
+            var rightnow_test = rightnow.toString();
+            var response_object = { result: result, time: rightnow_test };
+
+            var jqxhr = $.ajax({
+                url: 'https://script.google.com/macros/s/abcdefghijklmnopqrstuvwxyz1234567890/exec',
+                method: "GET",
+                dataType: "json",
+                data: response_object
+            }).done(
+                console.log("Rezultat uspješno spremljen.")
+            );
+
         }
         return false;
     });
 
-    $('.restart').click(function() {
+    $('.restart').click(function () {
         var active = $('.slide.active').data('slide');
         $('.slide.slide-' + active).removeClass('active');
         active = 1;
         $('.progress-indicator').css("width", "1%");
         $('.slide.slide-' + active).addClass('active');
-        scores = {typeA: 0, typeB: 0, typeC: 0, typeD: 0};
+        scores = { typeA: 0, typeB: 0, typeC: 0, typeD: 0 };
         return false;
     });
 });
