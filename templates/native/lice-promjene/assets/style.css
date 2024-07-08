@@ -16,6 +16,10 @@ html {
     font-weight: 300;
 }
 
+.main-container {
+    padding-top: 80px;
+}
+
 .capatalise {
     text-transform: uppercase;
 
@@ -487,5 +491,13 @@ h3.question {
     #prirodu .background-text {
         font-size: 100px;
         top: -45px;
+    }
+
+    .top-nav {
+        position: relative;
+    }
+
+    .main-container {
+        padding-top: 0px;
     }
 }
