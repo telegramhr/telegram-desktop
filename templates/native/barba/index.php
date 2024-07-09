@@ -51,7 +51,7 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-5 wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
-               <img src="<?php echo $native_path ?>/assets/images/claim.svg" style="padding: 30px" /><br/>
+               <img src="<?php echo $native_path ?>/assets/images/claim.svg?v=2" style="padding: 30px" /><br/>
         </div>
          <div class="col-lg-6"></div>
     </div>
