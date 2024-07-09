@@ -166,6 +166,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative shoo-top" id="vodici">
             <div class="container flex relative">
+            <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/internet-je-postao-leglo-prevaranata-kreirali-smo-vodic-kako-se-zastititi-tijekom-online-kupovine/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/E45P-6YkabPGUyW0YF8-aWGbPW2We92aF13xTQGH3s0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDUvdW50aXRsZWQtMjAyNC0wNS0yOHQxNjI3NDEwOTEucG5n.webp">
+                    <div class="full flex">
+                        <h2 class="full">Internet je postao leglo prevaranata. Kreirali smo vodič kako se zaštititi tijekom online kupovine</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/prevaranti-su-osmislili-novi-nacin-evo-kako-vam-mogu-ukrasti-novac-ako-kupujete-online/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/WVWHgc2ySEEMj-ZWSA4xXyJBpwMUrDceD-fQ29g4HRY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDMvcGV4ZWxzLWNvdHRvbmJyby1zdHVkaW8tMzk0NDQwNS5qcGc.jpg">
                     <div class="full flex">

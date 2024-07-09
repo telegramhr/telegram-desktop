@@ -1,0 +1,503 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 174, 55, 55;
+}
+
+/* Typography */
+
+html {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.main-container {
+    padding-top: 80px;
+}
+
+.capatalise {
+    text-transform: uppercase;
+
+}
+
+p.full.capatalise {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+h1.full,
+h2.full {
+    font-weight: 500;
+    font-size: 77px;
+    color: #009247;
+    margin-top: -0.8rem;
+    margin-bottom: 0.8rem;
+
+}
+
+h2.full {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.article p {
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 300;
+}
+
+
+h2.full.orange-text {
+    color: #F55F2F;
+
+}
+
+p.gray-text {
+    color: #929292;
+    margin-bottom: 1rem;
+}
+
+.lightgray-bg {
+    background: #EEEEEE;
+    border-radius: 5px;
+}
+
+
+.background-text {
+    position: absolute;
+    top: -160px;
+    font-size: 260px;
+    color: #E7E7E7;
+    z-index: -20;
+    pointer-events: none;
+    text-align: center;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+}
+
+#dostojanstvo .background-text {
+    font-size: 210px;
+}
+
+#prirodu .background-text {
+    font-size: 360px;
+    top: -260px;
+}
+
+
+/* Navigation */
+.top-nav {
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+.top-nav a div {
+    padding: 1rem 0.8rem;
+    opacity: 0.85;
+    border-bottom: 5px solid transparent;
+    margin-right: 0.8rem;
+}
+
+
+.top-nav a div:hover {
+    opacity: 1;
+    border-bottom: 5px solid #8BC541;
+    color: #009247;
+    transition: all 0.2s;
+
+}
+
+.top-nav .text-logo .lica-logo {
+    height: 2.3rem;
+}
+
+.top-nav .text-logo .telegram-logo {
+    height: 0.8rem;
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    background-color: #FFF;
+    color: black;
+    font-weight: 400;
+    box-shadow: 0px -14px 34px 0px #00000012;
+    border-top: 1px solid #8BC541;
+    font-size: 0.7rem;
+
+}
+
+.bottom-nav .center {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.bottom-nav .center-text {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.bottom-nav a div {
+    opacity: 0.85;
+    border-bottom: 5px solid transparent;
+    padding-top: 10px;
+}
+
+.bottom-nav a div:hover {
+    opacity: 1;
+    border-bottom: 5px solid #8BC541;
+    color: #009247;
+    transition: all 0.2s;
+}
+
+.bottom-nav a div:active {
+    border-bottom: 5px solid #8BC541;
+    color: #009247;
+}
+
+.bottom-nav svg {
+    fill: #8BC541;
+    height: 1rem;
+}
+
+
+
+/* Articles */
+
+.article-title,
+.article-category {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    color: white;
+    font-weight: 500;
+    padding: 1rem;
+    z-index: 30;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 7px;
+    line-height: 45px;
+    margin-bottom: 0;
+}
+
+.article-title p {
+    font-size: 28px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.article-title p:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
+
+}
+
+.article-title p.capatalise {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+div.two-thirds {
+    padding-left: 1rem;
+}
+
+.two-thirds h4 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* Spacing */
+
+header {
+    margin: 2rem 0rem;
+}
+
+section {
+    margin: 4rem 0rem;
+}
+
+.column-left-margin {
+    margin-left: 1rem;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column-bottom-margin {
+    margin-bottom: 2rem;
+}
+
+
+/* Images */
+.circle-img {
+    width: 186px;
+    height: 186px;
+    border-radius: 90px;
+    background-color: white;
+
+}
+
+footer .logo-line .lp-logo {
+    width: 200px;
+}
+
+/* Quiz */
+
+h3.question {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+
+}
+
+.answer.animate p {
+    margin-top: 0.6rem;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+    margin-bottom: 0.6rem;
+    padding: 0.6rem 2rem;
+    background-color: white;
+    border-radius: 70px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.answer.animate p:hover {
+    background-color: #F55F2F;
+    transition: 0.5s;
+    color: white;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: flex;
+}
+
+.progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    bottom: 0;
+    left: 0;
+    background-color: #8BC541;
+}
+
+.progress-indicator {
+    width: 1%;
+    height: 16px;
+    background-color: #8BC541;
+    margin-top: 1.2rem;
+}
+
+.question {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.result .question {
+    line-height: 40px;
+}
+
+.description {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.answer.animate p.restart {
+    padding: 0.7rem 2rem;
+}
+
+/* Order */
+
+@media screen and (min-width: 767px) {
+
+    .desktop-order-1 {
+        order: 1;
+    }
+
+    .desktop-order-2 {
+        order: 2;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-order-1 {
+        order: 1;
+    }
+
+    .mobile-order-2 {
+        order: 2;
+    }
+
+    .mobile-order-3 {
+        order: 3;
+    }
+
+    /* Typography */
+    h1.full {
+        font-size: 45px;
+        margin-bottom: 0.5rem;
+    }
+
+    h2.full {
+        font-size: 40px;
+        margin-bottom: 0.5rem;
+    }
+
+    p.full.capatalise {
+        font-size: 15px;
+    }
+
+    .article p {
+        font-size: 16px;
+
+    }
+
+    .article-title {
+        padding: 0.5rem;
+    }
+
+    .article-title p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0.1rem;
+
+    }
+
+    p.full.capatalise {
+        font-weight: 400;
+        margin-bottom: 0.4rem;
+    }
+
+    .two-thirds h4 {
+        font-size: 16px;
+    }
+
+    .two-thirds p.capatalise {
+        margin-bottom: 0.05rem;
+    }
+
+    p.gray-text {
+        font-size: 1rem;
+    }
+
+    /* Images */
+    .circle-img {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+
+    /* Spacing */
+    header {
+        margin: 1rem 0;
+    }
+
+    section {
+        margin: 0rem;
+    }
+
+    .flex-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+
+    }
+
+    div.third.wrap {
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+
+    div.column-horizontal-pad {
+        margin: 1rem 0rem;
+    }
+
+    .answers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .tele-logo {
+        padding-bottom: 4rem;
+    }
+
+    /* Quiz */
+
+    h3.question {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .answer.animate p {
+        margin: 1rem 0 0 0.1rem;
+        padding: 1rem 1rem;
+        font-size: 16px;
+    }
+
+    .result .question {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .description {
+        margin: 2rem 0rem 1rem 0rem;
+    }
+
+    .answer.animate p.restart {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .lightgray-bg p.full.capatalise {
+        text-align: center;
+    }
+
+    /* bg-text */
+
+    .background-text {
+        font-size: 75px;
+        top: -20px;
+    }
+
+    #dostojanstvo .background-text {
+        font-size: 60px;
+        top: -7px;
+    }
+
+    #prirodu .background-text {
+        font-size: 100px;
+        top: -45px;
+    }
+
+    .top-nav {
+        position: relative;
+    }
+
+    .main-container {
+        padding-top: 0px;
+    }
+}
