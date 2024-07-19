@@ -166,7 +166,14 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative shoo-top" id="vodici">
             <div class="container flex relative">
-            <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/internet-je-postao-leglo-prevaranata-kreirali-smo-vodic-kako-se-zastititi-tijekom-online-kupovine/" target="_blank">
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-vise-ljudi-diljem-zemlje-placa-karticama-ali-ne-znaju-da-postoje-odredene-opasnosti-evo-kako-se-zastititi/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/528Ntp1ip1EAVvXZukPG9rgTt7ZAq5sc2RpXuKLnEo0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDYvcGV4ZWxzLXRpbWEtbWlyb3NobmljaGVua28tNTcwODIxNy5qcGc.webp">
+                    <div class="full flex">
+                        <h2 class="full">Sve više ljudi diljem zemlje plaća karticama, ali ne znaju da postoje određene opasnosti. Evo kako se zaštititi</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/internet-je-postao-leglo-prevaranata-kreirali-smo-vodic-kako-se-zastititi-tijekom-online-kupovine/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/E45P-6YkabPGUyW0YF8-aWGbPW2We92aF13xTQGH3s0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDUvdW50aXRsZWQtMjAyNC0wNS0yOHQxNjI3NDEwOTEucG5n.webp">
                     <div class="full flex">
                         <h2 class="full">Internet je postao leglo prevaranata. Kreirali smo vodič kako se zaštititi tijekom online kupovine</h2>
