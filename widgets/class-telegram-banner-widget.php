@@ -73,6 +73,11 @@ class Telegram_Banner_Widget extends WP_Widget {
                         <div class="full center">
 		                <?php $this->banner_slave( $id, $instance ) ?>
 		                </div>
+                        <div id="<?php echo $id ?>-info2"
+                             class="full center banner-separator relative hide"
+                        >
+                            <div><span><a href="https://www.telegram.hr/pretplata/premium/">Maknite ovaj oglas</a></span></div>
+                        </div>
 	                </div>
 	                <?php
 	                break;
