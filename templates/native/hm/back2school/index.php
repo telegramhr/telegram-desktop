@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052024">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
+    <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/trackimpj/N1025728.3833264SUPER1.TELEGRAM./B32422458.400347287;dc_trk_aid=592215991;dc_trk_cid=219585581;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?" attributionsrc ></SCRIPT>
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15" class="pozadina">
