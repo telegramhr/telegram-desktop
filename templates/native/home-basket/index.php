@@ -57,7 +57,7 @@
           <div class="col-lg-8 offset-lg-2 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
             <h2>Ovog vikenda ne planiramo nikakve izlete koji se nalaze na samo sat vremena od Zagreba. Ne bukiramo karte, ne organiziramo, ne planiramo. Naprotiv, ostajemo kod kuće – u udobnosti vlastitog doma. </h2>
              <p class="sticky-top" style=" font-weight: 500;">Naime, rujan se često doživljava kao neslužbeni početak nove godine, a istraživanja pokazuju da upravo sada, dolaskom jeseni, mnogi započinju osobne transformacije i to znatno češće nego u siječnju, kada su novogodišnje odluke u fokusu. Sjajan je to trenutak za osvježenje, sebe i vlastitog doma, jer home care je ono čemu se veselimo ove godine. <br/><br/>
-              Upravo zbog toga, u suradnji s našim partnerima, pripremili smo genijalnu košaru prepunu vrijednih poklona.
+              Upravo zbog toga, u suradnji s našim partnerima, pripremili smo genijalnu košaru prepunu vrijednih poklona. Ako želiš baš ti osvojiti sve ove proizvode požuri na Instagram profil Super1.
              </p>
           </div>
         </div>
