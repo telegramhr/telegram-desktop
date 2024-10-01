@@ -294,7 +294,7 @@
           <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
             <img src="<?php echo $native_path ?>/assets/images/piva.jpg" /><br/><br/>
             <h2>Opustite se </h2>
-            <p>Za opuštanje u udobnosti vlastitog doma tu je najautentičniji predstavnik plzenskog tipa piva u Hrvatskoj - ono <a href="https://www.instagram.com/staroceskopivo/?hl=hr" target="_blank">Daruvarske pivovare</a> koje obilježava cvjetna aroma hmelja i naknadni trpki okus koji se zadržava na nepcu nakon konzumiranja. Bogato je ugljičnim dioksidom te ima visoku i trajnu pjenu. Pravo pivo za svaku priliku. </p>
+            <p>Za opuštanje u udobnosti vlastitog doma tu je najautentičniji predstavnik plzenskog tipa piva u Hrvatskoj – <a href="https://www.instagram.com/staroceskopivo/?hl=hr" target="_blank">Staročeško pivo</a>, koje obilježava cvjetna aroma hmelja i naknadni trpki okus koji se zadržava na nepcu nakon konzumiranja. Zbog činjenice da se naziv Staročeško u Pivovari Daruvar koristi od osnutka pivovare, može se reći da je Staročeško svijetlo pivo najstarija robna marka piva u Hrvatskoj. Pravo pivo za svaku priliku. </p>
           </div>
           <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
             <img src="<?php echo $native_path ?>/assets/images/getaldus.jpg" /><br/><br/>
@@ -381,7 +381,7 @@
   <div class="container-fluid">
       <div class="row">
           <div class="col-lg-3 order-lg-2">
-             <p class="sticky-top tekstulja2"><img src="<?php echo $native_path ?>/assets/images/kremasto.svg"  class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">U basketu se nalazi i <a href="https://www.riomare.hr/proizvod/pate-namaz-od-tunjevine-i-mrkve/?_gl=1*fcsxhs*_up*MQ..*_ga*MTUwMDEzODE5MS4xNzI2NjUzNjI2*_ga_DG9B2GLK2G*MTcyNjY1MzYyNS4xLjEuMTcyNjY1MzYzMi4wLjAuMA.." target="_blank">RIO MARE pate od tune i mrkve</a>, delikatesni namaz koji nudi meku i kremastu koncentraciju okusa u praktičnoj tubi. Lako se nanosi i zatvara poklopcem koji osigurava savršeno skladištenje u hladnjaku. Ovaj ukusni delikatesni namaz od tunjevine i mrkve, nježnog okusa, odličan je za sve prigode.</span>
+             <p class="sticky-top tekstulja2"><img src="<?php echo $native_path ?>/assets/images/kremasto.svg"  class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">U basketu se nalazi i <a href="https://www.riomare.hr/proizvod/pate-namaz-od-tunjevine-i-mrkve/?_gl=1*fcsxhs*_up*MQ..*_ga*MTUwMDEzODE5MS4xNzI2NjUzNjI2*_ga_DG9B2GLK2G*MTcyNjY1MzYyNS4xLjEuMTcyNjY1MzYzMi4wLjAuMA.." target="_blank">RIO MARE pate od tune i mrkve</a>, delikatesni namaz koji nudi meku i kremastu koncentraciju okusa u praktičnoj tubi. Lako se nanosi i zatvara poklopcem koji osigurava savršeno skladištenje u hladnjaku. Cjelovit okus tunjevine i blagi okus mrkve, mljac!</span>
               </p>
           </div>
           <div class="col-lg-7 order-lg-1 p-0 ">
@@ -412,7 +412,6 @@
               <p>
                 Autorica: Monika Bončina<br/>
                   Fotograf: Marko Miščević<br/>
-                  Set design: <a href="https://www.instagram.com/matejasucevic?igsh=MWhkNmV6N2o3YWRmNg==" target="_blank" style="font-weight:300 !important;">Mateja Sučević</a><br/>
               Kreativno vodstvo: TG Studio<br/>
                 Grafičko oblikovanje: Reset</p>
               <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing po najvišim uredničkim standardima Telegram Media Grupe.</p><br/><br/>
