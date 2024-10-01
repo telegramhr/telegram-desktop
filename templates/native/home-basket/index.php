@@ -57,7 +57,7 @@
           <div class="col-lg-8 offset-lg-2 text-left wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
             <h2>Ovog vikenda ne planiramo nikakve izlete koji se nalaze na samo sat vremena od Zagreba. Ne bukiramo karte, ne organiziramo, ne planiramo. Naprotiv, ostajemo kod kuće – u udobnosti vlastitog doma. </h2>
              <p class="sticky-top" style=" font-weight: 500;">Naime, rujan se često doživljava kao neslužbeni početak nove godine, a istraživanja pokazuju da upravo sada, dolaskom jeseni, mnogi započinju osobne transformacije i to znatno češće nego u siječnju, kada su novogodišnje odluke u fokusu. Sjajan je to trenutak za osvježenje, sebe i vlastitog doma, jer home care je ono čemu se veselimo ove godine. <br/><br/>
-              Upravo zbog toga, u suradnji s našim partnerima, pripremili smo genijalnu košaru prepunu vrijednih poklona. Ako želiš baš ti osvojiti sve ove proizvode požuri na Instagram profil Super1.
+              Upravo zbog toga, u suradnji s našim partnerima, pripremili smo genijalnu košaru prepunu vrijednih poklona. Ako želiš baš ti osvojiti sve ove proizvode požuri na <a href="https://www.instagram.com/p/DAiu5XRKjgb/?igsh=enZlZDFodXB1aXg0" target="_blank">Instagram profil Super1</a>. Pravila nagradnog natječ̣aja potražite <a href="https://www.telegram.hr/super1/life/pravila-nagradnog-natjecaja-super-basket-edition/" target="_blank">ovdje</a>.
              </p>
           </div>
         </div>
@@ -69,7 +69,7 @@
   <div class="container-fluid">
       <div class="row">
           <div class="col-lg-3 order-lg-2">
-             <p class="sticky-top tekstulja2"><img src="<?php echo $native_path ?>/assets/images/basket.svg"  class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">Super1 Basket pronašli smo u <a href="https://jysk.hr/pohranjivanje/kosare-i-sl/kosare/kosara-karljohan-s38xd38xv28cm-siva" target="_blank">Jysku</a> koji nudi funkcionalnost i stil u jednom. Sigurni smo da će ova košara donijeti toplinu u svaki dom, a pritom olakšati organizaciju. Izrađena od visokokvalitetnih, 100 posto recikliranih poliesterskih vlakana, ova košara predstavlja sjajnu kombinaciju ekološke osviještenosti i modernog dizajna.</span>
+             <p class="sticky-top tekstulja2"><img src="<?php echo $native_path ?>/assets/images/basket.svg"  class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">Super1 Basket pronašli smo u <a href="https://jysk.hr/pohranjivanje/kosare-i-sl/kosare/kosara-karljohan-s38xd38xv28cm-siva" target="_blank">JYSKu</a> koji nudi funkcionalnost i stil u jednom. Sigurni smo da će ova košara donijeti toplinu u svaki dom, a pritom olakšati organizaciju. Izrađena od visokokvalitetnih, 100 posto recikliranih poliesterskih vlakana, ova košara predstavlja sjajnu kombinaciju ekološke osviještenosti i modernog dizajna.</span>
               </p>
           </div>
           <div class="col-lg-7 order-lg-1 p-0 ">
@@ -123,7 +123,7 @@
           <div class="col-lg-2">
           </div>
           <div class="col-lg-3">
-             <p class="sticky-top tekstulja"><img src="<?php echo $native_path ?>/assets/images/proizvodzacijeluobitelj.svg"  class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1s">Kako bismo se trajno riješili crvenila, svrbeža i osjećaja zatezanja kože odabiremo umirujući <a href="https://www.eau-thermale-avene.com.hr/" target="_blank">Avène sprej</a> obnavlja kožnu barijeru i sa samo jednim potiskom oslobađa finu maglicu koja ublažava svaku nelagodu na licu. Ovaj sjajan proizvod može se koristiti svakodnevno, nakon čišćenja lica, za uklanjanje zaostalih nečistoća. Pritom, Avène termalnu izvorsku vodu može koristiti cijela obitelj, na licu i na tijelu, za umirenu, ojačanu i zdravu kožu. </span>
+             <p class="sticky-top tekstulja"><img src="assets/images/proizvodzacijeluobitelj.svg"  class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1s">Kako bismo se trajno riješili crvenila, svrbeža i osjećaja zatezanja kože odabiremo <a href="https://www.eau-thermale-avene.com.hr/" target="_blank">Avène termalnu izvorsku vodu</a> koja trenutno pruža olakšanje i obnavlja kožnu barijeru. Sa samo jednim potiskom oslobađa finu maglicu koja ublažava svaku nelagodu na licu i tijelu. Ovaj sjajan proizvod može se koristiti svakodnevno, nakon čišćenja lica, za umirivanje, hidraciju i uklanjanje zaostalih nečistoća. Savršeno rješenje za umirenu, ojačanu i zdravu kožu cijele obitelji.</span>
               </p>
           </div>
           <div class="col-lg-7 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
@@ -228,7 +228,7 @@
       <div class="row">
           <div class="col-lg-6 offset-lg-3 text-center">
               <h1 style="color:#be5f25">Ne zaboravite na vodu </h1>
-             <p class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">Hidratacija ne dolazi samo izvana, već i iznutra. Pripremili smo stoga City Center bocu za vodu, laganu za nošenje, idealnu za ured, odlazak u prirodu ili shopping. </p>
+             <p class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">Hidratacija ne dolazi samo izvana, već i iznutra. Pripremili smo stoga City Center one bocu za vodu, laganu za nošenje, idealnu za ured, odlazak u prirodu ili shopping. </p>
           </div>
           <div class="col-lg-12 wow fadeIn p-0" data-wow-duration="1.5s" data-wow-delay="1s">
             <img src="<?php echo $native_path ?>/assets/images/voda.jpg" style="z-index:1 !important; padding-top: 80px;" />
@@ -381,7 +381,7 @@
   <div class="container-fluid">
       <div class="row">
           <div class="col-lg-3 order-lg-2">
-             <p class="sticky-top tekstulja2"><img src="<?php echo $native_path ?>/assets/images/kremasto.svg"  class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">U basketu se nalazi i <a href="https://www.riomare.hr/proizvod/pate-namaz-od-tunjevine-i-mrkve/?_gl=1*fcsxhs*_up*MQ..*_ga*MTUwMDEzODE5MS4xNzI2NjUzNjI2*_ga_DG9B2GLK2G*MTcyNjY1MzYyNS4xLjEuMTcyNjY1MzYzMi4wLjAuMA.." target="_blank">RIO MARE pate tuna and carrots</a>, delikatesni namaz koji nudi meku i kremastu koncentraciju okusa u praktičnoj tubi. Lako se nanosi i zatvara poklopcem koji osigurava savršeno skladištenje u hladnjaku. Ovaj ukusni delikatesni namaz od tunjevine i mrkve, nježnog okusa, odličan je za sve prigode.</span>
+             <p class="sticky-top tekstulja2"><img src="<?php echo $native_path ?>/assets/images/kremasto.svg"  class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" /><br/><br/><span class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">U basketu se nalazi i <a href="https://www.riomare.hr/proizvod/pate-namaz-od-tunjevine-i-mrkve/?_gl=1*fcsxhs*_up*MQ..*_ga*MTUwMDEzODE5MS4xNzI2NjUzNjI2*_ga_DG9B2GLK2G*MTcyNjY1MzYyNS4xLjEuMTcyNjY1MzYzMi4wLjAuMA.." target="_blank">RIO MARE pate od tune i mrkve</a>, delikatesni namaz koji nudi meku i kremastu koncentraciju okusa u praktičnoj tubi. Lako se nanosi i zatvara poklopcem koji osigurava savršeno skladištenje u hladnjaku. Ovaj ukusni delikatesni namaz od tunjevine i mrkve, nježnog okusa, odličan je za sve prigode.</span>
               </p>
           </div>
           <div class="col-lg-7 order-lg-1 p-0 ">
@@ -412,6 +412,7 @@
               <p>
                 Autorica: Monika Bončina<br/>
                   Fotograf: Marko Miščević<br/>
+                  Set design: <a href="https://www.instagram.com/matejasucevic?igsh=MWhkNmV6N2o3YWRmNg==" target="_blank" style="font-weight:300 !important;">Mateja Sučević</a><br/>
               Kreativno vodstvo: TG Studio<br/>
                 Grafičko oblikovanje: Reset</p>
               <p>Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing po najvišim uredničkim standardima Telegram Media Grupe.</p><br/><br/>
