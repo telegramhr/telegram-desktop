@@ -7,6 +7,8 @@ remove_action( 'do_pings', 'do_all_pings' );
 
 define('PARENT_PATH', get_theme_root_uri().'/telegram2-desktop');
 
+add_filter( 'wp_calculate_image_srcset', '__return_false' );
+
 add_action('after_setup_theme', 'telegram_setup');
 function telegram_setup() {
 
@@ -195,7 +197,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537])) {
+                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246])) {
                     $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';

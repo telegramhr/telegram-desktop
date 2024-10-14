@@ -1,0 +1,315 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: #ff372d;
+    font-size: 20px;
+}
+
+/* Typography */
+
+html {
+    color: #111;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-container {
+    padding-top: 74px;
+}
+
+p {
+    font-size: 18px;
+    font-size: .9rem;
+    line-height: 1.55em;
+    margin-bottom: 0.8rem;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    z-index: 5;
+    background-color: #eee;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 14px;
+    padding-top: 15px;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.max-width {
+    max-width: 1248px;
+}
+
+.subject-name {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.1em;
+}
+
+article .subject-name {
+    font-size: 5rem;
+    padding-top: 3.2rem;
+}
+
+.subject-intro {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.1em;
+    font-size: 3.2rem;
+    padding-top: 1.6rem;
+}
+
+article .subject-name::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    background: var(--highlight-color);
+}
+
+.red-text {
+    font-family: "Barlow", sans-serif;
+    color: #ff372d;
+    font-size: 3.2rem;
+    padding-top: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.top-nav-logo {
+    height: 20px;
+}
+
+figcaption {
+    margin-top: 0.4rem;
+    opacity: .7;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.hero {
+    margin-bottom: 48px;
+}
+
+.shoo-bottom {
+    margin-bottom: 8vw;
+}
+
+.giant-text {
+    font-size: 1.2rem;
+    border-top: 5px solid var(--highlight-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+.logo-line img {
+    max-width: 200px;
+    margin: 16px;
+}
+
+footer p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-size: 0.8rem;
+}
+
+.text-container p a {
+    color: var(--highlight-color);
+    text-decoration: underline;
+}
+
+/* V2 stuff */
+
+
+div.full.center p {
+    font-size: 1.7rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+
+}
+
+/* Summary and Details */
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #007BFF;
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+summary:hover {
+    color: #ff372d;
+    transform: translateY(-2px);
+}
+
+details summary::before {
+    content: "▶";
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+/* Image Hover */
+
+a img.desktop-only {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    padding-bottom: 0.3rem;
+}
+
+a:hover img.desktop-only {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    div.full.center p {
+        font-size: 1.3rem;
+
+    }
+}
+
+
+@media screen and (min-width: 940px) {
+    .move-left {
+        position: relative;
+        left: -15rem;
+    }
+
+    .move-right {
+        position: relative;
+        right: -15rem;
+    }
+
+    .giant-text {
+        font-size: 1.4rem;
+    }
+
+    .shoo-bottom {
+        margin-bottom: 3rem;
+    }
+
+    .hero .fourth:nth-child(even) {
+        padding-top: 3.2rem;
+    }
+
+    article {
+        background-image: url("images/hexy_bg.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .hero .fourth .subject-name {
+        width: 49.99%;
+        z-index: 5;
+        position: relative;
+        font-size: 24px;
+        font-size: 1.2rem;
+        order: 2;
+    }
+
+    .hero .fourth img.mobile-only {
+        width: 49.99%;
+        order: 1;
+    }
+
+    .hero .fourth:nth-child(odd) {
+        padding-right: 1.6rem;
+    }
+
+    .hero .fourth:nth-child(even) {
+        padding-left: 1.6rem;
+    }
+
+    .hero {
+        margin-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-top: 2.2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .mobile-no-pad {
+        padding: 0px;
+    }
+
+    article .subject-name {
+        font-size: 3.2rem;
+        padding-top: 1.2rem;
+    }
+
+    .red-text {
+        font-size: 1.8rem;
+    }
+    .subject-intro {
+        font-size: 1.8rem;
+    }
+
+    article .subject-name::before {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .column-full-pad figure {
+        padding: 0px;
+    }
+
+    div.full.center p {
+        max-width: 100%;
+        font-size: 1.2rem;
+        padding-bottom: 0;
+        margin-bottom: 2vw;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Summary */
+    summary {
+        font-size: 0.9rem;
+    }
+
+    details summary::before {
+        margin-right: 8px;
+    }
+
+}

@@ -1,0 +1,545 @@
+/*
+* Operon CSS Framework
+* by Marijan Mikolić
+* 
+* Breakpoints: 
+* (min-width: 941px)(max-width: 940px) mobile+tablet layout
+* (min-width: 641px)(max-width: 640px) mobile-specific layout
+*/
+
+/* CSS Reset */
+
+*,
+*:before,
+*:after {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+button {
+    padding: 0;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+.main-container {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+:focus {
+    outline: none;
+}
+
+/* Typography */
+
+html {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+b,
+strong,
+.bold {
+    font-weight: 700;
+}
+
+.superbold {
+    font-weight: 900;
+}
+
+i,
+em,
+.italic {
+    font-style: italic;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.white-text {
+    color: white;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.smaller-text {
+    font-size: 0.7em;
+}
+.bigger-text {
+    font-size: 1.2em;
+}
+
+/* Layout */
+
+.container {
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 758px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.hide {
+    display: none !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.center-wrap {
+    flex-wrap: wrap;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.reset-flex-order>* {
+    order: initial !important;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.stretch-content {
+    align-content: stretch;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.half {
+    width: 49.99%;
+}
+
+.fourth {
+    width: 24.99%;
+}
+
+.fifth {
+    width: 19.99%;
+}
+
+.eighty {
+    width: 79.99%;
+}
+
+.third {
+    width: 33.33%;
+}
+
+.two-thirds {
+    width: 66.66%;
+}
+
+.full {
+    width: 100%;
+}
+
+.five-sixths {
+    width: 83.33%;
+}
+
+.sixth {
+    width: 16.66%;
+}
+
+.three-fourths {
+    width: 74.99%;
+}
+
+.forty {
+    width: 39.99%;
+}
+
+.sixty {
+    width: 59.99%;
+}
+
+.thirty {
+    width: 29.99%;
+}
+
+@media screen and (max-width: 940px) {
+    .mobile-only {
+        display: inherit;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .flex-responsive {
+        width: 100%;
+    }
+
+    .tablet-half {
+        width: 49.99%;
+    }
+
+    .tablet-third {
+        width: 33.33%;
+    }
+
+    .tablet-two-thirds {
+        width: 66.66%;
+    }
+
+    .tablet-three-fourths {
+        width: 74.99%;
+    }
+
+    .tablet-fourth {
+        width: 24.99%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mobile-half {
+        width: 49.99%;
+    }
+
+    .mobile-third {
+        width: 33.33%;
+    }
+
+    .mobile-two-thirds {
+        width: 66.66%;
+    }
+
+    .mobile-three-fourths {
+        width: 74.99%;
+    }
+
+    .mobile-fourth {
+        width: 24.99%;
+    }
+
+    .mobile-full {
+        width: 100%;
+    }
+}
+
+/* Whitespace and borders */
+
+.column-full-pad {
+    padding: 1.2rem;
+}
+.column-mini-full-pad {
+    padding: 0.6rem;
+}
+
+.column-horizontal-pad {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+
+.column-mini-horizontal-pad {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.column-right-pad {
+    padding-right: 1.2rem;
+}
+
+.column-left-pad {
+    padding-left: 1.2rem;
+}
+
+.column-vertical-pad {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.column-mini-vertical-pad {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.column-top-pad {
+    padding-top: 1.2rem;
+}
+
+.column-bottom-pad {
+    padding-bottom: 1.2rem;
+}
+
+.column-mini-top-pad {
+    padding-top: 0.6rem;
+}
+
+.column-mini-bottom-pad {
+    padding-bottom: 0.6rem;
+}
+
+.column-no-pad {
+    padding: 0px;
+}
+
+.column-bottom-border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.column-top-border {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.column-right-border {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.column-left-border {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.column-top-margin {
+    margin-top: 1.2rem;
+}
+
+.column-right-margin {
+    margin-right: 1.2rem;
+}
+
+.column-left-margin {
+    margin-left: 1.2rem;
+}
+
+.column-bottom-margin {
+    margin-bottom: 1.2rem;
+}
+
+/* Media */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Functions */
+
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.loading {
+    cursor: wait;
+}
+
+.locked {
+    cursor: not-allowed;
+}
+
+.animate,
+svg {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.faded-50,
+.faded {
+    opacity: 0.5
+}
+
+.faded-70 {
+    opacity: 0.7;
+}
+
+.fade-me-out {
+    opacity: 0;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
