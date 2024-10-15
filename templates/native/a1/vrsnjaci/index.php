@@ -30,6 +30,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 </head>
 
 <body>
+<img src="https://track.adform.net/adfserve/?bn=76987250;1x1inv=1;srctype=3;ord=[timestamp]" border="0" width="1" height="1"/>
     <div class="main-container flex relative">
         <!-- Top Sticky Nav -->
         <header class="full flex relative">
