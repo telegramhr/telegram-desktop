@@ -270,7 +270,7 @@
       <div class="row">
 
           <div class="col-lg-6 text-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
-            <img src="<?php echo $native_path ?>/assets/images/vino7.png"/>
+            <img src="<?php echo $native_path ?>/assets/images/vino7.png?v=2"/>
           </div>
           <div class="col-lg-6 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
              <p class="sticky-top" style=" font-weight: 300 !important; color:#fff;"><span style="font-family: 'Rozha One', serif; font-size: 44px; text-transform: uppercase; color: #ddca78 !important">liker bermet filipec</span><br/><br/>Vina Ljubitelji likera mogu uživati u Bermetu Filipec, autohtonom specijalitetu Samobora, čiji bogati okusi evociraju prošlost i povijest ovoga kraja. Ovo je prava tekuća priča o generacijama koje su marljivo radile na očuvanju ove jedinstvene delicije.</p>
@@ -286,7 +286,7 @@
       <div class="row">
 
           <div class="col-lg-6 order-lg-2 text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
-            <img src="<?php echo $native_path ?>/assets/images/vino8.png"/>
+            <img src="<?php echo $native_path ?>/assets/images/vino8.png?v=2"/>
           </div>
           <div class="col-lg-6 order-lg-1 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
              <p class="sticky-top" style=" font-weight: 300 !important; color:#fff;"><span style="font-family: 'Rozha One', serif; font-size: 44px; text-transform: uppercase; color: #ddca78 !important">destilerija hedonica & destilerija brigljević</span><br/><br/>Destilerija Hedonica sa svojim rakijama i likerima donosi autentične okuse i bogatu tradiciju proizvodnje pića, dok Destilerija Brigljević sa svojim Brandyjem prelazi granice Turopolja svojim prestižem i iznimnom kvalitetom</p>
