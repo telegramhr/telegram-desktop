@@ -28,7 +28,7 @@ class Telegram_Shortcodes {
         add_shortcode('energia_forma', [$this, 'energia_forma']);
 
         add_shortcode('telegram_special_embed', [$this, 'telegram_embed']);
-        add_shortcode('telegram_embed', [$this, 'telegram_embed2']);
+        //add_shortcode('telegram_embed', [$this, 'telegram_embed2']);
     }
 
     public function telegram_embed2($atts) {
@@ -39,7 +39,7 @@ class Telegram_Shortcodes {
             ),
             $atts
         ));
-        return get_the_ID();
+        return 'test'. $id . 'test';
         $codes = get_field('embeds', $post->ID);
         $code = $codes[$embed-1]['kod'];
         return var_export($codes, true);
