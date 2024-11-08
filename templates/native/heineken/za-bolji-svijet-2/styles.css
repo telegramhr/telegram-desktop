@@ -23,8 +23,20 @@ section {
     padding-top: 70px;
 }
 
+.no-pad-top {
+    padding-top: 3rem;
+}
+
 .pad-me {
+    padding: 48px;
+}
+
+.little-pad-me {
     padding: 24px;
+}
+
+img.third {
+    padding: 10px 40px;
 }
 
 .horizontal-pad {
@@ -178,6 +190,8 @@ nav {
     .top-nav .container {
         justify-content: center;
     }
+
+
 }
 
 
@@ -194,13 +208,15 @@ header {
     padding-top: 100px;
 }
 
-header .flex, section.intro .flex {
+header .flex,
+section.intro .flex {
     align-content: center;
     overflow: hidden;
     object-fit: cover;
 }
 
-header p, section.intro p {
+header p,
+section.intro p {
     font-size: 24px;
     font-family: 'Fira Sans', sans-serif;
 
@@ -212,6 +228,11 @@ header p, section.intro p {
 
 .shoo-top {
     padding-top: 60px;
+}
+
+.shoo-left-right {
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 /* DRUSTVO */
@@ -228,7 +249,9 @@ h1.full {
 section.intro {
     padding-bottom: 70px;
 }
-header h1.full, section.intro h1.full {
+
+header h1.full,
+section.intro h1.full {
     border-bottom: none;
     padding-bottom: 0px;
     font-weight: 700;
@@ -256,7 +279,8 @@ h2.full {
     line-height: 38px;
 }
 
-h2.full::before {
+h2.full::before,
+.green-corners::before {
     content: " ";
     width: 22px;
     height: 22px;
@@ -267,7 +291,8 @@ h2.full::before {
     left: 0;
 }
 
-h2.full::after {
+h2.full::after,
+.green-corners::after {
     content: " ";
     width: 22px;
     height: 22px;
@@ -276,6 +301,48 @@ h2.full::after {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.green-corners::before {
+    left: 130px;
+    top: -15px;
+    border-left: 2px solid #13670b;
+    border-top: 2px solid #13670b;
+
+}
+
+.green-corners::after {
+    right: 130px;
+    bottom: -15px;
+    border-bottom: 2px solid #13670b;
+    border-right: 2px solid #13670b;
+
+
+}
+
+div.full h2.full.no-bord::before {
+    content: none;
+}
+
+div.full h2.full.no-bord::after {
+    content: none;
+}
+
+h2.full.green-square,
+div.two-thirds.green-square {
+    border: 1px solid #13670b;
+    margin-top: -1rem;
+    z-index: -10;
+    margin-right: -2.5rem;
+    padding: 2rem;
+}
+
+
+.negative-margin.button-52 {
+    margin-top: -2rem;
+    margin-right: 17rem;
+    z-index: 50;
+    margin-bottom: 5rem;
 }
 
 
@@ -302,7 +369,6 @@ h2.full::after {
     transition: 0.5s;
     cursor: pointer;
 } */
-
 
 
 
@@ -567,6 +633,7 @@ h3.full.bord {
     border-color: #0b5c04;
 }
 
+
 @media screen and (max-width: 767px) {
 
     .mini-overtitle {
@@ -620,9 +687,14 @@ h3.full.bord {
 
     }
 
-    h1.full {
+    h1.full,
+    .podcast-info h1.full {
         font-size: 40px;
         font-size: 2rem;
+    }
+
+    .shoo-right {
+        margin-right: 0px;
     }
 
     h2.full {
@@ -659,8 +731,8 @@ h3.full.bord {
         flex-wrap: nowrap;
     }
 
-    .header-text-container {
-        font-size: 20px;
+    section p.header-text-container {
+        font-size: 21px;
         text-align: center;
     }
 
@@ -760,6 +832,7 @@ h3.full.bord {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    background-color: white;
 }
 
 .button-52:after {
@@ -844,6 +917,7 @@ h3.full {
     .desktop-order-2 {
         order: 2;
     }
+
     section {
         padding-left: 64px;
         padding-right: 64px;
@@ -871,6 +945,7 @@ h3.full {
     resize: none;
     max-width: 100%;
 }
+
 .header-form::before {
     content: " ";
     position: absolute;
@@ -882,6 +957,7 @@ h3.full {
     border: 2px solid #008200;
     z-index: 3;
 }
+
 .header-form .form-text-bubble {
     position: absolute;
     width: 50px;
@@ -889,6 +965,7 @@ h3.full {
     right: 8%;
     z-index: 10;
 }
+
 .header-form .form-cross {
     position: absolute;
     width: 50px;
@@ -896,14 +973,17 @@ h3.full {
     left: 5%;
     z-index: 10;
 }
+
 .header-form .center {
     z-index: 10;
     position: absolute;
     bottom: -48px;
 }
+
 header .new-btn {
     overflow: visible;
 }
+
 .new-btn div {
     position: relative;
     font-size: 20px;
@@ -914,6 +994,7 @@ header .new-btn {
     overflow: visible;
     cursor: pointer;
 }
+
 .new-btn::before {
     content: " ";
     transition: all 0.3s;
@@ -925,29 +1006,188 @@ header .new-btn {
     border: 2px solid black;
     z-index: -1;
 }
+
 .new-btn:hover::before {
     bottom: -6px;
     right: -6px;
 }
+
 .hide-before::before {
     display: none;
 }
 
+
+/* ODRASTANJE */
+
+.bg-odstrastanje {
+    background-color: #eaf2eb;
+    border-bottom: #b8c8c1 2px solid;
+    margin-bottom: 40px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.bg-odstrastanje h1.full {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+/* Youtube videos */
+
+.video-center .slick-slide {
+    transform: scale(0.8);
+    transition: all 0.4s ease-in-out;
+    padding: 40px 5px;
+}
+
+
+.slick-slide iframe {
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.video-center .slick-center {
+    transform: scale(1.1);
+}
+
+/* PODCAST INFO */
+
+.podcast-info h1.full {
+    border-bottom: none;
+    padding-bottom: 0px;
+    font-size: 2.7rem;
+    margin-bottom: 5px;
+
+}
+
+
+.podcast-text-container {
+    line-height: 35px;
+    max-width: 90%;
+    font-size: 22px;
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+@media screen and (max-width: 1441px) {
+    .negative-margin.button-52 {
+        margin-right: 10rem
+    }
+
+    img.third {
+        padding: 10px 20px;
+    }
+
+    .podcast-info h1.full {
+        font-size: 2rem;
+    }
+
+    .podcast-text-container {
+        line-height: 30px;
+        max-width: 100%;
+        font-size: 20px;
+        margin-top: 10px;
+        font-family: 'Fira Sans', sans-serif;
+
+    }
+
+    .shoo-left-right {
+        margin-left: 0rem;
+    }
+}
+
 @media screen and (max-width: 767px) {
-    .header-form, .header-form::before, .header-form textarea {
+
+    .header-form,
+    .header-form::before,
+    .header-form textarea {
         width: 100%;
     }
+
     .header-form-parent {
         padding-top: 48px;
         padding-bottom: 72px;
     }
+
     .header-form .center {
         bottom: -60px;
     }
+
+    .bg-odstrastanje {
+        margin-top: -5px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .video-center {
+        margin-top: -20px;
+    }
+
+    .podcast-text-container {
+        max-width: 100%;
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+
+    }
+
+    .podcast-info h1.full {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .sixty.flex {
+        margin-top: 2rem
+    }
+
+    .negative-margin.button-52 {
+        margin-right: 0rem;
+        margin-top: -1.8rem;
+    }
+
+    h2.full.green-square {
+        padding: 1rem;
+    }
+
+    section {
+        padding-top: 60px;
+    }
+
+    .shoo-left-right {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .shoo-top {
+        padding-top: 1rem;
+    }
+
+    .green-corners::before {
+        left: 15px;
+        top: -15px;
+    }
+
+    .green-corners::after {
+        right: 15px;
+        bottom: -20px;
+    }
+
+    .no-pad-top {
+        padding-top: 1rem;
+    }
 }
+
 .teaser-element {
     padding: 24px;
     font-size: 24px;
-    background-color: #dedede;
-    margin-bottom: 64px;
+    margin-bottom: 1rem;
 }

@@ -38,6 +38,24 @@ jQuery(document).ready(function () {
     });
     
 
+    $('.mobile-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<div class="arrow arrow-left"></div>',
+        nextArrow: '<div class="arrow arrow-right"></div>',
+        arrows: true,
+        autoplay: false,
+        autoplaySpeed: 5000,
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
+    });
+
 
     $('.info-slider').slick({
         slidesToShow: 1,
@@ -48,6 +66,35 @@ jQuery(document).ready(function () {
         autoplay: false,
         autoplaySpeed: 5000
     });
+
+    $('.video-center').slick({
+        speed: 750,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        infinite: true,
+        dots: false,
+        prevArrow: '<div class="arrow arrow-left"></div>',
+        nextArrow: '<div class="arrow arrow-right"></div>',
+        arrows: true,
+        centerMode: true,
+        draggable: true,
+        centerPadding: '24px',
+        responsive: [
+          {
+            breakpoint: 1025,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 786,
+            settings: {
+              slidesToShow: 1,
+            }
+          },
+        ]
+      });
 
     var $form = $('form#pitanje-strucnjacima'),
     url = 'https://script.google.com/macros/s/AKfycbw5UMTk2_4IMikXgHUcJ9nasjRDNgJRTb-07oQ14VAZZCK9MfeDHgBeZz1zDy17Ay8_gw/exec'

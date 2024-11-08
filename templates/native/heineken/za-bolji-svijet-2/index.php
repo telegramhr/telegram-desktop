@@ -15,12 +15,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <?php wp_head(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo $native_path ?>img/aos.js"></script>
-    <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.13" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.13" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.15" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.26" type="text/css" />
     <script src="<?php echo $native_path ?>slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick-theme.css" type="text/css" />
-    <script src="<?php echo $native_path ?>function.js?ver=1.13"></script>
+    <script src="<?php echo $native_path ?>function.js?ver=1.14"></script>
     <!-- Fonts -------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,15 +31,19 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <div class="main-container flex relative">
         <!-- Mobile Bottom Sticky Nav -->
         <nav class="full bottom-nav mobile-only flex relative">
-            <a href="#drustvo" class="third center relative">
+            <a href="#odrastanje" class="fourth center relative">
+                <?php echo file_get_contents($native_path . 'img/hands-holding-child.svg'); ?>
+                <div class="full center-text">Odgovorno <br>odrastanje</div>
+            </a>
+            <a href="#drustvo" class="fourth center relative">
                 <?php echo file_get_contents($native_path . 'img/people-group-solid.svg'); ?>
                 <div class="full center-text">Pomozi <br>društvu</div>
             </a>
-            <a href="#umjerenost" class="third center relative">
+            <a href="#umjerenost" class="fourth center relative">
                 <?php echo file_get_contents($native_path . 'img/shield-heart-solid.svg'); ?>
                 <div class="full center-text">Umjerenost <br>je cool</div>
             </a>
-            <a href="#okolis" class="third center relative">
+            <a href="#okolis" class="fourth center relative">
                 <?php echo file_get_contents($native_path . 'img/leaf-solid.svg'); ?>
                 <div class="full center-text">Zaštita <br>okoliša</div>
             </a>
@@ -49,6 +53,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container horizontal-pad flex relative">
                 <div class="center relative text-logo"><img src="<?php echo $native_path ?>img/za-bolji-svijet-logo.svg" alt="Za bolji svijet logo"></div>
                 <div class="center relative desktop-only">
+                <a href="#odrastanje" class="center relative animate">
+                        <?php echo file_get_contents($native_path . 'img/hands-holding-child.svg'); ?>
+                        <div class="full center-text">Za odgovorno odrastanje</div>
+                    </a>
                     <a href="#drustvo" class="center relative animate">
                         <?php echo file_get_contents($native_path . 'img/people-group-solid.svg'); ?>
                         <div class="full center-text">Pomozi društvu</div>
@@ -64,39 +72,159 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </nav>
-        <!-- Hero Video -->
-        <header class="full center relative hero-video green-bg">
-            <video autoplay loop muted playsinline class="background-video bg-transparent">
-                <source src="<?php echo $native_path ?>img/tg_videobg_gentle_flowers.webm?v=2.00" type="video/webm">
-                <source src="<?php echo $native_path ?>img/tg_videobg_gentle_flowers.mp4?v=2.00" type="video/mp4">
-            </video>
-            <div class="container flex relative horizontal-pad stretch">
-                <div class="half flex-responsive flex relative">
-                    <h1 class="full">Postavite pitanje stručnjacima</h1>
-                    <p class="full header-text-container">
-                    Pozivamo roditelje tinejdžera da potpuno anonimno s nama podijele s kojim se izazovima susreću na temu mentalnog zdravlja i maloljetničke konzumacije alkohola. Na pitanja koja ovdje postavite odgovarat će stručnjaci, a izazovi koje s nama podijelite omogućit će nam stvaranje relevantnog informativnog sadržaja usmjerenog upravo prema rješavanju vaših briga.
-                    </p>
-                    <p class="full header-text-container margin-top">
-                    Na ovaj način želimo potaknuti dijalog o ključnim temama unutar zajednice i pružiti vam podršku u odgoju. Sudjelujte u anonimnoj anketi jer vaše mišljenje igra ključnu ulogu u oblikovanju informacija koje pripremamo u suradnji sa stručnjacima i koje ćemo uskoro s vama podijeliti.
-                    </p>
+        <!-- odrastanje -->
+        <section class="full flex relative" id="odrastanje">
+            <div class="full flex relative">
+                <div class="full center relative horizontal-pad bg-odstrastanje">
+                    <div class="half center relative horizontal-pad flex-responsive">
+                        <h1 class="full caps"><strong>Za odgovorno</strong> <br>odrastanje</h1>
+                    </div>
+                    <div class="half flex-responsive flex-end center desktop-only">
+                        <img class = "third " src="<?php echo $native_path . 'img/guys.png'; ?>" alt="Grey Placeholder">
+                        <img class = "third " src="<?php echo $native_path . 'img/chat.png'; ?>" alt="Grey Placeholder">
+                        <img class = "third " src="<?php echo $native_path . 'img/red-chat.png'; ?>" alt="Grey Placeholder">
+                    </div>
                 </div>
-                <div class="half flex-responsive center flex-end relative header-form-parent">
-                    <!--<form class="header-form relative" id="pitanje-strucnjacima">
-                        <img src="<?php echo $native_path ?>/img/text_bubble.png" aria-hidden="true" class="form-text-bubble hide-later">
-                        <img src="<?php echo $native_path ?>/img/cross.png" aria-hidden="true" class="form-cross hide-later">
-                        <textarea placeholder="Upišite svoje pitanje" class="hide-later" id="pitanje"></textarea>
-                        <div class="full center hide-later"><div class="flex new-btn relative" id="submit-form"><div>Postavite pitanje</div></div></div>
-                        <div class="full center-text hide" id="header-form-success">Hvala, vaše pitanje smo spremili.</div>
-                    </form>-->
+                <section class="full center relative intro no-pad-top margin-bot">
+                    <div class="container relative center horizontal-pad">
+                        <div class="two-thirds flex-responsive flex green-corners">
+                            <p class="full header-text-container center-text">
+                                U suradnji s HEINEKENOM Hrvatska prikupili smo pitanja čitatelja-roditelja te osmislili sadržaj koji odgovara na neke od velikih izazova roditeljstva. Kroz serijal podcasta i članaka, dotaknuli smo se najčešćih briga i problema roditelja adolescenata koje su podijelili s nama, a sav smo sadržaj napravili u suradnji s psihologinjama i psihoterapeutkinjama Tanjom Dejanović Šagadin i Marijom Berzati. 
+                            </p>
+                            <p class="full header-text-container margin-top center-text">
+                                U nastavku saznajte kako voditi otvorene razgovore s tinejdžerima o važnim temama poput pritiska vršnjaka, prvih izlazaka i važnosti nulte tolerancije prema alkoholu!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <div class="full center relative">
+                    <!-- <div class="prev slick-arrow clickable center relative">
+                        <img src="<?php echo $native_path ?>/img/prev.svg" aria-hidden="true" class="img-fluid">
+                    </div> -->
+                    <div class="full flex stretch mobile-slider">
+                        <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/sa-psihologinjom-smo-sastavili-kviz-za-roditelje-o-maloljetnickoj-konzumaciji-alkohola-koliko-tocnih-odgovora-imate/" target="_blank">
+                                <img class="shoo-bottom full" src="https://images.telegram.hr/__t3ecna58nZfls0g1JwblnoQXhN30LKFNH9skTYShI/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDQvMTIzLmpwZw.jpg">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text">Sa psihologinjom smo sastavili kviz za roditelje o maloljetničkoj konzumaciji alkohola. Koliko točnih odgovora imate? </h2>
+                                    <div class=" flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/roditelji-su-nam-otkrili-kako-se-brinu-o-mentalnom-zdravlju-djece-neki-su-nas-odgovori-bas-iznenadili/" target="_blank">
+                                <img class="shoo-bottom full" src="https://images.telegram.hr/QBcUXf-oGY6NQ6i284QlH6mWWoUIpU5Yb8Yffhz2qds/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDUvc29tZS10YWxlLWVpYW5sdzVuZWFtLXVuc3BsYXNoLmpwZw.jpg">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text">Roditelji su nam otkrili kako brinu o mentalnom zdravlju djece. Neki su nas odgovori baš iznenadili</h2>
+                                    <div class=" flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="" target="_blank">
+                                <img class="shoo-bottom full" src="">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text">36. Dani piva u znaku odlične zabave, ali i odgovorne konzumacije</h2>
+                                    <div class=" flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div> -->
+                    </div>
+                    <!-- <div class="next slick-arrow clickable center relative">
+                        <img src="<?php echo $native_path ?>/img/next.svg" aria-hidden="true" class="img-fluid">
+                    </div> -->
                 </div>
             </div>
-        </header>
-        <section class="full flex relative" id="okolis">
+        </section>
+        <!-- podcast info-->
+        <section class="full flex relative podcast-info shoo-bottom">
+            <div class="full relative center gray-bg little-pad-me">
+                <a class="fifth flex-responsive center shoo-left-right" href = "https://www.youtube.com/@TelegramhrVideo/videos" target = "_blank">
+                    <img class = "full"src="<?php echo $native_path . 'img/podcast.png'; ?>" alt="">
+                </a>
+                <div class="half flex-responsive flex">
+                    <h1 class="full"><strong>Poslušajte podcast </strong></h1>
+                    <h1 class="full">Za odgovorno odrastanje</h1>
+                    <p class="full podcast-text-container">
+                    Pritisak vršnjaka, prvi izlasci, brojne su stvari o kojima roditelji trebaju razmišljati kada je riječ o adolescenciji njihova djeteta. Upravo zbog toga, kako bismo podigli svijest o važnosti nulte tolerancije alkohola kod maloljetnika, ali i odgovorne konzumacije kod punoljetnih adolescenata, uz podršku HEINEKENA Hrvatska, kreirali smo podcast i okupili stručnjake iz područja adolescentske psihologije.
+                    </p>
+                </div>
+                <a class="thirty flex-responsive flex flex-end" href = "https://www.youtube.com/@TelegramhrVideo/videos" target = "_blank" >
+                    <img class = "full" src="<?php echo $native_path . 'img/swing.png'; ?>" alt="Grey Placeholder">
+                </a>
+            </div>
+        </section>
+        <!-- Youtube / Odgovore -->
+        <section class="full flex relative shoo-bottom" id="">
+            <div class="full center relative center-wrap">
+                <div class="full center relative horizontal-pad">
+                    <div class="full center-text teaser-element"><strong>Pogledajte odgovore</strong> na vaša pitanja</div>
+                </div>
+                <div class="full flex relative stretch video-center">
+                    <div class="full center flex-responsive horizontal-pad yt-embed">
+                        <iframe class = "yt-embed" src="https://www.youtube-nocookie.com/embed/CfwmTSGRXmg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="full flex relative flex-responsive horizontal-pad">
+                        <iframe class = "yt-embed" src="https://www.youtube.com/embed/vlW4J5ke2Tk" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <!-- <div class="full flex relative flex-responsive horizontal-pad">
+                        <iframe class = "yt-embed" src="https://www.youtube.com/watch?v=CfwmTSGRXmg" frameborder="0" allowfullscreen></iframe>
+                    </div> -->
+                    <div class="full center flex-responsive horizontal-pad">
+                        <iframe class = "yt-embed" src="https://www.youtube-nocookie.com/embed/CfwmTSGRXmg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="full flex relative flex-responsive horizontal-pad">
+                        <iframe class = "yt-embed" src="https://www.youtube.com/embed/vlW4J5ke2Tk" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <!-- <div class="full flex relative flex-responsive horizontal-pad">
+                        <iframe class = "yt-embed" src="https://www.youtube.com/watch?v=CfwmTSGRXmg" frameborder="0" allowfullscreen></iframe>
+                    </div>      -->
+                </div>
+            </div>
+        </section>
+        <!-- articles / odgovore -->
+        <section class="full flex relative shoo-top" id="">
             <div class="full flex relative">
                 <div class="full center relative horizontal-pad">
-                    <div class="full center teaser-element">Uskoro za odgovorno odrastanje donosimo savjete i odgovore stručnjaka...</div>
+                    <div class="full center-text teaser-element"><strong>Pročitajte odgovore stručnjaka</strong> na aktualne teme</div>
                 </div>
-            </div>
+                <div class="full center relative">
+                    <!-- <div class="prev slick-arrow clickable center relative">
+                        <img src="<?php echo $native_path ?>/img/prev.svg" aria-hidden="true" class="img-fluid">
+                    </div> -->
+                    <div class="full flex stretch mobile-slider">
+                        <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank">
+                                <img class="full" src="https://images.telegram.hr/17F6biuQkRcDAUqU18UtZ3kR6BhP6sPRKQbkcVugaCk/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDYvdGctcG9kY2FzdC0xLTEucG5n.jpg">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text green-square no-bord">Ako ste roditelj i ne znate kako biste razgovarali sa svojim tinejdžerom, ovo bi vas moglo zanimati</h2>
+                                    <div class="negative-margin flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/o-izazovima-s-tinejdzerima-s-poznatom-psihologinjom-roditelji-cesto-zadaju-pravila-i-onda-naprave-kljucnu-gresku/" target="_blank">
+                                <img class="full" src="https://images.telegram.hr/w8rsFMQJtiviRqk9iRBpyzoeGHEfWaeF0lkuwMIbOS4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDkvdGctcG9kY2FzdC1zdG8tYWtvLWRpamV0ZS1wcmVrcnNpLWRvZ292b3IucG5n.jpg">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text green-square no-bord">O izazovima s tinejdžerima s poznatom psihologinjom: Roditelji često zadaju pravila i onda naprave ključnu grešku</h2>
+                                    <div class="negative-margin flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="" target="_blank">
+                                <img class="full" src="">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text green-square no-bord">36. Dani piva u znaku odlične zabave, ali i odgovorne konzumacije</h2>
+                                    <div class="negative-margin flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div> -->
+                    </div>
+                    <!-- <div class="next slick-arrow clickable center relative">
+                        <img src="<?php echo $native_path ?>/img/next.svg" aria-hidden="true" class="img-fluid">
+                    </div> -->
+                </div>
         </section>
         <!-- Hero Video -->
         <section class="full center relative green-bg intro">
