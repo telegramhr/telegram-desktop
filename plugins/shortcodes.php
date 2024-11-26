@@ -5,7 +5,7 @@ class Telegram_Shortcodes {
 		//add_action( 'admin_init', array( $this, 'action_admin_init' ) );
 		add_shortcode( 'quote_box', array( $this, 'quote_box' ) );
 		add_shortcode( 'small_video_box', array( $this, 'small_video_box' ) );
-		add_shortcode( 'compare_box', array( $this, 'compare_box' ) );
+		//add_shortcode( 'compare_box', array( $this, 'compare_box' ) );
 		add_shortcode('telegram_video', array( $this, 'video'));
 		add_shortcode('okvir', array( $this, 'okvir'));
 		add_shortcode('galerija', [$this,'telegram_galerija']);

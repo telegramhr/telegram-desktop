@@ -136,22 +136,24 @@ class Telegram_Command extends WP_CLI_Command {
 	}
 
 	function us_elections() {
+        // https://feeds-elections.foxnews.com/archive/politics/elections/2024/3/2024_Generals/President/national_level_results/file.json?cb=1730819980000
+
 		$states = ['DC', 'VT', 'MA', 'HI', 'NY', 'MD', 'CA', 'RI', 'DE', 'WA', 'CT', 'NJ', 'OR', 'IL', 'NM', 'CO', 'VA', 'ME', 'NH', 'MI', 'WI', 'MN','NV', 'PA', 'AZ', 'FL', 'NC', 'GA', 'IA', 'OH', 'TX', 'MT', 'SC', 'AK', 'MO', 'IN', 'KS', 'MS', 'UT', 'SD', 'TN', 'NE', 'KY', 'LA', 'AL', 'ND', 'ID', 'AR', 'OK', 'WV', 'WY'];
 		$results = [];
 		foreach ($states as $state) {
-			$url = 'https://politics-elex-results.data.api.cnn.io/results/view/2020-PG-'.$state.'.json';
+			$url = 'https://politics.api.cnn.io/results/race/2024-PG-'.$state.'.json';
 			$data = wp_remote_get($url);
 			$data = json_decode($data['body'], true);
 			$biden = [];
 			$trump = [];
 			foreach ($data['candidates'] as $candidate) {
-				if ($candidate['candidateId'] === 1036) {
+				if ($candidate['candidateId'] === 64984) {
 					$temp_winner=false;
 					if ($candidate['winner']) {
 						$temp_winner=true;
 					}
 					$biden = [
-						'totalDelegates' => $candidate['totalDelegates'],
+						'totalDelegates' => $candidate['electoralVotes']['votes'],
 						'voteNum' => $candidate['voteNum'],
 						'votePercent' => $candidate['votePercentNum'],
 						'winner' => $temp_winner,
@@ -163,7 +165,7 @@ class Telegram_Command extends WP_CLI_Command {
 						$temp_winner=true;
 					}
 					$trump = [
-						'totalDelegates' => $candidate['totalDelegates'],
+						'totalDelegates' => $candidate['electoralVotes']['votes'],
 						'voteNum' => $candidate['voteNum'],
 						'votePercent' => $candidate['votePercentNum'],
 						'winner' => $temp_winner,
@@ -173,13 +175,13 @@ class Telegram_Command extends WP_CLI_Command {
 			$results[$state] = [
 				'percentReporting' => $data['percentReporting'],
 				'totalVote' => $data['totalVote'],
-				'biden' => $biden,
+				'haris' => $biden,
 				'trump' => $trump
 			];
 		}
 
 		$results['lastUpdate'] = date('U');
-
+        var_dump($results);
 		update_option('us_elections', $results);
 	}
 

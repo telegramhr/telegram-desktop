@@ -197,7 +197,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246])) {
+                if (in_array($id, [1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246, 2355120, 2373566])) {
                     $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
@@ -452,7 +452,8 @@ function super1_unautop_4_img( $content )
                 if ($blog_id !== 1) {
                     restore_current_blog();
                 }
-                $link = str_replace('src=', 'loading="lazy" src=', $m[1]);
+                //$link = str_replace('src=', 'loading="lazy" src=', $m[1]);
+                $link = $m[1];
                 if ( $photo ) {
                     return '<figure class="wp-block-image wp-caption">' . $link . '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>';
                 }
