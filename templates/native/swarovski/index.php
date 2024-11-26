@@ -152,7 +152,7 @@ background: linear-gradient(180deg, rgba(24,23,22,1) 0%, rgba(19,18,18,1) 100%);
              <p style="color:#fff; padding-top: 100px;" ><img src="<?php echo $native_path ?>/assets/images/ivana-vukusic.svg"/>
               <br/><br/>
               "Kad su u pitanju izlasci, Ivana je opušten tip osobe, vodi se onom go with the flow. “Mislim da je bolje manje očekivati, nekako tada uvijek ispadne najbolje. Zato ni ne volim planirati doček Nove godine. Od srednje sam samo dva puta planirala i uvijek je bilo najbezveznije. Kad pustim da ide svojim tijekom, onda bude super. Ono, mora nam biti dobro – ne, ne mora. Štoviše, ni neće."<br/><br/>
-              <a href="#https://www.telegram.hr/super1/life/ivana-vukusic-voli-sljokice-i-nosi-bordo-boju-ovo-su-njezini-must-have-komadi-za-docek-nove/ target="_blank" style="font-size:18px !important; font-weight:600 !important">Više pročitajte ovdje</a>
+              <a href="https://www.telegram.hr/super1/life/ivana-vukusic-voli-sljokice-i-nosi-bordo-boju-ovo-su-njezini-must-have-komadi-za-docek-nove/" target="_blank" style="font-size:18px !important; font-weight:600 !important">Više pročitajte ovdje</a>
               </p>
           </div>
           <div class="col-lg-1">
