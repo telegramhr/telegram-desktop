@@ -7,7 +7,7 @@
     // this way we only need to change in one place
     $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/bavaria';
     // use this for versioning, to avoid cache problems
-    $version = 1;
+    $version = 2;
 ?>
 
 <head>
@@ -55,7 +55,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=020112024-2">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=<?php echo $version; ?>">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 </head>
