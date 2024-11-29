@@ -230,7 +230,7 @@
                         <label for="pravila">Upoznat/a sam i prihvaćam <a href="https://www.telegram.hr/promo/pravila-nagradnog-natjecaja-ozbiljno-dobra-prica/" target="_blank" style="color:#64c0eb; font-weight: 600;">pravila nagradnog natječaja</a></label>
                     </div>
 
-                    <button class="border-first-button"  type="submit">Pošalji</button>
+                    <button class="border-first-button"  type="submit" id="submit-form">Pošalji</button>
                 </form>
                  <div id="submitted" style="display: none;">
                      <h2>Hvala na prijavi</h2>
