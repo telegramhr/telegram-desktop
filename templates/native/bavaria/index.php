@@ -208,7 +208,7 @@
              <div class="col-lg-6 offset-lg-3  text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                 <form action="#" method="post" id="test-form">
                     <label for="ime-prezime">Ime i prezime:</label>
-                    <input type="text" id="ime-prezime" name="ime-prezime" required>
+                    <input type="text" id="ime-prezime" name="ime" required>
 
                     <label for="mobitel">Mobitel:</label>
                     <input type="tel" id="mobitel" name="mobitel" placeholder="+385123456789" required>
