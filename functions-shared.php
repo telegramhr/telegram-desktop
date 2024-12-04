@@ -703,7 +703,7 @@ function telegram_content($content) {
 add_filter( 'zoninator_recent_posts_args', 'telegram_zoninator_recent_posts_args', 10, 1);
 
 function telegram_zoninator_recent_posts_args($args) {
-    $args['post_status'] = 'publish';
+    $args['post_status'] = ['publish'];
 
     return $args;
 }
