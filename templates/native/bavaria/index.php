@@ -154,7 +154,7 @@
             <div class="sticky-top">
              <h1 class="headlineclanka">Marko Ćaćić, barber</h1>
              <p>U drugoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavaria pivo s genijalnim barberom koji je od djetinjstva znao da želi biti frizer unatoč predrasudama, a danas vodi najpoznatiji brend barber shopova u Hrvatskoj</p>
-             <a href="#"><button class="border-first-button">Uskoro dolazi</button></a>
+             <a href="https://www.telegram.hr/partneri/marko-je-naucio-sisati-u-maminom-salonu-sminkati-na-filmskim-setovima-a-danas-vodi-pravo-malo-poslovno-carstvo/"><button class="border-first-button">Pročitaj više</button></a>
             </div>
           </div>
           <div class="col-lg-1 order-lg-4">
