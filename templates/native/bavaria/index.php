@@ -96,7 +96,7 @@
   <div class="container text-center">
       <div class="row">
           <div class="col-lg-10 offset-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-             <p class="text-center" style="color:#fff;">Puno je trenutaka u životu koje ga čine slatkim, ali najbolji su oni koje podijelimo s prijateljima. Bez obzira na veličinu izazova, briga ili uspjeha, podijeliti ih s frendom na piću sve vraća na svoje mjesto. Bavaria i Telegram donose vam priče pojedinaca čije su gorko-slatke avanture uistinu inspirativne, ali ono što ih čini ozbiljno dobrom pričom upravo je uloga njihovih prijatelja.<br/><br/>Ozbiljno dobre priče već sedam generacija nastaju uz Bavariu koja nas poziva da značajne trenutke podijelimo sa svojim prijateljima uz čašu hladnog piva.
+             <p class="text-center" style="color:#fff;">Puno je trenutaka u životu koje ga čine slatkim, ali najbolji su oni koje podijelimo s prijateljima. Bez obzira na veličinu izazova, briga ili uspjeha, podijeliti ih s frendom na piću sve vraća na svoje mjesto. Bavaria pivo i Telegram donose vam priče pojedinaca čije su gorko-slatke avanture uistinu inspirativne, ali ono što ih čini ozbiljno dobrom pričom upravo je uloga njihovih prijatelja.<br/><br/>Ozbiljno dobre priče već sedam generacija nastaju uz Bavaria pivo koja nas poziva da značajne trenutke podijelimo sa svojim prijateljima uz čašu hladnog piva.
               </p>
               <h3 style="font-weight:600; color:#fff; padding-top:50px">RAZGOVARAJ S FRENDOM DOK PIJETE BAVARIA PIVO</h3>
           </div>
