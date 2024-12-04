@@ -7,7 +7,7 @@
     // this way we only need to change in one place
     $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/bavaria';
     // use this for versioning, to avoid cache problems
-    $version = 2;
+    $version = 3;
 ?>
 
 <head>
@@ -30,18 +30,18 @@
 
         .rotacija { -webkit-animation: rotiranje 7s linear 0s infinite; animation: rotiranje 7s linear 0s infinite; }
 
-        @-webkit-keyframes rotiranje { 0% { -webkit-transform: rotate(0deg) } 100% { -webkit-transform:rotate(360deg); } }
-        @keyframes rotiranje { 0% { transform: rotate(0deg) } 100% { transform:rotate(360deg); } }
+    @-webkit-keyframes rotiranje { 0% { -webkit-transform: rotate(0deg) } 100% { -webkit-transform:rotate(360deg); } }
+    @keyframes rotiranje { 0% { transform: rotate(0deg) } 100% { transform:rotate(360deg); } }
 
 
-        .pumpanje { -webkit-animation: pump 2s ease-in-out 0s infinite; animation: pump 2s ease-in-out 0s infinite; }
+      .pumpanje { -webkit-animation: pump 2s ease-in-out 0s infinite; animation: pump 2s ease-in-out 0s infinite; }
 
-        @-webkit-keyframes pump { 0% { margin-tpp:0px } 50% {margin-top: 5px} 100% { margin-top:0px; } }
-        @keyframes pump { 0% { margin-tpp:0px } 50% {margin-top: 5px} 100% { margin-top:0px; } }
+    @-webkit-keyframes pump { 0% { margin-tpp:0px } 50% {margin-top: 5px} 100% { margin-top:0px; } }
+    @keyframes pump { 0% { margin-tpp:0px } 50% {margin-top: 5px} 100% { margin-top:0px; } }
 
-    </style>
+  </style>
 
-    <link rel="stylesheet" href="https://use.typekit.net/ntk0fcy.css">
+<link rel="stylesheet" href="https://use.typekit.net/ntk0fcy.css">
     <style>
         /* Definiraj osnovni container */
         #myContainer {
@@ -55,7 +55,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=<?php echo $version; ?>">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=020112024-2">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 </head>
@@ -98,7 +98,7 @@
           <div class="col-lg-10 offset-lg-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
              <p class="text-center" style="color:#fff;">Puno je trenutaka u životu koje ga čine slatkim, ali najbolji su oni koje podijelimo s prijateljima. Bez obzira na veličinu izazova, briga ili uspjeha, podijeliti ih s frendom na piću sve vraća na svoje mjesto. Bavaria i Telegram donose vam priče pojedinaca čije su gorko-slatke avanture uistinu inspirativne, ali ono što ih čini ozbiljno dobrom pričom upravo je uloga njihovih prijatelja.<br/><br/>Ozbiljno dobre priče već sedam generacija nastaju uz Bavariu koja nas poziva da značajne trenutke podijelimo sa svojim prijateljima uz čašu hladnog piva.
               </p>
-              <h3 style="font-weight:600; color:#fff; padding-top:50px">RAZGOVARAJ S FRENDOM DOK PIJETE BAVARIU</h3>
+              <h3 style="font-weight:600; color:#fff; padding-top:50px">RAZGOVARAJ S FRENDOM DOK PIJETE BAVARIA PIVO</h3>
           </div>
         </div>
         <div class="row" style="margin-top: 100px;">
@@ -131,7 +131,7 @@
           <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
             <div class="sticky-top">
              <h1 class="headlineclanka">Dominik Bečvardi, barmen</h1>
-             <p>U prvoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavariu s poznatim hrvatskim barmenom koji je usred korone nazvao frenda i rekao da je došao taj trenutak – da pokrenu svoj biznis koji će u tek par godina poznati najpoznatijim koktel barom u Zagrebu</p>
+             <p>U prvoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavaria pivo s poznatim hrvatskim barmenom koji je usred korone nazvao frenda i rekao da je došao taj trenutak – da pokrenu svoj biznis koji će u tek par godina poznati najpoznatijim koktel barom u Zagrebu</p>
              <a href="https://www.telegram.hr/partneri/radio-je-u-michelin-restoranima-dozivio-burnout-pa-s-frendom-sve-ulozio-u-genijalni-koktel-bar-na-tresnjevci/" target="_blank"><button class="border-first-button">Pročitaj više</button></a>
             </div>
           </div>
@@ -153,7 +153,7 @@
           <div class="col-lg-4 order-lg-2 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
             <div class="sticky-top">
              <h1 class="headlineclanka">Marko Ćaćić, barber</h1>
-             <p>U drugoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavariu s genijalnim barberom koji je od djetinjstva znao da želi biti frizer unatoč predrasudama, a danas vodi najpoznatiji brend barber shopova u Hrvatskoj</p>
+             <p>U drugoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavaria pivo s genijalnim barberom koji je od djetinjstva znao da želi biti frizer unatoč predrasudama, a danas vodi najpoznatiji brend barber shopova u Hrvatskoj</p>
              <a href="#"><button class="border-first-button">Uskoro dolazi</button></a>
             </div>
           </div>
@@ -164,18 +164,18 @@
 </div>
 
 
-<div class="blog" id="tomislav" style="display: none;">
+<div class="blog" id="tomislav">
   <div class="container-fluid">
       <div class="row">
           <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
-            <img src="<?php echo $native_path ?>/assets/images/clanak.jpg" style="z-index:1 !important" />
+            <img src="<?php echo $native_path ?>/assets/images/clanak02.jpg" style="z-index:1 !important" />
           </div>
           <div class="col-lg-1">
           </div>
           <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
             <div class="sticky-top">
-             <h1 class="headlineclanka">Lorem ipsum dolores mit</h1>
-             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+             <h1 class="headlineclanka">Tomislav Može, fotograf</h1>
+             <p>U trećoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavaria pivo s poznatim hrvatskim fotografom koji je s 25 ljubav prema crtanju zamijenio fotografijom, upisao Akademiju u Zagrebu i postao jedan od najnagrađivanijih u regiji</p>
              <a href="#"><button class="border-first-button">Uskoro dolazi</button></a>
             </div>
           </div>
