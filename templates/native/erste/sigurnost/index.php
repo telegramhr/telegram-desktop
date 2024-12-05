@@ -166,6 +166,28 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative shoo-top" id="vodici">
             <div class="container flex relative">
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-je-teze-prepoznati-prijevare-na-internetu-rijesite-nas-kviz-i-doznajte-kolika-ste-meta-prevarantima/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/RvD7yVP6pF8AaZgv3lruS_Usie7I9mCV2gEYlltgb5Q/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDgvc2h1dHRlcnN0b2NrLTIzMjc0Mzc0OTcuanBn.webp">
+                    <div class="full flex">
+                        <h2 class="full">Sve je teže prepoznati prijevare na internetu. Riješite naš kviz i doznajte kolika ste meta prevarantima</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-vise-ljudi-placa-mobitelom-istrazili-smo-koliko-je-to-sigurno/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/DT3oDjVtXH1DgGP7ETwX04_t0U4M-YQ7quMnrihzGKU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMTEvc2h1dHRlcnN0b2NrLTI0MjQ2MDA0NTcuanBn.webp">
+                    <div class="full flex">
+                        <h2 class="full">Sve više ljudi plaća mobitelom. Istražili smo koliko je to sigurno</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/priblizava-nam-se-ultimativna-soping-sezona-zastitite-svoje-kartice-i-novac-na-vrijeme/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/ryFcSmuTPsyDeGqGHSRIKJ4Jt-s4ajL0Oks9qRZwECQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMTAvcHhsLTI1MTEyMi05NzA4MDQ5MC0xLmpwZw.webp">
+                    <div class="full flex">
+                        <h2 class="full">Približava nam se ultimativna šoping sezona. Zaštitite svoje kartice i novac na vrijeme</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+
                 <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-vise-ljudi-diljem-zemlje-placa-karticama-ali-ne-znaju-da-postoje-odredene-opasnosti-evo-kako-se-zastititi/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/528Ntp1ip1EAVvXZukPG9rgTt7ZAq5sc2RpXuKLnEo0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDYvcGV4ZWxzLXRpbWEtbWlyb3NobmljaGVua28tNTcwODIxNy5qcGc.webp">
                     <div class="full flex">
