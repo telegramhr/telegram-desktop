@@ -103,7 +103,7 @@
       <li><a href="#">TZ Makarska</a></li>
       <li><a href="#">TZ Rovinj</a></li>
       <li><a href="#">Dubrovnik Hotel Luxury Adriatic</a></li>
-      <li><a href="#">Flixbus</a></li>
+      <li><a href="#flixbus">Flixbus</a></li>
       <li><a href="#zagreb">Ledeni park i Advent Zrinjevac</a></li>
     </ul>
   </nav>
@@ -189,52 +189,54 @@
   <div class="container">
 
       <div class="row">
-          <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-             <a href="#"><img style="margin-top:50px;" src="<?php echo $native_path ?>/assets/images/adventska3.png" /></a>
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+            <p class="sticky-top">
+             <a href="#"><img src="<?php echo $native_path ?>/assets/images/adventska3.png" /></a>
+           </p>
           </div>
-          <div class="col-lg-8 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
               <div class="container">
                   <div class="row">
                     <div class="col-lg-12">
                       <h1 class="sakrij">Advent<br/>Zagrebačke županije</h1>
                     </div>
                   </div>
-                  <div class="row prikazi">
-                     <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                  <div class="row">
+                     <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                       <p>Čarolija Božića proteže se od Zaprešića, Samobora, Svete Nedelje, Vrbovca, Jastrebarskog do Velike Gorice i Ivanić grada. Program Zagrebačke županije ima dovoljno lokacija da cijele blagdane provedete u istoj regiji. Uživajte u adventu koji će oduševiti i velike i male. </p>
-                      <button class="border-first-button">Otkrij advent u Zagrebačkoj županiji</button>
+                      <a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><button class="border-first-button">Otkrij advent u Zagrebačkoj županiji</button></a>
+                      <a href="https://www.telegram.hr/super1/life/top-gastro-goodie-bag-prepun-je-neodoljivih-domacih-proizvoda-i-savrsen-je-poklon-pod-bor/" target="_blank"><button class="border-drugi-button">Otkrij jedinstvene poklone</button></a>
                      </div>
-                </div>
-                  <div class="row">
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zg1.png" alt="Image 1" data-target="img1">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zg2.png" alt="Image 1" data-target="img1">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zg3.png" alt="Image 1" data-target="img1">
-                    </div>
                   </div>
-                  <div class="row">
-                    <div class="col-lg-4 p-0 gallery">
-                        <img src="<?php echo $native_path ?>/assets/images/zg4.png" alt="Image 1" data-target="img1">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zg5.png" alt="Image 1" data-target="img1">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zg6.png" alt="Image 1" data-target="img1">
-                    </div>
-                  </div>
+
               </div>
           </div>
         </div>
-        <div class="row sakrij">
-             <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-              <p>Čarolija Božića proteže se od Zaprešića, Samobora, Svete Nedelje, Vrbovca, Jastrebarskog do Velike Gorice i Ivanić grada. Program Zagrebačke županije ima dovoljno lokacija da cijele blagdane provedete u istoj regiji. Uživajte u adventu koji će oduševiti i velike i male. </p>
-              <button class="border-first-button">Otkrij advent u Zagrebačkoj županiji</button>
-             </div>
+      </div>
+</div>
+
+<div class="blog" style="padding-bottom: 0; padding-top: 0;">
+  <div class="container-fluid">
+
+      <div class="row p-0">
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zag-zup/01.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zag-zup/02.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zag-zup/03.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zag-zup/04.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zag-zup/05.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zag-zup/06.jpg" />
+          </div>
         </div>
       </div>
 </div>
@@ -247,12 +249,12 @@
           <div class="scroll-section">
             <button class="scroll-button left-button">←</button>
             <div class="scroll-container">
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
               <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/v-gorica.png" /></a></div>
               <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/zapresic.png" /></a></div>
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
               <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/v-gorica.png" /></a></div>
               <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/zapresic.png" /></a></div>
             </div>
@@ -268,113 +270,160 @@
 <div id="osijek" class="blog" style="background: url('<?php echo $native_path ?>/assets/images/back.jpg'); background-size: 100% 100%;">
   <div class="container">
       <div class="row">
-          <div class="col-lg-4 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-             <img style="margin-top:50px;" src="<?php echo $native_path ?>/assets/images/adventska2.png" style="z-index:1 !important" />
+          <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+             <img src="<?php echo $native_path ?>/assets/images/adventska2.png" style="z-index:1 !important" />
           </div>
-          <div class="col-lg-8 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
               <div class="container">
                   <div class="row">
                     <div class="col-lg-12">
                       <h1 class="sakrij">Advent u Osijeku</h1>
                     </div>
                   </div>
-                  <div class="row prikazi">
-                     <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                  <div class="row">
+                     <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                       <p>Osijek već nosi naziv grada ‘po mjeri čovjeka’, a takav je i ovogodišnji program adventa. Na Trgu sv. Trojstva u srcu Tvrđe očekuje vas pregršt tradicionalnih zalogaja, a bogat glazbeni program zadovoljit će ljubitelje svih žanrova. Otkrijte Advent u Osijeku kroz gostoprimstvo srdačnih domaćina. </p>
-                      <button class="border-first-button">Otkrij advent u Osijeku</button>
+                      <a href="https://www.telegram.hr/native/otkrij-advent/" target="_blank"><button class="border-first-button">Otkrij advent u Osijeku</button></a>
                      </div>
                 </div>
-                  <div class="row">
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/os1.png" alt="Image 1" data-target="img7">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/os2.png" alt="Image 1" data-target="img8">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/os3.png" alt="Image 1" data-target="img9">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-4 p-0 gallery">
-                        <img src="<?php echo $native_path ?>/assets/images/os4.png" alt="Image 1" data-target="img10">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/os5.png" alt="Image 1" data-target="img11">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/os6.png" alt="Image 1" data-target="img12">
-                    </div>
-                  </div>
               </div>
           </div>
         </div>
-        <div class="row sakrij">
-             <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-              <p>Osijek već nosi naziv grada ‘po mjeri čovjeka’, a takav je i ovogodišnji program adventa. Na Trgu sv. Trojstva u srcu Tvrđe očekuje vas pregršt tradicionalnih zalogaja, a bogat glazbeni program zadovoljit će ljubitelje svih žanrova. Otkrijte Advent u Osijeku kroz gostoprimstvo srdačnih domaćina. </p>
-              <button class="border-first-button">Otkrij advent u Osijeku</button>
-             </div>
+
+      </div>
+</div>
+
+
+<div class="blog" style="padding-bottom: 0; padding-top: 0;">
+  <div class="container-fluid">
+
+      <div class="row p-0">
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/os/os01.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/os/os02.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/os/os03.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/os/os04.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/os/os05.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/os/os06.jpg" />
+          </div>
         </div>
       </div>
 </div>
+
 
 
 <div id="zagreb" class="blog" style="background: url('<?php echo $native_path ?>/assets/images/back2.png'); background-size: 100% 100%;">
   <div class="container">
 
       <div class="row">
-          <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-             <a href="#"><img style="margin-top:50px;" src="<?php echo $native_path ?>/assets/images/adventska1.png" /></a>
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+             <a href="#"><img src="<?php echo $native_path ?>/assets/images/adventska1.png" /></a>
           </div>
-          <div class="col-lg-8 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
               <div class="container">
                   <div class="row">
                     <div class="col-lg-12">
                       <h1 class="sakrij">Ledeni park i<br/>Advent Zrinjevac</h1>
                     </div>
                   </div>
-                  <div class="row prikazi">
-                       <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                  <div class="row">
+                       <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <p>Ledeni park na Trgu kralja Tomislava ove godine slavi jubilarnu 10. obljetnicu, a sve posjetitelje očekuje bogata ugostiteljska ponuda, novi suvenir shop te brojne kreativne radionice za djecu. Nakon klizanja uputite se na Zrinjevac gdje možete zaplesati uz čak dva koncerta uživo dnevno. </p>
                         <button class="border-first-button">Otkrij advent u Zagrebu</button>
                        </div>
                   </div>
-                  <div class="row">
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zag1.png" alt="Image 1" data-target="img13">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zag2.png" alt="Image 1" data-target="img14">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zag3.png" alt="Image 1" data-target="img15">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-4 p-0 gallery">
-                        <img src="<?php echo $native_path ?>/assets/images/zag4.png" alt="Image 1" data-target="img16">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zag5.png" alt="Image 1" data-target="img17">
-                    </div>
-                    <div class="col-lg-4 p-0 gallery">
-                          <img src="<?php echo $native_path ?>/assets/images/zag6.png" alt="Image 1" data-target="img18">
-                    </div>
-                  </div>
               </div>
           </div>
-        </div>
-        <div class="row sakrij">
-             <div class="col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-              <p>Ledeni park na Trgu kralja Tomislava ove godine slavi jubilarnu 10. obljetnicu, a sve posjetitelje očekuje bogata ugostiteljska ponuda, novi suvenir shop te brojne kreativne radionice za djecu. Nakon klizanja uputite se na Zrinjevac gdje možete zaplesati uz čak dva koncerta uživo dnevno. </p>
-              <button class="border-first-button">Otkrij advent u Zagrebu</button>
-             </div>
         </div>
       </div>
 </div>
 
 
-  <div id="clanci" class="blog" style="z-index: 1; position: relative; padding-top: 0px; padding-bottom: 120px; overflow: hidden; background: url('<?php echo $native_path ?>/assets/images/back.jpg'); background-size: 100% 100%;">
+<div class="blog" style="padding-bottom: 0; padding-top: 0;">
+  <div class="container-fluid">
+
+      <div class="row p-0">
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zg/01.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zg/02.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zg/03.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zg/04.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zg/05.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/zg/06.jpg" />
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<div id="flixbus" class="blog" style="background: url('<?php echo $native_path ?>/assets/images/back.jpg'); background-size: 100% 100%;">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+             <img src="<?php echo $native_path ?>/assets/images/flixbus.png" style="z-index:1 !important" />
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h1 class="sakrij">Flixbus</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <p>Do svakog čarobnog kutka Hrvatske otputovati možete bezbrižno uz Flixbus. Otkrijte advent uz široku ponudu brzih i pristupačnih putovanja za koje karte možete kupiti jednostavno i brzo putem aplikacije ili weba. Putovanje nikad nije bilo jednostavnije, a destinacije još bolje.  </p>
+                      <a href="https://www.telegram.hr/partneri/top-lista-lokacija-u-hrvatskoj-znamo-gdje-se-kriju-najsladi-bozicni-sajmovi-koje-ne-smijete-propustiti/" target="_blank"><button class="border-first-button">Najslađi Božićni sajmovi</button></a>
+                     </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+</div>
+
+
+<div class="blog" style="padding-bottom: 0; padding-top: 0;">
+  <div class="container-fluid">
+
+      <div class="row p-0">
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/flixbus/01.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/flixbus/02.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/flixbus/03.jpg" />
+          </div>
+
+        </div>
+      </div>
+</div>
+
+
+
+  <div id="clanci" class="blog" style="z-index: 1; position: relative; padding-bottom: 120px; overflow: hidden; background: url('<?php echo $native_path ?>/assets/images/back.jpg'); background-size: 100% 100%;">
 
 
     <div class="container-fluid wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">

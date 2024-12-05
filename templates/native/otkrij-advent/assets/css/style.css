@@ -657,6 +657,27 @@ text-transform: uppercase;
 
 }
 
+.border-drugi-button {
+
+  padding: 20px 72px !important;
+  margin: 0px 10px;
+  color: #fff !important;
+  background: #164982 !important;
+  border: 1px solid #164982 !important;
+  border-radius: 5px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  text-decoration: none !important;
+  margin-top: 20px !important;
+  text-align: center;
+  font-family: "Playfair Display", cursive;
+font-weight: 400;
+font-style: normal;
+text-transform: uppercase;
+
+}
+
     
         .gallery img {
             width: 100%;
