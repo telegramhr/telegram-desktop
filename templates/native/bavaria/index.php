@@ -214,7 +214,7 @@
                     <input type="tel" id="mobitel" name="mobitel" placeholder="+385123456789" required>
 
                     <label for="mail">E-mail:</label>
-                    <input type="tel" id="mail" name="mail" required>
+                    <input type="email" id="mail" name="mail" required>
 
                     <label for="adresa">Adresa (ulica i broj):</label>
                     <input type="text" id="adresa" name="adresa" required>
