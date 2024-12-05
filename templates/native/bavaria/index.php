@@ -168,14 +168,14 @@
   <div class="container-fluid">
       <div class="row">
           <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
-            <img src="<?php echo $native_path ?>/assets/images/clanak02.jpg" style="z-index:1 !important" />
+            <img src="<?php echo $native_path ?>/assets/images/clanak02.jpg?v=2" style="z-index:1 !important" />
           </div>
           <div class="col-lg-1">
           </div>
           <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
             <div class="sticky-top">
              <h1 class="headlineclanka">Tomislav Može, fotograf</h1>
-             <p>U trećoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavaria pivo s poznatim hrvatskim fotografom koji je s 25 ljubav prema crtanju zamijenio fotografijom, upisao Akademiju u Zagrebu i postao jedan od najnagrađivanijih u regiji</p>
+             <p>U trećoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavaria pivo s poznatim hrvatskim fotografom koji je s 25 ljubav prema crtanju zamijenio fotografijom, upisao Akademiju u Zagrebu i obišao svijet svojim radovima</p>
              <a href="#"><button class="border-first-button">Uskoro dolazi</button></a>
             </div>
           </div>
