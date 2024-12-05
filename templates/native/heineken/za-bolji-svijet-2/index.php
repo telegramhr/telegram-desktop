@@ -167,18 +167,18 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <div class="full flex relative flex-responsive horizontal-pad">
                         <iframe class = "yt-embed" src="https://www.youtube.com/embed/vlW4J5ke2Tk" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <!-- <div class="full flex relative flex-responsive horizontal-pad">
-                        <iframe class = "yt-embed" src="https://www.youtube.com/watch?v=CfwmTSGRXmg" frameborder="0" allowfullscreen></iframe>
-                    </div> -->
+                    <div class="full flex relative flex-responsive horizontal-pad">
+                        <iframe class = "yt-embed" src="https://www.youtube.com/embed/EUs6HKtlmYA" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <div class="full center flex-responsive horizontal-pad">
                         <iframe class = "yt-embed" src="https://www.youtube-nocookie.com/embed/CfwmTSGRXmg" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="full flex relative flex-responsive horizontal-pad">
                         <iframe class = "yt-embed" src="https://www.youtube.com/embed/vlW4J5ke2Tk" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <!-- <div class="full flex relative flex-responsive horizontal-pad">
-                        <iframe class = "yt-embed" src="https://www.youtube.com/watch?v=CfwmTSGRXmg" frameborder="0" allowfullscreen></iframe>
-                    </div>      -->
+                    <div class="full flex relative flex-responsive horizontal-pad">
+                        <iframe class = "yt-embed" src="https://www.youtube.com/embed/EUs6HKtlmYA" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </section>
@@ -207,6 +207,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <img class="full" src="https://images.telegram.hr/w8rsFMQJtiviRqk9iRBpyzoeGHEfWaeF0lkuwMIbOS4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDkvdGctcG9kY2FzdC1zdG8tYWtvLWRpamV0ZS1wcmVrcnNpLWRvZ292b3IucG5n.jpg">
                                 <div class="full center center-wrap">
                                     <h2 class="full center-text green-square no-bord">O izazovima s tinejdžerima s poznatom psihologinjom: Roditelji često zadaju pravila i onda naprave ključnu grešku</h2>
+                                    <div class="negative-margin flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/konzumacija-alkohola-u-mladoj-dobi-ostavlja-trajne-posljedice-razgovarajte-sa-svojom-djecom/" target="_blank">
+                                <img class="full" src="https://images.telegram.hr/CMUrmZxlsAN7Er-wflT-iMLq1F6kqaJJYvIWGDy_y5U/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMTEvMi5wbmc.webp">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text green-square no-bord">'Konzumacija alkohola u mlađoj dobi ostavlja trajne posljedice. Razgovarajte sa svojom djecom' </h2>
                                     <div class="negative-margin flex button-52">Pročitaj više...</div>
                                 </div>
                             </a>
