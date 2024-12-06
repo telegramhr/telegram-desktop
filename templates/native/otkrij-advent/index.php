@@ -14,10 +14,6 @@
 <head>
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_head(); ?>
-
-
-
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,7 +80,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052024">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052025">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 
@@ -103,7 +99,7 @@
       <li><a href="#">TZ Makarska</a></li>
       <li><a href="#">TZ Rovinj</a></li>
       <li><a href="#">Dubrovnik Hotel Luxury Adriatic</a></li>
-      <li><a href="#flixbus">Flixbus</a></li>
+      <li><a href="#flixbus">FlixBus</a></li>
       <li><a href="#zagreb">Ledeni park i Advent Zrinjevac</a></li>
     </ul>
   </nav>
@@ -251,7 +247,7 @@
             <div class="scroll-container">
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/v-gorica.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/donosimo-10-razloga-zasto-ovog-adventa-morate-posjetiti-veliku-goricu/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/v-gorica.png" /></a></div>
               <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/zapresic.png" /></a></div>
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
@@ -386,12 +382,12 @@
               <div class="container">
                   <div class="row">
                     <div class="col-lg-12">
-                      <h1 class="sakrij">Flixbus</h1>
+                      <h1 class="sakrij">FlixBus</h1>
                     </div>
                   </div>
                   <div class="row">
                      <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                      <p>Do svakog čarobnog kutka Hrvatske otputovati možete bezbrižno uz Flixbus. Otkrijte advent uz široku ponudu brzih i pristupačnih putovanja za koje karte možete kupiti jednostavno i brzo putem aplikacije ili weba. Putovanje nikad nije bilo jednostavnije, a destinacije još bolje.  </p>
+                      <p>Do svakog čarobnog kutka Hrvatske otputovati možete bezbrižno uz FlixBus. Otkrijte advent uz široku ponudu brzih i pristupačnih putovanja za koje karte možete kupiti jednostavno i brzo putem aplikacije ili weba. Putovanje nikad nije bilo jednostavnije, a destinacije još bolje.  </p>
                       <a href="https://www.telegram.hr/partneri/top-lista-lokacija-u-hrvatskoj-znamo-gdje-se-kriju-najsladi-bozicni-sajmovi-koje-ne-smijete-propustiti/" target="_blank"><button class="border-first-button">Najslađi Božićni sajmovi</button></a>
                      </div>
                 </div>
