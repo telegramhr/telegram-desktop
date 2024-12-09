@@ -200,7 +200,7 @@
                   <div class="row">
                      <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                       <p>Čarolija Božića proteže se od Zaprešića, Samobora, Svete Nedelje, Vrbovca, Jastrebarskog do Velike Gorice i Ivanić grada. Program Zagrebačke županije ima dovoljno lokacija da cijele blagdane provedete u istoj regiji. Uživajte u adventu koji će oduševiti i velike i male. </p>
-                      <a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><button class="border-first-button">Otkrij advent u Zagrebačkoj županiji</button></a>
+                      <a href="https://www.telegram.hr/partneri/u-okolici-zagreba-cak-12-mjesta-ima-odlicnu-adventsku-ponudu-evo-sto-vas-ocekuje/" target="_blank"><button class="border-first-button">Otkrij advent u Zagrebačkoj županiji</button></a>
                       <a href="https://www.telegram.hr/super1/life/top-gastro-goodie-bag-prepun-je-neodoljivih-domacih-proizvoda-i-savrsen-je-poklon-pod-bor/" target="_blank"><button class="border-drugi-button">Otkrij jedinstvene poklone</button></a>
                      </div>
                   </div>
@@ -279,7 +279,7 @@
                   <div class="row">
                      <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                       <p>Osijek već nosi naziv grada ‘po mjeri čovjeka’, a takav je i ovogodišnji program adventa. Na Trgu sv. Trojstva u srcu Tvrđe očekuje vas pregršt tradicionalnih zalogaja, a bogat glazbeni program zadovoljit će ljubitelje svih žanrova. Otkrijte Advent u Osijeku kroz gostoprimstvo srdačnih domaćina. </p>
-                      <a href="https://www.telegram.hr/native/otkrij-advent/" target="_blank"><button class="border-first-button">Otkrij advent u Osijeku</button></a>
+                      <a href="https://www.telegram.hr/partneri/ovaj-hrvatski-grad-ima-ozbiljno-dobar-advent-evo-zasto-biste-se-u-prosincu-trebali-zaputiti-u-slavoniju/" target="_blank"><button class="border-first-button">Otkrij advent u Osijeku</button></a>
                      </div>
                 </div>
               </div>

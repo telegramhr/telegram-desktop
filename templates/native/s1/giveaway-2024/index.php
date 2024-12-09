@@ -179,7 +179,7 @@
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
-  <script src="<?php echo $native_path ?>/assets/js/script.js?=new"></script>
+  <script src="<?php echo $native_path ?>/assets/js/script.js?v=2"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>
