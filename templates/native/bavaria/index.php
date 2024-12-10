@@ -176,7 +176,7 @@
             <div class="sticky-top">
              <h1 class="headlineclanka">Tomislav Može, fotograf</h1>
              <p>U trećoj epizodi serijala Ozbiljno dobra priča sjeli smo na Bavaria pivo s poznatim hrvatskim fotografom koji je s 25 ljubav prema crtanju zamijenio fotografijom, upisao Akademiju u Zagrebu i obišao svijet svojim radovima</p>
-             <a href="#"><button class="border-first-button">Uskoro dolazi</button></a>
+             <a href="https://www.telegram.hr/partneri/skolovao-se-za-stolara-na-bmx-u-izvodio-ludorije-a-kasnije-su-njegove-fotografije-obisle-gotovo-sve-zemlje-svijeta/"><button class="border-first-button">Pročitaj više</button></a>
             </div>
           </div>
           <div class="col-lg-1">
