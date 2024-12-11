@@ -206,55 +206,9 @@
         </div>
         <div class="row" style="margin-top: 100px;">
              <div class="col-lg-6 offset-lg-3  text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                <form action="#" method="post" id="test-form">
-                    <label for="ime-prezime">Ime i prezime:</label>
-                    <input type="text" id="ime-prezime" name="ime" required>
-
-                    <label for="mobitel">Mobitel:</label>
-                    <input type="tel" id="mobitel" name="mobitel" placeholder="+385123456789" required>
-
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="mail" required>
-
-                    <label for="adresa">Adresa (ulica i broj):</label>
-                    <input type="text" id="adresa" name="adresa" required>
-
-                    <label for="grad">Grad:</label>
-                    <input type="text" id="grad" name="grad" required>
-
-                    <label for="prica">Tvoja ozbiljno dobra priča:</label>
-                    <textarea id="prica" name="prica" rows="5" placeholder="Koji si veliki izazov ili uspjeh podijelio sa svojim frendom na pivi? Što te mučilo i kako ti je pomogao? Imate li neki genijalni projekt za koji bi svijet trebao znati? Ispričaj nam ..." required></textarea>
-
-                    <div class="checkbox-container">
-                        <input type="checkbox" id="pravila" name="pravila" required>
-                        <label for="pravila">Upoznat/a sam i prihvaćam <a href="https://www.telegram.hr/promo/pravila-nagradnog-natjecaja-ozbiljno-dobra-prica/" target="_blank" style="color:#64c0eb; font-weight: 600;">pravila nagradnog natječaja</a></label>
-                    </div>
-
-                    <button class="border-first-button"  type="submit" id="submit-form">Pošalji</button>
-                </form>
-                 <div id="submitted" style="display: none;">
-                     <h2>Hvala na prijavi</h2>
+                 <div id="submitted">
+                     <h2>Prijave su zatvorene</h2>
                  </div>
-                 <script src="<?php echo $native_path ?>/jquery.serialize-object.min.js"></script>
-                 <script>
-                     var $form = jQuery('form#test-form'),
-                         url = 'https://script.google.com/macros/s/AKfycbxrTuenn3mxBmpB7hTFRgrv8PdOx1Z4ABPwHFr163Pk-_uIYWaU12oGToxLbWXcexCW/exec'
-
-                     jQuery('#submit-form').on('click', function(e) {
-                         e.preventDefault();
-                         var jqxhr = jQuery.ajax({
-                             url: url,
-                             method: "GET",
-                             dataType: "json",
-                             data: $form.serializeObject()
-                         }).done(
-                             function(){
-                                 $('#test-form').hide();
-                                 $('#submitted').show();
-                             }
-                         );
-                     })
-                 </script>
             </div>
         </div>
       </div>
