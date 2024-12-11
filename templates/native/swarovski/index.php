@@ -202,10 +202,12 @@ background: linear-gradient(180deg, rgba(19,18,18,1) 0%, rgba(14,13,13,1) 100%);
           <div class="col-lg-1">
           </div>
           <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
-             <p style="color:#fff; padding-top: 100px;"><img src="<?php echo $native_path ?>/assets/images/mateja-sucevic.svg" class="comingsoon" />
+             <p style="color:#fff; padding-top: 100px;"><img src="<?php echo $native_path ?>/assets/images/mateja-sucevic.svg" />
               <br/><br/>
-              Coming soon
-              </p>
+                 Ističe da je dobra ekipa ključna za uspješan party. “Ako su mi tu ljudi koje volim i s kojima se osjećam ugodno, s dobrom glazbom i još boljim raspoloženjem, to je to, dobra atmosfera.” Tako i za nadolazeći doček Nove godine nema velebne planove, već je sve go with the flow. Sve ovisi, otkriva nam, o tome kako će se osjećati tih par dana prije samog dočeka ili koja ekipa će im doći u posjet.
+                 <a href="https://www.telegram.hr/super1/life/mateja-sucevic-definicija-je-casuala-dobar-nakit-podigne-svaku-kombinaciju-cak-i-onu-bezveznu/" target="_blank" style="font-size:18px !important; font-weight:600 !important">Više pročitajte ovdje</a>
+
+             </p>
           </div>
           <div class="col-lg-1">
           </div>
