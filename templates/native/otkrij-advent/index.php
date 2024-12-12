@@ -80,7 +80,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052025">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052025k">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 
@@ -97,8 +97,8 @@
       <li><a href="#zagrebacka-zupanija">TZ Zagrebačka županija</a></li>
       <li><a href="#osijek">TZ Osijek</a></li>
       <li><a href="#">TZ Makarska</a></li>
-      <li><a href="#">TZ Rovinj</a></li>
-      <li><a href="#">Dubrovnik Hotel Luxury Adriatic</a></li>
+      <li><a href="#rovinj">TZ Rovinj</a></li>
+      <li><a href="#dubrovnik">Dubrovnik Hotel Luxury Adriatic</a></li>
       <li><a href="#flixbus">FlixBus</a></li>
       <li><a href="#zagreb">Ledeni park i Advent Zrinjevac</a></li>
     </ul>
@@ -366,6 +366,107 @@
           </div>
           <div class="col-lg-4 p-0">
               <img src="<?php echo $native_path ?>/assets/images/zg/06.jpg" />
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<div id="rovinj" class="blog" style="background: url('<?php echo $native_path ?>/assets/images/back.jpg'); background-size: 100% 100%;">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+             <img src="<?php echo $native_path ?>/assets/images/rovinj.png" style="z-index:1 !important" />
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h1 class="sakrij">Advent u Rovinju</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <p>Doživite čaroliju blagdana na moru uz vrhunski program i gostoljubivost domaćina u Rovinju. Posjetite ukrašenu rivu, otkrijte što je to rovinjska batana te zaplešite uz brojne koncerte. Ako još uvijek nemate planove, doček 2025. uz more uvijek je dobra ideja, a u Rovinju Vas čeka koncert grupe Parni valjak. </p>
+                      <a href="https://www.telegram.hr/partneri/carolija-adventa-u-rovinju-glazbeni-spektakl-uz-vise-od-30-koncerata/" target="_blank"><button class="border-first-button">Otkrij advent u Rovinju</button></a>
+                     </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+</div>
+
+
+<div class="blog" style="padding-bottom: 0; padding-top: 0;">
+  <div class="container-fluid">
+
+      <div class="row p-0">
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/ro/01.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/ro/02.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/ro/03.jpg" />
+          </div>
+
+        </div>
+      </div>
+</div>
+
+
+
+<div id="dubrovnik" class="blog" style="background: url('<?php echo $native_path ?>/assets/images/back2.png'); background-size: 100% 100%;">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+             <img src="<?php echo $native_path ?>/assets/images/dubrovnik.png" style="z-index:1 !important" />
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h1 class="sakrij">Dubrovnik Hotel Luxury Adriatic </h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <p>Advent u Jadranskim luksuznim hotelima trajat će sve do 6. siječnja 2025. Za ovu prigodu, Hotel Excelsior i Hotel Dubrovnik Palace pripremili su bogat izbor slastica, slanih delicija, zimskih koktela i adventske kave, stvarajući savršen ugođaj za sve posjetitelje.</p>
+                      <a href="https://www.telegram.hr/partneri/advent-u-alh-jadranski-luksuzni-hoteli-najavljuju-adventski-program-u-dubrovackim-hotelima-excelsior-i-dubrovnik-palace/" target="_blank"><button class="border-first-button">Otkrij advent u Dubrovniku </button></a>
+                     </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+</div>
+
+
+<div class="blog" style="padding-bottom: 0; padding-top: 0;">
+  <div class="container-fluid">
+
+      <div class="row p-0">
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/du/01.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/du/02.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/du/03.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/du/04.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/du/05.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/du/06.jpg" />
           </div>
         </div>
       </div>
