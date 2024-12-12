@@ -98,7 +98,7 @@ function telegram_pre_get_posts($query) {
 	}
 
     if (is_feed()) {
-        $query->set('tag__not_in', [9893]);
+        // $query->set('tag__not_in', [9893]);
     }
 
     /*if (is_admin() && $query->is_main_query()) {

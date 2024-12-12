@@ -207,7 +207,15 @@
         <div class="row" style="margin-top: 100px;">
              <div class="col-lg-6 offset-lg-3  text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                  <div id="submitted">
-                     <h2>Prijave su zatvorene</h2>
+                     <h2>Sretni dobitnici</h2>
+                     <p>
+                         Toni Zlatunić, Obedišće<br>
+                         Ivan Laktašić, Petrinja<br>
+                         Petar Josipović, Mala Duba<br>
+                         Ivan Fratrić, Zagreb<br>
+                         Gordan Granić, Zagreb<br>
+                         Tin Krznarić, Kutina<br>
+                     </p>
                  </div>
             </div>
         </div>
