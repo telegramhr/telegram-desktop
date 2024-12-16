@@ -9,27 +9,21 @@
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
-
-
-<head>
-    <!-- this is required to load all the analytics and other scripts -->
-    <?php wp_head(); ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
-    <style type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+<style type="text/css">
 
         @-webkit-keyframes muving { 0% { bottom:0 } 50%{ bottom:15px } 100% { bottom:0px } }
-        @keyframes muving { 0% { bottom:0 } 50%{ bottom:15px } 100% { bottom:0px } }
+    @keyframes muving { 0% { bottom:0 } 50%{ bottom:15px } 100% { bottom:0px } }
 
 
-    </style>
+</style>
 
-    <link rel="stylesheet" href="https://use.typekit.net/ntk0fcy.css">
+<link rel="stylesheet" href="https://use.typekit.net/ntk0fcy.css">
     <style>
         /* Definiraj osnovni container */
         #myContainer {
@@ -42,34 +36,34 @@
 
         }
 
-        .snow {
-            z-index: 10;
-            width: 100%;
-            height: 100%;
-            display: block;
-            mix-blend-mode: screen;
-            position: fixed;
-            top: 0%;
-            bottom: 0%;
-            left: 0%;
-            right: 0%;
-            pointer-events: none;
-        }
+            .snow {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    mix-blend-mode: screen;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    pointer-events: none;
+  }
 
-        .w-background-video > video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -100;
-            background-position: 50%;
-            background-size: cover;
-            margin: auto;
-            position: absolute;
-            top: -100%;
-            bottom: -100%;
-            left: -100%;
-            right: -100%;
-        }
+  .w-background-video > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+    background-position: 50%;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+  }
 
     </style>
 
@@ -80,7 +74,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052025k">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052025kd">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 
@@ -248,11 +242,17 @@
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
               <div class="content-box"><a href="https://www.telegram.hr/partneri/donosimo-10-razloga-zasto-ovog-adventa-morate-posjetiti-veliku-goricu/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/v-gorica.png" /></a></div>
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/zapresic.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/na-30-minuta-od-zagreba-kriju-se-dva-grada-s-odlicnim-adventskim-programom-za-djecu-i-odrasle/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/ivanic.png" /></a></div>
+
+              <div class="content-box"><a href="https://www.telegram.hr/super1/life/imamo-super-ideje-za-badnjak-i-docek-nove-godine-na-novim-lokacijama-vidimo-se-na-jednoj-od-njih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/nova.png" /></a></div>
+
+
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/v-gorica.png" /></a></div>
-              <div class="content-box"><a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/zapresic.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/donosimo-10-razloga-zasto-ovog-adventa-morate-posjetiti-veliku-goricu/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/v-gorica.png" /></a></div>
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/na-30-minuta-od-zagreba-kriju-se-dva-grada-s-odlicnim-adventskim-programom-za-djecu-i-odrasle/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/ivanic.png" /></a></div>
+
+              <div class="content-box"><a href="https://www.telegram.hr/super1/life/imamo-super-ideje-za-badnjak-i-docek-nove-godine-na-novim-lokacijama-vidimo-se-na-jednoj-od-njih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/nova.png" /></a></div>
             </div>
             <button class="scroll-button right-button">→</button>
           </div>
