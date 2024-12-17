@@ -9,49 +9,49 @@ const modalButton = document.getElementById('resultButton');
 canvas.width = 300;
 canvas.height = 300;
 
+const url = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/s1/giveaway-2024/';
 // Definicija segmenata kola (svako polje ima sliku)
 const segments = [
-  { image: 'assets/images/img1.png', label: 'Opcija 1' },
-  { image: 'assets/images/img2.png', label: 'Opcija 2' },
-  { image: 'assets/images/img3.png', label: 'Opcija 3' },
-  { image: 'assets/images/img4.png', label: 'Opcija 4' },
-  { image: 'assets/images/img5.png', label: 'Opcija 5' },
-  { image: 'assets/images/img6.png', label: 'Opcija 6' },
-  { image: 'assets/images/img7.png', label: 'Opcija 7' },
-  { image: 'assets/images/img8.png', label: 'Opcija 8' },
-  { image: 'assets/images/img9.png', label: 'Opcija 9' },
-  { image: 'assets/images/img10.png', label: 'Opcija 10' },
+  { image: url + 'assets/images/img1.png', label: 'Opcija 1' },
+  { image: url + 'assets/images/img2.png', label: 'Opcija 2' },
+  { image: url + 'assets/images/img3.png', label: 'Opcija 3' },
+  { image: url + 'assets/images/img4.png', label: 'Opcija 4' },
+  { image: url + 'assets/images/img5.png', label: 'Opcija 5' },
+  { image: url + 'assets/images/img6.png', label: 'Opcija 6' },
+  { image: url + 'assets/images/img7.png', label: 'Opcija 7' },
+  { image: url + 'assets/images/img8.png', label: 'Opcija 8' },
+  { image: url + 'assets/images/img9.png', label: 'Opcija 9' },
+  { image: url + 'assets/images/img10.png', label: 'Opcija 10' },
 ];
 const anglePerSegment = (2 * Math.PI) / segments.length;
-
 // Pop-up sadržaji za različite datume
 const popupData = [
   {
     date: new Date('2024-12-05'),
     title: 'Fotelja',
     text: 'Ovo je tekst za razdoblje od 9. do 11. prosinca.',
-    image: 'assets/images/popup1.jpeg',
+    image: url + 'assets/images/popup1.jpeg',
     button: { text: 'Vodi me na natječaj', link: 'https://www.instagram.com/super1.hr/' }
   },
   {
     date: new Date('2024-12-07'),
     title: 'Ziaja',
     text: 'Ovo je tekst za razdoblje od 11. do 14. prosinca.',
-    image: 'assets/images/popup2.jpeg',
+    image: url + 'assets/images/popup2.jpeg',
     button: { text: 'Vodi me na natječaj', link: 'https://www.instagram.com/super1.hr/' }
   },
   {
     date: new Date('2024-12-17'),
     title: 'Merci',
     text: 'Ovo je tekst za razdoblje od 14. do 17. prosinca.',
-    image: 'assets/images/popup3.jpeg',
+    image: url + 'assets/images/popup3.jpeg',
     button: { text: 'Vodi me na natječaj', link: 'https://www.instagram.com/super1.hr/' }
   },
   {
     date: new Date('2024-12-14'),
     title: 'Dermatologica',
     text: 'Ovo je tekst za razdoblje nakon 17. prosinca.',
-    image: 'assets/images/popup4.jpeg',
+    image: url + 'assets/images/popup4.jpeg',
     button: { text: 'Vodi me na natječaj', link: 'https://www.instagram.com/super1.hr/' }
   }
 ];
