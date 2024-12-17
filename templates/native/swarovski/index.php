@@ -242,9 +242,11 @@ background: linear-gradient(180deg, rgba(14,13,13,1) 0%, rgba(0,0,0,1) 100%);">
           <div class="col-lg-1">
           </div>
           <div class="col-lg-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
-             <p style="color:#fff; padding-top: 100px;" ><img src="<?php echo $native_path ?>/assets/images/ana-carevic.svg"  class="comingsoon"/>
+             <p style="color:#fff; padding-top: 100px;" ><img src="<?php echo $native_path ?>/assets/images/ana-carevic.svg"/>
               <br/><br/>
-              Coming soon
+              “Simpatičnih devet vikenda smo dečko i ja ove godine proveli na svadbama, pa bih rekla da su mi to izlasci po kojima ću pamtiti ovu godinu. S obzirom na to da nisam neki party manijak, većinu slobodnih vikenda sam provela u mirnijim provodima – s dobrim društvom, glazbom uživo i spontanim trenucima”, objašnjava nam Ana.
+              <br/><br/>
+              <a href="https://www.telegram.hr/super1/life/od-dugih-spremanja-u-studentskim-danima-do-spontanih-izlazaka-ana-carevic-provela-nas-je-kroz-svoju-get-ready-rutinu/" target="_blank" style="font-size:18px !important; font-weight:600 !important">Više pročitajte ovdje</a>
               </p>
           </div>
           <div class="col-lg-1">

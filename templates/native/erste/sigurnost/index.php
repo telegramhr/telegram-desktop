@@ -166,6 +166,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative shoo-top" id="vodici">
             <div class="container flex relative">
+            <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/broj-karticnih-prijevara-u-svijetu-konstantno-raste-ali-i-broj-regulacija-u-uniji-evo-kako-nas-one-stite/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/-vANFKrAHIkmmZlqX_SNtzS8x7sqhiTeJbRsyORxouk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMTIvc2h1dHRlcnN0b2NrLTI0MTU4NjgyODkuanBn.webp">
+                    <div class="full flex">
+                        <h2 class="full">Broj kartičnih prijevara u svijetu konstantno raste, ali i broj regulacija u Uniji. Evo kako nas one štite</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-je-teze-prepoznati-prijevare-na-internetu-rijesite-nas-kviz-i-doznajte-kolika-ste-meta-prevarantima/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/RvD7yVP6pF8AaZgv3lruS_Usie7I9mCV2gEYlltgb5Q/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDgvc2h1dHRlcnN0b2NrLTIzMjc0Mzc0OTcuanBn.webp">
                     <div class="full flex">
