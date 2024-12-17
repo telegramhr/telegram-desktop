@@ -8,44 +8,40 @@
     $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/s1/giveaway-2024';
     // use this for versioning, to avoid cache problems
     $version = 1;
-?><head>
-    <!-- this is required to load all the analytics and other scripts -->
-    <?php wp_head(); ?>
+?>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    #wheel-container {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      margin: auto;
+    }
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    #wheel {
+      width: 100%;
+      height: 100%;
+      transform-origin: center;
+      transition: transform 5s ease-in-out;
+    }
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        #wheel-container {
-            position: relative;
-            width: 300px;
-            height: 300px;
-            margin: auto;
-        }
+    #arrow {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 50px;
+      z-index: 10;
+    }
 
-        #wheel {
-            width: 100%;
-            height: 100%;
-            transform-origin: center;
-            transition: transform 5s ease-in-out;
-        }
-
-        #arrow {
-            position: absolute;
-            top: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 50px;
-            height: 50px;
-            z-index: 10;
-        }
-
-        #arrow img {
-            width: 100%;
-        }
+    #arrow img {
+      width: 100%;
+    }
 
         /* Definiraj osnovni container */
         #myContainer {
@@ -58,41 +54,47 @@
 
         }
 
-        .snow {
-            z-index: 10;
-            width: 100%;
-            height: 100%;
-            display: block;
-            mix-blend-mode: screen;
-            position: fixed;
-            top: 0%;
-            bottom: 0%;
-            left: 0%;
-            right: 0%;
-            pointer-events: none;
-            opacity: 0.5;
-        }
+            .snow {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    mix-blend-mode: screen;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    pointer-events: none;
+    opacity: 0.5;
+  }
 
-        .w-background-video > video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -100;
-            background-position: 50%;
-            background-size: cover;
-            margin: auto;
-            position: absolute;
-            top: -100%;
-            bottom: -100%;
-            left: -100%;
-            right: -100%;
-        }
+  .w-background-video > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+    background-position: 50%;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+  }
 
     </style>
+
+
+<head>
+    <!-- this is required to load all the analytics and other scripts -->
+    <?php wp_head(); ?>
+
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -179,7 +181,7 @@
   <script src="<?php echo $native_path ?>/assets/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
-  <script src="<?php echo $native_path ?>/assets/js/script.js?v=2"></script>
+  <script src="<?php echo $native_path ?>/assets/js/script.js?=new2"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>
