@@ -209,6 +209,20 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="cta animate">Pročitaj više...</div>
                     </div>
                 </a>
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/odlicna-prilika-za-mlade-umjetnike-prijavite-se-na-natjecaj-i-osvojite-1500-eura/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/EbGN0UPR7J8lEkGlhPZ5bRBY4AzoO7tZ52Y4Uoyayo0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDQvcHhsLTA1MTAyMy0xMDQyNTc5OTEuanBn.webp">
+                    <div class="full flex">
+                        <h2 class="full">Odlična prilika za mlade umjetnike: Prijavite se na natječaj i osvojite 1500 eura </h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-je-vise-ovakvih-prijevara-laziraju-stranice-web-trgovina-pa-vam-ukradu-sve-s-racuna/" target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/A0G27rjr9oKXEHXS3u4_xXT_zKaVS1eVBdAxDWC9X8M/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDQva29idS1hZ2VuY3ktN29ra2ZoeHJ4bnctdW5zcGxhc2guanBn.webp">
+                    <div class="full flex">
+                        <h2 class="full">Sve je više ovakvih prijevara. Lažiraju stranice web trgovina pa vam ukradu sve s računa</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
                 <a class="half flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/prevaranti-su-osmislili-novi-nacin-evo-kako-vam-mogu-ukrasti-novac-ako-kupujete-online/" target="_blank">
                     <img class="shoo-bottom" src="https://images.telegram.hr/WVWHgc2ySEEMj-ZWSA4xXyJBpwMUrDceD-fQ29g4HRY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDMvcGV4ZWxzLWNvdHRvbmJyby1zdHVkaW8tMzk0NDQwNS5qcGc.jpg">
                     <div class="full flex">
