@@ -68,13 +68,22 @@
     </style>
 
 
+<head>
+    <!-- this is required to load all the analytics and other scripts -->
+    <?php wp_head(); ?>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052025kd">
+    <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/style.css?v=09052024">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/assets/css/owl.css">
 
@@ -90,7 +99,7 @@
     <ul>
       <li><a href="#zagrebacka-zupanija">TZ Zagrebačka županija</a></li>
       <li><a href="#osijek">TZ Osijek</a></li>
-      <li><a href="#">TZ Makarska</a></li>
+      <li><a href="#makarska">TZ Makarska</a></li>
       <li><a href="#rovinj">TZ Rovinj</a></li>
       <li><a href="#dubrovnik">Dubrovnik Hotel Luxury Adriatic</a></li>
       <li><a href="#flixbus">FlixBus</a></li>
@@ -246,6 +255,7 @@
 
               <div class="content-box"><a href="https://www.telegram.hr/super1/life/imamo-super-ideje-za-badnjak-i-docek-nove-godine-na-novim-lokacijama-vidimo-se-na-jednoj-od-njih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/nova.png" /></a></div>
 
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/ovaj-grad-u-blizini-zagreba-ima-genijalne-aktivnosti-za-klince-ali-i-odrasle-tijekom-adventa-idemo-u-jastrebarsko/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/jastrebarsko.png" /></a></div>
 
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/samobor.png" /></a></div>
               <div class="content-box"><a href="https://www.telegram.hr/partneri/vikend-provodimo-u-samoboru-i-svetoj-nedelji-izdvojili-smo-atrakcije-ovog-adventa/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/sv-nedelja.png" /></a></div>
@@ -253,6 +263,8 @@
               <div class="content-box"><a href="https://www.telegram.hr/partneri/na-30-minuta-od-zagreba-kriju-se-dva-grada-s-odlicnim-adventskim-programom-za-djecu-i-odrasle/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/ivanic.png" /></a></div>
 
               <div class="content-box"><a href="https://www.telegram.hr/super1/life/imamo-super-ideje-za-badnjak-i-docek-nove-godine-na-novim-lokacijama-vidimo-se-na-jednoj-od-njih/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/nova.png" /></a></div>
+
+              <div class="content-box"><a href="https://www.telegram.hr/partneri/ovaj-grad-u-blizini-zagreba-ima-genijalne-aktivnosti-za-klince-ali-i-odrasle-tijekom-adventa-idemo-u-jastrebarsko/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/jastrebarsko.png" /></a></div>
             </div>
             <button class="scroll-button right-button">→</button>
           </div>
@@ -370,6 +382,53 @@
         </div>
       </div>
 </div>
+
+
+<div id="makarska" class="blog" style="background: url('<?php echo $native_path ?>/assets/images/back.jpg'); background-size: 100% 100%;">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 order-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+             <img src="<?php echo $native_path ?>/assets/images/makarska.png" style="z-index:1 !important" />
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h1 class="sakrij">Advent u Makarskoj</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <p>U srcu Makarske rivijere ove se godine smjestio daleko najšarmantniji Advent. Iako ovo blagdansko vrijeme većinski vežemo uz zimsku hladnoću, ima nešto posebno u iščekivanju blagdana uz miris mora. Organizatori Adventa u Makarskoj pripremili su program bogat različitim aktivnostima, a ove su godine poseban naglasak stavili i na djeci. U Makarskoj se tako ove godine održava i najveći "Mali Advent" s brojnim kreativnim radionicama u Igloou Djeda Božićnjaka, zanimljivim predstavama, kao i Prvim festivalom maskota koji će se održati 28. prosinca na Kačićevom trgu. Odrasli će pak uživati u kuhanom vinu i glazbenim koncertima s renomiranim izvođačima, među kojima se posebno ističe francuski kolektiv Nouvelle Vague, koji u Makarsku stiže 21. prosinca, simbolično na prvi dan zime. Tu su i nezaboravne foto kulise kako bi posjetitelji mogli zabilježiti uspomene. Za tamošnje mještane, Advent predstavlja priliku da uživaju u zajedničkim trenucima, a za posjetitelje prigodu da otkriju grad u njegovoj autentičnoj, zimskoj verziji u punom sjaju šarmantne ponude.</p>
+                      <a href="https://www.telegram.hr/partneri/dalmatinski-grad-s-najsarmantnijom-blagdanskom-ponudom-od-vrhunskih-koncerata-do-najveceg-malog-adventa/" target="_blank"><button class="border-first-button">Otkrij advent u Makarskoj</button></a>
+                     </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+</div>
+
+
+<div class="blog" style="padding-bottom: 0; padding-top: 0;">
+  <div class="container-fluid">
+
+      <div class="row p-0">
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/ma/01.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/ma/02.jpg" />
+          </div>
+          <div class="col-lg-4 p-0">
+              <img src="<?php echo $native_path ?>/assets/images/ma/03.jpg" />
+          </div>
+
+        </div>
+      </div>
+</div>
+
 
 
 <div id="rovinj" class="blog" style="background: url('<?php echo $native_path ?>/assets/images/back.jpg'); background-size: 100% 100%;">
