@@ -792,7 +792,5 @@
 
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>
-
-
 </body>
 </html>
