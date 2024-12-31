@@ -347,7 +347,7 @@
                   <div class="row">
                        <div class="col-lg-12 text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <p>Ledeni park na Trgu kralja Tomislava ove godine slavi jubilarnu 10. obljetnicu, a sve posjetitelje očekuje bogata ugostiteljska ponuda, novi suvenir shop te brojne kreativne radionice za djecu. Nakon klizanja uputite se na Zrinjevac gdje možete zaplesati uz čak dva koncerta uživo dnevno. </p>
-                        <button class="border-first-button">Otkrij advent u Zagrebu</button>
+                        <a href="https://www.telegram.hr/super1/life/u-2025-mozete-i-doslovno-uklizati-ovo-su-nam-top-opcije-za-docek-u-zagrebu-znamo-i-gdje-na-dobru-glazbu/" target="_blank"><button class="border-first-button">Otkrij advent u Zagrebu</button></a>
                        </div>
                   </div>
               </div>
