@@ -247,11 +247,11 @@
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div></div>
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div></div>
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -340,11 +340,11 @@
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div>
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -412,12 +412,12 @@
 
 
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
+            <button class="carousel-control-prev klopa" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div>
+            <button class="carousel-control-next klopa" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -479,11 +479,11 @@
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
-              <div style="background:#000; padding: 10px; padding-top: 15px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div>
+              <div style="background:#000; padding: 5px; padding-top: 10px;"><span class="carousel-control-next-icon" aria-hidden="true"></span></div>
               <span class="visually-hidden">Next</span>
             </button>
           </div>

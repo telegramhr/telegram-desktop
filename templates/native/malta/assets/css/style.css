@@ -239,7 +239,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 
 
 @media (max-width: 991px) {
-  .carousel-caption p {padding-bottom: 20px !important; line-height: 20px !important}
+  .carousel-caption p {padding-bottom: 0px !important; line-height: 20px !important; padding-left: 20px !important;
+        padding-right: 20px !important;}
+
+  .klopa {margin-top:-180px !important}
 }
 
 
@@ -287,7 +290,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 
 
 @media (max-width: 991px) {
-  .avion {display: none}
+  
   h1 {margin-top: 30px}
 }
 
@@ -905,6 +908,11 @@ header
 .content-box {
   min-width: 100vw; /* 1/4 širine prozora */
   }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {width: 1rem;height: 1rem;}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {margin-top:-250px; margin-left: -12px;
+        margin-right: -12px;}
 }
 
 
