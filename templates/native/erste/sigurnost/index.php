@@ -20,7 +20,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet">
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.20" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.32" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>style.css?ver=1.33" type="text/css" />
     <script src="<?php echo $native_path ?>functions.js?ver=1.00"></script>
 </head>
 
@@ -68,6 +68,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             <div class="container flex relative horizontal-pad">
                 <h1 class="full bigger-h1 center-text" id="main-title">S</h1>
                 <h2 class="full center-text">Istražite s nama svijet iza kartičnih prijevara i kako ih spriječiti</h2>
+                <h2 class="full center-text shoo-top secondary-subtitle relative">Sastavili smo ultimativni vodič kako bi tvoj novac ostao siguran</h2>
+                <div class="full center">
+                    <a href="<?php echo $native_path ?>/erste-telegram-vodic.pdf" download class="cta">Klikni i preuzmi ga odmah</a>
+                </div>
             </div>
         </header>
         <section class="full flex relative shoo-top">
