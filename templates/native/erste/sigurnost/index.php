@@ -70,7 +70,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <h2 class="full center-text">Istražite s nama svijet iza kartičnih prijevara i kako ih spriječiti</h2>
                 <h2 class="full center-text shoo-top secondary-subtitle relative">Sastavili smo ultimativni vodič kako bi tvoj novac ostao siguran</h2>
                 <div class="full center">
-                    <a href="<?php echo $native_path ?>erste-telegram-vodic.pdf" download class="cta">Klikni i preuzmi ga odmah</a>
+                    <a href="<?php echo $native_path ?>Veliki vodič kroz kartične prijevare.pdf" download class="cta">Klikni i preuzmi ga odmah</a>
                 </div>
             </div>
         </header>
