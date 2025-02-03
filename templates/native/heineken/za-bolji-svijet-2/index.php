@@ -103,6 +103,15 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     </div> -->
                     <div class="full flex stretch mobile-slider">
                         <div class="flex flex-responsive horizontal-pad">
+                            <a class="full flex relative" href="https://www.telegram.hr/partneri/pitali-smo-dvije-vodece-psihologinje-kako-roditelji-trebaju-razgovarati-s-djecom-o-alkoholu/" target="_blank">
+                                <img class="shoo-bottom full" src="https://images.telegram.hr/LjInEvKAYSfu7mQsZy-rqem0eRqXSeHcgbeEBGwYKBo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDgvc2h1dHRlcnN0b2NrLTI0NDM4Mzc2MjkuanBn.webp">
+                                <div class="full center center-wrap">
+                                    <h2 class="full center-text">Pitali smo dvije vodeće psihologinje kako roditelji trebaju razgovarati s djecom o alkoholu</h2>
+                                    <div class=" flex button-52">Pročitaj više...</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex flex-responsive horizontal-pad">
                             <a class="full flex relative" href="https://www.telegram.hr/partneri/sa-psihologinjom-smo-sastavili-kviz-za-roditelje-o-maloljetnickoj-konzumaciji-alkohola-koliko-tocnih-odgovora-imate/" target="_blank">
                                 <img class="shoo-bottom full" src="https://images.telegram.hr/__t3ecna58nZfls0g1JwblnoQXhN30LKFNH9skTYShI/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDQvMTIzLmpwZw.jpg">
                                 <div class="full center center-wrap">
