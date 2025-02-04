@@ -87,12 +87,12 @@
         <div class="col-lg-12">
           <div class="row">
             <div class="col-lg-7">
-              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><img src="<?php echo $native_path ?>/assets/images/clanak-02.jpeg" style="border-radius: 20px; box-shadow: 0px 10px 40px -10px rgba(0, 0,0,0.5)" alt=""></a>
+              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><img src="<?php echo $native_path ?>/assets/images/clanak-02.jpeg" style="border-radius: 20px; box-shadow: 0px 10px 40px -10px rgba(0, 0,0,0.5)" alt=""></a>
             </div>
             <div class="col-lg-5"  style="padding-top:60px">
-              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><h2 style="color:#fff; font-weight: 700; margin-top: 30px; margin-bottom: 30px;">Podijeljene stipendije veće od 500 eura mjesečno, saznali smo sve detalje</h2></a>
-              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><p style="margin-bottom: 30px; color: #fff;">Razgovarali smo s predstavnicama jedne. Vode ih na preglede i frizure, zovu majstore i obavljaju kupnje</p></a>
-              <p><a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/" style="color:#fff; font-weight: 700;">SAZNAJ VIŠE</a></p>
+              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><h2 style="color:#fff; font-weight: 700; margin-top: 30px; margin-bottom: 30px;">Podijeljene stipendije veće od 500 eura mjesečno, saznali smo sve detalje</h2></a>
+              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><p style="margin-bottom: 30px; color: #fff;">Razgovarali smo s predstavnicama jedne. Vode ih na preglede i frizure, zovu majstore i obavljaju kupnje</p></a>
+              <p><a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/" style="color:#fff; font-weight: 700;">SAZNAJ VIŠE</a></p>
             </div>
           </div>
         </div>
@@ -103,12 +103,12 @@
         <div class="col-lg-12">
           <div class="row">
             <div class="col-lg-7 order-lg-2">
-              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><img src="<?php echo $native_path ?>/assets/images/clanak-02.jpeg" style="border-radius: 20px; box-shadow: 0px 10px 40px -10px rgba(0, 0,0,0.5)" alt=""></a>
+              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><img src="<?php echo $native_path ?>/assets/images/clanak-04.jpeg" style="border-radius: 20px; box-shadow: 0px 10px 40px -10px rgba(0, 0,0,0.5)" alt=""></a>
             </div>
             <div class="col-lg-5 order-lg-1" style="padding-top:60px">
-              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><h2 style="color:#fff; font-weight: 700; margin-top: 30px; margin-bottom: 30px;">Više od 50 milijuna ljudi treba palijativnu skrb u Europi. Kod nas je ta usluga ostala u rukama udruga</h2></a>
-              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><p style="margin-bottom: 30px; color: #fff;">Projekt humanitarnog karaktera možete prijaviti do 31. listopada</p></a>
-              <p><a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/" style="color:#fff; font-weight: 700;">SAZNAJ VIŠE</a></p>
+              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><h2 style="color:#fff; font-weight: 700; margin-top: 30px; margin-bottom: 30px;">Više od 50 milijuna ljudi treba palijativnu skrb u Europi. Kod nas je ta usluga ostala u rukama udruga</h2></a>
+              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><p style="margin-bottom: 30px; color: #fff;">Projekt humanitarnog karaktera možete prijaviti do 31. listopada</p></a>
+              <p><a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/" style="color:#fff; font-weight: 700;">SAZNAJ VIŠE</a></p>
             </div>
           </div>
         </div>
