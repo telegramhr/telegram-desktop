@@ -61,8 +61,8 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <img src="<?php echo $native_path ?>/assets/images/header-logo-alt.svg" style="max-width: 200px; height: auto; margin-bottom: 30px;" />
-                    <h2>ZAJEDNO ZA<br/><span style="color:#fff;">BOLJE PRILIKE</span></h2>
-                    <p>Zaklada Novo Sutra već godinama u Hrvatskoj financira brojne humanitarne projekte humanog, obrazovnog i razvojnog karaktera. Tako je samo kroz donacijski natječaj podržala gotovo 50 projekata s više od 1,6 milijuna eura, a ove su im godine u posebnom fokusu mentalno zdravlje i mladi. Upravo zbog toga odlučili su i stipendirati 20 uspješnih studenata kroz sljedećih deset mjeseci, s mjesečnim iznosom od 500 eura. Samo su ovo neke od stvari koje su napravili za razvoj ugroženih u Hrvatskoj, a mi smo na jednom mjestu okupili sve njihove hvalevrijedne projekte.</p>
+                    <h2>ZAJEDNO ZA<br/><span style="color:#fff;">NOVE PRILIKE</span></h2>
+                    <p>Zaklada Novo Sutra već godinama u Hrvatskoj financira brojne humanitarne projekte humanog, obrazovnog i razvojnog karaktera. Tako je samo kroz donacijski natječaj podržala gotovo 50 projekata s više od 1,6 milijuna eura, a ove su im godine u posebnom fokusu mentalno zdravlje i mladi. Upravo zbog toga odlučili su i stipendirati 20 uspješnih studenata kroz sljedećih deset mjeseci, s mjesečnim iznosom od 500 eura. Ovo su samo neke od stvari koje su napravili za razvoj ugroženih u Hrvatskoj, a mi smo na jednom mjestu okupili sve njihove hvalevrijedne projekte.</p>
 
                     <div class="border-first-button scroll-to-section" style="padding-top: 0px;">
                       <a href="#vise">SAZNAJ VIŠE</a>
@@ -91,7 +91,7 @@
             </div>
             <div class="col-lg-5"  style="padding-top:60px">
               <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><h2 style="color:#fff; font-weight: 700; margin-top: 30px; margin-bottom: 30px;">Podijeljene stipendije veće od 500 eura mjesečno, saznali smo sve detalje</h2></a>
-              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><p style="margin-bottom: 30px; color: #fff;">Razgovarali smo s predstavnicama jedne. Vode ih na preglede i frizure, zovu majstore i obavljaju kupnje</p></a>
+              <a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/"><p style="margin-bottom: 30px; color: #fff;">Zaklada Novo Sutra ove je godine u fokus stavila mentalno zdravlje djece i mladih</p></a>
               <p><a target="_blank" href="https://www.telegram.hr/partneri/do-sad-su-podijelili-vise-od-16-milijuna-eura-udrugama-diljem-zemlje-evo-kako-se-prijaviti-na-novi-natjecaj/" style="color:#fff; font-weight: 700;">SAZNAJ VIŠE</a></p>
             </div>
           </div>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-lg-5 order-lg-1" style="padding-top:60px">
               <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><h2 style="color:#fff; font-weight: 700; margin-top: 30px; margin-bottom: 30px;">Više od 50 milijuna ljudi treba palijativnu skrb u Europi. Kod nas je ta usluga ostala u rukama udruga</h2></a>
-              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><p style="margin-bottom: 30px; color: #fff;">Projekt humanitarnog karaktera možete prijaviti do 31. listopada</p></a>
+              <a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/"><p style="margin-bottom: 30px; color: #fff;">Razgovarali smo s predstavnicima jedne. Vode ih na preglede i frizure, zovu majstore i obavljaju kupnje</p></a>
               <p><a target="_blank" href="https://www.telegram.hr/partneri/vise-od-50-milijuna-ljudi-treba-palijativnu-skrb-u-europi-kod-nas-je-ta-usluga-ostala-u-rukama-udruga/" style="color:#fff; font-weight: 700;">SAZNAJ VIŠE</a></p>
             </div>
           </div>
@@ -123,7 +123,7 @@
             </div>
             <div class="col-lg-5"  style="padding-top:60px">
               <a target="_blank" href="https://www.telegram.hr/partneri/hortikulturalna-terapija-vrtlarenje-ima-terapeutski-ucinak/"><h2 style="color:#fff; font-weight: 700; margin-top: 30px; margin-bottom: 30px;">Vrtlarenje ima terapeutski učinak: Ove su tehnike kod nas tek u povojima, ali potencijal je ogroman</h2></a>
-              <a target="_blank" href="https://www.telegram.hr/partneri/hortikulturalna-terapija-vrtlarenje-ima-terapeutski-ucinak/"><p style="margin-bottom: 30px; color: #fff;">Terapija hortikulturom prvi se put u Hrvatskoj spominje već 1917. godine</p></a>
+              <a target="_blank" href="https://www.telegram.hr/partneri/hortikulturalna-terapija-vrtlarenje-ima-terapeutski-ucinak/"><p style="margin-bottom: 30px; color: #fff;">Terapija hortikulturom prvi se put u Hrvatskoj spominje 1917. godine</p></a>
               <p><a target="_blank" href="https://www.telegram.hr/partneri/hortikulturalna-terapija-vrtlarenje-ima-terapeutski-ucinak/" style="color:#fff; font-weight: 700;">SAZNAJ VIŠE</a></p>
             </div>
           </div>
