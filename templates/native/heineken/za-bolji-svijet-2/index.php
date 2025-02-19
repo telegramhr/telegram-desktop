@@ -15,12 +15,12 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <?php wp_head(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo $native_path ?>img/aos.js"></script>
-    <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.15" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.26" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.16" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.3" type="text/css" />
     <script src="<?php echo $native_path ?>slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick-theme.css" type="text/css" />
-    <script src="<?php echo $native_path ?>function.js?ver=1.14"></script>
+    <script src="<?php echo $native_path ?>function.js?ver=1.2"></script>
     <!-- Fonts -------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,12 +72,252 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 </div>
             </div>
         </nav>
+        <!-- Kviz -->
+        <section class="full flex relative" id="kviz">
+        <div class="full flex relative">
+            <div class="full center relative horizontal-pad no-mobile-pad bg-odstrastanje">
+                <!-- Slide 1 (Active at Start) -->
+                <div class="full slide slide-1 active center center-wrap" data-slide="1">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold question">Kako pristupiti djetetu ako primijetite da konzumira alkohol?</h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="false">
+                            <span>A</span>
+                            <div class="bold fira-font">Zabraniti izlaske i oduzeti mu mobitel</div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="false">
+                            <span>B</span>
+                            <div class="bold fira-font">Odmah razgovarati i postaviti nova pravila</div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="true">
+                            <span>C</span>
+                            <div class="bold fira-font">Zbrinuti dijete i razgovarati kad se situacija smiri</div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                        <div class="full chat-bg full-margin center center-wrap">
+                            <p class="full center-text response bold"></p>
+                            <p class="feedback full"></p> 
+                            <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                            <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
+                        </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/chat.png" aria-hidden="true">
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="full slide slide-2 center center-wrap" data-slide="2" style="display: none;">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold question"> Što je dodatan rizičan faktor za razvoj ovisnosti kod maloljetnika?</h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="true">
+                            <span>A</span>
+                            <div class="bold fira-font">Transgeneracijski aspekt</div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="false">
+                            <span>B</span>
+                            <div class="bold fira-font">Izražena empatija </div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="false">
+                            <span>C</span>
+                            <div class="bold fira-font">Utjecaj društva </div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                            <div class="full chat-bg full-margin center center-wrap">
+                                <p class="full center-text response bold"></p>
+                                <p class="feedback full"></p> 
+                                <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
+                            </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/guys.png" aria-hidden="true">
+                </div>
+                <!-- Slide 3 -->
+                <div class="full slide slide-3 center center-wrap" data-slide="3" style="display: none;">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold">Kako postupiti ako se dijete nađe u društvu koje ga potiče na konzumaciju alkohola? </h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="false">
+                            <span>A</span>
+                            <div class="bold fira-font">Zabraniti djetetu viđanje s prijateljima</div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="false">
+                            <span>B</span>
+                            <div class="bold fira-font">Pričekati da dijete samo uvidi problem</div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="true">
+                            <span>C</span>
+                            <div class="bold fira-font">Razgovarati s djetetom i ponuditi savjet </div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                                <div class="full chat-bg full-margin center center-wrap">
+                                    <p class="full center-text response bold"></p>
+                                    <p class="feedback full"></p> 
+                                    <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                    <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
+                                </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/red-chat.png" aria-hidden="true">
+                </div>
+                <!-- Slide 4 -->
+                <div class="full slide slide-4 center center-wrap" data-slide="4" style="display: none;">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold question">Koja je prednost toga da u razgovoru s djetetom izrazimo svoje osjećaje?</h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="false">
+                            <span>A</span>
+                            <div class="bold fira-font">Potičemo djecu da preuzmu odgovornost za svoje postupke</div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="true">
+                            <span>B</span>
+                            <div class="bold fira-font">Olakšavamo izražavanje osjećaja roditelja, potičemo dijalog </div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="false">
+                            <span>C</span>
+                            <div class="bold fira-font">Jasno pokazujemo koliko smo ljuti na njih </div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                            <div class="full chat-bg full-margin center center-wrap">
+                                <p class="full center-text response bold"></p>
+                                <p class="feedback full"></p> 
+                                <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
+                            </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/chat.png" aria-hidden="true">
+                </div>
+                <!-- Slide 5 -->
+                <div class="full slide slide-5 center center-wrap" data-slide="5" style="display: none;">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold">Koji je glavni razlog zašto konzumacija alkohola kod maloljetnika može biti opasna?</h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="false">
+                            <span>A</span>
+                            <div class="bold fira-font">Maloljetnici ne znaju kontrolirati količinu unesenog alkohola</div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="true">
+                            <span>B</span>
+                            <div class="bold fira-font">Njihovi mozgovi nisu u potpunosti razvijeni, osjetljiviji su na posljedice</div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="false">
+                            <span>C</span>
+                            <div class="bold fira-font">Alkohol ima jači učinak na odrasle nego na maloljetnike</div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                            <div class="full chat-bg full-margin center center-wrap">
+                                <p class="full center-text response bold"></p>
+                                <p class="feedback full"></p> 
+                                <a href="https://www.telegram.hr/partneri/o-izazovima-s-tinejdzerima-s-poznatom-psihologinjom-roditelji-cesto-zadaju-pravila-i-onda-naprave-kljucnu-gresku/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
+                            </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/guys.png" aria-hidden="true">
+                </div>
+                <!-- Slide 6 -->
+                <div class="full slide slide-6 center center-wrap" data-slide="6" style="display: none;">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold">Kako roditeljski primjer utječe na djetetovo shvaćanje umjerene konzumacije alkohola?</h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="false">
+                            <span>A</span>
+                            <div class="bold fira-font">Dijete može procijeniti umjerenost i bez roditeljskog primjera</div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="false">
+                            <span>B</span>
+                            <div class="bold fira-font">Roditeljski primjer nema konkretan utjecaj na dijete</div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="true">
+                            <span>C</span>
+                            <div class="bold fira-font">Ako se ne pokaže umjerenost, veća je vjerojatnost da dijete to neće znati kada odraste</div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                            <div class="full chat-bg full-margin center center-wrap">
+                                <p class="full center-text response bold"></p>
+                                <p class="feedback full"></p> 
+                                <a href="https://www.telegram.hr/partneri/konzumacija-alkohola-u-mladoj-dobi-ostavlja-trajne-posljedice-razgovarajte-sa-svojom-djecom/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
+                            </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/red-chat.png" aria-hidden="true">
+                </div>
+                <!-- Slide 7 -->
+                <div class="full slide slide-7 center center-wrap" data-slide="7" style="display: none;">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold">Koja je važnost korištenja rječnika i primjera koje dijete razumije prilikom razgovora s njim?</h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="flase">
+                            <span>A</span>
+                            <div class="bold fira-font">Bolje povezivanje i izgradnja  povjerenja </div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="false">
+                            <span>B</span>
+                            <div class="bold fira-font">Olakšava objašnjavanje na način koji dijete može razumjeti</div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="true">
+                            <span>C</span>
+                            <div class="bold fira-font">Sve navedeno</div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                            <div class="full chat-bg full-margin center center-wrap">
+                                <p class="full center-text response bold"></p>
+                                <p class="feedback full"></p> 
+                                <a href="https://www.telegram.hr/partneri/konzumacija-alkohola-u-mladoj-dobi-ostavlja-trajne-posljedice-razgovarajte-sa-svojom-djecom/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
+                            </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/chat.png" aria-hidden="true">
+                </div>
+                <!-- Slide 8 -->
+                <div class="full slide slide-7 center center-wrap" data-slide="7" style="display: none;">
+                    <div class="half flex relative horizontal-pad flex-responsive">
+                        <div class="full flex">
+                            <h3 class="full caps question-chat-bg bold">Koji je prvi način prevencije nepoželjnih ponašanja kod djece i mladih?</h3>
+                        </div>
+                        <div class="answer full flex" data-label="A" data-correct="false">
+                            <span>A</span>
+                            <div class="bold fira-font">Primjena stroge discipline</div>
+                        </div>
+                        <div class="answer full flex" data-label="B" data-correct="true">
+                            <span>B</span>
+                            <div class="bold fira-font">Postavljanje jasnih granica koje su primjerene za dijete</div>
+                        </div>
+                        <div class="answer full flex" data-label="C" data-correct="false">
+                            <span>C</span>
+                            <div class="bold fira-font">Odluka o zabrani izlazaka</div>
+                        </div>
+                    </div>
+                    <div class="half flex-responsive center center-wrap horizontal-pad ">
+                            <div class="full chat-bg full-margin center center-wrap">
+                                <p class="full center-text response bold"></p>
+                                <p class="feedback full"></p> 
+                                <a href="https://www.telegram.hr/partneri/pitali-smo-dvije-vodece-psihologinje-kako-roditelji-trebaju-razgovarati-s-djecom-o-alkoholu/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <button class="last-question full">Kraj kviza</button>
+                            </div>
+                    </div>
+                    <img class="absolute-half-img desktop-only" src="img/red-chat.png" aria-hidden="true">
+                </div>
+            </div>
+        </div>
+    </section>
         <!-- odrastanje -->
-        <section class="full flex relative" id="odrastanje">
+        <section class="full flex relative nega-pad" id="odrastanje">
             <div class="full flex relative">
                 <div class="full center relative horizontal-pad bg-odstrastanje">
                     <div class="half center relative horizontal-pad flex-responsive">
-                        <h1 class="full caps"><strong>Za odgovorno</strong> <br>odrastanje</h1>
+                        <h1 class="full"><strong>Za odgovorno</strong> <br>odrastanje</h1>
                     </div>
                     <div class="half flex-responsive flex-end center desktop-only">
                         <img class = "third " src="<?php echo $native_path . 'img/guys.png'; ?>" alt="Grey Placeholder">

@@ -68,6 +68,10 @@ p {
     font-family: 'Fira Sans', sans-serif;
 }
 
+div .caps {
+    text-transform: uppercase;
+}
+
 /*Navigation*/
 
 nav {
