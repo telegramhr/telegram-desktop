@@ -99,7 +99,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <div class="full chat-bg full-margin center center-wrap">
                             <p class="full center-text response bold"></p>
                             <p class="feedback full"></p> 
-                            <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                            <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                             <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                             <div class="full chat-bg full-margin center center-wrap">
                                 <p class="full center-text response bold"></p>
                                 <p class="feedback full"></p> 
-                                <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
@@ -158,7 +158,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <div class="full chat-bg full-margin center center-wrap">
                                     <p class="full center-text response bold"></p>
                                     <p class="feedback full"></p> 
-                                    <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                    <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                                     <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                                 </div>
                     </div>
@@ -187,7 +187,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                             <div class="full chat-bg full-margin center center-wrap">
                                 <p class="full center-text response bold"></p>
                                 <p class="feedback full"></p> 
-                                <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <a href="https://www.telegram.hr/partneri/ako-ste-roditelj-i-ne-znate-kako-biste-razgovarali-sa-svojim-tinejdzerom-ovo-bi-vas-moglo-zanimati/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
@@ -216,7 +216,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                             <div class="full chat-bg full-margin center center-wrap">
                                 <p class="full center-text response bold"></p>
                                 <p class="feedback full"></p> 
-                                <a href="https://www.telegram.hr/partneri/o-izazovima-s-tinejdzerima-s-poznatom-psihologinjom-roditelji-cesto-zadaju-pravila-i-onda-naprave-kljucnu-gresku/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <a href="https://www.telegram.hr/partneri/o-izazovima-s-tinejdzerima-s-poznatom-psihologinjom-roditelji-cesto-zadaju-pravila-i-onda-naprave-kljucnu-gresku/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
@@ -245,7 +245,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                             <div class="full chat-bg full-margin center center-wrap">
                                 <p class="full center-text response bold"></p>
                                 <p class="feedback full"></p> 
-                                <a href="https://www.telegram.hr/partneri/konzumacija-alkohola-u-mladoj-dobi-ostavlja-trajne-posljedice-razgovarajte-sa-svojom-djecom/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <a href="https://www.telegram.hr/partneri/konzumacija-alkohola-u-mladoj-dobi-ostavlja-trajne-posljedice-razgovarajte-sa-svojom-djecom/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
@@ -274,7 +274,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                             <div class="full chat-bg full-margin center center-wrap">
                                 <p class="full center-text response bold"></p>
                                 <p class="feedback full"></p> 
-                                <a href="https://www.telegram.hr/partneri/konzumacija-alkohola-u-mladoj-dobi-ostavlja-trajne-posljedice-razgovarajte-sa-svojom-djecom/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <a href="https://www.telegram.hr/partneri/konzumacija-alkohola-u-mladoj-dobi-ostavlja-trajne-posljedice-razgovarajte-sa-svojom-djecom/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
@@ -303,7 +303,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                             <div class="full chat-bg full-margin center center-wrap">
                                 <p class="full center-text response bold"></p>
                                 <p class="feedback full"></p> 
-                                <a href="https://www.telegram.hr/partneri/pitali-smo-dvije-vodece-psihologinje-kako-roditelji-trebaju-razgovarati-s-djecom-o-alkoholu/" target="_blank" class="link-button full" style="display: none;">Pročitaj Više</a>
+                                <a href="https://www.telegram.hr/partneri/pitali-smo-dvije-vodece-psihologinje-kako-roditelji-trebaju-razgovarati-s-djecom-o-alkoholu/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
                                 <button class="last-question full">Kraj kviza</button>
                             </div>
                     </div>
