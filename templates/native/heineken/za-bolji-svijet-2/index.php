@@ -103,7 +103,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                             <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                         </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/chat.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/chat.png" aria-hidden="true">
                 </div>
 
                 <!-- Slide 2 -->
@@ -133,7 +133,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/guys.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/guys.png" aria-hidden="true">
                 </div>
                 <!-- Slide 3 -->
                 <div class="full slide slide-3 center center-wrap" data-slide="3" style="display: none;">
@@ -162,7 +162,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                     <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                                 </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/red-chat.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/red-chat.png" aria-hidden="true">
                 </div>
                 <!-- Slide 4 -->
                 <div class="full slide slide-4 center center-wrap" data-slide="4" style="display: none;">
@@ -191,7 +191,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/chat.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/chat.png" aria-hidden="true">
                 </div>
                 <!-- Slide 5 -->
                 <div class="full slide slide-5 center center-wrap" data-slide="5" style="display: none;">
@@ -220,7 +220,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/guys.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/guys.png" aria-hidden="true">
                 </div>
                 <!-- Slide 6 -->
                 <div class="full slide slide-6 center center-wrap" data-slide="6" style="display: none;">
@@ -249,7 +249,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/red-chat.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/red-chat.png" aria-hidden="true">
                 </div>
                 <!-- Slide 7 -->
                 <div class="full slide slide-7 center center-wrap" data-slide="7" style="display: none;">
@@ -278,7 +278,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <button class="next-question full" style="display: none;">Sljedeće pitanje</button>
                             </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/chat.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/chat.png" aria-hidden="true">
                 </div>
                 <!-- Slide 8 -->
                 <div class="full slide slide-7 center center-wrap" data-slide="7" style="display: none;">
@@ -307,7 +307,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <button class="last-question full">Kraj kviza</button>
                             </div>
                     </div>
-                    <img class="absolute-half-img desktop-only" src="img/red-chat.png" aria-hidden="true">
+                    <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/red-chat.png" aria-hidden="true">
                 </div>
             </div>
         </div>
