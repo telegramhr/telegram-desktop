@@ -20,7 +20,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <script src="<?php echo $native_path ?>slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick-theme.css" type="text/css" />
-    <script src="<?php echo $native_path ?>function.js?ver=1.3"></script>
+    <script src="<?php echo $native_path ?>function.js?ver=1.4"></script>
     <!-- Fonts -------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
