@@ -125,7 +125,7 @@ jQuery(document).ready(function () {
       5: `<div class = "feedback-title">✅ Točno!</div>Konzumacija alkohola kod maloljetnika predstavlja ozbiljnu prijetnju mozgu koji je još u razvoju i može ostaviti trajne posljedice. Ujedno može narušiti stvarnu sliku situacije u kojoj se osoba nalazi i smanjiti sposobnost donošenja ispravnih odluka, a za djecu je to posebno rizično jer njihove kognitivne vještine, poput rješavanja problema i odlučivanja, još nisu potpuno razvijene. Stoga konzumacija alkohola u ranoj dobi može usporiti ili poremetiti kognitivni i emocionalni razvoj, a to se kasnije često ne može nadoknaditi`,
       6:`<div class = "feedback-title">✅ Točno!</div>Otvorena komunikacija u obitelji ima višestruke pozitivne učinke kada je riječ o prevenciji konzumacije alkohola kod maloljetnika. Roditeljski primjer igra ključnu ulogu jer, ako roditelji ne pokazuju važnost umjerene konzumacije, djeca neće znati kako se odgovorno ponašati prema alkoholu kad odrastu. U obiteljima gdje se otvorenije razgovara o konzumaciji alkohola, djeca su manje sklona sama ga probati. Svjesnija su opasnosti koje pijenje alkohola u toj dobi može izazvati, a samim time i odgovornija. Ako postoji iskrenost i otvorena komunikacija, veća je šansa da dijete osjeća da ima s kime razgovarati o vlastitim problemima, ne samo o alkoholu i izlascima, već i o drugim stvarima koje ga potencijalno muče. Jednostavnije, imat će više povjerenja.`,
       7:`<div class = "feedback-title">✅ Točno!</div>Važno je koristiti rječnik i primjere koje dijete razumije jer to omogućava bolju komunikaciju i lakše usklađivanje s njegovim razmišljanjima.  Reći im otvoreno što mogu očekivati tijekom izlazaka, čuti što oni misle o tome, što planiraju i pomoći im da budu pripremljeni, kako na dobre stvari, tako i na moguće izazove i alkohol kao jedan od njih. Razgovor temeljen na djetetovim iskustvima i pitanjima pomaže mu da se osjeća prihvaćeno i potiče otvorenost. Također, ovakav pristup doprinosi stvaranju povjerenja i priprema dijete za izazove s kojima se može susresti, poput situacija u tinejdžerskoj dobi, ali i kasnije u odrasloj. `,
-      8:`<div class = "feedback-title">✅ Točno!</div>Jedan od načina prevencije nepoželjnog ponašanja kod djece je korištenje asertivne komunikacije i postavljanje jasnih granica koje su primjerene za dijete. To pak znači da kroz razgovor jasno iskažete svoje osjećaje i zabrinutosti bez kritiziranja, na smiren i razumljiv način, istovremeno pokazujući razumijevanje za djetetove potrebe i osjećaje. Ovaj pristup pomaže roditeljima da jasno izraze očekivanja i pravila, dok istovremeno poštuju djetetovu autonomiju. Na taj način djeca razumiju odgovornosti i posljedice svojih postupaka, što doprinosi razvoju odgovornog ponašanja.`
+      8:`<div class = "feedback-title">✅ Točno!</div>Jedan od načina prevencije nepoželjnog ponašanja kod djece je korištenje asertivne komunikacije i postavljanje jasnih granica koje su primjerene za dijete. To pak znači da kroz razgovor jasno iskažete svoje osjećaje i zabrinutosti bez kritiziranja, na smiren i razumljiv način, istovremeno pokazujući razumijevanje za djetetove potrebe i osjećaje. Ovaj pristup pomaže roditeljima da jasno izraze očekivanja i pravila, dok istovremeno poštuju djetetovu autonomiju. Na taj način djeca razumiju odgovornosti i posljedice svojih postupaka, što doprinosi razvoju odgovornog ponašanja.`,
 
 
   };
@@ -139,8 +139,7 @@ jQuery(document).ready(function () {
     let $nextButton = $slide.find(".next-question");
     let $learnMore = $slide.find(".link-button");
     let $img = $slide.find("img");
-    let $response = $slide.find(".response")
-
+    
     if (isCorrect) {
         $feedback.html(explanations[slideNumber]).fadeIn();
         $learnMore.fadeIn();
@@ -156,6 +155,7 @@ jQuery(document).ready(function () {
 
   // Initially hide .chat-bg on the first slide
   $(".slide-1 .chat-bg.full-margin").hide();
+  $(".podcast-btn").show()
 
   $(".answer").click(function () {
       let $this = $(this);
@@ -173,6 +173,8 @@ jQuery(document).ready(function () {
     let currentSlideNumber = parseInt($currentSlide.data("slide"));
     window.scrollTo(0,0);
 
+
+
     // Check if the next slide exists
     if ($nextSlide.length > 0) {
         // Hide current slide and show next slide
@@ -181,13 +183,12 @@ jQuery(document).ready(function () {
             // Hide images and chat-bg for the next slide
             $nextSlide.find(".chat-bg").hide();
         });
+      }
     }
 
-    // Hide the "next question" button if it's the last slide
-    if (currentSlideNumber === 7) {
-      $(".next-question").remove();
-    }
-  });
+    
+    
+  );
 
 });
 

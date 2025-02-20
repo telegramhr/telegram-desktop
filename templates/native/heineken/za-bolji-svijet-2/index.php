@@ -16,11 +16,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo $native_path ?>img/aos.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>tmg_framework.css?ver=1.16" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.3" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>styles.css?ver=1.4" type="text/css" />
     <script src="<?php echo $native_path ?>slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>slick/slick-theme.css" type="text/css" />
-    <script src="<?php echo $native_path ?>function.js?ver=1.2"></script>
+    <script src="<?php echo $native_path ?>function.js?ver=1.3"></script>
     <!-- Fonts -------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -281,7 +281,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/chat.png" aria-hidden="true">
                 </div>
                 <!-- Slide 8 -->
-                <div class="full slide slide-7 center center-wrap" data-slide="7" style="display: none;">
+                <div class="full slide slide-8 center center-wrap" data-slide="8" style="display: none;">
                     <div class="half flex relative horizontal-pad flex-responsive">
                         <div class="full flex">
                             <h3 class="full caps question-chat-bg bold">Koji je prvi način prevencije nepoželjnih ponašanja kod djece i mladih?</h3>
@@ -304,10 +304,21 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                                 <p class="full center-text response bold"></p>
                                 <p class="feedback full"></p> 
                                 <a href="https://www.telegram.hr/partneri/pitali-smo-dvije-vodece-psihologinje-kako-roditelji-trebaju-razgovarati-s-djecom-o-alkoholu/" target="_blank" class="link-button full" style="display: none;">Pročitaj više</a>
-                                <button class="last-question full">Kraj kviza</button>
+                                <button class="next-question full">Kraj kviza</button>
                             </div>
                     </div>
                     <img class="absolute-half-img desktop-only" src="<?php echo $native_path ?>img/red-chat.png" aria-hidden="true">
+                </div>
+                <!-- Slide 9 -->
+                <div class="full slide slide-9 center center-wrap" data-slide="9" style="display: none;">
+                    <div class="full center relative horizontal-pad flex-responsive">
+                        <div class="full question-chat-bg full-margin center center-wrap">
+                            <h3 class="full caps bold center-text">Čestitamo! Završili ste kviz.</h3>
+                            <p class="full center-text response bold">Poslušaj naš podcast s vrhunskim stručnjakinjama za odgovorno odrastanje u nastavku i prouči priče i savjete kako kreirati bolji svijet za sve nas</p>
+                            <p class="feedback full"></p> 
+                            <a href="#podcast" class="podcast-btn full">Prouči priče i savjete</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -386,7 +397,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </section>
         <!-- podcast info-->
-        <section class="full flex relative podcast-info shoo-bottom">
+        <section class="full flex relative podcast-info shoo-bottom" id= "podcast">
             <div class="full relative center gray-bg little-pad-me">
                 <a class="fifth flex-responsive center shoo-left-right" href = "https://www.youtube.com/@TelegramhrVideo/videos" target = "_blank">
                     <img class = "full"src="<?php echo $native_path . 'img/podcast.png'; ?>" alt="">
