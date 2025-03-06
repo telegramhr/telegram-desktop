@@ -325,6 +325,10 @@ function fixed_img_caption_shortcode($attr, $content = null) {
         $caption = '<a href="' . $link . '">' . $caption . '</a>';
     }
     if ($photo) {
+        global $post;
+        if (strpos(get_the_permalink(), 'super1' )) {
+            $photo = 'FOTO: ' . $photo;
+        }
 	    return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
 	           . $content . '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
