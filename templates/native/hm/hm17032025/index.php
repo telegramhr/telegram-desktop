@@ -30,18 +30,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <link rel="icon" type="image/x-icon" href="<?php echo $native_path ?>/assets/images/favicon.png">
-
-    <title>H&amp;M x Super1 - Nova moda, nova povezanost: H&M  kolekcija je oda modernoj  ženstvenosti s vintage prizvukom</title>
-
-    <meta property="og:url"                content="http://www.telegram.hr" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="H&amp;M x Super1 - Nova moda, nova povezanost: H&M  kolekcija je oda modernoj  ženstvenosti s vintage prizvukom" />
-    <meta property="og:description"        content="Komadi koji slave autentičnost, suvremenost i nove generacije modnih entuzijasta" />
-    <meta property="og:image"              content="<?php echo $native_path ?>/assets/images/facebook.jpg" />
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
