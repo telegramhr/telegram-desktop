@@ -146,7 +146,7 @@ jQuery(document).ready(function () {
         $nextButton.fadeIn();
         $this.find("span").html("✔");
     } else {
-        $feedback.html(` <div class = "feedback-title">❌ Razmisli ponovo!</div>`).fadeIn();
+        $feedback.html(` <div class = "feedback-title">❌ Razmisli ponovo! Pokušaj odabrati drugi odgovor.</div>`).fadeIn();
         // $feedback.html(` <div class = "feedback-title">✖ Razmisli ponovo!</div>`).fadeIn();
 
         $this.find("span").html("✖");
