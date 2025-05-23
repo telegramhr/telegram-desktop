@@ -29,6 +29,37 @@ class Telegram_Shortcodes {
 
         add_shortcode('telegram_special_embed', [$this, 'telegram_embed']);
         //add_shortcode('telegram_embed', [$this, 'telegram_embed2']);
+
+        add_filter( 'wp_kses_allowed_html', [$this, 'acf_add_allowed_svg_tag'], 10, 2 );
+    }
+
+
+    function acf_add_allowed_svg_tag( $tags, $context ) {
+        if ( $context === 'acf' || $context === 'post' ) {
+            $tags['svg']  = array(
+                'xmlns'       => true,
+                'fill'        => true,
+                'viewbox'     => true,
+                'role'        => true,
+                'aria-hidden' => true,
+                'focusable'   => true,
+            );
+            $tags['path'] = array(
+                'd'    => true,
+                'fill' => true,
+            );
+
+            $tags['iframe'] = array(
+                'src'          => true,
+                'height'       => true,
+                'width'        => true,
+                'frameborder'  => true,
+                'allowfullscreen' => true,
+                'style' => true,
+            );
+        }
+
+        return $tags;
     }
 
     public function telegram_embed2($atts) {
@@ -39,10 +70,14 @@ class Telegram_Shortcodes {
             ),
             $atts
         ));
-        return 'test'. $id . 'test';
+        $out = '1test' . get_the_ID();
         $codes = get_field('embeds', $post->ID);
         $code = $codes[$embed-1]['kod'];
-        return var_export($codes, true);
+        if ($code) {
+            $out .= '<div class="tg-embed">' .$post->ID. $code . '</div>';
+        }
+
+        return $out;
     }
     public function telegram_embed($atts, $content) {
         extract( shortcode_atts(
