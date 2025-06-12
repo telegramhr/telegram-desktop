@@ -196,7 +196,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
               <p>Pozivamo čitatelje i ljubitelje tenisa da s nama podijele svoj osvrt na najvažnije servise u povijesti hrvatskog tenisa – kao da ste pravi sportski komentatori! Odgovori na nagradno pitanje i osvoji <span style="font-weight:600 !important">potpisani Yonex reket Donne Vekić, sportski ruksak i paket Stella Artois piva (24x0,5l limenke).</span><br/><br/>Pravila nagradnog natječaja možeš pročitati <a href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-stella-artois/">ovdje</a>.</p>
               <p>Nagradni natječaj odvija se od 12.6.2025. do 26.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
 
-              <form action="" method="post">
+              <form action="" id="form" method="post">
                   <!-- Odgovor na pitanje -->
                   <label for="odgovor">Odgovor na pitanje:</label><br>
                   <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
@@ -210,8 +210,12 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <input type="email" id="email" name="email" required><br><br>
 
                   <!-- Gumb za slanje -->
-                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
+                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" id="submit-form" value="Pošalji">
                 </form>
+              <div id="submitted" style="display:none;">
+                  <h2>Hvala na prijavi!</h2>
+                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
+              </div>
           </div>
         </div>
       </div>
@@ -340,6 +344,28 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/script.js"></script>
+
+<script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
+<script>
+    var $form = jQuery('form#form'),
+        url = 'https://script.google.com/macros/s/AKfycbxsSE9IVIUmPyA3W-jHIObwIad_RqNPWCWxR_ZlTTmcx5-T6f8mow9twvfxQa-NKJGQ7A/exec'
+
+    jQuery('#submit-form').on('click', function(e) {
+        e.preventDefault();
+        jQuery('#submit-form').attr('disable', true);
+        var jqxhr = jQuery.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $form.serializeObject()
+        }).done(
+            function(){
+                jQuery('#form').hide();
+                jQuery('#submitted').show();
+            }
+        );
+    })
+</script>
 
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>
