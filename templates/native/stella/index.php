@@ -161,7 +161,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <div class="col-lg-3"></div>
 
           <div class="col-lg-6 marginagornja text-center">
-              <form action="" method="post">
+              <form action="" id="form2" method="post">
                   <!-- Odgovor na pitanje -->
                   <label for="odgovor">Odgovor na pitanje:</label><br>
                   <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
@@ -175,8 +175,12 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <input type="email" id="email" name="email" required><br><br>
 
                   <!-- Gumb za slanje -->
-                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
+                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" id="submit-form2" value="Pošalji">
                 </form>
+              <div id="submitted2" style="display:none;">
+                  <h2>Hvala na prijavi!</h2>
+                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
+              </div>
           </div>
           <div class="col-lg-3 text-left">
              <img src="<?php echo $native_path ?>/assets/images/reketa2.png" style="z-index:1 !important" />
@@ -347,7 +351,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
 
 <script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
 <script>
-    var $form = jQuery('form#form'),
+    var $form = jQuery('form#form'), $form2 = jQuery('form#form2'),
         url = 'https://script.google.com/macros/s/AKfycbxsSE9IVIUmPyA3W-jHIObwIad_RqNPWCWxR_ZlTTmcx5-T6f8mow9twvfxQa-NKJGQ7A/exec'
 
     jQuery('#submit-form').on('click', function(e) {
@@ -362,6 +366,21 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
             function(){
                 jQuery('#form').hide();
                 jQuery('#submitted').show();
+            }
+        );
+    })
+    jQuery('#submit-form2').on('click', function(e) {
+        e.preventDefault();
+        jQuery('#submit-form2').attr('disable', true);
+        var jqxhr = jQuery.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $form2.serializeObject()
+        }).done(
+            function(){
+                jQuery('#form2').hide();
+                jQuery('#submitted2').show();
             }
         );
     })
