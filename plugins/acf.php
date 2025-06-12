@@ -378,6 +378,7 @@ if( function_exists('acf_add_local_field_group') ):
                     'standard' => 'Standard',
                     'premium' => 'Prošireno',
                     'commentary' => 'Komentar',
+                    'noimage' => 'Bez slike',
                 ),
                 'default_value' => 'standard',
                 'allow_null' => 0,
