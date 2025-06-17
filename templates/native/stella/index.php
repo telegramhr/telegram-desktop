@@ -354,7 +354,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
     var $form = jQuery('form#form'), $form2 = jQuery('form#form2'),
         url = 'https://script.google.com/macros/s/AKfycbxsSE9IVIUmPyA3W-jHIObwIad_RqNPWCWxR_ZlTTmcx5-T6f8mow9twvfxQa-NKJGQ7A/exec'
 
-    jQuery('#submit-form').on('click', function(e) {
+    $form.on('submit', function(e) {
         e.preventDefault();
         jQuery('#submit-form').attr('disable', true);
         var jqxhr = jQuery.ajax({
@@ -369,7 +369,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
             }
         );
     })
-    jQuery('#submit-form2').on('click', function(e) {
+    $form2.on('submit', function(e) {
         e.preventDefault();
         jQuery('#submit-form2').attr('disable', true);
         var jqxhr = jQuery.ajax({
