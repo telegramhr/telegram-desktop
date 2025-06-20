@@ -257,7 +257,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
           <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
             <h2>Wimbledon je moj san i moj cilj</h2>
              <p class="sticky-top" style=" font-weight: 300;">"Tajna je da nema tajne. To je posljedica napornih treninga. Sigurna sam zapravo da je disciplina najvažniji alat, ne samo u sportu, nego i u životu općenito. Na dane kada vam motivacija okrene leđa, disciplina je ono što vas definira."</p>
-             <p><a href="#" target="_blank">Cijeli članak pročitajte ovdje</a>.</p>
+             <p><a href="https://www.telegram.hr/partneri/donna-vekic-simbol-uspjeha-hrvatski-tenis/" target="_blank">Cijeli članak pročitajte ovdje</a>.</p>
           </div>
         </div>
       </div>
