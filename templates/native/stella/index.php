@@ -236,7 +236,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
   <div class="container-fluid p-0">
       <div class="row">
           <div class="col-lg-12">
-             <a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/donna.jpg" style="z-index:1 !important" /></a>
+             <a href="https://www.telegram.hr/partneri/donna-vekic-simbol-uspjeha-hrvatski-tenis/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/donna.jpg" style="z-index:1 !important" /></a>
           </div>
         </div>
       </div>
