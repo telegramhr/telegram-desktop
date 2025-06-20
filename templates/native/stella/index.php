@@ -161,7 +161,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <div class="col-lg-3"></div>
 
           <div class="col-lg-6 marginagornja text-center">
-              <form action="" method="post">
+              <form id="form" action="" method="post">
                   <!-- Odgovor na pitanje -->
                   <label for="odgovor">Odgovor na pitanje:</label><br>
                   <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
@@ -175,8 +175,12 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <input type="email" id="email" name="email" required><br><br>
 
                   <!-- Gumb za slanje -->
-                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
+                  <input type="submit" id="submit-form" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
                 </form>
+              <div id="submitted" style="display:none;">
+                  <h2>Hvala na prijavi!</h2>
+                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
+              </div>
           </div>
           <div class="col-lg-3 text-left">
              <img src="<?php echo $native_path ?>/assets/images/reketa2.png" style="z-index:1 !important" />
@@ -196,7 +200,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
               <p>Pozivamo čitatelje i ljubitelje tenisa da s nama podijele svoj osvrt na najvažnije servise u povijesti hrvatskog tenisa – kao da ste pravi sportski komentatori! Odgovori na nagradno pitanje i osvoji <span style="font-weight:600 !important">potpisani Yonex reket Donne Vekić, sportski ruksak i paket Stella Artois piva (24x0,5l limenke).</span><br/><br/>Pravila nagradnog natječaja možeš pročitati <a href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-stella-artois/">ovdje</a>.</p>
               <p>Nagradni natječaj odvija se od 12.6.2025. do 26.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
 
-              <form action="" method="post">
+              <form id="form2" action="" method="post">
                   <!-- Odgovor na pitanje -->
                   <label for="odgovor">Odgovor na pitanje:</label><br>
                   <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
@@ -210,8 +214,12 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <input type="email" id="email" name="email" required><br><br>
 
                   <!-- Gumb za slanje -->
-                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
+                  <input type="submit" id="submit-form2" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
                 </form>
+              <div id="submitted2" style="display:none;">
+                  <h2>Hvala na prijavi!</h2>
+                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
+              </div>
           </div>
         </div>
       </div>
