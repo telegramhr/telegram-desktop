@@ -161,7 +161,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <div class="col-lg-3"></div>
 
           <div class="col-lg-6 marginagornja text-center">
-              <form action="" id="form2" method="post">
+              <form action="" method="post">
                   <!-- Odgovor na pitanje -->
                   <label for="odgovor">Odgovor na pitanje:</label><br>
                   <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
@@ -175,12 +175,8 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <input type="email" id="email" name="email" required><br><br>
 
                   <!-- Gumb za slanje -->
-                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" id="submit-form2" value="Pošalji">
+                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
                 </form>
-              <div id="submitted2" style="display:none;">
-                  <h2>Hvala na prijavi!</h2>
-                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
-              </div>
           </div>
           <div class="col-lg-3 text-left">
              <img src="<?php echo $native_path ?>/assets/images/reketa2.png" style="z-index:1 !important" />
@@ -200,7 +196,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
               <p>Pozivamo čitatelje i ljubitelje tenisa da s nama podijele svoj osvrt na najvažnije servise u povijesti hrvatskog tenisa – kao da ste pravi sportski komentatori! Odgovori na nagradno pitanje i osvoji <span style="font-weight:600 !important">potpisani Yonex reket Donne Vekić, sportski ruksak i paket Stella Artois piva (24x0,5l limenke).</span><br/><br/>Pravila nagradnog natječaja možeš pročitati <a href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-stella-artois/">ovdje</a>.</p>
               <p>Nagradni natječaj odvija se od 12.6.2025. do 26.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
 
-              <form action="" id="form" method="post">
+              <form action="" method="post">
                   <!-- Odgovor na pitanje -->
                   <label for="odgovor">Odgovor na pitanje:</label><br>
                   <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
@@ -214,12 +210,8 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
                   <input type="email" id="email" name="email" required><br><br>
 
                   <!-- Gumb za slanje -->
-                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" id="submit-form" value="Pošalji">
+                  <input type="submit" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
                 </form>
-              <div id="submitted" style="display:none;">
-                  <h2>Hvala na prijavi!</h2>
-                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
-              </div>
           </div>
         </div>
       </div>
@@ -239,6 +231,30 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
 </div>
 
 
+<div class="blog" style="background: #f6f0e7;">
+
+  <div class="container-fluid p-0">
+      <div class="row">
+          <div class="col-lg-12">
+             <a href="#" target="_blank"><img src="<?php echo $native_path ?>/assets/images/donna.jpg" style="z-index:1 !important" /></a>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="blog" style="background: #f6f0e7; padding-top: 0; padding-bottom: 0;">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+            <h2>Wimbledon je moj san i moj cilj</h2>
+             <p class="sticky-top" style=" font-weight: 300;">"Tajna je da nema tajne. To je posljedica napornih treninga. Sigurna sam zapravo da je disciplina najvažniji alat, ne samo u sportu, nego i u životu općenito. Na dane kada vam motivacija okrene leđa, disciplina je ono što vas definira."</p>
+             <p><a href="#" target="_blank">Cijeli članak pročitajte ovdje</a>.</p>
+          </div>
+        </div>
+      </div>
+</div>
+
 
 
 <div class="blog sakrijnamob" style="background: #f6f0e7;">
@@ -251,6 +267,8 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
         </div>
       </div>
 </div>
+
+
 
 
 <div class="blog namobitelu" style="background: #f6f0e7;">
