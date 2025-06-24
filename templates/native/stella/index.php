@@ -145,7 +145,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
               <p>Pozivamo čitatelje i ljubitelje tenisa da s nama podijele svoj osvrt na najvažnije servise u povijesti hrvatskog tenisa – kao da ste pravi sportski komentatori! Odgovori na nagradno pitanje i osvoji <span style="font-weight:600 !important">potpisani Yonex reket Donne Vekić, sportski ruksak i paket Stella Artois piva (24x0,5l limenke).</span><br/><br/>Pravila nagradnog natječaja možeš pročitati <a style="font-weight:600 !important" href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-stella-artois/">ovdje</a>.</p>
               <br/><br/>
               <a onclick="goToNext()"><img src="<?php echo $native_path ?>/assets/images/gumb.png"/></a>
-              <p>Nagradni natječaj odvija se od 12.6.2025. do 26.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
+              <p>Nagradni natječaj odvija se od 12.6.2025. do 29.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
           </div>
           <div class="col-lg-3"></div>
         </div>
@@ -198,7 +198,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
       <div class="row">
           <div class="col-lg-12">
               <p>Pozivamo čitatelje i ljubitelje tenisa da s nama podijele svoj osvrt na najvažnije servise u povijesti hrvatskog tenisa – kao da ste pravi sportski komentatori! Odgovori na nagradno pitanje i osvoji <span style="font-weight:600 !important">potpisani Yonex reket Donne Vekić, sportski ruksak i paket Stella Artois piva (24x0,5l limenke).</span><br/><br/>Pravila nagradnog natječaja možeš pročitati <a href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-stella-artois/">ovdje</a>.</p>
-              <p>Nagradni natječaj odvija se od 12.6.2025. do 26.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
+              <p>Nagradni natječaj odvija se od 12.6.2025. do 29.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
 
               <form id="form2" action="" method="post">
                   <!-- Odgovor na pitanje -->
