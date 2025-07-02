@@ -98,7 +98,7 @@
       <div class="col-lg-12">
         <div class="marquee-container">
             <marquee direction="left" scrollamount="4">
-                <h2 style="margin-left: -100%">novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;</h2>
+                <h2 style="margin-left: -100%">novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;</h2>
             </marquee>
         </div>
       </div>
@@ -131,11 +131,11 @@
       </div>
 
       <div class="col-lg-4">
-        <a href="https://www.telegram.hr/super1/beauty/termalna-cetka-za-kosu/" target="_blank">
+        <a href="https://www.telegram.hr/super1/beauty/skin-muse-jn-beauty-kolekcija/" target="_blank">
         <div class="karticatri">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/7PCw6hOZVw3Lf-H81jJ10lxMOtA471jbAFcuuMKdnSQ/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvdGFpbmFjc2ctdGVybWFsbmEtY2V0a2EtbmFzbG92bmEuanBn.webp"/>
-          <h4>Ova četka za kosu je toliko dobra da će vam frizura izgledati kao da ste izašli iz frizerskog salona</h4>
+          <img src="https://images.telegram.hr/lkansv7IE61SdO0VHIqBCrqwSwDhllcPFprWk-hvbFo/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvbmFzbG92bmEtNS5qcGc.webp"/>
+          <h4>Nude make-up koji pristaje baš svakome: Otkrijte Skin Muse kolekciju brenda JN Beauty</h4>
         </div>
         </a>
       </div>
@@ -180,7 +180,6 @@
         </div>
         </a>
       </div>
-      <div class="col-lg-2"></div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/beauty/spf-vodic-za-tijelo-kosu-lice-djecu-bipa/" target="_blank">
           <div class="kartica">
@@ -198,6 +197,15 @@
             <h4>Njega tijela i lica poslije sunčanja je jako važna. Ovo su must have proizvodi koji spašavaju kožu ljeti</h4>
           </div>
           </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.telegram.hr/super1/look/biorela-ladybiotic-intimno-zdravlje/" target="_blank">
+        <div class="karticatri">
+          <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+          <img src="https://images.telegram.hr/Ce2NZOvUfTg0OwS5-3xoHJ5WhfgJEGf17F5HJzRjq9k/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvYmlvcmVsYS1uYXNsb3ZuYS5wbmc.webp"/>
+          <h4>Sitnice koje kvare odmor: Kako izbjeći ljetne greške koje utječu na intimno zdravlje?</h4>
+        </div>
+        </a>
       </div>
     </div>
   </div>
