@@ -112,20 +112,20 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
-          <a href="https://www.telegram.hr/super1/life/ljetnni-filmski-festivali-u-hrvatskoj-vodic/" target="_blank">
+          <a href="https://www.telegram.hr/super1/beauty/jn-beauty-lip-oils/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/oWS7Z5E5_WwFd5JYRfs1mGy0ExrHZckiIsmxlo719-g/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvcHhsLTExMDcyNC0xMTc0MDI2MDcuanBn.webp"/>
-            <h4>Od Brača do Velikog Tabora, donosimo popis ljetnih filmskih festivala koje biste trebali posjetiti</h4>
+            <img src="https://images.telegram.hr/FUebXhSOy5ZLPf1TjpIY8T8B1XxeUeKCW5yr_perfNk/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDcvbGlwLW9pbHMtMy5qcGc.webp"/>
+            <h4>Pronašli smo lip ulja koja će vam ovog ljeta zamijeniti i balzam i ruž i sjajilo</h4>
           </div>
           </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://www.telegram.hr/super1/look/glastonbury-2025-glazbeni-festival-modna-izdanja-zvijezde/" target="_blank">
+        <a href="https://www.telegram.hr/super1/life/fuliranje-summer-sunset-jela-sto-probati/ " target="_blank">
         <div class="karticadva">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/W-RCwDVs6O3VOWtIpcrN6CwPoLtho0BGcnzgmETrFo8/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvZ2xhc3RvbmJ1cnktMjAyNS1tb2RhLmpwZw.webp"/>
-          <h4>Od Alexe Chung do Lily James, izdvajamo najbolje festivalske lookove s ovogodišnjeg Glastonburyja</h4>
+          <img src="https://images.telegram.hr/7enAZMlmlQSFsUgCaWNYVuCZpZF1Bjb0eMN2krDWXoY/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDcvZGlvLWRlbGljaWphLW5hLWZ1bGlyYW5qZS1zdW1tZXItc3Vuc2V0dS1yb3RhdGVkLmpwZw.webp"/>
+          <h4>Počela je ljetna verzija Fuliranja, ponuda hrane je dosta dobra, a posebno izdvajamo ova jela</h4>
         </div>
         </a>
       </div>
@@ -245,7 +245,6 @@
         </div>
         </a>
       </div>
-      <div class="col-lg-2"></div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/shopping-vodic/flabelus-cipele-instagram-viralni-komad/" target="_blank">
           <div class="kartica">
@@ -257,10 +256,19 @@
       </div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/look/orlaith-melia-instagram-influencerica-modni-stil-inspiracija-ljetni-look/" target="_blank">
-          <div class="karticatri">
+          <div class="karticadva">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
             <img src="https://images.telegram.hr/HGbUsGOFWQq-KibvLIrnsy3cRaxiXqjWpUDlGdObtnk/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvb3JsYWl0aC1tZWxpYS1pbnN0YWdyYW0taW5zcG8uanBn.webp"/>
             <h4>5 ljetnih lookova koje ćemo kopirati s profila ove influencerice poznate po selfijima u ogledalu</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/shopping-vodic/cipele-ljetno-snizenje-najbolji-modeli/" target="_blank">
+          <div class="karticatri">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="https://images.telegram.hr/ZoZVj0-8im2i7NxCIaQQZCyXCe7gVVjG0bh9CPwxSao/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDcvc2hvZXMtb24tc2FsZS1jb3Zlci5wbmc.webp"/>
+            <h4>Od trendi sandala do klasičnih mokasina: Donosimo veliki vodič kroz top modele cipela na sniženju</h4>
           </div>
           </a>
       </div>
@@ -303,7 +311,6 @@
         </div>
         </a>
       </div>
-      <div class="col-lg-2"></div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/life/top-ideje-za-solo-dejt/" target="_blank">
           <div class="kartica">
@@ -315,10 +322,19 @@
       </div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/life/krk-obiteljski-odmor-kamp-slamni/" target="_blank">
-          <div class="karticatri">
+          <div class="karticadva">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
             <img src="https://www.telegram.hr/wp-content/uploads/2025/06/5-5-800x602.jpg"/>
             <h4>Tražite savršeno mjesto za ljetovanje s djecom? Evo zašto će se na Krku i roditelji odmoriti</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/najbolje-pjescane-plaze-europa/" target="_blank">
+          <div class="karticatri">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="https://images.telegram.hr/OoPbi9jrgEAr1dhRtD5HIY8WbKY4wIxBiZ-NWCHOe-o/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDcvc2h1dHRlcnN0b2NrLTM2Nzk1MjQ0Ny5qcGc.webp"/>
+            <h4>Ovo su najljepše pješčane plaže u Europi koje morate staviti na svoju bucket listu</h4>
           </div>
           </a>
       </div>
