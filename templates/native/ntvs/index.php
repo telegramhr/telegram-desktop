@@ -40,7 +40,7 @@
   <!-- ***** Preloader Start ***** -->
 
 
-<div class="blog" id="top" style="position: relative; padding-top:60px; background: url('<?php echo $native_path ?>/assets/images/prvi.webp') no-repeat; background-size: cover; background-position:50% 80%">
+<div class="blog" id="top" style="position: relative; padding-top:60px; background: url('<?php echo $native_path ?>/assets/images/prvi.webp') no-repeat; 100% 100%;">
 
   <!-- Main Content -->
   <div class="container" style="position: relative; z-index: 2;">
@@ -80,7 +80,7 @@
 
 
 
-<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi.webp') no-repeat; background-size: cover; background-position:50% 100%; padding-top: 90px; padding-bottom: 50px;">
+<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi.webp') no-repeat; 100% 100%; padding-top: 90px; padding-bottom: 50px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-3 text-center" style="background: #fff;">
@@ -92,7 +92,7 @@
 </div>
 
 
-<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; 100% 100%; padding-top: 0;">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
@@ -108,7 +108,7 @@
 </div>
 
 
-<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi2a.webp') no-repeat; 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
@@ -146,7 +146,7 @@
 
 
 
-<div class="blog" id="beauty" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" id="beauty" style="background: url('<?php echo $native_path ?>/assets/images/drugi2b.webp') no-repeat; 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -211,7 +211,7 @@
   </div>
 </div>
 
-<div class="blog" id="fashion" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" id="fashion" style="background: url('<?php echo $native_path ?>/assets/images/drugi2c.webp') no-repeat; 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -277,7 +277,7 @@
 </div>
 
 
-<div class="blog" id="lifestyle" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" id="lifestyle" style="background: url('<?php echo $native_path ?>/assets/images/drugi2b.webp') no-repeat; 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -346,7 +346,7 @@
 
 
 
-  <div id="clanci" class="blog" style="z-index: 100; position: relative; padding-top: 100px; padding-bottom: 120px; overflow: hidden; background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+  <div id="clanci" class="blog" style="z-index: 100; position: relative; padding-top: 100px; padding-bottom: 120px; overflow: hidden; background: url('<?php echo $native_path ?>/assets/images/drugi2c.webp') no-repeat; 100% 100%; padding-top: 0;">
 
 
     <div class="container-fluid wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
