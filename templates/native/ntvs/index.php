@@ -338,6 +338,19 @@
           </div>
           </a>
       </div>
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/najmocniji-magnezij-za-ljeto-natural-wealth/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="https://telegram.reset.hr/ntvs/assets/images/ljetni-umor.webp"/>
+            <h4>Osjećate se iscrpljeno po ljetnim vrućinama? Isprobajte ovaj najmoćniji magnezij</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+      </div>
     </div>
   </div>
 </div>
