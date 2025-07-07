@@ -5,7 +5,7 @@
     // use this native path to embed all the files from project that are included with project, images, scripts, ...
     // we will change this when we upload the project to the server
     // this way we only need to change in one place
-    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/stella/';
+    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/generic/';
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
@@ -13,13 +13,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 <style type="text/css">
-
+    
         @-webkit-keyframes vrtnja { 0% { -webkit-transform:rotate(0deg) } 100% { -webkit-transform: rotate(360deg);} }
         @keyframes vrtnja { 0% { transform:rotate(0deg) } 100% { transform: rotate(360deg);} }
 
 
 </style>
 <style>
+
+    .carousel-control-next, .carousel-control-prev {width: 5% !important}
     .slide-wrapper {
       position: relative;
       overflow: hidden;
@@ -55,6 +57,18 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" type="image/x-icon" href="<?php echo $native_path ?>/assets/images/favicon.png">
+
+    <title>The Perfect</title>
+
+    <meta property="og:url"                content="http://www.telegram.hr" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Serve" />
+    <meta property="og:description"        content="Jedan potez. Jedan reket i jedna loptica nevjerojatne brzine. Milimetri odlučuju, a sekunde pišu povijest." />
+    <meta property="og:image"              content="<?php echo $native_path ?>/assets/images/facebook.jpg" />
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -92,10 +106,10 @@
 
 <div class="blog" style="background: #f6f0e7;">
   <div class="container">
-      <div class="row">
+      <div class="row">  
 
           <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
-
+            
              <p class="sticky-top" style=" font-weight: 300;">Jedan potez. Jedan reket i jedna loptica nevjerojatne brzine. Milimetri odlučuju, a sekunde pišu povijest.<br/><br/><span style="font-weight:600 !important">Telegram i Stella Artois</span> traže baš takve trenutke. Prisjetite se onog
 savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
           </div>
@@ -107,7 +121,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
 <div class="blog" style="background: #f6f0e7; padding-bottom: 80px; padding-top: 0;">
 
   <div class="container">
-      <div class="row">
+      <div class="row">  
           <div class="col-lg-4 offset-lg-4 text-center">
              <img class="smanjinamob" src="<?php echo $native_path ?>/assets/images/pivo.png" style="z-index:1 !important" />
           </div>
@@ -117,14 +131,15 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
 
 
 
-<div class="blog" id="pitanje" style="background: #f6f0e7; padding-bottom: 30px; padding-top: 0;">
+<div class="blog" style="background: #f6f0e7; padding-bottom: 30px; padding-top: 0;">
 
-  <div class="container-fluid p-0">
-      <div class="row">
-        <div class="col-lg-4">
-        </div>
-          <div class="col-lg-5 text-left">
+  <div class="container p-0">
+      <div class="row">  
+          <div class="col-lg-6 offset-lg-3 text-center">
              <h2>Koji je, po tebi, najvažniji servis u povijesti hrvatskog tenisa – i zašto?</h2>
+             <p>Pitali smo vas koji je, po vama, najvažniji servis u povijesti hrvatskog tenisa i zašto? Svoje odgovore ste poslali u stilu sportskih komentara, i 6 najboljih je osvojilo nagrade. <br/><br/>U nastavku donosimo listu pobjednika i najbolje odgovore.</p><br/><br/>
+             <h3 style="font-weight:700 !important">Nagrade su osvojili: </h3><br/><br/>
+             <h4 style="font-weight:700 !important">Nada Jagnjić<br/>Nikol Valinčić<br/>Ružica Mandić<br/>Antonio Klemić<br/>Davor Lerić<br/>Lucija Perić</h4>
           </div>
         </div>
       </div>
@@ -132,135 +147,80 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
 
 
 
-<div class="slide-wrapper sakrijnamob">
-  <!-- Prvi ekran -->
-  <div id="screen1" class="slide onscreen">
-    <div class="container-fluid p-0">
-      <div class="row">
-          <div class="col-lg-3 text-left">
-             <img src="<?php echo $native_path ?>/assets/images/reketa1.png" style="z-index:1 !important" />
+<div class="blog" style="background: #f6f0e7; padding-bottom: 30px; padding-top: 0;">
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="col-12 bg-white text-center p-5" style="border-radius: 15px;">
+              <p>"Ivanišević, Wimbledon 2001., finale protiv Raftera.<br/><br/>Peti set, 8-7, četvrta meč lopta...<br/><br/>Tišina u mom dnevnom boravku je bila grobna. Mama drži tatin rukav kao da će se utopiti. Tata ne trepće. Susjedov televizor se čuje kroz zid - cijela zgradi diše kao jedan. Goran uzima loptu. Odskoči jednom, dvaput. Srce mi lupa kao da je moje ime na marker-u. Pogled prema nebu. Onaj njegov pogled kada moli sve svece da mu ne zataji ruka. Zagreb je stao. Split je stao. Karlovac, Osijek, Dubrovnik - sve je stalo.<br/><br/>I onda...<br/><br/>Zalet. Ruka se podiže kao katapult. Lopta leti kao da nosi sve naše molitve. Nije to bio savršeni servis,ali je bio dovoljno dobar da Rafter lopticu zakuca u mrežu. I zbog toga je savršen,jer se njime ispisala naša teniska povijest. Goran pada na travu. Ruke raširene kao da hoće zagrliti cijeli svijet. A u tom trenutku...<br/><br/>Moj tata viče tako glasno da se susjedi plaše. Mama plače i smije se istovremeno. Ja skačem po sofi kao nenormalna. Na ulici se čuju trube. Netko puca petarde. Susjeda viče s balkona: ""NAAAAAŠŠ!"" To je bila pobjeda nacije. Kad je Goran ustao s te trave, podigao je i nas. Sve nas. Malu zemlju koja je htjela biti velika. Sve što je došlo poslije - Čilić, Karlović, Donna, Davis Cup - sve nosi DNK tog servisa.<br/><br/>To je servis koji je dokazao: ""Hrvatska postoji. I mi smo jači nego što mislite."<br/><br/><br/>- <span style="font-weight:800 !important">Nada Jagnjić</span></p>
+            </div>
           </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-5 marginagornja">
-              <p>Pozivamo čitatelje i ljubitelje tenisa da s nama podijele svoj osvrt na najvažnije servise u povijesti hrvatskog tenisa – kao da ste pravi sportski komentatori! Odgovori na nagradno pitanje i osvoji <span style="font-weight:600 !important">potpisani Yonex reket Donne Vekić, sportski ruksak i paket Stella Artois piva (24x0,5l limenke).</span><br/><br/>Pravila nagradnog natječaja možeš pročitati <a style="font-weight:600 !important" href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-stella-artois/">ovdje</a>.</p>
+          <div class="carousel-item">
+            <div class="col-12 bg-white text-center p-5" style="border-radius: 15px;">
+              <p>"Dame i gospodo, dobrodošli u povijest!
+              <br/><br/>Ako postoji udarac koji je Hrvatsku stavio na tenisku kartu svijeta, to je – servis. Hrvatski tenisači nisu samo slali loptice preko mreže – oni su ih katapultirali, mjerili ih u stotinama kilometara na sat i njome osvajali srca navijača i... Grand Slamove.
+              <br/><br/>Goran Ivanišević – 'As iz snova'<br/>
+              Kad je Wimbledon 2001. eksplodirao u euforiji, to nije bio samo turnir, to je bila katarza. Ivaniševićev servis bio je najubojitije oružje tog ljeta. Ljevak iz Splita tresao je mrežu s desecima asova – čak 213 asova tijekom turnira, uključujući 21 u finalu protiv Raftera. Goran nije igrao po pravilima fizike, on ih je pisao iznova – svaki put kad bi bacio lopticu u zrak.
               <br/><br/>
-              <a onclick="goToNext()"><img src="<?php echo $native_path ?>/assets/images/gumb.png"/></a>
-              <p>Nagradni natječaj odvija se od 12.6.2025. do 29.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
+              Ivo Karlović – 'Doktor As'<br/>
+              A onda – Ivo Karlović. Visok 2,11 m, njegov servis nije dolazio – on je padao s neba. S više od 13.500 asova u karijeri, Karlović je apsolutni rekorder i simbol servis-dominacije. Tko ga nije doživio na betonu Cincinnatija ili travi Wimbledona, ne zna što znači – biti nemoćan na reternu.
+              <br/><br/>
+              Marin Čilić – 'Servis stabilnosti'<br/>
+              Čilićev servis nije bio čista sirova snaga, nego kombinacija preciznosti, tajminga i pouzdanosti. Na putu do naslova na US Openu 2014., Marin je ostavio servis-impresiju – asovi u ključnim trenucima, bez dvostrukih pogrešaka, uvijek hladne glave. Nije se bojao servirati za meč protiv Federera. Niti protiv Nishikorija u finalu.
+              <br/><br/>
+              Hrvatski servis kroz povijest nije bio samo udarac – bio je oružje, zaštitni znak, i put prema teniskoj besmrtnosti. Od Ivaniševićevih ""bombardiranja"", preko Karlovićevih ""projektila"", do Čilićevih ""strelovitih preciznosti"" – hrvatski servis je vrisak talenta i ponosa."<br/><br/><br/>- <span style="font-weight:800 !important">Nikol Valinčić</span></p>
+            </div>
           </div>
-          <div class="col-lg-3"></div>
+          <div class="carousel-item">
+            <div class="col-12 bg-white text-center p-5" style="border-radius: 15px;">
+              <p>"Vjerujem da je kroz povijest hrvatskog tenisa odigrano mnogo važnih servisa, od kojih su neki ispisali povijest i donijeli nam nezaboravne trenutke. Ipak, mnogih od tih trenutaka se ili ne sjećam jer tada nisam bila rođena, ili sam bila premlada da bih ih doživjela na pravi način.<br/><br/>
+              Zato je za mene osobno najvažniji servis u povijesti hrvatskog tenisa onaj Donne Vekić protiv Marte Kostyuk u četvrtfinalu Olimpijskih igara 2024. godine.
+              To ljeto sam provela u Americi. Zbog vremenske razlike većina Donninih mečeva počinjala je u 6 ujutro po lokalnom vremenu, a kako su se igrali dan za danom, već sam bila iscrpljena – budila sam se rano i odmah nakon toga odlazila na duple smjene na poslu.<br/><br/>
+              No, za taj meč, koji je značio borbu za medalju, odlučila sam uzeti slobodan dan i napokon gledati u miru. Međutim, bilo je sve samo ne mirno! Meč je trajao gotovo tri sata i bio ispunjen napetosti, preokretima i živciranjem. Iako Donnin postotak prvog servisa tijekom meča nije bio najsjajniji, upravo taj posljednji servis za pobjedu bio je najvažniji. Kad je najviše trebalo, servisom je zaključila meč i izborila plasman među četiri najbolje tenisačice svijeta.<br/><br/>
+              Taj trenutak, nakon tri sata borbe, umora i navijanja, ostao mi je duboko urezan u sjećanje. Ne samo zato što je značio ulazak u polufinale, već zato što je kasnije rezultirao i povijesnom srebrenom medaljom – prvom olimpijskom medaljom za hrvatski ženski tenis.<br/><br/>
+              Za mene, to nije bio samo sportski trenutak, bio je to trenutak povezanosti, ponosa i strasti, koji me podsjetio koliko sport može dirnuti srce i ostati s nama cijeli život."<br/><br/><br/>- <span style="font-weight:800 !important">Ružica Mandić</span></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 bg-white text-center p-5" style="border-radius: 15px;">
+              <p>"Ne mogu reći da sam odmalena bio teniski fanatik. Tenis sam gledao usput – finale Wimbledona, malo Đokovića, malo Federera. I onda – Donna. Ne zato što je bila najbolja, nego jer je bila stvarna. Jer nije imala ‘sve posloženo’. Jer sam prvi put vidio sportašicu koja ne ide linijom manjeg otpora.<br/><br/>
+
+              Na Olimpijskim igrama u Tokiju 2021. gledam je kako jedva hoda između poena, koljeno joj omotano, izrazi lica kao da joj tijelo govori da stane. U drugom kolu protiv Buzărnescu izvlači gemove preko čiste volje. Servis – ne za as, ne za spektakl, nego za ostati u igri. U osmini finala protiv Rybakine pada. Ali taj meč nije bio poraz. Bio je dokaz. Da je stigla tamo ozlijeđena, borila se, pobijedila dvije protivnice, igrala za Hrvatsku bez kalkulacije, bez odustajanja.<br/><br/>
+
+              Godinu dana kasnije operacija. Pa mukotrpan oporavak. Pa povratak. Gledam 2023. kad ulazi u četvrtfinale Australian Opena, kad svi misle da je gotova – a ona ide još jače. Nema halabuke, nema self-help citata, samo ona i teren. I servis koji sad ima još veću težinu jer znaš što stoji iza njega – sve što je preživjela.<br/><br/>
+
+              Za mene, najvažniji servis u povijesti hrvatskog tenisa nije onaj koji je donio naslov, nego onaj Donnin u Tokiju – kad je servirala s jednim koljenom, za sebe, za svoj inat, za dres s hrvatskim grbom. Taj servis ne postoji u highlightima. Ali postoji u svakom tko zna koliko boli treba da bi mogao ponovno stati na liniju, podignuti reket i reći: još igram."<br/><br/><br/>- <span style="font-weight:800 !important">Antonio Klemić</span></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 bg-white text-center p-5" style="border-radius: 15px;">
+              <p>"Iako svi pamtimo sjajnu Ivaniševićevu igru u finalu Wimbeldona 2001. gdje je zahvaljujući svojem izvrsnom servisu i čak 27 aseva osvojio titulu, rijetko tko spominje ogromni uspjeh Ive Majoli na Roland Garrosu 1997. gdje je Hrvatskoj donijela i prvu Grand Slam titulu.<br/><br/>Nije rijetka pojava da na velikim natjecanjima hrvatski sportaši ulaze kao autsajderi, što je bio slučaj i s Majoli, ali zato su pobjede s kojima često izlazimo protiv glavnih favorita još i slađe. Majoli je sredinom prvog seta uspjela osvojiti break i doći u prednost, ali sljedeći servis gem bio je ključan da tu prednost i zadrži. Majoli je u kritičnom gemu dominirala, a istaknuo bih servis kod rezultata 30:0 gdje se Majoli kod drugog servisa odlučila za riskantni široki servis blizu linije kojeg suparnica nije uspjela iskontrolirati. To je pokazalo koliko je Majoli i psihički spremna da bude na velikoj pozornici jer je i u ključnim trenucima meča zadržala koncentraciju i nije se predavala. Tu prednost je naposljetku konvertirala i u osvajanje seta, a tempo igre je nastavila i u drugom setu kojeg je bez velikih poteškoća dobila te osvojila jednu od najprestižnijih titula.<br/><br/>Veliki uspjeh Ive Majoli doprinuo je i popularizaciji tenisa u Hrvatskoj te inspirirao buduće generacije hrvatskih tenisača i tenisačica, uključujući i finalisticu Olimpijskih igara Donnu Vekić."<br/><br/><br/>- <span style="font-weight:800 !important">Davor Lerić</span></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 bg-white text-center p-5" style="border-radius: 15px;">
+              <p>"Dame i gospodo, pripremite se za retrospektivu servisa koji nisu samo osvajali poene, nego i srca – dobro došli u povijest hrvatskog tenisa!<br/><br/>Počinjemo s Goranom Ivaniševićem i Wimbledonom 2001. – meč-lopta, nervi na izmaku, a Goran šalje as ravno u vječnost. Bio je to servis koji nije bio samo tehnički savršen – bio je emocionalno savršen. Pravi perfect serve jedne generacije.<br/><br/>Zatim, Ivo Karlović – statistički fenomen i čovjek čiji je servis imao vlastitu gravitaciju. Doktor Ivo, gospodar aseva, servirao je s toliko milimetarske preciznosti da bi i švicarski sat bio ljubomoran.<br/><br/>I ne smijemo zaboraviti Donnu Vekić, našu prvakinju sadašnjice. Njezina sposobnost da u ključnim trenucima servira hladne, fokusirane loptice na samu liniju pokazuje da perfect serve nije samo pitanje sile – nego i stava.<br/><br/>Kao i savršeno servirana Stella Artois, i ovi servisi traže pažnju, balans i majstorstvo. A kad se spoje u pravom trenutku – stvaraju povijest.<br/><br/>Zato i ja šaljem ovaj svoj osvrt u nadi da će završiti točno na liniji – pa možda i osvojim potpisani reket, ruksak i hladan paket Stella Artoisa. Jer realno – tko ne bi poželio vlastiti perfect serve?"<br/><br/><br/>- <span style="font-weight:800 !important">Lucija Perić</span></p>
+            </div>
+          </div>
         </div>
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon d-none"></span>
+          <span class="fs-1 text-dark">&#8249;</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon d-none"></span>
+          <span class="fs-1 text-dark">&#8250;</span>
+        </button>
       </div>
+    </div>
   </div>
-
-
-
-  <!-- Drugi ekran -->
-  <div id="screen2" class="slide offscreen-left">
-    <div class="container-fluid p-0">
-      <div class="row">
-                  <div class="col-lg-3"></div>
-
-          <div class="col-lg-6 marginagornja text-center">
-              <form id="form" action="" method="post">
-                  <!-- Odgovor na pitanje -->
-                  <label for="odgovor">Odgovor na pitanje:</label><br>
-                  <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
-
-                  <!-- Ime i prezime -->
-                  <label for="imePrezime">Ime i prezime:</label><br>
-                  <input type="text" id="imePrezime" name="imePrezime" required><br><br>
-
-                  <!-- Email adresa -->
-                  <label for="email">Email adresa:</label><br>
-                  <input type="email" id="email" name="email" required><br><br>
-
-                  <!-- Gumb za slanje -->
-                  <input type="submit" id="submit-form" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
-                </form>
-              <div id="submitted" style="display:none;">
-                  <h2>Hvala na prijavi!</h2>
-                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
-              </div>
-          </div>
-          <div class="col-lg-3 text-left">
-             <img src="<?php echo $native_path ?>/assets/images/reketa2.png" style="z-index:1 !important" />
-          </div>
-        </div>
-      </div>
-  </div>
 </div>
 
-
-
-<div class="blog namobitelu" style="background: #f6f0e7; padding-top: 0;">
-
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12">
-              <p>Pozivamo čitatelje i ljubitelje tenisa da s nama podijele svoj osvrt na najvažnije servise u povijesti hrvatskog tenisa – kao da ste pravi sportski komentatori! Odgovori na nagradno pitanje i osvoji <span style="font-weight:600 !important">potpisani Yonex reket Donne Vekić, sportski ruksak i paket Stella Artois piva (24x0,5l limenke).</span><br/><br/>Pravila nagradnog natječaja možeš pročitati <a href="https://www.telegram.hr/partneri/pravila-nagradnog-natjecaja-stella-artois/">ovdje</a>.</p>
-              <p>Nagradni natječaj odvija se od 12.6.2025. do 29.6.2025. na portalu Telegram.<br/><br/>Nagradu osigurava Zagrebačka pivovara, a uručuje ju Telegram.<br/><br/>Unutar ovog nagradnog natječaja, dijelimo šest nagrada. </p>
-
-              <form id="form2" action="" method="post">
-                  <!-- Odgovor na pitanje -->
-                  <label for="odgovor">Odgovor na pitanje:</label><br>
-                  <textarea id="odgovor" name="odgovor" rows="4" cols="50" required></textarea><br><br>
-
-                  <!-- Ime i prezime -->
-                  <label for="imePrezime">Ime i prezime:</label><br>
-                  <input type="text" id="imePrezime" name="imePrezime" required><br><br>
-
-                  <!-- Email adresa -->
-                  <label for="email">Email adresa:</label><br>
-                  <input type="email" id="email" name="email" required><br><br>
-
-                  <!-- Gumb za slanje -->
-                  <input type="submit" id="submit-form2" style="background:#c32939; color: #fff; font-size: 20px; font-weight: 800;" value="Pošalji">
-                </form>
-              <div id="submitted2" style="display:none;">
-                  <h2>Hvala na prijavi!</h2>
-                  <p>Vaš odgovor je uspješno poslan. Sretno!</p>
-              </div>
-          </div>
-        </div>
-      </div>
-</div>
-
-
-
-<div class="blog" style="background: #f6f0e7; padding-bottom: 0; padding-top: 0;">
-
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12">
-              <img src="<?php echo $native_path ?>/assets/images/nagrada.jpg" style="z-index:1 !important" />
-          </div>
-        </div>
-      </div>
-</div>
-
-
-<div class="blog" style="background: #f6f0e7;">
-
-  <div class="container-fluid p-0">
-      <div class="row">
-          <div class="col-lg-12">
-             <a href="https://www.telegram.hr/partneri/donna-vekic-simbol-uspjeha-hrvatski-tenis/" target="_blank"><img src="<?php echo $native_path ?>/assets/images/donna.jpg" style="z-index:1 !important" /></a>
-          </div>
-        </div>
-      </div>
-</div>
-
-<div class="blog" style="background: #f6f0e7; padding-top: 0; padding-bottom: 0;">
-  <div class="container">
-      <div class="row">
-
-          <div class="col-lg-6 offset-lg-3 text-center wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
-            <h2>Wimbledon je moj san i moj cilj</h2>
-             <p class="sticky-top" style=" font-weight: 300;">"Tajna je da nema tajne. To je posljedica napornih treninga. Sigurna sam zapravo da je disciplina najvažniji alat, ne samo u sportu, nego i u životu općenito. Na dane kada vam motivacija okrene leđa, disciplina je ono što vas definira."</p>
-             <p><a href="https://www.telegram.hr/partneri/donna-vekic-simbol-uspjeha-hrvatski-tenis/" target="_blank">Cijeli članak pročitajte ovdje</a>.</p>
-          </div>
-        </div>
-      </div>
 </div>
 
 
@@ -268,7 +228,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
 <div class="blog sakrijnamob" style="background: #f6f0e7;">
 
   <div class="container-fluid p-0">
-      <div class="row">
+      <div class="row">  
           <div class="col-lg-12">
              <a href="#pitanje"><img src="<?php echo $native_path ?>/assets/images/slika.jpg" style="z-index:1 !important" /></a>
           </div>
@@ -282,7 +242,7 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
 <div class="blog namobitelu" style="background: #f6f0e7;">
 
   <div class="container-fluid p-0">
-      <div class="row">
+      <div class="row">  
           <div class="col-lg-12">
              <a href="#pitanje"><img src="<?php echo $native_path ?>/assets/images/slika-mobilna.jpg" style="z-index:1 !important" /></a>
           </div>
@@ -374,43 +334,6 @@ savršenog servisa koji vam je ostao u sjećanju i podijelite ga s nama.</p>
   <script src="<?php echo $native_path ?>/assets/js/imagesloaded.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/custom.js"></script>
   <script src="<?php echo $native_path ?>/assets/js/script.js"></script>
-
-<script src="https://super1.telegram.hr/wp-content/themes/super1-theme/templates/native/super1/superdan/jquery.serialize-object.min.js"></script>
-<script>
-    var $form = jQuery('form#form'), $form2 = jQuery('form#form2'),
-        url = 'https://script.google.com/macros/s/AKfycbxsSE9IVIUmPyA3W-jHIObwIad_RqNPWCWxR_ZlTTmcx5-T6f8mow9twvfxQa-NKJGQ7A/exec'
-
-    $form.on('submit', function(e) {
-        e.preventDefault();
-        jQuery('#submit-form').attr('disable', true);
-        var jqxhr = jQuery.ajax({
-            url: url,
-            method: "GET",
-            dataType: "json",
-            data: $form.serializeObject()
-        }).done(
-            function(){
-                jQuery('#form').hide();
-                jQuery('#submitted').show();
-            }
-        );
-    })
-    $form2.on('submit', function(e) {
-        e.preventDefault();
-        jQuery('#submit-form2').attr('disable', true);
-        var jqxhr = jQuery.ajax({
-            url: url,
-            method: "GET",
-            dataType: "json",
-            data: $form2.serializeObject()
-        }).done(
-            function(){
-                jQuery('#form2').hide();
-                jQuery('#submitted2').show();
-            }
-        );
-    })
-</script>
 
     <!-- this is required to load all the analytics and other scripts -->
     <?php wp_footer(); ?>
