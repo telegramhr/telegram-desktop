@@ -121,11 +121,11 @@
           </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://www.telegram.hr/super1/life/fuliranje-summer-sunset-jela-sto-probati/ " target="_blank">
+        <a href="https://www.telegram.hr/super1/shopping-vodic/haljine-za-plazu-ljeto-2025/ " target="_blank">
         <div class="karticadva">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="<?php echo $native_path ?>/assets/images/novost2.webp"/>
-          <h4>Počela je ljetna verzija Fuliranja, ponuda hrane je dosta dobra, a posebno izdvajamo ova jela</h4>
+          <img src="https://telegram.reset.hr/ntvs/assets/images/jessie-bush-cover.webp"/>
+          <h4>Haljina za plažu je nova haljina za sve, a mi smo pronašli najbolje H&M i Zara modele</h4>
         </div>
         </a>
       </div>
