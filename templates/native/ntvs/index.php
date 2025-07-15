@@ -40,7 +40,7 @@
   <!-- ***** Preloader Start ***** -->
 
 
-<div class="blog" id="top" style="position: relative; padding-top:60px; background: url('<?php echo $native_path ?>/assets/images/prvi.webp') no-repeat; background-size: cover; background-position:50% 80%">
+<div class="blog" id="top" style="position: relative; padding-top:60px; background: url('<?php echo $native_path ?>/assets/images/prvi.webp') no-repeat; background-size: 100% 100%;">
 
   <!-- Main Content -->
   <div class="container" style="position: relative; z-index: 2;">
@@ -80,11 +80,11 @@
 
 
 
-<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi.webp') no-repeat; background-size: cover; background-position:50% 100%; padding-top: 90px; padding-bottom: 50px;">
+<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi.webp') no-repeat; background-size: 100% 100%; padding-top: 90px; padding-bottom: 50px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-3 text-center" style="background: #fff;">
-           <img src="<?php echo $native_path ?>/assets/images/slika.png" style="padding:30px 20px" />
+           <img src="<?php echo $native_path ?>/assets/images/slika.gif" style="padding:30px 20px" />
            <p style="padding: 0px 20px; padding-bottom: 30px;">Dobro došli u Super1 ljetni kutak posvećen uživanju – u suncu, moru, dobrom stilu, ukusnoj hrani i svemu što ljeto čini posebnim. Od omiljenih proizvoda do skrivenih destinacija i sezonskih beauty favorita, ovdje skupljamo sve priče koje mirišu na sol, slobodu i dobar provod</p>
       </div>
     </div>
@@ -92,13 +92,13 @@
 </div>
 
 
-<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: 100% 100%; padding-top: 0;">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
         <div class="marquee-container">
             <marquee direction="left" scrollamount="4">
-                <h2 style="margin-left: -100%">novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;</h2>
+                <h2 style="margin-left: -100%">novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;novosti&nbsp;&nbsp;&nbsp;</h2>
             </marquee>
         </div>
       </div>
@@ -108,34 +108,34 @@
 </div>
 
 
-<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" style="background: url('<?php echo $native_path ?>/assets/images/drugi2a.webp') no-repeat; background-size: 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
-          <a href="https://www.telegram.hr/super1/life/ljetnni-filmski-festivali-u-hrvatskoj-vodic/" target="_blank">
+          <a href="https://www.telegram.hr/super1/beauty/jn-beauty-lip-oils/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/oWS7Z5E5_WwFd5JYRfs1mGy0ExrHZckiIsmxlo719-g/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvcHhsLTExMDcyNC0xMTc0MDI2MDcuanBn.webp"/>
-            <h4>Od Brača do Velikog Tabora, donosimo popis ljetnih filmskih festivala koje biste trebali posjetiti</h4>
+            <img src="<?php echo $native_path ?>/assets/images/novost1.webp"/>
+            <h4>Pronašli smo lip ulja koja će vam ovog ljeta zamijeniti i balzam i ruž i sjajilo</h4>
           </div>
           </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://www.telegram.hr/super1/look/glastonbury-2025-glazbeni-festival-modna-izdanja-zvijezde/" target="_blank">
+        <a href="https://www.telegram.hr/super1/shopping-vodic/haljine-za-plazu-ljeto-2025/ " target="_blank">
         <div class="karticadva">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/W-RCwDVs6O3VOWtIpcrN6CwPoLtho0BGcnzgmETrFo8/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvZ2xhc3RvbmJ1cnktMjAyNS1tb2RhLmpwZw.webp"/>
-          <h4>Od Alexe Chung do Lily James, izdvajamo najbolje festivalske lookove s ovogodišnjeg Glastonburyja</h4>
+          <img src="https://telegram.reset.hr/ntvs/assets/images/jessie-bush-cover.webp"/>
+          <h4>Haljina za plažu je nova haljina za sve, a mi smo pronašli najbolje H&M i Zara modele</h4>
         </div>
         </a>
       </div>
 
       <div class="col-lg-4">
-        <a href="https://www.telegram.hr/super1/beauty/termalna-cetka-za-kosu/" target="_blank">
+        <a href="https://www.telegram.hr/super1/beauty/skin-muse-jn-beauty-kolekcija/" target="_blank">
         <div class="karticatri">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/7PCw6hOZVw3Lf-H81jJ10lxMOtA471jbAFcuuMKdnSQ/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvdGFpbmFjc2ctdGVybWFsbmEtY2V0a2EtbmFzbG92bmEuanBn.webp"/>
-          <h4>Ova četka za kosu je toliko dobra da će vam frizura izgledati kao da ste izašli iz frizerskog salona</h4>
+          <img src="<?php echo $native_path ?>/assets/images/novost3.webp"/>
+          <h4>Nude make-up koji pristaje baš svakome: Otkrijte Skin Muse kolekciju brenda JN Beauty</h4>
         </div>
         </a>
       </div>
@@ -146,7 +146,7 @@
 
 
 
-<div class="blog" id="beauty" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" id="beauty" style="background: url('<?php echo $native_path ?>/assets/images/drugi2b.webp') no-repeat; background-size: 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -156,7 +156,7 @@
           <a href="https://www.telegram.hr/super1/beauty/niche-parfumerije-zagreb-ljetni-parfemi-preporuke-shopping-vodic/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/5rWEIL3E-QpYtxwy5Qph_o_fE1tJRvCEFhmgKH_STuE/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvbmFqYm9samktbGpldG5pLXBhcmZlbWktbmljaGUtcHJlcG9ydWtlLmpwZw.webp"/>
+            <img src="<?php echo $native_path ?>/assets/images/beauty1.webp"/>
             <h4>Tražite ljetni parfem kakav nemaju svi? Zagrebačke niche parfumerije dale su nam probrane preporuke</h4>
           </div>
           </a>
@@ -165,7 +165,7 @@
         <a href="https://www.telegram.hr/super1/beauty/valovita-kosa-frizure-savjeti/" target="_blank">
         <div class="karticadva">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/X36WbFwiGPbH3a9-W_9PGTwMJfumJFtkUhGbRWCWx9g/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvdmFsb3ZpdGEta29zYS5qcGc.webp"/>
+          <img src="<?php echo $native_path ?>/assets/images/beauty2.webp"/>
           <h4>Valovita kosa: Kako je oblikovati, njegovati i stilizirati bez previše truda</h4>
         </div>
         </a>
@@ -175,17 +175,16 @@
         <a href="https://www.telegram.hr/super1/beauty/nokti-split-najbolji-saloni-za-nokte/" target="_blank">
         <div class="karticatri">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/sshlSM9fFoa18L1Gf6ORG_csCZQkcE3rrtGWfM3MaAg/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDQvbm9rdGktc3BsaXQtbmFqYm9samktc2Fsb25pLTEuanBn.webp"/>
+          <img src="<?php echo $native_path ?>/assets/images/beauty3.webp"/>
           <h4>Spremite adrese za svoju sljedeću manikuru: 8 najboljih splitskih salona za nokte</h4>
         </div>
         </a>
       </div>
-      <div class="col-lg-2"></div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/beauty/spf-vodic-za-tijelo-kosu-lice-djecu-bipa/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://www.telegram.hr/wp-content/uploads/2025/06/spf-vodic.jpg"/>
+            <img src="<?php echo $native_path ?>/assets/images/beauty4.jpg"/>
             <h4>Od glave do pete: Ovo je tvoj ultimativni vodič kroz SPF zaštitu za lice, tijelo i kosu</h4>
           </div>
           </a>
@@ -194,16 +193,25 @@
           <a href="https://www.telegram.hr/super1/beauty/njega-koze-poslije-suncanja-ljeto-proizvodi-bipa/" target="_blank">
           <div class="karticatri">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://www.telegram.hr/wp-content/uploads/2025/06/after-sun-care.jpg"/>
+            <img src="<?php echo $native_path ?>/assets/images/beauty5.jpg"/>
             <h4>Njega tijela i lica poslije sunčanja je jako važna. Ovo su must have proizvodi koji spašavaju kožu ljeti</h4>
           </div>
           </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.telegram.hr/super1/look/biorela-ladybiotic-intimno-zdravlje/" target="_blank">
+        <div class="karticatri">
+          <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+          <img src="<?php echo $native_path ?>/assets/images/beauty6.webp"/>
+          <h4>Sitnice koje kvare odmor: Kako izbjeći ljetne greške koje utječu na intimno zdravlje?</h4>
+        </div>
+        </a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="blog" id="fashion" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" id="fashion" style="background: url('<?php echo $native_path ?>/assets/images/drugi2c.webp') no-repeat; background-size: 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -213,7 +221,7 @@
           <a href="https://www.telegram.hr/super1/look/bijela-maksi-suknja-outfit-ideje-modeli/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/fUjuvFvxR_MFgpdtgnGqzK_T_-41BAhuqK2IlS_uV5A/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvYmlqZWxhLW1ha3NpLXN1a25qYS1uYXNsb3ZuYS5qcGc.webp"/>
+            <img src="<?php echo $native_path ?>/assets/images/fashion1.webp"/>
             <h4>Ovo će biti white skirt summer, a mi smo pronašli najbolje outfit ideje i modele</h4>
           </div>
           </a>
@@ -222,7 +230,7 @@
         <a href="https://www.telegram.hr/super1/shopping-vodic/pucci-summer-modni-trend-geometrijski-uzorak-u-boji-shopping-vodic/" target="_blank">
         <div class="karticadva">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/sESaHk8VLLAN1wagUUOUTzKGz2RXF7Ycf9ngNkbw1bI/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvcHVjY2ktdHJlbmQtbGpldG8uanBn.webp"/>
+          <img src="<?php echo $native_path ?>/assets/images/fashion2.webp"/>
           <h4>Dosta je minimalizma, ovoga ljeta svi nose šareni geometrijski uzorak po uzoru na modnu kuću Pucci</h4>
         </div>
         </a>
@@ -232,27 +240,35 @@
         <a href="https://www.telegram.hr/super1/shopping-vodic/nakit-od-smole-za-ljeto-2025/" target="_blank">
         <div class="karticatri">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/OICqDCXNzM7D2vFtas2SLveIXGvjoW941HjIz2gxymk/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvZGVib3JhYnJvc2EtbmFraXQtb2Qtc21vbGUtY292ZXIucG5n.webp"/>
+          <img src="<?php echo $native_path ?>/assets/images/fashion3.webp"/>
           <h4>Ljeto je vratilo još jedan nostalgičan trend! Ponovno se nosi nakit od smole</h4>
         </div>
         </a>
       </div>
-      <div class="col-lg-2"></div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/shopping-vodic/flabelus-cipele-instagram-viralni-komad/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/OPoqCHIi6tcTQAe3dtf41NKf61vbaT7IFltFvaHpJV0/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvZmxhYmVsdXMtY2lwZWxlLWNvdmVyLmpwZw.webp"/>
+            <img src="<?php echo $native_path ?>/assets/images/fashion4.webp"/>
             <h4>Ove cipele nosi pola Instagrama, nisu ludo skupe i idu baš na sve</h4>
           </div>
           </a>
       </div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/look/orlaith-melia-instagram-influencerica-modni-stil-inspiracija-ljetni-look/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/fashion5.webp"/>
+            <h4>5 ljetnih lookova koje ćemo kopirati s profila ove influencerice poznate po selfijima u ogledalu</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/shopping-vodic/cipele-ljetno-snizenje-najbolji-modeli/" target="_blank">
           <div class="karticatri">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/HGbUsGOFWQq-KibvLIrnsy3cRaxiXqjWpUDlGdObtnk/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvb3JsYWl0aC1tZWxpYS1pbnN0YWdyYW0taW5zcG8uanBn.webp"/>
-            <h4>5 ljetnih lookova koje ćemo kopirati s profila ove influencerice poznate po selfijima u ogledalu</h4>
+            <img src="<?php echo $native_path ?>/assets/images/fashion6.webp"/>
+            <h4>Od trendi sandala do klasičnih mokasina: Donosimo veliki vodič kroz top modele cipela na sniženju</h4>
           </div>
           </a>
       </div>
@@ -261,7 +277,7 @@
 </div>
 
 
-<div class="blog" id="lifestyle" style="background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+<div class="blog" id="lifestyle" style="background: url('<?php echo $native_path ?>/assets/images/drugi2b.webp') no-repeat; background-size: 100% 100%; padding-top: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -271,7 +287,7 @@
           <a href="https://www.telegram.hr/super1/pecena-slana-pistacija-hit-grickalica/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/1QuGXLrWffTd85A-DJ1S90kzm9BBXrRqsm35svTzbDA/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvMy01LmpwZw.webp"/>
+            <img src="<?php echo $native_path ?>/assets/images/lifestyle1.webp"/>
             <h4>Na plaži, pikniku ili uz čašu vina: Pistacija je ponovno it grickalica ljeta!</h4>
           </div>
           </a>
@@ -280,7 +296,7 @@
         <a href="https://www.telegram.hr/super1/life/nove-serije-filmovi-prema-knjigama-lipanj-2025/" target="_blank">
         <div class="karticadva">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/3fUIK58JfqtIW_mik33rFZjy8q4fEqSvi7XPUE2XSxY/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvZjhkcWhucnlmeTgza3Z2aGZmaHIyay5qcGc.webp"/>
+          <img src="<?php echo $native_path ?>/assets/images/lifestyle2.webp"/>
           <h4>Od fantazije do trilera, ovih 5 novih serija i filmova prema knjigama gledamo ovog ljeta</h4>
         </div>
         </a>
@@ -290,29 +306,50 @@
         <a href="https://www.telegram.hr/super1/life/plaze-kornati-biseri-jadrana-u-srcu-nacionalnog-parka/" target="_blank">
         <div class="karticatri">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://images.telegram.hr/FkNnQ_wzq-E6dSk5kbjr7r4cqp1LJ7w74Jk410gtvMc/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYva29ybmF0aS1wbGF6ZS5qcGc.webp"/>
+          <img src="<?php echo $native_path ?>/assets/images/lifestyle3.webp"/>
           <h4>Jeste li posjetili koju? Ovo je top 5 najposebnijih plaža na Kornatima</h4>
         </div>
         </a>
       </div>
-      <div class="col-lg-2"></div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/life/top-ideje-za-solo-dejt/" target="_blank">
           <div class="kartica">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://images.telegram.hr/iJiVtjVZ1YD3yz060jvdu9MyIMHogC2Rjw2TFSKbD1k/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvc25hcGlucy1haS0zNjQ0MDE0NjcwODA0OTk4MTA5LWUxNzQ5NTU3NDIzNDk0LmpwZw.webp"/>
+            <img src="<?php echo $native_path ?>/assets/images/lifestyle4.webp"/>
             <h4>Od jednodnevnog izleta do sunčanja na plaži: Evo zašto ovog ljeta trebate probati solo dejtove</h4>
           </div>
           </a>
       </div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/life/krk-obiteljski-odmor-kamp-slamni/" target="_blank">
-          <div class="karticatri">
+          <div class="karticadva">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://www.telegram.hr/wp-content/uploads/2025/06/5-5-800x602.jpg"/>
+            <img src="<?php echo $native_path ?>/assets/images/lifestyle5.jpg"/>
             <h4>Tražite savršeno mjesto za ljetovanje s djecom? Evo zašto će se na Krku i roditelji odmoriti</h4>
           </div>
           </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/najbolje-pjescane-plaze-europa/" target="_blank">
+          <div class="karticatri">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/lifestyle6.webp"/>
+            <h4>Ovo su najljepše pješčane plaže u Europi koje morate staviti na svoju bucket listu</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/najmocniji-magnezij-za-ljeto-natural-wealth/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="https://telegram.reset.hr/ntvs/assets/images/ljetni-umor.webp"/>
+            <h4>Osjećate se iscrpljeno po ljetnim vrućinama? Isprobajte ovaj najmoćniji magnezij</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
       </div>
     </div>
   </div>
@@ -322,7 +359,7 @@
 
 
 
-  <div id="clanci" class="blog" style="z-index: 100; position: relative; padding-top: 100px; padding-bottom: 120px; overflow: hidden; background: url('<?php echo $native_path ?>/assets/images/drugi2.webp') no-repeat; background-size: cover; background-position:50% 0%; padding-top: 0;">
+  <div id="clanci" class="blog" style="z-index: 100; position: relative; padding-top: 100px; padding-bottom: 120px; overflow: hidden; background: url('<?php echo $native_path ?>/assets/images/drugi2c.webp') no-repeat; background-size: 100% 100%; padding-top: 0;">
 
 
     <div class="container-fluid wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
