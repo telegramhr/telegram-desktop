@@ -207,8 +207,6 @@
         </div>
         </a>
       </div>
-
-
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/beauty/jednostavne-ljetne-frizure/" target="_blank">
           <div class="kartica">
@@ -238,7 +236,13 @@
       </div>
 
       <div class="col-lg-4">
-
+        <a href="https://www.telegram.hr/super1/beauty/hydrafacial-tretman-za-ciscenje-lica-bagatin/" target="_blank">
+        <div class="kartica">
+          <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+          <img src="<?php echo $native_path ?>/assets/images/super1-bagatin-22.jpg"/>
+          <h4>Napokon sam isprobala svjetski hvaljeni tretman HydraFacial, a ovo su moji iskreni dojmovi</h4>
+        </div>
+        </a>
       </div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/beauty/biotherm-collagen-fit-cvrsto-tijelo/" target="_blank">
@@ -464,7 +468,30 @@
           </a>
       </div>
       <div class="col-lg-4">
-        
+          <a href="https://www.telegram.hr/super1/life/laserska-operacija-vida-starosna-dalekovidnost-zahvat-presbyond-poliklinika-bilic-vision/" target="_blank">
+          <div class="karticatri">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/poliklinika-bilic.webp"/>
+            <h4>Slabo vidite na blizu, a ne želite nositi naočale? Presbyond je lasersko rješenje za starosnu dalekovidnost</h4>
+          </div>
+          </a>        
+      </div>
+
+
+      <div class="col-lg-4">
+
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/sto-citati-preko-ljeta-profil-naslovi/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/knjige-1.webp"/>
+            <h4>Što čitati preko ljeta? Izdvajamo niz zanimljivih naslova, a neki su i na super popustu</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+       
       </div>
 
 
