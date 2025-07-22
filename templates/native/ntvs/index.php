@@ -124,7 +124,7 @@
         <a href="https://www.telegram.hr/super1/shopping-vodic/haljine-za-plazu-ljeto-2025/ " target="_blank">
         <div class="karticadva">
           <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-          <img src="https://telegram.reset.hr/ntvs/assets/images/jessie-bush-cover.webp"/>
+          <img src="<?php echo $native_path ?>/assets/images/jessie-bush-cover.webp"/>
           <h4>Haljina za plažu je nova haljina za sve, a mi smo pronašli najbolje H&M i Zara modele</h4>
         </div>
         </a>
@@ -207,6 +207,55 @@
         </div>
         </a>
       </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/beauty/jednostavne-ljetne-frizure/" target="_blank">
+          <div class="kartica">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/jednostavne-ljetne-frizure.webp"/>
+            <h4>Ove jednostavne ljetne frizure spas su kada nastupe vrućine. Ne zahtijevaju puno truda ni vremena</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/beauty/trajni-lak-na-nogama-boje-ljeto/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/trajni-lak-na-nogama.webp"/>
+            <h4>Trajni lak na nogama: Boje, trajanje i trikovi koji pomažu da dulje izgleda dobro</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.telegram.hr/super1/beauty/bioandina-biljni-ekstrakti-ande/" target="_blank">
+        <div class="karticatri">
+          <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+          <img src="<?php echo $native_path ?>/assets/images/1-5.webp"/>
+          <h4>Upoznajte hvaljeni hrvatski brend čija tajna uspjeha leži u biljnim ekstraktima iz Anda i Amazone</h4>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-lg-4">
+        <a href="https://www.telegram.hr/super1/beauty/hydrafacial-tretman-za-ciscenje-lica-bagatin/" target="_blank">
+        <div class="kartica">
+          <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+          <img src="<?php echo $native_path ?>/assets/images/super1-bagatin-22.jpg"/>
+          <h4>Napokon sam isprobala svjetski hvaljeni tretman HydraFacial, a ovo su moji iskreni dojmovi</h4>
+        </div>
+        </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/beauty/biotherm-collagen-fit-cvrsto-tijelo/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/biotherm-3.webp"/>
+            <h4>Želite čvršću i elastičniju kožu tijela? Otkrit ćemo vam tajnu kako to postići i ne, nije u pitanju trening</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+      </div>
+
     </div>
   </div>
 </div>
@@ -272,6 +321,37 @@
           </div>
           </a>
       </div>
+
+
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/shopping-vodic/jednodijelni-kupaci-kostimi-trendovi/" target="_blank">
+          <div class="kartica">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/jednodijelni-kupaci-kostimi-hm-cover.webp"/>
+            <h4>Ovi modeli su dokaz da su jednodijelni kupaći kostimi sve samo ne dosadni</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/shopping-vodic/tockasta-haljina-shopping-vodic-gdje-kupiti-high-street" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/tockasta-haljina.webp"/>
+            <h4>Točkasta haljina je must-have komad za ljeto: Želimo barem jednu od ovih 10 s high street potpisom</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/shopping-vodic/bandana-modni-dodatak-ljeto-2025/" target="_blank">
+          <div class="karticatri">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/emiliesindlev-bandana-cover.webp"/>
+            <h4>Od pop zvijezda do modnih influencerica, svi ponovno nose bandane i izgledaju jako cool</h4>
+          </div>
+          </a>
+      </div>
+
+
     </div>
   </div>
 </div>
@@ -338,19 +418,83 @@
           </div>
           </a>
       </div>
+
+
       <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/najpoznatiji-bazeni-u-okolici-zagreba-gdje-se-rashladiti-ovog-ljeta-istrazili-smo//" target="_blank">
+          <div class="kartica">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/bazeni-okolica-zagreba-1.webp"/>
+            <h4>Gdje se rashladiti ovog ljeta ako ne idete na more? Kreirali smo listu s bazenima u Zagrebu i okolici</h4>
+          </div>
+          </a>
       </div>
       <div class="col-lg-4">
           <a href="https://www.telegram.hr/super1/life/najmocniji-magnezij-za-ljeto-natural-wealth/" target="_blank">
           <div class="karticadva">
             <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
-            <img src="https://telegram.reset.hr/ntvs/assets/images/ljetni-umor.webp"/>
+            <img src="<?php echo $native_path ?>/assets/images/ljetni-umor.webp"/>
             <h4>Osjećate se iscrpljeno po ljetnim vrućinama? Isprobajte ovaj najmoćniji magnezij</h4>
           </div>
           </a>
       </div>
       <div class="col-lg-4">
+        <a href="https://www.telegram.hr/super1/life/najbolje-mini-serije-netflix-ljeto/" target="_blank">
+          <div class="karticatri">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/sirens-n-s1-e1-00-30-21-12r.webp"/>
+            <h4>Ne znate što biste gledali na godišnjem odmoru? Ovih 8 mini-serija s Netflixa su uvijek dobra ideja</h4>
+          </div>
+          </a>
       </div>
+
+     
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/10-stvari-koje-morate-isprobati-u-stockholmu/" target="_blank">
+          <div class="kartica">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/shutterstock-1568592469-1.webp"/>
+            <h4>10 razloga zbog kojih mislim da biste ovog ljeta mogli poželjeti bukirati let za Stockholm</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/matcha-colada-verzija-koktela-recept/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/koktel-1.webp"/>
+            <h4>Zaboravite na klasičnu Piña coladu, ova verzija s matchom je sve što ćete htjeti piti ovog ljeta</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/laserska-operacija-vida-starosna-dalekovidnost-zahvat-presbyond-poliklinika-bilic-vision/" target="_blank">
+          <div class="karticatri">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/poliklinika-bilic.webp"/>
+            <h4>Slabo vidite na blizu, a ne želite nositi naočale? Presbyond je lasersko rješenje za starosnu dalekovidnost</h4>
+          </div>
+          </a>        
+      </div>
+
+
+      <div class="col-lg-4">
+
+      </div>
+      <div class="col-lg-4">
+          <a href="https://www.telegram.hr/super1/life/sto-citati-preko-ljeta-profil-naslovi/" target="_blank">
+          <div class="karticadva">
+            <img src="<?php echo $native_path ?>/assets/images/trakica.png" class="traka" />
+            <img src="<?php echo $native_path ?>/assets/images/knjige-1.webp"/>
+            <h4>Što čitati preko ljeta? Izdvajamo niz zanimljivih naslova, a neki su i na super popustu</h4>
+          </div>
+          </a>
+      </div>
+      <div class="col-lg-4">
+       
+      </div>
+
+
     </div>
   </div>
 </div>
