@@ -329,6 +329,10 @@ header.mobile-only {
     animation: rotateFadeIn 2s ease-out forwards;
 }
 
+#power .folder-bg {
+    top: -16%;
+}
+
 
 /* Mobile */
 @media screen and (max-width: 768px) {
@@ -374,6 +378,8 @@ header.mobile-only {
         top: 30%;
         left: 15%;
     }
+
+
 
     .folder-text p {
         font-size: 12px;

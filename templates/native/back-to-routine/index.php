@@ -43,11 +43,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Desktop-only Header-->
         <header class="full center relative hero-photo desktop-only">
             <nav class="full center relative folder-nav">
-                <a class = "absolute white-folder" href="#power" ><img src="assets/placeholders/bijeli-file.png" alt="Back to Power" data-aos="fade-right" data-aos-delay="250"></a>
-                <a class = "absolute brown-folder" href="#design"><img src="assets/placeholders/smedi-file.png" alt="Back to Design" data-aos="fade-left" data-aos-delay="500"></a>
-                <a class = "absolute blue-folder" href="#lifestyle"><img src="assets/placeholders/plavi-file.png" alt="Back to Lifestyle" data-aos="fade-right" data-aos-delay="750"></a>
-                <a class = "absolute yellow-folder" href="#beauty"><img src="assets/placeholders/zuti-file.png" alt="Back to Beauty" data-aos="fade-left" data-aos-delay="1000"></a>
-                <a class = "absolute pink-folder" href="#fashion"><img src="assets/placeholders/rozi-file(1).png" alt="Back to Fashion" data-aos="fade-right" data-aos-delay="1250"></a>
+                <a class = "absolute white-folder" href="#power" ><img src="<?php echo $native_path ?>assets/placeholders/bijeli-file.png" alt="Back to Power" data-aos="fade-right" data-aos-delay="250"></a>
+                <a class = "absolute brown-folder" href="#design"><img src="<?php echo $native_path ?>assets/placeholders/smedi-file.png" alt="Back to Design" data-aos="fade-left" data-aos-delay="500"></a>
+                <a class = "absolute blue-folder" href="#lifestyle"><img src="<?php echo $native_path ?>assets/placeholders/plavi-file.png" alt="Back to Lifestyle" data-aos="fade-right" data-aos-delay="750"></a>
+                <a class = "absolute yellow-folder" href="#beauty"><img src="<?php echo $native_path ?>assets/placeholders/zuti-file.png" alt="Back to Beauty" data-aos="fade-left" data-aos-delay="1000"></a>
+                <a class = "absolute pink-folder" href="#fashion"><img src="<?php echo $native_path ?>assets/placeholders/rozi-file(1).png" alt="Back to Fashion" data-aos="fade-right" data-aos-delay="1250"></a>
             </nav>
             <div class="header-text full flex center-text relative absolute" data-aos="fade-right" data-aos-delay="1500">
                 <h1 class="full fancy">Back</h1>
@@ -57,11 +57,11 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </header>
         <header class="full center relative hero-photo mobile-only">
             <nav class="full center relative folder-nav">
-                <a class = "absolute white-folder full" href="#power" ><img src="assets/placeholders/bijeli-file-mobile.png" alt="Back to Power" data-aos="fade-right" data-aos-delay="250"></a>
-                <a class = "absolute brown-folder full" href="#design"><img src="assets/placeholders/brown-file.png" alt="Back to Design" data-aos="fade-left" data-aos-delay="500"></a>
-                <a class = "absolute blue-folder full" href="#lifestyle"><img src="assets/placeholders/plavi-file-mobile.png" alt="Back to Lifestyle" data-aos="fade-right" data-aos-delay="750"></a>
-                <a class = "absolute yellow-folder full" href="#beauty"><img src="assets/placeholders/zuti-file-mobile.png" alt="Back to Beauty" data-aos="fade-left" data-aos-delay="1000"></a>
-                <a class = "absolute pink-folder full" href="#fashion"><img src="assets/placeholders/pink-file-mobile.png" alt="Back to Fashion" data-aos="fade-right" data-aos-delay="1250"></a>
+                <a class = "absolute white-folder full" href="#power" ><img src="<?php echo $native_path ?>assets/placeholders/bijeli-file-mobile.png" alt="Back to Power" data-aos="fade-right" data-aos-delay="250"></a>
+                <a class = "absolute brown-folder full" href="#design"><img src="<?php echo $native_path ?>assets/placeholders/brown-file.png" alt="Back to Design" data-aos="fade-left" data-aos-delay="500"></a>
+                <a class = "absolute blue-folder full" href="#lifestyle"><img src="<?php echo $native_path ?>assets/placeholders/plavi-file-mobile.png" alt="Back to Lifestyle" data-aos="fade-right" data-aos-delay="750"></a>
+                <a class = "absolute yellow-folder full" href="#beauty"><img src="<?php echo $native_path ?>assets/placeholders/zuti-file-mobile.png" alt="Back to Beauty" data-aos="fade-left" data-aos-delay="1000"></a>
+                <a class = "absolute pink-folder full" href="#fashion"><img src="<?php echo $native_path ?>assets/placeholders/pink-file-mobile.png" alt="Back to Fashion" data-aos="fade-right" data-aos-delay="1250"></a>
             </nav>
             <div class="header-text full flex center-text relative absolute" data-aos="fade-right" data-aos-delay="1500">
                 <h1 class="full fancy">Back</h1>
