@@ -1,0 +1,489 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 174, 55, 55;
+}
+
+/* Typography */
+
+html {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    cursor: url('../assets/placeholders/mouse.png') 0 0, auto;
+}
+
+.capatalise {
+    text-transform: uppercase;
+}
+
+.fancy {
+    font-family: "Ballet", cursive;
+    font-size: 6rem;
+}
+
+.normal-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    margin-left: 11rem;
+}
+
+.header-text {
+    top: 50%;
+    right: 6%;
+    line-height: 60px;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+/* color-bg */
+.blue-bg {
+    background: #C5D0D2;
+
+}
+
+.white-bg {
+    background: #f9f6ed;
+}
+
+.pink-bg {
+    background: #f2dfe5;
+
+}
+
+.yellow-bg {
+    background: #f0e095;
+
+}
+
+.brown-bg {
+    background-color: #986a50;
+}
+
+/* chat */
+
+.chat-bubble {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bubble-right {
+    margin-left: auto;
+    margin-right: 1rem;
+    border-bottom-right-radius: 5px;
+}
+
+.bubble-left {
+    margin-right: auto;
+    margin-left: 1rem;
+    border-bottom-left-radius: 5px;
+}
+
+.bubble-center {
+    margin: 1.5rem auto;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 80%;
+}
+
+
+/* spacing */
+
+.absolute {
+    position: absolute;
+}
+
+.negative-margin {
+    margin-top: -4rem;
+}
+
+.shoo-top {
+    margin-top: 8rem;
+}
+
+.shoo-bottom {
+    margin-bottom: 1rem;
+}
+
+.shoo-top-bottom {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+section .container a:last-of-type {
+    margin-bottom: 2rem;
+}
+
+#power.shoo-top {
+    margin-top: 6rem;
+}
+
+/* Images */
+.hero-photo {
+    background-image: url("../assets/placeholders/office-bg.jpg");
+    background-size: cover;
+    /* scales properly */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.notebook-bg {
+    background-image: url("../assets/placeholders/notebook-bg.jpg");
+    background-size: cover;
+    /* scales properly */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.sticky-note {
+    scale: 0.4;
+}
+
+.box {
+    border: 1px solid black;
+
+}
+
+.kava-img {
+    top: -33%;
+    left: 35%;
+}
+
+.yoga-img {
+    bottom: -30%;
+    right: 44%;
+    padding: 1rem;
+}
+
+div.center .shoo-bottom {
+    margin-bottom: 3rem;
+}
+
+.notebook-bg .btr-sticky {
+    scale: 0.4;
+}
+
+.p-folder-bg {
+    background-image: url("../assets/placeholders/dugi-rozi.png");
+    background-size: cover;
+    /* scales properly */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scale-down {
+    scale: 0.8;
+}
+
+.folder-bg {
+    top: -9%;
+    height: 217vh;
+}
+
+img.column-full-pad.shoo-top {
+    margin-top: 1rem;
+}
+
+.stuff-move {
+    scale: 0.5;
+    top: 10%;
+    left: -4%;
+
+}
+
+#design .shoo-top-bottom {
+    scale: 0.9;
+    padding: 3rem;
+    z-index: 4;
+}
+
+.chair {
+    top: 25%;
+    left: 10%;
+    z-index: 1;
+}
+
+
+
+.pink-folder,
+.blue-folder,
+.yellow-folder,
+.brown-folder,
+.white-folder {
+    scale: 0.5;
+    transition: transform 0.3s ease;
+
+}
+
+.folder-nav a:hover {
+    transform: scale(1.1);
+
+}
+
+.pink-folder {
+    margin-top: 8rem;
+
+}
+
+.blue-folder {
+    margin-bottom: 7rem;
+
+}
+
+.yellow-folder {}
+
+.brown-folder {
+    margin-bottom: 12rem;
+
+}
+
+.white-folder {
+    margin-bottom: 12rem;
+}
+
+header.mobile-only {
+    display: none;
+}
+
+/* Articles */
+
+.folder-text {
+    position: absolute;
+    top: 35%;
+    z-index: 50;
+    background: white;
+    max-width: 37%;
+    padding: 0.8rem;
+    left: 13%;
+    line-height: 25px;
+    border: 0.5 solid black;
+}
+
+.folder-text:hover {
+    animation: wiggle 0.3s ease;
+}
+
+.folder-text p {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.folder-img {
+    position: absolute;
+    top: -22%;
+    left: 18%;
+    scale: 0.47;
+    padding: 1rem;
+}
+
+.folder-img img:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.folder-img.landscape {
+    top: -5%;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+@keyframes rotateFadeIn {
+    from {
+        opacity: 0;
+        transform: rotate(-360deg);
+        /* start rotated */
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+        /* end upright */
+    }
+}
+
+.rotate-fade-in {
+    animation: rotateFadeIn 2s ease-out forwards;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .notebook-bg {
+        background-image: url("../assets/placeholders/notebook-bg-mobile.png");
+        height: 90vh;
+    }
+
+    .header-text {
+        top: 49%;
+        right: -8%;
+        line-height: 40px;
+    }
+
+    .fancy {
+        font-size: 3rem;
+    }
+
+    .normal-text {
+        margin-left: 7rem;
+        font-size: 1.7rem;
+    }
+
+    section.shoo-top {
+        margin-top: 0rem;
+    }
+
+    #power.shoo-top {
+        margin-top: 0rem;
+    }
+
+    #design .shoo-top-bottom {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 0rem;
+    }
+
+    /* articles */
+    .folder-text {
+        line-height: 14px;
+        max-width: 37%;
+        padding: 8px;
+        top: 30%;
+        left: 15%;
+    }
+
+    .folder-text p {
+        font-size: 12px;
+    }
+
+    .pink-folder,
+    .blue-folder,
+    .yellow-folder,
+    .brown-folder,
+    .white-folder {
+        scale: 0.6;
+        transition: transform 0.3s ease;
+
+    }
+
+    .pink-folder {
+        margin-bottom: 8rem;
+        margin-left: 6rem;
+
+    }
+
+    .blue-folder {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+
+    }
+
+    .yellow-folder {
+        margin-left: 2.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .brown-folder {
+        margin-bottom: 0rem;
+        margin-right: 4rem;
+
+    }
+
+    .white-folder {
+        margin-bottom: 0rem;
+        margin-right: 8rem;
+    }
+
+    .notebook-bg .btr-sticky {
+        scale: 1;
+        left: 18%;
+    }
+
+    .kava-img {
+        z-index: 30;
+    }
+
+    .models-mobile {
+        margin-top: 1.3rem;
+        margin-bottom: 3rem;
+    }
+
+    header.mobile-only {
+        display: inherit;
+    }
+
+    .shoo-top-chat {
+        margin-top: 5rem;
+    }
+
+    .bubble-right:first-of-type {
+        scale: 1.4;
+        margin-right: 35px;
+    }
+
+    .bubble-right {
+        width: 55%;
+    }
+
+
+    .bubble-left .thirty {
+        width: 45%;
+    }
+
+    .chat-bubble {
+        margin-bottom: 0.5rem;
+    }
+
+    #beauty a:last-of-type {
+        margin-top: -1px;
+
+    }
+
+    .folder-img.landscape {
+        top: -1%;
+    }
+
+    .folder-img {
+        scale: 0.5;
+        padding: 2rem;
+    }
+
+    .bag-move {
+        top: 40%;
+        left: 6%;
+    }
+
+    #moda div:last-of-type {
+        margin-bottom: -2rem;
+    }
+
+    .stuff-move {
+        top: 20%;
+        scale: 0.83;
+        left: 6%;
+    }
+
+}
