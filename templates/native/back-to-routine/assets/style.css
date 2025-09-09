@@ -72,7 +72,6 @@ body {
 /* chat */
 
 .chat-bubble {
-    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -119,9 +118,6 @@ body {
     margin-bottom: 2rem;
 }
 
-section .container a:last-of-type {
-    margin-bottom: 2rem;
-}
 
 #power.shoo-top {
     margin-top: 6rem;
@@ -157,13 +153,18 @@ section .container a:last-of-type {
 
 .kava-img {
     top: -33%;
-    left: 35%;
+    left: 33%;
 }
 
 .yoga-img {
     bottom: -30%;
     right: 44%;
     padding: 1rem;
+}
+
+#lifestyle img.half {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
 }
 
 div.center .shoo-bottom {
@@ -174,13 +175,6 @@ div.center .shoo-bottom {
     scale: 0.4;
 }
 
-.p-folder-bg {
-    background-image: url("../assets/placeholders/dugi-rozi.png");
-    background-size: cover;
-    /* scales properly */
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .scale-down {
     scale: 0.8;
@@ -188,7 +182,7 @@ div.center .shoo-bottom {
 
 .folder-bg {
     top: -9%;
-    height: 217vh;
+    height: auto;
 }
 
 img.column-full-pad.shoo-top {
@@ -196,16 +190,16 @@ img.column-full-pad.shoo-top {
 }
 
 .stuff-move {
-    scale: 0.5;
-    top: 10%;
-    left: -4%;
+    scale: 0.6;
+    top: 8%;
+    left: -3%;
 
 }
 
 #design .shoo-top-bottom {
     scale: 0.9;
-    padding: 3rem;
     z-index: 4;
+    margin-bottom: 4rem
 }
 
 .chair {
@@ -260,14 +254,14 @@ header.mobile-only {
 
 .folder-text {
     position: absolute;
-    top: 35%;
+    top: 30%;
     z-index: 50;
-    background: white;
-    max-width: 37%;
-    padding: 0.8rem;
+    max-width: 40%;
+    padding: 0.6rem;
     left: 13%;
-    line-height: 25px;
+    line-height: 26px;
     border: 0.5 solid black;
+    background-color: #F9F6ED;
 }
 
 .folder-text:hover {
@@ -277,7 +271,7 @@ header.mobile-only {
 .folder-text p {
     font-family: "Special Elite", system-ui;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .folder-img {
@@ -288,13 +282,25 @@ header.mobile-only {
     padding: 1rem;
 }
 
-.folder-img img:hover {
+.container a.half {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.container a.half:hover {
     transform: scale(1.1);
-    box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.3);
 }
 
 .folder-img.landscape {
     top: -5%;
+}
+
+div.container a:last-of-type {
+    margin-bottom: 4rem;
+}
+
+.life-circle {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 @keyframes wiggle {
@@ -347,6 +353,10 @@ header.mobile-only {
         line-height: 40px;
     }
 
+    div.container a:last-of-type {
+        margin-bottom: 2rem;
+    }
+
     .fancy {
         font-size: 3rem;
     }
@@ -361,28 +371,30 @@ header.mobile-only {
     }
 
     #power.shoo-top {
-        margin-top: 0rem;
+        margin-top: -1rem;
     }
 
     #design .shoo-top-bottom {
         margin-top: 4rem;
         margin-bottom: 4rem;
-        padding: 0rem;
+        width: 100%;
     }
 
     /* articles */
     .folder-text {
         line-height: 14px;
-        max-width: 37%;
+        max-width: 50%;
         padding: 8px;
-        top: 30%;
-        left: 15%;
+        top: 33%;
+        left: 10%;
     }
 
-
+    .folder-nav a:hover {
+        transform: translateY(-36px);
+    }
 
     .folder-text p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .pink-folder,
@@ -433,8 +445,8 @@ header.mobile-only {
     }
 
     .models-mobile {
-        margin-top: 1.3rem;
-        margin-bottom: 3rem;
+        margin-top: 2.3rem;
+        /* margin-bottom: 3rem; */
     }
 
     header.mobile-only {
@@ -474,7 +486,7 @@ header.mobile-only {
 
     .folder-img {
         scale: 0.5;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .bag-move {
