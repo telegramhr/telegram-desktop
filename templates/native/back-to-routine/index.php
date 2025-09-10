@@ -9,13 +9,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/back-to-routine/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/superone/back-to-routine/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/client/landing/';
-$native_path = 'http://localhost/back-to-routine/';
+//$native_path = 'http://localhost/back-to-routine/';
 ?>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <script src="<?php echo $native_path ?>assets/jquery.js"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -477,7 +477,7 @@ $native_path = 'http://localhost/back-to-routine/';
                 <p class="full center-text">Producirano u radionici TG Studija, Telegramove in-house agencije za nativni marketing, u suradnji s partnerom i po najvišim uredničkim standardima Telegram Media Grupe.</p>
             </div>
         </footer>
-        <?php //wp_footer(); ?>
+        <?php wp_footer(); ?>
     </div>
 </body>
 
