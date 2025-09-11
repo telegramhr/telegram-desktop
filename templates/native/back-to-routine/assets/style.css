@@ -73,6 +73,7 @@ body {
 
 .chat-bubble {
     margin-bottom: 1rem;
+    scale: 0.8;
 }
 
 .bubble-right {
@@ -303,6 +304,10 @@ div.container a:last-of-type {
     margin-bottom: 4rem;
 }
 
+.tablet-only {
+    display: none;
+}
+
 @keyframes wiggle {
     0% {
         transform: rotate(-2deg);
@@ -337,6 +342,71 @@ div.container a:last-of-type {
 
 #power .folder-bg {
     top: -16%;
+}
+
+/* Tablete */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .tablet-only {
+        display: inherit;
+    }
+
+    .pink-folder,
+    .blue-folder,
+    .yellow-folder,
+    .brown-folder,
+    .white-folder {
+        scale: 0.9;
+        transition: transform 0.3s ease;
+
+    }
+
+    .kava-img {
+        left: 55%;
+        scale: 0.9;
+        margin-top: 2rem;
+    }
+
+    .folder-text {
+        top: 33%;
+        line-height: 30px;
+    }
+
+    .folder-text p {
+        font-size: 25px;
+    }
+
+    .tablet-chat {
+        margin-top: 7rem;
+        margin-right: -5rem;
+    }
+
+    .chat-bubble {
+        margin-bottom: 0rem;
+    }
+
+    .bubble-right {
+        scale: 0.6;
+    }
+
+    .life-circle {
+        margin-top: 7rem;
+        scale: 0.8;
+    }
+
+    .models-mobile {
+        scale: 0.8;
+        margin-top: 1rem;
+        margin-right: -5rem;
+    }
+
+    .shoo-top {
+        margin-top: 0rem;
+    }
+
+    section#power.shoo-top {
+        margin-top: 0rem;
+    }
+
 }
 
 
@@ -416,23 +486,28 @@ div.container a:last-of-type {
     .blue-folder {
         margin-bottom: 1rem;
         margin-top: 1rem;
+        margin-right: 3rem;
 
     }
 
     .yellow-folder {
         margin-left: 2.3rem;
         margin-bottom: 2rem;
+        margin-top: 2rem;
+        transform: scaleY(1.08);
     }
 
     .brown-folder {
         margin-bottom: 0rem;
-        margin-right: 4rem;
+        margin-right: 5.1rem;
+        transform: scaleY(1.05);
 
     }
 
     .white-folder {
         margin-bottom: 0rem;
         margin-right: 8rem;
+        transform: scaleY(1.14);
     }
 
     .notebook-bg .btr-sticky {
@@ -502,6 +577,10 @@ div.container a:last-of-type {
         top: 20%;
         scale: 0.83;
         left: 6%;
+    }
+
+    #moda div .mobile-only img {
+        margin-bottom: 4rem;
     }
 
 }

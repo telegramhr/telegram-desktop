@@ -55,6 +55,20 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                 <h1 class="full fancy">routine</h1>
             </div>
         </header>
+        <header class="full center relative hero-photo tablet-only">
+            <nav class="full center relative folder-nav">
+                <a class = "absolute white-folder" href="#power" ><img src="<?php echo $native_path ?>assets/placeholders/bijeli-file.png" alt="Back to Power" data-aos="fade-right" data-aos-delay="250"></a>
+                <a class = "absolute brown-folder" href="#design"><img src="<?php echo $native_path ?>assets/placeholders/smedi-file.png" alt="Back to Design" data-aos="fade-left" data-aos-delay="500"></a>
+                <a class = "absolute blue-folder" href="#lifestyle"><img src="<?php echo $native_path ?>assets/placeholders/plavi-file.png" alt="Back to Lifestyle" data-aos="fade-right" data-aos-delay="750"></a>
+                <a class = "absolute yellow-folder" href="#beauty"><img src="<?php echo $native_path ?>assets/placeholders/zuti-file.png" alt="Back to Beauty" data-aos="fade-left" data-aos-delay="1000"></a>
+                <a class = "absolute pink-folder" href="#fashion"><img src="<?php echo $native_path ?>assets/placeholders/rozi-file(1).png" alt="Back to Fashion" data-aos="fade-right" data-aos-delay="1250"></a>
+            </nav>
+            <div class="header-text full flex center-text relative absolute" data-aos="fade-right" data-aos-delay="1500">
+                <h1 class="full fancy">Back</h1>
+                <h3 class="full normal-text capatalise">to</h3>
+                <h1 class="full fancy">routine</h1>
+            </div>
+        </header>
         <header class="full center relative hero-photo mobile-only">
             <nav class="full center relative folder-nav">
                 <a class = "absolute white-folder full" href="#power" ><img src="<?php echo $native_path ?>assets/placeholders/bijeli-file-mobile.png" alt="Back to Power" data-aos="fade-right" data-aos-delay="250"></a>
@@ -165,9 +179,9 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                         <img src= "<?php echo $native_path ?>assets/placeholders/stuff-desktop.png" alt="pilates bag" class="full animate absolute stuff-move" data-aos="fade-down" data-aos-delay="500">
                     </div>
                     <div class="full flex relative mobile-only negative-margin" data-aos="fade-down" data-aos-delay="200">
-                        <img src= "<?php echo $native_path ?>assets/placeholders/list-mobile.png" alt="pilates bag" class="full animate mobile-only" data-aos="fade-right" data-aos-delay="250">
-                        <img src= "<?php echo $native_path ?>assets/placeholders/bag-mobile.png" alt="pilates bag" class="full animate absolute mobile-only bag-move" data-aos="fade-down" data-aos-delay="250">
-                        <img src= "<?php echo $native_path ?>assets/placeholders/stuff-mobile-hd.png" alt="pilates bag" class="full animate absolute mobile-only stuff-move" data-aos="fade-down" data-aos-delay="250">
+                        <img src= "<?php echo $native_path ?>assets/placeholders/pilates-mobile-2.png" alt="pilates bag" class="full animate mobile-only" data-aos="fade-right" data-aos-delay="250">
+                        <!-- <img src= "<?php echo $native_path ?>assets/placeholders/bag-mobile.png" alt="pilates bag" class="full animate absolute mobile-only bag-move" data-aos="fade-down" data-aos-delay="250">
+                        <img src= "<?php echo $native_path ?>assets/placeholders/stuff-mobile-hd.png" alt="pilates bag" class="full animate absolute mobile-only stuff-move" data-aos="fade-down" data-aos-delay="250"> -->
                     </div>
                 </div>
             </div>
@@ -228,10 +242,10 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <!-- Beauty -->
         <section class="full flex relative shoo-top yellow-bg" id = "beauty">
             <img src="<?php echo $native_path ?>assets/placeholders/pozadina-beauty.png" alt="" class="full animate absolute desktop-only folder-bg pink-bg">
-            <img src="<?php echo $native_path ?>assets/placeholders/dugi-zuti-mobile.png" alt="" class="pink-bg full animate absolute mobile-only">
+            <img src="<?php echo $native_path ?>assets/placeholders/dugi-zuti-mobile-hd.png" alt="" class="pink-bg full animate absolute mobile-only">
             <div class="container flex relative">
                   <!-- First message - right aligned -->
-                <div class="chat-bubble bubble-right shoo-top-chat" data-aos="fade-left" data-aos-delay="250">
+                <div class="chat-bubble bubble-right shoo-top-chat tablet-chat" data-aos="fade-left" data-aos-delay="250">
                     <img src="<?php echo $native_path ?>assets/placeholders/text1.png" alt="" class="full animate">
                 </div>
                 <!-- Image message - left aligned -->
@@ -241,7 +255,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
 
                 <!-- Response - left aligned -->
                 <div class="chat-bubble bubble-left full"data-aos="fade-right" data-aos-delay="250">
-                    <img src="<?php echo $native_path ?>assets/placeholders/left-text-bubble.png" alt="" class="thirty animate">
+                    <img src="<?php echo $native_path ?>assets/placeholders/text3-hd.png" alt="" class="thirty animate">
                 </div>
                 <!-- Final message - right aligned -->
                 <div class="chat-bubble bubble-right" data-aos="fade-left" data-aos-delay="250">
@@ -365,8 +379,8 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <!-- Design -->
         <section class="full flex relative shoo-top brown-bg" id = "design">
-            <img src="<?php echo $native_path ?>assets/placeholders/design-pozadina.png" alt="" class="full animate absolute desktop-only blue-bg folder-bg">
-            <img src="<?php echo $native_path ?>assets/placeholders/dugi-smedi-2.png" alt="" class="full animate absolute mobile-only blue-bg">
+            <img src="<?php echo $native_path ?>assets/placeholders/design-pozadina.png" alt="folder background" class="full animate absolute desktop-only blue-bg folder-bg">
+            <img src="<?php echo $native_path ?>assets/placeholders/brown-mobile.png" alt="folder background" class="full animate absolute mobile-only blue-bg">
             <div class="container flex relative">
             <div class="full center relative" data-aos="fade-down" data-aos-delay="250">
                 <img src="<?php echo $native_path ?>assets/placeholders/chair-window.png" alt="models" class="two-thirds animate scale-down shoo-top-bottom">
