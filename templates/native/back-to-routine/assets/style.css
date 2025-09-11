@@ -347,7 +347,7 @@ div.container a:last-of-type {
 /* Tablete */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .tablet-only {
-        display: inherit;
+        display: flex;
     }
 
     .pink-folder,
