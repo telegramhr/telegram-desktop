@@ -206,8 +206,8 @@ body {
 }
 /* Images */
 .hero-photo {
-    background-image: url("../assets/placeholders/optimized/office-bg.webp");
     background-image: url("../assets/placeholders/office-bg.jpg");
+    background-image: url("../assets/placeholders/optimized/office-bg.webp");
     background-size: cover;
     /* scales properly */
     background-position: center;
@@ -216,8 +216,8 @@ body {
 }
 
 .notebook-bg {
-    background-image: url("../assets/placeholders/optimized/biljeznica_nova.webp");
     background-image: url("../assets/placeholders/biljeznica_nova.png");
+    background-image: url("../assets/placeholders/optimized/biljeznica_nova.webp");
     background-size: cover;
     /* scales properly */
     background-position: center;
@@ -543,6 +543,11 @@ div.container a:last-of-type {
 @media (min-aspect-ratio: 21/9) {
     .kava-img { top: 80px; } /* Ultra-wide */
 }
+@media screen and (min-width: 1800px) {
+    footer{
+        padding-top: 40px;
+    }
+}
 /* Mobile */
 @media screen and (max-width: 768px) {
     
@@ -606,8 +611,8 @@ div.container a:last-of-type {
         padding-top: 25vw;
     }
     .notebook-bg {
-        background-image: url("../assets/placeholders/optimized/notebook-bg-mobile.webp");
         background-image: url("../assets/placeholders/notebook-bg-mobile.png");
+        background-image: url("../assets/placeholders/optimized/notebook-bg-mobile.webp");
         height: 95vh;
     }
     .chat{
@@ -618,6 +623,7 @@ div.container a:last-of-type {
         width: 90%;
     }
     footer{
+        padding-top: 0px;
         padding-bottom: 40px;
     }
     .chatimg img{
@@ -759,4 +765,11 @@ div.container a:last-of-type {
         margin-bottom: 4rem;
     }
 
+}
+
+
+@media (aspect-ratio: 3/4) and (max-width: 768px) {    
+    .notebook-bg {
+        height: 140vh;
+    }
 }
