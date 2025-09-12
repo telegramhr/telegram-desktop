@@ -4,7 +4,7 @@
 <section class="full flex relative shoo-top yellow-bg" id="beauty">
     <picture class="full animate absolute desktop-only folder-bg pink-bg">
         <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/pozadina-beauty.webp" type="image/webp">
-        <img src="<?php echo $native_path ?>assets/placeholders/pozadina-beauty.png" alt="">
+        <img style="width:100%;" src="<?php echo $native_path ?>assets/placeholders/pozadina-beauty.png" alt="">
     </picture>
     <picture class="pink-bg full animate absolute mobile-only">
         <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/dugi-zuti-mobile-hd.webp" type="image/webp">

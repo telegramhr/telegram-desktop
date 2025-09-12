@@ -222,7 +222,7 @@ body {
     /* scales properly */
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 70vh;
 }
 
 .sticky-note {
@@ -768,8 +768,25 @@ div.container a:last-of-type {
 }
 
 
-@media (aspect-ratio: 3/4) and (max-width: 768px) {    
+@media (aspect-ratio: 2.7/1) and (max-width: 768px) {    
     .notebook-bg {
-        height: 140vh;
+        height: 75vh;
     }
+}
+
+@media (min-aspect-ratio: 3.14/1) {
+    .notebook-bg {
+        height: 85vh;
+    }
+}
+
+@media (min-aspect-ratio: 4.03/1) {
+    .notebook-bg {
+        height: 110vh;
+    }
+}
+
+footer{
+    z-index: 100;
+    background-color: white;
 }
