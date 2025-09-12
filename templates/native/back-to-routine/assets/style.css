@@ -766,8 +766,17 @@ div.container a:last-of-type {
     }
 
 }
-
-
+.header-textMobile{
+    top: 50%;
+    left: clamp(20%, 25vw, 30%);
+}
+.header-textMobile .fancy{
+    font-size: 3rem;
+}
+.header-textMobile .normal-text{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
 @media (aspect-ratio: 2.7/1) and (max-width: 768px) {    
     .notebook-bg {
         height: 75vh;
