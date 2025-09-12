@@ -47,6 +47,11 @@
             <picture>
                 <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/pink-file-mobile.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/pink-file-mobile.png" alt="Back to Fashion" data-aos="fade-right" data-aos-delay="1250">
             </picture>
+            <div class="header-textMobile absolute" data-aos="fade-right" data-aos-delay="1500">
+                <h1 class="full fancy">Back</h1>
+                <h3 class="full normal-text capatalise">to</h3>
+                <h1 class="full fancy">routine</h1>
+            </div>
         </a>
     </nav>
 </header>
