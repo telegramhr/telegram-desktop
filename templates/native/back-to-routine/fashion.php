@@ -24,7 +24,7 @@
         <div class="container flex relative" data-aos="fade-left" data-aos-delay="250">
             <a href="https://www.telegram.hr/super1/look/almada-label-modni-brend/" target="_blank" class="half flex relative flex-responsive card">
                 <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-smedi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-smedi.png" alt="" class="full animate column-full-pad">
                 </picture>
                 <div class="full center folder-text box">
                     <p class="full"><b>Modni brend</b> Najbolje investicije za jesensku (i zimsku) garderobu? Moderni klasici ovog brenda nalaze se visoko na toj listi</p>
@@ -35,7 +35,7 @@
             </a>
             <a href="https://www.telegram.hr/super1/shopping-vodic/smeda-za-jesen-najbolji-odjevni-komadi-i-modni-dodaci/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-smedi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-smedi.png" alt="" class="full animate column-full-pad">
                 </picture>
                 <div class="half center folder-text box">
                     <p class="full"><b>Shopping vodič</b> Smeđa za jesen možda nije groundbreaking, ali izgleda toliko dobro! Izdvojili smo najbolje modele</p>
@@ -46,7 +46,7 @@
             </a>
             <a href="https://www.telegram.hr/super1/look/back-to-office-look-outfit-ideje/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-smedi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-smedi.png" alt="" class="full animate column-full-pad">
                 </picture>
                 <div class="full center folder-text box">
                     <p class="full"><b>Outfit inspo</b> Back to office panika? Ovih 12 odjevnih kombinacija riješit će sve modne dileme</p>
@@ -57,7 +57,7 @@
             </a>
             <a href="https://www.telegram.hr/super1/shopping-vodic/vagabond-ravne-cipele-za-jesen/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-smedi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-smedi.png" alt="" class="full animate column-full-pad">
                 </picture>
                 <div class="half center folder-text box">
                     <p class="full"><b>Hot stuff</b> Pronašli smo savršene ravne cipele za jesen koje obožavaju i modne trendseterice i zvijezde</p>
@@ -68,7 +68,7 @@
             </a>
             <a href="https://www.telegram.hr/super1/shopping-vodic/high-street-traperice-za-jesen-2025/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-smedi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-smedi.png" alt="" class="full animate column-full-pad">
                 </picture>
                 <div class="half center folder-text box">
                     <p class="full"><b>Shopping vodič</b> Što je zajedničko svim high street kolecijama za jesen? Super traperice! Izdvojili smo najbolje</p>
@@ -79,7 +79,7 @@
             </a>
             <a href="https://www.telegram.hr/super1/look/dani-michelle-top-5-komada-za-jesen/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-smedi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-smedi.png" alt="" class="full animate column-full-pad">
                 </picture>
                 <div class="half center folder-text box">
                     <p class="full"><b>Fashion inspo</b> Što ćemo nositi ove jeseni? Stilistica Kendall Jenner predlaže ovih 5 komada</p>
@@ -90,7 +90,7 @@
             </a>
             <a href="https://www.telegram.hr/super1/shopping-vodic/kozne-torbe-high-street-jesen-2025/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-smedi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-smedi.png" alt="" class="full animate column-full-pad">
                 </picture>
                 <div class="half center folder-text box">
                     <p class="full"><b>Shopping vodič</b> Torbe su najbolji dio prvih jesenskih kolekcija, a ovi high street modeli to potvrđuju </p>
