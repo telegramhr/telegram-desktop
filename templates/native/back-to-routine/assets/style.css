@@ -17,27 +17,39 @@ html {
 }
 
 body {
-    cursor: url('../assets/placeholders/mouse.png') 0 0, auto;
+    cursor: url('../assets/placeholders/optimized/mouse.webp') 0 0, auto;
 }
-
+.main-container{
+    overflow-y: hidden;
+}
 .capatalise {
     text-transform: uppercase;
 }
 
 .fancy {
     font-family: "Ballet", cursive;
-    font-size: 6rem;
+    font-size: clamp(1vw, 15vw, 300px);
+    line-height: clamp(1vw, 10vw, 200px);
 }
 
+.roza-bg-folder{
+    height: 110% !important;
+}
+.featuredArticles{
+    min-height: 500px;
+    padding-top: 40px;
+}
 .normal-text {
     font-family: 'DM Sans', sans-serif;
     font-weight: 100;
-    margin-left: 11rem;
+    margin-left: clamp(2rem, 10vw, 11rem);
+    font-size: clamp(1rem, 4vw, 4rem);
 }
 
 .header-text {
-    top: 50%;
-    right: 6%;
+    top: 35%;
+    right: 10%;
+    transform: rotate(4deg) !important;
     line-height: 60px;
 }
 
@@ -57,7 +69,10 @@ body {
 
 .pink-bg {
     background: #f2dfe5;
-
+    height: 100vh; /* Fallback */
+    height: -webkit-fill-available; /* Safari */
+    height: -moz-available; /* Firefox */
+    height: stretch; /* Future standard */
 }
 
 .yellow-bg {
@@ -70,12 +85,23 @@ body {
 }
 
 /* chat */
-
-.chat-bubble {
-    margin-bottom: 1rem;
-    scale: 0.8;
+.chat{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-left: 84px;
+    max-width: 85%;
 }
-
+.chatMobile{
+    display: none;
+    flex-direction: column;
+    margin-left: 24px;
+}
+.chat-bubble {
+}
+.chat-bubble-third{
+    margin-top: 25px;
+}
 .bubble-right {
     margin-left: auto;
     margin-right: 1rem;
@@ -105,7 +131,6 @@ body {
 .negative-margin {
     margin-top: -4rem;
 }
-
 .shoo-top {
     margin-top: 8rem;
 }
@@ -123,19 +148,76 @@ body {
 #power.shoo-top {
     margin-top: 6rem;
 }
+.kavaContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    left: -100px;
+}
+.kavaContainer p{
+    font-family: "Special Elite", system-ui;
+    font-size: 18px;
+    transform: rotate(90deg);
+    position: relative;
+    left: 85px;
+}
+.kavaContainer img{
+    width: 200px;
+}
+.skincareContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50px;
+}
+.skincareContainer p{
+    font-family: "Special Elite", system-ui;
+    font-size: 18px;
+    transform: rotate(90deg);
+    position: relative;
+    left: 85px;
+}
+.skincareContainer img{
+    width: 200px;
+}
+.workoutContainer{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -150px;
+}
+.workoutContainer p{
+    font-family: "Special Elite", system-ui;
+    font-size: 18px;
+}
+.workoutContainer img{
+    width: 200px;
+}
+.allContainers{
+    left: clamp(73px, 10vw, 20vw);
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
+
+}
 /* Images */
 .hero-photo {
+    background-image: url("../assets/placeholders/optimized/office-bg.webp");
     background-image: url("../assets/placeholders/office-bg.jpg");
     background-size: cover;
     /* scales properly */
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: clamp(500px, 100vh, 1000px);
 }
 
 .notebook-bg {
-    background-image: url("../assets/placeholders/notebook-bg.jpg");
+    background-image: url("../assets/placeholders/optimized/biljeznica_nova.webp");
+    background-image: url("../assets/placeholders/biljeznica_nova.png");
     background-size: cover;
     /* scales properly */
     background-position: center;
@@ -167,7 +249,9 @@ body {
     margin-bottom: 4rem;
     margin-top: 2rem;
 }
-
+#lifestyle{
+    margin-top: 7.5rem;
+}
 div.center .shoo-bottom {
     margin-bottom: 3rem;
 }
@@ -227,7 +311,7 @@ img.column-full-pad.shoo-top {
 }
 
 .pink-folder {
-    margin-top: 8rem;
+    margin-top: 10rem;
 
 }
 
@@ -247,12 +331,21 @@ img.column-full-pad.shoo-top {
     margin-bottom: 12rem;
 }
 
-header.mobile-only {
+header .mobile-only {
     display: none;
 }
 
 /* Articles */
-
+.notebook-text{
+    display: flex;
+    width: 30%;
+    font-family: "Special Elite", system-ui;
+    top: 77px;
+    margin-left: 10px;
+    line-height: 1.4;
+    flex-direction: column;
+    gap: 13px;
+}
 .folder-text {
     position: absolute;
     top: 30%;
@@ -288,7 +381,7 @@ header.mobile-only {
 }
 
 .container a.half:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .folder-img.landscape {
@@ -308,6 +401,18 @@ div.container a:last-of-type {
     display: none;
 }
 
+.old-window{
+    margin-top: 68px;
+}
+.fashiondesktop img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 760px;
+    margin-top: 6rem;
+}
+.fashionmobile img{
+    display: none;
+}
 @keyframes wiggle {
     0% {
         transform: rotate(-2deg);
@@ -343,13 +448,31 @@ div.container a:last-of-type {
 #power .folder-bg {
     top: -16%;
 }
-
+.chatimg img{
+    height:74px;
+    width:auto;
+}
+#fashionContainer{
+    margin: 0 auto;
+}
 /* Tablete */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .tablet-only {
         display: flex;
     }
-
+    .fashiondesktop {
+        padding-top: 100px;
+    }
+    .designDesktop{
+        padding-top: 150px;
+    }
+    .notebook-text{
+        display: flex;
+        width: 70%;
+    }
+    .featuredArticles {
+        min-height: 350px;
+    }
     .pink-folder,
     .blue-folder,
     .yellow-folder,
@@ -360,10 +483,14 @@ div.container a:last-of-type {
 
     }
 
+    #lifestyle{
+        margin-top: 0;
+    }
     .kava-img {
         left: 55%;
-        scale: 0.9;
-        margin-top: 2rem;
+        scale: 0.5;
+        left: -100px;
+        top: 50px;
     }
 
     .folder-text {
@@ -376,16 +503,12 @@ div.container a:last-of-type {
     }
 
     .tablet-chat {
-        margin-top: 7rem;
-        margin-right: -5rem;
+        margin-top: 10rem;
+        margin-right: 0rem;
     }
 
     .chat-bubble {
         margin-bottom: 0rem;
-    }
-
-    .bubble-right {
-        scale: 0.6;
     }
 
     .life-circle {
@@ -407,16 +530,103 @@ div.container a:last-of-type {
         margin-top: 0rem;
     }
 
+    .fashiondesktop img{
+        max-width: 90%;
+    }
+    
 }
 
+@media (min-aspect-ratio: 16/10) {
+    .kava-img { top: -90px; } /* Standard landscape */
+}
 
+@media (min-aspect-ratio: 21/9) {
+    .kava-img { top: 80px; } /* Ultra-wide */
+}
 /* Mobile */
 @media screen and (max-width: 768px) {
-    .notebook-bg {
-        background-image: url("../assets/placeholders/notebook-bg-mobile.png");
-        height: 90vh;
+    
+    /* Images */
+    .hero-photo {
+        height: clamp(500px, 70vh, 1000px);
+    }
+    .desktop-tablet-only {
+        display: none;
+    }
+    nav{
+        height: inherit;
+    }
+    .featuredArticles {
+        min-height: 280px;
+        margin-bottom: -2px;
+        margin-top: -60px;
+        z-index: -2;
+        padding-top: 60px;
+    }
+    .folder{
+        scale: 0.6;
+        transition: transform 0.3s ease;
+    }
+    .folder img{
+        max-height: 100%;
+    }
+    .pink-folderMobile {
+        margin-left: clamp(280px, 60vw, 100vw);
     }
 
+    .blue-folderMobile {
+        margin-right: 0rem; 
+        margin-left: clamp(100px, 25vw,68vw);
+    }
+    .yellow-folderMobile {
+        margin-left: clamp(195px, 43vw,90vw);
+        margin-top: 0px;
+    }
+    .brown-folderMobile {
+        margin-left: clamp(60px, 15vw,48vw);
+    }
+    .white-folderMobile {
+        margin-right: 8rem;
+        transform: scaleY(1.14);
+    }
+    .fashionmobile img{
+        display: block;
+        margin-top: 4rem;
+    }
+    .fashionmobile{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fashiondesktop img{
+        display: none;
+    }
+    .beautyContainer{
+        padding-top: 25vw;
+    }
+    .notebook-bg {
+        background-image: url("../assets/placeholders/optimized/notebook-bg-mobile.webp");
+        background-image: url("../assets/placeholders/notebook-bg-mobile.png");
+        height: 95vh;
+    }
+    .chat{
+        display: none;
+    }
+    .chatMobile{
+        display: flex;
+        width: 90%;
+    }
+    footer{
+        padding-bottom: 40px;
+    }
+    .chatimg img{
+        height: 44px;
+        width: auto;
+    }
+    .notebook-text{
+        display: none;
+    }
     .header-text {
         top: 49%;
         right: -8%;
@@ -467,6 +677,9 @@ div.container a:last-of-type {
         font-size: 16px;
     }
 
+    #lifestyle{
+        margin-top: 0;
+    }
     .pink-folder,
     .blue-folder,
     .yellow-folder,
@@ -476,40 +689,6 @@ div.container a:last-of-type {
         transition: transform 0.3s ease;
 
     }
-
-    .pink-folder {
-        margin-bottom: 8rem;
-        margin-left: 6rem;
-
-    }
-
-    .blue-folder {
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-        margin-right: 3rem;
-
-    }
-
-    .yellow-folder {
-        margin-left: 2.3rem;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-        transform: scaleY(1.08);
-    }
-
-    .brown-folder {
-        margin-bottom: 0rem;
-        margin-right: 5.1rem;
-        transform: scaleY(1.05);
-
-    }
-
-    .white-folder {
-        margin-bottom: 0rem;
-        margin-right: 8rem;
-        transform: scaleY(1.14);
-    }
-
     .notebook-bg .btr-sticky {
         scale: 1;
         left: 18%;
@@ -524,23 +703,20 @@ div.container a:last-of-type {
         /* margin-bottom: 3rem; */
     }
 
-    header.mobile-only {
+    header .mobile-only {
         display: inherit;
     }
-
+    .mobile-only.folder{
+        max-height: 80vh;
+        margin-bottom: 0 !important;
+    }
     .shoo-top-chat {
         margin-top: 5rem;
     }
 
     .bubble-right:first-of-type {
-        scale: 1.4;
-        margin-right: 35px;
+        margin-right: 0;
     }
-
-    .bubble-right {
-        width: 55%;
-    }
-
 
     .bubble-left .thirty {
         width: 45%;
