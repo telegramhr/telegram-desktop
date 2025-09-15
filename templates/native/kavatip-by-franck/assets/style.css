@@ -1,0 +1,335 @@
+/*
+* CSS
+* by TG Studio Marijan
+*/
+
+/* Colors */
+
+:root {
+    --highlight-color: 174, 55, 55;
+}
+
+/* Typography */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+}
+
+/* General */
+.main-container {
+    padding: 2rem;
+    background-color: #7b3737;
+}
+
+header {
+    background: #fffff9;
+}
+
+h2.full {
+    max-width: 500px;
+    color: #7b3737;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+header p.full {
+    font-size: 20px;
+    max-width: 500px;
+    line-height: 28px;
+}
+
+header span {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 400;
+
+}
+
+/* colors */
+.white-bg {
+    background: #fffff9;
+}
+
+
+/* images */
+.top-logos {
+    background: #fffff9;
+    height: 2rem;
+    padding: 1.3rem;
+    color: black;
+
+}
+
+.top-logos img {
+    height: 2rem;
+}
+
+.stretch-height img {
+    height: 90vh;
+    object-fit: cover;
+}
+
+.strijela {
+    transform: rotate(110deg);
+    bottom: 15%;
+    width: 10%;
+    right: 20%;
+    z-index: 22;
+}
+
+.tape {
+    width: 10%;
+    transform: rotate(20deg);
+    bottom: -10%;
+    z-index: 20;
+
+}
+
+/* space */
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+header .more-space {
+    height: 70vh;
+}
+
+section .more-space {
+    height: 40vh;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.divider {
+    height: 6vh;
+    background: #fffff9;
+}
+
+
+/* kviz */
+
+.kviz {
+    background: #435645;
+    font-family: 'Open Sans', sans-serif
+}
+
+.kviz h3 {
+    font-size: 36px;
+    color: #F1ECE2;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.kviz p {
+    font-size: 20px;
+    color: #F1ECE2;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.kviz button {
+    background-color: #F1ECE2;
+    color: #7B3737;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+    position: relative;
+
+
+}
+
+.kviz button:hover {
+    filter: brightness(80%);
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: flex;
+}
+
+.email-form {
+    margin-top: 1.5rem;
+}
+
+.email-slide {
+    height: 55vh;
+}
+
+.email-slide p {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.email-slide button,
+.thank-you-slide button {
+    font-size: 16px;
+    margin: 0;
+    background: #25272C;
+    color: #FFFFFF;
+    padding: 0.7rem 1rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    border-radius: 8px;
+    transition: 0.3s ease;
+
+}
+
+.email-slide button:hover,
+.thank-you-slide button:hover {
+    background-color: #fffff9;
+    color: #25272C;
+
+}
+
+.email-slide input {
+    padding: 0.7rem;
+    font-family: 'Inter', sans-serif;
+    border-radius: 4px;
+    border: none;
+    margin-right: 1rem;
+    font-size: 16px;
+}
+
+.thank-you-slide {
+    height: 55vh;
+
+}
+
+.kava {
+    width: 10%;
+}
+
+.thank-you-slide h3 {
+    font-size: 36px;
+}
+
+
+
+/* footer */
+
+footer p.full {
+    color: #fffff9;
+    font-weight: 400;
+}
+
+footer .logo-line img {
+    width: 209px;
+    height: 74px;
+}
+
+/* tablete */
+@media screen and (max-width: 810px) {
+
+    header .more-space {
+        height: 50vh;
+    }
+
+    .stretch-height img {
+        height: 55vh;
+    }
+
+    .tape {
+        width: 15%;
+        bottom: -6%;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        padding: 0.7rem;
+    }
+
+    .stretch-height img {
+        height: 45vh;
+    }
+
+    header .more-space {
+        height: auto;
+    }
+
+    .top-logos {
+        margin-left: 1rem;
+    }
+
+    section .more-space {
+        height: auto;
+    }
+
+    .tape {
+        width: 20%;
+    }
+
+    .strijela {
+        right: 5%;
+        width: 12%;
+    }
+
+    .kviz p {
+        margin-top: 1.2rem;
+    }
+
+    .kviz h3 {
+        font-size: 25px;
+    }
+
+    .kviz button {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 0.5rem;
+
+    }
+
+    .email-form {
+        flex-wrap: wrap;
+    }
+
+    .email-slide input {
+        margin-right: 0rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .stretch-height img {
+        height: 35vh;
+    }
+
+    footer .container.center {
+        flex-wrap: wrap;
+    }
+
+    footer p.full {
+        text-align: center;
+    }
+
+    footer .logo-line img {
+        width: 170px;
+        height: 80px;
+    }
+}
