@@ -75,6 +75,17 @@
         </div>
 
         <div class="full flex relative">
+            <a href="https://www.telegram.hr/super1/life/poliklinika-bilic-vision-rjesavanje-problema-s-vidom/" target="_blank" class="half flex relative flex-responsive card">
+                <picture>
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-rozi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                </picture>
+                <div class="full center folder-text box">
+                    <p class="full"><b>S1 preporuka</b> Odlučili ste se ove jeseni riješiti naočala i leća? Znamo gdje ćete dobiti super rješenje za dobar vid</p>
+                </div>
+                <div class="full center folder-img">
+                    <img class="full animate" src="https://images.telegram.hr/Rw2g8sT3GFYg3YChH7_J1MakIsebZGD0WOsImImmFQU/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDkvZHItYmlsaWMtcHJlZ2xlZC16YS1sYXNlcnNrby1za2lkYW5qZS1kaW9wdHJpamUuanBn.webp" alt="Article thumbnail">
+                </div>
+            </a>
             <a href="https://www.telegram.hr/super1/beauty/razdjeljak-na-stranu-valovi-bob-i-druge-trendi-frizure-koje-ce-obiljeziti-jesensku-sezonu/" target="_blank" class="half flex relative flex-responsive">
                 <picture class="full animate column-full-pad">
                     <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-plavi.webp" type="image/webp">
