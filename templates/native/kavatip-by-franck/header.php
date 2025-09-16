@@ -31,7 +31,7 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/slick/slick.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/slick/slick-theme.css" type="text/css" />
     <!-- Functions -->
-    <script src="<?php echo $native_path ?>assets/functions.js?v=1.30></script>
+    <script src="<?php echo $native_path ?>assets/functions.js?v=1.30"></script>
 </head>
 <body>
     <div class="main-container flex relative">
@@ -59,7 +59,7 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
                     <!-- <img src="<?php echo $native_path ?>assets/placeholders/franck-ljudi.webp" aria-hidden="true"> -->
                     <picture>
                         <source srcset = "<?php echo $native_path ?>assets/placeholders/franck-ljudi.webp" type="image/webp">
-                        <img src="<?php echo $native_path ?>assets/placeholders/franck-ljudi.jpg" 
+                        <img src="<?php echo $native_path ?>assets/placeholders/franck-ljudi.jpg"
                             alt="ljudi piju kavu">
                     </picture>
                 </div>
