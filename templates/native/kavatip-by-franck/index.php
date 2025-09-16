@@ -345,8 +345,8 @@ require_once 'header.php';
             <a class="full flex relative flex-responsive stretch-height" target = "_blank" href = "https://shop.franck.eu/hr/pogodnosti-franck-cluba/?utm_medium=display&utm_source=telegram&utm_campaign=loyalty&utm_content=kviz&utm_term=croatia_web_loyalty_telegram_kviz">
                 <!-- <img src="<?php echo $native_path ?>assets/placeholders/franck-club.webp" aria-hidden="true"> -->
                 <picture class = "full">
-                    <source class = "full" srcset="<?php echo $native_path ?>assets/placeholders/franck-club.webp" type="image/webp">
-                    <img class = "full" src="<?php echo $native_path ?>assets/placeholders/franck-club.png" 
+                    <source class = "full" srcset="<?php echo $native_path ?>assets/placeholders/franckclub.webp" type="image/webp">
+                    <img class = "full" src="<?php echo $native_path ?>assets/placeholders/franckclub.png" 
                         alt="Franck club">
                 </picture>
             </a>
