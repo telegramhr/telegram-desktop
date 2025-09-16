@@ -341,12 +341,12 @@ require_once 'header.php';
             </div>
         </section>
         <div class="full divider"></div>
-        <section class="full flex relative">
+        <section class="full flex relative bottom-border">
             <a class="full flex relative flex-responsive stretch-height" target = "_blank" href = "https://shop.franck.eu/hr/pogodnosti-franck-cluba/?utm_medium=display&utm_source=telegram&utm_campaign=loyalty&utm_content=kviz&utm_term=croatia_web_loyalty_telegram_kviz">
                 <!-- <img src="<?php echo $native_path ?>assets/placeholders/franck-club.webp" aria-hidden="true"> -->
-                <picture>
-                    <source srcset="<?php echo $native_path ?>assets/placeholders/franck-club.webp" type="image/webp">
-                    <img src="<?php echo $native_path ?>assets/placeholders/franck-club.jpg" 
+                <picture class = "full">
+                    <source class = "full" srcset="<?php echo $native_path ?>assets/placeholders/franck-club.webp" type="image/webp">
+                    <img class = "full" src="<?php echo $native_path ?>assets/placeholders/franck-club.png" 
                         alt="Franck club">
                 </picture>
             </a>
