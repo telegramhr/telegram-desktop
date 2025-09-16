@@ -17,6 +17,17 @@
             </picture>
         </div>
         <div data-aos="fade-right" data-aos-delay="250" class="full flex relative negative-margin">
+            <a href="https://www.telegram.hr/super1/life/zvijezda-ketchup-za-svaki-obrok-povratak-rutini/" target="_blank" class="half flex relative flex-responsive">
+                <picture>
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-zuti.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-zuti.png" alt="zuti folder s clankom" class="full animate column-full-pad">
+                </picture>
+                <div class="full center folder-text box">
+                    <p class="full"><b>Za sva nepca</b> Trebate prijedloge za ukusne obroke u užurbanoj jeseni? Ovaj sastojak je glavna zvijezda svih jela </p>
+                </div>
+                <div class="full center folder-img">
+                    <img class="full animate" src="<?php echo $native_path ?>assets/placeholders/kecap.jpg" alt="Article thumbnail">
+                </div>
+            </a>
             <a href="https://www.telegram.hr/super1/life/nove-serije-i-nove-sezone-rujan-2025/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
                     <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-zuti.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-zuti.png" alt="zuti folder s clankom" class="full animate column-full-pad">
