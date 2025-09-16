@@ -132,7 +132,7 @@ section .more-space {
     font-size: 36px;
     color: #F1ECE2;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     margin-top: 0.5rem;
 }
 
@@ -143,18 +143,16 @@ section .more-space {
     margin-top: 3rem;
 }
 
-.kviz button {
+.kviz button[data-category] {
     background-color: #F1ECE2;
     color: #7B3737;
     padding: 1rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
     font-size: 20px;
     border: none;
     border-radius: 4px;
     transition: background-color 0.3s ease, filter 0.3s ease;
     cursor: pointer;
-    position: relative;
 
 
 }
@@ -169,6 +167,10 @@ section .more-space {
 
 .slide.active {
     display: flex;
+}
+
+.slide[data-slide="1"] .prev-btn {
+    display: none;
 }
 
 .email-form {
@@ -195,14 +197,15 @@ section .more-space {
     font-family: 'Inter', sans-serif;
     border-radius: 8px;
     transition: 0.3s ease;
+    border: none;
 
 }
 
 .email-slide button:hover,
 .thank-you-slide button:hover {
     background-color: #fffff9;
+    cursor: pointer;
     color: #25272C;
-
 }
 
 .email-slide input {
@@ -219,12 +222,71 @@ section .more-space {
 
 }
 
+.thank-you-slide h3,
+.email-slide h3 {
+    margin-bottom: 1rem;
+}
+
 .kava {
     width: 10%;
 }
 
 .thank-you-slide h3 {
     font-size: 36px;
+}
+
+.prev-btn {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    transform: rotate(180deg);
+    transition: background-color 0.3s ease, filter 0.3s ease;
+
+}
+
+
+.answer[data-category] {
+    position: relative;
+    padding-left: 2.2rem;
+    /* space for the icon */
+    text-align: center;
+}
+
+.answer.active[data-category] {
+    background-color: #7b3737;
+    color: #fffff9;
+}
+
+.answer .selected-icon {
+    position: inherit;
+    transform: translateY(10%);
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: #fffff9;
+    margin-right: 0.5rem;
+    /* adjust color as needed */
+    display: none;
+}
+
+.answer.active .selected-icon {
+    display: inline-block;
+}
+
+.next-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+
 }
 
 
@@ -256,6 +318,16 @@ footer .logo-line img {
         width: 15%;
         bottom: -6%;
     }
+
+    .next-btn {
+        right: 0rem;
+        top: 53.9%;
+    }
+
+    .prev-btn {
+        left: 0rem;
+        top: 54%;
+    }
 }
 
 /* mobile */
@@ -285,13 +357,18 @@ footer .logo-line img {
         width: 20%;
     }
 
+    .kviz button.answer[data-category="typeE"] {
+        margin-bottom: 2.5rem;
+        /* or whatever size you need */
+    }
+
     .strijela {
         right: 5%;
         width: 12%;
     }
 
     .kviz p {
-        margin-top: 1.2rem;
+        margin-top: 0rem;
     }
 
     .kviz h3 {
@@ -331,5 +408,21 @@ footer .logo-line img {
     footer .logo-line img {
         width: 170px;
         height: 80px;
+    }
+
+    .next-btn {
+        bottom: -43.5%;
+        left: 13rem;
+        right: 0rem;
+    }
+
+    .prev-btn {
+        top: 96%;
+        left: -13rem;
+    }
+
+    .kviz button.next-btn,
+    .kviz button.prev-btn {
+        margin-top: 0rem;
     }
 }

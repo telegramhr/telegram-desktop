@@ -24,8 +24,8 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/aos/aos.css?v=1.00" type="text/css" />
     <script src="<?php echo $native_path ?>assets/aos/aos.js"></script>
     <!-- Styles -->
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/operon.css?v=1.10" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.10" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/operon.css?v=1.20" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.20" type="text/css" />
     <!-- Slick slider -->
     <script src="<?php echo $native_path ?>assets/slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/slick/slick.css" type="text/css" />
