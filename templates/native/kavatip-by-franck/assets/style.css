@@ -44,9 +44,9 @@ button {
 /* Good Sans – Regular Italic (400 italic) */
 @font-face {
     font-family: 'Good Sans';
-    src: url('../assets/fonts/goodsans-regularitalic-webfont.woff') format('woff');
+    src: url('../assets/fonts/goodsans-regular-webfont.woff') format('woff');
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -106,8 +106,7 @@ header span {
 /* images */
 .top-logos {
     background: #fffff9;
-    height: 2rem;
-    padding: 1.3rem;
+    padding-top: 40px;
     color: black;
 
 }
@@ -353,6 +352,51 @@ footer .center {
     justify-content: space-between;
 }
 
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.main .left{
+    padding-top: 40px;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    gap: 140px;
+}
+.main .logos img{
+    height: 54px;
+    width: auto;
+}
+.main .logos{
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+}
+.main .left, .main .right{
+    width: 50%;
+}
+.main .right img{
+    min-height: 700px;
+    width: auto;
+    object-fit: cover;
+}
+.checkbox-container{
+     
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 16px;
+    width: fit-content;
+    margin-left: -35px;
+}
+.checkbox-container input{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.checkbox-container a{
+    color: rgb(173, 181, 189);
+}
 /* tablete */
 @media screen and (max-width: 810px) {
 
@@ -382,7 +426,7 @@ footer .center {
 
 /* mobile */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .main-container {
         padding: 0.7rem;
     }
@@ -485,6 +529,9 @@ footer .center {
     .kviz button.prev-btn {
         margin-top: 0rem;
     }
+.kviz button.next-btn {
+        margin-top: 5px;
+    }
 
     footer .center {
         justify-content: center;
@@ -495,4 +542,16 @@ footer .center {
     footer .fourth {
         width: 100%;
     }
+    .main{
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+.main .left, .main .right{
+    width: 100%;
+}
+
+.main .left{
+    gap: 60px;
+}
 }

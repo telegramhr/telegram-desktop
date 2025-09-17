@@ -3,7 +3,7 @@ require_once 'header.php';
 ?>
 
         <!-- Prije Kviz -->
-        <section class="full flex relative white-bg">
+        <section class="full flex white-bg" style="margin-top: -1px;">
             <div class="container center relative column-full-pad more-space">
                 <h2 class="full center-text">Riješi kviz i saznaj koji si kavatip!</h2>
                 <img class = "full strijela absolute" src="<?php echo $native_path ?>assets/placeholders/arrow.png" alt="arrow">
@@ -329,7 +329,16 @@ require_once 'header.php';
                 <p class = "full center-text">Zanima te koji si kavatip?<br>Personalizirani rezultat šaljemo na tvoju e-mail adresu.</p>
                 <div class="email-form center full">
                     <input class = "third" type="email" id="emailInput" placeholder="vasa.email@example.com" required>
-                    <button id="submitEmail">Pošaljite</button>
+                    <button id="submitEmail" disabled>Pošaljite</button>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">Prihvaćam uvjete i pravila privatnosti 
+                        <a href="https://www.franck.eu/hr/zastita-privatnosti/" target="_blank">Francka</a>
+                         i 
+                         <a href="https://www.telegram.hr/stranica/pravila-privatnosti/" target="_blank">
+                            Telegrama
+                         </a>.</label>
                 </div>
             </div>
             <!-- Thank You Slide -->

@@ -117,6 +117,9 @@ jQuery(document).ready(function ($) {
                 $('.thank-you-slide').addClass('active');
             })
         }
+        document.getElementById('terms').checked = false;
+        const submitButton = document.getElementById('submitEmail');
+        submitButton.disabled = true;
 
         return false;
     });
@@ -154,5 +157,14 @@ jQuery(document).ready(function ($) {
         $('.success-message').hide();
         $('.error-message').text(message).show();
     }
+    
+    document.getElementById('terms').addEventListener('change', function() {
+        const submitButton = document.getElementById('submitEmail');
+        if (this.checked) {
+            submitButton.disabled = false;
+        } else {
+            submitButton.disabled = true;
+        }
+    });
 
 });
