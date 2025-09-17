@@ -532,6 +532,9 @@ footer .center {
 .kviz button.next-btn {
         margin-top: 15px;
     }
+.kviz button.next-btn {
+        margin-top: 5px;
+    }
 
     footer .center {
         justify-content: center;
