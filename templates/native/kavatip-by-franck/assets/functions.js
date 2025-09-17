@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
 //     $('.answer').click(function() {
 //         var active = $('.slide.active').data('slide');
 //         var category = $(this).data('category');
-        
+
 //         if (category) {
 //             scores[category]++;
 //         }
@@ -42,11 +42,11 @@ jQuery(document).ready(function() {
 //             let topTypes = Object.keys(scores).filter(k => scores[k] === max);
 //             let highestType = topTypes[Math.floor(Math.random() * topTypes.length)];
 //             result = highestType;
-            
+
 //             // Show email input slide
 //             $('.email-slide').addClass('active');
 //         }
-        
+
 //         return false;
 //     });
 
@@ -106,14 +106,16 @@ jQuery(document).ready(function ($) {
     // Email submission
     $('#submitEmail').click(function() {
         var email = $('#emailInput').val();
-        
+
         if (!email || !isValidEmail(email)) {
             showError('Molimo unesite validnu email adresu.');
             return false;
         }
         else{
-            $('.email-slide').removeClass('active');
-            $('.thank-you-slide').addClass('active');
+            $.post('https://www.telegram.hr/wp-json/telegram/pwa/v1/forms/kavatip', {scores: scores, email: email}).then(() => {
+                $('.email-slide').removeClass('active');
+                $('.thank-you-slide').addClass('active');
+            })
         }
 
         return false;
@@ -126,14 +128,14 @@ jQuery(document).ready(function ($) {
         scores = {typeA: 0, typeB: 0, typeC: 0, typeD: 0, typeE: 0};
         currentSlide = 1;
         result = '';
-        
+
         // Reset email form
         $('#emailInput').val('');
         $('#submitEmail').prop('disabled', false);
         $('.result-display').hide();
         $('.success-message, .error-message').hide().text('');
         $('#continueToThanks').remove();
-        
+
         return false;
     });
 

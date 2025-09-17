@@ -1,7 +1,7 @@
 <?php
 require_once 'header.php';
-?> 
-        
+?>
+
         <!-- Prije Kviz -->
         <section class="full flex relative white-bg">
             <div class="container center relative column-full-pad more-space">
@@ -20,20 +20,20 @@ require_once 'header.php';
                     <button class="prev-btn" aria-label="Previous slide">
                         <img class = "" src="<?php echo $native_path ?>assets/placeholders/kviz-arrow.png" alt="arrow">
                     </button>
-                    <button class = "two-thirds answer" data-category="typeA">
+                    <button class = "two-thirds answer" data-category="typeB">
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Ekspresna priprema kave i odmah u novi dan.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                    <button class = "two-thirds answer" data-category="typeA">
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Kava iz omiljene šalice, poznat okus i rutina koja nikad ne razočara.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Tišina, opuštanje i dobra knjiga uz šalicu kave.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Sve mora biti po mom od vaganja do mljevenja kave.
                     </button>
                     <button class = "two-thirds answer" data-category="typeE">
@@ -56,20 +56,20 @@ require_once 'header.php';
                         Blizina stana, poznata atmosfera i kava točno onakva kakvu volim.
                     </button>
                     <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Da je moderan, s dobrom kavom i još boljim kolačima.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Volim da ima miran kutak gdje mogu nestati na sat-dva.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Ako ne znaju razliku između Arabice i Robuste, izlazim.
                     </button>
                     <button class = "two-thirds answer" data-category="typeE">
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
-                        Mjesto gdje ne čekam predugo i gdje kava stigne čim sjednem. 
+                        Mjesto gdje ne čekam predugo i gdje kava stigne čim sjednem.
                     </button>
                     <button class="next-btn">
                         <img class = "" src="<?php echo $native_path ?>assets/placeholders/kviz-arrow.png" alt="arrow">
@@ -87,20 +87,20 @@ require_once 'header.php';
                         Klasična bijela porculanska.
                     </button>
                     <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Elegantna, keramička, ručno rađena.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Što šarenije i veselije to bolje.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Mala staklena šalica za espresso.
                     </button>
                     <button class = "two-thirds answer" data-category="typeE">
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
-                        Termo šalica za ponijeti. 
+                        Termo šalica za ponijeti.
                     </button>
                     <button class="next-btn">
                         <img class = "" src="<?php echo $native_path ?>assets/placeholders/kviz-arrow.png" alt="arrow">
@@ -118,15 +118,15 @@ require_once 'header.php';
                         S prijateljem koji nikad ne kasni.
                     </button>
                     <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Sam, dok pregledavam mailove na mobitelu.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         S prijateljicom s kojom jedna kava traje tri sata.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         S partnerom koji mi svako jutro pripremi kavu s pažnjom.
                     </button>
                     <button class = "two-thirds answer" data-category="typeE">
@@ -144,25 +144,25 @@ require_once 'header.php';
                     <button class="prev-btn" aria-label="Previous slide">
                         <img class = "" src="<?php echo $native_path ?>assets/placeholders/kviz-arrow.png" alt="arrow">
                     </button>
-                    <button class = "two-thirds answer" data-category="typeA">
+                    <button class = "two-thirds answer" data-category="typeD">
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Uzimam pauzu i pokušavam duboko disati.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                    <button class = "two-thirds answer" data-category="typeE">
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Odmah tražim brzo rješenje.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Maknem se od svega i nazovem prijatelje da se malo ispričamo i nasmijemo.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                    <button class = "two-thirds answer" data-category="typeA">
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Vraćam se poznatim ritualima i navikama, podsjećam se da je sve rješivo.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeE">
+                    <button class = "two-thirds answer" data-category="typeB">
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
-                        Ne mirujem, istražujem što bi me moglo izvući iz toga. 
+                        Ne mirujem, istražujem što bi me moglo izvući iz toga.
                     </button>
                     <button class="next-btn">
                         <img class = "" src="<?php echo $native_path ?>assets/placeholders/kviz-arrow.png" alt="arrow">
@@ -180,15 +180,15 @@ require_once 'header.php';
                         Miris doma.
                     </button>
                     <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Izraz osobnosti i prilika za istraživanje.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Druženje, smijeh i kratki bijeg od svega.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Jutarnja rutina i vrijeme za mene.
                     </button>
                     <button class = "two-thirds answer" data-category="typeE">
@@ -211,15 +211,15 @@ require_once 'header.php';
                         Uz dobru knjigu ili omiljenu seriju.
                     </button>
                     <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Volim otkrivati nove stvari i planirati sljedeće putovanje.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Družim se s prijateljima.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Učim, treniram, razvijam se i tako punim baterije.
                     </button>
                     <button class = "two-thirds answer" data-category="typeE">
@@ -242,15 +242,15 @@ require_once 'header.php';
                         Hermione Granger – promišljena, organizirana i zna točno što želi.
                     </button>
                     <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Indiana Jones – znatiželjan, nepredvidiv, vječni avanturist.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Chandler Bing – duhovit, opušten i nikad ne propušta priliku za dobru šalu.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Sherlock Holmes - fokusiran, metodičan i potpuno u svom svijetu.
                     </button>
                     <button class = "two-thirds answer" data-category="typeE">
@@ -273,18 +273,18 @@ require_once 'header.php';
                         Prostor koji ne odvlači pažnju i u kojem se lako fokusiram.
                     </button>
                     <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Prostor pun boja, inspirativnih detalja i kreativnog nereda.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Coworking prostor gdje mogu raditi, pričati i popiti kavu s ekipom.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                    <button class = "two-thirds answer" data-category="typeE">
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Udoban kutak gdje mi je sve nadohvat ruke.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeE">
+                    <button class = "two-thirds answer" data-category="typeD">
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Radni kutak s dobrom rasvjetom i mojim pravilima.
                     </button>
@@ -303,19 +303,19 @@ require_once 'header.php';
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Svaki dan.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeB">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                    <button class = "two-thirds answer" data-category="typeE">
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Kupujem kad god stignem. Brzo, praktično i bez puno razmišljanja.
                     </button>
                     <button class = "two-thirds answer" data-category="typeC">
-                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "full kava selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Kad mi nešto zatreba, ne planiram unaprijed.
                     </button>
                     <button class = "two-thirds answer" data-category="typeD">
-                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">    
+                        <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Jednom mjesečno. Volim sve detaljno isplanirati i napraviti zalihe.
                     </button>
-                    <button class = "two-thirds answer" data-category="typeE">
+                    <button class = "two-thirds answer" data-category="typeB">
                         <img class = "selected-icon" src="<?php echo $native_path ?>assets/placeholders/kava.svg" alt="kava">
                         Sve naručujem online, bez gubljenja vremena.
                     </button>
@@ -346,7 +346,7 @@ require_once 'header.php';
                 <!-- <img src="<?php echo $native_path ?>assets/placeholders/franck-club.webp" aria-hidden="true"> -->
                 <picture class = "full">
                     <source class = "full" srcset="<?php echo $native_path ?>assets/placeholders/franckclub.webp" type="image/webp">
-                    <img class = "full" src="<?php echo $native_path ?>assets/placeholders/franckclub.png" 
+                    <img class = "full" src="<?php echo $native_path ?>assets/placeholders/franckclub.png"
                         alt="Franck club">
                 </picture>
             </a>
