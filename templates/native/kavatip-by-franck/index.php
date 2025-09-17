@@ -12,7 +12,7 @@ require_once 'header.php';
         </section>
         <!-- KVIZ -->
         <section class="full center flex relative kviz">
-            <div class="container center relative column-full-pad">
+            <div class="container center relative column-full-pad containerPitanja">
                 <!-- slide 1 -->
                 <div class="full center wrap relative slide active" data-slide ="1">
                     <p class="full center-text">1/10</p>
