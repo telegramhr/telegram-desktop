@@ -527,7 +527,10 @@ footer .center {
 
     .kviz button.next-btn,
     .kviz button.prev-btn {
-        margin-top: 0rem;
+        margin-top: 10px;
+    }
+.kviz button.next-btn {
+        margin-top: 15px;
     }
 .kviz button.next-btn {
         margin-top: 5px;
@@ -552,6 +555,13 @@ footer .center {
 }
 
 .main .left{
-    gap: 60px;
+    gap: 30px;
+    padding-left: 16px;
+}
+.main .logos img {
+    height: 40px;
+}
+.containerPitanja{
+    padding-bottom: 1.6rem !important;
 }
 }
