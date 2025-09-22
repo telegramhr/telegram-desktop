@@ -20,9 +20,9 @@ $jsPath = $distPath . '/main.js';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php //wp_head(); ?>
     <!-- Styles -->
-    <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=<?php echo file_exists($cssPath) ? filemtime($cssPath) : '1'; ?>">
+    <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=<?php echo file_exists($cssPath) ? filemtime($cssPath) : '1.1'; ?>">
     <!-- JavaScript -->
-    <script src="<?php echo $native_path; ?>/dist/main.js?v=<?php echo file_exists($jsPath) ? filemtime($jsPath) : '1'; ?>" defer></script>
+    <script src="<?php echo $native_path; ?>/dist/main.js?v=<?php echo file_exists($jsPath) ? filemtime($jsPath) : '1.1'; ?>" defer></script>
 </head>
 <body>
     <div class="">

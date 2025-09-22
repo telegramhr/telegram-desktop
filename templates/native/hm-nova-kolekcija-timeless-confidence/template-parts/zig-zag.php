@@ -7,9 +7,9 @@
             </div>
             <div class="flex flex-1 justify-center md:justify-start ">
                 <picture>
-                    <source srcset="../assets/clothing/03.webp" type="image/webp">
-                    <source srcset="../assets/clothing/03.png" type="image/jpeg">
-                    <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="250" class="md:pl-[124px] max-h-[323px] md:max-h-none" src="../assets/clothing/03.webp" alt="Čipkasta pidžama ">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/03.webp" type="image/webp">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/03.png" type="image/jpeg">
+                    <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="250" class="md:pl-[124px] max-h-[323px] md:max-h-none" src="<?php echo $native_path; ?>/assets/clothing/03.webp" alt="Čipkasta pidžama ">
                 </picture>
             </div>
         </div>
@@ -21,9 +21,9 @@
             </div>
             <div class="flex flex-1 justify-center md:justify-end ">
                 <picture>
-                    <source srcset="../assets/clothing/04.webp" type="image/webp">
-                    <source srcset="../assets/clothing/04.png" type="image/jpeg">
-                    <img data-aos="fade-right" data-aos-duration="2000" data-aos-delay="250" class="md:pr-[93px] max-h-[471px] md:max-h-none" src="../assets/clothing/04.webp" alt="Duga ženska bež haljina">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/04.webp" type="image/webp">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/04.png" type="image/jpeg">
+                    <img data-aos="fade-right" data-aos-duration="2000" data-aos-delay="250" class="md:pr-[93px] max-h-[471px] md:max-h-none" src="<?php echo $native_path; ?>/assets/clothing/04.webp" alt="Duga ženska bež haljina">
                 </picture>
             </div>
         </div>
@@ -34,9 +34,9 @@
             </div>
             <div class="flex flex-1  justify-center md:justify-start">
                 <picture>
-                    <source srcset="../assets/clothing/01.webp" type="image/webp">
-                    <source srcset="../assets/clothing/01.png" type="image/jpeg">
-                    <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="250" class="md:pl-[69px] max-h-[446px] md:max-h-none" src="../assets/clothing/01.webp" alt="Pufnasta bež bluza">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/01.webp" type="image/webp">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/01.png" type="image/jpeg">
+                    <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="250" class="md:pl-[69px] max-h-[446px] md:max-h-none" src="<?php echo $native_path; ?>/assets/clothing/01.webp" alt="Pufnasta bež bluza">
                 </picture>
             </div>
         </div>
@@ -46,9 +46,9 @@
             </div>
             <div class="flex flex-1 justify-center md:justify-end ">
                 <picture>
-                    <source srcset="../assets/clothing/02.webp" type="image/webp">
-                    <source srcset="../assets/clothing/02.png" type="image/jpeg">
-                    <img data-aos="fade-right" data-aos-duration="2000" data-aos-delay="250" class="md:pr-[124px] max-h-[400px] md:max-h-none" src="../assets/clothing/02.webp" alt="Kožna ženska suknja">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/02.webp" type="image/webp">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/02.png" type="image/jpeg">
+                    <img data-aos="fade-right" data-aos-duration="2000" data-aos-delay="250" class="md:pr-[124px] max-h-[400px] md:max-h-none" src="<?php echo $native_path; ?>/assets/clothing/02.webp" alt="Kožna ženska suknja">
                 </picture>
             </div>
         </div>
@@ -59,9 +59,9 @@
             </div>
             <div class="flex flex-1 justify-center md:justify-start">
                 <picture>
-                    <source srcset="../assets/clothing/05.webp" type="image/webp">
-                    <source srcset="../assets/clothing/05.png" type="image/jpeg">
-                    <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="250" class="md:pl-[93px] max-h-[475px] md:max-h-none" src="../assets/clothing/05.webp" alt="Široke ženske karirane hlače">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/05.webp" type="image/webp">
+                    <source srcset="<?php echo $native_path; ?>/assets/clothing/05.png" type="image/jpeg">
+                    <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="250" class="md:pl-[93px] max-h-[475px] md:max-h-none" src="<?php echo $native_path; ?>/assets/clothing/05.webp" alt="Široke ženske karirane hlače">
                 </picture>
             </div>
         </div>
