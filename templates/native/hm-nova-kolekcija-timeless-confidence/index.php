@@ -8,7 +8,7 @@
 //$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/kavatip-by-franck/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/kavatip-by-franck/';
 //$native_path = 'https://native.ddev.site/';
-$native_path = 'https://www.telegram.hr/super1/native/hm-nova-kolekcija-timeless-confidence/';
+$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/hm-nova-kolekcija-timeless-confidence/';
 $distPath = __DIR__ . '/dist';
 $cssPath = $native_path . '/style.css';
 $jsPath = $distPath . '/main.js';
