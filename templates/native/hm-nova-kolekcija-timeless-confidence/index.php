@@ -18,7 +18,7 @@ $jsPath = $distPath . '/main.js';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
     <!-- Styles -->
     <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=<?php echo file_exists($cssPath) ? filemtime($cssPath) : '1.1'; ?>">
     <!-- JavaScript -->
@@ -39,7 +39,7 @@ $jsPath = $distPath . '/main.js';
         <?php
         require_once 'footer.php';
         ?>
-        <?php //wp_footer(); ?>
+        <?php wp_footer(); ?>
     </div>
 </body>
 
