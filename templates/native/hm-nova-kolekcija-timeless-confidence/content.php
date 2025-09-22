@@ -7,5 +7,3 @@
     <?php include 'template-parts/items-slider.php'; ?>
     <?php include 'template-parts/last-paragraph.php'; ?>
 </main>
-<link rel="stylesheet" href="./dist/main.css">
-<script src="./dist/main.js"></script>
