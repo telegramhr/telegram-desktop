@@ -2,7 +2,7 @@
     <div class="flex flex-col gap-10 md:gap-0 w-full max-w-[1216px] mx-auto ">
         <div class="flex flex-col gap-10 md:gap-0 md:flex-row w-full">
             <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="250" class="flex flex-1 flex-col gap-10 max-w-[550px]">
-                <h3 class="text-center md:text-right text-[28px] md:text-[44px] font-gilda text-primary">Chapter 1: Dreamy Nostalgia s dozom pobune</h3>
+                <h3 class="text-center md:text-right text-[28px] md:text-[44px] font-gilda text-primary">Dreamy Nostalgia s dozom pobune</h3>
                 <p class="text-center md:text-right text-[20px] md:text-[24px] font-normal font-montserrat text-dark3  md:leading-[34px] tracking-tighter">Prvi drop kolekcije inspiriran je<span class="text-primary"> stilskim ikonama</span> kasnih 90-ih koje su prenamijenile vintage komade i miješale romantične siluete s buntovnim street elementima. Ovaj drop vraća duh <span class="text-primary"> Londona </span> 90-ih kada su kreativci i umjetnici kroz modu redefinirali samoizražavanje, ali ga pripovijeda modernim jezikom.</p>
             </div>
             <div class="flex flex-1 justify-center md:justify-start ">
