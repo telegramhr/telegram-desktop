@@ -28,7 +28,7 @@ $jsPath = $distPath . '/main.js';
     <div class="">
         <!-- Header -->
         <?php
-        require_once 'footer.php';
+        require_once 'header.php';
         ?>
         
         <?php
