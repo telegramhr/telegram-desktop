@@ -24,7 +24,7 @@ $jsPath = $distPath . '/main.js';
     <!-- JavaScript -->
     <script src="<?php echo $native_path; ?>/dist/main.js?v=<?php echo file_exists($jsPath) ? filemtime($jsPath) : '1.11'; ?>" defer></script>
 </head>
-<body>
+<body class="bg-accent">
     <div class="">
         <!-- Header -->
         <?php
