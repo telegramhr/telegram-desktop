@@ -14,6 +14,17 @@
             </picture>
         </div>
         <div class="full flex relative negative-margin" data-aos="fade-right" data-aos-delay="250">
+            <a href="https://www.telegram.hr/super1/design/jesenski-trendovi-u-interijerima-uredenje-spavace-sobe-perfecta-dreams/" target="_blank" class="half flex relative flex-responsive">
+                <picture>
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-bijeli.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-bijeli.png" alt="plavi folder s clankom" class="full animate column-full-pad">
+                </picture>
+                <div class="full center folder-text box">
+                    <p class="full"><b>Design inspo</b> Kako urediti spavaću sobu prema najvećim jesenskim trendovima u interijeru? Imamo super ideje</p>
+                </div>
+                <div class="full center folder-img landscape">
+                    <img class="full animate" src="https://images.telegram.hr/pjRexISimf2n6v_fSuHHWXijDOi-Cy-ypNVdAaSo8TQ/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDkvcGQtcmVuZGVyaS1rcmV2ZXQwNS1nbGF2bmktZmluYWwtdXBzY2FsZWQuanBn.webp" alt="Article thumbnail">
+                </div>
+            </a>
             <a href="https://www.telegram.hr/super1/design/povratak-rutini-nikad-nije-izgledao-bolje-pogledajte-veliki-jesenski-super1-editorijal/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
                     <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-bijeli.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-bijeli.png" alt="plavi folder s clankom" class="full animate column-full-pad">
