@@ -17,6 +17,17 @@
             </picture>
         </div>
         <div data-aos="fade-right" data-aos-delay="250" class="full flex relative negative-margin">
+            <a href="https://www.telegram.hr/super1/life/veliki-vodic-za-jesensku-cozy-sezonu/" target="_blank" class="half flex relative flex-responsive">
+                <picture>
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-zuti.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-zuti.png" alt="zuti folder s clankom" class="full animate column-full-pad">
+                </picture>
+                <div class="full center folder-text box">
+                    <p class="full"><b>S1 odabir</b> Veliki vodič za cosy sezonu: Što gledati, čitati, slušati i kupiti da bi jesen bila savršeno ugodna </p>
+                </div>
+                <div class="full center folder-img">
+                    <img class="full animate" src="https://images.telegram.hr/IxwXKlh9JrCkd3LvFGvj3k6PvMzzFPRx1ScwzzLDx8U/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDkvNGZjNzFiNDc3MmUwMzg0YTRmMTY1Njk3Yjc3MjFjZDk3Yy1ub2JvZHl3YW50c3RoaXMtZXAxMDF4cnNxdWFyZXcxNDAwLnBuZw.webp" alt="Article thumbnail">
+                </div>
+            </a>
             <a href="https://www.telegram.hr/super1/life/zvijezda-ketchup-za-svaki-obrok-povratak-rutini/" target="_blank" class="half flex relative flex-responsive">
                 <picture>
                     <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-zuti.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-zuti.png" alt="zuti folder s clankom" class="full animate column-full-pad">
