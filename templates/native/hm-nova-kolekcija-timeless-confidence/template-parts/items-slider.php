@@ -35,7 +35,13 @@
                 <img class="w-full h-full object-containt" src="<?php echo $native_path; ?>/assets/clothing/05.webp" alt="Karirane ženske hlače">
             </picture>
         </div>
-
+        <div class=" h-[292px] md:h-[512px] aspect-[3/4]">
+            <picture>
+                <source srcset="<?php echo $native_path; ?>/assets/clothing/01.webp" type="image/webp">
+                <source srcset="<?php echo $native_path; ?>/assets/clothing/01.png" type="image/jpeg">
+                <img class="w-full h-full object-containt" src="<?php echo $native_path; ?>/assets/clothing/01.webp" alt="Pufnasta bež bluza">
+            </picture>
+        </div>
         <div class=" h-[292px] md:h-[512px] aspect-[3/4]">
             <picture>
                 <source srcset="<?php echo $native_path; ?>/assets/clothing/02.webp" type="image/webp">
