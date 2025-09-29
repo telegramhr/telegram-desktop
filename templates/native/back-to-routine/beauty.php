@@ -75,6 +75,17 @@
         </div>
 
         <div class="full flex relative">
+            <a href="https://www.telegram.hr/super1/beauty/beauty-proizvodi-za-jesen-lerbolario/" target="_blank" class="half flex relative flex-responsive card">
+                <picture>
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-plavi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                </picture>
+                <div class="full center folder-text box">
+                    <p class="full"><b>Beauty tema</b> Mali rituali koji čine veliku razliku: Ovi će vam proizvodi olakšati ulazak u novu jesensku sezonu</p>
+                </div>
+                <div class="full center folder-img">
+                    <img class="full animate" src="https://images.telegram.hr/dFNAiAT9b4ZrBxSeAMH_ZZRKPbToXFL_BZpYHOD2L0s/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDkvYmFjay10by1yb3V0aW5lLTEuanBn.webp" alt="Article thumbnail">
+                </div>
+            </a>
             <a href="https://www.telegram.hr/super1/life/poliklinika-bilic-vision-rjesavanje-problema-s-vidom/" target="_blank" class="half flex relative flex-responsive card">
                 <picture>
                     <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-plavi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
