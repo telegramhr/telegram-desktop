@@ -352,36 +352,42 @@ footer .center {
     justify-content: space-between;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: row;
 }
-.main .left{
+
+.main .left {
     padding-top: 40px;
     display: flex;
     padding-left: 50px;
     flex-direction: column;
     gap: 140px;
 }
-.main .logos img{
+
+.main .logos img {
     height: 54px;
     width: auto;
 }
-.main .logos{
+
+.main .logos {
     display: flex;
     flex-direction: row;
     height: 54px;
 }
-.main .left, .main .right{
+
+.main .left,
+.main .right {
     width: 50%;
 }
-.main .right img{
+
+.main .right img {
     min-height: 700px;
     width: auto;
     object-fit: cover;
 }
-.checkbox-container{
-     
+
+.checkbox-container {
     text-align: center;
     color: white;
     font-weight: normal;
@@ -390,13 +396,20 @@ footer .center {
     width: fit-content;
     margin-left: -35px;
 }
-.checkbox-container input{
+
+.checkbox-container input {
     margin: 0 !important;
     padding: 0 !important;
 }
-.checkbox-container a{
+
+.checkbox-container a {
     color: rgb(173, 181, 189);
 }
+
+.containerPitanja {
+    padding: 1.2rem;
+}
+
 /* tablete */
 @media screen and (max-width: 810px) {
 
@@ -426,7 +439,7 @@ footer .center {
 
 /* mobile */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
     .main-container {
         padding: 0.7rem;
     }
@@ -456,9 +469,9 @@ footer .center {
         width: 20%;
     }
 
-    .kviz button.answer[data-category="typeE"] {
+    .slide.active button:nth-last-child(2) {
         margin-bottom: 2.5rem;
-        /* or whatever size you need */
+
     }
 
     .kviz button[data-category] {
@@ -480,7 +493,6 @@ footer .center {
     }
 
     .kviz button {
-        width: 100%;
         font-size: 18px;
         margin-top: 0.5rem;
 
@@ -515,25 +527,17 @@ footer .center {
     }
 
     .next-btn {
-        bottom: -43.5%;
-        left: 13rem;
-        right: 0rem;
+        right: -1rem;
+        top: 53.9%
     }
 
     .prev-btn {
-        top: 96%;
-        left: -13rem;
+        top: 54%;
+        left: -1rem;
     }
 
-    .kviz button.next-btn,
-    .kviz button.prev-btn {
-        margin-top: 10px;
-    }
-.kviz button.next-btn {
-        margin-top: 15px;
-    }
-.kviz button.next-btn {
-        margin-top: 5px;
+    #submitEmail {
+        width: 100%;
     }
 
     footer .center {
@@ -545,23 +549,42 @@ footer .center {
     footer .fourth {
         width: 100%;
     }
-    .main{
+
+    .main {
         flex-direction: column;
         gap: 60px;
     }
-    
-.main .left, .main .right{
-    width: 100%;
-}
 
-.main .left{
-    gap: 30px;
-    padding-left: 16px;
-}
-.main .logos img {
-    height: 40px;
-}
-.containerPitanja{
-    padding-bottom: 1.6rem !important;
-}
+    .main .left,
+    .main .right {
+        width: 100%;
+    }
+
+    .main .left {
+        gap: 30px;
+        padding-left: 16px;
+    }
+
+    .main .logos img {
+        height: 40px;
+    }
+
+    .containerPitanja {
+        padding-bottom: 1.6rem !important;
+        margin-top: 2rem;
+    }
+
+    .checkbox-container {
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        font-size: 16px;
+        margin-top: 16px;
+        width: fit-content;
+        margin-left: 0px;
+    }
+
+    input[type="checkbox"][id="terms"] {
+        width: 5%;
+    }
 }

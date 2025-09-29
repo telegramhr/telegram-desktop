@@ -9,6 +9,8 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/kavatip-by-franck/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/client/landing/';
 //$native_path = 'https://kavatip-by-franck.ddev.site/';
+//$native_path = 'http://localhost/kavatip-by-franck/';
+
 ?>
 
 <head>
