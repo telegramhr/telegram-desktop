@@ -4,7 +4,8 @@
     // use this native path to embed all the files from project that are included with project, images, scripts, ...
     // we will change this when we upload the project to the server
     // this way we only need to change in one place
-    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/pilatesbag';
+    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/pilatesbag/assets';
+    $native_path_vendor = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/pilatesbag';
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
@@ -33,7 +34,7 @@
     <meta property="og:image"              content="<?php echo $native_path ?>/images/facebook.jpg" />
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo $native_path ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $native_path_vendor ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
@@ -673,8 +674,8 @@ Model: Ivana Vukušić<br/><br/>
   </div>
 </div>
   <!-- Scripts -->
-  <script src="<?php echo $native_path ?>/vendor/jquery/jquery.min.js"></script>
-  <script src="<?php echo $native_path ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo $native_path_vendor ?>/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo $native_path_vendor ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo $native_path ?>/js/owl-carousel.js"></script>
   <script src="<?php echo $native_path ?>/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/js/imagesloaded.js"></script>
