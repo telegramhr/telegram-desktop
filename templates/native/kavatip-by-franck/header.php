@@ -2,7 +2,6 @@
 <html lang="hr">
 
 <?php
-/Applications/XAMPP/xamppfiles/htdocs/telegram-desktop/templates/native/kavatip-by-franck/header.php
 /* Potential native paths */
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
 $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/kavatip-by-franck/';
