@@ -2,13 +2,15 @@
 <html lang="hr">
 
 <?php
-
+/Applications/XAMPP/xamppfiles/htdocs/telegram-desktop/templates/native/kavatip-by-franck/header.php
 /* Potential native paths */
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
 $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/kavatip-by-franck/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/kavatip-by-franck/';
 //$native_path = 'http://localhost/telegram-desktop/templates/native/client/landing/';
 //$native_path = 'https://kavatip-by-franck.ddev.site/';
+//$native_path = 'http://localhost/kavatip-by-franck/';
+
 ?>
 
 <head>
@@ -24,8 +26,8 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/aos/aos.css?v=1.05" type="text/css" />
     <script src="<?php echo $native_path ?>assets/aos/aos.js"></script>
     <!-- Styles -->
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/operon.css?v=1.36" type="text/css" />
-    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.36" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/operon.css?v=1.46" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $native_path ?>assets/style.css?v=1.46" type="text/css" />
     <!-- Slick slider -->
     <script src="<?php echo $native_path ?>assets/slick/slick.js"></script>
     <link rel="stylesheet" href="<?php echo $native_path ?>assets/slick/slick.css" type="text/css" />
