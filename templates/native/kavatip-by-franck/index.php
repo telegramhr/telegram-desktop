@@ -12,7 +12,7 @@ require_once 'header.php';
         </section>
         <!-- KVIZ -->
         <section class="full center flex relative kviz">
-            <div class="container center relative column-full-pad containerPitanja">
+            <div class="container center relative containerPitanja">
                 <!-- slide 1 -->
                 <div class="full center wrap relative slide active" data-slide ="1">
                     <p class="full center-text">1/10</p>
@@ -337,8 +337,7 @@ require_once 'header.php';
                         <a href="https://www.franck.eu/hr/zastita-privatnosti/" target="_blank">Francka</a>
                          i 
                          <a href="https://www.telegram.hr/stranica/pravila-privatnosti/" target="_blank">
-                            Telegrama
-                         </a>.</label>
+                            Telegrama</a>.</label>
                 </div>
             </div>
             <!-- Thank You Slide -->
