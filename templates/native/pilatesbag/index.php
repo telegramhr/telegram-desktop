@@ -346,7 +346,8 @@
                 <img alt="Pilates Bag" style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl01.png">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
-                <p>Baš poput osvježenja koje dobar treninga daje našem tijelu, nova <a href="https://www.loreal-paris.hr/revitalift/revitalift-laser/krema-za-instant-korekciju-vrecica-ispod-ociju" target="_blank">L'Oréal Paris Revitalift Laser krema za instant korekciju</a> vrećica ispod očiju daje našem licu. Vrećice ispod očiju, bore i opuštenost kože u području oko očiju realnost su za mnoge, a Revitalift Laser krema za instant korekciju vrećica ispod očiju nevjerojatno vidljivu razliku donosi u samo 15 minuta. Ona zaglađuje vrećice, vidljivo smanjuje bore, fine linije i opuštenost kože u području oko očiju tijekom 8 sati. 95% žena primjetilo je smanjenje vrećica ispod očiju, a 94% žena potvrdilo je da im područje oko očiju izgleda glađe, čvršće i podignutije.</p>
+                <p>Baš poput osvježenja koje dobar treninga daje našem tijelu, nova <a href="https://www.loreal-paris.hr/revitalift/revitalift-laser/krema-za-instant-korekciju-vrecica-ispod-ociju" target="_blank">L'Oréal Paris Revitalift Laser krema za instant korekciju</a> vrećica ispod očiju daje našem licu. Vrećice ispod očiju, bore i opuštenost kože u području oko očiju realnost su za mnoge, a Revitalift Laser krema za instant korekciju vrećica ispod očiju nevjerojatno vidljivu razliku donosi u samo 15 minuta. Ona zaglađuje vrećice, vidljivo smanjuje bore, fine linije i opuštenost kože u području oko očiju tijekom 8 sati. 95% žena primjetilo je smanjenje vrećica ispod očiju, a 94% žena potvrdilo je da im područje oko očiju izgleda glađe, čvršće i podignutije.*<br/>
+*Samoprocjena, 83, žene</p>
               </div>
             </div>
           </div>
