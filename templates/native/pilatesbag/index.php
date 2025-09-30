@@ -34,7 +34,7 @@
     <meta property="og:image"              content="<?php echo $native_path ?>/images/facebook.jpg" />
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo $native_path_vendor ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $native_path_vendor ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
@@ -692,8 +692,8 @@ Model: Ivana Vukušić<br/><br/>
   </div>
 </div>
   <!-- Scripts -->
-  <script src="<?php echo $native_path_vendor ?>/jquery/jquery.min.js"></script>
-  <script src="<?php echo $native_path_vendor ?>/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo $native_path_vendor ?>/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo $native_path_vendor ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo $native_path ?>/js/owl-carousel.js"></script>
   <script src="<?php echo $native_path ?>/js/animation.js"></script>
   <script src="<?php echo $native_path ?>/js/imagesloaded.js"></script>
