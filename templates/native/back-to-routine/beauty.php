@@ -75,6 +75,28 @@
         </div>
 
         <div class="full flex relative">
+            <a href="https://www.telegram.hr/super1/beauty/biostimulatori-prp-metode-jesenska-obnova-koze-poliklinika-bilic-vision/" target="_blank" class="half flex relative flex-responsive card">
+                <picture>
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-plavi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                </picture>
+                <div class="full center folder-text box">
+                    <p class="full"><b>Beauty Buzz</b> Jesen je vrijeme za obnovu kože nakon ljeta, a ova dva sjajna tretmana rade vrhunski posao</p>
+                </div>
+                <div class="full center folder-img">
+                    <img class="full animate" src="https://images.telegram.hr/fGaYHWdmw4fJn7yUI7eGeAAd7pjS7pLdU3VNrKevygc/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDkvdW50aXRsZWQtZGVzaWduLTgucG5n.webp" alt="Article thumbnail">
+                </div>
+            </a>
+            <a href="https://www.telegram.hr/super1/beauty/cc-krema-za-rozaceu-pharmaceris-capilar-tone/" target="_blank" class="half flex relative flex-responsive card">
+                <picture>
+                    <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-plavi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
+                </picture>
+                <div class="full center folder-text box">
+                    <p class="full"><b>Beauty tema</b> Nije rumenilo nego rozacea, a mi smo pronašli vrlo jednostavan način kako je umiriti</p>
+                </div>
+                <div class="full center folder-img">
+                    <img class="full animate" src="https://images.telegram.hr/bk6r-KjLj5sSPR34uBEERvrMdzOE1YpIk2TCkhUjGaE/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDkvcGhhcm1hY2VyaXMtY2MtY3JlbWUucG5n.webp" alt="Article thumbnail">
+                </div>
+            </a>
             <a href="https://www.telegram.hr/super1/beauty/beauty-proizvodi-za-jesen-lerbolario/" target="_blank" class="half flex relative flex-responsive card">
                 <picture>
                     <source srcset="<?php echo $native_path ?>assets/placeholders/optimized/mali-plavi.webp" type="image/webp"><img src="<?php echo $native_path ?>assets/placeholders/mali-rozi.png" alt="" class="full animate column-full-pad">
