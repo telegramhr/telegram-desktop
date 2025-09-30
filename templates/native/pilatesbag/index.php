@@ -4,8 +4,8 @@
     // use this native path to embed all the files from project that are included with project, images, scripts, ...
     // we will change this when we upload the project to the server
     // this way we only need to change in one place
-    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/pilatesbag/';
-    $native_path_vendor = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/pilatesbag/';
+    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/pilatesbag/assets';
+    $native_path_vendor = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/pilatesbag';
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
