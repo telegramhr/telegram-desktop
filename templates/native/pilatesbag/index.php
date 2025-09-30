@@ -242,6 +242,13 @@
                 <img alt="Pilates Bag" src="<?php echo $native_path ?>/images/zena.png" class="zena">
             </div>
         </div>
+        <div class="row">
+              <div class="col-lg-8 offset-lg-2 text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+                <p style="color:#EBEBDF">Pilates torbu, kao i sve super stvarčice s kojim smo ju opremili, imat ćete priliku osvojiti putem giveawayja na <a href="https://www.instagram.com/super1.hr/?hl=hr" style="color:#EBEBDF !important" target="_blank">Super1 Instagram profilu</a>. Pratite naše društvene mreže jer uskoro stižemo s nagradnom igrom!</p>
+
+              </div>
+
+        </div>
       </div>
     </div>
 
