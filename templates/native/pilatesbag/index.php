@@ -43,7 +43,6 @@
     <link rel="stylesheet" href="<?php echo $native_path ?>/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/css/owl.css">
     <style>
-        
             @-webkit-keyframes pomicanje { 0% { left:0px; } 50% {left:-20px;} 100% { left:0px;  } }
             @keyframes pomicanje { 0% { left:0px; } 50% {left:-20px;} 100% { left:0px;  } }
 
@@ -77,7 +76,7 @@
                 <div class="row">
 
                   <div class="col-lg-12 text-center">
-                    <h6><img src="<?php echo $native_path ?>/images/logos.png" style="max-width: 500px;" /></h6>
+                    <h6><img src="<?php echo $native_path ?>/images/logos.png" alt="Logotip" style="max-width: 500px;" /></h6>
                   </div>
                 </div>
                 <div class="row">
@@ -98,7 +97,6 @@
   </div>
 
 
-  
 
   <div id="clanci" class="blog" style="background: #7D7E82;">
     <div class="container-fluid p-0">
@@ -110,8 +108,11 @@
           <img src="<?php echo $native_path ?>/images/slika1uvod.png"/>
         </div>
 
+          <img src="<?php echo $native_path ?>/images/slika1uvod.png" alt="Torba"/>
+        </div>
+
         <div class="col-lg-3 col-6 order-lg-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
-          <img src="<?php echo $native_path ?>/images/slika2uvod.png"/>
+          <img src="<?php echo $native_path ?>/images/slika2uvod.png" alt="Torba"/>
         </div>
         </div>
       </div>
@@ -128,8 +129,13 @@
         <div class="col-lg-4 p-0 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
           <img src="<?php echo $native_path ?>/images/ispoduvodas2.png"/>
           </div>
+          <img src="<?php echo $native_path ?>/images/ispoduvodas3.png" alt="Torba"/>
+        </div>
+        <div class="col-lg-4 p-0 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+          <img src="<?php echo $native_path ?>/images/ispoduvodas2.png" alt="Torba"/>
+          </div>
         <div class="col-lg-4 p-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
-          <img src="<?php echo $native_path ?>/images/ispoduvodas1.png"/>
+          <img src="<?php echo $native_path ?>/images/ispoduvodas1.png" alt="Torba"/>
         </div>
         </div>
       </div>
@@ -165,7 +171,7 @@
     <div class="container d-flex align-items-center" style="margin:0 auto; margin-top:-550px; position: relative; padding-bottom: 0; ">
       <div class="row align-items-center">
         <div class="col-lg-6 offset-lg-3">
-            <img src="<?php echo $native_path ?>/images/fotka.png" class="obrub">
+            <img src="<?php echo $native_path ?>/images/fotka.png" class="obrub" alt="Torba">
         </div>
       </div>
     </div>
@@ -190,8 +196,10 @@
         <div class="col-lg-6 col-12 p-0 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
             <img src="<?php echo $native_path ?>/images/s1_torba-1.png">
           </div>
+            <img src="<?php echo $native_path ?>/images/s1_torba-1.png" alt="Torba">
+          </div>
         <div class="col-lg-6 col-12 p-0 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
-            <img src="<?php echo $native_path ?>/images/s1_torba-2.png">
+            <img src="<?php echo $native_path ?>/images/s1_torba-2.png" alt="Torba">
           </div>
         </div>
       </div>
@@ -215,8 +223,8 @@
       <div class="row">
         <img src="<?php echo $native_path ?>/images/pilatesgirlfail.png" class="fotkakojasemice">
         <div class="col-lg-12 text-center d-flex align-items-center wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
-            <img class="prikazinakomp" src="<?php echo $native_path ?>/images/torbe.png">
-            <img class="prikazinamob" src="<?php echo $native_path ?>/images/torbemob.png">
+            <img class="prikazinakomp" src="<?php echo $native_path ?>/images/torbe.png" alt="Torba">
+            <img class="prikazinamob" src="<?php echo $native_path ?>/images/torbemob.png" alt="Torba">
           </div>
         </div>
       </div>
@@ -304,8 +312,10 @@
         <div class="col-lg-5">
             <img src="<?php echo $native_path ?>/images/t1.png" class="prikazinakomp">
         </div>
+            <img src="<?php echo $native_path ?>/images/t1.png" class="prikazinakomp" alt="Torba">
+        </div>
         <div class="col-lg-5">
-            <img src="<?php echo $native_path ?>/images/t2.png" class="paddingnamobitelu">
+            <img src="<?php echo $native_path ?>/images/t2.png" class="paddingnamobitelu" alt="Torba">
         </div>
         <div class="col-lg-1">
         </div>
@@ -319,7 +329,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 offset-lg-3 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
-              <img src="<?php echo $native_path ?>/images/tekstnapapiru.png">
+              <img src="<?php echo $native_path ?>/images/tekstnapapiru.png" alt="Na papiru tekst">
           </div>
                       
         </div>
@@ -338,7 +348,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl01.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl01.png" alt="L'Oreal Paris Revitalift Laser krema">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Baš poput osvježenja koje dobar treninga daje našem tijelu, nova <a href="https://www.loreal-paris.hr/revitalift/revitalift-laser/krema-za-instant-korekciju-vrecica-ispod-ociju" target="_blank">L'Oreal Revitalift Laser krema za instant korekciju</a> vrećica ispod očiju daje našem licu. Vrećice ispod očiju, bore i opuštenost kože u području oko očiju realnost su za mnoge, a Revitalift Laser krema za instant korekciju vrećica ispod očiju nevjerojatno vidljivu razliku donosi u samo 15 minuta. Ona zaglađuje vrećice, vidljivo smanjuje bore, fine linije i opuštenost kože u području oko očiju tijekom 8 sati. 95% žena primjetilo je smanjenje vrećica ispod očiju, a 94% žena potvrdilo je da im područje oko očiju izgleda glađe, čvršće i podignutije.</p>
@@ -357,7 +367,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl16.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl16.png" alt="Pharmaceris N-Capilar Tone CC krema SPF 30">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Neki od najboljih make up proizvoda oni su koji dolaze s dozom njege, baš poput <a href="https://www.beautypharmacy.hr/hr/pharmaceris-n-capilar-tone-cc-krema-spf30.html" target="_blank">Pharmaceris N-Capilar Tone CC krema SPF 30</a> koja je postala naš ultimativni favorit za dnevni make up look. Ova lagana tonirana krema koja istodobno njeguje kožu lica i prekriva nedostatke, a idealan je odabir za osobe koje su sklone crvenilu ili imaju dijagnosticiranu rozaceu jer sadrži zeleni mineralni pigment poznat po svojoj sposobnosti da izjednači ton kože učinkovito prikrivajući crvenilo i minimizirajući pojavu kapilara. Toliko nježna i dobra prema našoj koži da ju ni ne skidamo prije treninga. Uz to, dolazi s SPFom 30 koji daje zaštitu od sunca tokom cijele godine.</p>
@@ -377,7 +387,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl02.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl02.png" alt="Vichy Liftactiv Collagen Specialist 16 serum ">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Dok mi treningom održavamo svoje tijelom mladim, <a href="https://www.vichy.hr/lice/collagen-specialist-16-bonding-serum-liftactiv/p49811.aspx" target="_blank">Vichy Liftactiv Collagen Specialist 16 serum</a> u isto vrijeme radi istu stvar za kožu našeg lica. Kao serum koji donosi sveobuhvatno rješenje problema starenja kože, Vichy Liftactiv Collagen Specialist 16 ističe se Co-Bonding tehnologijom koja ciljano djeluje na 16 ključnih znakova starenja, uključujući gubitak čvrstoće, elastičnosti i pojavu bora, te osigurava vidljivu transformaciju kože.  Za lice koje odolijeva vremenu i vanjskim utjecajima te dašak mladosti koji traje.</p>
@@ -397,7 +407,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl15.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl15.png" alt="MJUUK: REFRESH, VOLUME I STRONG SUHI ŠAMPON">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Bad hair day više nije opcija, čak ni nakon treninga, a sve to zahvaljujući moćnom triu favorita za njegu i styling kose finskog brenda Mjuuk. Refresh, Volume i Strong tri su čarobne riječi kada govorimo o kosi, a Mjuuk ih je pretvorio u tri praktična proizvoda koja uvijek imamo nadohvat ruke. Refresh šampon za suho pranje donosi osvježenje između pranja ili nakon treninga, uklanja višak masnoće i vraća osjećaj čiste kose. Volume pjena za kosu daje kosi prirodan volumen i teksturu, idealno za oblikovanje raznih frizura, dok Strong sprej za kosu pruža snažnu i dugotrajnu fiksaciju bez otežavanja kose za frizuru koje može izdržati i dobar trening.</p>
@@ -417,7 +427,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl03.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl03.png" alt="Byphasse Micelarna voda">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Jedna od beauty navika kojoj se vraćamo s jesenskim danima je redovito skidanje šminke. Prije treninga ili na kraju dana, malo Byphasse Micelarnom vode za skidanje šminke bit će dovoljno da skinemo šminku, a naša koža na tome će nam biti jako zahvalna. Jedinstvena formula Byphasse Micelarne vode za skidanje šminke s micelama, malim česticama koje djeluju kao magnetski privlačitelji, učinkovito uklanja nečistoće, istovremeno čuvajući prirodnu ravnotežu kože, zbog čega je idealna za sve tipove kože, pa čak i za osjetljivu kožu.</p>
@@ -438,7 +448,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl14.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl17.png" alt="The Solution Salicylic Acid">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Njega kože cijelog tijela nakon treninga za nas je obavezna, a THE SOLUTION Salicylic Acid je jedan od naših favorita. Lagani, neljepljivi i brzoupijajući gel za čistu kožu sa salicilnom kiselinom je savršeno rješenje za borbu protiv akni, viška sebuma i nepravilnosti na tijelu, koje nisu rijetkost prilikom redovitog treniniranja. THE SOLUTION Sadrži 2,1 % aktivnih sastojaka, uključujući salicilnu kiselinu (1 %), obnavljajući niacinamid (1 %) i umirujuće čajno drvo. Koristite ga svakodnevno kao dio vaše rutine za njegu kože bez nepravilnosti.</p>
@@ -457,7 +467,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl04.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl04.png" alt="L’Erbolario Iris Bianco parfem">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Česti su dani kada ćemo nakon treninga produžiti na druženje, zbog čega je parfem obavezan dio našeg pilates baga. <a href="https://www.lerbolario.hr/hr/lines/mirisne-linije/iris-bianco/parfem-iris-bianco-3996.html?search_query=iris+bianco&results=3" target="_blank">L’Erbolario Iris Bianc</a> je nježan, ali intenzivan parfem koji vas obavija mirisnim oblakom, sofisticiranim poput čistih bijelih latica bijelog irisa. Gornje note citrusa prelijevaju se u intenzivno, cvjetno srce mirisa, koje potom ustupa mjesto suptilnim, zavodljivim notama vanilije. Praktično mini izdanje parfema koji će vas osvojiti na prvu ubacili smo u pilates bag, zajedno s karticom za popustom od 20% koji vrijedi za kupovinu svih L’Erbolario proizvoda u dućanu u Masarykovoj 6 ili na web shopu.</p>
@@ -478,7 +488,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl13.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl13.png" alt="Koozmetik balzami za usne">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">U svakoj torbi uvijek se nalazi jedan beauty proizvod, a pilates bag nije iznimka. Naravno, riječ je o balzamu za usne, beauty favoritu kojeg obožavaju baš svi zbog čega ćemo ga uvijek imati nadohvat ruke, čak i na treningu. Ako tražite dobar balzam zausne, Koozmetik balzami za usne su 100% prirodni balzami za usne koji dubinski hrane i hidratiziraju, stvarajući zaštitni sloj bez ostavljanja ljepljivog traga. Sadrže prirodni pčelinji vosak s antibakterijskim svojstvima, te slatko bademovo ulje koje dodatno njeguje usne, a dostupni su u četiri okusa: jagoda, mandarina, vanilija-kokos i čokolada.</p>
@@ -497,7 +507,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl05.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl05.png" alt="Rexona Advanced Protection dezodorans">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Bez obzira na raspored, pa čak i ako se u njemu nalazi pilates class, brige za oznojenu odjeću možete zaboraviti uz Rexona Advanced Protection Bright Bouquet, antiperspirant koji sprječava onaj neugodan faux pas u obliku mrlja ispod pazuha. Zahvaljujući antiperspirantnim sastojcima koje sadrži, a koji aktivno sprječavaju stvaranje znoja i tako pomažu održati kožu suhom, Rexona Advanced Protection Bright Bouquet pruža dugotrajnu zaštitu od tjelesnih neugodnih mirisa i neželjenog znoja kako bi mogli uživati u osjećaju svježine i čistoće tijekom cijelog dana.</p>
@@ -518,7 +528,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl12.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl12.png" alt="Colagate Gum Care & Sensitivity pasta i četkica">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Proizvodi za higijenu oni su koje će u svojoj torbi za trening imati i najveći beauty minimalisti, a Colagate pasta i četkica za zube nalaze se visoko na toj listi. Pasta za zube Gum Care & Sensitivity iz <a href="https://www.colgate.hr/" target="_blank">Colgate linije Total Active Prevention</a> aktivno sprječava mnoge probleme s oralnim zdravljem uz 24-satnu antibakterijsku zaštitu. Uz pastu koja smanjuje plak prije i pomaže u zaštiti cakline od erozije djelovanjem kiselina u usnoj šupljini, sve što nam treba je dobra četkica. Colgate Slim Soft Advanced Design Edition je ultra meka četkica za zube s vlaknima koja dosežu 7 puta dublje ispod linije desni u poređenju sa regularnim četkicama za zube sa ravno sečenim i zaobljenim vlaknima.</p>
@@ -538,7 +548,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl06.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl06.png" alt="Gym Beam Kolagen Beauty Shot i sport bottle boca">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Povratak rutini i dobrim navikama ove smo jeseni započeli pilatesom i njegom, a nastavljamo zdravom i uravnotežnom prehranom. Jedna od adresa na kojoj smo pronašli sve što nam treba kako bismo ostvarili svoje planove je Gym Beam. Na jednom mjestu, Gym Beam okuplja sve od suplemenata i nutritivno bogatih snackova do opreme za trening. Naš prvi favorit iz Gym Beam ponude je <a href="https://gymbeam.hr/kolagen-beauty-shot-beastpink.html " target="_blank">Kolagen Beauty Shot</a> koji sadrži funkcionalnu dozu vrhunskog morskog kolagena, hijaluronske kiseline i odabranih vitamina i minerala. Zahvaljujući svojoj praktičnom pakiranju, idealan je dodatak našem pilates bagu. Drugi favorit je velika <a href="https://gymbeam.hr/boca-sport-bottle-pink-1000-ml-gymbeam.html" target="_blank">Sport Bottle Pink boca</a>. Napravljena od kvalitetnog materijala bez BPA, ova je boca neslomljiva, lagana i ne ostavlja mirise u napitcima, a prigodna je i za vruće i za hladne napitke. Definitivno obavezan dodatak svakom danu i treningu.</p>
@@ -559,7 +569,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl11.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl11.png" alt="Nutri kulti Zobene bombice i krekeri">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Za boost energije prije i nakon treninga u naš pilates bag ubacili smo Nutri kulti <a href="">Zobene bombice</a> i <a href="https://nutrikulti.hr/proizvod/zobene-bombice/" target="_blank">krekere 1000 sjemenki</a>, nutritivno bogate, veganske i bez aditiva, pojačivača okusa ili umjetnih bojila. <a href="https://nutrikulti.hr/proizvod/1000-sjemenki-krekeri/" target="_blank">Zobene bombice</a> su aromatični keksi od zobenih pahuljica, badema, kandiranih brusnica, cimeta, smeđeg lana, soka naranče i arome vanilije. Prava su nutritivna bomba zbog čega su super izbor kao ne samo kao poslastica, podloga za desert ili doručak uz omiljeni napitak i voće, već i prije treninga kao brza i nutritivno bogata energija. <a href="https://nutrikulti.hr/proizvod/zobene-bombice/">Krekeri 1000 sjemenki</a> su hrskave pločice napravljene od chia sjemenki, zlatnog i smeđeg lana, integralnog sezama, bučinih sjemenki, suncokreta i psyllium ljuskice, bez dodatka brašna, dok im posebnu aromu im daje češnjak te uz dodatak integralnog sezama i bučinih golica ovi krekeri mogu biti odlična zamjena za kruh. A ako izmrvite koju pločicu u sir ili jogurt možete dobiti odličan dodatak svakom jelu ili snack nakon treninga. Osim što su veganski, pogodni su i za sve one koji moraju regulirati šećer u krvi te osobe koje se hrane po lchf ili keto principima prehrane.</p>
@@ -579,7 +589,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl07.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl07.png" alt="Boom box smoothie">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Za osvježenje i slatki predah, Boom Box smoothie je uvijek u našoj torbi. Savršeno izbalansirana kombinacija voća, obogaćena zobi za kremastu teksturu i dodatnu energiju, svaki Boom Box smoothie je prirodno osvježenje, idealno za užurban jutarnji trenutak ili izbalansiran predah tijekom dana. U Super1 x Lokomotiva pilates bag ubacili smo naše omiljene okuse: <a href="https://boombox.eu/hr/smoothie-sa-zobi/kupina-malina-banana-i-jabuka/" target="_blank">smoothie sa zobi, kupinom, malinom, bananom</a> i <a href="https://boombox.eu/hr/smoothie-sa-zobi/jabuka-mango-i-marakuja/" target="_blank">jabukom the smoothie sa zobi, jabukom, mangom i marakujom</a>.</p>
@@ -600,7 +610,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl10.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl10.png" alt="Sana Crispy štapići">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Kada nakon treninga poželimo hrskavi i slani snack, Sana Crispy štapići su naš prvi izbor. Ukusni ekstrudirani hrskavi štapići bez glutena predstavljaju zdraviju opciju od klasičnih grisina ili štapića od bijelog brašna, no svakako će zadovoljiti onaj craving za hrskavim i slanim. Sana Crispy štapići su odlični kao solo snack, ali i za „dipanje“ u omiljeni humus ili kremasti guacamole. Najbolje od svega, dolaze u nekoliko okusa, a posebno ističe varijanta s okusom sira za koju znamo da će biti veliki hit među slanoljupcima - i baš smo ju zato ubacili u pilates bag.</p>
@@ -622,7 +632,7 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl08.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl08.png" alt="Purina PRO PLAN Delicate Mousse i fortiflora ">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>U svakom dobrom pilates bagu ima prostora za sve što nam treba prije, tijekom i nakon trendinga, ali i da u njega ubacimo nekoliko stvari koje ćemo kupiti na putu doma. Jedna od stvari za koju će se uvijek naći mjesta u našem pilates bagu je hrana za naše kućne ljubimce, a Purina je uvijek najbolji izbor. Za mačke koje su navikle na najbolje, u pilates bag ubacili smo poslastice koje će ih oduševiti, Purina PRO PLAN®  Delicate Mousse bogat puretinom te <a href="https://www.purina.hr/macke/hrana-za-macke" target="_blank">Purina PRO PLAN® FORTIFLORA probiotički dodatak prehrani za mačke</a> koji je zaslužan za održavanje zdravlja crijeva, ravnotežu mikroflore, ali i kao pomoć u održavanju zdravog imunološkog sustava.</p>
@@ -642,10 +652,10 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
-                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl09.png">
+                <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl09.png" alt="Jägermeister Orange i Thomas Henry premium mixeri">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
-                <p class="tekstdesno" style="color:#EBEBDF">Iako su ljetni dani iza nas, uz <a href="https://www.instagram.com/g3spirits_croatia/" target="_blank">Jägermeister Orange i Thomas Henry premium mixere<0 možemo zadržati svježinu i razigranost i u jesenskim mjesecima, savršeno za after-work opuštanje, vikend druženja s ekipom, a u pilates bag ubacit ćemo ga za aprés pilates piće. Jer tajna dobrih dana uvijek se nalazi u balansu između posla i opuštenja, zdravih navika i uživanja u stvarima koje nas opuštaju i vesele.</p>
+                <p class="tekstdesno" style="color:#EBEBDF">Iako su ljetni dani iza nas, uz <a href="https://www.instagram.com/g3spirits_croatia/" target="_blank">Jägermeister Orange i Thomas Henry premium mixere</a> možemo zadržati svježinu i razigranost i u jesenskim mjesecima, savršeno za after-work opuštanje, vikend druženja s ekipom, a u pilates bag ubacit ćemo ga za aprés pilates piće. Jer tajna dobrih dana uvijek se nalazi u balansu između posla i opuštenja, zdravih navika i uživanja u stvarima koje nas opuštaju i vesele.</p>
               </div>
             </div>
           </div>
@@ -665,7 +675,7 @@
 Fotografija: Matej Dokić<br/>
 Grafičko oblikovanje: Domia Oršolić<br/>
 Model: Ivana Vukušić<br/><br/>
-              <img style="width:200px; height: auto; padding: 10px" src="<?php echo $native_path ?>/images/telegram-studio.png" />
+              <img style="width:200px; height: auto; padding: 10px" src="<?php echo $native_path ?>/images/telegram-studio.png" alt="Telegram Studio Logo"/>
               </p>
 
         </div>
