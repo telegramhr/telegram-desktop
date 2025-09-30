@@ -645,7 +645,7 @@
                 <img style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl09.png">
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
-                <p class="tekstdesno" style="color:#EBEBDF">Iako su ljetni dani iza nas, uz Jägermeister Orange i Thomas Henry premium mixere možemo zadržati svježinu i razigranost i u jesenskim mjesecima, savršeno za after-work opuštanje, vikend druženja s ekipom, a u pilates bag ubacit ćemo ga za aprés pilates piće. Jer tajna dobrih dana uvijek se nalazi u balansu između posla i opuštenja, zdravih navika i uživanja u stvarima koje nas opuštaju i vesele.</p>
+                <p class="tekstdesno" style="color:#EBEBDF">Iako su ljetni dani iza nas, uz <a href="https://www.instagram.com/g3spirits_croatia/" target="_blank">Jägermeister Orange i Thomas Henry premium mixere<0 možemo zadržati svježinu i razigranost i u jesenskim mjesecima, savršeno za after-work opuštanje, vikend druženja s ekipom, a u pilates bag ubacit ćemo ga za aprés pilates piće. Jer tajna dobrih dana uvijek se nalazi u balansu između posla i opuštenja, zdravih navika i uživanja u stvarima koje nas opuštaju i vesele.</p>
               </div>
             </div>
           </div>
