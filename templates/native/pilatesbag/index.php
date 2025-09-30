@@ -123,6 +123,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 p-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+
           <img alt="Pilates Bag" src="<?php echo $native_path ?>/images/ispoduvodas3.png"/>
         </div>
         <div class="col-lg-4 p-0 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
@@ -188,6 +189,7 @@
       <div class="row">
 
         <div class="col-lg-6 col-12 p-0 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+
             <img alt="Pilates Bag" src="<?php echo $native_path ?>/images/s1_torba-1.png">
           </div>
         <div class="col-lg-6 col-12 p-0 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
@@ -302,6 +304,7 @@
         <div class="col-lg-1">
         </div>
         <div class="col-lg-5">
+
             <img alt="Pilates Bag" src="<?php echo $native_path ?>/images/t1.png" class="prikazinakomp">
         </div>
         <div class="col-lg-5">
@@ -319,6 +322,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 offset-lg-3 text-center d-flex align-items-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+
               <img alt="Pilates Bag" src="<?php echo $native_path ?>/images/tekstnapapiru.png">
           </div>
                       
@@ -333,6 +337,7 @@
         <div class="col-lg-12 plavicontainer wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
             <div class="row">
               <div class="col-lg-8 offset-lg-2">
+
                 <h2 class="ukarticamaheadline text-center">L'Oréal Paris Revitalift Laser krema</h2>
               </div>
             </div>
@@ -538,7 +543,9 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
+
                 <img alt="Pilates Bag" style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl06.png">
+
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Povratak rutini i dobrim navikama ove smo jeseni započeli pilatesom i njegom, a nastavljamo zdravom i uravnotežnom prehranom. Jedna od adresa na kojoj smo pronašli sve što nam treba kako bismo ostvarili svoje planove je Gym Beam. Na jednom mjestu, Gym Beam okuplja sve od suplemenata i nutritivno bogatih snackova do opreme za trening. Naš prvi favorit iz Gym Beam ponude je <a href="https://gymbeam.hr/kolagen-beauty-shot-beastpink.html " target="_blank">Kolagen Beauty Shot</a> koji sadrži funkcionalnu dozu vrhunskog morskog kolagena, hijaluronske kiseline i odabranih vitamina i minerala. Zahvaljujući svojoj praktičnom pakiranju, idealan je dodatak našem pilates bagu. Drugi favorit je velika <a href="https://gymbeam.hr/boca-sport-bottle-pink-1000-ml-gymbeam.html" target="_blank">Sport Bottle Pink boca</a>. Napravljena od kvalitetnog materijala bez BPA, ova je boca neslomljiva, lagana i ne ostavlja mirise u napitcima, a prigodna je i za vruće i za hladne napitke. Definitivno obavezan dodatak svakom danu i treningu.</p>
@@ -560,6 +567,7 @@
             <div class="row">
               <div class="col-lg-4 order-lg-2">
                 <img alt="Pilates Bag" style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl11.png">
+
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Za boost energije prije i nakon treninga u naš pilates bag ubacili smo Nutri kulti <a href="">Zobene bombice</a> i <a href="https://nutrikulti.hr/proizvod/zobene-bombice/" target="_blank">krekere 1000 sjemenki</a>, nutritivno bogate, veganske/vegetarian i bez aditiva, pojačivača okusa ili umjetnih bojila. <a href="https://nutrikulti.hr/proizvod/1000-sjemenki-krekeri/" target="_blank">Zobene bombice</a> su aromatični keksi od zobenih pahuljica, badema, kandiranih brusnica, cimeta, smeđeg lana, soka naranče i arome vanilije. Prava su nutritivna bomba zbog čega su super izbor kao ne samo kao poslastica, podloga za desert ili doručak uz omiljeni napitak i voće, već i prije treninga kao brza i nutritivno bogata energija. <a href="https://nutrikulti.hr/proizvod/zobene-bombice/">Krekeri 1000 sjemenki</a> su hrskave pločice napravljene od chia sjemenki, zlatnog i smeđeg lana, integralnog sezama, bučinih sjemenki, suncokreta i psyllium ljuskice, bez dodatka brašna, dok im posebnu aromu im daje češnjak te uz dodatak integralnog sezama i bučinih golica ovi krekeri mogu biti odlična zamjena za kruh. A ako izmrvite koju pločicu u sir ili jogurt možete dobiti odličan dodatak svakom jelu ili snack nakon treninga. Osim što su veganski/vegetarian, pogodni su i za sve one koji moraju regulirati šećer u krvi te osobe koje se hrane po lchf ili keto principima prehrane.</p>
@@ -579,7 +587,9 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
+
                 <img alt="Pilates Bag" style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl07.png">
+
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>Za osvježenje i slatki predah, Boom Box smoothie je uvijek u našoj torbi. Savršeno izbalansirana kombinacija voća, obogaćena zobi za kremastu teksturu i dodatnu energiju, svaki Boom Box smoothie je prirodno osvježenje, idealno za užurban jutarnji trenutak ili izbalansiran predah tijekom dana. U Super1 x Lokomotiva pilates bag ubacili smo naše omiljene okuse: <a href="https://boombox.eu/hr/smoothie-sa-zobi/kupina-malina-banana-i-jabuka/" target="_blank">smoothie sa zobi, kupinom, malinom, bananom</a> i <a href="https://boombox.eu/hr/smoothie-sa-zobi/jabuka-mango-i-marakuja/" target="_blank">jabukom the smoothie sa zobi, jabukom, mangom i marakujom</a>.</p>
@@ -601,6 +611,7 @@
             <div class="row">
               <div class="col-lg-4 order-lg-2">
                 <img alt="Pilates Bag" style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl10.png">
+
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
                 <p class="tekstdesno" style="color:#EBEBDF">Kada nakon treninga poželimo hrskavi i slani snack, Sana Crispy štapići su naš prvi izbor. Ukusni ekstrudirani hrskavi štapići bez glutena predstavljaju zdraviju opciju od klasičnih grisina ili štapića od bijelog brašna, no svakako će zadovoljiti onaj craving za hrskavim i slanim. Sana Crispy štapići su odlični kao solo snack, ali i za „dipanje“ u omiljeni humus ili kremasti guacamole. Najbolje od svega, dolaze u nekoliko okusa, a posebno ističe varijanta s okusom sira za koju znamo da će biti veliki hit među slanoljupcima - i baš smo ju zato ubacili u pilates bag.</p>
@@ -622,10 +633,12 @@
             </div>
             <div class="row">
               <div class="col-lg-4">
+
                 <img alt="Pilates Bag" style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl08.png">
               </div>
               <div class="col-lg-8 text-left d-flex align-items-center">
                 <p>U svakom dobrom pilates bagu ima prostora za sve što nam treba prije, tijekom i nakon treninga, ali i da u njega ubacimo nekoliko stvari koje ćemo kupiti na putu doma. Jedna od stvari za koju će se uvijek naći mjesta u našem pilates bagu je hrana za naše kućne ljubimce, a Purina je uvijek najbolji izbor. Za mačke koje su navikle na najbolje, u pilates bag ubacili smo poslastice koje će ih oduševiti, Purina PRO PLAN®  Delicate Mousse bogat puretinom te <a href="https://www.purina.hr/macke/hrana-za-macke" target="_blank">Purina PRO PLAN® FORTIFLORA probiotički dodatak prehrani za mačke</a> koji je zaslužan za održavanje zdravlja crijeva, ravnotežu mikroflore, ali i kao pomoć u održavanju zdravog imunološkog sustava.</p>
+
               </div>
             </div>
           </div>
@@ -642,9 +655,12 @@
             </div>
             <div class="row">
               <div class="col-lg-4 order-lg-2">
+
                 <img alt="Pilates Bag" style="margin-bottom:20px;" src="<?php echo $native_path ?>/images/artikl09.png">
+
               </div>
               <div class="col-lg-8 order-lg-1 text-right d-flex align-items-center">
+
                 <p class="tekstdesno" style="color:#EBEBDF">Iako su ljetni dani iza nas, uz <a href="https://www.instagram.com/g3spirits_croatia/" target="_blank">Jägermeister Orange i Thomas Henry premium mixere</a> možemo zadržati svježinu i razigranost i u jesenskim mjesecima, savršeno za after-work opuštanje, vikend druženja s ekipom, a u pilates bag ubacit ćemo ga za aprés pilates piće. Jer tajna dobrih dana uvijek se nalazi u balansu između posla i opuštenja, zdravih navika i uživanja u stvarima koje nas opuštaju i vesele.</p>
               </div>
             </div>
@@ -665,7 +681,9 @@
 Fotografija: Matej Dokić<br/>
 Grafičko oblikovanje: Domia Oršolić<br/>
 Model: Ivana Vukušić<br/><br/>
+
               <img alt="Pilates Bag" style="width:200px; height: auto; padding: 10px" src="<?php echo $native_path ?>/images/telegram-studio.png" />
+
               </p>
 
         </div>
