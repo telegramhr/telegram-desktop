@@ -12,26 +12,14 @@
 
 <head>
     <!-- this is required to load all the analytics and other scripts -->
-    <?php wp_head(); ?>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+
+    <?php wp_head(); ?>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
-    <title>Pilates Bag - Za pilates girl jesen, u suradnji s modnom dizajnericom Lanom Puljić, koja stoji iza popularnog modnog brenda Lokomotiva, kreirali smo ultimativni pilates bag</title>
-
-    <meta property="og:url"                content="http://www.telegram.hr" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="Pilates Bag" />
-    <meta property="og:description"        content="Za pilates girl jesen, u suradnji s modnom dizajnericom Lanom Puljić, koja stoji iza popularnog modnog brenda Lokomotiva, kreirali smo ultimativni pilates bag." />
-    <meta property="og:image"              content="<?php echo $native_path ?>/images/facebook.jpg" />
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo $native_path_vendor ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,10 +31,8 @@
     <link rel="stylesheet" href="<?php echo $native_path ?>/css/animated.css">
     <link rel="stylesheet" href="<?php echo $native_path ?>/css/owl.css">
     <style>
-        
-            @-webkit-keyframes pomicanje { 0% { left:0px; } 50% {left:-20px;} 100% { left:0px;  } }
-            @keyframes pomicanje { 0% { left:0px; } 50% {left:-20px;} 100% { left:0px;  } }
-
+      @-webkit-keyframes pomicanje { 0% { left:0px; } 50% {left:-20px;} 100% { left:0px;  } }
+      @keyframes pomicanje { 0% { left:0px; } 50% {left:-20px;} 100% { left:0px;  } }
     </style>
 </head>
 
