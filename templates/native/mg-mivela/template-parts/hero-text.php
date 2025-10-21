@@ -1,5 +1,5 @@
 <div class="w-full overflow-hidden px-4 mt-[-295px] lg:mt-[-312px] relative z-20">
-    <div class="max-w-[1280px] mx-auto flex flex-col">
+    <div class="max-w-[1600px] mx-auto flex flex-col">
         <div class="w-full relative overflow-visible pt-2 lg:pt-0">
             <h1 class="font-panchang font-semibold text-[56px] lg:text-[150px] leading-[48px] lg:leading-[128px] lg:tracking-[-0.5rem] text-primary ">In motion
                 and balance

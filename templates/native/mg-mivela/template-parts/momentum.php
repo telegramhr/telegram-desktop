@@ -1,5 +1,5 @@
 <div class="w-full bg-black px-4 overflow-hidden py-8 lg:py-20 z-10 relative">
-    <div class="max-w-[1280px] mx-auto flex flex-col gap-12 lg:gap-20">
+    <div class="max-w-[1600px] mx-auto flex flex-col gap-12 lg:gap-20">
         <h2 class="max-w-[700px] mx-auto text-center font-panchang font-extrabold text-[24px] md:text-[42px] lg:text-[60px] text-primary uppercase">“No map. Just momentum.”</h2>
         <div class="flex flex-col gap-4 lg:gap-20 pt-4 lg:pt-[40px] pb-7 lg:pb-[80px] px-5 lg:px-[106px] bg-primary">
             <div class="flex flex-col">
