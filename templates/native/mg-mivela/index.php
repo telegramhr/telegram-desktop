@@ -17,14 +17,14 @@ $jsPath = $distPath . '/main.js';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php //wp_head(); 
+    <?php wp_head(); 
     ?>
     <!-- Styles -->
-    <link rel="stylesheet" href="/dist/style.css?v=<?php echo file_exists($cssPath) ? filemtime($cssPath) : '1'; ?>">
-    <link rel="preload" href="<?= $native_path; ?>/assets/hero/hero-video.webm" as="video" type="video/webm" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=<?php echo file_exists($cssPath) ? filemtime($cssPath) : '1'; ?>">
+    <link rel="preload" href="<?php echo $native_path; ?>/assets/hero/hero-video.webm" as="video" type="video/webm" crossorigin="anonymous">
 
     <!-- JavaScript -->
-    <script src="/dist/main.js?v=<?php echo file_exists($jsPath) ? filemtime($jsPath) : '1'; ?>" defer></script>
+    <script src="<?php echo $native_path; ?>/dist/main.js?v=<?php echo file_exists($jsPath) ? filemtime($jsPath) : '1'; ?>" defer></script>
 </head>
 
 <body>
@@ -39,7 +39,7 @@ $jsPath = $distPath . '/main.js';
         <?php
         require_once 'footer.php';
         ?>
-        <?php //wp_footer(); 
+        <?php wp_footer(); 
         ?>
     </div>
 </body>
