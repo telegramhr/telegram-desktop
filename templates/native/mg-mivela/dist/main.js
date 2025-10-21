@@ -1,0 +1,1 @@
+window.addEventListener("load",function(){setTimeout(()=>{document.querySelectorAll("video.lazy-video").forEach(e=>{const c=e.dataset.src;if(!c)return;const t=document.createElement("source");t.src=c,t.type="video/mp4",e.appendChild(t),e.load(),e.play().catch(()=>{})})},800)});
