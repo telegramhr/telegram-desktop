@@ -1,5 +1,5 @@
 <div class="w-full overflow-hidden px-4">
-    <div class="max-w-[1600px] mx-auto flex flex-col md:flex-row gap-8 lg:gap-5 py-7 md:py-20 relative ">
+    <div class="max-w-[85%] mx-auto flex flex-col md:flex-row gap-8 lg:gap-5 py-7 md:py-20 relative ">
         <img class="flex lg:hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[355px] z-40 spin-slow" src="<?= $native_path ?>/assets/run-text/run-circle-text.png" alt="Run circle text">
 
         <div class="flex flex-1 h-full max-h-[512px] md:max-h-[911px] overflow-hidden">

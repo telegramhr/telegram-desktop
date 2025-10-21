@@ -22,7 +22,7 @@
             </video>
         </div>
     </div>
-    <div class="max-w-[1600px] hidden lg:flex mx-auto relative z-10">
+    <div class="max-w-[85%] hidden lg:flex mx-auto relative z-10">
         <img class="absolute max-w-[496px] spin-slow right-[38px] bottom-[-275px]" src="<?= $native_path ?>/assets/run-text/run-circle-text.png" alt="">
     </div>
 </div>

@@ -20,7 +20,7 @@
 
 
             <div class="w-full px-4">
-                <div class="max-w-[1600px] mx-auto flex flex-col lg:flex-row lg:gap-0 lg:max-h-[1115px] relative">
+                <div class="max-w-[85%] mx-auto flex flex-col lg:flex-row lg:gap-0 lg:max-h-[1115px] relative">
                     <div class="flex flex-1 w-full h-full max-h-[620px] overflow-hidden lg:max-h-none bg-black relative lg:left-[1px]">
                         <video class="lazy-video w-full h-full object-cover aspect-[0.69] opacity-40 scale-[1.4]" autoplay muted playsinline loop preload="none"
                             data-src="<?= $native_path ?>/assets/choice/choice.webm">
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="absolute inset-0 flex items-center justify-center text-center px-6">
-                        <p class="text-primary text-[16px] lg:text-[36px] font-bold font-dmsans max-w-[1060px]">
+                        <p class="text-primary text-[16px] lg:text-[36px] font-bold font-panchang max-w-[1060px]">
                             Njezin izbor je Mg Mivela, prirodna mineralna voda bogata magnezijem.
                             Ona sadrži 343 mg magnezija po litri, što znači da samo jedna litra
                             dnevno zadovoljava oko 90 posto preporučene dnevne potrebe.
@@ -48,7 +48,7 @@
         </div>
     </div>
     <div class="w-full px-4 relative pt-3 lg:pt-8">
-        <div class="max-w-[1600px] mx-auto">
+        <div class="max-w-[85%] mx-auto">
             <img src="<?= $native_path ?>/assets/footer/before-footer.webp" class="hidden lg:block w-full object-cover aspect-[1.5]" alt="Before footer image">
             <img src="<?= $native_path ?>/assets/footer/before-footer-mobile.webp" class="block lg:hidden w-full object-cover aspect-[0.66]" alt="Before footer image">
 
@@ -63,7 +63,7 @@
         </div>
     </div>
     <div class="w-full px-4 pb-[103px] lg:pb-34 relative">
-        <div class="max-w-[1600px] mx-auto bg-primary relative">
+        <div class="max-w-[85%] mx-auto bg-primary relative">
             <div class="max-w-[1060px] mx-auto flex flex-col gap-8 lg:gap-10 pt-4 px-5 lg:px-0 lg:pt-12 pb-18">
                 <div class="lg:max-h-[800px] flex flex-col lg:flex-row gap-5 lg:gap-10 overflow-hidden">
                     <div class="flex flex-1">
