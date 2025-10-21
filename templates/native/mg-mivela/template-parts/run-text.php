@@ -2,7 +2,7 @@
 
     <div class="max-w-[85%] mx-auto flex flex-col gap-10 relative">
         <img class="hidden lg:flex absolute left-[-40px] top-[-357px] max-w-[593px] z-40 spin-slow" src="<?= $native_path ?>/assets/run-text/run-circle-text.png" alt="Run circle text">
-        <div class="max-w-[65%] lg:self-end">
+        <div class="lg:max-w-[65%] lg:self-end">
             <p class="text-[16px] lg:text-[24px] font-black font-dmsans tracking-normal lg:text-right text-primary">Aktivni način života je sve češće svjesni izbor onih koji žele
                 živjeti bolje: i fizički i mentalno. Kretanje, bilo kroz sport, rekreativno vježbanje ili svakodnevne aktivnosti, dokazano poboljšava raspoloženje, jača imunitet i podiže razinu energije.
                 U dobu kada sjedilački način života dominira svakodnevicom,
