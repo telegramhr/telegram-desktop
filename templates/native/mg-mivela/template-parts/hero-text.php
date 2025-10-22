@@ -21,9 +21,8 @@
                 </div>
             </div>
             <div class="w-full text-center">
-                <h2 class="mx-auto text-[30px] text-center lg:text-[50px] leading-[30px] lg:leading-[50px] font-extrabold font-dmsans lg:max-w-[660px]">Provodimo dan s
-                    plesačicom Filipom Ledić:
-                    otkriva kako održava tijelo u balansu
+                <h2 class="mx-auto text-[30px] text-center lg:text-[50px] leading-[30px] lg:leading-[50px] font-extrabold font-dmsans lg:max-w-[660px]">
+                    Proveli smo dan s plesačicom Filipom Ledić: Otkrila nam je kako održava tijelo u balansu
                 </h2>
             </div>
         </div>

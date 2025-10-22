@@ -43,7 +43,6 @@
   font-display: swap;
 }
 
-/* DM Sans Black */
 @font-face {
   font-family: "DM-Sans";
   src: url("/src/assets/fonts/DMSans-Black.ttf") format("truetype");
@@ -52,7 +51,6 @@
   font-display: swap;
 }
 
-/* Akshar Bold (ako želiš da ostane DM-Sans porodica, možeš; ili napravi posebnu) */
 @font-face {
   font-family: "Akshar";
   src: url("/src/assets/fonts/Akshar-Bold.ttf") format("truetype");
@@ -85,4 +83,18 @@
 }
 body {
   font-family: "Panchang", sans-serif;
+}
+
+.marquee {
+  display: inline-flex;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

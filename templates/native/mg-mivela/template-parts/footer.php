@@ -91,7 +91,7 @@
                     <span>Fotograf: Matej Dokić</span>
                     <span>Video: Jigibau</span>
                     <span>Model: Filipa Ledić</span>
-                    <span>Autor teksta: Lucija Vogrinc</span>
+                    <span>Tekst: Lucija Vogrinc</span>
                     <span>Dizajn: Domia Oršolić</span>
                 </div>
                 <img class="max-w-[62px] lg:max-w-[100px] mx-auto w-full" src="<?= $native_path ?>/assets/footer/logo-footer.png" alt="Mg Mivela logo" />
