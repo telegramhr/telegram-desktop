@@ -8,7 +8,7 @@
             <p class="text-primary lg:hidden absolute right-5 top-0 font-crimson italic  font-italic text-[16px] ">mind<span class="font-dmsans font-extrabold text-[16px]">&</span>body</p>
 
         </div>
-        <div class="flex flex-col lg:flex-row bg-primary p-7 lg:p-3 items-center gap-6 lg:gap-18 ">
+        <div class="flex flex-col lg:flex-row bg-primary p-7 lg:p-3 items-center gap-6 lg:gap-0">
             <div class="relative">
                 <img class="w-full h-full object-cover aspect-[0.66] max-h-[370px] lg:max-h-[688px]" src="<?= $native_path ?>/assets/hero/run-hero.webp" alt="Run Hero image">
                 <div class="absolute top-[6px] left-1 lg:top-auto lg:bottom-0 flex flex-col">
@@ -20,10 +20,12 @@
 
                 </div>
             </div>
-            <h2 class="text-[30px] text-center lg:text-[50px] leading-[30px] lg:leading-[50px] font-extrabold font-dmsans lg:max-w-[52%]">Provodimo dan s
-                plesačicom Filipom Ledić:
-                otkriva kako održava tijelo u balansu
-            </h2>
+            <div class="w-full text-center">
+                <h2 class="mx-auto text-[30px] text-center lg:text-[50px] leading-[30px] lg:leading-[50px] font-extrabold font-dmsans lg:max-w-[660px]">Provodimo dan s
+                    plesačicom Filipom Ledić:
+                    otkriva kako održava tijelo u balansu
+                </h2>
+            </div>
         </div>
     </div>
 </div>

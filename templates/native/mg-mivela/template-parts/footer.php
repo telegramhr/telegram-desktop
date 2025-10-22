@@ -2,14 +2,27 @@
     <video class="lazy-video absolute hidden lg:block w-full h-full opacity-60 object-cover" data-src="<?= $native_path ?>/assets/main-container/bg-main-container.webm" autoplay muted playsinline loop preload="none">
     </video>
     <div class="w-full px-4">
-        <div class="max-w-[1060px] mx-auto flex flex-col gap-4 lg:gap-7 pt-7 pb-8 lg:py-20 relative">
+        <div class="max-w-[85%] mx-auto flex flex-col gap-4 lg:gap-7 pt-7 pb-8 lg:py-20 relative">
             <h3 class="text-primary text-[20px] lg:text-[40px] font-bold uppercase">
                 Dvostruka uloga vode obogaćene s magnezijem
             </h3>
-            <p class="text-primary text-[16px] lg:text-[28px] font-bold font-dmsans">
-                Prvi puta se upoznala s magnezijem još u srednjoj školi, kada je pohađala plesnu školu i trenirala svaki dan. Vrlo brzo je primijetila razliku kroz manji umor, manje grčeva i bolju koncentraciju. Danas joj je unos magnezija rutina, dio svakodnevne brige o sebi.
-                Pravo otkriće joj je voda s magnezijem i nju pije svakodnevno, bilo u uredu ili nakon treninga. “Tako istovremeno ostajem hidrirana i dajem tijelu ono što mu treba”, kaže. Aktivne osobe koje se više znoje i troše minerale, trebaju nadoknaditi gubitak vode, kao i magnezija. Pa tako voda s magnezijem ima dvostruku ulogu.
-            </p>
+            <div class="text-primary text-[16px] lg:text-[28px] font-bold font-dmsans">
+                <p>
+
+                    Prvi puta se upoznala s magnezijem još u srednjoj školi,
+                    kada je pohađala plesnu školu i trenirala svaki dan.
+                    Vrlo brzo je primijetila razliku kroz manji umor, manje grčeva i bolju koncentraciju.
+                    Danas joj je unos magnezija rutina, dio svakodnevne brige o sebi.</p>
+                    &nbsp;
+                <p>
+                    Pravo otkriće joj je voda s magnezijem i nju pije svakodnevno,
+                    bilo u uredu ili nakon treninga.
+                    “Tako istovremeno ostajem hidrirana i dajem tijelu ono što mu treba”,
+                    kaže. Aktivne osobe koje se više znoje i troše minerale,
+                    trebaju nadoknaditi gubitak vode, kao i magnezija.
+                    Pa tako voda s magnezijem ima dvostruku ulogu.
+                </p>
+            </div>
         </div>
     </div>
     <div class="w-full ">
@@ -20,14 +33,14 @@
 
 
             <div class="w-full px-4">
-                <div class="max-w-[85%] mx-auto flex flex-col lg:flex-row lg:gap-0 lg:max-h-[1115px] relative">
-                    <div class="flex flex-1 w-full h-full max-h-[620px] overflow-hidden lg:max-h-none bg-black relative lg:left-[1px]">
+                <div class="max-w-[85%] mx-auto flex flex-col h-[650px] md:h-auto lg:flex-row lg:gap-0 lg:max-h-[1115px] overflow-hidden relative">
+                    <div class="flex flex-1 w-full h-full max-h-[620px] overflow-hidden lg:max-h-none bg-black relative">
                         <video class="lazy-video w-full h-full object-cover aspect-[0.69] opacity-40 scale-[1.4]" autoplay muted playsinline loop preload="none"
                             data-src="<?= $native_path ?>/assets/choice/choice.webm">
                         </video>
                     </div>
 
-                    <div class="hidden lg:flex flex-1 w-full h-full max-h-[620px] left-[-1px] overflow-hidden lg:max-h-none bg-black">
+                    <div class="hidden lg:flex relative left-[-2px] flex-1 w-full h-full max-h-[620px] overflow-hidden lg:max-h-none bg-black">
                         <video class="lazy-video w-full h-full object-cover aspect-[0.69] opacity-40 scale-[1.4]" autoplay muted playsinline loop preload="none"
                             data-src="<?= $native_path ?>/assets/choice/choice.webm">
                         </video>
@@ -37,7 +50,7 @@
                         <p class="text-primary text-[16px] lg:text-[36px] font-bold font-panchang max-w-[1060px]">
                             Njezin izbor je Mg Mivela, prirodna mineralna voda bogata magnezijem.
                             Ona sadrži 343 mg magnezija po litri, što znači da samo jedna litra
-                            dnevno zadovoljava oko 90 posto preporučene dnevne potrebe.
+                            dnevno zadovoljava više od 90 posto preporučene dnevne potrebe.
                             Također, Mg Mivela sadrži 100 posto prirodan magnezij koji dolazi iz
                             izvora duboko u zemlji, a možete birati između gazirane i blago gazirane
                             varijante.
@@ -55,7 +68,7 @@
         </div>
     </div>
     <div class="w-full px-4 relative">
-        <div class="max-w-[1060px] mx-auto flex flex-col gap-4 lg:gap-7 py-8 lg:pb-20 lg:pt-[70px]">
+        <div class="max-w-[85%] mx-auto flex flex-col gap-4 lg:gap-7 py-8 lg:pb-20 lg:pt-[70px]">
             <h3 class="text-primary text-[20px] lg:text-[40px] font-bold uppercase">Slušajte svoje tijelo</h3>
             <p class="text-primary text-[16px] lg:text-[28px] font-bold font-dmsans">
                 Tjelesna aktivnost ne mora značiti napor, nego način da se osjećate bolje. Regeneracija je jednako važna kao i sam trening, a briga o mineralima kao što je magnezij, snu i odmoru čini veliku razliku. “Kad naučite osluškivati svoje tijelo, ono vam to vraća s više energije i boljim raspoloženjem. Ima li što bolje od toga?”, savjetuje Filipa za kraj.

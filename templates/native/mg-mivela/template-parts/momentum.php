@@ -6,7 +6,7 @@
                 <img class="max-h-[600px] aspect-[1.78] w-full object-cover" src="<?= $native_path ?>/assets//momentum/momentum.webp" alt="Momentum background image">
                 <div class="flex lg:hidden flex-row items-center mx-auto whitespace-pre"> <span class="text-[12px] italic font-crimson "> running</span> <span class="font-panchang font-extrabold text-[8px]">/out of time</span> <span class="text-[12px] italic font-crimson "> running</span> <span class="font-panchang font-extrabold text-[8px]">/out of time</span> <span class="text-[12px] italic font-crimson "> running</span> <span class="font-panchang font-extrabold text-[8px]">/out of time</span> </div>
             </div>
-            <p class="text-center font-panchang text-[14px] lg:text-[36px] px-3 lg:px-0 font-bold text-black">Provodimo dan s Filipom Ledić, odvjetničkom vježbenicom i profesionalnom plesačicom koja se plesom bavila punih dvadeset godina.
+            <p class="text-center font-panchang text-[14px] lg:text-[36px] px-3 lg:px-0 font-bold text-black">Provodimo dan s Filipom Ledić, odvjetničkom vježbenicom i profesionalnom plesačicom koja se plesom bavila punih dvadeset godina.
                 Obzirom na odabir trenutne karijere, njezin radni dan se sastoji od sjedenja u uredu pa joj je posebno važno da pronađe vrijeme za kretanje, makar to bila kratka šetnja dijelom puta do posla, pilates ili odlazak u teretanu.</p>
         </div>
     </div>
