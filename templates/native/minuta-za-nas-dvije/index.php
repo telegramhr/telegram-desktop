@@ -252,13 +252,13 @@
 
 
         <div class="col-lg-4">
-
-        </div>
-        <div class="col-lg-4">
               <a href="https://www.telegram.hr/super1/life/frondi-pink-october-movember-zdravlje/" target="_blank"><img alt="Ove jeseni uživamo u novim okusima Frondi prutića koji nas podsjećaju da brinemo o zdravlju, evo kako" src="<?php echo $native_path ?>/images/cl10.png" style="margin-bottom:20px" /></a>
         </div>
         <div class="col-lg-4">
-  
+              <a href="https://www.telegram.hr/super1/power/minuta-za-nas-dvije-event-radionica-report/" target="_blank"><img alt="Naša radionica izrade hug vase bila je pun pogodak. Donosimo vam djelić ženske atmosfere!" src="<?php echo $native_path ?>/images/cl11.png" style="margin-bottom:20px" /></a>
+        </div>
+        <div class="col-lg-4">
+                <a href="https://www.telegram.hr/super1/power/radionica-hug-vase-super1-event-uzvanice/" target="_blank"><img alt="Čujemo samo najbolje reakcije na našu hug vase radionicu! Pogledajte tko se sve pojavio i kakvi su bili pokloni" src="<?php echo $native_path ?>/images/cl12.png" style="margin-bottom:20px" /></a>
         </div>
     </div>
   </div>
