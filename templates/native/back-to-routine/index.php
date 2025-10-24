@@ -43,6 +43,7 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
 </head>
 
 <body>
+    <?php do_action('telegram_body_start'); ?>
     <div class="main-container flex relative">
         <!-- Desktop-only Header-->
         <?php

@@ -29,6 +29,7 @@ $jsPath = $distPath . '/main.js';
 </head>
 
 <body>
+    <?php do_action('telegram_body_start'); ?>
     <div class="">
         <!-- Header -->
 

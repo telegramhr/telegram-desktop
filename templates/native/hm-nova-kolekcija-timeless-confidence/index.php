@@ -25,6 +25,7 @@ $jsPath = $distPath . '/main.js';
     <script src="<?php echo $native_path; ?>/dist/main.js?v=<?php echo file_exists($jsPath) ? filemtime($jsPath) : '1.11'; ?>" defer></script>
 </head>
 <body class="bg-accent">
+    <?php do_action('telegram_body_start'); ?>
     <div class="">
         <!-- Header -->
         <?php

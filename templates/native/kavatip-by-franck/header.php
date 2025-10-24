@@ -35,6 +35,7 @@ $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/temp
     <script src="<?php echo $native_path ?>assets/functions.js?v=1.35"></script>
 </head>
 <body>
+    <?php do_action('telegram_body_start'); ?>
     <div class="main-container flex relative">
         <!-- Top Sticky Nav -->
         <!-- <div class="half top-nav center relative flex-responsive">
