@@ -275,7 +275,7 @@
       </div>
       <div class="row">
         <div class="col-lg-6 offset-lg-3 text-center">
-          <img src="assets/images/sponzori.png" class="sponzori" alt="Sponzori"/>
+          <img src="<?php echo $native_path; ?>/images/sponzori.png" class="sponzori" alt="Sponzori"/>
         </div>
       </div>
       <div class="row">
