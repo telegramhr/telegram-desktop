@@ -5,8 +5,8 @@
     // use this native path to embed all the files from project that are included with project, images, scripts, ...
     // we will change this when we upload the project to the server
     // this way we only need to change in one place
-    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/mznd/assets';
-    $native_path_vendor = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/mznd';
+    $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/minuta-za-nas-dvije/assets';
+    $native_path_vendor = 'https://telegram.hr/wp-content/themes/telegram2-desktop/templates/native/minuta-za-nas-dvije';
     // use this for versioning, to avoid cache problems
     $version = 1;
 ?>
@@ -45,9 +45,7 @@
     <div class="container-fluid text-center p-0">
       <div class="row">
         <div class="col-lg-12">
-                <img alt="Minuta za nas dvije" src="https://telegram.reset.hr/mznd/assets/images/naslovnica.gif"/>
-
-
+                <img alt="Minuta za nas dvije" src="<?php echo $native_path; ?>/images/naslovnica.gif"/>
         </div>
     </div>
 
@@ -114,7 +112,7 @@
   <div class="container">
       <div class="row">
         <div class="col-lg-12">
-               <img alt="Minuta za nas dvije" src="https://telegram.reset.hr/mznd/assets/images/mznd2.gif" rel="preload" />
+               <img alt="Minuta za nas dvije" src="<?php echo $native_path; ?>/images/mznd2.gif" rel="preload" />
         </div>
     </div>
   </div>
@@ -180,7 +178,7 @@
                <img alt="Minuta za nas dvije" src="<?php echo $native_path ?>/images/s3.png" style="margin-bottom: 25px;"/>
         </div>
         <div class="col-lg-6">
-              <img alt="Minuta za nas dvije" src="https://telegram.reset.hr/mznd/assets/images/s4.gif" rel="preload" style="margin-bottom: 25px;"/>
+              <img alt="Minuta za nas dvije" src="<?php echo $native_path; ?>/images/s4.gif" rel="preload" style="margin-bottom: 25px;"/>
         </div>
     </div>
   </div>
