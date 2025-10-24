@@ -17,7 +17,7 @@
                         </p>
                         &nbsp;
                         <p>
-                            Ponosno tvrdi da ju je ples naučio svemu, a ponajviše disciplini,posvećenosti i upornosti. “Dao mi je temelj za sve drugo što danasradim, od prava do organizacije evenata te me naučio da ništa ne dolazipreko noći, već su ključni trud i dosljednost.”</p>
+                            Ponosno tvrdi da ju je ples naučio svemu, a ponajviše disciplini,posvećenosti i upornosti. “Dao mi je temelj za sve drugo što danas radim, od prava do organizacije evenata te me naučio da ništa ne dolazi preko noći, već su ključni trud i dosljednost.”</p>
                     </div>
                 </div>
                 <div class="flex flex-col lg:flex-row gap-5 lg:gap-9">
@@ -36,7 +36,7 @@
                         <p>
                             Iako je ples njezina ljubav od malih nogu, Filipa se bavi raznim drugim oblicima kretanja kako bi ostala aktivna.
                             Redovita je u pilatesu i obožava šetnje, a jedan od najdražih dijelova
-                            tjedna joj je vježbanje na livadi u sklopunašeg Après Runa koji organiziram sa svojim zaručnikom.
+                            tjedna joj je vježbanje na livadi u sklopu Après Runa koji organizira sa svojim zaručnikom.
                         </p>
                         &nbsp;
                         <p>
