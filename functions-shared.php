@@ -189,12 +189,14 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [2727750, 2719271, 2697008, 2633301, 2628482,2616854, 2616789, 2586227, 2440142, 2393151, 2373566, 2384343,2388443, 1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246, 2355120, 2373566])) {
+                if (in_array($id, [2737012, 2727750, 2719271, 2697008, 2633301, 2628482,2616854, 2616789, 2586227, 2440142, 2393151, 2373566, 2384343,2388443, 1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246, 2355120, 2373566])) {
                     $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
-            } else
+            } else {
+                return $m[0];
                 return '<a href="' . $m[2] . '">' . $m[3] . '</a>';
+            }
         }, $content);
     }
 	return $content;
@@ -285,6 +287,9 @@ add_filter( 'tiny_mce_before_init', 'telegram_disable_mce_wptextpattern' );
 add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
 add_shortcode('caption', 'fixed_img_caption_shortcode');
 function fixed_img_caption_shortcode($attr, $content = null) {
+    if (strpos($content, 'uploads/sites/3') !== false) {
+        return $content;
+    }
 	// New-style shortcode with the caption inside the shortcode with the link and image tags.
 	if ( ! isset( $attr['caption'] ) ) {
 		if ( preg_match( '#((?:<a [^>]+>\s*)?<img [^>]+>(?:\s*</a>)?)(.*)#is', $content, $matches ) ) {
@@ -330,6 +335,9 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 
 function super1_unautop_4_img( $content )
 {
+    if (strpos($content, 'sites/3') !== false) {
+        return $content;
+    }
     $content = preg_replace_callback('/(<figure class="wp-block-media-text.*?><img(.*?)><\/figure>)/s',
         function($m) {
             if (count($m)<2) {
