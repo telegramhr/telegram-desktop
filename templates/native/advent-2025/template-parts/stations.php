@@ -6,7 +6,7 @@ $description = $props['description'] ?? '';
 $polaroids = array_slice($props['polaroids'] ?? [], 0, 3);
 $block_id = 'stations-' . uniqid();
 $is_first = ($style === 'bordo');
-
+$native_path = $props['native_path'];
 ?>
 
 <?php if ($is_first): ?>
