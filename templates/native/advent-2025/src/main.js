@@ -343,7 +343,27 @@ document.addEventListener("DOMContentLoaded", () => {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => renderWeek(), 250);
   });
+  // -------------------- Snow effect --------------------
 
+  const snowContainer = document.querySelector(".snow");
+
+  function createFlake() {
+    const flake = document.createElement("div");
+    flake.classList.add("flake");
+
+    const size = Math.random() * 4 + 2;
+    flake.style.width = `${size}px`;
+    flake.style.height = `${size}px`;
+    flake.style.left = Math.random() * 100 + "vw";
+    flake.style.animationDuration = Math.random() * 5 + 5 + "s";
+    flake.style.opacity = Math.random() * 0.8 + 0.2;
+
+    snowContainer.appendChild(flake);
+
+    setTimeout(() => flake.remove(), 10000);
+  }
+
+  setInterval(createFlake, 100);
   // -------------------- Init --------------------
   (async function init() {
     await loadCalendar();
