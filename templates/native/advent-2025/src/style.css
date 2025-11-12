@@ -1,38 +1,66 @@
 @import "tailwindcss";
+@import "flickity/dist/flickity.min.css";
+
 @theme {
   --color-primary: #a20700;
   --color-dark-slate: #212525;
   --color-light-sand: #fef4d3;
   --color-olive-green: #304106;
 }
-
 @font-face {
   font-family: "Poppins";
-  src:
-    url("/assets/fonts/Poppins-Black.woff2") format("woff2"),
-    url("/assets/fonts/Poppins-Black.woff") format("woff");
-  font-weight: 900;
+  src: url("/src/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/assets/fonts/Poppins-Regular.ttf") format("trueType");
+  src: url("/src/assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Christmas";
+  src: url("/src/assets/fonts/LastChristmas_PERSONAL_USE_ONLY.otf")
+    format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Raleway";
-  src:
-    url("/assets/fonts/Raleway-Regular.woff2") format("woff2"),
-    url("/assets/fonts/Raleway-Regular.woff") format("woff");
-  font-weight: 400; /* Change from 'normal' to 400 */
+  font-family: "Lato";
+  src: url("/src/assets/fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GoodSans";
+  src: url("/src/assets/fonts/goodsans-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 @layer utilities {
   .font-christmas {
     font-family: "Christmas", sans-serif;
@@ -40,6 +68,9 @@
 
   .font-lato {
     font-family: "Lato", sans-serif;
+  }
+  .font-goodsans {
+    font-family: "GoodSans", sans-serif;
   }
 
   .font-poppins {

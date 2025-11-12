@@ -1,19 +1,34 @@
 <?php
 $posts = [
     [
-        'title' => 'Božićni sajam u Zagrebu',
-        'img' => $native_path . '/assets/stations/polaroid2.webp',
+        'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+        'img' => $native_path . '/assets/posts/advent-1.png',
     ],
     [
-        'title' => 'Zimska čarolija na Plitvicama',
-        'img' => $native_path . '/assets/stations/polaroid2.webp',
+        'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+        'img' => $native_path . '/assets/posts/advent-2.png',
     ],
     [
-        'title' => 'Novogodišnji koncert u Splitu',
-        'img' => $native_path . '/assets/stations/polaroid2.webp',
+        'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+        'img' => $native_path . '/assets/posts/advent-3.png',
     ],
 
+
 ];
+$posts2 = [
+    [
+        'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+        'img' => $native_path . '/assets/posts/advent-4.png',
+    ],
+    [
+        'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+        'img' => $native_path . '/assets/posts/advent-5.png',
+    ],
+    [
+        'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+        'img' => $native_path . '/assets/posts/advent-6.png',
+    ],
+]
 ?>
 
 <div class="w-full relative px-4 bg-[#F2E7DC] ">
@@ -21,7 +36,7 @@ $posts = [
     <div class="absolute inset-0 w-full h-full">
         <img src="<?= $native_path; ?>/assets/stations/papir.webp" class="object-cover w-full h-full opacity-35 bg-blend-multiply" alt="Paper background">
     </div>
-    <div class="max-w-[1090px] mx-auto pt-[30px] md:pt-[60px] pb-[52px] md:pb-[100px] flex flex-col gap-5 md:gap-[52px] relative">
+    <div class="max-w-[1090px] mx-auto pt-[30px] md:pt-[60px] pb-[32px] md:pb-[100px] flex flex-col gap-10 md:gap-[52px] relative">
         <div class="flex flex-col gap-[30px] md:gap-[46px] max-w-[670px] mx-auto w-full">
             <h2 class="font-christmas text-[39px] md:text-[60px] leading-11 md:leading-[64px] text-center text-primary">Sve priče na jednom mjestu</h2>
             <p class="font-poppins text-base text-center text-primary">Lorem ipsum dolor sit amet consectetur. Senectus vivamus elit nec turpis sed aenean sem tempor aenean. Netus varius consequat lacus in vel non et posuere quis. Nunc viverra aliquet pellentesque et.</p>
@@ -44,6 +59,8 @@ $posts = [
                             alt="<?= $post['title']; ?>"
                             class="absolute inset-0 w-full h-full object-cover ">
 
+                        <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0) 54.68%, rgba(0, 0, 0, 0.8) 100%);"></div>
+
                         <div class="absolute bottom-0 left-0 w-full  px-[14px] lg:px-6 pb-[15px] lg:pb-4 ">
                             <span class="font-poppins text-white text-base">
                                 <?= $post['title']; ?>
@@ -53,7 +70,7 @@ $posts = [
                 <?php endforeach; ?>
             </div>
             <div class="grid grid-cols-2 md:flex flex-row gap-6">
-                <?php foreach ($posts as $index => $post): ?>
+                <?php foreach ($posts2 as $index => $post): ?>
                     <?php
 
                     $mobileOrder = 3 - $index;
@@ -73,6 +90,8 @@ $posts = [
                             src="<?= $post['img']; ?>"
                             alt="<?= $post['title']; ?>"
                             class="absolute inset-0 w-full h-full object-cover ">
+                        <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0) 54.68%, rgba(0, 0, 0, 0.8) 100%);"></div>
+
 
                         <div class="absolute bottom-0 left-0 w-full <?= ($index == 2) ? 'px-[14px] pb-[15px]' : 'px-[9px] pb-[17px]' ?> lg:px-6  lg:pb-4">
                             <span class="font-poppins text-white text-base">
