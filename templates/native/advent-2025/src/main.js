@@ -281,18 +281,16 @@ document.addEventListener("DOMContentLoaded", () => {
         duration: 300,
         effects: "fade scale(0.8)",
         easing: "ease-in-out",
+        animateResizeContainer: false,
+        animateResizeTargets: false,
       },
       load: { filter: "all" },
       callbacks: {
-        onMixEnd: () => {
-          if (isMobile()) {
-            flickityInstances.forEach((f) => {
-              if (f) {
-                f.resize();
-                f.reloadCells();
-              }
-            });
-          }
+        onMixEnd: (state) => {
+          const container = document.getElementById("mixitup-container");
+          container.querySelectorAll(".mix").forEach((el) => {
+            el.style.width = getComputedStyle(el).width;
+          });
         },
       },
     });

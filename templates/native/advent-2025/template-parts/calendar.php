@@ -41,3 +41,9 @@
         </div>
     </div>
 </div>
+
+<style>
+    .mix {
+        flex: 0 0 auto !important;
+    }
+</style>
