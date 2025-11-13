@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
       flickityInstances.push(flkty);
     }
 
-    setTimeout(initMixitup, 100);
+    initMixitup();
   }
 
   function renderWeekDesktop() {
@@ -285,22 +285,20 @@ document.addEventListener("DOMContentLoaded", () => {
       selectors: { target: ".mix" },
       animation: {
         duration: 300,
-        effects: "fade",
+        effects: "fade scale(0.8)",
         easing: "ease-in-out",
-        animateResizeContainer: false,
-        animateResizeTargets: false,
       },
       load: { filter: "all" },
       callbacks: {
-        onMixStart: () => {
-          container.style.transition = "none";
-        },
         onMixEnd: () => {
-          mixEls.forEach((el) => {
-            el.style.transform = "";
-            el.style.transition = "";
-          });
-          container.style.transition = "";
+          if (isMobile()) {
+            flickityInstances.forEach((f) => {
+              if (f) {
+                f.resize();
+                f.reloadCells();
+              }
+            });
+          }
         },
       },
     });
