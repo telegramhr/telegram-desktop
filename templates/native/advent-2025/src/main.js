@@ -274,23 +274,33 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!container) return;
 
     if (mixer) mixer.destroy();
+    const mixEls = container.querySelectorAll(".mix");
+    mixEls.forEach((el) => {
+      const width = getComputedStyle(el).width;
+      el.style.width = width;
+      el.style.flex = "0 0 " + width;
+    });
 
     mixer = mixitup(container, {
       selectors: { target: ".mix" },
       animation: {
         duration: 300,
-        effects: "fade scale(0.8)",
+        effects: "fade",
         easing: "ease-in-out",
         animateResizeContainer: false,
         animateResizeTargets: false,
       },
       load: { filter: "all" },
       callbacks: {
-        onMixEnd: (state) => {
-          const container = document.getElementById("mixitup-container");
-          container.querySelectorAll(".mix").forEach((el) => {
-            el.style.width = getComputedStyle(el).width;
+        onMixStart: () => {
+          container.style.transition = "none";
+        },
+        onMixEnd: () => {
+          mixEls.forEach((el) => {
+            el.style.transform = "";
+            el.style.transition = "";
           });
+          container.style.transition = "";
         },
       },
     });

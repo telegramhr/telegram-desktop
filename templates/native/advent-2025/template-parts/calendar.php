@@ -43,7 +43,14 @@
 </div>
 
 <style>
+    #mixitup-container {
+        display: flex;
+        flex-wrap: wrap;
+        transition: none !important;
+        width: 100%;
+    }
+
     .mix {
-        flex: 0 0 auto !important;
+        flex: 0 0 auto;
     }
 </style>
