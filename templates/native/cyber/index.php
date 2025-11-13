@@ -6,8 +6,6 @@
 // this way we only need to change in one place
 $native_path = 'https://telegram.hr/wp-content/themes/telegram-desktop/templates/native/cyber/assets';
 $native_path_vendor = 'https://telegram.hr/wp-content/themes/telegram-desktop/templates/native/cyber';
-$native_path = 'https://telegram-wp.ddev.site/wp-content/themes/telegram-desktop/templates/native/cyber/assets';
-$native_path_vendor = 'https://telegram-wp.ddev.site/wp-content/themes/telegram-desktop/templates/native/cyber';
 // use this for versioning, to avoid cache problems
 $version = 1;
 ?>
