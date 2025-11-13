@@ -1,26 +1,25 @@
 <?php
+
+
+require_once $_SERVER['DOCUMENT_ROOT'] . '/wp-load.php';
+
 header('Content-Type: application/json');
 header('Cache-Control: no-cache, no-store, must-revalidate');
 header('Pragma: no-cache');
 header('Expires: 0');
 
-$jsonFile = __DIR__ . '/assets/calendar.json';
 
-if (file_exists($jsonFile)) {
-    $data = file_get_contents($jsonFile);
+try {
+    $option = get_option('advent_2025');
+    $decoded = $option ? maybe_unserialize($option) : null;
 
-    $decoded = json_decode($data, true);
-    if ($decoded !== null) {
-        echo json_encode($decoded);
-    } else {
-        echo json_encode([
-            "error" => "JSON not valid",
-            "raw" => $data
-        ]);
-    }
-} else {
     echo json_encode([
-        "error" => "calendar.json not exist",
-        "dir" => __DIR__
+        'success' => (bool)$decoded,
+        'data'    => $decoded ?? null
+    ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+} catch (Throwable $e) {
+    echo json_encode([
+        'success' => false,
+        'error' => $e->getMessage()
     ]);
 }

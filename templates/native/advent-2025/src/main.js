@@ -22,9 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
         "/wp-content/themes/telegram-desktop/templates/native/advent-2025/calendar.php",
         { cache: "no-store" }
       );
-      allWeeks = await res.json();
-      weekKeys = Object.keys(allWeeks);
+
+      const json = await res.json();
+      if (json.success && json.data) {
+        allWeeks = json.data;
+        weekKeys = Object.keys(allWeeks);
+      } else {
+        allWeeks = {};
+        weekKeys = [];
+      }
     } catch (err) {
+      console.error("Greška pri učitavanju kalendara:", err);
       allWeeks = {};
       weekKeys = [];
     }
