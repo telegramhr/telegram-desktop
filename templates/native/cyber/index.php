@@ -459,21 +459,21 @@ $version = 1;
           $.post('https://www.telegram.hr/wp-json/telegram/pwa/v1/forms/test', {
             scores: totalPoints
           });
-
-          this.$gtm.push({
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({
             event: 'quiz-success',
           })
           // Određivanje slike i linka po rasponima
           if (totalPoints <= 7) {
-            linkEl.href = "#";
+            linkEl.href = "https://www.telegram.hr/partneri/napadaju-banke-institucije-i-holdinge-zasto-mislite-da-ste-vi-sigurni-evo-kako-se-zastititi-od-kibernetickih-napadaca/";
             linkEl.textContent = "Bravo! Tvoj cyber štit je čvrst. Ipak, hakeri ne spavaju — provjeri gdje su tvoje sljedeće točke ranjivosti u našem vodiču o najčešćim trikovima napadača. ";
             imgEl.src = "<?php echo $native_path ?>/images/result-low.png";
           } else if (totalPoints <= 15) {
-            linkEl.href = "#";
+            linkEl.href = "https://www.telegram.hr/partneri/napadaju-banke-institucije-i-holdinge-zasto-mislite-da-ste-vi-sigurni-evo-kako-se-zastititi-od-kibernetickih-napadaca/";
             linkEl.textContent = "Dobro se snalaziš, ali imaš nekoliko navika koje te mogu skupo koštati. Saznaj kako ih popraviti u našem specijalu o cyber higijeni. ";
             imgEl.src = "<?php echo $native_path ?>/images/result-mid.png";
           } else { // 35-40
-            linkEl.href = "#";
+            linkEl.href = "https://www.telegram.hr/partneri/napadaju-banke-institucije-i-holdinge-zasto-mislite-da-ste-vi-sigurni-evo-kako-se-zastititi-od-kibernetickih-napadaca/";
             linkEl.textContent = "Ups — ti si san svakog hakera. Još nije kasno! Nauči kako zaštititi svoje podatke, račune i uređaje u par jednostavnih koraka.";
             imgEl.src = "<?php echo $native_path ?>/images/result-high.png";
           }
