@@ -111,14 +111,19 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="hidden flex-col md:flex-row gap-12 relative z-20 [&>div]:first:rotate-[-3deg] [&>div]:last:rotate-[3deg] px-4" style="opacity: 0; max-height: 0; transition: opacity 0.6s ease-in-out, max-height 0.6s ease-in-out, transform 0.6s ease-in-out; transform: translateY(-20px);">
+    <div id="polaroids-<?= $block_id ?>" class="hidden flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4" style="opacity: 0; max-height: 0; transition: opacity 0.6s ease-in-out, max-height 0.6s ease-in-out, transform 0.6s ease-in-out; transform: translateY(-20px);">
         <?php foreach ($polaroids as $polaroid): ?>
-            <div class="flex flex-col gap-[22px] px-4 pt-9 pb-7 bg-white max-w-[320px]">
-                <img class="aspect-square z-30" src="<?= $polaroid['image'] ?>" alt="">
-                <p class="font-poppins font-medium text-[20px] leading-7"><?= $polaroid['text'] ?></p>
-            </div>
+            <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
+                target="_blank"
+                class="hover:scale-[1.02] transition-all duration-300 ease-in-out">
+                <div class="flex flex-col gap-[22px] px-4 pt-9 pb-7 bg-white max-w-[320px]">
+                    <img class="aspect-square z-30" src="<?= $polaroid['image'] ?>" alt="">
+                    <p class="font-poppins font-medium text-[20px] leading-7"><?= $polaroid['text'] ?></p>
+                </div>
+            </a>
         <?php endforeach; ?>
     </div>
+
 
 </div>
 
