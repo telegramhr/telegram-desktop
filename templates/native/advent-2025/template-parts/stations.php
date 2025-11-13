@@ -55,8 +55,8 @@ $native_path = $props['native_path'];
                 <?= $description; ?>
             </p>
         </div>
-        <button id="toggleBtn-<?= $block_id; ?>" class="bg-white px-5 py-[9px] rounded-[3px] shadow-sm w-fit mx-auto items-center text-black uppercase text-[16px] md:text-[20px] font-bold leading-6 flex flex-row gap-1 font-lato z-40">
-            <span class="cursor-pointer">Posjeti ih</span>
+        <button id="toggleBtn-<?= $block_id; ?>" class="bg-white px-5 py-[9px] rounded-[3px] shadow-sm w-fit mx-auto items-center text-black uppercase text-[16px] md:text-[20px] font-bold leading-6 flex flex-row gap-1 font-lato z-40 cursor-pointer">
+            <span>Posjeti ih</span>
             <i id="arrow-up-<?= $block_id ?>" class="fa-solid fa-angle-down"></i>
         </button>
     </div>
