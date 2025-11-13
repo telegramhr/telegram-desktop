@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   async function loadCalendar() {
     try {
       const res = await fetch(
-        "/wp-content/themes/telegram-desktop/templates/native/advent-2025/assets/calendar.php",
+        "/wp-content/themes/telegram-desktop/templates/native/advent-2025/calendar.php",
         { cache: "no-store" }
       );
       allWeeks = await res.json();

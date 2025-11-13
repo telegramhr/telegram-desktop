@@ -4,7 +4,7 @@ header('Cache-Control: no-cache, no-store, must-revalidate');
 header('Pragma: no-cache');
 header('Expires: 0');
 
-$jsonFile = __DIR__ . '/calendar.json';
+$jsonFile = __DIR__ . '/assets/calendar.json';
 
 if (file_exists($jsonFile)) {
     $data = file_get_contents($jsonFile);
