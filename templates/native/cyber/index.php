@@ -189,7 +189,7 @@ $version = 1;
                   </div>
                   <!-- Col 5: slika -->
                   <div class="col-lg-2">
-                    <img id="result-image" src="<?php echo $native_path ?>/assets/images/result-image.jpg" alt="Rezultat">
+                    <img id="result-image" src="<?php echo $native_path ?>/assets/images/result-high.png" alt="Rezultat">
                   </div>
                   <div class="col-lg-1">
                   </div>
@@ -354,7 +354,7 @@ $version = 1;
             <div class="col-lg-4">
             </div>
             <div class="col-lg-4 text-center">
-              <img src="<?php echo $native_path ?>/images/partner.jpg" style="margin-top:40px; margin-bottom: 40px; width: 70%;" />
+              <img src="<?php echo $native_path ?>/images/otp.jpg" style="margin-top:40px; margin-bottom: 40px;" />
             </div>
             <div class="col-lg-4">
             </div>
@@ -444,20 +444,31 @@ $version = 1;
 
     // Koraci 2-11: pitanja
     const answerButtons = document.querySelectorAll('.quiz-answer');
+    let postData = [];
     answerButtons.forEach(btn => {
       btn.addEventListener('click', () => {
         totalPoints += parseInt(btn.dataset.points);
         currentStep++;
-
+        postData.push(btn.textContent);
         if (currentStep === 10) {
           const scoreEl = document.getElementById('score');
           const linkEl = document.getElementById('result-link');
           const imgEl = document.getElementById('result-image');
 
           scoreEl.textContent = `Osvojili ste ${totalPoints} bodova!`;
+          postData.push(totalPoints);
 
-          $.post('https://www.telegram.hr/wp-json/telegram/pwa/v1/forms/test', {
-            scores: totalPoints
+          $.post({
+            url: 'https://script.google.com/macros/s/AKfycbxAPHmu7mxBS7cl3pycR8KPOy6ZAo6K2faNoe7FMaiKttQNv3BPjTvjgSJubgUj6O86NQ/exec',
+            type: 'POST',
+            data: JSON.stringify(postData),
+            contentType: 'text/plain', // This avoids CORS preflight
+            success: function(response) {
+              console.log('Submitted successfully!');
+            },
+            error: function(xhr, status, error) {
+              console.log('Error:', error);
+            }
           });
           window.dataLayer = window.dataLayer || []
           window.dataLayer.push({
