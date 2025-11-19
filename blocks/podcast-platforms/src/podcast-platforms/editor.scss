@@ -20,7 +20,7 @@
 .wrapper {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	gap: 24px;
 	background-color: white;
 	color: black;
 }
@@ -31,7 +31,7 @@
 .podcasts-wrapper {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	gap: 24px;
 	background-color: transparent;
 }
 .podcasts-wrapper a {

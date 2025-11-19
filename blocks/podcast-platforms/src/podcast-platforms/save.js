@@ -31,7 +31,7 @@ export default function save({ attributes }) {
 
 	return (
 		<div {...blockProps}>
-			{hasLinks ? (
+			{hasLinks && (
 				<div className="podcasts-wrapper">
 					{link1 && (
 						<a
@@ -89,10 +89,6 @@ export default function save({ attributes }) {
 							</div>
 						</a>
 					)}
-				</div>
-			) : (
-				<div className="nothing">
-					<p>Unesite linkove za prikaz platformi</p>
 				</div>
 			)}
 		</div>
