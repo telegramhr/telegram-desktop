@@ -111,7 +111,8 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4" style="max-height: 0; opacity: 0; transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;">
+    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4"
+        style="max-height: 0; opacity: 0;overflow:visible;  pointer-events: none; transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
@@ -133,6 +134,7 @@ $native_path = $props['native_path'];
 
 
 <?php endif; ?>
+
 <script>
     (function() {
         const toggleBtn = document.getElementById('toggleBtn-<?= $block_id ?>');
@@ -145,14 +147,14 @@ $native_path = $props['native_path'];
 
         toggleBtn.addEventListener('click', () => {
             if (isOpen) {
-                // Zatvori
                 polaroids.style.maxHeight = '0px';
                 polaroids.style.opacity = '0';
+                polaroids.style.pointerEvents = 'none';
                 arrow.style.transform = 'rotate(0deg)';
             } else {
-                // Otvori - postavi max-height na scroll height
                 polaroids.style.maxHeight = polaroids.scrollHeight + 'px';
                 polaroids.style.opacity = '1';
+                polaroids.style.pointerEvents = 'auto';
                 arrow.style.transform = 'rotate(180deg)';
             }
             isOpen = !isOpen;
@@ -163,6 +165,7 @@ $native_path = $props['native_path'];
 <style>
     #polaroids-<?= $block_id ?> {
         transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease-in-out;
+        overflow: hidden;
     }
 
     #arrow-up-<?= $block_id ?> {
