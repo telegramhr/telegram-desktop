@@ -112,7 +112,7 @@ $native_path = $props['native_path'];
 
     <!-- Polaroids -->
     <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4"
-        style="max-height: 0; opacity: 0;overflow:visible;  pointer-events: none; transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;">
+        style="max-height: 0; opacity: 0; overflow: visible; pointer-events: none; transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
@@ -158,6 +158,12 @@ $native_path = $props['native_path'];
                 arrow.style.transform = 'rotate(180deg)';
             }
             isOpen = !isOpen;
+        });
+
+        polaroids.addEventListener('transitionend', () => {
+            if (isOpen) {
+                polaroids.style.maxHeight = 'none';
+            }
         });
     })();
 </script>
