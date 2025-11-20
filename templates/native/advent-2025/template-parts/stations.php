@@ -111,7 +111,7 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="hidden flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4" style="opacity: 0; max-height: 0; transition: opacity 0.6s ease-in-out, max-height 0.6s ease-in-out, transform 0.6s ease-in-out; transform: translateY(-20px);">
+    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4" style="max-height: 0; opacity: 0; transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
@@ -141,51 +141,31 @@ $native_path = $props['native_path'];
         const polaroids = document.getElementById('polaroids-<?= $block_id ?>');
         const arrow = document.getElementById('arrow-up-<?= $block_id ?>');
 
+        let isOpen = false;
+
         toggleBtn.addEventListener('click', () => {
-            const isOpen = polaroids.style.opacity === '1';
-
             if (isOpen) {
+                // Zatvori
+                polaroids.style.maxHeight = '0px';
                 polaroids.style.opacity = '0';
-                polaroids.style.maxHeight = '0';
-                polaroids.style.transform = 'translateY(-20px)';
-                arrow.style.transition = 'transform 0.3s ease';
                 arrow.style.transform = 'rotate(0deg)';
-
-                setTimeout(() => {
-                    polaroids.classList.add('hidden');
-                    polaroids.classList.remove('flex');
-
-                    if (typeof window.refreshMotionPaths === 'function') {
-                        window.refreshMotionPaths();
-                    } else if (typeof ScrollTrigger !== 'undefined') {
-                        ScrollTrigger.refresh();
-                    }
-                }, 650);
             } else {
-                polaroids.classList.remove('hidden');
-                polaroids.classList.add('flex');
-
-                void polaroids.offsetHeight;
-
+                // Otvori - postavi max-height na scroll height
+                polaroids.style.maxHeight = polaroids.scrollHeight + 'px';
                 polaroids.style.opacity = '1';
-                polaroids.style.maxHeight = '2000px';
-                polaroids.style.transform = 'translateY(0)';
-                arrow.style.transition = 'transform 0.3s ease';
                 arrow.style.transform = 'rotate(180deg)';
-
-                setTimeout(() => {
-                    if (typeof window.refreshMotionPaths === 'function') {
-                        window.refreshMotionPaths();
-                    } else if (typeof ScrollTrigger !== 'undefined') {
-                        ScrollTrigger.refresh();
-                    }
-                }, 650);
             }
+            isOpen = !isOpen;
         });
     })();
 </script>
+
 <style>
     #polaroids-<?= $block_id ?> {
-        transition: opacity 0.7s ease-in-out, max-height 0.7s ease-in-out;
+        transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease-in-out;
+    }
+
+    #arrow-up-<?= $block_id ?> {
+        transition: transform 0.3s ease-in-out;
     }
 </style>
