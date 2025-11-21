@@ -285,7 +285,7 @@ $native_path = $props['native_path'];
             {
                 maskPath: '#mask-path-darkgreen-mobile',
                 trigger: '#path-dark-green-mobile',
-                reverse: false
+                reverse: true
             },
             {
                 maskPath: '#mask-path-green',
@@ -369,34 +369,6 @@ $native_path = $props['native_path'];
             }
         });
 
-        // Toggle polaroida
-        (function() {
-            const toggleBtn = document.getElementById('toggleBtn-<?= $block_id ?>');
-            if (!toggleBtn) return;
-
-            const polaroids = document.getElementById('polaroids-<?= $block_id ?>');
-            const arrow = document.getElementById('arrow-up-<?= $block_id ?>');
-            let isOpen = false;
-
-            toggleBtn.addEventListener('click', () => {
-                if (isOpen) {
-                    polaroids.style.maxHeight = '0px';
-                    polaroids.style.opacity = '0';
-                    polaroids.style.pointerEvents = 'none';
-                    arrow.style.transform = 'rotate(0deg)';
-                } else {
-                    polaroids.style.maxHeight = polaroids.scrollHeight + 'px';
-                    polaroids.style.opacity = '1';
-                    polaroids.style.pointerEvents = 'auto';
-                    arrow.style.transform = 'rotate(180deg)';
-                }
-                isOpen = !isOpen;
-            });
-
-            polaroids.addEventListener('transitionend', () => {
-                if (isOpen) polaroids.style.maxHeight = 'none';
-            });
-        })();
     });
 </script>
 
@@ -413,14 +385,17 @@ $native_path = $props['native_path'];
 
         toggleBtn.addEventListener('click', () => {
             if (isOpen) {
-                polaroids.style.maxHeight = '0px';
-                polaroids.style.opacity = '0';
                 polaroids.style.pointerEvents = 'none';
+                polaroids.style.maxHeight = polaroids.scrollHeight + 'px';
+                requestAnimationFrame(() => {
+                    polaroids.style.maxHeight = '0px';
+                    polaroids.style.opacity = '0';
+                });
                 arrow.style.transform = 'rotate(0deg)';
             } else {
+                polaroids.style.pointerEvents = 'auto';
                 polaroids.style.maxHeight = polaroids.scrollHeight + 'px';
                 polaroids.style.opacity = '1';
-                polaroids.style.pointerEvents = 'auto';
                 arrow.style.transform = 'rotate(180deg)';
             }
             isOpen = !isOpen;
@@ -433,7 +408,6 @@ $native_path = $props['native_path'];
         });
     })();
 </script>
-
 <style>
     #polaroids-<?= $block_id ?> {
         transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease-in-out;
