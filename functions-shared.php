@@ -852,3 +852,9 @@ add_filter('web_stories_hide_auto_generated_attachments', 'telegram_web_stories_
 function telegram_web_stories_media_lib($return, $args) {
     return false;
 }
+
+function tema_register_podcast_platforms_block()
+{
+	register_block_type(get_template_directory() . '/blocks/podcast-platforms/build/podcast-platforms');
+}
+add_action('init', 'tema_register_podcast_platforms_block');
