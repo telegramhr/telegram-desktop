@@ -30,10 +30,3 @@ function telegram_scripts() {
 	}
 
 }
-function tema_register_podcast_platforms_block()
-{
-	register_block_type(get_template_directory() . '/blocks/podcast-platforms/build/podcast-platforms');
-}
-add_action('init', 'tema_register_podcast_platforms_block');
-
-
