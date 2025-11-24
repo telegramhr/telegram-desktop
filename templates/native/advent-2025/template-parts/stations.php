@@ -249,12 +249,11 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4"
-        style="max-height: 0; opacity: 0; overflow: visible; pointer-events: none; transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;">
+    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
-                class="hover:scale-[1.02] transition-all duration-300 ease-in-out">
+                class="polaroid-item hover:scale-[1.02] transition-all duration-300 ease-in-out">
                 <div class="flex flex-col gap-[22px] px-4 pt-9 pb-7 bg-white max-w-[320px]">
                     <img class="aspect-square z-30" src="<?= $polaroid['image'] ?>" alt="">
                     <p class="font-poppins font-medium text-[20px] leading-7"><?= $polaroid['text'] ?></p>
@@ -376,45 +375,119 @@ $native_path = $props['native_path'];
 <script>
     (function() {
         const toggleBtn = document.getElementById('toggleBtn-<?= $block_id ?>');
-        if (!toggleBtn) return;
-
         const polaroids = document.getElementById('polaroids-<?= $block_id ?>');
         const arrow = document.getElementById('arrow-up-<?= $block_id ?>');
 
-        let isOpen = false;
+        if (!toggleBtn || !polaroids) return;
 
-        toggleBtn.addEventListener('click', () => {
-            if (isOpen) {
-                polaroids.style.pointerEvents = 'none';
-                polaroids.style.maxHeight = polaroids.scrollHeight + 'px';
-                requestAnimationFrame(() => {
-                    polaroids.style.maxHeight = '0px';
-                    polaroids.style.opacity = '0';
-                });
-                arrow.style.transform = 'rotate(0deg)';
-            } else {
-                polaroids.style.pointerEvents = 'auto';
-                polaroids.style.maxHeight = polaroids.scrollHeight + 'px';
-                polaroids.style.opacity = '1';
-                arrow.style.transform = 'rotate(180deg)';
-            }
-            isOpen = !isOpen;
+        const items = [...polaroids.querySelectorAll("a")].map(a => {
+            a.classList.add("polaroid-item");
+            return a;
         });
 
-        polaroids.addEventListener('transitionend', () => {
-            if (isOpen) {
-                polaroids.style.maxHeight = 'none';
+        let isOpen = false;
+
+        toggleBtn.addEventListener("click", () => {
+
+            toggleBtn.classList.remove("toggle-press");
+            void toggleBtn.offsetWidth;
+            toggleBtn.classList.add("toggle-press");
+
+            if (!isOpen) {
+                polaroids.classList.add("open");
+                polaroids.style.maxHeight = polaroids.scrollHeight + "px";
+
+                arrow.style.transform = "rotate(180deg)";
+
+                items.forEach((item, i) => {
+                    setTimeout(() => item.classList.add("show"), i * 120);
+                });
+
+                polaroids.style.pointerEvents = "auto";
+
+            } else {
+                arrow.style.transform = "rotate(0deg)";
+
+                items.slice().reverse().forEach((item, i) => {
+                    setTimeout(() => item.classList.add("hide"), i * 80);
+                });
+
+                setTimeout(() => {
+                    items.forEach(item => {
+                        item.classList.remove("show", "hide");
+                    });
+                    polaroids.classList.remove("open");
+                    polaroids.style.maxHeight = "0px";
+                    polaroids.style.pointerEvents = "none";
+                }, items.length * 80 + 350);
             }
+
+            isOpen = !isOpen;
+
+            setTimeout(() => ScrollTrigger.refresh(), 800);
         });
     })();
 </script>
 <style>
     #polaroids-<?= $block_id ?> {
-        transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease-in-out;
+        max-height: 0;
+        opacity: 0;
         overflow: hidden;
+        pointer-events: none;
+        transition: max-height 0.7s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    #polaroids-<?= $block_id ?>.open {
+        overflow: visible;
+        max-height: 1500px;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #polaroids-<?= $block_id ?>.polaroid-item {
+        opacity: 0;
+        transform: translateY(25px) rotate(-2deg) scale(0.95);
+    }
+
+    #polaroids-<?= $block_id ?>.polaroid-item.show {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg) scale(1);
+        transition:
+            opacity 0.45s ease-out,
+            transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    #polaroids-<?= $block_id ?>.polaroid-item.hide {
+        opacity: 0;
+        transform: translateY(-20px) rotate(2deg) scale(0.9);
+        transition:
+            opacity 0.35s ease-in,
+            transform 0.45s ease-in;
+    }
+
+    .toggle-press {
+        animation: btnBounce 0.35s ease;
+    }
+
+    @keyframes btnBounce {
+        0% {
+            transform: scale(1);
+        }
+
+        30% {
+            transform: scale(0.92);
+        }
+
+        60% {
+            transform: scale(1.05);
+        }
+
+        100% {
+            transform: scale(1);
+        }
     }
 
     #arrow-up-<?= $block_id ?> {
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.45s cubic-bezier(.17, .67, .38, 1.46);
     }
 </style>
