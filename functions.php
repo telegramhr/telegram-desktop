@@ -30,6 +30,3 @@ function telegram_scripts() {
 	}
 
 }
-
-
-
