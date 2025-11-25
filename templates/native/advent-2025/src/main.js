@@ -377,7 +377,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => flake.remove(), 10000);
   }
 
-  setInterval(createFlake, 100);
+  setInterval(createFlake, 50);
   // -------------------- Init --------------------
   (async function init() {
     await loadCalendar();

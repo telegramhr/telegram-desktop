@@ -64,44 +64,182 @@ $native_path = $props['native_path'];
     <!-- SVG paths -->
     <?php if ($style == 'dark-green'): ?>
         <div class="absolute block bottom-[-180px] lg:bottom-[-25%] right-[25%] z-[4]">
+            <!-- DESKTOP -->
             <svg id="path-darkgreen" class="hidden lg:block" width="147" height="349" viewBox="0 0 147 349" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M77.3359 347.122L33.4843 285.914C28.3099 278.692 29.8022 268.667 36.8557 263.264C49.679 253.443 67.5018 266.046 62.5161 281.41L58.8938 292.572C52.749 311.507 25.7728 310.959 20.4027 291.789L2.97891 229.593C-1.09977 215.033 6.29375 199.714 20.2298 193.849L126.149 149.273C143.581 141.937 149.958 120.497 139.369 104.826L113.033 65.8494C107.829 58.147 106.489 48.467 109.406 39.6406L122.298 0.627612" stroke="#F3E6E6" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
+                <defs>
+                    <mask id="mask-darkgreen" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-darkgreen"
+                            d="M77.3359 347.122L33.4843 285.914C28.3099 278.692 29.8022 268.667 36.8557 263.264C49.679 253.443 67.5018 266.046 62.5161 281.41L58.8938 292.572C52.749 311.507 25.7728 310.959 20.4027 291.789L2.97891 229.593C-1.09977 215.033 6.29375 199.714 20.2298 193.849L126.149 149.273C143.581 141.937 149.958 120.497 139.369 104.826L113.033 65.8494C107.829 58.147 106.489 48.467 109.406 39.6406L122.298 0.627612"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-darkgreen)">
+                    <path d="M77.3359 347.122L33.4843 285.914C28.3099 278.692 29.8022 268.667 36.8557 263.264C49.679 253.443 67.5018 266.046 62.5161 281.41L58.8938 292.572C52.749 311.507 25.7728 310.959 20.4027 291.789L2.97891 229.593C-1.09977 215.033 6.29375 199.714 20.2298 193.849L126.149 149.273C143.581 141.937 149.958 120.497 139.369 104.826L113.033 65.8494C107.829 58.147 106.489 48.467 109.406 39.6406L122.298 0.627612"
+                        stroke="#F3E6E6"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
             </svg>
 
+            <!-- MOBILE -->
             <svg id="path-dark-green-mobile" class="lg:hidden" width="147" height="349" viewBox="0 0 147 349" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M77.3361 347.122L33.4845 285.914C28.3102 278.692 29.8025 268.667 36.8559 263.264C49.6792 253.443 67.502 266.046 62.5163 281.41L58.894 292.572C52.7492 311.507 25.773 310.959 20.4029 291.789L2.97915 229.593C-1.09952 215.033 6.29399 199.714 20.23 193.849L126.149 149.273C143.581 141.937 149.958 120.497 139.37 104.826L113.034 65.8494C107.829 58.147 106.49 48.467 109.406 39.6406L122.298 0.627612" stroke="#F3E6E6" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
+                <defs>
+                    <mask id="mask-darkgreen-mobile" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-darkgreen-mobile"
+                            d="M77.3361 347.122L33.4845 285.914C28.3102 278.692 29.8025 268.667 36.8559 263.264C49.6792 253.443 67.502 266.046 62.5163 281.41L58.894 292.572C52.7492 311.507 25.773 310.959 20.4029 291.789L2.97915 229.593C-1.09952 215.033 6.29399 199.714 20.23 193.849L126.149 149.273C143.581 141.937 149.958 120.497 139.37 104.826L113.034 65.8494C107.829 58.147 106.49 48.467 109.406 39.6406L122.298 0.627612"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-darkgreen-mobile)">
+                    <path d="M77.3361 347.122L33.4845 285.914C28.3102 278.692 29.8025 268.667 36.8559 263.264C49.6792 253.443 67.502 266.046 62.5163 281.41L58.894 292.572C52.7492 311.507 25.773 310.959 20.4029 291.789L2.97915 229.593C-1.09952 215.033 6.29399 199.714 20.23 193.849L126.149 149.273C143.581 141.937 149.958 120.497 139.37 104.826L113.034 65.8494C107.829 58.147 106.49 48.467 109.406 39.6406L122.298 0.627612"
+                        stroke="#F3E6E6"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
             </svg>
-
         </div>
+
     <?php elseif ($style == 'green'): ?>
         <div class="absolute block bottom-[-180px] lg:bottom-[-25%] left-[25%] lg:left-auto right-[25%] z-[4]">
+            <!-- DESKTOP -->
             <svg id="path-green" class="hidden lg:block" width="177" height="462" viewBox="0 0 177 462" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M37.5 459.5L125.643 418.537C142.536 410.687 148.265 389.499 137.63 374.205L100.84 321.294C85.2501 298.873 105.287 268.977 131.95 274.876L137.701 276.148C167.906 282.829 187.232 244.963 164.1 224.423L12.7398 90.022C3.79177 82.0766 0.421442 69.5733 4.16392 58.207L23 0.999992" stroke="white" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
-            </svg>
-            <svg id="path-green-mobile" class="lg:hidden rotate-180" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496" stroke="white" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
+                <defs>
+                    <mask id="mask-green" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-green"
+                            d="M37.5 459.5L125.643 418.537C142.536 410.687 148.265 389.499 137.63 374.205L100.84 321.294C85.2501 298.873 105.287 268.977 131.95 274.876L137.701 276.148C167.906 282.829 187.232 244.963 164.1 224.423L12.7398 90.022C3.79177 82.0766 0.421442 69.5733 4.16392 58.207L23 0.999992"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-green)">
+                    <path d="M37.5 459.5L125.643 418.537C142.536 410.687 148.265 389.499 137.63 374.205L100.84 321.294C85.2501 298.873 105.287 268.977 131.95 274.876L137.701 276.148C167.906 282.829 187.232 244.963 164.1 224.423L12.7398 90.022C3.79177 82.0766 0.421442 69.5733 4.16392 58.207L23 0.999992"
+                        stroke="white"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
             </svg>
 
+            <!-- MOBILE -->
+            <svg id="path-green-mobile" class="lg:hidden rotate-180" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <mask id="mask-green-mobile" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-green-mobile"
+                            d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-green-mobile)">
+                    <path d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
+                        stroke="white"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
+            </svg>
         </div>
+
     <?php elseif ($style == 'bordo'): ?>
         <div class="absolute block bottom-[-180px] lg:bottom-[-20%] left-[25%] z-[4]">
+            <!-- DESKTOP -->
             <svg id="path-bordo" class="hidden lg:block" width="348" height="330" viewBox="0 0 348 330" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M160 2L26.5086 29.1708C-2.16346 35.0067 -6.37324 74.2407 20.408 86.0267L124.661 131.907C146.599 141.561 148.916 171.772 128.708 184.659L106.349 198.918C80.2662 215.552 93.3762 255.993 124.257 254.16L314.223 242.886C331.46 241.863 346 255.566 346 272.833V330" stroke="white" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
-            </svg>
-            <svg id="path-bordo-mobile" class="lg:hidden" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496" stroke="white" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
+                <defs>
+                    <mask id="mask-bordo" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-bordo"
+                            d="M160 2L26.5086 29.1708C-2.16346 35.0067 -6.37324 74.2407 20.408 86.0267L124.661 131.907C146.599 141.561 148.916 171.772 128.708 184.659L106.349 198.918C80.2662 215.552 93.3762 255.993 124.257 254.16L314.223 242.886C331.46 241.863 346 255.566 346 272.833V330"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-bordo)">
+                    <path d="M160 2L26.5086 29.1708C-2.16346 35.0067 -6.37324 74.2407 20.408 86.0267L124.661 131.907C146.599 141.561 148.916 171.772 128.708 184.659L106.349 198.918C80.2662 215.552 93.3762 255.993 124.257 254.16L314.223 242.886C331.46 241.863 346 255.566 346 272.833V330"
+                        stroke="white"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
             </svg>
 
+            <!-- MOBILE -->
+            <svg id="path-bordo-mobile" class="lg:hidden" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <mask id="mask-bordo-mobile" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-bordo-mobile"
+                            d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-bordo-mobile)">
+                    <path d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
+                        stroke="white"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
+            </svg>
         </div>
+
     <?php elseif ($style == 'red'): ?>
         <div class="absolute block bottom-[-180px] lg:bottom-[-20%] left-[25%] z-[4]">
+            <!-- DESKTOP -->
             <svg id="path-red" class="hidden lg:block" width="348" height="330" viewBox="0 0 348 330" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M160 2L26.5086 29.1708C-2.16346 35.0067 -6.37324 74.2407 20.408 86.0267L124.661 131.907C146.599 141.561 148.916 171.772 128.708 184.659L106.349 198.918C80.2662 215.552 93.3762 255.993 124.257 254.16L314.223 242.886C331.46 241.863 346 255.566 346 272.833V330" stroke="white" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
-            </svg>
-            <svg id="path-red-mobile" class="lg:hidden" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496" stroke="white" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 12" />
+                <defs>
+                    <mask id="mask-red" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-red"
+                            d="M160 2L26.5086 29.1708C-2.16346 35.0067 -6.37324 74.2407 20.408 86.0267L124.661 131.907C146.599 141.561 148.916 171.772 128.708 184.659L106.349 198.918C80.2662 215.552 93.3762 255.993 124.257 254.16L314.223 242.886C331.46 241.863 346 255.566 346 272.833V330"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-red)">
+                    <path d="M160 2L26.5086 29.1708C-2.16346 35.0067 -6.37324 74.2407 20.408 86.0267L124.661 131.907C146.599 141.561 148.916 171.772 128.708 184.659L106.349 198.918C80.2662 215.552 93.3762 255.993 124.257 254.16L314.223 242.886C331.46 241.863 346 255.566 346 272.833V330"
+                        stroke="white"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
             </svg>
 
+            <!-- MOBILE -->
+            <svg id="path-red-mobile" class="lg:hidden" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <mask id="mask-red-mobile" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-red-mobile"
+                            d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
+                            stroke="#fff"
+                            stroke-width="4"
+                            fill="none" />
+                    </mask>
+                </defs>
+                <g mask="url(#mask-red-mobile)">
+                    <path d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
+                        stroke="white"
+                        stroke-opacity="0.25"
+                        stroke-width="4"
+                        stroke-dasharray="12 12"
+                        fill="none" />
+                </g>
+            </svg>
         </div>
     <?php endif; ?>
 
@@ -111,11 +249,11 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="hidden flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4" style="opacity: 0; max-height: 0; transition: opacity 0.6s ease-in-out, max-height 0.6s ease-in-out, transform 0.6s ease-in-out; transform: translateY(-20px);">
+    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
-                class="hover:scale-[1.02] transition-all duration-300 ease-in-out">
+                class="polaroid-item hover:scale-[1.02] transition-all duration-300 ease-in-out">
                 <div class="flex flex-col gap-[22px] px-4 pt-9 pb-7 bg-white max-w-[320px]">
                     <img class="aspect-square z-30" src="<?= $polaroid['image'] ?>" alt="">
                     <p class="font-poppins font-medium text-[20px] leading-7"><?= $polaroid['text'] ?></p>
@@ -124,68 +262,232 @@ $native_path = $props['native_path'];
         <?php endforeach; ?>
     </div>
 
-
 </div>
 
 <?php if ($is_first): ?>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
 <?php endif; ?>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
+
+        const maskConfigs = [{
+                maskPath: '#mask-path-darkgreen',
+                trigger: '#path-darkgreen',
+                reverse: true
+            },
+            {
+                maskPath: '#mask-path-darkgreen-mobile',
+                trigger: '#path-dark-green-mobile',
+                reverse: true
+            },
+            {
+                maskPath: '#mask-path-green',
+                trigger: '#path-green',
+                reverse: true
+            },
+            {
+                maskPath: '#mask-path-green-mobile',
+                trigger: '#path-green-mobile',
+                reverse: true
+            },
+            {
+                maskPath: '#mask-path-bordo',
+                trigger: '#path-bordo',
+                reverse: false
+            },
+            {
+                maskPath: '#mask-path-bordo-mobile',
+                trigger: '#path-bordo-mobile',
+                reverse: false
+            },
+            {
+                maskPath: '#mask-path-red',
+                trigger: '#path-red',
+                reverse: false
+            },
+            {
+                maskPath: '#mask-path-red-mobile',
+                trigger: '#path-red-mobile',
+                reverse: false
+            },
+            {
+                maskPath: '#mask-path-blue',
+                trigger: '#path-blue',
+                reverse: false
+            },
+            {
+                maskPath: '#mask-path-blue-mobile',
+                trigger: '#path-blue-mobile',
+                reverse: true
+            }
+        ];
+
+
+        maskConfigs.forEach(config => {
+            const maskPath = document.querySelector(config.maskPath);
+            const trigger = document.querySelector(config.trigger);
+
+            if (maskPath && trigger) {
+                if (config.reverse) {
+                    gsap.set(maskPath, {
+                        drawSVG: "100% 100%"
+                    });
+                    gsap.to(maskPath, {
+                        drawSVG: "0% 100%",
+                        ease: "power3.inOut",
+                        scrollTrigger: {
+                            trigger: trigger,
+                            start: "top 80%",
+                            end: "bottom 20%",
+                            scrub: true,
+                            invalidateOnRefresh: true
+                        }
+                    });
+                } else {
+                    gsap.set(maskPath, {
+                        drawSVG: "0%"
+                    });
+                    gsap.to(maskPath, {
+                        drawSVG: "100%",
+                        ease: "power3.inOut",
+                        scrollTrigger: {
+                            trigger: trigger,
+                            start: "top 80%",
+                            end: "bottom 20%",
+                            scrub: true,
+                            invalidateOnRefresh: true
+                        }
+                    });
+                }
+            }
+        });
+
+    });
+</script>
+
+
 <script>
     (function() {
         const toggleBtn = document.getElementById('toggleBtn-<?= $block_id ?>');
-        if (!toggleBtn) return;
-
         const polaroids = document.getElementById('polaroids-<?= $block_id ?>');
         const arrow = document.getElementById('arrow-up-<?= $block_id ?>');
 
-        toggleBtn.addEventListener('click', () => {
-            const isOpen = polaroids.style.opacity === '1';
+        if (!toggleBtn || !polaroids) return;
 
-            if (isOpen) {
-                polaroids.style.opacity = '0';
-                polaroids.style.maxHeight = '0';
-                polaroids.style.transform = 'translateY(-20px)';
-                arrow.style.transition = 'transform 0.3s ease';
-                arrow.style.transform = 'rotate(0deg)';
+        const items = [...polaroids.querySelectorAll("a")].map(a => {
+            a.classList.add("polaroid-item");
+            return a;
+        });
 
-                setTimeout(() => {
-                    polaroids.classList.add('hidden');
-                    polaroids.classList.remove('flex');
+        let isOpen = false;
 
-                    if (typeof window.refreshMotionPaths === 'function') {
-                        window.refreshMotionPaths();
-                    } else if (typeof ScrollTrigger !== 'undefined') {
-                        ScrollTrigger.refresh();
-                    }
-                }, 650);
+        toggleBtn.addEventListener("click", () => {
+
+            toggleBtn.classList.remove("toggle-press");
+            void toggleBtn.offsetWidth;
+            toggleBtn.classList.add("toggle-press");
+
+            if (!isOpen) {
+                polaroids.classList.add("open");
+                polaroids.style.maxHeight = polaroids.scrollHeight + "px";
+
+                arrow.style.transform = "rotate(180deg)";
+
+                items.forEach((item, i) => {
+                    setTimeout(() => item.classList.add("show"), i * 120);
+                });
+
+                polaroids.style.pointerEvents = "auto";
+
             } else {
-                polaroids.classList.remove('hidden');
-                polaroids.classList.add('flex');
+                arrow.style.transform = "rotate(0deg)";
 
-                void polaroids.offsetHeight;
-
-                polaroids.style.opacity = '1';
-                polaroids.style.maxHeight = '2000px';
-                polaroids.style.transform = 'translateY(0)';
-                arrow.style.transition = 'transform 0.3s ease';
-                arrow.style.transform = 'rotate(180deg)';
+                items.slice().reverse().forEach((item, i) => {
+                    setTimeout(() => item.classList.add("hide"), i * 80);
+                });
 
                 setTimeout(() => {
-                    if (typeof window.refreshMotionPaths === 'function') {
-                        window.refreshMotionPaths();
-                    } else if (typeof ScrollTrigger !== 'undefined') {
-                        ScrollTrigger.refresh();
-                    }
-                }, 650);
+                    items.forEach(item => {
+                        item.classList.remove("show", "hide");
+                    });
+                    polaroids.classList.remove("open");
+                    polaroids.style.maxHeight = "0px";
+                    polaroids.style.pointerEvents = "none";
+                }, items.length * 80 + 350);
             }
+
+            isOpen = !isOpen;
+
+            setTimeout(() => ScrollTrigger.refresh(), 800);
         });
     })();
 </script>
 <style>
     #polaroids-<?= $block_id ?> {
-        transition: opacity 0.7s ease-in-out, max-height 0.7s ease-in-out;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        pointer-events: none;
+        transition: max-height 0.7s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    #polaroids-<?= $block_id ?>.open {
+        overflow: visible;
+        max-height: 1500px;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #polaroids-<?= $block_id ?>.polaroid-item {
+        opacity: 0;
+        transform: translateY(25px) rotate(-2deg) scale(0.95);
+    }
+
+    #polaroids-<?= $block_id ?>.polaroid-item.show {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg) scale(1);
+        transition:
+            opacity 0.45s ease-out,
+            transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    #polaroids-<?= $block_id ?>.polaroid-item.hide {
+        opacity: 0;
+        transform: translateY(-20px) rotate(2deg) scale(0.9);
+        transition:
+            opacity 0.35s ease-in,
+            transform 0.45s ease-in;
+    }
+
+    .toggle-press {
+        animation: btnBounce 0.35s ease;
+    }
+
+    @keyframes btnBounce {
+        0% {
+            transform: scale(1);
+        }
+
+        30% {
+            transform: scale(0.92);
+        }
+
+        60% {
+            transform: scale(1.05);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    #arrow-up-<?= $block_id ?> {
+        transition: transform 0.45s cubic-bezier(.17, .67, .38, 1.46);
     }
 </style>
