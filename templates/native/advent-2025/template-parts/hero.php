@@ -1,5 +1,5 @@
 <div class="relative w-full h-[100vh] max-h-[754px] lg:max-h-[840px] px-4 flex items-center justify-center font-christmas overflow-hidden">
-    <img src="<?= $native_path; ?>/assets/hero/hero-bg.webp"
+    <img src="<?= $native_path; ?>/assets/hero/hero-background.webp"
         alt="Hero Background"
         class="absolute inset-0 w-full h-full object-cover bg-no-repeat" />
 

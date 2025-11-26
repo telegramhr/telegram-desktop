@@ -55,10 +55,6 @@ $native_path = $props['native_path'];
                 <?= $description; ?>
             </p>
         </div>
-        <button id="toggleBtn-<?= $block_id; ?>" class="bg-white px-5 py-[9px] rounded-[3px] shadow-sm w-fit mx-auto items-center text-black uppercase text-[16px] md:text-[20px] font-bold leading-6 flex flex-row gap-1 font-lato z-40 cursor-pointer">
-            <span>Posjeti ih</span>
-            <i id="arrow-up-<?= $block_id ?>" class="fa-solid fa-angle-down"></i>
-        </button>
     </div>
 
     <!-- SVG paths -->
@@ -249,7 +245,7 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 [&>a]:first:rotate-[-3deg] [&>a]:last:rotate-[3deg] px-4">
+    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 px-4">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
@@ -370,124 +366,3 @@ $native_path = $props['native_path'];
 
     });
 </script>
-
-
-<script>
-    (function() {
-        const toggleBtn = document.getElementById('toggleBtn-<?= $block_id ?>');
-        const polaroids = document.getElementById('polaroids-<?= $block_id ?>');
-        const arrow = document.getElementById('arrow-up-<?= $block_id ?>');
-
-        if (!toggleBtn || !polaroids) return;
-
-        const items = [...polaroids.querySelectorAll("a")].map(a => {
-            a.classList.add("polaroid-item");
-            return a;
-        });
-
-        let isOpen = false;
-
-        toggleBtn.addEventListener("click", () => {
-
-            toggleBtn.classList.remove("toggle-press");
-            void toggleBtn.offsetWidth;
-            toggleBtn.classList.add("toggle-press");
-
-            if (!isOpen) {
-                polaroids.classList.add("open");
-                polaroids.style.maxHeight = polaroids.scrollHeight + "px";
-
-                arrow.style.transform = "rotate(180deg)";
-
-                items.forEach((item, i) => {
-                    setTimeout(() => item.classList.add("show"), i * 120);
-                });
-
-                polaroids.style.pointerEvents = "auto";
-
-            } else {
-                arrow.style.transform = "rotate(0deg)";
-
-                items.slice().reverse().forEach((item, i) => {
-                    setTimeout(() => item.classList.add("hide"), i * 80);
-                });
-
-                setTimeout(() => {
-                    items.forEach(item => {
-                        item.classList.remove("show", "hide");
-                    });
-                    polaroids.classList.remove("open");
-                    polaroids.style.maxHeight = "0px";
-                    polaroids.style.pointerEvents = "none";
-                }, items.length * 80 + 350);
-            }
-
-            isOpen = !isOpen;
-
-            setTimeout(() => ScrollTrigger.refresh(), 800);
-        });
-    })();
-</script>
-<style>
-    #polaroids-<?= $block_id ?> {
-        max-height: 0;
-        opacity: 0;
-        overflow: hidden;
-        pointer-events: none;
-        transition: max-height 0.7s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.5s ease, transform 0.5s ease;
-    }
-
-    #polaroids-<?= $block_id ?>.open {
-        overflow: visible;
-        max-height: 1500px;
-        opacity: 1;
-        pointer-events: auto;
-    }
-
-    #polaroids-<?= $block_id ?>.polaroid-item {
-        opacity: 0;
-        transform: translateY(25px) rotate(-2deg) scale(0.95);
-    }
-
-    #polaroids-<?= $block_id ?>.polaroid-item.show {
-        opacity: 1;
-        transform: translateY(0) rotate(0deg) scale(1);
-        transition:
-            opacity 0.45s ease-out,
-            transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
-    }
-
-    #polaroids-<?= $block_id ?>.polaroid-item.hide {
-        opacity: 0;
-        transform: translateY(-20px) rotate(2deg) scale(0.9);
-        transition:
-            opacity 0.35s ease-in,
-            transform 0.45s ease-in;
-    }
-
-    .toggle-press {
-        animation: btnBounce 0.35s ease;
-    }
-
-    @keyframes btnBounce {
-        0% {
-            transform: scale(1);
-        }
-
-        30% {
-            transform: scale(0.92);
-        }
-
-        60% {
-            transform: scale(1.05);
-        }
-
-        100% {
-            transform: scale(1);
-        }
-    }
-
-    #arrow-up-<?= $block_id ?> {
-        transition: transform 0.45s cubic-bezier(.17, .67, .38, 1.46);
-    }
-</style>
