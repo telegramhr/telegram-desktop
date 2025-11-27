@@ -25,11 +25,13 @@ function renderDayEvents($events, $weekIndex)
 
         $category = strtolower(str_replace(' ', '-', $ev['category']));
 
-        echo "<div class='mix {$category}  h-[138px] bg-white px-3 py-4 rounded-sm shadow mr-3 tb:mr-0' data-category='{$category}'>";
+        echo "<div class='mix {$category}  min-h-[138px] bg-white px-3 py-4 rounded-sm shadow mr-3 tb:mr-0' data-category='{$category}'>";
         echo "<div class='flex flex-col gap-1 h-full'>";
-        echo "<span class='font-medium text-base text-olive-green'>{$formattedTime}</span>";
-        echo "<h3 class='font-semibold text-lg'>{$ev['title']}</h3>";
-        echo "<p class='font-medium text-[12px]'>{$ev['location']}</p>";
+        echo "<div class='flex flex-col gap-1'>";
+        echo "<span class='font-medium text-base leading-4 text-olive-green'>{$formattedTime}</span>";
+        echo "<h3 class='font-semibold leading-6 text-lg'>{$ev['title']}</h3>";
+        echo "</div>";
+        echo "<p class='font-medium leading-3 text-[12px]'>{$ev['location']}</p>";
         echo "</div></div>";
     }
 }
@@ -49,7 +51,7 @@ $daysOfWeek = [
     <div class="absolute inset-0 w-full h-full">
         <img src="<?= $native_path; ?>/assets/calendar/leftSide.webp" class="absolute hidden tb:block left-0 z-40" alt="Left side flowers">
         <img src="<?= $native_path; ?>/assets/calendar/rightSide.webp" class="absolute hidden tb:block right-0 z-40" alt="Right side flowers">
-        <img src="<?= $native_path; ?>/assets/stations/papir.webp" class="object-cover w-full h-full opacity-35 bg-blend-multiply" alt="Paper background">
+        <img src="<?= $native_path; ?>/assets/stations/papir.webp" class="object-cover w-full h-full opacity-10 bg-blend-darken" alt="Paper background">
     </div>
     <div class="max-w-[1088px] mx-auto pt-10 lg:pt-[50px] pb-16 lg:pb-[130px] flex flex-col gap-[60px] lg:gap-[62px] relative z-40">
         <div class="flex flex-col gap-7 w-full">

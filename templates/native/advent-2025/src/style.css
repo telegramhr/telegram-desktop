@@ -6,8 +6,9 @@
   --color-dark-slate: #212525;
   --color-light-sand: #fef4d3;
   --color-olive-green: #304106;
+
   --breakpoint-tb: 921px;
-  --breakpoint-xl: 1120px;
+  --breakpoint-xl: 1121px;
 }
 @font-face {
   font-family: "Poppins";

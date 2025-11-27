@@ -1,34 +1,34 @@
  <?php
     $posts = [
         [
-            'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+            'title' => "10 jela sa zagrebačkog Adventa koja će..",
             'img' => $native_path . '/assets/posts/advent-1.png',
             'link' => 'www.telegram.hr',
         ],
         [
-            'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+            'title' => "10 jela sa zagrebačkog Adventa koja će..",
             'img' => $native_path . '/assets/posts/advent-2.png',
             'link' => 'www.telegram.hr',
         ],
         [
-            'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+            'title' => "10 jela sa zagrebačkog Adventa koja će..",
             'img' => $native_path . '/assets/posts/advent-3.png',
             'link' => 'www.telegram.hr',
         ],
     ];
     $posts2 = [
         [
-            'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+            'title' => "10 jela sa zagrebačkog Adventa koja će..",
             'img' => $native_path . '/assets/posts/advent-4.png',
             'link' => 'www.telegram.hr',
         ],
         [
-            'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+            'title' => "10 jela sa zagrebačkog Adventa koja će..",
             'img' => $native_path . '/assets/posts/advent-5.png',
             'link' => 'www.telegram.hr',
         ],
         [
-            'title' => "10 jela sa zagrebačkog Adventa koja će vas..",
+            'title' => "10 jela sa zagrebačkog Adventa koja će..",
             'img' => $native_path . '/assets/posts/advent-6.png',
             'link' => 'www.telegram.hr',
         ],
@@ -64,7 +64,7 @@
                          <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(0,0,0,0) 54.68%, rgba(0,0,0,0.8) 100%);"></div>
 
                          <div class="absolute bottom-0 left-0 w-full px-[14px] lg:px-6 pb-[15px] lg:pb-4 pointer-events-none">
-                             <span class="font-poppins text-white text-base">
+                             <span class="font-poppins md:font-semibold leading-7 md:text-[24px] text-[#FEF4D3] text-base">
                                  <?= $post['title']; ?>
                              </span>
                          </div>
@@ -92,7 +92,7 @@
                          <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(0,0,0,0) 54.68%, rgba(0,0,0,0.8) 100%);"></div>
 
                          <div class="absolute bottom-0 left-0 w-full <?= ($index == 2) ? 'px-[14px] pb-[15px]' : 'px-[9px] pb-[17px]' ?> lg:px-6 lg:pb-4 pointer-events-none">
-                             <span class="font-poppins text-white text-base">
+                             <span class="font-poppins md:font-semibold leading-7 md:text-[24px] text-[#FEF4D3] text-base">
                                  <?= $post['title']; ?>
                              </span>
                          </div>
