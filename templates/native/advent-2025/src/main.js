@@ -5,13 +5,16 @@ import mixitup from "mixitup";
 import Flickity from "flickity";
 
 document.addEventListener("DOMContentLoaded", () => {
-  let mixerDesktop = null;
-  let mixerMobile = null;
+  let currentWeekIndex = 0;
+  let mixersDesktop = [];
   let flickityInstances = [];
+  let currentFilter = "all";
 
-  // -------------------- Helper funkcije --------------------
+  const weekKeys = window.adventData.weekKeys;
+
+  // -------------------- Helper --------------------
   function isMobile() {
-    return window.innerWidth < 768; // md breakpoint
+    return window.innerWidth < 921;
   }
 
   function destroyFlickity() {
@@ -26,7 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     destroyFlickity();
 
-    const mobileCarousels = document.querySelectorAll(".mobile-day-carousel");
+    const activeMobile = document.querySelector(
+      `.week-${currentWeekIndex}-mobile.active`
+    );
+    if (!activeMobile) return;
+
+    const mobileCarousels = activeMobile.querySelectorAll(
+      ".mobile-day-carousel"
+    );
     mobileCarousels.forEach((carousel) => {
       const flickity = new Flickity(carousel, {
         cellAlign: "left",
@@ -41,81 +51,174 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // -------------------- MixItUp za Desktop --------------------
-  function initMixitupDesktop() {
-    const container = document.getElementById("mixitup-container-desktop");
-    if (!container) return;
+  // -------------------- Custom Mobile Filter --------------------
+  function filterMobileEvents(category) {
+    if (!isMobile()) return;
 
-    if (mixerDesktop) mixerDesktop.destroy();
+    const activeMobile = document.querySelector(
+      `.week-${currentWeekIndex}-mobile.active`
+    );
+    if (!activeMobile) return;
 
-    mixerDesktop = mixitup(container, {
-      selectors: { target: ".mix" },
-      animation: {
-        duration: 300,
-        effects: "fade scale(0.8)",
-        easing: "ease-in-out",
-      },
-      load: { filter: "all" },
+    const allMixElements = activeMobile.querySelectorAll(".mix");
+
+    allMixElements.forEach((element) => {
+      const elementCategory = element.getAttribute("data-category");
+
+      if (category === "all" || elementCategory === category) {
+        element.classList.remove("filtered-out");
+      } else {
+        element.classList.add("filtered-out");
+      }
     });
+    const daySections = activeMobile.querySelectorAll(".day-section");
+
+    daySections.forEach((section) => {
+      const items = section.querySelectorAll(".mix");
+      const visibleItems = Array.from(items).filter(
+        (el) => !el.classList.contains("filtered-out")
+      );
+
+      const currentHeight = section.offsetHeight;
+
+      let targetHeight = 0;
+      let shouldShow = false;
+
+      if (visibleItems.length === 0) {
+        targetHeight = 0;
+        shouldShow = false;
+      } else {
+        targetHeight = section.scrollHeight;
+        shouldShow = true;
+      }
+
+      if (Math.round(currentHeight) === Math.round(targetHeight)) {
+        section.style.height = shouldShow ? "auto" : "0px";
+        section.style.opacity = shouldShow ? "1" : "0";
+        section.style.marginBottom = shouldShow ? "2rem" : "0";
+        return;
+      }
+      section.style.overflow = "hidden";
+      section.style.transition = "height 0.4s ease, opacity 0.4s ease";
+      section.style.height = currentHeight + "px";
+
+      requestAnimationFrame(() => {
+        section.style.height = targetHeight + "px";
+        section.style.opacity = shouldShow ? "1" : "0";
+        section.style.marginBottom = shouldShow ? "2rem" : "0";
+      });
+
+      if (shouldShow) {
+        setTimeout(() => {
+          section.style.height = "auto";
+        }, 400);
+      }
+    });
+
+    setTimeout(() => {
+      flickityInstances.forEach((f) => {
+        if (f) {
+          f.resize();
+          f.reloadCells();
+        }
+      });
+    }, 550);
   }
 
-  // -------------------- MixItUp za Mobile --------------------
-  function initMixitupMobile() {
-    const container = document.getElementById("mixitup-container-mobile");
-    if (!container) return;
+  // -------------------- Show/Hide week --------------------
+  function updateWeekVisibility() {
+    const weekRangeEl = document.getElementById("week-range");
 
-    if (mixerMobile) mixerMobile.destroy();
+    if (weekRangeEl) {
+      weekRangeEl.classList.add("changing");
 
-    mixerMobile = mixitup(container, {
-      selectors: { target: ".mix" },
-      animation: {
-        duration: 300,
-        effects: "fade scale(0.8)",
-        easing: "ease-in-out",
-      },
-      load: { filter: "all" },
-      callbacks: {
-        onMixEnd: () => {
-          setTimeout(() => {
-            initFlickity();
-          }, 100);
-        },
-      },
+      setTimeout(() => {
+        weekRangeEl.textContent = weekKeys[currentWeekIndex];
+        weekRangeEl.classList.remove("changing");
+      }, 200);
+    }
+
+    document.querySelectorAll(".week-table").forEach((table) => {
+      if (table.classList.contains(`week-${currentWeekIndex}-table`)) {
+        table.classList.add("active");
+      } else {
+        table.classList.remove("active");
+      }
     });
-  }
 
-  // -------------------- INIT --------------------
-  function initMixitup() {
+    document.querySelectorAll(".week-mobile-container").forEach((container) => {
+      if (container.classList.contains(`week-${currentWeekIndex}-mobile`)) {
+        container.classList.add("active");
+      } else {
+        container.classList.remove("active");
+      }
+    });
+
     if (isMobile()) {
-      initMixitupMobile();
-      initFlickity();
-    } else {
-      initMixitupDesktop();
+      setTimeout(() => {
+        initFlickity();
+        if (currentFilter !== "all") {
+          filterMobileEvents(currentFilter);
+        }
+      }, 520);
     }
   }
+
+  // -------------------- MixItUp  --------------------
+  function initMixitup() {
+    document
+      .querySelectorAll(".mixitup-container-desktop")
+      .forEach((container) => {
+        const mixer = mixitup(container, {
+          selectors: { target: ".mix" },
+          animation: {
+            duration: 500,
+            effects: "fade translateY(-20px)",
+            easing: "cubic-bezier(0.4, 0.0, 0.2, 1)",
+          },
+          load: { filter: "all" },
+        });
+        mixersDesktop.push(mixer);
+      });
+
+    updateWeekVisibility();
+  }
+
+  // -------------------- Navigation --------------------
+  document.getElementById("arrow-left")?.addEventListener("click", () => {
+    if (currentWeekIndex > 0) {
+      currentWeekIndex--;
+      updateWeekVisibility();
+    }
+  });
+
+  document.getElementById("arrow-right")?.addEventListener("click", () => {
+    if (currentWeekIndex < weekKeys.length - 1) {
+      currentWeekIndex++;
+      updateWeekVisibility();
+    }
+  });
 
   // -------------------- Category filter --------------------
   document.querySelectorAll(".category-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
-      // Update button styles
       document.querySelectorAll(".category-btn").forEach((b) => {
         b.classList.remove("bg-olive-green", "text-[#EFE1D3]", "active");
         b.classList.add("bg-[#E5CAB0]", "text-olive-green");
       });
       btn.classList.add("bg-olive-green", "text-[#EFE1D3]", "active");
-      btn.classList.remove(
-        "bg-[#E5CAB0]",
-        "text-olive-green",
-        "hover:bg-[#d4b79e]"
-      );
+      btn.classList.remove("bg-[#E5CAB0]", "text-olive-green");
 
       const filterValue = btn.getAttribute("data-filter");
 
-      // Primijeni filter na odgovarajući mixer
+      const category =
+        filterValue === "all" ? "all" : filterValue.replace(".", "");
+      currentFilter = category;
+
       if (isMobile()) {
-        if (mixerMobile) mixerMobile.filter(filterValue);
+        filterMobileEvents(category);
       } else {
-        if (mixerDesktop) mixerDesktop.filter(filterValue);
+        mixersDesktop.forEach((mixer) => mixer.filter(filterValue));
       }
     });
   });
@@ -125,23 +228,14 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
-      // Reinicijaliziraj sve na resize
-      if (mixerDesktop) mixerDesktop.destroy();
-      if (mixerMobile) mixerMobile.destroy();
+      mixersDesktop.forEach((mixer) => mixer.destroy());
+      mixersDesktop = [];
       destroyFlickity();
-
       initMixitup();
 
-      // Resetuj aktivni filter
-      const activeBtn = document.querySelector(".category-btn.active");
-      if (activeBtn) {
-        const filterValue = activeBtn.getAttribute("data-filter");
+      if (isMobile() && currentFilter !== "all") {
         setTimeout(() => {
-          if (isMobile()) {
-            if (mixerMobile) mixerMobile.filter(filterValue);
-          } else {
-            if (mixerDesktop) mixerDesktop.filter(filterValue);
-          }
+          filterMobileEvents(currentFilter);
         }, 100);
       }
     }, 250);
