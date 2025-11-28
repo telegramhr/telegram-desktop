@@ -1,8 +1,9 @@
 import "./style.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import mixitup from "mixitup";
 import Flickity from "flickity";
+import gsap from "gsap";
+import DrawSVGPlugin from "gsap/DrawSVGPlugin";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 document.addEventListener("DOMContentLoaded", () => {
   let currentWeekIndex = 0;
@@ -23,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     flickityInstances = [];
   }
-
   function initFlickity() {
     if (!isMobile()) return;
 
@@ -34,9 +34,12 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     if (!activeMobile) return;
 
+    activeMobile.classList.remove("ready");
+
     const mobileCarousels = activeMobile.querySelectorAll(
       ".mobile-day-carousel"
     );
+
     mobileCarousels.forEach((carousel) => {
       const flickity = new Flickity(carousel, {
         cellAlign: "left",
@@ -48,6 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
         groupCells: false,
       });
       flickityInstances.push(flickity);
+    });
+
+    requestAnimationFrame(() => {
+      activeMobile.classList.add("ready");
     });
   }
 
@@ -160,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (currentFilter !== "all") {
           filterMobileEvents(currentFilter);
         }
-      }, 520);
+      }, 20);
     }
   }
 
@@ -264,12 +271,95 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(createFlake, 50);
   }
 
-  // -------------------- Init AOS --------------------
-  Aos.init({
-    duration: 800,
-    once: true,
-  });
-
   // -------------------- Start --------------------
   initMixitup();
+
+  // -------------------- GSAP ---------------------
+  gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
+
+  const maskConfigs = [
+    {
+      maskPath: "#mask-path-darkgreen",
+      trigger: "#path-darkgreen",
+      reverse: true,
+    },
+    /*
+            {
+                maskPath: '#mask-path-darkgreen-mobile',
+                trigger: '#path-dark-green-mobile',
+                reverse: true
+            },*/
+    {
+      maskPath: "#mask-path-bordo",
+      trigger: "#path-bordo",
+      reverse: false,
+    },
+    /*
+            {
+                maskPath: '#mask-path-bordo-mobile',
+                trigger: '#path-bordo-mobile',
+                reverse: false
+            },*/
+    {
+      maskPath: "#mask-path-red",
+      trigger: "#path-red",
+      reverse: false,
+    },
+    /*
+            {
+                maskPath: '#mask-path-red-mobile',
+                trigger: '#path-red-mobile',
+                reverse: false
+            },*/
+    {
+      maskPath: "#mask-path-blue",
+      trigger: "#path-blue",
+      reverse: true,
+    },
+    /*{
+                maskPath: '#mask-path-blue-mobile',
+                trigger: '#path-blue-mobile',
+                reverse: true
+            }
+                */
+  ];
+
+  maskConfigs.forEach((config) => {
+    const maskPath = document.querySelector(config.maskPath);
+    const trigger = document.querySelector(config.trigger);
+
+    if (maskPath && trigger) {
+      if (config.reverse) {
+        gsap.set(maskPath, {
+          drawSVG: "100% 100%",
+        });
+        gsap.to(maskPath, {
+          drawSVG: "0% 100%",
+          ease: "power3.inOut",
+          scrollTrigger: {
+            trigger: trigger,
+            start: "top 80%",
+            end: "bottom 20%",
+            scrub: true,
+            invalidateOnRefresh: true,
+          },
+        });
+      } else {
+        gsap.set(maskPath, {
+          drawSVG: "0%",
+        });
+        gsap.to(maskPath, {
+          drawSVG: "100%",
+          ease: "power3.inOut",
+          scrollTrigger: {
+            trigger: trigger,
+            start: "top 80%",
+            end: "bottom 20%",
+            scrub: true,
+            invalidateOnRefresh: true,
+          },
+        });
+      }
+    }
+  });
 });
