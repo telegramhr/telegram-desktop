@@ -20,7 +20,7 @@ $jsPath = $native_path . '/main.js';
     <?php //wp_head(); 
     ?>
     <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v">
-    <script src="<?php echo $native_path;?>/dist/main.js"></script>
+    <script src="<?php echo $native_path; ?>/dist/main.js"></script>
     <meta name="robots" content="noindex">
 </head>
 
@@ -41,5 +41,6 @@ $jsPath = $native_path . '/main.js';
         ?>
     </div>
 </body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </html>
