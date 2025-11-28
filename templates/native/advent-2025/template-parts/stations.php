@@ -9,7 +9,7 @@ $is_first = ($style === 'bordo');
 $native_path = $props['native_path'];
 ?>
 
-<div id="<?= $style; ?>" class="relative w-full pt-[94px] pb-[92px] flex flex-col gap-[64px] items-center justify-center  
+<div id="<?= $style; ?>" class="relative w-full pt-[164px] md:pt-[94px] pb-[92px] flex flex-col gap-[42px] lg:gap-[64px] items-center justify-center  
 <?php if ($style == 'bordo'): ?> bg-[#842238] 
 <?php elseif ($style == 'dark-green'): ?> bg-[#3D5928] 
 <?php elseif ($style == 'red'): ?> bg-[#842238] 
@@ -31,7 +31,9 @@ $native_path = $props['native_path'];
         <?php elseif ($style == 'red'): ?>
             <img class="absolute left-[-20px] md:left-0 top-[-10px] md:top-[50px] rotate-[-30deg] md:rotate-[-50deg]" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
             <img class="absolute bottom-[-10px] right-[-10px] rotate-[150deg] md:rotate-0 md:left-[100px] md:top-0" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
-            <img class="absolute hidden md:block left-[30%] top-0" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
+            <img class="absolute hidden md:block right-[140px] top-[-30px] rotate-[40deg]" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
+            <img class="absolute hidden md:block right-0 top-0" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
+
             <img class="absolute right-0 top-[-100px] md:top-0" src="<?= $native_path; ?>/assets/stations/boce.webp" alt="Boca Sampanjca">
             <img class="absolute md:hidden left-[-25px] bottom-0 rotate-180" src="<?= $native_path; ?>/assets/stations/boce.webp" alt="Boca Sampanjca">
         <?php elseif ($style == 'green'): ?>
@@ -57,7 +59,7 @@ $native_path = $props['native_path'];
 
     <!-- SVG paths -->
     <?php if ($style == 'dark-green'): ?>
-        <div class="absolute block bottom-[-100px] lg:top-[-80px] lg:bottom-auto left-[15%] z-[4]">
+        <div class="absolute block bottom-[-160px] lg:top-[-80px] lg:bottom-auto left-[30%] lg:left-[15%] z-[4]">
             <!-- DESKTOP -->
             <svg id="path-darkgreen" class="hidden lg:block" width="147" height="349" viewBox="0 0 147 349" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -147,7 +149,7 @@ $native_path = $props['native_path'];
         </div>
 
     <?php elseif ($style == 'bordo'): ?>
-        <div class="absolute block bottom-[-100px] lg:top-[52px] lg:bottom-auto left-[25%] lg:left-[16%] z-[4]">
+        <div class="absolute block bottom-[-160px] lg:top-[52px] lg:bottom-auto left-[5%] lg:left-[16%] z-[4]">
             <!-- DESKTOP -->
             <svg id="path-bordo" class="hidden lg:block" width="348" height="330" viewBox="0 0 348 330" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -192,7 +194,7 @@ $native_path = $props['native_path'];
         </div>
 
     <?php elseif ($style == 'red'): ?>
-        <div class="absolute block bottom-[-100px] lg:top-[-40px] lg:bottom-auto left-[25%] lg:right-[10%] lg:left-auto z-[4]">
+        <div class="absolute block bottom-[-160px] lg:top-[-40px] lg:bottom-auto left-[15%] lg:right-[10%] lg:left-auto z-[4]">
             <!-- DESKTOP -->
             <svg id="path-red" class="hidden rotate-[35deg] lg:block" width="348" height="330" viewBox="0 0 348 330" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -243,120 +245,17 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-16 relative z-20 px-4">
+    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 lg:gap-16 relative z-20 px-4">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
                 class="polaroid-item hover:scale-[1.02] transition-all duration-300 ease-in-out">
-                <div class="flex flex-col gap-[22px] px-4 pt-9 pb-7 bg-white max-w-[320px]">
+                <div class="flex flex-col gap-[22px] px-4 pt-7 pb-[22px] bg-white max-w-[320px]">
                     <img class="aspect-square z-30" src="<?= $polaroid['image'] ?>" alt="">
-                    <p class="font-poppins font-medium text-[20px] leading-7"><?= $polaroid['text'] ?></p>
+                    <p class="font-poppins font-medium text-[20px] leading-7 tracking-[-0.2px]"><?= $polaroid['text'] ?></p>
                 </div>
             </a>
         <?php endforeach; ?>
     </div>
 
 </div>
-
-<?php if ($is_first): ?>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<?php endif; ?>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
-
-        const maskConfigs = [{
-                maskPath: '#mask-path-darkgreen',
-                trigger: '#path-darkgreen',
-                reverse: true
-            },
-            /*
-            {
-                maskPath: '#mask-path-darkgreen-mobile',
-                trigger: '#path-dark-green-mobile',
-                reverse: true
-            },*/
-            {
-                maskPath: '#mask-path-bordo',
-                trigger: '#path-bordo',
-                reverse: false
-            },
-            /*
-            {
-                maskPath: '#mask-path-bordo-mobile',
-                trigger: '#path-bordo-mobile',
-                reverse: false
-            },*/
-            {
-                maskPath: '#mask-path-red',
-                trigger: '#path-red',
-                reverse: false
-            },
-            /*
-            {
-                maskPath: '#mask-path-red-mobile',
-                trigger: '#path-red-mobile',
-                reverse: false
-            },*/
-            {
-                maskPath: '#mask-path-blue',
-                trigger: '#path-blue',
-                reverse: true
-            },
-            /*{
-                maskPath: '#mask-path-blue-mobile',
-                trigger: '#path-blue-mobile',
-                reverse: true
-            }
-                */
-        ];
-
-
-        maskConfigs.forEach(config => {
-            const maskPath = document.querySelector(config.maskPath);
-            const trigger = document.querySelector(config.trigger);
-            console.log('Looking for:', config.maskPath, maskPath ? 'FOUND' : 'NOT FOUND');
-            console.log('Trigger:', config.trigger, trigger ? 'FOUND' : 'NOT FOUND');
-            if (maskPath && trigger) {
-                if (config.reverse) {
-                    gsap.set(maskPath, {
-                        drawSVG: "100% 100%"
-                    });
-                    gsap.to(maskPath, {
-                        drawSVG: "0% 100%",
-                        ease: "power3.inOut",
-                        scrollTrigger: {
-                            trigger: trigger,
-                            start: "top 80%",
-                            end: "bottom 20%",
-                            scrub: true,
-                            invalidateOnRefresh: true
-                        }
-                    });
-                } else {
-                    gsap.set(maskPath, {
-                        drawSVG: "0%"
-                    });
-                    gsap.to(maskPath, {
-                        drawSVG: "100%",
-                        ease: "power3.inOut",
-                        scrollTrigger: {
-                            trigger: trigger,
-                            start: "top 80%",
-                            end: "bottom 20%",
-                            scrub: true,
-                            invalidateOnRefresh: true
-                        }
-                    });
-                }
-            }
-        });
-
-    });
-</script>

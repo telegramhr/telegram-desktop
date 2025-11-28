@@ -60,20 +60,20 @@ $daysOfWeek = [
                     <i class="fa-solid fa-angle-left"></i>
                 </button>
                 <div class="flex flex-col gap-3 lg:gap-5 text-center">
-                    <h2 id="week-title" class="font-christmas text-[39px] leading-[39px] lg:leading-[50px] lg:text-[50px] text-olive-green">Vozni red</h2>
-                    <span id="week-range" class="font-lato font-bold leading-[18px] text-[18px] text-olive-green"><?= $weekKeys[0] ?? '' ?></span>
+                    <h2 id="week-title" class="font-christmas text-[39px] leading-[39px] lg:leading-[67px] lg:text-[50px] text-olive-green">Vozni red</h2>
+                    <span id="week-range" class="font-inter font-bold text-base lg:leading-[18px] lg:text-[18px] text-olive-green"><?= $weekKeys[0] ?? '' ?></span>
                 </div>
                 <button id="arrow-right" class="w-8 h-8 rounded-full bg-white hover:shadow-lg hover:scale-[1.01] transition-all duration-75 ease-in-out flex items-center justify-center cursor-pointer">
                     <i class="fa-solid fa-angle-right"></i>
                 </button>
             </div>
             <div class="flex flex-wrap tb:flex-row justify-center gap-[10px] mx-auto">
-                <button class="category-btn active px-3 py-[10px] text-[#EFE1D3] bg-olive-green rounded-sm font-medium text-base font-poppins cursor-pointer" data-filter="all">Sve</button>
-                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base font-poppins cursor-pointer" data-filter=".zalogaj">Zalogaj</button>
-                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base font-poppins cursor-pointer" data-filter=".provod">Provod</button>
-                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base font-poppins cursor-pointer" data-filter=".obitelj-i-djeca">Obitelj i djeca</button>
-                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base font-poppins cursor-pointer" data-filter=".cuga">Cuga</button>
-                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base font-poppins cursor-pointer" data-filter=".pokloni">Pokloni</button>
+                <button class="category-btn active px-3 py-[10px] text-[#EFE1D3] bg-olive-green rounded-sm font-medium text-base leading-5 font-poppins cursor-pointer" data-filter="all">Sve</button>
+                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base leading-5 font-poppins cursor-pointer" data-filter=".zalogaj">Zalogaj</button>
+                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base leading-5 font-poppins cursor-pointer" data-filter=".provod">Provod</button>
+                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base leading-5 font-poppins cursor-pointer" data-filter=".obitelj-i-djeca">Obitelj i djeca</button>
+                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base leading-5 font-poppins cursor-pointer" data-filter=".cuga">Cuga</button>
+                <button class="category-btn px-3 py-[10px] bg-[#E5CAB0] text-olive-green hover:bg-[#d4b79e] rounded-sm font-medium text-base leading-5 font-poppins cursor-pointer" data-filter=".pokloni">Pokloni</button>
             </div>
         </div>
         <!-- DESKTOP -->
@@ -93,16 +93,16 @@ $daysOfWeek = [
                                 $dayDate = clone $startDate;
                                 $dayDate->modify("+{$i} days");
                                 $dayName = $daysOfWeek[$i];
-                                $dayFormattedDate = $dayDate->format('d.m.');
+                                $dayFormattedDate = $dayDate->format('d.m.Y');
 
-                                echo "<th class='text-center bg-olive-green text-[#FEF4D3] font-inter font-bold text-[20px] desktop-row flex flex-1 flex-col p-2 rounded-[4px]'>";
+                                echo "<th class='text-center bg-olive-green text-[#FEF4D3] font-inter font-bold text-[20px]  desktop-row flex flex-1 flex-col gap-1 p-2 rounded-[4px]'>";
                                 echo "<span>{$dayName}</span><span class='text-[16px]'>{$dayFormattedDate}</span>";
                                 echo "</th>";
                             }
                             ?>
                         </tr>
                     </thead>
-                    <tbody class="flex flex-col gap-4 pt-5 mixitup-container-desktop">
+                    <tbody class="flex flex-col gap-5 pt-5 mixitup-container-desktop">
                         <tr class='w-full flex flex-row gap-2 lg:gap-3 justify-center'>
                             <?php
                             for ($i = 0; $i < 7; $i++) {
@@ -156,8 +156,8 @@ $daysOfWeek = [
 
                         if (empty($dayEvents)) continue;
 
-                        echo "<div class='mb-8 day-section'>";
-                        echo "<div class='bg-olive-green text-[#FEF4D3] font-bold text-lg p-3 rounded-[4px] flex flex-row gap-1 items-center mb-4 justify-center'>";
+                        echo "<div class='mb-6 day-section'>";
+                        echo "<div class='bg-olive-green text-[#FEF4D3] font-bold text-lg p-2 rounded-[4px] flex flex-row gap-1 items-center mb-6 justify-center'>";
                         echo "<span>{$dayName}</span> <span>{$dayFormattedDate}</span>";
                         echo "</div>";
 
