@@ -9,10 +9,10 @@ $is_first = ($style === 'bordo');
 $native_path = $props['native_path'];
 ?>
 
-<div id="<?= $style; ?>" class="relative w-full min-h-[600px] pt-[158px] pb-[66px] flex flex-col gap-[110px] items-center justify-center  
+<div id="<?= $style; ?>" class="relative w-full pt-[164px] md:pt-[94px] pb-[92px] flex flex-col gap-[42px] lg:gap-[64px] items-center justify-center  
 <?php if ($style == 'bordo'): ?> bg-[#842238] 
 <?php elseif ($style == 'dark-green'): ?> bg-[#3D5928] 
-<?php elseif ($style == 'red'): ?> bg-[#B52513] 
+<?php elseif ($style == 'red'): ?> bg-[#842238] 
 <?php elseif ($style == 'green'): ?> bg-[#4D803D] 
 <?php elseif ($style == 'blue'): ?> bg-[#122339] <?php endif; ?>">
 
@@ -31,7 +31,9 @@ $native_path = $props['native_path'];
         <?php elseif ($style == 'red'): ?>
             <img class="absolute left-[-20px] md:left-0 top-[-10px] md:top-[50px] rotate-[-30deg] md:rotate-[-50deg]" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
             <img class="absolute bottom-[-10px] right-[-10px] rotate-[150deg] md:rotate-0 md:left-[100px] md:top-0" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
-            <img class="absolute hidden md:block left-[30%] top-0" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
+            <img class="absolute hidden md:block right-[140px] top-[-30px] rotate-[40deg]" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
+            <img class="absolute hidden md:block right-0 top-0" src="<?= $native_path; ?>/assets/stations/cuga-motiv.webp" alt="Cuga Motiv">
+
             <img class="absolute right-0 top-[-100px] md:top-0" src="<?= $native_path; ?>/assets/stations/boce.webp" alt="Boca Sampanjca">
             <img class="absolute md:hidden left-[-25px] bottom-0 rotate-180" src="<?= $native_path; ?>/assets/stations/boce.webp" alt="Boca Sampanjca">
         <?php elseif ($style == 'green'): ?>
@@ -48,18 +50,16 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Title and Description -->
-    <div class="max-w-[640px] w-full mx-auto flex flex-col gap-[42px] relative z-10 px-4">
-        <div class="flex flex-col gap-[36px]">
-            <h2 class="font-christmas text-[39px] md:text-[60px] leading-[64px] text-center text-light-sand "><?= $title; ?></h2>
-            <p class="text-[16px] md:text-[20px] font-poppins text-center text-light-sand ">
-                <?= $description; ?>
-            </p>
-        </div>
+    <div class="max-w-[640px] w-full mx-auto flex flex-col gap-9 relative z-10 px-4">
+        <h2 class="font-christmas text-[39px] md:text-[60px] leading-[64px] text-center text-light-sand "><?= $title; ?></h2>
+        <p class="text-[16px] md:text-[20px] font-poppins text-center text-light-sand ">
+            <?= $description; ?>
+        </p>
     </div>
 
     <!-- SVG paths -->
     <?php if ($style == 'dark-green'): ?>
-        <div class="absolute block bottom-[-180px] lg:bottom-[-25%] right-[25%] z-[4]">
+        <div class="absolute block bottom-[-160px] lg:top-[-80px] lg:bottom-auto left-[30%] lg:left-[15%] z-[4]">
             <!-- DESKTOP -->
             <svg id="path-darkgreen" class="hidden lg:block" width="147" height="349" viewBox="0 0 147 349" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -103,20 +103,20 @@ $native_path = $props['native_path'];
             </svg>
         </div>
 
-    <?php elseif ($style == 'green'): ?>
-        <div class="absolute block bottom-[-180px] lg:bottom-[-25%] left-[25%] lg:left-auto right-[25%] z-[4]">
+    <?php elseif ($style == 'blue'): ?>
+        <div class="absolute block bottom-[-30px]  lg:bottom-auto lg:top-[-80px] left-[25%] lg:rotate-[12deg] lg:left-[15%] z-[4]">
             <!-- DESKTOP -->
-            <svg id="path-green" class="hidden lg:block" width="177" height="462" viewBox="0 0 177 462" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="path-blue" class="hidden lg:block" width="177" height="462" viewBox="0 0 177 462" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
-                    <mask id="mask-green" maskUnits="userSpaceOnUse">
-                        <path id="mask-path-green"
+                    <mask id="mask-blue" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-blue"
                             d="M37.5 459.5L125.643 418.537C142.536 410.687 148.265 389.499 137.63 374.205L100.84 321.294C85.2501 298.873 105.287 268.977 131.95 274.876L137.701 276.148C167.906 282.829 187.232 244.963 164.1 224.423L12.7398 90.022C3.79177 82.0766 0.421442 69.5733 4.16392 58.207L23 0.999992"
                             stroke="#fff"
                             stroke-width="4"
                             fill="none" />
                     </mask>
                 </defs>
-                <g mask="url(#mask-green)">
+                <g mask="url(#mask-blue)">
                     <path d="M37.5 459.5L125.643 418.537C142.536 410.687 148.265 389.499 137.63 374.205L100.84 321.294C85.2501 298.873 105.287 268.977 131.95 274.876L137.701 276.148C167.906 282.829 187.232 244.963 164.1 224.423L12.7398 90.022C3.79177 82.0766 0.421442 69.5733 4.16392 58.207L23 0.999992"
                         stroke="white"
                         stroke-opacity="0.25"
@@ -127,17 +127,17 @@ $native_path = $props['native_path'];
             </svg>
 
             <!-- MOBILE -->
-            <svg id="path-green-mobile" class="lg:hidden rotate-180" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="path-blue-mobile" class="lg:hidden rotate-180" width="136" height="343" viewBox="0 0 136 343" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
-                    <mask id="mask-green-mobile" maskUnits="userSpaceOnUse">
-                        <path id="mask-path-green-mobile"
+                    <mask id="mask-blue-mobile" maskUnits="userSpaceOnUse">
+                        <path id="mask-path-blue-mobile"
                             d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
                             stroke="#fff"
                             stroke-width="4"
                             fill="none" />
                     </mask>
                 </defs>
-                <g mask="url(#mask-green-mobile)">
+                <g mask="url(#mask-blue-mobile)">
                     <path d="M70.4798 1.75153L17.5225 30.9438C1.3886 39.8375 -2.99215 61.0364 8.29494 75.5966L61.1388 143.765C68.6138 153.407 69.5045 166.616 63.3919 177.175L41.5178 214.96C28.928 236.708 47.0539 263.37 71.9078 259.662L99.1255 255.602C117.472 252.864 133.881 267.266 133.547 285.813L132.527 342.496"
                         stroke="white"
                         stroke-opacity="0.25"
@@ -149,7 +149,7 @@ $native_path = $props['native_path'];
         </div>
 
     <?php elseif ($style == 'bordo'): ?>
-        <div class="absolute block bottom-[-180px] lg:bottom-[-20%] left-[25%] z-[4]">
+        <div class="absolute block bottom-[-160px] lg:top-[52px] lg:bottom-auto left-[5%] lg:left-[16%] z-[4]">
             <!-- DESKTOP -->
             <svg id="path-bordo" class="hidden lg:block" width="348" height="330" viewBox="0 0 348 330" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -194,9 +194,9 @@ $native_path = $props['native_path'];
         </div>
 
     <?php elseif ($style == 'red'): ?>
-        <div class="absolute block bottom-[-180px] lg:bottom-[-20%] left-[25%] z-[4]">
+        <div class="absolute block bottom-[-160px] lg:top-[-40px] lg:bottom-auto left-[15%] lg:right-[10%] lg:left-auto z-[4]">
             <!-- DESKTOP -->
-            <svg id="path-red" class="hidden lg:block" width="348" height="330" viewBox="0 0 348 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="path-red" class="hidden rotate-[35deg] lg:block" width="348" height="330" viewBox="0 0 348 330" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <mask id="mask-red" maskUnits="userSpaceOnUse">
                         <path id="mask-path-red"
@@ -245,124 +245,17 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 relative z-20 px-4">
+    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 lg:gap-16 relative z-20 px-4">
         <?php foreach ($polaroids as $polaroid): ?>
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
                 class="polaroid-item hover:scale-[1.02] transition-all duration-300 ease-in-out">
-                <div class="flex flex-col gap-[22px] px-4 pt-9 pb-7 bg-white max-w-[320px]">
+                <div class="flex flex-col gap-[22px] px-4 pt-7 pb-[22px] bg-white max-w-[320px]">
                     <img class="aspect-square z-30" src="<?= $polaroid['image'] ?>" alt="">
-                    <p class="font-poppins font-medium text-[20px] leading-7"><?= $polaroid['text'] ?></p>
+                    <p class="font-poppins font-medium text-[20px] leading-7 tracking-[-0.2px]"><?= $polaroid['text'] ?></p>
                 </div>
             </a>
         <?php endforeach; ?>
     </div>
 
 </div>
-
-<?php if ($is_first): ?>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<?php endif; ?>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
-
-        const maskConfigs = [{
-                maskPath: '#mask-path-darkgreen',
-                trigger: '#path-darkgreen',
-                reverse: true
-            },
-            {
-                maskPath: '#mask-path-darkgreen-mobile',
-                trigger: '#path-dark-green-mobile',
-                reverse: true
-            },
-            {
-                maskPath: '#mask-path-green',
-                trigger: '#path-green',
-                reverse: true
-            },
-            {
-                maskPath: '#mask-path-green-mobile',
-                trigger: '#path-green-mobile',
-                reverse: true
-            },
-            {
-                maskPath: '#mask-path-bordo',
-                trigger: '#path-bordo',
-                reverse: false
-            },
-            {
-                maskPath: '#mask-path-bordo-mobile',
-                trigger: '#path-bordo-mobile',
-                reverse: false
-            },
-            {
-                maskPath: '#mask-path-red',
-                trigger: '#path-red',
-                reverse: false
-            },
-            {
-                maskPath: '#mask-path-red-mobile',
-                trigger: '#path-red-mobile',
-                reverse: false
-            },
-            {
-                maskPath: '#mask-path-blue',
-                trigger: '#path-blue',
-                reverse: false
-            },
-            {
-                maskPath: '#mask-path-blue-mobile',
-                trigger: '#path-blue-mobile',
-                reverse: true
-            }
-        ];
-
-
-        maskConfigs.forEach(config => {
-            const maskPath = document.querySelector(config.maskPath);
-            const trigger = document.querySelector(config.trigger);
-
-            if (maskPath && trigger) {
-                if (config.reverse) {
-                    gsap.set(maskPath, {
-                        drawSVG: "100% 100%"
-                    });
-                    gsap.to(maskPath, {
-                        drawSVG: "0% 100%",
-                        ease: "power3.inOut",
-                        scrollTrigger: {
-                            trigger: trigger,
-                            start: "top 80%",
-                            end: "bottom 20%",
-                            scrub: true,
-                            invalidateOnRefresh: true
-                        }
-                    });
-                } else {
-                    gsap.set(maskPath, {
-                        drawSVG: "0%"
-                    });
-                    gsap.to(maskPath, {
-                        drawSVG: "100%",
-                        ease: "power3.inOut",
-                        scrollTrigger: {
-                            trigger: trigger,
-                            start: "top 80%",
-                            end: "bottom 20%",
-                            scrub: true,
-                            invalidateOnRefresh: true
-                        }
-                    });
-                }
-            }
-        });
-
-    });
-</script>
