@@ -506,28 +506,28 @@ class Telegram_Shortcodes {
         ob_start();
         ?>
         <div class="podcasts-wrapper-shortcode">
-            <a href=<?php echo esc_url($atts['youtube']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box youtube">
+            <a href="<?php echo esc_url($atts['youtube']); ?>" target="_blank" rel="noopener noreferrer" class="podcast-box youtube">
                 <img src="https://www.telegram.hr/img/youtube.svg" alt="Youtube ikonica" />
                 <div class="text-wrapper">
                     <span class="listen">Slušaj na</span>
                     <span class="title">Youtube</span>
                 </div>
             </a>
-            <a href=<?php echo esc_url($atts['spotify']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box spotify">
+            <a href="<?php echo esc_url($atts['spotify']); ?>" target="_blank" rel="noopener noreferrer" class="podcast-box spotify">
                 <img src="https://www.telegram.hr/img/spotify.svg" alt="Spotify ikonica" />
                 <div class="text-wrapper">
                     <span class="listen">Slušaj na</span>
                     <span class="title">Spotify</span>
                 </div>
             </a>
-            <a href=<?php echo esc_url($atts['apple']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box apple">
+            <a href="<?php echo esc_url($atts['apple']); ?>" target="_blank" rel="noopener noreferrer" class="podcast-box apple">
                 <img src="https://www.telegram.hr/img/apple-podcasts.svg" alt="Apple Podcasts ikonica" />
                 <div class="text-wrapper">
                     <span class="listen">Slušaj na</span>
                     <span class="title">Apple Podcasts</span>
                 </div>
             </a>
-            <a href=<?php echo esc_url($atts['others']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box random">
+            <a href="<?php echo esc_url($atts['others']); ?>" target="_blank" rel="noopener noreferrer" class="podcast-box random">
                 <img src="https://www.telegram.hr/img/random-platform.svg" alt="Mikrofon ikonica" />
                 <div class="text-wrapper">
                     <span class="listen">Slušaj</span>
