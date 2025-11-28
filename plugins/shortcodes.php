@@ -23,6 +23,7 @@ class Telegram_Shortcodes {
         add_shortcode('super1_forma', [$this, 'forma']);
         add_shortcode('super1_form', [$this, 'form']);
         add_shortcode('super1_quiz', [$this, 'quiz']);
+        add_shortcode('podcast-platforms', [$this, 'podcast_platforms_shortcode']);
 
         add_shortcode('energia_kalkulator', [$this, 'energia_kalkulator']);
         add_shortcode('energia_forma', [$this, 'energia_forma']);
@@ -492,6 +493,51 @@ class Telegram_Shortcodes {
 
 
 	}
+
+    function podcast_platforms_shortcode($atts) {
+        // Set default attributes
+        $atts = shortcode_atts(array(
+            'youtube' => 'https://www.youtube.com/playlist?list=PL3YKTluJTGBqgGQQfP9DcdrDWuFZcSuqE',
+            'spotify' => 'https://open.spotify.com/show/55MUZaIj8pqbxT5ltWh5Ab',
+            'apple'   => 'https://podcasts.apple.com/hr/podcast/prvi-glas/id1805133945',
+            'others'  => 'https://www.telegram.hr/podcastovi/gdje-slusati-prvi-glas-telegramov-dnevni-news-podcast-zapratite-nas-na-ovim-platformama/',
+        ), $atts, 'podcast-platforms');
+
+        ob_start();
+        ?>
+        <div class="podcasts-wrapper-shortcode">
+            <a href=<?php echo esc_url($atts['youtube']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box youtube">
+                <img src="https://www.telegram.hr/img/youtube.svg" alt="Youtube ikonica" />
+                <div class="text-wrapper">
+                    <span class="listen">Slušaj na</span>
+                    <span class="title">Youtube</span>
+                </div>
+            </a>
+            <a href=<?php echo esc_url($atts['spotify']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box spotify">
+                <img src="https://www.telegram.hr/img/spotify.svg" alt="Spotify ikonica" />
+                <div class="text-wrapper">
+                    <span class="listen">Slušaj na</span>
+                    <span class="title">Spotify</span>
+                </div>
+            </a>
+            <a href=<?php echo esc_url($atts['apple']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box apple">
+                <img src="https://www.telegram.hr/img/apple-podcasts.svg" alt="Apple Podcasts ikonica" />
+                <div class="text-wrapper">
+                    <span class="listen">Slušaj na</span>
+                    <span class="title">Apple Podcasts</span>
+                </div>
+            </a>
+            <a href=<?php echo esc_url($atts['others']); ?> target="_blank" rel="noopener noreferrer" class="podcast-box random">
+                <img src="https://www.telegram.hr/img/random-platform.svg" alt="Mikrofon ikonica" />
+                <div class="text-wrapper">
+                    <span class="listen">Slušaj</span>
+                    <span class="title">Svugdje</span>
+                </div>
+            </a>
+        </div>        <?php
+
+        return ob_get_clean();
+    }
 }
 
 new Telegram_Shortcodes();
