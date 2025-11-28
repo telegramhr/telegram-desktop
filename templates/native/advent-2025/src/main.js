@@ -1,336 +1,210 @@
 import "./style.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import mixitup from "mixitup";
 import Flickity from "flickity";
+import gsap from "gsap";
+import DrawSVGPlugin from "gsap/DrawSVGPlugin";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 document.addEventListener("DOMContentLoaded", () => {
-  let allWeeks = {};
-  let weekKeys = [];
   let currentWeekIndex = 0;
-  let mixer = null;
+  let mixersDesktop = [];
   let flickityInstances = [];
+  let currentFilter = "all";
+
+  const weekKeys = window.adventData.weekKeys;
 
   // -------------------- Helper --------------------
   function isMobile() {
-    return window.innerWidth < 768;
+    return window.innerWidth < 921;
   }
 
-  async function loadCalendar() {
-    try {
-      const res = await fetch(
-        "/wp-content/themes/telegram-desktop/templates/native/advent-2025/calendar.php",
-        { cache: "no-store" }
-      );
-
-      const json = await res.json();
-      if (json.success && json.data) {
-        allWeeks = json.data;
-        weekKeys = Object.keys(allWeeks);
-      } else {
-        allWeeks = {};
-        weekKeys = [];
-      }
-    } catch (err) {
-      console.error("Greška pri učitavanju kalendara:", err);
-      allWeeks = {};
-      weekKeys = [];
-    }
-  }
-  // -------------------- Render --------------------
-  function renderWeek() {
-    if (isMobile()) renderWeekMobile();
-    else renderWeekDesktop();
-  }
-
-  function renderWeekMobile() {
-    if (!weekKeys.length) return;
-
-    const weekRange = weekKeys[currentWeekIndex];
-    const weekEvents = allWeeks[weekRange];
-
-    const weekRangeEl = document.getElementById("week-range");
-    if (weekRangeEl) weekRangeEl.textContent = weekRange;
-
-    const container = document.getElementById("mixitup-container");
-    if (!container) return;
-
-    if (mixer) mixer.destroy();
-    flickityInstances.forEach((f) => f?.destroy());
+  function destroyFlickity() {
+    flickityInstances.forEach((instance) => {
+      if (instance) instance.destroy();
+    });
     flickityInstances = [];
-    container.innerHTML = "";
+  }
+  function initFlickity() {
+    if (!isMobile()) return;
 
-    const [startDay, startMonth, startYear] = weekRange
-      .split(" - ")[0]
-      .split(".")
-      .map((s) => s.trim());
-    const startDate = new Date(
-      startYear || "2025",
-      parseInt(startMonth) - 1,
-      parseInt(startDay)
+    destroyFlickity();
+
+    const activeMobile = document.querySelector(
+      `.week-${currentWeekIndex}-mobile.active`
+    );
+    if (!activeMobile) return;
+
+    activeMobile.classList.remove("ready");
+
+    const mobileCarousels = activeMobile.querySelectorAll(
+      ".mobile-day-carousel"
     );
 
-    const daysOfWeek = [
-      "Ponedjeljak",
-      "Utorak",
-      "Srijeda",
-      "Četvrtak",
-      "Petak",
-      "Subota",
-      "Nedjelja",
-    ];
-
-    // prepare events by day
-    const eventsByDay = {};
-    for (let i = 0; i < 7; i++) {
-      const dayDate = new Date(startDate);
-      dayDate.setDate(startDate.getDate() + i);
-      const dateKey = `${dayDate.getFullYear()}-${String(
-        dayDate.getMonth() + 1
-      ).padStart(2, "0")}-${String(dayDate.getDate()).padStart(2, "0")}`;
-      eventsByDay[dateKey] = [];
-    }
-
-    weekEvents.forEach((ev) => {
-      const eventDate = new Date(ev.date);
-      const dateKey = `${eventDate.getUTCFullYear()}-${String(
-        eventDate.getUTCMonth() + 1
-      ).padStart(2, "0")}-${String(eventDate.getUTCDate()).padStart(2, "0")}`;
-      if (eventsByDay[dateKey]) eventsByDay[dateKey].push(ev);
-    });
-
-    // render each day
-    for (let i = 0; i < 7; i++) {
-      const dayDate = new Date(startDate);
-      dayDate.setDate(startDate.getDate() + i);
-      const dateKey = `${dayDate.getFullYear()}-${String(
-        dayDate.getMonth() + 1
-      ).padStart(2, "0")}-${String(dayDate.getDate()).padStart(2, "0")}`;
-      const dayEvents = eventsByDay[dateKey] || [];
-      if (!dayEvents.length) continue;
-
-      // day header
-      const dayHeader = document.createElement("div");
-      dayHeader.className =
-        "bg-olive-green flex flex-row gap-3 justify-center text-light-sand text-base font-bold text-center py-[9px] rounded-sm font-inter";
-      dayHeader.innerHTML = `<span>${
-        daysOfWeek[i]
-      }</span> <span>${dayDate.getDate()}.${
-        dayDate.getMonth() + 1
-      }.${dayDate.getFullYear()}</span>`;
-      container.appendChild(dayHeader);
-
-      const dayWrapper = document.createElement("div");
-      dayWrapper.className = "day-wrapper mb-4";
-      container.appendChild(dayWrapper);
-
-      dayEvents.forEach((ev) => {
-        const box = document.createElement("div");
-        const categoryClass = ev.category.toLowerCase().replace(/\s+/g, "-");
-        box.className = `mix ${categoryClass} w-[146px] h-[138px] bg-white px-3 py-4 rounded-sm shadow mr-3`;
-
-        const timeDate = new Date(ev.time);
-        const hours = timeDate.getUTCHours();
-        const minutes = String(timeDate.getUTCMinutes()).padStart(2, "0");
-        const formattedTime = `${hours}:${minutes}`;
-
-        box.innerHTML = `
-          <div class="flex flex-col gap-1 h-full">
-            <span class="font-medium text-base text-olive-green">${formattedTime}</span>
-            <h3 class="font-semibold text-lg">${ev.title}</h3>
-            <p class="font-medium text-[12px]">${ev.location}</p>
-          </div>
-        `;
-        dayWrapper.appendChild(box);
-      });
-
-      const flkty = new Flickity(dayWrapper, {
+    mobileCarousels.forEach((carousel) => {
+      const flickity = new Flickity(carousel, {
         cellAlign: "left",
         contain: true,
+        prevNextButtons: false,
         pageDots: false,
         freeScroll: false,
         wrapAround: false,
-        prevNextButtons: false,
+        groupCells: false,
       });
-      flickityInstances.push(flkty);
-    }
+      flickityInstances.push(flickity);
+    });
 
-    initMixitup();
+    requestAnimationFrame(() => {
+      activeMobile.classList.add("ready");
+    });
   }
 
-  function renderWeekDesktop() {
-    if (!weekKeys.length) return;
+  // -------------------- Custom Mobile Filter --------------------
+  function filterMobileEvents(category) {
+    if (!isMobile()) return;
 
-    const weekRange = weekKeys[currentWeekIndex];
-    const weekEvents = allWeeks[weekRange];
-
-    const weekRangeEl = document.getElementById("week-range");
-    if (weekRangeEl) weekRangeEl.textContent = weekRange;
-
-    const container = document.getElementById("mixitup-container");
-    if (!container) return;
-    container.innerHTML = "";
-
-    const theadRow = document.getElementById("thead-row");
-    if (!theadRow) return;
-    theadRow.innerHTML = "";
-
-    const [startDay, startMonth, startYear] = weekRange
-      .split(" - ")[0]
-      .split(".")
-      .map((s) => s.trim());
-    const startDate = new Date(
-      startYear || "2025",
-      parseInt(startMonth) - 1,
-      parseInt(startDay)
+    const activeMobile = document.querySelector(
+      `.week-${currentWeekIndex}-mobile.active`
     );
-    const daysOfWeek = [
-      "Ponedjeljak",
-      "Utorak",
-      "Srijeda",
-      "Četvrtak",
-      "Petak",
-      "Subota",
-      "Nedjelja",
-    ];
+    if (!activeMobile) return;
 
-    // render table header
-    for (let i = 0; i < 7; i++) {
-      const th = document.createElement("th");
-      th.className =
-        "bg-olive-green text-light-sand text-base font-bold text-center py-2 max-w-[146px] w-full font-inter rounded-sm";
-      const dayDate = new Date(startDate);
-      dayDate.setDate(startDate.getDate() + i);
-      th.innerHTML = `${daysOfWeek[i]}<br>${dayDate.getDate()}.${
-        dayDate.getMonth() + 1
-      }.${dayDate.getFullYear()}`;
-      theadRow.appendChild(th);
-    }
+    const allMixElements = activeMobile.querySelectorAll(".mix");
 
-    // prepare events by day
-    const eventsByDay = {};
-    for (let i = 0; i < 7; i++) {
-      const dayDate = new Date(startDate);
-      dayDate.setDate(startDate.getDate() + i);
-      const dateKey = `${dayDate.getFullYear()}-${String(
-        dayDate.getMonth() + 1
-      ).padStart(2, "0")}-${String(dayDate.getDate()).padStart(2, "0")}`;
-      eventsByDay[dateKey] = [];
-    }
+    allMixElements.forEach((element) => {
+      const elementCategory = element.getAttribute("data-category");
 
-    weekEvents.forEach((ev) => {
-      const eventDate = new Date(ev.date);
-      const dateKey = `${eventDate.getUTCFullYear()}-${String(
-        eventDate.getUTCMonth() + 1
-      ).padStart(2, "0")}-${String(eventDate.getUTCDate()).padStart(2, "0")}`;
-      if (eventsByDay[dateKey]) eventsByDay[dateKey].push(ev);
+      if (category === "all" || elementCategory === category) {
+        element.classList.remove("filtered-out");
+      } else {
+        element.classList.add("filtered-out");
+      }
     });
+    const daySections = activeMobile.querySelectorAll(".day-section");
 
-    // render table rows
-    const row = document.createElement("tr");
-    row.className = "w-full flex flex-row gap-3";
+    daySections.forEach((section) => {
+      const items = section.querySelectorAll(".mix");
+      const visibleItems = Array.from(items).filter(
+        (el) => !el.classList.contains("filtered-out")
+      );
 
-    for (let i = 0; i < 7; i++) {
-      const dayDate = new Date(startDate);
-      dayDate.setDate(startDate.getDate() + i);
-      const dateKey = `${dayDate.getFullYear()}-${String(
-        dayDate.getMonth() + 1
-      ).padStart(2, "0")}-${String(dayDate.getDate()).padStart(2, "0")}`;
+      const currentHeight = section.offsetHeight;
 
-      const td = document.createElement("td");
-      td.className = "max-w-[146px] w-full flex flex-col gap-4";
+      let targetHeight = 0;
+      let shouldShow = false;
 
-      const dayEvents = eventsByDay[dateKey] || [];
-      dayEvents.forEach((ev) => {
-        const box = document.createElement("div");
-        const categoryClass = ev.category.toLowerCase().replace(/\s+/g, "-");
-        box.className = `mix ${categoryClass} w-full h-[138px] justify-center bg-white px-3 py-4 rounded-sm flex flex-col gap-1 shadow`;
+      if (visibleItems.length === 0) {
+        targetHeight = 0;
+        shouldShow = false;
+      } else {
+        targetHeight = section.scrollHeight;
+        shouldShow = true;
+      }
 
-        const timeDate = new Date(ev.time);
-        const hours = timeDate.getUTCHours();
-        const minutes = String(timeDate.getUTCMinutes()).padStart(2, "0");
-        const formattedTime = `${hours}:${minutes}`;
+      if (Math.round(currentHeight) === Math.round(targetHeight)) {
+        section.style.height = shouldShow ? "auto" : "0px";
+        section.style.opacity = shouldShow ? "1" : "0";
+        section.style.marginBottom = shouldShow ? "2rem" : "0";
+        return;
+      }
+      section.style.overflow = "hidden";
+      section.style.transition = "height 0.4s ease, opacity 0.4s ease";
+      section.style.height = currentHeight + "px";
 
-        const timeEl = document.createElement("span");
-        timeEl.className = "font-medium text-base";
-        timeEl.textContent = formattedTime;
-
-        const titleEl = document.createElement("h3");
-        titleEl.className = "font-semibold text-lg";
-        titleEl.textContent = ev.title;
-
-        const locationEl = document.createElement("p");
-        locationEl.className = "font-medium text-[12px]";
-        locationEl.textContent = ev.location;
-
-        box.appendChild(timeEl);
-        box.appendChild(titleEl);
-        box.appendChild(locationEl);
-        td.appendChild(box);
+      requestAnimationFrame(() => {
+        section.style.height = targetHeight + "px";
+        section.style.opacity = shouldShow ? "1" : "0";
+        section.style.marginBottom = shouldShow ? "2rem" : "0";
       });
 
-      row.appendChild(td);
-    }
+      if (shouldShow) {
+        setTimeout(() => {
+          section.style.height = "auto";
+        }, 400);
+      }
+    });
 
-    container.appendChild(row);
-    initMixitup();
+    setTimeout(() => {
+      flickityInstances.forEach((f) => {
+        if (f) {
+          f.resize();
+          f.reloadCells();
+        }
+      });
+    }, 550);
   }
 
-  // -------------------- MixItUp --------------------
+  // -------------------- Show/Hide week --------------------
+  function updateWeekVisibility() {
+    const weekRangeEl = document.getElementById("week-range");
+
+    if (weekRangeEl) {
+      weekRangeEl.classList.add("changing");
+
+      setTimeout(() => {
+        weekRangeEl.textContent = weekKeys[currentWeekIndex];
+        weekRangeEl.classList.remove("changing");
+      }, 200);
+    }
+
+    document.querySelectorAll(".week-table").forEach((table) => {
+      if (table.classList.contains(`week-${currentWeekIndex}-table`)) {
+        table.classList.add("active");
+      } else {
+        table.classList.remove("active");
+      }
+    });
+
+    document.querySelectorAll(".week-mobile-container").forEach((container) => {
+      if (container.classList.contains(`week-${currentWeekIndex}-mobile`)) {
+        container.classList.add("active");
+      } else {
+        container.classList.remove("active");
+      }
+    });
+
+    if (isMobile()) {
+      setTimeout(() => {
+        initFlickity();
+        if (currentFilter !== "all") {
+          filterMobileEvents(currentFilter);
+        }
+      }, 20);
+    }
+  }
+
+  // -------------------- MixItUp  --------------------
   function initMixitup() {
-    const container = document.getElementById("mixitup-container");
-    if (!container) return;
+    document
+      .querySelectorAll(".mixitup-container-desktop")
+      .forEach((container) => {
+        const mixer = mixitup(container, {
+          selectors: { target: ".mix" },
+          animation: {
+            duration: 500,
+            effects: "fade translateY(-20px)",
+            easing: "cubic-bezier(0.4, 0.0, 0.2, 1)",
+          },
+          load: { filter: "all" },
+        });
+        mixersDesktop.push(mixer);
+      });
 
-    if (mixer) mixer.destroy();
-    const mixEls = container.querySelectorAll(".mix");
-    mixEls.forEach((el) => {
-      const width = getComputedStyle(el).width;
-      el.style.width = width;
-      el.style.flex = "0 0 " + width;
-    });
-
-    mixer = mixitup(container, {
-      selectors: { target: ".mix" },
-      animation: {
-        duration: 300,
-        effects: "fade scale(0.8)",
-        easing: "ease-in-out",
-      },
-      load: { filter: "all" },
-      callbacks: {
-        onMixEnd: () => {
-          if (isMobile()) {
-            flickityInstances.forEach((f) => {
-              if (f) {
-                f.resize();
-                f.reloadCells();
-              }
-            });
-          }
-        },
-      },
-    });
+    updateWeekVisibility();
   }
 
   // -------------------- Navigation --------------------
   document.getElementById("arrow-left")?.addEventListener("click", () => {
     if (currentWeekIndex > 0) {
       currentWeekIndex--;
-      animateWeekChange();
+      updateWeekVisibility();
     }
   });
+
   document.getElementById("arrow-right")?.addEventListener("click", () => {
     if (currentWeekIndex < weekKeys.length - 1) {
       currentWeekIndex++;
-      animateWeekChange();
+      updateWeekVisibility();
     }
   });
-  function animateWeekChange() {
-    const container = document.getElementById("mixitup-container");
-    if (!container) return;
-    container.querySelectorAll(".mix").forEach((t) => (t.style.opacity = "0"));
-    setTimeout(() => renderWeek(), 200);
-  }
 
   // -------------------- Category filter --------------------
   document.querySelectorAll(".category-btn").forEach((btn) => {
@@ -340,14 +214,19 @@ document.addEventListener("DOMContentLoaded", () => {
         b.classList.add("bg-[#E5CAB0]", "text-olive-green");
       });
       btn.classList.add("bg-olive-green", "text-[#EFE1D3]", "active");
-      btn.classList.remove(
-        "bg-[#E5CAB0]",
-        "text-olive-green",
-        "hover:bg-[#d4b79e]"
-      );
+      btn.classList.remove("bg-[#E5CAB0]", "text-olive-green");
 
       const filterValue = btn.getAttribute("data-filter");
-      if (mixer) mixer.filter(filterValue);
+
+      const category =
+        filterValue === "all" ? "all" : filterValue.replace(".", "");
+      currentFilter = category;
+
+      if (isMobile()) {
+        filterMobileEvents(category);
+      } else {
+        mixersDesktop.forEach((mixer) => mixer.filter(filterValue));
+      }
     });
   });
 
@@ -355,32 +234,132 @@ document.addEventListener("DOMContentLoaded", () => {
   let resizeTimer;
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => renderWeek(), 250);
-  });
-  // -------------------- Snow effect --------------------
+    resizeTimer = setTimeout(() => {
+      mixersDesktop.forEach((mixer) => mixer.destroy());
+      mixersDesktop = [];
+      destroyFlickity();
+      initMixitup();
 
+      if (isMobile() && currentFilter !== "all") {
+        setTimeout(() => {
+          filterMobileEvents(currentFilter);
+        }, 100);
+      }
+    }, 250);
+  });
+
+  // -------------------- Snow effect --------------------
   const snowContainer = document.querySelector(".snow");
 
-  function createFlake() {
-    const flake = document.createElement("div");
-    flake.classList.add("flake");
+  if (snowContainer) {
+    function createFlake() {
+      const flake = document.createElement("div");
+      flake.classList.add("flake");
 
-    const size = Math.random() * 4 + 2;
-    flake.style.width = `${size}px`;
-    flake.style.height = `${size}px`;
-    flake.style.left = Math.random() * 100 + "vw";
-    flake.style.animationDuration = Math.random() * 5 + 5 + "s";
-    flake.style.opacity = Math.random() * 0.8 + 0.2;
+      const size = Math.random() * 4 + 2;
+      flake.style.width = `${size}px`;
+      flake.style.height = `${size}px`;
+      flake.style.left = Math.random() * 100 + "vw";
+      flake.style.animationDuration = Math.random() * 5 + 5 + "s";
+      flake.style.opacity = Math.random() * 0.8 + 0.2;
 
-    snowContainer.appendChild(flake);
+      snowContainer.appendChild(flake);
 
-    setTimeout(() => flake.remove(), 10000);
+      setTimeout(() => flake.remove(), 10000);
+    }
+
+    setInterval(createFlake, 50);
   }
 
-  setInterval(createFlake, 100);
-  // -------------------- Init --------------------
-  (async function init() {
-    await loadCalendar();
-    renderWeek();
-  })();
+  // -------------------- Start --------------------
+  initMixitup();
+
+  // -------------------- GSAP ---------------------
+  gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
+
+  const maskConfigs = [
+    {
+      maskPath: "#mask-path-darkgreen",
+      trigger: "#path-darkgreen",
+      reverse: true,
+    },
+    /*
+            {
+                maskPath: '#mask-path-darkgreen-mobile',
+                trigger: '#path-dark-green-mobile',
+                reverse: true
+            },*/
+    {
+      maskPath: "#mask-path-bordo",
+      trigger: "#path-bordo",
+      reverse: false,
+    },
+    /*
+            {
+                maskPath: '#mask-path-bordo-mobile',
+                trigger: '#path-bordo-mobile',
+                reverse: false
+            },*/
+    {
+      maskPath: "#mask-path-red",
+      trigger: "#path-red",
+      reverse: false,
+    },
+    /*
+            {
+                maskPath: '#mask-path-red-mobile',
+                trigger: '#path-red-mobile',
+                reverse: false
+            },*/
+    {
+      maskPath: "#mask-path-blue",
+      trigger: "#path-blue",
+      reverse: true,
+    },
+    /*{
+                maskPath: '#mask-path-blue-mobile',
+                trigger: '#path-blue-mobile',
+                reverse: true
+            }
+                */
+  ];
+
+  maskConfigs.forEach((config) => {
+    const maskPath = document.querySelector(config.maskPath);
+    const trigger = document.querySelector(config.trigger);
+
+    if (maskPath && trigger) {
+      if (config.reverse) {
+        gsap.set(maskPath, {
+          drawSVG: "100% 100%",
+        });
+        gsap.to(maskPath, {
+          drawSVG: "0% 100%",
+          ease: "power3.inOut",
+          scrollTrigger: {
+            trigger: trigger,
+            start: "top 80%",
+            end: "bottom 20%",
+            scrub: true,
+            invalidateOnRefresh: true,
+          },
+        });
+      } else {
+        gsap.set(maskPath, {
+          drawSVG: "0%",
+        });
+        gsap.to(maskPath, {
+          drawSVG: "100%",
+          ease: "power3.inOut",
+          scrollTrigger: {
+            trigger: trigger,
+            start: "top 80%",
+            end: "bottom 20%",
+            scrub: true,
+            invalidateOnRefresh: true,
+          },
+        });
+      }
+    }
+  });
 });
