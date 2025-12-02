@@ -8,9 +8,9 @@
             <span data-aos="fade-right" data-aos-easing="linear"
                 data-aos-delay="400" class="relative md:left-[-60%]">Tis</span>
             <span data-aos="zoom-in" data-aos-easing="linear"
-                data-aos-delay="500" class="relative md:left-[-10%]">the</span>
+                data-aos-delay="500" class="relative md:left-[-10%] md:top-[25px]">the</span>
             <span data-aos="fade-left" data-aos-easing="linear"
-                data-aos-delay="600" class="relative mt-[-20px] md:left-[55%] md:top-[-25px]">season</span>
+                data-aos-delay="600" class="relative mt-[-20px] md:left-[55%] md:top-[30px]">season</span>
         </h1>
         <img data-aos="fade-up" data-aos-easing="linear"
                 data-aos-delay="700" src="<?= $native_path ?>/assets/hero-bg.png" alt="Hero background" class="absolute hidden md:block bottom-[-30px]  w-full object-cover">
