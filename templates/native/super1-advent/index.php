@@ -5,9 +5,9 @@
 
 /* Potential native paths */
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
-//$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/super1-advent/';
+$native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/super1-advent/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/super1-advent/';
-$native_path = 'https://telegram-wp.ddev.site/wp-content/themes/telegram-desktop/templates/native/super1-advent/';
+//$native_path = 'https://telegram-wp.ddev.site/wp-content/themes/telegram-desktop/templates/native/super1-advent/';
 $distPath = __DIR__ . '/dist';
 $cssPath = $native_path . '/style.css';
 $jsPath = $native_path . '/main.js';
