@@ -61,7 +61,7 @@ $cards = [
                             <img src="<?= $card['image'] ?>"
                                 class="max-w-[273px] mx-auto w-full aspect-[0.76] object-cover"
                                 alt="card">
-                            <span class="text-secondary leading-[22px] font-climatecrisis text-[16px] lg:text-[18px] uppercase">
+                            <span class="text-secondary font-climatecrisis text-[16px] leading-[18px] lg:text-[18px] uppercase">
                                 <?= $card['text'] ?>
                             </span>
                         </div>

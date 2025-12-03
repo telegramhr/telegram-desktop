@@ -662,11 +662,8 @@
     }
   }
   @media (min-width: 48rem) {
-    .md\:top-\[25px\] {
-      top: 25px;
-    }
-    .md\:top-\[30px\] {
-      top: 30px;
+    .md\:top-\[-25px\] {
+      top: -25px;
     }
     .md\:left-\[-10\%\] {
       left: -10%;

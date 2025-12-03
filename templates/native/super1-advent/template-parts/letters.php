@@ -13,7 +13,6 @@
                         <span>Dear Santa,</span>
                         <p>For this Christmas, we want a perfect wool coat… and a little extra happiness to go with it.</p>
                     </div>
-                    <span class="flex self-end">Yours truly, <br>Super 1</span>
                 </div>
             </div>
         </div>
