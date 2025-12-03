@@ -6,13 +6,13 @@
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine" class="flex self-end pr-10">GIFT </br> GUIDES</span>
             <span data-aos="fade-right"
-                data-aos-offset="400"
+                data-aos-offset="300"
                 data-aos-easing="ease-in-sine" class="flex self-start">SHOPPING </br> RECS</span>
             <span data-aos="fade-left"
-                data-aos-offset="450"
+                data-aos-offset="300"
                 data-aos-easing="ease-in-sine" class="flex self-end">ADVENT </br> REVIEWS</span>
             <span data-aos="fade-right"
-                data-aos-offset="500"
+                data-aos-offset="300"
                 data-aos-easing="ease-in-sine" class="flex self-start">WARM </br> STORIES</span>
         </div>
     </div>

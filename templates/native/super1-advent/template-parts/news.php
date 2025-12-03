@@ -37,7 +37,7 @@ $cards = [
 <div class="w-full bg-primary">
     <div class="w-full max-w-[1920px] mx-auto  bg-primary px-4 overflow-hidden relative">
         <div class="max-w-[1200px] mx-auto w-full flex flex-col gap-4 lg:gap-8 pt-[22px] lg:pt-[160px] text-center">
-            <h2 data-aos="zoom-in" class="text-white font-ballet text-[110px] lg:text-[250px] leading-[180px] lg:leading-[220px]">
+            <h2 data-aos="zoom-in" class="text-white font-ballet text-[110px] lg:text-[200px] leading-[180px] lg:leading-[220px]">
                 <?= $title ?>
             </h2>
             <div class="grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-x-3 ">

@@ -1,7 +1,7 @@
 <div class="w-full bg-secondary">
     <div class="w-full max-w-[1920px] mx-auto relative bg-secondary overflow-hidden pt-[164px] lg:pb-[72px]">
-        <img src="<?= $native_path ?>assets/green-border.png" alt="Green border" class="hidden lg:block w-full h-full scale-[1.05] absolute inset-0">
-        <img src="<?= $native_path ?>assets/green-border-vertical.png" alt="Green border" class="block lg:hidden w-full h-full scale-[1.05] absolute inset-0">
+        <img src="<?= $native_path ?>assets/green-border.png" alt="Green border" class="hidden lg:block w-full h-full scale-[1.005] absolute inset-0">
+        <img src="<?= $native_path ?>assets/green-border-vertical.png" alt="Green border" class="block lg:hidden w-full h-full scale-[1.005] absolute inset-0">
 
         <div class="w-full max-w-[1200px] px-4 flex justify-center mx-auto relative">
             <img src="<?= $native_path ?>/assets/envelopes.webp" alt="Koverte" class="envelopes-parallax max-w-[860px] w-full top-[-130px] lg:top-[-180px] absolute inset-x-0 mx-auto ">
@@ -39,7 +39,7 @@
 
     function updatePositions() {
         if (envelopes) {
-            envelopes.style.transform = `translateY(${lastScrollY * 0.15}px)`;
+            envelopes.style.transform = `translateY(${lastScrollY * 0.05}px)`;
         }
 
         if (paper) {
