@@ -1,36 +1,36 @@
  <?php
     $posts = [
         [
-            "title" => "10 jela sa zagrebačkog Adventa koja će..",
-            "img" => $native_path . "/assets/posts/advent-1.png",
-            "link" => "www.telegram.hr",
+            "title" => "Na manje od sat i pol vožnje od Zagreba ...",
+            "img" => "https://www.telegram.hr/wp-content/uploads/2025/11/tg-naslovna-2025-11-25-1-1-2.jpg",
+            "link" => "https://www.telegram.hr/partneri/na-manje-od-sat-i-pol-voznje-od-zagreba-ceka-vas-genijalan-adventski-program-sve-pocinje-ovog-vikenda/ ",
         ],
         [
-            "title" => "10 jela sa zagrebačkog Adventa koja će..",
-            "img" => $native_path . "/assets/posts/advent-2.png",
-            "link" => "www.telegram.hr",
+            "title" => "Nakon dvije godine Advent se vraća na Gornji grad ...",
+            "img" =>  $native_path . '/assets/posts/advent-zagreb.webp',
+            "link" => "https://www.telegram.hr/partneri/nakon-dvije-godine-advent-se-vraca-na-gornji-grad-ovo-su-lokacije-koje-necemo-propustiti/",
         ],
         [
-            "title" => "10 jela sa zagrebačkog Adventa koja će..",
-            "img" => $native_path . "/assets/posts/advent-3.png",
-            "link" => "www.telegram.hr",
+            "title" => "Ovih dana počinju i adventski sajmovi u okolici Zagreba ...",
+            "img" =>  "https://images.telegram.hr/7z4cZZsO0Fo09hjL4s3CCrsWbeMHVxfW9FroXBhJkcQ/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvYWR2ZW50LXUtZ29yaWNpLWNvdmVyLmpwZw.webp",
+            "link" => "https://www.telegram.hr/super1/life/adventski-sajmovi-u-okolici-zagreba-vodic/",
         ],
     ];
     $posts2 = [
         [
-            "title" => "10 jela sa zagrebačkog Adventa koja će..",
-            "img" => $native_path . "/assets/posts/advent-4.png",
-            "link" => "www.telegram.hr",
+            'img' => $native_path . '/assets/posts/fuliranje.webp',
+            'title' => 'Posjetili smo Advent i pronašli svoje favorite, donosimo veliki vodič za Fuliranje i Fooling Around',
+            'link' => 'https://www.telegram.hr/super1/life/advent-fuliranje-fooling-around-sto-smo-isprobali/'
         ],
         [
-            "title" => "10 jela sa zagrebačkog Adventa koja će..",
-            "img" => $native_path . "/assets/posts/advent-5.png",
-            "link" => "www.telegram.hr",
+            'img' => 'https://images.telegram.hr/A7gkJO_STouT_j-9ypcrQYGCcG3g0asgTOPx-CSmxE4/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvemFncmViLWFkdmVudC0yMDI1LWxva2FjaWplLmpwZw.webp',
+            'title' => ' Gdje na Advent? Fooling Around, Ledeni park i još 9 adventskih lokacija u Zagrebu',
+            'link' => 'https://www.telegram.hr/super1/life/gdje-na-advent-fooling-around-ledeni-park-i-jos-9-adventskih-lokacija-u-zagrebu/'
         ],
         [
-            "title" => "10 jela sa zagrebačkog Adventa koja će..",
-            "img" => $native_path . "/assets/posts/advent-6.png",
-            "link" => "www.telegram.hr",
+            'img' => 'https://images.telegram.hr/nhsE7U93twbNowudlQUbFDaj9oqIYE_wi2xwSLon8kY/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTIvZHNjMTk3MC5qcGVn.webp',
+            'title' => 'Više od 50 različitih jela te 16 kuhara i influencera u dvobojima Zvijezde kuhaju',
+            'link' => 'https://www.telegram.hr/super1/life/50-razlicitih-jela-eu-advent/'
         ],
     ];
     ?>
@@ -43,7 +43,7 @@
      <div class="max-w-[1090px] mx-auto pt-[30px] md:pt-16 flex flex-col gap-10 md:gap-[52px] relative">
          <div class="flex flex-col gap-[30px] md:gap-[46px] max-w-[670px] mx-auto w-full">
              <h2 class="font-christmas text-[39px] md:text-[60px] leading-11 md:leading-[64px] text-center text-primary">Sve priče na jednom mjestu</h2>
-             <p class="font-poppins text-base text-center text-primary">Lorem ipsum dolor sit amet consectetur. Senectus vivamus elit nec turpis sed aenean sem tempor aenean. Netus varius consequat lacus in vel non et posuere quis. Nunc viverra aliquet pellentesque et.</p>
+             <p class="font-poppins text-base text-center text-primary">Svi neodoljivi trenuci blagdana okupili smo na jedno mjesto. Polarni Express vodi vas kroz provod, zalogaje, cugu i poklone - sve što vam treba za sjajan kraj godine. Pronađite svoje mjesto, udobno se smjestite, istražite sve i na kraju s ovog putovanja sa sobom ponesite najbolje blagdanske uspomene koje će vas još dugo podsjećati da je prava zimska magija započela upravo ovdje. </p>
          </div>
          <div class="flex flex-col gap-2 lg:gap-6">
              <div class="grid grid-cols-2 md:flex flex-row gap-2 lg:gap-6">
