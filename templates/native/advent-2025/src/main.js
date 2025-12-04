@@ -6,6 +6,7 @@ import DrawSVGPlugin from "gsap/DrawSVGPlugin";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 document.addEventListener("DOMContentLoaded", () => {
+  /*
   let currentWeekIndex = 0;
   let mixersDesktop = [];
   let flickityInstances = [];
@@ -247,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }, 250);
   });
-
+*/
   // -------------------- Snow effect --------------------
   const snowContainer = document.querySelector(".snow");
 
@@ -272,7 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // -------------------- Start --------------------
-  initMixitup();
+  //initMixitup();
 
   // -------------------- GSAP ---------------------
   gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
