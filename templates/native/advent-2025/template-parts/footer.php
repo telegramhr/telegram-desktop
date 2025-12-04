@@ -63,7 +63,7 @@
                          <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(0,0,0,0) 54.68%, rgba(0,0,0,0.8) 100%);"></div>
 
                          <div class="absolute bottom-0 left-0 w-full px-[14px] lg:px-6 pb-[15px] lg:pb-7 pointer-events-none">
-                             <span class="line-clamp-3 md:line-clamp-4 font-poppins lg:font-semibold lg:leading-7 lg:text-[24px] text-[#FEF4D3] text-[18px] leading-5">
+                             <span class="line-clamp-3 md:line-clamp-4 font-poppins lg:font-semibold leading-5 lg:leading-7 lg:text-[24px] text-[#FEF4D3] text-[18px]">
                                  <?= $post["title"] ?>
                              </span>
                          </div>
@@ -91,7 +91,7 @@
                          <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(0,0,0,0) 54.68%, rgba(0,0,0,0.8) 100%);"></div>
 
                          <div class="absolute bottom-0 left-0 w-full px-[14px] lg:px-6 pb-[15px] lg:pb-7 pointer-events-none">
-                             <span class="line-clamp-3 md:line-clamp-4 font-poppins md:font-semibold leading-7 md:text-[24px] text-[#FEF4D3] text-base">
+                             <span class="line-clamp-3 md:line-clamp-4 font-poppins md:font-semibold leading-5 lg:leading-7 md:text-[24px] text-[#FEF4D3] text-base">
                                  <?= $post["title"] ?>
                              </span>
                          </div>
