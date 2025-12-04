@@ -15,9 +15,7 @@ radial-gradient(51.12% 50.89% at 50% 49.11%, #1D346E 0%, rgba(0, 0, 0, 0) 100%);
                 Polarni Express!</h1>
             <p class="text-base font-poppins text-center text-white max-w-[670px] mx-auto">Ovo je vaša polazišna točka
                 za najblistaviju blagdansku atmosferu! Vodimo vas kroz svjetlucave ulice adventa, mirise zimskih
-                delicija i trenutke koji će vas podsjetiti zašto je božićno vrijeme najljepše doba godine. Na jednom
-                mjestu okupljamo adventske hitove sezone. Stoga zakopčajte kapute, pripremite osmijehe, srca ispunite
-                toplinom i krenite s nama punom parom na putovanje koje se pamti.</p>
+                delicija i trenutke koji će vas podsjetiti zašto je božićno vrijeme najljepše doba godine.</p>
         </div>
     </div>
 </div>

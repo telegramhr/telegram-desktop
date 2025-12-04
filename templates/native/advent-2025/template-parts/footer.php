@@ -43,7 +43,7 @@
      <div class="max-w-[1090px] mx-auto pt-[30px] md:pt-16 flex flex-col gap-10 md:gap-[52px] relative">
          <div class="flex flex-col gap-[30px] md:gap-[46px] max-w-[670px] mx-auto w-full">
              <h2 class="font-christmas text-[39px] md:text-[60px] leading-11 md:leading-[64px] text-center text-primary">Sve priče na jednom mjestu</h2>
-             <p class="font-poppins text-base text-center text-primary">Svi neodoljivi trenuci blagdana okupili smo na jedno mjesto. Polarni Express vodi vas kroz provod, zalogaje, cugu i poklone - sve što vam treba za sjajan kraj godine. Pronađite svoje mjesto, udobno se smjestite, istražite sve i na kraju s ovog putovanja sa sobom ponesite najbolje blagdanske uspomene koje će vas još dugo podsjećati da je prava zimska magija započela upravo ovdje. </p>
+             <p class="font-poppins text-base md:text-[20px] text-center text-primary">Svi neodoljivi trenuci blagdana okupili smo na jedno mjesto. Polarni Express vodi vas kroz provod, zalogaje, cugu i poklone - sve što vam treba za sjajan kraj godine. Pronađite svoje mjesto, udobno se smjestite, istražite sve i na kraju s ovog putovanja sa sobom ponesite najbolje blagdanske uspomene koje će vas još dugo podsjećati da je prava zimska magija započela upravo ovdje. </p>
          </div>
          <div class="flex flex-col gap-2 lg:gap-6">
              <div class="grid grid-cols-2 md:flex flex-row gap-2 lg:gap-6">

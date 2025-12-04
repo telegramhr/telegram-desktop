@@ -303,7 +303,4 @@ $daysOfWeek = [
     }
 </style>
 <script>
-    window.adventData = {
-        weekKeys: <?= json_encode($weekKeys) ?>
-    };
 </script>

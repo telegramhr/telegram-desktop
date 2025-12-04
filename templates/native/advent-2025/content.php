@@ -47,7 +47,7 @@
         'native_path' => $native_path,
         'style' => 'blue',
         'title' => 'Top stanice za poklone',
-        'description' => 'Krenite u potragu za poklonima koji će razveseliti, iznenaditi i ostati zapamćeni još dugo nakon što se lampice ugase, a božićne pjesme utihnu. Ovdje vas čekaju kreativne ideje, neodoljive sitnice, domaći proizvodi i unikatni darovi. Svaka stanica donosi inovativnost i originalnost koje će vas potaknuti da u blagdanski šoping pođete bez muke i stresa. Prepustite se inspiraciji i na jednostavan način otkrijte gdje se kriju najljepši blagdanski darovi ove sezone.',
+        'description' => 'Krenite u potragu za poklonima koji će razveseliti, iznenaditi i ostati zapamćeni još dugo nakon što se lampice ugase, a božićne pjesme utihnu. Ovdje vas čekaju kreativne ideje, neodoljive sitnice, domaći proizvodi i unikatni darovi.',
         'polaroids' => [
             [
                 'image' => 'https://www.telegram.hr/wp-content/uploads/2025/11/party-kolekcije-cover.jpg',
