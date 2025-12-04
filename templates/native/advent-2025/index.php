@@ -19,7 +19,7 @@ $jsPath = $native_path . '/main.js';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); 
     ?>
-    <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=1">
+    <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=2">
     <script src="<?php echo $native_path; ?>/dist/main.js?v=2"></script>
 </head>
 
