@@ -7,7 +7,7 @@
         ],
         [
             "title" => "Nakon dvije godine Advent se vraća na Gornji grad ...",
-            "img" =>  "https://www.telegram.hr/wp-content/uploads/2025/11/advent-zagreb-2023-julien-duval.jpg",
+            "img" =>  $native_path . '/assets/posts/advent-zagreb.webp',
             "link" => "https://www.telegram.hr/partneri/nakon-dvije-godine-advent-se-vraca-na-gornji-grad-ovo-su-lokacije-koje-necemo-propustiti/",
         ],
         [
@@ -18,19 +18,19 @@
     ];
     $posts2 = [
         [
-            "title" => "Na manje od sat i pol vožnje od Zagreba ...",
-            "img" => "https://www.telegram.hr/wp-content/uploads/2025/11/tg-naslovna-2025-11-25-1-1-2.jpg",
-            "link" => "https://www.telegram.hr/partneri/na-manje-od-sat-i-pol-voznje-od-zagreba-ceka-vas-genijalan-adventski-program-sve-pocinje-ovog-vikenda/ ",
+            'img' => $native_path . '/assets/posts/fuliranje.webp',
+            'title' => 'Posjetili smo Advent i pronašli svoje favorite, donosimo veliki vodič za Fuliranje i Fooling Around',
+            'link' => 'https://www.telegram.hr/super1/life/advent-fuliranje-fooling-around-sto-smo-isprobali/'
         ],
         [
-            "title" => "Nakon dvije godine Advent se vraća na Gornji grad ...",
-            "img" =>  "https://www.telegram.hr/wp-content/uploads/2025/11/advent-zagreb-2023-julien-duval.jpg",
-            "link" => "https://www.telegram.hr/partneri/nakon-dvije-godine-advent-se-vraca-na-gornji-grad-ovo-su-lokacije-koje-necemo-propustiti/",
+            'img' => 'https://images.telegram.hr/A7gkJO_STouT_j-9ypcrQYGCcG3g0asgTOPx-CSmxE4/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvemFncmViLWFkdmVudC0yMDI1LWxva2FjaWplLmpwZw.webp',
+            'title' => ' Gdje na Advent? Fooling Around, Ledeni park i još 9 adventskih lokacija u Zagrebu',
+            'link' => 'https://www.telegram.hr/super1/life/gdje-na-advent-fooling-around-ledeni-park-i-jos-9-adventskih-lokacija-u-zagrebu/'
         ],
         [
-            "title" => "Ovih dana počinju i adventski sajmovi u okolici Zagreba ...",
-            "img" =>  "https://images.telegram.hr/7z4cZZsO0Fo09hjL4s3CCrsWbeMHVxfW9FroXBhJkcQ/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvYWR2ZW50LXUtZ29yaWNpLWNvdmVyLmpwZw.webp",
-            "link" => "https://www.telegram.hr/super1/life/adventski-sajmovi-u-okolici-zagreba-vodic/",
+            'img' => 'https://images.telegram.hr/nhsE7U93twbNowudlQUbFDaj9oqIYE_wi2xwSLon8kY/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTIvZHNjMTk3MC5qcGVn.webp',
+            'title' => 'Više od 50 različitih jela te 16 kuhara i influencera u dvobojima Zvijezde kuhaju',
+            'link' => 'https://www.telegram.hr/super1/life/50-razlicitih-jela-eu-advent/'
         ],
     ];
     ?>

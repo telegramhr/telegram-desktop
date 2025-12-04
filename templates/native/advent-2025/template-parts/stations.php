@@ -250,7 +250,7 @@ $native_path = $props['native_path'];
             <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
                 target="_blank"
                 class="polaroid-item hover:scale-[1.02] transition-all duration-300 ease-in-out">
-                <div class="flex flex-col gap-[22px] px-4 pt-7 pb-[22px] bg-white max-w-[320px]">
+                <div class="h-full flex flex-col gap-[22px] px-4 pt-7 pb-[22px] bg-white max-w-[320px]">
                     <img class="aspect-square z-30 object-cover" src="<?= $polaroid['image'] ?>" alt="">
                     <p class="font-poppins font-medium text-[20px] leading-7 tracking-[-0.2px]"><?= $polaroid['text'] ?></p>
                 </div>

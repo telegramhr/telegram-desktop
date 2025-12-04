@@ -9,7 +9,7 @@
         'description' => 'Blagdanski dani skrivaju najljepše priče, a najbolje od njih događaju se upravo na našim top stanicama za provod. Na brojnim pozornicama pronaći ćete idealnu priliku za ples, obiteljsko druženje, romantičnu šetnju ili čisto uživanje u zimskoj atmosferi. Ovi živahni punktovi namijenjeni su za sve koji žele osjetiti pravi duh blagdana.',
         'polaroids' => [
             ['image' => 'https://www.telegram.hr/wp-content/uploads/2025/11/tg-naslovna-2025-11-25-1-1-2.jpg', 'text' => 'Na manje od sat i pol vožnje od Zagreba čeka vas genijalan adventski program. Sve počinje ovog vikenda', 'link' => ' https://www.telegram.hr/partneri/na-manje-od-sat-i-pol-voznje-od-zagreba-ceka-vas-genijalan-adventski-program-sve-pocinje-ovog-vikenda/ '],
-            ['image' => 'https://www.telegram.hr/wp-content/uploads/2025/11/advent-zagreb-2023-julien-duval.jpg', 'text' => 'Nakon dvije godine Advent se vraća na Gornji grad: ovo su lokacije koje nećemo propustiti', 'link' => 'https://www.telegram.hr/partneri/nakon-dvije-godine-advent-se-vraca-na-gornji-grad-ovo-su-lokacije-koje-necemo-propustiti/'],
+            ['image' => $native_path . '/assets/posts/advent-zagreb.webp', 'text' => 'Nakon dvije godine Advent se vraća na Gornji grad: ovo su lokacije koje nećemo propustiti', 'link' => 'https://www.telegram.hr/partneri/nakon-dvije-godine-advent-se-vraca-na-gornji-grad-ovo-su-lokacije-koje-necemo-propustiti/'],
             ['image' => 'https://images.telegram.hr/7z4cZZsO0Fo09hjL4s3CCrsWbeMHVxfW9FroXBhJkcQ/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvYWR2ZW50LXUtZ29yaWNpLWNvdmVyLmpwZw.webp', 'text' => 'Ovih dana počinju i adventski sajmovi u okolici Zagreba, evo što vas sve ondje očekuje', 'link' => 'https://www.telegram.hr/super1/life/adventski-sajmovi-u-okolici-zagreba-vodic/'],
         ],
     ]); ?>
@@ -19,7 +19,7 @@
         'title' => 'Top stanice za zalogaj',
         'description' => 'Ovdje vas čekaju mirisi koji mame izdaleka, delicije koje spajaju tradiciju i modernost te zalogaji koji podsjećaju zašto u prosincu ne brojimo kalorije. Krenite s nama na gastro obilazak u kojemu će i najzahtjevniji gurmani pronaći nešto po svom ukusu. ',
         'polaroids' => [
-            ['image' => 'https://www.telegram.hr/wp-content/uploads/2025/11/fuliranje24-271125.jpg', 'text' => 'Posjetili smo Advent i pronašli svoje favorite, donosimo veliki vodič za Fuliranje i Fooling Around', 'link' => 'https://www.telegram.hr/super1/life/advent-fuliranje-fooling-around-sto-smo-isprobali/'],
+            ['image' => $native_path . '/assets/posts/fuliranje.webp', 'text' => 'Posjetili smo Advent i pronašli svoje favorite, donosimo veliki vodič za Fuliranje i Fooling Around', 'link' => 'https://www.telegram.hr/super1/life/advent-fuliranje-fooling-around-sto-smo-isprobali/'],
             ['image' => 'https://images.telegram.hr/A7gkJO_STouT_j-9ypcrQYGCcG3g0asgTOPx-CSmxE4/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvemFncmViLWFkdmVudC0yMDI1LWxva2FjaWplLmpwZw.webp', 'text' => ' Gdje na Advent? Fooling Around, Ledeni park i još 9 adventskih lokacija u Zagrebu', 'link' => 'https://www.telegram.hr/super1/life/gdje-na-advent-fooling-around-ledeni-park-i-jos-9-adventskih-lokacija-u-zagrebu/'],
             ['image' => 'https://images.telegram.hr/nhsE7U93twbNowudlQUbFDaj9oqIYE_wi2xwSLon8kY/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTIvZHNjMTk3MC5qcGVn.webp', 'text' => 'Više od 50 različitih jela te 16 kuhara i influencera u dvobojima Zvijezde kuhaju', 'link' => 'https://www.telegram.hr/super1/life/50-razlicitih-jela-eu-advent/'],
         ],
@@ -36,7 +36,7 @@
                 'link' => 'https://www.telegram.hr/super1/recepti/vruca-cokolada-s-temeljcem-od-kostiju-tiktok-recept/'
             ],
             [
-                'image' => 'https://www.telegram.hr/wp-content/uploads/2025/11/fuliranje24-271125.jpg',
+                'image' => $native_path . '/assets/posts/fuliranje.webp',
                 'text' => 'Posjetili smo Advent i pronašli svoje favorite, donosimo veliki vodič za Fuliranje i Fooling Around',
                 'link' => 'https://www.telegram.hr/super1/life/advent-fuliranje-fooling-around-sto-smo-isprobali/'
             ],
