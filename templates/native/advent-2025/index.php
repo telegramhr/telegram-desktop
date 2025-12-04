@@ -20,7 +20,7 @@ $jsPath = $native_path . '/main.js';
     <?php wp_head(); 
     ?>
     <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v">
-    <script src="<?php echo $native_path; ?>/dist/main.js"></script>
+    <script src="<?php echo $native_path; ?>/dist/main.js?v=1"></script>
     <meta name="robots" content="noindex">
 </head>
 
