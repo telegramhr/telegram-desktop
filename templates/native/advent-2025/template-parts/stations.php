@@ -3,7 +3,7 @@
 $style = $props['style'] ?? 'red';
 $title = $props['title'] ?? 'Test';
 $description = $props['description'] ?? '';
-$polaroids = array_slice($props['polaroids'] ?? [], 0, 3);
+$polaroids = array_slice($props['polaroids'] ?? [], 0, 4);
 $block_id = 'stations-' . uniqid();
 $is_first = ($style === 'bordo');
 $native_path = $props['native_path'];
@@ -245,11 +245,12 @@ $native_path = $props['native_path'];
     </div>
 
     <!-- Polaroids -->
-    <div id="polaroids-<?= $block_id ?>" class="flex flex-col md:flex-row gap-12 lg:gap-16 relative z-20 px-4">
+    <div id="polaroids-<?= $block_id ?>"
+        class="max-w-[1200px] mx-auto w-full flex flex-wrap justify-center gap-12 lg:gap-16 relative z-20 px-4">
         <?php foreach ($polaroids as $polaroid): ?>
-            <a href="<?= $polaroid['link'] ?? 'www.telegram.hr' ?>"
+            <a href="<?= $polaroid['link'] ?? 'https://www.telegram.hr' ?>"
                 target="_blank"
-                class="polaroid-item hover:scale-[1.02] transition-all duration-300 ease-in-out">
+                class="polaroid-item w-fit hover:scale-[1.02] transition-all duration-300 ease-in-out">
                 <div class="h-full flex flex-col gap-[22px] px-4 pt-7 pb-[22px] bg-white max-w-[320px]">
                     <img class="aspect-square z-30 object-cover" src="<?= $polaroid['image'] ?>" alt="">
                     <p class="font-poppins font-medium text-[20px] leading-7 tracking-[-0.2px]"><?= $polaroid['text'] ?></p>
