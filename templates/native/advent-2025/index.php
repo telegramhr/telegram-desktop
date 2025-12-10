@@ -7,7 +7,7 @@
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
 $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/advent-2025/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/kavatip-by-franck/';
-//$native_path = 'https://telegram-wp.ddev.site/wp-content/themes/telegram-desktop/templates/native/advent-2025';
+//$native_path = 'https://telegram.ddev.site/wp-content/themes/telegram-desktop/templates/native/advent-2025';
 $distPath = __DIR__ . '/dist';
 $cssPath = $native_path . '/style.css';
 $jsPath = $native_path . '/main.js';
@@ -17,10 +17,10 @@ $jsPath = $native_path . '/main.js';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php wp_head(); 
+    <?php wp_head();
     ?>
-    <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=4">
-    <script src="<?php echo $native_path; ?>/dist/main.js?v=2"></script>
+    <link rel="stylesheet" href="<?php echo $native_path; ?>/dist/style.css?v=<?php echo file_exists($cssPath) ? filemtime($cssPath) : '1'; ?>">
+    <script src="<?php echo $native_path; ?>/dist/main.js?v=<?php echo file_exists($jsPath) ? filemtime($jsPath) : '1'; ?>" defer></script>
 </head>
 
 <body>
@@ -36,7 +36,7 @@ $jsPath = $native_path . '/main.js';
         <?php
         require_once 'footer.php';
         ?>
-        <?php  wp_footer(); 
+        <?php wp_footer();
         ?>
     </div>
 </body>
