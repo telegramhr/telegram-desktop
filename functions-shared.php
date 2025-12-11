@@ -189,7 +189,7 @@ function telegram_trim($content, $id = 0) {
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [2737012, 2727750, 2719271, 2697008, 2633301, 2628482,2616854, 2616789, 2586227, 2440142, 2393151, 2373566, 2384343,2388443, 1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246, 2355120, 2373566])) {
+                if (in_array($id, [2763218, 2737012, 2727750, 2719271, 2697008, 2633301, 2628482,2616854, 2616789, 2586227, 2440142, 2393151, 2373566, 2384343,2388443, 1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246, 2355120, 2373566])) {
                     $rel = '';
                 }
                 return '<a href="' . $m[2] . '" target="_blank" rel="' . $rel . '">' . $m[3] . '</a>';
@@ -290,6 +290,9 @@ function fixed_img_caption_shortcode($attr, $content = null) {
     if (strpos($content, 'uploads/sites/3') !== false) {
         return $content;
     }
+    if (strpos($content, 'wp-element-caption')) {
+        return $content;
+    }
 	// New-style shortcode with the caption inside the shortcode with the link and image tags.
 	if ( ! isset( $attr['caption'] ) ) {
 		if ( preg_match( '#((?:<a [^>]+>\s*)?<img [^>]+>(?:\s*</a>)?)(.*)#is', $content, $matches ) ) {
@@ -305,7 +308,7 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 		'caption' => ''
 	), $attr));
 
-	if ( 1 > (int) $width || empty($caption) )
+	if ( 1 > (int) $width )
 		return $content;
 	$image_id = str_replace('attachment_', '', $id);
 
@@ -335,12 +338,13 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 
 function super1_unautop_4_img( $content )
 {
-    if (strpos($content, 'sites/3') !== false) {
-        return $content;
-    }
+
     $content = preg_replace_callback('/(<figure class="wp-block-media-text.*?><img(.*?)><\/figure>)/s',
         function($m) {
             if (count($m)<2) {
+                return $m[0];
+            }
+            if (strpos($m[0], 'sites/3') !== false || strpos($m[0], 'wp-element-caption') !== false) {
                 return $m[0];
             }
             $matches = [];
@@ -372,6 +376,9 @@ function super1_unautop_4_img( $content )
             if (count($m)<2) {
                 return $m[0];
             }
+            if (strpos($m[0], 'sites/3') !== false || strpos($m[0], 'wp-element-caption') !== false) {
+                return $m[0];
+            }
             $matches = [];
             preg_match('@class="([^"]+)"@', $m[2], $matches);
             $classes = explode(' ', $matches[1]);
@@ -398,6 +405,9 @@ function super1_unautop_4_img( $content )
     $content = preg_replace_callback('/(<div class="wp-block-image.*?><figure.*?><img(.*?)><\/figure><\/div>)/s',
         function($m) {
             if (count($m)<2) {
+                return $m[0];
+            }
+            if (strpos($m[0], 'sites/3') !== false || strpos($m[0], 'wp-element-caption') !== false) {
                 return $m[0];
             }
             $matches = [];
@@ -427,6 +437,9 @@ function super1_unautop_4_img( $content )
         '/<p>\\s*?(<a rel=\"attachment.*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s',
         function($m) {
             if (count($m)<2) {
+                return $m[0];
+            }
+            if (strpos($m[0], 'sites/3') !== false || strpos($m[0], 'wp-element-caption') !== false) {
                 return $m[0];
             }
             $matches = [];
@@ -851,6 +864,29 @@ add_filter('web_stories_hide_auto_generated_attachments', 'telegram_web_stories_
 
 function telegram_web_stories_media_lib($return, $args) {
     return false;
+}
+
+add_filter( "render_block_core/image", 'telegram_block_image', 10, 3 );
+/**
+ * @param $block_content
+ * @param $block
+ * @param WP_Block $that
+ * @return mixed
+ */
+function telegram_block_image($block_content, $block, $that) {
+    global $post;
+    $post_id = $that->parsed_block['attrs']['id'];
+    $photo = telegram_get_photographer($post_id);
+    if (!$photo) {
+        return $block_content;
+    }
+    if (strpos( $block_content, 'figcaption') !== false) {
+        $block_content = str_replace( '<figcaption class="wp-element-caption">', '<figcaption class="wp-element-caption"><span>', $block_content );
+        $block_content = str_replace( '</figcaption>', '</span><span class="photographer">' . $photo . '</span>', $block_content );
+    } else {
+        $block_content = str_replace('</figure>', '<figcaption class="wp-element-caption"><span class="photographer">' . $photo . '</span></figcaption></figure>', $block_content);
+    }
+    return $block_content;
 }
 
 function tema_register_podcast_platforms_block()
