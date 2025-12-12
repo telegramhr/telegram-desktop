@@ -1,6 +1,7 @@
 <main class="w-full ">
     <div class="snow"></div>
     <?php include 'template-parts/hero.php'; ?>
+    <div id="stanice-za-provod"></div>
 
     <?php partial('stations', [
         'native_path' => $native_path,

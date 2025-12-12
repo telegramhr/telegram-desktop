@@ -7,7 +7,7 @@
 //$native_path = get_stylesheet_directory_uri() . '/templates/native/client/landing/';
 $native_path = 'https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/advent-2025/';
 //$native_path = 'http://staging.telegram.hr/wp-content/themes/telegram-desktop/templates/native/kavatip-by-franck/';
-//$native_path = 'https://telegram.ddev.site/wp-content/themes/telegram-desktop/templates/native/advent-2025';
+//$native_path = 'https://telegram-wp.ddev.site/wp-content/themes/telegram-desktop/templates/native/advent-2025';
 $distPath = __DIR__ . '/dist';
 $cssPath = $native_path . '/style.css';
 $jsPath = $native_path . '/main.js';
