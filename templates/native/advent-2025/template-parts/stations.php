@@ -3,7 +3,7 @@
 $style = $props['style'] ?? 'red';
 $title = $props['title'] ?? 'Test';
 $description = $props['description'] ?? '';
-$polaroids = array_slice($props['polaroids'] ?? [], 0, 4);
+$polaroids = $props['polaroids'];
 $block_id = 'stations-' . uniqid();
 $is_first = ($style === 'bordo');
 $native_path = $props['native_path'];
