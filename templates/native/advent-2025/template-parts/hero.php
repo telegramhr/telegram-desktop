@@ -17,16 +17,6 @@ radial-gradient(51.12% 50.89% at 50% 49.11%, #1D346E 0%, rgba(0, 0, 0, 0) 100%);
                     za najblistaviju blagdansku atmosferu! Vodimo vas kroz svjetlucave ulice adventa, mirise zimskih
                     delicija i trenutke koji će vas podsjetiti zašto je božićno vrijeme najljepše doba godine.</p>
             </div>
-            <a href="#stanice-za-provod"
-                class="bg-[#9F3A3C] text-white font-semibold text-sm md:text-base px-5 py-3 rounded-[5px] font-poppins cursor-pointer hover:bg-[#7c2a2c] transition">
-                Posjetite Telegramov Polarni Express
-            </a>
-        </div>
-        <div class="flex mx-auto mt-10 md:mx-0 md:mt-0 md:flex-row gap-5 lg:gap-8">
-            <img src="<?= $native_path; ?>/assets/hero/zrinjevac.png" alt="Zrinjevac logo"
-                class="h-[40px] md:h-[54px] object-contain">
-            <img src="<?= $native_path; ?>/assets/hero/split.png" alt="Split logo"
-                class="h-[40px] md:h-[54px] object-contain">
         </div>
     </div>
 </div>
