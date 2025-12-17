@@ -69,6 +69,11 @@
                 'text' => 'Ovi proizvodi neizostavni su u dekoriranju božićnog doma. Znamo gdje ih uloviti na popustu',
                 'link' => 'https://www.telegram.hr/partneri/ovi-proizvodi-neizostavni-su-u-dekoriranju-bozicnog-doma-znamo-gdje-ih-uloviti-na-popustu/'
             ],
+            [
+                'image' => 'https://images.telegram.hr/7lKkLStXB-Di0iSEo6VxOl4p4L78fOhcb7xtMCwLT0A/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTIvZGl6YWpuLWJlei1uYXNsb3ZhLTE5LmpwZw.webp',
+                'text' => 'Zašto je vrijeme najbolja stvar koju možemo pokloniti ovih blagdana i koji uređaji nam u tome pomažu?',
+                'link' => 'https://www.telegram.hr/super1/life/najbolji-blagdanski-poklon-vrijeme-samsung/'
+            ],
         ],
     ]); ?>
     <?php include 'template-parts/footer.php'; ?>
