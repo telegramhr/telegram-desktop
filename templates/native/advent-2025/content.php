@@ -27,6 +27,7 @@
             ['image' => $native_path . '/assets/posts/fuliranje.webp', 'text' => 'Posjetili smo Advent i pronašli svoje favorite, donosimo veliki vodič za Fuliranje i Fooling Around', 'link' => 'https://www.telegram.hr/super1/life/advent-fuliranje-fooling-around-sto-smo-isprobali/'],
             ['image' => 'https://images.telegram.hr/A7gkJO_STouT_j-9ypcrQYGCcG3g0asgTOPx-CSmxE4/preset:s1single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvemFncmViLWFkdmVudC0yMDI1LWxva2FjaWplLmpwZw.webp', 'text' => ' Gdje na Advent? Fooling Around, Ledeni park i još 9 adventskih lokacija u Zagrebu', 'link' => 'https://www.telegram.hr/super1/life/gdje-na-advent-fooling-around-ledeni-park-i-jos-9-adventskih-lokacija-u-zagrebu/'],
             ['image' => 'https://images.telegram.hr/nhsE7U93twbNowudlQUbFDaj9oqIYE_wi2xwSLon8kY/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTIvZHNjMTk3MC5qcGVn.webp', 'text' => 'Više od 50 različitih jela te 16 kuhara i influencera u dvobojima Zvijezde kuhaju', 'link' => 'https://www.telegram.hr/super1/life/50-razlicitih-jela-eu-advent/'],
+            ['image' => 'https://images.telegram.hr/2DxjM-0o7x6-a3yxmLcYeJlncntOCxBroVX0aj7DDxY/preset:s1single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTIvZGV0YWxqLmpwZw.webp', 'text' => 'Dobra glazba, fini zalogaji i dnevni doček Nove godine: Što sve vas čeka na finalu Adventa u Splitu?', 'link' => 'https://www.telegram.hr/super1/life/finale-adventa-u-splitu/'],
         ],
     ]); ?>
     <?php partial('stations', [
