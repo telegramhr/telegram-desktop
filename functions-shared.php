@@ -2,7 +2,7 @@
 require_once ('plugins/shortcodes.php');
 require_once ('plugins/charts.php');
 require_once ('plugins/acf.php');
-
+$content_width = 605;
 remove_action( 'do_pings', 'do_all_pings' );
 
 define('PARENT_PATH', get_theme_root_uri().'/telegram2-desktop');
@@ -333,7 +333,7 @@ function fixed_img_caption_shortcode($attr, $content = null) {
 	           . $content . '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><span class="photographer">' . $photo . '</span></figcaption></figure>';
     }
 	return '<figure ' . $id . 'class="wp-block-image wp-caption ' . esc_attr( $align ) . '">'
-	       . $content . '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>';
+	       . $content . '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>';
 }
 
 function super1_unautop_4_img( $content )
@@ -360,10 +360,10 @@ function super1_unautop_4_img( $content )
                 $photo   = telegram_get_photographer( $image_id );
                 $caption = wp_get_attachment_caption( $image_id );
                 if ( $photo ) {
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>', $m[1]);
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><div class="photographer">' . $photo . '</div></figcaption></figure>', $m[1]);
                 }
                 else {
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>', $m[1]);;
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"></span>' . $caption . '</span></figcaption></figure>', $m[1]);;
                 }
                 return $content;
             }
@@ -391,11 +391,12 @@ function super1_unautop_4_img( $content )
             if ($image_id) {
                 $photo   = telegram_get_photographer( $image_id );
                 $caption = wp_get_attachment_caption( $image_id );
+                $content = str_replace('<figcaption>', '<figcaption><span>', $m[1]);
                 if ( $photo ) {
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>', $m[1]);
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span> <div class="photographer">' . $photo . '</div></figcaption></figure>', $content);
                 }
                 else {
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>', $m[1]);;
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>', $content);;
                 }
                 return $content;
             }
@@ -423,10 +424,12 @@ function super1_unautop_4_img( $content )
                 $photo   = telegram_get_photographer( $image_id );
                 $caption = wp_get_attachment_caption( $image_id );
                 if ( $photo ) {
-                    $content = str_replace('</figcaption>', '<div class="photographer">' . $photo . '</div></figcaption>', $m[1]);
+                    $content = str_replace('<figcaption>', '<figcaption><span>', $m[1]);
+                    $content = str_replace('</figcaption>', '<div class="photographer">' . $photo . '</div></figcaption>', $content);
                 }
                 else {
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text">' . $caption . '</figcaption></figure>', $m[1]);;
+                    $content = str_replace('<figcaption>', '<figcaption><span>', $m[1]);
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>', $content);;
                 }
                 return $content;
             }
@@ -472,9 +475,9 @@ function super1_unautop_4_img( $content )
                 //$link = str_replace('src=', 'loading="lazy" src=', $m[1]);
                 $link = $m[1];
                 if ( $photo ) {
-                    return '<figure class="wp-block-image wp-caption">' . $link . '<figcaption class="wp-caption-text">' . $caption . ' <div class="photographer">' . $photo . '</div></figcaption></figure>';
+                    return '<figure class="wp-block-image wp-caption">' . $link . '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><div class="photographer">' . $photo . '</div></figcaption></figure>';
                 }
-                return '<figure class="wp-block-image wp-caption">' . $link . '<figcaption class="wp-caption-text">' . $caption . ' </figcaption></figure>';
+                return '<figure class="wp-block-image wp-caption">' . $link . '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>';
             }
         },
         $content, -1
@@ -878,6 +881,8 @@ function telegram_block_image($block_content, $block, $that) {
     $post_id = $that->parsed_block['attrs']['id'];
     $photo = telegram_get_photographer($post_id);
     if (!$photo) {
+        $block_content = str_replace( '<figcaption class="wp-element-caption">', '<figcaption class="wp-element-caption"><span>', $block_content );
+        $block_content = str_replace( '</figcaption>', '</span>', $block_content );
         return $block_content;
     }
     if (strpos( $block_content, 'figcaption') !== false) {
