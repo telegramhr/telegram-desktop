@@ -2,8 +2,8 @@
 var RM = window.RM = window.RM || {};
 
 window.RM.config = {
-  root: "/super1/native/readymag-test/",
+  root: "/wp-content/themes/telegram2-desktop/templates/native/readymag-test/",
   pushState: true
 }
 
-window.chunkURL = "/super1/native/readymag-test/dist/";
+window.chunkURL = "/wp-content/themes/telegram2-desktop/templates/native/readymag-test/dist/";
