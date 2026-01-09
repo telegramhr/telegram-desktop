@@ -1,8 +1,8 @@
 var RM = window.RM = window.RM || {};
 
 window.RM.config = {
-    root: "/super1/native/new-year-new-me-specijal/",
+    root: "/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me-specijal/",
     pushState: true
 }
 
-window.chunkURL = "/super1/native/new-year-new-me-specijal/dist/";
+window.chunkURL = "/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me-specijal/dist/";
