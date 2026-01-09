@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.telegram.hr/sitemap.xml
