@@ -1,1 +1,0 @@
-import"https://st-p.rmcdn1.net/bdde228a/dist/c/c-7WJJQ7PE.js";var t=({widget:e})=>{e&&e.isDragging&&(e.isDragging=!1,e.mag.isWidgetDragging=!1,document.body.style.pointerEvents==="none"&&(document.body.style.pointerEvents=""))},o=t;export{o as default};
