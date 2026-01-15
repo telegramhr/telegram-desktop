@@ -7,7 +7,7 @@
   <meta charSet="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Readymag" data-project="6043837" data-user="u275768050" data-is-exported="true"
-    data-exported-at="1767961116193" />
+    data-exported-at="1768317306844" />
   <meta name="referrer" content="always" />
   <meta name="viewport" id="viewport"
     content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,minimal-ui" />
@@ -33,7 +33,7 @@
     content="This template is designed with simplicity and style in mind for small businesses. Quickly create clean, engaging landing pages that effectively showcase your products." />
   <meta content="Veliki vodič: Na jednom mjestu donosimo sve što vam je potrebno za ustrajanju kod boljih odluka"
     property="og:site_name" />
-  <meta content="img/683d850bd2094940857eb894/6043837/L3PvGh_ojhlscY8ng46i9.jpg" property="og:image" />
+  <meta content="img/683d850bd2094940857eb894/6043837/EYEfN2liFk5utImgiwhso.jpg" property="og:image" />
   <meta
     content="Veliki vodič: Na jednom mjestu donosimo sve što vam je potrebno za ustrajanju kod boljih odluka | Readymag"
     property="og:title" />
@@ -44,7 +44,7 @@
   <script type="importmap">{"imports":{"https://st-p.rmcdn1.net/bdde228a/":"/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/"}}
   </script>
   <script type="application/json"
-    data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/bdde228a/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:true,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;controlsontop&quot;:false,&quot;branding&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;vertical&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;useCustomCursor&quot;:false,&quot;viewerNext&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-0479de1a-e475-4ef0-8d1b-990bd106ac6d&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:140,&quot;lineHeight&quot;:120,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a807&quot;},{&quot;name&quot;:&quot;style-63e2c159-93de-4bae-b2e1-2c707c3e3496&quot;,&quot;label&quot;:&quot;Additional Title [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:400,&quot;fontSize&quot;:140,&quot;lineHeight&quot;:120,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a808&quot;},{&quot;name&quot;:&quot;style-3fc6a961-713d-4d16-876b-265944274099&quot;,&quot;label&quot;:&quot;Main Title [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:100,&quot;lineHeight&quot;:77,&quot;letterSpacing&quot;:-8,&quot;color&quot;:&quot;0059FF64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a809&quot;},{&quot;name&quot;:&quot;style-2e8a6aaf-12c5-42e0-81e5-f6bcce9e2ee6&quot;,&quot;label&quot;:&quot;H2 [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:21,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:-1,&quot;lineHeight&quot;:27,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80a&quot;},{&quot;name&quot;:&quot;style-91ebaf28-0647-4a25-b1bf-ac4144f7fdc2&quot;,&quot;label&quot;:&quot;P2_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:10,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80b&quot;},{&quot;name&quot;:&quot;style-8032de4f-a5ba-4f3f-9b13-fea03df35c70&quot;,&quot;label&quot;:&quot;P2 [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80c&quot;},{&quot;name&quot;:&quot;style-b84cc6c3-1ad7-412e-9086-2d04a792abbd&quot;,&quot;label&quot;:&quot;Tag_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80d&quot;},{&quot;name&quot;:&quot;style-d79b70f0-4399-4753-8847-75d0d693bc16&quot;,&quot;label&quot;:&quot;P3 [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80e&quot;},{&quot;name&quot;:&quot;style-57093e5e-1bd0-46e9-a91b-5dbaffe67d81&quot;,&quot;label&quot;:&quot;P3 [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:10,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80f&quot;},{&quot;name&quot;:&quot;style-60f846ab-d880-4d89-99f9-754cc2421498&quot;,&quot;label&quot;:&quot;P3_Right Alignment [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;right&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a810&quot;},{&quot;name&quot;:&quot;style-79dd55dc-695b-4300-b416-4d694b4468e9&quot;,&quot;label&quot;:&quot;Main Title [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:53,&quot;lineHeight&quot;:50,&quot;letterSpacing&quot;:-4,&quot;color&quot;:&quot;0059FF64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a811&quot;},{&quot;name&quot;:&quot;style-4edfa2be-3dc6-46c1-8c35-ccf599f20751&quot;,&quot;label&quot;:&quot;Additional Title [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:63,&quot;lineHeight&quot;:70,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textShadow&quot;:&quot;0px 0px 10px rgba(0, 89, 255, 1)&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a812&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;695bbaf68e8e35707806a815&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;}]},&quot;viewport_phone_portrait&quot;:{&quot;opts&quot;:{&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;projectinfo&quot;:false,&quot;lqip&quot;:false}},&quot;_id&quot;:&quot;695e69e1127591667a31bb19&quot;,&quot;num_id&quot;:6043837,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;copyStatus&quot;:&quot;finished&quot;,&quot;coverPid&quot;:&quot;695bbaf58e8e35707806a6e3&quot;,&quot;creation_date&quot;:&quot;2026-01-05T13:21:57.225Z&quot;,&quot;description&quot;:&quot;This template is designed with simplicity and style in mind for small businesses. Quickly create clean, engaging landing pages that effectively showcase your products.&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;],&quot;hidden&quot;:false},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Pinyon Script&quot;,&quot;name&quot;:&quot;Pinyon Script&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:true,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-01-09T12:18:08.520Z&quot;,&quot;last_published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;695bbaf58e8e35707806a6e3&quot;,&quot;mid&quot;:&quot;695bbaf58e8e35707806a6de&quot;,&quot;num&quot;:1,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:4162,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:true,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;height&quot;:6803,&quot;type&quot;:&quot;scroll&quot;,&quot;screenshot&quot;:&quot;https://c-p.rmcdn1.net/683d850bd2094940857eb894/6043837/Screenshot-e13bea3a-64c0-46d8-996c-4b1f1b859652.jpg&quot;},&quot;arrows_color&quot;:&quot;black&quot;,&quot;num_id&quot;:28644315,&quot;parentPage&quot;:null,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6043837/Screenshot-eabcac88-df74-4f08-b9de-a3946a7a813b_readyscr.jpg&quot;,&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-01-05T13:21:57.225Z&quot;,&quot;phoneWidth&quot;:320,&quot;prevPubVersionId&quot;:&quot;695e7e397ac47c3c461c7a2d&quot;,&quot;published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;template_num&quot;:4867307,&quot;title&quot;:&quot;Veliki vodič: Na jednom mjestu donosimo sve što vam je potrebno za ustrajanju kod boljih odluka&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/Gh132pO5aCzylQv7dsAV0-gcJBTgRpkL0yPPfFUNxyvfeRSJ1SZMIyjUw29aFQjuWDj3F2wtwDiLZWy3da4Xe6MKgeucjab7f6Kgu3wbMg6IJMebMZdq6vCe.js&quot;,&quot;updated&quot;:&quot;2026-01-09T12:18:09.449Z&quot;,&quot;uri&quot;:&quot;6043837&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;text&quot;,&quot;shape&quot;,&quot;picture&quot;],&quot;used_custom_fonts&quot;:[],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;id&quot;:&quot;Pinyon Script&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;used_typekit_fonts&quot;:[{&quot;id&quot;:&quot;mfct&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;used_typetoday_fonts&quot;:[],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Telegram media grupa d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:1930,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true,&quot;click&quot;:true},&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6043837/Screenshot-eabcac88-df74-4f08-b9de-a3946a7a813b_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/new-year-new-me-specijal&quot;}"
+    data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/bdde228a/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:true,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;controlsontop&quot;:false,&quot;branding&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;vertical&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;useCustomCursor&quot;:false,&quot;viewerNext&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-0479de1a-e475-4ef0-8d1b-990bd106ac6d&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:140,&quot;lineHeight&quot;:120,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a807&quot;},{&quot;name&quot;:&quot;style-63e2c159-93de-4bae-b2e1-2c707c3e3496&quot;,&quot;label&quot;:&quot;Additional Title [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:400,&quot;fontSize&quot;:140,&quot;lineHeight&quot;:120,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a808&quot;},{&quot;name&quot;:&quot;style-3fc6a961-713d-4d16-876b-265944274099&quot;,&quot;label&quot;:&quot;Main Title [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:100,&quot;lineHeight&quot;:77,&quot;letterSpacing&quot;:-8,&quot;color&quot;:&quot;0059FF64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a809&quot;},{&quot;name&quot;:&quot;style-2e8a6aaf-12c5-42e0-81e5-f6bcce9e2ee6&quot;,&quot;label&quot;:&quot;H2 [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:21,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:-1,&quot;lineHeight&quot;:27,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80a&quot;},{&quot;name&quot;:&quot;style-91ebaf28-0647-4a25-b1bf-ac4144f7fdc2&quot;,&quot;label&quot;:&quot;P2_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:10,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80b&quot;},{&quot;name&quot;:&quot;style-8032de4f-a5ba-4f3f-9b13-fea03df35c70&quot;,&quot;label&quot;:&quot;P2 [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80c&quot;},{&quot;name&quot;:&quot;style-b84cc6c3-1ad7-412e-9086-2d04a792abbd&quot;,&quot;label&quot;:&quot;Tag_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80d&quot;},{&quot;name&quot;:&quot;style-d79b70f0-4399-4753-8847-75d0d693bc16&quot;,&quot;label&quot;:&quot;P3 [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80e&quot;},{&quot;name&quot;:&quot;style-57093e5e-1bd0-46e9-a91b-5dbaffe67d81&quot;,&quot;label&quot;:&quot;P3 [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:10,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80f&quot;},{&quot;name&quot;:&quot;style-60f846ab-d880-4d89-99f9-754cc2421498&quot;,&quot;label&quot;:&quot;P3_Right Alignment [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;right&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a810&quot;},{&quot;name&quot;:&quot;style-79dd55dc-695b-4300-b416-4d694b4468e9&quot;,&quot;label&quot;:&quot;Main Title [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:53,&quot;lineHeight&quot;:50,&quot;letterSpacing&quot;:-4,&quot;color&quot;:&quot;0059FF64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a811&quot;},{&quot;name&quot;:&quot;style-4edfa2be-3dc6-46c1-8c35-ccf599f20751&quot;,&quot;label&quot;:&quot;Additional Title [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:63,&quot;lineHeight&quot;:70,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textShadow&quot;:&quot;0px 0px 10px rgba(0, 89, 255, 1)&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a812&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;695bbaf68e8e35707806a815&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;}]},&quot;viewport_phone_portrait&quot;:{&quot;opts&quot;:{&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;projectinfo&quot;:false,&quot;lqip&quot;:false}},&quot;_id&quot;:&quot;695e69e1127591667a31bb19&quot;,&quot;num_id&quot;:6043837,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;copyStatus&quot;:&quot;finished&quot;,&quot;coverPid&quot;:&quot;695bbaf58e8e35707806a6e3&quot;,&quot;creation_date&quot;:&quot;2026-01-05T13:21:57.225Z&quot;,&quot;description&quot;:&quot;This template is designed with simplicity and style in mind for small businesses. Quickly create clean, engaging landing pages that effectively showcase your products.&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;,&quot;n7&quot;],&quot;hidden&quot;:false},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Pinyon Script&quot;,&quot;name&quot;:&quot;Pinyon Script&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:true,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-01-13T15:05:05.815Z&quot;,&quot;last_published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;695bbaf58e8e35707806a6e3&quot;,&quot;mid&quot;:&quot;695bbaf58e8e35707806a6de&quot;,&quot;num&quot;:1,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:4771,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:true,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;height&quot;:9443,&quot;type&quot;:&quot;scroll&quot;,&quot;screenshot&quot;:&quot;https://c-p.rmcdn1.net/683d850bd2094940857eb894/6043837/Screenshot-ce2a85e7-2e4b-4209-8b81-6eb7e9d082f9.jpg&quot;},&quot;arrows_color&quot;:&quot;black&quot;,&quot;num_id&quot;:28644315,&quot;parentPage&quot;:null,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6043837/Screenshot-e4675054-9ce3-491e-8193-1a85786525c7_readyscr.jpg&quot;,&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-01-05T13:21:57.225Z&quot;,&quot;phoneWidth&quot;:320,&quot;prevPubVersionId&quot;:&quot;69665d1af7db65b45bd25dbc&quot;,&quot;published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;template_num&quot;:4867307,&quot;title&quot;:&quot;Veliki vodič: Na jednom mjestu donosimo sve što vam je potrebno za ustrajanju kod boljih odluka&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/5Z9I1g2dHPbkMA_fC2DrZzS2qC3iKFJn3iKqjiBbj-CfeRSJ1SZMIyjUw29aFQjuWDj3F2wtwDiLZWy3da4Xe6MKgeucjab7f6Kgu3wbMg6IJMebMLYfcSCe.js&quot;,&quot;updated&quot;:&quot;2026-01-13T15:05:08.186Z&quot;,&quot;uri&quot;:&quot;6043837&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;text&quot;,&quot;shape&quot;,&quot;picture&quot;,&quot;button&quot;],&quot;used_custom_fonts&quot;:[],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;,&quot;n7&quot;]},{&quot;id&quot;:&quot;Pinyon Script&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;used_typekit_fonts&quot;:[{&quot;id&quot;:&quot;mfct&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;used_typetoday_fonts&quot;:[],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Telegram media grupa d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:2025,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true,&quot;click&quot;:true},&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6043837/Screenshot-e4675054-9ce3-491e-8193-1a85786525c7_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/new-year-new-me-specijal&quot;}"
     id="__RM_PROPS__"></script>
   <script>
     var RM = window.RM = window.RM || {};
@@ -518,7 +518,7 @@
             "mag_num_id": 6043837,
             "type": "text",
             "x": 521,
-            "y": -166.97,
+            "y": -34.97,
             "w": 152,
             "h": 19,
             "version": 3,
@@ -550,7 +550,7 @@
               "updatedLinks": true,
               "newListPosition": true
             },
-            "z": 597,
+            "z": 663,
             "blocksMeta": [{
               "key": "fim0o",
               "data": {
@@ -632,10 +632,10 @@
             }],
             "_z": [{
               "pid": "695bbaf58e8e35707806a6e3",
-              "value": 597
+              "value": 663
             }, {
               "pid": "default",
-              "value": 597
+              "value": 663
             }],
             "is_global": true,
             "fixed_position": "ne",
@@ -646,7 +646,7 @@
             "mag_num_id": 6043837,
             "type": "text",
             "x": 354.23,
-            "y": -166.97,
+            "y": -34.97,
             "w": 150.77,
             "h": 19,
             "version": 3,
@@ -678,7 +678,7 @@
               "updatedLinks": true,
               "newListPosition": true
             },
-            "z": 598,
+            "z": 664,
             "blocksMeta": [{
               "key": "fim0o",
               "data": {
@@ -760,10 +760,10 @@
             }],
             "_z": [{
               "pid": "695bbaf58e8e35707806a6e3",
-              "value": 598
+              "value": 664
             }, {
               "pid": "default",
-              "value": 598
+              "value": 664
             }],
             "is_global": true,
             "fixed_position": "ne",
@@ -774,7 +774,7 @@
             "mag_num_id": 6043837,
             "type": "text",
             "x": 189,
-            "y": -166.97,
+            "y": -34.97,
             "w": 150,
             "h": 19,
             "version": 3,
@@ -806,7 +806,7 @@
               "updatedLinks": true,
               "newListPosition": true
             },
-            "z": 599,
+            "z": 665,
             "blocksMeta": [{
               "key": "fim0o",
               "data": {
@@ -888,10 +888,10 @@
             }],
             "_z": [{
               "pid": "695bbaf58e8e35707806a6e3",
-              "value": 599
+              "value": 665
             }, {
               "pid": "default",
-              "value": 599
+              "value": 665
             }],
             "is_global": true,
             "fixed_position": "ne",
@@ -902,7 +902,7 @@
             "mag_num_id": 6043837,
             "type": "text",
             "x": 187.9,
-            "y": -143.97,
+            "y": -11.97,
             "w": 150.1,
             "h": 9,
             "version": 3,
@@ -930,7 +930,7 @@
               "updatedLinks": true,
               "newListPosition": true
             },
-            "z": 600,
+            "z": 666,
             "blocksMeta": [{
               "key": "fim0o",
               "data": {
@@ -1006,13 +1006,151 @@
             }],
             "_z": [{
               "pid": "695bbaf58e8e35707806a6e3",
-              "value": 600
+              "value": 666
             }, {
               "pid": "default",
-              "value": 600
+              "value": 666
             }],
             "is_global": true,
             "fixed_position": "ne",
+            "__v": 0
+          }, {
+            "_id": "6964dc490e53b359940b86af",
+            "wid": "6964dc490e53b359940b86af",
+            "mag_num_id": 6043837,
+            "type": "button",
+            "x": 475.19,
+            "y": 196.98,
+            "w": 28,
+            "h": 28,
+            "tp": "icon",
+            "form": "circle",
+            "text": "",
+            "transition": false,
+            "transitionTime": 0,
+            "text_w": 16,
+            "text_h": 20,
+            "current-text_w": 16,
+            "current-text_h": 20,
+            "em_w": 16,
+            "background-color": "E6E6E6",
+            "background-color-opacity": 40,
+            "border-radius": 5,
+            "border-width": 0,
+            "border-color": "000000",
+            "border-color-opacity": 100,
+            "font-family": "Arial",
+            "font-style": "normal",
+            "font-weight": 400,
+            "color": "ffffff",
+            "color-opacity": 100,
+            "font-size": 18,
+            "letter-spacing": 0,
+            "hover-background-color": "c80000",
+            "hover-background-color-opacity": 80,
+            "hover-border-width": 0,
+            "hover-border-color": "000000",
+            "hover-border-color-opacity": 100,
+            "hover-color": "ffffff",
+            "hover-color-opacity": 100,
+            "current-background-color": "c80000",
+            "current-background-color-opacity": 100,
+            "current-border-radius": 5,
+            "current-border-width": 0,
+            "current-border-color": "000000",
+            "current-border-color-opacity": 100,
+            "current-font-family": "Arial",
+            "current-font-style": "normal",
+            "current-font-weight": 400,
+            "current-color": "ffffff",
+            "current-color-opacity": 100,
+            "current-font-size": 18,
+            "current-letter-spacing": 0,
+            "icon_enabled": true,
+            "icon_h": 15,
+            "icon_w": 15,
+            "icon_pos": "left",
+            "icon_color": "ffffff",
+            "icon_color_opacity": 100,
+            "hover-icon_color": "ffffff",
+            "hover-icon_color_opacity": 100,
+            "current-icon_color": "ffffff",
+            "current-icon_color_opacity": 100,
+            "icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-9fcaa057-ebca-4ad5-b1b2-5305b5afd1e7.png",
+            "icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-ae7f3758-41e3-4c06-b818-ab77fa456cdf.png",
+            "hover-icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-8d636585-9b42-4bb7-ac98-3c7d83a80af4.png",
+            "hover-icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-bd84bd2c-6a29-4f66-8d9c-41575e7f430a.png",
+            "current-icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-5f807b73-ae28-4352-be29-986138622d98.png",
+            "current-icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-04ef9171-c3f2-4733-808f-0344804fac93.png",
+            "baselineShift": 0,
+            "current-baselineShift": 0,
+            "z": 667,
+            "name": "",
+            "icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-2f178216-37d0-4997-973c-4f4d05d7b305.png",
+            "hover-icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-0e086b6c-03cd-4641-af47-0ea08a878867.png",
+            "current-icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-ce931dd3-4632-4fda-a015-217cd970a54c.png",
+            "checksum": "icon|15|15|ffffff|ffffff|ffffff|100|100|100|rm9",
+            "angle": -90,
+            "_hidden": [{
+              "pid": "default",
+              "value": null
+            }],
+            "_z": [{
+              "pid": "695bbaf58e8e35707806a6e3",
+              "value": 667
+            }, {
+              "pid": "default",
+              "value": 667
+            }],
+            "fixed_position": "c",
+            "is_above": true,
+            "is_global": true,
+            "sticked": "",
+            "animation": [{
+              "UUID": "a6e68db7-4b06-4469-aa76-025dc0bdea32",
+              "type": "load",
+              "steps": [{
+                "duration": 0.5,
+                "delay": 5,
+                "acceleration": "ease-both",
+                "from_opacity": 0,
+                "use_opacity": true,
+                "opacity": 100
+              }],
+              "playOnce": false,
+              "resetWhenOutOfView": false,
+              "trigger": []
+            }],
+            "hover-icon_b64url": null,
+            "icon_b64url": null,
+            "viewport_phone_portrait": {
+              "x": 475.19,
+              "y": 196.98,
+              "w": 28,
+              "h": 28,
+              "z": 667,
+              "hidden": null,
+              "angle": -90,
+              "fixed_position": "c",
+              "sticked": "",
+              "_hidden": [{
+                "pid": "default",
+                "value": null
+              }, {
+                "pid": "695bbaf58e8e35707806a6e3",
+                "value": null
+              }],
+              "_z": [{
+                "pid": "695bbaf58e8e35707806a6e3",
+                "value": 667
+              }, {
+                "pid": "default",
+                "value": 667
+              }]
+            },
+            "anchor_link_pos": 2,
+            "clickLink": "__rm_anchor",
+            "clickTarget": "_self",
             "__v": 0
           }],
           "allow_iframe_embed": false,
@@ -1074,7 +1212,7 @@
               "provider": "google",
               "css_name": "Inter",
               "name": "Inter",
-              "variations": ["n4", "n5"],
+              "variations": ["n4", "n5", "n7"],
               "hidden": false
             }, {
               "provider": "google",
@@ -1092,14 +1230,14 @@
             "mag_num_id": 6043837,
             "type": "picture",
             "x": -472.28,
-            "y": -142.96,
+            "y": -10.96,
             "w": 43.45,
             "h": 7,
             "version": 2,
             "flags": {
               "useOriginalViewBoxSVG": true
             },
-            "z": 596,
+            "z": 662,
             "cropH": 138,
             "cropW": 858,
             "cropX": 0,
@@ -1128,10 +1266,10 @@
             "_hidden": [],
             "_z": [{
               "pid": "695bbaf58e8e35707806a6e3",
-              "value": 596
+              "value": 662
             }, {
               "pid": "default",
-              "value": 596
+              "value": 662
             }],
             "is_global": true,
             "viewport_phone_portrait": {
@@ -1164,14 +1302,14 @@
                 "pid": "default",
                 "value": null
               }],
-              "z": 584,
+              "z": 579,
               "scale": 0.5594405594405595,
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 584
+                "value": 579
               }, {
                 "pid": "default",
-                "value": 584
+                "value": 579
               }],
               "x": 12,
               "hidden": false
@@ -1221,7 +1359,7 @@
               "updatedLinks": true,
               "newListPosition": true
             },
-            "z": 583,
+            "z": 578,
             "blocksMeta": [{
               "key": "fim0o",
               "data": {
@@ -1237,7 +1375,7 @@
               "y": 31.46,
               "w": 152.13,
               "h": 9,
-              "z": 600,
+              "z": 665,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -1259,10 +1397,10 @@
               "fixed_position": "ne",
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 600
+                "value": 665
               }, {
                 "pid": "default",
-                "value": 600
+                "value": 665
               }],
               "is_full_width": null,
               "hidden": true
@@ -1277,10 +1415,10 @@
             "_hidden": [],
             "_z": [{
               "pid": "695bbaf58e8e35707806a6e3",
-              "value": 583
+              "value": 578
             }, {
               "pid": "default",
-              "value": 583
+              "value": 578
             }],
             "_variationY": -1977.04,
             "is_global": true,
@@ -1299,7 +1437,7 @@
             "flags": {
               "useOriginalViewBoxSVG": true
             },
-            "z": 577,
+            "z": 572,
             "cropH": 138,
             "cropW": 858,
             "cropX": 0,
@@ -1326,13 +1464,13 @@
             "_hidden": [],
             "_z": [{
               "pid": "695bbaf58e8e35707806a6e3",
-              "value": 577
+              "value": 572
             }, {
               "pid": "default",
-              "value": 577
+              "value": 572
             }],
             "viewport_phone_portrait": {
-              "z": 599,
+              "z": 664,
               "y": 463.47,
               "w": 43.45,
               "h": 7,
@@ -1361,10 +1499,10 @@
               "hidden": true,
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 599
+                "value": 664
               }, {
                 "pid": "default",
-                "value": 599
+                "value": 664
               }]
             },
             "_variationY": -217.03,
@@ -1385,7 +1523,7 @@
           "is_mag_use_page_order": true,
           "is_private": false,
           "is_published": true,
-          "last_changed": "2026-01-09T12:18:08.520Z",
+          "last_changed": "2026-01-13T15:05:05.815Z",
           "last_published": "2026-01-07T14:12:49.421Z",
           "likers": [],
           "master_share_pid": null,
@@ -1429,7 +1567,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 521,
-              "y": -166.97,
+              "y": -34.97,
               "w": 152,
               "h": 19,
               "version": 3,
@@ -1462,7 +1600,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 597,
+              "z": 663,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -1545,10 +1683,10 @@
               }],
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 597
+                "value": 663
               }, {
                 "pid": "default",
-                "value": 597
+                "value": 663
               }],
               "is_global": true,
               "fixed_position": "ne",
@@ -1560,7 +1698,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 354.23,
-              "y": -166.97,
+              "y": -34.97,
               "w": 150.77,
               "h": 19,
               "version": 3,
@@ -1593,7 +1731,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 598,
+              "z": 664,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -1676,10 +1814,10 @@
               }],
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 598
+                "value": 664
               }, {
                 "pid": "default",
-                "value": 598
+                "value": 664
               }],
               "is_global": true,
               "fixed_position": "ne",
@@ -1691,7 +1829,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 189,
-              "y": -166.97,
+              "y": -34.97,
               "w": 150,
               "h": 19,
               "version": 3,
@@ -1724,7 +1862,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 599,
+              "z": 665,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -1807,10 +1945,10 @@
               }],
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 599
+                "value": 665
               }, {
                 "pid": "default",
-                "value": 599
+                "value": 665
               }],
               "is_global": true,
               "fixed_position": "ne",
@@ -1851,7 +1989,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 574,
+              "z": 569,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -1864,7 +2002,7 @@
               "originId": "66789dbdccf42b00140515f6",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 598
+                "z": 663
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -1894,7 +2032,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 187.9,
-              "y": -143.97,
+              "y": -11.97,
               "w": 150.1,
               "h": 9,
               "version": 3,
@@ -1923,7 +2061,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 600,
+              "z": 666,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -2000,10 +2138,10 @@
               }],
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 600
+                "value": 666
               }, {
                 "pid": "default",
-                "value": 600
+                "value": 666
               }],
               "is_global": true,
               "fixed_position": "ne",
@@ -2081,12 +2219,12 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/nC-ST7uKkKVQKmpNh7Sx9.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/jPjJ7tGRquvGqmPrZFGbe.jpg",
                 "url": "img/683d850bd2094940857eb894/6034839/image-e6f5f531-c98d-4ee8-9bec-06422e762d23.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/tiQgI4SXq0yxOdC3s7Rv3.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/Q8WHwrs-rHEhjc9PeUSmn.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/tiQgI4SXq0yxOdC3s7Rv3.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/nC-ST7uKkKVQKmpNh7Sx9.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/8OLEf72cb68YnfDx5wMsU.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/vmn2jElfjrrQgFvVVNuBt.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/8OLEf72cb68YnfDx5wMsU.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/jPjJ7tGRquvGqmPrZFGbe.jpg"
               },
               "modifiers": [{
                 "id": "cursor",
@@ -2168,12 +2306,12 @@
                 "z": 311,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/nC-ST7uKkKVQKmpNh7Sx9.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/jPjJ7tGRquvGqmPrZFGbe.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-e6f5f531-c98d-4ee8-9bec-06422e762d23.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/tiQgI4SXq0yxOdC3s7Rv3.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/Q8WHwrs-rHEhjc9PeUSmn.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/tiQgI4SXq0yxOdC3s7Rv3.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/nC-ST7uKkKVQKmpNh7Sx9.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/8OLEf72cb68YnfDx5wMsU.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/vmn2jElfjrrQgFvVVNuBt.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/8OLEf72cb68YnfDx5wMsU.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/jPjJ7tGRquvGqmPrZFGbe.jpg"
                 }
               },
               "hidden": false,
@@ -2245,12 +2383,12 @@
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/gmrtPYbtDSr7uMcS2Ns_E.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/bLx3kQ7WYVE5-LnmbD8vW.jpg",
                 "url": "img/683d850bd2094940857eb894/6034839/image-38b14496-a105-402b-b09e-d65d56fcab2e.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/y1jQaiEKu8ZDNI8OyJiw6.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/x1Ij543Emdzb_zoGay2X7.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/y1jQaiEKu8ZDNI8OyJiw6.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/gmrtPYbtDSr7uMcS2Ns_E.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/Cg4WfE6HlCArwU6p-OvwY.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/_PxDg8uTsQd_U69NgVSa4.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/Cg4WfE6HlCArwU6p-OvwY.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/bLx3kQ7WYVE5-LnmbD8vW.jpg"
               },
               "originId": "66789dbdccf42b001405160a",
               "animation": [{
@@ -2334,12 +2472,12 @@
                 "z": 313,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/gmrtPYbtDSr7uMcS2Ns_E.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/bLx3kQ7WYVE5-LnmbD8vW.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-38b14496-a105-402b-b09e-d65d56fcab2e.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/y1jQaiEKu8ZDNI8OyJiw6.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/x1Ij543Emdzb_zoGay2X7.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/y1jQaiEKu8ZDNI8OyJiw6.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/gmrtPYbtDSr7uMcS2Ns_E.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Cg4WfE6HlCArwU6p-OvwY.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/_PxDg8uTsQd_U69NgVSa4.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Cg4WfE6HlCArwU6p-OvwY.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/bLx3kQ7WYVE5-LnmbD8vW.jpg"
                 }
               },
               "hidden": false,
@@ -2707,12 +2845,12 @@
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/M6n-AutT7gVA0tAUaS7f1.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/1289nbiA4rU9-02hztmcg.jpg",
                 "url": "img/683d850bd2094940857eb894/6034839/image-2edbd5d8-890d-4185-a9c9-b26be2ac95b5.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/NyoVLjUeHPqCejwgB0WHJ.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/lorm0wH00mz7R-lFc1-ZQ.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/NyoVLjUeHPqCejwgB0WHJ.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/M6n-AutT7gVA0tAUaS7f1.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/RKac2NSAq2T42Bie2RqPq.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/u4PFy92fZVJoLshSIDJ92.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/RKac2NSAq2T42Bie2RqPq.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/1289nbiA4rU9-02hztmcg.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -2807,12 +2945,12 @@
                 "originalCropY": 537.3223140495868,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/FbgOC1VF_BPpI1lyiNSIF.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Q2df_am5pHqPK_PLpAI2J.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-2edbd5d8-890d-4185-a9c9-b26be2ac95b5.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/O5mzqBdaNWVynIIjdPpqA.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/tcB7ZHeM5MvLXVLNstijb.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/O5mzqBdaNWVynIIjdPpqA.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/FbgOC1VF_BPpI1lyiNSIF.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/UriZA7vNVyBLsCTsVasNQ.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/ue1zNl85nMD4w-V4uHvJc.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/UriZA7vNVyBLsCTsVasNQ.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Q2df_am5pHqPK_PLpAI2J.jpg"
                 },
                 "scale": 0.04771,
                 "hidden": false,
@@ -2956,7 +3094,7 @@
               "mag_num_id": 6043837,
               "type": "shape",
               "x": 17.93,
-              "y": 2082,
+              "y": 2374,
               "w": 158,
               "h": 24,
               "tp": "line",
@@ -2981,8 +3119,8 @@
               "_variationY": -634.04,
               "is_above": false,
               "viewport_phone_portrait": {
-                "x": -278.07,
-                "y": 3123.92,
+                "x": -277.07,
+                "y": 3597.92,
                 "w": 158,
                 "h": 24,
                 "z": 303,
@@ -3714,7 +3852,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 22,
-              "y": -166.13,
+              "y": -34.13,
               "w": 150,
               "h": 19,
               "version": 3,
@@ -3747,7 +3885,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 584,
+              "z": 650,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -3764,7 +3902,7 @@
                 "y": -341.63,
                 "w": 150,
                 "h": 19,
-                "z": 585,
+                "z": 650,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -3810,7 +3948,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 20.9,
-              "y": -143.13,
+              "y": -11.13,
               "w": 150.1,
               "h": 9,
               "version": 3,
@@ -3839,7 +3977,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 585,
+              "z": 651,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -3855,7 +3993,7 @@
                 "y": -318.63,
                 "w": 150.1,
                 "h": 9,
-                "z": 586,
+                "z": 651,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -3896,14 +4034,14 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": -472.28,
-              "y": -142.96,
+              "y": -10.96,
               "w": 43.45,
               "h": 7,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 596,
+              "z": 662,
               "cropH": 138,
               "cropW": 858,
               "cropX": 0,
@@ -3932,10 +4070,10 @@
               "_hidden": [],
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 596
+                "value": 662
               }, {
                 "pid": "default",
-                "value": 596
+                "value": 662
               }],
               "is_global": true,
               "viewport_phone_portrait": {
@@ -3968,14 +4106,14 @@
                   "pid": "default",
                   "value": null
                 }],
-                "z": 584,
+                "z": 579,
                 "scale": 0.5594405594405595,
                 "_z": [{
                   "pid": "695bbaf58e8e35707806a6e3",
-                  "value": 584
+                  "value": 579
                 }, {
                   "pid": "default",
-                  "value": 584
+                  "value": 579
                 }],
                 "x": 12,
                 "hidden": false
@@ -3996,10 +4134,10 @@
               "wid": "695bbaf58e8e35707806a70d",
               "mag_num_id": 6043837,
               "type": "shape",
-              "x": -0.48,
+              "x": -92.48,
               "y": 1298,
-              "w": 1090.56,
-              "h": 674.03,
+              "w": 1122.56,
+              "h": 968.83,
               "tp": "rectangle",
               "bg_color": "2200FF",
               "bg_opacity": 1,
@@ -4015,7 +4153,7 @@
               "sides": 3,
               "weight": 1,
               "stroke": "solid",
-              "z": 333,
+              "z": 332,
               "name": "",
               "hidden": false,
               "is_above": false,
@@ -4047,7 +4185,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 334,
+              "z": 333,
               "scale": 0.14,
               "cropH": 785.7142857142857,
               "cropW": 800,
@@ -4061,12 +4199,12 @@
               "originalW": 800,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/53Ayi8C5dfwhCg-zmP2N6.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ojLl117aEdWMTzZJJUrz4.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-0276c2bd-7c5d-439f-9adf-865cc5e2a863.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/MfY8tk9q6F95Ug0D8MKyq.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/i7pIkbck4lSSeD9LU7aLx.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/MfY8tk9q6F95Ug0D8MKyq.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/53Ayi8C5dfwhCg-zmP2N6.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/K1lZZoqvAV2mpdMLWbkRF.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/v35C52dHL6nnIIm3nCnTs.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/K1lZZoqvAV2mpdMLWbkRF.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ojLl117aEdWMTzZJJUrz4.webp"
               },
               "animation": [],
               "blurHash": "UmF6%;o#%ht8tRjZWBkC?wjsWAWBf,a#offQ",
@@ -4088,12 +4226,12 @@
                 "z": 329,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/53Ayi8C5dfwhCg-zmP2N6.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ojLl117aEdWMTzZJJUrz4.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-0276c2bd-7c5d-439f-9adf-865cc5e2a863.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/MfY8tk9q6F95Ug0D8MKyq.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/i7pIkbck4lSSeD9LU7aLx.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/MfY8tk9q6F95Ug0D8MKyq.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/53Ayi8C5dfwhCg-zmP2N6.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/K1lZZoqvAV2mpdMLWbkRF.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/v35C52dHL6nnIIm3nCnTs.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/K1lZZoqvAV2mpdMLWbkRF.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ojLl117aEdWMTzZJJUrz4.webp"
                 }
               },
               "__v": 0
@@ -4110,16 +4248,16 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 335,
+              "z": 334,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/md0oK0UC6JqSzMhm2fqI0.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/K4b5WZsf53PcT5UpD0qB7.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-1ef1234c-1ab6-4f6c-b234-8500c12f674e.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/_qw523sMsVy1tOWkp96K3.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/C2UwnlI2L8U_Xn6JnjfD2.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/_qw523sMsVy1tOWkp96K3.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/md0oK0UC6JqSzMhm2fqI0.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/kNWYX4QdapuBdq1b8Z6Ni.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/IKeo6aq-zE1krk-1VWGmb.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/kNWYX4QdapuBdq1b8Z6Ni.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/K4b5WZsf53PcT5UpD0qB7.webp"
               },
               "cropW": 800,
               "cropH": 786,
@@ -4166,12 +4304,12 @@
                 "z": 330,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/md0oK0UC6JqSzMhm2fqI0.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/K4b5WZsf53PcT5UpD0qB7.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-1ef1234c-1ab6-4f6c-b234-8500c12f674e.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/_qw523sMsVy1tOWkp96K3.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/C2UwnlI2L8U_Xn6JnjfD2.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/_qw523sMsVy1tOWkp96K3.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/md0oK0UC6JqSzMhm2fqI0.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/kNWYX4QdapuBdq1b8Z6Ni.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/IKeo6aq-zE1krk-1VWGmb.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/kNWYX4QdapuBdq1b8Z6Ni.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/K4b5WZsf53PcT5UpD0qB7.webp"
                 }
               },
               "__v": 0
@@ -4188,16 +4326,16 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 336,
+              "z": 335,
               "scale": 0.06582,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Im3QFHVyazww9S6xAP3r_.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/uVPrLr2vwxf3auyQVDPw5.jpg",
                 "url": "img/683d850bd2094940857eb894/6034839/image-f9b1941f-4235-4fa9-b0b7-56486d822bdb.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/c4JKTrhzH_t-ScBcYewwH.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/TFe-tZ8PAXUmyV5MjWugo.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/c4JKTrhzH_t-ScBcYewwH.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Im3QFHVyazww9S6xAP3r_.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/KJhL8b-L24m_26j-v-XBw.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/UuGkhMoBrZFiME4_bPiWd.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/KJhL8b-L24m_26j-v-XBw.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/uVPrLr2vwxf3auyQVDPw5.jpg"
               },
               "cropW": 1702,
               "cropH": 1671,
@@ -4244,12 +4382,12 @@
                 "z": 331,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Im3QFHVyazww9S6xAP3r_.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/uVPrLr2vwxf3auyQVDPw5.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-f9b1941f-4235-4fa9-b0b7-56486d822bdb.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/c4JKTrhzH_t-ScBcYewwH.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/TFe-tZ8PAXUmyV5MjWugo.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/c4JKTrhzH_t-ScBcYewwH.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Im3QFHVyazww9S6xAP3r_.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/KJhL8b-L24m_26j-v-XBw.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/UuGkhMoBrZFiME4_bPiWd.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/KJhL8b-L24m_26j-v-XBw.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/uVPrLr2vwxf3auyQVDPw5.jpg"
                 }
               },
               "__v": 0
@@ -4266,16 +4404,16 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 337,
+              "z": 336,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/d0Ow9z_NuJukF3EziHF7Q.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/3ZV9JOlCLfgrBFLI2Wtzp.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-83619dc8-ef8c-4193-a018-1995870d009c.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/LnMKdNRXOOqeGor6uLa7s.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/98bsQhv12MD3PY4Ujgg8i.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/LnMKdNRXOOqeGor6uLa7s.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/d0Ow9z_NuJukF3EziHF7Q.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/cWhOceyMyaB12vcQqkxzM.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/tWp8tE56lI3Sra4mrGXJF.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/cWhOceyMyaB12vcQqkxzM.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/3ZV9JOlCLfgrBFLI2Wtzp.webp"
               },
               "cropW": 800,
               "cropH": 786,
@@ -4322,12 +4460,12 @@
                 "z": 332,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/d0Ow9z_NuJukF3EziHF7Q.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/3ZV9JOlCLfgrBFLI2Wtzp.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-83619dc8-ef8c-4193-a018-1995870d009c.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/LnMKdNRXOOqeGor6uLa7s.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/98bsQhv12MD3PY4Ujgg8i.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/LnMKdNRXOOqeGor6uLa7s.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/d0Ow9z_NuJukF3EziHF7Q.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/cWhOceyMyaB12vcQqkxzM.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/tWp8tE56lI3Sra4mrGXJF.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/cWhOceyMyaB12vcQqkxzM.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/3ZV9JOlCLfgrBFLI2Wtzp.webp"
                 }
               },
               "__v": 0
@@ -4344,16 +4482,16 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 338,
+              "z": 337,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/kII7azLgT8E7GlupkYHi6.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Ixd1S5UOemLan_dP_y2no.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-3b74279a-48a8-41a1-a9c6-38dcfd64c7a1.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/8a7FcxbHP48MifWxBG7Oz.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/zB3HPfox4HYvZQ-R_jgw2.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/8a7FcxbHP48MifWxBG7Oz.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/kII7azLgT8E7GlupkYHi6.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/D_fss9-5Fs_1rwgPxpVYS.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/FHyS0b_mobuqnneb7ns1d.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/D_fss9-5Fs_1rwgPxpVYS.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Ixd1S5UOemLan_dP_y2no.webp"
               },
               "cropW": 800,
               "cropH": 786,
@@ -4400,12 +4538,12 @@
                 "z": 333,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/kII7azLgT8E7GlupkYHi6.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Ixd1S5UOemLan_dP_y2no.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-3b74279a-48a8-41a1-a9c6-38dcfd64c7a1.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/8a7FcxbHP48MifWxBG7Oz.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/zB3HPfox4HYvZQ-R_jgw2.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/8a7FcxbHP48MifWxBG7Oz.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/kII7azLgT8E7GlupkYHi6.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/D_fss9-5Fs_1rwgPxpVYS.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/FHyS0b_mobuqnneb7ns1d.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/D_fss9-5Fs_1rwgPxpVYS.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Ixd1S5UOemLan_dP_y2no.webp"
                 }
               },
               "__v": 0
@@ -4422,16 +4560,16 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 339,
+              "z": 338,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/whIzHXfeV8i3KB-d_Ox22.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/2ndYAnWW9L8V_F8dIVHOx.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-8d04bd15-5618-40ce-a589-9384672b10fe.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/rlZlspPN1HlKyF4beS6q9.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/4NFmBVGwfZKp7PVxYdQF4.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/rlZlspPN1HlKyF4beS6q9.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/whIzHXfeV8i3KB-d_Ox22.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/3Uz6vMxbZ-3C8j9wSmI_X.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/QwI1v3eVoOii0Stl8umLB.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/3Uz6vMxbZ-3C8j9wSmI_X.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/2ndYAnWW9L8V_F8dIVHOx.webp"
               },
               "cropW": 800,
               "cropH": 786,
@@ -4478,12 +4616,12 @@
                 "z": 334,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/whIzHXfeV8i3KB-d_Ox22.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/2ndYAnWW9L8V_F8dIVHOx.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-8d04bd15-5618-40ce-a589-9384672b10fe.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/rlZlspPN1HlKyF4beS6q9.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/4NFmBVGwfZKp7PVxYdQF4.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/rlZlspPN1HlKyF4beS6q9.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/whIzHXfeV8i3KB-d_Ox22.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/3Uz6vMxbZ-3C8j9wSmI_X.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/QwI1v3eVoOii0Stl8umLB.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/3Uz6vMxbZ-3C8j9wSmI_X.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/2ndYAnWW9L8V_F8dIVHOx.webp"
                 }
               },
               "__v": 0
@@ -4500,16 +4638,16 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 340,
+              "z": 339,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/6jYfLrSP35d_HGIu3Oe5c.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/mJXrAr8ZqMlx3K4ghee09.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-60770fb8-e2ae-4c1f-99a4-37b1f35f5855.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/jryk0CqHgpA10eAzBYEcq.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/DQszjB1dX9q6XNYegy3-J.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/jryk0CqHgpA10eAzBYEcq.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/6jYfLrSP35d_HGIu3Oe5c.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/QKhR2hlPqYUVLNUJCCYqs.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/I-2YQdrjJuALoIhHVpN6P.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/QKhR2hlPqYUVLNUJCCYqs.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/mJXrAr8ZqMlx3K4ghee09.webp"
               },
               "cropW": 800,
               "cropH": 786,
@@ -4556,12 +4694,12 @@
                 "z": 335,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/6jYfLrSP35d_HGIu3Oe5c.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/mJXrAr8ZqMlx3K4ghee09.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-60770fb8-e2ae-4c1f-99a4-37b1f35f5855.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/jryk0CqHgpA10eAzBYEcq.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/DQszjB1dX9q6XNYegy3-J.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/jryk0CqHgpA10eAzBYEcq.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/6jYfLrSP35d_HGIu3Oe5c.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/QKhR2hlPqYUVLNUJCCYqs.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/I-2YQdrjJuALoIhHVpN6P.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/QKhR2hlPqYUVLNUJCCYqs.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/mJXrAr8ZqMlx3K4ghee09.webp"
                 }
               },
               "__v": 0
@@ -4578,16 +4716,16 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 341,
+              "z": 340,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/cCPhe6CHRa5zovq-9KaMM.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/3J9hXfikwTrobtbkt_XmP.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-72c4a7a0-93f5-4519-a0a1-851b19995f9f.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/k5ktVHTn31XtnNiFOD4rA.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/C3RuvJpcwizCcI5nU06zA.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/k5ktVHTn31XtnNiFOD4rA.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/cCPhe6CHRa5zovq-9KaMM.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/TzCatTyAHFObr9jCzxpxO.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/6_MD8q5-nb7MdYC15Bbqf.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/TzCatTyAHFObr9jCzxpxO.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/3J9hXfikwTrobtbkt_XmP.webp"
               },
               "cropW": 800,
               "cropH": 786,
@@ -4634,12 +4772,12 @@
                 "z": 336,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/cCPhe6CHRa5zovq-9KaMM.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/3J9hXfikwTrobtbkt_XmP.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-72c4a7a0-93f5-4519-a0a1-851b19995f9f.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/k5ktVHTn31XtnNiFOD4rA.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/C3RuvJpcwizCcI5nU06zA.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/k5ktVHTn31XtnNiFOD4rA.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/cCPhe6CHRa5zovq-9KaMM.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/TzCatTyAHFObr9jCzxpxO.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/6_MD8q5-nb7MdYC15Bbqf.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/TzCatTyAHFObr9jCzxpxO.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/3J9hXfikwTrobtbkt_XmP.webp"
                 }
               },
               "__v": 0
@@ -4659,12 +4797,12 @@
               "z": 329,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/k4XL5bzFHUaNpgoCutfLs.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/OZW_lgwFV-iYWldoQtVuw.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp"
               },
               "cropW": 776,
               "cropH": 790,
@@ -4685,12 +4823,12 @@
                 "z": 326,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/k4XL5bzFHUaNpgoCutfLs.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/OZW_lgwFV-iYWldoQtVuw.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp"
                 }
               },
               "__v": 0
@@ -4700,7 +4838,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 68.93,
-              "y": 1630,
+              "y": 1632,
               "w": 371.8,
               "h": 120,
               "version": 3,
@@ -4733,7 +4871,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 343,
+              "z": 342,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -4836,7 +4974,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 342,
+              "z": 341,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -4898,7 +5036,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 348,
+              "z": 347,
               "cropH": 4031,
               "cropW": 2467,
               "cropX": 278,
@@ -4911,12 +5049,12 @@
               "originalW": 3024,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/T2fZ_sRS4Gf1L1plm2pb8.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/_82dJqB0M0AXpVmqyuJKb.jpg",
                 "url": "img/683d850bd2094940857eb894/6034839/image-e09b308f-ba1e-4a62-a55a-257d4504bdc9.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/iPrwc7sEcmAB2N6xFkL6j.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/amuV0q6pcHWFoV1_g7bM5.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/iPrwc7sEcmAB2N6xFkL6j.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/T2fZ_sRS4Gf1L1plm2pb8.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/NooF0ElKWt-mVHO1zrtde.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/mBjdm1EyiWHWbIpk9HWwf.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/NooF0ElKWt-mVHO1zrtde.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/_82dJqB0M0AXpVmqyuJKb.jpg"
               },
               "scale": 0.0381,
               "blurHash": "U57nBz4:D%-:~VE2Rjof4.s:-:M{D*xatRRj",
@@ -4957,7 +5095,7 @@
                 "y": 1316.44,
                 "w": 50,
                 "h": 81.39,
-                "z": 484,
+                "z": 479,
                 "cropH": 4031,
                 "cropW": 2476,
                 "cropX": 274,
@@ -4968,12 +5106,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/BQMlNgS7iXYojQ9JQDw_K.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/BvQWHjVsXOrTxXSOmARpu.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-e09b308f-ba1e-4a62-a55a-257d4504bdc9.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/kU5r9LcaX6pqRn0Tq7lQZ.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/EIuL5UEWyEk-ZFy03bnGW.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/kU5r9LcaX6pqRn0Tq7lQZ.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/BQMlNgS7iXYojQ9JQDw_K.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/O6sllCbS920YNgRCloVdB.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/3ZrTLgYUcDLZyptgAxgNR.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/O6sllCbS920YNgRCloVdB.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/BvQWHjVsXOrTxXSOmARpu.jpg"
                 },
                 "angle": -90,
                 "scale": 0.02019,
@@ -5020,8 +5158,8 @@
               "wid": "695bbaf58e8e35707806a721",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 20.67,
-              "y": 1794,
+              "x": 272.67,
+              "y": 1765,
               "w": 231.6,
               "h": 92,
               "version": 3,
@@ -5124,7 +5262,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 586,
+              "z": 652,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5141,7 +5279,7 @@
                 "y": 1050.1,
                 "w": 150,
                 "h": 19,
-                "z": 587,
+                "z": 652,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -5216,7 +5354,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 587,
+              "z": 653,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5232,7 +5370,7 @@
                 "y": 1073.1,
                 "w": 150.1,
                 "h": 9,
-                "z": 588,
+                "z": 653,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -5273,7 +5411,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 538.87,
-              "y": 1247.76,
+              "y": 1460.76,
               "w": 152.13,
               "h": 9,
               "version": 3,
@@ -5302,7 +5440,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 588,
+              "z": 654,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5314,11 +5452,11 @@
               "text": "",
               "originId": "66789dbdccf42b00140515f6",
               "viewport_phone_portrait": {
-                "x": 224.87,
-                "y": 2694.26,
+                "x": 223.87,
+                "y": 3896.26,
                 "w": 152.13,
                 "h": 9,
-                "z": 589,
+                "z": 654,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -5371,7 +5509,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 539,
-              "y": 1248.76,
+              "y": 1461.76,
               "w": 152,
               "h": 19,
               "version": 3,
@@ -5404,7 +5542,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 589,
+              "z": 655,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5418,7 +5556,7 @@
               "originId": "66789dbdccf42b00140515f2",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 590
+                "z": 655
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -5447,7 +5585,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 362.23,
-              "y": 908.49,
+              "y": 1121.49,
               "w": 150.77,
               "h": 19,
               "version": 3,
@@ -5480,7 +5618,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 590,
+              "z": 656,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5494,7 +5632,7 @@
               "originId": "66789dbdccf42b00140515f3",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 591
+                "z": 656
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -5523,7 +5661,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 197,
-              "y": 908.49,
+              "y": 1121.49,
               "w": 150,
               "h": 19,
               "version": 3,
@@ -5556,7 +5694,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 591,
+              "z": 657,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5570,7 +5708,7 @@
               "originId": "66789dbdccf42b00140515f4",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 592
+                "z": 657
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -5599,7 +5737,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 195.9,
-              "y": 931.49,
+              "y": 1144.49,
               "w": 150.1,
               "h": 9,
               "version": 3,
@@ -5628,7 +5766,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 592,
+              "z": 658,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5641,7 +5779,7 @@
               "originId": "66789dbdccf42b00140515f8",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 593
+                "z": 658
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -5670,7 +5808,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 362.58,
-              "y": 931.49,
+              "y": 1144.49,
               "w": 149.42,
               "h": 9,
               "version": 3,
@@ -5699,7 +5837,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 593,
+              "z": 659,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5715,7 +5853,7 @@
               "originId": "66789dbdccf42b00140515f7",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 594
+                "z": 659
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -5744,14 +5882,14 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": -460.28,
-              "y": 908.5,
+              "y": 1121.5,
               "w": 43.45,
               "h": 7,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 594,
+              "z": 660,
               "cropH": 138,
               "cropW": 858,
               "cropX": 0,
@@ -5790,7 +5928,7 @@
               "_variationY": -697.03,
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 595
+                "z": 660
               },
               "__v": 0
             }, {
@@ -5798,8 +5936,8 @@
               "wid": "695bbaf58e8e35707806a72c",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 270.67,
-              "y": 1788,
+              "x": 520.67,
+              "y": 1759,
               "w": 231.6,
               "h": 110,
               "version": 3,
@@ -5808,10 +5946,10 @@
               "autosize": true,
               "blocks": [{
                 "key": "fim0o",
-                "text": "Dizajnerske torbe su jedna od najboljih investicija na sniženju. Izdvojili smo 20 modela do 300 eura",
+                "text": "Najpopularnije traperice u 2026. bit će u ovoj nijansi plave koja odlično izgleda u svakom looku",
                 "entityRanges": [{
                   "offset": 0,
-                  "length": 100,
+                  "length": 96,
                   "key": 0
                 }],
                 "depth": 0
@@ -5822,7 +5960,7 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 100,
+                    "length": 96,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                   }],
                   "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
@@ -5849,7 +5987,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 346,
+              "z": 345,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -5865,7 +6003,7 @@
               "animation": [],
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 478
+                "z": 477
               },
               "_hidden": [{
                 "pid": "default",
@@ -5926,32 +6064,32 @@
               "wid": "695bbaf58e8e35707806a72d",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 268,
-              "y": 1789,
-              "w": 237,
+              "x": 520.2,
+              "y": 1760,
+              "w": 233.8,
               "h": 150,
-              "z": 347,
-              "cropW": 2653,
+              "z": 346,
+              "cropW": 2618,
               "cropH": 1680,
-              "cropX": 11,
+              "cropX": 36,
               "cropY": 0,
-              "originalCropW": 2653,
+              "originalCropW": 2618,
               "originalCropH": 1680,
-              "originalCropX": 11,
+              "originalCropX": 36,
               "originalCropY": 0,
               "originalW": 2664,
               "originalH": 1680,
               "scale": 0.08929,
-              "blurHash": "UMFFjO00~q9F?aIUt7kCM{WBxubHt7WUt7oJ",
+              "blurHash": "UBDvcxfFtT4n0M%OD%E1~VoHxuxuxtIVxuM{",
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/I4qGb09NrrMCCxHAI830Z.jpg",
-                "url": "img/683d850bd2094940857eb894/6034839/image-e710eb98-a3a0-4dfa-a48e-1d2fe66745d4.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/b_wDOg8FQ67cD-SDM-cP8.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/qNQ2uEOlMDkmmbDRZ1bh9.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/b_wDOg8FQ67cD-SDM-cP8.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/I4qGb09NrrMCCxHAI830Z.jpg"
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/y1jzk42houYkfTef1KEJa.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-ce5c95a4-555e-4a4a-82af-9faa0816bc45.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/i6GagHISz237lyuwoiJXF.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/0aTeO4Ls3qFTacq5-GviC.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/i6GagHISz237lyuwoiJXF.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/y1jzk42houYkfTef1KEJa.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -6032,15 +6170,15 @@
               "name": "slika1",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 479,
+                "z": 478,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/I4qGb09NrrMCCxHAI830Z.jpg",
-                  "url": "img/683d850bd2094940857eb894/6034839/image-e710eb98-a3a0-4dfa-a48e-1d2fe66745d4.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/b_wDOg8FQ67cD-SDM-cP8.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/qNQ2uEOlMDkmmbDRZ1bh9.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/b_wDOg8FQ67cD-SDM-cP8.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/I4qGb09NrrMCCxHAI830Z.jpg"
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/y1jzk42houYkfTef1KEJa.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-ce5c95a4-555e-4a4a-82af-9faa0816bc45.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/i6GagHISz237lyuwoiJXF.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/0aTeO4Ls3qFTacq5-GviC.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/i6GagHISz237lyuwoiJXF.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/y1jzk42houYkfTef1KEJa.jpg"
                 }
               },
               "hidden": false,
@@ -6055,86 +6193,18 @@
               "sticked": "",
               "is_above": false,
               "is_global": false,
-              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/dizajnerske-torbe-ispod-300-eura-zimsko-snizenje/",
-              "clickTarget": "_self",
-              "__v": 0
-            }, {
-              "_id": "695bbaf58e8e35707806a72e",
-              "wid": "695bbaf58e8e35707806a72e",
-              "mag_num_id": 6043837,
-              "type": "text",
-              "x": 771.67,
-              "y": 1794,
-              "w": 231.6,
-              "h": 92,
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "fim0o",
-                "text": "5 najčešćih beauty grešaka koje svi radimo zimi (i kako ih najlakše izbjeći)",
-                "entityRanges": [],
-                "depth": 0
-              }],
-              "styles": [{
-                "key": "fim0o",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 76,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
-                  }],
-                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE", "COLOR"],
-                  "values": ["400", "normal", "Inter", "23", "E6E6E664"]
-                }
-              }],
-              "entityMap": {},
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "z": 332,
-              "blocksMeta": [{
-                "key": "fim0o",
-                "data": {
-                  "sizesLinkedStatus": false,
-                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
-                  "lineHeight": 23,
-                  "align": "align-left"
-                }
-              }],
-              "name": "5 najčešćih beauty grešaka koje svi radimo zimi (i kako ih najlakše izbjeći)",
-              "text": "",
-              "originId": "66789dbdccf42b0014051613",
-              "animation": [],
-              "viewport_phone_portrait": {
-                "hidden": true,
-                "z": 475
-              },
-              "_hidden": [{
-                "pid": "default",
-                "value": false
-              }],
-              "_z": [{
-                "pid": "default",
-                "value": 396
-              }],
-              "sticked": "",
-              "hidden": false,
-              "is_above": false,
-              "is_global": false,
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/indigo-trraperice-modni-favorit-2026-shopping-vodic/",
+              "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
               "__v": 0
             }, {
               "_id": "695bbaf58e8e35707806a72f",
               "wid": "695bbaf58e8e35707806a72f",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 20.67,
-              "y": 1788,
+              "x": 272.67,
+              "y": 1759,
               "w": 231.6,
               "h": 110,
               "version": 3,
@@ -6143,10 +6213,10 @@
               "autosize": true,
               "blocks": [{
                 "key": "fim0o",
-                "text": "Zimski modni dodatak koji mijenja sve? Evo zašto će trokutasti šal biti moja prva investicija u 2026.",
+                "text": "Ovu jednostavnu styling metodu mnogi nazivaju magičnim trikom za savršene odjevne kombinacije",
                 "entityRanges": [{
                   "offset": 0,
-                  "length": 101,
+                  "length": 93,
                   "key": 0
                 }],
                 "depth": 0
@@ -6157,7 +6227,7 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 101,
+                    "length": 93,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                   }],
                   "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
@@ -6167,6 +6237,7 @@
               "entityMap": {
                 "0": {
                   "type": "LINK",
+                  "mutability": "MUTABLE",
                   "data": {
                     "url": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
                     "anchorPosition": 0,
@@ -6174,8 +6245,7 @@
                     "target": "_self",
                     "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
                     "id": "99k4o"
-                  },
-                  "mutability": "MUTABLE"
+                  }
                 }
               },
               "flags": {
@@ -6184,7 +6254,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 344,
+              "z": 343,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -6199,54 +6269,8 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 13.67,
-                "y": 1601.15,
-                "w": 296.6,
-                "h": 60,
-                "z": 477,
-                "blocksMeta": [{
-                  "key": "fim0o",
-                  "data": {
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
-                    "lineHeight": 20,
-                    "align": "align-left"
-                  }
-                }],
-                "styles": [{
-                  "key": "fim0o",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 101,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
-                    }],
-                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
-                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
-                  }
-                }],
-                "entityMap": {
-                  "0": {
-                    "type": "LINK",
-                    "mutability": "MUTABLE",
-                    "data": {
-                      "url": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
-                      "anchorPosition": 0,
-                      "type": "URL",
-                      "target": "_self",
-                      "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
-                      "id": "99k4o"
-                    }
-                  }
-                },
-                "_hidden": [{
-                  "pid": "default",
-                  "value": false
-                }],
-                "sticked": "",
-                "hidden": false,
-                "modifiers": []
+                "hidden": true,
+                "z": 476
               },
               "_hidden": [{
                 "pid": "default",
@@ -6305,32 +6329,32 @@
               "wid": "695bbaf58e8e35707806a730",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 20,
-              "y": 1789,
-              "w": 232.84,
+              "x": 269,
+              "y": 1760,
+              "w": 235.84,
               "h": 150,
-              "z": 345,
-              "cropW": 2607.8240212864744,
+              "z": 344,
+              "cropW": 2641,
               "cropH": 1680,
-              "cropX": 28.08798935676282,
+              "cropX": 0,
               "cropY": 0,
-              "originalCropW": 2607.8240212864744,
+              "originalCropW": 2641,
               "originalCropH": 1680,
-              "originalCropX": 28.08798935676282,
+              "originalCropX": 0,
               "originalCropY": 0,
               "originalW": 2664,
               "originalH": 1680,
-              "scale": 0.08928571428571429,
-              "blurHash": "U7BpnU599E~pD4OZX9V?~AE2WCs8?GIoR+%L",
+              "scale": 0.08929,
+              "blurHash": "UDFO[W-p?I?a8_WV9GIVS6a#I:Ip~Vt6xtof",
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/GaoiaD9lNKm55y-dmT3kl.jpg",
-                "url": "img/683d850bd2094940857eb894/6034839/image-d196e288-4443-4aac-a6f6-fb90fbdddcfd.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/GdyOaTkxp-e1nY2n-i5X9.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/W12_zbECpUrY7KoaCbrOI.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/GdyOaTkxp-e1nY2n-i5X9.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/GaoiaD9lNKm55y-dmT3kl.jpg"
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/0FAh9DI2LrrDlj1rjy0PF.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-6dfaba36-2ed8-4fbc-9ebb-eceeaa794574.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/Hf74STjqar84n9xmYjjP2.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/8wmFhzIDsckDYWk4pV3eS.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/Hf74STjqar84n9xmYjjP2.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/0FAh9DI2LrrDlj1rjy0PF.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -6410,43 +6434,17 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 11,
-                "y": 1400.33,
-                "w": 298,
-                "h": 192.14,
-                "z": 476,
-                "cropW": 2606,
-                "cropH": 1680,
-                "cropX": 29,
-                "cropY": 0,
-                "originalCropW": 2607.8240212864744,
-                "originalCropH": 1680,
-                "originalCropX": 28.08798935676282,
-                "originalCropY": 0,
+                "hidden": true,
+                "z": 475,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/oh9DwSGbCnp4FdTaTxtWn.jpg",
-                  "url": "img/683d850bd2094940857eb894/6034839/image-d196e288-4443-4aac-a6f6-fb90fbdddcfd.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/_TQVZ06cNlLjmy8CUMYZ8.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/PMz2-8wLJ1zF5qjjw8hqf.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/_TQVZ06cNlLjmy8CUMYZ8.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/oh9DwSGbCnp4FdTaTxtWn.jpg"
-                },
-                "scale": 0.11437,
-                "hidden": false,
-                "_hidden": [{
-                  "pid": "default",
-                  "value": false
-                }],
-                "sticked": "",
-                "animation": [{
-                  "UUID": "cc340548-432e-4dec-8c86-113e1d36a8c0",
-                  "type": "scroll",
-                  "steps": [],
-                  "playOnce": false,
-                  "resetWhenOutOfView": false,
-                  "trigger": []
-                }]
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/0FAh9DI2LrrDlj1rjy0PF.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-6dfaba36-2ed8-4fbc-9ebb-eceeaa794574.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Hf74STjqar84n9xmYjjP2.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/8wmFhzIDsckDYWk4pV3eS.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Hf74STjqar84n9xmYjjP2.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/0FAh9DI2LrrDlj1rjy0PF.jpg"
+                }
               },
               "hidden": false,
               "_hidden": [{
@@ -6458,531 +6456,10 @@
                 "value": 393
               }],
               "sticked": "",
-              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+              "clickLink": "https://www.telegram.hr/super1/look/seesaw-styling-odjevne-kombinacije-outfit-trik/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "__v": 0
-            }, {
-              "_id": "695bbaf58e8e35707806a731",
-              "wid": "695bbaf58e8e35707806a731",
-              "mag_num_id": 6043837,
-              "type": "text",
-              "x": 520.67,
-              "y": 1788,
-              "w": 231.6,
-              "h": 110,
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "fim0o",
-                "text": "U 2026. ćemo ponovno nositi cipele u jarkim crvenim tonovima, ove krasne modele pronašli smo na sniženju",
-                "entityRanges": [{
-                  "offset": 0,
-                  "length": 104,
-                  "key": 0
-                }],
-                "depth": 0
-              }],
-              "styles": [{
-                "key": "fim0o",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 104,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
-                  }],
-                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
-                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
-                }
-              }],
-              "entityMap": {
-                "0": {
-                  "type": "LINK",
-                  "mutability": "MUTABLE",
-                  "data": {
-                    "url": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
-                    "anchorPosition": 0,
-                    "type": "URL",
-                    "target": "_blank",
-                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
-                    "id": "60g4q"
-                  }
-                }
-              },
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "z": 349,
-              "blocksMeta": [{
-                "key": "fim0o",
-                "data": {
-                  "sizesLinkedStatus": false,
-                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
-                  "lineHeight": 22,
-                  "align": "align-left"
-                }
-              }],
-              "name": "naslov3",
-              "text": "",
-              "originId": "66789dbdccf42b0014051613",
-              "animation": [],
-              "viewport_phone_portrait": {
-                "hidden": true,
-                "z": 480
-              },
-              "_hidden": [{
-                "pid": "default",
-                "value": false
-              }],
-              "_z": [{
-                "pid": "default",
-                "value": 392
-              }],
-              "sticked": "",
-              "hidden": false,
-              "shadow": {
-                "x": 0,
-                "y": 0,
-                "blur": 5,
-                "color": "0059FF64",
-                "onHover": true,
-                "onScroll": false,
-                "fadeOnHover": false,
-                "ratio": 0.1,
-                "duration": 0.5
-              },
-              "isShadowEnabled": true,
-              "modifiers": [{
-                "id": "drag",
-                "title": "Drag",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Drag/WidgetRendered"
-                }, {
-                  "eventName": "pointerdown",
-                  "eventHandler": "Drag/PointerDown"
-                }, {
-                  "eventName": "pointerup",
-                  "eventHandler": "Drag/PointerUp",
-                  "isGlobal": true
-                }, {
-                  "eventName": "pointermove",
-                  "eventHandler": "Drag/PointerMove",
-                  "isGlobal": true
-                }, {
-                  "eventName": "touchend",
-                  "eventHandler": "Drag/TouchEnd",
-                  "isGlobal": true
-                }, {
-                  "eventName": "dragstart",
-                  "eventHandler": "Drag/DragStart"
-                }]
-              }],
-              "__v": 0
-            }, {
-              "_id": "695bbaf58e8e35707806a732",
-              "wid": "695bbaf58e8e35707806a732",
-              "mag_num_id": 6043837,
-              "type": "picture",
-              "x": 520,
-              "y": 1790,
-              "w": 232.84,
-              "h": 150,
-              "z": 350,
-              "cropW": 2607.8240212864744,
-              "cropH": 1680,
-              "cropX": 28.08798935676282,
-              "cropY": 0,
-              "originalCropW": 2607.8240212864744,
-              "originalCropH": 1680,
-              "originalCropX": 28.08798935676282,
-              "originalCropY": 0,
-              "originalW": 2664,
-              "originalH": 1680,
-              "scale": 0.08928571428571429,
-              "blurHash": "U9C6DcW=1vt600V[4:WB?]xarEkCJ,R*i_f5",
-              "version": 2,
-              "originId": "66789dbdccf42b0014051616",
-              "animation": [{
-                "UUID": "e188cbbe-62be-4c61-a1ae-7da90f994ff2",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.3,
-                  "acceleration": "ease-both",
-                  "from_opacity": 100,
-                  "use_opacity": true,
-                  "opacity": 0
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [{
-                "id": "cursor",
-                "title": "Cursor",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "static": [{
-                  "id": "cursor-keyword",
-                  "name": "Cursor",
-                  "type": "select",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "auto",
-                  "params": {
-                    "default": "auto",
-                    "options": [{
-                      "label": "Auto",
-                      "value": "auto"
-                    }, {
-                      "label": "Pointer",
-                      "value": "pointer"
-                    }, {
-                      "label": "Move",
-                      "value": "move"
-                    }]
-                  }
-                }, {
-                  "id": "cursor-url",
-                  "name": "Cursor image",
-                  "type": "file",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
-                }, {
-                  "id": "url-is-lambda",
-                  "name": "Is cursor url lambda",
-                  "type": "toggle",
-                  "operator": "assignment",
-                  "modelField": "cursorUrlIsLambda",
-                  "value": false,
-                  "params": {
-                    "default": false,
-                    "isDisabled": true
-                  }
-                }, {
-                  "id": "cursor-image-dimension",
-                  "name": "Cursor image dimension",
-                  "type": "number",
-                  "operator": "assignment",
-                  "modelField": "cursorImageDimension",
-                  "value": 16,
-                  "params": {
-                    "default": 0,
-                    "isDisabled": true
-                  }
-                }],
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Cursor/WidgetRendered"
-                }]
-              }],
-              "name": "slika1",
-              "viewport_phone_portrait": {
-                "hidden": true,
-                "z": 481,
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/9ui1BjAe_0fK9GXc9sWct.jpg",
-                  "url": "img/683d850bd2094940857eb894/6034839/image-d696d7e7-d762-4d62-83fc-3bc096dc55f4.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/ifd8rvzNLWMF-NCBi3jy-.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/KEUEBbtY5ddEnC3vK7D_j.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/ifd8rvzNLWMF-NCBi3jy-.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/9ui1BjAe_0fK9GXc9sWct.jpg"
-                }
-              },
-              "hidden": false,
-              "_hidden": [{
-                "pid": "default",
-                "value": false
-              }],
-              "_z": [{
-                "pid": "default",
-                "value": 393
-              }],
-              "sticked": "",
-              "picture": {
-                "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/9ui1BjAe_0fK9GXc9sWct.jpg",
-                "url": "img/683d850bd2094940857eb894/6034839/image-d696d7e7-d762-4d62-83fc-3bc096dc55f4.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/ifd8rvzNLWMF-NCBi3jy-.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/KEUEBbtY5ddEnC3vK7D_j.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/ifd8rvzNLWMF-NCBi3jy-.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/9ui1BjAe_0fK9GXc9sWct.jpg"
-              },
-              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
-              "clickTarget": "_blank",
-              "__v": 0
-            }, {
-              "_id": "695bbaf58e8e35707806a733",
-              "wid": "695bbaf58e8e35707806a733",
-              "mag_num_id": 6043837,
-              "type": "text",
-              "x": 770.67,
-              "y": 1788,
-              "w": 231.6,
-              "h": 66,
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "fim0o",
-                "text": "Bijele traperice zimi? Definitivno da, a ovako ih sve možete stilizirati",
-                "entityRanges": [{
-                  "offset": 0,
-                  "length": 72,
-                  "key": 0
-                }],
-                "depth": 0
-              }],
-              "styles": [{
-                "key": "fim0o",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 72,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
-                  }],
-                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
-                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
-                }
-              }],
-              "entityMap": {
-                "0": {
-                  "type": "LINK",
-                  "mutability": "MUTABLE",
-                  "data": {
-                    "url": "https://www.telegram.hr/super1/look/kako-nositi-bijele-traperice-zimi/",
-                    "anchorPosition": 0,
-                    "type": "URL",
-                    "target": "_blank",
-                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
-                    "id": "1dq9l"
-                  }
-                }
-              },
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "z": 351,
-              "blocksMeta": [{
-                "key": "fim0o",
-                "data": {
-                  "sizesLinkedStatus": false,
-                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
-                  "lineHeight": 22,
-                  "align": "align-left"
-                }
-              }],
-              "name": "naslov4",
-              "text": "",
-              "originId": "66789dbdccf42b0014051613",
-              "animation": [],
-              "viewport_phone_portrait": {
-                "hidden": true,
-                "z": 482
-              },
-              "_hidden": [{
-                "pid": "default",
-                "value": false
-              }],
-              "_z": [{
-                "pid": "default",
-                "value": 392
-              }],
-              "sticked": "",
-              "hidden": false,
-              "shadow": {
-                "x": 0,
-                "y": 0,
-                "blur": 5,
-                "color": "0059FF64",
-                "onHover": true,
-                "onScroll": false,
-                "fadeOnHover": false,
-                "ratio": 0.1,
-                "duration": 0.5
-              },
-              "isShadowEnabled": true,
-              "modifiers": [{
-                "id": "drag",
-                "title": "Drag",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Drag/WidgetRendered"
-                }, {
-                  "eventName": "pointerdown",
-                  "eventHandler": "Drag/PointerDown"
-                }, {
-                  "eventName": "pointerup",
-                  "eventHandler": "Drag/PointerUp",
-                  "isGlobal": true
-                }, {
-                  "eventName": "pointermove",
-                  "eventHandler": "Drag/PointerMove",
-                  "isGlobal": true
-                }, {
-                  "eventName": "touchend",
-                  "eventHandler": "Drag/TouchEnd",
-                  "isGlobal": true
-                }, {
-                  "eventName": "dragstart",
-                  "eventHandler": "Drag/DragStart"
-                }]
-              }],
-              "__v": 0
-            }, {
-              "_id": "695bbaf58e8e35707806a734",
-              "wid": "695bbaf58e8e35707806a734",
-              "mag_num_id": 6043837,
-              "type": "picture",
-              "x": 768,
-              "y": 1789,
-              "w": 237,
-              "h": 150,
-              "z": 352,
-              "cropW": 2654.4,
-              "cropH": 1680,
-              "cropX": 4.7999999999999545,
-              "cropY": 0,
-              "originalCropW": 2654.4,
-              "originalCropH": 1680,
-              "originalCropX": 4.7999999999999545,
-              "originalCropY": 0,
-              "originalW": 2664,
-              "originalH": 1680,
-              "scale": 0.08928571428571429,
-              "blurHash": "UEE{qf.84:?w$wIAM{%28_Rixss8%M%NRkWA",
-              "version": 2,
-              "originId": "66789dbdccf42b0014051616",
-              "animation": [{
-                "UUID": "c3383f02-ea5a-4dbd-afe3-2996bffd9aa5",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.3,
-                  "acceleration": "ease-both",
-                  "from_opacity": 100,
-                  "use_opacity": true,
-                  "opacity": 0
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [{
-                "id": "cursor",
-                "title": "Cursor",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "static": [{
-                  "id": "cursor-keyword",
-                  "name": "Cursor",
-                  "type": "select",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "auto",
-                  "params": {
-                    "default": "auto",
-                    "options": [{
-                      "label": "Auto",
-                      "value": "auto"
-                    }, {
-                      "label": "Pointer",
-                      "value": "pointer"
-                    }, {
-                      "label": "Move",
-                      "value": "move"
-                    }]
-                  }
-                }, {
-                  "id": "cursor-url",
-                  "name": "Cursor image",
-                  "type": "file",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
-                }, {
-                  "id": "url-is-lambda",
-                  "name": "Is cursor url lambda",
-                  "type": "toggle",
-                  "operator": "assignment",
-                  "modelField": "cursorUrlIsLambda",
-                  "value": false,
-                  "params": {
-                    "default": false,
-                    "isDisabled": true
-                  }
-                }, {
-                  "id": "cursor-image-dimension",
-                  "name": "Cursor image dimension",
-                  "type": "number",
-                  "operator": "assignment",
-                  "modelField": "cursorImageDimension",
-                  "value": 16,
-                  "params": {
-                    "default": 0,
-                    "isDisabled": true
-                  }
-                }],
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Cursor/WidgetRendered"
-                }]
-              }],
-              "name": "slika1",
-              "viewport_phone_portrait": {
-                "hidden": true,
-                "z": 483,
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/yVInz2MP1WkcG_k1UqgF-.jpg",
-                  "url": "img/683d850bd2094940857eb894/6034839/image-d445346e-6ad4-45fb-bd99-aec196ee13f4.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/rfHSIeMnthnHX5GzLQtqo.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/BsuE0tcb0J-7qIAK4rFOn.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/rfHSIeMnthnHX5GzLQtqo.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/yVInz2MP1WkcG_k1UqgF-.jpg"
-                }
-              },
-              "hidden": false,
-              "_hidden": [{
-                "pid": "default",
-                "value": false
-              }],
-              "_z": [{
-                "pid": "default",
-                "value": 393
-              }],
-              "sticked": "",
-              "picture": {
-                "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/yVInz2MP1WkcG_k1UqgF-.jpg",
-                "url": "img/683d850bd2094940857eb894/6034839/image-d445346e-6ad4-45fb-bd99-aec196ee13f4.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/rfHSIeMnthnHX5GzLQtqo.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/BsuE0tcb0J-7qIAK4rFOn.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/rfHSIeMnthnHX5GzLQtqo.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/yVInz2MP1WkcG_k1UqgF-.jpg"
-              },
-              "clickLink": "https://www.telegram.hr/super1/look/kako-nositi-bijele-traperice-zimi/",
-              "clickTarget": "_blank",
+              "anchor_link_pos": null,
               "__v": 0
             }, {
               "_id": "695bd899dac5138bd76415a0",
@@ -6990,22 +6467,22 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 21,
-              "y": 1996,
+              "y": 2288,
               "w": 108,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 354,
+              "z": 349,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/k4XL5bzFHUaNpgoCutfLs.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/OZW_lgwFV-iYWldoQtVuw.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp"
               },
               "cropW": 776,
               "cropH": 790,
@@ -7023,19 +6500,19 @@
               "name": "",
               "hidden": null,
               "viewport_phone_portrait": {
-                "x": 13,
-                "y": 2593,
+                "x": 12,
+                "y": 3994,
                 "w": 68,
                 "h": 71,
                 "z": 359,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/YRPsqfs2Fn09xCEPx9Ycd.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/xoKDA-DSYXkqv4RUsOEgU.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/2fLxA-QZd40vINrZaH34h.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/M8SZYXTvAmi1iWULg133T.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/2fLxA-QZd40vINrZaH34h.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/YRPsqfs2Fn09xCEPx9Ycd.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/7ge22l7QIfM8PF4Z1PFM-.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/voyGpjofPyY6CmSpW3QIO.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/7ge22l7QIfM8PF4Z1PFM-.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/xoKDA-DSYXkqv4RUsOEgU.webp"
                 },
                 "cropW": 756,
                 "cropH": 790,
@@ -7055,14 +6532,14 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 20,
-              "y": 1996,
+              "y": 2288,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 355,
+              "z": 350,
               "scale": 0.14,
               "cropH": 785.7142857142857,
               "cropW": 800,
@@ -7076,12 +6553,12 @@
               "originalW": 800,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/jXH_vttRMGHaG3y13MX-I.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/QL9DLv9oDwCuZcXx_aCei.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-368ac8f7-60a3-47dc-806a-f0179297fc35.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/gBEWCUAtq3Q3_yH9EUaRc.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/17KzYqmV5XGL4k1LzZ8aZ.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/gBEWCUAtq3Q3_yH9EUaRc.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/jXH_vttRMGHaG3y13MX-I.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/BVar4f1-wBLA_avycdYM7.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/j2BRUAPcuF6mtfDSEaqJX.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/BVar4f1-wBLA_avycdYM7.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/QL9DLv9oDwCuZcXx_aCei.webp"
               },
               "animation": [],
               "blurHash": "UmF6%;o#%ht8tRjZWBkC?wjsWAWBf,a#offQ",
@@ -7097,8 +6574,8 @@
                 "value": 348
               }],
               "viewport_phone_portrait": {
-                "x": 12,
-                "y": 2593,
+                "x": 11,
+                "y": 3994,
                 "w": 71,
                 "h": 71,
                 "z": 360,
@@ -7112,12 +6589,12 @@
                 "originalCropY": 7.142857142857167,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/DQTppt_52tyj2bAcbK17C.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/V7lXsH46nSI2ssMOYIJAS.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-368ac8f7-60a3-47dc-806a-f0179297fc35.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/dQOFg0s0HFpMOlSv2ftTk.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/cOHZR9fDhw0jybTZCSbZt.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/dQOFg0s0HFpMOlSv2ftTk.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/DQTppt_52tyj2bAcbK17C.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/PQLUT7oV45fgSg3RI7WgM.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/XkIpZXXOgvvu4d38nnjaC.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/PQLUT7oV45fgSg3RI7WgM.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/V7lXsH46nSI2ssMOYIJAS.webp"
                 },
                 "hidden": false,
                 "sticked": "",
@@ -7134,23 +6611,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 25,
-              "y": 1996,
+              "y": 2288,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 356,
+              "z": 351,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/GJ8GNs7YrSGbk0Prgm0yR.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/QyX7zrmqIzwKTejLGyBkW.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-871b2fed-222c-4944-96a8-235c65846239.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/TtcGQCKz31iBrjvTC_jT1.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/opu4pY5lTh3VNj1mk4ga_.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/TtcGQCKz31iBrjvTC_jT1.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/GJ8GNs7YrSGbk0Prgm0yR.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/luQTseySKMiSWzHIw2TjM.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/AALdUti3rF6-Omy4rzMMR.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/luQTseySKMiSWzHIw2TjM.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/QyX7zrmqIzwKTejLGyBkW.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -7195,12 +6672,12 @@
                 "z": 361,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/GJ8GNs7YrSGbk0Prgm0yR.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/QyX7zrmqIzwKTejLGyBkW.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-871b2fed-222c-4944-96a8-235c65846239.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/TtcGQCKz31iBrjvTC_jT1.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/opu4pY5lTh3VNj1mk4ga_.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/TtcGQCKz31iBrjvTC_jT1.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/GJ8GNs7YrSGbk0Prgm0yR.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/luQTseySKMiSWzHIw2TjM.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/AALdUti3rF6-Omy4rzMMR.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/luQTseySKMiSWzHIw2TjM.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/QyX7zrmqIzwKTejLGyBkW.webp"
                 }
               },
               "__v": 0
@@ -7210,23 +6687,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 34,
-              "y": 1996,
+              "y": 2288,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 357,
+              "z": 352,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Evo-Li163_Nidfn5N_DFG.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/teUfOvq1KhhWzLfW67HlL.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-6d1bde72-9327-4154-b8db-49cd015af09b.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/A4kQcELCrtmHcDZZ1wB7-.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/V6mNWjEZIrXazzQ0WCVCx.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/A4kQcELCrtmHcDZZ1wB7-.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Evo-Li163_Nidfn5N_DFG.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/pgMAoqfBLbKsPfsQtBnyE.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/P37AjTeEMrTZJMGx1AFR8.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/pgMAoqfBLbKsPfsQtBnyE.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/teUfOvq1KhhWzLfW67HlL.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -7271,12 +6748,12 @@
                 "z": 362,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Evo-Li163_Nidfn5N_DFG.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/teUfOvq1KhhWzLfW67HlL.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-6d1bde72-9327-4154-b8db-49cd015af09b.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/A4kQcELCrtmHcDZZ1wB7-.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/V6mNWjEZIrXazzQ0WCVCx.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/A4kQcELCrtmHcDZZ1wB7-.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Evo-Li163_Nidfn5N_DFG.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/pgMAoqfBLbKsPfsQtBnyE.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/P37AjTeEMrTZJMGx1AFR8.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/pgMAoqfBLbKsPfsQtBnyE.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/teUfOvq1KhhWzLfW67HlL.webp"
                 }
               },
               "__v": 0
@@ -7286,23 +6763,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 44,
-              "y": 1995,
+              "y": 2287,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 358,
+              "z": 353,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ZCKF_2DkS90UQn_peh-WA.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Pg7XIGT86kF-fHFiaCRMe.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-b23348fb-e403-40b8-a81e-7770e4ce0f9e.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/TEPyHDBhpz_IiDUpsmoI-.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/o082MWSPdBU7cTyWcKW5z.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/TEPyHDBhpz_IiDUpsmoI-.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ZCKF_2DkS90UQn_peh-WA.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/7y2go4LvYU7LxK-RpnHzK.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/1tMRmDq5bAM21X4ec8_tP.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/7y2go4LvYU7LxK-RpnHzK.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Pg7XIGT86kF-fHFiaCRMe.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -7343,19 +6820,19 @@
                 "value": 351
               }],
               "viewport_phone_portrait": {
-                "x": 18,
-                "y": 2592,
+                "x": 17,
+                "y": 3993,
                 "w": 71,
                 "h": 71,
                 "z": 363,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/0oi1ie8Ja5qYo0ePPkXBi.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/uE1VzgmAt5H2j_D_q44MW.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-b23348fb-e403-40b8-a81e-7770e4ce0f9e.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/EBz36WYa63uWkJ1Bv0386.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/h6P89uOo-S3DrNexbBwoX.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/EBz36WYa63uWkJ1Bv0386.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/0oi1ie8Ja5qYo0ePPkXBi.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/e-iOHfZWfWwnkYMsCnBDv.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/QdFJ1KykWEpZ77QLT0TiH.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/e-iOHfZWfWwnkYMsCnBDv.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/uE1VzgmAt5H2j_D_q44MW.webp"
                 },
                 "cropW": 786,
                 "cropH": 786,
@@ -7396,23 +6873,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 55,
-              "y": 1995,
+              "y": 2287,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 359,
+              "z": 354,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/UuIQ5qlqLEk8512_WwkMQ.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Kfzyck0rLNN9Uve3RM1jq.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-a724b096-5dbb-41d0-9a5e-311b87c92875.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/9v5dAaNhoqjoQ6BqO1pMp.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/IF7BjCFOwupP8J4G0fvOx.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/9v5dAaNhoqjoQ6BqO1pMp.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/UuIQ5qlqLEk8512_WwkMQ.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/r6H0f0FW-9WuGY9AFv57_.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/y4FoLH-Z6C1P_ltzZn_TP.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/r6H0f0FW-9WuGY9AFv57_.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Kfzyck0rLNN9Uve3RM1jq.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -7457,12 +6934,12 @@
                 "z": 364,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/UuIQ5qlqLEk8512_WwkMQ.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Kfzyck0rLNN9Uve3RM1jq.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-a724b096-5dbb-41d0-9a5e-311b87c92875.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/9v5dAaNhoqjoQ6BqO1pMp.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/IF7BjCFOwupP8J4G0fvOx.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/9v5dAaNhoqjoQ6BqO1pMp.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/UuIQ5qlqLEk8512_WwkMQ.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/r6H0f0FW-9WuGY9AFv57_.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/y4FoLH-Z6C1P_ltzZn_TP.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/r6H0f0FW-9WuGY9AFv57_.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Kfzyck0rLNN9Uve3RM1jq.webp"
                 }
               },
               "__v": 0
@@ -7472,23 +6949,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 68,
-              "y": 1995,
+              "y": 2287,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 360,
+              "z": 355,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/o4qtj4iTrbYtq-d4CRqi1.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/2fonauy6I1qntUlKul7zZ.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-4078722a-97fd-428e-a7c0-8416444c33ee.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/RxJf9_dGU6H7uIX-BdZJ4.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/pBzlh0CVB8i4WRhgc_VnN.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/RxJf9_dGU6H7uIX-BdZJ4.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/o4qtj4iTrbYtq-d4CRqi1.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/d-TTidzfZdRRUxvVRowIK.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/O7xJVA8yOBg5j6Gm4iEV7.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/d-TTidzfZdRRUxvVRowIK.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/2fonauy6I1qntUlKul7zZ.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -7529,19 +7006,19 @@
                 "value": 353
               }],
               "viewport_phone_portrait": {
-                "x": 26,
-                "y": 2592,
+                "x": 25,
+                "y": 3993,
                 "w": 71,
                 "h": 71,
                 "z": 365,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/HZn300ewhRbWzRldxChl9.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/I6Vyw3KA7hArq8i6ssilr.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-4078722a-97fd-428e-a7c0-8416444c33ee.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/yZ_d8Q5mnbqptBHUVEaH3.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/4l5Yc0eofwMKlcZ32El0E.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/yZ_d8Q5mnbqptBHUVEaH3.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/HZn300ewhRbWzRldxChl9.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/OSPfLo4D3M6FuDo0bJMZw.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/gHC1Dt-5CiDJYFmr9lNuC.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/OSPfLo4D3M6FuDo0bJMZw.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/I6Vyw3KA7hArq8i6ssilr.webp"
                 },
                 "cropW": 786,
                 "cropH": 786,
@@ -7582,23 +7059,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 84,
-              "y": 1995,
+              "y": 2287,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 361,
+              "z": 356,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/iTax1gHeEuQOOFnaK4n-W.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/pRy1Vs1pXgI8lXoT1M9pZ.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-3bb74aaf-30a9-410a-b0c8-63cdda2711a3.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/X48itmpsbr28fh3vckGWy.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/erEt4kR2Q_wVHCJAcj-We.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/X48itmpsbr28fh3vckGWy.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/iTax1gHeEuQOOFnaK4n-W.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/Pb9F0Quv1UzJ599PFbKim.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/JilseGiRjKUakVtMJZ1d2.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/Pb9F0Quv1UzJ599PFbKim.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/pRy1Vs1pXgI8lXoT1M9pZ.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -7643,12 +7120,12 @@
                 "z": 366,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/iTax1gHeEuQOOFnaK4n-W.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/pRy1Vs1pXgI8lXoT1M9pZ.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-3bb74aaf-30a9-410a-b0c8-63cdda2711a3.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/X48itmpsbr28fh3vckGWy.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/erEt4kR2Q_wVHCJAcj-We.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/X48itmpsbr28fh3vckGWy.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/iTax1gHeEuQOOFnaK4n-W.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Pb9F0Quv1UzJ599PFbKim.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/JilseGiRjKUakVtMJZ1d2.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Pb9F0Quv1UzJ599PFbKim.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/pRy1Vs1pXgI8lXoT1M9pZ.webp"
                 }
               },
               "__v": 0
@@ -7658,23 +7135,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 101,
-              "y": 1995,
+              "y": 2287,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 362,
+              "z": 357,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Ybu70JnwWrLbiesPEv58v.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/o8J212UY7NL5hMnnNRYH-.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-8de428c4-012b-4286-80a4-a5e109cc4983.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/SxoqHAelD7zPIz9rBTHmo.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/BYMPJWMFmjtVwRuSJ-4EQ.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/SxoqHAelD7zPIz9rBTHmo.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Ybu70JnwWrLbiesPEv58v.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/trLYnh_7tpC-IqDoB89KV.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/t0BCySSYG5towKIQG4_fJ.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/trLYnh_7tpC-IqDoB89KV.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/o8J212UY7NL5hMnnNRYH-.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -7715,19 +7192,19 @@
                 "value": 355
               }],
               "viewport_phone_portrait": {
-                "x": 37,
-                "y": 2592,
+                "x": 36,
+                "y": 3993,
                 "w": 71,
                 "h": 71,
                 "z": 367,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/HsHCUEYeT9jHFWHTUxCOV.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ixfrmfpl7_MeF5275K-TN.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-8de428c4-012b-4286-80a4-a5e109cc4983.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Ti6inD9fC903Q99mEEPyM.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/XNyY9QjIY3EbVyYXSBsbh.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Ti6inD9fC903Q99mEEPyM.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/HsHCUEYeT9jHFWHTUxCOV.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/enMHH594z6Jm8WCMujkwT.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/pItaBs0MKPUB6RyacVRAH.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/enMHH594z6Jm8WCMujkwT.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ixfrmfpl7_MeF5275K-TN.webp"
                 },
                 "cropW": 786,
                 "cropH": 786,
@@ -7768,7 +7245,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 306.2,
-              "y": 2120,
+              "y": 2412,
               "w": 849.75,
               "h": 154,
               "version": 3,
@@ -7801,7 +7278,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 363,
+              "z": 358,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -7862,7 +7339,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 63.93,
-              "y": 2119,
+              "y": 2411,
               "w": 371.8,
               "h": 120,
               "version": 3,
@@ -7895,7 +7372,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 364,
+              "z": 359,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -7943,14 +7420,14 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 1034.8,
-              "y": 2190,
+              "y": 2515,
               "w": 94,
               "h": 153.6,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 365,
+              "z": 360,
               "cropH": 1170,
               "cropW": 716.015625,
               "cropX": 421.9921875,
@@ -7963,12 +7440,12 @@
               "originalW": 1560,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/zWLiPyzJX6JRiPp9DEQ8w.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/mnSdbjE-VF0KHifqhaMVt.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-c2d23852-2073-48c9-b813-c270e9185a27.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/l8Vhpx8WAWUFNYWGCf0BF.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/22l7kxm9drc23Dct1kyF5.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/l8Vhpx8WAWUFNYWGCf0BF.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/zWLiPyzJX6JRiPp9DEQ8w.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/0n5uVl9f7xVa0N7321www.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/Tu6ZmEBA08uTjnuRFbhZ5.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/0n5uVl9f7xVa0N7321www.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/mnSdbjE-VF0KHifqhaMVt.jpg"
               },
               "scale": 0.13128205128205128,
               "blurHash": "UNHoL8kC?c%M~qozM|Rj%gRjM{j[kCM{s:t7",
@@ -8008,12 +7485,12 @@
                 "z": 370,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/zWLiPyzJX6JRiPp9DEQ8w.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/mnSdbjE-VF0KHifqhaMVt.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-c2d23852-2073-48c9-b813-c270e9185a27.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/l8Vhpx8WAWUFNYWGCf0BF.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/22l7kxm9drc23Dct1kyF5.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/l8Vhpx8WAWUFNYWGCf0BF.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/zWLiPyzJX6JRiPp9DEQ8w.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/0n5uVl9f7xVa0N7321www.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Tu6ZmEBA08uTjnuRFbhZ5.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/0n5uVl9f7xVa0N7321www.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/mnSdbjE-VF0KHifqhaMVt.jpg"
                 }
               },
               "__v": 0
@@ -8023,31 +7500,31 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 20,
-              "y": 2366,
+              "y": 2680,
               "w": 232.84,
               "h": 150,
-              "z": 370,
-              "cropW": 1417,
-              "cropH": 912.858615358186,
-              "cropX": 0,
-              "cropY": 44.07069232090703,
-              "originalCropW": 1417,
-              "originalCropH": 912.858615358186,
-              "originalCropX": 0,
-              "originalCropY": 44.07069232090703,
-              "originalW": 1417,
-              "originalH": 1001,
-              "scale": 0.16431898376852505,
-              "blurHash": "UVE{@Lxu?wxvI9ofD%RjITWAM{WBWBayozay",
+              "z": 365,
+              "cropW": 2607.808,
+              "cropH": 1680,
+              "cropX": 28.096000000000004,
+              "cropY": 0,
+              "originalCropW": 2607.808,
+              "originalCropH": 1680,
+              "originalCropX": 28.096000000000004,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "UDHnZ[?b_NX8^PJAIUn$2wNI%2nh.8w]R*WA",
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/h0ODL0HdG8z2wsNrzcV1G.jpg",
-                "url": "img/683d850bd2094940857eb894/6043837/image-31211fc0-e9be-4e67-809c-ed460d66c49f.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/lX0S288BeI0edpfguNVn-.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/ju0HvQAsY7MHzUiED8Fud.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/lX0S288BeI0edpfguNVn-.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/h0ODL0HdG8z2wsNrzcV1G.jpg"
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/e9vD5bhe2A8zlseEKu6PB.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-0a5081db-d67f-414e-99d1-8c1c2399e33d.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/kYPbA_yZ7AugxjLi9ZUMK.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/gCm8k2RKJVHs9m6m3yIcc.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/kYPbA_yZ7AugxjLi9ZUMK.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/e9vD5bhe2A8zlseEKu6PB.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -8131,12 +7608,12 @@
                 "z": 375,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/h0ODL0HdG8z2wsNrzcV1G.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-31211fc0-e9be-4e67-809c-ed460d66c49f.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/lX0S288BeI0edpfguNVn-.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/ju0HvQAsY7MHzUiED8Fud.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/lX0S288BeI0edpfguNVn-.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/h0ODL0HdG8z2wsNrzcV1G.jpg"
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/e9vD5bhe2A8zlseEKu6PB.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-0a5081db-d67f-414e-99d1-8c1c2399e33d.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/kYPbA_yZ7AugxjLi9ZUMK.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/gCm8k2RKJVHs9m6m3yIcc.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/kYPbA_yZ7AugxjLi9ZUMK.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/e9vD5bhe2A8zlseEKu6PB.jpg"
                 }
               },
               "hidden": false,
@@ -8149,8 +7626,10 @@
                 "value": 393
               }],
               "sticked": "",
-              "clickLink": "https://www.telegram.hr/super1/beauty/pet-beauty-gresaka-zimi/",
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/bez-rumenila-sad-blush-trend/",
               "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
               "__v": 0
             }, {
               "_id": "695bd910eb41279d6dc9909b",
@@ -8158,31 +7637,31 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 268,
-              "y": 2366,
-              "w": 237,
+              "y": 2680,
+              "w": 235.4,
               "h": 150,
-              "z": 371,
-              "cropW": 1423.58,
-              "cropH": 901,
-              "cropX": 7.210000000000036,
+              "z": 366,
+              "cropW": 2636.48,
+              "cropH": 1680,
+              "cropX": 13.759999999999991,
               "cropY": 0,
-              "originalCropW": 1423.58,
-              "originalCropH": 901,
-              "originalCropX": 7.210000000000036,
+              "originalCropW": 2636.48,
+              "originalCropH": 1680,
+              "originalCropX": 13.759999999999991,
               "originalCropY": 0,
-              "originalW": 1438,
-              "originalH": 901,
-              "scale": 0.16648168701442842,
-              "blurHash": "UkNA#V%M?vxv~pofWAoet7WBIUWBxut7WBj[",
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "U7ExIit5R8EMkq$%NGR+,pxG^PxZ}sX8=xxZ",
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/9a8AeavXiI3omXDPlB6A_.jpg",
-                "url": "img/683d850bd2094940857eb894/6043837/image-27ec2943-37bd-44fe-9689-9ca8f9d9b45b.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/ziD1YVe0tmGMtni5x4hST.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/X57UThSH7kApGyDYhrdTB.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/ziD1YVe0tmGMtni5x4hST.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/9a8AeavXiI3omXDPlB6A_.jpg"
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/LCscZCY-6612mluvkrMhW.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-0393a1d5-598c-4222-9989-4477993b5c04.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/rHXLKRz2sXxPnO53b_rRy.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/z-51GVWDU04AdEViIzG4r.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/rHXLKRz2sXxPnO53b_rRy.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/LCscZCY-6612mluvkrMhW.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -8266,12 +7745,12 @@
                 "z": 376,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/9a8AeavXiI3omXDPlB6A_.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-27ec2943-37bd-44fe-9689-9ca8f9d9b45b.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ziD1YVe0tmGMtni5x4hST.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/X57UThSH7kApGyDYhrdTB.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ziD1YVe0tmGMtni5x4hST.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/9a8AeavXiI3omXDPlB6A_.jpg"
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/LCscZCY-6612mluvkrMhW.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-0393a1d5-598c-4222-9989-4477993b5c04.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/rHXLKRz2sXxPnO53b_rRy.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/z-51GVWDU04AdEViIzG4r.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/rHXLKRz2sXxPnO53b_rRy.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/LCscZCY-6612mluvkrMhW.jpg"
                 }
               },
               "hidden": false,
@@ -8284,7 +7763,7 @@
                 "value": 393
               }],
               "sticked": "",
-              "clickLink": "https://www.telegram.hr/super1/beauty/kiehls-ultra-facial-meltdown-recovery-cream-sos-za-suhu-kozu/",
+              "clickLink": "https://www.telegram.hr/super1/beauty/glitchy-glam-pinterest-trend-2026/",
               "clickTarget": "_blank",
               "anchor_link_pos": null,
               "clickPage": null,
@@ -8295,22 +7774,22 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 520,
-              "y": 2366,
-              "w": 232.84,
+              "y": 2680,
+              "w": 235,
               "h": 150,
-              "z": 372,
-              "cropW": 2607.808,
+              "z": 367,
+              "cropW": 2632,
               "cropH": 1680,
-              "cropX": 28.096000000000004,
+              "cropX": 16,
               "cropY": 0,
-              "originalCropW": 2607.808,
+              "originalCropW": 2632,
               "originalCropH": 1680,
-              "originalCropX": 28.096000000000004,
+              "originalCropX": 16,
               "originalCropY": 0,
               "originalW": 2664,
               "originalH": 1680,
               "scale": 0.08928571428571429,
-              "blurHash": "UZJ@%h9w_1WF~VNHt6f8S4s.V@jYt7bHoJa|",
+              "blurHash": "UOLqhJ?b*0oy%2R5IUNGtmbbnNnN_3WCNGtR",
               "version": 2,
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -8394,12 +7873,12 @@
                 "z": 377,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/P9bq4aGNSzMQbtTFT7O2z.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-86159f96-2188-4d70-83fe-e94a7412fa1a.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/FkRc_N6uQn3ID7he_yCgf.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/bqzBRjrUsIZOPMPPezZPB.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/FkRc_N6uQn3ID7he_yCgf.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/P9bq4aGNSzMQbtTFT7O2z.jpg"
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ntVkTaI7_WqB0ol1Hi1gz.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-a5345490-8bb0-42d3-a2d7-428d61572228.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/m_C9Kjan7Czo6Jx-8dNkU.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/1YjcL2KaHAMc0ayncugqt.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/m_C9Kjan7Czo6Jx-8dNkU.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ntVkTaI7_WqB0ol1Hi1gz.jpg"
                 }
               },
               "hidden": false,
@@ -8414,38 +7893,40 @@
               "sticked": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/P9bq4aGNSzMQbtTFT7O2z.jpg",
-                "url": "img/683d850bd2094940857eb894/6043837/image-86159f96-2188-4d70-83fe-e94a7412fa1a.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/FkRc_N6uQn3ID7he_yCgf.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/bqzBRjrUsIZOPMPPezZPB.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/FkRc_N6uQn3ID7he_yCgf.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/P9bq4aGNSzMQbtTFT7O2z.jpg"
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ntVkTaI7_WqB0ol1Hi1gz.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-a5345490-8bb0-42d3-a2d7-428d61572228.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/m_C9Kjan7Czo6Jx-8dNkU.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/1YjcL2KaHAMc0ayncugqt.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/m_C9Kjan7Czo6Jx-8dNkU.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ntVkTaI7_WqB0ol1Hi1gz.jpg"
               },
-              "clickLink": "https://www.telegram.hr/super1/beauty/trendi-boje-kose-zimska-sezona-2026/",
+              "clickLink": "https://www.telegram.hr/super1/beauty/pixie-frizura/",
               "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
               "__v": 0
             }, {
               "_id": "695bd911be5cad623a472682",
               "wid": "695bd911be5cad623a472682",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 768,
-              "y": 2366,
-              "w": 237,
+              "x": 771.2,
+              "y": 2680,
+              "w": 233.8,
               "h": 150,
-              "z": 373,
-              "cropW": 2654.4,
+              "z": 368,
+              "cropW": 2618.56,
               "cropH": 1680,
-              "cropX": 4.7999999999999545,
+              "cropX": 22.720000000000027,
               "cropY": 0,
-              "originalCropW": 2654.4,
+              "originalCropW": 2618.56,
               "originalCropH": 1680,
-              "originalCropX": 4.7999999999999545,
+              "originalCropX": 22.720000000000027,
               "originalCropY": 0,
               "originalW": 2664,
               "originalH": 1680,
               "scale": 0.08928571428571429,
-              "blurHash": "UEE{qf.84:?w$wIAM{%28_Rixss8%M%NRkWA",
+              "blurHash": "UcQ+gAxa%%%M%$kCs,ofRPfPV[ae%MfPofkC",
               "version": 2,
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -8529,12 +8010,12 @@
                 "z": 378,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tJ8qaq8LLFQoar9piUnPW.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-824dc2f5-e568-48eb-b349-c6ce99da7791.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/OuRlWteBp5DruCyEn0yhw.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Msq2NUqdn7XUT9RrnJdb9.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/OuRlWteBp5DruCyEn0yhw.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tJ8qaq8LLFQoar9piUnPW.jpg"
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/fqyIFGeLnKuZ3_KSCE6zK.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-8c2eb95d-bf00-48a8-874e-5a9708c0a779.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/S0xhR_mpERLisBhlJHTEM.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/KyKsW8-DYbmveG9S97DrC.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/S0xhR_mpERLisBhlJHTEM.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/fqyIFGeLnKuZ3_KSCE6zK.jpg"
                 }
               },
               "hidden": false,
@@ -8549,15 +8030,17 @@
               "sticked": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tJ8qaq8LLFQoar9piUnPW.jpg",
-                "url": "img/683d850bd2094940857eb894/6043837/image-824dc2f5-e568-48eb-b349-c6ce99da7791.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/OuRlWteBp5DruCyEn0yhw.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/Msq2NUqdn7XUT9RrnJdb9.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/OuRlWteBp5DruCyEn0yhw.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tJ8qaq8LLFQoar9piUnPW.jpg"
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/fqyIFGeLnKuZ3_KSCE6zK.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-8c2eb95d-bf00-48a8-874e-5a9708c0a779.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/S0xhR_mpERLisBhlJHTEM.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/KyKsW8-DYbmveG9S97DrC.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/S0xhR_mpERLisBhlJHTEM.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/fqyIFGeLnKuZ3_KSCE6zK.jpg"
               },
-              "clickLink": "https://www.telegram.hr/super1/beauty/borite-se-sa-suhim-rukama-tijekom-zimskih-mjeseci-ovo-je-super-trik-koji-sam-otkrila-sasvim-slucajno/",
+              "clickLink": "https://www.telegram.hr/super1/beauty/resting-rich-face-make-up-trend/",
               "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
               "__v": 0
             }, {
               "_id": "695bdc8710c2d048b6d7841e",
@@ -8565,16 +8048,16 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 20,
-              "y": 2368,
+              "y": 2682,
               "w": 233.07,
-              "h": 88,
+              "h": 66,
               "version": 3,
               "verticalAlign": "top",
               "textDirection": "LTR",
               "autosize": true,
               "blocks": [{
                 "key": "14tmh",
-                "text": "5 najčešćih beauty grešaka koje svi radimo zimi (i kako ih najlakše izbjeći) ",
+                "text": "Zašto su bež rumenila tajni make-up trik koji svi odjednom nose?",
                 "entityRanges": [],
                 "depth": 0
               }],
@@ -8584,7 +8067,7 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 77,
+                    "length": 64,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                   }],
                   "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
@@ -8598,7 +8081,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 366,
+              "z": 361,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -8621,16 +8104,16 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 269,
-              "y": 2367,
+              "y": 2681,
               "w": 233.07,
-              "h": 110,
+              "h": 88,
               "version": 3,
               "verticalAlign": "top",
               "textDirection": "LTR",
               "autosize": true,
               "blocks": [{
                 "key": "14tmh",
-                "text": "Prava zima tek stiže, a nova verzija jedne od najpopularnijih krema mogla bi spasiti našu kožu ",
+                "text": "Zbogom clean girl estetiko! Glitchy glam je make-up look s kojim ćemo se igrati u 2026.",
                 "entityRanges": [],
                 "depth": 0
               }],
@@ -8640,7 +8123,7 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 95,
+                    "length": 87,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                   }],
                   "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
@@ -8654,7 +8137,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 367,
+              "z": 362,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -8677,16 +8160,16 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 521,
-              "y": 2368,
+              "y": 2682,
               "w": 233.07,
-              "h": 110,
+              "h": 88,
               "version": 3,
               "verticalAlign": "top",
               "textDirection": "LTR",
               "autosize": true,
               "blocks": [{
                 "key": "14tmh",
-                "text": "Od espresso smeđe do cranberry spritz nijanse, ovih 5 boja kose obilježiti će iduću zimsku sezonu ",
+                "text": "Vraća se pixie frizura! Pronašli smo primjere slavnih zbog kojih ćete poželjeti skratiti kosu ",
                 "entityRanges": [],
                 "depth": 0
               }],
@@ -8696,7 +8179,7 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 98,
+                    "length": 94,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                   }],
                   "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
@@ -8710,7 +8193,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 368,
+              "z": 363,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -8732,8 +8215,8 @@
               "wid": "695bdcc1f3a46a2c0379f176",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 770,
-              "y": 2367,
+              "x": 772,
+              "y": 2681,
               "w": 233.07,
               "h": 110,
               "version": 3,
@@ -8742,7 +8225,7 @@
               "autosize": true,
               "blocks": [{
                 "key": "14tmh",
-                "text": "Uvijek sam se borila sa suhim rukama tijekom zime, a onda sasvim slučajno otkrila super trik",
+                "text": "Kad make-up izgleda kao dobra genetika: Resting rich face je nova TikTok opsesija, a ovako se postiže",
                 "entityRanges": [],
                 "depth": 0
               }],
@@ -8752,7 +8235,7 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 92,
+                    "length": 101,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                   }],
                   "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
@@ -8766,7 +8249,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 369,
+              "z": 364,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -8841,7 +8324,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 575,
+              "z": 570,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -8858,7 +8341,7 @@
                 "y": 32.3,
                 "w": 150,
                 "h": 19,
-                "z": 581,
+                "z": 576,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -8967,7 +8450,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 576,
+              "z": 571,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -8980,7 +8463,7 @@
               "originId": "66789dbdccf42b00140515f8",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 596
+                "z": 661
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -9028,7 +8511,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 583,
+              "z": 578,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9044,7 +8527,7 @@
                 "y": 31.46,
                 "w": 152.13,
                 "h": 9,
-                "z": 600,
+                "z": 665,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -9067,10 +8550,10 @@
                 "fixed_position": "ne",
                 "_z": [{
                   "pid": "695bbaf58e8e35707806a6e3",
-                  "value": 600
+                  "value": 665
                 }, {
                   "pid": "default",
-                  "value": 600
+                  "value": 665
                 }],
                 "is_full_width": null,
                 "hidden": true
@@ -9085,10 +8568,10 @@
               "_hidden": [],
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 583
+                "value": 578
               }, {
                 "pid": "default",
-                "value": 583
+                "value": 578
               }],
               "_variationY": -1977.04,
               "is_global": true,
@@ -9152,7 +8635,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 578,
+              "z": 573,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9169,7 +8652,7 @@
                 "y": 32.46,
                 "w": 152,
                 "h": 19,
-                "z": 578,
+                "z": 573,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -9310,7 +8793,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 579,
+              "z": 574,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9327,7 +8810,7 @@
                 "y": 32.46,
                 "w": 150.77,
                 "h": 19,
-                "z": 579,
+                "z": 574,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -9460,7 +8943,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 580,
+              "z": 575,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9477,7 +8960,7 @@
                 "y": 32.46,
                 "w": 150,
                 "h": 19,
-                "z": 580,
+                "z": 575,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -9587,7 +9070,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 581,
+              "z": 576,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9600,7 +9083,7 @@
               "originId": "66789dbdccf42b00140515f8",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 582
+                "z": 577
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -9656,7 +9139,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 582,
+              "z": 577,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9672,7 +9155,7 @@
               "originId": "66789dbdccf42b00140515f7",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 583
+                "z": 578
               },
               "full_width_initial_w": null,
               "full_width_initial_x": null,
@@ -9699,22 +9182,22 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 20,
-              "y": 2567,
+              "y": 3044,
               "w": 108,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 374,
+              "z": 369,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/k4XL5bzFHUaNpgoCutfLs.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/OZW_lgwFV-iYWldoQtVuw.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp"
               },
               "cropW": 776,
               "cropH": 790,
@@ -9735,12 +9218,12 @@
                 "z": 380,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/k4XL5bzFHUaNpgoCutfLs.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/OZW_lgwFV-iYWldoQtVuw.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp"
                 }
               },
               "__v": 0
@@ -9749,8 +9232,8 @@
               "wid": "695e1b110fb585b9c4d22bb3",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 20.67,
-              "y": 3046,
+              "x": 269.67,
+              "y": 3678.4,
               "w": 231.6,
               "h": 92,
               "version": 3,
@@ -9783,7 +9266,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 375,
+              "z": 370,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9817,8 +9300,8 @@
               "wid": "695e1b119004b2881547af0d",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 771.67,
-              "y": 3046,
+              "x": 23.67,
+              "y": 3844.2,
               "w": 231.6,
               "h": 92,
               "version": 3,
@@ -9851,7 +9334,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 376,
+              "z": 371,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -9885,10 +9368,10 @@
               "wid": "695e1b116f5630fc849d342b",
               "mag_num_id": 6043837,
               "type": "shape",
-              "x": -0.48,
-              "y": 2550,
+              "x": -6.48,
+              "y": 3020.4,
               "w": 1090.56,
-              "h": 826.03,
+              "h": 994.03,
               "tp": "rectangle",
               "bg_color": "2200FF",
               "bg_opacity": 1,
@@ -9904,7 +9387,7 @@
               "sides": 3,
               "weight": 1,
               "stroke": "solid",
-              "z": 377,
+              "z": 372,
               "name": "",
               "hidden": false,
               "sticked": "",
@@ -9927,14 +9410,14 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 19,
-              "y": 2567,
+              "y": 3044,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 378,
+              "z": 373,
               "scale": 0.14,
               "cropH": 785.7142857142857,
               "cropW": 800,
@@ -9948,12 +9431,12 @@
               "originalW": 800,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/gm94RVrPcYgmjfQzujBb6.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/SNRlZAoZrOsK6qZyAnwsA.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-9ca04d5c-acc4-4be7-a67c-96a7b5218ac4.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/p4QYL3Ssk2A0f9a36hAB7.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/Zr7W_Pep4Y9Ja59Hd4v-N.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/p4QYL3Ssk2A0f9a36hAB7.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/gm94RVrPcYgmjfQzujBb6.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/wI1x7B1LXGEOj6K0eIg10.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/wlnOZeDPUWZbuAQhUej2v.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/wI1x7B1LXGEOj6K0eIg10.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/SNRlZAoZrOsK6qZyAnwsA.webp"
               },
               "animation": [],
               "blurHash": "UDF$FcR:00xt4oNG-:bH.8oy9FRP_Nj[9FWW",
@@ -9973,12 +9456,12 @@
                 "z": 384,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/gm94RVrPcYgmjfQzujBb6.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/SNRlZAoZrOsK6qZyAnwsA.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-9ca04d5c-acc4-4be7-a67c-96a7b5218ac4.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/p4QYL3Ssk2A0f9a36hAB7.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Zr7W_Pep4Y9Ja59Hd4v-N.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/p4QYL3Ssk2A0f9a36hAB7.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/gm94RVrPcYgmjfQzujBb6.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/wI1x7B1LXGEOj6K0eIg10.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/wlnOZeDPUWZbuAQhUej2v.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/wI1x7B1LXGEOj6K0eIg10.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/SNRlZAoZrOsK6qZyAnwsA.webp"
                 }
               },
               "__v": 0
@@ -9988,23 +9471,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 24,
-              "y": 2567,
+              "y": 3044,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 379,
+              "z": 374,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/6Qe4fnTmUAZGlloCU8rTa.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ydWXDeF329t9Kfg7ROSeb.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-64c85e2f-17b6-4abd-b084-ba27cc18fe43.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/z3VunRjFKIKC837OKeCsD.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/3SqidUghMMnlMdRBjxYXW.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/z3VunRjFKIKC837OKeCsD.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/6Qe4fnTmUAZGlloCU8rTa.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/Fgta4C8PgZBXSX8X5lDeo.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/X1pk6jwpN64scbj1MBO-M.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/Fgta4C8PgZBXSX8X5lDeo.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ydWXDeF329t9Kfg7ROSeb.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -10049,12 +9532,12 @@
                 "z": 385,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/6Qe4fnTmUAZGlloCU8rTa.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ydWXDeF329t9Kfg7ROSeb.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-64c85e2f-17b6-4abd-b084-ba27cc18fe43.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/z3VunRjFKIKC837OKeCsD.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/3SqidUghMMnlMdRBjxYXW.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/z3VunRjFKIKC837OKeCsD.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/6Qe4fnTmUAZGlloCU8rTa.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Fgta4C8PgZBXSX8X5lDeo.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/X1pk6jwpN64scbj1MBO-M.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Fgta4C8PgZBXSX8X5lDeo.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ydWXDeF329t9Kfg7ROSeb.webp"
                 }
               },
               "__v": 0
@@ -10064,23 +9547,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 33,
-              "y": 2567,
+              "y": 3044,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 380,
+              "z": 375,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/9MXSLl1SD1IwlvxganC_7.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ULoZr4B7QLa63apuxMHf6.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-22c21d66-e2ed-429e-b8f8-eac0d1f435e1.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/1tsSF9lY1Wt0uqR-kHAgk.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/LOw7IOZgNNe35ES14bNs5.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/1tsSF9lY1Wt0uqR-kHAgk.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/9MXSLl1SD1IwlvxganC_7.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/cucWcggXGT9g7ZTOcpHEL.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/GBm9ZegQ6Aqg80i04fguJ.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/cucWcggXGT9g7ZTOcpHEL.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ULoZr4B7QLa63apuxMHf6.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -10125,12 +9608,12 @@
                 "z": 386,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/9MXSLl1SD1IwlvxganC_7.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ULoZr4B7QLa63apuxMHf6.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-22c21d66-e2ed-429e-b8f8-eac0d1f435e1.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/1tsSF9lY1Wt0uqR-kHAgk.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/LOw7IOZgNNe35ES14bNs5.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/1tsSF9lY1Wt0uqR-kHAgk.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/9MXSLl1SD1IwlvxganC_7.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/cucWcggXGT9g7ZTOcpHEL.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/GBm9ZegQ6Aqg80i04fguJ.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/cucWcggXGT9g7ZTOcpHEL.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ULoZr4B7QLa63apuxMHf6.webp"
                 }
               },
               "__v": 0
@@ -10140,23 +9623,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 43,
-              "y": 2566,
+              "y": 3043,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 381,
+              "z": 376,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/_muJmjs11WGm1edLsFKjF.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/0EKZdq9UqBePrWfqZTefr.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-b232af63-a642-4dd5-8afa-166ab7771b23.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/heLUXdnZoE2EWebVDXv1B.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/c3LCyXbSj7DIEqQFGzCAR.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/heLUXdnZoE2EWebVDXv1B.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/_muJmjs11WGm1edLsFKjF.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/6enYqVNVYzjVL1fyGSe9q.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/J98J6sdO4wuMjTXXZoW1o.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/6enYqVNVYzjVL1fyGSe9q.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/0EKZdq9UqBePrWfqZTefr.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -10201,12 +9684,12 @@
                 "z": 387,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/_muJmjs11WGm1edLsFKjF.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/0EKZdq9UqBePrWfqZTefr.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-b232af63-a642-4dd5-8afa-166ab7771b23.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/heLUXdnZoE2EWebVDXv1B.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/c3LCyXbSj7DIEqQFGzCAR.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/heLUXdnZoE2EWebVDXv1B.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/_muJmjs11WGm1edLsFKjF.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/6enYqVNVYzjVL1fyGSe9q.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/J98J6sdO4wuMjTXXZoW1o.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/6enYqVNVYzjVL1fyGSe9q.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/0EKZdq9UqBePrWfqZTefr.webp"
                 }
               },
               "__v": 0
@@ -10216,23 +9699,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 54,
-              "y": 2566,
+              "y": 3043,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 382,
+              "z": 377,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/McVYYKKS4lyhfrGc8SI9U.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/11bxEd1OS59Q_gqoXB7DL.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-d65f789f-b1a6-414e-9bbe-336f6fff790f.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/lf4bEBbapghNzuzoC2MC3.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/GcMw3VRh5H_DcBvxd5VD8.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/lf4bEBbapghNzuzoC2MC3.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/McVYYKKS4lyhfrGc8SI9U.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/SRJgjdSs_BsxZmvaP-L5I.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/iI-GRfw-5ZKG8RkBOPpuT.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/SRJgjdSs_BsxZmvaP-L5I.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/11bxEd1OS59Q_gqoXB7DL.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -10277,12 +9760,12 @@
                 "z": 389,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/McVYYKKS4lyhfrGc8SI9U.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/11bxEd1OS59Q_gqoXB7DL.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-d65f789f-b1a6-414e-9bbe-336f6fff790f.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/lf4bEBbapghNzuzoC2MC3.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/GcMw3VRh5H_DcBvxd5VD8.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/lf4bEBbapghNzuzoC2MC3.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/McVYYKKS4lyhfrGc8SI9U.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/SRJgjdSs_BsxZmvaP-L5I.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/iI-GRfw-5ZKG8RkBOPpuT.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/SRJgjdSs_BsxZmvaP-L5I.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/11bxEd1OS59Q_gqoXB7DL.webp"
                 }
               },
               "__v": 0
@@ -10292,23 +9775,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 67,
-              "y": 2566,
+              "y": 3043,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 383,
+              "z": 378,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/CGL6yxshHLViEKEG7zIbq.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/CmhUzu3w71QMTtl-m5ddL.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-2b728d45-8b49-42af-acae-308a9014276b.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/AMxcp-CDXJuNAoBOl8D3f.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/x1rXHkv-lTRv9eFctVd95.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/AMxcp-CDXJuNAoBOl8D3f.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/CGL6yxshHLViEKEG7zIbq.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/vEYEk8wRci0RBiD8Pke1J.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/HU-AkAgvFROF9OFvl-728.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/vEYEk8wRci0RBiD8Pke1J.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/CmhUzu3w71QMTtl-m5ddL.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -10353,12 +9836,12 @@
                 "z": 390,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/CGL6yxshHLViEKEG7zIbq.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/CmhUzu3w71QMTtl-m5ddL.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-2b728d45-8b49-42af-acae-308a9014276b.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/AMxcp-CDXJuNAoBOl8D3f.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/x1rXHkv-lTRv9eFctVd95.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/AMxcp-CDXJuNAoBOl8D3f.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/CGL6yxshHLViEKEG7zIbq.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/vEYEk8wRci0RBiD8Pke1J.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/HU-AkAgvFROF9OFvl-728.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/vEYEk8wRci0RBiD8Pke1J.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/CmhUzu3w71QMTtl-m5ddL.webp"
                 }
               },
               "__v": 0
@@ -10368,23 +9851,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 83,
-              "y": 2566,
+              "y": 3043,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 384,
+              "z": 379,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/P0Na9OC45JHF5RuQ_HGkP.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EfDz2FXfBYz7rnIEo3R6U.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-15fe3532-9fb4-4aa1-b120-99a545e60cec.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/ppjiMKeljkxi9OVhS1ao3.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/Vng_lXviWA9eZYoLIc5ce.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/ppjiMKeljkxi9OVhS1ao3.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/P0Na9OC45JHF5RuQ_HGkP.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/jyFTwpAh-Udy7e9jzv7YA.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/fDcTJKM7AhW4X_sQeV-nJ.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/jyFTwpAh-Udy7e9jzv7YA.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EfDz2FXfBYz7rnIEo3R6U.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -10429,12 +9912,12 @@
                 "z": 391,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/P0Na9OC45JHF5RuQ_HGkP.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EfDz2FXfBYz7rnIEo3R6U.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-15fe3532-9fb4-4aa1-b120-99a545e60cec.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ppjiMKeljkxi9OVhS1ao3.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Vng_lXviWA9eZYoLIc5ce.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ppjiMKeljkxi9OVhS1ao3.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/P0Na9OC45JHF5RuQ_HGkP.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/jyFTwpAh-Udy7e9jzv7YA.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/fDcTJKM7AhW4X_sQeV-nJ.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/jyFTwpAh-Udy7e9jzv7YA.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EfDz2FXfBYz7rnIEo3R6U.webp"
                 }
               },
               "__v": 0
@@ -10444,23 +9927,23 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 100,
-              "y": 2566,
+              "y": 3043,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 385,
+              "z": 380,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/qoT1TOxZSdAK36y7l20Pu.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/TmdNFTDfR_U1ypxXs1oz_.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-a124f0b3-4a8e-4cf6-bf14-43adc21e7fdf.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/sdWoxzGuMLduZ52C5cB9h.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/iwZAzqojuJPRtk06FM6FA.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/sdWoxzGuMLduZ52C5cB9h.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/qoT1TOxZSdAK36y7l20Pu.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/k5wJOx_Qejoyd7p_QljSL.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/KsdnNAAx_P8Fa9u_sLTWE.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/k5wJOx_Qejoyd7p_QljSL.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/TmdNFTDfR_U1ypxXs1oz_.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -10505,12 +9988,12 @@
                 "z": 392,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/qoT1TOxZSdAK36y7l20Pu.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/TmdNFTDfR_U1ypxXs1oz_.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-a124f0b3-4a8e-4cf6-bf14-43adc21e7fdf.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/sdWoxzGuMLduZ52C5cB9h.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/iwZAzqojuJPRtk06FM6FA.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/sdWoxzGuMLduZ52C5cB9h.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/qoT1TOxZSdAK36y7l20Pu.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/k5wJOx_Qejoyd7p_QljSL.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/KsdnNAAx_P8Fa9u_sLTWE.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/k5wJOx_Qejoyd7p_QljSL.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/TmdNFTDfR_U1ypxXs1oz_.webp"
                 }
               },
               "__v": 0
@@ -10520,7 +10003,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 179.2,
-              "y": 2694,
+              "y": 3171,
               "w": 849.75,
               "h": 231,
               "version": 3,
@@ -10587,7 +10070,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 386,
+              "z": 381,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -10646,7 +10129,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 130.93,
-              "y": 2871,
+              "y": 3343,
               "w": 371.8,
               "h": 120,
               "version": 3,
@@ -10679,7 +10162,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 387,
+              "z": 382,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -10691,10 +10174,10 @@
               "text": "",
               "originId": "66789dbdccf42b0014051626",
               "animation": [{
-                "UUID": "194ae39f-9485-4bb5-b50c-0bae6af3e947",
+                "UUID": "eb2fd700-4fa4-43cc-81fd-1f147003bbf4",
                 "type": "scroll",
                 "steps": [{
-                  "speed": 5,
+                  "speed": 10,
                   "opacity": 100,
                   "scale": 100,
                   "acceleration": "ease-out",
@@ -10729,8 +10212,8 @@
               "wid": "695e1b14bc7f31aa1c7bff31",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 20.67,
-              "y": 3043,
+              "x": 269.67,
+              "y": 3675.4,
               "w": 231.6,
               "h": 110,
               "version": 3,
@@ -10780,7 +10263,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 388,
+              "z": 383,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -10855,32 +10338,32 @@
               "wid": "695e1b142441772d43a72de3",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 20,
-              "y": 3041,
-              "w": 232.84,
+              "x": 269,
+              "y": 3673.4,
+              "w": 233,
               "h": 150,
-              "z": 389,
+              "z": 384,
               "cropW": 2048,
-              "cropH": 1319.3609345473287,
+              "cropH": 1319,
               "cropX": 0,
-              "cropY": 108.31953272633564,
+              "cropY": 109,
               "originalCropW": 2048,
-              "originalCropH": 1319.3609345473287,
+              "originalCropH": 1319,
               "originalCropX": 0,
-              "originalCropY": 108.31953272633564,
+              "originalCropY": 109,
               "originalW": 2048,
               "originalH": 1536,
-              "scale": 0.11369140625,
+              "scale": 0.11369,
               "blurHash": "UpJ[P9adNHa|~qt8M{fQxvayt7jZtSt7xut7",
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EMRNgVbPfJnBSfe9l4pbR.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EFwUNzQb_KusLD4liOAQk.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-c1b0372a-73f6-4c97-870a-d617106fa2d8.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/o8Cml-QpeECk1suLi46OY.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/VhdZdYikVoKiWIWru6h5c.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/o8Cml-QpeECk1suLi46OY.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EMRNgVbPfJnBSfe9l4pbR.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/gkNqIaGbCRNONLOrdMvNV.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/xU65NQWSpazIQwoAFnv2J.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/gkNqIaGbCRNONLOrdMvNV.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EFwUNzQb_KusLD4liOAQk.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -10964,12 +10447,12 @@
                 "z": 396,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EMRNgVbPfJnBSfe9l4pbR.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EFwUNzQb_KusLD4liOAQk.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-c1b0372a-73f6-4c97-870a-d617106fa2d8.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/o8Cml-QpeECk1suLi46OY.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/VhdZdYikVoKiWIWru6h5c.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/o8Cml-QpeECk1suLi46OY.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EMRNgVbPfJnBSfe9l4pbR.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/gkNqIaGbCRNONLOrdMvNV.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/xU65NQWSpazIQwoAFnv2J.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/gkNqIaGbCRNONLOrdMvNV.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EFwUNzQb_KusLD4liOAQk.jpg"
                 }
               },
               "hidden": false,
@@ -10992,8 +10475,8 @@
               "wid": "695e1b15163a5e12c6a3a2fa",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 270.67,
-              "y": 3040,
+              "x": 522.67,
+              "y": 3672.6,
               "w": 231.6,
               "h": 110,
               "version": 3,
@@ -11043,7 +10526,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 390,
+              "z": 385,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -11118,11 +10601,11 @@
               "wid": "695e1b15bc7f31aa1c7bff34",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 268,
-              "y": 3041,
+              "x": 520,
+              "y": 3673.6,
               "w": 237,
               "h": 150,
-              "z": 391,
+              "z": 386,
               "cropW": 600,
               "cropH": 379.746835443038,
               "cropX": 0,
@@ -11138,12 +10621,12 @@
               "version": 2,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/B0F353XXOls6o1lK87_KY.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/WAd0AR4Slu55SqqMhfrbv.png",
                 "url": "img/683d850bd2094940857eb894/6043837/image-29ea1c30-bd24-4839-beb8-ba4ded0a1f7d.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/Zc2NWFcWpQ2ylOzowxgsZ.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/KyCzBLg2voZscjOfaQJB_.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/Zc2NWFcWpQ2ylOzowxgsZ.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/B0F353XXOls6o1lK87_KY.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/uGu1QkpgsjIoLVlEIDRlh.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/0aSdZCxHPk-HWpVmXt7rM.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/uGu1QkpgsjIoLVlEIDRlh.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/WAd0AR4Slu55SqqMhfrbv.png"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -11227,12 +10710,12 @@
                 "z": 398,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/B0F353XXOls6o1lK87_KY.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/WAd0AR4Slu55SqqMhfrbv.png",
                   "url": "img/683d850bd2094940857eb894/6043837/image-29ea1c30-bd24-4839-beb8-ba4ded0a1f7d.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Zc2NWFcWpQ2ylOzowxgsZ.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/KyCzBLg2voZscjOfaQJB_.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Zc2NWFcWpQ2ylOzowxgsZ.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/B0F353XXOls6o1lK87_KY.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/uGu1QkpgsjIoLVlEIDRlh.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/0aSdZCxHPk-HWpVmXt7rM.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/uGu1QkpgsjIoLVlEIDRlh.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/WAd0AR4Slu55SqqMhfrbv.png"
                 }
               },
               "hidden": false,
@@ -11256,14 +10739,14 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 1034.8,
-              "y": 2842,
+              "y": 3327,
               "w": 94,
               "h": 153.6,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 392,
+              "z": 387,
               "cropH": 3024,
               "cropW": 1850.625,
               "cropX": 1090.6875,
@@ -11276,12 +10759,12 @@
               "originalW": 4032,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/crSc1ReqGok1hPSOkqDds.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tB_QmpnTdx2MOCVCmX-E1.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-e7431f24-e10e-40e8-8e79-91f407b94d87.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/a4i0ejHR6ogFdrVbqfF7y.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/P6K9dvaprnlejlVogJKCm.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/a4i0ejHR6ogFdrVbqfF7y.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/crSc1ReqGok1hPSOkqDds.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/2BuMR8crM54opsdIjkD_c.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/qPaX0AisxnlIj2-Egbk63.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/2BuMR8crM54opsdIjkD_c.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tB_QmpnTdx2MOCVCmX-E1.jpg"
               },
               "scale": 0.050793650793650794,
               "blurHash": "UGHxZ#_3kE~p~pM|M|%MxZt7M{IURixZoJM{",
@@ -11322,12 +10805,12 @@
                 "z": 399,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/crSc1ReqGok1hPSOkqDds.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tB_QmpnTdx2MOCVCmX-E1.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-e7431f24-e10e-40e8-8e79-91f407b94d87.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/a4i0ejHR6ogFdrVbqfF7y.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/P6K9dvaprnlejlVogJKCm.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/a4i0ejHR6ogFdrVbqfF7y.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/crSc1ReqGok1hPSOkqDds.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/2BuMR8crM54opsdIjkD_c.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/qPaX0AisxnlIj2-Egbk63.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/2BuMR8crM54opsdIjkD_c.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tB_QmpnTdx2MOCVCmX-E1.jpg"
                 }
               },
               "__v": 0
@@ -11336,8 +10819,8 @@
               "wid": "695e1b157ac47c3c46ee13ce",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 520.67,
-              "y": 3041,
+              "x": 772.67,
+              "y": 3673.6,
               "w": 231.6,
               "h": 88,
               "version": 3,
@@ -11387,7 +10870,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 393,
+              "z": 388,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -11462,11 +10945,11 @@
               "wid": "695e1b15e101b8ef64011ffa",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 520,
-              "y": 3042,
+              "x": 772,
+              "y": 3674.6,
               "w": 232.84,
               "h": 150,
-              "z": 394,
+              "z": 389,
               "cropW": 1133.1546666666668,
               "cropH": 730,
               "cropX": 81.4226666666666,
@@ -11562,12 +11045,12 @@
                 "z": 401,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/FDvGAaeCMXobQLiyZWtW-.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/iflNU04DU-jk-3cHJd-wQ.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-ce9531fd-40f7-4905-b6a8-c58621ff401b.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Pn4MF4djnbc7Q1PDk9RSP.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/vljwQ0rrrtW_zZdJsgdh-.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Pn4MF4djnbc7Q1PDk9RSP.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/FDvGAaeCMXobQLiyZWtW-.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/phcHQXXlcFVnyxmy8mRdy.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/M9Tz7k61st3HKI2PJEOzk.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/phcHQXXlcFVnyxmy8mRdy.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/iflNU04DU-jk-3cHJd-wQ.webp"
                 }
               },
               "hidden": false,
@@ -11582,12 +11065,12 @@
               "sticked": "",
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/FDvGAaeCMXobQLiyZWtW-.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/iflNU04DU-jk-3cHJd-wQ.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-ce9531fd-40f7-4905-b6a8-c58621ff401b.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/Pn4MF4djnbc7Q1PDk9RSP.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/vljwQ0rrrtW_zZdJsgdh-.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/Pn4MF4djnbc7Q1PDk9RSP.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/FDvGAaeCMXobQLiyZWtW-.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/phcHQXXlcFVnyxmy8mRdy.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/M9Tz7k61st3HKI2PJEOzk.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/phcHQXXlcFVnyxmy8mRdy.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/iflNU04DU-jk-3cHJd-wQ.webp"
               },
               "clickLink": "https://www.telegram.hr/super1/life/novi-filmovi-koji-izlaze-u-2026-godini/",
               "clickTarget": "_blank",
@@ -11599,8 +11082,8 @@
               "wid": "695e1b161d6e61986ecaecfd",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 770.67,
-              "y": 3041,
+              "x": 22.67,
+              "y": 3839.2,
               "w": 231.6,
               "h": 66,
               "version": 3,
@@ -11650,7 +11133,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 395,
+              "z": 390,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -11725,22 +11208,22 @@
               "wid": "695e1b166f5630fc849d50a2",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 768,
-              "y": 3042,
-              "w": 237,
-              "h": 150,
-              "z": 396,
-              "cropW": 2654.4,
-              "cropH": 1680,
-              "cropX": 4.7999999999999545,
-              "cropY": 0,
-              "originalCropW": 2654.4,
-              "originalCropH": 1680,
-              "originalCropX": 4.7999999999999545,
-              "originalCropY": 0,
+              "x": 20,
+              "y": 3840.2,
+              "w": 233.8,
+              "h": 149.8,
+              "z": 391,
+              "cropW": 2618,
+              "cropH": 1678,
+              "cropX": 0,
+              "cropY": 2,
+              "originalCropW": 2618,
+              "originalCropH": 1678,
+              "originalCropX": 0,
+              "originalCropY": 2,
               "originalW": 2664,
               "originalH": 1680,
-              "scale": 0.08928571428571429,
+              "scale": 0.08929,
               "blurHash": "UIIp_1TyF5D=}]AJNfWa2yObnjx[5@tTMxbc",
               "version": 2,
               "originId": "66789dbdccf42b0014051616",
@@ -11825,12 +11308,12 @@
                 "z": 403,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tN8g2eu78VVeW0t7O30-Z.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/l_VKK6aOWxBlVvf6de63c.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-078c41e1-da2d-4257-bfce-e53bd04be2d0.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ECuZnIEjuNlqJBTIj8x8S.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/8Mz-sC4wE4PQA0lGhMkvs.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ECuZnIEjuNlqJBTIj8x8S.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tN8g2eu78VVeW0t7O30-Z.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ZdMk_csUxpjQyq3cNn75e.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/m1KeTcVgaPE15Eh2GwSAL.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ZdMk_csUxpjQyq3cNn75e.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/l_VKK6aOWxBlVvf6de63c.jpg"
                 }
               },
               "hidden": false,
@@ -11845,12 +11328,12 @@
               "sticked": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tN8g2eu78VVeW0t7O30-Z.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/l_VKK6aOWxBlVvf6de63c.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-078c41e1-da2d-4257-bfce-e53bd04be2d0.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/ECuZnIEjuNlqJBTIj8x8S.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/8Mz-sC4wE4PQA0lGhMkvs.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/ECuZnIEjuNlqJBTIj8x8S.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tN8g2eu78VVeW0t7O30-Z.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/ZdMk_csUxpjQyq3cNn75e.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/m1KeTcVgaPE15Eh2GwSAL.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/ZdMk_csUxpjQyq3cNn75e.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/l_VKK6aOWxBlVvf6de63c.jpg"
               },
               "clickLink": "https://www.telegram.hr/super1/life/najpopularnije-destinacije-u-2026-godini/",
               "clickTarget": "_blank",
@@ -11862,8 +11345,8 @@
               "wid": "695e27516bdf4341e103a99f",
               "mag_num_id": 6043837,
               "type": "shape",
-              "x": 27.93,
-              "y": 3478,
+              "x": 17.93,
+              "y": 4126,
               "w": 158,
               "h": 24,
               "tp": "line",
@@ -11881,7 +11364,7 @@
               "sides": 3,
               "weight": 0.7,
               "stroke": "solid",
-              "z": 397,
+              "z": 392,
               "name": "",
               "originId": "66789dbdccf42b0014051624",
               "sticked": "",
@@ -11897,23 +11380,23 @@
               "wid": "695e275283d2f99150c9ee6a",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 31,
-              "y": 3392,
+              "x": 21,
+              "y": 4040,
               "w": 108,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 398,
+              "z": 393,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp",
                 "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/k4XL5bzFHUaNpgoCutfLs.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/OZW_lgwFV-iYWldoQtVuw.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp"
               },
               "cropW": 776,
               "cropH": 790,
@@ -11935,12 +11418,12 @@
                 "z": 405,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/k4XL5bzFHUaNpgoCutfLs.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/_FogSFmjbqguOOEBY08Ou.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/ue8vHceQ_imgpT1FSge4a.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/OZW_lgwFV-iYWldoQtVuw.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/YV9e58Og6FrvHTkE0Pbw0.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/lXcBj_WEbQ6UyYx4oZnLO.webp"
                 }
               },
               "__v": 0
@@ -11949,15 +11432,15 @@
               "wid": "695e2752e101b8ef6404af8b",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 30,
-              "y": 3392,
+              "x": 20,
+              "y": 4040,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 399,
+              "z": 394,
               "scale": 0.08252063015753938,
               "cropH": 1333,
               "cropW": 1357.2363636363636,
@@ -11971,12 +11454,12 @@
               "originalW": 2000,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/kzEO4JxEjrHAi0fP3z2Ht.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/oDf7enTWQ1q7nK4C3-Hxv.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-4d20bff7-0ff7-4fa7-ac73-a29a2ee92db2.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/n2OvMjspOI9gXYnRepGvv.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/meJ_j1arfOw4tOYugjtUP.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/n2OvMjspOI9gXYnRepGvv.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/kzEO4JxEjrHAi0fP3z2Ht.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/4dRmvHRqxrymmVoZqZrMy.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/wA7CnEVqtnm1lL3AQEp7N.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/4dRmvHRqxrymmVoZqZrMy.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/oDf7enTWQ1q7nK4C3-Hxv.jpg"
               },
               "animation": [],
               "blurHash": "ULHL0Y9F9FV@~qIAfiaxM|NGoMt6-:j?M{xt",
@@ -11996,12 +11479,12 @@
                 "z": 406,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/kzEO4JxEjrHAi0fP3z2Ht.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/oDf7enTWQ1q7nK4C3-Hxv.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-4d20bff7-0ff7-4fa7-ac73-a29a2ee92db2.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/n2OvMjspOI9gXYnRepGvv.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/meJ_j1arfOw4tOYugjtUP.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/n2OvMjspOI9gXYnRepGvv.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/kzEO4JxEjrHAi0fP3z2Ht.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/4dRmvHRqxrymmVoZqZrMy.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/wA7CnEVqtnm1lL3AQEp7N.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/4dRmvHRqxrymmVoZqZrMy.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/oDf7enTWQ1q7nK4C3-Hxv.jpg"
                 }
               },
               "__v": 0
@@ -12010,24 +11493,24 @@
               "wid": "695e27524b0783ff3045551b",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 35,
-              "y": 3392,
+              "x": 25,
+              "y": 4040,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 400,
+              "z": 395,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/z6JkAyWnbBLOxSbpmhhzY.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/8FXL8CzDfqLKADRRkVqoQ.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-e54d55ef-809c-4d64-9b9f-5cfea8b1f11a.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/5cWQlVrg2LAZHv0vDrqux.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/JToyXeNuwIPe9VNQ4qOdw.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/5cWQlVrg2LAZHv0vDrqux.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/z6JkAyWnbBLOxSbpmhhzY.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/-aJLqZF4sLFwhw0kMhtdo.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/b0sT6HV4B2eEZ8PKGa5We.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/-aJLqZF4sLFwhw0kMhtdo.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/8FXL8CzDfqLKADRRkVqoQ.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -12072,12 +11555,12 @@
                 "z": 407,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/z6JkAyWnbBLOxSbpmhhzY.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/8FXL8CzDfqLKADRRkVqoQ.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-e54d55ef-809c-4d64-9b9f-5cfea8b1f11a.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/5cWQlVrg2LAZHv0vDrqux.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/JToyXeNuwIPe9VNQ4qOdw.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/5cWQlVrg2LAZHv0vDrqux.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/z6JkAyWnbBLOxSbpmhhzY.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/-aJLqZF4sLFwhw0kMhtdo.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/b0sT6HV4B2eEZ8PKGa5We.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/-aJLqZF4sLFwhw0kMhtdo.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/8FXL8CzDfqLKADRRkVqoQ.webp"
                 }
               },
               "__v": 0
@@ -12086,24 +11569,24 @@
               "wid": "695e2752785a0ba5be6e6085",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 44,
-              "y": 3392,
+              "x": 34,
+              "y": 4040,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 401,
+              "z": 396,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/bcph-0rhHR9MmrE76eISq.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/KkgBFvsUg8bRUtjPdUL4f.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-e9343794-10d0-4fce-9cd1-9fa18126e5c5.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/jo7XurE8xIVxwglY3La01.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/k_wQZlRveQ1uLAJvpwtK5.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/jo7XurE8xIVxwglY3La01.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/bcph-0rhHR9MmrE76eISq.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/Km4OaRPlsVFMUU7rpv9Tz.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/aTRtjYNSXAicoc_Kw2dxh.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/Km4OaRPlsVFMUU7rpv9Tz.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/KkgBFvsUg8bRUtjPdUL4f.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -12148,12 +11631,12 @@
                 "z": 408,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/bcph-0rhHR9MmrE76eISq.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/KkgBFvsUg8bRUtjPdUL4f.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-e9343794-10d0-4fce-9cd1-9fa18126e5c5.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/jo7XurE8xIVxwglY3La01.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/k_wQZlRveQ1uLAJvpwtK5.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/jo7XurE8xIVxwglY3La01.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/bcph-0rhHR9MmrE76eISq.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Km4OaRPlsVFMUU7rpv9Tz.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/aTRtjYNSXAicoc_Kw2dxh.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Km4OaRPlsVFMUU7rpv9Tz.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/KkgBFvsUg8bRUtjPdUL4f.webp"
                 }
               },
               "__v": 0
@@ -12162,24 +11645,24 @@
               "wid": "695e2752785a0ba5be6e608a",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 54,
-              "y": 3391,
+              "x": 44,
+              "y": 4039,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 402,
+              "z": 397,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/cxrX1K1f8Dp4I0pCy6aIt.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/qUaIWRIUiJd6aWYPfcp-J.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-a2bd5b49-d9ee-4833-a5a6-6b332a53cbee.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/HiweSpjypIhTSx4VTeo6E.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/vUzrlBc3Wvsf92xy9x5EF.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/HiweSpjypIhTSx4VTeo6E.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/cxrX1K1f8Dp4I0pCy6aIt.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/3t5xfWM9xOXyLrKvDOW1I.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/QRXxi_uC2HpJs3scQmqVe.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/3t5xfWM9xOXyLrKvDOW1I.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/qUaIWRIUiJd6aWYPfcp-J.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -12224,12 +11707,12 @@
                 "z": 409,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/cxrX1K1f8Dp4I0pCy6aIt.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/qUaIWRIUiJd6aWYPfcp-J.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-a2bd5b49-d9ee-4833-a5a6-6b332a53cbee.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/HiweSpjypIhTSx4VTeo6E.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/vUzrlBc3Wvsf92xy9x5EF.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/HiweSpjypIhTSx4VTeo6E.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/cxrX1K1f8Dp4I0pCy6aIt.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/3t5xfWM9xOXyLrKvDOW1I.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/QRXxi_uC2HpJs3scQmqVe.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/3t5xfWM9xOXyLrKvDOW1I.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/qUaIWRIUiJd6aWYPfcp-J.webp"
                 }
               },
               "__v": 0
@@ -12238,24 +11721,24 @@
               "wid": "695e2753785a0ba5be6e6090",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 65,
-              "y": 3391,
+              "x": 55,
+              "y": 4039,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 403,
+              "z": 398,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ev2eDxtYOp64Kb61797ul.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EhL1D8ZH6kv256S3ENTRi.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-c81472ba-0331-4439-b453-8ab2c045d03e.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/ZiePI8p56junWW9ldjTs-.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/y7EDBNcOuvc4ugp2R4l4s.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/ZiePI8p56junWW9ldjTs-.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ev2eDxtYOp64Kb61797ul.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/5avx9PhX05xT_TB9HDpsH.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/UPBlfuotuHdWVOtjThXuS.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/5avx9PhX05xT_TB9HDpsH.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EhL1D8ZH6kv256S3ENTRi.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -12300,12 +11783,12 @@
                 "z": 410,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/ev2eDxtYOp64Kb61797ul.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EhL1D8ZH6kv256S3ENTRi.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-c81472ba-0331-4439-b453-8ab2c045d03e.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ZiePI8p56junWW9ldjTs-.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/y7EDBNcOuvc4ugp2R4l4s.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ZiePI8p56junWW9ldjTs-.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/ev2eDxtYOp64Kb61797ul.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/5avx9PhX05xT_TB9HDpsH.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/UPBlfuotuHdWVOtjThXuS.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/5avx9PhX05xT_TB9HDpsH.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EhL1D8ZH6kv256S3ENTRi.webp"
                 }
               },
               "__v": 0
@@ -12314,24 +11797,24 @@
               "wid": "695e2753ac8e9f3ec3f7e6ea",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 78,
-              "y": 3391,
+              "x": 68,
+              "y": 4039,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 404,
+              "z": 399,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/B25pFN353uRwDbbwPGwDG.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/lRWuPLHBbTzksyK-CI8IA.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-503e460b-94e9-4e35-bb91-20cca6d96b55.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/kVHde6Qi5R0zcBlH6mGTh.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/Y6s2zyeD9uQ2KK3rTtpRO.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/kVHde6Qi5R0zcBlH6mGTh.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/B25pFN353uRwDbbwPGwDG.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/Ya0GojUuwxYnsT-OI9HUp.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/gi3-NAjY6b-lhtiKR7o4p.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/Ya0GojUuwxYnsT-OI9HUp.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/lRWuPLHBbTzksyK-CI8IA.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -12376,12 +11859,12 @@
                 "z": 411,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/B25pFN353uRwDbbwPGwDG.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/lRWuPLHBbTzksyK-CI8IA.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-503e460b-94e9-4e35-bb91-20cca6d96b55.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/kVHde6Qi5R0zcBlH6mGTh.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Y6s2zyeD9uQ2KK3rTtpRO.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/kVHde6Qi5R0zcBlH6mGTh.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/B25pFN353uRwDbbwPGwDG.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Ya0GojUuwxYnsT-OI9HUp.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/gi3-NAjY6b-lhtiKR7o4p.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Ya0GojUuwxYnsT-OI9HUp.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/lRWuPLHBbTzksyK-CI8IA.webp"
                 }
               },
               "__v": 0
@@ -12390,24 +11873,24 @@
               "wid": "695e27536bdf4341e103a9bd",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 94,
-              "y": 3391,
+              "x": 84,
+              "y": 4039,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 405,
+              "z": 400,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/nCGw7pw3J2EKztGq_BnIS.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/z4iGbRDym3dAKkek1BPId.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-a2afb4bf-e523-4c50-a9a4-7971c20295a4.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/169kcDIHF4Jd2wU15IVYp.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/ngk8WtFVxQYfiYgxGHL7_.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/169kcDIHF4Jd2wU15IVYp.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/nCGw7pw3J2EKztGq_BnIS.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/TcSn_EL6dZReWyXXRMNCC.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/lhD6dbnjk2FrVaZqij-7h.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/TcSn_EL6dZReWyXXRMNCC.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/z4iGbRDym3dAKkek1BPId.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -12452,12 +11935,12 @@
                 "z": 412,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/nCGw7pw3J2EKztGq_BnIS.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/z4iGbRDym3dAKkek1BPId.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-a2afb4bf-e523-4c50-a9a4-7971c20295a4.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/169kcDIHF4Jd2wU15IVYp.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/ngk8WtFVxQYfiYgxGHL7_.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/169kcDIHF4Jd2wU15IVYp.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/nCGw7pw3J2EKztGq_BnIS.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/TcSn_EL6dZReWyXXRMNCC.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/lhD6dbnjk2FrVaZqij-7h.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/TcSn_EL6dZReWyXXRMNCC.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/z4iGbRDym3dAKkek1BPId.webp"
                 }
               },
               "__v": 0
@@ -12466,24 +11949,24 @@
               "wid": "695e2753885760a9895f0995",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 111,
-              "y": 3391,
+              "x": 101,
+              "y": 4039,
               "w": 112,
               "h": 110,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 406,
+              "z": 401,
               "scale": 0.14,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/qHGFvtX54Tz1v3AVud2Lh.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tNRV0Iwd4UdprGBQb1VPj.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-83c8e5f6-e304-44db-85c8-bcd4e490214e.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/vEDSE2FZL8zMT2aVoH_3Y.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/VjaicDKkPgt_09k4mYCi-.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/vEDSE2FZL8zMT2aVoH_3Y.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/qHGFvtX54Tz1v3AVud2Lh.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/TxEK1kMyZGJrNLqK3eU-0.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/wBr1VSVE-hVTEDvUKDvjo.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/TxEK1kMyZGJrNLqK3eU-0.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tNRV0Iwd4UdprGBQb1VPj.webp"
               },
               "cropW": 800,
               "cropH": 785.7142857142857,
@@ -12528,12 +12011,12 @@
                 "z": 413,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/qHGFvtX54Tz1v3AVud2Lh.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tNRV0Iwd4UdprGBQb1VPj.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-83c8e5f6-e304-44db-85c8-bcd4e490214e.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/vEDSE2FZL8zMT2aVoH_3Y.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/VjaicDKkPgt_09k4mYCi-.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/vEDSE2FZL8zMT2aVoH_3Y.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/qHGFvtX54Tz1v3AVud2Lh.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/TxEK1kMyZGJrNLqK3eU-0.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/wBr1VSVE-hVTEDvUKDvjo.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/TxEK1kMyZGJrNLqK3eU-0.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tNRV0Iwd4UdprGBQb1VPj.webp"
                 }
               },
               "__v": 0
@@ -12543,7 +12026,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 170.2,
-              "y": 3517,
+              "y": 4165,
               "w": 849.75,
               "h": 231,
               "version": 3,
@@ -12610,7 +12093,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 407,
+              "z": 402,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -12669,7 +12152,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 73.93,
-              "y": 3515,
+              "y": 4163,
               "w": 371.8,
               "h": 120,
               "version": 3,
@@ -12702,7 +12185,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 408,
+              "z": 403,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -12749,15 +12232,15 @@
               "wid": "695e27542441772d43abfc8d",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 1055.8,
-              "y": 3674.13,
+              "x": 1034.8,
+              "y": 4322.4,
               "w": 94,
               "h": 153.6,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 409,
+              "z": 404,
               "cropH": 2377,
               "cropW": 1454.6744791666667,
               "cropX": 112.66276041666663,
@@ -12790,24 +12273,24 @@
               }],
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/y3yvTULFJ6bXce3-ew4DQ.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/l1NU--ls5tnwy3GiHwDsa.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-1d54e5cc-0fd0-41a5-acdc-db46944262eb.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/ikfRgwFeFtJgxx85vEbRx.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/npnujISkP2j1-GggFgjii.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/ikfRgwFeFtJgxx85vEbRx.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/y3yvTULFJ6bXce3-ew4DQ.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/8aaTL41xGN3l8fYcbCntH.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/e-kLVulsz3Y49QRWYOb_r.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/8aaTL41xGN3l8fYcbCntH.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/l1NU--ls5tnwy3GiHwDsa.jpg"
               },
               "viewport_phone_portrait": {
                 "hidden": true,
                 "z": 416,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/y3yvTULFJ6bXce3-ew4DQ.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/l1NU--ls5tnwy3GiHwDsa.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-1d54e5cc-0fd0-41a5-acdc-db46944262eb.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ikfRgwFeFtJgxx85vEbRx.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/npnujISkP2j1-GggFgjii.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ikfRgwFeFtJgxx85vEbRx.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/y3yvTULFJ6bXce3-ew4DQ.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/8aaTL41xGN3l8fYcbCntH.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/e-kLVulsz3Y49QRWYOb_r.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/8aaTL41xGN3l8fYcbCntH.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/l1NU--ls5tnwy3GiHwDsa.jpg"
                 }
               },
               "__v": 0
@@ -12817,7 +12300,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 20,
-              "y": 3843,
+              "y": 4494,
               "w": 233.07,
               "h": 110,
               "version": 3,
@@ -12850,7 +12333,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 410,
+              "z": 405,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -12873,7 +12356,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 269,
-              "y": 3842,
+              "y": 4493,
               "w": 233.07,
               "h": 110,
               "version": 3,
@@ -12906,7 +12389,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 411,
+              "z": 406,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -12929,7 +12412,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 521,
-              "y": 3843,
+              "y": 4494,
               "w": 233.07,
               "h": 110,
               "version": 3,
@@ -12962,7 +12445,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 412,
+              "z": 407,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -12985,7 +12468,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 770,
-              "y": 3842,
+              "y": 4493,
               "w": 233.07,
               "h": 110,
               "version": 3,
@@ -13018,7 +12501,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 413,
+              "z": 408,
               "blocksMeta": [{
                 "key": "14tmh",
                 "data": {
@@ -13041,10 +12524,10 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 20,
-              "y": 3841,
+              "y": 4492,
               "w": 232.84,
               "h": 150,
-              "z": 414,
+              "z": 409,
               "cropW": 1080,
               "cropH": 696,
               "cropX": 0,
@@ -13060,12 +12543,12 @@
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/E18A6cmH8CeBdNu3PwY3E.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/eL8J8vBCEzDpDH-79rOlS.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-dea583aa-587a-448f-ae42-68e97c6140d8.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/pACb2lMdXq3tLquLTHMs-.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/6NfMpqXJ-GoDAN9CBh40l.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/pACb2lMdXq3tLquLTHMs-.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/E18A6cmH8CeBdNu3PwY3E.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/4KfSXkK74LthxkOkTMYqD.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/13F4lgZ_xtnFlAViam0Z_.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/4KfSXkK74LthxkOkTMYqD.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/eL8J8vBCEzDpDH-79rOlS.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -13149,12 +12632,12 @@
                 "z": 421,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/E18A6cmH8CeBdNu3PwY3E.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/eL8J8vBCEzDpDH-79rOlS.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-dea583aa-587a-448f-ae42-68e97c6140d8.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/pACb2lMdXq3tLquLTHMs-.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/6NfMpqXJ-GoDAN9CBh40l.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/pACb2lMdXq3tLquLTHMs-.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/E18A6cmH8CeBdNu3PwY3E.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/4KfSXkK74LthxkOkTMYqD.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/13F4lgZ_xtnFlAViam0Z_.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/4KfSXkK74LthxkOkTMYqD.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/eL8J8vBCEzDpDH-79rOlS.jpg"
                 }
               },
               "hidden": false,
@@ -13178,10 +12661,10 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 268,
-              "y": 3841,
+              "y": 4492,
               "w": 237,
               "h": 150,
-              "z": 415,
+              "z": 410,
               "cropW": 1440,
               "cropH": 911.3924050632911,
               "cropX": 0,
@@ -13197,12 +12680,12 @@
               "version": 2,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/xnvFUbAq9ByyOO3Gh_g2c.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/lSPJN5ydQx9eD3qrRPiml.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-29b5769d-9d3c-46a6-93ac-4a1f4afdcbd9.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/sONyx0hUroeICCPMKsUrR.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/8ZBW0rlg26X_mptYWyiKQ.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/sONyx0hUroeICCPMKsUrR.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/xnvFUbAq9ByyOO3Gh_g2c.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/PCUUtzi37tfz_QcEGD2B2.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/g2597It6L6pBcO387H5qA.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/PCUUtzi37tfz_QcEGD2B2.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/lSPJN5ydQx9eD3qrRPiml.jpg"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -13286,12 +12769,12 @@
                 "z": 422,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/xnvFUbAq9ByyOO3Gh_g2c.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/lSPJN5ydQx9eD3qrRPiml.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-29b5769d-9d3c-46a6-93ac-4a1f4afdcbd9.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/sONyx0hUroeICCPMKsUrR.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/8ZBW0rlg26X_mptYWyiKQ.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/sONyx0hUroeICCPMKsUrR.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/xnvFUbAq9ByyOO3Gh_g2c.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/PCUUtzi37tfz_QcEGD2B2.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/g2597It6L6pBcO387H5qA.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/PCUUtzi37tfz_QcEGD2B2.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/lSPJN5ydQx9eD3qrRPiml.jpg"
                 }
               },
               "hidden": false,
@@ -13315,10 +12798,10 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 520,
-              "y": 3841,
+              "y": 4492,
               "w": 232.84,
               "h": 150,
-              "z": 416,
+              "z": 411,
               "cropW": 1349,
               "cropH": 869,
               "cropX": 0,
@@ -13414,12 +12897,12 @@
                 "z": 423,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/-tR6dG4nl7yHLPi7ek4b4.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/CenrC0X3RpUfUnD5u4XoV.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-ac9de450-5c9d-4a1a-a0de-48784a142dac.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/sHYbKPCACxK25FwjuQVa8.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/lh2BjdPr6uMrB6aK1jGb-.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/sHYbKPCACxK25FwjuQVa8.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/-tR6dG4nl7yHLPi7ek4b4.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/O1kZOkKYQuN2iEZO4GlnY.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/MPGsofCLzIuG4LmR7QRxY.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/O1kZOkKYQuN2iEZO4GlnY.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/CenrC0X3RpUfUnD5u4XoV.jpg"
                 }
               },
               "hidden": false,
@@ -13434,12 +12917,12 @@
               "sticked": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/-tR6dG4nl7yHLPi7ek4b4.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/CenrC0X3RpUfUnD5u4XoV.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-ac9de450-5c9d-4a1a-a0de-48784a142dac.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/sHYbKPCACxK25FwjuQVa8.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/lh2BjdPr6uMrB6aK1jGb-.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/sHYbKPCACxK25FwjuQVa8.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/-tR6dG4nl7yHLPi7ek4b4.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/O1kZOkKYQuN2iEZO4GlnY.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/MPGsofCLzIuG4LmR7QRxY.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/O1kZOkKYQuN2iEZO4GlnY.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/CenrC0X3RpUfUnD5u4XoV.jpg"
               },
               "clickLink": "https://www.telegram.hr/super1/design/cluttercore-stil-uredenja-interijera/",
               "clickTarget": "_blank",
@@ -13452,10 +12935,10 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 768,
-              "y": 3841,
+              "y": 4492,
               "w": 237,
               "h": 150,
-              "z": 417,
+              "z": 412,
               "cropW": 1440,
               "cropH": 911,
               "cropX": 0,
@@ -13551,12 +13034,12 @@
                 "z": 424,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tFg-XiHmhSebtNBdGY8Lu.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/U-Di6cRpxpq8xCHtUGJPI.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-bf52f105-f550-4e4a-9fb2-7d479015747f.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/OvhrmwW2vQYfLf_Sq4ozT.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/8aOjOCK4ccKJvpzWFvtz9.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/OvhrmwW2vQYfLf_Sq4ozT.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tFg-XiHmhSebtNBdGY8Lu.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/36Zdkl0mQxY9nNuu3g5fm.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/t4zsQMX7k9G_FIDy9gvYu.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/36Zdkl0mQxY9nNuu3g5fm.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/U-Di6cRpxpq8xCHtUGJPI.jpg"
                 }
               },
               "hidden": false,
@@ -13571,12 +13054,12 @@
               "sticked": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/tFg-XiHmhSebtNBdGY8Lu.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/U-Di6cRpxpq8xCHtUGJPI.jpg",
                 "url": "img/683d850bd2094940857eb894/6043837/image-bf52f105-f550-4e4a-9fb2-7d479015747f.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/OvhrmwW2vQYfLf_Sq4ozT.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/8aOjOCK4ccKJvpzWFvtz9.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/OvhrmwW2vQYfLf_Sq4ozT.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/tFg-XiHmhSebtNBdGY8Lu.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/36Zdkl0mQxY9nNuu3g5fm.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/t4zsQMX7k9G_FIDy9gvYu.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/36Zdkl0mQxY9nNuu3g5fm.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/U-Di6cRpxpq8xCHtUGJPI.jpg"
               },
               "clickLink": "https://www.telegram.hr/super1/design/5-dekorativnih-predmeta-koje-morate-imati-u-svom-domu/",
               "clickTarget": "_blank",
@@ -13596,7 +13079,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 577,
+              "z": 572,
               "cropH": 138,
               "cropW": 858,
               "cropX": 0,
@@ -13623,13 +13106,13 @@
               "_hidden": [],
               "_z": [{
                 "pid": "695bbaf58e8e35707806a6e3",
-                "value": 577
+                "value": 572
               }, {
                 "pid": "default",
-                "value": 577
+                "value": 572
               }],
               "viewport_phone_portrait": {
-                "z": 599,
+                "z": 664,
                 "y": 463.47,
                 "w": 43.45,
                 "h": 7,
@@ -13658,10 +13141,10 @@
                 "hidden": true,
                 "_z": [{
                   "pid": "695bbaf58e8e35707806a6e3",
-                  "value": 599
+                  "value": 664
                 }, {
                   "pid": "default",
-                  "value": 599
+                  "value": 664
                 }]
               },
               "_variationY": -217.03,
@@ -13702,12 +13185,12 @@
                 "originalCropY": 659,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/jN92eUeNLoFDEoXIUJOvS.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/WWA5o4xti33knyyrjgVpz.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-c03e3d91-1999-4d78-ab61-6e725861b86d.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/5WJ8UnbJY9sdTZVt5kcbj.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/4FYlw8xfkWUl6wlzXmiZZ.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/5WJ8UnbJY9sdTZVt5kcbj.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/jN92eUeNLoFDEoXIUJOvS.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/i0TAPTLGPAe90-1E6ZnTr.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/uOXr2rvqlZFPTYGcRpZx0.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/i0TAPTLGPAe90-1E6ZnTr.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/WWA5o4xti33knyyrjgVpz.jpg"
                 },
                 "angle": 180,
                 "is_full_width": null,
@@ -13734,7 +13217,7 @@
                 }],
                 "hidden": false
               },
-              "z": 418,
+              "z": 413,
               "__v": 0
             }, {
               "_id": "695e35a01d6e61986ed45fea",
@@ -13769,7 +13252,7 @@
                 "sticked": null,
                 "borders": 0
               },
-              "z": 428,
+              "z": 423,
               "__v": 0
             }, {
               "_id": "695e35a00fb585b9c4d9a1d4",
@@ -13831,7 +13314,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 429,
+              "z": 424,
               "__v": 0
             }, {
               "_id": "695e35a0ea58588f0061862f",
@@ -13891,7 +13374,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 430,
+              "z": 425,
               "__v": 0
             }, {
               "_id": "695e35a0b4ac7ff423791fcb",
@@ -14001,17 +13484,17 @@
                 "originalH": 5712,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/5dbbllflrRMzNMj_CBYa2.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/vissUjFYDmkvzRWM5pCu-.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-563e0e11-a2c6-4129-8254-b261c4b0afd3.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/xkn65peZMhJqgkjMv_ZSk.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/GCVN2jLI06J8HP_KUmvsg.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/xkn65peZMhJqgkjMv_ZSk.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/5dbbllflrRMzNMj_CBYa2.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/K9tSm7uo3knoXboyZB43b.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Um1EwY2U2x03qdSeD3IiV.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/K9tSm7uo3knoXboyZB43b.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/vissUjFYDmkvzRWM5pCu-.jpg"
                 }
               },
               "hidden": true,
               "_z": null,
-              "z": 431,
+              "z": 426,
               "__v": 0
             }, {
               "_id": "695e35f0d462a7e19267c5a4",
@@ -14046,7 +13529,7 @@
                 "sticked": null,
                 "borders": 0
               },
-              "z": 432,
+              "z": 427,
               "__v": 0
             }, {
               "_id": "695e35f16bdf4341e107f668",
@@ -14133,7 +13616,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 433,
+              "z": 428,
               "__v": 0
             }, {
               "_id": "695e35f14b0783ff30498c7b",
@@ -14193,7 +13676,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 434,
+              "z": 429,
               "__v": 0
             }, {
               "_id": "695e35f1aff0aa447e839bdb",
@@ -14303,17 +13786,17 @@
                 "originalH": 4032,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Dvv5__AvYYmJ9bYh52CSw.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Qak9lzb7n2_ybwPm4koxT.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-3ac25c19-ac39-4f5a-87f7-f992b425ab7f.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/7Ccdb98EF8m-9F1y4i8-t.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/BfVJDYHfB6qFm9x5OFPS-.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/7Ccdb98EF8m-9F1y4i8-t.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Dvv5__AvYYmJ9bYh52CSw.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/0vur4S5rI7RKxM3h3sk_Q.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/BA7JeEej5ptrKUb88NiTi.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/0vur4S5rI7RKxM3h3sk_Q.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Qak9lzb7n2_ybwPm4koxT.jpg"
                 }
               },
               "hidden": true,
               "_z": null,
-              "z": 435,
+              "z": 430,
               "__v": 0
             }, {
               "_id": "695e37c052bbad147a50f6b3",
@@ -14375,7 +13858,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 436,
+              "z": 431,
               "__v": 0
             }, {
               "_id": "695e38d3a3527914c8657be8",
@@ -14403,10 +13886,10 @@
                 "value": 339
               }],
               "viewport_phone_portrait": {
-                "x": -6.48,
-                "y": 1176.75,
+                "x": -5.48,
+                "y": 1173.75,
                 "w": 333.56,
-                "h": 1399.03,
+                "h": 2804.03,
                 "z": 450,
                 "hidden": false,
                 "sticked": "",
@@ -14416,7 +13899,7 @@
                 }],
                 "borders": 0
               },
-              "z": 437,
+              "z": 432,
               "__v": 0
             }, {
               "_id": "695e392aef10b0bcffccd3f7",
@@ -14440,12 +13923,12 @@
                 "z": 456,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/vEV-cxu2kpZwERSJTv2fj.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/xcChO2zoaokmV323vsaJp.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/QqQQARzMy3GqJlT2kEKg0.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/QqbLCPMbR3e1JV3vUQ35H.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/QqQQARzMy3GqJlT2kEKg0.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/vEV-cxu2kpZwERSJTv2fj.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/2ooVEjPF3L_0DLYFDfC3F.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/mrjxTXRhITPcYLA1YHAHv.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/2ooVEjPF3L_0DLYFDfC3F.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/xcChO2zoaokmV323vsaJp.webp"
                 },
                 "cropW": 735,
                 "cropH": 790,
@@ -14459,7 +13942,7 @@
                 "hidden": false
               },
               "hidden": true,
-              "z": 443,
+              "z": 438,
               "__v": 0
             }, {
               "_id": "695e392a7ac47c3c46fa871c",
@@ -14496,12 +13979,12 @@
                 "originalCropY": 7.142857142857167,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/fIjqmxfvrxV5VrmVq8Aoy.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/5YnLgNcoxRBu0St59c3GX.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-0276c2bd-7c5d-439f-9adf-865cc5e2a863.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/qKLdNBKUVJvk0qZHmeLW4.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/3px8vwvD1r9k8F-oe2q2y.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/qKLdNBKUVJvk0qZHmeLW4.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/fIjqmxfvrxV5VrmVq8Aoy.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/wVs7ngTpdLOXsgojaLJdj.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/LHDgcNRjN7V0M90mhDeII.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/wVs7ngTpdLOXsgojaLJdj.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/5YnLgNcoxRBu0St59c3GX.webp"
                 },
                 "hidden": false,
                 "sticked": "",
@@ -14511,7 +13994,7 @@
                 }],
                 "scale": 0.09164
               },
-              "z": 445,
+              "z": 440,
               "__v": 0
             }, {
               "_id": "695e392aceb169aacb2c0c17",
@@ -14539,12 +14022,12 @@
                 "z": 459,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/cWwKiuC3ad5ZUjmOC5BMX.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/d99oszpem1VYr_QntkyqB.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-1ef1234c-1ab6-4f6c-b234-8500c12f674e.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/l-9hx01qwqTVvzeFKsuRW.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/ZYW7s7ZNt6dOqUcMvz2O8.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/l-9hx01qwqTVvzeFKsuRW.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/cWwKiuC3ad5ZUjmOC5BMX.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Fi9mkS2eM0VIq599aJgWQ.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/VlmNLmk6qVwC-kr7hIEq_.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Fi9mkS2eM0VIq599aJgWQ.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/d99oszpem1VYr_QntkyqB.webp"
                 },
                 "cropW": 757,
                 "cropH": 790,
@@ -14578,7 +14061,7 @@
                   "trigger": []
                 }]
               },
-              "z": 446,
+              "z": 441,
               "__v": 0
             }, {
               "_id": "695e392b9069bd5e6c0e8395",
@@ -14606,12 +14089,12 @@
                 "z": 460,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/o5_t1qkGmTV0xaU8t-9h7.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/PxrxPsUhyLgI-BEuGsnoS.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-f9b1941f-4235-4fa9-b0b7-56486d822bdb.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/DJ4pnikKUvvtU_fL-HTrY.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/RQrU6P6iZx7q3M236F9oM.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/DJ4pnikKUvvtU_fL-HTrY.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/o5_t1qkGmTV0xaU8t-9h7.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/5g1o6IpzCsudrweZENKyK.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/YBDV4m38v3iG0N4tOZ4uV.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/5g1o6IpzCsudrweZENKyK.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/PxrxPsUhyLgI-BEuGsnoS.jpg"
                 },
                 "cropW": 1610,
                 "cropH": 1680,
@@ -14645,7 +14128,7 @@
                   "trigger": []
                 }]
               },
-              "z": 447,
+              "z": 442,
               "__v": 0
             }, {
               "_id": "695e392b6f5630fc84a80491",
@@ -14673,12 +14156,12 @@
                 "z": 461,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/D4OYAphoUPqp6-ksFWK3q.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/3_sydrsv6k2CKIgAvqq1z.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-83619dc8-ef8c-4193-a018-1995870d009c.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/c41xjF8AMaPgO7t984jcT.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/KYl2YX_yROH-tcQIG1OaC.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/c41xjF8AMaPgO7t984jcT.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/D4OYAphoUPqp6-ksFWK3q.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/oTNI0xGWc_-qi-e464-wR.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/13jIkedNkTZFDTXiceKGI.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/oTNI0xGWc_-qi-e464-wR.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/3_sydrsv6k2CKIgAvqq1z.webp"
                 },
                 "cropW": 757,
                 "cropH": 790,
@@ -14712,7 +14195,7 @@
                   "trigger": []
                 }]
               },
-              "z": 448,
+              "z": 443,
               "__v": 0
             }, {
               "_id": "695e392bd462a7e19268e8fa",
@@ -14740,12 +14223,12 @@
                 "z": 462,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/FN4itN0bMM6d8TOe_NZ-S.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/OdRNNLn9ejinSweY2KLOv.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-3b74279a-48a8-41a1-a9c6-38dcfd64c7a1.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/IsZM-flPlWn65llDta_WZ.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/xeuoBvAfTmwr5w2rNtJYa.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/IsZM-flPlWn65llDta_WZ.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/FN4itN0bMM6d8TOe_NZ-S.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Pi1A7rm6De1Rb5u54DmUz.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/3A42xWgksbH1gptE0ObZL.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Pi1A7rm6De1Rb5u54DmUz.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/OdRNNLn9ejinSweY2KLOv.webp"
                 },
                 "cropW": 757,
                 "cropH": 790,
@@ -14779,7 +14262,7 @@
                   "trigger": []
                 }]
               },
-              "z": 449,
+              "z": 444,
               "__v": 0
             }, {
               "_id": "695e3b06aff0aa447e855f55",
@@ -14846,7 +14329,7 @@
                 "value": 368
               }],
               "hidden": true,
-              "z": 454,
+              "z": 449,
               "__v": 0
             }, {
               "_id": "695e3bfb2e32f44bd120f644",
@@ -14933,7 +14416,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 457,
+              "z": 452,
               "__v": 0
             }, {
               "_id": "695e3c702e32f44bd1212f88",
@@ -15020,7 +14503,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 459,
+              "z": 454,
               "__v": 0
             }, {
               "_id": "695e3c7cac8e9f3ec3ffcd4f",
@@ -15107,7 +14590,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 460,
+              "z": 455,
               "__v": 0
             }, {
               "_id": "695e44251e18984e954109b6",
@@ -15148,11 +14631,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 12.67,
-                "y": 1873.15,
+                "x": 11.67,
+                "y": 3282.15,
                 "w": 296.6,
                 "h": 80,
-                "z": 486,
+                "z": 481,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -15246,7 +14729,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 461,
+              "z": 456,
               "__v": 0
             }, {
               "_id": "695e44259004b2881554df19",
@@ -15319,11 +14802,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 11,
-                "y": 1672.33,
+                "x": 10,
+                "y": 3081.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 485,
+                "z": 480,
                 "cropW": 2605.600083272614,
                 "cropH": 1680,
                 "cropX": 29.199958363692986,
@@ -15343,12 +14826,12 @@
                 "originalH": 1680,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/vpbHj8qxyIylNPa-1J9av.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/QB710HDOT3o-Le8XO9H5Q.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-234de5b9-c540-48a6-ac62-9bbf5080b859.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/l1bvOz0tu4iz2zCetyjcz.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Zfppfhm2yyGPfbLv5HU_0.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/l1bvOz0tu4iz2zCetyjcz.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/vpbHj8qxyIylNPa-1J9av.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/pu4tTgnsF_G3mc_qqV0Ef.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/NsEyC9whC7dkw9diWhYaE.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/pu4tTgnsF_G3mc_qqV0Ef.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/QB710HDOT3o-Le8XO9H5Q.jpg"
                 },
                 "animation": []
               },
@@ -15360,7 +14843,7 @@
               "clickLink": "https://www.telegram.hr/super1/shopping-vodic/dizajnerske-torbe-ispod-300-eura-zimsko-snizenje/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 462,
+              "z": 457,
               "__v": 0
             }, {
               "_id": "695e44c7885760a98968a0f2",
@@ -15392,11 +14875,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 14.67,
-                "y": 2168.15,
+                "x": 13.67,
+                "y": 3577.15,
                 "w": 296.6,
                 "h": 80,
-                "z": 488,
+                "z": 483,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -15458,7 +14941,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 464,
+              "z": 459,
               "__v": 0
             }, {
               "_id": "695e44c74b0783ff304ef6f7",
@@ -15531,11 +15014,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 13,
-                "y": 1967.33,
+                "x": 12,
+                "y": 3376.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 487,
+                "z": 482,
                 "cropW": 2605.600083272614,
                 "cropH": 1680,
                 "cropX": 29.199958363692986,
@@ -15555,12 +15038,12 @@
                 "originalH": 1680,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/0TUZEubf_3S5-nDWiZIJZ.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/sFBQ8w66gjnIenPqio5Y0.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-77737d49-eb5b-4c4c-a175-a821fe706a5a.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/OvDbJS4jis59F59066t_v.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/DSBvUtsdFNy1T7y0tCcf1.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/OvDbJS4jis59F59066t_v.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/0TUZEubf_3S5-nDWiZIJZ.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/dXme5eC89gkRIrRGwzP4B.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/GQJUalz9Y-ldP7wepKeEs.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/dXme5eC89gkRIrRGwzP4B.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/sFBQ8w66gjnIenPqio5Y0.jpg"
                 },
                 "animation": []
               },
@@ -15572,7 +15055,7 @@
               "clickLink": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 465,
+              "z": 460,
               "__v": 0
             }, {
               "_id": "695e47f4885760a98969891b",
@@ -15604,11 +15087,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 12.67,
-                "y": 2466.15,
+                "x": 11.67,
+                "y": 3875.15,
                 "w": 296.6,
                 "h": 80,
-                "z": 490,
+                "z": 485,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -15670,7 +15153,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 466,
+              "z": 461,
               "__v": 0
             }, {
               "_id": "695e47f42e32f44bd12623ed",
@@ -15743,11 +15226,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 11,
-                "y": 2265.33,
+                "x": 10,
+                "y": 3674.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 489,
+                "z": 484,
                 "cropW": 2605.600083272614,
                 "cropH": 1680,
                 "cropX": 29.199958363692986,
@@ -15767,12 +15250,12 @@
                 "originalH": 1680,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/bZ2UHd-7i86a6-5RG6q7P.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/8vgi-cHkJ9-GtKXxDa8G3.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-81b75f9b-3c55-45ae-b0d8-da589b809aa6.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/tgpPujL73lR8So645XsMU.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/wKWFJ35MMT3o5LmYlY6LP.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/tgpPujL73lR8So645XsMU.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/bZ2UHd-7i86a6-5RG6q7P.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ClNt9lju36ZuUdvanO0Rv.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/oJm55wiYLj5H7Opb0EdxA.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ClNt9lju36ZuUdvanO0Rv.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/8vgi-cHkJ9-GtKXxDa8G3.jpg"
                 },
                 "animation": []
               },
@@ -15784,7 +15267,7 @@
               "clickLink": "https://www.telegram.hr/super1/look/kako-nositi-bijele-traperice-zimi/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 467,
+              "z": 462,
               "__v": 0
             }, {
               "_id": "695e48407ac47c3c46003231",
@@ -15797,10 +15280,19 @@
               "autosize": true,
               "blocks": [{
                 "key": "fim0o",
-                "text": "5 najčešćih beauty grešaka koje svi radimo zimi (i kako ih najlakše izbjeći)",
+                "text": "Zašto su bež rumenila tajni ",
                 "entityRanges": [{
                   "offset": 0,
-                  "length": 76,
+                  "length": 28,
+                  "key": 0
+                }],
+                "depth": 0
+              }, {
+                "key": "es1k4",
+                "text": "make-up trik koji svi odjednom nose?",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 36,
                   "key": 0
                 }],
                 "depth": 0
@@ -15816,13 +15308,24 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 12.67,
-                "y": 2983.15,
+                "x": 11.67,
+                "y": 4387.15,
                 "w": 296.6,
                 "h": 60,
                 "z": 348,
                 "blocksMeta": [{
                   "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left",
+                    "paddings": {
+                      "bottom": 0
+                    }
+                  }
+                }, {
+                  "key": "es1k4",
                   "data": {
                     "sizesLinkedStatus": true,
                     "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
@@ -15839,11 +15342,27 @@
                   "inlineStyles": {
                     "styles": [{
                       "offset": 0,
-                      "length": 76,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                      "length": 28,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
                     }],
-                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
-                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE", "SHADOW"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18",
+                      "false;0;0;0;F3F3F364;none;0.5;0.5"
+                    ]
+                  }
+                }, {
+                  "key": "es1k4",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 36,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE", "SHADOW"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18",
+                      "false;0;0;0;F3F3F364;none;0.5;0.5"
+                    ]
                   }
                 }],
                 "entityMap": {
@@ -15851,12 +15370,12 @@
                     "type": "LINK",
                     "mutability": "MUTABLE",
                     "data": {
-                      "url": "https://www.telegram.hr/super1/beauty/pet-beauty-gresaka-zimi/",
+                      "url": "https://www.telegram.hr/super1/shopping-vodic/bez-rumenila-sad-blush-trend/",
                       "anchorPosition": 0,
                       "type": "URL",
                       "target": "_blank",
-                      "linkStyle": "link-style-015cb18b-6b85-4811-9005-b45acb4c188c",
-                      "id": "6bp8"
+                      "linkStyle": "link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9",
+                      "id": "84ie6"
                     }
                   }
                 },
@@ -15885,14 +15404,14 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 468,
+              "z": 463,
               "__v": 0
             }, {
               "_id": "695e48409069bd5e6c1492d3",
               "wid": "695e48409069bd5e6c1492d3",
               "mag_num_id": 6043837,
               "type": "picture",
-              "blurHash": "UVE{@Lxu?wxvI9ofD%RjITWAM{WBWBayozay",
+              "blurHash": "UDHnZ[?b_NX8^PJAIUn$2wNI%2nh.8w]R*WA",
               "version": 2,
               "originId": "66789dbdccf42b0014051616",
               "modifiers": [{
@@ -15958,20 +15477,20 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 10,
-                "y": 2782.33,
-                "w": 298,
-                "h": 192.14,
+                "x": 12,
+                "y": 4186.33,
+                "w": 296,
+                "h": 191.67,
                 "z": 347,
-                "cropW": 1417,
-                "cropH": 913.6321476510066,
-                "cropX": 0,
-                "cropY": 43.68392617449672,
-                "originalCropW": 1417,
-                "originalCropH": 913.6321476510066,
-                "originalCropX": 0,
-                "originalCropY": 43.68392617449672,
-                "scale": 0.21030345800988004,
+                "cropW": 2588,
+                "cropH": 1676,
+                "cropX": 52,
+                "cropY": 3,
+                "originalCropW": 2588,
+                "originalCropH": 1676,
+                "originalCropX": 52,
+                "originalCropY": 3,
+                "scale": 0.11437,
                 "hidden": false,
                 "_hidden": [{
                   "pid": "default",
@@ -15979,16 +15498,16 @@
                 }],
                 "sticked": "",
                 "animation": [],
-                "originalW": 1417,
-                "originalH": 1001,
+                "originalW": 2664,
+                "originalH": 1680,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/jGIpqeu39lERouoWfg377.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-f763f066-a4a3-4d53-9714-3639e2b485c9.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/uZN_zxLydAI3f0Nkc_ydn.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/-Oeus27vVXwvE8LtMsfQl.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/uZN_zxLydAI3f0Nkc_ydn.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/jGIpqeu39lERouoWfg377.jpg"
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Cevtt6WQO73HIaPonfCeL.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-f924505d-f7da-4e90-9802-9d5070cf0dfa.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/n6-cx_J8GSw9eoxUDmObW.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/0oJt6gzvZmsVReC2NjMgD.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/n6-cx_J8GSw9eoxUDmObW.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Cevtt6WQO73HIaPonfCeL.jpg"
                 }
               },
               "hidden": true,
@@ -15996,10 +15515,10 @@
                 "pid": "default",
                 "value": 393
               }],
-              "clickLink": "https://www.telegram.hr/super1/beauty/pet-beauty-gresaka-zimi/",
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/bez-rumenila-sad-blush-trend/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 469,
+              "z": 464,
               "__v": 0
             }, {
               "_id": "695e48412e32f44bd12663a7",
@@ -16014,8 +15533,8 @@
               "name": "",
               "modifiers": [],
               "viewport_phone_portrait": {
-                "x": 338.69,
-                "y": 2700.44,
+                "x": 337.69,
+                "y": 4101.44,
                 "w": 50,
                 "h": 81.39,
                 "z": 349,
@@ -16070,16 +15589,16 @@
                 "originalH": 1170,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/lvzm-UQKVYuPmSjJUN9gP.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/QnV-FBY5huVwX6NNtyS5v.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-34a08bc0-8c08-4d60-b354-e315870fc66c.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/rAfYOg4-88Ul8-1WyEB9L.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/PjB_Z2F7_wATISy1b2EUC.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/rAfYOg4-88Ul8-1WyEB9L.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/lvzm-UQKVYuPmSjJUN9gP.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/GkNRNlsaQDWtA1Twimas4.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/LaD7okuUHRuLTVV15Jkkv.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/GkNRNlsaQDWtA1Twimas4.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/QnV-FBY5huVwX6NNtyS5v.jpg"
                 }
               },
               "hidden": true,
-              "z": 470,
+              "z": 465,
               "__v": 0
             }, {
               "_id": "695e4845c0368612779c01e5",
@@ -16106,8 +15625,8 @@
               "text": "",
               "originId": "66789dbdccf42b0014051626",
               "viewport_phone_portrait": {
-                "x": 9.93,
-                "y": 2667.05,
+                "x": 8.93,
+                "y": 4068.05,
                 "w": 371.8,
                 "h": 45,
                 "z": 346,
@@ -16159,7 +15678,7 @@
                 "value": 368
               }],
               "hidden": true,
-              "z": 477,
+              "z": 472,
               "__v": 0
             }, {
               "_id": "695e4845323af47d2aab3572",
@@ -16191,8 +15710,8 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 67.2,
-                "y": 2685.91,
+                "x": 66.2,
+                "y": 4086.91,
                 "w": 298.75,
                 "h": 40,
                 "z": 343,
@@ -16246,7 +15765,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 478,
+              "z": 473,
               "__v": 0
             }, {
               "_id": "695e4846ac8e9f3ec3046524",
@@ -16278,8 +15797,8 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 112.2,
-                "y": 2708.91,
+                "x": 111.2,
+                "y": 4109.91,
                 "w": 307.75,
                 "h": 33,
                 "z": 345,
@@ -16333,7 +15852,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 480,
+              "z": 475,
               "__v": 0
             }, {
               "_id": "695e4846b4ac7ff4237f7d71",
@@ -16346,10 +15865,10 @@
               "autosize": true,
               "blocks": [{
                 "key": "fim0o",
-                "text": "Prava zima tek stiže, a nova verzija jedne od najpopularnijih krema mogla bi spasiti našu kožu",
+                "text": "Zbogom clean girl estetiko! Glitchy glam je make-up look s kojim ćemo se igrati u 2026.",
                 "entityRanges": [{
                   "offset": 0,
-                  "length": 94,
+                  "length": 87,
                   "key": 0
                 }],
                 "depth": 0
@@ -16366,7 +15885,7 @@
               "animation": [],
               "viewport_phone_portrait": {
                 "x": 11.67,
-                "y": 3255.15,
+                "y": 4659.15,
                 "w": 296.6,
                 "h": 60,
                 "z": 351,
@@ -16385,7 +15904,7 @@
                   "inlineStyles": {
                     "styles": [{
                       "offset": 0,
-                      "length": 94,
+                      "length": 87,
                       "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                     }],
                     "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
@@ -16397,12 +15916,12 @@
                     "type": "LINK",
                     "mutability": "MUTABLE",
                     "data": {
-                      "url": "https://www.telegram.hr/super1/beauty/kiehls-ultra-facial-meltdown-recovery-cream-sos-za-suhu-kozu/",
+                      "url": "https://www.telegram.hr/super1/beauty/glitchy-glam-pinterest-trend-2026/",
                       "anchorPosition": 0,
                       "type": "URL",
-                      "target": "_blank",
-                      "linkStyle": "link-style-212b014a-c50a-40ad-9fa6-6a5c52524930",
-                      "id": "bu65h"
+                      "target": "_self",
+                      "linkStyle": "link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9",
+                      "id": "94v07"
                     }
                   }
                 },
@@ -16431,226 +15950,14 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 481,
+              "z": 476,
               "__v": 0
             }, {
               "_id": "695e48464431039ea4216af7",
               "wid": "695e48464431039ea4216af7",
               "mag_num_id": 6043837,
               "type": "picture",
-              "blurHash": "UkNA#V%M?vxv~pofWAoet7WBIUWBxut7WBj[",
-              "version": 2,
-              "originId": "66789dbdccf42b0014051616",
-              "modifiers": [{
-                "id": "cursor",
-                "title": "Cursor",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "static": [{
-                  "id": "cursor-keyword",
-                  "name": "Cursor",
-                  "type": "select",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "auto",
-                  "params": {
-                    "default": "auto",
-                    "options": [{
-                      "label": "Auto",
-                      "value": "auto"
-                    }, {
-                      "label": "Pointer",
-                      "value": "pointer"
-                    }, {
-                      "label": "Move",
-                      "value": "move"
-                    }]
-                  }
-                }, {
-                  "id": "cursor-url",
-                  "name": "Cursor image",
-                  "type": "file",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
-                }, {
-                  "id": "url-is-lambda",
-                  "name": "Is cursor url lambda",
-                  "type": "toggle",
-                  "operator": "assignment",
-                  "modelField": "cursorUrlIsLambda",
-                  "value": false,
-                  "params": {
-                    "default": false,
-                    "isDisabled": true
-                  }
-                }, {
-                  "id": "cursor-image-dimension",
-                  "name": "Cursor image dimension",
-                  "type": "number",
-                  "operator": "assignment",
-                  "modelField": "cursorImageDimension",
-                  "value": 16,
-                  "params": {
-                    "default": 0,
-                    "isDisabled": true
-                  }
-                }],
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Cursor/WidgetRendered"
-                }]
-              }],
-              "name": "slika1",
-              "viewport_phone_portrait": {
-                "x": 10,
-                "y": 3054.33,
-                "w": 298,
-                "h": 192.14,
-                "z": 350,
-                "cropW": 1397.408139897991,
-                "cropH": 901,
-                "cropX": 20.29593005100446,
-                "cropY": 0,
-                "originalCropW": 1397.408139897991,
-                "originalCropH": 901,
-                "originalCropX": 20.29593005100446,
-                "originalCropY": 0,
-                "scale": 0.2132519422863485,
-                "hidden": false,
-                "_hidden": [{
-                  "pid": "default",
-                  "value": false
-                }],
-                "sticked": "",
-                "originalW": 1438,
-                "originalH": 901,
-                "animation": [],
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/SALstzlVLE15788nVy2Jn.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-c3d62387-b2f6-464e-8bba-fea5398355f0.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/F5Uj156vxJxyR-T51nj2D.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/iP0KQgCIfNW-cY6sozLgb.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/F5Uj156vxJxyR-T51nj2D.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/SALstzlVLE15788nVy2Jn.jpg"
-                }
-              },
-              "hidden": true,
-              "_z": [{
-                "pid": "default",
-                "value": 393
-              }],
-              "clickLink": "https://www.telegram.hr/super1/beauty/kiehls-ultra-facial-meltdown-recovery-cream-sos-za-suhu-kozu/",
-              "clickTarget": "_blank",
-              "clickPage": null,
-              "z": 482,
-              "__v": 0
-            }, {
-              "_id": "695e4846a3527914c86badcf",
-              "wid": "695e4846a3527914c86badcf",
-              "mag_num_id": 6043837,
-              "type": "text",
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "fim0o",
-                "text": "U 2026. ćemo ponovno nositi cipele u jarkim crvenim tonovima, ove krasne modele pronašli smo na sniženju",
-                "entityRanges": [{
-                  "offset": 0,
-                  "length": 104,
-                  "key": 0
-                }],
-                "depth": 0
-              }],
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "name": "lookčlabnak1",
-              "text": "",
-              "originId": "66789dbdccf42b0014051613",
-              "animation": [],
-              "viewport_phone_portrait": {
-                "x": 12.67,
-                "y": 3532.15,
-                "w": 296.6,
-                "h": 80,
-                "z": 353,
-                "blocksMeta": [{
-                  "key": "fim0o",
-                  "data": {
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
-                    "lineHeight": 20,
-                    "align": "align-left"
-                  }
-                }],
-                "styles": [{
-                  "key": "fim0o",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 104,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
-                    }],
-                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
-                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
-                  }
-                }],
-                "entityMap": {
-                  "0": {
-                    "type": "LINK",
-                    "mutability": "MUTABLE",
-                    "data": {
-                      "url": "https://www.telegram.hr/super1/beauty/trendi-boje-kose-zimska-sezona-2026/",
-                      "anchorPosition": 0,
-                      "type": "URL",
-                      "target": "_blank",
-                      "linkStyle": "link-style-212b014a-c50a-40ad-9fa6-6a5c52524930",
-                      "id": "90fv7"
-                    }
-                  }
-                },
-                "_hidden": [{
-                  "pid": "default",
-                  "value": false
-                }],
-                "sticked": "",
-                "hidden": false,
-                "modifiers": []
-              },
-              "_z": [{
-                "pid": "default",
-                "value": 392
-              }],
-              "hidden": true,
-              "shadow": {
-                "x": 0,
-                "y": 0,
-                "blur": 5,
-                "color": "0059FF64",
-                "onHover": true,
-                "onScroll": false,
-                "fadeOnHover": false,
-                "ratio": 0.1,
-                "duration": 0.5
-              },
-              "isShadowEnabled": true,
-              "z": 483,
-              "__v": 0
-            }, {
-              "_id": "695e484683d2f99150d50d4b",
-              "wid": "695e484683d2f99150d50d4b",
-              "mag_num_id": 6043837,
-              "type": "picture",
-              "blurHash": "UZJ@%h9w_1WF~VNHt6f8S4s.V@jYt7bHoJa|",
+              "blurHash": "U7ExIit5R8EMkq$%NGR+,pxG^PxZ}sX8=xxZ",
               "version": 2,
               "originId": "66789dbdccf42b0014051616",
               "modifiers": [{
@@ -16717,10 +16024,10 @@
               "name": "slika1",
               "viewport_phone_portrait": {
                 "x": 11,
-                "y": 3331.33,
+                "y": 4458.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 352,
+                "z": 350,
                 "cropW": 2605.600083272614,
                 "cropH": 1680,
                 "cropX": 29.199958363692986,
@@ -16738,30 +16045,30 @@
                 "sticked": "",
                 "originalW": 2664,
                 "originalH": 1680,
+                "animation": [],
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Tx83ti3QbSkVfRCGqBFvS.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-0b12cc0f-04fa-41f9-b8a5-31ca311487bf.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ytp0tiQwF2v-G6qxI8kP8.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/kxufLfBfO5QcveJyQSlCL.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ytp0tiQwF2v-G6qxI8kP8.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Tx83ti3QbSkVfRCGqBFvS.jpg"
-                },
-                "animation": []
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/xhqWBemzvRhe-QeuEgxpK.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-0fcd12f6-6ccb-410c-bd36-e0aded4a7034.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/gCmqpetnjG6_o24c-YYua.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/eXhkrWgFt0nlnEfKD7Q2J.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/gCmqpetnjG6_o24c-YYua.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/xhqWBemzvRhe-QeuEgxpK.jpg"
+                }
               },
               "hidden": true,
               "_z": [{
                 "pid": "default",
                 "value": 393
               }],
-              "clickLink": "https://www.telegram.hr/super1/beauty/trendi-boje-kose-zimska-sezona-2026/",
+              "clickLink": "https://www.telegram.hr/super1/beauty/glitchy-glam-pinterest-trend-2026/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 484,
+              "z": 477,
               "__v": 0
             }, {
-              "_id": "695e48473e9ee3dacd305cdb",
-              "wid": "695e48473e9ee3dacd305cdb",
+              "_id": "695e4846a3527914c86badcf",
+              "wid": "695e4846a3527914c86badcf",
               "mag_num_id": 6043837,
               "type": "text",
               "version": 3,
@@ -16770,10 +16077,10 @@
               "autosize": true,
               "blocks": [{
                 "key": "fim0o",
-                "text": "Uvijek sam se borila sa suhim rukama tijekom zime, a onda sasvim slučajno otkrila super trik",
+                "text": "U 2026. ćemo ponovno nositi cipele u jarkim crvenim tonovima, ove krasne modele pronašli smo na sniženju",
                 "entityRanges": [{
                   "offset": 0,
-                  "length": 92,
+                  "length": 104,
                   "key": 0
                 }],
                 "depth": 0
@@ -16789,11 +16096,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 12.67,
-                "y": 3825.15,
+                "x": 11.67,
+                "y": 4936.15,
                 "w": 296.6,
-                "h": 60,
-                "z": 355,
+                "h": 80,
+                "z": 353,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -16809,7 +16116,7 @@
                   "inlineStyles": {
                     "styles": [{
                       "offset": 0,
-                      "length": 92,
+                      "length": 104,
                       "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
                     }],
                     "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
@@ -16821,12 +16128,12 @@
                     "type": "LINK",
                     "mutability": "MUTABLE",
                     "data": {
-                      "url": "https://www.telegram.hr/super1/beauty/borite-se-sa-suhim-rukama-tijekom-zimskih-mjeseci-ovo-je-super-trik-koji-sam-otkrila-sasvim-slucajno/",
+                      "url": "https://www.telegram.hr/super1/beauty/pixie-frizura/",
                       "anchorPosition": 0,
                       "type": "URL",
                       "target": "_blank",
-                      "linkStyle": "link-style-212b014a-c50a-40ad-9fa6-6a5c52524930",
-                      "id": "2vnr2"
+                      "linkStyle": "link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9",
+                      "id": "fl0ql"
                     }
                   }
                 },
@@ -16855,14 +16162,14 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 485,
+              "z": 478,
               "__v": 0
             }, {
-              "_id": "695e48472441772d43b78d4d",
-              "wid": "695e48472441772d43b78d4d",
+              "_id": "695e484683d2f99150d50d4b",
+              "wid": "695e484683d2f99150d50d4b",
               "mag_num_id": 6043837,
               "type": "picture",
-              "blurHash": "UIM7rvV?%~_N_NtQR5MxOSt7MxM_x[WBogxu",
+              "blurHash": "UOLqhJ?b*0oy%2R5IUNGtmbbnNnN_3WCNGtR",
               "version": 2,
               "originId": "66789dbdccf42b0014051616",
               "modifiers": [{
@@ -16929,10 +16236,10 @@
               "name": "slika1",
               "viewport_phone_portrait": {
                 "x": 10,
-                "y": 3624.33,
+                "y": 4735.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 354,
+                "z": 352,
                 "cropW": 2605.600083272614,
                 "cropH": 1680,
                 "cropX": 29.199958363692986,
@@ -16950,26 +16257,238 @@
                 "sticked": "",
                 "originalW": 2664,
                 "originalH": 1680,
+                "animation": [],
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/mkRwFTqBndPUl9W2Q9d37.jpg",
-                  "url": "img/683d850bd2094940857eb894/6043837/image-eadbd986-0a69-49c0-914a-a1fbf106a1ac.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/sUUD1_5D3O7ACXV7UnAtr.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/W6cCjenjxije0PtBEZT0v.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/sUUD1_5D3O7ACXV7UnAtr.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/mkRwFTqBndPUl9W2Q9d37.jpg"
-                },
-                "animation": []
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Nt_JmryM9C8ZK6oMMfGpx.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-83378787-2b1c-4086-9f9c-23c2093d5c99.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/F8Q3TLGbQZtHynLgiasUw.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/dNHmnDzJMelpmH_k-T_L5.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/F8Q3TLGbQZtHynLgiasUw.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Nt_JmryM9C8ZK6oMMfGpx.jpg"
+                }
               },
               "hidden": true,
               "_z": [{
                 "pid": "default",
                 "value": 393
               }],
-              "clickLink": "https://www.telegram.hr/super1/beauty/borite-se-sa-suhim-rukama-tijekom-zimskih-mjeseci-ovo-je-super-trik-koji-sam-otkrila-sasvim-slucajno/",
+              "clickLink": "https://www.telegram.hr/super1/beauty/pixie-frizura/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 486,
+              "z": 479,
+              "__v": 0
+            }, {
+              "_id": "695e48473e9ee3dacd305cdb",
+              "wid": "695e48473e9ee3dacd305cdb",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Kad make-up izgleda kao dobra genetika: Resting rich face je nova TikTok opsesija, a ovako se postiže",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 101,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 11.67,
+                "y": 5229.15,
+                "w": 296.6,
+                "h": 80,
+                "z": 355,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 101,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/beauty/resting-rich-face-make-up-trend/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9",
+                      "id": "5pvd3"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 480,
+              "__v": 0
+            }, {
+              "_id": "695e48472441772d43b78d4d",
+              "wid": "695e48472441772d43b78d4d",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UcQ+gAxa%%%M%$kCs,ofRPfPV[ae%MfPofkC",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 12,
+                "y": 5029,
+                "w": 297,
+                "h": 191,
+                "z": 354,
+                "cropW": 2597,
+                "cropH": 1670,
+                "cropX": 61,
+                "cropY": 9,
+                "originalCropW": 2597,
+                "originalCropH": 1670,
+                "originalCropX": 61,
+                "originalCropY": 9,
+                "scale": 0.11437,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "animation": [],
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/XEita7UmNP6TLx7zegMRz.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-652a11ad-beab-4fcb-aba8-adc9397fd59a.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/jPNSaQ3HseTHc8hmsTaZk.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/7195wVMsZ_LgwCgd0lDq_.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/jPNSaQ3HseTHc8hmsTaZk.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/XEita7UmNP6TLx7zegMRz.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/beauty/resting-rich-face-make-up-trend/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 481,
               "__v": 0
             }, {
               "_id": "695e4e98b4ac7ff423821eb4",
@@ -17001,11 +16520,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 12.67,
-                "y": 4340.15,
+                "x": 13.67,
+                "y": 6866.15,
                 "w": 296.6,
                 "h": 60,
-                "z": 502,
+                "z": 497,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -17067,7 +16586,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 487,
+              "z": 482,
               "__v": 0
             }, {
               "_id": "695e4e994431039ea4245b1b",
@@ -17140,11 +16659,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 10,
-                "y": 4139.33,
+                "x": 11,
+                "y": 6665.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 501,
+                "z": 496,
                 "cropW": 2048,
                 "cropH": 1320.4789261744966,
                 "cropX": 0,
@@ -17165,12 +16684,12 @@
                 "originalH": 1536,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/H4M019eAOpyWtvbmBTORR.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/NMpI8BCey52NQpoVz1I-h.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-c34754fb-6134-429e-9bdd-970739154fa4.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/-ZdRNJOBIxlfzhZB4b9VS.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/liUVkh_J5lHmClRtFM5_V.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/-ZdRNJOBIxlfzhZB4b9VS.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/H4M019eAOpyWtvbmBTORR.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/bXYCKr9V5IpoWlboeSxbG.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/zAqx4lbr5bjPwFDYBhM-l.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/bXYCKr9V5IpoWlboeSxbG.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/NMpI8BCey52NQpoVz1I-h.jpg"
                 }
               },
               "hidden": true,
@@ -17181,7 +16700,7 @@
               "clickLink": "https://www.telegram.hr/super1/life/prvi-snijeg-iskoristit-cemo-za-posjet-jednoj-od-ovih-7-bajkovitih-lokacija-u-okolici-zagreba/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 488,
+              "z": 483,
               "__v": 0
             }, {
               "_id": "695e4e99785a0ba5be7dac90",
@@ -17196,11 +16715,11 @@
               "name": "",
               "modifiers": [],
               "viewport_phone_portrait": {
-                "x": 336.69,
-                "y": 4055.44,
+                "x": 337.69,
+                "y": 6581.44,
                 "w": 50,
                 "h": 81.39,
-                "z": 503,
+                "z": 498,
                 "cropH": 3024,
                 "cropW": 1858,
                 "cropX": 1338,
@@ -17252,16 +16771,16 @@
                 "originalH": 3024,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/SNGYWHkSJDiaoqaK4hXgP.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/HpO2CZivRRheznGbeXLAM.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-5cc8450c-1941-4e4b-9837-ae88201e3256.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/nIsKXOuo7mCqeLnO2UD48.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/cfjvVq6-TAV6orep9KePQ.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/nIsKXOuo7mCqeLnO2UD48.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/SNGYWHkSJDiaoqaK4hXgP.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/-2RfVG44yKN49RqfskqOF.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/9Bq3LTrAExW2v0gR4xQ0m.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/-2RfVG44yKN49RqfskqOF.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/HpO2CZivRRheznGbeXLAM.jpg"
                 }
               },
               "hidden": true,
-              "z": 489,
+              "z": 484,
               "__v": 0
             }, {
               "_id": "695e4e99885760a9896c3b4e",
@@ -17278,19 +16797,19 @@
               "blurHash": "UED9kzIA?bIU~VD%-:D*M|M{-;IoM|bIxuxa",
               "name": "",
               "viewport_phone_portrait": {
-                "x": 13,
-                "y": 3927,
+                "x": 14,
+                "y": 6453,
                 "w": 67,
                 "h": 72,
-                "z": 491,
+                "z": 486,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/vEV-cxu2kpZwERSJTv2fj.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/xcChO2zoaokmV323vsaJp.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/QqQQARzMy3GqJlT2kEKg0.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/QqbLCPMbR3e1JV3vUQ35H.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/QqQQARzMy3GqJlT2kEKg0.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/vEV-cxu2kpZwERSJTv2fj.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/2ooVEjPF3L_0DLYFDfC3F.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/mrjxTXRhITPcYLA1YHAHv.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/2ooVEjPF3L_0DLYFDfC3F.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/xcChO2zoaokmV323vsaJp.webp"
                 },
                 "cropW": 735,
                 "cropH": 790,
@@ -17304,7 +16823,7 @@
                 "hidden": false
               },
               "hidden": true,
-              "z": 490,
+              "z": 485,
               "__v": 0
             }, {
               "_id": "695e4e9b2441772d43b9aad6",
@@ -17332,11 +16851,11 @@
               "originId": "66789dbdccf42b0014051626",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 9.93,
-                "y": 4067.05,
+                "x": 10.93,
+                "y": 6593.05,
                 "w": 371.8,
                 "h": 45,
-                "z": 497,
+                "z": 492,
                 "sticked": "",
                 "blocksMeta": [{
                   "key": "fim0o",
@@ -17371,7 +16890,7 @@
                 "value": 368
               }],
               "hidden": true,
-              "z": 496,
+              "z": 491,
               "__v": 0
             }, {
               "_id": "695e4e9b2e32f44bd1294b80",
@@ -17398,11 +16917,11 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 96.2,
-                "y": 4017.91,
+                "x": 97.2,
+                "y": 6543.91,
                 "w": 298.75,
                 "h": 20,
-                "z": 498,
+                "z": 493,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -17438,7 +16957,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 497,
+              "z": 492,
               "__v": 0
             }, {
               "_id": "695e4e9bd12897610af5e6b8",
@@ -17470,11 +16989,11 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 160.2,
-                "y": 4038.91,
+                "x": 161.2,
+                "y": 6564.91,
                 "w": 298.75,
                 "h": 40,
-                "z": 499,
+                "z": 494,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -17525,7 +17044,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 498,
+              "z": 493,
               "__v": 0
             }, {
               "_id": "695e4e9cac8e9f3ec306ffb5",
@@ -17557,11 +17076,11 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 108.2,
-                "y": 4062.91,
+                "x": 109.2,
+                "y": 6588.91,
                 "w": 307.75,
                 "h": 33,
-                "z": 500,
+                "z": 495,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -17612,7 +17131,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 499,
+              "z": 494,
               "__v": 0
             }, {
               "_id": "695e4e9c1e18984e954524d4",
@@ -17644,11 +17163,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 11.67,
-                "y": 4617.15,
+                "x": 12.67,
+                "y": 7143.15,
                 "w": 296.6,
                 "h": 60,
-                "z": 505,
+                "z": 500,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -17710,7 +17229,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 500,
+              "z": 495,
               "__v": 0
             }, {
               "_id": "695e4e9cd462a7e1927154ef",
@@ -17783,11 +17302,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 10,
-                "y": 4416.33,
+                "x": 11,
+                "y": 6942.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 504,
+                "z": 499,
                 "cropW": 600,
                 "cropH": 386.8590604026846,
                 "cropX": 0,
@@ -17808,12 +17327,12 @@
                 "animation": [],
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/cvXSpXsvMY6ynWKQQxKS4.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/98y1zpfpYA-5Qy2GiO72a.png",
                   "url": "img/683d850bd2094940857eb894/6043837/image-d99c98ef-14eb-4761-ac7b-f27a57533922.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Ysj5Qs96bAqfMEf5vQya7.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/oVvaFBCeNcrUcaZZ_c5p6.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Ysj5Qs96bAqfMEf5vQya7.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/cvXSpXsvMY6ynWKQQxKS4.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/dIEHd9EGFc0yNalhDAVmd.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/dZOR14csRILPmvwiw2jBF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/dIEHd9EGFc0yNalhDAVmd.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/98y1zpfpYA-5Qy2GiO72a.png"
                 }
               },
               "hidden": true,
@@ -17824,7 +17343,7 @@
               "clickLink": "https://www.telegram.hr/super1/life/prvi-snijeg-iskoristit-cemo-za-posjet-jednoj-od-ovih-7-bajkovitih-lokacija-u-okolici-zagreba/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 501,
+              "z": 496,
               "__v": 0
             }, {
               "_id": "695e4e9dc0368612779e964c",
@@ -17856,11 +17375,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 13.67,
-                "y": 4897.15,
+                "x": 14.67,
+                "y": 7423.15,
                 "w": 296.6,
                 "h": 60,
-                "z": 507,
+                "z": 502,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -17922,7 +17441,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 502,
+              "z": 497,
               "__v": 0
             }, {
               "_id": "695e4e9daff0aa447e8d5824",
@@ -17995,11 +17514,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 12,
-                "y": 4696.33,
+                "x": 13,
+                "y": 7222.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 506,
+                "z": 501,
                 "cropW": 1132.1952742791714,
                 "cropH": 730,
                 "cropX": 81.90236286041431,
@@ -18019,12 +17538,12 @@
                 "originalH": 730,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/9AAE5ounv2GsHc8FDj69V.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/3FSBPxWi8CDRDAlCajsIb.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-3215c372-dd06-4162-98b8-e251ddb3a525.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/FBmMnyL1EU6NZ6KB3QEt3.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/2ljRseYe4VjM09sspVNBi.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/FBmMnyL1EU6NZ6KB3QEt3.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/9AAE5ounv2GsHc8FDj69V.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/iua4CnJ_eFwGaU2Spa5dK.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/TKhKev3UAWaCmvBFsRYOR.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/iua4CnJ_eFwGaU2Spa5dK.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/3FSBPxWi8CDRDAlCajsIb.webp"
                 },
                 "animation": []
               },
@@ -18036,7 +17555,7 @@
               "clickLink": "https://www.telegram.hr/super1/life/novi-filmovi-koji-izlaze-u-2026-godini/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 503,
+              "z": 498,
               "__v": 0
             }, {
               "_id": "695e4e9d4b0783ff3052699c",
@@ -18068,11 +17587,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 12.67,
-                "y": 5171.15,
+                "x": 13.67,
+                "y": 7697.15,
                 "w": 296.6,
                 "h": 80,
-                "z": 509,
+                "z": 504,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -18137,7 +17656,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 504,
+              "z": 499,
               "__v": 0
             }, {
               "_id": "695e4e9ebc954c114e0cef79",
@@ -18224,11 +17743,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 11,
-                "y": 4970.33,
+                "x": 12,
+                "y": 7496.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 508,
+                "z": 503,
                 "cropW": 2605.600083272614,
                 "cropH": 1680,
                 "cropX": 29.199958363692986,
@@ -18248,12 +17767,12 @@
                 "originalH": 1680,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/e_SD-dzIlWDRN0rHAPWaS.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/WwJWMTvu5v_CbBaNv_IIm.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-1307c4da-7fb2-4b46-a721-9339399f89f9.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/aLkGc3WuBXMmVz_v1X05l.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/vea3wIBA0a3DdHxIy0NKx.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/aLkGc3WuBXMmVz_v1X05l.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/e_SD-dzIlWDRN0rHAPWaS.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Sg8I7xC3SxkEBph_GZzph.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/u4ifJYbsO8u-7NJOnWhny.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Sg8I7xC3SxkEBph_GZzph.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/WwJWMTvu5v_CbBaNv_IIm.jpg"
                 }
               },
               "hidden": true,
@@ -18264,7 +17783,7 @@
               "clickLink": "https://www.telegram.hr/super1/life/najpopularnije-destinacije-u-2026-godini/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 505,
+              "z": 500,
               "__v": 0
             }, {
               "_id": "695e4ed6d462a7e192715a3d",
@@ -18292,8 +17811,8 @@
                 "value": 339
               }],
               "viewport_phone_portrait": {
-                "x": -4.48,
-                "y": 3912.75,
+                "x": -3.48,
+                "y": 6438.75,
                 "w": 333.56,
                 "h": 1369.03,
                 "z": 388,
@@ -18305,7 +17824,7 @@
                 }],
                 "borders": 0
               },
-              "z": 506,
+              "z": 501,
               "__v": 0
             }, {
               "_id": "695e4f3fbc954c114e0d1d2e",
@@ -18322,19 +17841,19 @@
               "blurHash": "UED9kzIA?bIU~VD%-:D*M|M{-;IoM|bIxuxa",
               "name": "",
               "viewport_phone_portrait": {
-                "x": 13,
-                "y": 3927,
+                "x": 14,
+                "y": 6453,
                 "w": 72,
                 "h": 76,
-                "z": 510,
+                "z": 505,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/yPbKMzecwqOwl7bQkk6ez.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/P3yQdIiGUbCq8Ihi_e7mU.webp",
                   "url": "img/683d850bd2094940857eb894/6034839/image-5dc773b1-c397-41ed-81c7-02d395d66b41.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/9xAeTpVwAPYtbuBOBljvb.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/xjocerS2M8iFAA3Uc5fhT.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/9xAeTpVwAPYtbuBOBljvb.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/yPbKMzecwqOwl7bQkk6ez.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/XetkOzuzA-Mo9uDAGALj_.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/uiALAH4fUc_z6pxxDOykG.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/XetkOzuzA-Mo9uDAGALj_.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/P3yQdIiGUbCq8Ihi_e7mU.webp"
                 },
                 "cropW": 748,
                 "cropH": 790,
@@ -18348,7 +17867,7 @@
                 "hidden": false
               },
               "hidden": true,
-              "z": 507,
+              "z": 502,
               "__v": 0
             }, {
               "_id": "695e4f3fb4ac7ff423828fd6",
@@ -18370,11 +17889,11 @@
                 "value": 348
               }],
               "viewport_phone_portrait": {
-                "x": 12,
-                "y": 3927,
+                "x": 13,
+                "y": 6453,
                 "w": 73,
                 "h": 74,
-                "z": 511,
+                "z": 506,
                 "cropH": 786,
                 "cropW": 775,
                 "cropX": 12,
@@ -18391,16 +17910,16 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/YiGlbmjFMe4ncABlS2jux.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/krI7hxeDzY6mjK-D04K3S.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-9ca04d5c-acc4-4be7-a67c-96a7b5218ac4.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/uR-w_7OPvkQKN-blz6E1W.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/mLWXfLqfj86lpwzTE_5JU.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/uR-w_7OPvkQKN-blz6E1W.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/YiGlbmjFMe4ncABlS2jux.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Z4NMtMDa1SXadRFuwYc3c.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/ryLjYyO0nZAftgvL5S-WR.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Z4NMtMDa1SXadRFuwYc3c.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/krI7hxeDzY6mjK-D04K3S.webp"
                 },
                 "scale": 0.09418
               },
-              "z": 508,
+              "z": 503,
               "__v": 0
             }, {
               "_id": "695e4f4052bbad147a5b1f07",
@@ -18421,11 +17940,11 @@
                 "value": 349
               }],
               "viewport_phone_portrait": {
-                "x": 15,
-                "y": 3927,
+                "x": 16,
+                "y": 6453,
                 "w": 73,
                 "h": 74,
-                "z": 512,
+                "z": 507,
                 "cropW": 775,
                 "cropH": 786,
                 "cropX": 12,
@@ -18442,12 +17961,12 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/KwzN0V5wiXEPsOf82ofSR.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/qS4qEw_AdPbmpNxblFVuS.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-64c85e2f-17b6-4abd-b084-ba27cc18fe43.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/x14AEv4S5K1_CtmAwTz_6.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/FAovqVr7Gyfe0CAojcMOI.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/x14AEv4S5K1_CtmAwTz_6.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/KwzN0V5wiXEPsOf82ofSR.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/f15jL5ihjUHnifXZ9Jjsn.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/knbhkz0O57VxkcuMM-Pxc.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/f15jL5ihjUHnifXZ9Jjsn.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/qS4qEw_AdPbmpNxblFVuS.webp"
                 },
                 "scale": 0.09418,
                 "animation": [{
@@ -18467,7 +17986,7 @@
                   "trigger": []
                 }]
               },
-              "z": 509,
+              "z": 504,
               "__v": 0
             }, {
               "_id": "695e4f41d12897610af5ffc2",
@@ -18488,11 +18007,11 @@
                 "value": 353
               }],
               "viewport_phone_portrait": {
-                "x": 23,
-                "y": 3927,
+                "x": 24,
+                "y": 6453,
                 "w": 73,
                 "h": 74,
-                "z": 516,
+                "z": 511,
                 "cropW": 775,
                 "cropH": 786,
                 "cropX": 12,
@@ -18509,12 +18028,12 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/LXqUIJ3J8MV8BCl-arluL.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/hKfX8baKWXtEVvL_AoPuY.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-2b728d45-8b49-42af-acae-308a9014276b.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/PmpgeLp-fY-Olnfpr5Tth.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/6kHdl7_ZjHNGrMXgEL-mn.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/PmpgeLp-fY-Olnfpr5Tth.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/LXqUIJ3J8MV8BCl-arluL.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/W4MhXMVVg8TrZlAPL58Pv.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/fXXDrVP3CAkHMuOuVr9SU.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/W4MhXMVVg8TrZlAPL58Pv.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/hKfX8baKWXtEVvL_AoPuY.webp"
                 },
                 "scale": 0.09418,
                 "animation": [{
@@ -18534,7 +18053,7 @@
                   "trigger": []
                 }]
               },
-              "z": 513,
+              "z": 508,
               "__v": 0
             }, {
               "_id": "695e4f421d6e61986ede8ea8",
@@ -18555,11 +18074,11 @@
                 "value": 355
               }],
               "viewport_phone_portrait": {
-                "x": 30,
-                "y": 3927,
+                "x": 31,
+                "y": 6453,
                 "w": 73,
                 "h": 74,
-                "z": 518,
+                "z": 513,
                 "cropW": 775,
                 "cropH": 786,
                 "cropX": 12,
@@ -18576,12 +18095,12 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/TPtrJpiDKQcUAwuJIoc7u.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/hrH0bKcWZE9HZmu0B1-2H.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-a124f0b3-4a8e-4cf6-bf14-43adc21e7fdf.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/b7a5J5683pgc-YpYI2LUj.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/nyuGSgDg8yygj3-tQ0dmW.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/b7a5J5683pgc-YpYI2LUj.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/TPtrJpiDKQcUAwuJIoc7u.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/UO81trYq8P2EtX3WMzVoG.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/cG9V9AhalNI0cco-Q1ShQ.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/UO81trYq8P2EtX3WMzVoG.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/hrH0bKcWZE9HZmu0B1-2H.webp"
                 },
                 "scale": 0.09418,
                 "animation": [{
@@ -18601,7 +18120,7 @@
                   "trigger": []
                 }]
               },
-              "z": 515,
+              "z": 510,
               "__v": 0
             }, {
               "_id": "695e542c3017e8eb36f31541",
@@ -18633,11 +18152,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 14.67,
-                "y": 5703.15,
+                "x": 15.67,
+                "y": 8229.15,
                 "w": 296.6,
                 "h": 80,
-                "z": 523,
+                "z": 518,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -18699,7 +18218,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 521,
+              "z": 516,
               "__v": 0
             }, {
               "_id": "695e542c3e9ee3dacd3595d8",
@@ -18772,11 +18291,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 12,
-                "y": 5502.33,
+                "x": 13,
+                "y": 8028.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 522,
+                "z": 517,
                 "cropW": 1080,
                 "cropH": 696,
                 "cropX": 0,
@@ -18797,12 +18316,12 @@
                 "originalH": 1350,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/GHK93W4tg51uEevXBpmcZ.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Po4Uuzw1orgbNfZDthnKO.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-314a25ac-e9dc-43db-9609-25a6ae12dd4e.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/OJDlrgyQoLyZVQEhvB9tK.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/rJEXNXCQhoXNgG49yoj1Q.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/OJDlrgyQoLyZVQEhvB9tK.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/GHK93W4tg51uEevXBpmcZ.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/WUts1EjpiRzvbrSV0ybsn.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/F-aWhHaxCFMYDz4OsMsoj.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/WUts1EjpiRzvbrSV0ybsn.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Po4Uuzw1orgbNfZDthnKO.jpg"
                 }
               },
               "hidden": true,
@@ -18812,7 +18331,7 @@
               }],
               "clickLink": "https://www.telegram.hr/super1/beauty/pet-beauty-gresaka-zimi/",
               "clickTarget": "_blank",
-              "z": 522,
+              "z": 517,
               "__v": 0
             }, {
               "_id": "695e542cef10b0bcffd7dbdc",
@@ -18827,11 +18346,11 @@
               "name": "",
               "modifiers": [],
               "viewport_phone_portrait": {
-                "x": 340.69,
-                "y": 5424.44,
+                "x": 341.69,
+                "y": 7950.44,
                 "w": 50,
                 "h": 81.39,
-                "z": 524,
+                "z": 519,
                 "cropH": 2377,
                 "cropW": 1460.2531023467257,
                 "cropX": 109.87344882663717,
@@ -18884,16 +18403,16 @@
                 "pic_opacity": 1,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/KWCWiX4Mm6Pve6N1Fo7nt.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/wjOogy9m88eDa-M4iGvzb.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-28ff39bf-0c9c-4257-b0ab-19697e09d32f.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/4Oirt3QeJ9EQ1KD9FhZ2O.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/OeW9RpvuBCYBcHXmgnDvZ.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/4Oirt3QeJ9EQ1KD9FhZ2O.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/KWCWiX4Mm6Pve6N1Fo7nt.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/6CO6tFTLPzTbxu3QCO4cN.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/gVHvMgwCauEz_A_F2AF4k.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/6CO6tFTLPzTbxu3QCO4cN.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/wjOogy9m88eDa-M4iGvzb.jpg"
                 }
               },
               "hidden": true,
-              "z": 523,
+              "z": 518,
               "__v": 0
             }, {
               "_id": "695e542dadf681505f5225f5",
@@ -18920,11 +18439,11 @@
               "text": "",
               "originId": "66789dbdccf42b0014051626",
               "viewport_phone_portrait": {
-                "x": 11.93,
-                "y": 5371.05,
+                "x": 12.93,
+                "y": 7897.05,
                 "w": 371.8,
                 "h": 45,
-                "z": 521,
+                "z": 516,
                 "sticked": "",
                 "blocksMeta": [{
                   "key": "fim0o",
@@ -18973,7 +18492,7 @@
                 "value": 368
               }],
               "hidden": true,
-              "z": 524,
+              "z": 519,
               "__v": 0
             }, {
               "_id": "695e542e54c4151473639c6a",
@@ -19005,11 +18524,11 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 84.2,
-                "y": 5389.91,
+                "x": 85.2,
+                "y": 7915.91,
                 "w": 298.75,
                 "h": 40,
-                "z": 519,
+                "z": 514,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -19060,7 +18579,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 525,
+              "z": 520,
               "__v": 0
             }, {
               "_id": "695e542e4b0783ff3054dbe4",
@@ -19092,11 +18611,11 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 129.2,
-                "y": 5412.91,
+                "x": 130.2,
+                "y": 7938.91,
                 "w": 307.75,
                 "h": 33,
-                "z": 520,
+                "z": 515,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -19147,7 +18666,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 526,
+              "z": 521,
               "__v": 0
             }, {
               "_id": "695e542f9004b288155b0bc5",
@@ -19179,11 +18698,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 13.67,
-                "y": 5994.15,
+                "x": 14.67,
+                "y": 8520.15,
                 "w": 296.6,
                 "h": 60,
-                "z": 526,
+                "z": 521,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -19245,7 +18764,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 527,
+              "z": 522,
               "__v": 0
             }, {
               "_id": "695e542f323af47d2ab0098a",
@@ -19318,11 +18837,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 12,
-                "y": 5793.33,
+                "x": 13,
+                "y": 8319.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 525,
+                "z": 520,
                 "cropW": 1440,
                 "cropH": 928.4617449664429,
                 "cropX": 0,
@@ -19343,12 +18862,12 @@
                 "animation": [],
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/p4wUr8b6hB9qAzXYXpbuD.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/XGUhrP6UBkdyHY2o9ZsgR.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-4336e2fe-432e-4d7a-a12b-17dd07b4f5d5.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/AvInPsaH5wTrw9970DJSs.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/qoMNr-jzfJHU5av3LdWwX.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/AvInPsaH5wTrw9970DJSs.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/p4wUr8b6hB9qAzXYXpbuD.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/hdJGgIza4OLXcMeL5izcQ.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/fCt1xhgZqVa_nkUYRqQzq.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/hdJGgIza4OLXcMeL5izcQ.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/XGUhrP6UBkdyHY2o9ZsgR.jpg"
                 }
               },
               "hidden": true,
@@ -19359,7 +18878,7 @@
               "clickLink": "https://www.telegram.hr/super1/design/ogledala-starinskog-izgleda-u-trenu-daju-karakter-svakom-interijeru-imamo-primjere-i-mali-shopping-vodic/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 528,
+              "z": 523,
               "__v": 0
             }, {
               "_id": "695e54306f5630fc84b303d8",
@@ -19391,11 +18910,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 14.67,
-                "y": 6271.15,
+                "x": 15.67,
+                "y": 8797.15,
                 "w": 296.6,
                 "h": 80,
-                "z": 528,
+                "z": 523,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -19457,7 +18976,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 529,
+              "z": 524,
               "__v": 0
             }, {
               "_id": "695e5430ef10b0bcffd7dc02",
@@ -19530,11 +19049,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 13,
-                "y": 6071,
+                "x": 14,
+                "y": 8597,
                 "w": 298,
                 "h": 192,
-                "z": 527,
+                "z": 522,
                 "cropW": 1349,
                 "cropH": 869,
                 "cropX": 0,
@@ -19555,12 +19074,12 @@
                 "pic_opacity": 1,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/vT0sefirbHTkTbfBT-HeJ.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/4F3ogfbrlTylsc8eAv--F.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-819515be-95e9-4f61-b4a6-3034616357a1.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/H-Cd_EUxpJxQrLkRTxmS7.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/s8Ovchy4st8R3_VWP3yOt.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/H-Cd_EUxpJxQrLkRTxmS7.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/vT0sefirbHTkTbfBT-HeJ.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/eTWcPCd-Qlfjd2qyTRyFT.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/I_PVL8kkvu8e_I2BRG14B.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/eTWcPCd-Qlfjd2qyTRyFT.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/4F3ogfbrlTylsc8eAv--F.jpg"
                 },
                 "animation": []
               },
@@ -19572,7 +19091,7 @@
               "clickLink": "https://www.telegram.hr/super1/design/cluttercore-stil-uredenja-interijera/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 530,
+              "z": 525,
               "__v": 0
             }, {
               "_id": "695e54312441772d43bc514d",
@@ -19604,11 +19123,11 @@
               "originId": "66789dbdccf42b0014051613",
               "animation": [],
               "viewport_phone_portrait": {
-                "x": 14.67,
-                "y": 6564.15,
+                "x": 15.67,
+                "y": 9090.15,
                 "w": 296.6,
                 "h": 80,
-                "z": 530,
+                "z": 525,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -19670,7 +19189,7 @@
                 "duration": 0.5
               },
               "isShadowEnabled": true,
-              "z": 531,
+              "z": 526,
               "__v": 0
             }, {
               "_id": "695e54314b0783ff3054dbf0",
@@ -19743,11 +19262,11 @@
               }],
               "name": "slika1",
               "viewport_phone_portrait": {
-                "x": 12,
-                "y": 6363.33,
+                "x": 13,
+                "y": 8889.33,
                 "w": 298,
                 "h": 192.14,
-                "z": 529,
+                "z": 524,
                 "cropW": 800,
                 "cropH": 515.8120805369127,
                 "cropX": 0,
@@ -19767,12 +19286,12 @@
                 "originalH": 800,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/56hsfkZjLw8b0iTUCeJoN.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/uN-YuGjcU4Z-kVGSKFBoT.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-60df6d81-548d-4b1a-847b-9fec8f537afa.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/y6VbIRCLQ4cCis_aPGFq6.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/uAFDp6TgkDZTReFYY2EsN.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/y6VbIRCLQ4cCis_aPGFq6.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/56hsfkZjLw8b0iTUCeJoN.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/20IsURoYe3GrIIN1onQFX.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/ph7yd01iL5piiEuF9Ftup.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/20IsURoYe3GrIIN1onQFX.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/uN-YuGjcU4Z-kVGSKFBoT.webp"
                 },
                 "animation": []
               },
@@ -19784,7 +19303,7 @@
               "clickLink": "https://www.telegram.hr/super1/design/5-dekorativnih-predmeta-koje-morate-imati-u-svom-domu/",
               "clickTarget": "_blank",
               "clickPage": null,
-              "z": 532,
+              "z": 527,
               "__v": 0
             }, {
               "_id": "695e54b0bc7f31aa1c91357e",
@@ -19821,11 +19340,11 @@
                 "value": 352
               }],
               "viewport_phone_portrait": {
-                "x": 12,
-                "y": 5296,
+                "x": 13,
+                "y": 7822,
                 "w": 74,
                 "h": 72,
-                "z": 542,
+                "z": 537,
                 "cropW": 800,
                 "cropH": 778,
                 "cropX": 0,
@@ -19842,16 +19361,16 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/K9icFwW9zEkbtOl72Qx5A.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/IxcTJlur4iWfOY80-hB7U.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-c81472ba-0331-4439-b453-8ab2c045d03e.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/eAlhGeMO26i3CzTUoE2Pw.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/0DHLbzBNVYTjWIVSis7ay.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/eAlhGeMO26i3CzTUoE2Pw.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/K9icFwW9zEkbtOl72Qx5A.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/VfXEZ1XaR8dos2tuMBbTd.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/lJPqzAPr1KrgXwbtembXx.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/VfXEZ1XaR8dos2tuMBbTd.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/IxcTJlur4iWfOY80-hB7U.webp"
                 },
                 "scale": 0.0925
               },
-              "z": 539,
+              "z": 534,
               "__v": 0
             }, {
               "_id": "695e54b01e18984e9547a245",
@@ -19872,11 +19391,11 @@
                 "value": 353
               }],
               "viewport_phone_portrait": {
-                "x": 17,
-                "y": 5296,
+                "x": 18,
+                "y": 7822,
                 "w": 74,
                 "h": 72,
-                "z": 543,
+                "z": 538,
                 "cropW": 800,
                 "cropH": 778,
                 "cropX": 0,
@@ -19893,12 +19412,12 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/UW-VDSNVF5Ct4U4JKBaWA.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/KLy4rqDhwd6ofx2N9rRMb.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-503e460b-94e9-4e35-bb91-20cca6d96b55.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/mXqgyRzdZyBQLO6vIGp3T.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/AMmmDP4ursB1d_xW3zs0o.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/mXqgyRzdZyBQLO6vIGp3T.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/UW-VDSNVF5Ct4U4JKBaWA.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/RHrLxbWWJuDL84km_zHkA.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/7aPNeRRg4jrhp9AU6cPVn.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/RHrLxbWWJuDL84km_zHkA.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/KLy4rqDhwd6ofx2N9rRMb.webp"
                 },
                 "scale": 0.0925,
                 "animation": [{
@@ -19918,7 +19437,7 @@
                   "trigger": []
                 }]
               },
-              "z": 540,
+              "z": 535,
               "__v": 0
             }, {
               "_id": "695e54b0323af47d2ab01f77",
@@ -19939,11 +19458,11 @@
                 "value": 354
               }],
               "viewport_phone_portrait": {
-                "x": 25,
-                "y": 5296,
+                "x": 26,
+                "y": 7822,
                 "w": 74,
                 "h": 72,
-                "z": 544,
+                "z": 539,
                 "cropW": 800,
                 "cropH": 778,
                 "cropX": 0,
@@ -19960,12 +19479,12 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Zel33MYSc8ITvcfzwmBXP.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/XnaLdHhPANvpdcqXFCh4o.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-a2afb4bf-e523-4c50-a9a4-7971c20295a4.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/Sd_NzAbjkTc9YjzhEZtaT.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/pWvLeUFBH1CyyGRt7STCS.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/Sd_NzAbjkTc9YjzhEZtaT.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Zel33MYSc8ITvcfzwmBXP.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/BoLX_dV32GVnCJjjMrjhC.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/QMArgbXAlh2YGLuLV7LQi.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/BoLX_dV32GVnCJjjMrjhC.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/XnaLdHhPANvpdcqXFCh4o.webp"
                 },
                 "scale": 0.0925,
                 "animation": [{
@@ -19985,7 +19504,7 @@
                   "trigger": []
                 }]
               },
-              "z": 541,
+              "z": 536,
               "__v": 0
             }, {
               "_id": "695e54b154c415147363c70a",
@@ -20006,11 +19525,11 @@
                 "value": 355
               }],
               "viewport_phone_portrait": {
-                "x": 35,
-                "y": 5296,
+                "x": 36,
+                "y": 7822,
                 "w": 74,
                 "h": 72,
-                "z": 545,
+                "z": 540,
                 "cropW": 800,
                 "cropH": 778,
                 "cropX": 0,
@@ -20027,12 +19546,12 @@
                 }],
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/Sk8xeiIrJxknemAf5wN1H.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/sEObgjPeVthfmr6uxdhww.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-83c8e5f6-e304-44db-85c8-bcd4e490214e.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/iWILYJLvwBvUjYSSsGd6j.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/9TjIrGyugZnLIQX1gyYRq.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/iWILYJLvwBvUjYSSsGd6j.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/Sk8xeiIrJxknemAf5wN1H.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ODX-OLTFMnVAfux47wk5w.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/UKNOckSpnfjSEhxQQK3-I.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ODX-OLTFMnVAfux47wk5w.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/sEObgjPeVthfmr6uxdhww.webp"
                 },
                 "scale": 0.0925,
                 "animation": [{
@@ -20052,7 +19571,7 @@
                   "trigger": []
                 }]
               },
-              "z": 542,
+              "z": 537,
               "__v": 0
             }, {
               "_id": "695e54b26bdf4341e1148c68",
@@ -20101,7 +19620,7 @@
                 "y": 5410.33,
                 "w": 94,
                 "h": 153.6,
-                "z": 548,
+                "z": 543,
                 "cropH": 1170,
                 "cropW": 716.015625,
                 "cropX": 421.9921875,
@@ -20113,18 +19632,18 @@
                 "angle": -90,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/zWLiPyzJX6JRiPp9DEQ8w.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/mnSdbjE-VF0KHifqhaMVt.jpg",
                   "url": "img/683d850bd2094940857eb894/6043837/image-c2d23852-2073-48c9-b813-c270e9185a27.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/l8Vhpx8WAWUFNYWGCf0BF.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/22l7kxm9drc23Dct1kyF5.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/l8Vhpx8WAWUFNYWGCf0BF.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/zWLiPyzJX6JRiPp9DEQ8w.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/0n5uVl9f7xVa0N7321www.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Tu6ZmEBA08uTjnuRFbhZ5.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/0n5uVl9f7xVa0N7321www.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/mnSdbjE-VF0KHifqhaMVt.jpg"
                 },
                 "scale": 0.13128205128205128,
                 "hidden": false
               },
               "hidden": true,
-              "z": 545,
+              "z": 540,
               "__v": 0
             }, {
               "_id": "695e564b9004b288155bad3f",
@@ -20156,11 +19675,11 @@
               "text": "",
               "originId": "66789dbdccf42b0014051641",
               "viewport_phone_portrait": {
-                "x": 117.2,
-                "y": 5432.91,
+                "x": 118.2,
+                "y": 7958.91,
                 "w": 307.75,
                 "h": 33,
-                "z": 557,
+                "z": 552,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -20211,7 +19730,7 @@
                 "value": 370
               }],
               "hidden": true,
-              "z": 554,
+              "z": 549,
               "__v": 0
             }, {
               "_id": "695e5eed6bdf4341e1195c30",
@@ -20252,7 +19771,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 555,
+              "z": 550,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -20267,7 +19786,7 @@
               "bgColor": "8CA7FF00",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 558
+                "z": 553
               },
               "_hidden": null,
               "_z": null,
@@ -20328,7 +19847,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 556,
+              "z": 551,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -20342,7 +19861,7 @@
               "bgColor": "8CA7FF00",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 559
+                "z": 554
               },
               "_hidden": null,
               "_z": null,
@@ -20369,8 +19888,8 @@
               "wid": "695e6240c036861277a786a0",
               "mag_num_id": 6043837,
               "type": "shape",
-              "x": 20.46,
-              "y": 4030,
+              "x": 10.46,
+              "y": 4666,
               "w": 985.07,
               "h": 24,
               "tp": "line",
@@ -20388,13 +19907,13 @@
               "sides": 3,
               "weight": 0.7,
               "stroke": "solid",
-              "z": 558,
+              "z": 553,
               "name": "",
               "originId": "666a1366dda3650051a38354",
               "sticked": "",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 562
+                "z": 557
               },
               "__v": 0
             }, {
@@ -20402,8 +19921,8 @@
               "wid": "695e62411d6e61986ee7c190",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 849.33,
-              "y": 4054,
+              "x": 839.33,
+              "y": 4690,
               "w": 154.78,
               "h": 60,
               "version": 3,
@@ -20453,7 +19972,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 559,
+              "z": 554,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -20476,7 +19995,7 @@
               "originId": "666865d1565c6a002ebb4ded",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 561
+                "z": 556
               },
               "__v": 0
             }, {
@@ -20484,8 +20003,8 @@
               "wid": "695e62416f5630fc84bb86b6",
               "mag_num_id": 6043837,
               "type": "text",
-              "x": 21,
-              "y": 4052,
+              "x": 11,
+              "y": 4688,
               "w": 126,
               "h": 21,
               "version": 3,
@@ -20518,7 +20037,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 560,
+              "z": 555,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -20532,7 +20051,7 @@
               "originId": "666865d1565c6a002ebb4df3",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 560
+                "z": 555
               },
               "__v": 0
             }, {
@@ -20540,8 +20059,8 @@
               "wid": "695e6371c036861277a89873",
               "mag_num_id": 6043837,
               "type": "shape",
-              "x": -4.67,
-              "y": 4042,
+              "x": -14.67,
+              "y": 4678,
               "w": 1073.33,
               "h": 90,
               "tp": "rectangle",
@@ -20559,11 +20078,11 @@
               "sides": 3,
               "weight": 1,
               "stroke": "solid",
-              "z": 557,
+              "z": 552,
               "name": "",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 563
+                "z": 558
               },
               "__v": 0
             }, {
@@ -20571,15 +20090,15 @@
               "wid": "695e63bf54c41514736bbea1",
               "mag_num_id": 6043837,
               "type": "picture",
-              "x": 415,
-              "y": 4052,
+              "x": 405,
+              "y": 4688,
               "w": 193,
               "h": 68.33,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 561,
+              "z": 556,
               "cropH": 142,
               "cropW": 402,
               "cropX": 0,
@@ -20603,7 +20122,7 @@
               "blurHash": "UkOWvn?bIU-;~qM{t7fQ00M{xuM{WBxuM{t7",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 564
+                "z": 559
               },
               "name": "",
               "__v": 0
@@ -20636,7 +20155,7 @@
                 "y": 726.85,
                 "w": 187.97,
                 "h": 54,
-                "z": 565,
+                "z": 560,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -20667,7 +20186,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 562,
+              "z": 557,
               "__v": 0
             }, {
               "_id": "695e64261d6e61986ee92547",
@@ -20698,7 +20217,7 @@
                 "y": 901.85,
                 "w": 279.97,
                 "h": 54,
-                "z": 566,
+                "z": 561,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -20729,7 +20248,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 563,
+              "z": 558,
               "__v": 0
             }, {
               "_id": "695e64263017e8eb36fb71f2",
@@ -20760,7 +20279,7 @@
                 "y": 842.85,
                 "w": 187.97,
                 "h": 54,
-                "z": 567,
+                "z": 562,
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
@@ -20791,7 +20310,7 @@
               },
               "_z": null,
               "hidden": true,
-              "z": 564,
+              "z": 559,
               "__v": 0
             }, {
               "_id": "695e67d93e9ee3dacd406d2d",
@@ -20819,12 +20338,12 @@
               "originalW": 3024,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/3CGlvWM5_PuoZBouO3sQR.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Qz8JlW5QAn4oVaJ7o-XSW.jpg",
                 "url": "img/683d850bd2094940857eb894/6034839/image-c03e3d91-1999-4d78-ab61-6e725861b86d.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6034839/NAn_oKmDdl3jZLWI0qPIO.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6034839/Ug1bBvxZ3CvAgG6xs86OU.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6034839/NAn_oKmDdl3jZLWI0qPIO.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/3CGlvWM5_PuoZBouO3sQR.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/3x-L2w5ZAtl32lpgNs-K2.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/kUHV5o15-ZHWqdvWaJ6pY.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/3x-L2w5ZAtl32lpgNs-K2.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Qz8JlW5QAn4oVaJ7o-XSW.jpg"
               },
               "scale": 0.25463,
               "angle": 270,
@@ -20856,15 +20375,15 @@
               }],
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 568,
+                "z": 563,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/3CGlvWM5_PuoZBouO3sQR.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Qz8JlW5QAn4oVaJ7o-XSW.jpg",
                   "url": "img/683d850bd2094940857eb894/6034839/image-c03e3d91-1999-4d78-ab61-6e725861b86d.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/NAn_oKmDdl3jZLWI0qPIO.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/Ug1bBvxZ3CvAgG6xs86OU.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6034839/NAn_oKmDdl3jZLWI0qPIO.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/3CGlvWM5_PuoZBouO3sQR.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/3x-L2w5ZAtl32lpgNs-K2.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/kUHV5o15-ZHWqdvWaJ6pY.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/3x-L2w5ZAtl32lpgNs-K2.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Qz8JlW5QAn4oVaJ7o-XSW.jpg"
                 }
               },
               "opacity": 0.9,
@@ -20891,15 +20410,15 @@
                 "borders": 0,
                 "weight": 1,
                 "bg_color": "2200FF",
-                "x": -1,
-                "y": 6664,
+                "x": 0,
+                "y": 9190,
                 "w": 322,
                 "h": 141,
-                "z": 570,
+                "z": 565,
                 "hidden": false
               },
               "name": "",
-              "z": 566,
+              "z": 561,
               "__v": 0
             }, {
               "_id": "695e691fbc954c114e18c5ea",
@@ -20938,11 +20457,11 @@
                   }
                 }],
                 "entityMap": {},
-                "x": 13,
-                "y": 6761,
+                "x": 14,
+                "y": 9287,
                 "w": 241,
                 "h": 16,
-                "z": 572,
+                "z": 567,
                 "hidden": false,
                 "blocksMeta": [{
                   "key": "cce5f",
@@ -20956,7 +20475,7 @@
               },
               "name": "",
               "text": "",
-              "z": 568,
+              "z": 563,
               "__v": 0
             }, {
               "_id": "695e6950a3527914c87dce79",
@@ -20995,11 +20514,11 @@
                   }
                 }],
                 "entityMap": {},
-                "x": 12,
-                "y": 6779,
+                "x": 13,
+                "y": 9305,
                 "w": 241,
                 "h": 16,
-                "z": 574,
+                "z": 569,
                 "hidden": false,
                 "blocksMeta": [{
                   "key": "cce5f",
@@ -21013,7 +20532,7 @@
               },
               "name": "",
               "text": "",
-              "z": 570,
+              "z": 565,
               "__v": 0
             }, {
               "_id": "695e69601d6e61986eebb150",
@@ -21026,11 +20545,11 @@
               },
               "hidden": true,
               "viewport_phone_portrait": {
-                "x": 87,
-                "y": 6681,
+                "x": 88,
+                "y": 9207,
                 "w": 147,
                 "h": 51.85,
-                "z": 575,
+                "z": 570,
                 "hidden": false,
                 "originalW": 402,
                 "originalH": 142,
@@ -21055,7 +20574,7 @@
               },
               "blurHash": "UkOWvn?bIU-;~qM{t7fQ00M{xuM{WBxuM{t7",
               "name": "",
-              "z": 571,
+              "z": 566,
               "__v": 0
             }, {
               "_id": "695f68c91e18984e95b2b944",
@@ -21063,7 +20582,7 @@
               "mag_num_id": 6043837,
               "type": "text",
               "x": 20.67,
-              "y": 3213,
+              "y": 3679.4,
               "w": 231.6,
               "h": 138,
               "version": 3,
@@ -21096,7 +20615,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 572,
+              "z": 567,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -21112,7 +20631,7 @@
               "animation": [],
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 576
+                "z": 571
               },
               "_hidden": [{
                 "pid": "default",
@@ -21131,10 +20650,10 @@
               "mag_num_id": 6043837,
               "type": "picture",
               "x": 20,
-              "y": 3207,
+              "y": 3673.4,
               "w": 232.84,
               "h": 150,
-              "z": 573,
+              "z": 568,
               "cropW": 800,
               "cropH": 515,
               "cropX": 0,
@@ -21150,12 +20669,12 @@
               "version": 2,
               "picture": {
                 "type": "webp",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/VhUuKHa_X5wpAZciAmvDb.webp",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/MVwJIH8HB9uAVhYJa29vn.webp",
                 "url": "img/683d850bd2094940857eb894/6043837/image-ea5c939d-7244-4e33-8d7e-5837c45a2be7.webp",
-                "final2xUrl": "img/683d850bd2094940857eb894/6043837/zXtSqltvUVVZypoCeKqPH.webp",
-                "lqipUrl": "img/683d850bd2094940857eb894/6043837/xjJnI4uI4E68Yqf6lO2vH.webp",
-                "finalUrl": "img/683d850bd2094940857eb894/6043837/zXtSqltvUVVZypoCeKqPH.webp",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/VhUuKHa_X5wpAZciAmvDb.webp"
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/JwJAjwdH9aAqIiqgg1jgm.webp",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/_SCdat7jSTy3bbw1-gg-M.webp",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/JwJAjwdH9aAqIiqgg1jgm.webp",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/MVwJIH8HB9uAVhYJa29vn.webp"
               },
               "originId": "66789dbdccf42b0014051616",
               "animation": [{
@@ -21236,15 +20755,15 @@
               "name": "slika1",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 577,
+                "z": 572,
                 "picture": {
                   "type": "webp",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/VhUuKHa_X5wpAZciAmvDb.webp",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/MVwJIH8HB9uAVhYJa29vn.webp",
                   "url": "img/683d850bd2094940857eb894/6043837/image-ea5c939d-7244-4e33-8d7e-5837c45a2be7.webp",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/zXtSqltvUVVZypoCeKqPH.webp",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/xjJnI4uI4E68Yqf6lO2vH.webp",
-                  "finalUrl": "img/683d850bd2094940857eb894/6043837/zXtSqltvUVVZypoCeKqPH.webp",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/VhUuKHa_X5wpAZciAmvDb.webp"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/JwJAjwdH9aAqIiqgg1jgm.webp",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/_SCdat7jSTy3bbw1-gg-M.webp",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/JwJAjwdH9aAqIiqgg1jgm.webp",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/MVwJIH8HB9uAVhYJa29vn.webp"
                 }
               },
               "hidden": false,
@@ -21262,25 +20781,6466 @@
               "anchor_link_pos": null,
               "clickPage": null,
               "__v": 0
+            }, {
+              "_id": "6964b0ca0d9804b38525fa86",
+              "wid": "6964b0ca0d9804b38525fa86",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 271.67,
+              "y": 1926.4,
+              "w": 231.6,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Zimski modni dodatak koji mijenja sve? Evo zašto će trokutasti šal biti moja prva investicija u 2026.",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 101,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 101,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_self",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "99k4o"
+                  },
+                  "mutability": "MUTABLE"
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 579,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 12.67,
+                "y": 3004.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 581,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 101,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_self",
+                      "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                      "id": "99k4o"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964b0cbb3d0c8d98c9d987f",
+              "wid": "6964b0cbb3d0c8d98c9d987f",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 268,
+              "y": 1927.4,
+              "w": 235.84,
+              "h": 149.6,
+              "z": 580,
+              "cropW": 2641,
+              "cropH": 1675,
+              "cropX": 0,
+              "cropY": 4,
+              "originalCropW": 2641,
+              "originalCropH": 1675,
+              "originalCropX": 0,
+              "originalCropY": 4,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08929,
+              "blurHash": "U7BpnU599E~pD4OZX9V?~AE2WCs8?GIoR+%L",
+              "version": 2,
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/k2OXwfPvDj-pu3sVrltYd.jpg",
+                "url": "img/683d850bd2094940857eb894/6034839/image-d196e288-4443-4aac-a6f6-fb90fbdddcfd.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/P2c3P04Hoc0BfGZBiIOCl.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/mIAH2M5SarPr1J2gW7gmy.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/P2c3P04Hoc0BfGZBiIOCl.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/k2OXwfPvDj-pu3sVrltYd.jpg"
+              },
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "de202489-7adf-4b89-9872-ee19684cfdf8",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 10,
+                "y": 2803.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 580,
+                "cropW": 2606,
+                "cropH": 1680,
+                "cropX": 29,
+                "cropY": 0,
+                "originalCropW": 2607.8240212864744,
+                "originalCropH": 1680,
+                "originalCropX": 28.08798935676282,
+                "originalCropY": 0,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Nuv33MrPoGKOy4JFOWdag.jpg",
+                  "url": "img/683d850bd2094940857eb894/6034839/image-d196e288-4443-4aac-a6f6-fb90fbdddcfd.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Y5yBD-te8625I_q-EXyey.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/cRNfrsaWg3Tdp0OVCK-9b.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Y5yBD-te8625I_q-EXyey.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Nuv33MrPoGKOy4JFOWdag.jpg"
+                },
+                "scale": 0.11437,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "animation": [{
+                  "UUID": "f7c96280-5161-453a-b8ce-f3b42ab75df9",
+                  "type": "scroll",
+                  "steps": [],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }]
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964b0cbfb164aadc7cc0831",
+              "wid": "6964b0cbfb164aadc7cc0831",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 521.67,
+              "y": 1926.4,
+              "w": 231.6,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Dizajnerske torbe su jedna od najboljih investicija na sniženju. Izdvojili smo 20 modela do 300 eura",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 100,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 100,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/dizajnerske-torbe-ispod-300-eura-zimsko-snizenje/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "b1pit"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 581,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "naslo2",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 582
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "isShadowEnabled": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "__v": 0
+            }, {
+              "_id": "6964b0cb92647f0953e85bbe",
+              "wid": "6964b0cb92647f0953e85bbe",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 519,
+              "y": 1927.4,
+              "w": 237,
+              "h": 150,
+              "z": 582,
+              "cropW": 2653,
+              "cropH": 1680,
+              "cropX": 11,
+              "cropY": 0,
+              "originalCropW": 2653,
+              "originalCropH": 1680,
+              "originalCropX": 11,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08929,
+              "blurHash": "UMFFjO00~q9F?aIUt7kCM{WBxubHt7WUt7oJ",
+              "version": 2,
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/xV8p5N7BBZHheGncWYKle.jpg",
+                "url": "img/683d850bd2094940857eb894/6034839/image-e710eb98-a3a0-4dfa-a48e-1d2fe66745d4.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/7Xp1OtkeW5xkwE3lKURte.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/K3gLPR9n9RCNeuqOuZ7xd.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/7Xp1OtkeW5xkwE3lKURte.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/xV8p5N7BBZHheGncWYKle.jpg"
+              },
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "b46688bd-dd9f-4aec-9f26-d9e612002726",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 583,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/xV8p5N7BBZHheGncWYKle.jpg",
+                  "url": "img/683d850bd2094940857eb894/6034839/image-e710eb98-a3a0-4dfa-a48e-1d2fe66745d4.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/7Xp1OtkeW5xkwE3lKURte.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/K3gLPR9n9RCNeuqOuZ7xd.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/7Xp1OtkeW5xkwE3lKURte.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/xV8p5N7BBZHheGncWYKle.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/dizajnerske-torbe-ispod-300-eura-zimsko-snizenje/",
+              "clickTarget": "_self",
+              "__v": 0
+            }, {
+              "_id": "6964b0cbff4ca569db54d8d7",
+              "wid": "6964b0cbff4ca569db54d8d7",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 771.67,
+              "y": 1926.4,
+              "w": 231.6,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "U 2026. ćemo ponovno nositi cipele u jarkim crvenim tonovima, ove krasne modele pronašli smo na sniženju",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 104,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 104,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "60g4q"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 583,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "naslov3",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 584
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964b0cb265815e46869fa1d",
+              "wid": "6964b0cb265815e46869fa1d",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 771,
+              "y": 1928.4,
+              "w": 232.84,
+              "h": 150,
+              "z": 584,
+              "cropW": 2607.8240212864744,
+              "cropH": 1680,
+              "cropX": 28.08798935676282,
+              "cropY": 0,
+              "originalCropW": 2607.8240212864744,
+              "originalCropH": 1680,
+              "originalCropX": 28.08798935676282,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "U9C6DcW=1vt600V[4:WB?]xarEkCJ,R*i_f5",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "439dc9e3-d82c-44f6-8e4c-c8359d465fa5",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 585,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/NMh4PqjTUWx-RU0cEMVts.jpg",
+                  "url": "img/683d850bd2094940857eb894/6034839/image-d696d7e7-d762-4d62-83fc-3bc096dc55f4.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/MuE9s0kEsPwgLBbo-A8yZ.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/RUWf5zL3b6C1a_4oIbbOR.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/MuE9s0kEsPwgLBbo-A8yZ.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/NMh4PqjTUWx-RU0cEMVts.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/NMh4PqjTUWx-RU0cEMVts.jpg",
+                "url": "img/683d850bd2094940857eb894/6034839/image-d696d7e7-d762-4d62-83fc-3bc096dc55f4.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/MuE9s0kEsPwgLBbo-A8yZ.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/RUWf5zL3b6C1a_4oIbbOR.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/MuE9s0kEsPwgLBbo-A8yZ.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/NMh4PqjTUWx-RU0cEMVts.jpg"
+              },
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
+              "clickTarget": "_blank",
+              "__v": 0
+            }, {
+              "_id": "6964b610b3d0c8d98c9fb2fd",
+              "wid": "6964b610b3d0c8d98c9fb2fd",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 21.67,
+              "y": 1758.8,
+              "w": 231.6,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Od Chanela do sportskih brendova, ovo je cool girl top koji ćemo svi poželjeti nositi u 2026.",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 93,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 93,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_self",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "99k4o"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 585,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 587
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964b6109794fadccb009b4c",
+              "wid": "6964b6109794fadccb009b4c",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 20,
+              "y": 1759.8,
+              "w": 233.04,
+              "h": 148.2,
+              "z": 586,
+              "cropW": 2610,
+              "cropH": 1660,
+              "cropX": 0,
+              "cropY": 20,
+              "originalCropW": 2610,
+              "originalCropH": 1660,
+              "originalCropX": 0,
+              "originalCropY": 20,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.0893,
+              "blurHash": "U7DcE#?w5s~B00D*D*8_u6^*~V0g4mD*t7$$",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "ee933ae2-2765-4e6e-afd7-8c2529b7b1b4",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 586,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/IJYJ1FbMnFvpA86FibN4I.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-a3dfd83b-bd21-4d7f-beb4-cc585e9e485d.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/MWw27yGhDofJeoVEKl1nB.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/u6Kk8BQ4A38PqQAv60_M0.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/MWw27yGhDofJeoVEKl1nB.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/IJYJ1FbMnFvpA86FibN4I.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/cool-girl-top-pulover-ili-sportska-majica-s-patentnim-zatvaracem-chanel/",
+              "clickTarget": "_blank",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/IJYJ1FbMnFvpA86FibN4I.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-a3dfd83b-bd21-4d7f-beb4-cc585e9e485d.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/MWw27yGhDofJeoVEKl1nB.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/u6Kk8BQ4A38PqQAv60_M0.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/MWw27yGhDofJeoVEKl1nB.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/IJYJ1FbMnFvpA86FibN4I.jpg"
+              },
+              "anchor_link_pos": null,
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964b97dc5639931f9ba0c82",
+              "wid": "6964b97dc5639931f9ba0c82",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 22.67,
+              "y": 2094.2,
+              "w": 231.6,
+              "h": 66,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Bijele traperice zimi? Definitivno da, a ovako ih sve možete stilizirati",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 72,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 72,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/look/kako-nositi-bijele-traperice-zimi/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "1dq9l"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 587,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "naslov4",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 588
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964b97dac1057b66f6c022e",
+              "wid": "6964b97dac1057b66f6c022e",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 20,
+              "y": 2095.2,
+              "w": 237,
+              "h": 150,
+              "z": 588,
+              "cropW": 2654.4,
+              "cropH": 1680,
+              "cropX": 4.7999999999999545,
+              "cropY": 0,
+              "originalCropW": 2654.4,
+              "originalCropH": 1680,
+              "originalCropX": 4.7999999999999545,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "UEE{qf.84:?w$wIAM{%28_Rixss8%M%NRkWA",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "02d38364-4993-4be5-8339-258a43177d82",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 589,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/NdBiysqCJLTx4AKHYkkpw.jpg",
+                  "url": "img/683d850bd2094940857eb894/6034839/image-d445346e-6ad4-45fb-bd99-aec196ee13f4.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Y1TuxMqi2r8UsEoWRZAg2.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/HLxRdA4w8pmUPtqJcQ1tw.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Y1TuxMqi2r8UsEoWRZAg2.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/NdBiysqCJLTx4AKHYkkpw.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6034839/NdBiysqCJLTx4AKHYkkpw.jpg",
+                "url": "img/683d850bd2094940857eb894/6034839/image-d445346e-6ad4-45fb-bd99-aec196ee13f4.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6034839/Y1TuxMqi2r8UsEoWRZAg2.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6034839/HLxRdA4w8pmUPtqJcQ1tw.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6034839/Y1TuxMqi2r8UsEoWRZAg2.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/NdBiysqCJLTx4AKHYkkpw.jpg"
+              },
+              "clickLink": "https://www.telegram.hr/super1/look/kako-nositi-bijele-traperice-zimi/",
+              "clickTarget": "_blank",
+              "__v": 0
+            }, {
+              "_id": "6964b9a62f08363a3ab03646",
+              "wid": "6964b9a62f08363a3ab03646",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 20.67,
+              "y": 1925.6,
+              "w": 231.6,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Ovo je 5 it komada i trendova koji najavljuju (definitivno prerani) povratak modnih ",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 84,
+                  "key": 0
+                }],
+                "depth": 0
+              }, {
+                "key": "f5mmt",
+                "text": "2010-ih",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 7,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 84,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }, {
+                "key": "f5mmt",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 7,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "60g4q"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 589,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }, {
+                "key": "f5mmt",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "naslov3",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 590
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964b9a6652200746bfe9cd7",
+              "wid": "6964b9a6652200746bfe9cd7",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 20,
+              "y": 1927.6,
+              "w": 232.84,
+              "h": 150,
+              "z": 590,
+              "cropW": 2607.808,
+              "cropH": 1680,
+              "cropX": 28.096000000000004,
+              "cropY": 0,
+              "originalCropW": 2607.808,
+              "originalCropH": 1680,
+              "originalCropX": 28.096000000000004,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "UDC~@:-A000z^*s;M}D$.8IUIAxt~VRP9ZS%",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "25170fcb-7e9f-4e04-bcbf-ac0c8d2f18d3",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 591,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/LeNkOk-SMg38sQkDJ_O4s.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-9da7f5ae-002e-49f3-a591-10d7e0240f48.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/IzieLWwcrpVGHdSzo3PJl.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/4KE2mTWhSX7tiaTbQ3P0u.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/IzieLWwcrpVGHdSzo3PJl.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/LeNkOk-SMg38sQkDJ_O4s.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/look/povratak-modnih-2010-ih-it-komadi/",
+              "clickTarget": "_blank",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/LeNkOk-SMg38sQkDJ_O4s.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-9da7f5ae-002e-49f3-a591-10d7e0240f48.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/IzieLWwcrpVGHdSzo3PJl.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/4KE2mTWhSX7tiaTbQ3P0u.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/IzieLWwcrpVGHdSzo3PJl.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/LeNkOk-SMg38sQkDJ_O4s.jpg"
+              },
+              "__v": 0
+            }, {
+              "_id": "6964baa8652200746bfefd14",
+              "wid": "6964baa8652200746bfefd14",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 772.67,
+              "y": 1758.2,
+              "w": 231.6,
+              "h": 88,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Od high streeta do high enda, pronašli smo super jakne i kapute na zimskom sniženju",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 83,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 83,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE", "FONT_WEIGHT"],
+                  "values": ["normal", "Inter", "E6E6E664", "20", "700"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "60g4q"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 591,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "naslov3",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 592
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964baa89794fadccb028027",
+              "wid": "6964baa89794fadccb028027",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 772,
+              "y": 1760.2,
+              "w": 232.84,
+              "h": 150,
+              "z": 592,
+              "cropW": 2607.808,
+              "cropH": 1680,
+              "cropX": 28.096000000000004,
+              "cropY": 0,
+              "originalCropW": 2607.808,
+              "originalCropH": 1680,
+              "originalCropX": 28.096000000000004,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "U8DcO2-;0gf,~W%M9FM{9aoz$zn$_34n4nD*",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "44c3375f-c3d5-4cbb-9467-627c69ee72cd",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 593,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EJVAlAVNNg3db5kenvnM1.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-6bc1b9d1-7266-4162-a9bc-e41055dc0042.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/j_FWVW0EQStsFzTcMTpdY.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/CJjyuOn7cYSaB-2-I-Hli.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/j_FWVW0EQStsFzTcMTpdY.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EJVAlAVNNg3db5kenvnM1.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/EJVAlAVNNg3db5kenvnM1.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-6bc1b9d1-7266-4162-a9bc-e41055dc0042.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/j_FWVW0EQStsFzTcMTpdY.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/CJjyuOn7cYSaB-2-I-Hli.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/j_FWVW0EQStsFzTcMTpdY.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/EJVAlAVNNg3db5kenvnM1.jpg"
+              },
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/jakne-i-kaputi-zimsko-snizenje-2025-shopping-vodic/",
+              "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964bfd8e6f01cb5d82bcfac",
+              "wid": "6964bfd8e6f01cb5d82bcfac",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 20,
+              "y": 2848.4,
+              "w": 233.07,
+              "h": 88,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "14tmh",
+                "text": "5 najčešćih beauty grešaka koje svi radimo zimi (i kako ih najlakše izbjeći) ",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "14tmh",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 77,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
+                  "values": ["20", "Inter", "400", "normal", "0059FF64"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 593,
+              "blocksMeta": [{
+                "key": "14tmh",
+                "data": {
+                  "lineHeight": 22,
+                  "align": "align-left",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70"
+                }
+              }],
+              "name": "",
+              "text": "",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 594
+              },
+              "__v": 0
+            }, {
+              "_id": "6964bfd818966d34c0972d19",
+              "wid": "6964bfd818966d34c0972d19",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 269,
+              "y": 2847.4,
+              "w": 233.07,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "14tmh",
+                "text": "Prava zima tek stiže, a nova verzija jedne od najpopularnijih krema mogla bi spasiti našu kožu ",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "14tmh",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 95,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
+                  "values": ["20", "Inter", "400", "normal", "0059FF64"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 594,
+              "blocksMeta": [{
+                "key": "14tmh",
+                "data": {
+                  "lineHeight": 22,
+                  "align": "align-left",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70"
+                }
+              }],
+              "name": "",
+              "text": "",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 595
+              },
+              "__v": 0
+            }, {
+              "_id": "6964bfd838fec412ec3838a8",
+              "wid": "6964bfd838fec412ec3838a8",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 521,
+              "y": 2848.4,
+              "w": 233.07,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "14tmh",
+                "text": "Od espresso smeđe do cranberry spritz nijanse, ovih 5 boja kose obilježiti će iduću zimsku sezonu ",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "14tmh",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 98,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
+                  "values": ["20", "Inter", "400", "normal", "0059FF64"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 595,
+              "blocksMeta": [{
+                "key": "14tmh",
+                "data": {
+                  "lineHeight": 22,
+                  "align": "align-left",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70"
+                }
+              }],
+              "name": "",
+              "text": "",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 596
+              },
+              "__v": 0
+            }, {
+              "_id": "6964bfd9bf640b59c2ef8b18",
+              "wid": "6964bfd9bf640b59c2ef8b18",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 771,
+              "y": 2847.4,
+              "w": 233.07,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "14tmh",
+                "text": "Uvijek sam se borila sa suhim rukama tijekom zime, a onda sasvim slučajno otkrila super trik",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "14tmh",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 92,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_SIZE", "FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "COLOR"],
+                  "values": ["20", "Inter", "400", "normal", "0059FF64"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 596,
+              "blocksMeta": [{
+                "key": "14tmh",
+                "data": {
+                  "lineHeight": 22,
+                  "align": "align-left",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70"
+                }
+              }],
+              "name": "",
+              "text": "",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 597
+              },
+              "__v": 0
+            }, {
+              "_id": "6964bfd9580b1c255945d35a",
+              "wid": "6964bfd9580b1c255945d35a",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 20,
+              "y": 2846.4,
+              "w": 232.84,
+              "h": 150,
+              "z": 597,
+              "cropW": 1417,
+              "cropH": 912.858615358186,
+              "cropX": 0,
+              "cropY": 44.07069232090703,
+              "originalCropW": 1417,
+              "originalCropH": 912.858615358186,
+              "originalCropX": 0,
+              "originalCropY": 44.07069232090703,
+              "originalW": 1417,
+              "originalH": 1001,
+              "scale": 0.16431898376852505,
+              "blurHash": "UVE{@Lxu?wxvI9ofD%RjITWAM{WBWBayozay",
+              "version": 2,
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/E_pR_uumoadff8G59lBkI.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-31211fc0-e9be-4e67-809c-ed460d66c49f.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/o_eaDqeTEu6YQVSyXjLjZ.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/e9V_JG9Vjcw9GkJU0yHw0.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/o_eaDqeTEu6YQVSyXjLjZ.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/E_pR_uumoadff8G59lBkI.jpg"
+              },
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "9c93e22c-e1df-48e4-a57e-47a7857c8934",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 598,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/E_pR_uumoadff8G59lBkI.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-31211fc0-e9be-4e67-809c-ed460d66c49f.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/o_eaDqeTEu6YQVSyXjLjZ.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/e9V_JG9Vjcw9GkJU0yHw0.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/o_eaDqeTEu6YQVSyXjLjZ.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/E_pR_uumoadff8G59lBkI.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/beauty/pet-beauty-gresaka-zimi/",
+              "clickTarget": "_blank",
+              "__v": 0
+            }, {
+              "_id": "6964bfd9b3d0c8d98ca399c0",
+              "wid": "6964bfd9b3d0c8d98ca399c0",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 268,
+              "y": 2846.4,
+              "w": 236.6,
+              "h": 149.6,
+              "z": 598,
+              "cropW": 1421,
+              "cropH": 899,
+              "cropX": 6,
+              "cropY": 2,
+              "originalCropW": 1421,
+              "originalCropH": 899,
+              "originalCropX": 6,
+              "originalCropY": 2,
+              "originalW": 1438,
+              "originalH": 901,
+              "scale": 0.16648,
+              "blurHash": "UkNA#V%M?vxv~pofWAoet7WBIUWBxut7WBj[",
+              "version": 2,
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/dYqIupeROtP6HIDANQIXN.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-27ec2943-37bd-44fe-9689-9ca8f9d9b45b.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/nGuOzu6nV77HV8895A1It.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/SpctwgyNQ4PCsRYoPTdil.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/nGuOzu6nV77HV8895A1It.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/dYqIupeROtP6HIDANQIXN.jpg"
+              },
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "9c3e12ba-3319-4afa-85b1-11b2b55e6af4",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 599,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/dYqIupeROtP6HIDANQIXN.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-27ec2943-37bd-44fe-9689-9ca8f9d9b45b.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/nGuOzu6nV77HV8895A1It.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/SpctwgyNQ4PCsRYoPTdil.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/nGuOzu6nV77HV8895A1It.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/dYqIupeROtP6HIDANQIXN.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/beauty/kiehls-ultra-facial-meltdown-recovery-cream-sos-za-suhu-kozu/",
+              "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964bfd97d24a7e4f3fb652b",
+              "wid": "6964bfd97d24a7e4f3fb652b",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 520,
+              "y": 2846.4,
+              "w": 235,
+              "h": 149.6,
+              "z": 599,
+              "cropW": 2630,
+              "cropH": 1675,
+              "cropX": 34,
+              "cropY": 4,
+              "originalCropW": 2630,
+              "originalCropH": 1675,
+              "originalCropX": 34,
+              "originalCropY": 4,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08929,
+              "blurHash": "UZJ@%h9w_1WF~VNHt6f8S4s.V@jYt7bHoJa|",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "71b353c0-31af-4f1a-b050-00e106e0e29c",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 600,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/dime7BzEQGyWgiCa_AiHq.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-86159f96-2188-4d70-83fe-e94a7412fa1a.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/4lHvwvQD2WdYy2Yy5m6Gq.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/-GgsW4znpUd_eb3OlnKOV.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/4lHvwvQD2WdYy2Yy5m6Gq.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/dime7BzEQGyWgiCa_AiHq.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/dime7BzEQGyWgiCa_AiHq.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-86159f96-2188-4d70-83fe-e94a7412fa1a.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/4lHvwvQD2WdYy2Yy5m6Gq.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/-GgsW4znpUd_eb3OlnKOV.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/4lHvwvQD2WdYy2Yy5m6Gq.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/dime7BzEQGyWgiCa_AiHq.jpg"
+              },
+              "clickLink": "https://www.telegram.hr/super1/beauty/trendi-boje-kose-zimska-sezona-2026/",
+              "clickTarget": "_blank",
+              "__v": 0
+            }, {
+              "_id": "6964bfd95dbaa61cb4aaf038",
+              "wid": "6964bfd95dbaa61cb4aaf038",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 771.6,
+              "y": 2846.4,
+              "w": 233.4,
+              "h": 149.6,
+              "z": 600,
+              "cropW": 2614,
+              "cropH": 1675,
+              "cropX": 40,
+              "cropY": 4,
+              "originalCropW": 2614,
+              "originalCropH": 1675,
+              "originalCropX": 40,
+              "originalCropY": 4,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08929,
+              "blurHash": "UEE{qf.84:?w$wIAM{%28_Rixss8%M%NRkWA",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "948a494a-afcd-4f3f-96c2-4974996bb189",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 601,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/TI3Cm4YKWvPZgD9MWRHgX.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-824dc2f5-e568-48eb-b349-c6ce99da7791.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/cUcK75AmspGcWI9idT5F3.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/yxkTqbnXumlPgUGKWTkTH.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/cUcK75AmspGcWI9idT5F3.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/TI3Cm4YKWvPZgD9MWRHgX.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/TI3Cm4YKWvPZgD9MWRHgX.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-824dc2f5-e568-48eb-b349-c6ce99da7791.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/cUcK75AmspGcWI9idT5F3.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/yxkTqbnXumlPgUGKWTkTH.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/cUcK75AmspGcWI9idT5F3.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/TI3Cm4YKWvPZgD9MWRHgX.jpg"
+              },
+              "clickLink": "https://www.telegram.hr/super1/beauty/borite-se-sa-suhim-rukama-tijekom-zimskih-mjeseci-ovo-je-super-trik-koji-sam-otkrila-sasvim-slucajno/",
+              "clickTarget": "_blank",
+              "__v": 0
+            }, {
+              "_id": "6964d740a83b55cd8f128e6c",
+              "wid": "6964d740a83b55cd8f128e6c",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 271.67,
+              "y": 3508.2,
+              "w": 231.6,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Ovo je najljepši europski grad za koji ne znate, a do njega možete i izravnim niskobudžetnim letom",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 98,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 98,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "ffnji"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 601,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 602
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964d740bc7ae4923aea8887",
+              "wid": "6964d740bc7ae4923aea8887",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 269,
+              "y": 3506.2,
+              "w": 235,
+              "h": 149.8,
+              "z": 602,
+              "cropW": 2632,
+              "cropH": 1678,
+              "cropX": 0,
+              "cropY": 2,
+              "originalCropW": 2632,
+              "originalCropH": 1678,
+              "originalCropX": 0,
+              "originalCropY": 2,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08929,
+              "blurHash": "U.EzTOx]adt8pyXAjEj]O[WCRjR*T0W9skoL",
+              "version": 2,
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/_Cp87RHPvTZ4Rq7aklWd2.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-49b8c578-9124-4051-8258-f0463d1484e9.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/sL3d4oPaMAstasLW4nwXc.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/OJeRpaW7SGNcdJxLvIcck.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/sL3d4oPaMAstasLW4nwXc.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/_Cp87RHPvTZ4Rq7aklWd2.jpg"
+              },
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "e476c690-f3f8-4244-bdd4-6c2baab60fa3",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 603,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/_Cp87RHPvTZ4Rq7aklWd2.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-49b8c578-9124-4051-8258-f0463d1484e9.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/sL3d4oPaMAstasLW4nwXc.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/OJeRpaW7SGNcdJxLvIcck.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/sL3d4oPaMAstasLW4nwXc.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/_Cp87RHPvTZ4Rq7aklWd2.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/life/zasto-posjetiti-gdanjsk-vodic-za-putovanje/",
+              "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964d741e2cf8b4f493e5652",
+              "wid": "6964d741e2cf8b4f493e5652",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 523.67,
+              "y": 3505.4,
+              "w": 231.6,
+              "h": 110,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Učenje novog jezika ili možda meditiranje? Uz ovih ćete 13 indoor aktivnosti lakše preživjeti zimu",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 98,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 98,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/dizajnerske-torbe-ispod-300-eura-zimsko-snizenje/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "b1pit"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 603,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "naslo2",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 604
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "isShadowEnabled": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "__v": 0
+            }, {
+              "_id": "6964d7413542916565aa5d62",
+              "wid": "6964d7413542916565aa5d62",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 521,
+              "y": 3506.4,
+              "w": 237,
+              "h": 150,
+              "z": 604,
+              "cropW": 2654.4,
+              "cropH": 1680,
+              "cropX": 4.7999999999999545,
+              "cropY": 0,
+              "originalCropW": 2654.4,
+              "originalCropH": 1680,
+              "originalCropX": 4.7999999999999545,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "UWHo5x~V%MWA?Ht7NGWAMxWA%LWYs*xao#W=",
+              "version": 2,
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/vZcT8id4Jfvz5UKyrHfL2.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-9e7bd8fd-1c63-4d9d-8c2a-b24d90f84ec9.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/C97P_xRzaqsX8zYRPRHxB.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/lz5C-YYm6RzLZze81MnGX.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/C97P_xRzaqsX8zYRPRHxB.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/vZcT8id4Jfvz5UKyrHfL2.jpg"
+              },
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "66bf1448-9e2d-4158-8dd3-2dbf78155145",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 605,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/vZcT8id4Jfvz5UKyrHfL2.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-9e7bd8fd-1c63-4d9d-8c2a-b24d90f84ec9.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/C97P_xRzaqsX8zYRPRHxB.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/lz5C-YYm6RzLZze81MnGX.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/C97P_xRzaqsX8zYRPRHxB.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/vZcT8id4Jfvz5UKyrHfL2.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/life/10-fora-unutarnjih-aktivnosti-tijekom-zime/",
+              "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964d741bc7ae4923aea888d",
+              "wid": "6964d741bc7ae4923aea888d",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 773.67,
+              "y": 3506.4,
+              "w": 231.6,
+              "h": 88,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Znate li što znači aura framing? Donosimo sve o novom terminu popularnom na TikToku",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 83,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 83,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                  "values": ["400", "normal", "Inter", "E6E6E664", "20"]
+                }
+              }],
+              "entityMap": {
+                "0": {
+                  "type": "LINK",
+                  "mutability": "MUTABLE",
+                  "data": {
+                    "url": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
+                    "anchorPosition": 0,
+                    "type": "URL",
+                    "target": "_blank",
+                    "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                    "id": "60g4q"
+                  }
+                }
+              },
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 605,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 22,
+                  "align": "align-left"
+                }
+              }],
+              "name": "naslov3",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 606
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "sticked": "",
+              "hidden": false,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "modifiers": [{
+                "id": "drag",
+                "title": "Drag",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Drag/WidgetRendered"
+                }, {
+                  "eventName": "pointerdown",
+                  "eventHandler": "Drag/PointerDown"
+                }, {
+                  "eventName": "pointerup",
+                  "eventHandler": "Drag/PointerUp",
+                  "isGlobal": true
+                }, {
+                  "eventName": "pointermove",
+                  "eventHandler": "Drag/PointerMove",
+                  "isGlobal": true
+                }, {
+                  "eventName": "touchend",
+                  "eventHandler": "Drag/TouchEnd",
+                  "isGlobal": true
+                }, {
+                  "eventName": "dragstart",
+                  "eventHandler": "Drag/DragStart"
+                }]
+              }],
+              "__v": 0
+            }, {
+              "_id": "6964d741fb164aadc7de162e",
+              "wid": "6964d741fb164aadc7de162e",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 773,
+              "y": 3507.4,
+              "w": 232.84,
+              "h": 150,
+              "z": 606,
+              "cropW": 2607.808,
+              "cropH": 1680,
+              "cropX": 28.096000000000004,
+              "cropY": 0,
+              "originalCropW": 2607.808,
+              "originalCropH": 1680,
+              "originalCropX": 28.096000000000004,
+              "originalCropY": 0,
+              "originalW": 2664,
+              "originalH": 1680,
+              "scale": 0.08928571428571429,
+              "blurHash": "UaOf_ibH?]?H.8WBV@t7x[xbaLM{xuofo2Rj",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "5e5f6cbc-b463-490d-b569-1b86874e1ca9",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 607,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/6siXNQAGG2xltGRi5TY00.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-7c880dbb-fbd8-4de9-95ea-67314c91a3f0.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/kAh7pMEoznBiLuPb22ftl.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/z4oQ2V6jsVPh5UiMYQfpD.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/kAh7pMEoznBiLuPb22ftl.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/6siXNQAGG2xltGRi5TY00.jpg"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/6siXNQAGG2xltGRi5TY00.jpg",
+                "url": "img/683d850bd2094940857eb894/6043837/image-7c880dbb-fbd8-4de9-95ea-67314c91a3f0.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/kAh7pMEoznBiLuPb22ftl.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/z4oQ2V6jsVPh5UiMYQfpD.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/kAh7pMEoznBiLuPb22ftl.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/6siXNQAGG2xltGRi5TY00.jpg"
+              },
+              "clickLink": "https://www.telegram.hr/super1/life/aura-framing-znacenje-drustvene-mreze/",
+              "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964d742c5639931f9c9336e",
+              "wid": "6964d742c5639931f9c9336e",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "x": 21.67,
+              "y": 3512.2,
+              "w": 231.6,
+              "h": 138,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Što gledati za vikend: Goran, The Snowman i još 16 filmskih naslova snimljenih u snježnoj atmosferi",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 99,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                  }],
+                  "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE", "COLOR"],
+                  "values": ["400", "normal", "Inter", "23", "E6E6E664"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 607,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": false,
+                  "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                  "lineHeight": 23,
+                  "align": "align-left"
+                }
+              }],
+              "name": "5 najčešćih beauty grešaka koje svi radimo zimi (i kako ih najlakše izbjeći)",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 608
+              },
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 379
+              }],
+              "sticked": "",
+              "hidden": false,
+              "__v": 0
+            }, {
+              "_id": "6964d7420d9804b3853590c9",
+              "wid": "6964d7420d9804b3853590c9",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "x": 21,
+              "y": 3506.2,
+              "w": 232.84,
+              "h": 150,
+              "z": 608,
+              "cropW": 2182.4869333333336,
+              "cropH": 1406,
+              "cropX": 158.7565333333332,
+              "cropY": 0,
+              "originalCropW": 2182.4869333333336,
+              "originalCropH": 1406,
+              "originalCropX": 158.7565333333332,
+              "originalCropY": 0,
+              "originalW": 2500,
+              "originalH": 1406,
+              "scale": 0.10668563300142248,
+              "blurHash": "URF$-GRi?wxv%M.8IUWB%gj[aeay.8IUogt7",
+              "version": 2,
+              "picture": {
+                "type": "png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6043837/LgwQI3T7PSK1t09ztRBX-.png",
+                "url": "img/683d850bd2094940857eb894/6043837/image-5de01c8a-7104-4bc4-a050-33de400dbc5a.png",
+                "final2xUrl": "img/683d850bd2094940857eb894/6043837/oD8FOFG2y8YFOjIE_U5iC.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6043837/TASNzFdjfmz9a4p6dP62O.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6043837/oD8FOFG2y8YFOjIE_U5iC.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/LgwQI3T7PSK1t09ztRBX-.png"
+              },
+              "originId": "66789dbdccf42b0014051616",
+              "animation": [{
+                "UUID": "49670531-c28f-4118-803d-bf213009376c",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.3,
+                  "acceleration": "ease-both",
+                  "from_opacity": 100,
+                  "use_opacity": true,
+                  "opacity": 0
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 609,
+                "picture": {
+                  "type": "png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/LgwQI3T7PSK1t09ztRBX-.png",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-5de01c8a-7104-4bc4-a050-33de400dbc5a.png",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/oD8FOFG2y8YFOjIE_U5iC.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/TASNzFdjfmz9a4p6dP62O.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/oD8FOFG2y8YFOjIE_U5iC.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/LgwQI3T7PSK1t09ztRBX-.png"
+                }
+              },
+              "hidden": false,
+              "_hidden": [{
+                "pid": "default",
+                "value": false
+              }],
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "sticked": "",
+              "clickLink": "https://www.telegram.hr/super1/life/filmovi-na-snijegu/",
+              "clickTarget": "_blank",
+              "anchor_link_pos": null,
+              "clickPage": null,
+              "__v": 0
+            }, {
+              "_id": "6964dc490e53b359940b86af",
+              "wid": "6964dc490e53b359940b86af",
+              "mag_num_id": 6043837,
+              "type": "button",
+              "x": 475.19,
+              "y": 196.98,
+              "w": 28,
+              "h": 28,
+              "tp": "icon",
+              "form": "circle",
+              "text": "",
+              "transition": false,
+              "transitionTime": 0,
+              "text_w": 16,
+              "text_h": 20,
+              "current-text_w": 16,
+              "current-text_h": 20,
+              "em_w": 16,
+              "background-color": "E6E6E6",
+              "background-color-opacity": 40,
+              "border-radius": 5,
+              "border-width": 0,
+              "border-color": "000000",
+              "border-color-opacity": 100,
+              "font-family": "Arial",
+              "font-style": "normal",
+              "font-weight": 400,
+              "color": "ffffff",
+              "color-opacity": 100,
+              "font-size": 18,
+              "letter-spacing": 0,
+              "hover-background-color": "c80000",
+              "hover-background-color-opacity": 80,
+              "hover-border-width": 0,
+              "hover-border-color": "000000",
+              "hover-border-color-opacity": 100,
+              "hover-color": "ffffff",
+              "hover-color-opacity": 100,
+              "current-background-color": "c80000",
+              "current-background-color-opacity": 100,
+              "current-border-radius": 5,
+              "current-border-width": 0,
+              "current-border-color": "000000",
+              "current-border-color-opacity": 100,
+              "current-font-family": "Arial",
+              "current-font-style": "normal",
+              "current-font-weight": 400,
+              "current-color": "ffffff",
+              "current-color-opacity": 100,
+              "current-font-size": 18,
+              "current-letter-spacing": 0,
+              "icon_enabled": true,
+              "icon_h": 15,
+              "icon_w": 15,
+              "icon_pos": "left",
+              "icon_color": "ffffff",
+              "icon_color_opacity": 100,
+              "hover-icon_color": "ffffff",
+              "hover-icon_color_opacity": 100,
+              "current-icon_color": "ffffff",
+              "current-icon_color_opacity": 100,
+              "icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-9fcaa057-ebca-4ad5-b1b2-5305b5afd1e7.png",
+              "icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-ae7f3758-41e3-4c06-b818-ab77fa456cdf.png",
+              "hover-icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-8d636585-9b42-4bb7-ac98-3c7d83a80af4.png",
+              "hover-icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-bd84bd2c-6a29-4f66-8d9c-41575e7f430a.png",
+              "current-icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-5f807b73-ae28-4352-be29-986138622d98.png",
+              "current-icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-04ef9171-c3f2-4733-808f-0344804fac93.png",
+              "baselineShift": 0,
+              "current-baselineShift": 0,
+              "z": 667,
+              "name": "",
+              "icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-2f178216-37d0-4997-973c-4f4d05d7b305.png",
+              "hover-icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-0e086b6c-03cd-4641-af47-0ea08a878867.png",
+              "current-icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-ce931dd3-4632-4fda-a015-217cd970a54c.png",
+              "checksum": "icon|15|15|ffffff|ffffff|ffffff|100|100|100|rm9",
+              "angle": -90,
+              "_hidden": [{
+                "pid": "default",
+                "value": null
+              }],
+              "_z": [{
+                "pid": "695bbaf58e8e35707806a6e3",
+                "value": 667
+              }, {
+                "pid": "default",
+                "value": 667
+              }],
+              "fixed_position": "c",
+              "is_above": true,
+              "is_global": true,
+              "sticked": "",
+              "animation": [{
+                "UUID": "a6e68db7-4b06-4469-aa76-025dc0bdea32",
+                "type": "load",
+                "steps": [{
+                  "duration": 0.5,
+                  "delay": 5,
+                  "acceleration": "ease-both",
+                  "from_opacity": 0,
+                  "use_opacity": true,
+                  "opacity": 100
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "hover-icon_b64url": null,
+              "icon_b64url": null,
+              "viewport_phone_portrait": {
+                "x": 475.19,
+                "y": 196.98,
+                "w": 28,
+                "h": 28,
+                "z": 667,
+                "hidden": null,
+                "angle": -90,
+                "fixed_position": "c",
+                "sticked": "",
+                "_hidden": [{
+                  "pid": "default",
+                  "value": null
+                }, {
+                  "pid": "695bbaf58e8e35707806a6e3",
+                  "value": null
+                }],
+                "_z": [{
+                  "pid": "695bbaf58e8e35707806a6e3",
+                  "value": 667
+                }, {
+                  "pid": "default",
+                  "value": 667
+                }]
+              },
+              "anchor_link_pos": 2,
+              "clickLink": "__rm_anchor",
+              "clickTarget": "_self",
+              "__v": 0
+            }, {
+              "_id": "6964ec759794fadccb194aa2",
+              "wid": "6964ec759794fadccb194aa2",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Najpopularnije traperice u 2026. bit će u ovoj nijansi plave koja odlično izgleda u svakom looku",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 96,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 12.67,
+                "y": 2169.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 620,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 96,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/shopping-vodic/indigo-trraperice-modni-favorit-2026-shopping-vodic/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                      "id": "ahlhf"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 619,
+              "__v": 0
+            }, {
+              "_id": "6964ec76ff4ca569db705123",
+              "wid": "6964ec76ff4ca569db705123",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UMFFjO00~q9F?aIUt7kCM{WBxubHt7WUt7oJ",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 1968.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 619,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/QB710HDOT3o-Le8XO9H5Q.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-234de5b9-c540-48a6-ac62-9bbf5080b859.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/pu4tTgnsF_G3mc_qqV0Ef.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/NsEyC9whC7dkw9diWhYaE.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/pu4tTgnsF_G3mc_qqV0Ef.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/QB710HDOT3o-Le8XO9H5Q.jpg"
+                },
+                "animation": []
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/dizajnerske-torbe-ispod-300-eura-zimsko-snizenje/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 621,
+              "__v": 0
+            }, {
+              "_id": "6964ec76280b0021b8f77b77",
+              "wid": "6964ec76280b0021b8f77b77",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UBDvcxfFtT4n0M%OD%E1~VoHxuxuxtIVxuM{",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 1968.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 628,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "animation": [],
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/SrXgGoOrLtGaPSQp4Dm4Z.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-6a1b0a2b-74b1-4f97-bcb0-51fa104dd709.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/afK-bCgp30r1tqvbzxm9o.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/4Eo1VdNMLrdGk8hth1L8V.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/afK-bCgp30r1tqvbzxm9o.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/SrXgGoOrLtGaPSQp4Dm4Z.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/indigo-trraperice-modni-favorit-2026-shopping-vodic/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 622,
+              "__v": 0
+            }, {
+              "_id": "6964ec76ac1057b66f83f00d",
+              "wid": "6964ec76ac1057b66f83f00d",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Ovo je 5 it komada i trendova koji najavljuju (definitivno prerani) povratak modnih 2010-ih",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 91,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 14.67,
+                "y": 2444.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 622,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 91,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/look/povratak-modnih-2010-ih-it-komadi/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_self",
+                      "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                      "id": "7ctfo"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 623,
+              "__v": 0
+            }, {
+              "_id": "6964ec775d653d9955653ef7",
+              "wid": "6964ec775d653d9955653ef7",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "U9C6DcW=1vt600V[4:WB?]xarEkCJ,R*i_f5",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 13,
+                "y": 2243.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 621,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/sFBQ8w66gjnIenPqio5Y0.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-77737d49-eb5b-4c4c-a175-a821fe706a5a.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/dXme5eC89gkRIrRGwzP4B.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/GQJUalz9Y-ldP7wepKeEs.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/dXme5eC89gkRIrRGwzP4B.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/sFBQ8w66gjnIenPqio5Y0.jpg"
+                },
+                "animation": []
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/crvene-cipele-najbolji-modeli-zimsko-snizenje-2025/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 625,
+              "__v": 0
+            }, {
+              "_id": "6964ec77bc7ae4923af59b29",
+              "wid": "6964ec77bc7ae4923af59b29",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UDC~@:-A000z^*s;M}D$.8IUIAxt~VRP9ZS%",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 13,
+                "y": 2243.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 630,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "animation": [],
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/i7r9dG3eSqIdXTPFYqUMn.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-cd74974c-eaa1-4e1d-abfd-4386509a13fe.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/4n6SSjK5v-8GpCFr-m4oW.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/fVlYyQ1ExcbndUu18CVFl.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/4n6SSjK5v-8GpCFr-m4oW.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/i7r9dG3eSqIdXTPFYqUMn.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/look/povratak-modnih-2010-ih-it-komadi/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 626,
+              "__v": 0
+            }, {
+              "_id": "6964ec77fb164aadc7e9791b",
+              "wid": "6964ec77fb164aadc7e9791b",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Od high streeta do high enda, pronašli smo super jakne i kapute na zimskom sniženju",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 83,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 12.67,
+                "y": 2723.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 624,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 83,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/shopping-vodic/jakne-i-kaputi-zimsko-snizenje-2025-shopping-vodic/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                      "id": "53jim"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 627,
+              "__v": 0
+            }, {
+              "_id": "6964ec77bf640b59c203e0fa",
+              "wid": "6964ec77bf640b59c203e0fa",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UND0P]_NNex]R4WAofs.MxMxs,xZx]xuaxoK",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 2522.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 623,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/8vgi-cHkJ9-GtKXxDa8G3.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-81b75f9b-3c55-45ae-b0d8-da589b809aa6.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/ClNt9lju36ZuUdvanO0Rv.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/oJm55wiYLj5H7Opb0EdxA.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/ClNt9lju36ZuUdvanO0Rv.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/8vgi-cHkJ9-GtKXxDa8G3.jpg"
+                },
+                "animation": []
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/look/kako-nositi-bijele-traperice-zimi/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 629,
+              "__v": 0
+            }, {
+              "_id": "6964ec78bf640b59c203e0ff",
+              "wid": "6964ec78bf640b59c203e0ff",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "U8DcO2-;0gf,~W%M9FM{9aoz$zn$_34n4nD*",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 2522.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 632,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "animation": [],
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/W3HR3ykWVmcyFyauB3qkr.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-0b94d2b6-53b2-4b51-ad3e-c76e64ffc18c.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/aEstMrOEvr9T7cfANyNYc.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/L1xqE1CtO1BgpFb7GWHjB.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/aEstMrOEvr9T7cfANyNYc.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/W3HR3ykWVmcyFyauB3qkr.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/jakne-i-kaputi-zimsko-snizenje-2025-shopping-vodic/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 630,
+              "__v": 0
+            }, {
+              "_id": "6964ec78ffd7fd0b60303453",
+              "wid": "6964ec78ffd7fd0b60303453",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Ovu jednostavnu styling metodu mnogi nazivaju magičnim trikom za savršene odjevne kombinacije",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 93,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 13.67,
+                "y": 1891.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 626,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 93,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/look/seesaw-styling-odjevne-kombinacije-outfit-trik/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_self",
+                      "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                      "id": "82q6t"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 631,
+              "__v": 0
+            }, {
+              "_id": "6964ec782f08363a3ac815d2",
+              "wid": "6964ec782f08363a3ac815d2",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "originalW": 2664,
+              "originalH": 1680,
+              "blurHash": "U7BpnU599E~pD4OZX9V?~AE2WCs8?GIoR+%L",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 1690.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 625,
+                "cropW": 2606,
+                "cropH": 1680,
+                "cropX": 29,
+                "cropY": 0,
+                "originalCropW": 2607.8240212864744,
+                "originalCropH": 1680,
+                "originalCropX": 28.08798935676282,
+                "originalCropY": 0,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Nuv33MrPoGKOy4JFOWdag.jpg",
+                  "url": "img/683d850bd2094940857eb894/6034839/image-d196e288-4443-4aac-a6f6-fb90fbdddcfd.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Y5yBD-te8625I_q-EXyey.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/cRNfrsaWg3Tdp0OVCK-9b.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Y5yBD-te8625I_q-EXyey.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Nuv33MrPoGKOy4JFOWdag.jpg"
+                },
+                "scale": 0.11437,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "animation": [{
+                  "UUID": "d4530751-cb14-47f4-8202-46c58670de88",
+                  "type": "scroll",
+                  "steps": [],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }]
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 633,
+              "__v": 0
+            }, {
+              "_id": "6964ec78e6f01cb5d840c2b4",
+              "wid": "6964ec78e6f01cb5d840c2b4",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UDFO[W-p?I?a8_WV9GIVS6a#I:Ip~Vt6xtof",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 1690.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 634,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "animation": [{
+                  "UUID": "2556549d-ddb5-4908-bf60-6ea191726238",
+                  "type": "scroll",
+                  "steps": [],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }],
+                "originalW": 2664,
+                "originalH": 1680,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/KZWyyjAGDEm5l12OsYoD6.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-4ba19de3-c197-4a79-bf03-fcaaaa33efd7.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/TIR-fP7IjLEDDavEGbIWz.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/ge4F8XOyoguFov_FkGCmy.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/TIR-fP7IjLEDDavEGbIWz.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/KZWyyjAGDEm5l12OsYoD6.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/look/seesaw-styling-odjevne-kombinacije-outfit-trik/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 634,
+              "__v": 0
+            }, {
+              "_id": "6964ed997a695427a567dcdb",
+              "wid": "6964ed997a695427a567dcdb",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Od Chanela do sportskih brendova, ovo je cool girl top koji ćemo svi poželjeti nositi u 2026.",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 93,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 13.67,
+                "y": 1611.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 639,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 93,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/shopping-vodic/cool-girl-top-pulover-ili-sportska-majica-s-patentnim-zatvaracem-chanel/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-d7475043-a314-4ca3-a2e1-178338736f64",
+                      "id": "15d6u"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 636,
+              "__v": 0
+            }, {
+              "_id": "6964ed9a18966d34c0acd882",
+              "wid": "6964ed9a18966d34c0acd882",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "originalW": 2664,
+              "originalH": 1680,
+              "blurHash": "U7BpnU599E~pD4OZX9V?~AE2WCs8?GIoR+%L",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 1410.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 636,
+                "cropW": 2606,
+                "cropH": 1680,
+                "cropX": 29,
+                "cropY": 0,
+                "originalCropW": 2607.8240212864744,
+                "originalCropH": 1680,
+                "originalCropX": 28.08798935676282,
+                "originalCropY": 0,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6034839/Nuv33MrPoGKOy4JFOWdag.jpg",
+                  "url": "img/683d850bd2094940857eb894/6034839/image-d196e288-4443-4aac-a6f6-fb90fbdddcfd.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6034839/Y5yBD-te8625I_q-EXyey.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6034839/cRNfrsaWg3Tdp0OVCK-9b.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6034839/Y5yBD-te8625I_q-EXyey.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6034839/Nuv33MrPoGKOy4JFOWdag.jpg"
+                },
+                "scale": 0.11437,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "animation": [{
+                  "UUID": "45bc5796-f115-4e23-910c-c7dbc700c50e",
+                  "type": "scroll",
+                  "steps": [],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }]
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/trokutasti-sal-it-modni-dodatak-za-zimsku-sezonu/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 637,
+              "__v": 0
+            }, {
+              "_id": "6964ed9b652200746b1864d6",
+              "wid": "6964ed9b652200746b1864d6",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "U7DcE#?w5s~B00D*D*8_u6^*~V0g4mD*t7$$",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 1410.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 638,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "animation": [{
+                  "UUID": "b62322a2-a4ee-457a-8b17-de35acb02a91",
+                  "type": "scroll",
+                  "steps": [],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }],
+                "originalW": 2664,
+                "originalH": 1680,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/sOtRvGtwsg2vxQfzYczzb.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-512dcc2e-5dc6-42e0-9430-7201a849f23f.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/-HYeH2dPYZHWac-crESAh.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/_n5o4lfo7lzs8Uq2rPEM4.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/-HYeH2dPYZHWac-crESAh.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/sOtRvGtwsg2vxQfzYczzb.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/shopping-vodic/cool-girl-top-pulover-ili-sportska-majica-s-patentnim-zatvaracem-chanel/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 638,
+              "__v": 0
+            }, {
+              "_id": "6964f1c0e2cf8b4f494a8914",
+              "wid": "6964f1c0e2cf8b4f494a8914",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "5 najčešćih beauty grešaka koje svi radimo zimi (i kako ih najlakše izbjeći)",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 76,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 13.67,
+                "y": 5520.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 641,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left",
+                    "paddings": {
+                      "bottom": 0
+                    }
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 76,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/beauty/pet-beauty-gresaka-zimi/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-015cb18b-6b85-4811-9005-b45acb4c188c",
+                      "id": "6bp8"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 639,
+              "__v": 0
+            }, {
+              "_id": "6964f1c038fec412ec4f5049",
+              "wid": "6964f1c038fec412ec4f5049",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UVE{@Lxu?wxvI9ofD%RjITWAM{WBWBayozay",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 5319.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 640,
+                "cropW": 1417,
+                "cropH": 913.6321476510066,
+                "cropX": 0,
+                "cropY": 43.68392617449672,
+                "originalCropW": 1417,
+                "originalCropH": 913.6321476510066,
+                "originalCropX": 0,
+                "originalCropY": 43.68392617449672,
+                "scale": 0.21030345800988004,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "animation": [],
+                "originalW": 1417,
+                "originalH": 1001,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/WAXUouMrLHz-zz0eCBLMl.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-f763f066-a4a3-4d53-9714-3639e2b485c9.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/lAUyZ2QqjcD4YBvQOEeCM.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/Leh3IGc2KU8Jtsv8Xa5Qt.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/lAUyZ2QqjcD4YBvQOEeCM.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/WAXUouMrLHz-zz0eCBLMl.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/beauty/pet-beauty-gresaka-zimi/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 640,
+              "__v": 0
+            }, {
+              "_id": "6964f1c17a695427a569a386",
+              "wid": "6964f1c17a695427a569a386",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Prava zima tek stiže, a nova verzija jedne od najpopularnijih krema mogla bi spasiti našu kožu",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 94,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 12.67,
+                "y": 5792.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 643,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 94,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/beauty/kiehls-ultra-facial-meltdown-recovery-cream-sos-za-suhu-kozu/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-212b014a-c50a-40ad-9fa6-6a5c52524930",
+                      "id": "bu65h"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 641,
+              "__v": 0
+            }, {
+              "_id": "6964f1c10d9804b385410098",
+              "wid": "6964f1c10d9804b385410098",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UkNA#V%M?vxv~pofWAoet7WBIUWBxut7WBj[",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 11,
+                "y": 5591.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 642,
+                "cropW": 1397.408139897991,
+                "cropH": 901,
+                "cropX": 20.29593005100446,
+                "cropY": 0,
+                "originalCropW": 1397.408139897991,
+                "originalCropH": 901,
+                "originalCropX": 20.29593005100446,
+                "originalCropY": 0,
+                "scale": 0.2132519422863485,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 1438,
+                "originalH": 901,
+                "animation": [],
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/eZfVgaIIhaLUxyB7hD_kv.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-c3d62387-b2f6-464e-8bba-fea5398355f0.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/6SqCr5cMchwMEhxMslhHY.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/pCFcq1S-b20nDuedpvBq8.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/6SqCr5cMchwMEhxMslhHY.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/eZfVgaIIhaLUxyB7hD_kv.jpg"
+                }
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/beauty/kiehls-ultra-facial-meltdown-recovery-cream-sos-za-suhu-kozu/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 642,
+              "__v": 0
+            }, {
+              "_id": "6964f1c27a695427a569a38a",
+              "wid": "6964f1c27a695427a569a38a",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "U 2026. ćemo ponovno nositi cipele u jarkim crvenim tonovima, ove krasne modele pronašli smo na sniženju",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 104,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 13.67,
+                "y": 6069.15,
+                "w": 296.6,
+                "h": 80,
+                "z": 645,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 104,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/beauty/trendi-boje-kose-zimska-sezona-2026/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-212b014a-c50a-40ad-9fa6-6a5c52524930",
+                      "id": "90fv7"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 643,
+              "__v": 0
+            }, {
+              "_id": "6964f1c3a83b55cd8f1f5f5b",
+              "wid": "6964f1c3a83b55cd8f1f5f5b",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UZJ@%h9w_1WF~VNHt6f8S4s.V@jYt7bHoJa|",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 12,
+                "y": 5868.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 644,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/RZgjdY_M5Famh_dpLXJv7.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-0b12cc0f-04fa-41f9-b8a5-31ca311487bf.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/1HCIBIL_K5_BxZnxeo-pK.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/P9ef4uNnhWRdMf-Z4lE4_.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/1HCIBIL_K5_BxZnxeo-pK.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/RZgjdY_M5Famh_dpLXJv7.jpg"
+                },
+                "animation": []
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/beauty/trendi-boje-kose-zimska-sezona-2026/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 644,
+              "__v": 0
+            }, {
+              "_id": "6964f2672f08363a3acbe5e6",
+              "wid": "6964f2672f08363a3acbe5e6",
+              "mag_num_id": 6043837,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "Uvijek sam se borila sa suhim rukama tijekom zime, a onda sasvim slučajno otkrila super trik",
+                "entityRanges": [{
+                  "offset": 0,
+                  "length": 92,
+                  "key": 0
+                }],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "lookčlabnak1",
+              "text": "",
+              "originId": "66789dbdccf42b0014051613",
+              "animation": [],
+              "viewport_phone_portrait": {
+                "x": 14.67,
+                "y": 6364.15,
+                "w": 296.6,
+                "h": 60,
+                "z": 649,
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-8032de4f-a5ba-4f3f-9b13-fea03df35c70",
+                    "lineHeight": 20,
+                    "align": "align-left"
+                  }
+                }],
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 92,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4"]
+                    }],
+                    "keys": ["FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "COLOR", "FONT_SIZE"],
+                    "values": ["400", "normal", "Inter", "E6E6E664", "18"]
+                  }
+                }],
+                "entityMap": {
+                  "0": {
+                    "type": "LINK",
+                    "mutability": "MUTABLE",
+                    "data": {
+                      "url": "https://www.telegram.hr/super1/beauty/borite-se-sa-suhim-rukama-tijekom-zimskih-mjeseci-ovo-je-super-trik-koji-sam-otkrila-sasvim-slucajno/",
+                      "anchorPosition": 0,
+                      "type": "URL",
+                      "target": "_blank",
+                      "linkStyle": "link-style-212b014a-c50a-40ad-9fa6-6a5c52524930",
+                      "id": "2vnr2"
+                    }
+                  }
+                },
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "hidden": false,
+                "modifiers": []
+              },
+              "_z": [{
+                "pid": "default",
+                "value": 392
+              }],
+              "hidden": true,
+              "shadow": {
+                "x": 0,
+                "y": 0,
+                "blur": 5,
+                "color": "0059FF64",
+                "onHover": true,
+                "onScroll": false,
+                "fadeOnHover": false,
+                "ratio": 0.1,
+                "duration": 0.5
+              },
+              "isShadowEnabled": true,
+              "z": 647,
+              "__v": 0
+            }, {
+              "_id": "6964f26860d562c5af62b3a6",
+              "wid": "6964f26860d562c5af62b3a6",
+              "mag_num_id": 6043837,
+              "type": "picture",
+              "blurHash": "UIM7rvV?%~_N_NtQR5MxOSt7MxM_x[WBogxu",
+              "version": 2,
+              "originId": "66789dbdccf42b0014051616",
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://c-p.rmcdn.net/5eff3cd2081de3007df3f707/Image-3022b47a-1933-4a86-9978-0c12fc924085.svg"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": false,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 16,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "name": "slika1",
+              "viewport_phone_portrait": {
+                "x": 12,
+                "y": 6163.33,
+                "w": 298,
+                "h": 192.14,
+                "z": 648,
+                "cropW": 2605.600083272614,
+                "cropH": 1680,
+                "cropX": 29.199958363692986,
+                "cropY": 0,
+                "originalCropW": 2605.600083272614,
+                "originalCropH": 1680,
+                "originalCropX": 29.199958363692986,
+                "originalCropY": 0,
+                "scale": 0.1143690476190476,
+                "hidden": false,
+                "_hidden": [{
+                  "pid": "default",
+                  "value": false
+                }],
+                "sticked": "",
+                "originalW": 2664,
+                "originalH": 1680,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6043837/eqxQCQu4s6g7b7wmAvDEw.jpg",
+                  "url": "img/683d850bd2094940857eb894/6043837/image-eadbd986-0a69-49c0-914a-a1fbf106a1ac.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6043837/LgOB3l7KxkCgMHFsKntf-.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6043837/svMIyNXghPkJgGo2aWwzD.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6043837/LgOB3l7KxkCgMHFsKntf-.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6043837/eqxQCQu4s6g7b7wmAvDEw.jpg"
+                },
+                "animation": []
+              },
+              "hidden": true,
+              "_z": [{
+                "pid": "default",
+                "value": 393
+              }],
+              "clickLink": "https://www.telegram.hr/super1/beauty/borite-se-sa-suhim-rukama-tijekom-zimskih-mjeseci-ovo-je-super-trik-koji-sam-otkrila-sasvim-slucajno/",
+              "clickTarget": "_blank",
+              "clickPage": null,
+              "z": 648,
+              "__v": 0
+            }, {
+              "_id": "69665bdff7db65b45bd19c0b",
+              "wid": "69665bdff7db65b45bd19c0b",
+              "mag_num_id": 6043837,
+              "type": "button",
+              "tp": "icon",
+              "form": "circle",
+              "text": "",
+              "transition": false,
+              "transitionTime": 0,
+              "icon_enabled": true,
+              "icon_pos": "left",
+              "icon_color": "ffffff",
+              "icon_color_opacity": 100,
+              "hover-icon_color": "ffffff",
+              "hover-icon_color_opacity": 100,
+              "current-icon_color": "ffffff",
+              "current-icon_color_opacity": 100,
+              "icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-eee6b27a-d079-4c23-b62b-f8d57af91521.png",
+              "icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-5169b8be-d502-47a4-8a36-8246caf66a70.png",
+              "hover-icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-8600e226-9c89-4dc3-87e9-0c485d678959.png",
+              "hover-icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-581041d6-33f8-4f18-9cd3-1d860513ebc7.png",
+              "current-icon_rasterUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-9bf427e0-943c-422c-ac06-649829bacc90.png",
+              "current-icon_raster2xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-ac49bb94-8de0-4246-974f-7e338de22d08.png",
+              "hidden": true,
+              "viewport_phone_portrait": {
+                "text_w": 8,
+                "text_h": 12,
+                "em_w": 16,
+                "font-size": 10,
+                "font-style": "normal",
+                "font-weight": 400,
+                "font-family": "Arial",
+                "color": "ffffff",
+                "color-opacity": 100,
+                "letter-spacing": 0,
+                "baselineShift": 0,
+                "hover-color": "ffffff",
+                "hover-color-opacity": 100,
+                "current-font-size": 18,
+                "current-font-style": "normal",
+                "current-font-weight": 400,
+                "current-font-family": "Arial",
+                "current-baselineShift": 0,
+                "current-color": "ffffff",
+                "current-color-opacity": 100,
+                "current-letter-spacing": 0,
+                "current-text_w": 16,
+                "current-text_h": 22,
+                "background-color": "E6E6E6",
+                "background-color-opacity": 45,
+                "hover-background-color": "c80000",
+                "hover-background-color-opacity": 80,
+                "current-background-color": "c80000",
+                "current-background-color-opacity": 100,
+                "border-radius": 5,
+                "border-width": 0,
+                "border-color": "000000",
+                "border-color-opacity": 100,
+                "hover-border-width": 0,
+                "hover-border-color": "000000",
+                "hover-border-color-opacity": 100,
+                "current-border-radius": 5,
+                "current-border-width": 0,
+                "current-border-color": "000000",
+                "current-border-color-opacity": 100,
+                "icon_h": 18,
+                "icon_w": 18,
+                "x": 13,
+                "y": -148,
+                "w": 28,
+                "h": 28,
+                "z": 666,
+                "hidden": false,
+                "checksum": "icon|18|18|ffffff|ffffff|ffffff|100|100|100|rm9",
+                "angle": -90,
+                "sticked": "",
+                "fixed_position": "se",
+                "animation": [{
+                  "UUID": "8353d407-3aaf-4104-a817-a871b4bb0601",
+                  "type": "load",
+                  "steps": [{
+                    "duration": 0.5,
+                    "delay": 0.5,
+                    "acceleration": "ease-both",
+                    "from_opacity": 0,
+                    "use_opacity": true,
+                    "opacity": 100
+                  }],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }]
+              },
+              "icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-c61414f9-fef9-4888-bd9f-9e126af121d0.png",
+              "hover-icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-a29799ba-81af-4f5c-8cf6-02e8984825c7.png",
+              "current-icon_raster3xUrl": "img/683d850bd2094940857eb894/695bbaf58e8e35707806a6de/RasterizedImage-09bec2ac-516b-4490-87b7-7b6693928957.png",
+              "name": "",
+              "is_above": false,
+              "z": 649,
+              "__v": 0
             }],
             "num": 1,
             "title": "",
             "type": "scroll",
-            "height": 4162,
+            "height": 4771,
             "hidden": false,
             "isPrivate": false,
             "sectionscroll": false,
             "used_autolayout": true,
             "viewport_phone_portrait": {
               "enabled": true,
-              "height": 6803,
+              "height": 9443,
               "type": "scroll",
-              "screenshot": "https://c-p.rmcdn1.net/683d850bd2094940857eb894/6043837/Screenshot-e13bea3a-64c0-46d8-996c-4b1f1b859652.jpg"
+              "screenshot": "https://c-p.rmcdn1.net/683d850bd2094940857eb894/6043837/Screenshot-ce2a85e7-2e4b-4209-8b81-6eb7e9d082f9.jpg"
             },
             "arrows_color": "black",
             "num_id": 28644315,
             "parentPage": null,
-            "screenshot": "img/683d850bd2094940857eb894/6043837/Screenshot-eabcac88-df74-4f08-b9de-a3946a7a813b_readyscr.jpg",
+            "screenshot": "img/683d850bd2094940857eb894/6043837/Screenshot-e4675054-9ce3-491e-8193-1a85786525c7_readyscr.jpg",
             "children": [],
             "pagePath": "1",
             "pageNestedNum": "1",
@@ -21289,7 +27249,7 @@
           "pages_count": 1,
           "pass_last_changed": "2026-01-05T13:21:57.225Z",
           "phoneWidth": 320,
-          "prevPubVersionId": "695e7e397ac47c3c461c7a2d",
+          "prevPubVersionId": "69665d1af7db65b45bd25dbc",
           "published": "2026-01-07T14:12:49.421Z",
           "selected_for_featured": 0,
           "setForRemoval": false,
@@ -21298,14 +27258,14 @@
           "tags": [],
           "template_num": 4867307,
           "title": "Veliki vodič: Na jednom mjestu donosimo sve što vam je potrebno za ustrajanju kod boljih odluka",
-          "typekit_url": "https://use.typekit.net/ik/Gh132pO5aCzylQv7dsAV0-gcJBTgRpkL0yPPfFUNxyvfeRSJ1SZMIyjUw29aFQjuWDj3F2wtwDiLZWy3da4Xe6MKgeucjab7f6Kgu3wbMg6IJMebMZdq6vCe.js",
-          "updated": "2026-01-09T12:18:09.449Z",
+          "typekit_url": "https://use.typekit.net/ik/5Z9I1g2dHPbkMA_fC2DrZzS2qC3iKFJn3iKqjiBbj-CfeRSJ1SZMIyjUw29aFQjuWDj3F2wtwDiLZWy3da4Xe6MKgeucjab7f6Kgu3wbMg6IJMebMLYfcSCe.js",
+          "updated": "2026-01-13T15:05:08.186Z",
           "uri": "6043837",
-          "usedWidgetTypes": ["background", "text", "shape", "picture"],
+          "usedWidgetTypes": ["background", "text", "shape", "picture", "button"],
           "used_custom_fonts": [],
           "used_google_fonts": [{
             "id": "Inter",
-            "variations": ["n4", "n5"]
+            "variations": ["n4", "n5", "n7"]
           }, {
             "id": "Pinyon Script",
             "variations": ["n4"]
@@ -21338,7 +27298,7 @@
             }
           },
           "version": 2,
-          "widgetAddCounter": 1930,
+          "widgetAddCounter": 2025,
           "hasAnimations": true,
           "usedAnimationTypes": {
             "load": true,
@@ -21346,7 +27306,7 @@
             "scroll": true,
             "click": true
           },
-          "cover": "img/683d850bd2094940857eb894/6043837/Screenshot-eabcac88-df74-4f08-b9de-a3946a7a813b_readyscr.jpg",
+          "cover": "img/683d850bd2094940857eb894/6043837/Screenshot-e4675054-9ce3-491e-8193-1a85786525c7_readyscr.jpg",
           "isInternal": false
         }
       },
@@ -21370,7 +27330,7 @@
         "webtype": "/api/fonts/webtype/css",
         "typetoday": "/api/fonts/typetoday/css",
         "google": [
-          "https://fonts.googleapis.com/css?family=Inter:400,500%7CPinyon Script:400\u0026subset=latin,vietnamese,khmer,cyrillic-ext,greek-ext,greek,devanagari,latin-ext,cyrillic"
+          "https://fonts.googleapis.com/css?family=Inter:400,500,700%7CPinyon Script:400\u0026subset=latin,vietnamese,khmer,cyrillic-ext,greek-ext,greek,devanagari,latin-ext,cyrillic"
         ]
       },
       "featureFlags": {
@@ -21884,6 +27844,6 @@
 
   <?php 
   wp_footer(); ?>
-</body>
+  </body>
 
 </html>
