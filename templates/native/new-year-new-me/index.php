@@ -13,15 +13,15 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="" />
-  <link rel="icon" href="/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144"
-    href="/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-144x144-precomposed.png" />
+    href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-144x144-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114"
-    href="/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-114x114-precomposed.png" />
+    href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-114x114-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" sizes="72x72"
-    href="/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
+    href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
   <link rel="apple-touch-icon-precomposed"
-    href="/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-precomposed.png" />
+    href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-precomposed.png" />
   <link rel="canonical" href="https://www.telegram.hr/super1/native/new-year-new-me-specijal" />
   <meta content="955357184504374" property="fb:app_id" />
   <meta content="website" property="og:type" />
@@ -39,8 +39,8 @@
   <meta
     content="This template is designed with simplicity and style in mind for small businesses. Quickly create clean, engaging landing pages that effectively showcase your products."
     property="og:description" />
-  <base href="/telegram2-desktop/templates/native/new-year-new-me/" />
-  <script type="importmap">{"imports":{"https://st-p.rmcdn1.net/a73f039a/":"/telegram2-desktop/templates/native/new-year-new-me/"}}
+  <base href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/" />
+  <script type="importmap">{"imports":{"https://st-p.rmcdn1.net/a73f039a/":"/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/"}}
   </script>
   <script type="application/json"
     data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/a73f039a/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:true,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;controlsontop&quot;:false,&quot;branding&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;vertical&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;useCustomCursor&quot;:false,&quot;viewerNext&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-0479de1a-e475-4ef0-8d1b-990bd106ac6d&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:140,&quot;lineHeight&quot;:120,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a807&quot;},{&quot;name&quot;:&quot;style-63e2c159-93de-4bae-b2e1-2c707c3e3496&quot;,&quot;label&quot;:&quot;Additional Title [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:400,&quot;fontSize&quot;:140,&quot;lineHeight&quot;:120,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a808&quot;},{&quot;name&quot;:&quot;style-3fc6a961-713d-4d16-876b-265944274099&quot;,&quot;label&quot;:&quot;Main Title [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:100,&quot;lineHeight&quot;:77,&quot;letterSpacing&quot;:-8,&quot;color&quot;:&quot;0059FF64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a809&quot;},{&quot;name&quot;:&quot;style-2e8a6aaf-12c5-42e0-81e5-f6bcce9e2ee6&quot;,&quot;label&quot;:&quot;H2 [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:21,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:-1,&quot;lineHeight&quot;:27,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80a&quot;},{&quot;name&quot;:&quot;style-91ebaf28-0647-4a25-b1bf-ac4144f7fdc2&quot;,&quot;label&quot;:&quot;P2_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:10,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80b&quot;},{&quot;name&quot;:&quot;style-8032de4f-a5ba-4f3f-9b13-fea03df35c70&quot;,&quot;label&quot;:&quot;P2 [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80c&quot;},{&quot;name&quot;:&quot;style-b84cc6c3-1ad7-412e-9086-2d04a792abbd&quot;,&quot;label&quot;:&quot;Tag_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80d&quot;},{&quot;name&quot;:&quot;style-d79b70f0-4399-4753-8847-75d0d693bc16&quot;,&quot;label&quot;:&quot;P3 [Desktop]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80e&quot;},{&quot;name&quot;:&quot;style-57093e5e-1bd0-46e9-a91b-5dbaffe67d81&quot;,&quot;label&quot;:&quot;P3 [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:9,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:10,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80f&quot;},{&quot;name&quot;:&quot;style-60f846ab-d880-4d89-99f9-754cc2421498&quot;,&quot;label&quot;:&quot;P3_Right Alignment [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;right&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;none&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a810&quot;},{&quot;name&quot;:&quot;style-79dd55dc-695b-4300-b416-4d694b4468e9&quot;,&quot;label&quot;:&quot;Main Title [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:53,&quot;lineHeight&quot;:50,&quot;letterSpacing&quot;:-4,&quot;color&quot;:&quot;0059FF64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a811&quot;},{&quot;name&quot;:&quot;style-4edfa2be-3dc6-46c1-8c35-ccf599f20751&quot;,&quot;label&quot;:&quot;Additional Title [Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;Pinyon Script&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:63,&quot;lineHeight&quot;:70,&quot;color&quot;:&quot;E9EAEC64&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textShadow&quot;:&quot;0px 0px 10px rgba(0, 89, 255, 1)&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a812&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;695bbaf68e8e35707806a815&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;}]},&quot;viewport_phone_portrait&quot;:{&quot;opts&quot;:{&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;projectinfo&quot;:false,&quot;lqip&quot;:false}},&quot;_id&quot;:&quot;695e69e1127591667a31bb19&quot;,&quot;num_id&quot;:6043837,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;copyStatus&quot;:&quot;finished&quot;,&quot;coverPid&quot;:&quot;695bbaf58e8e35707806a6e3&quot;,&quot;creation_date&quot;:&quot;2026-01-05T13:21:57.225Z&quot;,&quot;description&quot;:&quot;This template is designed with simplicity and style in mind for small businesses. Quickly create clean, engaging landing pages that effectively showcase your products.&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;,&quot;n7&quot;],&quot;hidden&quot;:false},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Pinyon Script&quot;,&quot;name&quot;:&quot;Pinyon Script&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:true,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-01-28T12:48:44.493Z&quot;,&quot;last_published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;695bbaf58e8e35707806a6e3&quot;,&quot;mid&quot;:&quot;695bbaf58e8e35707806a6de&quot;,&quot;num&quot;:1,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:5973,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:true,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;height&quot;:16054,&quot;type&quot;:&quot;scroll&quot;,&quot;screenshot&quot;:&quot;https://c-p.rmcdn1.net/683d850bd2094940857eb894/6043837/Screenshot-d666f280-8415-4e80-a89a-2bcfb55c04d0.jpg&quot;},&quot;arrows_color&quot;:&quot;black&quot;,&quot;num_id&quot;:28644315,&quot;parentPage&quot;:null,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6043837/Screenshot-5581463e-7638-4be4-803a-55d8684e3f1a_readyscr.jpg&quot;,&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-01-05T13:21:57.225Z&quot;,&quot;phoneWidth&quot;:320,&quot;prevPubVersionId&quot;:&quot;69665f24619cf72a116fd901&quot;,&quot;published&quot;:&quot;2026-01-07T14:12:49.421Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;template_num&quot;:4867307,&quot;title&quot;:&quot;Veliki vodič: Na jednom mjestu donosimo sve što vam je potrebno za ustrajanju kod boljih odluka&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/hjzEDPF9IXoOeZbxBUelEXf0yCoVOhO093RokZhdJatfeRSJ1SZMIyjUw29aFQjuWDj3F2wtwDiLZWy3da4Xe6MKgeucjab7f6Kgu3wbMg6IJMebM-VAEwCe.js&quot;,&quot;updated&quot;:&quot;2026-01-28T12:48:46.069Z&quot;,&quot;uri&quot;:&quot;6043837&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;text&quot;,&quot;shape&quot;,&quot;picture&quot;,&quot;button&quot;],&quot;used_custom_fonts&quot;:[],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;,&quot;n7&quot;]},{&quot;id&quot;:&quot;Pinyon Script&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;used_typekit_fonts&quot;:[{&quot;id&quot;:&quot;mfct&quot;,&quot;variations&quot;:[&quot;n4&quot;]}],&quot;used_typetoday_fonts&quot;:[],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Telegram media grupa d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:2189,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true,&quot;click&quot;:true},&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6043837/Screenshot-5581463e-7638-4be4-803a-55d8684e3f1a_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/new-year-new-me-specijal&quot;}"
@@ -37214,11 +37214,11 @@
         "action_end": "2014-08-27 00:00 GMT+0400",
         "RECAPTCHA_SITEKEY": "6Ld0r_cZAAAAAFKkweesCokUIuWgfYUIORFV0Xfj",
         "favicon": {
-          "default": "/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/favicon.ico",
-          "touch": "/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-precomposed.png",
-          "touch_144": "/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-144x144-precomposed.png",
-          "touch_114": "/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-114x114-precomposed.png",
-          "touch_72": "/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-72x72-precomposed.png"
+          "default": "/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/favicon.ico",
+          "touch": "/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-precomposed.png",
+          "touch_144": "/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-144x144-precomposed.png",
+          "touch_114": "/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-114x114-precomposed.png",
+          "touch_72": "/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/img/favicons/apple-touch-icon-72x72-precomposed.png"
         },
         "GA_ID": "UA-110571495-2",
         "GA_ID_PUBLIC": "UA-33458420-1",
@@ -37354,231 +37354,231 @@
       event: []
     })
   </script>
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-V3753YL2.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-44RABM6N.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Q2GAX5QS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TLIQXGSC.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RL3MEJA3.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-I5UEBBYJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JRV5LBSA.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7FRLMYOI.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HUX4MYNG.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-FZZOAZZC.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-EZ3UKZYQ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RM6XHA77.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3NWKXC4R.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UC5RJA5K.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3ILIQPYQ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KULLIKS3.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KVFHGYUT.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-35T5RZSW.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DFXOWWB5.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2ZFV3MOY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-EZQGW2W7.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ZL7OO32T.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YKDQZTSZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ZVZ2ZRUC.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KZWDIOHE.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GZGYGMOV.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PD4UAKIU.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-5AXNPT2S.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-S5RN7ULW.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ES7YL6LM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NMLZYXXZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IS7S7WI7.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-22IIJJYK.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2KYSHYEO.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OQZ3QKKP.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XKHOR56P.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QQBLUCNX.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YCIA3SLU.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UDSPU76R.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CTL434DJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-M7K3T7OB.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QGW6N42R.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MYLRKBDH.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-676V2M7K.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BTE6HMNB.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-LG3UAKRJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WMFBQMRF.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HQRCSEC7.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XPJ564YM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BRC7FPPD.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YHZ72BYL.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CS2U7AM3.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BGKV6RLP.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OHA6FA7R.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-VOE5YJDG.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TFYAWUED.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-S3BOEIV5.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7PSPAHXV.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-45HHZRDM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-J6MUXWNJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MBNAJ5LF.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YJFWHPHP.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IE4RAQKS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-VVIPX4B7.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ENOARINX.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-K43CK7SW.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Q7NMNCXZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MSPFPWRI.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6OIVBY6X.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-FTD6QURR.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6ERP477E.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-C6RGKAO2.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Z75V5AX6.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-LXEMPNRH.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BLPORWUA.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-V77YL4TJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QUNSZY5S.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-U3RLNFLG.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-M5NBE4HM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IP5DQ6WN.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-K6ESNRTG.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XOGAIYIZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SWXBLKWX.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-5FI3CBVM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RFK2UXGR.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-22G7HR2F.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YZUEIK6W.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SKXL3B3O.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-W5DBWZNN.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GIYQ7YE3.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WNVVAS5O.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-APSJWHRC.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3ULCVFKS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2HUMH4JS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HPI4DDAZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-L7MY7O2A.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7I5VDPFA.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SVADSGO7.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MYBEK5X4.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-55WO6HYX.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4YUTED2R.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DIZUIFEF.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7UHH6XJJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IGVF3XR4.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7R5NBA2Q.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WJEGI22B.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JTG27QY3.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DV6W7EO6.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ILKAX2S7.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JOQTGV3P.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PTX6UUYZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OITPJ5J6.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-I3YGBZHY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PKZQDBXJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7M2KI46G.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-LRJLQ4VB.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JD6LSBIX.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PAF4JLNQ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SD7GUS75.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-USZEENZI.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RDJMWWKZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-C5E3GMCI.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DN4LKNE6.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3K6IPNF3.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-L7UUB6J4.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KWPCCIBH.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KZYURJAY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4P6OYLKS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CGHCECQZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-W6FVUFW5.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KSHL4RRL.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6D3US73U.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YD2WLRRD.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CNF2ZI5Y.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JBCWAMZN.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WY5F6XJZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GJTA6UIQ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JBS3OPC6.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-R3KODHPG.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6PLOQEHS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-H72S65FM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-AVBBTX5A.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DZ323ZII.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KXFSRN4V.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BWOYE7KN.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-N2N56KWX.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QMAHGVEM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-A2CBA4ZK.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NT7T2XYW.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-M2FPHHKV.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-D74IID3M.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-5NYNRB6M.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XIO365L2.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HN6XVE6M.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GRVQYDGF.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-53S7U75X.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UB47ZBQH.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4PUYLBL7.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IG2XVZ4N.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BRUAJOQS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DQIBVJ4V.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CSPFXCV3.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TG3BFG2A.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7Q7J5HCR.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6YAJUOZY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ILDEWPAW.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ACSI6JNN.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ILETJUYB.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TDVIXJXD.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-AADWN4SY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DUA6YPDB.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TRDOONH6.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KRDFDPV2.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PDIGKTON.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WVS7DF7T.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XNCCI62L.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NKNEWXSE.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UFLEVI23.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BCFPVZY5.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2XI22CFC.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Q4GXK36C.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-O7RCY4AC.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-46M7XGNB.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BZBM3RGF.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IHV4NJLL.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CX4RUKXN.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YGTHB44R.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OZX3GOQR.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7GUMBYUY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GFGJ7BZN.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3R2H6YR4.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QS2E5CKV.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PLV7KT64.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UDN4DHCD.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-23PR7R7Z.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-FJFWO5F6.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DB72IIRW.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3PVY5TKH.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GKPKLNOV.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BWQ7233A.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-INYQ7H3Z.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TNMCYDBM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-L4ESX3VY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7KTWDAGW.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3JH2UELP.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JMCMSGET.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TU5FLJJJ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-I2UDVB45.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6NBOWTHM.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-AQ4D23FY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4KO5TTPX.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4XCQ35SL.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-P5VY3ODH.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-A2N4PRFY.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-F4CTJCBA.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UR53SLKS.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4RFO2X7V.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NCQNBHNI.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SRDF7MFZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-K2DY5BTO.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BOPLR5BR.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-G6RH5JGC.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RRXSC7ZZ.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-VS7ETEKD.js" rel="modulepreload" />
-  <link href="/telegram2-desktop/templates/native/new-year-new-me/dist/viewer.css" rel="stylesheet" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-V3753YL2.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-44RABM6N.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Q2GAX5QS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TLIQXGSC.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RL3MEJA3.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-I5UEBBYJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JRV5LBSA.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7FRLMYOI.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HUX4MYNG.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-FZZOAZZC.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-EZ3UKZYQ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RM6XHA77.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3NWKXC4R.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UC5RJA5K.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3ILIQPYQ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KULLIKS3.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KVFHGYUT.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-35T5RZSW.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DFXOWWB5.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2ZFV3MOY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-EZQGW2W7.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ZL7OO32T.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YKDQZTSZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ZVZ2ZRUC.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KZWDIOHE.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GZGYGMOV.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PD4UAKIU.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-5AXNPT2S.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-S5RN7ULW.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ES7YL6LM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NMLZYXXZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IS7S7WI7.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-22IIJJYK.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2KYSHYEO.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OQZ3QKKP.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XKHOR56P.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QQBLUCNX.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YCIA3SLU.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UDSPU76R.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CTL434DJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-M7K3T7OB.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QGW6N42R.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MYLRKBDH.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-676V2M7K.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BTE6HMNB.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-LG3UAKRJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WMFBQMRF.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HQRCSEC7.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XPJ564YM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BRC7FPPD.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YHZ72BYL.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CS2U7AM3.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BGKV6RLP.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OHA6FA7R.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-VOE5YJDG.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TFYAWUED.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-S3BOEIV5.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7PSPAHXV.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-45HHZRDM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-J6MUXWNJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MBNAJ5LF.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YJFWHPHP.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IE4RAQKS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-VVIPX4B7.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ENOARINX.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-K43CK7SW.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Q7NMNCXZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MSPFPWRI.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6OIVBY6X.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-FTD6QURR.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6ERP477E.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-C6RGKAO2.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Z75V5AX6.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-LXEMPNRH.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BLPORWUA.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-V77YL4TJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QUNSZY5S.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-U3RLNFLG.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-M5NBE4HM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IP5DQ6WN.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-K6ESNRTG.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XOGAIYIZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SWXBLKWX.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-5FI3CBVM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RFK2UXGR.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-22G7HR2F.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YZUEIK6W.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SKXL3B3O.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-W5DBWZNN.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GIYQ7YE3.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WNVVAS5O.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-APSJWHRC.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3ULCVFKS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2HUMH4JS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HPI4DDAZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-L7MY7O2A.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7I5VDPFA.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SVADSGO7.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-MYBEK5X4.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-55WO6HYX.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4YUTED2R.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DIZUIFEF.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7UHH6XJJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IGVF3XR4.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7R5NBA2Q.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WJEGI22B.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JTG27QY3.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DV6W7EO6.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ILKAX2S7.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JOQTGV3P.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PTX6UUYZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OITPJ5J6.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-I3YGBZHY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PKZQDBXJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7M2KI46G.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-LRJLQ4VB.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JD6LSBIX.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PAF4JLNQ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SD7GUS75.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-USZEENZI.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RDJMWWKZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-C5E3GMCI.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DN4LKNE6.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3K6IPNF3.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-L7UUB6J4.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KWPCCIBH.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KZYURJAY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4P6OYLKS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CGHCECQZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-W6FVUFW5.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KSHL4RRL.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6D3US73U.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YD2WLRRD.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CNF2ZI5Y.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JBCWAMZN.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WY5F6XJZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GJTA6UIQ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JBS3OPC6.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-R3KODHPG.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6PLOQEHS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-H72S65FM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-AVBBTX5A.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DZ323ZII.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KXFSRN4V.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BWOYE7KN.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-N2N56KWX.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QMAHGVEM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-A2CBA4ZK.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NT7T2XYW.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-M2FPHHKV.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-D74IID3M.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-5NYNRB6M.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XIO365L2.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-HN6XVE6M.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GRVQYDGF.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-53S7U75X.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UB47ZBQH.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4PUYLBL7.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IG2XVZ4N.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BRUAJOQS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DQIBVJ4V.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CSPFXCV3.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TG3BFG2A.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7Q7J5HCR.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6YAJUOZY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ILDEWPAW.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ACSI6JNN.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-ILETJUYB.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TDVIXJXD.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-AADWN4SY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DUA6YPDB.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TRDOONH6.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-KRDFDPV2.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PDIGKTON.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-WVS7DF7T.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-XNCCI62L.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NKNEWXSE.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UFLEVI23.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BCFPVZY5.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-2XI22CFC.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-Q4GXK36C.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-O7RCY4AC.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-46M7XGNB.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BZBM3RGF.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-IHV4NJLL.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-CX4RUKXN.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-YGTHB44R.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-OZX3GOQR.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7GUMBYUY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GFGJ7BZN.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3R2H6YR4.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-QS2E5CKV.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-PLV7KT64.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UDN4DHCD.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-23PR7R7Z.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-FJFWO5F6.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-DB72IIRW.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3PVY5TKH.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-GKPKLNOV.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BWQ7233A.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-INYQ7H3Z.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TNMCYDBM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-L4ESX3VY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-7KTWDAGW.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-3JH2UELP.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-JMCMSGET.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-TU5FLJJJ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-I2UDVB45.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-6NBOWTHM.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-AQ4D23FY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4KO5TTPX.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4XCQ35SL.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-P5VY3ODH.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-A2N4PRFY.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-F4CTJCBA.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-UR53SLKS.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-4RFO2X7V.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-NCQNBHNI.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-SRDF7MFZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-K2DY5BTO.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-BOPLR5BR.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-G6RH5JGC.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-RRXSC7ZZ.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/c/c-VS7ETEKD.js" rel="modulepreload" />
+  <link href="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/viewer.css" rel="stylesheet" />
   <title></title>
 </head>
 
@@ -37629,7 +37629,7 @@
   <div class="popups"></div>
   <div id="tmp"></div>
   <div id="fake" style="position:fixed;opacity:1"></div>
-  <script src="/telegram2-desktop/templates/native/new-year-new-me/dist/viewer.js" type="module"></script>
+  <script src="/wp-content/themes/telegram2-desktop/templates/native/new-year-new-me/dist/viewer.js" type="module"></script>
   <?php wp_footer(); ?>
 </body>
 
