@@ -24,7 +24,9 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@readymag" />
     <meta name="description" content="Built with Readymag—a tool to design anything on the web." />
+    <meta content="Super secret dinner - Lovers edition" property="og:site_name" />
     <meta content="img/683d850bd2094940857eb894/6106967/D-COYYKYVRMtw8kXrG7bE.jpg" property="og:image" />
+    <meta content="Super secret dinner - Lovers edition" property="og:title" />
     <meta content="Built with Readymag—a tool to design anything on the web." property="og:description" />
     <base href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/" />
     <script type="importmap">
