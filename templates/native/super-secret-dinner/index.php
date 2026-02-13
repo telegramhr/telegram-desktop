@@ -11,11 +11,11 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="" />
-    <link rel="icon" href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-144x144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-114x114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-precomposed.png" />
+    <link rel="icon" href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-precomposed.png" />
     <link rel="canonical" href="https://www.telegram.hr/super1/native/super-secret-dinner-lovers-edition" />
     <meta content="955357184504374" property="fb:app_id" />
     <meta content="website" property="og:type" />
@@ -27,9 +27,9 @@
     <meta content="img/683d850bd2094940857eb894/6106967/buTmxoQhzwl1dBvuGSbFQ.jpg" property="og:image" />
     <meta content="Super secret dinner lovers edition: Pripremili smo najljepši spoj za poznate parove s javne scene" property="og:title" />
     <meta content="Built with Readymag—a tool to design anything on the web." property="og:description" />
-    <base href="/super1/native/super-secret-dinner-lovers-edition/" />
+    <base href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/" />
     <script type="importmap">
-        {"imports":{"https://st-p.rmcdn1.net/48c76325/":"/super1/native/super-secret-dinner-lovers-edition/"}}</script>
+        {"imports":{"https://st-p.rmcdn1.net/48c76325/":"/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/"}}</script>
     <script type="application/json" data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/48c76325/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-3253d14a-f7ac-4b7f-a171-a2aadbab33cc&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40a&quot;},{&quot;name&quot;:&quot;style-d29301e0-fa32-4bcd-8f7d-3cb24b4181cd&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40b&quot;},{&quot;name&quot;:&quot;style-eaa61ea0-33e4-4753-972b-b9769670232b&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40c&quot;},{&quot;name&quot;:&quot;style-f2ad667e-7562-47d1-964a-3a60e3fb9a6b&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40d&quot;},{&quot;name&quot;:&quot;style-4daa1d51-aaf9-4525-aee4-95debc637935&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;wtqc&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:16,&quot;lineHeight&quot;:18,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;color&quot;:&quot;f1f1f164&quot;,&quot;textAlign&quot;:&quot;left&quot;},&quot;_id&quot;:&quot;698da27fa376b3bef676e10d&quot;},{&quot;name&quot;:&quot;style-b84cc6c3-1ad7-412e-9086-2d04a792abbd&quot;,&quot;label&quot;:&quot;Tag_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80d&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;697ccd0fd90582656b2c0983&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;FFFFFF64&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;FFFFFF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3fc6abe2-f617-470c-84fe-59afd21f951d&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;698f57300674124804b7b7ec&quot;}]},&quot;_id&quot;:&quot;698f58ec127591667a701acc&quot;,&quot;num_id&quot;:6106967,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;697ccd0d1c5dfa5d7f11d9ef&quot;,&quot;creation_date&quot;:&quot;2026-01-30T15:23:57.812Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;typekit&quot;,&quot;css_name&quot;:&quot;rpnw&quot;,&quot;name&quot;:&quot;Sloop Script Three&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typekit&quot;,&quot;css_name&quot;:&quot;wtqc&quot;,&quot;name&quot;:&quot;Neue Haas Grotesk Text&quot;,&quot;variations&quot;:[&quot;i7&quot;,&quot;n5&quot;,&quot;n4&quot;,&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:true,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-02-13T18:12:43.452Z&quot;,&quot;last_published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;697ccd0d1c5dfa5d7f11d9ef&quot;,&quot;mid&quot;:&quot;697ccd0d1c5dfa5d7f11d9ea&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:15231,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:28967637,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6106967/Screenshot-9602ca07-af70-433c-b301-a89cf002fbff_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn1.net/683d850bd2094940857eb894/6106967/Screenshot-0d5c192b-c6e4-4cb1-a0f2-07f915e53e1a.jpg&quot;,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:17604},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-01-30T10:44:31.583Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/P8sdyxrqFOTyjYKemXvIs-vEDBvy0-oku7VwqJ2j36jfe1qJ1SZMIyjUw29aFQjuWDjUw2joFRiLZWy3da4Xe6MKgYiXSAwKgY43d1S7f6RmlMJbMg6sJMI7f6RPlMJbMg6BJMI7f6RblMJbMg6IJMI7f6R9lMJbMg6YJMI7f6RKE3IbMs6IJMI7f6R6E3IbMs6BJMebMSW3zS3e.js&quot;,&quot;updated&quot;:&quot;2026-02-13T19:14:29.637Z&quot;,&quot;uri&quot;:&quot;6106967&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;text&quot;,&quot;picture&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[{&quot;id&quot;:&quot;wtqc&quot;,&quot;variations&quot;:[&quot;i7&quot;,&quot;n5&quot;,&quot;n4&quot;,&quot;n7&quot;]},{&quot;id&quot;:&quot;rpnw&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typetoday_fonts&quot;:[],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Telegram media grupa d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:266,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;scroll&quot;:true,&quot;hover&quot;:true},&quot;prevPubVersionId&quot;:&quot;698f699d67e96afc0520bc04&quot;,&quot;title&quot;:&quot;Super secret dinner lovers edition: Pripremili smo najljepši spoj za poznate parove s javne scene&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6106967/Screenshot-9602ca07-af70-433c-b301-a89cf002fbff_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/super-secret-dinner-lovers-edition&quot;}"
         id="__RM_PROPS__"></script>
     <script>
@@ -17473,11 +17473,11 @@
                 "action_end": "2014-08-27 00:00 GMT+0400",
                 "RECAPTCHA_SITEKEY": "6Ld0r_cZAAAAAFKkweesCokUIuWgfYUIORFV0Xfj",
                 "favicon": {
-                    "default": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/favicon.ico",
-                    "touch": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-precomposed.png",
-                    "touch_144": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-144x144-precomposed.png",
-                    "touch_114": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-114x114-precomposed.png",
-                    "touch_72": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-72x72-precomposed.png"
+                    "default": "/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/favicon.ico",
+                    "touch": "/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-precomposed.png",
+                    "touch_144": "/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-144x144-precomposed.png",
+                    "touch_114": "/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-114x114-precomposed.png",
+                    "touch_72": "/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-72x72-precomposed.png"
                 },
                 "GA_ID": "UA-110571495-2",
                 "GA_ID_PUBLIC": "UA-33458420-1",
@@ -17613,231 +17613,231 @@
             event: []
         })
     </script>
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-YH6CZ5B4.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WPKZHUJM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QSOQK6Z7.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-D6RUXOTU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Q75STWZF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-AOLS6DVN.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7KVKWDCS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TCLKQBXV.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2FW7OVBZ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-W5WR5ICX.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UYE6AVV7.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3I2LLPDP.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FQBSVKV3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MNO4AWIS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7NCMK7WT.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BWA7P52N.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LTPRQUEJ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7N2NPFTH.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WXKBWF5Z.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3PTCGQ3Z.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-E6AGPT2U.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MUB5PDWU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WCPWHEJX.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QK5JPADK.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3AEU7Q45.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3YR6TOVW.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NMOU3DV4.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-U7TDHHRH.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZX5QXI5B.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZFPMSEPA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZWRRSBSB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2FX5RBAS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LK2GMMSF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BJMBMCKC.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PIA3VVNN.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7RJCESKL.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-KAUZBQQU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JGPX4LNT.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UUGKBEEY.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RWBOF3EG.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-T7W7JA6G.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PSCU3CGO.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4KKKDZUU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NWWPN5R3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-XR5ILHOA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PZT2J6SW.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2PDFZSTG.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EAYG4GE5.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UPPNZFJ3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EHVZ3T5Q.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RW3UW7XA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-W4LKO6UN.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3WIUXCVE.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LFQ7A4DZ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EJWAUTGJ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DHZZECBC.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BPRM25ZY.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-A2RDO2YB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FBD55NS2.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UKHDPCXM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PCPL6S4Z.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-KVSSXCFM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3RWVMTYA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-65V5XY44.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-M3BEJC5F.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-64UJZDKS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LD36TX2E.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3ZVAFXWU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-B7GKUHRW.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7NMEOPZS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-GVQ6MRFY.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3U6SJJG6.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FDSNH3V4.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-YGX3JY45.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-L6T7MAVA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-V6HTT2UC.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VZTWOV4R.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TJPJE35J.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Q4TNVZEG.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EDSAF7OD.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NRYJJGYD.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VAKSIG7P.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5RZPW5L3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-GH6RE74P.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6B5CKHR3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MQMHAYYW.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VGGACHHA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-D3FGFTCZ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-426PHCTE.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QDSIUML5.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SHVRI7A7.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5NRXN4B4.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BK5TZW42.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PCAKSPYD.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-J3LFCJHH.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-36KXHDSL.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VUTAOE6R.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HW565U4A.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZTDB6KNR.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4QAG4GZ5.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ROQC5RGX.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JODYMTJD.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DV2HUPLA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RRB6BZAQ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-42XPFZ53.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-GD3FZ64A.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7QLXPFCQ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SM7LDNCB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6PX7HWUY.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BNRWA5F3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5LPEDBVE.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4UVA6U7S.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-CJLLQ5D5.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UWPKRWXN.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DWQVYOEG.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MEWMG23P.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-L42AZHR2.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DDCTITDZ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VACYYHQE.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7QOV3UZJ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ATRCXUT5.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6255PQGQ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PM6O5RH2.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-A3LR6RBE.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ELPJ6HPQ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MGBLUEYK.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BHPDHD23.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HUNT5B6B.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5SOV5YMM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HJIIAQOR.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SALF7RGD.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OX6F5MWU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-POBQO5ST.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-22QCWIVF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QFPFK3KX.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RXKQBVMA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4FRMWQ7Y.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-42VVCDKE.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7U3NYBNN.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SKKLDM3L.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IULTFZE7.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4SZUADYI.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PDZQEHAW.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DP76KV4Y.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3HKLYHUM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ARBR5G7A.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OEMKK6F4.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JDPXJ6GH.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MLR2C5MC.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZLTHOMKJ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7TPVNNJP.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-CABWCIE5.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7EQSQNJW.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OFU2WYMF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JLY4PYRT.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JPB3IGPV.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4BFIPCU2.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MVWIW6SW.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2PG3OUFM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QRLRBJ2Y.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UOD4W366.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IUOSCDHB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BSX266TA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6BH67OIY.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EOBVBVZS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QA6HZWJM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-XAZMPAON.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Q7VMCRBT.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-X555FQY2.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WEDDIDOV.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-V3AVQAZU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-F2PPUXH3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-R4NZRJLK.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WHHR5QP6.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FEB7IILU.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FYSFYQHJ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EWSQPCBF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5YGJAT3N.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MX3M4XZP.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6GTBCJJT.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JA5AH5CO.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TLBHRECK.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EA5XZB7K.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NAVFV73C.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3VJ2F5FS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NOMHMGXF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BAP4GOX6.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WDZSCORS.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6NVKDNL3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6P2MGP4O.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RL4U7KYF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-S76AN7E6.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-XOJOFWCF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PCKQE4H6.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QPYRTBEZ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BTBTAD54.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SVW2MVIB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Y3UA2RFP.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-U53EDRXF.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-W6EDHDWC.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-CN6XE55Z.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7AW3M6CX.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZN5SNBX3.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-YYSCEFXY.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JKFQ2YNB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7XBOEV4N.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IPQVYBCD.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TMLPGMFB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FWGYPSEB.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QWBW4QPA.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Z3KUQ4CI.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NL6AXKH4.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OLU3QM67.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TGDUAILC.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IE7MH25S.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WRE5UMJC.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HWIVU3SM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-264YAWXH.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JNAQHFYJ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3AYHYDWE.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WM46W4LZ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NV6PXSG6.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6W6RPEGM.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LJMXB6NJ.js" rel="modulepreload" />
-    <link href="/super1/native/super-secret-dinner-lovers-edition/dist/viewer.css" rel="stylesheet" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-YH6CZ5B4.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WPKZHUJM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QSOQK6Z7.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-D6RUXOTU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Q75STWZF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-AOLS6DVN.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7KVKWDCS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TCLKQBXV.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2FW7OVBZ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-W5WR5ICX.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UYE6AVV7.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3I2LLPDP.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FQBSVKV3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MNO4AWIS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7NCMK7WT.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BWA7P52N.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LTPRQUEJ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7N2NPFTH.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WXKBWF5Z.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3PTCGQ3Z.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-E6AGPT2U.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MUB5PDWU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WCPWHEJX.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QK5JPADK.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3AEU7Q45.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3YR6TOVW.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NMOU3DV4.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-U7TDHHRH.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZX5QXI5B.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZFPMSEPA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZWRRSBSB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2FX5RBAS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LK2GMMSF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BJMBMCKC.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PIA3VVNN.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7RJCESKL.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-KAUZBQQU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JGPX4LNT.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UUGKBEEY.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RWBOF3EG.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-T7W7JA6G.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PSCU3CGO.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4KKKDZUU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NWWPN5R3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-XR5ILHOA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PZT2J6SW.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2PDFZSTG.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EAYG4GE5.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UPPNZFJ3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EHVZ3T5Q.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RW3UW7XA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-W4LKO6UN.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3WIUXCVE.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LFQ7A4DZ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EJWAUTGJ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DHZZECBC.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BPRM25ZY.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-A2RDO2YB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FBD55NS2.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UKHDPCXM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PCPL6S4Z.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-KVSSXCFM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3RWVMTYA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-65V5XY44.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-M3BEJC5F.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-64UJZDKS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LD36TX2E.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3ZVAFXWU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-B7GKUHRW.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7NMEOPZS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-GVQ6MRFY.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3U6SJJG6.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FDSNH3V4.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-YGX3JY45.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-L6T7MAVA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-V6HTT2UC.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VZTWOV4R.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TJPJE35J.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Q4TNVZEG.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EDSAF7OD.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NRYJJGYD.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VAKSIG7P.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5RZPW5L3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-GH6RE74P.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6B5CKHR3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MQMHAYYW.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VGGACHHA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-D3FGFTCZ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-426PHCTE.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QDSIUML5.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SHVRI7A7.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5NRXN4B4.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BK5TZW42.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PCAKSPYD.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-J3LFCJHH.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-36KXHDSL.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VUTAOE6R.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HW565U4A.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZTDB6KNR.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4QAG4GZ5.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ROQC5RGX.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JODYMTJD.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DV2HUPLA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RRB6BZAQ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-42XPFZ53.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-GD3FZ64A.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7QLXPFCQ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SM7LDNCB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6PX7HWUY.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BNRWA5F3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5LPEDBVE.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4UVA6U7S.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-CJLLQ5D5.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UWPKRWXN.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DWQVYOEG.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MEWMG23P.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-L42AZHR2.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DDCTITDZ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VACYYHQE.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7QOV3UZJ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ATRCXUT5.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6255PQGQ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PM6O5RH2.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-A3LR6RBE.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ELPJ6HPQ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MGBLUEYK.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BHPDHD23.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HUNT5B6B.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5SOV5YMM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HJIIAQOR.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SALF7RGD.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OX6F5MWU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-POBQO5ST.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-22QCWIVF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QFPFK3KX.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RXKQBVMA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4FRMWQ7Y.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-42VVCDKE.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7U3NYBNN.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SKKLDM3L.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IULTFZE7.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4SZUADYI.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PDZQEHAW.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DP76KV4Y.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3HKLYHUM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ARBR5G7A.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OEMKK6F4.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JDPXJ6GH.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MLR2C5MC.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZLTHOMKJ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7TPVNNJP.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-CABWCIE5.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7EQSQNJW.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OFU2WYMF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JLY4PYRT.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JPB3IGPV.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4BFIPCU2.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MVWIW6SW.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2PG3OUFM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QRLRBJ2Y.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UOD4W366.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IUOSCDHB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BSX266TA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6BH67OIY.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EOBVBVZS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QA6HZWJM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-XAZMPAON.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Q7VMCRBT.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-X555FQY2.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WEDDIDOV.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-V3AVQAZU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-F2PPUXH3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-R4NZRJLK.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WHHR5QP6.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FEB7IILU.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FYSFYQHJ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EWSQPCBF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5YGJAT3N.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MX3M4XZP.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6GTBCJJT.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JA5AH5CO.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TLBHRECK.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EA5XZB7K.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NAVFV73C.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3VJ2F5FS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NOMHMGXF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BAP4GOX6.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WDZSCORS.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6NVKDNL3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6P2MGP4O.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RL4U7KYF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-S76AN7E6.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-XOJOFWCF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PCKQE4H6.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QPYRTBEZ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BTBTAD54.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SVW2MVIB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Y3UA2RFP.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-U53EDRXF.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-W6EDHDWC.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-CN6XE55Z.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7AW3M6CX.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZN5SNBX3.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-YYSCEFXY.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JKFQ2YNB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7XBOEV4N.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IPQVYBCD.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TMLPGMFB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FWGYPSEB.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QWBW4QPA.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Z3KUQ4CI.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NL6AXKH4.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OLU3QM67.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TGDUAILC.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IE7MH25S.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WRE5UMJC.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HWIVU3SM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-264YAWXH.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JNAQHFYJ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3AYHYDWE.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WM46W4LZ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NV6PXSG6.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6W6RPEGM.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LJMXB6NJ.js" rel="modulepreload" />
+    <link href="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/viewer.css" rel="stylesheet" />
     <title></title>
 </head>
 
@@ -17888,7 +17888,7 @@
     <div class="popups"></div>
     <div id="tmp"></div>
     <div id="fake" style="position:fixed;opacity:1"></div>
-    <script src="/super1/native/super-secret-dinner-lovers-edition/dist/viewer.js" type="module"></script>
+    <script src="/super1/native/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/viewer.js" type="module"></script>
     <?php wp_footer(); ?>
 </body>
 
