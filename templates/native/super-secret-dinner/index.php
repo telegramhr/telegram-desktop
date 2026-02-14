@@ -10116,7 +10116,7 @@
               "autosize": true,
               "blocks": [{
                 "key": "a47pi",
-                "text": "Daria Lorenci Flatz i  Emil Flatz",
+                "text": "DARIA LORENCI FLATZ I EMIL FLATZ",
                 "entityRanges": [],
                 "depth": 0
               }],
