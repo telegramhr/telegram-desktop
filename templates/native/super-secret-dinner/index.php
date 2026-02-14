@@ -8865,7 +8865,7 @@
               "autosize": true,
               "blocks": [{
                 "key": "8h8sr",
-                "text": "Po dolasku na event, goste je dočekalo je piće dobrodošlice, lagani i svježi pjenušac Piena, domaći pjenušac vinarije Dobra Berba, nastao od hrvatskih sorti grožđa. Bio je to savršen uvod u večer: elegantan, lepršav i dovoljno razigran da potakne prve osmijehe i razgovore. Tijekom tog početnog druženja parovi su spontano minglali, razmjenjivali dojmove i uživali u pjenušcu, dok je atmosferu dodatno podizao glazbeni odabir za koji je čitavu večer bio zadužen DJ Andro Babić iz Glazbene kuhinje. Među uzvanicima pronašli su se Antonija Blaće i Hrvoje Brlečić, Nevena Rendeli Vejzović i Mak Vejzović, Petra Kuljiš i Noel Reškovac, Darie Lorenci i Emil Flatz i drugi.",
+                "text": "Po dolasku na event, goste je dočekalo je piće dobrodošlice, lagani i svježi pjenušac Piena, domaći pjenušac vinarije Dobra Berba, nastao od hrvatskih sorti grožđa. Bio je to savršen uvod u večer: elegantan, lepršav i dovoljno razigran da potakne prve osmijehe i razgovore. Tijekom tog početnog druženja parovi su spontano minglali, razmjenjivali dojmove i uživali u pjenušcu, dok je atmosferu dodatno podizao glazbeni odabir za koji je čitavu večer bio zadužen DJ Andro Babić iz Glazbene kuhinje. Među uzvanicima pronašli su se Antonija Blaće i Hrvoje Brlečić, Nevena Rendeli Vejzović i Mak Vejzović, Petra Kuljiš i Noel Reškovac, Darie Lorenci Flatz i Emil Flatz i drugi.",
                 "entityRanges": [{
                   "offset": 86,
                   "length": 5,
@@ -10116,7 +10116,7 @@
               "autosize": true,
               "blocks": [{
                 "key": "a47pi",
-                "text": "Daria Lorenci i  Emil Platz",
+                "text": "Daria Lorenci Flatz i  Emil Flatz",
                 "entityRanges": [],
                 "depth": 0
               }],
@@ -16794,7 +16794,7 @@
               "autosize": true,
               "blocks": [{
                 "key": "a47pi",
-                "text": "Adrian Pezdrić i  Luka Šen",
+                "text": "Adrian Pezdirc i  Luka Šen",
                 "entityRanges": [],
                 "depth": 0
               }],
