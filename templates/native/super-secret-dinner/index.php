@@ -6,23 +6,23 @@
   <meta charSet="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Readymag" data-project="6106967" data-user="u275768050" data-is-exported="true"
-    data-exported-at="1771228885486" />
+    data-exported-at="1771234476913" />
   <meta name="referrer" content="always" />
   <meta name="viewport" id="viewport"
     content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,minimal-ui" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="" />
-  <link rel="icon" href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/favicon.ico"
+  <link rel="icon" href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/favicon.ico"
     type="image/x-icon" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144"
-    href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-144x144-precomposed.png" />
+    href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-144x144-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114"
-    href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-114x114-precomposed.png" />
+    href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-114x114-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" sizes="72x72"
-    href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
+    href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
   <link rel="apple-touch-icon-precomposed"
-    href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-precomposed.png" />
+    href="/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-precomposed.png" />
   <link rel="canonical" href="https://www.telegram.hr/super1/native/super-secret-dinner-lovers-edition" />
   <meta content="955357184504374" property="fb:app_id" />
   <meta content="website" property="og:type" />
@@ -32,15 +32,15 @@
   <meta name="description" content="Built with Readymag—a tool to design anything on the web." />
   <meta content="Super secret dinner lovers edition: Pripremili smo najljepši spoj za poznate parove s javne scene"
     property="og:site_name" />
-  <meta content="img/683d850bd2094940857eb894/6106967/pIo72_ajtEniQMZXZwUw1.jpg" property="og:image" />
+  <meta content="img/683d850bd2094940857eb894/6106967/x2cUL48xWfR4IA8rGaRHK.jpg" property="og:image" />
   <meta content="Super secret dinner lovers edition: Pripremili smo najljepši spoj za poznate parove s javne scene"
     property="og:title" />
   <meta content="Built with Readymag—a tool to design anything on the web." property="og:description" />
-  <base href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/" />
+  <base href="/super1/native/super-secret-dinner-lovers-edition/" />
   <script type="importmap">
-    {"imports":{"https://st-p.rmcdn1.net/48c76325/":"/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/"}}</script>
+    {"imports":{"https://st-p.rmcdn1.net/48c76325/":"/super1/native/super-secret-dinner-lovers-edition/"}}</script>
   <script type="application/json"
-    data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/48c76325/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-3253d14a-f7ac-4b7f-a171-a2aadbab33cc&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40a&quot;},{&quot;name&quot;:&quot;style-d29301e0-fa32-4bcd-8f7d-3cb24b4181cd&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40b&quot;},{&quot;name&quot;:&quot;style-eaa61ea0-33e4-4753-972b-b9769670232b&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40c&quot;},{&quot;name&quot;:&quot;style-f2ad667e-7562-47d1-964a-3a60e3fb9a6b&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40d&quot;},{&quot;name&quot;:&quot;style-4daa1d51-aaf9-4525-aee4-95debc637935&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;wtqc&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:16,&quot;lineHeight&quot;:18,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;color&quot;:&quot;f1f1f164&quot;,&quot;textAlign&quot;:&quot;left&quot;},&quot;_id&quot;:&quot;698da27fa376b3bef676e10d&quot;},{&quot;name&quot;:&quot;style-b84cc6c3-1ad7-412e-9086-2d04a792abbd&quot;,&quot;label&quot;:&quot;Tag_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80d&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;697ccd0fd90582656b2c0983&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;FFFFFF64&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;FFFFFF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3fc6abe2-f617-470c-84fe-59afd21f951d&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;698f57300674124804b7b7ec&quot;}]},&quot;_id&quot;:&quot;698f58ec127591667a701acc&quot;,&quot;num_id&quot;:6106967,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;697ccd0d1c5dfa5d7f11d9ef&quot;,&quot;creation_date&quot;:&quot;2026-01-30T15:23:57.812Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;typekit&quot;,&quot;css_name&quot;:&quot;rpnw&quot;,&quot;name&quot;:&quot;Sloop Script Three&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typekit&quot;,&quot;css_name&quot;:&quot;wtqc&quot;,&quot;name&quot;:&quot;Neue Haas Grotesk Text&quot;,&quot;variations&quot;:[&quot;i7&quot;,&quot;n5&quot;,&quot;n4&quot;,&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:true,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-02-15T20:28:52.368Z&quot;,&quot;last_published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;697ccd0d1c5dfa5d7f11d9ef&quot;,&quot;mid&quot;:&quot;697ccd0d1c5dfa5d7f11d9ea&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:14966,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:28967637,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6106967/Screenshot-7d483d31-f5f4-47c4-af25-e31cab9e9c72_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn1.net/683d850bd2094940857eb894/6106967/Screenshot-9cfdb0b0-5e99-4d9b-8e4b-8c9e3378dfe3.jpg&quot;,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:17092},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-01-30T10:44:31.583Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/69hrn2cj1MulZfHaVrWyY4bcSiyKpW1hcYis9NZFilbfe1qJ1SZMIyjUw29aFQjuWDjUw2joFRiLZWy3da4Xe6MKgYiXSAwKgY43d1S7f6RmlMJbMg6sJMI7f6RPlMJbMg6BJMI7f6RblMJbMg6IJMI7f6R9lMJbMg6YJMI7f6RKE3IbMs6IJMI7f6R6E3IbMs6BJMebMS-ikv3e.js&quot;,&quot;updated&quot;:&quot;2026-02-15T20:28:53.044Z&quot;,&quot;uri&quot;:&quot;6106967&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;text&quot;,&quot;picture&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[{&quot;id&quot;:&quot;wtqc&quot;,&quot;variations&quot;:[&quot;i7&quot;,&quot;n5&quot;,&quot;n4&quot;,&quot;n7&quot;]},{&quot;id&quot;:&quot;rpnw&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typetoday_fonts&quot;:[],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Telegram media grupa d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:272,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;scroll&quot;:true,&quot;hover&quot;:true},&quot;prevPubVersionId&quot;:&quot;6990794510819a9ec60d3754&quot;,&quot;title&quot;:&quot;Super secret dinner lovers edition: Pripremili smo najljepši spoj za poznate parove s javne scene&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6106967/Screenshot-7d483d31-f5f4-47c4-af25-e31cab9e9c72_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/super-secret-dinner-lovers-edition&quot;}"
+    data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/48c76325/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-3253d14a-f7ac-4b7f-a171-a2aadbab33cc&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40a&quot;},{&quot;name&quot;:&quot;style-d29301e0-fa32-4bcd-8f7d-3cb24b4181cd&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40b&quot;},{&quot;name&quot;:&quot;style-eaa61ea0-33e4-4753-972b-b9769670232b&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40c&quot;},{&quot;name&quot;:&quot;style-f2ad667e-7562-47d1-964a-3a60e3fb9a6b&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;697ccd0fb7048c611c86f40d&quot;},{&quot;name&quot;:&quot;style-4daa1d51-aaf9-4525-aee4-95debc637935&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;fontFamily&quot;:&quot;wtqc&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontSize&quot;:16,&quot;lineHeight&quot;:18,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;color&quot;:&quot;f1f1f164&quot;,&quot;textAlign&quot;:&quot;left&quot;},&quot;_id&quot;:&quot;698da27fa376b3bef676e10d&quot;},{&quot;name&quot;:&quot;style-b84cc6c3-1ad7-412e-9086-2d04a792abbd&quot;,&quot;label&quot;:&quot;Tag_Caps [Desktop + Mobile]&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;0059ff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:8,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:9,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 572, &#x27;wght&#x27; 572&quot;,&quot;textTransform&quot;:&quot;uppercase&quot;},&quot;_id&quot;:&quot;695bbaf68e8e35707806a80d&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;697ccd0fd90582656b2c0983&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;FFFFFF64&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;FFFFFF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3fc6abe2-f617-470c-84fe-59afd21f951d&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;698f57300674124804b7b7ec&quot;}]},&quot;_id&quot;:&quot;698f58ec127591667a701acc&quot;,&quot;num_id&quot;:6106967,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;697ccd0d1c5dfa5d7f11d9ef&quot;,&quot;creation_date&quot;:&quot;2026-01-30T15:23:57.812Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;],&quot;hidden&quot;:true},{&quot;provider&quot;:&quot;typekit&quot;,&quot;css_name&quot;:&quot;rpnw&quot;,&quot;name&quot;:&quot;Sloop Script Three&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typekit&quot;,&quot;css_name&quot;:&quot;wtqc&quot;,&quot;name&quot;:&quot;Neue Haas Grotesk Text&quot;,&quot;variations&quot;:[&quot;i7&quot;,&quot;n5&quot;,&quot;n4&quot;,&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:true,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-02-16T09:33:07.280Z&quot;,&quot;last_published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;697ccd0d1c5dfa5d7f11d9ef&quot;,&quot;mid&quot;:&quot;697ccd0d1c5dfa5d7f11d9ea&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:14966,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:28967637,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6106967/Screenshot-7c2ba9dc-010d-4db7-be34-39b6bf615350_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn1.net/683d850bd2094940857eb894/6106967/Screenshot-d1e17af6-3006-4874-b5ac-831ca5f50a02.jpg&quot;,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:16710},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-01-30T10:44:31.583Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-02-13T17:01:32.785Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/iaIsEvqSIP-GE5PKZqljSokyE6cWd3KTSbu6MnHs1Ybfe1qJ1SZMIyjUw29aFQjuWDjUw2joFRiLZWy3da4Xe6MKgYiXSAwKgY43d1S7f6RmlMJbMg6sJMI7f6RPlMJbMg6BJMI7f6RblMJbMg6IJMI7f6R9lMJbMg6YJMI7f6RKE3IbMs6IJMI7f6R6E3IbMs6BJMebM-L4kv3e.js&quot;,&quot;updated&quot;:&quot;2026-02-16T09:33:08.227Z&quot;,&quot;uri&quot;:&quot;6106967&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;text&quot;,&quot;picture&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[{&quot;id&quot;:&quot;wtqc&quot;,&quot;variations&quot;:[&quot;i7&quot;,&quot;n5&quot;,&quot;n4&quot;,&quot;n7&quot;]},{&quot;id&quot;:&quot;rpnw&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typetoday_fonts&quot;:[],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Telegram media grupa d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:284,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;scroll&quot;:true,&quot;hover&quot;:true},&quot;prevPubVersionId&quot;:&quot;69922c85df14543ec1ee8a88&quot;,&quot;title&quot;:&quot;Super secret dinner lovers edition: Pripremili smo najljepši spoj za poznate parove s javne scene&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6106967/Screenshot-7c2ba9dc-010d-4db7-be34-39b6bf615350_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/super-secret-dinner-lovers-edition&quot;}"
     id="__RM_PROPS__"></script>
   <script>
     var RM = window.RM = window.RM || {};
@@ -442,7 +442,7 @@
           "is_mag_use_page_order": true,
           "is_private": false,
           "is_published": true,
-          "last_changed": "2026-02-15T20:28:52.368Z",
+          "last_changed": "2026-02-16T09:33:07.280Z",
           "last_published": "2026-02-13T17:01:32.785Z",
           "likers": [],
           "master_share_pid": null,
@@ -1566,12 +1566,12 @@
               "originalW": 990,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/0-tuKx1jaj65DaNeNDs23.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/GzZrWSA2Q7NEAtdkY84kC.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-7f5d2625-9124-42df-88af-3afdf99f0798.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/_gxAUcO5y9z_0AvWmRfTc.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/nRmIqMPunAAmwYaPz-9rm.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/_gxAUcO5y9z_0AvWmRfTc.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/0-tuKx1jaj65DaNeNDs23.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/X-pRTHs_slBIsInqanXcB.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/13AlT59SuelmcbLnwMbJr.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/X-pRTHs_slBIsInqanXcB.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/GzZrWSA2Q7NEAtdkY84kC.jpg"
               },
               "scale": 0.32525,
               "blurHash": "U9DR8D}[0{,?.9xuRPNG5jNtf+I:0xIoxaxa",
@@ -1682,12 +1682,12 @@
                 "originalCropY": 34.089285714285666,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/1Gvl6exctPTDiyM_rEX0K.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/heZV7lCOsqWdWWH4rFpU8.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-7f5d2625-9124-42df-88af-3afdf99f0798.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/p-kDOTvquwF-3eNfR5iG0.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Kp2_C6XI-6YtsdWSHJVsd.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/p-kDOTvquwF-3eNfR5iG0.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/1Gvl6exctPTDiyM_rEX0K.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/ccyYnVUIDlIHHrGk992kC.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Vmb_UP4yagIOq4jUmVrbR.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/ccyYnVUIDlIHHrGk992kC.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/heZV7lCOsqWdWWH4rFpU8.jpg"
                 },
                 "scale": 0.2828282828282828,
                 "animation": [{
@@ -1797,12 +1797,12 @@
               "originalW": 936,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/BBv6Rf4cVWi2FcVLMMfTG.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/UI2vCZkpBz16wNnIPCu7n.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-07d4aea3-598c-4d5a-b242-b3f7e12784db.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/IlqFW2kzWRGxSuhnfUvLN.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/oPeyyXwcVV607jb8BIfqF.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/IlqFW2kzWRGxSuhnfUvLN.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/BBv6Rf4cVWi2FcVLMMfTG.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/OLm8oBB5LOZvWtWIMF5H3.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/zpiKgFQCvKJ5dCBy6CNYA.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/OLm8oBB5LOZvWtWIMF5H3.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/UI2vCZkpBz16wNnIPCu7n.jpg"
               },
               "scale": 0.3269230769230769,
               "blurHash": "UAA[yL+h#X];|z,u#X=f0exZWBslx[I.J5Ns",
@@ -1913,12 +1913,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/jv85VHCd09iPUb4jCIp6V.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/rqgykiqyNOKh-Mpcz1Hk4.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-07d4aea3-598c-4d5a-b242-b3f7e12784db.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/jrT3lN7ae6aCtJd3mp4v1.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/izy1mnLw44nVWyvU-kZhm.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/jrT3lN7ae6aCtJd3mp4v1.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/jv85VHCd09iPUb4jCIp6V.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6nArkCo35xCpF0lfUTk0Q.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hoU5S2iXF_57jworYLCMN.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6nArkCo35xCpF0lfUTk0Q.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/rqgykiqyNOKh-Mpcz1Hk4.jpg"
                 },
                 "scale": 0.3034188034188034,
                 "animation": [{
@@ -2246,12 +2246,12 @@
               "originalW": 3337,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/bgSuZb3cat8AwnGiWyarv.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/kn0hvpIU6nUvzJeL0KV15.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-38b4886a-eaf6-431f-82f2-1fa3b40b212a.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Kz6X7VuqVuiQCvgyXFDrh.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/JFynPnXfxEVKQvaItnL40.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/Kz6X7VuqVuiQCvgyXFDrh.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/bgSuZb3cat8AwnGiWyarv.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/QhOVfDpwP03dGzPrMLw37.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/BZHClNHvkfTBzpEwxMLQD.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/QhOVfDpwP03dGzPrMLw37.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/kn0hvpIU6nUvzJeL0KV15.png"
               },
               "scale": 0.17811,
               "blurHash": "UUFiPx~q009F~q%MD%M{00D%-;xu4nIU%Mxu",
@@ -2326,12 +2326,12 @@
                 "z": 329,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/hdOj44rE3MkM_j6uPTQ3h.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/PRlUp58Mz-YurVK4BiIgJ.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-38b4886a-eaf6-431f-82f2-1fa3b40b212a.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/x6musOXuH0FWwATGx6Mog.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/_5Dljgm8CD9hXwY-2J2Cg.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/x6musOXuH0FWwATGx6Mog.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/hdOj44rE3MkM_j6uPTQ3h.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/ACYYU9EI9sfopj8Rx3rNs.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/lQfCpehARhCbWuumAoM9L.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/ACYYU9EI9sfopj8Rx3rNs.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/PRlUp58Mz-YurVK4BiIgJ.png"
                 },
                 "cropW": 2403,
                 "cropH": 2950,
@@ -2444,7 +2444,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 395,
+              "z": 391,
               "cropH": 1881,
               "cropW": 2565,
               "cropX": 0,
@@ -2457,12 +2457,12 @@
               "originalW": 3337,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wEW4gORuseX7X6OgvWFPd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/gs6oRnv1Gk3KS5JP2ARtm.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-f17d0b45-3c4f-4923-875a-efc5a167381f.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/F6DxgswlcK7n3Yn-EeYIz.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/9YGks15jsNNmHelQ2OXTi.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/F6DxgswlcK7n3Yn-EeYIz.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wEW4gORuseX7X6OgvWFPd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/6I2LXh7RnS2VLnZjdSt4C.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/GmEErCvymFUk7hzBtJH08.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/6I2LXh7RnS2VLnZjdSt4C.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/gs6oRnv1Gk3KS5JP2ARtm.png"
               },
               "scale": 0.1462,
               "blurHash": "USFFpk~qD%xu~q%MM{t700D%%MRj00D%%MRj",
@@ -2547,10 +2547,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 64,
-                "y": 8941,
+                "y": 8559,
                 "w": 192,
                 "h": 141,
-                "z": 430,
+                "z": 426,
                 "cropW": 2563,
                 "cropH": 1882,
                 "cropX": 1,
@@ -2561,12 +2561,12 @@
                 "originalCropY": 900,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-5Rwwl74ml4raUG8gp5Aw.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Umbx93YElTPzxk50szly8.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-f17d0b45-3c4f-4923-875a-efc5a167381f.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/CAWQnI1jYzglo6oQBzIJ9.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/4g1XL0Xu2-K7fx1L2Mj9l.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/CAWQnI1jYzglo6oQBzIJ9.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-5Rwwl74ml4raUG8gp5Aw.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/YDp4B_G1b0Fdrd03JLkkf.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/N9s3TbufXAueyItWeTXH4.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/YDp4B_G1b0Fdrd03JLkkf.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Umbx93YElTPzxk50szly8.png"
                 },
                 "scale": 0.07492,
                 "modifiers": [{
@@ -2670,12 +2670,12 @@
               "originalW": 3337,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "scale": 0.10801,
               "blurHash": "UKECwdxu00of~qofIUof00Rj?bWB00Rj-;WB",
@@ -2763,12 +2763,12 @@
                 "z": 330,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 }
               },
               "__v": 0
@@ -2788,12 +2788,12 @@
               "z": 330,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -2891,12 +2891,12 @@
                 "z": 331,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 }
               },
               "__v": 0
@@ -2916,12 +2916,12 @@
               "z": 331,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -3022,12 +3022,12 @@
                 "z": 332,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fDRafLo5WgehS8YppA-w9.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hBbrH0lwmbJiaMi2xw5KT.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png"
                 },
                 "cropW": 3333,
                 "cropH": 2108,
@@ -3134,12 +3134,12 @@
               "z": 332,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/7u77IbNepIJ14b36Lp5u7.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/c9IicexUXdQ3q8PPL_1aP.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png"
               },
               "cropW": 3333,
               "cropH": 2119,
@@ -3240,12 +3240,12 @@
                 "z": 333,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/x4Vy0XhQim5o5DRJU_SFW.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/x4Vy0XhQim5o5DRJU_SFW.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/GfQ6lFZIIse-PrXTghjx4.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/GfQ6lFZIIse-PrXTghjx4.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 },
                 "cropW": 3333,
                 "cropH": 2120,
@@ -3352,12 +3352,12 @@
               "z": 333,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -3458,12 +3458,12 @@
                 "z": 334,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fDRafLo5WgehS8YppA-w9.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hBbrH0lwmbJiaMi2xw5KT.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png"
                 },
                 "cropW": 3333,
                 "cropH": 2108,
@@ -3570,12 +3570,12 @@
               "z": 334,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -3673,12 +3673,12 @@
                 "z": 335,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 }
               },
               "__v": 0
@@ -3698,12 +3698,12 @@
               "z": 335,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -3801,12 +3801,12 @@
                 "z": 336,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 }
               },
               "__v": 0
@@ -3826,12 +3826,12 @@
               "z": 336,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/7u77IbNepIJ14b36Lp5u7.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/c9IicexUXdQ3q8PPL_1aP.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png"
               },
               "cropW": 3333,
               "cropH": 2119,
@@ -3929,12 +3929,12 @@
                 "z": 337,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/7u77IbNepIJ14b36Lp5u7.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/c9IicexUXdQ3q8PPL_1aP.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png"
                 }
               },
               "__v": 0
@@ -3954,12 +3954,12 @@
               "z": 337,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -4057,12 +4057,12 @@
                 "z": 338,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 }
               },
               "__v": 0
@@ -4082,12 +4082,12 @@
               "z": 338,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -4185,12 +4185,12 @@
                 "z": 339,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/QSUWNGiZhoTUX2Cwu8_u8.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/wGinmHAoweCEuY6LAdkgi.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 }
               },
               "__v": 0
@@ -4210,12 +4210,12 @@
               "z": 339,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
               },
               "cropW": 3333,
               "cropH": 2120,
@@ -4313,12 +4313,12 @@
                 "z": 340,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/diIJsrHETq4N36Hyeczkr.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Ty_JymR41hALjU25C99gt.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 }
               },
               "__v": 0
@@ -4338,12 +4338,12 @@
               "z": 340,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/7u77IbNepIJ14b36Lp5u7.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/c9IicexUXdQ3q8PPL_1aP.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png"
               },
               "cropW": 3333,
               "cropH": 2119,
@@ -4441,12 +4441,12 @@
                 "z": 341,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/7u77IbNepIJ14b36Lp5u7.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/8gU2cO8_IYusH8WSajPrp.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/MABHU44Am8ayptTtLN5Zu.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/c9IicexUXdQ3q8PPL_1aP.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/XG7fLXdZsNGIo9Gu7nr2o.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CzfrmskaaVp940lkGuLc0.png"
                 }
               },
               "__v": 0
@@ -4476,12 +4476,12 @@
               "originalW": 1269,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wev7rlLJ-dZFTinC5I0Sk.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/1t9GV6Bd4qL3VIZV9Q9ga.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-4d6517bf-04ca-47f6-9254-e9e5aa0b396b.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/5AtuEd55ACQR-PoxgI9GK.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/LIuwMrGkIiNKkz7nMMjHo.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/5AtuEd55ACQR-PoxgI9GK.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wev7rlLJ-dZFTinC5I0Sk.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/tenDW76NxtlpYJsfZKji6.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/RAS7G3fdTu5tWyxz4wMJP.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/tenDW76NxtlpYJsfZKji6.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/1t9GV6Bd4qL3VIZV9Q9ga.jpg"
               },
               "scale": 0.24625,
               "blurHash": "UeG[$jWC?b%M_NRkogWB?bafM{Rj%Mjaayae",
@@ -4563,7 +4563,7 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 6747,
+                "y": 6342,
                 "w": 280,
                 "h": 349,
                 "z": 342,
@@ -4577,12 +4577,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CTV84N8TXSYelWwi_n6DX.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/GThBgQT_2aomSQ_Zguh05.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-4d6517bf-04ca-47f6-9254-e9e5aa0b396b.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/_L2eR5oi83jAPo3GnEu1D.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/vFd8_Rrl5giTM1K7699Af.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/_L2eR5oi83jAPo3GnEu1D.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CTV84N8TXSYelWwi_n6DX.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/rRmp8WSJ8KHQ3UBibf4H1.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/IQub140Pe5cTJsSGQJcXh.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/rRmp8WSJ8KHQ3UBibf4H1.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/GThBgQT_2aomSQ_Zguh05.jpg"
                 },
                 "hidden": false,
                 "originalW": 1269,
@@ -4656,19 +4656,19 @@
               "wid": "698dbaac9f9b211a4cc122a2",
               "mag_num_id": 6106967,
               "type": "picture",
-              "x": 356,
-              "y": 4170,
-              "w": 314,
-              "h": 386,
+              "x": 690,
+              "y": 4615,
+              "w": 317,
+              "h": 390,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
               "z": 342,
-              "cropH": 1524,
+              "cropH": 1526,
               "cropW": 1240,
               "cropX": 0,
-              "cropY": 13,
+              "cropY": 12,
               "originalCropH": 1550,
               "originalCropW": 1240,
               "originalCropX": 0,
@@ -4677,14 +4677,14 @@
               "originalW": 1240,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/AdQgOXL0v8IOCwoFXtP2g.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/k1kIHNeAmgpOhEo-UvJfq.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-8b34ebef-457d-4728-b5d1-86fd1f063f07.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/VVp8VsAfl6trJzKtcwiM9.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/f0ePpHGEjKRVhrgHUCU6U.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/VVp8VsAfl6trJzKtcwiM9.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/AdQgOXL0v8IOCwoFXtP2g.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/ic-L1Xxd0-Wp--aRAoE_M.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/8VZe5Jiw3ykK2rhxT6MF-.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/ic-L1Xxd0-Wp--aRAoE_M.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/k1kIHNeAmgpOhEo-UvJfq.jpg"
               },
-              "scale": 0.25323,
+              "scale": 0.25565,
               "blurHash": "UfH.7.V@-=%M_NM|ofWV-;juRjV@%MofWVWB",
               "name": "Picture",
               "animation": [{
@@ -4767,12 +4767,12 @@
                 "z": 344,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/AdQgOXL0v8IOCwoFXtP2g.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/k1kIHNeAmgpOhEo-UvJfq.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-8b34ebef-457d-4728-b5d1-86fd1f063f07.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/VVp8VsAfl6trJzKtcwiM9.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/f0ePpHGEjKRVhrgHUCU6U.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/VVp8VsAfl6trJzKtcwiM9.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/AdQgOXL0v8IOCwoFXtP2g.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/ic-L1Xxd0-Wp--aRAoE_M.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/8VZe5Jiw3ykK2rhxT6MF-.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/ic-L1Xxd0-Wp--aRAoE_M.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/k1kIHNeAmgpOhEo-UvJfq.jpg"
                 }
               },
               "__v": 0
@@ -4789,15 +4789,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 405,
+              "z": 401,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/KBURpeMc80YyDLuwOpai9.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wg-QSFXbOs8RUQxuELJbe.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/yKjSyPffsJyRhfZhQkSff.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/AwUzfqy8GjSo7RrMkllC9.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/yKjSyPffsJyRhfZhQkSff.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/KBURpeMc80YyDLuwOpai9.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/2fhZyozNIw_gmMtV452HD.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/JVwidGj50FQDP5kvwYUlU.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/2fhZyozNIw_gmMtV452HD.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wg-QSFXbOs8RUQxuELJbe.png"
               },
               "cropW": 3333,
               "cropH": 2108,
@@ -4894,12 +4894,12 @@
                 "z": 343,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/KBURpeMc80YyDLuwOpai9.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wg-QSFXbOs8RUQxuELJbe.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/yKjSyPffsJyRhfZhQkSff.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/AwUzfqy8GjSo7RrMkllC9.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/yKjSyPffsJyRhfZhQkSff.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/KBURpeMc80YyDLuwOpai9.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/2fhZyozNIw_gmMtV452HD.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/JVwidGj50FQDP5kvwYUlU.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/2fhZyozNIw_gmMtV452HD.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wg-QSFXbOs8RUQxuELJbe.png"
                 }
               },
               "__v": 0
@@ -4916,15 +4916,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 414,
+              "z": 410,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/e6gN5D3nIfc61F8nb7W5q.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Y10Urw1sec13DkK9vFTai.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-c451747c-dd3e-4aba-9e43-91dc3ec55a23.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/1ALAyLqwXESI3HtTAg4xn.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/HbGLF4cPkkoXDcj6gNOzx.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/1ALAyLqwXESI3HtTAg4xn.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/e6gN5D3nIfc61F8nb7W5q.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/WEbN_WWEUUukjql1klLmH.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/UFLz-zvoBk2Zq9d5H61ik.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/WEbN_WWEUUukjql1klLmH.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Y10Urw1sec13DkK9vFTai.png"
               },
               "cropW": 2128,
               "cropH": 1669,
@@ -5021,12 +5021,12 @@
                 "z": 345,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/e6gN5D3nIfc61F8nb7W5q.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Y10Urw1sec13DkK9vFTai.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-c451747c-dd3e-4aba-9e43-91dc3ec55a23.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/1ALAyLqwXESI3HtTAg4xn.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/HbGLF4cPkkoXDcj6gNOzx.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/1ALAyLqwXESI3HtTAg4xn.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/e6gN5D3nIfc61F8nb7W5q.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/WEbN_WWEUUukjql1klLmH.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/UFLz-zvoBk2Zq9d5H61ik.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/WEbN_WWEUUukjql1klLmH.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Y10Urw1sec13DkK9vFTai.png"
                 }
               },
               "__v": 0
@@ -5058,12 +5058,12 @@
               "originalW": 1831,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/dPd9JgTURrS9eoJy9vvb9.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/OFmGVJQ1POlwesEB8BXUL.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-ab3bb231-deb5-4a3a-b796-63bf5d97dd60.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/PYLGRD0_xwgGfx3p1omoh.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/XYasgxfp8I3QaZtmhMRA0.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/PYLGRD0_xwgGfx3p1omoh.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/dPd9JgTURrS9eoJy9vvb9.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/x7a1QDahIbkr_J8uqQO1n.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/38SD2PcJ9ndeWepYPIXWC.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/x7a1QDahIbkr_J8uqQO1n.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/OFmGVJQ1POlwesEB8BXUL.png"
               },
               "blurHash": null,
               "_hidden": [{
@@ -5088,12 +5088,12 @@
                 "z": 301,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/xkFGU48Wr4s7KfT3vSsdP.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/0Rbo9IKz9frn8mcw8onbP.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-ab3bb231-deb5-4a3a-b796-63bf5d97dd60.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Fdc45ty5HMKvy0GL9HwfX.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/4B9f4Iou58OB5afpl_NhQ.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Fdc45ty5HMKvy0GL9HwfX.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/xkFGU48Wr4s7KfT3vSsdP.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/7OzPY0u97FxsiKRdbjF7i.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/9nhNf41xGmVJ-baLmrjkf.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/7OzPY0u97FxsiKRdbjF7i.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/0Rbo9IKz9frn8mcw8onbP.png"
                 },
                 "cropW": 1831,
                 "cropH": 2753,
@@ -5422,12 +5422,12 @@
                 "z": 349,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fDRafLo5WgehS8YppA-w9.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hBbrH0lwmbJiaMi2xw5KT.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png"
                 },
                 "cropW": 3333,
                 "cropH": 2108,
@@ -5542,12 +5542,12 @@
                 "z": 350,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/x4Vy0XhQim5o5DRJU_SFW.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/x4Vy0XhQim5o5DRJU_SFW.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/GfQ6lFZIIse-PrXTghjx4.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/GfQ6lFZIIse-PrXTghjx4.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 },
                 "cropW": 3333,
                 "cropH": 2120,
@@ -5662,12 +5662,12 @@
                 "z": 351,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fDRafLo5WgehS8YppA-w9.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hBbrH0lwmbJiaMi2xw5KT.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png"
                 },
                 "cropW": 3333,
                 "cropH": 2108,
@@ -5782,12 +5782,12 @@
                 "z": 352,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fDRafLo5WgehS8YppA-w9.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hBbrH0lwmbJiaMi2xw5KT.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png"
                 },
                 "cropW": 3333,
                 "cropH": 2108,
@@ -5902,12 +5902,12 @@
                 "z": 353,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/x4Vy0XhQim5o5DRJU_SFW.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1EjVLCeuPI-tfH6cTS2VM.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/x4Vy0XhQim5o5DRJU_SFW.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wmwAScg8lrHK77PnBlhAd.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/GfQ6lFZIIse-PrXTghjx4.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/WwV_LHUK4R06d-b5acUpF.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/GfQ6lFZIIse-PrXTghjx4.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-fwhWmoZFJZlxN280MrWL.png"
                 },
                 "cropW": 3333,
                 "cropH": 2120,
@@ -6022,12 +6022,12 @@
                 "z": 354,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-19000feb-f91d-46e3-a5ec-d1ee6a763e14.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fDRafLo5WgehS8YppA-w9.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6ufe_NrqZfJmTyVVg0L_u.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u67QTeJOBSvgeJ9rrzFOw.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hBbrH0lwmbJiaMi2xw5KT.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/LFtKAJbEmE9PDwMPJQfSI.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EL7Hb-LCi9UvbCEGNXuVW.png"
                 },
                 "cropW": 3333,
                 "cropH": 2108,
@@ -6366,12 +6366,12 @@
               "originalW": 1346,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/n_Uf1d1UAETGXq24JohG2.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-4Laq7ZkO7TJl8ocf3--z.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-96f25da9-8bc9-411a-b1ff-82359c01738a.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/n_Uf1d1UAETGXq24JohG2.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/407k1YPWP9mgjXPt3P3km.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/n_Uf1d1UAETGXq24JohG2.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/n_Uf1d1UAETGXq24JohG2.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/-4Laq7ZkO7TJl8ocf3--z.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/A2ori5jYk3v4S79PiRHIy.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/-4Laq7ZkO7TJl8ocf3--z.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-4Laq7ZkO7TJl8ocf3--z.jpg"
               },
               "blurHash": "UNDtV8xZ$*-U}ZxGxas:E3xZxZWXS4s:s:of",
               "animation": [{
@@ -6399,12 +6399,12 @@
                 "z": 360,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/DV6sY6IZPNGL1Yw-z7-nU.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/YMcVYLGD6oPKRhQZfX-8_.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-96f25da9-8bc9-411a-b1ff-82359c01738a.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/FVCllMUeNRc4RMQyZJANd.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/GroDwzP7BarXsQBUCftEu.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/FVCllMUeNRc4RMQyZJANd.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/DV6sY6IZPNGL1Yw-z7-nU.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/yQOfSFWZWIQVYXjZnP5Nu.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/8elLabiRblJz5BpaiL6GR.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/yQOfSFWZWIQVYXjZnP5Nu.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/YMcVYLGD6oPKRhQZfX-8_.jpg"
                 },
                 "cropW": 1338,
                 "cropH": 831,
@@ -6844,12 +6844,12 @@
               "z": 359,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/JzYBvGz0ccCHL8qLlRjiJ.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/SdHzqadgM_uY5NuIYLFBV.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-c451747c-dd3e-4aba-9e43-91dc3ec55a23.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/HqkA0IOrQ2xZDTN094jLP.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/Y8JjuVFEf_PAwyVEHJYiX.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/HqkA0IOrQ2xZDTN094jLP.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/JzYBvGz0ccCHL8qLlRjiJ.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/MbB5Kd1fJUb0X9wMUvH2i.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/K_PK0EvsQoUIiSEcTay4Y.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/MbB5Kd1fJUb0X9wMUvH2i.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/SdHzqadgM_uY5NuIYLFBV.png"
               },
               "cropW": 2137,
               "cropH": 1669,
@@ -6946,12 +6946,12 @@
                 "z": 364,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/JzYBvGz0ccCHL8qLlRjiJ.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/SdHzqadgM_uY5NuIYLFBV.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-c451747c-dd3e-4aba-9e43-91dc3ec55a23.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/HqkA0IOrQ2xZDTN094jLP.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Y8JjuVFEf_PAwyVEHJYiX.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/HqkA0IOrQ2xZDTN094jLP.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/JzYBvGz0ccCHL8qLlRjiJ.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/MbB5Kd1fJUb0X9wMUvH2i.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/K_PK0EvsQoUIiSEcTay4Y.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/MbB5Kd1fJUb0X9wMUvH2i.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/SdHzqadgM_uY5NuIYLFBV.png"
                 }
               },
               "__v": 0
@@ -6971,12 +6971,12 @@
               "z": 363,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CPG5Dc7FLPi6d2pwDUqZb.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/LvribvlIhepNFxeIPcQM1.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-c451747c-dd3e-4aba-9e43-91dc3ec55a23.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/I1mfYX07BlPfBpuX608Ll.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/Q6A-qroVg7YsHfcTfLNvC.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/I1mfYX07BlPfBpuX608Ll.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CPG5Dc7FLPi6d2pwDUqZb.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/_c4BfL79Uhezk8QaG2HD5.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/zrcJUgR3QIJKxYKtJbtuD.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/_c4BfL79Uhezk8QaG2HD5.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/LvribvlIhepNFxeIPcQM1.png"
               },
               "cropW": 2133,
               "cropH": 1669,
@@ -7073,12 +7073,12 @@
                 "z": 365,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CPG5Dc7FLPi6d2pwDUqZb.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/LvribvlIhepNFxeIPcQM1.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-c451747c-dd3e-4aba-9e43-91dc3ec55a23.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/I1mfYX07BlPfBpuX608Ll.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Q6A-qroVg7YsHfcTfLNvC.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/I1mfYX07BlPfBpuX608Ll.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CPG5Dc7FLPi6d2pwDUqZb.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/_c4BfL79Uhezk8QaG2HD5.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/zrcJUgR3QIJKxYKtJbtuD.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/_c4BfL79Uhezk8QaG2HD5.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/LvribvlIhepNFxeIPcQM1.png"
                 }
               },
               "__v": 0
@@ -7108,12 +7108,12 @@
               "originalW": 1091,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/dca-vqW-jCobDK_QplRgi.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/BOckvX4YGRJYhph9noX5Y.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-2cde5809-b227-4558-abfd-e1dff1372bd9.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/s3gRXNbWVLs5TJ325QAty.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/CB9B9rzqgqrKhhBJnzQZ5.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/s3gRXNbWVLs5TJ325QAty.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/dca-vqW-jCobDK_QplRgi.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/6ycys_zsUJzhGJF7-YKNo.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/fRCtHgzTb1x0Grfd416oH.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/6ycys_zsUJzhGJF7-YKNo.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/BOckvX4YGRJYhph9noX5Y.jpg"
               },
               "scale": 0.29853,
               "blurHash": "U6EfB3-q9aVr00RiIANGlVNF-p?v9ES$_34T",
@@ -7218,12 +7218,12 @@
                 "originalCropY": 4.2213114754097205,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/n91zzsGPamY3NXxH-Uxvx.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/pkIsryiG24_fQvzTv0yDd.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-2cde5809-b227-4558-abfd-e1dff1372bd9.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/POmKTldwL5uk7vqTVZPk4.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/G-4EuBulpBemkuzr7iSMW.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/POmKTldwL5uk7vqTVZPk4.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/n91zzsGPamY3NXxH-Uxvx.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Lci_PTGJnHCu4ITvxhkmd.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/xTcPo7QyzMJzkjk57DZB7.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Lci_PTGJnHCu4ITvxhkmd.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/pkIsryiG24_fQvzTv0yDd.jpg"
                 },
                 "hidden": false,
                 "originalW": 1091,
@@ -7318,12 +7318,12 @@
               "originalW": 1019,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/uUm0iZREaRe186a2UOFwR.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/jkk-xc7NRTSuP6nsQ-1Sr.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-f24a155f-b9d4-447c-bc48-62532aa69c9a.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/CXQvUS-jk4pOqWD7P5OLQ.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/zjkFEdbNc2T08nMgWpYJj.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/CXQvUS-jk4pOqWD7P5OLQ.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/uUm0iZREaRe186a2UOFwR.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/81_FggKV5nX4I9x6UMivK.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/yRbNq3x8Ph2QKO5ulMpgD.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/81_FggKV5nX4I9x6UMivK.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/jkk-xc7NRTSuP6nsQ-1Sr.jpg"
               },
               "scale": 0.31289,
               "blurHash": "UUKlBp~B9uv}?H-pWAM{t9JBR%V@-Uf+a#j?",
@@ -7428,12 +7428,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/YxzLnjXMFe3PaMh_xjW_q.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/GRjKD2RO17eezcvfNDozQ.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-f24a155f-b9d4-447c-bc48-62532aa69c9a.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/sKi6hch7oKsvSzhYTaMys.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/2G4g7ykPJDxsxLQnXmuEs.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/sKi6hch7oKsvSzhYTaMys.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/YxzLnjXMFe3PaMh_xjW_q.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/vL8xHTldgpbnnwjcliH3v.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/q4M_zRj5jKgJ1_5EE0DWf.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/vL8xHTldgpbnnwjcliH3v.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/GRjKD2RO17eezcvfNDozQ.jpg"
                 },
                 "hidden": false,
                 "originalW": 1019,
@@ -7528,12 +7528,12 @@
               "originalW": 1037,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wRLvUKfO-eTG8YDccWuNS.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/8JZ1NiPRqk_JHgcGz1xiP.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-148022db-b98e-4a64-9b87-e5d1407953c8.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Vs1bYyloADVUjyDUftTy5.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/SQGPFCRYKVCjXBfrIi6mC.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/Vs1bYyloADVUjyDUftTy5.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wRLvUKfO-eTG8YDccWuNS.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/EJRT1sPfHx6o2yi0m8UCM.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/qFI3lDcTF7BF7efXbsSDI.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/EJRT1sPfHx6o2yi0m8UCM.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/8JZ1NiPRqk_JHgcGz1xiP.jpg"
               },
               "scale": 0.30482,
               "blurHash": "U7GIG:4T~BRj00.7_3D%CSIn00.8~WtSMwV@",
@@ -7638,12 +7638,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/FhS1wfHg3e55-KpwLQO_V.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Bgnqh8HNrAPxWEe4eknXy.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-148022db-b98e-4a64-9b87-e5d1407953c8.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/aGbZV3HVGwO25AOjHSXDv.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/oZ5KlzD5CheHCP1E7iIdW.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/aGbZV3HVGwO25AOjHSXDv.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/FhS1wfHg3e55-KpwLQO_V.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/IzqxsGsnxojIDKMAZRXoK.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/iH8rtXVvkxjiDC7JeWb45.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/IzqxsGsnxojIDKMAZRXoK.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Bgnqh8HNrAPxWEe4eknXy.jpg"
                 },
                 "hidden": false,
                 "originalW": 1037,
@@ -7738,12 +7738,12 @@
               "originalW": 3337,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/vLEVGcsN9JBhln4UD8qH0.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CqAw7uxLv4u6SaqOcKcvc.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-a29d54ab-74fe-4b12-8a23-f7e1210a07f1.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/rJ6JV4imgRWMAhcVQXdV6.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/EOjDv4K-5cw4LH91XxMCd.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/rJ6JV4imgRWMAhcVQXdV6.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/vLEVGcsN9JBhln4UD8qH0.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/-rjS-2RDO8TtCajWUEpDt.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/_DIG3u6MYvO2WfsCYade6.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/-rjS-2RDO8TtCajWUEpDt.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CqAw7uxLv4u6SaqOcKcvc.png"
               },
               "scale": 0.07948,
               "blurHash": "UTFPHS~q009F~q%MD%M{00D%-;xu4nIU%Mxu",
@@ -7817,12 +7817,12 @@
                 "z": 369,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/VUCUGM4VBZhpxaEv_QNmt.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Nxtzs3i2S7g7zDbq_DbxZ.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-a29d54ab-74fe-4b12-8a23-f7e1210a07f1.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Rtc49SpE35gPTAghjt24J.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/-weWNdGgK_-KmVeRK6L6a.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Rtc49SpE35gPTAghjt24J.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/VUCUGM4VBZhpxaEv_QNmt.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/B5_AsZjWGklI3p0raJglA.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Y3hGva5Uqn8suG6okHsBY.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/B5_AsZjWGklI3p0raJglA.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Nxtzs3i2S7g7zDbq_DbxZ.png"
                 },
                 "cropW": 2566,
                 "cropH": 3611,
@@ -8128,12 +8128,12 @@
               "originalW": 1398,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CLZDm80zICPe3Af_WIP53.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/mp7a0dkQDCAcDeZMfK3nb.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-299b1417-cc80-4771-b51a-75f8a9328a95.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/CLZDm80zICPe3Af_WIP53.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/xQMEPa7j4u9td9cmTqN66.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/CLZDm80zICPe3Af_WIP53.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CLZDm80zICPe3Af_WIP53.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/mp7a0dkQDCAcDeZMfK3nb.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/FRgu0-94sUU1wmy9xoWDq.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/mp7a0dkQDCAcDeZMfK3nb.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/mp7a0dkQDCAcDeZMfK3nb.jpg"
               },
               "blurHash": "UHEKAwnjkCs,xbspxbNZ5SofxaNH}[bHNFso",
               "name": "",
@@ -8145,12 +8145,12 @@
                 "z": 371,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/eVT0L2pt74-f_PYCJpoJw.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/goDCKWWgTV2-oMrz2H0hu.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-299b1417-cc80-4771-b51a-75f8a9328a95.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/fDAokgfRV0rGdOfDDiozc.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/mhwHmlQG9IBTaG-Rwlbr4.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/fDAokgfRV0rGdOfDDiozc.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/eVT0L2pt74-f_PYCJpoJw.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/7YV3wOr25W8J3Q2fbD_Xf.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/ATSY1EQBxIqeFipk9Rqml.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/7YV3wOr25W8J3Q2fbD_Xf.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/goDCKWWgTV2-oMrz2H0hu.jpg"
                 },
                 "cropW": 1281,
                 "cropH": 932,
@@ -8443,7 +8443,7 @@
               "autosize": true,
               "blocks": [{
                 "key": "aqbb0",
-                "text": "poznati         na ",
+                "text": "poznati           na ",
                 "entityRanges": [],
                 "depth": 0
               }, {
@@ -8458,7 +8458,7 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 19,
+                    "length": 21,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
                   }],
                   "keys": ["COLOR", "FONT_FAMILY", "FONT_STYLE", "FONT_WEIGHT", "FONT_SIZE", "TRANSFORM"],
@@ -8516,7 +8516,7 @@
                   "inlineStyles": {
                     "styles": [{
                       "offset": 0,
-                      "length": 19,
+                      "length": 21,
                       "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
                     }],
                     "keys": ["COLOR", "FONT_FAMILY", "FONT_STYLE", "FONT_WEIGHT", "TRANSFORM",
@@ -8724,7 +8724,7 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 4765,
+                "y": 4768,
                 "w": 280,
                 "h": 350,
                 "z": 375,
@@ -8738,12 +8738,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/T5jE-3rM-hgZX3QR6kMSR.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/PW7b6DKmWEtOpz6RbdLhb.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-8dae91b6-9d80-49c0-a233-2f9ee7477437.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/oG_BHn9XD7AjLLCIBUvBf.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/i8lpQjG34Mni-XaBV_nof.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/oG_BHn9XD7AjLLCIBUvBf.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/T5jE-3rM-hgZX3QR6kMSR.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/F7CX2QSvAmyZapGS_BX4E.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/6D_Xdn75MGw24SPNKMpJx.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/F7CX2QSvAmyZapGS_BX4E.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/PW7b6DKmWEtOpz6RbdLhb.jpg"
                 },
                 "hidden": false,
                 "originalW": 1293,
@@ -8813,12 +8813,12 @@
               },
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/4CWFDlgy8EqGCZiiOb1Tg.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/gVC0GSDaxgEh0zClYJypv.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-8dae91b6-9d80-49c0-a233-2f9ee7477437.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/BSRvzUebT97ubGEqmpM3v.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/IA_2F5h2APmhk9gcpLMmt.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/BSRvzUebT97ubGEqmpM3v.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/4CWFDlgy8EqGCZiiOb1Tg.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/bC5TlXCeA-ppbj9Gc0Bz6.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/38w5TdU2PhA2MOssk2uBl.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/bC5TlXCeA-ppbj9Gc0Bz6.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/gVC0GSDaxgEh0zClYJypv.jpg"
               },
               "__v": 0
             }, {
@@ -8928,22 +8928,22 @@
                 "z": 376,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/HKGgQsipelW7YdVK5G5qp.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/a9iCyCnK6Nyi_3guvBsxK.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-94d8e5ac-3b76-4402-82bc-230942ddf388.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/5EjKF3Xz7TUOrrjPXBeq9.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/i6YXTNfuiDS85aZolwaTv.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/5EjKF3Xz7TUOrrjPXBeq9.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/HKGgQsipelW7YdVK5G5qp.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/t4izUjpDNb6Cf2BbwdLoV.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/XzYWpEgL-4yTbhmDWtr-n.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/t4izUjpDNb6Cf2BbwdLoV.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/a9iCyCnK6Nyi_3guvBsxK.jpg"
                 }
               },
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/HKGgQsipelW7YdVK5G5qp.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/a9iCyCnK6Nyi_3guvBsxK.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-94d8e5ac-3b76-4402-82bc-230942ddf388.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/5EjKF3Xz7TUOrrjPXBeq9.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/i6YXTNfuiDS85aZolwaTv.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/5EjKF3Xz7TUOrrjPXBeq9.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/HKGgQsipelW7YdVK5G5qp.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/t4izUjpDNb6Cf2BbwdLoV.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/XzYWpEgL-4yTbhmDWtr-n.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/t4izUjpDNb6Cf2BbwdLoV.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/a9iCyCnK6Nyi_3guvBsxK.jpg"
               },
               "__v": 0
             }, {
@@ -9050,7 +9050,7 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 5536,
+                "y": 5157,
                 "w": 280,
                 "h": 350,
                 "z": 377,
@@ -9064,12 +9064,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/cNnnR4DFBaYQ3e7-Qtslh.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/2uMQ6-Gtm_AOWFDOEAOvd.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-5c313fbc-8bb9-4b7f-a252-8e72ed1d51cb.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/r_CckSIT97Ozw8pa1JGrg.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Y688QvABMitl8k5m5kVSi.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/r_CckSIT97Ozw8pa1JGrg.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/cNnnR4DFBaYQ3e7-Qtslh.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/dbZz3qc6bHRpw1wiKuj1f.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/uhEz-1rHBDk-RFsN_MEvj.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/dbZz3qc6bHRpw1wiKuj1f.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/2uMQ6-Gtm_AOWFDOEAOvd.jpg"
                 },
                 "hidden": false,
                 "originalW": 1202,
@@ -9139,12 +9139,12 @@
               },
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/de9XFnwOG7QwQyFGaPJfs.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/OTXg4lxU5tDeZMr-aQ00e.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-5c313fbc-8bb9-4b7f-a252-8e72ed1d51cb.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/SJ3CAfe0TqBnxiGPWTCPf.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/yqa9G-s8PKcZFbo8kB9qw.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/SJ3CAfe0TqBnxiGPWTCPf.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/de9XFnwOG7QwQyFGaPJfs.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/M8AjYgbL68j2k_FZ-Fvfk.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/ph0mdRbE2m9MOmrXnYcw-.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/M8AjYgbL68j2k_FZ-Fvfk.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/OTXg4lxU5tDeZMr-aQ00e.jpg"
               },
               "__v": 0
             }, {
@@ -9152,8 +9152,8 @@
               "wid": "698f27a77195333503f7c4e5",
               "mag_num_id": 6106967,
               "type": "text",
-              "x": 402,
-              "y": 4569,
+              "x": 736,
+              "y": 5017,
               "w": 261,
               "h": 14,
               "version": 3,
@@ -9285,7 +9285,7 @@
               }],
               "viewport_phone_portrait": {
                 "x": 9,
-                "y": 7100,
+                "y": 6695,
                 "w": 301,
                 "h": 16,
                 "z": 379,
@@ -9384,7 +9384,7 @@
               }],
               "viewport_phone_portrait": {
                 "x": 65,
-                "y": 5120,
+                "y": 5121,
                 "w": 189,
                 "h": 16,
                 "z": 380,
@@ -9424,14 +9424,19 @@
               "x": 16,
               "y": 5014,
               "w": 316,
-              "h": 14,
+              "h": 30,
               "version": 3,
               "verticalAlign": "top",
               "textDirection": "LTR",
               "autosize": true,
               "blocks": [{
                 "key": "a47pi",
-                "text": "Daria Lorenci flatz i  Emil flatz",
+                "text": "Daria Lorenci flatz ",
+                "entityRanges": [],
+                "depth": 0
+              }, {
+                "key": "5jfv8",
+                "text": "i  Emil flatz",
                 "entityRanges": [],
                 "depth": 0
               }],
@@ -9441,7 +9446,19 @@
                 "inlineStyles": {
                   "styles": [{
                     "offset": 0,
-                    "length": 33,
+                    "length": 20,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }, {
+                "key": "5jfv8",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 13,
                     "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
                   }],
                   "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
@@ -9460,6 +9477,17 @@
                 "key": "a47pi",
                 "data": {
                   "lineHeight": 14,
+                  "align": "align-center",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
+                  "paddings": {
+                    "right": 0
+                  }
+                }
+              }, {
+                "key": "5jfv8",
+                "data": {
+                  "lineHeight": 16,
                   "align": "align-center",
                   "sizesLinkedStatus": true,
                   "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
@@ -9486,9 +9514,9 @@
               }],
               "viewport_phone_portrait": {
                 "x": 4,
-                "y": 5893,
+                "y": 5511,
                 "w": 316,
-                "h": 16,
+                "h": 32,
                 "z": 381,
                 "styles": [{
                   "key": "a47pi",
@@ -9496,7 +9524,20 @@
                   "inlineStyles": {
                     "styles": [{
                       "offset": 0,
-                      "length": 33,
+                      "length": 20,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
+                      "TRANSFORM"],
+                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
+                  }
+                }, {
+                  "key": "5jfv8",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 13,
                       "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
                     }],
                     "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
@@ -9507,6 +9548,17 @@
                 "entityMap": {},
                 "blocksMeta": [{
                   "key": "a47pi",
+                  "data": {
+                    "lineHeight": 16,
+                    "align": "align-center",
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
+                    "paddings": {
+                      "right": 0
+                    }
+                  }
+                }, {
+                  "key": "5jfv8",
                   "data": {
                     "lineHeight": 16,
                     "align": "align-center",
@@ -9593,221 +9645,6 @@
               "modifiers": [],
               "__v": 0
             }, {
-              "_id": "698f2910b7281f910dc60f91",
-              "wid": "698f2910b7281f910dc60f91",
-              "mag_num_id": 6106967,
-              "type": "picture",
-              "x": 690,
-              "y": 4615,
-              "w": 314,
-              "h": 387,
-              "version": 2,
-              "flags": {
-                "useOriginalViewBoxSVG": true
-              },
-              "z": 381,
-              "cropH": 1522,
-              "cropW": 1235,
-              "cropX": 0,
-              "cropY": 10,
-              "originalCropH": 1524.2088607594937,
-              "originalCropW": 1235,
-              "originalCropX": 0,
-              "originalCropY": 9.395569620253127,
-              "originalH": 1543,
-              "originalW": 1235,
-              "scale": 0.25425,
-              "blurHash": "UbHed?Rj?b-;_NM{ogay?bayM{Rjx^off6WB",
-              "name": "Picture",
-              "animation": [{
-                "UUID": "88d4474b-7eb0-48a3-9f8d-cb6cb57f2761",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 110
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [{
-                "id": "cursor",
-                "title": "Cursor",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "static": [{
-                  "id": "cursor-keyword",
-                  "name": "Cursor",
-                  "type": "select",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "auto",
-                  "params": {
-                    "default": "auto",
-                    "options": [{
-                      "label": "Auto",
-                      "value": "auto"
-                    }, {
-                      "label": "Pointer",
-                      "value": "pointer"
-                    }, {
-                      "label": "Move",
-                      "value": "move"
-                    }]
-                  }
-                }, {
-                  "id": "cursor-url",
-                  "name": "Cursor image",
-                  "type": "file",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                }, {
-                  "id": "url-is-lambda",
-                  "name": "Is cursor url lambda",
-                  "type": "toggle",
-                  "operator": "assignment",
-                  "modelField": "cursorUrlIsLambda",
-                  "value": true,
-                  "params": {
-                    "default": false,
-                    "isDisabled": true
-                  }
-                }, {
-                  "id": "cursor-image-dimension",
-                  "name": "Cursor image dimension",
-                  "type": "number",
-                  "operator": "assignment",
-                  "modelField": "cursorImageDimension",
-                  "value": 236,
-                  "params": {
-                    "default": 0,
-                    "isDisabled": true
-                  }
-                }],
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Cursor/WidgetRendered"
-                }]
-              }],
-              "viewport_phone_portrait": {
-                "x": 20,
-                "y": 3977,
-                "w": 280,
-                "h": 350,
-                "z": 383,
-                "cropH": 1543,
-                "cropW": 1234,
-                "cropX": 0,
-                "cropY": 0,
-                "originalCropH": 1543,
-                "originalCropW": 1235,
-                "originalCropX": 0,
-                "originalCropY": 0,
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/QQFZz53C-LZD9oEqKjGUi.jpg",
-                  "url": "img/683d850bd2094940857eb894/6106967/image-f3ccb688-f02a-446d-8f3d-e0b0fd1799db.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/VHLCszWSoKx6rB0-en-Vu.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/0usPb0fyaf77Bg1YmYqO_.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/VHLCszWSoKx6rB0-en-Vu.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/QQFZz53C-LZD9oEqKjGUi.jpg"
-                },
-                "hidden": false,
-                "originalW": 1235,
-                "originalH": 1543,
-                "scale": 0.22683,
-                "modifiers": [{
-                  "id": "cursor",
-                  "title": "Cursor",
-                  "category": "default",
-                  "owner": "readymag",
-                  "private": true,
-                  "static": [{
-                    "id": "cursor-keyword",
-                    "name": "Cursor",
-                    "type": "select",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "auto",
-                    "params": {
-                      "default": "auto",
-                      "options": [{
-                        "label": "Auto",
-                        "value": "auto"
-                      }, {
-                        "label": "Pointer",
-                        "value": "pointer"
-                      }, {
-                        "label": "Move",
-                        "value": "move"
-                      }]
-                    }
-                  }, {
-                    "id": "cursor-url",
-                    "name": "Cursor image",
-                    "type": "file",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                  }, {
-                    "id": "url-is-lambda",
-                    "name": "Is cursor url lambda",
-                    "type": "toggle",
-                    "operator": "assignment",
-                    "modelField": "cursorUrlIsLambda",
-                    "value": true,
-                    "params": {
-                      "default": false,
-                      "isDisabled": true
-                    }
-                  }, {
-                    "id": "cursor-image-dimension",
-                    "name": "Cursor image dimension",
-                    "type": "number",
-                    "operator": "assignment",
-                    "modelField": "cursorImageDimension",
-                    "value": 236,
-                    "params": {
-                      "default": 0,
-                      "isDisabled": true
-                    }
-                  }],
-                  "events": [{
-                    "eventName": "rendered",
-                    "eventHandler": "Cursor/WidgetRendered"
-                  }]
-                }],
-                "animation": [{
-                  "UUID": "63482ac3-1fe8-4fda-ab6e-31b2ea52f94d",
-                  "type": "hover",
-                  "steps": [{
-                    "duration": 0.5,
-                    "acceleration": "ease-both",
-                    "from_scale": 100,
-                    "use_scale": true,
-                    "scale": 105
-                  }],
-                  "playOnce": false,
-                  "resetWhenOutOfView": false,
-                  "trigger": []
-                }]
-              },
-              "picture": {
-                "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/cRPxLE5aiahMHZ-HfQ--9.jpg",
-                "url": "img/683d850bd2094940857eb894/6106967/image-f3ccb688-f02a-446d-8f3d-e0b0fd1799db.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/ojIJa5M9OzbtFbJVD7QTT.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/fGN137f4t4ou5QKdm5a2r.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/ojIJa5M9OzbtFbJVD7QTT.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/cRPxLE5aiahMHZ-HfQ--9.jpg"
-              },
-              "__v": 0
-            }, {
               "_id": "698f29106a545a36b35183dd",
               "wid": "698f29106a545a36b35183dd",
               "mag_num_id": 6106967,
@@ -9820,7 +9657,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 382,
+              "z": 381,
               "cropH": 1480,
               "cropW": 1199,
               "cropX": 2,
@@ -9911,10 +9748,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 6339,
+                "y": 6731,
                 "w": 280,
                 "h": 350,
-                "z": 384,
+                "z": 383,
                 "cropH": 1504,
                 "cropW": 1203,
                 "cropX": 0,
@@ -10014,582 +9851,13 @@
               },
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/951RL9ZEpOaXtxywsBW8d.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/NMHBytLtsWYFU7i94ihzH.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-7cdfebc4-e2d6-4794-afbb-65a89215a274.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/A2-HiWdJfFCJH8xltBlaC.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/gQGhb5afpGUiQeszicmKt.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/A2-HiWdJfFCJH8xltBlaC.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/951RL9ZEpOaXtxywsBW8d.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/kzGTt03Wh4hJO9zerqoR8.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/j_AhMpVQiNrdKiPRowEMN.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/kzGTt03Wh4hJO9zerqoR8.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/NMHBytLtsWYFU7i94ihzH.jpg"
               },
-              "__v": 0
-            }, {
-              "_id": "698f2910760c2484b670af92",
-              "wid": "698f2910760c2484b670af92",
-              "mag_num_id": 6106967,
-              "type": "picture",
-              "x": 356,
-              "y": 4615,
-              "w": 314,
-              "h": 387,
-              "version": 2,
-              "flags": {
-                "useOriginalViewBoxSVG": true
-              },
-              "z": 383,
-              "cropH": 1480,
-              "cropW": 1201,
-              "cropX": 1,
-              "cropY": 12,
-              "originalCropH": 1480.0315457413249,
-              "originalCropW": 1203,
-              "originalCropX": 0,
-              "originalCropY": 12.484227129337569,
-              "originalH": 1505,
-              "originalW": 1203,
-              "scale": 0.26148,
-              "blurHash": "UeI#ZBf6?b%M~qRjt7WB-;juRjRj%Mj[WBWB",
-              "name": "Picture",
-              "animation": [{
-                "UUID": "b02e29e3-944c-443e-a0ee-b3bd61dfe00f",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 110
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [{
-                "id": "cursor",
-                "title": "Cursor",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "static": [{
-                  "id": "cursor-keyword",
-                  "name": "Cursor",
-                  "type": "select",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "auto",
-                  "params": {
-                    "default": "auto",
-                    "options": [{
-                      "label": "Auto",
-                      "value": "auto"
-                    }, {
-                      "label": "Pointer",
-                      "value": "pointer"
-                    }, {
-                      "label": "Move",
-                      "value": "move"
-                    }]
-                  }
-                }, {
-                  "id": "cursor-url",
-                  "name": "Cursor image",
-                  "type": "file",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                }, {
-                  "id": "url-is-lambda",
-                  "name": "Is cursor url lambda",
-                  "type": "toggle",
-                  "operator": "assignment",
-                  "modelField": "cursorUrlIsLambda",
-                  "value": true,
-                  "params": {
-                    "default": false,
-                    "isDisabled": true
-                  }
-                }, {
-                  "id": "cursor-image-dimension",
-                  "name": "Cursor image dimension",
-                  "type": "number",
-                  "operator": "assignment",
-                  "modelField": "cursorImageDimension",
-                  "value": 236,
-                  "params": {
-                    "default": 0,
-                    "isDisabled": true
-                  }
-                }],
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Cursor/WidgetRendered"
-                }]
-              }],
-              "viewport_phone_portrait": {
-                "x": 20,
-                "y": 5933,
-                "w": 280,
-                "h": 350,
-                "z": 385,
-                "cropH": 1504,
-                "cropW": 1203,
-                "cropX": 0,
-                "cropY": 1,
-                "originalCropH": 1505,
-                "originalCropW": 1203,
-                "originalCropX": 0,
-                "originalCropY": 0,
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/ZW-B5LCbq0tX0vNzV_8Ap.jpg",
-                  "url": "img/683d850bd2094940857eb894/6106967/image-e3ccab4c-9d10-4e68-9dfc-a3c47172ca4b.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/1mnvl6WpgMS-Q3yr0-wjW.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/AMG5c7qFShcDgec39NUOA.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/1mnvl6WpgMS-Q3yr0-wjW.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/ZW-B5LCbq0tX0vNzV_8Ap.jpg"
-                },
-                "hidden": false,
-                "originalW": 1203,
-                "originalH": 1505,
-                "scale": 0.23275,
-                "modifiers": [{
-                  "id": "cursor",
-                  "title": "Cursor",
-                  "category": "default",
-                  "owner": "readymag",
-                  "private": true,
-                  "static": [{
-                    "id": "cursor-keyword",
-                    "name": "Cursor",
-                    "type": "select",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "auto",
-                    "params": {
-                      "default": "auto",
-                      "options": [{
-                        "label": "Auto",
-                        "value": "auto"
-                      }, {
-                        "label": "Pointer",
-                        "value": "pointer"
-                      }, {
-                        "label": "Move",
-                        "value": "move"
-                      }]
-                    }
-                  }, {
-                    "id": "cursor-url",
-                    "name": "Cursor image",
-                    "type": "file",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                  }, {
-                    "id": "url-is-lambda",
-                    "name": "Is cursor url lambda",
-                    "type": "toggle",
-                    "operator": "assignment",
-                    "modelField": "cursorUrlIsLambda",
-                    "value": true,
-                    "params": {
-                      "default": false,
-                      "isDisabled": true
-                    }
-                  }, {
-                    "id": "cursor-image-dimension",
-                    "name": "Cursor image dimension",
-                    "type": "number",
-                    "operator": "assignment",
-                    "modelField": "cursorImageDimension",
-                    "value": 236,
-                    "params": {
-                      "default": 0,
-                      "isDisabled": true
-                    }
-                  }],
-                  "events": [{
-                    "eventName": "rendered",
-                    "eventHandler": "Cursor/WidgetRendered"
-                  }]
-                }],
-                "animation": [{
-                  "UUID": "be2b4e32-9499-40dd-8381-e63a0e8f8ba3",
-                  "type": "hover",
-                  "steps": [{
-                    "duration": 0.5,
-                    "acceleration": "ease-both",
-                    "from_scale": 100,
-                    "use_scale": true,
-                    "scale": 106
-                  }],
-                  "playOnce": false,
-                  "resetWhenOutOfView": false,
-                  "trigger": []
-                }]
-              },
-              "picture": {
-                "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/KK3BArVJQemD9Wi0I9FRM.jpg",
-                "url": "img/683d850bd2094940857eb894/6106967/image-e3ccab4c-9d10-4e68-9dfc-a3c47172ca4b.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/xhT8Jj6YvTxJeTQIrlGNi.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/MVRq8ndBQTxeiKjFHCzCi.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/xhT8Jj6YvTxJeTQIrlGNi.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/KK3BArVJQemD9Wi0I9FRM.jpg"
-              },
-              "__v": 0
-            }, {
-              "_id": "698f2910a0a382c5ec247934",
-              "wid": "698f2910a0a382c5ec247934",
-              "mag_num_id": 6106967,
-              "type": "text",
-              "x": 688,
-              "y": 5009,
-              "w": 314,
-              "h": 30,
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "a47pi",
-                "text": "Antonija Blaće ",
-                "entityRanges": [],
-                "depth": 0
-              }, {
-                "key": "3q7p6",
-                "text": "i Hrvoje Brlečić",
-                "entityRanges": [],
-                "depth": 0
-              }],
-              "styles": [{
-                "key": "a47pi",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 15,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }, {
-                "key": "3q7p6",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 16,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }, {
-                "key": "4mtpo",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 14,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }],
-              "entityMap": {},
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "z": 384,
-              "blocksMeta": [{
-                "key": "a47pi",
-                "data": {
-                  "lineHeight": 14,
-                  "align": "align-center",
-                  "sizesLinkedStatus": true,
-                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                }
-              }, {
-                "key": "3q7p6",
-                "data": {
-                  "lineHeight": 16,
-                  "align": "align-center",
-                  "sizesLinkedStatus": true,
-                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                }
-              }],
-              "name": "",
-              "text": "",
-              "animation": [{
-                "UUID": "88d4474b-7eb0-48a3-9f8d-cb6cb57f2761",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 110
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "viewport_phone_portrait": {
-                "x": 20,
-                "y": 4331,
-                "w": 280,
-                "h": 32,
-                "z": 386,
-                "styles": [{
-                  "key": "a47pi",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 15,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                    }],
-                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "TRANSFORM",
-                      "FONT_SIZE"],
-                    "values": ["F1F1F164", "400", "normal", "wtqc", "uppercase", "16"]
-                  }
-                }, {
-                  "key": "3q7p6",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 16,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                    }],
-                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "TRANSFORM",
-                      "FONT_SIZE"],
-                    "values": ["F1F1F164", "400", "normal", "wtqc", "uppercase", "16"]
-                  }
-                }],
-                "entityMap": {},
-                "blocksMeta": [{
-                  "key": "a47pi",
-                  "data": {
-                    "lineHeight": 16,
-                    "align": "align-center",
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                  }
-                }, {
-                  "key": "3q7p6",
-                  "data": {
-                    "lineHeight": 16,
-                    "align": "align-center",
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                  }
-                }],
-                "modifiers": [],
-                "animation": [{
-                  "UUID": "63482ac3-1fe8-4fda-ab6e-31b2ea52f94d",
-                  "type": "hover",
-                  "steps": [{
-                    "duration": 0.5,
-                    "acceleration": "ease-both",
-                    "from_scale": 100,
-                    "use_scale": true,
-                    "scale": 105
-                  }],
-                  "playOnce": false,
-                  "resetWhenOutOfView": false,
-                  "trigger": []
-                }]
-              },
-              "modifiers": [],
-              "__v": 0
-            }, {
-              "_id": "698f2910e4c85a97e2965d90",
-              "wid": "698f2910e4c85a97e2965d90",
-              "mag_num_id": 6106967,
-              "type": "text",
-              "x": 281,
-              "y": 5009,
-              "w": 482,
-              "h": 30,
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "a47pi",
-                "text": "Nevena Rendeli Vejzović ",
-                "entityRanges": [],
-                "depth": 0
-              }, {
-                "key": "bq234",
-                "text": "i  Mak Vejzović",
-                "entityRanges": [],
-                "depth": 0
-              }],
-              "styles": [{
-                "key": "a47pi",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 24,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }, {
-                "key": "bq234",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 15,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }, {
-                "key": "17god",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 12,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }],
-              "entityMap": {},
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "z": 385,
-              "blocksMeta": [{
-                "key": "a47pi",
-                "data": {
-                  "lineHeight": 14,
-                  "align": "align-center",
-                  "sizesLinkedStatus": true,
-                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
-                  "paddings": {
-                    "right": 0
-                  }
-                }
-              }, {
-                "key": "bq234",
-                "data": {
-                  "lineHeight": 16,
-                  "align": "align-center",
-                  "sizesLinkedStatus": true,
-                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
-                  "paddings": {
-                    "right": 0
-                  }
-                }
-              }],
-              "name": "",
-              "text": "",
-              "animation": [{
-                "UUID": "b02e29e3-944c-443e-a0ee-b3bd61dfe00f",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 110
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "viewport_phone_portrait": {
-                "x": -81,
-                "y": 6286,
-                "w": 482,
-                "h": 32,
-                "z": 387,
-                "styles": [{
-                  "key": "a47pi",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 24,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                    }],
-                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
-                      "TRANSFORM"],
-                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
-                  }
-                }, {
-                  "key": "bq234",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 15,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                    }],
-                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
-                      "TRANSFORM"],
-                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
-                  }
-                }],
-                "entityMap": {},
-                "blocksMeta": [{
-                  "key": "a47pi",
-                  "data": {
-                    "lineHeight": 16,
-                    "align": "align-center",
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
-                    "paddings": {
-                      "right": 0
-                    }
-                  }
-                }, {
-                  "key": "bq234",
-                  "data": {
-                    "lineHeight": 16,
-                    "align": "align-center",
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
-                    "paddings": {
-                      "right": 0
-                    }
-                  }
-                }],
-                "modifiers": [],
-                "animation": [{
-                  "UUID": "be2b4e32-9499-40dd-8381-e63a0e8f8ba3",
-                  "type": "hover",
-                  "steps": [{
-                    "duration": 0.5,
-                    "acceleration": "ease-both",
-                    "from_scale": 100,
-                    "use_scale": true,
-                    "scale": 106
-                  }],
-                  "playOnce": false,
-                  "resetWhenOutOfView": false,
-                  "trigger": []
-                }]
-              },
-              "modifiers": [],
               "__v": 0
             }, {
               "_id": "698f29118942ad4fde50651b",
@@ -10659,7 +9927,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 386,
+              "z": 382,
               "blocksMeta": [{
                 "key": "a47pi",
                 "data": {
@@ -10695,10 +9963,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": -85,
-                "y": 6691,
+                "y": 7083,
                 "w": 489,
                 "h": 32,
-                "z": 388,
+                "z": 384,
                 "styles": [{
                   "key": "a47pi",
                   "type": "unstyled",
@@ -10834,7 +10102,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 387,
+              "z": 383,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -10910,10 +10178,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 8396,
+                "y": 8014,
                 "w": 280,
                 "h": 154,
-                "z": 389,
+                "z": 385,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -11098,7 +10366,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 388,
+              "z": 384,
               "blocksMeta": [{
                 "key": "aqbb0",
                 "data": {
@@ -11128,10 +10396,10 @@
               "text": "",
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 8303,
+                "y": 7921,
                 "w": 480,
                 "h": 78,
-                "z": 390,
+                "z": 386,
                 "styles": [{
                   "key": "aqbb0",
                   "type": "unstyled",
@@ -11207,7 +10475,7 @@
               "wid": "698f30e003fc2d2df17b5e48",
               "mag_num_id": 6106967,
               "type": "text",
-              "x": 138,
+              "x": 141,
               "y": 5950,
               "w": 72,
               "h": 35,
@@ -11241,7 +10509,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 389,
+              "z": 385,
               "blocksMeta": [{
                 "key": "a47pi",
                 "data": {
@@ -11254,11 +10522,11 @@
               "name": "",
               "text": "",
               "viewport_phone_portrait": {
-                "x": 109,
-                "y": 8301,
+                "x": 110,
+                "y": 7920,
                 "w": 72,
                 "h": 35,
-                "z": 391,
+                "z": 387,
                 "modifiers": []
               },
               "modifiers": [],
@@ -11302,7 +10570,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 390,
+              "z": 386,
               "blocksMeta": [{
                 "key": "a47pi",
                 "data": {
@@ -11316,10 +10584,10 @@
               "text": "",
               "viewport_phone_portrait": {
                 "x": 146,
-                "y": 8353,
+                "y": 7974,
                 "w": 72,
                 "h": 35,
-                "z": 392,
+                "z": 388,
                 "modifiers": []
               },
               "modifiers": [],
@@ -11337,7 +10605,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 391,
+              "z": 387,
               "scale": 0.6223067173637515,
               "cropH": 1050.928716904277,
               "cropW": 1578,
@@ -11351,26 +10619,26 @@
               "originalW": 1578,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-16a68745-2984-4895-98fb-848450c0e000.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/Ocwp6qRkcZ0bT99vo78I7.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/m_yQK_25i6j9RdTxf0EwC.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg"
               },
               "blurHash": null,
               "name": "",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 393,
+                "z": 389,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-16a68745-2984-4895-98fb-848450c0e000.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Ocwp6qRkcZ0bT99vo78I7.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/u4RWH0A4NFi7kYcW8nnP4.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/m_yQK_25i6j9RdTxf0EwC.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/E7wDtCaob_xcIKdS7MTqP.jpg"
                 }
               },
               "modifiers": [],
@@ -11388,7 +10656,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 392,
+              "z": 388,
               "scale": 0.2792321116928447,
               "cropH": 1146,
               "cropW": 1525.6125,
@@ -11402,12 +10670,12 @@
               "originalW": 1718,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CuKyfscH6McdM_a31vEnV.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/wFpd__-mwMSTaf9CEr2tX.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-4f5e5d8f-5405-4c95-a086-7089e3d71d2b.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/onZgEAautWIDcnsp3JtHQ.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/s3LD9gUhmW2ZV14Y_xRmU.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/onZgEAautWIDcnsp3JtHQ.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CuKyfscH6McdM_a31vEnV.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Sv__5zUM4SlPXs_2rn_2l.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/KeoFTQ43uCom7ycFQobKb.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/Sv__5zUM4SlPXs_2rn_2l.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/wFpd__-mwMSTaf9CEr2tX.jpg"
               },
               "animation": [{
                 "UUID": "6560067c-67ff-446a-95ce-ea8abe9438d9",
@@ -11431,18 +10699,18 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 0,
-                "y": 9025,
+                "y": 8643,
                 "w": 320,
                 "h": 240,
-                "z": 394,
+                "z": 390,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/9KbWUJvZzyl0RSyyJaT0s.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-p5C-McLpWTloNgwKkm4q.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-4f5e5d8f-5405-4c95-a086-7089e3d71d2b.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/-92KHG68KcRPq94Atj2xd.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Aw2PYy_BqEBS0nmpFvo8Q.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/-92KHG68KcRPq94Atj2xd.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/9KbWUJvZzyl0RSyyJaT0s.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/tGZF00NgY7jRwi4SPJSH6.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/KRAMRK5hrWG-SFVf9T3Lt.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/tGZF00NgY7jRwi4SPJSH6.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-p5C-McLpWTloNgwKkm4q.jpg"
                 },
                 "cropW": 1526,
                 "cropH": 1144,
@@ -11470,7 +10738,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 393,
+              "z": 389,
               "scale": 0.53751,
               "cropH": 893,
               "cropW": 567,
@@ -11484,12 +10752,12 @@
               "originalW": 1340,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/oCZPrzOJ5MZq-p8pVFbku.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/thmfi7rlQ4TqUlX7UK_K4.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-ba322b05-004e-4ff0-994a-98078f31bfa6.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/ANIhQlQsYiJJ18z9QNMwx.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/EBEEKkKlksrfNS9Mkkcv5.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/ANIhQlQsYiJJ18z9QNMwx.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/oCZPrzOJ5MZq-p8pVFbku.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/v1frxVT7ybXc1ySTpo23L.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/cjflXukyZxoj9RViPjzbT.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/v1frxVT7ybXc1ySTpo23L.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/thmfi7rlQ4TqUlX7UK_K4.jpg"
               },
               "blurHash": "UCHT%Q~BLfIo?IE1EKWE7zNdHrw0OY=}=K%N",
               "animation": [{
@@ -11511,18 +10779,18 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 8569,
+                "y": 8187,
                 "w": 279,
                 "h": 439,
-                "z": 395,
+                "z": 391,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/lFbTQxTgcdvOx1YMzFRIa.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/mEFE-P12etSYPykoiHvK_.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-ba322b05-004e-4ff0-994a-98078f31bfa6.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/JfrZRX2xCKl4loVIEerMH.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/DI1FtywNlg40P_Z531vKo.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/JfrZRX2xCKl4loVIEerMH.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/lFbTQxTgcdvOx1YMzFRIa.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/WWUsRY5eI41-juzk6kt_0.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/M6mWIgzdFK0v58ld2Qa9N.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/WWUsRY5eI41-juzk6kt_0.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/mEFE-P12etSYPykoiHvK_.jpg"
                 },
                 "cropW": 567,
                 "cropH": 892,
@@ -11561,7 +10829,7 @@
               "sides": 3,
               "weight": 1,
               "stroke": "solid",
-              "z": 394,
+              "z": 390,
               "name": "",
               "animation": [{
                 "UUID": "5fabfc03-340c-4547-8f37-a77027ec3488",
@@ -11582,7 +10850,7 @@
               }],
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 396
+                "z": 392
               },
               "modifiers": [],
               "__v": 0
@@ -11658,7 +10926,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 396,
+              "z": 392,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -11734,10 +11002,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 9280,
+                "y": 8898,
                 "w": 280,
                 "h": 70,
-                "z": 397,
+                "z": 393,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -11862,7 +11130,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 397,
+              "z": 393,
               "scale": 0.47808764940239046,
               "cropH": 1148.325,
               "cropW": 1004,
@@ -11876,29 +11144,29 @@
               "originalW": 1004,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/INsGzFM04r6QFenVmWaYK.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Zx5CRLf0qrurUSR6kgTDx.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-07adc300-f176-426f-8633-68115eac4f50.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/4KGGwpXKfwmLhwaAuIq2y.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/PyKh4A5dqrHRlY98EL9ij.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/4KGGwpXKfwmLhwaAuIq2y.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/INsGzFM04r6QFenVmWaYK.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/kR5GC526Wi19sFE5wL-f1.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/w75TOU8_ajCsNEib3gri1.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/kR5GC526Wi19sFE5wL-f1.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Zx5CRLf0qrurUSR6kgTDx.jpg"
               },
               "blurHash": "UIIF9:~q4Uxu00NGxuj?00IUt7M|%Nj@%Lt6",
               "name": "",
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 9367,
+                "y": 8985,
                 "w": 279,
                 "h": 319,
-                "z": 398,
+                "z": 394,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/W9HWpCQNbxEz4Am4O4ihH.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/MpxPRoqG8oPvqFXjH5KTY.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-07adc300-f176-426f-8633-68115eac4f50.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/H8c6anKAkrK4W-dOJrAWD.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fSTqA4Fhg5Nyx5kf2_sg3.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/H8c6anKAkrK4W-dOJrAWD.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/W9HWpCQNbxEz4Am4O4ihH.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/4_m3Z37777wiAmDsPxL9_.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/usDGhCrxUBCvTm23Asrli.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/4_m3Z37777wiAmDsPxL9_.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/MpxPRoqG8oPvqFXjH5KTY.jpg"
                 },
                 "cropW": 1004,
                 "cropH": 1148,
@@ -11942,15 +11210,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 398,
+              "z": 394,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/XGqWIwqAKWwl10oTMUVfP.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/7WJMnm2S1mdfhWfl3uk1u.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-3c7fdfed-3091-42bc-af3e-0e6903617a14.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/q5am7yYMF06CcYFJqupft.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/3h7SorSughfvn6_a3Gy43.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/q5am7yYMF06CcYFJqupft.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/XGqWIwqAKWwl10oTMUVfP.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/QGkU3qVNMVNfvzjWGXU6_.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/W4Prg1x3c07yi8YBoIoFu.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/QGkU3qVNMVNfvzjWGXU6_.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/7WJMnm2S1mdfhWfl3uk1u.jpg"
               },
               "cropW": 1015,
               "cropH": 1160.90625,
@@ -11967,10 +11235,10 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 9707,
+                "y": 9325,
                 "w": 279,
                 "h": 320,
-                "z": 399,
+                "z": 395,
                 "cropW": 1012,
                 "cropH": 1161,
                 "cropX": 1,
@@ -11981,12 +11249,12 @@
                 "originalCropY": 181.546875,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/FxH_8YJUCr6EhaGN4VUT4.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/KK_OdoR_c5v0C0oIGqpct.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-3c7fdfed-3091-42bc-af3e-0e6903617a14.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/0EFwRmmOdn4qMAhlEmy8P.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/rQzw73ojEVCpzlAQlnMxl.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/0EFwRmmOdn4qMAhlEmy8P.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/FxH_8YJUCr6EhaGN4VUT4.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Jls7-SSQrF9bXZIg2YbrY.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/oRsaV-eLqyrmy55DVS0he.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Jls7-SSQrF9bXZIg2YbrY.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/KK_OdoR_c5v0C0oIGqpct.jpg"
                 },
                 "scale": 0.27565,
                 "modifiers": []
@@ -12048,7 +11316,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 399,
+              "z": 395,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -12124,10 +11392,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 10046,
+                "y": 9664,
                 "w": 280,
                 "h": 70,
-                "z": 400,
+                "z": 396,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -12227,15 +11495,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 400,
+              "z": 396,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/1YSJ9fG8HDDmSAyIjJ-Ns.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/gtf_cs_fVcokvw_-3bqZa.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-49f22c1b-dbef-45e5-a49f-7702a020b2b1.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/3EA7agRNVzykv3nmTwHQb.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/A3ompRcZMu0Jj59YSpEgo.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/3EA7agRNVzykv3nmTwHQb.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/1YSJ9fG8HDDmSAyIjJ-Ns.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/9NdHNE1zGL8zEmvHFUz9V.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/3SA-d8QoBuEsUszocM6u9.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/9NdHNE1zGL8zEmvHFUz9V.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/gtf_cs_fVcokvw_-3bqZa.jpg"
               },
               "cropW": 615,
               "cropH": 915,
@@ -12269,10 +11537,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 10577,
+                "y": 10195,
                 "w": 281,
                 "h": 418,
-                "z": 401,
+                "z": 397,
                 "cropW": 615,
                 "cropH": 915,
                 "cropX": 758,
@@ -12283,12 +11551,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/1YSJ9fG8HDDmSAyIjJ-Ns.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/gtf_cs_fVcokvw_-3bqZa.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-49f22c1b-dbef-45e5-a49f-7702a020b2b1.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/sqO-OtB20BvMHzMtFdIIJ.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/A3ompRcZMu0Jj59YSpEgo.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/sqO-OtB20BvMHzMtFdIIJ.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/1YSJ9fG8HDDmSAyIjJ-Ns.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/bx8_x0Rcn8rxRm2gxqQp2.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/3SA-d8QoBuEsUszocM6u9.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/bx8_x0Rcn8rxRm2gxqQp2.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/gtf_cs_fVcokvw_-3bqZa.jpg"
                 },
                 "scale": 0.45691,
                 "modifiers": []
@@ -12308,7 +11576,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 401,
+              "z": 397,
               "cropW": 977,
               "cropH": 1471,
               "cropX": 3,
@@ -12323,12 +11591,12 @@
               "blurHash": "UNHx7p~UkV^%E34;IojZ0ext%1EM4:-oxZWB",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/nN7lfKSAyNB1kDE_2z-9f.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CthEMDzYXCsAjFEiLG-Dk.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-472c95ab-49ed-4f7a-8e2c-81cc8fd90e7e.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/VGVqyQifl9IVcQ1GiSNBf.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/CHyxVjk2hsFHCuW9H-nmb.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/VGVqyQifl9IVcQ1GiSNBf.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/nN7lfKSAyNB1kDE_2z-9f.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/77krQiI6rpi7-QeTWawFi.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/auKroRiGm7Vqsl_VOXyvb.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/77krQiI6rpi7-QeTWawFi.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CthEMDzYXCsAjFEiLG-Dk.jpg"
               },
               "name": "",
               "animation": [{
@@ -12347,10 +11615,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 10138,
+                "y": 9756,
                 "w": 279,
                 "h": 420,
-                "z": 402,
+                "z": 398,
                 "cropW": 977,
                 "cropH": 1471,
                 "cropX": 3,
@@ -12361,12 +11629,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/nN7lfKSAyNB1kDE_2z-9f.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CthEMDzYXCsAjFEiLG-Dk.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-472c95ab-49ed-4f7a-8e2c-81cc8fd90e7e.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/u4zjGs5IPQl1NC5vKBDMP.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/CHyxVjk2hsFHCuW9H-nmb.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/u4zjGs5IPQl1NC5vKBDMP.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/nN7lfKSAyNB1kDE_2z-9f.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/2WLqpYYfH3xLmhPrfYil6.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/auKroRiGm7Vqsl_VOXyvb.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/2WLqpYYfH3xLmhPrfYil6.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CthEMDzYXCsAjFEiLG-Dk.jpg"
                 },
                 "scale": 0.28557,
                 "modifiers": []
@@ -12412,7 +11680,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 402,
+              "z": 398,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -12488,10 +11756,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 11016,
+                "y": 10634,
                 "w": 280,
                 "h": 98,
-                "z": 403,
+                "z": 399,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -12591,7 +11859,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 403,
+              "z": 399,
               "scale": 0.50035,
               "cropH": 1447,
               "cropW": 963,
@@ -12605,29 +11873,29 @@
               "originalW": 964,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/BxFvtvIUMH46qqO00UqLj.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/84KjINS7BW6xKbqG_y99g.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-786f3ecb-4b19-4785-9bf0-d8e97d0776db.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/BxFvtvIUMH46qqO00UqLj.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/8W70vl0hWAXiKEObtWSQv.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/BxFvtvIUMH46qqO00UqLj.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/BxFvtvIUMH46qqO00UqLj.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/84KjINS7BW6xKbqG_y99g.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/QcWK-Ig-8aHg9VEh0q0QM.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/84KjINS7BW6xKbqG_y99g.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/84KjINS7BW6xKbqG_y99g.jpg"
               },
               "blurHash": "U8J7s@QR0JNZ00?d?bMy00I;Io-qagi^%0IT",
               "name": "",
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 11130,
+                "y": 10748,
                 "w": 280,
                 "h": 421,
-                "z": 404,
+                "z": 400,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Gh-pOI4YdtjzxHhbfwiWN.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/87afEymHbjnia-lr0_-Km.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-786f3ecb-4b19-4785-9bf0-d8e97d0776db.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/9bShS2Jy9D_ussQkx4zPk.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/9GK2LaeiKZbPP6cDLyULO.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/9bShS2Jy9D_ussQkx4zPk.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Gh-pOI4YdtjzxHhbfwiWN.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/lS2WWntz_O0Vip_nqrRAI.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/xyVE2BhuqpZZ5kG-GsnmZ.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/lS2WWntz_O0Vip_nqrRAI.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/87afEymHbjnia-lr0_-Km.jpg"
                 },
                 "cropW": 962,
                 "cropH": 1447,
@@ -12655,15 +11923,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 404,
+              "z": 400,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/cM-XkMzDMl0lLdPTsVKL4.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/vHloXiCtWrKvWlFO_jsKR.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-b50121f0-c54d-4f0c-a542-2ac27beb9509.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/cM-XkMzDMl0lLdPTsVKL4.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/OkIElzLEFlAv2yfZxjtqg.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/cM-XkMzDMl0lLdPTsVKL4.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/cM-XkMzDMl0lLdPTsVKL4.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/vHloXiCtWrKvWlFO_jsKR.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/0oxFdF7ibSIrSQoUnaA3O.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/vHloXiCtWrKvWlFO_jsKR.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/vHloXiCtWrKvWlFO_jsKR.jpg"
               },
               "cropW": 932,
               "cropH": 1401,
@@ -12680,10 +11948,10 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 23,
-                "y": 11567,
+                "y": 11185,
                 "w": 277,
                 "h": 417,
-                "z": 405,
+                "z": 401,
                 "cropW": 931,
                 "cropH": 1401,
                 "cropX": 1,
@@ -12694,12 +11962,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/7iStYkbT1R8Lh_hidej7l.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/dM_s8shNnFoELBlFMrX9t.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-b50121f0-c54d-4f0c-a542-2ac27beb9509.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/ygB6WwDr4n3bh-XINLftw.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/CVx298vIZ2OftY5XvlW8d.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/ygB6WwDr4n3bh-XINLftw.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/7iStYkbT1R8Lh_hidej7l.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/jNgv-k9YKqeLy_taiqWFT.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/ax_jVocyRqaqACRv6y-6H.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/jNgv-k9YKqeLy_taiqWFT.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/dM_s8shNnFoELBlFMrX9t.jpg"
                 },
                 "scale": 0.29764,
                 "modifiers": []
@@ -12745,7 +12013,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 406,
+              "z": 402,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -12821,10 +12089,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 22,
-                "y": 12000,
+                "y": 11618,
                 "w": 280,
                 "h": 112,
-                "z": 406,
+                "z": 402,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -12924,15 +12192,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 408,
+              "z": 404,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/2QvqnERSPfRJT1msv6guD.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/4OEBXCFML9VqeT-kr96Yb.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-39d7a83e-2dc2-489f-bb85-293d408403c8.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/N1kiB9FO65JKU20Jfi9UP.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/FtVl11zLJRZqVlf96CCE2.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/N1kiB9FO65JKU20Jfi9UP.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/2QvqnERSPfRJT1msv6guD.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/rLGKtex_RhIqAkoO5qL73.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/Gz5q4oq9UQ5GlgW31CcWs.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/rLGKtex_RhIqAkoO5qL73.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/4OEBXCFML9VqeT-kr96Yb.jpg"
               },
               "cropW": 850,
               "cropH": 1277,
@@ -12949,10 +12217,10 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 12566,
+                "y": 12184,
                 "w": 278,
                 "h": 418,
-                "z": 407,
+                "z": 403,
                 "cropW": 849,
                 "cropH": 1277,
                 "cropX": 1,
@@ -12963,12 +12231,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/XpEMjDxx756T_lQvVXBxy.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/rXLda2UJ-tmpnRyb7w-eI.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-39d7a83e-2dc2-489f-bb85-293d408403c8.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/HNyxqQK9h9hf3dKc_jVRX.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/qzY_5qH_3iS-uQb7xA3AE.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/HNyxqQK9h9hf3dKc_jVRX.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/XpEMjDxx756T_lQvVXBxy.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/CIirsMx28QUmkq2zpMBtA.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Z4ys7SnhqthLGljNRi_6q.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/CIirsMx28QUmkq2zpMBtA.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/rXLda2UJ-tmpnRyb7w-eI.jpg"
                 },
                 "scale": 0.32733,
                 "modifiers": []
@@ -12996,7 +12264,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 407,
+              "z": 403,
               "cropH": 743,
               "cropW": 1114,
               "cropX": 0,
@@ -13009,22 +12277,22 @@
               "originalW": 1115,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/nSwlgK7ClNNSejhLpad4_.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/xYEXbB6QsjM163aSM_md1.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-e892ac53-0c48-47f1-a623-9b789d1aa99c.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/nSwlgK7ClNNSejhLpad4_.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/jR6_5uM-mkEXfrqa6p_4T.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/nSwlgK7ClNNSejhLpad4_.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/nSwlgK7ClNNSejhLpad4_.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/xYEXbB6QsjM163aSM_md1.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/fju3NbnZ9ZCRkU6GBtatV.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/xYEXbB6QsjM163aSM_md1.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/xYEXbB6QsjM163aSM_md1.jpg"
               },
               "scale": 0.88291,
               "blurHash": "UeL:JW%K4;s,~ToeM|ofOGW;NGWBxFodbbay",
               "name": "",
               "viewport_phone_portrait": {
                 "x": 71,
-                "y": 12502,
+                "y": 12120,
                 "w": 171,
                 "h": 114,
-                "z": 409,
+                "z": 405,
                 "picture": {
                   "type": "jpg",
                   "unscaledUrl": "img/683d850bd2094940857eb894/6106967/image-e892ac53-0c48-47f1-a623-9b789d1aa99c.jpg",
@@ -13060,7 +12328,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 409,
+              "z": 405,
               "cropW": 897.6523364485981,
               "cropH": 1349,
               "cropX": 1.1738317757009327,
@@ -13076,12 +12344,12 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/7_kovZYv1qkbhP1O7A9f2.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/y8MJub6R5lYTEe48oViCj.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-acdb6ce4-f18c-4197-92c1-7ddd782521fb.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/exuujHcvO2GaURm0o-1hm.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/rrAVgvE_qRTcECyk4pDPC.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/exuujHcvO2GaURm0o-1hm.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/7_kovZYv1qkbhP1O7A9f2.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/hnkIcph9SuJxyprlCCyad.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/t8AUQhFtR0dB4AT24jgBs.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/hnkIcph9SuJxyprlCCyad.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/y8MJub6R5lYTEe48oViCj.jpg"
               },
               "animation": [{
                 "UUID": "a0ee43ea-413f-48c4-98ec-ab81f8450d1e",
@@ -13101,10 +12369,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 22,
-                "y": 12131,
+                "y": 11749,
                 "w": 278,
                 "h": 418,
-                "z": 408,
+                "z": 404,
                 "cropW": 897,
                 "cropH": 1349,
                 "cropX": 1,
@@ -13115,12 +12383,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Y3iTzDJ_XEN_ynxNs90La.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/safOD2Z2uY2QXn0jXGc9t.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-acdb6ce4-f18c-4197-92c1-7ddd782521fb.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/RFzVixkxPUGMrI2TJ-v0W.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/1et7NZYyaiFj9P4CSNyQU.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/RFzVixkxPUGMrI2TJ-v0W.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Y3iTzDJ_XEN_ynxNs90La.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/3ldKnf5f75TOqDRguR8xo.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/hUC9ZWzLSYyrwpslNvwoo.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/3ldKnf5f75TOqDRguR8xo.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/safOD2Z2uY2QXn0jXGc9t.jpg"
                 },
                 "scale": 0.30986,
                 "modifiers": []
@@ -13166,7 +12434,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 410,
+              "z": 406,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -13242,10 +12510,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 21,
-                "y": 13006,
+                "y": 12624,
                 "w": 280,
                 "h": 112,
-                "z": 410,
+                "z": 406,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -13345,15 +12613,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 411,
+              "z": 407,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/YmSyXGkFElBrGAqeYNkG3.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/iWCs_iRptvaE7OR1_vqms.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-aa97fc49-ff4c-4b05-9627-a7fb4b04ceae.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/YmSyXGkFElBrGAqeYNkG3.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/gEwxa7s_Xqm8pQ0_a47Ae.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/YmSyXGkFElBrGAqeYNkG3.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/YmSyXGkFElBrGAqeYNkG3.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/iWCs_iRptvaE7OR1_vqms.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/d_1wZaYZjXpPD16e7WnZ4.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/iWCs_iRptvaE7OR1_vqms.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/iWCs_iRptvaE7OR1_vqms.jpg"
               },
               "cropW": 934.7071823204419,
               "cropH": 1404,
@@ -13370,10 +12638,10 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 22,
-                "y": 13138,
+                "y": 12756,
                 "w": 278,
                 "h": 418,
-                "z": 411,
+                "z": 407,
                 "cropW": 934,
                 "cropH": 1404,
                 "cropX": 1,
@@ -13384,12 +12652,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/AFp2VU0XF3y27XRE_F-aT.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/3nKh3rV6hd70nm9SO-1lk.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-aa97fc49-ff4c-4b05-9627-a7fb4b04ceae.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6tljJMOw5l0raBCn7gJcJ.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/rl1JbcZlatV1V7qdOOlMv.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6tljJMOw5l0raBCn7gJcJ.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/AFp2VU0XF3y27XRE_F-aT.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/so0BuDbaFwpd4umIT1yMP.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/vOUh37KzNvRXQzl3Oa1Uf.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/so0BuDbaFwpd4umIT1yMP.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/3nKh3rV6hd70nm9SO-1lk.jpg"
                 },
                 "scale": 0.29772,
                 "modifiers": []
@@ -13409,7 +12677,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 413,
+              "z": 409,
               "cropW": 956.6767955801104,
               "cropH": 1437,
               "cropX": 0.6616022099448173,
@@ -13425,19 +12693,19 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Aro5hb7FQUnHLJl1FIWJs.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/S2LGwjUNOwyWRyEASKbwR.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-ab960eca-2123-4fc1-8725-423485c813c1.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Aro5hb7FQUnHLJl1FIWJs.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/LLFKFP2RGhPNiqdh3a_BP.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/Aro5hb7FQUnHLJl1FIWJs.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Aro5hb7FQUnHLJl1FIWJs.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/S2LGwjUNOwyWRyEASKbwR.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/1ihVJjMA_Y3yNs4mcC7bO.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/S2LGwjUNOwyWRyEASKbwR.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/S2LGwjUNOwyWRyEASKbwR.jpg"
               },
               "viewport_phone_portrait": {
                 "x": 94,
-                "y": 13469,
+                "y": 13087,
                 "w": 140,
                 "h": 211,
-                "z": 414,
+                "z": 410,
                 "cropW": 953,
                 "cropH": 1437,
                 "cropX": 2,
@@ -13448,12 +12716,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/lvgY7WBm5sta7P3pf6Awd.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/0RHGwMwxtzJ_to_orF52q.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-ab960eca-2123-4fc1-8725-423485c813c1.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/RnRG5dLsbeuwH2Hmg_gcK.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/qo8b4xorNgCN4cM9PjYlk.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/RnRG5dLsbeuwH2Hmg_gcK.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/lvgY7WBm5sta7P3pf6Awd.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/E0Eb7hrhlrI2_qYFFi5Li.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/gv5q4ycrWgp399z6hHVZr.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/E0Eb7hrhlrI2_qYFFi5Li.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/0RHGwMwxtzJ_to_orF52q.jpg"
                 },
                 "scale": 0.14683,
                 "modifiers": []
@@ -13473,7 +12741,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 415,
+              "z": 411,
               "cropW": 896,
               "cropH": 1344,
               "cropX": 0,
@@ -13489,24 +12757,24 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/h5XflYpW-K7iLJx1UFeyH.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/NnmE1ueEOF3M5WzXR_wd7.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-7138ed8b-6e22-47ba-8c3d-5fae64319b19.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/SrasdabTrZHvpwXhu-LAK.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/LZAI6RnN-ZF2vJ10SCJcM.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/SrasdabTrZHvpwXhu-LAK.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/h5XflYpW-K7iLJx1UFeyH.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/BXKpMU2St3cB4qZ1ikaXj.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/u-xCw-MHNQry1xfrpKk6F.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/BXKpMU2St3cB4qZ1ikaXj.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/NnmE1ueEOF3M5WzXR_wd7.jpg"
               },
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 412,
+                "z": 408,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/h5XflYpW-K7iLJx1UFeyH.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/NnmE1ueEOF3M5WzXR_wd7.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-7138ed8b-6e22-47ba-8c3d-5fae64319b19.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/SrasdabTrZHvpwXhu-LAK.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/LZAI6RnN-ZF2vJ10SCJcM.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/SrasdabTrZHvpwXhu-LAK.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/h5XflYpW-K7iLJx1UFeyH.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/BXKpMU2St3cB4qZ1ikaXj.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/u-xCw-MHNQry1xfrpKk6F.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/BXKpMU2St3cB4qZ1ikaXj.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/NnmE1ueEOF3M5WzXR_wd7.jpg"
                 }
               },
               "modifiers": [],
@@ -13540,7 +12808,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 416,
+              "z": 412,
               "cropW": 1035,
               "cropH": 1552.5,
               "cropX": 0,
@@ -13556,19 +12824,19 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/-6UbtX_lqPxIyGs6CzR2M.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/vg9SBzFtvyDaHcmh1D1bs.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-f28c7ab4-a9e7-4ed5-8a20-c4fb7b7ab512.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/eCxGU3T4maFCghD2Ic_fS.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/uH-gIbSuyNIQ8QPCawo0F.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/eCxGU3T4maFCghD2Ic_fS.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/-6UbtX_lqPxIyGs6CzR2M.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/ePWBa7ACHzjsw_1MXO4-t.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/PUsUCT4Xj4D_4sjlUYLdz.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/ePWBa7ACHzjsw_1MXO4-t.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/vg9SBzFtvyDaHcmh1D1bs.jpg"
               },
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 13575,
+                "y": 13193,
                 "w": 280,
                 "h": 420,
-                "z": 413,
+                "z": 409,
                 "cropW": 1035,
                 "cropH": 1553,
                 "cropX": 0,
@@ -13620,7 +12888,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 412,
+              "z": 408,
               "scale": 0.7298907646474677,
               "cropH": 1007,
               "cropW": 1342.6666666666667,
@@ -13634,29 +12902,29 @@
               "originalW": 1510,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/BHUsCs6NQQ3MArWQkIvF5.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/2UN_fv3qDeMjs9mumLvHU.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-9a9a2f10-4d39-44b5-bb54-05ae328240cf.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/BHUsCs6NQQ3MArWQkIvF5.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/PCvrXmsw4a9CqPr0l7wAx.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/BHUsCs6NQQ3MArWQkIvF5.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/BHUsCs6NQQ3MArWQkIvF5.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/2UN_fv3qDeMjs9mumLvHU.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/FlO9Vuya6wzY9ReftSUfY.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/2UN_fv3qDeMjs9mumLvHU.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/2UN_fv3qDeMjs9mumLvHU.jpg"
               },
               "blurHash": "UMD9PC-;Eex]~Wt7X8xuJ,M{v~aeSzRjVskB",
               "name": "",
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 14017,
+                "y": 13635,
                 "w": 279,
                 "h": 209,
-                "z": 415,
+                "z": 411,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Z1MIVdnU8NYQUYBmrM1rt.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/yKlNysg6l_ZAgVVstdj5B.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-9a9a2f10-4d39-44b5-bb54-05ae328240cf.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/MsODkccRd7OO9mTO1DB_V.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Y4ENMrZ4mr3Uq7wKIU9g4.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/MsODkccRd7OO9mTO1DB_V.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Z1MIVdnU8NYQUYBmrM1rt.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/WvUddrTjB1vvf68jcx2Yi.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/MOl2k53G-IKbeJIhJdksP.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/WvUddrTjB1vvf68jcx2Yi.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/yKlNysg6l_ZAgVVstdj5B.jpg"
                 },
                 "cropW": 1343,
                 "cropH": 1006,
@@ -13744,7 +13012,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 417,
+              "z": 413,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -13828,10 +13096,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 14573,
+                "y": 14191,
                 "w": 280,
                 "h": 168,
-                "z": 418,
+                "z": 414,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -13990,7 +13258,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 418,
+              "z": 414,
               "blocksMeta": [{
                 "key": "aqbb0",
                 "data": {
@@ -14004,10 +13272,10 @@
               "text": "",
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 14478,
+                "y": 14096,
                 "w": 280,
                 "h": 78,
-                "z": 416,
+                "z": 412,
                 "styles": [{
                   "key": "aqbb0",
                   "type": "unstyled",
@@ -14075,7 +13343,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 419,
+              "z": 415,
               "blocksMeta": [{
                 "key": "a47pi",
                 "data": {
@@ -14088,11 +13356,11 @@
               "name": "",
               "text": "",
               "viewport_phone_portrait": {
-                "x": 140,
-                "y": 14476,
+                "x": 142,
+                "y": 14094,
                 "w": 72,
                 "h": 35,
-                "z": 417,
+                "z": 413,
                 "modifiers": []
               },
               "modifiers": [],
@@ -14102,7 +13370,7 @@
               "wid": "698f3879ac0226fcfb8c2f9c",
               "mag_num_id": 6106967,
               "type": "text",
-              "x": 349,
+              "x": 351,
               "y": 12774,
               "w": 72,
               "h": 35,
@@ -14136,7 +13404,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 420,
+              "z": 416,
               "blocksMeta": [{
                 "key": "a47pi",
                 "data": {
@@ -14150,10 +13418,10 @@
               "text": "",
               "viewport_phone_portrait": {
                 "x": 99,
-                "y": 14529,
+                "y": 14147,
                 "w": 72,
                 "h": 35,
-                "z": 419,
+                "z": 415,
                 "modifiers": []
               },
               "modifiers": [],
@@ -14171,15 +13439,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 421,
+              "z": 417,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/KjbEY3cUIG9eDzTwKWdSN.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/HJNApxgHomduI3wxdxbRT.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-5fbead93-9bb8-4968-9ce7-21d545d8eafd.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/KjbEY3cUIG9eDzTwKWdSN.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/fp6lUT-tr9WcAQr_hq9_g.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/KjbEY3cUIG9eDzTwKWdSN.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/KjbEY3cUIG9eDzTwKWdSN.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/HJNApxgHomduI3wxdxbRT.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/FaUZeQP8SxusuJfxGgzCn.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/HJNApxgHomduI3wxdxbRT.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/HJNApxgHomduI3wxdxbRT.jpg"
               },
               "cropW": 1435,
               "cropH": 1076,
@@ -14196,10 +13464,10 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 14244,
+                "y": 13862,
                 "w": 280,
                 "h": 210,
-                "z": 420,
+                "z": 416,
                 "cropW": 1435,
                 "cropH": 1076,
                 "cropX": 89,
@@ -14210,12 +13478,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/KjbEY3cUIG9eDzTwKWdSN.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/HJNApxgHomduI3wxdxbRT.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-5fbead93-9bb8-4968-9ce7-21d545d8eafd.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/HS6HQ7_9GS_-Ty31z4AjQ.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/fp6lUT-tr9WcAQr_hq9_g.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/HS6HQ7_9GS_-Ty31z4AjQ.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/KjbEY3cUIG9eDzTwKWdSN.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/wrtWzT8iLGdoXdJq6SmUE.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/FaUZeQP8SxusuJfxGgzCn.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/wrtWzT8iLGdoXdJq6SmUE.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/HJNApxgHomduI3wxdxbRT.jpg"
                 },
                 "scale": 0.19517,
                 "modifiers": []
@@ -14235,15 +13503,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 422,
+              "z": 418,
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-6e15f10c-c4e3-43b7-a36e-0347ecf6441d.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/9G4S3l9h6Vb-JbSKBYTCw.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/Cays7awn_Tl7nRMube4kn.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg"
               },
               "cropW": 1438.5,
               "cropH": 959,
@@ -14260,15 +13528,15 @@
               "name": "",
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 421,
+                "z": 417,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-6e15f10c-c4e3-43b7-a36e-0347ecf6441d.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/9G4S3l9h6Vb-JbSKBYTCw.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/M067sPESkJUQWxyIwTVf1.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Cays7awn_Tl7nRMube4kn.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/J_sVEE-iTDBaFJuSue-z7.jpg"
                 }
               },
               "modifiers": [],
@@ -14286,7 +13554,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 423,
+              "z": 419,
               "cropW": 1069.3308411214953,
               "cropH": 1607,
               "cropX": 0.8345794392523658,
@@ -14302,19 +13570,19 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Bi30N-Fd-YNQq-bflR7E3.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/A7pJeVSFv1-dezdvmlyPU.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-c44e0e83-a5a9-4187-875f-2822e07a4358.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/kQe6Pz_sRDYIeBSdcd5wF.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/ip89y9-ZPavacS-z4IiG-.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/kQe6Pz_sRDYIeBSdcd5wF.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Bi30N-Fd-YNQq-bflR7E3.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/yodzPFUYc7vAr4cmOo4rp.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/2PDlt66NcBLTw5eJ56C2h.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/yodzPFUYc7vAr4cmOo4rp.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/A7pJeVSFv1-dezdvmlyPU.jpg"
               },
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 14763,
+                "y": 14381,
                 "w": 280,
                 "h": 421,
-                "z": 422,
+                "z": 418,
                 "cropW": 1069,
                 "cropH": 1607,
                 "cropX": 1,
@@ -14325,12 +13593,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Wc_xJ2UrTCwZ1yL_Xzz9N.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Bieg7u5dJRxHyNnEJEzdo.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-c44e0e83-a5a9-4187-875f-2822e07a4358.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/UKVUj7py1hNtIMGIspKST.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/bDbbsRFFQQFte2ZZso2Vq.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/UKVUj7py1hNtIMGIspKST.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Wc_xJ2UrTCwZ1yL_Xzz9N.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/FUbpCItWNhBRycHzJe9GI.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/o-tTFNi_ZyLGNuyBCrrS0.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/FUbpCItWNhBRycHzJe9GI.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Bieg7u5dJRxHyNnEJEzdo.jpg"
                 },
                 "scale": 0.26198,
                 "modifiers": []
@@ -14377,7 +13645,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 424,
+              "z": 420,
               "cropW": 1078.6467289719626,
               "cropH": 1621,
               "cropX": 1.1766355140186988,
@@ -14423,19 +13691,19 @@
               }],
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/VC-BQN4ZQN-IJSk2zfjTM.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/VM_fAVUxOQmRpITZ_q9VQ.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-c69eed31-1545-40cd-9ae5-060648705c87.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Rw0E6GcvxJXB56KzaXWkq.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/YAYm-wtU0BChrm9hIqwd-.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/Rw0E6GcvxJXB56KzaXWkq.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/VC-BQN4ZQN-IJSk2zfjTM.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/DXZ94bk2Y_NkrV9FaS5N2.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/OLUyz37P45UI4EITbkQYh.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/DXZ94bk2Y_NkrV9FaS5N2.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/VM_fAVUxOQmRpITZ_q9VQ.jpg"
               },
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 15212,
+                "y": 14830,
                 "w": 283,
                 "h": 425,
-                "z": 423,
+                "z": 419,
                 "cropW": 1079,
                 "cropH": 1620,
                 "cropX": 1,
@@ -14446,12 +13714,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/XhCX1Zd2TKDcPh91MNA9W.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/SOQPmkgfX5z7Sg8BgGwwj.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-c69eed31-1545-40cd-9ae5-060648705c87.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/gpOyf-NBim79YkGY-uzDQ.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/srmfV0VIjUleVgj6uAJLc.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/gpOyf-NBim79YkGY-uzDQ.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/XhCX1Zd2TKDcPh91MNA9W.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/onnhtloMbDLyEytspbiHq.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/sYjFtpTSpy9JfB_l6Uxp5.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/onnhtloMbDLyEytspbiHq.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/SOQPmkgfX5z7Sg8BgGwwj.jpg"
                 },
                 "scale": 0.26237,
                 "modifiers": []
@@ -14471,7 +13739,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 425,
+              "z": 421,
               "cropW": 965.3314917127072,
               "cropH": 1450,
               "cropX": 0.8342541436463762,
@@ -14487,24 +13755,24 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/_hqHgbXSIabHFW8WeZjoE.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Yzd6F26rAOuRtMxz2v481.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-fec6cdf1-9fe4-4f1b-8167-84e3d27c212a.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/n5NIqjVDK9urkv97DLFiN.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/oBoP4io2-f8QQkOEKCgip.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/n5NIqjVDK9urkv97DLFiN.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/_hqHgbXSIabHFW8WeZjoE.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/76DVqCIR-OB_p--CqSJuT.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/If5deE3qNijdju84UTLQ4.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/76DVqCIR-OB_p--CqSJuT.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Yzd6F26rAOuRtMxz2v481.jpg"
               },
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 424,
+                "z": 420,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/_hqHgbXSIabHFW8WeZjoE.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/Yzd6F26rAOuRtMxz2v481.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-fec6cdf1-9fe4-4f1b-8167-84e3d27c212a.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/n5NIqjVDK9urkv97DLFiN.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/oBoP4io2-f8QQkOEKCgip.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/n5NIqjVDK9urkv97DLFiN.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/_hqHgbXSIabHFW8WeZjoE.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/76DVqCIR-OB_p--CqSJuT.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/If5deE3qNijdju84UTLQ4.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/76DVqCIR-OB_p--CqSJuT.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/Yzd6F26rAOuRtMxz2v481.jpg"
                 }
               },
               "modifiers": [],
@@ -14538,7 +13806,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 426,
+              "z": 422,
               "cropW": 1041.2265193370167,
               "cropH": 1564,
               "cropX": 0.8867403314916373,
@@ -14554,19 +13822,19 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/QsAlSr4YBpNGAzODVPNca.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/mhz2aEvY4nPFsYxrRDbIx.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-4faf80f8-de7b-480f-a49f-485751fe7eb5.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/ZIFWuWMpwX2mPIsiKkDFO.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/mH4MDkepRBgJHUMFd6prr.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/ZIFWuWMpwX2mPIsiKkDFO.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/QsAlSr4YBpNGAzODVPNca.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/pBaCjCEizbkYg2MSfimCC.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/cZQgdr1JP82c87lnSucmu.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/pBaCjCEizbkYg2MSfimCC.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/mhz2aEvY4nPFsYxrRDbIx.jpg"
               },
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 16267,
+                "y": 15885,
                 "w": 280,
                 "h": 420,
-                "z": 425,
+                "z": 421,
                 "cropW": 1041,
                 "cropH": 1562,
                 "cropX": 1,
@@ -14577,12 +13845,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/qVoAfn5ITVxU2bbjNCMTO.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/CVQjCWwznTEVPYqBnEQ1t.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-4faf80f8-de7b-480f-a49f-485751fe7eb5.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/GDCs43MNAUbGF6G55CxFv.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/LKHt6n6RCmnSM1MB6NmOe.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/GDCs43MNAUbGF6G55CxFv.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/qVoAfn5ITVxU2bbjNCMTO.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/ImAHdUPM7sn0BoTy-UkpB.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/7c2GeIM8pmz95fMvlUcIj.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/ImAHdUPM7sn0BoTy-UkpB.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/CVQjCWwznTEVPYqBnEQ1t.jpg"
                 },
                 "scale": 0.26891,
                 "modifiers": []
@@ -14618,7 +13886,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 427,
+              "z": 423,
               "cropW": 1014.6666666666666,
               "cropH": 1522,
               "cropX": 0.16666666666668561,
@@ -14634,19 +13902,19 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/_6pL2kAJm3WECBIPvlzaU.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/5MZJrs37th7fgEhn354Eo.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-04856544-9d9a-46d9-81d1-7c0924a0bc38.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/aGErThu9jKithsO53zLx3.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/nEhI_Czd4uS_aZgGQ-twr.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/aGErThu9jKithsO53zLx3.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/_6pL2kAJm3WECBIPvlzaU.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/SGZdDiIvEd8JBuVyzM6V_.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/GitnHXjRYvw0lS9m6padn.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/SGZdDiIvEd8JBuVyzM6V_.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/5MZJrs37th7fgEhn354Eo.jpg"
               },
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 15827,
+                "y": 15445,
                 "w": 280,
                 "h": 420,
-                "z": 426,
+                "z": 422,
                 "cropW": 1015,
                 "cropH": 1522,
                 "cropX": 0,
@@ -14682,7 +13950,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 428,
+              "z": 424,
               "cropW": 752.6666666666667,
               "cropH": 1129,
               "cropX": 471.16666666666663,
@@ -14698,19 +13966,19 @@
               "name": "",
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/UE-fxhrJyGwtrezeTuZQd.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/JA709BVUsiPaotu7GS0Dc.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-3a7f3851-7c7f-431e-acc4-24d05fe4a753.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/-IJcDszKPwsqD1XMfoImS.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/glrJIbqjn3_scokXygqXC.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/-IJcDszKPwsqD1XMfoImS.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/UE-fxhrJyGwtrezeTuZQd.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/VfltqHJPBJf9RBQ1QzENH.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/sDl3etKcPInXemwNOkY5P.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/VfltqHJPBJf9RBQ1QzENH.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/JA709BVUsiPaotu7GS0Dc.jpg"
               },
               "viewport_phone_portrait": {
                 "x": 80,
-                "y": 16226,
+                "y": 15844,
                 "w": 160,
                 "h": 141,
-                "z": 427,
+                "z": 423,
                 "cropW": 751,
                 "cropH": 662,
                 "cropX": 471,
@@ -14721,12 +13989,12 @@
                 "originalCropY": 136,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/PTUT2FewyuBrNhQZtLacz.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/BBNAMTVgiCTsYkHnIdxcj.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-3a7f3851-7c7f-431e-acc4-24d05fe4a753.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/pwHhXyOGDfoYLOgbUkIPx.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/8Lt3cyWnEHaAuddkKSueq.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/pwHhXyOGDfoYLOgbUkIPx.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/PTUT2FewyuBrNhQZtLacz.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/m7QnUUuPc8mcy8Hxw9is1.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/aI2jipESCZGkXia8nqEf9.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/m7QnUUuPc8mcy8Hxw9is1.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/BBNAMTVgiCTsYkHnIdxcj.jpg"
                 },
                 "scale": 0.21299,
                 "modifiers": []
@@ -14789,7 +14057,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 429,
+              "z": 425,
               "blocksMeta": [{
                 "key": "8h8sr",
                 "data": {
@@ -14865,10 +14133,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 23,
-                "y": 15654,
+                "y": 15272,
                 "w": 280,
                 "h": 154,
-                "z": 428,
+                "z": 424,
                 "styles": [{
                   "key": "8h8sr",
                   "type": "unstyled",
@@ -14991,15 +14259,15 @@
                 "weight": 1,
                 "bg_color": "000000",
                 "x": 72,
-                "y": 8947,
+                "y": 8565,
                 "w": 174,
                 "h": 129,
-                "z": 429,
+                "z": 425,
                 "hidden": false,
                 "modifiers": []
               },
               "name": "",
-              "z": 430,
+              "z": 426,
               "__v": 0
             }, {
               "_id": "698f531f779b579b7fda7aaf",
@@ -15007,9 +14275,9 @@
               "mag_num_id": 6106967,
               "type": "shape",
               "x": -13,
-              "y": 14876,
-              "w": 1073.33,
-              "h": 90,
+              "y": 14840,
+              "w": 1065,
+              "h": 126,
               "tp": "rectangle",
               "bg_color": "A8A7A7",
               "bg_opacity": 1,
@@ -15025,14 +14293,14 @@
               "sides": 3,
               "weight": 1,
               "stroke": "solid",
-              "z": 431,
+              "z": 427,
               "name": "",
               "viewport_phone_portrait": {
                 "x": -11,
-                "y": 17001,
+                "y": 16614,
                 "w": 342,
-                "h": 92,
-                "z": 431,
+                "h": 105,
+                "z": 427,
                 "hidden": false,
                 "modifiers": []
               },
@@ -15043,10 +14311,10 @@
               "wid": "698f531f14fe0b24e1e8ffbe",
               "mag_num_id": 6106967,
               "type": "text",
-              "x": 841,
-              "y": 14888,
-              "w": 154.78,
-              "h": 60,
+              "x": 717,
+              "y": 14862,
+              "w": 279,
+              "h": 40,
               "version": 3,
               "verticalAlign": "top",
               "textDirection": "LTR",
@@ -15094,7 +14362,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 432,
+              "z": 428,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
@@ -15119,8 +14387,8 @@
                 "w": 168,
                 "h": 20,
                 "x": 132,
-                "y": 17057,
-                "z": 432,
+                "y": 16686,
+                "z": 428,
                 "hidden": false,
                 "styles": [{
                   "key": "fim0o",
@@ -15174,15 +14442,15 @@
               "wid": "698f531f8942ad4fde664913",
               "mag_num_id": 6106967,
               "type": "picture",
-              "x": 418,
-              "y": 14888,
+              "x": 415.5,
+              "y": 14873,
               "w": 193,
               "h": 68.33,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 433,
+              "z": 429,
               "cropH": 142,
               "cropW": 402,
               "cropX": 0,
@@ -15206,10 +14474,10 @@
               "blurHash": "UkOWvn?bIU-;~qM{t7fQ00M{xuM{WBxuM{t7",
               "viewport_phone_portrait": {
                 "x": -21,
-                "y": 17023,
+                "y": 16641,
                 "w": 193,
                 "h": 39,
-                "z": 433,
+                "z": 429,
                 "picture": {
                   "url": "img/683d850bd2094940857eb894/6043837/Image-ae0facdd-96b2-470a-8b1c-deaeb0cd0fbc.svg",
                   "thumbUrl": "img/683d850bd2094940857eb894/6043837/Image-69962955-c03f-4660-8392-f977c55f292b.png",
@@ -15239,9 +14507,9 @@
               "mag_num_id": 6106967,
               "type": "text",
               "x": 20.67,
-              "y": 14890.07,
+              "y": 14873.07,
               "w": 200,
-              "h": 60,
+              "h": 66,
               "version": 3,
               "verticalAlign": "top",
               "textDirection": "LTR",
@@ -15271,8 +14539,8 @@
                     "length": 12,
                     "styles": ["0;0", "1;1"]
                   }],
-                  "keys": ["FONT_SIZE", "COLOR"],
-                  "values": ["19", "F3F3F364"]
+                  "keys": ["COLOR", "FONT_SIZE"],
+                  "values": ["F3F3F364", "19"]
                 }
               }, {
                 "key": "1vtts",
@@ -15283,8 +14551,8 @@
                     "length": 11,
                     "styles": ["0;0", "1;1"]
                   }],
-                  "keys": ["FONT_SIZE", "COLOR"],
-                  "values": ["19", "F3F3F364"]
+                  "keys": ["COLOR", "FONT_SIZE"],
+                  "values": ["F3F3F364", "19"]
                 }
               }, {
                 "key": "9qddi",
@@ -15295,8 +14563,8 @@
                     "length": 14,
                     "styles": ["0;0", "1;1"]
                   }],
-                  "keys": ["FONT_SIZE", "COLOR"],
-                  "values": ["19", "F3F3F364"]
+                  "keys": ["COLOR", "FONT_SIZE"],
+                  "values": ["F3F3F364", "19"]
                 }
               }],
               "entityMap": {},
@@ -15306,29 +14574,29 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 434,
+              "z": 430,
               "blocksMeta": [{
                 "key": "fim0o",
                 "data": {
-                  "sizesLinkedStatus": true,
+                  "sizesLinkedStatus": false,
                   "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
-                  "lineHeight": 20,
+                  "lineHeight": 22,
                   "align": "align-left"
                 }
               }, {
                 "key": "1vtts",
                 "data": {
-                  "sizesLinkedStatus": true,
+                  "sizesLinkedStatus": false,
                   "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
-                  "lineHeight": 20,
+                  "lineHeight": 22,
                   "align": "align-left"
                 }
               }, {
                 "key": "9qddi",
                 "data": {
-                  "sizesLinkedStatus": true,
+                  "sizesLinkedStatus": false,
                   "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
-                  "lineHeight": 20,
+                  "lineHeight": 22,
                   "align": "align-left"
                 }
               }],
@@ -15337,10 +14605,10 @@
               "originId": "666865d1565c6a002ebb4ded",
               "viewport_phone_portrait": {
                 "w": 203,
-                "h": 30,
+                "h": 33,
                 "x": 97,
-                "y": 17005,
-                "z": 434,
+                "y": 16619,
+                "z": 430,
                 "hidden": false,
                 "styles": [{
                   "key": "fim0o",
@@ -15383,25 +14651,25 @@
                 "blocksMeta": [{
                   "key": "fim0o",
                   "data": {
-                    "sizesLinkedStatus": true,
+                    "sizesLinkedStatus": false,
                     "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
-                    "lineHeight": 10,
+                    "lineHeight": 11,
                     "align": "align-right"
                   }
                 }, {
                   "key": "1vtts",
                   "data": {
-                    "sizesLinkedStatus": true,
+                    "sizesLinkedStatus": false,
                     "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
-                    "lineHeight": 10,
+                    "lineHeight": 11,
                     "align": "align-right"
                   }
                 }, {
                   "key": "9qddi",
                   "data": {
-                    "sizesLinkedStatus": true,
+                    "sizesLinkedStatus": false,
                     "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
-                    "lineHeight": 10,
+                    "lineHeight": 11,
                     "align": "align-right"
                   }
                 }],
@@ -15414,14 +14682,14 @@
               "mag_num_id": 6106967,
               "type": "picture",
               "x": 549,
-              "y": 14707,
+              "y": 14679,
               "w": 100,
               "h": 112,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 435,
+              "z": 431,
               "cropH": 1984,
               "cropW": 1771,
               "cropX": 1,
@@ -15434,21 +14702,21 @@
               "originalW": 1773,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/9A5ppWeSQrHKZ26o28fWL.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EzU3ZdT963S-OaGqKNRuy.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-88cb924d-ed4a-4992-8e87-ddae162352bb.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/xAZcuEUZJZoBpk-q7fb0v.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/AM1u7rH3wlEyVPvl9P1xW.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/xAZcuEUZJZoBpk-q7fb0v.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/9A5ppWeSQrHKZ26o28fWL.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/YjdNlk4B_ZKY-q_w2-KkP.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/ScdOq7_2t4oGXEuFngdpq.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/YjdNlk4B_ZKY-q_w2-KkP.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EzU3ZdT963S-OaGqKNRuy.png"
               },
               "scale": 0.05645,
               "blurHash": "UCENME%19gpM5cR*f6WBx^bx?DwF0jWB%NRo",
               "viewport_phone_portrait": {
                 "x": 28,
-                "y": 14250,
+                "y": 13868,
                 "w": 42,
                 "h": 47,
-                "z": 435,
+                "z": 431,
                 "picture": {
                   "type": "png",
                   "unscaledUrl": "img/683d850bd2094940857eb894/6106967/image-88cb924d-ed4a-4992-8e87-ddae162352bb.png",
@@ -15493,14 +14761,14 @@
               "mag_num_id": 6106967,
               "type": "picture",
               "x": 320,
-              "y": 14681,
+              "y": 14653,
               "w": 151,
               "h": 148,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 436,
+              "z": 432,
               "cropH": 180,
               "cropW": 184,
               "cropX": 0,
@@ -15524,18 +14792,18 @@
               "blurHash": "UAJ4J-=30v-W~Do2IUt70]Nt];R*HXaxyDVt",
               "viewport_phone_portrait": {
                 "x": 102,
-                "y": 16834,
+                "y": 16452,
                 "w": 116,
                 "h": 114,
-                "z": 436,
+                "z": 432,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/AySDZ4l2YMjNbsZYXbgH2.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/YxAk2JvE71JD4N59XdzgB.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-44883a7f-c63c-4266-8bee-3e57340b615e.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/AySDZ4l2YMjNbsZYXbgH2.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/TSL48ezCFL_S6bSs9RxYT.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/AySDZ4l2YMjNbsZYXbgH2.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/AySDZ4l2YMjNbsZYXbgH2.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/YxAk2JvE71JD4N59XdzgB.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/03_Hv0p6TKHefcWNhEc4s.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/YxAk2JvE71JD4N59XdzgB.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/YxAk2JvE71JD4N59XdzgB.png"
                 },
                 "cropW": 183,
                 "cropH": 180,
@@ -15573,22 +14841,22 @@
               "mag_num_id": 6106967,
               "type": "picture",
               "x": 754,
-              "y": 14744,
+              "y": 14716,
               "w": 159,
               "h": 39,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 437,
+              "z": 433,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/I_FLoxaADl38u71SOSAkm.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/269-vVN2hrbEVdhECPI30.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-48d94998-6aad-4c9d-a73a-91f863d9b089.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/KepDsHiqz3xp_KPcXF__0.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/hdPzC1i0Ton1q3Tj9B2Oo.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/KepDsHiqz3xp_KPcXF__0.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/I_FLoxaADl38u71SOSAkm.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/GNnBzJ6j4fsjwYxaR5jps.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/J7M5dwk-WqkKrrhxmSmkR.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/GNnBzJ6j4fsjwYxaR5jps.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/269-vVN2hrbEVdhECPI30.png"
               },
               "cropW": 3593,
               "cropH": 882,
@@ -15604,10 +14872,10 @@
               "blurHash": "U37w?1Rjxuj[_3WBIUWB%Mxu?b-;-;xut7xu",
               "viewport_phone_portrait": {
                 "x": 97,
-                "y": 16806,
+                "y": 16424,
                 "w": 114,
                 "h": 28,
-                "z": 437,
+                "z": 433,
                 "cropW": 3591,
                 "cropH": 882,
                 "cropX": 1,
@@ -15618,12 +14886,12 @@
                 "originalCropY": 0,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/SIVrCChmbBIZEI4ZDNhT2.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/D2N-whBA2z_et06NF46x7.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-48d94998-6aad-4c9d-a73a-91f863d9b089.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/N5pzU_CY8d-ssKTOrMr_A.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/LdrjSqlCH_apT56wV1edC.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/N5pzU_CY8d-ssKTOrMr_A.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/SIVrCChmbBIZEI4ZDNhT2.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/ZIUtSF2HjScYez2amh80k.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/qQ8OvQlf_voi55mUZoDdu.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/ZIUtSF2HjScYez2amh80k.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/D2N-whBA2z_et06NF46x7.png"
                 },
                 "scale": 0.03175,
                 "modifiers": [],
@@ -15653,14 +14921,14 @@
               "mag_num_id": 6106967,
               "type": "picture",
               "x": 103,
-              "y": 14736,
+              "y": 14708,
               "w": 159,
               "h": 39,
               "version": 2,
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 438,
+              "z": 434,
               "cropW": 1181,
               "cropH": 289.6792452830189,
               "cropX": 0,
@@ -15675,19 +14943,19 @@
               "blurHash": "U36[2H~qIUof%M%Mt7WB004n%MRj4n4nM{xu",
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/szwjN_TtUm2IrLEm2Fl-q.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/bv9PhuvUmpteazsVVZA_g.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-45bee736-e038-4c8b-93a4-ca4eed32c500.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/Yk3YNzeIjRuMxWhODTPxy.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/_hnbXMqAQ1axoFpar01PH.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/Yk3YNzeIjRuMxWhODTPxy.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/szwjN_TtUm2IrLEm2Fl-q.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/g_MzO1DOUrSUtYUqmOJ1x.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/6ltx_mO7-F8vw8ixTGN3G.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/g_MzO1DOUrSUtYUqmOJ1x.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/bv9PhuvUmpteazsVVZA_g.png"
               },
               "viewport_phone_portrait": {
                 "x": 83,
-                "y": 16947,
+                "y": 16565,
                 "w": 159,
                 "h": 39,
-                "z": 438,
+                "z": 434,
                 "cropW": 1181,
                 "cropH": 289.6792452830189,
                 "cropX": 0,
@@ -15698,12 +14966,12 @@
                 "originalCropY": 150.66037735849056,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/szwjN_TtUm2IrLEm2Fl-q.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/bv9PhuvUmpteazsVVZA_g.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-45bee736-e038-4c8b-93a4-ca4eed32c500.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/Yk3YNzeIjRuMxWhODTPxy.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/_hnbXMqAQ1axoFpar01PH.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/Yk3YNzeIjRuMxWhODTPxy.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/szwjN_TtUm2IrLEm2Fl-q.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/g_MzO1DOUrSUtYUqmOJ1x.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/6ltx_mO7-F8vw8ixTGN3G.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/g_MzO1DOUrSUtYUqmOJ1x.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/bv9PhuvUmpteazsVVZA_g.png"
                 },
                 "modifiers": [],
                 "animation": []
@@ -15739,15 +15007,15 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 439,
+              "z": 435,
               "picture": {
                 "type": "png",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/9A5ppWeSQrHKZ26o28fWL.png",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/EzU3ZdT963S-OaGqKNRuy.png",
                 "url": "img/683d850bd2094940857eb894/6106967/image-88cb924d-ed4a-4992-8e87-ddae162352bb.png",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/xAZcuEUZJZoBpk-q7fb0v.png",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/AM1u7rH3wlEyVPvl9P1xW.png",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/xAZcuEUZJZoBpk-q7fb0v.png",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/9A5ppWeSQrHKZ26o28fWL.png"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/YjdNlk4B_ZKY-q_w2-KkP.png",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/ScdOq7_2t4oGXEuFngdpq.png",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/YjdNlk4B_ZKY-q_w2-KkP.png",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/EzU3ZdT963S-OaGqKNRuy.png"
               },
               "cropW": 1771,
               "cropH": 1984,
@@ -15763,18 +15031,18 @@
               "blurHash": "UCENME%19gpM5cR*f6WBx^bx?DwF0jWB%NRo",
               "viewport_phone_portrait": {
                 "x": 126,
-                "y": 16710,
+                "y": 16328,
                 "w": 67,
                 "h": 76,
-                "z": 439,
+                "z": 435,
                 "picture": {
                   "type": "png",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/dyc2IHl5Xi3EAyTTaCEPg.png",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/F-Urx1VgjSuG0nXuJSfYO.png",
                   "url": "img/683d850bd2094940857eb894/6106967/image-88cb924d-ed4a-4992-8e87-ddae162352bb.png",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/GGRtJc--5XRciLUDOUcV8.png",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/33r30eNDfbiZa4DqW9F1X.png",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/GGRtJc--5XRciLUDOUcV8.png",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/dyc2IHl5Xi3EAyTTaCEPg.png"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/A-i91Cq44u2aNhWjMOhpe.png",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/-E3OGFp7HmeGqCazSdOMm.png",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/A-i91Cq44u2aNhWjMOhpe.png",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/F-Urx1VgjSuG0nXuJSfYO.png"
                 },
                 "cropW": 1749,
                 "cropH": 1984,
@@ -15807,606 +15075,6 @@
               }],
               "__v": 0
             }, {
-              "_id": "698f666fa0a382c5ec46116a",
-              "wid": "698f666fa0a382c5ec46116a",
-              "mag_num_id": 6106967,
-              "type": "picture",
-              "x": 20,
-              "y": 5504,
-              "w": 314,
-              "h": 388,
-              "version": 2,
-              "flags": {
-                "useOriginalViewBoxSVG": true
-              },
-              "z": 440,
-              "cropH": 1594,
-              "cropW": 1290,
-              "cropX": 0,
-              "cropY": 9,
-              "originalCropH": 1612,
-              "originalCropW": 1290,
-              "originalCropX": 0,
-              "originalCropY": 0,
-              "originalH": 1612,
-              "originalW": 1290,
-              "scale": 0.24341,
-              "blurHash": "UXK1Xe%MW?of_NM|t7WBRkM{xtoJozafofoL",
-              "name": "Picture",
-              "animation": [{
-                "UUID": "3b395d7e-8592-4392-8ccb-9a249b500232",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 107
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [{
-                "id": "cursor",
-                "title": "Cursor",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "static": [{
-                  "id": "cursor-keyword",
-                  "name": "Cursor",
-                  "type": "select",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "auto",
-                  "params": {
-                    "default": "auto",
-                    "options": [{
-                      "label": "Auto",
-                      "value": "auto"
-                    }, {
-                      "label": "Pointer",
-                      "value": "pointer"
-                    }, {
-                      "label": "Move",
-                      "value": "move"
-                    }]
-                  }
-                }, {
-                  "id": "cursor-url",
-                  "name": "Cursor image",
-                  "type": "file",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                }, {
-                  "id": "url-is-lambda",
-                  "name": "Is cursor url lambda",
-                  "type": "toggle",
-                  "operator": "assignment",
-                  "modelField": "cursorUrlIsLambda",
-                  "value": true,
-                  "params": {
-                    "default": false,
-                    "isDisabled": true
-                  }
-                }, {
-                  "id": "cursor-image-dimension",
-                  "name": "Cursor image dimension",
-                  "type": "number",
-                  "operator": "assignment",
-                  "modelField": "cursorImageDimension",
-                  "value": 236,
-                  "params": {
-                    "default": 0,
-                    "isDisabled": true
-                  }
-                }],
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Cursor/WidgetRendered"
-                }]
-              }],
-              "viewport_phone_portrait": {
-                "x": 20,
-                "y": 7531,
-                "w": 280,
-                "h": 350,
-                "z": 440,
-                "cropH": 1612,
-                "cropW": 1290,
-                "cropX": 0,
-                "cropY": 0,
-                "originalCropH": 1612,
-                "originalCropW": 1290,
-                "originalCropX": 0,
-                "originalCropY": 0,
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/image-89358aac-511e-49b2-ba72-cfe2592ea611.jpg",
-                  "url": "img/683d850bd2094940857eb894/6106967/image-89358aac-511e-49b2-ba72-cfe2592ea611.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/image-89358aac-511e-49b2-ba72-cfe2592ea611_w-560.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/image-89358aac-511e-49b2-ba72-cfe2592ea611_w-40_q-50.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/image-89358aac-511e-49b2-ba72-cfe2592ea611_w-560.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/image-89358aac-511e-49b2-ba72-cfe2592ea611.jpg"
-                },
-                "hidden": false,
-                "originalW": 1290,
-                "originalH": 1612,
-                "scale": 0.21712,
-                "modifiers": [{
-                  "id": "cursor",
-                  "title": "Cursor",
-                  "category": "default",
-                  "owner": "readymag",
-                  "private": true,
-                  "static": [{
-                    "id": "cursor-keyword",
-                    "name": "Cursor",
-                    "type": "select",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "auto",
-                    "params": {
-                      "default": "auto",
-                      "options": [{
-                        "label": "Auto",
-                        "value": "auto"
-                      }, {
-                        "label": "Pointer",
-                        "value": "pointer"
-                      }, {
-                        "label": "Move",
-                        "value": "move"
-                      }]
-                    }
-                  }, {
-                    "id": "cursor-url",
-                    "name": "Cursor image",
-                    "type": "file",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                  }, {
-                    "id": "url-is-lambda",
-                    "name": "Is cursor url lambda",
-                    "type": "toggle",
-                    "operator": "assignment",
-                    "modelField": "cursorUrlIsLambda",
-                    "value": true,
-                    "params": {
-                      "default": false,
-                      "isDisabled": true
-                    }
-                  }, {
-                    "id": "cursor-image-dimension",
-                    "name": "Cursor image dimension",
-                    "type": "number",
-                    "operator": "assignment",
-                    "modelField": "cursorImageDimension",
-                    "value": 236,
-                    "params": {
-                      "default": 0,
-                      "isDisabled": true
-                    }
-                  }],
-                  "events": [{
-                    "eventName": "rendered",
-                    "eventHandler": "Cursor/WidgetRendered"
-                  }]
-                }]
-              },
-              "picture": {
-                "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/l9KmogHlfF3ygrJS8kIsi.jpg",
-                "url": "img/683d850bd2094940857eb894/6106967/image-89358aac-511e-49b2-ba72-cfe2592ea611.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/U3jen8gkp3nSDOeHO8Edy.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/gXIi6vljFzQn4ZH6vf2Hw.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/U3jen8gkp3nSDOeHO8Edy.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/l9KmogHlfF3ygrJS8kIsi.jpg"
-              },
-              "__v": 0
-            }, {
-              "_id": "698f666fd0b77f3b703e85ef",
-              "wid": "698f666fd0b77f3b703e85ef",
-              "mag_num_id": 6106967,
-              "type": "text",
-              "x": 103,
-              "y": 5900,
-              "w": 143,
-              "h": 14,
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "a47pi",
-                "text": "Ema Glavina",
-                "entityRanges": [],
-                "depth": 0
-              }],
-              "styles": [{
-                "key": "a47pi",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 11,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }],
-              "entityMap": {},
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "z": 441,
-              "blocksMeta": [{
-                "key": "a47pi",
-                "data": {
-                  "lineHeight": 14,
-                  "align": "align-center",
-                  "sizesLinkedStatus": true,
-                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                }
-              }],
-              "name": "",
-              "text": "",
-              "animation": [{
-                "UUID": "3b395d7e-8592-4392-8ccb-9a249b500232",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 107
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [],
-              "viewport_phone_portrait": {
-                "x": 83,
-                "y": 7885,
-                "w": 143,
-                "h": 16,
-                "z": 441,
-                "styles": [{
-                  "key": "a47pi",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 11,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                    }],
-                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
-                      "TRANSFORM"],
-                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
-                  }
-                }],
-                "entityMap": {},
-                "blocksMeta": [{
-                  "key": "a47pi",
-                  "data": {
-                    "lineHeight": 16,
-                    "align": "align-center",
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                  }
-                }],
-                "modifiers": []
-              },
-              "__v": 0
-            }, {
-              "_id": "698f66780674124804c0c6bf",
-              "wid": "698f66780674124804c0c6bf",
-              "mag_num_id": 6106967,
-              "type": "picture",
-              "x": 17,
-              "y": 4170,
-              "w": 316,
-              "h": 389,
-              "version": 2,
-              "flags": {
-                "useOriginalViewBoxSVG": true
-              },
-              "z": 442,
-              "cropH": 1600,
-              "cropW": 1300,
-              "cropX": 0,
-              "cropY": 12,
-              "originalCropH": 1600.4201680672268,
-              "originalCropW": 1300,
-              "originalCropX": 0,
-              "originalCropY": 11.789915966386616,
-              "originalH": 1624,
-              "originalW": 1300,
-              "scale": 0.24308,
-              "blurHash": "UfHxscWB_3%M~qIokCWB-;ayM{Rjx]j[WBay",
-              "name": "",
-              "animation": [{
-                "UUID": "72a5f8b5-0c49-4042-833b-054df61b0751",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 110
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [{
-                "id": "cursor",
-                "title": "Cursor",
-                "category": "default",
-                "owner": "readymag",
-                "private": true,
-                "static": [{
-                  "id": "cursor-keyword",
-                  "name": "Cursor",
-                  "type": "select",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "auto",
-                  "params": {
-                    "default": "auto",
-                    "options": [{
-                      "label": "Auto",
-                      "value": "auto"
-                    }, {
-                      "label": "Pointer",
-                      "value": "pointer"
-                    }, {
-                      "label": "Move",
-                      "value": "move"
-                    }]
-                  }
-                }, {
-                  "id": "cursor-url",
-                  "name": "Cursor image",
-                  "type": "file",
-                  "operator": "assignment",
-                  "modelField": "cursor",
-                  "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                }, {
-                  "id": "url-is-lambda",
-                  "name": "Is cursor url lambda",
-                  "type": "toggle",
-                  "operator": "assignment",
-                  "modelField": "cursorUrlIsLambda",
-                  "value": true,
-                  "params": {
-                    "default": false,
-                    "isDisabled": true
-                  }
-                }, {
-                  "id": "cursor-image-dimension",
-                  "name": "Cursor image dimension",
-                  "type": "number",
-                  "operator": "assignment",
-                  "modelField": "cursorImageDimension",
-                  "value": 236,
-                  "params": {
-                    "default": 0,
-                    "isDisabled": true
-                  }
-                }],
-                "events": [{
-                  "eventName": "rendered",
-                  "eventHandler": "Cursor/WidgetRendered"
-                }]
-              }],
-              "viewport_phone_portrait": {
-                "x": 20,
-                "y": 5150,
-                "w": 280,
-                "h": 349,
-                "z": 442,
-                "cropH": 1620,
-                "cropW": 1300,
-                "cropX": 0,
-                "cropY": 4,
-                "originalCropH": 1620,
-                "originalCropW": 1300,
-                "originalCropX": 0,
-                "originalCropY": 4,
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/QkZiwu5ey3QzWN9xgeNI3.jpg",
-                  "url": "img/683d850bd2094940857eb894/6106967/image-f530c13b-f7e9-4a12-9a3e-50e82f08e370.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/9kqeuP0UVfWBKw1D3MNTg.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/v9vZkVeAVWBm-Hb32K52B.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/9kqeuP0UVfWBKw1D3MNTg.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/QkZiwu5ey3QzWN9xgeNI3.jpg"
-                },
-                "hidden": false,
-                "originalW": 1300,
-                "originalH": 1624,
-                "scale": 0.21543,
-                "modifiers": [{
-                  "id": "cursor",
-                  "title": "Cursor",
-                  "category": "default",
-                  "owner": "readymag",
-                  "private": true,
-                  "static": [{
-                    "id": "cursor-keyword",
-                    "name": "Cursor",
-                    "type": "select",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "auto",
-                    "params": {
-                      "default": "auto",
-                      "options": [{
-                        "label": "Auto",
-                        "value": "auto"
-                      }, {
-                        "label": "Pointer",
-                        "value": "pointer"
-                      }, {
-                        "label": "Move",
-                        "value": "move"
-                      }]
-                    }
-                  }, {
-                    "id": "cursor-url",
-                    "name": "Cursor image",
-                    "type": "file",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                  }, {
-                    "id": "url-is-lambda",
-                    "name": "Is cursor url lambda",
-                    "type": "toggle",
-                    "operator": "assignment",
-                    "modelField": "cursorUrlIsLambda",
-                    "value": true,
-                    "params": {
-                      "default": false,
-                      "isDisabled": true
-                    }
-                  }, {
-                    "id": "cursor-image-dimension",
-                    "name": "Cursor image dimension",
-                    "type": "number",
-                    "operator": "assignment",
-                    "modelField": "cursorImageDimension",
-                    "value": 236,
-                    "params": {
-                      "default": 0,
-                      "isDisabled": true
-                    }
-                  }],
-                  "events": [{
-                    "eventName": "rendered",
-                    "eventHandler": "Cursor/WidgetRendered"
-                  }]
-                }]
-              },
-              "picture": {
-                "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/PH4BXVy1bB3o4oDo9ZfwI.jpg",
-                "url": "img/683d850bd2094940857eb894/6106967/image-f530c13b-f7e9-4a12-9a3e-50e82f08e370.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/47GIPWFiGeLj8Se90ushE.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/F3U0-d28EflWBOrjRjUUv.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/47GIPWFiGeLj8Se90ushE.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/PH4BXVy1bB3o4oDo9ZfwI.jpg"
-              },
-              "__v": 0
-            }, {
-              "_id": "698f66782fbd14cb86e1e495",
-              "wid": "698f66782fbd14cb86e1e495",
-              "mag_num_id": 6106967,
-              "type": "text",
-              "x": -87,
-              "y": 4569,
-              "w": 489,
-              "h": 14,
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "a47pi",
-                "text": "Adrian Pezdirc i  Luka Šen",
-                "entityRanges": [],
-                "depth": 0
-              }],
-              "styles": [{
-                "key": "a47pi",
-                "type": "unstyled",
-                "inlineStyles": {
-                  "styles": [{
-                    "offset": 0,
-                    "length": 26,
-                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                  }],
-                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
-                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
-                }
-              }],
-              "entityMap": {},
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "z": 443,
-              "blocksMeta": [{
-                "key": "a47pi",
-                "data": {
-                  "lineHeight": 14,
-                  "align": "align-center",
-                  "sizesLinkedStatus": true,
-                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                }
-              }],
-              "name": "",
-              "text": "",
-              "animation": [{
-                "UUID": "72a5f8b5-0c49-4042-833b-054df61b0751",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 110
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "modifiers": [],
-              "viewport_phone_portrait": {
-                "x": 19,
-                "y": 5503,
-                "w": 280,
-                "h": 16,
-                "z": 443,
-                "styles": [{
-                  "key": "a47pi",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 26,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                    }],
-                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
-                      "TRANSFORM"],
-                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
-                  }
-                }],
-                "entityMap": {},
-                "blocksMeta": [{
-                  "key": "a47pi",
-                  "data": {
-                    "lineHeight": 16,
-                    "align": "align-center",
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                  }
-                }],
-                "modifiers": []
-              },
-              "__v": 0
-            }, {
               "_id": "698f690a10819a9ec6ca8f76",
               "wid": "698f690a10819a9ec6ca8f76",
               "mag_num_id": 6106967,
@@ -16433,10 +15101,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 7921,
+                "y": 7538,
                 "w": 280,
                 "h": 335,
-                "z": 444,
+                "z": 436,
                 "cropH": 1457,
                 "cropW": 1218,
                 "cropX": 0,
@@ -16447,12 +15115,12 @@
                 "originalCropY": 4,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/dgT_inpcn-qnF1BqZeUSd.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/9YUFvZ7xqR1CSz9taWYK3.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-94d8e5ac-3b76-4402-82bc-230942ddf388.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/6JMp9eqd-vx-YjfTrrd6M.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/pSXgiayklvNhUagfNocr1.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/6JMp9eqd-vx-YjfTrrd6M.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/dgT_inpcn-qnF1BqZeUSd.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/m6d-lmYTKOggxccw0HFCr.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/ZMj9zurG5wS073Lyzk9Jf.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/m6d-lmYTKOggxccw0HFCr.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/9YUFvZ7xqR1CSz9taWYK3.jpg"
                 },
                 "hidden": false,
                 "originalW": 1218,
@@ -16521,7 +15189,7 @@
                 }]
               },
               "hidden": true,
-              "z": 444,
+              "z": 436,
               "__v": 0
             }, {
               "_id": "698f690aa18d7383c50f8e45",
@@ -16562,10 +15230,10 @@
               }],
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 8263,
+                "y": 7879,
                 "w": 280,
                 "h": 16,
-                "z": 445,
+                "z": 437,
                 "styles": [{
                   "key": "a47pi",
                   "type": "unstyled",
@@ -16594,197 +15262,7 @@
                 "hidden": false
               },
               "hidden": true,
-              "z": 445,
-              "__v": 0
-            }, {
-              "_id": "698f69234a115b38b5965e0f",
-              "wid": "698f69234a115b38b5965e0f",
-              "mag_num_id": 6106967,
-              "type": "picture",
-              "version": 2,
-              "flags": {
-                "useOriginalViewBoxSVG": true
-              },
-              "blurHash": "UfH.7.V@-=%M_NM|ofWV-;juRjV@%MofWVWB",
-              "name": "Picture",
-              "animation": [{
-                "UUID": "b2cedaa2-16d3-4fdc-a7b9-d8ae8824b426",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 107
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "viewport_phone_portrait": {
-                "x": 20,
-                "y": 4376,
-                "w": 280,
-                "h": 350,
-                "z": 446,
-                "cropH": 1548,
-                "cropW": 1238,
-                "cropX": 0,
-                "cropY": 1,
-                "originalCropH": 1549,
-                "originalCropW": 1238,
-                "originalCropX": 0,
-                "originalCropY": 0,
-                "picture": {
-                  "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/vEAQjIKoRnP5E6Dp0Equw.jpg",
-                  "url": "img/683d850bd2094940857eb894/6106967/image-8b34ebef-457d-4728-b5d1-86fd1f063f07.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/8dAEC6to8Pz3-ygEjhdPG.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/8W0Ae1YsylqV83Kme2TGN.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/8dAEC6to8Pz3-ygEjhdPG.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/vEAQjIKoRnP5E6Dp0Equw.jpg"
-                },
-                "hidden": false,
-                "originalW": 1240,
-                "originalH": 1550,
-                "scale": 0.22617,
-                "modifiers": [{
-                  "id": "cursor",
-                  "title": "Cursor",
-                  "category": "default",
-                  "owner": "readymag",
-                  "private": true,
-                  "static": [{
-                    "id": "cursor-keyword",
-                    "name": "Cursor",
-                    "type": "select",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "auto",
-                    "params": {
-                      "default": "auto",
-                      "options": [{
-                        "label": "Auto",
-                        "value": "auto"
-                      }, {
-                        "label": "Pointer",
-                        "value": "pointer"
-                      }, {
-                        "label": "Move",
-                        "value": "move"
-                      }]
-                    }
-                  }, {
-                    "id": "cursor-url",
-                    "name": "Cursor image",
-                    "type": "file",
-                    "operator": "assignment",
-                    "modelField": "cursor",
-                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
-                  }, {
-                    "id": "url-is-lambda",
-                    "name": "Is cursor url lambda",
-                    "type": "toggle",
-                    "operator": "assignment",
-                    "modelField": "cursorUrlIsLambda",
-                    "value": true,
-                    "params": {
-                      "default": false,
-                      "isDisabled": true
-                    }
-                  }, {
-                    "id": "cursor-image-dimension",
-                    "name": "Cursor image dimension",
-                    "type": "number",
-                    "operator": "assignment",
-                    "modelField": "cursorImageDimension",
-                    "value": 236,
-                    "params": {
-                      "default": 0,
-                      "isDisabled": true
-                    }
-                  }],
-                  "events": [{
-                    "eventName": "rendered",
-                    "eventHandler": "Cursor/WidgetRendered"
-                  }]
-                }]
-              },
-              "hidden": true,
-              "z": 446,
-              "__v": 0
-            }, {
-              "_id": "698f6923f75b2d3ff142fcf1",
-              "wid": "698f6923f75b2d3ff142fcf1",
-              "mag_num_id": 6106967,
-              "type": "text",
-              "version": 3,
-              "verticalAlign": "top",
-              "textDirection": "LTR",
-              "autosize": true,
-              "blocks": [{
-                "key": "a47pi",
-                "text": "Marija i Matija Vukoja",
-                "entityRanges": [],
-                "depth": 0
-              }],
-              "flags": {
-                "baseline": true,
-                "calculatedLineHeight": true,
-                "updatedLinks": true,
-                "newListPosition": true
-              },
-              "name": "",
-              "text": "",
-              "animation": [{
-                "UUID": "b2cedaa2-16d3-4fdc-a7b9-d8ae8824b426",
-                "type": "hover",
-                "steps": [{
-                  "duration": 0.5,
-                  "acceleration": "ease-both",
-                  "from_scale": 100,
-                  "use_scale": true,
-                  "scale": 107
-                }],
-                "playOnce": false,
-                "resetWhenOutOfView": false,
-                "trigger": []
-              }],
-              "viewport_phone_portrait": {
-                "x": 29,
-                "y": 4732,
-                "w": 261,
-                "h": 16,
-                "z": 447,
-                "styles": [{
-                  "key": "a47pi",
-                  "type": "unstyled",
-                  "inlineStyles": {
-                    "styles": [{
-                      "offset": 0,
-                      "length": 22,
-                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
-                    }],
-                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
-                      "TRANSFORM"],
-                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
-                  }
-                }],
-                "entityMap": {},
-                "blocksMeta": [{
-                  "key": "a47pi",
-                  "data": {
-                    "lineHeight": 16,
-                    "align": "align-center",
-                    "sizesLinkedStatus": true,
-                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
-                  }
-                }],
-                "modifiers": [],
-                "hidden": false
-              },
-              "hidden": true,
-              "z": 447,
+              "z": 437,
               "__v": 0
             }, {
               "_id": "6990620b660132e944797601",
@@ -16799,10 +15277,10 @@
               "name": "",
               "viewport_phone_portrait": {
                 "x": 20,
-                "y": 7131,
+                "y": 7134,
                 "w": 280,
                 "h": 349,
-                "z": 450,
+                "z": 442,
                 "cropH": 2891.714285714286,
                 "cropW": 2320,
                 "cropX": 0,
@@ -16878,12 +15356,12 @@
                 }],
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/BOF-OsInhsmsEZ8RJeIJh.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/pK8XoBDkwYvVEWYaqk-3d.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-92d9af13-9a41-4560-86aa-d34abc3366f5.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/eePzB7MlrC5J5goTjgfRD.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/CWAsqDQwAjr64s4QE_AmQ.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/eePzB7MlrC5J5goTjgfRD.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/BOF-OsInhsmsEZ8RJeIJh.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/-l5qxuhH5m_97hzZEMv3h.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/mmxAag-15Fd-QlBwj4qu3.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/-l5qxuhH5m_97hzZEMv3h.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/pK8XoBDkwYvVEWYaqk-3d.jpg"
                 },
                 "animation": [{
                   "UUID": "5d133003-9cee-4057-a994-b4eeb5b835ff",
@@ -16901,7 +15379,7 @@
                 }]
               },
               "hidden": true,
-              "z": 450,
+              "z": 442,
               "__v": 0
             }, {
               "_id": "6990621f67e96afc05606c49",
@@ -16928,10 +15406,10 @@
               "text": "",
               "viewport_phone_portrait": {
                 "x": 15,
-                "y": 7483,
+                "y": 7486,
                 "w": 301,
                 "h": 32,
-                "z": 451,
+                "z": 443,
                 "styles": [{
                   "key": "a47pi",
                   "type": "unstyled",
@@ -16974,7 +15452,7 @@
                 }]
               },
               "hidden": true,
-              "z": 451,
+              "z": 443,
               "__v": 0
             }, {
               "_id": "699071a44c2b4cb2438cae7c",
@@ -16989,7 +15467,7 @@
               "flags": {
                 "useOriginalViewBoxSVG": true
               },
-              "z": 452,
+              "z": 444,
               "cropH": 2863.2911392405063,
               "cropW": 2320,
               "cropX": 0,
@@ -17080,25 +15558,25 @@
               }],
               "viewport_phone_portrait": {
                 "hidden": true,
-                "z": 452,
+                "z": 444,
                 "picture": {
                   "type": "jpg",
-                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/5I6QPp9DHjISNRXcdaXSQ.jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/dbDBy3JN6Ge-xze_ZRn-g.jpg",
                   "url": "img/683d850bd2094940857eb894/6106967/image-4486d87c-1b83-40ad-b9dd-6561ccfbb46c.jpg",
-                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/n2fmSrwUemDj3DAKatTAg.jpg",
-                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/Fmlo7OdMp8YqZwWBNlBtR.jpg",
-                  "finalUrl": "img/683d850bd2094940857eb894/6106967/n2fmSrwUemDj3DAKatTAg.jpg",
-                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/5I6QPp9DHjISNRXcdaXSQ.jpg"
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/54FwvLq2jSHl1yJnhKSo0.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/rAHCEB3CVEaldNf3y0Urt.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/54FwvLq2jSHl1yJnhKSo0.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/dbDBy3JN6Ge-xze_ZRn-g.jpg"
                 }
               },
               "picture": {
                 "type": "jpg",
-                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/5I6QPp9DHjISNRXcdaXSQ.jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/dbDBy3JN6Ge-xze_ZRn-g.jpg",
                 "url": "img/683d850bd2094940857eb894/6106967/image-4486d87c-1b83-40ad-b9dd-6561ccfbb46c.jpg",
-                "final2xUrl": "img/683d850bd2094940857eb894/6106967/n2fmSrwUemDj3DAKatTAg.jpg",
-                "lqipUrl": "img/683d850bd2094940857eb894/6106967/Fmlo7OdMp8YqZwWBNlBtR.jpg",
-                "finalUrl": "img/683d850bd2094940857eb894/6106967/n2fmSrwUemDj3DAKatTAg.jpg",
-                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/5I6QPp9DHjISNRXcdaXSQ.jpg"
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/54FwvLq2jSHl1yJnhKSo0.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/rAHCEB3CVEaldNf3y0Urt.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/54FwvLq2jSHl1yJnhKSo0.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/dbDBy3JN6Ge-xze_ZRn-g.jpg"
               },
               "__v": 0
             }, {
@@ -17157,7 +15635,7 @@
                 "updatedLinks": true,
                 "newListPosition": true
               },
-              "z": 453,
+              "z": 445,
               "blocksMeta": [{
                 "key": "a47pi",
                 "data": {
@@ -17193,7 +15671,1511 @@
               }],
               "viewport_phone_portrait": {
                 "hidden": true,
+                "z": 445
+              },
+              "modifiers": [],
+              "__v": 0
+            }, {
+              "_id": "6992d4d92fe5d5110b95b348",
+              "wid": "6992d4d92fe5d5110b95b348",
+              "mag_num_id": 6106967,
+              "type": "picture",
+              "version": 2,
+              "flags": {
+                "useOriginalViewBoxSVG": true
+              },
+              "blurHash": "UeI#ZBf6?b%M~qRjt7WB-;juRjRj%Mj[WBWB",
+              "name": "Picture",
+              "viewport_phone_portrait": {
+                "x": 19,
+                "y": 4365,
+                "w": 280,
+                "h": 350,
+                "z": 446,
+                "cropH": 1504,
+                "cropW": 1203,
+                "cropX": 0,
+                "cropY": 1,
+                "originalCropH": 1505,
+                "originalCropW": 1203,
+                "originalCropX": 0,
+                "originalCropY": 0,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/aeg-er_QfwxPjLnhaTTXs.jpg",
+                  "url": "img/683d850bd2094940857eb894/6106967/image-e3ccab4c-9d10-4e68-9dfc-a3c47172ca4b.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/ePjifI9O0RlZ-zfrr40c8.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/UXkxInV_eI-I6FzWFzCRx.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/ePjifI9O0RlZ-zfrr40c8.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/aeg-er_QfwxPjLnhaTTXs.jpg"
+                },
+                "hidden": false,
+                "originalW": 1203,
+                "originalH": 1505,
+                "scale": 0.23275,
+                "modifiers": [{
+                  "id": "cursor",
+                  "title": "Cursor",
+                  "category": "default",
+                  "owner": "readymag",
+                  "private": true,
+                  "static": [{
+                    "id": "cursor-keyword",
+                    "name": "Cursor",
+                    "type": "select",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "auto",
+                    "params": {
+                      "default": "auto",
+                      "options": [{
+                        "label": "Auto",
+                        "value": "auto"
+                      }, {
+                        "label": "Pointer",
+                        "value": "pointer"
+                      }, {
+                        "label": "Move",
+                        "value": "move"
+                      }]
+                    }
+                  }, {
+                    "id": "cursor-url",
+                    "name": "Cursor image",
+                    "type": "file",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
+                  }, {
+                    "id": "url-is-lambda",
+                    "name": "Is cursor url lambda",
+                    "type": "toggle",
+                    "operator": "assignment",
+                    "modelField": "cursorUrlIsLambda",
+                    "value": true,
+                    "params": {
+                      "default": false,
+                      "isDisabled": true
+                    }
+                  }, {
+                    "id": "cursor-image-dimension",
+                    "name": "Cursor image dimension",
+                    "type": "number",
+                    "operator": "assignment",
+                    "modelField": "cursorImageDimension",
+                    "value": 236,
+                    "params": {
+                      "default": 0,
+                      "isDisabled": true
+                    }
+                  }],
+                  "events": [{
+                    "eventName": "rendered",
+                    "eventHandler": "Cursor/WidgetRendered"
+                  }]
+                }],
+                "animation": [{
+                  "UUID": "aa4638e6-788d-4687-9d7e-b582cef6e7d5",
+                  "type": "hover",
+                  "steps": [{
+                    "duration": 0.5,
+                    "acceleration": "ease-both",
+                    "from_scale": 100,
+                    "use_scale": true,
+                    "scale": 106
+                  }],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }]
+              },
+              "hidden": true,
+              "z": 446,
+              "__v": 0
+            }, {
+              "_id": "6992d4d9d760933c3be667db",
+              "wid": "6992d4d9d760933c3be667db",
+              "mag_num_id": 6106967,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "a47pi",
+                "text": "Nevena Rendeli Vejzović ",
+                "entityRanges": [],
+                "depth": 0
+              }, {
+                "key": "bq234",
+                "text": "i  Mak Vejzović",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "",
+              "text": "",
+              "viewport_phone_portrait": {
+                "x": -82,
+                "y": 4718,
+                "w": 482,
+                "h": 32,
+                "z": 447,
+                "styles": [{
+                  "key": "a47pi",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 24,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
+                      "TRANSFORM"],
+                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
+                  }
+                }, {
+                  "key": "bq234",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 15,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
+                      "TRANSFORM"],
+                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
+                  }
+                }],
+                "entityMap": {},
+                "blocksMeta": [{
+                  "key": "a47pi",
+                  "data": {
+                    "lineHeight": 16,
+                    "align": "align-center",
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
+                    "paddings": {
+                      "right": 0
+                    }
+                  }
+                }, {
+                  "key": "bq234",
+                  "data": {
+                    "lineHeight": 16,
+                    "align": "align-center",
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
+                    "paddings": {
+                      "right": 0
+                    }
+                  }
+                }],
+                "modifiers": [],
+                "animation": [{
+                  "UUID": "aa4638e6-788d-4687-9d7e-b582cef6e7d5",
+                  "type": "hover",
+                  "steps": [{
+                    "duration": 0.5,
+                    "acceleration": "ease-both",
+                    "from_scale": 100,
+                    "use_scale": true,
+                    "scale": 106
+                  }],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }],
+                "hidden": false
+              },
+              "hidden": true,
+              "z": 447,
+              "__v": 0
+            }, {
+              "_id": "6992d4f15c157dfcb990b874",
+              "wid": "6992d4f15c157dfcb990b874",
+              "mag_num_id": 6106967,
+              "type": "picture",
+              "version": 2,
+              "flags": {
+                "useOriginalViewBoxSVG": true
+              },
+              "blurHash": "UfH.7.V@-=%M_NM|ofWV-;juRjV@%MofWVWB",
+              "name": "Picture",
+              "animation": [{
+                "UUID": "3e1ac195-f781-4145-9f14-5015d3a6fc02",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 107
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "viewport_phone_portrait": {
+                "x": 21,
+                "y": 5952,
+                "w": 280,
+                "h": 350,
+                "z": 448,
+                "cropH": 1548,
+                "cropW": 1238,
+                "cropX": 0,
+                "cropY": 1,
+                "originalCropH": 1549,
+                "originalCropW": 1238,
+                "originalCropX": 0,
+                "originalCropY": 0,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/RW5TQc92gwDPdiEv1DyeC.jpg",
+                  "url": "img/683d850bd2094940857eb894/6106967/image-8b34ebef-457d-4728-b5d1-86fd1f063f07.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/v70QJCKXbFO7WclcInTO5.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/nJNBBRXgO0irfbHpbmvkM.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/v70QJCKXbFO7WclcInTO5.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/RW5TQc92gwDPdiEv1DyeC.jpg"
+                },
+                "hidden": false,
+                "originalW": 1240,
+                "originalH": 1550,
+                "scale": 0.22617,
+                "modifiers": [{
+                  "id": "cursor",
+                  "title": "Cursor",
+                  "category": "default",
+                  "owner": "readymag",
+                  "private": true,
+                  "static": [{
+                    "id": "cursor-keyword",
+                    "name": "Cursor",
+                    "type": "select",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "auto",
+                    "params": {
+                      "default": "auto",
+                      "options": [{
+                        "label": "Auto",
+                        "value": "auto"
+                      }, {
+                        "label": "Pointer",
+                        "value": "pointer"
+                      }, {
+                        "label": "Move",
+                        "value": "move"
+                      }]
+                    }
+                  }, {
+                    "id": "cursor-url",
+                    "name": "Cursor image",
+                    "type": "file",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
+                  }, {
+                    "id": "url-is-lambda",
+                    "name": "Is cursor url lambda",
+                    "type": "toggle",
+                    "operator": "assignment",
+                    "modelField": "cursorUrlIsLambda",
+                    "value": true,
+                    "params": {
+                      "default": false,
+                      "isDisabled": true
+                    }
+                  }, {
+                    "id": "cursor-image-dimension",
+                    "name": "Cursor image dimension",
+                    "type": "number",
+                    "operator": "assignment",
+                    "modelField": "cursorImageDimension",
+                    "value": 236,
+                    "params": {
+                      "default": 0,
+                      "isDisabled": true
+                    }
+                  }],
+                  "events": [{
+                    "eventName": "rendered",
+                    "eventHandler": "Cursor/WidgetRendered"
+                  }]
+                }]
+              },
+              "hidden": true,
+              "z": 448,
+              "__v": 0
+            }, {
+              "_id": "6992d4f1b753d08a63c54290",
+              "wid": "6992d4f1b753d08a63c54290",
+              "mag_num_id": 6106967,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "a47pi",
+                "text": "Marija i Matija Vukoja",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "",
+              "text": "",
+              "animation": [{
+                "UUID": "3e1ac195-f781-4145-9f14-5015d3a6fc02",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 107
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "viewport_phone_portrait": {
+                "x": 30,
+                "y": 6306,
+                "w": 261,
+                "h": 16,
+                "z": 449,
+                "styles": [{
+                  "key": "a47pi",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 22,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
+                      "TRANSFORM"],
+                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
+                  }
+                }],
+                "entityMap": {},
+                "blocksMeta": [{
+                  "key": "a47pi",
+                  "data": {
+                    "lineHeight": 16,
+                    "align": "align-center",
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
+                  }
+                }],
+                "modifiers": [],
+                "hidden": false
+              },
+              "hidden": true,
+              "z": 449,
+              "__v": 0
+            }, {
+              "_id": "6992db14131687070613b1d5",
+              "wid": "6992db14131687070613b1d5",
+              "mag_num_id": 6106967,
+              "type": "picture",
+              "x": 21,
+              "y": 4170,
+              "w": 314,
+              "h": 387,
+              "version": 2,
+              "flags": {
+                "useOriginalViewBoxSVG": true
+              },
+              "z": 450,
+              "cropH": 1522,
+              "cropW": 1235,
+              "cropX": 0,
+              "cropY": 10,
+              "originalCropH": 1524.2088607594937,
+              "originalCropW": 1235,
+              "originalCropX": 0,
+              "originalCropY": 9.395569620253127,
+              "originalH": 1543,
+              "originalW": 1235,
+              "scale": 0.25425,
+              "blurHash": "UbHed?Rj?b-;_NM{ogay?bayM{Rjx^off6WB",
+              "name": "Picture",
+              "animation": [{
+                "UUID": "bc87acf5-1850-49dd-baa0-b0eaef2f8280",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 110
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": true,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 236,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "viewport_phone_portrait": {
+                "x": 21,
+                "y": 3964,
+                "w": 280,
+                "h": 350,
+                "z": 450,
+                "cropH": 1543,
+                "cropW": 1234,
+                "cropX": 0,
+                "cropY": 0,
+                "originalCropH": 1543,
+                "originalCropW": 1235,
+                "originalCropX": 0,
+                "originalCropY": 0,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/48brkNQ8zKg3YI3F-1bjf.jpg",
+                  "url": "img/683d850bd2094940857eb894/6106967/image-f3ccb688-f02a-446d-8f3d-e0b0fd1799db.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/WuSIe2eERUrXfaf_Am4af.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/liWefNW2oFkzyIpLNPBaV.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/WuSIe2eERUrXfaf_Am4af.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/48brkNQ8zKg3YI3F-1bjf.jpg"
+                },
+                "hidden": false,
+                "originalW": 1235,
+                "originalH": 1543,
+                "scale": 0.22683,
+                "modifiers": [{
+                  "id": "cursor",
+                  "title": "Cursor",
+                  "category": "default",
+                  "owner": "readymag",
+                  "private": true,
+                  "static": [{
+                    "id": "cursor-keyword",
+                    "name": "Cursor",
+                    "type": "select",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "auto",
+                    "params": {
+                      "default": "auto",
+                      "options": [{
+                        "label": "Auto",
+                        "value": "auto"
+                      }, {
+                        "label": "Pointer",
+                        "value": "pointer"
+                      }, {
+                        "label": "Move",
+                        "value": "move"
+                      }]
+                    }
+                  }, {
+                    "id": "cursor-url",
+                    "name": "Cursor image",
+                    "type": "file",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
+                  }, {
+                    "id": "url-is-lambda",
+                    "name": "Is cursor url lambda",
+                    "type": "toggle",
+                    "operator": "assignment",
+                    "modelField": "cursorUrlIsLambda",
+                    "value": true,
+                    "params": {
+                      "default": false,
+                      "isDisabled": true
+                    }
+                  }, {
+                    "id": "cursor-image-dimension",
+                    "name": "Cursor image dimension",
+                    "type": "number",
+                    "operator": "assignment",
+                    "modelField": "cursorImageDimension",
+                    "value": 236,
+                    "params": {
+                      "default": 0,
+                      "isDisabled": true
+                    }
+                  }],
+                  "events": [{
+                    "eventName": "rendered",
+                    "eventHandler": "Cursor/WidgetRendered"
+                  }]
+                }],
+                "animation": [{
+                  "UUID": "55dcbf66-d4c2-4c61-960c-2a59c91b1a15",
+                  "type": "hover",
+                  "steps": [{
+                    "duration": 0.5,
+                    "acceleration": "ease-both",
+                    "from_scale": 100,
+                    "use_scale": true,
+                    "scale": 105
+                  }],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }]
+              },
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/LWVFEiyvMkyGRhenIRJ_h.jpg",
+                "url": "img/683d850bd2094940857eb894/6106967/image-f3ccb688-f02a-446d-8f3d-e0b0fd1799db.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/WXfTX-AU9voSWFpg_Jt2C.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/G6NJ3UvfkizMKyFowVSGG.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/WXfTX-AU9voSWFpg_Jt2C.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/LWVFEiyvMkyGRhenIRJ_h.jpg"
+              },
+              "__v": 0
+            }, {
+              "_id": "6992db1567f94ec49ca52de7",
+              "wid": "6992db1567f94ec49ca52de7",
+              "mag_num_id": 6106967,
+              "type": "text",
+              "x": 19,
+              "y": 4564,
+              "w": 314,
+              "h": 30,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "a47pi",
+                "text": "Antonija Blaće ",
+                "entityRanges": [],
+                "depth": 0
+              }, {
+                "key": "3q7p6",
+                "text": "i Hrvoje Brlečić",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "a47pi",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 15,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }, {
+                "key": "3q7p6",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 16,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }, {
+                "key": "4mtpo",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 14,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 451,
+              "blocksMeta": [{
+                "key": "a47pi",
+                "data": {
+                  "lineHeight": 14,
+                  "align": "align-center",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
+                }
+              }, {
+                "key": "3q7p6",
+                "data": {
+                  "lineHeight": 16,
+                  "align": "align-center",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
+                }
+              }],
+              "name": "",
+              "text": "",
+              "animation": [{
+                "UUID": "bc87acf5-1850-49dd-baa0-b0eaef2f8280",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 110
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "viewport_phone_portrait": {
+                "x": 21,
+                "y": 4318,
+                "w": 280,
+                "h": 32,
+                "z": 451,
+                "styles": [{
+                  "key": "a47pi",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 15,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "TRANSFORM",
+                      "FONT_SIZE"],
+                    "values": ["F1F1F164", "400", "normal", "wtqc", "uppercase", "16"]
+                  }
+                }, {
+                  "key": "3q7p6",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 16,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "TRANSFORM",
+                      "FONT_SIZE"],
+                    "values": ["F1F1F164", "400", "normal", "wtqc", "uppercase", "16"]
+                  }
+                }],
+                "entityMap": {},
+                "blocksMeta": [{
+                  "key": "a47pi",
+                  "data": {
+                    "lineHeight": 16,
+                    "align": "align-center",
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
+                  }
+                }, {
+                  "key": "3q7p6",
+                  "data": {
+                    "lineHeight": 16,
+                    "align": "align-center",
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
+                  }
+                }],
+                "modifiers": [],
+                "animation": [{
+                  "UUID": "55dcbf66-d4c2-4c61-960c-2a59c91b1a15",
+                  "type": "hover",
+                  "steps": [{
+                    "duration": 0.5,
+                    "acceleration": "ease-both",
+                    "from_scale": 100,
+                    "use_scale": true,
+                    "scale": 105
+                  }],
+                  "playOnce": false,
+                  "resetWhenOutOfView": false,
+                  "trigger": []
+                }]
+              },
+              "modifiers": [],
+              "__v": 0
+            }, {
+              "_id": "6992db1d10819a9ec6a4dacc",
+              "wid": "6992db1d10819a9ec6a4dacc",
+              "mag_num_id": 6106967,
+              "type": "picture",
+              "x": 355,
+              "y": 4170,
+              "w": 314,
+              "h": 387,
+              "version": 2,
+              "flags": {
+                "useOriginalViewBoxSVG": true
+              },
+              "z": 452,
+              "cropH": 1480,
+              "cropW": 1201,
+              "cropX": 1,
+              "cropY": 12,
+              "originalCropH": 1480.0315457413249,
+              "originalCropW": 1203,
+              "originalCropX": 0,
+              "originalCropY": 12.484227129337569,
+              "originalH": 1505,
+              "originalW": 1203,
+              "scale": 0.26148,
+              "blurHash": "UeI#ZBf6?b%M~qRjt7WB-;juRjRj%Mj[WBWB",
+              "name": "Picture",
+              "animation": [{
+                "UUID": "5c8c063a-e654-4c50-81d6-7ac025dc4dbc",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 110
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": true,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 236,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 452,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/uIUYQOOeGxm_18MGWCwQ9.jpg",
+                  "url": "img/683d850bd2094940857eb894/6106967/image-e3ccab4c-9d10-4e68-9dfc-a3c47172ca4b.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/aRwJpJgXlNcYC0WucS4hE.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/9ng7UfPV9JkDLO8ip8C4B.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/aRwJpJgXlNcYC0WucS4hE.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/uIUYQOOeGxm_18MGWCwQ9.jpg"
+                }
+              },
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/uIUYQOOeGxm_18MGWCwQ9.jpg",
+                "url": "img/683d850bd2094940857eb894/6106967/image-e3ccab4c-9d10-4e68-9dfc-a3c47172ca4b.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/aRwJpJgXlNcYC0WucS4hE.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/9ng7UfPV9JkDLO8ip8C4B.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/aRwJpJgXlNcYC0WucS4hE.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/uIUYQOOeGxm_18MGWCwQ9.jpg"
+              },
+              "__v": 0
+            }, {
+              "_id": "6992db1d67f94ec49ca536c2",
+              "wid": "6992db1d67f94ec49ca536c2",
+              "mag_num_id": 6106967,
+              "type": "text",
+              "x": 280,
+              "y": 4564,
+              "w": 482,
+              "h": 30,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "a47pi",
+                "text": "Nevena Rendeli Vejzović ",
+                "entityRanges": [],
+                "depth": 0
+              }, {
+                "key": "bq234",
+                "text": "i  Mak Vejzović",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "a47pi",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 24,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }, {
+                "key": "bq234",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 15,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }, {
+                "key": "17god",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 12,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 453,
+              "blocksMeta": [{
+                "key": "a47pi",
+                "data": {
+                  "lineHeight": 14,
+                  "align": "align-center",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
+                  "paddings": {
+                    "right": 0
+                  }
+                }
+              }, {
+                "key": "bq234",
+                "data": {
+                  "lineHeight": 16,
+                  "align": "align-center",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935",
+                  "paddings": {
+                    "right": 0
+                  }
+                }
+              }],
+              "name": "",
+              "text": "",
+              "animation": [{
+                "UUID": "5c8c063a-e654-4c50-81d6-7ac025dc4dbc",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 110
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "viewport_phone_portrait": {
+                "hidden": true,
                 "z": 453
+              },
+              "modifiers": [],
+              "__v": 0
+            }, {
+              "_id": "6992db634a115b38b5738d1b",
+              "wid": "6992db634a115b38b5738d1b",
+              "mag_num_id": 6106967,
+              "type": "picture",
+              "x": 354,
+              "y": 4616,
+              "w": 316,
+              "h": 389,
+              "version": 2,
+              "flags": {
+                "useOriginalViewBoxSVG": true
+              },
+              "z": 454,
+              "cropH": 1600,
+              "cropW": 1300,
+              "cropX": 0,
+              "cropY": 12,
+              "originalCropH": 1600.4201680672268,
+              "originalCropW": 1300,
+              "originalCropX": 0,
+              "originalCropY": 11.789915966386616,
+              "originalH": 1624,
+              "originalW": 1300,
+              "scale": 0.24308,
+              "blurHash": "UfHxscWB_3%M~qIokCWB-;ayM{Rjx]j[WBay",
+              "name": "",
+              "animation": [{
+                "UUID": "a1df0bb3-b244-43c8-a7e4-e0df1a9e6e15",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 110
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [{
+                "id": "cursor",
+                "title": "Cursor",
+                "category": "default",
+                "owner": "readymag",
+                "private": true,
+                "static": [{
+                  "id": "cursor-keyword",
+                  "name": "Cursor",
+                  "type": "select",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "auto",
+                  "params": {
+                    "default": "auto",
+                    "options": [{
+                      "label": "Auto",
+                      "value": "auto"
+                    }, {
+                      "label": "Pointer",
+                      "value": "pointer"
+                    }, {
+                      "label": "Move",
+                      "value": "move"
+                    }]
+                  }
+                }, {
+                  "id": "cursor-url",
+                  "name": "Cursor image",
+                  "type": "file",
+                  "operator": "assignment",
+                  "modelField": "cursor",
+                  "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
+                }, {
+                  "id": "url-is-lambda",
+                  "name": "Is cursor url lambda",
+                  "type": "toggle",
+                  "operator": "assignment",
+                  "modelField": "cursorUrlIsLambda",
+                  "value": true,
+                  "params": {
+                    "default": false,
+                    "isDisabled": true
+                  }
+                }, {
+                  "id": "cursor-image-dimension",
+                  "name": "Cursor image dimension",
+                  "type": "number",
+                  "operator": "assignment",
+                  "modelField": "cursorImageDimension",
+                  "value": 236,
+                  "params": {
+                    "default": 0,
+                    "isDisabled": true
+                  }
+                }],
+                "events": [{
+                  "eventName": "rendered",
+                  "eventHandler": "Cursor/WidgetRendered"
+                }]
+              }],
+              "viewport_phone_portrait": {
+                "x": 20,
+                "y": 5563,
+                "w": 280,
+                "h": 349,
+                "z": 454,
+                "cropH": 1620,
+                "cropW": 1300,
+                "cropX": 0,
+                "cropY": 4,
+                "originalCropH": 1620,
+                "originalCropW": 1300,
+                "originalCropX": 0,
+                "originalCropY": 4,
+                "picture": {
+                  "type": "jpg",
+                  "unscaledUrl": "img/683d850bd2094940857eb894/6106967/K8gVwhdsNcKADjSDhJ8Vw.jpg",
+                  "url": "img/683d850bd2094940857eb894/6106967/image-f530c13b-f7e9-4a12-9a3e-50e82f08e370.jpg",
+                  "final2xUrl": "img/683d850bd2094940857eb894/6106967/kbKMCe2XLfbJlljO_qcYL.jpg",
+                  "lqipUrl": "img/683d850bd2094940857eb894/6106967/XcgGM8xkP-M2KZzTHNWmj.jpg",
+                  "finalUrl": "img/683d850bd2094940857eb894/6106967/kbKMCe2XLfbJlljO_qcYL.jpg",
+                  "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/K8gVwhdsNcKADjSDhJ8Vw.jpg"
+                },
+                "hidden": false,
+                "originalW": 1300,
+                "originalH": 1624,
+                "scale": 0.21543,
+                "modifiers": [{
+                  "id": "cursor",
+                  "title": "Cursor",
+                  "category": "default",
+                  "owner": "readymag",
+                  "private": true,
+                  "static": [{
+                    "id": "cursor-keyword",
+                    "name": "Cursor",
+                    "type": "select",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "auto",
+                    "params": {
+                      "default": "auto",
+                      "options": [{
+                        "label": "Auto",
+                        "value": "auto"
+                      }, {
+                        "label": "Pointer",
+                        "value": "pointer"
+                      }, {
+                        "label": "Move",
+                        "value": "move"
+                      }]
+                    }
+                  }, {
+                    "id": "cursor-url",
+                    "name": "Cursor image",
+                    "type": "file",
+                    "operator": "assignment",
+                    "modelField": "cursor",
+                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-1c437768-f2ca-4e08-9385-7e803d75abc6.png"
+                  }, {
+                    "id": "url-is-lambda",
+                    "name": "Is cursor url lambda",
+                    "type": "toggle",
+                    "operator": "assignment",
+                    "modelField": "cursorUrlIsLambda",
+                    "value": true,
+                    "params": {
+                      "default": false,
+                      "isDisabled": true
+                    }
+                  }, {
+                    "id": "cursor-image-dimension",
+                    "name": "Cursor image dimension",
+                    "type": "number",
+                    "operator": "assignment",
+                    "modelField": "cursorImageDimension",
+                    "value": 236,
+                    "params": {
+                      "default": 0,
+                      "isDisabled": true
+                    }
+                  }],
+                  "events": [{
+                    "eventName": "rendered",
+                    "eventHandler": "Cursor/WidgetRendered"
+                  }]
+                }]
+              },
+              "picture": {
+                "type": "jpg",
+                "unscaledUrl": "img/683d850bd2094940857eb894/6106967/RH6GfN10L3MebGPmtqbrF.jpg",
+                "url": "img/683d850bd2094940857eb894/6106967/image-f530c13b-f7e9-4a12-9a3e-50e82f08e370.jpg",
+                "final2xUrl": "img/683d850bd2094940857eb894/6106967/ssMWt2nBLcxZUPUM3dMJJ.jpg",
+                "lqipUrl": "img/683d850bd2094940857eb894/6106967/F6TQ3nTuWPdH6OWRgV0kc.jpg",
+                "finalUrl": "img/683d850bd2094940857eb894/6106967/ssMWt2nBLcxZUPUM3dMJJ.jpg",
+                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6106967/RH6GfN10L3MebGPmtqbrF.jpg"
+              },
+              "__v": 0
+            }, {
+              "_id": "6992db63addb728330af77c3",
+              "wid": "6992db63addb728330af77c3",
+              "mag_num_id": 6106967,
+              "type": "text",
+              "x": 250,
+              "y": 5015,
+              "w": 489,
+              "h": 14,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "a47pi",
+                "text": "Adrian Pezdirc i  Luka Šen",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "a47pi",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 26,
+                    "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                  }],
+                  "keys": ["COLOR", "FONT_FAMILY", "FONT_SIZE", "TRANSFORM", "FONT_STYLE", "FONT_WEIGHT"],
+                  "values": ["F1F1F164", "wtqc", "14", "uppercase", "normal", "700"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 455,
+              "blocksMeta": [{
+                "key": "a47pi",
+                "data": {
+                  "lineHeight": 14,
+                  "align": "align-center",
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
+                }
+              }],
+              "name": "",
+              "text": "",
+              "animation": [{
+                "UUID": "a1df0bb3-b244-43c8-a7e4-e0df1a9e6e15",
+                "type": "hover",
+                "steps": [{
+                  "duration": 0.5,
+                  "acceleration": "ease-both",
+                  "from_scale": 100,
+                  "use_scale": true,
+                  "scale": 110
+                }],
+                "playOnce": false,
+                "resetWhenOutOfView": false,
+                "trigger": []
+              }],
+              "modifiers": [],
+              "viewport_phone_portrait": {
+                "x": 19,
+                "y": 5916,
+                "w": 280,
+                "h": 16,
+                "z": 455,
+                "styles": [{
+                  "key": "a47pi",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 26,
+                      "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5"]
+                    }],
+                    "keys": ["COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY", "FONT_SIZE",
+                      "TRANSFORM"],
+                    "values": ["F1F1F164", "400", "normal", "wtqc", "16", "uppercase"]
+                  }
+                }],
+                "entityMap": {},
+                "blocksMeta": [{
+                  "key": "a47pi",
+                  "data": {
+                    "lineHeight": 16,
+                    "align": "align-center",
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-4daa1d51-aaf9-4525-aee4-95debc637935"
+                  }
+                }],
+                "modifiers": []
+              },
+              "__v": 0
+            }, {
+              "_id": "6992dd765c157dfcb993d7a1",
+              "wid": "6992dd765c157dfcb993d7a1",
+              "mag_num_id": 6106967,
+              "type": "text",
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "UREĐENJE:",
+                "entityRanges": [],
+                "depth": 0
+              }, {
+                "key": "1vtts",
+                "text": "STUDIO ONE",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "name": "",
+              "text": "",
+              "originId": "666865d1565c6a002ebb4ded",
+              "viewport_phone_portrait": {
+                "w": 168,
+                "h": 20,
+                "x": 132,
+                "y": 16658,
+                "z": 456,
+                "hidden": false,
+                "styles": [{
+                  "key": "fim0o",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 9,
+                      "styles": ["0;0", "1;1"]
+                    }],
+                    "keys": ["COLOR", "FONT_SIZE"],
+                    "values": ["F3F3F364", "10"]
+                  }
+                }, {
+                  "key": "1vtts",
+                  "type": "unstyled",
+                  "inlineStyles": {
+                    "styles": [{
+                      "offset": 0,
+                      "length": 10,
+                      "styles": ["0;0", "1;1"]
+                    }],
+                    "keys": ["COLOR", "FONT_SIZE"],
+                    "values": ["F3F3F364", "10"]
+                  }
+                }],
+                "entityMap": {},
+                "blocksMeta": [{
+                  "key": "fim0o",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
+                    "lineHeight": 10,
+                    "align": "align-right"
+                  }
+                }, {
+                  "key": "1vtts",
+                  "data": {
+                    "sizesLinkedStatus": true,
+                    "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
+                    "lineHeight": 10,
+                    "align": "align-right"
+                  }
+                }],
+                "modifiers": []
+              },
+              "hidden": true,
+              "z": 456,
+              "__v": 0
+            }, {
+              "_id": "6992ddd7e20bcefdf7661180",
+              "wid": "6992ddd7e20bcefdf7661180",
+              "mag_num_id": 6106967,
+              "type": "text",
+              "x": 708,
+              "y": 14921,
+              "w": 290,
+              "h": 40,
+              "version": 3,
+              "verticalAlign": "top",
+              "textDirection": "LTR",
+              "autosize": true,
+              "blocks": [{
+                "key": "fim0o",
+                "text": "UREĐENJE:",
+                "entityRanges": [],
+                "depth": 0
+              }, {
+                "key": "5r374",
+                "text": "STUDIO ONE",
+                "entityRanges": [],
+                "depth": 0
+              }],
+              "styles": [{
+                "key": "fim0o",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 9,
+                    "styles": ["0;0", "1;1"]
+                  }],
+                  "keys": ["FONT_SIZE", "COLOR"],
+                  "values": ["19", "F3F3F364"]
+                }
+              }, {
+                "key": "5r374",
+                "type": "unstyled",
+                "inlineStyles": {
+                  "styles": [{
+                    "offset": 0,
+                    "length": 10,
+                    "styles": ["0;0", "1;1"]
+                  }],
+                  "keys": ["FONT_SIZE", "COLOR"],
+                  "values": ["19", "F3F3F364"]
+                }
+              }],
+              "entityMap": {},
+              "flags": {
+                "baseline": true,
+                "calculatedLineHeight": true,
+                "updatedLinks": true,
+                "newListPosition": true
+              },
+              "z": 457,
+              "blocksMeta": [{
+                "key": "fim0o",
+                "data": {
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
+                  "lineHeight": 20,
+                  "align": "align-right"
+                }
+              }, {
+                "key": "5r374",
+                "data": {
+                  "sizesLinkedStatus": true,
+                  "textStyle": "style-b84cc6c3-1ad7-412e-9086-2d04a792abbd",
+                  "lineHeight": 20,
+                  "align": "align-right"
+                }
+              }],
+              "name": "",
+              "text": "",
+              "originId": "666865d1565c6a002ebb4ded",
+              "viewport_phone_portrait": {
+                "hidden": true,
+                "z": 457
               },
               "modifiers": [],
               "__v": 0
@@ -17207,12 +17189,12 @@
             "used_autolayout": false,
             "arrows_color": "white",
             "num_id": 28967637,
-            "screenshot": "img/683d850bd2094940857eb894/6106967/Screenshot-7d483d31-f5f4-47c4-af25-e31cab9e9c72_readyscr.jpg",
+            "screenshot": "img/683d850bd2094940857eb894/6106967/Screenshot-7c2ba9dc-010d-4db7-be34-39b6bf615350_readyscr.jpg",
             "viewport_phone_portrait": {
               "enabled": true,
-              "screenshot": "https://c-p.rmcdn1.net/683d850bd2094940857eb894/6106967/Screenshot-9cfdb0b0-5e99-4d9b-8e4b-8c9e3378dfe3.jpg",
+              "screenshot": "https://c-p.rmcdn1.net/683d850bd2094940857eb894/6106967/Screenshot-d1e17af6-3006-4874-b5ac-831ca5f50a02.jpg",
               "type": "scroll",
-              "height": 17092
+              "height": 16710
             },
             "children": [],
             "pagePath": "1",
@@ -17228,8 +17210,8 @@
           "showAsNew": false,
           "submitted_for_featured": 0,
           "tags": [],
-          "typekit_url": "https://use.typekit.net/ik/69hrn2cj1MulZfHaVrWyY4bcSiyKpW1hcYis9NZFilbfe1qJ1SZMIyjUw29aFQjuWDjUw2joFRiLZWy3da4Xe6MKgYiXSAwKgY43d1S7f6RmlMJbMg6sJMI7f6RPlMJbMg6BJMI7f6RblMJbMg6IJMI7f6R9lMJbMg6YJMI7f6RKE3IbMs6IJMI7f6R6E3IbMs6BJMebMS-ikv3e.js",
-          "updated": "2026-02-15T20:28:53.044Z",
+          "typekit_url": "https://use.typekit.net/ik/iaIsEvqSIP-GE5PKZqljSokyE6cWd3KTSbu6MnHs1Ybfe1qJ1SZMIyjUw29aFQjuWDjUw2joFRiLZWy3da4Xe6MKgYiXSAwKgY43d1S7f6RmlMJbMg6sJMI7f6RPlMJbMg6BJMI7f6RblMJbMg6IJMI7f6R9lMJbMg6YJMI7f6RKE3IbMs6IJMI7f6R6E3IbMs6BJMebM-L4kv3e.js",
+          "updated": "2026-02-16T09:33:08.227Z",
           "uri": "6106967",
           "usedWidgetTypes": ["background", "text", "picture", "shape"],
           "used_custom_fonts": [],
@@ -17268,16 +17250,16 @@
             }
           },
           "version": 2,
-          "widgetAddCounter": 272,
+          "widgetAddCounter": 284,
           "hasAnimations": true,
           "usedAnimationTypes": {
             "load": true,
             "scroll": true,
             "hover": true
           },
-          "prevPubVersionId": "6990794510819a9ec60d3754",
+          "prevPubVersionId": "69922c85df14543ec1ee8a88",
           "title": "Super secret dinner lovers edition: Pripremili smo najljepši spoj za poznate parove s javne scene",
-          "cover": "img/683d850bd2094940857eb894/6106967/Screenshot-7d483d31-f5f4-47c4-af25-e31cab9e9c72_readyscr.jpg",
+          "cover": "img/683d850bd2094940857eb894/6106967/Screenshot-7c2ba9dc-010d-4db7-be34-39b6bf615350_readyscr.jpg",
           "isInternal": false
         }
       },
@@ -17400,11 +17382,11 @@
         "action_end": "2014-08-27 00:00 GMT+0400",
         "RECAPTCHA_SITEKEY": "6Ld0r_cZAAAAAFKkweesCokUIuWgfYUIORFV0Xfj",
         "favicon": {
-          "default": "/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/favicon.ico",
-          "touch": "/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-precomposed.png",
-          "touch_144": "/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-144x144-precomposed.png",
-          "touch_114": "/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-114x114-precomposed.png",
-          "touch_72": "/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/img/favicons/apple-touch-icon-72x72-precomposed.png"
+          "default": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/favicon.ico",
+          "touch": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-precomposed.png",
+          "touch_144": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-144x144-precomposed.png",
+          "touch_114": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-114x114-precomposed.png",
+          "touch_72": "/super1/native/super-secret-dinner-lovers-edition/dist/img/favicons/apple-touch-icon-72x72-precomposed.png"
         },
         "GA_ID": "UA-110571495-2",
         "GA_ID_PUBLIC": "UA-33458420-1",
@@ -17540,236 +17522,236 @@
       event: []
     })
   </script>
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-YH6CZ5B4.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WPKZHUJM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QSOQK6Z7.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-D6RUXOTU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Q75STWZF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-AOLS6DVN.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7KVKWDCS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TCLKQBXV.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2FW7OVBZ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-W5WR5ICX.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UYE6AVV7.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3I2LLPDP.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FQBSVKV3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MNO4AWIS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7NCMK7WT.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BWA7P52N.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LTPRQUEJ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7N2NPFTH.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WXKBWF5Z.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3PTCGQ3Z.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-E6AGPT2U.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MUB5PDWU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WCPWHEJX.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QK5JPADK.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3AEU7Q45.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3YR6TOVW.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NMOU3DV4.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-U7TDHHRH.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZX5QXI5B.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZFPMSEPA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZWRRSBSB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2FX5RBAS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LK2GMMSF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BJMBMCKC.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PIA3VVNN.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7RJCESKL.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-KAUZBQQU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JGPX4LNT.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UUGKBEEY.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RWBOF3EG.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-T7W7JA6G.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PSCU3CGO.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4KKKDZUU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NWWPN5R3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-XR5ILHOA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PZT2J6SW.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2PDFZSTG.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EAYG4GE5.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UPPNZFJ3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EHVZ3T5Q.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RW3UW7XA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-W4LKO6UN.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3WIUXCVE.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LFQ7A4DZ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EJWAUTGJ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DHZZECBC.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BPRM25ZY.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-A2RDO2YB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FBD55NS2.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UKHDPCXM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PCPL6S4Z.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-KVSSXCFM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3RWVMTYA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-65V5XY44.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-M3BEJC5F.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-64UJZDKS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LD36TX2E.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3ZVAFXWU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-B7GKUHRW.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7NMEOPZS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-GVQ6MRFY.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3U6SJJG6.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FDSNH3V4.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-YGX3JY45.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-L6T7MAVA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-V6HTT2UC.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VZTWOV4R.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TJPJE35J.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Q4TNVZEG.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EDSAF7OD.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NRYJJGYD.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VAKSIG7P.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5RZPW5L3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-GH6RE74P.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6B5CKHR3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MQMHAYYW.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VGGACHHA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-D3FGFTCZ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-426PHCTE.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QDSIUML5.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SHVRI7A7.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5NRXN4B4.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BK5TZW42.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PCAKSPYD.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-J3LFCJHH.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-36KXHDSL.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VUTAOE6R.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HW565U4A.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZTDB6KNR.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4QAG4GZ5.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ROQC5RGX.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JODYMTJD.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DV2HUPLA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RRB6BZAQ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-42XPFZ53.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-GD3FZ64A.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7QLXPFCQ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SM7LDNCB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6PX7HWUY.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BNRWA5F3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5LPEDBVE.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4UVA6U7S.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-CJLLQ5D5.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UWPKRWXN.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DWQVYOEG.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MEWMG23P.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-L42AZHR2.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DDCTITDZ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-VACYYHQE.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7QOV3UZJ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ATRCXUT5.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6255PQGQ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PM6O5RH2.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-A3LR6RBE.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ELPJ6HPQ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MGBLUEYK.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BHPDHD23.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HUNT5B6B.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5SOV5YMM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HJIIAQOR.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SALF7RGD.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OX6F5MWU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-POBQO5ST.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-22QCWIVF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QFPFK3KX.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RXKQBVMA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4FRMWQ7Y.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-42VVCDKE.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7U3NYBNN.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SKKLDM3L.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IULTFZE7.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4SZUADYI.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PDZQEHAW.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-DP76KV4Y.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3HKLYHUM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ARBR5G7A.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OEMKK6F4.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JDPXJ6GH.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MLR2C5MC.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZLTHOMKJ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7TPVNNJP.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-CABWCIE5.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7EQSQNJW.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OFU2WYMF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JLY4PYRT.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JPB3IGPV.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-4BFIPCU2.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MVWIW6SW.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-2PG3OUFM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QRLRBJ2Y.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-UOD4W366.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IUOSCDHB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BSX266TA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6BH67OIY.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EOBVBVZS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QA6HZWJM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-XAZMPAON.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Q7VMCRBT.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-X555FQY2.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WEDDIDOV.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-V3AVQAZU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-F2PPUXH3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-R4NZRJLK.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WHHR5QP6.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FEB7IILU.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FYSFYQHJ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EWSQPCBF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-5YGJAT3N.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-MX3M4XZP.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6GTBCJJT.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JA5AH5CO.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TLBHRECK.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-EA5XZB7K.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NAVFV73C.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3VJ2F5FS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NOMHMGXF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BAP4GOX6.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WDZSCORS.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6NVKDNL3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6P2MGP4O.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-RL4U7KYF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-S76AN7E6.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-XOJOFWCF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-PCKQE4H6.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QPYRTBEZ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-BTBTAD54.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-SVW2MVIB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Y3UA2RFP.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-U53EDRXF.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-W6EDHDWC.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-CN6XE55Z.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7AW3M6CX.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-ZN5SNBX3.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-YYSCEFXY.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JKFQ2YNB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-7XBOEV4N.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IPQVYBCD.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TMLPGMFB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-FWGYPSEB.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-QWBW4QPA.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-Z3KUQ4CI.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NL6AXKH4.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-OLU3QM67.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-TGDUAILC.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-IE7MH25S.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WRE5UMJC.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-HWIVU3SM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-264YAWXH.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-JNAQHFYJ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-3AYHYDWE.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-WM46W4LZ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-NV6PXSG6.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-6W6RPEGM.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/c/c-LJMXB6NJ.js" rel="modulepreload" />
-  <link href="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/viewer.css" rel="stylesheet" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-YH6CZ5B4.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WPKZHUJM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QSOQK6Z7.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-D6RUXOTU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Q75STWZF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-AOLS6DVN.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7KVKWDCS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TCLKQBXV.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2FW7OVBZ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-W5WR5ICX.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UYE6AVV7.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3I2LLPDP.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FQBSVKV3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MNO4AWIS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7NCMK7WT.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BWA7P52N.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LTPRQUEJ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7N2NPFTH.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WXKBWF5Z.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3PTCGQ3Z.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-E6AGPT2U.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MUB5PDWU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WCPWHEJX.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QK5JPADK.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3AEU7Q45.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3YR6TOVW.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NMOU3DV4.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-U7TDHHRH.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZX5QXI5B.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZFPMSEPA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZWRRSBSB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2FX5RBAS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LK2GMMSF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BJMBMCKC.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PIA3VVNN.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7RJCESKL.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-KAUZBQQU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JGPX4LNT.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UUGKBEEY.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RWBOF3EG.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-T7W7JA6G.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PSCU3CGO.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4KKKDZUU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NWWPN5R3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-XR5ILHOA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PZT2J6SW.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2PDFZSTG.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EAYG4GE5.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UPPNZFJ3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EHVZ3T5Q.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RW3UW7XA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-W4LKO6UN.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3WIUXCVE.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LFQ7A4DZ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EJWAUTGJ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DHZZECBC.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BPRM25ZY.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-A2RDO2YB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FBD55NS2.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UKHDPCXM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PCPL6S4Z.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-KVSSXCFM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3RWVMTYA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-65V5XY44.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-M3BEJC5F.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-64UJZDKS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LD36TX2E.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3ZVAFXWU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-B7GKUHRW.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7NMEOPZS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-GVQ6MRFY.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3U6SJJG6.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FDSNH3V4.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-YGX3JY45.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-L6T7MAVA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-V6HTT2UC.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VZTWOV4R.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TJPJE35J.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Q4TNVZEG.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EDSAF7OD.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NRYJJGYD.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VAKSIG7P.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5RZPW5L3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-GH6RE74P.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6B5CKHR3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MQMHAYYW.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VGGACHHA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-D3FGFTCZ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-426PHCTE.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QDSIUML5.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SHVRI7A7.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5NRXN4B4.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BK5TZW42.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PCAKSPYD.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-J3LFCJHH.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-36KXHDSL.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VUTAOE6R.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HW565U4A.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZTDB6KNR.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4QAG4GZ5.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ROQC5RGX.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JODYMTJD.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DV2HUPLA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RRB6BZAQ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-42XPFZ53.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-GD3FZ64A.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7QLXPFCQ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SM7LDNCB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6PX7HWUY.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BNRWA5F3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5LPEDBVE.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4UVA6U7S.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-CJLLQ5D5.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UWPKRWXN.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DWQVYOEG.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MEWMG23P.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-L42AZHR2.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DDCTITDZ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-VACYYHQE.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7QOV3UZJ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ATRCXUT5.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6255PQGQ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PM6O5RH2.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-A3LR6RBE.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ELPJ6HPQ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MGBLUEYK.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BHPDHD23.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HUNT5B6B.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5SOV5YMM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HJIIAQOR.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SALF7RGD.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OX6F5MWU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-POBQO5ST.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-22QCWIVF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QFPFK3KX.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RXKQBVMA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4FRMWQ7Y.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-42VVCDKE.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7U3NYBNN.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SKKLDM3L.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IULTFZE7.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4SZUADYI.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PDZQEHAW.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-DP76KV4Y.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3HKLYHUM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ARBR5G7A.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OEMKK6F4.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JDPXJ6GH.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MLR2C5MC.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZLTHOMKJ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7TPVNNJP.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-CABWCIE5.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7EQSQNJW.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OFU2WYMF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JLY4PYRT.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JPB3IGPV.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-4BFIPCU2.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MVWIW6SW.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-2PG3OUFM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QRLRBJ2Y.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-UOD4W366.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IUOSCDHB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BSX266TA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6BH67OIY.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EOBVBVZS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QA6HZWJM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-XAZMPAON.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Q7VMCRBT.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-X555FQY2.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WEDDIDOV.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-V3AVQAZU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-F2PPUXH3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-R4NZRJLK.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WHHR5QP6.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FEB7IILU.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FYSFYQHJ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EWSQPCBF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-5YGJAT3N.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-MX3M4XZP.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6GTBCJJT.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JA5AH5CO.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TLBHRECK.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-EA5XZB7K.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NAVFV73C.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3VJ2F5FS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NOMHMGXF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BAP4GOX6.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WDZSCORS.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6NVKDNL3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6P2MGP4O.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-RL4U7KYF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-S76AN7E6.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-XOJOFWCF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-PCKQE4H6.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QPYRTBEZ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-BTBTAD54.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-SVW2MVIB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Y3UA2RFP.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-U53EDRXF.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-W6EDHDWC.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-CN6XE55Z.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7AW3M6CX.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-ZN5SNBX3.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-YYSCEFXY.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JKFQ2YNB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-7XBOEV4N.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IPQVYBCD.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TMLPGMFB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-FWGYPSEB.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-QWBW4QPA.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-Z3KUQ4CI.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NL6AXKH4.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-OLU3QM67.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-TGDUAILC.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-IE7MH25S.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WRE5UMJC.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-HWIVU3SM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-264YAWXH.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-JNAQHFYJ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-3AYHYDWE.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-WM46W4LZ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-NV6PXSG6.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-6W6RPEGM.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/c/c-LJMXB6NJ.js" rel="modulepreload" />
+  <link href="/super1/native/super-secret-dinner-lovers-edition/dist/viewer.css" rel="stylesheet" />
   <title></title>
 </head>
 
 <body>
-    <?php do_action('telegram_body_start'); ?>
+  <?php do_action('telegram_body_start'); ?>
   <div id="root">
     <style>
       html,
@@ -17815,8 +17797,8 @@
   <div class="popups"></div>
   <div id="tmp"></div>
   <div id="fake" style="position:fixed;opacity:1"></div>
-  <script src="/wp-content/themes/telegram2-desktop/templates/native/super-secret-dinner/dist/viewer.js" type="module"></script>
-        <?php wp_footer();
-        ?></body>
+  <script src="/super1/native/super-secret-dinner-lovers-edition/dist/viewer.js" type="module"></script>
+  <?php wp_footer(); ?>
+  </body>
 
 </html>
