@@ -2,7 +2,7 @@
 
 class Telegram_Shortcodes {
 	public function __construct() {
-		//add_action( 'admin_init', array( $this, 'action_admin_init' ) );
+		add_action( 'admin_init', array( $this, 'action_admin_init' ) );
 		add_shortcode( 'quote_box', array( $this, 'quote_box' ) );
 		add_shortcode( 'small_video_box', array( $this, 'small_video_box' ) );
 		//add_shortcode( 'compare_box', array( $this, 'compare_box' ) );
@@ -27,6 +27,10 @@ class Telegram_Shortcodes {
 
         add_shortcode('energia_kalkulator', [$this, 'energia_kalkulator']);
         add_shortcode('energia_forma', [$this, 'energia_forma']);
+
+        add_shortcode('specijal_quote', array($this, 'specijal_quote'));
+        add_shortcode('specijal_highlight', array($this, 'specijal_highlight'));
+        add_shortcode('specijal_slike', array($this, 'specijal_slike'));
 
         add_shortcode('telegram_special_embed', [$this, 'telegram_embed']);
         //add_shortcode('telegram_embed', [$this, 'telegram_embed2']);
@@ -385,8 +389,8 @@ class Telegram_Shortcodes {
 
 	function action_admin_init() {
 		if ( current_user_can( 'edit_posts' ) ) {
-		//	add_filter( 'mce_buttons', array( $this, 'buttons' ), 99, 1 );
-		//	add_filter( 'mce_external_plugins', array( $this, 'plugins' ) );
+			add_filter( 'mce_buttons', array( $this, 'buttons' ), 99, 1 );
+			add_filter( 'mce_external_plugins', array( $this, 'plugins' ) );
 		}
 	}
 
@@ -394,13 +398,13 @@ class Telegram_Shortcodes {
 		if(($key = array_search('blockquote', $buttons)) !== false) {
 			unset($buttons[$key]);
 		}
-		array_push( $buttons, 'separator', 'telegram_shortcodes', 'telegram_mali-video' );
+		array_push( $buttons, 'separator', 'telegram_shortcodes', 'telegram_specijal_quote', 'telegram_specijal_highlight', 'telegram_specijal_slike', 'telegram_mali-video' );
 
 		return $buttons;
 	}
 
 	function plugins( $plugins ) {
-		$plugins['telegram_shortcodes'] = get_theme_root_uri() . '/telegram2-desktop/assets/js/mce-shortcodes.js?v=1.2';
+		$plugins['telegram_shortcodes'] = get_template_directory_uri() . '/assets/js/mce-shortcodes.js?v=1.2';
 		return $plugins;
 	}
 
@@ -417,6 +421,46 @@ class Telegram_Shortcodes {
 
 <?php
         return ob_get_clean();
+	}
+
+	function specijal_quote( $atts, $content ) {
+		return '<div class="specijal-quote"><p>' . do_shortcode( wp_kses_post( $content ) ) . '</p></div>';
+	}
+
+	function specijal_highlight( $atts, $content ) {
+		return '<div class="specijal-highlight"><p>' . do_shortcode( wp_kses_post( $content ) ) . '</p></div>';
+	}
+
+	function specijal_slike( $atts ) {
+		$atts = shortcode_atts( array(
+			'ids'  => '',
+			'mode' => 'full',
+		), $atts );
+
+		if ( empty( $atts['ids'] ) ) {
+			return '';
+		}
+
+		$ids = array_map( 'intval', explode( ',', $atts['ids'] ) );
+		$count = count( $ids );
+		$html = '<div class="specijal-slike" data-mode="' . esc_attr( $atts['mode'] ) . '" data-count="' . esc_attr( $count ) . '">';
+
+		foreach ( $ids as $index => $id ) {
+			$img = wp_get_attachment_image_src( $id, 'full' );
+			if ( ! $img ) continue;
+			$alt = get_post_meta( $id, '_wp_attachment_image_alt', true );
+			$credit = get_post_meta( $id, 'fotograf', true );
+			$active = $index === 0 ? ' active' : '';
+			$html .= '<div class="specijal-slike-item' . $active . '" data-index="' . esc_attr( $index ) . '">';
+			$html .= '<img src="' . esc_url( $img[0] ) . '" alt="' . esc_attr( $alt ) . '" />';
+			if ( $credit ) {
+				$html .= '<span class="photo-credit">Foto: ' . esc_html( $credit ) . '</span>';
+			}
+			$html .= '</div>';
+		}
+
+		$html .= '</div>';
+		return $html;
 	}
 
 	function small_video_box( $atts, $content ) {

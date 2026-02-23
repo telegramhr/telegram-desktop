@@ -10,6 +10,63 @@
                 tinyMCE.activeEditor.selection.setContent( '[quote_box]'+tinyMCE.activeEditor.selection.getContent()+'[/quote_box]' );
             }
         });
+        editor.addButton('telegram_specijal_quote', {
+            icon: 'blockquote',
+            text: false,
+            tooltip: 'Specijal quote',
+            onclick: function(e) {
+                tinyMCE.activeEditor.selection.setContent( '[specijal_quote]'+tinyMCE.activeEditor.selection.getContent()+'[/specijal_quote]' );
+            }
+        });
+        editor.addButton('telegram_specijal_highlight', {
+            icon: 'blockquote',
+            text: false,
+            tooltip: 'Specijal highlight',
+            onclick: function(e) {
+                tinyMCE.activeEditor.selection.setContent( '[specijal_highlight]'+tinyMCE.activeEditor.selection.getContent()+'[/specijal_highlight]' );
+            }
+        });
+        editor.addButton('telegram_specijal_slike', {
+            icon: 'image',
+            text: false,
+            tooltip: 'Specijal slike',
+            cmd: 'telegram_specijal_slike_form'
+        });
+        editor.addCommand('telegram_specijal_slike_form', function () {
+            var frame = wp.media({
+                title: 'Odaberi slike za specijal',
+                multiple: true,
+                library: { type: 'image' },
+                button: { text: 'Umetni' }
+            });
+            frame.on('select', function () {
+                var ids = frame.state().get('selection').map(function (attachment) {
+                    return attachment.id;
+                }).join(',');
+                if (ids) {
+                    editor.windowManager.open({
+                        width: 300,
+                        title: 'Specijal slike opcije',
+                        body: [
+                            {
+                                type: 'listbox',
+                                name: 'specijal_slike_mode',
+                                label: 'Prikaz',
+                                values: [
+                                    { text: 'Puna širina', value: 'full' },
+                                    { text: 'Fiksna širina (1090px)', value: 'fixed' }
+                                ]
+                            }
+                        ],
+                        onsubmit: function (e) {
+                            var mode = e.data.specijal_slike_mode || 'full';
+                            tinyMCE.activeEditor.selection.setContent('[specijal_slike mode="' + mode + '" ids="' + ids + '"]');
+                        }
+                    });
+                }
+            });
+            frame.open();
+        });
         editor.addButton('telegram_mali-video', {
             icon: 'mali-video',
             text: false,
