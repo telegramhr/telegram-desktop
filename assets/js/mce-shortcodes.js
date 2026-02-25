@@ -11,7 +11,7 @@
             }
         });
         editor.addButton('telegram_specijal_quote', {
-            icon: 'blockquote',
+            icon: 'bubble',
             text: false,
             tooltip: 'Specijal quote',
             onclick: function(e) {
@@ -19,7 +19,7 @@
             }
         });
         editor.addButton('telegram_specijal_highlight', {
-            icon: 'blockquote',
+            icon: 'sun',
             text: false,
             tooltip: 'Specijal highlight',
             onclick: function(e) {
@@ -45,7 +45,8 @@
                 }).join(',');
                 if (ids) {
                     editor.windowManager.open({
-                        width: 300,
+                        width: 500,
+                        height: 280,
                         title: 'Specijal slike opcije',
                         body: [
                             {
@@ -56,11 +57,24 @@
                                     { text: 'Puna širina', value: 'full' },
                                     { text: 'Fiksna širina (1090px)', value: 'fixed' }
                                 ]
+                            },
+                            {
+                                type: 'textbox',
+                                name: 'specijal_slike_texts',
+                                label: 'Tekstovi (svaki red = novi overlay)',
+                                multiline: true,
+                                minHeight: 120
                             }
                         ],
                         onsubmit: function (e) {
                             var mode = e.data.specijal_slike_mode || 'full';
-                            tinyMCE.activeEditor.selection.setContent('[specijal_slike mode="' + mode + '" ids="' + ids + '"]');
+                            var sc = '[specijal_slike mode="' + mode + '" ids="' + ids + '"';
+                            var texts = (e.data.specijal_slike_texts || '').trim();
+                            if (texts) {
+                                sc += ' texts="' + texts.replace(/\n/g, '||') + '"';
+                            }
+                            sc += ']';
+                            tinyMCE.activeEditor.selection.setContent(sc);
                         }
                     });
                 }

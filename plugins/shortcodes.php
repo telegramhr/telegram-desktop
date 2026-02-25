@@ -433,8 +433,9 @@ class Telegram_Shortcodes {
 
 	function specijal_slike( $atts ) {
 		$atts = shortcode_atts( array(
-			'ids'  => '',
-			'mode' => 'full',
+			'ids'   => '',
+			'mode'  => 'full',
+			'texts' => '',
 		), $atts );
 
 		if ( empty( $atts['ids'] ) ) {
@@ -443,7 +444,15 @@ class Telegram_Shortcodes {
 
 		$ids = array_map( 'intval', explode( ',', $atts['ids'] ) );
 		$count = count( $ids );
-		$html = '<div class="specijal-slike" data-mode="' . esc_attr( $atts['mode'] ) . '" data-count="' . esc_attr( $count ) . '">';
+		$texts = ! empty( $atts['texts'] ) ? array_map( 'trim', explode( '||', $atts['texts'] ) ) : array();
+		$texts = array_filter( $texts );
+		$text_count = count( $texts );
+
+		$html = '<div class="specijal-slike" data-mode="' . esc_attr( $atts['mode'] ) . '" data-count="' . esc_attr( $count ) . '"';
+		if ( $text_count ) {
+			$html .= ' data-text-count="' . esc_attr( $text_count ) . '"';
+		}
+		$html .= '>';
 
 		foreach ( $ids as $index => $id ) {
 			$img = wp_get_attachment_image_src( $id, 'full' );
@@ -457,6 +466,10 @@ class Telegram_Shortcodes {
 				$html .= '<span class="photo-credit">Foto: ' . esc_html( $credit ) . '</span>';
 			}
 			$html .= '</div>';
+		}
+
+		foreach ( $texts as $ti => $text ) {
+			$html .= '<span class="specijal-slike-text" data-text-index="' . esc_attr( $ti ) . '">' . wp_kses_post( $text ) . '</span>';
 		}
 
 		$html .= '</div>';
