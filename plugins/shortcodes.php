@@ -35,6 +35,10 @@ class Telegram_Shortcodes {
         add_shortcode('telegram_special_embed', [$this, 'telegram_embed']);
         //add_shortcode('telegram_embed', [$this, 'telegram_embed2']);
 
+        // telegram_post is NOT a global shortcode — it's processed in prepare_live_updates() only
+        // to prevent ACF wysiwyg from executing it and replacing the raw tag with HTML on save
+        add_action('wp_ajax_telegram_search_posts', [$this, 'ajax_search_posts']);
+
         add_filter( 'wp_kses_allowed_html', [$this, 'acf_add_allowed_svg_tag'], 10, 2 );
     }
 
@@ -398,7 +402,7 @@ class Telegram_Shortcodes {
 		if(($key = array_search('blockquote', $buttons)) !== false) {
 			unset($buttons[$key]);
 		}
-		array_push( $buttons, 'separator', 'telegram_shortcodes', 'telegram_specijal_quote', 'telegram_specijal_highlight', 'telegram_specijal_slike', 'telegram_mali-video' );
+		array_push( $buttons, 'separator', 'telegram_shortcodes', 'telegram_specijal_quote', 'telegram_specijal_highlight', 'telegram_specijal_slike', 'telegram_mali-video', 'telegram_post_embed' );
 
 		return $buttons;
 	}
@@ -601,6 +605,68 @@ class Telegram_Shortcodes {
         <?php
 
         return ob_get_clean();
+    }
+
+    /**
+     * Render [telegram_post id=X] shortcode as an article embed card.
+     * Used in WP admin preview (TinyMCE). The API uses render_live_body() in Endpoints.php instead.
+     * Both must stay in sync — same HTML structure, same image size (medium_large = 768px).
+     */
+    function telegram_post_embed($atts) {
+        $atts = shortcode_atts(['id' => 0], $atts);
+        $post_id = intval($atts['id']);
+        if (!$post_id) return '';
+
+        $post = get_post($post_id);
+        if (!$post || $post->post_status !== 'publish') return '';
+
+        $title = get_the_title($post);
+        $permalink = str_replace('https://www.telegram.hr', '', get_permalink($post));
+        $meta = get_post_meta($post_id, '', true);
+        $subtitle = isset($meta['subtitle']) && $meta['subtitle'][0] ? $meta['subtitle'][0] : '';
+        $image_id = get_post_thumbnail_id($post);
+        $image_url = $image_id ? wp_get_attachment_image_url($image_id, 'medium_large') : '';
+
+        ob_start();
+        ?>
+        <div class="telegram-post-embed">
+            <a href="<?php echo esc_url($permalink); ?>" class="telegram-post-embed__link">
+                <?php if ($image_url): ?>
+                    <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>" class="telegram-post-embed__image" />
+                <?php endif; ?>
+                <div class="telegram-post-embed__content">
+                    <h4 class="telegram-post-embed__title"><?php echo esc_html($title); ?></h4>
+                    <?php if ($subtitle): ?>
+                        <p class="telegram-post-embed__excerpt"><?php echo esc_html($subtitle); ?></p>
+                    <?php endif; ?>
+                </div>
+            </a>
+        </div>
+        <?php
+        return ob_get_clean();
+    }
+
+    function ajax_search_posts() {
+        $query = sanitize_text_field($_GET['q'] ?? '');
+        if (strlen($query) < 2) {
+            wp_send_json([]);
+        }
+        $posts = get_posts([
+            'post_type' => ['post', 'fotogalerije'],
+            'post_status' => 'publish',
+            's' => $query,
+            'posts_per_page' => 10,
+            'orderby' => 'date',
+            'order' => 'DESC',
+        ]);
+        $results = array_map(function($p) {
+            return [
+                'id' => $p->ID,
+                'title' => get_the_title($p),
+                'date' => date('d.m.Y.', strtotime($p->post_date)),
+            ];
+        }, $posts);
+        wp_send_json($results);
     }
 }
 

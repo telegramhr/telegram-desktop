@@ -233,7 +233,7 @@ if( function_exists('acf_add_local_field_group') ):
                 'label' => 'Uživo',
                 'name' => 'live',
                 'type' => 'true_false',
-                'instructions' => 'Označiti za live članak',
+                'instructions' => 'Označiti za live članak. Kada je uključeno, prikazat će se polja za live ažuriranja.',
                 'required' => 0,
                 'conditional_logic' => 0,
                 'wrapper' => array(
@@ -246,6 +246,179 @@ if( function_exists('acf_add_local_field_group') ):
                 'prepend' => '',
                 'append' => '',
                 'maxlength' => '',
+            ),
+            array(
+                'key' => 'field_live_accordion_start',
+                'label' => 'Live praćenje',
+                'name' => '',
+                'type' => 'accordion',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '==',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'open' => 1,
+                'multi_expand' => 0,
+                'endpoint' => 0,
+            ),
+            array(
+                'key' => 'field_live_end_datetime',
+                'label' => 'Live kraj',
+                'name' => 'live_end',
+                'type' => 'date_time_picker',
+                'instructions' => 'Postavite kada live praćenje završava. Kada se postavi, članak se više neće prikazivati kao aktivan live članak na Googleu.',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '==',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'display_format' => 'd.m.Y. H:i',
+                'return_format' => 'Y-m-d H:i:s',
+                'first_day' => 1,
+            ),
+            array(
+                'key' => 'field_live_updates_repeater',
+                'label' => 'Live ažuriranja',
+                'name' => 'live_updates',
+                'type' => 'repeater',
+                'instructions' => 'Dodajte ažuriranja za live članak. Svako ažuriranje će se prikazati kao zasebna sekcija na stranici s vlastitim naslovom, tekstom i vremenom. Najnovija ažuriranja idu na vrh.',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '==',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'collapsed' => 'field_live_update_headline',
+                'min' => 0,
+                'max' => 0,
+                'layout' => 'block',
+                'button_label' => 'Dodaj ažuriranje',
+                'sub_fields' => array(
+                    array(
+                        'key' => 'field_live_update_headline',
+                        'label' => 'Naslov',
+                        'name' => 'live_headline',
+                        'type' => 'text',
+                        'instructions' => 'Kratki naslov ažuriranja, npr. "Predsjednik potvrdio ostavku". Prikazuje se kao naslov sekcije na stranici.',
+                        'required' => 1,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'default_value' => '',
+                        'placeholder' => 'Naslov ažuriranja',
+                        'prepend' => '',
+                        'append' => '',
+                        'maxlength' => '',
+                        'parent_repeater' => 'field_live_updates_repeater',
+                    ),
+                    array(
+                        'key' => 'field_live_update_body',
+                        'label' => 'Tekst',
+                        'name' => 'live_body',
+                        'type' => 'wysiwyg',
+                        'instructions' => 'Tekst ažuriranja. Možete dodati slike, linkove i formatiranje.',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'default_value' => '',
+                        'tabs' => 'all',
+                        'toolbar' => 'full',
+                        'media_upload' => 1,
+                        'delay' => 1,
+                        'parent_repeater' => 'field_live_updates_repeater',
+                    ),
+                    array(
+                        'key' => 'field_live_update_time',
+                        'label' => 'Vrijeme',
+                        'name' => 'live_time',
+                        'type' => 'date_time_picker',
+                        'instructions' => 'Ostavite prazno za trenutno vrijeme. Promijenite samo ako dodajete ažuriranje naknadno.',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '50',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'display_format' => 'd.m.Y. H:i',
+                        'return_format' => 'Y-m-d H:i:s',
+                        'first_day' => 1,
+                        'parent_repeater' => 'field_live_updates_repeater',
+                    ),
+                    array(
+                        'key' => 'field_live_update_highlight',
+                        'label' => 'Istaknuto',
+                        'name' => 'live_highlight',
+                        'type' => 'true_false',
+                        'instructions' => 'Označite ako je ovo ključno ažuriranje koje treba biti vizualno istaknuto (npr. breaking news unutar live praćenja).',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '50',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'default_value' => 0,
+                        'ui' => 1,
+                        'ui_on_text' => 'Da',
+                        'ui_off_text' => 'Ne',
+                        'parent_repeater' => 'field_live_updates_repeater',
+                    ),
+                ),
+            ),
+            array(
+                'key' => 'field_live_accordion_end',
+                'label' => 'Accordion End',
+                'name' => '',
+                'type' => 'accordion',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'open' => 0,
+                'multi_expand' => 0,
+                'endpoint' => 1,
             ),
             array(
                 'key' => 'field_5d11b23758c6d',
@@ -2975,6 +3148,27 @@ random : Nasumično',
     ));
 
 endif;
+
+// Auto-fill empty live_time fields with current datetime on save
+add_action('acf/save_post', function ($post_id) {
+    if (!get_field('live', $post_id)) {
+        return;
+    }
+    $updates = get_field('live_updates', $post_id);
+    if (!$updates) {
+        return;
+    }
+    $changed = false;
+    foreach ($updates as $i => $update) {
+        if (empty($update['live_time'])) {
+            $updates[$i]['live_time'] = date('Y-m-d H:i:s');
+            $changed = true;
+        }
+    }
+    if ($changed) {
+        update_field('live_updates', $updates, $post_id);
+    }
+}, 20);
 
 add_action( 'acf/include_fields', function() {
     if ( ! function_exists( 'acf_add_local_field_group' ) ) {
