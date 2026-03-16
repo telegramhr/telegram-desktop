@@ -298,6 +298,58 @@ if( function_exists('acf_add_local_field_group') ):
                 'first_day' => 1,
             ),
             array(
+                'key' => 'field_live_summary_button',
+                'label' => 'AI Sažetak',
+                'name' => '',
+                'type' => 'message',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '==',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'message' => '<button type="button" class="button button-primary" id="telegram-generate-live-summary">Generiraj sažetak</button> <span id="telegram-live-summary-status" style="margin-left:8px;"></span>',
+                'new_lines' => '',
+                'esc_html' => 0,
+            ),
+            array(
+                'key' => 'field_live_summary',
+                'label' => 'Sažetak',
+                'name' => 'live_summary',
+                'type' => 'wysiwyg',
+                'instructions' => 'AI generirani sažetak. Kliknite "Generiraj sažetak" ili uredite ručno.',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '==',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'tabs' => 'all',
+                'toolbar' => 'basic',
+                'media_upload' => 0,
+                'delay' => 1,
+            ),
+            array(
                 'key' => 'field_live_updates_repeater',
                 'label' => 'Live ažuriranja',
                 'name' => 'live_updates',
