@@ -11,7 +11,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: [self-hosted,hr-telegram-main-runner]
 
     steps:
       - uses: actions/checkout@v3
