@@ -31,12 +31,12 @@
   <meta content="https://www.telegram.hr/" property="og:url" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@readymag" />
-  <meta name="description" content="Built with Readymag—a tool to design anything on the web." />
+  <meta name="description" content="Ljupka Gojić Mikić nam otkriva kako postiže glass skin učinak na svojoj koži." />
   <meta content="Ljupka Gojić Mikić nam otkriva kako postiže glass skin učinak na svojoj koži"
     property="og:site_name" />
   <meta content="img/683d850bd2094940857eb894/6193962/TQjf2T_nY7T62ehj_rLf1.jpg" property="og:image" />
   <meta content="Ljupka Gojić Mikić nam otkriva kako postiže glass skin učinak na svojoj koži" property="og:title" />
-  <meta content="Built with Readymag—a tool to design anything on the web." property="og:description" />
+  <meta content="Ljupka Gojić Mikić nam otkriva kako postiže glass skin učinak na svojoj koži." property="og:description" />
   <base href="/wp-content/themes/telegram2-desktop/templates/native/loreal/" />
   <script type="importmap">
     {"imports":{"https://st-p.rmcdn1.net/43d10881/":"/wp-content/themes/telegram2-desktop/templates/native/loreal/"}}
