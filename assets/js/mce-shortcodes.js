@@ -159,6 +159,91 @@
             });
 
         })
+        editor.addButton('telegram_post_embed', {
+            icon: 'dashicon dashicons-admin-post',
+            text: false,
+            tooltip: 'Umetni članak',
+            onclick: function() {
+                var overlay = document.createElement('div');
+                overlay.id = 'tpe-overlay';
+                overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:100100;display:flex;align-items:center;justify-content:center;';
+
+                var modal = document.createElement('div');
+                modal.style.cssText = 'background:#fff;border-radius:8px;padding:20px;width:480px;max-height:500px;display:flex;flex-direction:column;';
+
+                var title = document.createElement('h3');
+                title.textContent = 'Umetni članak';
+                title.style.cssText = 'margin:0 0 12px;font-size:16px;';
+
+                var input = document.createElement('input');
+                input.type = 'text';
+                input.placeholder = 'Pretraži članke...';
+                input.style.cssText = 'width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:4px;font-size:14px;box-sizing:border-box;';
+
+                var results = document.createElement('div');
+                results.style.cssText = 'margin-top:12px;overflow-y:auto;max-height:350px;';
+
+                var closeBtn = document.createElement('button');
+                closeBtn.textContent = '✕';
+                closeBtn.style.cssText = 'position:absolute;top:10px;right:14px;background:none;border:none;font-size:20px;cursor:pointer;color:#666;';
+
+                modal.style.position = 'relative';
+                modal.appendChild(closeBtn);
+                modal.appendChild(title);
+                modal.appendChild(input);
+                modal.appendChild(results);
+                overlay.appendChild(modal);
+                document.body.appendChild(overlay);
+
+                var searchTimer = null;
+
+                function close() {
+                    if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+                }
+
+                closeBtn.onclick = close;
+                overlay.addEventListener('click', function(e) {
+                    if (e.target === overlay) close();
+                });
+
+                input.addEventListener('input', function() {
+                    var q = input.value.trim();
+                    if (searchTimer) clearTimeout(searchTimer);
+                    if (q.length < 2) {
+                        results.innerHTML = '<p style="color:#999;font-size:13px;">Unesite najmanje 2 znaka...</p>';
+                        return;
+                    }
+                    searchTimer = setTimeout(function() {
+                        results.innerHTML = '<p style="color:#999;font-size:13px;">Tražim...</p>';
+                        jQuery.ajax({
+                            url: ajaxurl,
+                            data: { action: 'telegram_search_posts', q: q },
+                            success: function(data) {
+                                results.innerHTML = '';
+                                if (!data || !data.length) {
+                                    results.innerHTML = '<p style="color:#999;font-size:13px;">Nema rezultata.</p>';
+                                    return;
+                                }
+                                data.forEach(function(post) {
+                                    var item = document.createElement('div');
+                                    item.style.cssText = 'padding:10px 12px;border-bottom:1px solid #eee;cursor:pointer;';
+                                    item.innerHTML = '<strong style="font-size:14px;">' + post.title + '</strong><br><span style="font-size:12px;color:#888;">' + post.date + ' &middot; ID: ' + post.id + '</span>';
+                                    item.onmouseover = function() { item.style.background = '#f5f5f5'; };
+                                    item.onmouseout = function() { item.style.background = 'none'; };
+                                    item.onclick = function() {
+                                        editor.insertContent('[telegram_post id=' + post.id + ']');
+                                        close();
+                                    };
+                                    results.appendChild(item);
+                                });
+                            }
+                        });
+                    }, 300);
+                });
+
+                setTimeout(function() { input.focus(); }, 50);
+            }
+        });
     });
     jQuery('#wp-link-close').on('click', function() {
         jQuery('#telegram_compare_div').hide();

@@ -863,6 +863,47 @@ function my_disable_font_collections_rest_api_endpoints( $endpoints ) {
 }
 add_filter( 'rest_endpoints', 'my_disable_font_collections_rest_api_endpoints' );
 
+/**
+ * Register custom fonts for the block editor.
+ * Gloock (Google Fonts) and Termina (Adobe Fonts).
+ */
+add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_json ) {
+	return $theme_json->update_with( array(
+		'version'  => 3,
+		'settings' => array(
+			'typography' => array(
+				'fontFamilies' => telegram_get_custom_fonts(),
+			),
+		),
+	) );
+} );
+
+add_action( 'enqueue_block_editor_assets', function () {
+	wp_enqueue_style( 'telegram-editor-fonts-termina', 'https://use.typekit.net/rhj2chq.css', array(), null );
+	wp_enqueue_style( 'telegram-editor-fonts-gloock', 'https://fonts.googleapis.com/css2?family=Gloock&display=swap', array(), null );
+
+	$css = '';
+	foreach ( telegram_get_custom_fonts() as $font ) {
+		$css .= sprintf( '.has-%s-font-family{font-family:%s !important;}', $font['slug'], $font['fontFamily'] );
+	}
+	wp_add_inline_style( 'telegram-editor-fonts-gloock', $css );
+} );
+
+function telegram_get_custom_fonts() {
+	return array(
+		array(
+			'fontFamily' => 'Gloock, serif',
+			'name'       => 'Gloock',
+			'slug'       => 'gloock',
+		),
+		array(
+			'fontFamily' => '"termina", sans-serif',
+			'name'       => 'Termina',
+			'slug'       => 'termina',
+		),
+	);
+}
+
 add_filter('web_stories_hide_auto_generated_attachments', 'telegram_web_stories_media_lib', 10, 2);
 
 function telegram_web_stories_media_lib($return, $args) {
