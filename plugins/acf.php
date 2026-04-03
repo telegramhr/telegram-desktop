@@ -381,7 +381,7 @@ if( function_exists('acf_add_local_field_group') ):
                         'label' => 'Naslov',
                         'name' => 'live_headline',
                         'type' => 'text',
-                        'instructions' => 'Kratki naslov ažuriranja, npr. "Predsjednik potvrdio ostavku". Prikazuje se kao naslov sekcije na stranici. Nije obavezno.',
+                        'instructions' => 'Kratki naslov ažuriranja, npr. "Predsjednik potvrdio ostavku". Prikazuje se kao naslov sekcije na stranici. OBAVEZNO U SLUČAJU DA NIJE ODABRAN ISTAKNUTI ČLANAK.',
                         'required' => 0,
                         'conditional_logic' => 0,
                         'wrapper' => array(
