@@ -3352,7 +3352,7 @@ add_action('acf/save_post', function ($post_id) {
     $changed = false;
     foreach ($updates as $i => $update) {
         if (empty($update['live_time'])) {
-            $updates[$i]['live_time'] = date('Y-m-d H:i:s');
+            $updates[$i]['live_time'] = current_time('Y-m-d H:i:s');
             $changed = true;
         }
     }
