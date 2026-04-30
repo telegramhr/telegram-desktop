@@ -2,6 +2,7 @@
 <html class="">
 
 <head>
+  <?php wp_head(); ?>
   <meta charSet="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Readymag" data-project="6306550" data-user="u275768050" data-is-exported="true"
@@ -8930,6 +8931,7 @@
 </head>
 
 <body>
+  <?php do_action('telegram_body_start'); ?>
   <div id="root">
     <style>
       html,
@@ -8976,6 +8978,7 @@
   <div id="tmp"></div>
   <div id="fake" style="position:fixed;opacity:1"></div>
   <script src="/wp-content/themes/telegram2-desktop/templates/native/feels-like-home/dist/viewer.js" type="module"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>
