@@ -1,0 +1,1 @@
+import"https://st-p.rmcdn1.net/b45ea352/dist/c/c-LE746KQR.js";var t=({widget:e})=>{e&&e.isDragging&&(e.isDragging=!1,e.mag.isWidgetDragging=!1,document.body.style.pointerEvents==="none"&&(document.body.style.pointerEvents=""))},o=t;export{o as default};
