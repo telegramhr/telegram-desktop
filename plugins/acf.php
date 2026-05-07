@@ -3357,6 +3357,50 @@ random : Nasumično',
         'show_in_rest' => 0,
     ));
 
+    acf_add_local_field_group(array(
+        'key' => 'group_super1_quote_block',
+        'title' => 'Super1 quote',
+        'fields' => array(
+            array(
+                'key' => 'field_super1_quote_text',
+                'label' => 'Tekst',
+                'name' => 'super1_quote_text',
+                'type' => 'textarea',
+                'instructions' => '',
+                'required' => 1,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => 'Unesite tekst citata...',
+                'maxlength' => '',
+                'rows' => 4,
+                'new_lines' => '',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'block',
+                    'operator' => '==',
+                    'value' => 'acf/super1-quote',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+        'active' => true,
+        'description' => '',
+        'show_in_rest' => 0,
+    ));
+
 endif;
 
 // Auto-fill empty live_time fields with current datetime on save
