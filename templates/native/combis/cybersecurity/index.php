@@ -26,7 +26,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <nav class="full topnav desktop-only flex relative">
             <div class="container center relative">
                 <div class="center relative textlogo"><img src="<?php echo $native_path ?>img/combis_dark.png" alt="Combis logo">Klik za sigurnost</div>
-                <div class="center relative">
+                <div class="center relative" style="gap:24px;">
                     <a href="#haker1" class="center relative animate">
                         <?php echo file_get_contents($native_path.'img/user-headset-solid.svg'); ?>
                         <div class="full">Ekspert 1</div>
@@ -93,44 +93,45 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
             </div>
         </section>
         <section class="full flex relative shoo-top" id="haker1">
-            <a href = "https://www.telegram.hr/partneri/danijel-je-moralni-haker-u-combis-je-dosao-kao-student-a-danas-probija-racunalne-sustave-velikih-kompanija/ " class="container flex article-embed"
+            <a href = "https://www.telegram.hr/biznis-tech/strucnjak-za-sigurnost-racunalnih-sustava-nikome-ne-vjerujem-provjeravam-i-mamin-mail-kad-mi-ga-posalje/"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa2451xw.jpg" alt="Ekspert Danijel Teslić">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa4625xw.jpg" alt="Ekspert Pero Kristić">
                 </div>
                 <div class="third flex flex-responsive horizontal-pad">
                     <h3 class="full">Ekspert 1</h3>
+                    <h2 class="full">Pero Kristić</h2>
+                    <p class="full">Mislio je da će biti vrhunski sportaš, a danas štiti vrijedne sustave od najskupljih napada: Nikome ne vjerujem, provjeravam i mamin mail kad mi ga pošalje</p>
+                    <div class="cta">Pročitaj više</div>
+
+                </div>
+            </a>
+        </section>
+        <section class="full flex relative shoo-top" id="haker2">
+            <a href = "https://www.telegram.hr/partneri/danijel-je-moralni-haker-u-combis-je-dosao-kao-student-a-danas-probija-racunalne-sustave-velikih-kompanija/ " class="container flex article-embed"
+            class="container flex article-embed"
+            target = "_blank">
+                <div class="two-thirds flex flex-responsive horizontal-pad desktop-order-2">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa2451xw.jpg" alt="Ekspert Danijel Teslić">
+                </div>
+                <div class="third flex flex-responsive horizontal-pad desktop-order-1">
+                    <h3 class="full">Ekspert 2</h3>
                     <h2 class="full">Danijel Teslić</h2>
                     <p class="full">U Combis je došao kao student, a danas probija računalne sustave velikih kompanija: Često su nam dovoljni najobičniji alati da uđemo u sustav</p>
                     <div class="cta">Pročitaj više</div>
                 </div>
             </a>
         </section>
-        <section class="full flex relative shoo-top" id="haker2">
-            <a href = "https://www.telegram.hr/biznis-tech/strucnjak-za-sigurnost-racunalnih-sustava-nikome-ne-vjerujem-provjeravam-i-mamin-mail-kad-mi-ga-posalje/"
-            class="container flex article-embed"
-            target = "_blank">
-                <div class="two-thirds flex flex-responsive horizontal-pad desktop-order-2">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa4625xw.jpg" alt="Ekspert Pero Kristić">
-                </div>
-                <div class="third flex flex-responsive horizontal-pad desktop-order-1">
-                    <h3 class="full">Ekspert 2</h3>
-                    <h2 class="full">Pero Kristić</h2>
-                    <p class="full">Mislio je da će biti vrhunski sportaš, a danas štiti vrijedne sustave od najskupljih napada: Nikome ne vjerujem, provjeravam i mamin mail kad mi ga pošalje</p>
-                    <div class="cta">Pročitaj više</div>
-                </div>
-            </a>
-        </section>
        <section class="full flex relative shoo-top" id="haker3">
-            <a class="container flex article-embed" href="https://www.telegram.hr/biznis-tech/sigurnosni-strucnjak-hakerima-prakticki-na-pladnju-serviramo-sve-informacije-koje-su-im-potrebne-da-nas-napadnu/"
+            <a class="container flex article-embed" href="https://www.telegram.hr/partneri/kiberneticka-sigurnost-vcisco-combis-nis2/"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2022/12/g12a2995.jpg" alt="Ekspert Goran Žiković">
+                    <img src="https://www.telegram.hr/wp-content/uploads/2025/07/asa0468xw.jpg" alt="Ekspert Kristina Oršanić Kopić">
                 </div>
                 <div class="third flex flex-responsive horizontal-pad">
                     <h3 class="full">Ekspert 3</h3>
-                    <h2 class="full">GORAN ŽIVKOVIĆ</h2>
-                    <p class="full">Iz banke je prešao u Combis kako bi uspostavio sustavno rješenje: 'Hakerima praktički na pladnju serviramo sve informacije koje im trebaju za napad'</p>
+                    <h2 class="full">Kristina Oršanić Kopić</h2>
+                    <p class="full">Ona je jedna od prvih i najutjecajnijih CISO stručnjakinja u Hrvatskoj i zna kako spasiti poduzetnike: "Zapitajte se što bi se dogodilo da vam posao stane na jedan dan, tjedan ili mjesec."</p>
                     <div class="cta">Pročitaj više</div>
                 </div>
             </a>
@@ -206,6 +207,13 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
                     <img class="shoo-bottom" src="https://images.telegram.hr/MPSAhH0Q1VQqy_pGXoLHzshR7I6jnwZfEFCX1CUtx0o/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTEvaW1hZ2UwMDAxNy5qcGVn.webp">
                     <div class="full flex">
                         <h2 class="full">Sve više mlađe djece vrijeme provodi na internetu. Ove slikovnice uče ih oprezu</h2>
+                        <div class="cta animate">Pročitaj više...</div>
+                    </div>
+                </a>
+                <a class="third flex flex-responsive relative article-embed stretch pad-me" href="https://www.telegram.hr/partneri/sve-vise-mlade-djece-vrijeme-provodi-na-internetu-ove-slikovnice-uce-ih-oprezu/ " target="_blank">
+                    <img class="shoo-bottom" src="https://images.telegram.hr/1MjFSJ8mKsO2uomokQqc8fzRFcMXS8dzpPK3k3IuorI/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTIvbWFqYS1tYXJrdWxpbi1rbGFyaWMuanBn.webp">
+                    <div class="full flex">
+                        <h2 class="full">"Ali mama, svi to gledaju!" - Nova Combisova slikovnica uči djecu da ne vjeruju svemu što vide na ekranu</h2>
                         <div class="cta animate">Pročitaj više...</div>
                     </div>
                 </a>
