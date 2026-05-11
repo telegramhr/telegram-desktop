@@ -94,6 +94,7 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         </section>
         <section class="full flex relative shoo-top" id="haker1">
             <a href = "https://www.telegram.hr/biznis-tech/strucnjak-za-sigurnost-racunalnih-sustava-nikome-ne-vjerujem-provjeravam-i-mamin-mail-kad-mi-ga-posalje/"
+            class="container flex article-embed"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
                     <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa4625xw.jpg" alt="Ekspert Pero Kristić">
