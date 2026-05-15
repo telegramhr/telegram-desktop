@@ -77,32 +77,32 @@ $native_path = 'https://telegram.hr/wp-content/themes/telegram2-desktop/template
         <section class="full flex relative shoo-top">
             <div class="container flex center-text relative">
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
-                    <p class="full">3.5x</p>
+                    <p class="full">6x</p>
                     <p class="full">više malicioznih mailova primi zaposlenik male, nego srednje ili velike tvrtke</p>
                 </div>
                 <div class="half flex flex-responsive infographic-element horizontal-pad">
-                    <p class="full">3.6M</p>
-                    <p class="full">dolara je vrijednost prosječne štete po napadu na organizaciju</p>
+                    <p class="full">4.4M</p>
+                    <p class="full">dolara je vrijednost prosječne štete po data breach napadu na organizaciju</p>
                 </div>
                 <div class="full flex horizontal-pad tiny-text">
                     <p class="full infographic-descriptor">Izvori:</p>
-                    <p class="full">Barracuda, Spear Phishing: Top Threats and Trends, 2022</p>
-                    <p class="full">World Economic Forum, Global Cybersecurity Outlook, 2022</p>
-                    <p class="full">Cybersecurity Ventures, Special Report: Cyberwarfare In The C-Suite, 2022</p>
+                    <p class="full">Barracuda, Top Email Threats and Trends, 2024</p>
+                    <p class="full">IBM Security, Cost of a Data Breach Report, 2025</p>
+                    <p class="full">World Economic Forum, Global Cybersecurity Outlook, 2026</p>
                 </div>
             </div>
         </section>
         <section class="full flex relative shoo-top" id="haker1">
-            <a href = "https://www.telegram.hr/biznis-tech/strucnjak-za-sigurnost-racunalnih-sustava-nikome-ne-vjerujem-provjeravam-i-mamin-mail-kad-mi-ga-posalje/"
+            <a href = "https://www.telegram.hr/partneri/ai-je-otvorio-nova-vrata-hakerima-a-na-meti-su-apsolutno-svi-strucnjak-daje-konkretne-savjete-kako-se-zastititi/"
             class="container flex article-embed"
             target = "_blank">
                 <div class="two-thirds flex flex-responsive horizontal-pad">
-                    <img src="https://www.telegram.hr/wp-content/uploads/2022/11/sasa4625xw.jpg" alt="Ekspert Pero Kristić">
+                    <img src="https://images.telegram.hr/x1AxWKQOQjicnWlv17EkN_HAkOvg7EVem3BCoGBjvnM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDQvY29tYmlzLTAyLTEuanBn.webp" alt="Ekspert Krešimir Filla">
                 </div>
                 <div class="third flex flex-responsive horizontal-pad">
                     <h3 class="full">Ekspert 1</h3>
-                    <h2 class="full">Pero Kristić</h2>
-                    <p class="full">Mislio je da će biti vrhunski sportaš, a danas štiti vrijedne sustave od najskupljih napada: Nikome ne vjerujem, provjeravam i mamin mail kad mi ga pošalje</p>
+                    <h2 class="full">Krešimir Filla</h2>
+                    <p class="full">Savjetnik je za kibernetičku sigurnost, svakodnevno proučava nove trendove te upozorava: sigurnosni modeli još se uvijek prečesto oslanjaju na zastarjele načine zaštite</p>
                     <div class="cta">Pročitaj više</div>
 
                 </div>
