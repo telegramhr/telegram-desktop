@@ -907,6 +907,68 @@ function telegram_get_custom_fonts() {
 	);
 }
 
+/**
+ * Stylesheets that provide the custom fonts (Gloock + Termina).
+ * Shared by the block editor enqueue above and the classic editor below.
+ */
+function telegram_get_custom_font_stylesheets() {
+	return array(
+		'https://use.typekit.net/rhj2chq.css',
+		'https://fonts.googleapis.com/css2?family=Gloock&display=swap',
+	);
+}
+
+/**
+ * Register custom fonts for the Classic Editor (TinyMCE).
+ * The classic editor content lives in an iframe, so it needs its own
+ * font CSS and toolbar wiring, independent of the block editor.
+ */
+
+// 1. Load the font stylesheets inside the TinyMCE iframe.
+add_filter( 'mce_css', function ( $mce_css ) {
+	$sheets = telegram_get_custom_font_stylesheets();
+	if ( ! empty( $mce_css ) ) {
+		array_unshift( $sheets, $mce_css );
+	}
+
+	return implode( ',', $sheets );
+} );
+
+// 2. Add the fonts to the "Font Family" dropdown and the "Formats" menu.
+add_filter( 'tiny_mce_before_init', function ( $settings ) {
+	$formats = array();
+	$styles  = array();
+
+	foreach ( telegram_get_custom_fonts() as $font ) {
+		// font_formats is wrapped in double quotes by WP, so the value
+		// itself must not contain any (Termina ships as '"termina", ...').
+		$formats[] = sprintf( '%s=%s', $font['name'], str_replace( '"', '', $font['fontFamily'] ) );
+		$styles[]  = array(
+			'title'  => $font['name'],
+			'inline' => 'span',
+			'styles' => array( 'font-family' => $font['fontFamily'] ),
+		);
+	}
+
+	$default = isset( $settings['font_formats'] ) ? $settings['font_formats'] : '';
+	$settings['font_formats']  = implode( ';', $formats ) . ';' . $default;
+	$settings['style_formats'] = wp_json_encode( $styles );
+
+	return $settings;
+} );
+
+// 3. Surface the "Formats" (styleselect) and "Font Family" (fontselect)
+// dropdowns on the second toolbar row so the fonts can be applied.
+add_filter( 'mce_buttons_2', function ( $buttons ) {
+	foreach ( array( 'fontselect', 'styleselect' ) as $control ) {
+		if ( ! in_array( $control, $buttons, true ) ) {
+			array_unshift( $buttons, $control );
+		}
+	}
+
+	return $buttons;
+} );
+
 add_filter('web_stories_hide_auto_generated_attachments', 'telegram_web_stories_media_lib', 10, 2);
 
 function telegram_web_stories_media_lib($return, $args) {
