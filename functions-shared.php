@@ -934,36 +934,27 @@ add_filter( 'mce_css', function ( $mce_css ) {
 	return implode( ',', $sheets );
 } );
 
-// 2. Add the fonts to the "Font Family" dropdown and the "Formats" menu.
+// 2. Add the fonts to the "Font Family" dropdown.
 add_filter( 'tiny_mce_before_init', function ( $settings ) {
 	$formats = array();
-	$styles  = array();
 
 	foreach ( telegram_get_custom_fonts() as $font ) {
 		// font_formats is wrapped in double quotes by WP, so the value
 		// itself must not contain any (Termina ships as '"termina", ...').
 		$formats[] = sprintf( '%s=%s', $font['name'], str_replace( '"', '', $font['fontFamily'] ) );
-		$styles[]  = array(
-			'title'  => $font['name'],
-			'inline' => 'span',
-			'styles' => array( 'font-family' => $font['fontFamily'] ),
-		);
 	}
 
 	$default = isset( $settings['font_formats'] ) ? $settings['font_formats'] : '';
-	$settings['font_formats']  = implode( ';', $formats ) . ';' . $default;
-	$settings['style_formats'] = wp_json_encode( $styles );
+	$settings['font_formats'] = implode( ';', $formats ) . ';' . $default;
 
 	return $settings;
 } );
 
-// 3. Surface the "Formats" (styleselect) and "Font Family" (fontselect)
-// dropdowns on the second toolbar row so the fonts can be applied.
-add_filter( 'mce_buttons_2', function ( $buttons ) {
-	foreach ( array( 'fontselect', 'styleselect' ) as $control ) {
-		if ( ! in_array( $control, $buttons, true ) ) {
-			array_unshift( $buttons, $control );
-		}
+// 3. Surface the "Font Family" (fontselect) dropdown on the FIRST toolbar
+// row so it is visible without the kitchen-sink toggle.
+add_filter( 'mce_buttons', function ( $buttons ) {
+	if ( ! in_array( 'fontselect', $buttons, true ) ) {
+		array_unshift( $buttons, 'fontselect' );
 	}
 
 	return $buttons;
