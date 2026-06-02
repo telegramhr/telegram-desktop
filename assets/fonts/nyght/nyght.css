@@ -1,0 +1,77 @@
+/* Nyght Serif — self-hosted. URLs are relative to this file's folder. */
+
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-Light.woff2") format("woff2"), url("NyghtSerif-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-LightItalic.woff2") format("woff2"), url("NyghtSerif-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-Regular.woff2") format("woff2"), url("NyghtSerif-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-RegularItalic.woff2") format("woff2"), url("NyghtSerif-RegularItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-Medium.woff2") format("woff2"), url("NyghtSerif-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-MediumItalic.woff2") format("woff2"), url("NyghtSerif-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-Dark.woff2") format("woff2"), url("NyghtSerif-Dark.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-DarkItalic.woff2") format("woff2"), url("NyghtSerif-DarkItalic.woff") format("woff");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-Bold.woff2") format("woff2"), url("NyghtSerif-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nyght Serif";
+	src: url("NyghtSerif-BoldItalic.woff2") format("woff2"), url("NyghtSerif-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Class emitted by the block editor's font-family picker. */
+.has-nyght-serif-font-family {
+	font-family: "Nyght Serif", serif;
+}

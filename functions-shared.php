@@ -884,12 +884,20 @@ add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_jso
 add_action( 'enqueue_block_editor_assets', function () {
 	wp_enqueue_style( 'telegram-editor-fonts-termina', 'https://use.typekit.net/rhj2chq.css', array(), null );
 	wp_enqueue_style( 'telegram-editor-fonts-gloock', 'https://fonts.googleapis.com/css2?family=Gloock&display=swap', array(), null );
+	wp_enqueue_style( 'telegram-editor-fonts-nyght', get_template_directory_uri() . '/assets/fonts/nyght/nyght.css', array(), null );
 
 	$css = '';
 	foreach ( telegram_get_custom_fonts() as $font ) {
 		$css .= sprintf( '.has-%s-font-family{font-family:%s !important;}', $font['slug'], $font['fontFamily'] );
 	}
 	wp_add_inline_style( 'telegram-editor-fonts-gloock', $css );
+} );
+
+// Load the self-hosted Nyght Serif @font-face on the front-end so post
+// content that uses it renders for readers (Gloock/Termina come from their
+// own external stylesheets elsewhere).
+add_action( 'wp_enqueue_scripts', function () {
+	wp_enqueue_style( 'telegram-fonts-nyght', get_template_directory_uri() . '/assets/fonts/nyght/nyght.css', array(), null );
 } );
 
 function telegram_get_custom_fonts() {
@@ -904,6 +912,11 @@ function telegram_get_custom_fonts() {
 			'name'       => 'Termina',
 			'slug'       => 'termina',
 		),
+		array(
+			'fontFamily' => '"Nyght Serif", serif',
+			'name'       => 'Nyght Serif',
+			'slug'       => 'nyght-serif',
+		),
 	);
 }
 
@@ -915,6 +928,7 @@ function telegram_get_custom_font_stylesheets() {
 	return array(
 		'https://use.typekit.net/rhj2chq.css',
 		'https://fonts.googleapis.com/css2?family=Gloock&display=swap',
+		get_template_directory_uri() . '/assets/fonts/nyght/nyght.css',
 	);
 }
 
