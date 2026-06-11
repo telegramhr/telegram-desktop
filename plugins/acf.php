@@ -1,16 +1,45 @@
 <?php
 if( function_exists('acf_add_local_field_group') ):
 
+    // Resolve the id of the post currently being edited. ACF runs prepare_field in
+    // several contexts (classic edit screen, Gutenberg metabox render, and the AJAX
+    // request fired when adding a repeater row) and not all of them expose
+    // $_GET['post'], so we probe every reliable source including the editor referer.
+    if (!function_exists('tg_live_current_edit_post_id')) {
+        function tg_live_current_edit_post_id() {
+            $candidates = array(
+                isset($_GET['post']) ? $_GET['post'] : null,
+                isset($_POST['post_ID']) ? $_POST['post_ID'] : null,
+                isset($_POST['post_id']) ? $_POST['post_id'] : null,
+                isset($_REQUEST['post_id']) ? $_REQUEST['post_id'] : null,
+            );
+            foreach ($candidates as $candidate) {
+                if (is_numeric($candidate) && (int) $candidate > 0) {
+                    return (int) $candidate;
+                }
+            }
+            if (function_exists('get_the_ID') && get_the_ID()) {
+                return (int) get_the_ID();
+            }
+            // AJAX add-row: the post id isn't in the request, but the editor URL
+            // (.../post.php?post=123&action=edit) is sent as the referer.
+            if (!empty($_SERVER['HTTP_REFERER'])) {
+                $query = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY);
+                if ($query) {
+                    parse_str($query, $params);
+                    if (!empty($params['post']) && is_numeric($params['post'])) {
+                        return (int) $params['post'];
+                    }
+                }
+            }
+            return 0;
+        }
+    }
+
     // For match-type live articles the per-update "Vrijeme" field is hidden in the
     // editor and the timestamp is filled automatically on save (see acf/save_post below).
     add_filter('acf/prepare_field/key=field_live_update_time', function ($field) {
-        $post_id = 0;
-        if (isset($_GET['post'])) {
-            $post_id = intval($_GET['post']);
-        } elseif (isset($_POST['post_ID'])) {
-            $post_id = intval($_POST['post_ID']);
-        }
-        if ($post_id && get_post_meta($post_id, 'live_type', true) === 'match') {
+        if (get_post_meta(tg_live_current_edit_post_id(), 'live_type', true) === 'match') {
             return false;
         }
         return $field;
@@ -18,15 +47,9 @@ if( function_exists('acf_add_local_field_group') ):
 
     // The per-update match minute only applies to match-type live articles; hide it
     // for plain articles ("Članak") so editors don't see an irrelevant field. Hidden
-    // by default and only shown when the post is explicitly a match, so a new/unsaved
-    // post (where the id can't be resolved) keeps it hidden too.
+    // by default and only shown when the post is explicitly a match.
     add_filter('acf/prepare_field/key=field_live_update_minute', function ($field) {
-        $post_id = intval(
-            isset($_GET['post']) ? $_GET['post']
-            : (isset($_POST['post_ID']) ? $_POST['post_ID']
-            : (isset($_REQUEST['post_id']) ? $_REQUEST['post_id'] : 0))
-        );
-        if (get_post_meta($post_id, 'live_type', true) !== 'match') {
+        if (get_post_meta(tg_live_current_edit_post_id(), 'live_type', true) !== 'match') {
             return false;
         }
         return $field;
