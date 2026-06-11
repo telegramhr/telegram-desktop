@@ -1,36 +1,50 @@
 <?php
 if( function_exists('acf_add_local_field_group') ):
 
-    // For match-type live articles the per-update "Vrijeme" field is hidden in the
-    // editor and the timestamp is filled automatically on save (see acf/save_post below).
-    add_filter('acf/prepare_field/key=field_live_update_time', function ($field) {
-        $post_id = 0;
-        if (isset($_GET['post'])) {
-            $post_id = intval($_GET['post']);
-        } elseif (isset($_POST['post_ID'])) {
-            $post_id = intval($_POST['post_ID']);
+    // Per-update editor columns depend on the live type, which is a top-level field
+    // that ACF conditional logic can't reference from inside the repeater. Server-side
+    // prepare_field also can't reliably read the (possibly unsaved) value during the
+    // various ACF render contexts. So toggle the columns in the admin with JS that
+    // watches the live_type button group live: a "Utakmica" shows the minute column
+    // and hides the time column; a "Članak" does the opposite. The hidden time field
+    // is still auto-stamped on save (see acf/save_post below).
+    add_action('admin_footer-post.php', 'tg_live_update_columns_js');
+    add_action('admin_footer-post-new.php', 'tg_live_update_columns_js');
+    if (!function_exists('tg_live_update_columns_js')) {
+        function tg_live_update_columns_js() {
+            ?>
+            <script>
+            (function () {
+                if (typeof acf === 'undefined') { return; }
+                var REPEATER = 'field_live_updates_repeater';
+                var TIME = 'field_live_update_time';
+                var MINUTE = 'field_live_update_minute';
+                function isMatch() {
+                    var f = acf.getField('field_live_type');
+                    if (f && typeof f.val === 'function') { return f.val() === 'match'; }
+                    var checked = document.querySelector('[data-key="field_live_type"] input:checked');
+                    return !!checked && checked.value === 'match';
+                }
+                function apply() {
+                    var match = isMatch();
+                    document.querySelectorAll('[data-key="' + REPEATER + '"] [data-key="' + TIME + '"]').forEach(function (el) {
+                        el.style.display = match ? 'none' : '';
+                    });
+                    document.querySelectorAll('[data-key="' + REPEATER + '"] [data-key="' + MINUTE + '"]').forEach(function (el) {
+                        el.style.display = match ? '' : 'none';
+                    });
+                }
+                acf.addAction('ready', function () {
+                    apply();
+                    var lt = acf.getField('field_live_type');
+                    if (lt && typeof lt.on === 'function') { lt.on('change', apply); }
+                });
+                acf.addAction('append', apply);
+            })();
+            </script>
+            <?php
         }
-        if ($post_id && get_post_meta($post_id, 'live_type', true) === 'match') {
-            return false;
-        }
-        return $field;
-    });
-
-    // The per-update match minute only applies to match-type live articles; hide it
-    // for plain articles ("Članak") so editors don't see an irrelevant field. Hidden
-    // by default and only shown when the post is explicitly a match, so a new/unsaved
-    // post (where the id can't be resolved) keeps it hidden too.
-    add_filter('acf/prepare_field/key=field_live_update_minute', function ($field) {
-        $post_id = intval(
-            isset($_GET['post']) ? $_GET['post']
-            : (isset($_POST['post_ID']) ? $_POST['post_ID']
-            : (isset($_REQUEST['post_id']) ? $_REQUEST['post_id'] : 0))
-        );
-        if (get_post_meta($post_id, 'live_type', true) !== 'match') {
-            return false;
-        }
-        return $field;
-    });
+    }
 
     // Auto-fill blank live_update times with the save time for match-type live
     // articles, so each update keeps a real timestamp even though the field is hidden.
