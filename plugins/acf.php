@@ -1,6 +1,74 @@
 <?php
 if( function_exists('acf_add_local_field_group') ):
 
+    // For match-type live articles the per-update "Vrijeme" field is hidden in the
+    // editor and the timestamp is filled automatically on save (see acf/save_post below).
+    add_filter('acf/prepare_field/key=field_live_update_time', function ($field) {
+        $post_id = 0;
+        if (isset($_GET['post'])) {
+            $post_id = intval($_GET['post']);
+        } elseif (isset($_POST['post_ID'])) {
+            $post_id = intval($_POST['post_ID']);
+        }
+        if ($post_id && get_post_meta($post_id, 'live_type', true) === 'match') {
+            return false;
+        }
+        return $field;
+    });
+
+    // The per-update match minute only applies to match-type live articles; hide it
+    // for plain articles ("Članak") so editors don't see an irrelevant field. Hidden
+    // by default and only shown when the post is explicitly a match, so a new/unsaved
+    // post (where the id can't be resolved) keeps it hidden too.
+    add_filter('acf/prepare_field/key=field_live_update_minute', function ($field) {
+        $post_id = intval(
+            isset($_GET['post']) ? $_GET['post']
+            : (isset($_POST['post_ID']) ? $_POST['post_ID']
+            : (isset($_REQUEST['post_id']) ? $_REQUEST['post_id'] : 0))
+        );
+        if (get_post_meta($post_id, 'live_type', true) !== 'match') {
+            return false;
+        }
+        return $field;
+    });
+
+    // Auto-fill blank live_update times with the save time for match-type live
+    // articles, so each update keeps a real timestamp even though the field is hidden.
+    add_action('acf/save_post', function ($post_id) {
+        if (!is_numeric($post_id)) {
+            return;
+        }
+        if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+            return;
+        }
+        if (get_post_meta($post_id, 'live_type', true) !== 'match') {
+            return;
+        }
+        $rows = get_field('live_updates', $post_id);
+        if (!is_array($rows)) {
+            return;
+        }
+        foreach ($rows as $idx => $row) {
+            if (empty($row['live_time'])) {
+                update_sub_field(array('live_updates', $idx + 1, 'live_time'), current_time('Y-m-d H:i:s'), $post_id);
+            }
+        }
+    }, 20);
+
+    // Match minutes accept digits and a single "+" only (e.g. 45 or 45+2); the
+    // apostrophe is added on the frontend. Applies to per-update and scorer minutes.
+    foreach (array('field_live_update_minute', 'field_scorer_minute') as $minute_key) {
+        add_filter('acf/validate_value/key=' . $minute_key, function ($valid, $value) {
+            if ($valid !== true) {
+                return $valid;
+            }
+            if ($value !== '' && !preg_match('/^[0-9]+(\+[0-9]+)?$/', $value)) {
+                return 'Unesite samo broj, npr. 45 ili 45+2.';
+            }
+            return $valid;
+        }, 10, 2);
+    }
+
     acf_add_local_field_group(array(
         'key' => 'group_60dc45faba8e5',
         'title' => 'Breaking news',
@@ -272,6 +340,160 @@ if( function_exists('acf_add_local_field_group') ):
                 'multi_expand' => 0,
                 'endpoint' => 0,
             ),
+            // Live type: standard live blog ("article") vs football match ("match").
+            // "match" reveals the scoreboard fields below and drives the PWA sticky scoreboard.
+            array(
+                'key' => 'field_live_type',
+                'label' => 'Vrsta live članka',
+                'name' => 'live_type',
+                'type' => 'button_group',
+                'instructions' => 'Članak = standardni live blog. Utakmica = prikazuje semafor (rezultat, minuta, strijelci).',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '==',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'choices' => array(
+                    'article' => 'Članak',
+                    'match' => 'Utakmica',
+                ),
+                'default_value' => 'article',
+                'return_format' => 'value',
+                'allow_null' => 0,
+                'layout' => 'horizontal',
+            ),
+            array(
+                'key' => 'field_match_home',
+                'label' => 'Domaćin',
+                'name' => 'match_home',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array('field' => 'field_live_type', 'operator' => '==', 'value' => 'match'),
+                    ),
+                ),
+                'wrapper' => array('width' => '50', 'class' => '', 'id' => ''),
+                'default_value' => '',
+                'placeholder' => 'npr. Dinamo',
+            ),
+            array(
+                'key' => 'field_match_away',
+                'label' => 'Gost',
+                'name' => 'match_away',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array('field' => 'field_live_type', 'operator' => '==', 'value' => 'match'),
+                    ),
+                ),
+                'wrapper' => array('width' => '50', 'class' => '', 'id' => ''),
+                'default_value' => '',
+                'placeholder' => 'npr. Hajduk',
+            ),
+            array(
+                'key' => 'field_match_status',
+                'label' => 'Status',
+                'name' => 'match_status',
+                'type' => 'select',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array('field' => 'field_live_type', 'operator' => '==', 'value' => 'match'),
+                    ),
+                ),
+                'wrapper' => array('width' => '', 'class' => '', 'id' => ''),
+                'choices' => array(
+                    'live' => 'Uživo',
+                    'finished' => 'Završeno',
+                ),
+                'default_value' => 'live',
+                'return_format' => 'value',
+                'allow_null' => 0,
+                'multiple' => 0,
+                'ui' => 1,
+            ),
+            array(
+                'key' => 'field_match_scorers',
+                'label' => 'Strijelci',
+                'name' => 'match_scorers',
+                'type' => 'repeater',
+                'instructions' => 'Dodajte strijelce. Prikazuju se ispod rezultata na semaforu.',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array('field' => 'field_live_type', 'operator' => '==', 'value' => 'match'),
+                    ),
+                ),
+                'wrapper' => array('width' => '', 'class' => '', 'id' => ''),
+                'collapsed' => 'field_scorer_name',
+                'min' => 0,
+                'max' => 0,
+                'layout' => 'table',
+                'button_label' => 'Dodaj strijelca',
+                'sub_fields' => array(
+                    array(
+                        'key' => 'field_scorer_name',
+                        'label' => 'Ime',
+                        'name' => 'scorer_name',
+                        'type' => 'text',
+                        'instructions' => '',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array('width' => '50', 'class' => '', 'id' => ''),
+                        'default_value' => '',
+                        'placeholder' => 'npr. Petković (11m)',
+                        'parent_repeater' => 'field_match_scorers',
+                    ),
+                    array(
+                        'key' => 'field_scorer_minute',
+                        'label' => 'Minuta',
+                        'name' => 'scorer_minute',
+                        'type' => 'text',
+                        'instructions' => '',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array('width' => '25', 'class' => '', 'id' => ''),
+                        'default_value' => '',
+                        'placeholder' => '23',
+                        'parent_repeater' => 'field_match_scorers',
+                    ),
+                    array(
+                        'key' => 'field_scorer_side',
+                        'label' => 'Tim',
+                        'name' => 'scorer_side',
+                        'type' => 'select',
+                        'instructions' => '',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array('width' => '25', 'class' => '', 'id' => ''),
+                        'choices' => array(
+                            'home' => 'Domaćin',
+                            'away' => 'Gost',
+                        ),
+                        'default_value' => 'home',
+                        'return_format' => 'value',
+                        'allow_null' => 0,
+                        'multiple' => 0,
+                        'ui' => 0,
+                        'parent_repeater' => 'field_match_scorers',
+                    ),
+                ),
+            ),
             array(
                 'key' => 'field_live_end_datetime',
                 'label' => 'Live kraj',
@@ -311,6 +533,11 @@ if( function_exists('acf_add_local_field_group') ):
                             'operator' => '==',
                             'value' => '1',
                         ),
+                        array(
+                            'field' => 'field_live_type',
+                            'operator' => '!=',
+                            'value' => 'match',
+                        ),
                     ),
                 ),
                 'wrapper' => array(
@@ -335,6 +562,11 @@ if( function_exists('acf_add_local_field_group') ):
                             'field' => 'field_5d11b23758c62',
                             'operator' => '==',
                             'value' => '1',
+                        ),
+                        array(
+                            'field' => 'field_live_type',
+                            'operator' => '!=',
+                            'value' => 'match',
                         ),
                     ),
                 ),
@@ -425,13 +657,33 @@ if( function_exists('acf_add_local_field_group') ):
                         'required' => 0,
                         'conditional_logic' => 0,
                         'wrapper' => array(
-                            'width' => '50',
+                            'width' => '33',
                             'class' => '',
                             'id' => '',
                         ),
                         'display_format' => 'd.m.Y. H:i',
                         'return_format' => 'Y-m-d H:i:s',
                         'first_day' => 1,
+                        'parent_repeater' => 'field_live_updates_repeater',
+                    ),
+                    array(
+                        'key' => 'field_live_update_minute',
+                        'label' => 'Minuta utakmice',
+                        'name' => 'live_minute',
+                        'type' => 'text',
+                        'instructions' => 'Samo za utakmice. Npr. 45+2. Ostavite prazno za obične live članke.',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '33',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'default_value' => '',
+                        'placeholder' => '45+2',
+                        'prepend' => '',
+                        'append' => '',
+                        'maxlength' => '',
                         'parent_repeater' => 'field_live_updates_repeater',
                     ),
                     array(
@@ -443,7 +695,7 @@ if( function_exists('acf_add_local_field_group') ):
                         'required' => 0,
                         'conditional_logic' => 0,
                         'wrapper' => array(
-                            'width' => '50',
+                            'width' => '34',
                             'class' => '',
                             'id' => '',
                         ),
