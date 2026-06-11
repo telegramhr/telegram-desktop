@@ -1,59 +1,50 @@
 <?php
 if( function_exists('acf_add_local_field_group') ):
 
-    // Resolve the id of the post currently being edited. ACF runs prepare_field in
-    // several contexts (classic edit screen, Gutenberg metabox render, and the AJAX
-    // request fired when adding a repeater row) and not all of them expose
-    // $_GET['post'], so we probe every reliable source including the editor referer.
-    if (!function_exists('tg_live_current_edit_post_id')) {
-        function tg_live_current_edit_post_id() {
-            $candidates = array(
-                isset($_GET['post']) ? $_GET['post'] : null,
-                isset($_POST['post_ID']) ? $_POST['post_ID'] : null,
-                isset($_POST['post_id']) ? $_POST['post_id'] : null,
-                isset($_REQUEST['post_id']) ? $_REQUEST['post_id'] : null,
-            );
-            foreach ($candidates as $candidate) {
-                if (is_numeric($candidate) && (int) $candidate > 0) {
-                    return (int) $candidate;
+    // Per-update editor columns depend on the live type, which is a top-level field
+    // that ACF conditional logic can't reference from inside the repeater. Server-side
+    // prepare_field also can't reliably read the (possibly unsaved) value during the
+    // various ACF render contexts. So toggle the columns in the admin with JS that
+    // watches the live_type button group live: a "Utakmica" shows the minute column
+    // and hides the time column; a "Članak" does the opposite. The hidden time field
+    // is still auto-stamped on save (see acf/save_post below).
+    add_action('admin_footer-post.php', 'tg_live_update_columns_js');
+    add_action('admin_footer-post-new.php', 'tg_live_update_columns_js');
+    if (!function_exists('tg_live_update_columns_js')) {
+        function tg_live_update_columns_js() {
+            ?>
+            <script>
+            (function () {
+                if (typeof acf === 'undefined') { return; }
+                var REPEATER = 'field_live_updates_repeater';
+                var TIME = 'field_live_update_time';
+                var MINUTE = 'field_live_update_minute';
+                function isMatch() {
+                    var f = acf.getField('field_live_type');
+                    if (f && typeof f.val === 'function') { return f.val() === 'match'; }
+                    var checked = document.querySelector('[data-key="field_live_type"] input:checked');
+                    return !!checked && checked.value === 'match';
                 }
-            }
-            if (function_exists('get_the_ID') && get_the_ID()) {
-                return (int) get_the_ID();
-            }
-            // AJAX add-row: the post id isn't in the request, but the editor URL
-            // (.../post.php?post=123&action=edit) is sent as the referer.
-            if (!empty($_SERVER['HTTP_REFERER'])) {
-                $query = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY);
-                if ($query) {
-                    parse_str($query, $params);
-                    if (!empty($params['post']) && is_numeric($params['post'])) {
-                        return (int) $params['post'];
-                    }
+                function apply() {
+                    var match = isMatch();
+                    document.querySelectorAll('[data-key="' + REPEATER + '"] [data-key="' + TIME + '"]').forEach(function (el) {
+                        el.style.display = match ? 'none' : '';
+                    });
+                    document.querySelectorAll('[data-key="' + REPEATER + '"] [data-key="' + MINUTE + '"]').forEach(function (el) {
+                        el.style.display = match ? '' : 'none';
+                    });
                 }
-            }
-            return 0;
+                acf.addAction('ready', function () {
+                    apply();
+                    var lt = acf.getField('field_live_type');
+                    if (lt && typeof lt.on === 'function') { lt.on('change', apply); }
+                });
+                acf.addAction('append', apply);
+            })();
+            </script>
+            <?php
         }
     }
-
-    // For match-type live articles the per-update "Vrijeme" field is hidden in the
-    // editor and the timestamp is filled automatically on save (see acf/save_post below).
-    add_filter('acf/prepare_field/key=field_live_update_time', function ($field) {
-        if (get_post_meta(tg_live_current_edit_post_id(), 'live_type', true) === 'match') {
-            return false;
-        }
-        return $field;
-    });
-
-    // The per-update match minute only applies to match-type live articles; hide it
-    // for plain articles ("Članak") so editors don't see an irrelevant field. Hidden
-    // by default and only shown when the post is explicitly a match.
-    add_filter('acf/prepare_field/key=field_live_update_minute', function ($field) {
-        if (get_post_meta(tg_live_current_edit_post_id(), 'live_type', true) !== 'match') {
-            return false;
-        }
-        return $field;
-    });
 
     // Auto-fill blank live_update times with the save time for match-type live
     // articles, so each update keeps a real timestamp even though the field is hidden.
