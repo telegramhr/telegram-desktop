@@ -10,7 +10,15 @@ window.addEventListener("DOMContentLoaded", () => {
       groupCells: true,
     });
   });
-
+  document.querySelectorAll(".js-bestof-carousel").forEach((carousel) => {
+    new Flickity(carousel, {
+      cellAlign: "left",
+      contain: true,
+      pageDots: true,
+      prevNextButtons: false,
+      groupCells: true,
+    });
+  });
   document.querySelectorAll(".js-table-carousel").forEach((carousel) => {
     const flkty = new Flickity(carousel, {
       cellAlign: "left",

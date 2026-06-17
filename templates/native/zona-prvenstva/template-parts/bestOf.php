@@ -33,16 +33,16 @@ $bestOf_cards =[ [
             <h2 class='font-geist font-extrabold text-[24px] leading-7 md:text-[32px] md:leading-10 tracking-[-1%]'>“Best of” utakmica Hrvatske nogometne reperezentacije</h2>
             <p class='font-geist md:hidden text-[16px] md:text-[18px]'>“Best of” utakmica Hrvatske nogometne reperezentacije</p>
         </div>
-        <div class='w-full flex flex-col md:flex-row gap-10 md:gap-[14px] justify-center'>
+        <div class='js-bestof-carousel'>
             <?php foreach ($bestOf_cards as $card) : ?>
-                <a href="<?php echo esc_url($card['link']); ?>" class=' w-full md:w-[317px] max-w-full flex flex-col gap-6 cursor-pointer group'>
-                    <img class='w-full aspect-[1.77] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
-                    <div class='flex flex-col gap-[18px]'>
-                        <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
-                        <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
-                    </div>
-                </a>
-            <?php endforeach; ?>
+        <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
+            <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
+            <div class='flex flex-col gap-[18px]'>
+            <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
+            <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
+            </div>
+        </a>
+        <?php endforeach; ?>
         </div>
     </div>
 </div>
