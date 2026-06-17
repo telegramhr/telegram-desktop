@@ -7,52 +7,62 @@ $knockout_cards = [
         'title' => 'Yan Diomande na putu je da postane velika zvijezda. Protiv Ekvadora je bio impresivan',
         'text'  => 'Obala Bjelokosti dobila je utakmicu, a on je bio njeno prvo ime',
         'link'  => 'https://www.telegram.hr/telesport/analize/yan-diomande-na-putu-je-da-postane-velika-zvijezda-protiv-ekvadora-je-bio-impresivan/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/JojELEC3AArSVYbm6wMcTDO0gWsfKHuRgH9mqRrpxgw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvamFwYW4tbml6b3plbXNrYS5qcGc.webp',
         'title' => 'Fotka dana: Bogovi su pali na tjeme Daichija Kamade, a zatim u nizozemsku mrežu',
         'text'  => 'Japanac je zabio prilično neobičan gol glavom',
         'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-bogovi-su-pali-na-tjeme-daichija-kamade-a-zatim-u-nizozemsku-mrezu/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/6ZEO9MPDvnXeEaje6e0xcV-PJIUfnp4Ktb8AVPXMKsw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvc3ZpY2Fyc2thLTIuanBn.webp',
         'title' => 'Europljani nisu naročito impresivno krenuli na Svjetskom prvenstvu. Hoće li se potvrditi stara teorija?',
         'text'  => 'Tek tri pobjede od 10 pokušaja',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/europljani-nisu-narocito-impresivno-krenuli-na-svjetskom-prvenstvu-hoce-li-se-potvrditi-stara-teorija/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/ZcmgsgbIGZIFCj3y8mIwivPUHVKgkJvSbv7VJeu794s/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYWwtb3dhaXMuanBn.webp',
         'title' => 'Saudijski golman oborio je rekord ovog Mundijala, ali u recentnoj povijesti i dalje je bolji Livaković',
         'text'  => 'Čovjek je Urugvajcima poskidao sve',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/saudijski-golman-oborio-je-rekord-ovog-mundijala-ali-u-recentnoj-povijesti-i-dalje-je-bolji-livakovic/',
-    ],[
+    ],
+    [
         'image' => 'https://www.telegram.hr/wp-content/uploads/2026/06/wc-2.jpg',
         'title' => 'Tko kad igra? Raspored i rezultati Svjetskog prvenstva, utakmice hrvatske reprezentacije',
         'text'  => 'Sve o Mundijalu čitajte na Telesportu',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/tko-kad-igra-raspored-i-rezultati-svjetskog-prvenstva-utakmice-hrvatske-reprezentacije/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/URrLHAzj_mymcOmHoxwYOV6gVqQ-7uffZ7X1fI5HnPU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvemVsZW5vcnRza2EtcmVwdWJsaWthLXNwYW5qb2xza2EuanBn.webp',
         'title' => 'Traži se bilo kakav pobjednik: peti dan SP-a obilježili su neriješeni rezultati, ovo nije viđeno 68 godina',
         'text'  => 'Dan bez slavljenika i poraženih',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/trazi-se-bilo-kakav-pobjednik-peti-dan-sp-a-obiljezili-su-nerijeseni-rezultati-ovo-nije-videno-68-godina/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/dw61QvAsTqnTeQeckPsm5zQnSJog74AzJ-9QsHCfSPY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvc2F1ZGlqc2thLWFyYWJpamEtdXJ1Z3Zhai5qcGc.webp',
         'title' => 'Saudijska Arabija i Urugvaj su remizirali u susretu koji su obilježila dva odbijanca',
         'text'  => 'Podsjeća na jednu utakmicu s prošlog Mundijala',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/saudijska-arabija-i-urugvaj-su-remizirali-u-susretu-koji-su-obiljezila-dva-odbijanca/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/AcbWr4-l5nWrxdanMwvFneYl4Ih-sUlzvzuPL106PAc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYXNob3VyLWNvdXJ0b2lzLWJlbGdpamEtZWdpcGF0LmpwZw.webp',
         'title' => 'Ovo ne može dohvatiti ni sjajni Courtois. Pogledajte krasan gol kojim je Egipat poveo protiv Belgije',
         'text'  => 'Nova senzacija na pomolu?',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/ovo-ne-moze-dohvatiti-ni-sjajni-courtois-pogledajte-krasan-gol-kojim-je-egipat-poveo-protiv-belgije/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/Ku_bTB-F2GLhRPv6lgig-pOvydoKR5vpQnj7PhUj4x4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvc3BhbmpvbHNrYS16ZWxlbm9ydHNrYS1yZXB1Ymxpa2EuanBn.webp',
         'title' => 'Senzacija na Svjetskom prvenstvu, debitant šokirao Španjolsku koja nije uspjela doći do pobjede',
         'text'  => 'Neočekivan rasplet utakmice',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/senzacija-na-svjetskom-prvenstvu-debitant-sokirao-spanjolsku-koja-nije-uspjela-doci-do-pobjede/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/hyFOd_Ltw0CEVevxudwFUWYi535aGUA-bBE75Pw6_Vo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbGV0ZXhpZXItaS1jYWljZWRvLmpwZw.webp',
         'title' => 'Ovo nije loše. Ekvadorac postao prva žrtva pravila protiv izležavanja na travnjaku, ali nije mu se to svidjelo',
         'text'  => 'Sudac ga je poslao van igre na minutu',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/ovo-nije-lose-ekvadorac-postao-prva-zrtva-pravila-protiv-izlezavanja-na-travnjaku-ali-nije-mu-se-to-svidjelo/',
-    ],[
+    ],
+    [
         'image' => 'https://images.telegram.hr/FH22vnrtAYHXFtwfXpdrukZ8t4y15BXsemA14CB8IuM/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvb2JhbGEtYmplbG9rb3N0aS1la3ZhZG9yLWUxNzgxNTA0NDc4OTcyLmpwZw.webp',
         'title' => 'Prekinut veliki ekvadorski niz bez poraza. Pogledajte kako je zvijezda Obale Bjelokosti riješila susret u 90. minuti',
         'text'  => 'Afrička zemlja stigla je do važne pobjede na otvaranju',
@@ -62,23 +72,37 @@ $knockout_cards = [
 ];
 ?>
 <div id='knockout-watch' class='w-full bg-[#1B3218] text-white pt-10 pb-8 md:py-15'>
-    <div class='max-w-[1312px] w-full mx-auto px-6 flex flex-col gap-13 md:gap-15'>
+    <div class='max-w-[1312px] w-full mx-auto px-6 flex flex-col gap-13 md:gap-8'>
 
-    <div class='flex flex-col w-full max-w-[600px] md:mx-auto gap-[22px] text-left md:text-center'>
-        <h2 class='font-geist font-extrabold text-[24px] leading-7 md:text-[32px] md:leading-10 tracking-[-1%]'>Knockout Watch</h2>
-        <p class='font-geist text-[16px] md:text-[18px]'>Telesportovi novinari nakon svake utakmice analiziraju tko prolazi dalje, tko ispada i koje su mogući raspleti skupina u borbi za iduću fazu.</p>
-    </div>
-
-    <div class='js-knockout-carousel'>
-        <?php foreach ($knockout_cards as $card) : ?>
-        <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
-            <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
-            <div class='flex flex-col gap-[18px]'>
-            <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
-            <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
+        <div class='flex flex-col w-full max-w-[600px] md:mx-auto gap-[22px] text-left md:text-center'>
+            <h2 class='font-geist font-extrabold text-[24px] leading-7 md:text-[32px] md:leading-10 tracking-[-1%]'>Knockout Watch</h2>
+            <p class='font-geist text-[16px] md:text-[18px]'>Telesportovi novinari nakon svake utakmice analiziraju tko prolazi dalje, tko ispada i koje su mogući raspleti skupina u borbi za iduću fazu.</p>
+        </div>
+        <div class='js-knockout-wrap flex flex-col gap-2'>
+            <div class='hidden md:flex flex-row gap-2 md:gap-3 justify-end items-center'>
+                <button type='button' class='cursor-pointer js-knockout-prev w-5 h-5 md:w-8 md:h-8 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Prethodna'>
+                    <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
+                        <path d='M19 12H5M5 12L12 19M5 12L12 5' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+                    </svg>
+                </button>
+                <button type='button' class='cursor-pointer js-knockout-next w-5 h-5 md:w-8 md:h-8 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Sljedeća'>
+                    <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
+                        <path d='M5 12H19M19 12L12 5M19 12L12 19' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+                    </svg>
+                </button>
             </div>
-        </a>
-        <?php endforeach; ?>
-    </div>
+
+            <div class='js-knockout-carousel'>
+                <?php foreach ($knockout_cards as $card) : ?>
+                    <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
+                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
+                        <div class='flex flex-col gap-[18px]'>
+                            <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
+                            <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
+                        </div>
+                    </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
     </div>
 </div>

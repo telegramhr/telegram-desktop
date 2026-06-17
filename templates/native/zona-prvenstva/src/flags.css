@@ -1,0 +1,66 @@
+/* Generirano: samo zastave koje koristi zp_team_label (inc/standings.php).
+   Ako dodaš novu zemlju u mapu, dodaj i .fi-XX redak ovdje. */
+
+/* Bazna flag-icons klasa */
+.fi {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.333333em;
+  line-height: 1em;
+}
+.fi:before {
+  content: "\00a0";
+}
+
+/* Pojedinačne zastave (4x3) */
+.fi-ar { background-image: url("../node_modules/flag-icons/flags/4x3/ar.svg"); }
+.fi-at { background-image: url("../node_modules/flag-icons/flags/4x3/at.svg"); }
+.fi-au { background-image: url("../node_modules/flag-icons/flags/4x3/au.svg"); }
+.fi-ba { background-image: url("../node_modules/flag-icons/flags/4x3/ba.svg"); }
+.fi-be { background-image: url("../node_modules/flag-icons/flags/4x3/be.svg"); }
+.fi-br { background-image: url("../node_modules/flag-icons/flags/4x3/br.svg"); }
+.fi-ca { background-image: url("../node_modules/flag-icons/flags/4x3/ca.svg"); }
+.fi-cd { background-image: url("../node_modules/flag-icons/flags/4x3/cd.svg"); }
+.fi-ch { background-image: url("../node_modules/flag-icons/flags/4x3/ch.svg"); }
+.fi-ci { background-image: url("../node_modules/flag-icons/flags/4x3/ci.svg"); }
+.fi-co { background-image: url("../node_modules/flag-icons/flags/4x3/co.svg"); }
+.fi-cv { background-image: url("../node_modules/flag-icons/flags/4x3/cv.svg"); }
+.fi-cw { background-image: url("../node_modules/flag-icons/flags/4x3/cw.svg"); }
+.fi-cz { background-image: url("../node_modules/flag-icons/flags/4x3/cz.svg"); }
+.fi-de { background-image: url("../node_modules/flag-icons/flags/4x3/de.svg"); }
+.fi-dz { background-image: url("../node_modules/flag-icons/flags/4x3/dz.svg"); }
+.fi-ec { background-image: url("../node_modules/flag-icons/flags/4x3/ec.svg"); }
+.fi-eg { background-image: url("../node_modules/flag-icons/flags/4x3/eg.svg"); }
+.fi-es { background-image: url("../node_modules/flag-icons/flags/4x3/es.svg"); }
+.fi-fr { background-image: url("../node_modules/flag-icons/flags/4x3/fr.svg"); }
+.fi-gb-eng { background-image: url("../node_modules/flag-icons/flags/4x3/gb-eng.svg"); }
+.fi-gb-sct { background-image: url("../node_modules/flag-icons/flags/4x3/gb-sct.svg"); }
+.fi-gh { background-image: url("../node_modules/flag-icons/flags/4x3/gh.svg"); }
+.fi-hr { background-image: url("../node_modules/flag-icons/flags/4x3/hr.svg"); }
+.fi-ht { background-image: url("../node_modules/flag-icons/flags/4x3/ht.svg"); }
+.fi-iq { background-image: url("../node_modules/flag-icons/flags/4x3/iq.svg"); }
+.fi-ir { background-image: url("../node_modules/flag-icons/flags/4x3/ir.svg"); }
+.fi-jo { background-image: url("../node_modules/flag-icons/flags/4x3/jo.svg"); }
+.fi-jp { background-image: url("../node_modules/flag-icons/flags/4x3/jp.svg"); }
+.fi-kr { background-image: url("../node_modules/flag-icons/flags/4x3/kr.svg"); }
+.fi-ma { background-image: url("../node_modules/flag-icons/flags/4x3/ma.svg"); }
+.fi-mx { background-image: url("../node_modules/flag-icons/flags/4x3/mx.svg"); }
+.fi-nl { background-image: url("../node_modules/flag-icons/flags/4x3/nl.svg"); }
+.fi-no { background-image: url("../node_modules/flag-icons/flags/4x3/no.svg"); }
+.fi-nz { background-image: url("../node_modules/flag-icons/flags/4x3/nz.svg"); }
+.fi-pa { background-image: url("../node_modules/flag-icons/flags/4x3/pa.svg"); }
+.fi-pt { background-image: url("../node_modules/flag-icons/flags/4x3/pt.svg"); }
+.fi-py { background-image: url("../node_modules/flag-icons/flags/4x3/py.svg"); }
+.fi-qa { background-image: url("../node_modules/flag-icons/flags/4x3/qa.svg"); }
+.fi-sa { background-image: url("../node_modules/flag-icons/flags/4x3/sa.svg"); }
+.fi-se { background-image: url("../node_modules/flag-icons/flags/4x3/se.svg"); }
+.fi-sn { background-image: url("../node_modules/flag-icons/flags/4x3/sn.svg"); }
+.fi-tn { background-image: url("../node_modules/flag-icons/flags/4x3/tn.svg"); }
+.fi-tr { background-image: url("../node_modules/flag-icons/flags/4x3/tr.svg"); }
+.fi-us { background-image: url("../node_modules/flag-icons/flags/4x3/us.svg"); }
+.fi-uy { background-image: url("../node_modules/flag-icons/flags/4x3/uy.svg"); }
+.fi-uz { background-image: url("../node_modules/flag-icons/flags/4x3/uz.svg"); }
+.fi-za { background-image: url("../node_modules/flag-icons/flags/4x3/za.svg"); }

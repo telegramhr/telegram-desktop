@@ -8,6 +8,7 @@ export default defineConfig({
   ],
   build: {
     outDir: 'dist',
+    assetsInlineLimit: 0,
     rollupOptions: {
       input: {
         main: './src/main.js',
