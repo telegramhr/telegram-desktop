@@ -10,7 +10,7 @@ require_once __DIR__ . '/../inc/standings.php';
         </div>
         <div class='max-w-[870px] md:h-[460px] bg-playerofday rounded-2xl w-full mx-auto flex flex-col md:flex-row overflow-hidden'>
             <div class='relative w-full md:max-w-[380px] aspect-[1.64] md:aspect-auto md:h-full'>
-                <img class='w-full h-full object-cover' src="<?php echo $native_path; ?>/assets/images/pod.jpeg" alt="Player of the day">
+                <img class='w-full h-full object-cover' src="https://images.telegram.hr/lo1zkmaiJFETfPusK__F0zilsC5xz_w3qCOIPUGBSVE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbGlvbmVsLW1lc3NpLTIuanBn.webp" alt="Player of the day">
                 <div class='absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0)_60%,#142610_100%)]'></div>
             </div>
             <div class='py-7 md:py-15 px-5 md:px-13 flex flex-col gap-6 md:gap-7 justify-center md:justify-items-start'>
@@ -21,17 +21,17 @@ require_once __DIR__ . '/../inc/standings.php';
                         </svg>
                         Player of the day
                     </span>
-                    <span class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'>Morgan<br>Gibbs&#8209;White</span>
+                    <span class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'>Lionel<br>Messi</span>
                     <p class='font-inter text-[14px] md:text-[20px] md:leading-[30px]'><?php echo zp_team_label('Croatia'); ?></p>
                     <p class='font-geist text-[14px] md:text-[20px] md:leading-[30px] leading-3 text-[#AAAAAA] inline-flex items-center gap-2 justify-center md:justify-start'>
                         <svg class='w-5 h-5 md:w-6 md:h-6 shrink-0' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
                             <rect x='3' y='4' width='18' height='18' rx='2'/>
                             <path d='M16 2v4M8 2v4M3 10h18'/>
                         </svg>
-                        17.06.2026.
+                        16.06.2026.
                     </p>
                 </div>
-                <a href='#' target='_blank' rel='noopener noreferrer' class='cursor-pointer font-geist font-medium text-[16px] leading-6 bg-white text-black p-2 md:py-3 md:px-7 flex flex-row items-center gap-1 md:gap-2 rounded-xl justify-center'>
+                <a href='https://www.instagram.com/telegram.hr/' target='_blank' rel='noopener noreferrer' class='cursor-pointer font-geist font-medium text-[16px] leading-6 bg-white text-black p-2 md:py-3 md:px-7 flex flex-row items-center gap-1 md:gap-2 rounded-xl justify-center'>
                     Glasaj za sutrašnjeg pobjednika
                     <svg width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
                         <path d='M5 12H19M19 12L12 5M19 12L12 19'/>
