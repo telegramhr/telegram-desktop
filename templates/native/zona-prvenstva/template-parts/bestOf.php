@@ -1,7 +1,8 @@
 <?php
 $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/native/zona-prvenstva';
 
-$bestOf_cards =[ [
+$bestOf_cards = [
+    [
         'image' => 'https://images.telegram.hr/yDK0KRmooPMFZCKfWmvjEBeitpv5_K_dQ7yfNCjpeII/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcHhsLTE3MTIyMi05NzQ2NDM1Ny5qcGc.webp',
         'title' => 'Počelo je najveće Svjetsko prvenstvo u povijesti. Evo kada igra Hrvatska i kakav je put do finala',
         'text'  => 'Navijački paket iz snova s potpisanim originalnim dresom reprezentacije možete osvojiti do 21. lipnja',
@@ -41,21 +42,35 @@ $bestOf_cards =[ [
 ?>
 
 <div id='best-of' class='w-full pt-14 pb-10 md:pt-15 md:pb-20 text-white'>
-    <div class='max-w-[1312px] w-full mx-auto px-6 flex flex-col gap-9 md:gap-15'>
+    <div class='max-w-[1312px] w-full mx-auto px-6 flex flex-col gap-9 md:gap-8'>
         <div class='flex flex-col text-center gap-[22px] max-w-[600px] mx-auto'>
             <h2 class='font-geist font-extrabold text-[24px] leading-7 md:text-[32px] md:leading-10 tracking-[-1%]'>“Best of” utakmica Hrvatske nogometne reperezentacije</h2>
             <p class='font-geist md:hidden text-[16px] md:text-[18px]'>“Best of” utakmica Hrvatske nogometne reperezentacije</p>
         </div>
-        <div class='js-bestof-carousel'>
-            <?php foreach ($bestOf_cards as $card) : ?>
-        <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
-            <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
-            <div class='flex flex-col gap-[18px]'>
-            <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
-            <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
+        <div class='js-bestof-wrap flex flex-col gap-2'>
+            <div class='hidden md:flex flex-row gap-2 md:gap-3 justify-end items-center'>
+                <button type='button' class='cursor-pointer js-bestof-prev w-5 h-5 md:w-8 md:h-8 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Prethodna'>
+                    <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
+                        <path d='M19 12H5M5 12L12 19M5 12L12 5' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+                    </svg>
+                </button>
+                <button type='button' class='cursor-pointer js-bestof-next w-5 h-5 md:w-8 md:h-8 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Sljedeća'>
+                    <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
+                        <path d='M5 12H19M19 12L12 5M19 12L12 19' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+                    </svg>
+                </button>
             </div>
-        </a>
-        <?php endforeach; ?>
+            <div class='js-bestof-carousel'>
+                <?php foreach ($bestOf_cards as $card) : ?>
+                    <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
+                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
+                        <div class='flex flex-col gap-[18px]'>
+                            <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
+                            <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
+                        </div>
+                    </a>
+                <?php endforeach; ?>
+            </div>
         </div>
     </div>
 </div>

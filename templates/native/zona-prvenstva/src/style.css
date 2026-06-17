@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "flickity/css/flickity.css";
-@import "flag-icons/css/flag-icons.min.css";
+@import "./flags.css";
 
 /* Tailwind v4 scaniranje sadržaja (PHP predlošci + JS) */
 @source "./**/*.{js,ts}";

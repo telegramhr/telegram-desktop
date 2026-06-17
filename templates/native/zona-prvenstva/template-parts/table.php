@@ -8,7 +8,6 @@ $zp_groups = zp_get_wc_standings();
         <div class='flex flex-col md:flex-row gap-11 md:justify-between md:items-center'>
             <div class='flex flex-col gap-[22px] text-center md:text-left'>
                 <h2 class='font-geist font-extrabold text-[22px] leading-7 md:text-[40px] md:leading-[52px] tracking-[-1%]'>Prati live rezultate po skupinama</h2>
-                <p class='font-geist text-[16px] md:text-[18px]'></p>
             </div>
             <div class='flex flex-row gap-2 md:gap-3 justify-center items-center'>
                 <button type='button' class='cursor-pointer js-table-prev w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Prethodna'>
