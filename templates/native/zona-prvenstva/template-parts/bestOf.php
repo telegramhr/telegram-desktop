@@ -1,0 +1,61 @@
+<?php
+$native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/native/zona-prvenstva';
+
+$bestOf_cards =[ [
+        'image' => 'https://images.telegram.hr/yDK0KRmooPMFZCKfWmvjEBeitpv5_K_dQ7yfNCjpeII/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcHhsLTE3MTIyMi05NzQ2NDM1Ny5qcGc.webp',
+        'title' => 'Počelo je najveće Svjetsko prvenstvo u povijesti. Evo kada igra Hrvatska i kakav je put do finala',
+        'text'  => 'Navijački paket iz snova s potpisanim originalnim dresom reprezentacije možete osvojiti do 21. lipnja',
+        'link'  => 'https://www.telegram.hr/partneri/pocelo-je-najvece-svjetsko-prvenstvo-u-povijesti-evo-kada-igra-hrvatska-i-kakav-je-put-do-finala/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/FYX-3j7mkRxFclZuYd9V4_zhfz2zeyNTnxuAsVqgIFI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYW50ZS1idWRpbWlyLTItZTE3ODE1MzEwOTI1NTIuanBn.webp',
+        'title' => "Budimir fokusiran na dvoboj s Englezima: 'Nadam se da svojim pogotkom mogu donijeti reprezentaciji pobjede'",
+        'text'  => 'Napadač Vatrenih pričao je na press konferenciji',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/budimir-fokusiran-na-dvoboj-s-englezima-nadam-se-da-svojim-pogotkom-mogu-donijeti-reprezentaciji-pobjede/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/n4RsWgmW5bl_Qgp7V7MnSteyVCXiFywCIAArdYDU9N8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvY2FsZXRhLWNhci1lMTc4MTUwODE3MjUxNS5qcGc.webp',
+        'title' => "Duje Ćaleta-Car najavio dvoboj protiv Engleske: 'Bitno je da ne izgorimo od želje, moramo biti hladne glave'",
+        'text'  => 'Smatra da Vatreni trebaju biti kompaktni',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/duje-caleta-car-najavio-dvoboj-protiv-engleske-bitno-je-da-ne-izgorimo-od-zelje-moramo-biti-hladne-glave/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/6YxPPg_IIRRmlYk8vNKHD4C8lblR3V9y3xUSr9OCUhk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbHVrYS1zdWNpYy0yLWUxNzgxNDc0Nzc4MzQyLmpwZw.webp',
+        'title' => "Luka Sučić posebno istaknuo jednog engleskog reprezentativca: 'Trebamo se paziti njega'",
+        'text'  => 'Očekuje sjajnu atmosferu u Dallasu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/luka-sucic-posebno-istaknuo-jednog-engleskog-reprezentativca-trebamo-se-paziti-njega/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/BRDd6BNnjEPRPjx08K6gy2iPh66klobfnJxlmo-DuRY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvY2xlbWVudC10dXJwaW4tam9za28tZ3ZhcmRpb2wtaHJ2YXRza2EuanBn.webp',
+        'title' => 'Okršaj Hrvatske i Engleske pripao dobro poznatom Francuzu. Kada on sudi, Vatreni igraju sjajno',
+        'text'  => 'FIFA angažirala elitno lice',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/okrsaj-hrvatske-i-engleske-pripao-dobro-poznatom-francuzu-kada-on-sudi-vatreni-igraju-sjajno/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/wlfiB4DdkYo83ZQCABIAXGrGlb4ygzB_3Mh6-wSlvbQ/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDMvcHhsLTA4MDkyNS0xMzgwNzU3NTIuanBn.webp',
+        'title' => 'Izbornik Dalić odabrao s kojim igračima otvara SP, Kramarić će svoju priliku protiv Engleza čekati s klupe?',
+        'text'  => 'Petar Musa trebao bi započeti dvoboj od prve minute',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/izbornik-dalic-odabrao-s-kojim-igracima-otvara-sp-kramaric-ce-svoju-priliku-protiv-engleza-cekati-s-klupe/',
+    ],
+];
+?>
+
+<div id='best-of' class='w-full pt-14 pb-10 md:pt-15 md:pb-20 text-white'>
+    <div class='max-w-[1312px] w-full mx-auto px-6 flex flex-col gap-9 md:gap-15'>
+        <div class='flex flex-col text-center gap-[22px] max-w-[600px] mx-auto'>
+            <h2 class='font-geist font-extrabold text-[24px] leading-7 md:text-[32px] md:leading-10 tracking-[-1%]'>“Best of” utakmica Hrvatske nogometne reperezentacije</h2>
+            <p class='font-geist md:hidden text-[16px] md:text-[18px]'>“Best of” utakmica Hrvatske nogometne reperezentacije</p>
+        </div>
+        <div class='js-bestof-carousel'>
+            <?php foreach ($bestOf_cards as $card) : ?>
+        <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
+            <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
+            <div class='flex flex-col gap-[18px]'>
+            <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
+            <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
+            </div>
+        </a>
+        <?php endforeach; ?>
+        </div>
+    </div>
+</div>

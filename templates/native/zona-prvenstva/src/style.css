@@ -1,0 +1,197 @@
+@import "tailwindcss";
+@import "flickity/css/flickity.css";
+@import "flag-icons/css/flag-icons.min.css";
+
+/* Tailwind v4 scaniranje sadržaja (PHP predlošci + JS) */
+@source "./**/*.{js,ts}";
+@source "../**/*.php";
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.js-knockout-carousel:focus { outline: none; }
+.js-knockout-carousel .carousel-cell { min-height: 100%; }
+
+/* Page dots — knockout */
+.js-knockout-carousel .flickity-page-dots {
+  position: static;
+  margin-top: 30px;
+  justify-content: flex-start !important;
+}
+
+.js-knockout-carousel .flickity-page-dot {
+  background: white !important;
+   width: 8px;
+  height: 8px;
+  opacity: 0.3;
+  margin: 0 4px;
+
+}
+.js-knockout-carousel .flickity-page-dot.is-selected {
+  opacity: 1;
+}
+
+.js-bestof-carousel:focus { outline: none; }
+.js-bestof-carousel .carousel-cell { min-height: 100%; }
+
+/* Page dots — knockout */
+.js-bestof-carousel .flickity-page-dots {
+  position: static;
+  margin-top: 30px;
+  justify-content: flex-start !important;
+}
+
+.js-bestof-carousel .flickity-page-dot {
+  background: white !important;
+   width: 8px;
+  height: 8px;
+  opacity: 0.3;
+  margin: 0 4px;
+
+}
+.js-bestof-carousel .flickity-page-dot.is-selected {
+  opacity: 1;
+}
+
+/* Sakrij dots od md naviše */
+@media (width >= 768px) {
+  .js-knockout-carousel .flickity-page-dots {
+    display: none;
+  }
+    .js-bestof-carousel .flickity-page-dots {
+    display: none;
+  }
+}
+
+/* Page dots — table (vidljivi na svim širinama) */
+.js-table-carousel:focus { outline: none; }
+.js-table-carousel .carousel-cell { min-height: 100%; }
+.js-table-carousel .flickity-page-dots {
+  position: static;
+  margin-top: 30px;
+  justify-content: flex-start !important;
+}
+.js-table-carousel .flickity-page-dot {
+  background: white !important;
+  width: 8px;
+  height: 8px;
+  opacity: 0.3;
+  margin: 0 4px;
+}
+.js-table-carousel .flickity-page-dot.is-selected {
+  opacity: 1;
+}
+
+
+/* ---------- Inter ---------- */
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Geist ---------- */
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Barlow ---------- */
+@font-face {
+  font-family: "Barlow";
+  src: url("../assets/fonts/Barlow-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("../assets/fonts/Barlow-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("../assets/fonts/Barlow-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Tema (Tailwind v4 tokeni) ---------- */
+@theme {
+  --color-primary: #ff4105;
+
+  --font-inter: "Inter", sans-serif;
+  --font-geist: "Geist", sans-serif;
+  --font-barlow: "Barlow", sans-serif;
+}
+
+/* ---------- Custom utilities ---------- */
+@utility bg-playerofday {
+  background: linear-gradient(135deg, #1B3218 0%, #142610 100%);
+}
+
+/* ---------- Bazni stilovi ---------- */
+body {
+  font-family: var(--font-inter);
+  background-color: #0A1A0A;
+  color:white;
+}
