@@ -22,7 +22,7 @@ require_once __DIR__ . '/../inc/standings.php';
                         Player of the day
                     </span>
                     <span class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'>Lionel<br>Messi</span>
-                    <p class='font-inter text-[14px] md:text-[20px] md:leading-[30px]'><?php echo zp_team_label('Croatia'); ?></p>
+                    <p class='font-inter text-[14px] md:text-[20px] md:leading-[30px]'><?php echo zp_team_label('Argentina'); ?></p>
                     <p class='font-geist text-[14px] md:text-[20px] md:leading-[30px] leading-3 text-[#AAAAAA] inline-flex items-center gap-2 justify-center md:justify-start'>
                         <svg class='w-5 h-5 md:w-6 md:h-6 shrink-0' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
                             <rect x='3' y='4' width='18' height='18' rx='2'/>
