@@ -11,12 +11,12 @@ $zp_groups = zp_get_wc_standings();
                 <p class='font-geist text-[16px] md:text-[18px]'></p>
             </div>
             <div class='flex flex-row gap-2 md:gap-3 justify-center items-center'>
-                <button type='button' class='js-table-prev w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Prethodna'>
+                <button type='button' class='cursor-pointer js-table-prev w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Prethodna'>
                     <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
                         <path d='M19 12H5M5 12L12 19M5 12L12 5' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
                     </svg>
                 </button>
-                <button type='button' class='js-table-next w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Sljedeća'>
+                <button type='button' class='cursor-pointer js-table-next w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center bg-white text-[#142610] border border-white transition-colors disabled:bg-transparent disabled:text-white' aria-label='Sljedeća'>
                     <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
                         <path d='M5 12H19M19 12L12 5M19 12L12 19' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
                     </svg>
