@@ -31,7 +31,7 @@ require_once __DIR__ . '/../inc/standings.php';
                         17.06.2026.
                     </p>
                 </div>
-                <a href='#' target='_blank' rel='noopener noreferrer' class='cursor-pointer font-geist font-medium text-[16px] leading-6 bg-white text-black py-3 px-7 flex flex-row items-center gap-2 rounded-xl justify-center'>
+                <a href='#' target='_blank' rel='noopener noreferrer' class='cursor-pointer font-geist font-medium text-[16px] leading-6 bg-white text-black p-2 md:py-3 md:px-7 flex flex-row items-center gap-1 md:gap-2 rounded-xl justify-center'>
                     Glasaj za sutrašnjeg pobjednika
                     <svg width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'>
                         <path d='M5 12H19M19 12L12 5M19 12L12 19'/>
