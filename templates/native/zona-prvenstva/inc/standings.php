@@ -1,20 +1,13 @@
 <?php
 
-/**
- * Dohvat tablica (standings) sa football-data.org za Svjetsko prvenstvo (WC).
- * Token se čita iz FOOTBALL_DATA_TOKEN (definiran u wp-config.php).
- * Rezultat se kešira u WP transient da se poštuje rate-limit.
- */
+
 
 if (!defined('ABSPATH')) {
     exit;
 }
 
 if (!function_exists('zp_get_wc_standings')) {
-    /**
-     * Vraća polje skupina: [ ['name' => 'Group A', 'table' => [ ['position','team','playedGames','points', ...], ... ]], ... ]
-     * U slučaju greške vraća prazno polje.
-     */
+
     function zp_get_wc_standings(): array
     {
         $cache_key = 'zp_wc_standings';
@@ -45,7 +38,6 @@ if (!function_exists('zp_get_wc_standings')) {
             return [];
         }
 
-        // Zadrži samo "TOTAL" tablice (po skupini); preslikaj u jednostavnu strukturu.
         $groups = [];
         foreach ($data['standings'] as $standing) {
             if (($standing['type'] ?? '') !== 'TOTAL') {
@@ -77,17 +69,9 @@ if (!function_exists('zp_get_wc_standings')) {
 }
 
 if (!function_exists('zp_team_label')) {
-    /**
-     * Formatira ime reprezentacije iz football-data API-ja (polje `team.name`):
-     * emoji zastava (24px) + hrvatski naziv, razmak 8px.
-     * Mapa je usklađena s nazivima koje vraća football-data /competitions/WC/standings.
-     *
-     * @param string $team_en Naziv reprezentacije na engleskom (kako ga vraća API).
-     * @return string HTML span sa zastavom i hrvatskim nazivom.
-     */
+
     function zp_team_label(string $team_en): string
     {
-        // [hrvatski naziv, ISO-3166-1 alpha-2 kod] — ključevi su točni nazivi iz API-ja.
         $map = [
             'Algeria'            => ['Alžir', 'DZ'],
             'Argentina'          => ['Argentina', 'AR'],
@@ -151,13 +135,7 @@ if (!function_exists('zp_team_label')) {
 }
 
 if (!function_exists('zp_team_flag')) {
-    /**
-     * Vraća flag-icons <span> za dani ISO-3166 kod (npr. "HR", "GB-SCT").
-     * flag-icons koristi lowercase kodove i podržava pod-regije (gb-eng/gb-sct/gb-wls).
-     *
-     * @param string $iso ISO kod (npr. "HR" ili "GB-SCT"). Prazno => bez zastave.
-     * @return string HTML span s flag-icons klasom ili prazan string.
-     */
+
     function zp_team_flag(string $iso): string
     {
         $iso = strtolower(trim($iso));
@@ -165,7 +143,6 @@ if (!function_exists('zp_team_flag')) {
             return '';
         }
 
-        // fis = uspravan format (1:1), zaobljeni rub; širina 24px.
         return sprintf(
             '<span class="fi fi-%s rounded-[2px]" style="width:24px;line-height:24px;" aria-hidden="true"></span>',
             esc_attr($iso)
