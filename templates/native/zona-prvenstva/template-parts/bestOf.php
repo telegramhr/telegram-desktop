@@ -45,7 +45,6 @@ $bestOf_cards = [
     <div class='max-w-[1312px] w-full mx-auto px-6 flex flex-col gap-9 md:gap-8'>
         <div class='flex flex-col text-center gap-[22px] max-w-[600px] mx-auto'>
             <h2 class='font-geist font-extrabold text-[24px] leading-7 md:text-[32px] md:leading-10 tracking-[-1%]'>“Best of” utakmica Hrvatske nogometne reperezentacije</h2>
-            <p class='font-geist md:hidden text-[16px] md:text-[18px]'>“Best of” utakmica Hrvatske nogometne reperezentacije</p>
         </div>
         <div class='js-bestof-wrap flex flex-col gap-2'>
             <div class='hidden md:flex flex-row gap-2 md:gap-3 justify-end items-center'>
