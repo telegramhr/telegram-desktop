@@ -33,7 +33,7 @@ require_once __DIR__ . '/../inc/standings.php';
                     <span
                         class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'>Harry Kane</span>
                     <p class='font-inter text-[14px] md:text-[20px] md:leading-[30px]'>
-                        <?php echo zp_team_label('Engleska'); ?></p>
+                        <?php echo zp_team_label('England'); ?></p>
                     <p
                         class='font-geist text-[14px] md:text-[20px] md:leading-[30px] leading-3 text-[#AAAAAA] inline-flex items-center gap-2 justify-center md:justify-start'>
                         <svg class='w-5 h-5 md:w-6 md:h-6 shrink-0' viewBox='0 0 24 24' fill='none'
