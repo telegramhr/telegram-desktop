@@ -53,10 +53,10 @@ $zp_groups = zp_get_wc_standings();
                 <?php endforeach; ?>
             </div>
         <?php endif; ?>
- <div class='hidden md:flex flex-row gap-3 items-center mt-[-4px]'>
-        <span class='text-[#9A9A9A]'>Powered by</span>
-        <img class='h-[16px]' src="<?= $native_path; ?>/assets/images/supersport-white.webp" alt="Supersport logo">
-    </div>
+        <div class='hidden md:flex flex-row gap-3 items-center mt-[-4px]'>
+            <span class='text-[#9A9A9A]'>Powered by</span>
+            <img class='h-[16px]' src="<?= $native_path; ?>/assets/images/supersport-white.webp" alt="Supersport logo">
+        </div>
     </div>
    
 </div>
