@@ -3,6 +3,30 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/UKL5rXmeyNSQ-GTX6325jA6y-FDCG89PaBza3SArMGQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYva2FuYWRhLTItZTE3ODE4NTM0MjU2MzguanBn.webp',
+        'title' => 'Uživo: Deveti dan Svjetskog prvenstva. Kanada deklasirala Katar, Meksikanci izborili prolaz u knockout fazu',
+        'text'  => 'Pratimo najvažnije događaje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-deveti-dan-svjetskog-prvenstva-kanada-deklasirala-katar-meksikanci-izborili-prolaz-u-knockout-fazu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/o43Rfy-2tee6ytKMCbfoIA7TqT-sbXnp4VdReiwB6O0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvaXNtYWVsLWtvbmUtZTE3ODE4NTQ2NzE4MzQuanBn.webp',
+        'title' => 'Teška ozljeda obilježila dvoboj SP-a: Kanadski veznjak iznesen na nosilima',
+        'text'  => 'Unatoč teškom trenutku, Koné je pokazao veliku gestu prema navijačima i mahnuo publici',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/teska-ozljeda-obiljezila-dvoboj-sp-a-kanadski-veznjak-iznesen-na-nosilima/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/YevsMMbnVoKKVYhKOYpTx9qDcEb6Ca30EqJCotStllQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbHVpcy1yb21vLW1la3Npa28tZTE3ODE4NTA5OTc5MTQuanBn.webp',
+        'title' => 'Meksiko pobjedom protiv Južne Koreje osigurao prolazak u knockout fazu SP-a. Pogledajte gol za veliko slavlje',
+        'text'  => 'Luis Romo postao je heroj domaćina',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/meksiko-pobjedom-protiv-juzne-koreje-osigurao-prolazak-u-knockout-fazu-sp-a-pogledajte-gol-za-veliko-slavlje/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/aqXgcB26u00CDLnaE0abjQgdfPLqavCq5hVmuLvn_yA/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYva2FuYWRhLWUxNzgxODQ5ODMyNjUzLmpwZw.webp',
+        'title' => 'Domaćin SP-a potopio Katar i srušio nekoliko rekorda, susret obilježila i teška ozljeda kanadskog igrača',
+        'text'  => 'U visokoj pobjedi sudjelovao je i Hajdukovog Niko Sigur',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/domacin-sp-a-potopio-katar-i-srusio-nekoliko-rekorda-susret-obiljezila-i-teska-ozljeda-kanadskog-igraca/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/FhomCFMgnERfsypBXEn1pBhUMg46gj-2N4X6eeRJZYg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYXltZW4taHVzc2Vpbi0yLmpwZw.webp',
         'title' => 'Heroj dana: Aymen Hussein',
         'text'  => 'Aymen Hussein: Priča iza tragičnog mundijalskog junaka',
