@@ -3,6 +3,18 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/FhomCFMgnERfsypBXEn1pBhUMg46gj-2N4X6eeRJZYg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYXltZW4taHVzc2Vpbi0yLmpwZw.webp',
+        'title' => 'Heroj dana: Aymen Hussein',
+        'text'  => 'Aymen Hussein: Priča iza tragičnog mundijalskog junaka',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/heroj-dana-al-qaeda-mu-je-ubila-oca-isil-oteo-brata-a-on-je-zabio-i-gol-i-autogol/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/EfERVEQpEA6Qh0rRYAbUbai7-44UQ0ooTc7F6LTywQU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvdGhvbWFzLXR1Y2hlbC0xLmpwZw.webp',
+        'title' => 'Tuchel je nekoliko zvijezda ostavio kod kuće. Engleskoj to povećava šanse za uspjeh',
+        'text'  => 'Izbornik je donio tešku, ali ispravnu odluku',
+        'link'  => 'https://www.telegram.hr/telesport/analize/tuchel-je-nekoliko-zvijezda-ostavio-kod-kuce-engleskoj-to-povecava-sanse-za-uspjeh/',
+    ],
+    [
         'image' => 'https://www.telegram.hr/wp-content/uploads/2026/06/yan-diomande-1.jpg',
         'title' => 'Yan Diomande na putu je da postane velika zvijezda. Protiv Ekvadora je bio impresivan',
         'text'  => 'Obala Bjelokosti dobila je utakmicu, a on je bio njeno prvo ime',
