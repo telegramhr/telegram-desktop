@@ -3,6 +3,18 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://images.telegram.hr/TSpEngb-sm6zGY-OxAtfYEnUW6KdGib5y9NXYfD9nHw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcGFuYW1hLTEtZTE3ODE4NTYzMDUxODIuanBn.webp',
+        'title' => 'Panamci optimistični uoči dvoboja s Hrvatskom, mogao bi im se vratiti važan igrač',
+        'text'  => 'Iskusni veznjak Adalberto Carrasquilla oporavio se od ozljede',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/panamci-optimisticni-uoci-dvoboja-s-hrvatskom-mogao-bi-im-se-vratiti-vazan-igrac/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/jIoTJexwZvaTLPUl2Vh_9JN68zgfz-oYdYW2xE3iu48/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbHVrYS12dXNrb3ZpYy1lbmdsZXNrYS5qcGc.webp',
+        'title' => 'Da je Dalić na vrijeme bio odlučniji, mogao je izvući više od Vuškovića. I od drugih',
+        'text'  => 'Kakvu je utakmicu imao hrvatski wunderkind?',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/da-je-dalic-na-vrijeme-bio-odlucniji-mogao-je-izvuci-vise-od-vuskovica-i-od-drugih/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/9BRusWOVX7uRHYm7oxMSBAfFtULkO0il25dKGncUITk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvaHJ2YXRza2EtZW5nbGVza2EtMS5qcGc.webp',
         'title' => 'Pogledajte još jednom sve golove i sažetke poraza Hrvatske od Engleza',
         'text'  => 'Spektakl u Arlingtonu',
