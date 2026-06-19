@@ -3,6 +3,36 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://images.telegram.hr/9BRusWOVX7uRHYm7oxMSBAfFtULkO0il25dKGncUITk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvaHJ2YXRza2EtZW5nbGVza2EtMS5qcGc.webp',
+        'title' => 'Pogledajte još jednom sve golove i sažetke poraza Hrvatske od Engleza',
+        'text'  => 'Spektakl u Arlingtonu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/pogledajte-jos-jednom-sve-golove-i-sazetke-poraza-hrvatske-od-engleza/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Okhc0dd4AUXk7EWZZuxSgQ-_OR8MvT-dSZruq4CVZ9I/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZW5nbGVza2EtaHJ2YXRza2Eta29ybmVyLWthbmUuanBn.webp',
+        'title' => 'Fotka dana: Što je ovo bilo?',
+        'text'  => 'Harry Kane, nepokriven i neometan, zabija za 2-1',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-sto-je-ovo-bilo/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Vtucy1Qp48zTo7E-95_PcWBh9E2HYzpG9nMxVVYpwUc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZW5nbGVza2EtaHJ2YXRza2EtMy5qcGc.webp',
+        'title' => 'Engleska je ugasila Vatrene i svojim intenzitetom ih pomela s terena',
+        'text'  => 'Prvi dojam: A prvo poluvrijeme je toliko obećavalo...',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/engleska-je-ugasila-vatrene-i-svojim-intenzitetom-ih-pomela-s-terena/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/qht1jMHFahc2N-vXqDIQ214eVi1cU5qvOIl8pYH6K6s/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbHVrYS1tb2RyaWMtaHJ2YXRza2EtZW5nbGVza2EuanBn.webp',
+        'title' => "Razočarani Modrić priznaje pogrešku: 'Penal je bio, nesmotreno sam ga zahvatio, a treći gol nas je dotukao'",
+        'text'  => 'Težak dan za kapetana',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/razocarani-modric-priznaje-pogresku-penal-je-bio-nesmotreno-sam-ga-zahvatio-a-treci-gol-nas-je-dotukao/',
+    ],
+    [
+        'link' => 'https://www.telegram.hr/telesport/na-prvu/gana-je-pobijedila-panamu-kako-to-utjece-za-hrvatsku-koja-je-sada-posljednja-u-skupini/',
+        'title' => 'Gana je pobijedila Panamu. Kako to utječe za Hrvatsku koja je sada posljednja u skupini?',
+        'text'  => 'Nema kalkulacija: Vatreni moraju po pobjede',
+        'image'  => 'https://images.telegram.hr/4_KUekZOzYccEnS8UtMB6YCTyDCy_Juzgv6va9HaPXU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvemxhdGtvLWRhbGljLWhydmF0c2thLXN2amV0c2tvLXBydmVuc3R2by0yMDI2LmpwZw.webp',
+    ],
+    [
         'image' => 'https://images.telegram.hr/yDK0KRmooPMFZCKfWmvjEBeitpv5_K_dQ7yfNCjpeII/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcHhsLTE3MTIyMi05NzQ2NDM1Ny5qcGc.webp',
         'title' => 'Počelo je najveće Svjetsko prvenstvo u povijesti. Evo kada igra Hrvatska i kakav je put do finala',
         'text'  => 'Navijački paket iz snova s potpisanim originalnim dresom reprezentacije možete osvojiti do 21. lipnja',
