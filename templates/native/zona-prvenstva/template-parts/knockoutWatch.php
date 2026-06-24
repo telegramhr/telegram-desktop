@@ -3,6 +3,24 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/10yCGXIEocbP95MCo6VTG11NsQdKrJ-Tq_5EbPZEUqE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYmloLTEuanBn.webp',
+        'title' => 'Što nas čeka 14. dana Svjetskog prvenstva? BiH hvata slamku spasa protiv Katara kao i Češka protiv Meksika',
+        'text'  => 'Najava, TV prijenos, ključni detalji',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/sto-nas-ceka-14-dana-svjetskog-prvenstva-bih-hvata-slamku-spasa-protiv-katara-kao-i-ceska-protiv-meksika/',
+    ],
+    [
+        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/06/deniz-undav-2.jpg',
+        'title' => 'Njemačka je uredna i sofisticirana, a on je sve suprotno. Upravo zato joj je trebao',
+        'text'  => 'Deniz Undav otključao je Nagelsmannov napad',
+        'link'  => 'https://www.telegram.hr/telesport/analize/njemacka-je-uredna-i-sofisticirana-a-on-je-sve-suprotno-upravo-zato-joj-je-trebao/',
+    ],
+    [
+        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/06/bouaddi-4.jpg',
+        'title' => 'Maroko je odličan i sanja velike snove. Čemu zapravo duguje svoj nogometni uspon?',
+        'text'  => 'Oni su mladi, nabrijani, hrabri i prgavi; može li bolje od toga?',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/maroko-je-odlican-i-sanja-velike-snove-cemu-zapravo-duguje-svoj-nogometni-uspon/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/UKL5rXmeyNSQ-GTX6325jA6y-FDCG89PaBza3SArMGQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYva2FuYWRhLTItZTE3ODE4NTM0MjU2MzguanBn.webp',
         'title' => 'Uživo: Deveti dan Svjetskog prvenstva. Kanada deklasirala Katar, Meksikanci izborili prolaz u knockout fazu',
         'text'  => 'Pratimo najvažnije događaje',
@@ -131,7 +149,7 @@ $knockout_cards = [
             <div class='js-knockout-carousel'>
                 <?php foreach ($knockout_cards as $card) : ?>
                     <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
-                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
+                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>" loading="lazy" decoding="async">
                         <div class='flex flex-col gap-[18px]'>
                             <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
                             <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>

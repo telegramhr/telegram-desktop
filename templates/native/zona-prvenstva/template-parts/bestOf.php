@@ -3,6 +3,36 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://images.telegram.hr/gDwSfJXLjbW4EX2ZRyp4l3U2XRolSr1fmDFsR8pX0K4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvMTA3ODc4NzIxOC5qcGc.webp',
+        'title' => 'Hrvatska je pobijedila Panamu i to je najvažnije, ali zasad ovo ne izgleda dobro',
+        'text'  => 'Prvi dojam: Teško izborena tri boda na Mundijalu',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/hrvatska-je-pobijedila-panamu-i-to-je-najvaznije-ali-zasad-ovo-ne-izgleda-dobro/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/AKIoJijDtdlC5rOrmZrB1gzdeB3qYy61IpIHYfpM2v4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcGVyaXNpYy1ocnZhdHNrYS5qcGc.webp',
+        'title' => 'Kakvo je sad stanje za Hrvatsku? Pobjeda je bila prevažna za knockout fazu, ali još nema opuštanja',
+        'text'  => 'Vatreni znaju da su najmanje treći',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/kakvo-je-sad-stanje-za-hrvatsku-pobjeda-je-bila-prevazna-za-knockout-fazu-ali-jos-nema-opustanja/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/CBp4rr1gH83BFXNR8WlEj0XPTLWXyllQxkqjIe7ChwE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYmF0dXJpbmEtMS1lMTc4MjI4NDEzMzU4Ni5qcGc.webp',
+        'title' => 'Baturina sjajnom partijom protiv Paname ušao u odabrano društvo. Ovo je ranije uspjelo samo trojici igrača',
+        'text'  => 'Majstor svojeg zanata',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/martin-baturina-sjajnom-je-partijom-protiv-paname-usao-u-odabrano-drustvo-prije-njega-ovo-je-uspjelo-samo-trojici-igraca/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/MBcNtZ1aixJ2TtHRkQFxhKQS_wcg3K7Glcm5EX7W2Xw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZGFsaWMtNS1lMTc4MjI4MzA2NzY5NC5qcGc.webp',
+        'title' => "Izbornik Dalić svjestan je da Vatreni imaju mjesta za napredak: 'Nismo bili na dovoljnoj razini u obje utakmice'",
+        'text'  => 'Čestitao je igračima na tri boda',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/izbornik-dalic-svjestan-je-da-vatreni-imaju-mjesta-za-napredak-nismo-bili-na-dovoljnoj-razini-u-obje-utakmice/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/HAwoQQnDtf8aIoRL9WW3BJuHDcAeiNjLm4WyLVgiR7U/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvam9za28tZ3ZhcmRpb2wuanBn.webp',
+        'title' => 'Fotka dana: Što se, kvragu, događa s Gvardiolom? Hrvatska kao da igra bez njega',
+        'text'  => 'Trebao bi biti nositelj i ovo bi trebao biti njegov Mundijal',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-sto-se-kvragu-dogada-s-gvardiolom-hrvatska-kao-da-igra-bez-njega/'
+    ],
+    [
         'image' => 'https://images.telegram.hr/TSpEngb-sm6zGY-OxAtfYEnUW6KdGib5y9NXYfD9nHw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcGFuYW1hLTEtZTE3ODE4NTYzMDUxODIuanBn.webp',
         'title' => 'Panamci optimistični uoči dvoboja s Hrvatskom, mogao bi im se vratiti važan igrač',
         'text'  => 'Iskusni veznjak Adalberto Carrasquilla oporavio se od ozljede',
@@ -104,7 +134,7 @@ $bestOf_cards = [
             <div class='js-bestof-carousel'>
                 <?php foreach ($bestOf_cards as $card) : ?>
                     <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
-                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
+                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>" loading="lazy" decoding="async">
                         <div class='flex flex-col gap-[18px]'>
                             <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
                             <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
