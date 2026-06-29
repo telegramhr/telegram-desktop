@@ -180,6 +180,14 @@
                 input.placeholder = 'Pretraži članke...';
                 input.style.cssText = 'width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:4px;font-size:14px;box-sizing:border-box;';
 
+                var newTabLabel = document.createElement('label');
+                newTabLabel.style.cssText = 'display:flex;align-items:center;gap:6px;margin-top:10px;font-size:13px;color:#444;cursor:pointer;';
+                var newTabCheckbox = document.createElement('input');
+                newTabCheckbox.type = 'checkbox';
+                newTabCheckbox.style.cssText = 'margin:0;';
+                newTabLabel.appendChild(newTabCheckbox);
+                newTabLabel.appendChild(document.createTextNode('Otvori u novom tabu'));
+
                 var results = document.createElement('div');
                 results.style.cssText = 'margin-top:12px;overflow-y:auto;max-height:350px;';
 
@@ -191,6 +199,7 @@
                 modal.appendChild(closeBtn);
                 modal.appendChild(title);
                 modal.appendChild(input);
+                modal.appendChild(newTabLabel);
                 modal.appendChild(results);
                 overlay.appendChild(modal);
                 document.body.appendChild(overlay);
@@ -231,7 +240,8 @@
                                     item.onmouseover = function() { item.style.background = '#f5f5f5'; };
                                     item.onmouseout = function() { item.style.background = 'none'; };
                                     item.onclick = function() {
-                                        editor.insertContent('[telegram_post id=' + post.id + ']');
+                                        var target = newTabCheckbox.checked ? ' target=_blank' : '';
+                                        editor.insertContent('[telegram_post id=' + post.id + target + ']');
                                         close();
                                     };
                                     results.appendChild(item);
