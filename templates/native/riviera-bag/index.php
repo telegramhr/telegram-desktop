@@ -29,13 +29,13 @@
   <meta content="https://www.telegram.hr/" property="og:url" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@readymag" />
-  <meta name="description" content="Built with Readymag—a tool to design anything on the web." />
+  <meta name="description" content="Riviera Bag" />
   <meta content="Predstavljamo vam našu Super1 ljetnu torbu u kojoj se nalazi sve što trebate za bezbrižan odmor"
     property="og:site_name" />
   <meta content="img/683d850bd2094940857eb894/6397104/zJumSLMry-j8vlj4Nchpa.jpg" property="og:image" />
   <meta content="Predstavljamo vam našu Super1 ljetnu torbu u kojoj se nalazi sve što trebate za bezbrižan odmor"
     property="og:title" />
-  <meta content="Built with Readymag—a tool to design anything on the web." property="og:description" />
+  <meta content="Riviera Bag" property="og:description" />
   <base href="/wp-content/themes/telegram2-desktop/templates/native/riviera-bag/" />
   <script type="importmap">
     {"imports":{"https://st-p.rmcdn1.net/5263fb83/":"/wp-content/themes/telegram2-desktop/templates/native/riviera-bag/"}}</script>
