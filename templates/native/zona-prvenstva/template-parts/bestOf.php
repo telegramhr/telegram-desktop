@@ -3,6 +3,36 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://images.telegram.hr/WQgoMS3BmAB9DJUASq2Z5YLy4-hURAZ_Fpthsewx9IY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcG9uZ3JhY2ljLmpwZw.webp',
+        'title' => 'Mnogi ga kritiziraju, ali Dalić stoperu iznimno vjeruje. Sad je najavio šesnaestinu finala i Portugal',
+        'text'  => 'Marin Pongračić stao je pred mikrofone',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/mnogi-ga-kritiziraju-ali-dalic-stoperu-iznimno-vjeruje-sad-je-najavio-sesnaestinu-finala-i-portugal/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/IJwGX7HCfSBqNFtek5vqRjP9nIkdraYPI-_dZhHk5jY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbmlrb2xhLXZsYXNpYy5qcGc.webp',
+        'title' => "Vlašić je bio junak Vatrenih protiv Gane, a sad najavljuje Portugal: 'I oni sigurno misle da smo mi jaki'",
+        'text'  => 'Vatreni čekaju šesnaestinu finala',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/vlasic-je-bio-junak-vatrenih-protiv-gane-a-sad-najavljuje-portugal-i-oni-sigurno-misle-da-smo-mi-jaki/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/h1bBy4MbFQg-txaXTRgLXg5gbr0G0rDKcaVL5VV-NLg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZGFsaWMtMy1lMTc4MTczNDM0MTgxNy5qcGc.webp',
+        'title' => 'HRT doznao postavu koju će Dalić poslati na Portugal, izgleda da je Gvardiol ponovno na klupi',
+        'text'  => 'Hrvatska traži osminu finala',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/hrt-doznao-postavu-koju-ce-dalic-poslati-na-portugal-izgleda-da-je-gvardiol-ponovno-na-klupi/ ',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/ib1M5mLwihV74MUAcpQEs4EUccWVcXe_Z7i8HamZvQ0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZXNwZW4tZXNrYXMuanBn.webp',
+        'title' => 'Određen sudac koji će dijeliti pravdu između Hrvatske i Portugala. Vatrenima je u dobrom, a Dinamu u lošem sjećanju',
+        'text'  => 'Sudio na Poljudu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/odreden-sudac-koji-ce-dijeliti-pravdu-izmedu-hrvatske-i-portugala-vatrenima-je-u-dobrom-a-dinamu-u-losem-sjecanju/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/VRj48LGFJyZ_d34CHGoXuX9AXEwMROn-xTr7ZKsGq8g/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvaHJ2YXRza2EtNy5qcGc.webp',
+        'title' => 'Nitko kao Hrvatska, Vatreni su postali najbolja ekipa sa stopostotnim učinkom u raspucavanjima na SP-u',
+        'text'  => 'Sami na vrhu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nitko-kao-hrvatska-vatreni-su-postali-najbolja-ekipa-sa-stopostotnim-ucinkom-u-raspucavanjima-na-sp-u/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/gDwSfJXLjbW4EX2ZRyp4l3U2XRolSr1fmDFsR8pX0K4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvMTA3ODc4NzIxOC5qcGc.webp',
         'title' => 'Hrvatska je pobijedila Panamu i to je najvažnije, ali zasad ovo ne izgleda dobro',
         'text'  => 'Prvi dojam: Teško izborena tri boda na Mundijalu',
