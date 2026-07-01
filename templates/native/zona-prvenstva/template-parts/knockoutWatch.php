@@ -3,6 +3,60 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/lTj1217FkwubJMVVaqtRH4RLZFJQES99AogDF1Awag8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYm9zbmEtc2xhdmkuanBn.webp',
+        'title' => 'Uživo: 21. dan Svjetskog prvenstva. Meksiko prošao dalje, večeras igra Bosna i Hercegovina',
+        'text'  => 'Pratimo najvažnije događaje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-21-dan-svjetskog-prvenstva-meksiko-prosao-dalje-veceras-igra-bosna-i-hercegovina/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/DdHlpC194YRLuVVOdrQpNxwy-yCgTfxVIoqt7wcgXY4/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZ2lsYmVydG8tbW9yYS1tZWtzaWtvLmpwZw.webp',
+        'title' => 'Meksički reprezentativac zaigrao protiv Ekvadora i stao uz bok legendarnom Peléu',
+        'text'  => 'Počeo je od prve minute',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/meksicki-reprezentativac-zaigrao-protiv-ekvadora-i-stao-uz-bok-legendarnom-peleu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/itv2YgNTpjqrbh5K1OAbG8lwDOJTyNdX1UhIZEnXxAQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWVrc2lrby5qcGc.webp',
+        'title' => 'Meksiko prvi put nakon 1986. slavio u knockout fazi i prošao u osminu finala Svjetskog prvenstva',
+        'text'  => 'Pogledajte golove',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/meksiko-prvi-put-nakon-1986-slavio-u-knockout-fazi-i-prosao-u-osminu-finala-svjetskog-prvenstva/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/VCkMOuc3ONGKM4s5jXHr91ZK4kGpqdBcnz8bweBq_OA/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWJhcHBlLTMuanBn.webp',
+        'title' => 'Fotka dana: Trenutak u kojem se Kylian Mbappé osjeća neuništivo i besmrtno',
+        'text'  => 'Nemojmo ih samo prebrojavati, uživajmo u njegovim golovima',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-trenutak-u-kojem-se-kylian-mbappe-osjeca-neunistivo-i-besmrtno/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/dBW9VzqLqO1lJXy1eC-zxVSDvx80hkY0iY-I4bS-ukU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvc2ViYXN0aWFuLWJlY2NhY2VjZS1la3ZhZG9yLmpwZw.webp',
+        'title' => 'Ekvadorci poludjeli zbog meksičkih navijača koji su im ometali san, smatraju da je narušen fair-play',
+        'text'  => 'Poslali su pritužbu organizatoru',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/ekvadorci-poludjeli-zbog-meksickih-navijaca-koji-su-im-ometali-san-smatraju-da-je-narusen-fair-play/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/AS7ML7866hPucFRe5j6_7wORigG_zGdZt0GjwZ-pqoE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYm9uby15YXNzaW5lLXN1bW1lcnZpbGxlLW5pem96ZW1za2EtbWFyb2tvLmpwZw.webp',
+        'title' => 'Nizozemac je pucao jako i pod prečku, a golman mu se narugao. Je li Bounou pokrenuo revoluciju branjenja penala?',
+        'text'  => 'Marokanac je viralan',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nizozemac-je-pucao-jako-i-pod-precku-a-golman-mu-se-narugao-je-li-bounou-pokrenuo-revoluciju-branjenja-penala/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Lk2-hQ05muPXyYMREupJh514fgVaD8Fxs5mAM6AVGgo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvam9zaHVhLWtpbW1pY2gtbmplbWFja2EuanBn.webp',
+        'title' => "Njemački kapetan nakon šokantnog ispadanja sa Svjetskog prvenstva: ‘Pogriješili smo i preuzimamo odgovornost’",
+        'text'  => 'Preuzeo je odgovornost',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/njemacki-kapetan-nakon-sokantnog-ispadanja-sa-svjetskog-prvenstva-pogrijesili-smo-i-preuzimamo-odgovornost/',
+    ],
+    [
+        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/06/njemacka-3.jpg',
+        'title' => 'Kad sustav nije dovoljan: Zašto Njemačka nastavlja gubiti na svjetskim prvenstvima',
+        'text'  => 'Elf je opet kapitulirao i jasno je da se mora dubinski mijenjati',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/kad-sustav-nije-dovoljan-zasto-njemacka-nastavlja-gubiti-na-svjetskim-prvenstvima/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/GMhxMRJ1-KRP1xvIGl4NsIK9DQTixQF3G4JvFriv0a8/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYWNocmFmLWhha2ltaS1tYXJva28uanBn.webp',
+        'title' => 'Novo iznenađenje na Mundijalu, Maroko zabio u 91. minuti pa nakon raspucavanja izbacio Nizozemsku',
+        'text'  => 'Pogledajte golove',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/novo-iznenadenje-na-mundijalu-maroko-zabio-u-91-minuti-pa-nakon-raspucavanja-izbacio-nizozemsku/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/10yCGXIEocbP95MCo6VTG11NsQdKrJ-Tq_5EbPZEUqE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYmloLTEuanBn.webp',
         'title' => 'Što nas čeka 14. dana Svjetskog prvenstva? BiH hvata slamku spasa protiv Katara kao i Češka protiv Meksika',
         'text'  => 'Najava, TV prijenos, ključni detalji',
@@ -62,67 +116,6 @@ $knockout_cards = [
         'text'  => 'Obala Bjelokosti dobila je utakmicu, a on je bio njeno prvo ime',
         'link'  => 'https://www.telegram.hr/telesport/analize/yan-diomande-na-putu-je-da-postane-velika-zvijezda-protiv-ekvadora-je-bio-impresivan/',
     ],
-    [
-        'image' => 'https://images.telegram.hr/JojELEC3AArSVYbm6wMcTDO0gWsfKHuRgH9mqRrpxgw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvamFwYW4tbml6b3plbXNrYS5qcGc.webp',
-        'title' => 'Fotka dana: Bogovi su pali na tjeme Daichija Kamade, a zatim u nizozemsku mrežu',
-        'text'  => 'Japanac je zabio prilično neobičan gol glavom',
-        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-bogovi-su-pali-na-tjeme-daichija-kamade-a-zatim-u-nizozemsku-mrezu/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/6ZEO9MPDvnXeEaje6e0xcV-PJIUfnp4Ktb8AVPXMKsw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvc3ZpY2Fyc2thLTIuanBn.webp',
-        'title' => 'Europljani nisu naročito impresivno krenuli na Svjetskom prvenstvu. Hoće li se potvrditi stara teorija?',
-        'text'  => 'Tek tri pobjede od 10 pokušaja',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/europljani-nisu-narocito-impresivno-krenuli-na-svjetskom-prvenstvu-hoce-li-se-potvrditi-stara-teorija/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/ZcmgsgbIGZIFCj3y8mIwivPUHVKgkJvSbv7VJeu794s/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYWwtb3dhaXMuanBn.webp',
-        'title' => 'Saudijski golman oborio je rekord ovog Mundijala, ali u recentnoj povijesti i dalje je bolji Livaković',
-        'text'  => 'Čovjek je Urugvajcima poskidao sve',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/saudijski-golman-oborio-je-rekord-ovog-mundijala-ali-u-recentnoj-povijesti-i-dalje-je-bolji-livakovic/',
-    ],
-    [
-        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/06/wc-2.jpg',
-        'title' => 'Tko kad igra? Raspored i rezultati Svjetskog prvenstva, utakmice hrvatske reprezentacije',
-        'text'  => 'Sve o Mundijalu čitajte na Telesportu',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/tko-kad-igra-raspored-i-rezultati-svjetskog-prvenstva-utakmice-hrvatske-reprezentacije/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/URrLHAzj_mymcOmHoxwYOV6gVqQ-7uffZ7X1fI5HnPU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvemVsZW5vcnRza2EtcmVwdWJsaWthLXNwYW5qb2xza2EuanBn.webp',
-        'title' => 'Traži se bilo kakav pobjednik: peti dan SP-a obilježili su neriješeni rezultati, ovo nije viđeno 68 godina',
-        'text'  => 'Dan bez slavljenika i poraženih',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/trazi-se-bilo-kakav-pobjednik-peti-dan-sp-a-obiljezili-su-nerijeseni-rezultati-ovo-nije-videno-68-godina/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/dw61QvAsTqnTeQeckPsm5zQnSJog74AzJ-9QsHCfSPY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvc2F1ZGlqc2thLWFyYWJpamEtdXJ1Z3Zhai5qcGc.webp',
-        'title' => 'Saudijska Arabija i Urugvaj su remizirali u susretu koji su obilježila dva odbijanca',
-        'text'  => 'Podsjeća na jednu utakmicu s prošlog Mundijala',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/saudijska-arabija-i-urugvaj-su-remizirali-u-susretu-koji-su-obiljezila-dva-odbijanca/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/AcbWr4-l5nWrxdanMwvFneYl4Ih-sUlzvzuPL106PAc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYXNob3VyLWNvdXJ0b2lzLWJlbGdpamEtZWdpcGF0LmpwZw.webp',
-        'title' => 'Ovo ne može dohvatiti ni sjajni Courtois. Pogledajte krasan gol kojim je Egipat poveo protiv Belgije',
-        'text'  => 'Nova senzacija na pomolu?',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/ovo-ne-moze-dohvatiti-ni-sjajni-courtois-pogledajte-krasan-gol-kojim-je-egipat-poveo-protiv-belgije/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/Ku_bTB-F2GLhRPv6lgig-pOvydoKR5vpQnj7PhUj4x4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvc3BhbmpvbHNrYS16ZWxlbm9ydHNrYS1yZXB1Ymxpa2EuanBn.webp',
-        'title' => 'Senzacija na Svjetskom prvenstvu, debitant šokirao Španjolsku koja nije uspjela doći do pobjede',
-        'text'  => 'Neočekivan rasplet utakmice',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/senzacija-na-svjetskom-prvenstvu-debitant-sokirao-spanjolsku-koja-nije-uspjela-doci-do-pobjede/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/hyFOd_Ltw0CEVevxudwFUWYi535aGUA-bBE75Pw6_Vo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbGV0ZXhpZXItaS1jYWljZWRvLmpwZw.webp',
-        'title' => 'Ovo nije loše. Ekvadorac postao prva žrtva pravila protiv izležavanja na travnjaku, ali nije mu se to svidjelo',
-        'text'  => 'Sudac ga je poslao van igre na minutu',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/ovo-nije-lose-ekvadorac-postao-prva-zrtva-pravila-protiv-izlezavanja-na-travnjaku-ali-nije-mu-se-to-svidjelo/',
-    ],
-    [
-        'image' => 'https://images.telegram.hr/FH22vnrtAYHXFtwfXpdrukZ8t4y15BXsemA14CB8IuM/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvb2JhbGEtYmplbG9rb3N0aS1la3ZhZG9yLWUxNzgxNTA0NDc4OTcyLmpwZw.webp',
-        'title' => 'Prekinut veliki ekvadorski niz bez poraza. Pogledajte kako je zvijezda Obale Bjelokosti riješila susret u 90. minuti',
-        'text'  => 'Afrička zemlja stigla je do važne pobjede na otvaranju',
-        'link'  => 'https://www.telegram.hr/telesport/na-prvu/prekinut-veliki-ekvadorski-niz-bez-poraza-pogledajte-kako-je-zvijezda-obale-bjelokosti-rijesila-susret-u-90-minuti/',
-    ],
-
 ];
 ?>
 <div id='knockout-watch' class='w-full bg-[#1B3218] text-white pt-10 pb-8 md:py-15'>

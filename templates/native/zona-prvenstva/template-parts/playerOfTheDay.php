@@ -12,12 +12,16 @@ require_once __DIR__ . '/../inc/standings.php';
         </div>
         <div
             class='max-w-[870px] md:h-[460px] bg-playerofday rounded-2xl w-full mx-auto flex flex-col md:flex-row overflow-hidden'>
-            <div class='relative w-full md:max-w-[380px] aspect-[1.64] md:aspect-auto md:h-full'>
+            <figure class='relative w-full md:max-w-[380px] aspect-[1.64] md:aspect-auto md:h-full m-0'>
                 <img class='w-full h-full object-cover'
-                    src="https://images.telegram.hr/4dshJ7eafQCmzyrAcuf76i2sX6MFt95GKgoHmkqs2Og/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvY3Jpc3RpYW5vLXJvbmFsZG8tMS5qcGc.webp"
+                    src="<?= $native_path; ?>/assets/images/gill.jpg"
                     alt="Player of the day" loading="lazy" decoding="async">
                 <div class='absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0)_60%,#142610_100%)]'></div>
-            </div>
+                <figcaption
+                    class='absolute bottom-0 left-2 font-geist text-[10px] md:text-[11px] leading-none text-white/80 bg-black/40 px-2 py-1 rounded'>
+                    AP Photo/Martin Meissner
+                </figcaption>
+            </figure>
             <div class='py-7 md:py-15 px-5 md:px-13 flex flex-col gap-6 md:gap-7 justify-center md:justify-items-start'>
                 <div
                     class='flex flex-col gap-3 md:gap-7 justify-center w-full max-w-[220px] md:max-w-none mx-auto md:mx-0 text-center md:text-left'>
@@ -31,9 +35,9 @@ require_once __DIR__ . '/../inc/standings.php';
                         Player of the day
                     </span>
                     <span
-                        class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'>Cristiano Ronaldo</span>
+                        class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'>Orlando Gill</span>
                     <p class='font-inter text-[14px] md:text-[20px] md:leading-[30px]'>
-                        <?php echo zp_team_label('Portugal'); ?></p>
+                        <?php echo zp_team_label('Paraguay'); ?></p>
                     <p
                         class='font-geist text-[14px] md:text-[20px] md:leading-[30px] leading-3 text-[#AAAAAA] inline-flex items-center gap-2 justify-center md:justify-start'>
                         <svg class='w-5 h-5 md:w-6 md:h-6 shrink-0' viewBox='0 0 24 24' fill='none'
@@ -42,7 +46,7 @@ require_once __DIR__ . '/../inc/standings.php';
                             <rect x='3' y='4' width='18' height='18' rx='2' />
                             <path d='M16 2v4M8 2v4M3 10h18' />
                         </svg>
-                        23.06.2026.
+                        29.06.2026.
                     </p>
                 </div>
                 <a href='https://www.instagram.com/telegram.hr/' target='_blank' rel='noopener noreferrer'
