@@ -269,6 +269,7 @@ if (!function_exists('zp_get_wc_bracket')) {
 
 
         $build_side = static function (string $side) use ($team_by_slot, $match_index, $match_by_team, $round_labels, $round_stages): array {
+            // Leaves: 16 slots → 8 first-round ties.
             $leaves = [];
             for ($i = 1; $i <= 16; $i++) {
                 $code = $side . $i;
@@ -327,32 +328,34 @@ if (!function_exists('zp_get_wc_bracket')) {
             );
             $final['label'] = 'Finale';
         }
-       
-        $third_match = null;
+        // Third-place playoff: a standalone match (losing semifinalists). It has
+        // no bracket slot, so surface the raw match as a tie-like structure.
+        $third = null;
         foreach ($rounds as $round) {
-            if ($round['stage'] === 'THIRD_PLACE' && !empty($round['matches'])) {
-                $third_match = $round['matches'][0];
-                break;
+            if ($round['stage'] !== 'THIRD_PLACE' || empty($round['matches'])) {
+                continue;
             }
-        }
-        $third_winner = '';
-        if ($third_match && ($third_match['status'] ?? '') === 'FINISHED') {
-            if (($third_match['winner'] ?? null) === 'HOME_TEAM') {
-                $third_winner = $third_match['home'];
-            } elseif (($third_match['winner'] ?? null) === 'AWAY_TEAM') {
-                $third_winner = $third_match['away'];
+            $m = $round['matches'][0];
+            $winnerTeam = '';
+            if (($m['status'] ?? '') === 'FINISHED') {
+                if (($m['winner'] ?? null) === 'HOME_TEAM') {
+                    $winnerTeam = $m['home'];
+                } elseif (($m['winner'] ?? null) === 'AWAY_TEAM') {
+                    $winnerTeam = $m['away'];
+                }
             }
+            $third = [
+                'slots'      => ['3P'],
+                'label'      => 'Za 3. mjesto',
+                'homeTeam'   => $m['home'] ?? '',
+                'awayTeam'   => $m['away'] ?? '',
+                'homeSlots'  => [],
+                'awaySlots'  => [],
+                'match'      => $m,
+                'winnerTeam' => $winnerTeam,
+            ];
+            break;
         }
-        $third = ($final !== null) ? [
-            'slots'      => ['3P'],
-            'label'      => 'Za 3. mjesto',
-            'homeTeam'   => $third_match['home'] ?? '',
-            'awayTeam'   => $third_match['away'] ?? '',
-            'homeSlots'  => [],
-            'awaySlots'  => [],
-            'match'      => $third_match,
-            'winnerTeam' => $third_winner,
-        ] : null;
 
         return [
             'left'  => $left,
