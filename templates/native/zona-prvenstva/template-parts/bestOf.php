@@ -3,6 +3,108 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://images.telegram.hr/WQgoMS3BmAB9DJUASq2Z5YLy4-hURAZ_Fpthsewx9IY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcG9uZ3JhY2ljLmpwZw.webp',
+        'title' => 'Mnogi ga kritiziraju, ali Dalić stoperu iznimno vjeruje. Sad je najavio šesnaestinu finala i Portugal',
+        'text'  => 'Marin Pongračić stao je pred mikrofone',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/mnogi-ga-kritiziraju-ali-dalic-stoperu-iznimno-vjeruje-sad-je-najavio-sesnaestinu-finala-i-portugal/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/IJwGX7HCfSBqNFtek5vqRjP9nIkdraYPI-_dZhHk5jY/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbmlrb2xhLXZsYXNpYy5qcGc.webp',
+        'title' => "Vlašić je bio junak Vatrenih protiv Gane, a sad najavljuje Portugal: 'I oni sigurno misle da smo mi jaki'",
+        'text'  => 'Vatreni čekaju šesnaestinu finala',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/vlasic-je-bio-junak-vatrenih-protiv-gane-a-sad-najavljuje-portugal-i-oni-sigurno-misle-da-smo-mi-jaki/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/h1bBy4MbFQg-txaXTRgLXg5gbr0G0rDKcaVL5VV-NLg/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZGFsaWMtMy1lMTc4MTczNDM0MTgxNy5qcGc.webp',
+        'title' => 'HRT doznao postavu koju će Dalić poslati na Portugal, izgleda da je Gvardiol ponovno na klupi',
+        'text'  => 'Hrvatska traži osminu finala',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/hrt-doznao-postavu-koju-ce-dalic-poslati-na-portugal-izgleda-da-je-gvardiol-ponovno-na-klupi/ ',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/ib1M5mLwihV74MUAcpQEs4EUccWVcXe_Z7i8HamZvQ0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZXNwZW4tZXNrYXMuanBn.webp',
+        'title' => 'Određen sudac koji će dijeliti pravdu između Hrvatske i Portugala. Vatrenima je u dobrom, a Dinamu u lošem sjećanju',
+        'text'  => 'Sudio na Poljudu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/odreden-sudac-koji-ce-dijeliti-pravdu-izmedu-hrvatske-i-portugala-vatrenima-je-u-dobrom-a-dinamu-u-losem-sjecanju/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/VRj48LGFJyZ_d34CHGoXuX9AXEwMROn-xTr7ZKsGq8g/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvaHJ2YXRza2EtNy5qcGc.webp',
+        'title' => 'Nitko kao Hrvatska, Vatreni su postali najbolja ekipa sa stopostotnim učinkom u raspucavanjima na SP-u',
+        'text'  => 'Sami na vrhu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nitko-kao-hrvatska-vatreni-su-postali-najbolja-ekipa-sa-stopostotnim-ucinkom-u-raspucavanjima-na-sp-u/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/gDwSfJXLjbW4EX2ZRyp4l3U2XRolSr1fmDFsR8pX0K4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvMTA3ODc4NzIxOC5qcGc.webp',
+        'title' => 'Hrvatska je pobijedila Panamu i to je najvažnije, ali zasad ovo ne izgleda dobro',
+        'text'  => 'Prvi dojam: Teško izborena tri boda na Mundijalu',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/hrvatska-je-pobijedila-panamu-i-to-je-najvaznije-ali-zasad-ovo-ne-izgleda-dobro/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/AKIoJijDtdlC5rOrmZrB1gzdeB3qYy61IpIHYfpM2v4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcGVyaXNpYy1ocnZhdHNrYS5qcGc.webp',
+        'title' => 'Kakvo je sad stanje za Hrvatsku? Pobjeda je bila prevažna za knockout fazu, ali još nema opuštanja',
+        'text'  => 'Vatreni znaju da su najmanje treći',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/kakvo-je-sad-stanje-za-hrvatsku-pobjeda-je-bila-prevazna-za-knockout-fazu-ali-jos-nema-opustanja/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/CBp4rr1gH83BFXNR8WlEj0XPTLWXyllQxkqjIe7ChwE/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYmF0dXJpbmEtMS1lMTc4MjI4NDEzMzU4Ni5qcGc.webp',
+        'title' => 'Baturina sjajnom partijom protiv Paname ušao u odabrano društvo. Ovo je ranije uspjelo samo trojici igrača',
+        'text'  => 'Majstor svojeg zanata',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/martin-baturina-sjajnom-je-partijom-protiv-paname-usao-u-odabrano-drustvo-prije-njega-ovo-je-uspjelo-samo-trojici-igraca/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/MBcNtZ1aixJ2TtHRkQFxhKQS_wcg3K7Glcm5EX7W2Xw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZGFsaWMtNS1lMTc4MjI4MzA2NzY5NC5qcGc.webp',
+        'title' => "Izbornik Dalić svjestan je da Vatreni imaju mjesta za napredak: 'Nismo bili na dovoljnoj razini u obje utakmice'",
+        'text'  => 'Čestitao je igračima na tri boda',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/izbornik-dalic-svjestan-je-da-vatreni-imaju-mjesta-za-napredak-nismo-bili-na-dovoljnoj-razini-u-obje-utakmice/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/HAwoQQnDtf8aIoRL9WW3BJuHDcAeiNjLm4WyLVgiR7U/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvam9za28tZ3ZhcmRpb2wuanBn.webp',
+        'title' => 'Fotka dana: Što se, kvragu, događa s Gvardiolom? Hrvatska kao da igra bez njega',
+        'text'  => 'Trebao bi biti nositelj i ovo bi trebao biti njegov Mundijal',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-sto-se-kvragu-dogada-s-gvardiolom-hrvatska-kao-da-igra-bez-njega/'
+    ],
+    [
+        'image' => 'https://images.telegram.hr/TSpEngb-sm6zGY-OxAtfYEnUW6KdGib5y9NXYfD9nHw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcGFuYW1hLTEtZTE3ODE4NTYzMDUxODIuanBn.webp',
+        'title' => 'Panamci optimistični uoči dvoboja s Hrvatskom, mogao bi im se vratiti važan igrač',
+        'text'  => 'Iskusni veznjak Adalberto Carrasquilla oporavio se od ozljede',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/panamci-optimisticni-uoci-dvoboja-s-hrvatskom-mogao-bi-im-se-vratiti-vazan-igrac/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/jIoTJexwZvaTLPUl2Vh_9JN68zgfz-oYdYW2xE3iu48/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbHVrYS12dXNrb3ZpYy1lbmdsZXNrYS5qcGc.webp',
+        'title' => 'Da je Dalić na vrijeme bio odlučniji, mogao je izvući više od Vuškovića. I od drugih',
+        'text'  => 'Kakvu je utakmicu imao hrvatski wunderkind?',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/da-je-dalic-na-vrijeme-bio-odlucniji-mogao-je-izvuci-vise-od-vuskovica-i-od-drugih/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/9BRusWOVX7uRHYm7oxMSBAfFtULkO0il25dKGncUITk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvaHJ2YXRza2EtZW5nbGVza2EtMS5qcGc.webp',
+        'title' => 'Pogledajte još jednom sve golove i sažetke poraza Hrvatske od Engleza',
+        'text'  => 'Spektakl u Arlingtonu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/pogledajte-jos-jednom-sve-golove-i-sazetke-poraza-hrvatske-od-engleza/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Okhc0dd4AUXk7EWZZuxSgQ-_OR8MvT-dSZruq4CVZ9I/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZW5nbGVza2EtaHJ2YXRza2Eta29ybmVyLWthbmUuanBn.webp',
+        'title' => 'Fotka dana: Što je ovo bilo?',
+        'text'  => 'Harry Kane, nepokriven i neometan, zabija za 2-1',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-sto-je-ovo-bilo/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Vtucy1Qp48zTo7E-95_PcWBh9E2HYzpG9nMxVVYpwUc/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvZW5nbGVza2EtaHJ2YXRza2EtMy5qcGc.webp',
+        'title' => 'Engleska je ugasila Vatrene i svojim intenzitetom ih pomela s terena',
+        'text'  => 'Prvi dojam: A prvo poluvrijeme je toliko obećavalo...',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/engleska-je-ugasila-vatrene-i-svojim-intenzitetom-ih-pomela-s-terena/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/qht1jMHFahc2N-vXqDIQ214eVi1cU5qvOIl8pYH6K6s/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbHVrYS1tb2RyaWMtaHJ2YXRza2EtZW5nbGVza2EuanBn.webp',
+        'title' => "Razočarani Modrić priznaje pogrešku: 'Penal je bio, nesmotreno sam ga zahvatio, a treći gol nas je dotukao'",
+        'text'  => 'Težak dan za kapetana',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/razocarani-modric-priznaje-pogresku-penal-je-bio-nesmotreno-sam-ga-zahvatio-a-treci-gol-nas-je-dotukao/',
+    ],
+    [
+        'link' => 'https://www.telegram.hr/telesport/na-prvu/gana-je-pobijedila-panamu-kako-to-utjece-za-hrvatsku-koja-je-sada-posljednja-u-skupini/',
+        'title' => 'Gana je pobijedila Panamu. Kako to utječe za Hrvatsku koja je sada posljednja u skupini?',
+        'text'  => 'Nema kalkulacija: Vatreni moraju po pobjede',
+        'image'  => 'https://images.telegram.hr/4_KUekZOzYccEnS8UtMB6YCTyDCy_Juzgv6va9HaPXU/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvemxhdGtvLWRhbGljLWhydmF0c2thLXN2amV0c2tvLXBydmVuc3R2by0yMDI2LmpwZw.webp',
+    ],
+    [
         'image' => 'https://images.telegram.hr/yDK0KRmooPMFZCKfWmvjEBeitpv5_K_dQ7yfNCjpeII/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcHhsLTE3MTIyMi05NzQ2NDM1Ny5qcGc.webp',
         'title' => 'Počelo je najveće Svjetsko prvenstvo u povijesti. Evo kada igra Hrvatska i kakav je put do finala',
         'text'  => 'Navijački paket iz snova s potpisanim originalnim dresom reprezentacije možete osvojiti do 21. lipnja',
@@ -45,7 +147,6 @@ $bestOf_cards = [
     <div class='max-w-[1312px] w-full mx-auto px-6 flex flex-col gap-9 md:gap-8'>
         <div class='flex flex-col text-center gap-[22px] max-w-[600px] mx-auto'>
             <h2 class='font-geist font-extrabold text-[24px] leading-7 md:text-[32px] md:leading-10 tracking-[-1%]'>“Best of” utakmica Hrvatske nogometne reperezentacije</h2>
-            <p class='font-geist md:hidden text-[16px] md:text-[18px]'>“Best of” utakmica Hrvatske nogometne reperezentacije</p>
         </div>
         <div class='js-bestof-wrap flex flex-col gap-2'>
             <div class='hidden md:flex flex-row gap-2 md:gap-3 justify-end items-center'>
@@ -63,7 +164,7 @@ $bestOf_cards = [
             <div class='js-bestof-carousel'>
                 <?php foreach ($bestOf_cards as $card) : ?>
                     <a href="<?php echo esc_url($card['link']); ?>" class='carousel-cell w-[281px] md:w-[317px] max-w-full mr-[21px] md:mr-[14px] flex flex-col gap-6 cursor-pointer group'>
-                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>">
+                        <img class='w-full aspect-[1.39] md:aspect-[1.56] object-cover' src="<?php echo esc_url($card['image']); ?>" alt="<?php echo esc_attr($card['title']); ?>" loading="lazy" decoding="async">
                         <div class='flex flex-col gap-[18px]'>
                             <h3 class='font-geist text-[20px] leading-[26px] font-semibold group-hover:underline'><?php echo esc_html($card['title']); ?></h3>
                             <p class='font-geist text-[16px] leading-[22px]'><?php echo esc_html($card['text']); ?></p>
