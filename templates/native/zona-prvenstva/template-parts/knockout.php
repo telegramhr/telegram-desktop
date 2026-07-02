@@ -18,53 +18,111 @@ if ($zp_has_bracket) {
         ];
     }
     if (!empty($zp_bracket['final'])) {
+        $finalTies = [$zp_bracket['final']];
+        if (!empty($zp_bracket['third'])) {
+            $finalTies[] = $zp_bracket['third'];
+        }
         $zp_rounds[] = [
-            'label'   => 'Finale',
-            'ties'    => [$zp_bracket['final']],
+            'label'   => 'Završnica natjecanja',
+            'ties'    => $finalTies,
             'isFinal' => true,
         ];
     }
 }
 
-/**
- * Renders one competitor line: flag + HR name + score, or an empty line when
- * the team is not decided yet. No boxes.
- */
-$zp_line = static function (string $team, bool $isWinner, ?int $goals, ?int $pens, bool $isFinished): string {
+
+$zp_line = static function (string $team, bool $isWinner, string $sideText): string {
     if ($team === '') {
         return '<div class="h-6"></div>';
-    }
-
-    $score = '';
-    if ($isFinished && $goals !== null) {
-        $score = (string) $goals;
-        if ($pens !== null) {
-            $score .= ' <span class="text-[#AAAAAA]">(' . (int) $pens . ')</span>';
-        }
     }
 
     return sprintf(
         '<div class="h-6 flex flex-row items-center justify-between gap-2 %s">
             <span class="text-[14px] leading-5 truncate">%s</span>
-            <span class="font-inter text-[12px] leading-5 tabular-nums text-[#DDDDDD]">%s</span>
+            <span class="font-inter text-[12px] leading-5 tabular-nums text-[#DDDDDD] shrink-0">%s</span>
         </div>',
         $isWinner ? 'font-bold' : 'text-[#CFCFCF]',
         zp_team_label($team),
-        $score
+        $sideText
     );
 };
 
-// Bracket geometry (px). A tie box is a fixed height so later rounds can be
-// positioned mathematically. Round R (0-based) has a vertical margin around
-// each box so it lands centred against the two boxes that feed it.
-$ZP_BOX_H   = 72;  // fixed tie-box height
-$ZP_BASE_GAP = 16; // gap between adjacent boxes in the first round
 
-/**
- * Renders a tie as its own fixed-height box holding two competitor lines.
- * $marginY is the top/bottom margin (px) that centres it against its feeders.
- */
-$zp_tie = static function (array $tie, int $boxH, float $marginY) use ($zp_line): string {
+$ZP_BOX_H   = 72; 
+$ZP_BASE_GAP = 10; 
+
+
+$zp_score_text = static function (?int $goals, ?int $pens): string {
+    if ($goals === null) {
+        return '';
+    }
+    $text = (string) $goals;
+    if ($pens !== null) {
+        $text .= ' <span class="text-[#AAAAAA]">(' . (int) $pens . ')</span>';
+    }
+    return $text;
+};
+
+
+$zp_slot_key = static function (array $slots): string {
+    $s = $slots;
+    sort($s, SORT_NATURAL);
+    return implode(',', $s);
+};
+
+$L = static fn (int $a, int $b) => array_map(fn ($i) => 'L' . $i, range($a, $b));
+$D = static fn (int $a, int $b) => array_map(fn ($i) => 'D' . $i, range($a, $b));
+
+$ZP_SCHEDULE = [];
+$zp_sched = static function (array $slots, string $utc, string $city) use (&$ZP_SCHEDULE, $zp_slot_key) {
+    $ZP_SCHEDULE[$zp_slot_key($slots)] = ['utc' => $utc, 'city' => $city];
+};
+
+// ──(LAST_32) ──────────────────────────────────────────
+$zp_sched($L(1, 2),   '2026-06-29T00:00:00Z', 'Boston');         
+$zp_sched($L(3, 4),   '2026-06-30T20:00:00Z', 'New York');       
+$zp_sched($L(5, 6),   '2026-06-28T19:00:00Z', 'Los Angeles');   
+$zp_sched($L(7, 8),   '2026-06-30T01:00:00Z', 'Monterrey');      
+$zp_sched($L(9, 10),  '2026-07-03T01:00:00Z', 'Toronto');        
+$zp_sched($L(11, 12), '2026-07-02T21:00:00Z', 'Los Angeles');    
+$zp_sched($L(13, 14), '2026-07-02T00:00:00Z', 'San Francisco');  
+$zp_sched($L(15, 16), '2026-07-01T20:00:00Z', 'Seattle');     
+$zp_sched($D(1, 2),   '2026-06-29T17:00:00Z', 'Houston');       
+$zp_sched($D(3, 4),   '2026-06-30T17:00:00Z', 'Dallas');        
+$zp_sched($D(5, 6),   '2026-07-01T01:00:00Z', 'Mexico City');   
+$zp_sched($D(7, 8),   '2026-07-01T16:00:00Z', 'Atlanta');       
+$zp_sched($D(9, 10),  '2026-07-04T00:00:00Z', 'Miami');         
+$zp_sched($D(11, 12), '2026-07-03T20:00:00Z', 'Dallas');         
+$zp_sched($D(13, 14), '2026-07-03T05:00:00Z', 'Vancouver');     
+$zp_sched($D(15, 16), '2026-07-04T03:30:00Z', 'Kansas City');    
+
+// ──  (LAST_16)
+$zp_sched(array_merge($L(1, 2),   $L(3, 4)),   '2026-07-04T21:00:00Z', 'Philadelphia'); 
+$zp_sched(array_merge($L(5, 6),   $L(7, 8)),   '2026-07-04T17:00:00Z', 'Houston');    
+$zp_sched(array_merge($L(9, 10),  $L(11, 12)), '2026-07-06T19:00:00Z', 'Dallas');      
+$zp_sched(array_merge($L(13, 14), $L(15, 16)), '2026-07-07T00:00:00Z', 'Seattle');      
+$zp_sched(array_merge($D(1, 2),   $D(3, 4)),   '2026-07-05T20:00:00Z', 'New York');       
+$zp_sched(array_merge($D(5, 6),   $D(7, 8)),   '2026-07-06T00:00:00Z', 'Mexico City');    
+$zp_sched(array_merge($D(9, 10),  $D(11, 12)), '2026-07-07T16:00:00Z', 'Atlanta');       
+$zp_sched(array_merge($D(13, 14), $D(15, 16)), '2026-07-07T20:00:00Z', 'Vancouver');    
+
+// (QUARTER_FINALS):
+$zp_sched($L(1, 8),  '2026-07-09T20:00:00Z', 'Boston');       
+$zp_sched($L(9, 16), '2026-07-10T19:00:00Z', 'Los Angeles');  
+$zp_sched($D(1, 8),  '2026-07-11T21:00:00Z', 'Miami');        
+$zp_sched($D(9, 16), '2026-07-12T01:00:00Z', 'Kansas City');  
+
+// (SEMI_FINALS) ─────────────────────────────────
+$zp_sched($L(1, 16), '2026-07-14T19:00:00Z', 'Dallas');  
+$zp_sched($D(1, 16), '2026-07-15T19:00:00Z', 'Atlanta');  
+
+// ── Final ──────────────────────────────────────────────────
+$zp_sched(array_merge($L(1, 16), $D(1, 16)), '2026-07-19T19:00:00Z', 'New York'); 
+
+// ── Bronze match ────────────────────────────────────
+$zp_sched(['3P'], '2026-07-18T21:00:00Z', 'Miami'); 
+
+$zp_tie = static function (array $tie, int $boxH) use ($zp_line, $zp_score_text, $ZP_SCHEDULE, $zp_slot_key): string {
     $match = $tie['match'] ?? null;
     $isFinished = $match && ($match['status'] ?? '') === 'FINISHED';
     $winner = $tie['winnerTeam'] ?? '';
@@ -72,23 +130,43 @@ $zp_tie = static function (array $tie, int $boxH, float $marginY) use ($zp_line)
     $homeWinner = $isFinished && $winner !== '' && $winner === ($tie['homeTeam'] ?? '');
     $awayWinner = $isFinished && $winner !== '' && $winner === ($tie['awayTeam'] ?? '');
 
-    return sprintf(
-        '<div class="bg-[#22401E] rounded-lg px-3 flex flex-col justify-center gap-1" style="height:%dpx;margin-top:%.1fpx;margin-bottom:%.1fpx;">%s%s</div>',
-        $boxH,
-        $marginY,
-        $marginY,
-        $zp_line($tie['homeTeam'] ?? '', $homeWinner, $match['homeGoals'] ?? null, $match['homePens'] ?? null, $isFinished),
-        $zp_line($tie['awayTeam'] ?? '', $awayWinner, $match['awayGoals'] ?? null, $match['awayPens'] ?? null, $isFinished)
-    );
-};
 
-/**
- * Vertical margin (px) for a box in round $index so it centres against the two
- * feeder boxes. step_R = (H + baseGap) * 2^R; margin = (step_R - H) / 2.
- */
-$zp_margin_for_round = static function (int $index, int $boxH, int $baseGap): float {
-    $step = ($boxH + $baseGap) * (2 ** $index);
-    return ($step - $boxH) / 2;
+    $homeSide = $isFinished ? $zp_score_text($match['homeGoals'] ?? null, $match['homePens'] ?? null) : '';
+    $awaySide = $isFinished ? $zp_score_text($match['awayGoals'] ?? null, $match['awayPens'] ?? null) : '';
+
+    $kickoff = '';
+    if (!$isFinished) {
+       
+        $sched = $ZP_SCHEDULE[$zp_slot_key($tie['slots'] ?? [])] ?? null;
+        $utc = $sched['utc'] ?? ($match['utcDate'] ?? '');
+        $city = $sched['city'] ?? '';
+
+        $ts = $utc !== '' ? strtotime($utc) : false;
+        if ($ts) {
+            $line2 = $city !== ''
+                ? esc_html($city) . ' - ' . esc_html(wp_date('H:i', $ts)) . ' h'
+                : esc_html(wp_date('H:i', $ts)) . ' h';
+
+            $kickoff = sprintf(
+                '<div class="shrink-0 self-center text-center text-[11px] leading-4 text-[#9DBE92] whitespace-nowrap">
+                    <div>%s</div>
+                    <div>%s</div>
+                </div>',
+                esc_html(wp_date('j.n.Y.', $ts)),
+                $line2
+            );
+        }
+    }
+
+    return sprintf(
+        '<div class="zp-tie bg-[#22401E] rounded-lg px-3 flex flex-row items-center gap-2" style="height:%dpx;">
+            <div class="flex flex-col justify-center gap-1 flex-1 min-w-0">%s%s</div>%s
+        </div>',
+        $boxH,
+        $zp_line($tie['homeTeam'] ?? '', $homeWinner, $homeSide),
+        $zp_line($tie['awayTeam'] ?? '', $awayWinner, $awaySide),
+        $kickoff
+    );
 };
 ?>
 <div class='w-full overflow-hidden'>
@@ -115,14 +193,22 @@ $zp_margin_for_round = static function (int $index, int $boxH, int $baseGap): fl
         <?php if (!$zp_has_bracket) : ?>
             <p class='font-inter text-[16px] text-[#AAAAAA]'>Knockout faza još nije počela.</p>
         <?php else : ?>
-            <div class='js-bracket-carousel'>
+            <div class='js-bracket-carousel' data-box-h='<?= (int) $ZP_BOX_H; ?>' data-base-gap='<?= (int) $ZP_BASE_GAP; ?>'>
                 <?php foreach ($zp_rounds as $index => $round) : ?>
-                    <?php $marginY = $zp_margin_for_round($index, $ZP_BOX_H, $ZP_BASE_GAP); ?>
-                    <div class='carousel-cell w-[260px] max-w-full mr-6 md:mr-8 bg-[#1B3218] flex flex-col gap-6 p-6 rounded-xl'>
-                        <span class='font-inter font-bold text-[11px] uppercase <?= !empty($round['isFinal']) ? 'text-[#F5C542]' : ''; ?>'><?= esc_html($round['label']); ?></span>
-                        <div class='flex flex-col'>
+                    <div class='carousel-cell zp-round w-[260px] max-w-full mr-3 md:mr-8 bg-[#1B3218] flex flex-col gap-4 md:gap-6 p-4 md:p-6 rounded-xl self-start' data-round='<?= (int) $index; ?>'>
+                        <span class='font-inter font-bold text-[11px] uppercase'><?= esc_html($round['label']); ?></span>
+                        <div class='zp-round-body flex flex-col'>
                             <?php foreach ($round['ties'] as $tie) : ?>
-                                <?= $zp_tie($tie, $ZP_BOX_H, $marginY); ?>
+                                <?php if (!empty($round['isFinal'])) : ?>
+                                    <?php
+                                    $zp_isFinalTie = ($tie['label'] ?? 'Finale') === 'Finale';
+                                    $zp_label = $zp_isFinalTie ? 'Finale' : 'Borba za broncu';
+                                   
+                                    $zp_label_cls = $zp_isFinalTie ? 'text-[#F5C542]' : 'text-[#CD7F32] mt-4';
+                                    ?>
+                                    <span class='zp-final-label font-inter font-bold text-[10px] uppercase text-center mb-2 leading-none <?= $zp_label_cls; ?>'><?= esc_html($zp_label); ?></span>
+                                <?php endif; ?>
+                                <?= $zp_tie($tie, $ZP_BOX_H); ?>
                             <?php endforeach; ?>
                         </div>
                     </div>
