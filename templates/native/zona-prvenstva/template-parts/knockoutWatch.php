@@ -3,6 +3,30 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/9izOk-0YtBPZm916esWWizY4AF_tCbDCTQCS9UIzgc8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvYmloLW5hdmlqYWNpLXNwLmpwZw.webp',
+        'title' => 'Uživo: 22. dan Svjetskog prvenstva. Večeras igra Hrvatska, stižu reakcije na ispadanje Bosne i Hercegovine',
+        'text'  => 'Pratimo najvažnije događaje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-22-je-dan-svjetskog-prvenstva-veceras-igra-hrvatska-stizu-reakcije-na-ispadanje-bosne-i-hercegovine/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Dwb8KPQmydp5XmduuIT6XAK7cUrb8vtN0mN4pHewmWA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbGFtaW5lLXlhbWFsLXNwYW5qb2xza2EtbWlrZWwtb3lhcnphYmFsLmpwZw.webp',
+        'title' => 'Tko igra prije i poslije Vatrenih? Yamal želi zablistati, a samo najzagriženiji pratit će utakmicu u 5 ujutro',
+        'text'  => 'Najava, TV prijenos, ključni detalji',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/tko-igra-prije-i-poslije-vatrenih-yamal-zeli-zablistati-a-samo-najzagrizeniji-pratit-ce-utakmicu-u-5-ujutro/',
+    ],
+    [
+        'image' => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-nije-ovo-bio-dan-za-sevdah-trenutak-odluke-za-bosnu-i-hercegovinu/',
+        'title' => 'Fotka dana: Nije ovo bio dan za sevdah. Trenutak odluke za Bosnu i Hercegovinu',
+        'text'  => 'Malik Tillman izravno iz slobodnog udarca zabija za 2-0',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-nije-ovo-bio-dan-za-sevdah-trenutak-odluke-za-bosnu-i-hercegovinu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/0cZ2BKvn93sNcrUXnFPK506JpwKytbS3As50XK-jOuk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcm9tZWx1LWx1a2FrdS0xLmpwZw.webp',
+        'title' => 'Lukaku je najpodcjenjeniji napadač svoje generacije. Belgija ni sad ne može bez njega',
+        'text'  => "I ovakav 'polovičan' i dalje je najbolje rješenje u napadu",
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/lukaku-je-najpodcjenjeniji-napadac-svoje-generacije-belgija-ni-sad-ne-moze-bez-njega/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/lTj1217FkwubJMVVaqtRH4RLZFJQES99AogDF1Awag8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvYm9zbmEtc2xhdmkuanBn.webp',
         'title' => 'Uživo: 21. dan Svjetskog prvenstva. Meksiko prošao dalje, večeras igra Bosna i Hercegovina',
         'text'  => 'Pratimo najvažnije događaje',

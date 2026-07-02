@@ -3,6 +3,24 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://images.telegram.hr/LC29gHaUTu-sC2dGAuB7nS-_W3FoDST8-2wOmdFGONk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvaHJ2YXRza2EtcG9ydHVnYWwtZ3BiLmpwZw.webp',
+        'title' => 'General prije bitke: Portugal ima novu središnju figuru, a Hrvatska je mora ograničiti',
+        'text'  => 'Očekivani sastavi, ključ utakmice i prognoza',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/general-prije-bitke-portugal-ima-novu-sredisnju-figuru-a-hrvatska-je-mora-ograniciti/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/AKIoJijDtdlC5rOrmZrB1gzdeB3qYy61IpIHYfpM2v4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcGVyaXNpYy1ocnZhdHNrYS5qcGc.webp',
+        'title' => 'Hrvatska će učiniti sve za 10 godina iščekivanu osvetu, ali Portugal je favorit. Što očekivati od utakmice?',
+        'text'  => 'TV prijenos, ključni detalji, moguće postave',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/hrvatska-ce-uciniti-sve-za-10-godina-iscekivanu-osvetu-ali-portugal-je-favorit-sto-ocekivati-od-utakmice/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/85aETNlkp9dY13_rd-ePWOn-j10fd6Gl7Gk9suhUMg8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvaXZhbi1wZXJpc2ljLWhydmF0c2thLWx1a2EtbW9kcmljLmpwZw.webp',
+        'title' => 'Kako poraz BiH utječe na Vatrene? Hrvatska doznala potencijalne suparnike u četvrtfinalu Svjetskog prvenstva',
+        'text'  => 'Ovako izgleda put do polufinala',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/kako-poraz-bih-utjece-na-vatrene-hrvatska-doznala-potencijalne-suparnike-u-cetvrtfinalu-svjetskog-prvenstva/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/WQgoMS3BmAB9DJUASq2Z5YLy4-hURAZ_Fpthsewx9IY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvcG9uZ3JhY2ljLmpwZw.webp',
         'title' => 'Mnogi ga kritiziraju, ali Dalić stoperu iznimno vjeruje. Sad je najavio šesnaestinu finala i Portugal',
         'text'  => 'Marin Pongračić stao je pred mikrofone',
