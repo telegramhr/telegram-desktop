@@ -14,12 +14,8 @@ html {
 .js-knockout-carousel:focus { outline: none; }
 .js-knockout-carousel .carousel-cell { min-height: 100%; }
 
-/* Bracket carousel — full-height cells so rounds center vertically.
-   Flickity absolutely-positions cells and sizes .flickity-slider to the
-   tallest cell; min-height:100% makes each cell that full height, then the
-   inner flex justify-center centers each round against the round of 16. */
 .js-bracket-carousel:focus { outline: none; }
-.js-bracket-carousel .carousel-cell { min-height: 100%; }
+.js-bracket-carousel .carousel-cell { align-self: flex-start; }
 
 /* Page dots — knockout */
 .js-knockout-carousel .flickity-page-dots {
