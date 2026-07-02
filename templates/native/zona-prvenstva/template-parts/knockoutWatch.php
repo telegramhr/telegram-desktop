@@ -15,7 +15,7 @@ $knockout_cards = [
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/tko-igra-prije-i-poslije-vatrenih-yamal-zeli-zablistati-a-samo-najzagrizeniji-pratit-ce-utakmicu-u-5-ujutro/',
     ],
     [
-        'image' => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-nije-ovo-bio-dan-za-sevdah-trenutak-odluke-za-bosnu-i-hercegovinu/',
+        'image' => 'https://images.telegram.hr/DET5xpNyBaBrJ0OkHJtLdyhXGYtuIJ59STQEPvaY_3Y/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvdXNhLWJpaC0zLmpwZw.webp',
         'title' => 'Fotka dana: Nije ovo bio dan za sevdah. Trenutak odluke za Bosnu i Hercegovinu',
         'text'  => 'Malik Tillman izravno iz slobodnog udarca zabija za 2-0',
         'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-nije-ovo-bio-dan-za-sevdah-trenutak-odluke-za-bosnu-i-hercegovinu/',
