@@ -408,7 +408,7 @@ class Telegram_Shortcodes {
 	}
 
 	function plugins( $plugins ) {
-		$plugins['telegram_shortcodes'] = get_template_directory_uri() . '/assets/js/mce-shortcodes.js?v=1.2';
+		$plugins['telegram_shortcodes'] = get_template_directory_uri() . '/assets/js/mce-shortcodes.js?v=1.3';
 		return $plugins;
 	}
 
@@ -613,7 +613,7 @@ class Telegram_Shortcodes {
      * Both must stay in sync — same HTML structure, same image size (medium_large = 768px).
      */
     function telegram_post_embed($atts) {
-        $atts = shortcode_atts(['id' => 0], $atts);
+        $atts = shortcode_atts(['id' => 0, 'target' => ''], $atts);
         $post_id = intval($atts['id']);
         if (!$post_id) return '';
 
@@ -621,6 +621,7 @@ class Telegram_Shortcodes {
         if (!$post || $post->post_status !== 'publish') return '';
 
         $title = get_the_title($post);
+        $target_attr = $atts['target'] === '_blank' ? ' target="_blank" rel="noopener noreferrer"' : '';
         $permalink = str_replace('https://www.telegram.hr', '', get_permalink($post));
         $meta = get_post_meta($post_id, '', true);
         $subtitle = isset($meta['subtitle']) && $meta['subtitle'][0] ? $meta['subtitle'][0] : '';
@@ -630,7 +631,7 @@ class Telegram_Shortcodes {
         ob_start();
         ?>
         <div class="telegram-post-embed">
-            <a href="<?php echo esc_url($permalink); ?>" class="telegram-post-embed__link">
+            <a href="<?php echo esc_url($permalink); ?>"<?php echo $target_attr; ?> class="telegram-post-embed__link">
                 <?php if ($image_url): ?>
                     <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>" class="telegram-post-embed__image" />
                 <?php endif; ?>

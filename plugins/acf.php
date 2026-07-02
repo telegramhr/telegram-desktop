@@ -792,6 +792,7 @@ if( function_exists('acf_add_local_field_group') ):
                     'grupa_l' => 'Grupa L',
                     'treci' => 'Treći-plasirane reprezentacije',
                     'sve' => 'Sve grupe (FIFA World Cup)',
+                    'nokaut' => 'Nokaut faza (ždrijeb)',
                 ),
                 'default_value' => false,
                 'return_format' => 'value',

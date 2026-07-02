@@ -14,8 +14,8 @@ if (!function_exists('zp_get_wc_standings')) {
             return $cached;
         }
 
-        $token = defined('FOOTBALL_DATA_TOKEN') ? FOOTBALL_DATA_TOKEN : 'REMOVED_FOOTBALL_DATA_TOKEN';
-        if (empty($token) || $token === 'REMOVED_FOOTBALL_DATA_TOKEN') {
+        $token = defined('FOOTBALL_DATA_TOKEN');
+        if (empty($token)) {
             return [];
         }
 
@@ -85,7 +85,7 @@ if (!function_exists('zp_get_wc_knockout')) {
             return $cached;
         }
 
-        $token = defined('FOOTBALL_DATA_TOKEN') ? FOOTBALL_DATA_TOKEN : 'REMOVED_FOOTBALL_DATA_TOKEN';
+        $token = defined('FOOTBALL_DATA_TOKEN') ? FOOTBALL_DATA_TOKEN : '';
         if (empty($token)) {
             return [];
         }
@@ -228,31 +228,15 @@ if (!function_exists('zp_bracket_slots')) {
 
 if (!function_exists('zp_get_wc_bracket')) {
 
-    /**
-     * Builds a two-sided knockout bracket from the manual slot seeding.
-     *
-     * Slots feed a fixed tree: round of 32 pairs (1,2),(3,4),… and each
-     * subsequent round halves the field. For every bracket node we look up the
-     * actual played match (by the two teams that reached it) to attach the
-     * score; if a feeding tie has not finished yet the node shows the slot
-     * codes (e.g. "L1/L2") as a placeholder.
-     *
-     * @return array{
-     *   left:  array<int, array{label:string, ties:array<int, array<string,mixed>>}>,
-     *   right: array<int, array{label:string, ties:array<int, array<string,mixed>>}>,
-     *   final: array<string, mixed>|null
-     * }
-     */
+
     function zp_get_wc_bracket(): array
     {
         $slots = zp_bracket_slots();
-        // Invert: slot code => team English name.
         $team_by_slot = array_flip($slots);
 
-        // Index every knockout match by an unordered team-pair key so we can
-        // find the played result for any bracket node once its teams are known.
         $rounds = zp_get_wc_knockout();
         $match_index = [];
+        $match_by_team = [];
         foreach ($rounds as $round) {
             foreach ($round['matches'] as $match) {
                 $home = $match['home'] ?? '';
@@ -262,6 +246,10 @@ if (!function_exists('zp_get_wc_bracket')) {
                 }
                 $key = zp_pair_key($home, $away);
                 $match_index[$key] = $match;
+
+                $stage = $round['stage'];
+                $match_by_team[$stage . '|' . $home] = $match;
+                $match_by_team[$stage . '|' . $away] = $match;
             }
         }
 
@@ -272,11 +260,15 @@ if (!function_exists('zp_get_wc_bracket')) {
             2  => 'Polufinale',
         ];
 
-        // Build one side of the bracket as an array of rounds. Each round is a
-        // list of ties; a tie carries the two competing slot-groups and, when
-        // resolvable, the concrete teams + played match.
-        $build_side = static function (string $side) use ($team_by_slot, $match_index, $round_labels): array {
-            // Leaves: 16 slots → 8 first-round ties.
+        $round_stages = [
+            16 => 'LAST_32',
+            8  => 'LAST_16',
+            4  => 'QUARTER_FINALS',
+            2  => 'SEMI_FINALS',
+        ];
+
+
+        $build_side = static function (string $side) use ($team_by_slot, $match_index, $match_by_team, $round_labels, $round_stages): array {
             $leaves = [];
             for ($i = 1; $i <= 16; $i++) {
                 $code = $side . $i;
@@ -291,12 +283,13 @@ if (!function_exists('zp_get_wc_bracket')) {
             $size = 16;
 
             while ($size >= 2) {
+                $stage = $round_stages[$size] ?? '';
                 $ties = [];
                 for ($j = 0; $j < count($nodes); $j += 2) {
                     $a = $nodes[$j];
                     $b = $nodes[$j + 1];
 
-                    $tie = zp_resolve_tie($a, $b, $match_index);
+                    $tie = zp_resolve_tie($a, $b, $match_index, $match_by_team, $stage);
                     $ties[] = $tie;
                 }
 
@@ -321,7 +314,6 @@ if (!function_exists('zp_get_wc_bracket')) {
         $left  = $build_side('L');
         $right = $build_side('D');
 
-        // Final: winner of the left semifinal vs winner of the right semifinal.
         $final = null;
         $left_final_node  = end($left)  ? end($left)['ties'][0]  : null;
         $right_final_node = end($right) ? end($right)['ties'][0] : null;
@@ -329,15 +321,44 @@ if (!function_exists('zp_get_wc_bracket')) {
             $final = zp_resolve_tie(
                 ['slots' => $left_final_node['slots'], 'team' => $left_final_node['winnerTeam']],
                 ['slots' => $right_final_node['slots'], 'team' => $right_final_node['winnerTeam']],
-                $match_index
+                $match_index,
+                $match_by_team,
+                'FINAL'
             );
             $final['label'] = 'Finale';
         }
+       
+        $third_match = null;
+        foreach ($rounds as $round) {
+            if ($round['stage'] === 'THIRD_PLACE' && !empty($round['matches'])) {
+                $third_match = $round['matches'][0];
+                break;
+            }
+        }
+        $third_winner = '';
+        if ($third_match && ($third_match['status'] ?? '') === 'FINISHED') {
+            if (($third_match['winner'] ?? null) === 'HOME_TEAM') {
+                $third_winner = $third_match['home'];
+            } elseif (($third_match['winner'] ?? null) === 'AWAY_TEAM') {
+                $third_winner = $third_match['away'];
+            }
+        }
+        $third = ($final !== null) ? [
+            'slots'      => ['3P'],
+            'label'      => 'Za 3. mjesto',
+            'homeTeam'   => $third_match['home'] ?? '',
+            'awayTeam'   => $third_match['away'] ?? '',
+            'homeSlots'  => [],
+            'awaySlots'  => [],
+            'match'      => $third_match,
+            'winnerTeam' => $third_winner,
+        ] : null;
 
         return [
             'left'  => $left,
             'right' => $right,
             'final' => $final,
+            'third' => $third,
         ];
     }
 }
@@ -355,19 +376,7 @@ if (!function_exists('zp_pair_key')) {
 
 if (!function_exists('zp_resolve_tie')) {
 
-    /**
-     * Resolves a bracket tie from its two child nodes.
-     *
-     * When both teams are known, looks up the played match to attach the score
-     * and determine the winner. Otherwise the tie stays a placeholder that
-     * carries the slot codes of both sides (e.g. "L1/L2" vs "L3/L4").
-     *
-     * @param array{slots:array<int,string>, team:string} $a
-     * @param array{slots:array<int,string>, team:string} $b
-     * @param array<string, array<string,mixed>> $match_index
-     * @return array<string, mixed>
-     */
-    function zp_resolve_tie(array $a, array $b, array $match_index): array
+    function zp_resolve_tie(array $a, array $b, array $match_index, array $match_by_team = [], string $stage = ''): array
     {
         $slots = array_merge($a['slots'], $b['slots']);
         $tie = [
@@ -380,19 +389,25 @@ if (!function_exists('zp_resolve_tie')) {
             'winnerTeam'  => '',
         ];
 
-        if ($a['team'] === '' || $b['team'] === '') {
-            return $tie;
+        $bothKnown = $a['team'] !== '' && $b['team'] !== '';
+
+        if ($bothKnown) {
+            $match = $match_index[zp_pair_key($a['team'], $b['team'])] ?? null;
+        } else {
+
+            $known = $a['team'] !== '' ? $a['team'] : $b['team'];
+            $match = ($known !== '' && $stage !== '')
+                ? ($match_by_team[$stage . '|' . $known] ?? null)
+                : null;
         }
 
-        $key = zp_pair_key($a['team'], $b['team']);
-        $match = $match_index[$key] ?? null;
         if ($match === null) {
             return $tie;
         }
 
         $tie['match'] = $match;
 
-        if (($match['status'] ?? '') === 'FINISHED') {
+        if ($bothKnown && ($match['status'] ?? '') === 'FINISHED') {
             $winner = $match['winner'] ?? null;
             if ($winner === 'HOME_TEAM') {
                 $tie['winnerTeam'] = $match['home'];
