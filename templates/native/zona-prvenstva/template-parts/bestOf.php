@@ -3,6 +3,48 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/07/hrvatska-portugal-1.jpg',
+        'title' => 'Hrvatska je mačka koja je potrošila svih svojih devet života. Je li stvarno zaslužila više?',
+        'text'  => 'Prvi dojam: Šokantno ispadanje Vatrenih sa Svjetskog prvenstva',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/hrvatska-je-macka-koja-je-potrosila-svih-svojih-devet-zivota-je-li-stvarno-zasluzila-vise/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Pa8Pa5NHlnjeWsMdMC7gyjjw98l3Wtc0AVtt_c4AaPM/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvemxhdGtvLWRhbGljLTUuanBn.webp',
+        'title' => "Dalić nakon ispadanja protiv Portugala: ‘Reći ću da je suđenje bilo jako loše za našu stranu’",
+        'text'  => 'Prokomentirao je i svoju budućnost',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/dalic-nakon-ispadanja-protiv-portugala-reci-cu-da-je-sudenje-bilo-jako-lose-za-nasu-stranu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/u_rHNzwA0CDGm_PhurXbShmp1iggeHa7I2iEOY6CIOA/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWF0YW5vdmljLTMtZTE3ODMwNjA5MzEyMTUuanBn.webp',
+        'title' => 'FIFA se oglasila o poništenom golu Joška Gvardiola. Objašnjenje razljutilo dio navijača',
+        'text'  => 'O ovome će se još dugo pričati',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/fifa-se-oglasila-o-ponistenom-golu-joska-gvardiola-objasnjenje-razljutilo-dio-navijaca/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/sOHEAF-KTYRBZfF6ssrSpdbwA8LPkuPKQNUE35nsnVw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvdmxhc2ljLWUxNzgzMDY2ODEwNTQ4LmpwZw.webp',
+        'title' => "Nikola Vlašić o skrivljenom penalu: 'Sudac mi je rekao da tu nema ničega, ali ga je poslije pozvao VAR'",
+        'text'  => 'Hrvatski reprezentativac smatra da nije bilo elemenata za najstrožu kaznu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nikola-vlasic-o-skrivljenom-penalu-sudac-mi-je-rekao-da-tu-nema-nicega-ali-ga-je-poslije-pozvao-var/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/oUXDBch4eyNQGKzJiEg2xuDNHhZIh_gCNKU5HUANLc8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcGFzYWxpYy5qcGc.webp',
+        'title' => 'Video. Još jednom pogledajte sve golove, šanse, poništene golove i sudačke odluke u ispadanju Hrvatske',
+        'text'  => 'Najvažniji trenuci nevjerojatne utakmice',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/video-jos-jednom-pogledajte-sve-golove-sanse-ponistene-golove-i-sudacke-odluke-u-ispadanju-hrvatske/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/v1VXzpjbHSFxE2dyoJ0SSQCfMMxoL1PDGqWAdQHDql4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbHVrYS1tb2RyaWMuanBn.webp',
+        'title' => 'Luka Modrić vjerojatno je odigrao zadnju utakmicu za Hrvatsku. Tko bi još mogao otići?',
+        'text'  => 'Zlatko Dalić nije htio komentirati budućnost',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/luka-modric-vjerojatno-je-odigrao-zadnju-utakmicu-za-hrvatsku-tko-bi-jos-mogao-otici/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/qWjON5uoqNO6wgyNQfQl0Bm2JZH2gkBkZ5ZyuRl5QBI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvaXZhbi1wZXJpc2ljLmpwZw.webp',
+        'title' => 'Gol vrijedan vodstva, ali i rekorda. Pogledajte kako je Perišić bacio Portugalce u očaj i nadmašio Šukera',
+        'text'  => 'Nevjerojatan i s 37 godina',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/gol-vrijedan-vodstva-ali-i-rekorda-pogledajte-kako-je-perisic-bacio-portugalce-u-ocaj-i-nadmasio-sukera/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/LC29gHaUTu-sC2dGAuB7nS-_W3FoDST8-2wOmdFGONk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvaHJ2YXRza2EtcG9ydHVnYWwtZ3BiLmpwZw.webp',
         'title' => 'General prije bitke: Portugal ima novu središnju figuru, a Hrvatska je mora ograničiti',
         'text'  => 'Očekivani sastavi, ključ utakmice i prognoza',

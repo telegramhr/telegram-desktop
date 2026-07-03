@@ -3,6 +3,24 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/MNZTXN3hFzci3b9b6_48UjB54Mv1h-kCFxqIXaYmoh4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZW1ib2xvLWUxNzgzMDY1MjYwMzQzLmpwZw.webp',
+        'title' => 'Švicarska rutinski sredila Alžirce i izborila osminu finala SP-a. Pogledajte sve golove',
+        'text'  => 'Europska reprezentacija opravdala je ulogu favorita',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/svicarska-rutinski-sredila-alzirce-i-izborila-osminu-finala-sp-a-pogledajte-sve-golove/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/gm-AKCmce6SekColfxO9Uizam-UFXQDmn5-M3Z34dM4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcm9uYWxkby01LWUxNzgzMDYzNzc2MTM4LmpwZw.webp',
+        'title' => 'Cristiano Ronaldo dobio nagradu za igrača utakmice, mnogi ismijavaju FIFA-inu odluku',
+        'text'  => 'Brojke kažu da su petorica igrača bila bolja od 41-godišnjeg Portugalca',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/cristiano-ronaldo-dobio-nagradu-za-igraca-utakmice-mnogi-ismijavaju-fifa-inu-odluku/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/FeuZ9zs-hgh-UcHZUpQwYd4BEsNTqGl1h6L8slnbpaA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcGVkcm8tcG9ycm8tc3BhbmpvbHNrYS1hdXN0cmlqYS5qcGc.webp',
+        'title' => 'Španjolci golovima protiv Austrije prekinuli nestvaran crni niz koji je trajao čak 16 godina',
+        'text'  => 'Oyarzabal je prvi nakon Inieste s ovim uspjehom',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/spanjolci-golovima-protiv-austrije-prekinuli-nestvaran-crni-niz-koji-je-trajao-cak-16-godina/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/9izOk-0YtBPZm916esWWizY4AF_tCbDCTQCS9UIzgc8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvYmloLW5hdmlqYWNpLXNwLmpwZw.webp',
         'title' => 'Uživo: 22. dan Svjetskog prvenstva. Večeras igra Hrvatska, stižu reakcije na ispadanje Bosne i Hercegovine',
         'text'  => 'Pratimo najvažnije događaje',
