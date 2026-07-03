@@ -14,6 +14,9 @@ html {
 .js-knockout-carousel:focus { outline: none; }
 .js-knockout-carousel .carousel-cell { min-height: 100%; }
 
+.js-bracket-carousel:focus { outline: none; }
+.js-bracket-carousel .carousel-cell { align-self: flex-start; }
+
 /* Page dots — knockout */
 .js-knockout-carousel .flickity-page-dots {
   position: static;
