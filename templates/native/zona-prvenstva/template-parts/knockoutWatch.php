@@ -3,6 +3,42 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/Doue1prG8oFtSAlMUgyWxS3PAZVZkMEhQh_p-wVdX4g/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvamFycmVsbC1xdWFuc2FoLWktamVzdXMtZ2FsbGFyZG8uanBn.webp',
+        'title' => 'Kako je ovo moguće? Engleski branič krvnički uklizao Meksikancu, sudac nije ni svirao faul, a na kraju je isključen',
+        'text'  => 'Veliki sudački propust',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/kako-je-ovo-moguce-engleski-branic-krvnicki-uklizao-meksikancu-sudac-nije-ni-svirao-faul-a-na-kraju-je-iskljucen/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/LFs1Vho5LGXLgAxknzAg5_c9RPWN1Aw9eDAl3judSwg/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvY3Jpc3RpYW5vLXJvbmFsZG8uanBn.webp',
+        'title' => 'Je li situacija s Ronaldom zaista presedan za poništeni crveni? Postoje dvije ključne razlike u tim slučajevima',
+        'text'  => 'Svjetsko prvenstvo potresa popriličan skandal',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/je-li-situacija-s-ronaldom-zaista-presedan-za-ponisteni-crveni-postoje-dvije-kljucne-razlike-u-tim-slucajevima/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/xV8F5SW6OCRB0aJgby640amHBuvYhnWO8r-Zid44VHc/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZGVjbGFuLXJpY2UtaS1qb3JkYW4tcGlja2ZvcmQuanBn.webp',
+        'title' => 'Uživo: 26. je dan Svjetskog prvenstva. Svi kritiziraju FIFA-u zbog kontroverznog pojačanja domaćina',
+        'text'  => 'Pratimo najvažnije događaje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-26-je-dan-svjetskog-prvenstva-poznati-tv-producent-spomenuo-vatrene-engleska-nadjacala-meksiko/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/EG5R1emxK0aL_M5peM1r2a2vxUDzTco1AgapSSRYwNU/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcm9vbmV5LmpwZw.webp',
+        'title' => "Engleska legenda oštro udarila po FIFA-i: 'Ne možeš suspendirati crveni na godinu dana, Infantino se treba sramiti'",
+        'text'  => 'Ponudio je primjer iz svoje karijere',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/engleska-legenda-ostro-udarila-po-fifa-i-ne-mozes-suspendirati-crveni-na-godinu-dana-infantino-se-treba-sramiti/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/JkjjBpyHRF0jMY7bj5LK5kuRZ4oo7wffY7iAJagkkEo/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3BhbmpvbHNrYS1lMTc4MzAyNTY3Mzk4My5qcGc.webp',
+        'title' => 'Što nas čeka 26. dana Svjetskog prvenstva? Derbi Pirenejskog poluotoka, domaćin ima kontroverzno pojačanje',
+        'text'  => 'Najava, TV prijenos, ključni detalji',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/sto-nas-ceka-26-dana-svjetskog-prvenstva-derbi-pirenejskog-poluotoka-domacin-ima-kontroverzno-pojacanje/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/gpjgkb-j1fDC2k8-9xi6gj9PCN6S2kgVZ6R3hAObunQ/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcGVuYWwtYnJhemlsLmpwZw.webp',
+        'title' => 'Penal za Brazil izazvao je velike polemike, a mnogi se pitaju zašto nije korišten senzor koji je izbacio Hrvatsku',
+        'text'  => 'Je li prvo bio start Norvežanina na loptu?',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/penal-za-brazil-izazvao-je-velike-polemike-a-mnogi-se-pitaju-zasto-nije-koristen-senzor-koji-je-izbacio-hrvatsku/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/MNZTXN3hFzci3b9b6_48UjB54Mv1h-kCFxqIXaYmoh4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZW1ib2xvLWUxNzgzMDY1MjYwMzQzLmpwZw.webp',
         'title' => 'Švicarska rutinski sredila Alžirce i izborila osminu finala SP-a. Pogledajte sve golove',
         'text'  => 'Europska reprezentacija opravdala je ulogu favorita',

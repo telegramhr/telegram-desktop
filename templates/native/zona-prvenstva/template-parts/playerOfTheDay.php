@@ -1,6 +1,14 @@
 <?php
 $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/native/zona-prvenstva';
 require_once __DIR__ . '/../inc/standings.php';
+
+$player = get_field('player_of_day', 'option');
+$player_image = $player['image'] ?? null;
+$player_image_url = $player_image['url'] ?? $native_path . '/assets/images/kane.jpg';
+$player_image_caption = $player_image['caption'] ?? 'Reuters, Claudia Greco, Guliver';
+$player_name = $player['name'] ?? 'Harry Kane';
+$player_country = $player['country'] ?? 'England';
+$player_date = $player['date'] ?? '02.07.2026.';
 ?>
 <div id='player-of-the-day' class='w-full pt-10 pb-14 md:py-20 text-white'>
     <div class='max-w-[1307px] w-full mx-auto px-6 md:px-0 flex flex-col gap-8 '>
@@ -14,13 +22,15 @@ require_once __DIR__ . '/../inc/standings.php';
             class='max-w-[870px] md:h-[460px] bg-playerofday rounded-2xl w-full mx-auto flex flex-col md:flex-row overflow-hidden'>
             <figure class='relative w-full md:max-w-[380px] aspect-[1.64] md:aspect-auto md:h-full m-0'>
                 <img class='w-full h-full object-cover'
-                    src="<?= $native_path; ?>/assets/images/kane.jpg"
+                    src="<?= esc_url($player_image_url); ?>"
                     alt="Player of the day" loading="lazy" decoding="async">
                 <div class='absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0)_60%,#142610_100%)]'></div>
+                <?php if (!empty($player_image_caption)) : ?>
                 <figcaption
                     class='absolute bottom-0 left-2 font-geist text-[10px] md:text-[11px] leading-none text-white/80 bg-black/40 px-2 py-1 rounded'>
-                    Reuters, Claudia Greco, Guliver
+                    <?= esc_html($player_image_caption); ?>
                 </figcaption>
+                <?php endif; ?>
             </figure>
             <div class='py-7 md:py-15 px-5 md:px-13 flex flex-col gap-6 md:gap-7 justify-center md:justify-items-start'>
                 <div
@@ -35,9 +45,9 @@ require_once __DIR__ . '/../inc/standings.php';
                         Player of the day
                     </span>
                     <span
-                        class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'>Harry Kane</span>
+                        class='font-geist text-[22px] md:text-[44px] md:leading-[46px] leading-[26px] font-extrabold'><?= esc_html($player_name); ?></span>
                     <p class='font-inter text-[14px] md:text-[20px] md:leading-[30px]'>
-                        <?php echo zp_team_label('England'); ?></p>
+                        <?php echo zp_team_label($player_country); ?></p>
                     <p
                         class='font-geist text-[14px] md:text-[20px] md:leading-[30px] leading-3 text-[#AAAAAA] inline-flex items-center gap-2 justify-center md:justify-start'>
                         <svg class='w-5 h-5 md:w-6 md:h-6 shrink-0' viewBox='0 0 24 24' fill='none'
@@ -46,7 +56,7 @@ require_once __DIR__ . '/../inc/standings.php';
                             <rect x='3' y='4' width='18' height='18' rx='2' />
                             <path d='M16 2v4M8 2v4M3 10h18' />
                         </svg>
-                        02.07.2026.
+                        <?= esc_html($player_date); ?>
                     </p>
                 </div>
                 <a href='https://www.instagram.com/telegram.hr/' target='_blank' rel='noopener noreferrer'
