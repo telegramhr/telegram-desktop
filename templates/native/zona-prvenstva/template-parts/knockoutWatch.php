@@ -3,6 +3,42 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/aMY5kK9XLB_sTwYl3y7I7aCVZsAunu6m4PVRL5RavGM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcnViZW4tZGlhcy5qcGc.webp',
+        'title' => 'Video. Iskusni portugalski branič došao u mix-zonu pa zbog neviđenog propusta odbio dati izjavu',
+        'text'  => 'Nije mogao više izdržati',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/video-iskusni-portugalski-branic-dosao-u-mix-zonu-pa-zbog-nevidenog-propusta-odbio-dati-izjavu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/sSIc2LTfBivtPUzmb0bHCn-jGyLwrx48WYaxCWTJ0pA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZm9sYXJpbi1iYWxvZ3VuLXNhZC5qcGc.webp',
+        'title' => 'Napadač zbog čijeg je crvenog kartona reagirao Trump igrao protiv Belgije, nije se proslavio',
+        'text'  => 'Loša partija',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/napadac-zbog-cijeg-je-crvenog-kartona-reagirao-trump-igrao-protiv-belgije-nije-se-proslavio/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/smnRymA1jFS5-nMhBXW4TQa4rPjn5JIdE_D7rYfPC18/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcnVkaS1nYXJjaWEtaS1mb2xhcmluLWJhbG9ndW4uanBn.webp',
+        'title' => "Belgijski izbornik popričao s kontroverznim Balogunom: ‘On nije osoba koju treba okriviti’",
+        'text'  => 'Skroz drukčiji ton nakon pobjede',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/belgijski-izbornik-popricao-s-kontroverznim-balogunom-on-nije-osoba-koju-treba-okriviti/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Wl-CrZW4Ffcn8Jv5m3t7UhnZNDHzhf1YshOMfjuGQEs/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZm9sYXJpbi1iYWxvZ3VuLTEuanBn.webp',
+        'title' => 'Uživo: 27. je dan Svjetskog prvenstva. Belgija deklasirala SAD, portugalski izbornik napustio reprezentaciju',
+        'text'  => 'Pratimo najvažnije događaje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-27-je-dan-svjetskog-prvenstva-belgija-deklasirala-sad-nakon-svih-kontroverzi/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Fd4XPlx_Yq5QR_KPjSDkIfv377YaygPCHi0D91_bRwY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcm9iZXJ0by1tYXJ0aW5lei5qcGc.webp',
+        'title' => 'Nakon poraza od Španjolske, Roberto Martínez potvrdio da napušta portugalsku reprezentaciju',
+        'text'  => 'Izbornik odlazi nakon neuspjeha',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nakon-poraza-od-spanjolske-roberto-martinez-potvrdio-da-napusta-portugalsku-reprezentaciju/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/1at70FmGYb-LZYMAUsqZTqV62D4Dadu43BBNCtdrdLw/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3BhbmpvbHNrYS1wb3J0dWdhbGEtZTE3ODMzNzE5ODk2NDAuanBn.webp',
+        'title' => 'Svjetsko prvenstvo uživo: Španjolska u završnici zabila Portugalu i prošla u četvrtfinale (1-0)',
+        'text'  => 'Pratili smo i komentirali',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/svjetsko-prvenstvo-uzivo-hrvatski-krvnik-i-europski-prvak-u-spektakularnom-okrsaju-za-cetvrtfinale/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/Doue1prG8oFtSAlMUgyWxS3PAZVZkMEhQh_p-wVdX4g/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvamFycmVsbC1xdWFuc2FoLWktamVzdXMtZ2FsbGFyZG8uanBn.webp',
         'title' => 'Kako je ovo moguće? Engleski branič krvnički uklizao Meksikancu, sudac nije ni svirao faul, a na kraju je isključen',
         'text'  => 'Veliki sudački propust',
