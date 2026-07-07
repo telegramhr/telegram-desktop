@@ -76,6 +76,16 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
 
+    // Default the bracket to the "Osmina finala" (Round of 16) column.
+    const OSMINA_LABEL = "osmina finala";
+    const defaultRoundIndex = () => {
+      const idx = rounds.findIndex((r) => {
+        const label = r.querySelector("span")?.textContent?.trim().toLowerCase();
+        return label === OSMINA_LABEL;
+      });
+      return idx === -1 ? 0 : Math.min(idx, maxIndex());
+    };
+
     const lastRound = rounds.length - 1;
     const relayout = () => {
       const base = flkty.selectedIndex; // leftmost visible round index
@@ -159,6 +169,7 @@ window.addEventListener("DOMContentLoaded", () => {
       }, 150);
     });
 
+    flkty.select(defaultRoundIndex(), false, true);
     relayout();
     updateButtons();
   });
