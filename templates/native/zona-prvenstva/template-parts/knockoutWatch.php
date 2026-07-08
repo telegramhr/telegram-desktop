@@ -3,6 +3,41 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/LQohZZC5vX85Dl1x9d_1pRokulCXSLLoQHyTLuG0-hI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3ZpY2Fyc2thLWtvbHVtYmlqYS5qcGc.webp',
+        'title' => 'Ako ste zaspali, nitko vas neće kriviti. Švicarska i Kolumbija odigrale su jednu od najdosadnijih utakmica na SP-u',
+        'text'  => 'To su potvrdile i brojke',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/ako-ste-zaspali-nitko-vas-nece-kriviti-svicarska-i-kolumbija-odigrale-su-jednu-od-najdosadnijih-utakmica-na-sp-u/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/P7kFuDZ1dpduX163yDste5NNEDZ0-mBmPxOTqitBFZs/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvaGFycnkta2FuZS0zLmpwZw.webp',
+        'title' => 'Svjetsko prvenstvo došlo je do najbolje osmorke. Ovo su utakmice i termini četvrtfinala Mundijala',
+        'text'  => 'Još samo sedam utakmica do kraja',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/svjetsko-prvenstvo-doslo-je-do-najbolje-osmorke-ovo-su-utakmice-i-termini-cetvrtfinala-mundijala/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/32iwM-9xijlbOHpwSvIO7PNbFWIXzQNZowoUU9hY_-0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3ZpY2Fyc2thLTQtZTE3ODM0NjQ2MDc0OTIuanBn.webp',
+        'title' => 'Švicarska posljednji putnik u četvrtfinale SP-a, Kolumbijci pali nakon raspucavanja jedanaesteraca',
+        'text'  => 'Drama u Vancouveru pripala Europljanima',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/svicarska-posljednji-putnik-u-cetvrtfinale-sp-a-kolumbijci-pali-nakon-raspucavanja-jedanaesteraca/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/-UxNfHzjcMwDLDlWKMzXdCb9S4ob4NVwfbZebSGNEQo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbGVvLW1lc3NpLTEuanBn.webp',
+        'title' => 'Susret Argentine i Egipta bio je najluđi na SP-u. Pogledajte još jednom preokret, golove i sporne situacije',
+        'text'  => 'Sažetak je vrlo, vrlo bogat',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/susret-argentine-i-egipta-bio-je-najludi-na-sp-u-pogledajte-jos-jednom-preokret-golove-i-sporne-situacije/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/0mRqRoCPHcFvHSQF89nLNuCInYtTcu1cQpPV0DNW2nM/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvemlrby1lMTc4MzQ1Mjg2MTI0Mi5qcGc.webp',
+        'title' => "Egipatski ofenzivac ogorčen nakon ispadanja: 'Čestitam Argentini na osvajanju Svjetskog prvenstva'",
+        'text'  => 'Smatra da je turnir namješten',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/egipatski-ofenzivac-ogorcen-nakon-ispadanja-cestitam-argentini-na-osvajanju-svjetskog-prvenstva/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/jvW5_qKGFIOW_w8Kt9cT0g2EOL2c4F2DAlMnFAg_n54/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWVzc2ktMS5qcGc.webp',
+        'title' => 'Messi redom ruši sve rekorde, pa i ovaj negativni. Nitko nikad nije zapucao dva penala na istom SP-u',
+        'text'  => 'Pa ipak, već ima sedam golova',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/messi-redom-rusi-sve-rekorde-pa-i-ovaj-negativni-nitko-nikad-nije-zapucao-dva-penala-na-istom-sp-u/',
+    ],
         'image' => 'https://images.telegram.hr/aMY5kK9XLB_sTwYl3y7I7aCVZsAunu6m4PVRL5RavGM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcnViZW4tZGlhcy5qcGc.webp',
         'title' => 'Video. Iskusni portugalski branič došao u mix-zonu pa zbog neviđenog propusta odbio dati izjavu',
         'text'  => 'Nije mogao više izdržati',
