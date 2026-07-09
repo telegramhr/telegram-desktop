@@ -68,6 +68,7 @@ $knockout_cards = [
         'text'  => 'Pa ipak, već ima sedam golova',
         'link'  => 'https://www.telegram.hr/telesport/na-prvu/messi-redom-rusi-sve-rekorde-pa-i-ovaj-negativni-nitko-nikad-nije-zapucao-dva-penala-na-istom-sp-u/',
     ],
+    [
         'image' => 'https://images.telegram.hr/aMY5kK9XLB_sTwYl3y7I7aCVZsAunu6m4PVRL5RavGM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcnViZW4tZGlhcy5qcGc.webp',
         'title' => 'Video. Iskusni portugalski branič došao u mix-zonu pa zbog neviđenog propusta odbio dati izjavu',
         'text'  => 'Nije mogao više izdržati',
