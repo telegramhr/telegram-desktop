@@ -3,6 +3,36 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/0w7CKHFaZmddo5mj6RjsA_DjxwAbJiqlftZ1JByUtEc/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYva3lsaWFuLW1iYXBwZS1mcmFuY3Vza2EuanBn.webp',
+        'title' => 'Došao je red na četvrtfinale Svjetskog prvenstva, može li Maroko šokirati snažnu Francusku?',
+        'text'  => 'TV prijenos, ključni detalji, moguće postave',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/dosao-je-red-na-cetvrtfinale-svjetskog-prvenstva-moze-li-maroko-sokirati-snaznu-francusku/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/oWlVdLUPXxnEqQ7FcFAsKCW_R7uCWMpCLhevhXRi2C8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvYm91YWJiaS0xLmpwZw.webp',
+        'title' => 'Ayyoub Bouaddi je neodoljiv. Ovo Svjetsko prvenstvo i Maroko otkrili su ga svima',
+        'text'  => 'Bio je kapetan (mlade) Francuske, a sad igra protiv nje',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/ayyoub-bouaddi-je-neodoljiv-ovo-svjetsko-prvenstvo-i-maroko-otkrili-su-ga-svima/',
+    ],
+    [
+        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/07/messi-scaloni.jpg',
+        'title' => 'Scaloni je sve podredio Messiju i svi ostali igraju za njega. To je strateška odluka',
+        'text'  => 'Argentina je ekipa koja ima dva potpuno različita identiteta',
+        'link'  => 'https://www.telegram.hr/telesport/analize/scaloni-je-sve-podredio-messiju-i-svi-ostali-igraju-za-njega-to-je-strateska-odluka/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/2PAOBxiT5ti21uQORycT9YFdzQuUru-_H2AB29Azp5I/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbGV0ZXhpZXIuanBn.webp',
+        'title' => 'Nova tragikomedija na Mundijalu, Egipćani traže izbacivanje kompletne sudačke postave iz utakmice s Argentinom',
+        'text'  => 'Bura ne jenjava',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nova-tragikomedija-na-mundijalu-egipcani-traze-izbacivanje-kompletne-sudacke-postave-iz-utakmice-s-argentinom/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/-0YuHKrKmUR_wqWtl47QzFNF4Nhf9Jl74GAoB8r1X10/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZ3JlZ29yLWtvYmVsLmpwZw.webp',
+        'title' => 'Heroj dana: Gregor Kobel',
+        'text'  => 'Spasio je ekipu u utakmici, a u raspucavanju joj donio pobjedu',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/heroj-dana-gregor-kobel/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/LQohZZC5vX85Dl1x9d_1pRokulCXSLLoQHyTLuG0-hI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3ZpY2Fyc2thLWtvbHVtYmlqYS5qcGc.webp',
         'title' => 'Ako ste zaspali, nitko vas neće kriviti. Švicarska i Kolumbija odigrale su jednu od najdosadnijih utakmica na SP-u',
         'text'  => 'To su potvrdile i brojke',
