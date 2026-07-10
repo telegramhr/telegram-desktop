@@ -3,6 +3,54 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/XG61DICuEAFYPU6PGkZ0qBsXDlnJSA5rpdF3uppEId0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3BhbmpvbHNrYS1uYXZpamFjLXN2amV0c2tvLXBydmVuc3R2by5qcGc.webp',
+        'title' => "Uživo: 30. dan Svjetskog prvenstva. Belgijski stoper ne smije igrati protiv Španjolske, ključni Englez bolestan",
+        'text'  => 'Pratimo najvažnije vijesti',
+        'link'  => 'Uživo: 30. dan Svjetskog prvenstva. Belgijski stoper ne smije igrati protiv Španjolske, ključni Englez bolestan',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/h8LfO70X7ImmwH62Z_KoZVZ01akMKmiZ1YMAV9ozKG8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZGVjbGFuLXJpY2UuanBn.webp',
+        'title' => "Engleska zvijezda zbog bolesti ne trenira uoči četvrtfinala SP-a, navodno je izolirana od ostatka ekipe",
+        'text'  => 'Četvrtfinale je za manje od dva dana...',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/engleska-zvijezda-zbog-bolesti-ne-trenira-uoci-cetvrtfinala-sp-a-navodno-je-izolirana-od-ostatka-ekipe/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/l1938ooTqoaYbIMYHsa_tnenfZLclVyd0LPQpdowbmQ/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcva3lsaWFuLW1iYXBwZS1mcmFuY3Vza2EtbWFyb2tvLmpwZw.webp',
+        'title' => "Čak se i Mbappé pridružio neslavnoj zabavi: Svjetska prvenstva ne pamte ovako loše izvođenje penala",
+        'text'  => 'Što se to, kvragu, događa s izvođačima?',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/cak-se-i-mbappe-pridruzio-neslavnoj-zabavi-svjetska-prvenstva-ne-pamte-ovako-lose-izvodenje-penala/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Dwb8KPQmydp5XmduuIT6XAK7cUrb8vtN0mN4pHewmWA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYvbGFtaW5lLXlhbWFsLXNwYW5qb2xza2EtbWlrZWwtb3lhcnphYmFsLmpwZw.webp',
+        'title' => "Belgija raste kako turnir odmiče, ali Španjolska se čini kao prevelik zalogaj. Može li Yamal napokon zasjati?",
+        'text'  => 'TV prijenos, moguće postave, ključni detalji',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/belgija-raste-kako-turnir-odmice-ali-spanjolska-se-cini-kao-prevelik-zalogaj-moze-li-yamal-napokon-zasjati/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/JqUSIcvN7en0K7tz7Th3EVNGzy0flKVeB8TX-BE_dgc/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc2xhdmxqZS1mcmFuY3Vza2UuanBn.webp',
+        'title' => "Video. Francuska je na kraju rutinski svladala Maroko iako su se branili hrabro sat vremena",
+        'text'  => 'Idu u polufinale',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/video-francuska-je-na-kraju-rutinski-svladala-maroko-iako-su-se-branili-hrabro-sat-vremena/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/F6-ub-Aub8yDVfwQ9cv886YjJWN9sBARuHtwUreLmdI/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvb3VzbWFuZS1kZW1iZWxlLWkta3lsaWFuLW1iYXBwZS5qcGc.webp',
+        'title' => "Video. Francuzi preko Mbappéa i Dembéléa slomili marokanski otpor u samo šest minuta",
+        'text'  => 'Branili su se sat vremena',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/video-francuzi-preko-mbappea-i-dembelea-slomili-marokanski-otpor-u-samo-sest-minuta/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/4aeeYCJ8QERRJyz1yd29cOOcHs19t_9sa9YZZo7WxCw/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcva3lsaWFuLW1iYXBwZS5qcGc.webp',
+        'title' => "Video. Argentinski sudac stalnim ponavljanjem iziritirao Mbappéa, Bounou mu je uhvatio izvedeni penal u ruke",
+        'text'  => 'Nije bio smiren',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/video-argentinski-sudac-stalnim-ponavljanjem-iziritirao-mbappea-bounou-mu-je-uhvatio-izvedeni-penal-u-ruke/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/bfHAB0IGXqMb--0KWwn0GFBY_PgA5TDN2HMebPCZywo/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZW5nbGVza2EuanBn.webp',
+        'title' => "Utakmica Engleske i Norveške mogla bi se odgoditi, četvrtfinalu prijeti grmljavinska oluja",
+        'text'  => 'Susreti koji bi mogao trajati kasno u noć',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/utakmica-engleske-i-norveske-mogla-bi-se-odgoditi-cetvrtfinalu-prijeti-grmljavinska-oluja/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/0w7CKHFaZmddo5mj6RjsA_DjxwAbJiqlftZ1JByUtEc/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDYva3lsaWFuLW1iYXBwZS1mcmFuY3Vza2EuanBn.webp',
         'title' => 'Došao je red na četvrtfinale Svjetskog prvenstva, može li Maroko šokirati snažnu Francusku?',
         'text'  => 'TV prijenos, ključni detalji, moguće postave',
