@@ -3,6 +3,42 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/jvW5_qKGFIOW_w8Kt9cT0g2EOL2c4F2DAlMnFAg_n54/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWVzc2ktMS5qcGc.webp',
+        'title' => "Messi propustio trening uoči polufinala s Engleskom, ali njegov problem brzo je riješen",
+        'text'  => 'Sve je ipak u redu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/messi-propustio-trening-uoci-polufinala-s-engleskom-ali-njegov-problem-brzo-je-rijesen/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/pT0_qMxRbkPPF3Nh84xx3zh0ckmE3kjtUEEgPNL424g/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbGFtaW5lLXlhbWFsLW5pY28td2lsbGlhbXMtc3BhbmpvbHNrYS1reWxpYW4tbWJhcHBlLWZyYW5jdXNrYS5qcGc.webp',
+        'title' => "Prvo polufinale Svjetskog prvenstva donosi pravi spektakl, Francuska i Španjolska bore se za mjesto prvog finalista",
+        'text'  => 'Najava, TV prijenos, ključni detalji',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/prvo-polufinale-svjetskog-prvenstva-donosi-pravi-spektakl-francuska-i-spanjolska-bore-se-za-mjesto-prvog-finalista/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/MCtsIYfNR2R_Ttacg95YYsyFIrLS1YjKvK45aAMjYBQ/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvdGhvbWFzLXR1Y2hlbC0zLWUxNzgzODcwNjMxOTQ3LmpwZw.webp',
+        'title' => "Ovakve brojke još nitko nije imao. Thomas Tuchel ima nevjerojatan učinak s Engleskom",
+        'text'  => 'Nijemac je vrlo blizu ispisivanju povijesti',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/ovakve-brojke-jos-nitko-nije-imao-thomas-tuchel-ima-nevjerojatan-ucinak-s-engleskom/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/PVKzTM6HFGTpBc5OuTVVlH8_Mau8beniSCAqh7sV9LY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvanVkZS1iZWxsaW5naGFtLTIuanBn.webp',
+        'title' => "Heroj dana: Jude Bellingham",
+        'text'  => 'Engleski zlatni dječak jučer je s dva gola riješio Norvešku',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/heroj-dana-jude-bellingham/',
+    ],
+    [
+        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/07/thomas-tuchel.jpg',
+        'title' => "Engleska ima manu. Tuchel je imao rješenje za nju, ali ga se odrekao uoči Mundijala",
+        'text'  => 'Nedostaje li ovoj reprezentaciji Trent Alexander-Arnold?',
+        'link'  => 'https://www.telegram.hr/telesport/analize/engleska-ima-manu-tuchel-je-imao-rjesenje-za-nju-ali-ga-se-odrekao-uoci-mundijala/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/_e--iy_VyRMHTtQPvuBhRW3Td6zwyYWExxJ7-xHnYEo/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbGVvLW1lc3NpLTEuanBn.webp',
+        'title' => "Messi je oborio još jedan rekord, najbliži ovom postignuću je legendarni Maradona",
+        'text'  => 'Argentinski čarobnjak',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/messi-je-oborio-jos-jedan-rekord-najblizi-ovom-postignucu-je-legendarni-maradona/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/XG61DICuEAFYPU6PGkZ0qBsXDlnJSA5rpdF3uppEId0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3BhbmpvbHNrYS1uYXZpamFjLXN2amV0c2tvLXBydmVuc3R2by5qcGc.webp',
         'title' => "Uživo: 30. dan Svjetskog prvenstva. Belgijski stoper ne smije igrati protiv Španjolske, ključni Englez bolestan",
         'text'  => 'Pratimo najvažnije vijesti',

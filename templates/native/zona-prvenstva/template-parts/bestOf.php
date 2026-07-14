@@ -3,6 +3,18 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $bestOf_cards = [
     [
+        'image' => 'https://images.telegram.hr/PTqssNqfMJBMWA0HA69KIY37lZsSVk3mSZV9p3QUUgM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWF0YW5vdmljLTMtZTE3ODMwNjA5MzEyMTUuanBn.webp',
+        'title' => "Hrvatsku je, prema novoj grafici, VAR najviše oštetio na ovom Svjetskom prvenstvu",
+        'text'  => 'U samom vrhu Mundijala',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/hrvatsku-je-prema-novoj-grafici-var-najvise-ostetio-na-ovom-svjetskom-prvenstvu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/9jcb40myldsIo588P1roJGGBfnsqJjtNmQUT60y9nfY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc2xhdmVuLWJpbGljLWhydC5wbmc.webp',
+        'title' => "Slaven Bilić gostovao u HRT-ovoj emisiji i oduševio otvorenošću, pokupili smo najzanimljivije izjave",
+        'text'  => 'Novi izbornik ukrao show',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-33-je-dan-svjetskog-prvenstva-bilic-danas-postaje-hrvatski-izbornik/',
+    ],
+    [
         'image' => 'https://www.telegram.hr/wp-content/uploads/2026/07/hrvatska-portugal-1.jpg',
         'title' => 'Hrvatska je mačka koja je potrošila svih svojih devet života. Je li stvarno zaslužila više?',
         'text'  => 'Prvi dojam: Šokantno ispadanje Vatrenih sa Svjetskog prvenstva',
