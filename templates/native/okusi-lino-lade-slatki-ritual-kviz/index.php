@@ -29,11 +29,11 @@
   <meta content="https://www.telegram.hr/" property="og:url" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@readymag" />
-  <meta name="description" content="Built with Readymag—a tool to design anything on the web." />
+  <meta name="description" content="Ti biraš" />
   <meta content="Project" property="og:site_name" />
   <meta content="img/683d850bd2094940857eb894/6397558/4HKzWuj22SR_B2x3FN6w9.jpg" property="og:image" />
   <meta content="Project" property="og:title" />
-  <meta content="Built with Readymag—a tool to design anything on the web." property="og:description" />
+  <meta content="Ti biraš" property="og:description" />
   <base href="/wp-content/themes/telegram2-desktop/templates/native/okusi-lino-lade-slatki-ritual-kviz/" />
   <script type="importmap">
     {"imports":{"https://st-p.rmcdn1.net/734750ea/":"/wp-content/themes/telegram2-desktop/templates/native/okusi-lino-lade-slatki-ritual-kviz/"}}</script>
