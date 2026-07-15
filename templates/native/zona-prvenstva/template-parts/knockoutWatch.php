@@ -3,6 +3,36 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/8D9hVPAEX7YQ2b5SUbB6nkwF0RxkW8SbxIgvMV9xUFA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcm9kcmktMS5qcGc.webp',
+        'title' => "Heroj dana: Rodri",
+        'text'  => 'De la Fuenteov general bio je ključan u pobjedi nad Francuskom',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/heroj-dana-rodri/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/2i6KWtm8CJUW9WaYU971VyXxF_0j4HFSeOxc2xLt8pk/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZGFuaS1vbG1vLXNwYW5qb2xza2EuanBn.webp',
+        'title' => "Uživo: 35. je dan Svjetskog prvenstva. Španjolska čeka Englesku ili Argentinu, Infantino (opet) krši pravila",
+        'text'  => 'Pratimo najvažnije vijesti',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-35-je-dan-svjetskog-prvenstva-spanjolska-ceka-englesku-ili-argentinu-infantino-opet-krsi-pravila/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/a7MGXk68-ESOQjy7RoCjFFrLFz2_iIslQPo4TbI2mmY/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcG9ycm8uanBn.webp',
+        'title' => "Iznenadila vas je španjolska dominacija nad Francuzima? Ne bi trebala, recentna forma ovo je najavljivala",
+        'text'  => 'La Roja je zaista impresivna',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/iznenadila-vas-je-spanjolska-dominacija-nad-francuzima-ne-bi-trebala-recentna-forma-ovo-je-najavljivala/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/-SoIw2hh3jU5XaMRSUKXczAaNfqGloU9nanrl2vE2mA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZGFuaS1vbG1vLmpwZw.webp',
+        'title' => "Bio je i pod faulom, ali nije mu smetalo. Pogledajte kako je Dani Olmo skuhao gol za mirni put u finale SP-a",
+        'text'  => 'Fenomenalni dupli pas',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/bio-je-i-pod-faulom-ali-nije-mu-smetalo-pogledajte-kako-je-dani-olmo-skuhao-gol-za-mirni-put-u-finale-sp-a/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/RJbYiFjI2wzjFKgtT7t92kvDU6ND8RWen7FthmcCI6s/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcGVkcm8tcG9ycm8tbmljby13aWxsaWFtcy1zcGFuam9sc2thLmpwZw.webp',
+        'title' => "Španjolska je prvi finalist Svjetskog prvenstva. La Roja utišala francuske superzvijede, Olmo asistirao",
+        'text'  => 'Oyarzabal i Porro pogodili za veliko slavlje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/spanjolska-je-prvi-finalist-svjetskog-prvenstva-la-roja-utisala-francuske-superzvijede-olmo-asistirao/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/jvW5_qKGFIOW_w8Kt9cT0g2EOL2c4F2DAlMnFAg_n54/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWVzc2ktMS5qcGc.webp',
         'title' => "Messi propustio trening uoči polufinala s Engleskom, ali njegov problem brzo je riješen",
         'text'  => 'Sve je ipak u redu',
