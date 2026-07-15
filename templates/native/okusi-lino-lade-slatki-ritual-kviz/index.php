@@ -2,6 +2,7 @@
 <html class="">
 
 <head>
+  <?php wp_head(); ?>
     <meta charSet="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="referrer" content="always" />
@@ -5924,6 +5925,7 @@
 }
 render();
   </script>
+  <?php wp_footer(); ?>
 </body>
 
 </html>
@@ -6159,6 +6161,7 @@ render();
 </head>
 
 <body>
+  <?php do_action('telegram_body_start'); ?>
     <div id="root">
         <style>
             html,
