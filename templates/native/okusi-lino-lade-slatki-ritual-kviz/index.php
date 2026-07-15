@@ -30,9 +30,9 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@readymag" />
   <meta name="description" content="Ti biraš" />
-  <meta content="Project" property="og:site_name" />
+  <meta content="Koji okus Lino Lade najviše odgovara baš tebi? Riješi kviz i saznaj!" property="og:site_name" />
   <meta content="img/683d850bd2094940857eb894/6397558/4HKzWuj22SR_B2x3FN6w9.jpg" property="og:image" />
-  <meta content="Project" property="og:title" />
+  <meta content="Koji okus Lino Lade najviše odgovara baš tebi? Riješi kviz i saznaj!" property="og:title" />
   <meta content="Ti biraš" property="og:description" />
   <base href="/wp-content/themes/telegram2-desktop/templates/native/okusi-lino-lade-slatki-ritual-kviz/" />
   <script type="importmap">
