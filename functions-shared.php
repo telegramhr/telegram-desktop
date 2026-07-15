@@ -182,7 +182,7 @@ function telegram_trim($content, $id = 0) {
     if ( $id ) {
         $post = get_post_type($id);
         $cat = get_the_category($id);
-        $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function ($m) use ($post, $cat, $id) {
+        $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>(.*?)<\/a>/i', function ($m) use ($post, $cat, $id) {
             if (strpos($m[2], "www.telegram.hr") === false) {
                 if ($post === 'partneri' || ($cat && $cat[0]->slug === 'promo')) {
                     $rel = 'sponsored';
