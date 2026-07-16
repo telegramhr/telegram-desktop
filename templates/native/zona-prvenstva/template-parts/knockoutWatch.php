@@ -3,6 +3,54 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/as-26VqY31QpOKCCIF72IuaLceu-1hzlTqx5x5EWl24/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvanVkZS1iZWxsaW5naGFtLWktbGlvbmVsLW1lc3NpLmpwZw.webp',
+        'title' => "Video. Trenutak u kojem je Bellingham isprovocirao Messija mnogi smatraju razlogom za engleski poraz",
+        'text'  => 'Krive su i Tuchelove zamjene',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/video-trenutak-u-kojem-je-bellingham-isprovocirao-messija-mnogi-smatraju-razlogom-za-engleski-poraz/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/qVseGTdb7D27a1F1Ih5o5bv5G33F0a19Ewq0LXBxhAc/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbGlvbmVsLW1lc3NpLWktZGllZ28tbWFyYWRvbmEuanBn.webp',
+        'title' => "Messi je još jednom briljirao na Svjetskom prvenstvu, a zatim se dotakao Maradone: ‘Za mene je on najveći’",
+        'text'  => 'Dvije ere argentinskog nogometa',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/messi-je-jos-jednom-briljirao-na-svjetskom-prvenstvu-a-zatim-se-dotakao-maradone-za-mene-je-on-najveci/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/mOXSL0DkhcEAv3WsRZvlof467FYngstWQQNTDpqGigM/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvdGhvbWFzLXR1Y2hlbC1lbmdsZXNrYS1zdmpldHNrby1wcnZlbnN0dm8uanBn.webp',
+        'title' => "Uživo: 36. je dan Svjetskog prvenstva. Tuchel ipak ostaje engleski izbornik, Bellingham udario Argentinca",
+        'text'  => 'Pratimo najvažnije događaje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-36-je-dan-svjetskog-prvenstva-tuchel-ipak-ostaje-engleski-izbornik-scaloni-odusevljen-jos-jednim-finalom/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/LEOASNbOO6wRpdp_DFeo35xuxti47kTOZppBsgjwqyg/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbGlvbmVsLXNjYWxvbmktMS5qcGc.webp',
+        'title' => "Scaloni oduševljen nakon velikog preokreta za finale Svjetskog prvenstva: ‘Ne može se opisati ovo što osjećam’",
+        'text'  => 'Mundijali mu očito odgovaraju',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/scaloni-odusevljen-nakon-velikog-preokreta-za-finale-svjetskog-prvenstva-ne-moze-se-opisati-ovo-sto-osjecam/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/6kW3N1Hb3OTqEH_nsV_ztZHoq5zbTN6h_WO04BrxxlE/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvdGhvbWFzLXR1Y2hlbC0xLmpwZw.webp',
+        'title' => "Iako je ispao na neslavan način sa Svjetskog prvenstva, Tuchel ostaje na klupi engleske reprezentacije",
+        'text'  => 'Ima punu podršku',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/iako-je-ispao-na-neslavan-nacin-sa-svjetskog-prvenstva-tuchel-ostaje-na-klupi-engleske-reprezentacije/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/yJhWUZbQxBtfQ1rffiTkE-kTfR4hjJvAVCyrkYhM5io/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvYXJnZW50aW5hLTItZTE3ODQxNTAzMTA4OTguanBn.webp',
+        'title' => "Novi Messijev spektakl: Asistirao za oba gola, srušio rekord i odveo Argentinu u finale",
+        'text'  => 'Briljira i u svojoj 40. godini',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/novi-messijev-spektakl-asistirao-za-oba-gola-srusio-rekord-i-odveo-argentinu-u-finale/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/Ak2p3ioA3_iYk7oP9Az8CnZeB55l2zwqEDQcW-8aYRs/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvaGFycnkta2FuZS1pLWp1ZGUtYmVsbGluZ2hhbS5qcGc.webp',
+        'title' => "Nova statistika ne laže, Kanea i Bellinghama argentinski su braniči cijelu utakmicu držali pod kontrolom",
+        'text'  => 'Najbolji centarfor nije imao puno dodira s loptom',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nova-statistika-ne-laze-kanea-i-bellinghama-su-argentinski-branici-drzali-pod-kontrolom-cijelu-utakmicu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/sOUB0H6NHbJFVYcg1D9rsWBJUx3IgFEMJNn2OY3n2FQ/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbGF1dGFyby1tYXJ0aW5lei0yLWUxNzg0MTQ4OTk1OTM2LmpwZw.webp',
+        'title' => "Argentina ludim preokretom svladala Engleze i prošla u finale Svjetskog prvenstva",
+        'text'  => 'Englezi su vodili sve do 85. minute',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/argentina-ludim-preokretom-svladala-engleze-i-prosla-u-finale-svjetskog-prvenstva/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/8D9hVPAEX7YQ2b5SUbB6nkwF0RxkW8SbxIgvMV9xUFA/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcm9kcmktMS5qcGc.webp',
         'title' => "Heroj dana: Rodri",
         'text'  => 'De la Fuenteov general bio je ključan u pobjedi nad Francuskom',
