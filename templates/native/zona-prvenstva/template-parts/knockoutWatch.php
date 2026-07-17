@@ -3,6 +3,42 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/8wQsLWwX-ArLQD_Ni_vTsn86-eMmIShFPDTq_kPnho0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc2xhdmtvLXZpbmNpYy5qcGc.webp',
+        'title' => "Uživo: 37. je dan Svjetskog prvenstva. Vinčić sudi finale, FIFA uvela prstenje za pobjednike",
+        'text'  => 'Pratimo najvažnije vijesti',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/uzivo-37-je-dan-svjetskog-prvenstva-vincic-sudi-finale-fifa-uvela-prstenje-za-pobjednike/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/BvXJonBAPhkxUhzwnQ5lLSd3Lxe0tcOoG2f99BO2jHs/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc2xhdmtvLXZpbmNpYy1maWZhLmpwZw.webp',
+        'title' => "Kada je Slovenac čuo da sudi finale Svjetskog prvenstva, svladale su ga emocije. FIFA podijelila video",
+        'text'  => 'Španjolska - Argentina kao kruna karijere',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/kada-je-slovenac-cuo-da-sudi-finale-svjetskog-prvenstva-svladale-su-ga-emocije-fifa-podijelila-video/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/n43F3QEJ9yEXaFwebRA626g7iyW1ra3G9RNyE73Vr10/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWVzc2ktMTAtZTE3ODQyMTk4ODY3MTcuanBn.webp',
+        'title' => "Lionel Messi u nedjelju će postati drugi nogometaš u povijesti koji će zaigrati u tri finala SP-a. Znate li tko je prvi?",
+        'text'  => 'Mbappé nije uspio, ali Messi zato jest',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/lionel-messi-u-nedjelju-ce-postati-drugi-nogometas-u-povijesti-koji-ce-zaigrati-u-tri-finala-sp-a-znate-li-tko-je-prvi/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/f4fNy6SMz2vAlPkp8-nZAbW45rSgOEcHkTqagk2aSns/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvYWxleGlzLW1hYy1hbGxpc3Rlci0xLWUxNzg0MjE3OTE5NDE3LmpwZw.webp',
+        'title' => "Nevjerojatni niz argentinskog veznjaka: Nikad nije izgubio utakmicu na SP-u",
+        'text'  => 'Nitko nema ovakvu statistiku',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/nevjerojatni-niz-argentinskog-veznjaka-nikad-nije-izgubio-utakmicu-na-sp-u/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/_fSxgmuDE4k3KTn8QecNLed3aJL3h0M2BRvLpKvHaps/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWVzc2ktc2ltZW9uZS5qcGc.webp',
+        'title' => "Ova scena reći će vam sve o Argentini. Simeoneov sin u suzama govori o ponosu što može trčati za Messija",
+        'text'  => "'Cholito' je bio iznimno emocionalan",
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/ova-scena-reci-ce-vam-sve-o-argentini-simeoneov-sin-u-suzama-govori-o-ponosu-sto-moze-trcati-za-messija/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/uUzpobaAolb0B0piNWFCSbJmFbB9rcQyHmF2cjFO3hM/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvYXJnZW50aW5hLWVuZ2xlc2thLTEuanBn.webp',
+        'title' => "Fotka dana: Ovo je vrhunac engleske nemoći, nedostatka ideje i sramotnog pristupa",
+        'text'  => 'Na što je spao Gordi Albion...',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-ovo-je-vrhunac-engleske-nemoci-nedostatka-ideje-i-sramotnog-pristupa/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/as-26VqY31QpOKCCIF72IuaLceu-1hzlTqx5x5EWl24/preset:single1/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvanVkZS1iZWxsaW5naGFtLWktbGlvbmVsLW1lc3NpLmpwZw.webp',
         'title' => "Video. Trenutak u kojem je Bellingham isprovocirao Messija mnogi smatraju razlogom za engleski poraz",
         'text'  => 'Krive su i Tuchelove zamjene',
