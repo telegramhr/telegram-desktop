@@ -195,7 +195,7 @@ $zp_tie = static function (array $tie, int $boxH) use ($zp_line, $zp_score_text,
         <?php else : ?>
             <div class='js-bracket-carousel' data-box-h='<?= (int) $ZP_BOX_H; ?>' data-base-gap='<?= (int) $ZP_BASE_GAP; ?>'>
                 <?php foreach ($zp_rounds as $index => $round) : ?>
-                    <div class='carousel-cell zp-round w-[260px] max-w-full mr-3 md:mr-8 bg-[#1B3218] flex flex-col gap-4 md:gap-6 p-4 md:p-6 rounded-xl self-start' data-round='<?= (int) $index; ?>'>
+                    <div class='carousel-cell zp-round w-[260px] max-w-full mr-3 md:mr-8 bg-[#1B3218] flex flex-col gap-4 md:gap-6 p-4 md:p-6 rounded-xl self-start' data-round='<?= (int) $index; ?>'<?= !empty($round['isFinal']) ? " data-is-final='1'" : ''; ?>>
                         <span class='font-inter font-bold text-[11px] uppercase'><?= esc_html($round['label']); ?></span>
                         <div class='zp-round-body flex flex-col'>
                             <?php foreach ($round['ties'] as $tie) : ?>
