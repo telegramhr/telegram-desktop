@@ -3,6 +3,54 @@ $native_path = $native_path ?? get_stylesheet_directory_uri() . '/templates/nati
 
 $knockout_cards = [
     [
+        'image' => 'https://images.telegram.hr/5PIA6pTyuQRyEJywnyxfALCxSOTLirHWyrxgSi4fG4k/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZW56by1mZXJuYW5kZXMtYXJnZW50aW5hLmpwZw.webp',
+        'title' => "Oglasio se i najveći tragičar Svjetskog prvenstva, tvrdi da postoje važnije stvari od pobjede u finalu",
+        'text'  => 'Fernández je ostavio ekipu na cjedilu',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/oglasio-se-i-najveci-tragicar-svjetskog-prvenstva-tvrdi-da-postoje-vaznije-stvari-od-pobjede-u-finalu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/CSrkzJTCKG8qGuPzIfqz6JnYZ43lWkYeG5QQQnO9TDM/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvbWVzc2ktMTEtZTE3ODQ1ODIyMjg0NjIuanBn.webp',
+        'title' => "Messi prekinuo šutnju nakon izgubljenog finala: 'Bol je vrlo duboka i ova će rana teško zacijeliti'",
+        'text'  => 'Nije skrivao emocije',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/messi-prekinuo-sutnju-nakon-izgubljenog-finala-bol-je-vrlo-duboka-i-ova-ce-rana-tesko-zacijeliti/',
+    ],
+    [
+        'image' => 'https://www.telegram.hr/wp-content/uploads/2026/07/spanjolska-argentina-3.jpg',
+        'title' => "Kako je Španjolska i u finalu s Argentinom dokazala koliko je zrela i velika momčad",
+        'text'  => 'Taktička analiza prilično jednostrane utakmice',
+        'link'  => 'https://www.telegram.hr/telesport/analize/kako-je-spanjolska-i-u-finalu-s-argentinom-dokazala-koliko-je-zrela-i-velika-momcad/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/z4qm92jYEnlPuYbPiNxSTAnplH1LEZpv-HY8sBmlr1o/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZmVybmFuZGV6LWN1YmFyc2kuanBn.webp',
+        'title' => "Fotka dana: Kad ste u nogometu vidjeli ovakvu scenu? Faul koji je upropastio Argentinu",
+        'text'  => 'Start Enza Fernándeza nad Pauom Cubarsíjem',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/fotka-dana-kad-ste-u-nogometu-vidjeli-ovakvu-scenu-faul-koji-je-upropastio-argentinu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/ZwlANRGD7O766wUWyNKU079jFLcTgFibNmmJpeqqmjk/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvZmVycmFuLXRvcnJlcy5qcGc.webp',
+        'title' => "Španjolski heroj cijeloj naciji poklonio pobjednički gol: 'Postiglo ga je 47 milijuna ljudi' ",
+        'text'  => 'Dan za pamćenje',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/spanjolski-heroj-cijeloj-naciji-poklonio-pobjednicki-gol-obratio-se-i-izbornik-postiglo-ga-je-47-milijuna-ljudi/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/bzSIc5-oEqZgAYx6jAKFJzY55nM6xgEgPE1T_QjwVb8/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvcm9kcmkuanBn.webp',
+        'title' => "Španjolci su dominirali na terenu u finalu Svjetskog prvenstva, s razlogom su pokupili sve individualne nagrade",
+        'text'  => 'Zaključak nikad većeg Mundijala',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/spanjolci-su-dominirali-na-terenu-u-finalu-svjetskog-prvenstva-s-razlogom-su-pokupili-sve-individualne-nagrade/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/9el3RnzIdmR2SObVsFR1xW4IXFSSnndz3qE7-gP1I3Y/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc3BhbmpvbHNrYS1hcmdlbnRpbmEtMi5qcGc.webp',
+        'title' => "Još nikad nitko nije u finalu ovako ugasio suparnika kao Španjolska Argentinu",
+        'text'  => 'Prvi dojam: Pobijedio je nogomet i uvjerljivo najbolja ekipa prvenstva',
+        'link'  => 'https://www.telegram.hr/telesport/price-telesport/jos-nikad-nitko-u-finalu-nije-ovako-ugasio-suparnika-kao-spanjolska-argentinu/',
+    ],
+    [
+        'image' => 'https://images.telegram.hr/s3TnYZ5nbzkO72oCapWXC_SV4Wtx6mtOmMIPpNzxDd4/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvdG9ycmVzLmpwZw.webp',
+        'title' => "Finale SP-a uživo: Evo kako je Španjolska svladala Argentinu i uzela naslov (1-0)",
+        'text'  => 'Pratili smo i komentirali',
+        'link'  => 'https://www.telegram.hr/telesport/na-prvu/finale-sp-a-uzivo-od-2100-spektakl-za-sam-kraj-mundijala-spanjolska-i-argentina-u-okrsaju-za-naslov/',
+    ],
+    [
         'image' => 'https://images.telegram.hr/8wQsLWwX-ArLQD_Ni_vTsn86-eMmIShFPDTq_kPnho0/preset:single2/aHR0cHM6Ly93d3cudGVsZWdyYW0uaHIvd3AtY29udGVudC91cGxvYWRzLzIwMjYvMDcvc2xhdmtvLXZpbmNpYy5qcGc.webp',
         'title' => "Uživo: 37. je dan Svjetskog prvenstva. Vinčić sudi finale, FIFA uvela prstenje za pobjednike",
         'text'  => 'Pratimo najvažnije vijesti',
