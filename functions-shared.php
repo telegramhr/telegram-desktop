@@ -882,15 +882,17 @@ add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_jso
 } );
 
 add_action( 'enqueue_block_editor_assets', function () {
-	wp_enqueue_style( 'telegram-editor-fonts-termina', 'https://use.typekit.net/rhj2chq.css', array(), null );
-	wp_enqueue_style( 'telegram-editor-fonts-gloock', 'https://fonts.googleapis.com/css2?family=Gloock&display=swap', array(), null );
-	wp_enqueue_style( 'telegram-editor-fonts-nyght', get_template_directory_uri() . '/assets/fonts/nyght/nyght.css', array(), null );
+	$handle = '';
+	foreach ( telegram_get_custom_font_stylesheets() as $slug => $stylesheet ) {
+		$handle = "telegram-editor-fonts-{$slug}";
+		wp_enqueue_style( $handle, $stylesheet, array(), null );
+	}
 
 	$css = '';
 	foreach ( telegram_get_custom_fonts() as $font ) {
 		$css .= sprintf( '.has-%s-font-family{font-family:%s !important;}', $font['slug'], $font['fontFamily'] );
 	}
-	wp_add_inline_style( 'telegram-editor-fonts-gloock', $css );
+	wp_add_inline_style( $handle, $css );
 } );
 
 // Load the self-hosted Nyght Serif @font-face on the front-end so post
@@ -917,18 +919,42 @@ function telegram_get_custom_fonts() {
 			'name'       => 'Nyght Serif',
 			'slug'       => 'nyght-serif',
 		),
+		array(
+			'fontFamily' => '"aukio-std", sans-serif',
+			'name'       => 'Aukio',
+			'slug'       => 'aukio',
+		),
+		array(
+			'fontFamily' => '"degular", sans-serif',
+			'name'       => 'Degular',
+			'slug'       => 'degular',
+		),
+		array(
+			'fontFamily' => '"Inter", sans-serif',
+			'name'       => 'Inter',
+			'slug'       => 'inter',
+		),
+		array(
+			'fontFamily' => '"Clash Display", sans-serif',
+			'name'       => 'Clash Display',
+			'slug'       => 'clash-display',
+		),
 	);
 }
 
 /**
- * Stylesheets that provide the custom fonts (Gloock + Termina).
+ * Stylesheets that provide the custom fonts, keyed by font slug.
  * Shared by the block editor enqueue above and the classic editor below.
  */
 function telegram_get_custom_font_stylesheets() {
 	return array(
-		'https://use.typekit.net/rhj2chq.css',
-		'https://fonts.googleapis.com/css2?family=Gloock&display=swap',
-		get_template_directory_uri() . '/assets/fonts/nyght/nyght.css',
+		'termina'       => 'https://use.typekit.net/rhj2chq.css',
+		'gloock'        => 'https://fonts.googleapis.com/css2?family=Gloock&display=swap',
+		'nyght'         => get_template_directory_uri() . '/assets/fonts/nyght/nyght.css',
+		'aukio'         => 'https://use.typekit.net/wpf5opw.css',
+		'degular'       => 'https://use.typekit.net/ijo6mdc.css',
+		'inter'         => 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap',
+		'clash-display' => 'https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&display=swap',
 	);
 }
 
