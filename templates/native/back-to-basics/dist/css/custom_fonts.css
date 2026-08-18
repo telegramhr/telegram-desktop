@@ -1,0 +1,27 @@
+
+
+@font-face {
+  font-family: 'custom_190945';
+  font-style:  normal;
+  font-weight: 300;
+  src: url("../fonts/6a704fb4a110c5e4c8c6d778_n3.ttf") format("truetype");
+}
+
+
+
+@font-face {
+  font-family: 'custom_190947';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/6a704fea5cfe0f7429097e6a_n4.ttf") format("truetype");
+}
+
+
+
+@font-face {
+  font-family: 'custom_190948';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("../fonts/6a705065d0caba3568fdf5d5_n5.ttf") format("truetype");
+}
+
