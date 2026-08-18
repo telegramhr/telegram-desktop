@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="">
-
+ 
 <head>
   <?php wp_head(); ?>
   <meta charSet="utf-8" />
