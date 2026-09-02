@@ -868,7 +868,7 @@ add_filter( 'rest_endpoints', 'my_disable_font_collections_rest_api_endpoints' )
 
 /**
  * Register custom fonts for the block editor.
- * Gloock (Google Fonts) and Termina (Adobe Fonts).
+ * Gloock (Google Fonts), Nyght Serif (self-hosted) and Clash Display (Fontshare).
  */
 add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_json ) {
 	return $theme_json->update_with( array(
@@ -896,8 +896,8 @@ add_action( 'enqueue_block_editor_assets', function () {
 } );
 
 // Load the self-hosted Nyght Serif @font-face on the front-end so post
-// content that uses it renders for readers (Gloock/Termina come from their
-// own external stylesheets elsewhere).
+// content that uses it renders for readers (Gloock/Clash Display come from
+// their own external stylesheets elsewhere).
 add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'telegram-fonts-nyght', get_template_directory_uri() . '/assets/fonts/nyght/nyght.css', array(), null );
 } );
@@ -910,29 +910,9 @@ function telegram_get_custom_fonts() {
 			'slug'       => 'gloock',
 		),
 		array(
-			'fontFamily' => '"termina", sans-serif',
-			'name'       => 'Termina',
-			'slug'       => 'termina',
-		),
-		array(
 			'fontFamily' => '"Nyght Serif", serif',
 			'name'       => 'Nyght Serif',
 			'slug'       => 'nyght-serif',
-		),
-		array(
-			'fontFamily' => '"aukio-std", sans-serif',
-			'name'       => 'Aukio',
-			'slug'       => 'aukio',
-		),
-		array(
-			'fontFamily' => '"degular", sans-serif',
-			'name'       => 'Degular',
-			'slug'       => 'degular',
-		),
-		array(
-			'fontFamily' => '"Inter", sans-serif',
-			'name'       => 'Inter',
-			'slug'       => 'inter',
 		),
 		array(
 			'fontFamily' => '"Clash Display", sans-serif',
@@ -948,12 +928,8 @@ function telegram_get_custom_fonts() {
  */
 function telegram_get_custom_font_stylesheets() {
 	return array(
-		'termina'       => 'https://use.typekit.net/rhj2chq.css',
 		'gloock'        => 'https://fonts.googleapis.com/css2?family=Gloock&display=swap',
 		'nyght'         => get_template_directory_uri() . '/assets/fonts/nyght/nyght.css',
-		'aukio'         => 'https://use.typekit.net/wpf5opw.css',
-		'degular'       => 'https://use.typekit.net/ijo6mdc.css',
-		'inter'         => 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap',
 		'clash-display' => 'https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&display=swap',
 	);
 }
@@ -980,7 +956,7 @@ add_filter( 'tiny_mce_before_init', function ( $settings ) {
 
 	foreach ( telegram_get_custom_fonts() as $font ) {
 		// font_formats is wrapped in double quotes by WP, so the value
-		// itself must not contain any (Termina ships as '"termina", ...').
+		// itself must not contain any (e.g. '"Nyght Serif", serif').
 		$formats[] = sprintf( '%s=%s', $font['name'], str_replace( '"', '', $font['fontFamily'] ) );
 	}
 
@@ -996,6 +972,105 @@ add_filter( 'mce_buttons', function ( $buttons ) {
 	if ( ! in_array( 'fontselect', $buttons, true ) ) {
 		array_unshift( $buttons, 'fontselect' );
 	}
+
+	return $buttons;
+} );
+
+/**
+ * "Veličina slova" (font size) for the Classic Editor (TinyMCE).
+ * Mirrors the block editor's font-size presets (S / M / L / XL): the
+ * dropdown toggles the same `has-{slug}-font-size` classes on the current
+ * paragraph(s), so the front-end styles classic and block content alike
+ * through the WP global stylesheet.
+ */
+
+/**
+ * Font-size presets available to editors, in the block editor's order.
+ *
+ * @return array[] Each item: array( 'slug' => string, 'name' => string, 'size' => string ).
+ */
+function telegram_get_editor_font_sizes() {
+	$presets  = array();
+	$settings = function_exists( 'wp_get_global_settings' )
+		? wp_get_global_settings( array( 'typography', 'fontSizes' ) )
+		: array();
+
+	// Presets are grouped by origin (default / theme / custom).
+	foreach ( (array) $settings as $origin ) {
+		if ( ! is_array( $origin ) ) {
+			continue;
+		}
+		foreach ( $origin as $preset ) {
+			if ( empty( $preset['slug'] ) || empty( $preset['size'] ) ) {
+				continue;
+			}
+			$size = function_exists( 'wp_get_typography_font_size_value' )
+				? wp_get_typography_font_size_value( $preset )
+				: $preset['size'];
+
+			$presets[ $preset['slug'] ] = array(
+				'slug' => $preset['slug'],
+				'name' => isset( $preset['name'] ) ? $preset['name'] : $preset['slug'],
+				'size' => $size,
+			);
+		}
+	}
+
+	if ( empty( $presets ) ) {
+		// WordPress core defaults (wp-includes/theme.json).
+		$presets = array(
+			array( 'slug' => 'small',   'name' => 'Small',       'size' => '13px' ),
+			array( 'slug' => 'medium',  'name' => 'Medium',      'size' => '20px' ),
+			array( 'slug' => 'large',   'name' => 'Large',       'size' => '36px' ),
+			array( 'slug' => 'x-large', 'name' => 'Extra Large', 'size' => '42px' ),
+		);
+	}
+
+	return array_values( $presets );
+}
+
+// 1. Hand the presets to the TinyMCE plugin and style the size classes inside
+// the editor iframe so editors see the change. Both values are inlined into
+// the TinyMCE init object by WP without escaping, so they must not contain
+// double quotes (the JSON array is emitted as a JS literal).
+add_filter( 'tiny_mce_before_init', function ( $settings ) {
+	$sizes = telegram_get_editor_font_sizes();
+
+	$css = '';
+	foreach ( $sizes as $size ) {
+		$css .= sprintf( '.has-%s-font-size{font-size:%s !important;}', $size['slug'], $size['size'] );
+	}
+	$css = str_replace( array( '"', "\n", "\r" ), '', $css );
+
+	$existing                       = isset( $settings['content_style'] ) ? $settings['content_style'] . ' ' : '';
+	$settings['content_style']      = trim( $existing . $css );
+	$settings['telegram_font_sizes'] = wp_json_encode( $sizes );
+
+	return $settings;
+} );
+
+// 2. Register the TinyMCE plugin that provides the dropdown.
+add_filter( 'mce_external_plugins', function ( $plugins ) {
+	$plugins['telegram_font_size'] = get_template_directory_uri() . '/assets/js/mce-font-size.js?v=1.0';
+
+	return $plugins;
+} );
+
+// 3. Place the dropdown right after the "Font Family" one on the first row.
+add_filter( 'mce_buttons', function ( $buttons ) {
+	$buttons = array_values( $buttons );
+	if ( in_array( 'telegram_font_size', $buttons, true ) ) {
+		return $buttons;
+	}
+
+	$position = array_search( 'fontselect', $buttons, true );
+	if ( false === $position ) {
+		array_unshift( $buttons, 'telegram_font_size' );
+
+		return $buttons;
+	}
+
+	array_splice( $buttons, $position + 1, 0, 'telegram_font_size' );
 
 	return $buttons;
 } );
