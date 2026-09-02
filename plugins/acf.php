@@ -3687,6 +3687,12 @@ random : Nasumično',
         'show_in_rest' => 0,
     ));
 
+    // Minimal WYSIWYG toolbar for the Super1 quote text: bold only.
+    add_filter('acf/fields/wysiwyg/toolbars', function ($toolbars) {
+        $toolbars['Super1 quote'] = array(1 => array('bold'));
+        return $toolbars;
+    });
+
     // Font choices for the Super1 quote: the same custom fonts editors get in
     // the block editor's font-family picker (see functions-shared.php).
     $super1_quote_font_choices = array();
@@ -3704,8 +3710,8 @@ random : Nasumično',
                 'key' => 'field_super1_quote_text',
                 'label' => 'Tekst',
                 'name' => 'super1_quote_text',
-                'type' => 'textarea',
-                'instructions' => '',
+                'type' => 'wysiwyg',
+                'instructions' => 'Označite dio teksta i kliknite B za podebljano.',
                 'required' => 1,
                 'conditional_logic' => 0,
                 'wrapper' => array(
@@ -3714,10 +3720,10 @@ random : Nasumično',
                     'id' => '',
                 ),
                 'default_value' => '',
-                'placeholder' => 'Unesite tekst citata...',
-                'maxlength' => '',
-                'rows' => 4,
-                'new_lines' => '',
+                'tabs' => 'visual',
+                'toolbar' => 'super1_quote',
+                'media_upload' => 0,
+                'delay' => 0,
             ),
             array(
                 'key' => 'field_super1_quote_color',
