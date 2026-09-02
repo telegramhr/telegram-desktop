@@ -10,6 +10,15 @@
 
 
 @font-face {
+  font-family: 'custom_190946';
+  font-style:  normal;
+  font-weight: 200;
+  src: url("../fonts/6a704fc1f9377fc8e9d4b527_n2.ttf") format("truetype");
+}
+
+
+
+@font-face {
   font-family: 'custom_190947';
   font-style:  normal;
   font-weight: 400;
