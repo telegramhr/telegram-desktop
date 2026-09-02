@@ -1056,21 +1056,24 @@ add_filter( 'mce_external_plugins', function ( $plugins ) {
 	return $plugins;
 } );
 
-// 3. Place the dropdown right after the "Font Family" one on the first row.
+// 3. Place the dropdown right after the block-format one (Odlomak, Međunaslov...)
+// on the first row, falling back to the "Font Family" dropdown.
 add_filter( 'mce_buttons', function ( $buttons ) {
 	$buttons = array_values( $buttons );
 	if ( in_array( 'telegram_font_size', $buttons, true ) ) {
 		return $buttons;
 	}
 
-	$position = array_search( 'fontselect', $buttons, true );
-	if ( false === $position ) {
-		array_unshift( $buttons, 'telegram_font_size' );
+	foreach ( array( 'formatselect', 'fontselect' ) as $anchor ) {
+		$position = array_search( $anchor, $buttons, true );
+		if ( false !== $position ) {
+			array_splice( $buttons, $position + 1, 0, 'telegram_font_size' );
 
-		return $buttons;
+			return $buttons;
+		}
 	}
 
-	array_splice( $buttons, $position + 1, 0, 'telegram_font_size' );
+	array_unshift( $buttons, 'telegram_font_size' );
 
 	return $buttons;
 } );
