@@ -3687,6 +3687,21 @@ random : Nasumično',
         'show_in_rest' => 0,
     ));
 
+    // Minimal WYSIWYG toolbar for the Super1 quote text: bold only.
+    add_filter('acf/fields/wysiwyg/toolbars', function ($toolbars) {
+        $toolbars['Super1 quote'] = array(1 => array('bold'));
+        return $toolbars;
+    });
+
+    // Font choices for the Super1 quote: the same custom fonts editors get in
+    // the block editor's font-family picker (see functions-shared.php).
+    $super1_quote_font_choices = array();
+    if (function_exists('telegram_get_custom_fonts')) {
+        foreach (telegram_get_custom_fonts() as $super1_quote_font) {
+            $super1_quote_font_choices[$super1_quote_font['slug']] = $super1_quote_font['name'];
+        }
+    }
+
     acf_add_local_field_group(array(
         'key' => 'group_super1_quote_block',
         'title' => 'Super1 quote',
@@ -3695,8 +3710,8 @@ random : Nasumično',
                 'key' => 'field_super1_quote_text',
                 'label' => 'Tekst',
                 'name' => 'super1_quote_text',
-                'type' => 'textarea',
-                'instructions' => '',
+                'type' => 'wysiwyg',
+                'instructions' => 'Označite dio teksta i kliknite B za podebljano.',
                 'required' => 1,
                 'conditional_logic' => 0,
                 'wrapper' => array(
@@ -3705,10 +3720,48 @@ random : Nasumično',
                     'id' => '',
                 ),
                 'default_value' => '',
-                'placeholder' => 'Unesite tekst citata...',
-                'maxlength' => '',
-                'rows' => 4,
-                'new_lines' => '',
+                'tabs' => 'visual',
+                'toolbar' => 'super1_quote',
+                'media_upload' => 0,
+                'delay' => 0,
+            ),
+            array(
+                'key' => 'field_super1_quote_color',
+                'label' => 'Boja teksta',
+                'name' => 'super1_quote_color',
+                'type' => 'color_picker',
+                'instructions' => 'Ostavite prazno za zadanu boju.',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'enable_opacity' => 0,
+                'return_format' => 'string',
+            ),
+            array(
+                'key' => 'field_super1_quote_font',
+                'label' => 'Font',
+                'name' => 'super1_quote_font',
+                'type' => 'select',
+                'instructions' => 'Ostavite prazno za zadani font (Gloock).',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'choices' => $super1_quote_font_choices,
+                'default_value' => false,
+                'allow_null' => 1,
+                'multiple' => 0,
+                'ui' => 0,
+                'return_format' => 'value',
+                'placeholder' => 'Zadani (Gloock)',
             ),
         ),
         'location' => array(
