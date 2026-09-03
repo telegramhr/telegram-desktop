@@ -1214,6 +1214,109 @@ U pravilu ostavite Normalno.',
                 'ui_on_text' => '',
                 'ui_off_text' => '',
             ),
+            // --- AI sažetak (Telegram\PortalPlugin\AiSummary) — hidden for live articles ---
+            array(
+                'key' => 'field_ai_summary_accordion',
+                'label' => 'AI sažetak',
+                'name' => '',
+                'type' => 'accordion',
+                'open' => 0,
+                'multi_expand' => 1,
+                'endpoint' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '!=',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+            ),
+            array(
+                'key' => 'field_ai_summary_button',
+                'label' => 'Generiranje',
+                'name' => '',
+                'type' => 'message',
+                'instructions' => '',
+                'message' => '<button type="button" class="button button-primary" id="telegram-generate-ai-summary">Generiraj sažetak</button> <span id="telegram-ai-summary-status" style="margin-left:8px;"></span>',
+                'new_lines' => '',
+                'esc_html' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '!=',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+            ),
+            array(
+                'key' => 'field_ai_summary',
+                'label' => 'Sažetak (3 natuknice)',
+                'name' => 'ai_summary',
+                'type' => 'textarea',
+                'instructions' => 'Generira se automatski pri objavi i nakon promjene teksta. Jedna natuknica po retku, bez točke na kraju. Ručne izmjene se čuvaju — automatsko osvježavanje tada staje dok ne kliknete "Generiraj sažetak".',
+                'required' => 0,
+                'default_value' => '',
+                'rows' => 4,
+                'new_lines' => '',
+                'maxlength' => '',
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '!=',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+            ),
+            array(
+                'key' => 'field_ai_summary_hidden',
+                'label' => 'Ne prikazuj AI sažetak',
+                'name' => 'ai_summary_hidden',
+                'type' => 'true_false',
+                'instructions' => 'Sakriva banner i sažetak na ovom članku.',
+                'ui' => 1,
+                'default_value' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '!=',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+            ),
+            array(
+                'key' => 'field_ai_summary_sources',
+                'label' => 'Izvor',
+                'name' => 'ai_summary_sources',
+                'type' => 'message',
+                'instructions' => '',
+                'message' => '',
+                'new_lines' => '',
+                'esc_html' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_5d11b23758c62',
+                            'operator' => '!=',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+            ),
+            array(
+                'key' => 'field_ai_summary_accordion_end',
+                'label' => '',
+                'name' => '',
+                'type' => 'accordion',
+                'endpoint' => 1,
+            ),
         ),
         'location' => array(
             array(
