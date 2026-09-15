@@ -978,10 +978,11 @@ add_filter( 'mce_buttons', function ( $buttons ) {
 
 /**
  * "Veličina slova" (font size) for the Classic Editor (TinyMCE).
- * Mirrors the block editor's font-size presets (S / M / L / XL): the
- * dropdown toggles the same `has-{slug}-font-size` classes on the current
- * paragraph(s), so the front-end styles classic and block content alike
- * through the WP global stylesheet.
+ * Mirrors the block editor's typography control: the presets (S / M / L / XL)
+ * toggle the same `has-{slug}-font-size` classes on the current paragraph(s),
+ * so the front-end styles classic and block content alike through the WP
+ * global stylesheet; the common px sizes and "Prilagođeno (px)…" write an
+ * inline `font-size: NNpx` like the block editor's custom px value.
  */
 
 /**
@@ -1029,6 +1030,18 @@ function telegram_get_editor_font_sizes() {
 	return array_values( $presets );
 }
 
+/**
+ * Common pixel sizes offered directly in the dropdown (below the presets,
+ * above "Prilagođeno"). Filter `telegram_editor_font_sizes_px` to change them.
+ *
+ * @return int[]
+ */
+function telegram_get_editor_font_sizes_px() {
+	$sizes = apply_filters( 'telegram_editor_font_sizes_px', array( 14, 16, 18, 20, 22, 24, 28, 32 ) );
+
+	return array_values( array_filter( array_map( 'intval', (array) $sizes ) ) );
+}
+
 // 1. Hand the presets to the TinyMCE plugin and style the size classes inside
 // the editor iframe so editors see the change. Both values are inlined into
 // the TinyMCE init object by WP without escaping, so they must not contain
@@ -1044,14 +1057,15 @@ add_filter( 'tiny_mce_before_init', function ( $settings ) {
 
 	$existing                       = isset( $settings['content_style'] ) ? $settings['content_style'] . ' ' : '';
 	$settings['content_style']      = trim( $existing . $css );
-	$settings['telegram_font_sizes'] = wp_json_encode( $sizes );
+	$settings['telegram_font_sizes']    = wp_json_encode( $sizes );
+	$settings['telegram_font_sizes_px'] = wp_json_encode( telegram_get_editor_font_sizes_px() );
 
 	return $settings;
 } );
 
 // 2. Register the TinyMCE plugin that provides the dropdown.
 add_filter( 'mce_external_plugins', function ( $plugins ) {
-	$plugins['telegram_font_size'] = get_template_directory_uri() . '/assets/js/mce-font-size.js?v=1.0';
+	$plugins['telegram_font_size'] = get_template_directory_uri() . '/assets/js/mce-font-size.js?v=1.2';
 
 	return $plugins;
 } );
