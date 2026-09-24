@@ -869,6 +869,8 @@ add_filter( 'rest_endpoints', 'my_disable_font_collections_rest_api_endpoints' )
 /**
  * Register custom fonts for the block editor.
  * Gloock (Google Fonts), Nyght Serif (self-hosted) and Clash Display (Fontshare).
+ * Also enables the "Line height" typography control on blocks that support it
+ * (paragraph, heading, list, quote...); the value is saved as an inline style.
  */
 add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_json ) {
 	return $theme_json->update_with( array(
@@ -876,6 +878,7 @@ add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_jso
 		'settings' => array(
 			'typography' => array(
 				'fontFamilies' => telegram_get_custom_fonts(),
+				'lineHeight'   => true,
 			),
 		),
 	) );
