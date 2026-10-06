@@ -20,6 +20,10 @@ function telegram_setup() {
 
     add_theme_support('post-thumbnails');
 
+    // "Široko" / "Puna širina" alignment buttons in the block editor;
+    // widths come from the theme.json layout below, front-end CSS in style.css.
+    add_theme_support( 'align-wide' );
+
     add_filter('use_default_gallery_style', '__return_false');
 }
 
@@ -879,6 +883,12 @@ add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_jso
 			'typography' => array(
 				'fontFamilies' => telegram_get_custom_fonts(),
 				'lineHeight'   => true,
+			),
+			// Mirrors .content-container (710px) and the .container grid (1200px)
+			// so the editor previews wide blocks at their front-end width.
+			'layout'     => array(
+				'contentSize' => '710px',
+				'wideSize'    => '1200px',
 			),
 		),
 	) );
