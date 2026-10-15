@@ -76,14 +76,14 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    // Default the bracket to the "Osmina finala" (Round of 16) column.
-    const OSMINA_LABEL = "osmina finala";
+    // Default the bracket to the final column, flagged server-side so this
+    // doesn't break when its visible label changes. Flickity's `contain`
+    // clamps the index to the last valid position, so on mobile (1 column)
+    // the final lands first, and on tablet/desktop it stays within the
+    // initial view without scrolling.
     const defaultRoundIndex = () => {
-      const idx = rounds.findIndex((r) => {
-        const label = r.querySelector("span")?.textContent?.trim().toLowerCase();
-        return label === OSMINA_LABEL;
-      });
-      return idx === -1 ? 0 : Math.min(idx, maxIndex());
+      const idx = rounds.findIndex((r) => r.dataset.isFinal === "1");
+      return idx === -1 ? rounds.length - 1 : idx;
     };
 
     const lastRound = rounds.length - 1;

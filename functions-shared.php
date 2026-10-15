@@ -20,6 +20,10 @@ function telegram_setup() {
 
     add_theme_support('post-thumbnails');
 
+    // "Široko" / "Puna širina" alignment buttons in the block editor;
+    // widths come from the theme.json layout below, front-end CSS in style.css.
+    add_theme_support( 'align-wide' );
+
     add_filter('use_default_gallery_style', '__return_false');
 }
 
@@ -182,14 +186,14 @@ function telegram_trim($content, $id = 0) {
     if ( $id ) {
         $post = get_post_type($id);
         $cat = get_the_category($id);
-        $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>([^<]*)<\/a>/i', function ($m) use ($post, $cat, $id) {
+        $content = preg_replace_callback('/<a([^>]*)href=["|\']([^"|\']*)["|\'][^>]*>(.*?)<\/a>/i', function ($m) use ($post, $cat, $id) {
             if (strpos($m[2], "www.telegram.hr") === false) {
                 if ($post === 'partneri' || ($cat && $cat[0]->slug === 'promo')) {
                     $rel = 'sponsored';
                 } else {
                     $rel = 'nofollow noopener noreferrer';
                 }
-                if (in_array($id, [3134726, 3090648, 3102688, 2763218, 2737012, 2727750, 2719271, 2697008, 2633301, 2628482,2616854, 2616789, 2586227, 2440142, 2393151, 2373566, 2384343,2388443, 1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246, 2355120, 2373566, 3083814])) {
+                if (in_array($id, [3238827, 3229669, 3212085, 3202630, 3197505, 3190766, 3114335, 3118453, 3134726, 3090648, 3102688, 2763218, 2737012, 2727750, 2719271, 2697008, 2633301, 2628482,2616854, 2616789, 2586227, 2440142, 2393151, 2373566, 2384343,2388443, 1733848, 1733874, 1732851, 1768545, 1808006, 1808023, 1808011, 1837766, 1839950, 1850741, 1866509, 1891441, 1898612, 1929302,1957325, 1982562, 1990700, 2014673,2021770, 2049906, 2151405, 2220119, 2245739, 2273990, 2307537, 1624246, 2355120, 2373566, 3083814])) {
                     $rel = '';
                 }
                 if (strpos($m[2], 'superprostor.hr')) {
@@ -869,6 +873,8 @@ add_filter( 'rest_endpoints', 'my_disable_font_collections_rest_api_endpoints' )
 /**
  * Register custom fonts for the block editor.
  * Gloock (Google Fonts), Nyght Serif (self-hosted) and Clash Display (Fontshare).
+ * Also enables the "Line height" typography control on blocks that support it
+ * (paragraph, heading, list, quote...); the value is saved as an inline style.
  */
 add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_json ) {
 	return $theme_json->update_with( array(
@@ -876,6 +882,13 @@ add_filter( 'wp_theme_json_data_theme', function ( WP_Theme_JSON_Data $theme_jso
 		'settings' => array(
 			'typography' => array(
 				'fontFamilies' => telegram_get_custom_fonts(),
+				'lineHeight'   => true,
+			),
+			// Mirrors .content-container (710px) and the .container grid (1200px)
+			// so the editor previews wide blocks at their front-end width.
+			'layout'     => array(
+				'contentSize' => '710px',
+				'wideSize'    => '1200px',
 			),
 		),
 	) );
@@ -978,10 +991,11 @@ add_filter( 'mce_buttons', function ( $buttons ) {
 
 /**
  * "Veličina slova" (font size) for the Classic Editor (TinyMCE).
- * Mirrors the block editor's font-size presets (S / M / L / XL): the
- * dropdown toggles the same `has-{slug}-font-size` classes on the current
- * paragraph(s), so the front-end styles classic and block content alike
- * through the WP global stylesheet.
+ * Mirrors the block editor's typography control: the presets (S / M / L / XL)
+ * toggle the same `has-{slug}-font-size` classes on the current paragraph(s),
+ * so the front-end styles classic and block content alike through the WP
+ * global stylesheet; the common px sizes and "Prilagođeno (px)…" write an
+ * inline `font-size: NNpx` like the block editor's custom px value.
  */
 
 /**
@@ -1029,6 +1043,18 @@ function telegram_get_editor_font_sizes() {
 	return array_values( $presets );
 }
 
+/**
+ * Common pixel sizes offered directly in the dropdown (below the presets,
+ * above "Prilagođeno"). Filter `telegram_editor_font_sizes_px` to change them.
+ *
+ * @return int[]
+ */
+function telegram_get_editor_font_sizes_px() {
+	$sizes = apply_filters( 'telegram_editor_font_sizes_px', array( 14, 16, 18, 20, 22, 24, 28, 32 ) );
+
+	return array_values( array_filter( array_map( 'intval', (array) $sizes ) ) );
+}
+
 // 1. Hand the presets to the TinyMCE plugin and style the size classes inside
 // the editor iframe so editors see the change. Both values are inlined into
 // the TinyMCE init object by WP without escaping, so they must not contain
@@ -1044,14 +1070,15 @@ add_filter( 'tiny_mce_before_init', function ( $settings ) {
 
 	$existing                       = isset( $settings['content_style'] ) ? $settings['content_style'] . ' ' : '';
 	$settings['content_style']      = trim( $existing . $css );
-	$settings['telegram_font_sizes'] = wp_json_encode( $sizes );
+	$settings['telegram_font_sizes']    = wp_json_encode( $sizes );
+	$settings['telegram_font_sizes_px'] = wp_json_encode( telegram_get_editor_font_sizes_px() );
 
 	return $settings;
 } );
 
 // 2. Register the TinyMCE plugin that provides the dropdown.
 add_filter( 'mce_external_plugins', function ( $plugins ) {
-	$plugins['telegram_font_size'] = get_template_directory_uri() . '/assets/js/mce-font-size.js?v=1.0';
+	$plugins['telegram_font_size'] = get_template_directory_uri() . '/assets/js/mce-font-size.js?v=1.2';
 
 	return $plugins;
 } );
