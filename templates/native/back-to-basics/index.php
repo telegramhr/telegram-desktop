@@ -6,7 +6,7 @@
     <?php wp_head(); ?>
     <meta charSet="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="generator" content="Readymag" data-project="6484256" data-user="u275768050" data-is-exported="true" data-exported-at="1791208233084" />
+    <meta name="generator" content="Readymag" data-project="6484256" data-user="u275768050" data-is-exported="true" data-exported-at="1792588127199" />
     <meta name="referrer" content="always" />
     <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,minimal-ui" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -25,15 +25,15 @@
     <meta name="twitter:site" content="@readymag" />
     <meta name="description" content="Super1 vodič" />
     <meta content="Back to Basics" property="og:site_name" />
-    <meta content="img/683d850bd2094940857eb894/6484256/ZqsMmW3K7D8fpw7N_tkjP.jpg" property="og:image" />
+    <meta content="img/683d850bd2094940857eb894/6484256/k5R-V5pw4OrtdIrJbMT9c.jpg" property="og:image" />
     <meta content="Back to Basics | Readymag" property="og:title" />
     <meta content="Super1 vodič" property="og:description" />
     <base href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/" />
     <script type="importmap">
-        {"imports":{"https://st-p.rmcdn1.net/369c09a3/":"/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/"}}
+        {"imports":{"https://st-p.rmcdn1.net/436e810b/":"/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/"}}
     </script>
     <link rel="stylesheet" type="text/css" href="dist/css/custom_fonts.css" />
-    <script type="application/json" data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/369c09a3/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-fa2b9f80-fdf6-47d0-b0d7-d9fb74cbd83e&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e3&quot;},{&quot;name&quot;:&quot;style-7e58b1eb-10bd-4254-8191-481fa247e3e1&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e4&quot;},{&quot;name&quot;:&quot;style-46c1910f-6109-48e2-bff7-b3d019b3cbba&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e5&quot;},{&quot;name&quot;:&quot;style-86722664-4a82-48b3-9d18-9cd3ad3608ad&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e6&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;09FF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00FF1564&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;6a7096b69eb5d008de1e908b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0DFF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0DFF0050&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;6a830a148eee90cd7d334d21&quot;}]},&quot;_id&quot;:&quot;6a70a4ec0315e44c9ae7fdda&quot;,&quot;num_id&quot;:6484256,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;creation_date&quot;:&quot;2026-08-03T13:25:09.109Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;]},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typetoday&quot;,&quot;css_name&quot;:&quot;Druk Wide&quot;,&quot;name&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:false,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-10-05T13:29:30.721Z&quot;,&quot;last_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;mid&quot;:&quot;6a7096b5444ea95623a9d409&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:7885,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:31044441,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f99f85eb-00f7-4c50-b467-9699845042b7_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg&quot;,&quot;height&quot;:25852,&quot;type&quot;:&quot;scroll&quot;},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-07-31T19:13:44.509Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;updated&quot;:&quot;2026-10-05T13:29:31.876Z&quot;,&quot;uri&quot;:&quot;6484256&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;picture&quot;,&quot;text&quot;,&quot;button&quot;,&quot;slideshow&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[&quot;custom_190945&quot;,&quot;custom_190947&quot;,&quot;custom_190946&quot;,&quot;custom_190948&quot;],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[],&quot;used_typetoday_fonts&quot;:[{&quot;id&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Presshaus d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:1052,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;click&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true},&quot;prevPubVersionId&quot;:&quot;6abbc2a5615ac6fbfcc0eb5b&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js&quot;,&quot;title&quot;:&quot;Back to Basics&quot;,&quot;description&quot;:&quot;Super1 vodič&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f99f85eb-00f7-4c50-b467-9699845042b7_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/back-to-basics-jesen-2026&quot;}"
+    <script type="application/json" data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/436e810b/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-fa2b9f80-fdf6-47d0-b0d7-d9fb74cbd83e&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e3&quot;},{&quot;name&quot;:&quot;style-7e58b1eb-10bd-4254-8191-481fa247e3e1&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e4&quot;},{&quot;name&quot;:&quot;style-46c1910f-6109-48e2-bff7-b3d019b3cbba&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e5&quot;},{&quot;name&quot;:&quot;style-86722664-4a82-48b3-9d18-9cd3ad3608ad&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e6&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;09FF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00FF1564&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;6a7096b69eb5d008de1e908b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0DFF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0DFF0050&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;6a830a148eee90cd7d334d21&quot;}]},&quot;_id&quot;:&quot;6a70a4ec0315e44c9ae7fdda&quot;,&quot;num_id&quot;:6484256,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;creation_date&quot;:&quot;2026-08-03T13:25:09.109Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;]},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typetoday&quot;,&quot;css_name&quot;:&quot;Druk Wide&quot;,&quot;name&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:false,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-10-21T11:57:24.960Z&quot;,&quot;last_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;mid&quot;:&quot;6a7096b5444ea95623a9d409&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:8077,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:31044441,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg&quot;,&quot;height&quot;:26326,&quot;type&quot;:&quot;scroll&quot;},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-07-31T19:13:44.509Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;updated&quot;:&quot;2026-10-21T11:57:26.082Z&quot;,&quot;uri&quot;:&quot;6484256&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;picture&quot;,&quot;text&quot;,&quot;button&quot;,&quot;slideshow&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[&quot;custom_190945&quot;,&quot;custom_190947&quot;,&quot;custom_190946&quot;,&quot;custom_190948&quot;],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[],&quot;used_typetoday_fonts&quot;:[{&quot;id&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Presshaus d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:1060,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;click&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true},&quot;prevPubVersionId&quot;:&quot;6ac3a63da58dceba42cb66fb&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js&quot;,&quot;title&quot;:&quot;Back to Basics&quot;,&quot;description&quot;:&quot;Super1 vodič&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/back-to-basics-jesen-2026&quot;}"
         id="__RM_PROPS__"></script>
     <script>
         var RM = window.RM = window.RM || {};
@@ -370,7 +370,7 @@
                         "flags": {
                             "useOriginalViewBoxSVG": true
                         },
-                        "z": 1061,
+                        "z": 1069,
                         "cropH": 466,
                         "cropW": 436,
                         "cropX": 564,
@@ -383,11 +383,11 @@
                         "originalW": 1000,
                         "picture": {
                             "type": "png",
-                            "unscaledUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png",
-                            "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                            "lqipUrl": "img/683d850bd2094940857eb894/6484256/CuntiihQuQxQzIwlwaIh5.png",
-                            "finalUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                            "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png"
+                            "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png",
+                            "final2xUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                            "lqipUrl": "img/683d850bd2094940857eb894/6484256/0kqrqGJKBJbvxPcy90mdQ.png",
+                            "finalUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                            "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png"
                         },
                         "scale": 0.163,
                         "blurHash": "U50L5-eXY[l3g0f7e;fjUkgJlyZna4fjg0e;",
@@ -474,7 +474,7 @@
                             "y": 107.07,
                             "w": 31.02,
                             "h": 33,
-                            "z": 1062,
+                            "z": 1070,
                             "cropH": 464,
                             "cropW": 436,
                             "cropX": 564,
@@ -485,11 +485,11 @@
                             "originalCropY": 448,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IpHmpHGDFmC85m2ueLs2_.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7RmYpnjz-v6nIwgymt21W.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/SsQSmuWWLLPhz5YXLaB1E.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7RmYpnjz-v6nIwgymt21W.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IpHmpHGDFmC85m2ueLs2_.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AUfLf9tTuHXl-6i8mQgu0.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/BOfrIceaow_hW-PY-X-WH.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/bxrM57GgbkQn89oJY1--Q.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/BOfrIceaow_hW-PY-X-WH.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AUfLf9tTuHXl-6i8mQgu0.png"
                             },
                             "angle": 270,
                             "hidden": true,
@@ -505,10 +505,10 @@
                             }],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1062
+                                "value": 1070
                             }, {
                                 "pid": "default",
-                                "value": 1062
+                                "value": 1070
                             }]
                         },
                         "hidden": true,
@@ -516,10 +516,10 @@
                         "_hidden": [],
                         "_z": [{
                             "pid": "6a7096b5444ea95623a9d40e",
-                            "value": 1061
+                            "value": 1069
                         }, {
                             "pid": "default",
-                            "value": 1061
+                            "value": 1069
                         }],
                         "fixed_position": "c",
                         "is_global": true,
@@ -549,7 +549,7 @@
                         "sides": 3,
                         "weight": 1,
                         "stroke": "solid",
-                        "z": 1062,
+                        "z": 1070,
                         "hidden": true,
                         "viewport_phone_portrait": {
                             "borders": 1,
@@ -559,7 +559,7 @@
                             "y": 103.08,
                             "w": 26,
                             "h": 26,
-                            "z": 1061,
+                            "z": 1069,
                             "hidden": true,
                             "sticked": "",
                             "fixed_position": "se",
@@ -572,10 +572,10 @@
                             }],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1061
+                                "value": 1069
                             }, {
                                 "pid": "default",
-                                "value": 1061
+                                "value": 1069
                             }]
                         },
                         "name": "",
@@ -583,10 +583,10 @@
                         "_hidden": [],
                         "_z": [{
                             "pid": "6a7096b5444ea95623a9d40e",
-                            "value": 1062
+                            "value": 1070
                         }, {
                             "pid": "default",
-                            "value": 1062
+                            "value": 1070
                         }],
                         "fixed_position": "c",
                         "is_global": true,
@@ -787,7 +787,7 @@
                     "is_mag_use_page_order": true,
                     "is_private": false,
                     "is_published": true,
-                    "last_changed": "2026-10-05T13:29:30.721Z",
+                    "last_changed": "2026-10-21T11:57:24.960Z",
                     "last_published": "2026-08-03T14:25:48.619Z",
                     "likers": [],
                     "master_share_pid": null,
@@ -836,11 +836,11 @@
                             "originalW": 2664,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ypAd95t3ucxhwPraUB-6k.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/GhITI8IoVg9137_0m3xc_.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/TWqtgsMSH2bZ_lRGfEaoD.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/GhITI8IoVg9137_0m3xc_.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ypAd95t3ucxhwPraUB-6k.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/rxNajh8HaTAhFKfcJQ8l5.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/JoyTgQHEmQCNy5QeTjvQ1.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/itGTBw_Axem_kDhiSruFr.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/JoyTgQHEmQCNy5QeTjvQ1.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/rxNajh8HaTAhFKfcJQ8l5.jpg"
                             },
                             "blurHash": "U2Fib~009$9ZO_0000M_~R?v=|sm00$*_3IA",
                             "name": "",
@@ -910,11 +910,11 @@
                                 "z": 312,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ypAd95t3ucxhwPraUB-6k.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/GhITI8IoVg9137_0m3xc_.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/TWqtgsMSH2bZ_lRGfEaoD.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/GhITI8IoVg9137_0m3xc_.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ypAd95t3ucxhwPraUB-6k.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/rxNajh8HaTAhFKfcJQ8l5.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/JoyTgQHEmQCNy5QeTjvQ1.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/itGTBw_Axem_kDhiSruFr.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/JoyTgQHEmQCNy5QeTjvQ1.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/rxNajh8HaTAhFKfcJQ8l5.jpg"
                                 }
                             },
                             "__v": 0
@@ -1322,7 +1322,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1048
+                                "z": 1056
                             },
                             "__v": 0
                         }, {
@@ -1470,7 +1470,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1049
+                                "z": 1057
                             },
                             "__v": 0
                         }, {
@@ -1618,7 +1618,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1050
+                                "z": 1058
                             },
                             "__v": 0
                         }, {
@@ -1647,11 +1647,11 @@
                             "originalW": 1000,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/CuntiihQuQxQzIwlwaIh5.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/0kqrqGJKBJbvxPcy90mdQ.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png"
                             },
                             "scale": 0.163,
                             "blurHash": "U50L5-eXY[l3g0f7e;fjUkgJlyZna4fjg0e;",
@@ -1738,11 +1738,11 @@
                                 "z": 316,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/CuntiihQuQxQzIwlwaIh5.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0kqrqGJKBJbvxPcy90mdQ.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png"
                                 }
                             },
                             "__v": 0
@@ -2280,11 +2280,11 @@
                             "z": 310,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/NBPqwKiD41hTekQsPsDpC.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/MApVZfAhP-Z2oAcUV2fIE.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/VOhpTFxqZh0PkDLonSNW9.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/MApVZfAhP-Z2oAcUV2fIE.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/NBPqwKiD41hTekQsPsDpC.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/D4bxet4hT5v-CxxmtLE8I.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/y1BmrNqjGh5t9paPNZTxJ.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/_JiAN5Va1z9VvXlXyGWiM.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/y1BmrNqjGh5t9paPNZTxJ.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/D4bxet4hT5v-CxxmtLE8I.png"
                             },
                             "cropW": 1560,
                             "cropH": 1600,
@@ -2379,11 +2379,11 @@
                                 "z": 321,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/NBPqwKiD41hTekQsPsDpC.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/MApVZfAhP-Z2oAcUV2fIE.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/VOhpTFxqZh0PkDLonSNW9.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/MApVZfAhP-Z2oAcUV2fIE.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/NBPqwKiD41hTekQsPsDpC.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/D4bxet4hT5v-CxxmtLE8I.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/y1BmrNqjGh5t9paPNZTxJ.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/_JiAN5Va1z9VvXlXyGWiM.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/y1BmrNqjGh5t9paPNZTxJ.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/D4bxet4hT5v-CxxmtLE8I.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/look/polo-harrington-jakna-dua-lipa/",
@@ -3204,11 +3204,11 @@
                             "blurHash": "UtH.HI%M_4kDD%t7ofoeWXRjWBt7s:ofayRk",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/oBemad5vElkLcblu_o8iZ.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/qlYccHWkMEQKoUFlnJ-Pt.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/S0R0O_Q4ujaiAoZaNQlDs.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/qlYccHWkMEQKoUFlnJ-Pt.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/oBemad5vElkLcblu_o8iZ.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_8p05u6oa1FeeaP_2U0a2.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/WIDjomUqaLMA35XLslzVA.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/AKrs4bKavQiT-tFVX3Mv1.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/WIDjomUqaLMA35XLslzVA.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_8p05u6oa1FeeaP_2U0a2.png"
                             },
                             "name": "",
                             "animation": [{
@@ -3291,11 +3291,11 @@
                                 "z": 328,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/oBemad5vElkLcblu_o8iZ.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qlYccHWkMEQKoUFlnJ-Pt.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/S0R0O_Q4ujaiAoZaNQlDs.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qlYccHWkMEQKoUFlnJ-Pt.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/oBemad5vElkLcblu_o8iZ.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_8p05u6oa1FeeaP_2U0a2.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/WIDjomUqaLMA35XLslzVA.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/AKrs4bKavQiT-tFVX3Mv1.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/WIDjomUqaLMA35XLslzVA.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_8p05u6oa1FeeaP_2U0a2.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/nova-mango-torba-chanel-dupe/",
@@ -4211,11 +4211,11 @@
                             "z": 325,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AcvFXTI8R0WlQh9qVQ3D-.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/zUV1CFmqStFXMtnmelwoa.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/vHXJvmzANc4d67uRsr_dm.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/zUV1CFmqStFXMtnmelwoa.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AcvFXTI8R0WlQh9qVQ3D-.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/hKRwVoDNIsfR6JcWIt9N-.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/63J5kRNeZE2C7l1tzKqoY.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/CSSgcg0VB7brD83Owv5d2.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/63J5kRNeZE2C7l1tzKqoY.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/hKRwVoDNIsfR6JcWIt9N-.png"
                             },
                             "cropW": 744,
                             "cropH": 946,
@@ -4296,11 +4296,11 @@
                                 "z": 336,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AcvFXTI8R0WlQh9qVQ3D-.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/zUV1CFmqStFXMtnmelwoa.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/vHXJvmzANc4d67uRsr_dm.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/zUV1CFmqStFXMtnmelwoa.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AcvFXTI8R0WlQh9qVQ3D-.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/hKRwVoDNIsfR6JcWIt9N-.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/63J5kRNeZE2C7l1tzKqoY.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/CSSgcg0VB7brD83Owv5d2.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/63J5kRNeZE2C7l1tzKqoY.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/hKRwVoDNIsfR6JcWIt9N-.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/beauty/manikure-iz-devedesetih-inspiracija/",
@@ -4970,11 +4970,11 @@
                             "scale": 0.20825,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/A0axwecP8Uq-LxpRE-tr_.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/bPEetm9Z2d74_ijK6Y2ff.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/j0OjeJvPlF_-N_4GO3HAF.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/bPEetm9Z2d74_ijK6Y2ff.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/A0axwecP8Uq-LxpRE-tr_.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DxDZYimUihIB8mfjEz_Rq.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7-_irgLzufmfLS_SH8XUs.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/PSsSGllkiG-lybJCPKpDV.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7-_irgLzufmfLS_SH8XUs.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DxDZYimUihIB8mfjEz_Rq.png"
                             },
                             "cropW": 711,
                             "cropH": 946,
@@ -5054,11 +5054,11 @@
                                 "z": 342,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/A0axwecP8Uq-LxpRE-tr_.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/bPEetm9Z2d74_ijK6Y2ff.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/j0OjeJvPlF_-N_4GO3HAF.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/bPEetm9Z2d74_ijK6Y2ff.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/A0axwecP8Uq-LxpRE-tr_.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DxDZYimUihIB8mfjEz_Rq.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7-_irgLzufmfLS_SH8XUs.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/PSsSGllkiG-lybJCPKpDV.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7-_irgLzufmfLS_SH8XUs.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DxDZYimUihIB8mfjEz_Rq.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/najbolji-parfemi-s-notom-sandalovine/",
@@ -6614,11 +6614,11 @@
                             "originalW": 1200,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/kmiyc6WxnI4LH1-F9adbt.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/juTRJ4mdoByaqGJhPQKTu.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg"
                             },
                             "scale": 0.07666666666666666,
                             "hidden": false,
@@ -6643,11 +6643,11 @@
                                 "z": 302,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/kmiyc6WxnI4LH1-F9adbt.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/juTRJ4mdoByaqGJhPQKTu.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg"
                                 }
                             },
                             "viewport_tablet_portrait": {
@@ -6679,11 +6679,11 @@
                                 "cropH": 1801.904761904762,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/utBzrtOLNo_kUCKnIYjOL.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/alsXDQdT2fFK5GXolPge6.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/iEQ_oOiP4udpx4k7zTyLh.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/alsXDQdT2fFK5GXolPge6.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/utBzrtOLNo_kUCKnIYjOL.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/4jjNn4H99WitGnfCKIhP4.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/hw63UjtXYzP3b9FK8yS8j.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/9VQPn_5XvBqgdqeY1NFp9.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/hw63UjtXYzP3b9FK8yS8j.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/4jjNn4H99WitGnfCKIhP4.jpg"
                                 },
                                 "originalW": 1200,
                                 "originalH": 1500,
@@ -6778,11 +6778,11 @@
                             "originalW": 2664,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/VteC8MW58L9319Fv_EQ0d.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/l-FP_r3WIS2o4mRk06mXq.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg"
                             },
                             "scale": 0.06785714285714285,
                             "hidden": false,
@@ -6807,11 +6807,11 @@
                                 "z": 303,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/VteC8MW58L9319Fv_EQ0d.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/l-FP_r3WIS2o4mRk06mXq.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg"
                                 }
                             },
                             "viewport_tablet_portrait": {
@@ -6843,11 +6843,11 @@
                                 "cropH": 1680,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/J4NuYfNCyP6NQR02_abOz.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/3McUWHAV_4i7ZzYzc03hp.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/UlDUjUx4YODqLgGMqRbR1.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/3McUWHAV_4i7ZzYzc03hp.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/J4NuYfNCyP6NQR02_abOz.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/yAHHHWVyA8C1Vpel4hLg5.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/wEmQJxOKY3AmD2knZaFqY.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/FBKwE4P8jdZwU7V6I28h6.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/wEmQJxOKY3AmD2knZaFqY.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/yAHHHWVyA8C1Vpel4hLg5.jpg"
                                 },
                                 "originalW": 2664,
                                 "originalH": 1680,
@@ -6942,11 +6942,11 @@
                             "originalW": 1200,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/eAywM9dqaY5GiSHQzR1Va.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/iSuTsLlv3ghzNPaYwjgVw.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg"
                             },
                             "scale": 0.08370044052863436,
                             "hidden": false,
@@ -6971,11 +6971,11 @@
                                 "z": 304,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/eAywM9dqaY5GiSHQzR1Va.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/iSuTsLlv3ghzNPaYwjgVw.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg"
                                 }
                             },
                             "viewport_tablet_portrait": {
@@ -7007,11 +7007,11 @@
                                 "cropH": 1362,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-dpgD_unPVG_K7OPIQjp8.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/EHYSP59TTRjxnnxdVIOOF.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/3MF1-F-cQNXL0dsx4Tn6D.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/EHYSP59TTRjxnnxdVIOOF.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-dpgD_unPVG_K7OPIQjp8.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UGae6IRY6zPNf4gB0HIQ4.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/A709o1whZuoCM3ZAU4bxW.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/6_R5c93haKcvl1sYhkU3u.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/A709o1whZuoCM3ZAU4bxW.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UGae6IRY6zPNf4gB0HIQ4.jpg"
                                 },
                                 "originalW": 1200,
                                 "originalH": 1362,
@@ -7108,11 +7108,11 @@
                             "originalW": 1440,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/pGa_2-zm3XykOtsAHWpcS.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZG81UPN5EnP02K9qEzk_I.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg"
                             },
                             "scale": 0.06388888888888888,
                             "hidden": false,
@@ -7137,11 +7137,11 @@
                                 "z": 305,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/pGa_2-zm3XykOtsAHWpcS.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZG81UPN5EnP02K9qEzk_I.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg"
                                 }
                             },
                             "viewport_tablet_portrait": {
@@ -7177,11 +7177,11 @@
                                 "cropH": 2169.171974522293,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/cvyStZUHotnAdsm3NK4S5.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/0zh6Or15VvmKOeUdvb5Ir.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/mfIbdC-nskYjlSijiv0xo.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/0zh6Or15VvmKOeUdvb5Ir.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/cvyStZUHotnAdsm3NK4S5.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Sn5s-dcOI0-cDpgV1HLWu.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/wBHw9gZIv6JRaJbHmeIC6.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/HXr5RADaTY_9sWw8jiPdm.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/wBHw9gZIv6JRaJbHmeIC6.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Sn5s-dcOI0-cDpgV1HLWu.jpg"
                                 },
                                 "originalW": 1440,
                                 "originalH": 1799
@@ -7273,11 +7273,11 @@
                             "originalW": 3024,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/0_-7dCRpKt-2qLo0RE-dI.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/fC3M4QbOPHl4rRwT7Dohh.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg"
                             },
                             "scale": 0.03042328042328042,
                             "hidden": false,
@@ -7302,11 +7302,11 @@
                                 "z": 306,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0_-7dCRpKt-2qLo0RE-dI.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/fC3M4QbOPHl4rRwT7Dohh.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg"
                                 }
                             },
                             "viewport_tablet_portrait": {
@@ -7338,11 +7338,11 @@
                                 "cropH": 4540.8,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uBO_jpxs5YC2caHCPi3o4.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/cqHcCp2Zk4x7aMCKIb-hU.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/j8w-7Y9LJn2AW0uESyL6g.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/cqHcCp2Zk4x7aMCKIb-hU.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uBO_jpxs5YC2caHCPi3o4.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/MDJIWvOhw-fPBFu8NE9Wm.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/YiETx41jhXOi6SjN0MkyV.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/qMal9eXV8tR5U8YovfzBe.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/YiETx41jhXOi6SjN0MkyV.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/MDJIWvOhw-fPBFu8NE9Wm.jpg"
                                 },
                                 "originalW": 3024,
                                 "originalH": 4032,
@@ -7432,11 +7432,11 @@
                             "z": 346,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/1DmJ_msLCF6PO_YwXNkOB.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/RaVm-pf7rssIbqWYeGKlE.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg"
                             },
                             "cropW": 736,
                             "cropH": 912,
@@ -7476,11 +7476,11 @@
                                 "scale": 0.42934782608695654,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/CDGh1fnr3TE5Kwga-R6vk.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/uvSeYGdjaGIP3xplPkhSt.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/uu8b7-jK8fncPPi65I8Sd.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/uvSeYGdjaGIP3xplPkhSt.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/CDGh1fnr3TE5Kwga-R6vk.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-FfHWlirozU06cDcrXzDh.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/onIRpEmBMen-tE0PeHY_u.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/zTJwurAIyk79X704jTfH0.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/onIRpEmBMen-tE0PeHY_u.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-FfHWlirozU06cDcrXzDh.jpg"
                                 },
                                 "cropW": 736,
                                 "cropH": 1101.6708860759493,
@@ -7511,11 +7511,11 @@
                                 "z": 307,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/1DmJ_msLCF6PO_YwXNkOB.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/RaVm-pf7rssIbqWYeGKlE.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg"
                                 }
                             },
                             "blurHash": "UWODtQRj_3-;_3xuRjWB~qxuIUV[NGM{RjkC",
@@ -7595,11 +7595,11 @@
                             "z": 347,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/wh1xP7NUb0PZ7HeH_t6DV.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/0QWEo_zwqB5sjuREuqv4Y.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg"
                             },
                             "cropW": 736,
                             "cropH": 912,
@@ -7639,11 +7639,11 @@
                                 "scale": 0.42934782608695654,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/rV_G3MHwn2TkCbGk9SXJG.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/L7DQuQirGJypqO1lvafSS.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/btp2kN31WoZt5-pkB3zIX.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/L7DQuQirGJypqO1lvafSS.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/rV_G3MHwn2TkCbGk9SXJG.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/brmYJCES_Ki2JfuIkU4la.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/BSAkCuYPCK9exDyKL3HVp.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/PyXP53TTxeGbbmjZOumHL.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/BSAkCuYPCK9exDyKL3HVp.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/brmYJCES_Ki2JfuIkU4la.jpg"
                                 },
                                 "cropW": 736,
                                 "cropH": 1101.6708860759493,
@@ -7674,11 +7674,11 @@
                                 "z": 308,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/wh1xP7NUb0PZ7HeH_t6DV.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0QWEo_zwqB5sjuREuqv4Y.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg"
                                 }
                             },
                             "blurHash": "UFG]5O~p.8M{?a%MV[x]9ZWAs:ogxtV@xuof",
@@ -7758,11 +7758,11 @@
                             "z": 348,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tm3AW8Q5b1GnoG5cgl5v3.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/lbFuhv1RZiEx_4EYu_-zU.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg"
                             },
                             "cropW": 624,
                             "cropH": 773.2173913043478,
@@ -7802,11 +7802,11 @@
                                 "scale": 0.23372781065088757,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/HMVy-MymJ5_5MoZk1W9xm.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/nIFXA_AfxY1MqqPedGaD3.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/xEZnQY6a1eFS0FOPqd4Zi.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/nIFXA_AfxY1MqqPedGaD3.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/HMVy-MymJ5_5MoZk1W9xm.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/6GfyTXljdnhbkSEfNoVcH.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/nU4pJnz0pQxiIMjbQOBSG.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/QqHpSxi4tJsXRHKa8fWnG.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/nU4pJnz0pQxiIMjbQOBSG.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/6GfyTXljdnhbkSEfNoVcH.jpg"
                                 },
                                 "cropW": 1352,
                                 "cropH": 2023.7215189873418,
@@ -7837,11 +7837,11 @@
                                 "z": 309,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tm3AW8Q5b1GnoG5cgl5v3.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/lbFuhv1RZiEx_4EYu_-zU.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg"
                                 }
                             },
                             "blurHash": "UjOD:;s:~q%f-;jbRjof_4kCD%aeWVa{ofay",
@@ -7921,11 +7921,11 @@
                             "z": 349,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/OrXiC1uGkdCqgkHnbAUPz.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/lz73nra9z83LRVRE8RRT5.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg"
                             },
                             "cropW": 736,
                             "cropH": 912,
@@ -7965,11 +7965,11 @@
                                 "scale": 0.48216106014271154,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Dye12wBN-Q1y3cJav9L6R.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/GRfO1_VhzMjCmUQuLFl7k.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/REUwCyJ31dO-QqN8D-ON_.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/GRfO1_VhzMjCmUQuLFl7k.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Dye12wBN-Q1y3cJav9L6R.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dB7z332owfeQUKNJwAupP.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Ox0-ToVAU-9JHbmeJqMI1.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/-fAYC2x5LLY-i8abfSwbW.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Ox0-ToVAU-9JHbmeJqMI1.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dB7z332owfeQUKNJwAupP.jpg"
                                 },
                                 "cropW": 655.3826638477801,
                                 "cropH": 981,
@@ -8000,11 +8000,11 @@
                                 "z": 310,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/OrXiC1uGkdCqgkHnbAUPz.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/lz73nra9z83LRVRE8RRT5.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg"
                                 }
                             },
                             "blurHash": "UKQvXZ-;~q?bNFt7%MR*?bWBM{WBxuRkj[s:",
@@ -8084,11 +8084,11 @@
                             "z": 350,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/2qpWMWjwo8hrkA2jPCfQb.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/TZgkX9UOMfyYaIdS7mHmB.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg"
                             },
                             "cropW": 431.7543859649123,
                             "cropH": 535,
@@ -8128,11 +8128,11 @@
                                 "scale": 0.8841121495327103,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/g2erY9dBrqYaN0YWeMy81.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/pB3hN9O1tQzqFonAHtVom.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZxF9dZPRCDShCXGDx1cO-.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/pB3hN9O1tQzqFonAHtVom.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/g2erY9dBrqYaN0YWeMy81.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/pqy7UdE9H4QF3APxC4Rsl.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7ZSVI9_S6PlwPXm-VPmLs.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Wgl4Izaj4tZ7fZsq2LVF2.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7ZSVI9_S6PlwPXm-VPmLs.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/pqy7UdE9H4QF3APxC4Rsl.jpg"
                                 },
                                 "cropW": 357.4207188160676,
                                 "cropH": 535,
@@ -8163,11 +8163,11 @@
                                 "z": 311,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/2qpWMWjwo8hrkA2jPCfQb.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/TZgkX9UOMfyYaIdS7mHmB.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg"
                                 }
                             },
                             "blurHash": "UjNwp1xu?v%M?IRjWCt7~qoMIAoeNFtRayRi",
@@ -9653,11 +9653,11 @@
                                 "originalCropY": 448,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/CuntiihQuQxQzIwlwaIh5.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0kqrqGJKBJbvxPcy90mdQ.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png"
                                 },
                                 "angle": 90,
                                 "hidden": false
@@ -10434,11 +10434,11 @@
                                 "cropY": 124,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AkM-hRzTkwI2jjSzTAH2p.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/9rn3BslThQoqTJBqTiR5D.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/3YZHnd9nER5F4jDEI8uoD.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/9rn3BslThQoqTJBqTiR5D.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AkM-hRzTkwI2jjSzTAH2p.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Ahu0w54-jqULbFgU85Yrr.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1_aaB21Eo83wwRn_r_wrg.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/T3FoTTgAKDIc54ppGBoo2.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1_aaB21Eo83wwRn_r_wrg.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Ahu0w54-jqULbFgU85Yrr.jpg"
                                 },
                                 "originalCropW": 938.8753056234718,
                                 "originalCropH": 1500,
@@ -10546,11 +10546,11 @@
                                 "cropY": 139,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/OftHFMuarPBYJr2FWdnKy.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/5nl0sk2CAfJkSR7ev65H6.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/AyGYbyZ0-zcfs8xSNt24v.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/5nl0sk2CAfJkSR7ev65H6.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/OftHFMuarPBYJr2FWdnKy.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/XRTN9p963Da8WWZJ56Q5h.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1n6Y5XG0YBXj9nUMumdWj.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/3-28IBTYX92qaLBIIRD9R.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1n6Y5XG0YBXj9nUMumdWj.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/XRTN9p963Da8WWZJ56Q5h.jpg"
                                 },
                                 "originalCropW": 1051.5403422982886,
                                 "originalCropH": 1680,
@@ -10658,11 +10658,11 @@
                                 "cropY": 113,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/0vUi4C4sF8hIFJrPRs7G0.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qnNfkyh5tXjFcoXQllZ4e.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/cywandJxzpHsa_Xfzz3aA.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qnNfkyh5tXjFcoXQllZ4e.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/0vUi4C4sF8hIFJrPRs7G0.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DYb8z69mYV9qYld4JjHWn.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/m5st-6F3gDIRj1dEcLIPN.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/vXn8RYUS-ampaMqX7yWWH.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/m5st-6F3gDIRj1dEcLIPN.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DYb8z69mYV9qYld4JjHWn.jpg"
                                 },
                                 "originalCropW": 852.4987775061124,
                                 "originalCropH": 1362,
@@ -10776,11 +10776,11 @@
                                 "cropY": 149,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-XqUe3mya6pHHJUXP_0M9.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/B5eN_RUhuanEPqIx2LoV1.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/epIc4EWJGM-eEMNrYz88v.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/B5eN_RUhuanEPqIx2LoV1.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-XqUe3mya6pHHJUXP_0M9.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AlzpPUePFOTVAtF_ilaMp.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/tOucM_e5Fm-9edeJBFJgg.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ubqPswN_VIo4zHGGg4cVY.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/tOucM_e5Fm-9edeJBFJgg.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AlzpPUePFOTVAtF_ilaMp.jpg"
                                 },
                                 "originalW": 1440,
                                 "originalH": 1799,
@@ -10885,11 +10885,11 @@
                                 "cropY": 334,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/79Cvu4EfPt-7xiZvmzZ95.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/nzcpSPMD2lf8Y2kqEA-Ab.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Rbsn3cLrSNA8TMsG1FAoS.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/nzcpSPMD2lf8Y2kqEA-Ab.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/79Cvu4EfPt-7xiZvmzZ95.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DcDWTlV2E7_F5NBeCEooX.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/SA4ZtIGv2NxM1gcdtNYgf.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/f5xduYxF5tp-6jll_SUnG.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/SA4ZtIGv2NxM1gcdtNYgf.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DcDWTlV2E7_F5NBeCEooX.jpg"
                                 },
                                 "originalCropW": 2523.696821515892,
                                 "originalCropH": 4032,
@@ -10991,11 +10991,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/4p6TjCfr5ntAu8sdJf3w1.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/C09ajAtKfQUgSo5XRucYP.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/QxtDlvASSwSoxFCy3a4Hr.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/C09ajAtKfQUgSo5XRucYP.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/4p6TjCfr5ntAu8sdJf3w1.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/g1q-DAo2cV6_UV7gjwAr_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/fJkIUHC05Tkwelwg-rBCO.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/IcrOpTqeP7zDcnQgbrIWi.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/fJkIUHC05Tkwelwg-rBCO.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/g1q-DAo2cV6_UV7gjwAr_.jpg"
                                 },
                                 "cropW": 694,
                                 "cropH": 925,
@@ -11104,11 +11104,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/M4AlaWbM9jsZMaOMQ869s.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/HimeoLkFi51EwEz44JeKY.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/P0guuSHKo4aFSlYGjiSf_.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/HimeoLkFi51EwEz44JeKY.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/M4AlaWbM9jsZMaOMQ869s.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bn3q8B6FJ4wkqTYqryozy.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ihSfgEmgRYb2AweZYd2Lt.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/OStiPf9J-_B1CsQKgWc9E.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ihSfgEmgRYb2AweZYd2Lt.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bn3q8B6FJ4wkqTYqryozy.jpg"
                                 },
                                 "cropW": 695,
                                 "cropH": 927,
@@ -11229,11 +11229,11 @@
                                 "hidden": false,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/f8O6AcHgxjxwv3I2mE3ZZ.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/wmZWNqyKnsqy0DMDT_aFv.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/nYdHXSdPt4MpkNBC3PS7V.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/wmZWNqyKnsqy0DMDT_aFv.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/f8O6AcHgxjxwv3I2mE3ZZ.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/0h-79y7MqtuS34-PI7xTM.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/hGPU9hrY0LtUFxgebvSb6.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/dxc66K4-fElSThel4I7Xj.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/hGPU9hrY0LtUFxgebvSb6.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/0h-79y7MqtuS34-PI7xTM.jpg"
                                 },
                                 "animation": [{
                                     "steps": [{
@@ -11330,11 +11330,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/S5LvcenTuRRFt9EvG3bkO.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/f_cVMUcO-ZjOkb5sghmAG.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/x2pUn8Z7X9jCf9Fe2K2Bz.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/f_cVMUcO-ZjOkb5sghmAG.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/S5LvcenTuRRFt9EvG3bkO.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/At72rVbbqq0sreijDiuwM.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/0H-J1HoElMOPiGd3OUhLv.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/c5EzfTAtpDCmGoPvwTWOI.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/0H-J1HoElMOPiGd3OUhLv.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/At72rVbbqq0sreijDiuwM.jpg"
                                 },
                                 "cropW": 616,
                                 "cropH": 822,
@@ -11443,11 +11443,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kxQ8c4dOE4CRQWnorkuRD.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/He-48oAV3Uti3a_k9XQlS.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/uko_Pu8VWxnlf8HcGPI2x.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/He-48oAV3Uti3a_k9XQlS.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kxQ8c4dOE4CRQWnorkuRD.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ZxD7TNMIC6MH1FOzJ-Duv.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/vMZOD78CvWgdg0QtkqQ4B.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/mMQZ0X_6e-Fc8ZrLPeng5.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/vMZOD78CvWgdg0QtkqQ4B.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ZxD7TNMIC6MH1FOzJ-Duv.jpg"
                                 },
                                 "cropW": 336,
                                 "cropH": 448,
@@ -11668,11 +11668,11 @@
                                 "originalCropY": 314,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/JM2oL6xoVs1KM_i_H_pwL.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/oRACm2U-XERoGhpVRWkiH.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg"
                                 },
                                 "hidden": false,
                                 "scale": 0.38912
@@ -12606,7 +12606,7 @@
                             "_variationY": -244,
                             "hidden": true,
                             "is_above": false,
-                            "z": 1056,
+                            "z": 1064,
                             "__v": 0
                         }, {
                             "_id": "6a82c8da56d274f1d5cbf1f4",
@@ -12755,7 +12755,7 @@
                             "_variationY": -244,
                             "hidden": true,
                             "is_above": false,
-                            "z": 1057,
+                            "z": 1065,
                             "__v": 0
                         }, {
                             "_id": "6a82c8da3fea877f552b8fd0",
@@ -12904,7 +12904,7 @@
                             "_variationY": -244,
                             "hidden": true,
                             "is_above": false,
-                            "z": 1059,
+                            "z": 1067,
                             "__v": 0
                         }, {
                             "_id": "6a82d0aa5128ff7132db21da",
@@ -12933,11 +12933,11 @@
                             "originalW": 1500,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ozZ2OYZlKwf-Ka9huPL1Q.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/1Mb0xhp93zDMaI84WW0zZ.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/peFOFHR2uKLs3gmbwA7SX.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/1Mb0xhp93zDMaI84WW0zZ.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ozZ2OYZlKwf-Ka9huPL1Q.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wfb4pDb4eTlQEBEcuVM8e.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/pQbqWzFllGiMS5Zi9ALFT.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/FOQZ8bQVTrqEALJ4Q5OgW.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/pQbqWzFllGiMS5Zi9ALFT.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wfb4pDb4eTlQEBEcuVM8e.png"
                             },
                             "blurHash": "U3B:gG0;00Iov0%h~VOtnVtl4T9Z~BI=MeXU",
                             "clickLink": "https://www.telegram.hr/super1/beauty/5-najboljih-nude-olovki-za-usne/",
@@ -12947,11 +12947,11 @@
                                 "z": 536,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ozZ2OYZlKwf-Ka9huPL1Q.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1Mb0xhp93zDMaI84WW0zZ.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/peFOFHR2uKLs3gmbwA7SX.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1Mb0xhp93zDMaI84WW0zZ.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ozZ2OYZlKwf-Ka9huPL1Q.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wfb4pDb4eTlQEBEcuVM8e.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/pQbqWzFllGiMS5Zi9ALFT.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/FOQZ8bQVTrqEALJ4Q5OgW.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/pQbqWzFllGiMS5Zi9ALFT.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wfb4pDb4eTlQEBEcuVM8e.png"
                                 }
                             },
                             "name": "",
@@ -13741,20 +13741,20 @@
                                 "z": 542,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RMGulVtX7tkuC3SusAHbR.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/oT-wFcx53ICuVR4hi_GoM.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/_sLxJtMdKTrDFQmBHrsC2.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/oT-wFcx53ICuVR4hi_GoM.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RMGulVtX7tkuC3SusAHbR.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/leSlDGpIHvwljG8h_W_vj.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/BGCQlV9HNylE5JQC4L9B5.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tcwf-QiSiKv99uM-7sydG.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/BGCQlV9HNylE5JQC4L9B5.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/leSlDGpIHvwljG8h_W_vj.png"
                                 }
                             },
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RMGulVtX7tkuC3SusAHbR.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/oT-wFcx53ICuVR4hi_GoM.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/_sLxJtMdKTrDFQmBHrsC2.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/oT-wFcx53ICuVR4hi_GoM.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RMGulVtX7tkuC3SusAHbR.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/leSlDGpIHvwljG8h_W_vj.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/BGCQlV9HNylE5JQC4L9B5.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tcwf-QiSiKv99uM-7sydG.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/BGCQlV9HNylE5JQC4L9B5.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/leSlDGpIHvwljG8h_W_vj.png"
                             },
                             "clickLink": "https://www.telegram.hr/super1/life/honor-choice-air-pro-projektor/",
                             "clickTarget": "_blank",
@@ -14103,22 +14103,22 @@
                                 "z": 545,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/1rH_FsotQ3citfDaPP7uW.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/PeQtXr4VZLVckfiGaGa17.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/QIs70nyRDPHS4Nk6q_fJ4.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/PeQtXr4VZLVckfiGaGa17.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/1rH_FsotQ3citfDaPP7uW.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AI8xrWo4lRxPyV9AOqjpq.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/khJVjMRmVEkoMXhITkdRK.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/avM34SmUtKrSVlKWxpjAW.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/khJVjMRmVEkoMXhITkdRK.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AI8xrWo4lRxPyV9AOqjpq.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/design/uredenje-interijera-trendovi-za-jesen-2026/",
                             "clickTarget": "_blank",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/1rH_FsotQ3citfDaPP7uW.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/PeQtXr4VZLVckfiGaGa17.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/QIs70nyRDPHS4Nk6q_fJ4.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/PeQtXr4VZLVckfiGaGa17.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/1rH_FsotQ3citfDaPP7uW.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AI8xrWo4lRxPyV9AOqjpq.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/khJVjMRmVEkoMXhITkdRK.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/avM34SmUtKrSVlKWxpjAW.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/khJVjMRmVEkoMXhITkdRK.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AI8xrWo4lRxPyV9AOqjpq.png"
                             },
                             "blurHash": "UMGHk=_1pH-;%#S~kp%M~B%Mxuxan*ofW=WC",
                             "anchor_link_pos": null,
@@ -14658,11 +14658,11 @@
                             "blurHash": "U9FFjVR500~W_NyXIoe800%2?cVsROR*tmxu",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/GKuYNDszHoz8BhICDUDOy.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ra_Q_w3z0vp1Fqzl1zmnl.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/va79LrSbQxclYpoBxoM9N.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ra_Q_w3z0vp1Fqzl1zmnl.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/GKuYNDszHoz8BhICDUDOy.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3t8lS12-iqeHjAfGVwgcI.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/aQFejZkKCY2nqZtsWdIM-.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/rl2s8U-BZl0kg_4zAvadi.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/aQFejZkKCY2nqZtsWdIM-.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3t8lS12-iqeHjAfGVwgcI.png"
                             },
                             "name": "",
                             "animation": [{
@@ -14745,11 +14745,11 @@
                                 "z": 550,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/GKuYNDszHoz8BhICDUDOy.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ra_Q_w3z0vp1Fqzl1zmnl.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/va79LrSbQxclYpoBxoM9N.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ra_Q_w3z0vp1Fqzl1zmnl.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/GKuYNDszHoz8BhICDUDOy.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3t8lS12-iqeHjAfGVwgcI.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/aQFejZkKCY2nqZtsWdIM-.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/rl2s8U-BZl0kg_4zAvadi.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/aQFejZkKCY2nqZtsWdIM-.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3t8lS12-iqeHjAfGVwgcI.png"
                                 }
                             },
                             "__v": 0
@@ -14769,11 +14769,11 @@
                             "z": 550,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/GSS8lLSU4hAI5tR3k3c9z.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/oQfkEiX2abR8Tx-rn7jJz.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/2roSVL9pD1bRAMp5gpoIs.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/oQfkEiX2abR8Tx-rn7jJz.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/GSS8lLSU4hAI5tR3k3c9z.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IMi79nfGst0XHOmYwmKzQ.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/zGGLV-QoI2qYNxS2IPRjg.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Hb_YSvjt6fp1ou5wmHhvp.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/zGGLV-QoI2qYNxS2IPRjg.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IMi79nfGst0XHOmYwmKzQ.png"
                             },
                             "cropW": 1280,
                             "cropH": 1601.0031347962383,
@@ -14868,11 +14868,11 @@
                                 "z": 551,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/GSS8lLSU4hAI5tR3k3c9z.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/oQfkEiX2abR8Tx-rn7jJz.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/2roSVL9pD1bRAMp5gpoIs.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/oQfkEiX2abR8Tx-rn7jJz.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/GSS8lLSU4hAI5tR3k3c9z.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IMi79nfGst0XHOmYwmKzQ.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/zGGLV-QoI2qYNxS2IPRjg.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Hb_YSvjt6fp1ou5wmHhvp.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/zGGLV-QoI2qYNxS2IPRjg.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IMi79nfGst0XHOmYwmKzQ.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/zara-home-kolekcija-uredskog-namjestaja/",
@@ -16960,11 +16960,11 @@
                             "originalW": 3581,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5fDVjoemMQMI8R6yKUTk4.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/9Bh3WxGSz-im8EPIg8YLU.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/utfjRzOCRdo4B6t2uundV.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/9Bh3WxGSz-im8EPIg8YLU.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5fDVjoemMQMI8R6yKUTk4.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bhp7SGrg5aXeyoYDC0nOY.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/1EZYAy4tm-NibhjA30iYZ.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/r2vfGRvahIJ7WfxFpyY7w.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/1EZYAy4tm-NibhjA30iYZ.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bhp7SGrg5aXeyoYDC0nOY.jpg"
                             },
                             "blurHash": "Ui2:C|g0f%f7l3f%f%fjlff%e;f%lye;eqe;",
                             "viewport_phone_portrait": {
@@ -16983,11 +16983,11 @@
                                 "originalCropY": 0,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ib5IJhIYIvDmYkM-fSSlj.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/18JQ3gX1g9Rq3yya5WoVN.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0O2nkws6RNZyR_nSqMiKS.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/18JQ3gX1g9Rq3yya5WoVN.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ib5IJhIYIvDmYkM-fSSlj.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7qiv2eEzvNQFc-4jkUw0b.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/g9iqD0DoCmaqTM44jVlLV.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/5IxwrpyWjhVQugsbsEmwJ.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/g9iqD0DoCmaqTM44jVlLV.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7qiv2eEzvNQFc-4jkUw0b.jpg"
                                 },
                                 "scale": 0.01312
                             },
@@ -17687,11 +17687,11 @@
                                 "originalCropY": 314,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/JM2oL6xoVs1KM_i_H_pwL.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/oRACm2U-XERoGhpVRWkiH.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg"
                                 },
                                 "hidden": false,
                                 "scale": 0.38912
@@ -18186,11 +18186,11 @@
                                 "originalH": 1600,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/03SI_uAU2h0M9nPKePrnC.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/FcG3HGEpYKZJjzAn57xqs.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/peZxHGSU6EBKYNNffGLOv.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/FcG3HGEpYKZJjzAn57xqs.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/03SI_uAU2h0M9nPKePrnC.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/EaxUhUDj9FlqtZIYXdP7m.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1qkc_su-zPanWHQoJiS79.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/rZ30jMHtnA3faWXEfDxES.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1qkc_su-zPanWHQoJiS79.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/EaxUhUDj9FlqtZIYXdP7m.png"
                                 }
                             },
                             "hidden": true,
@@ -18848,11 +18848,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uzHqdfA-Mc2BxZGRS7qrH.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/lRCHyCRaQyaFcvptsTSlx.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/h-K5sEahS5TQqRoZyQGs6.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/lRCHyCRaQyaFcvptsTSlx.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uzHqdfA-Mc2BxZGRS7qrH.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/VWqAxLgL918bvvDgHJDUJ.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/FOqvprFIBNyagrs7hQFZ3.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/qMCQD8c7SbX3IgUpLSsUU.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/FOqvprFIBNyagrs7hQFZ3.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/VWqAxLgL918bvvDgHJDUJ.png"
                                 }
                             },
                             "hidden": true,
@@ -19344,11 +19344,11 @@
                                 "originalCropY": 314,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/JM2oL6xoVs1KM_i_H_pwL.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/oRACm2U-XERoGhpVRWkiH.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg"
                                 },
                                 "hidden": false,
                                 "scale": 0.38912
@@ -19843,11 +19843,11 @@
                                 "originalH": 1350,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/TlOX7tkJP7f2VPcmqTy3a.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ytSItba4gdltZEjj2kmLP.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/6mar81AwhnCImAaEFW3np.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ytSItba4gdltZEjj2kmLP.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/TlOX7tkJP7f2VPcmqTy3a.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/fcwYH3rrioBxB-_qqNGuY.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/MHfM1HWkS00tUh0Ov-Och.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/juuy30olLbJEuV_keVye7.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/MHfM1HWkS00tUh0Ov-Och.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/fcwYH3rrioBxB-_qqNGuY.jpg"
                                 }
                             },
                             "hidden": true,
@@ -20440,11 +20440,11 @@
                                 "originalCropY": 314,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/JM2oL6xoVs1KM_i_H_pwL.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/crmPc5MXGObyIXWWJMDkW.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UNcaQhrp3jvQP635v9YVC.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/oRACm2U-XERoGhpVRWkiH.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/8UbjJvsWERGNKWe4Rgc9g.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Z7-2hO2ifM4MHBI0Sm-v_.jpg"
                                 },
                                 "hidden": false,
                                 "scale": 0.38912
@@ -20971,11 +20971,11 @@
                                 "originalH": 1600,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AXFMLV7kERN3WB8gIfYNh.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/WXvAnUsMbTHL1K4_HgTql.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/N92QmLceW7Jq7YFXFKTJl.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/WXvAnUsMbTHL1K4_HgTql.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AXFMLV7kERN3WB8gIfYNh.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/X1rExiYsE6ErChJtlnXCk.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/zlDfi-Xfd9AYcePjRUSkR.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Mc8Lif30qBdaC5dDt47ds.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/zlDfi-Xfd9AYcePjRUSkR.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/X1rExiYsE6ErChJtlnXCk.png"
                                 }
                             },
                             "hidden": true,
@@ -22354,11 +22354,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/tSqNIwKe2S1ukEAlbjNLk.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/_ZPM2o9CghKVe8n0CjaNL.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/nfUmApTyfXcNjGVYhWpoZ.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/_ZPM2o9CghKVe8n0CjaNL.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/tSqNIwKe2S1ukEAlbjNLk.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ZAp4Gx5QfVkrsUrVnGEi3.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/XjoHXF9AoubnYjoTuBQP9.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/_OLc7EwQygdvC8g87U8JU.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/XjoHXF9AoubnYjoTuBQP9.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ZAp4Gx5QfVkrsUrVnGEi3.png"
                                 }
                             },
                             "hidden": true,
@@ -22851,11 +22851,11 @@
                                 "originalH": 2048,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_pfxAE1-1uoo4wziTBraZ.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/CqMwCDTdS5nWP3y9dhFdq.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/XnRiYN0PGVpuhW1q_zhZH.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/CqMwCDTdS5nWP3y9dhFdq.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_pfxAE1-1uoo4wziTBraZ.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Ng9yS33qsbWP2zveKwsHF.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/av9cQL44pdnuVBfxlO3qN.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/c5fKIc32NNF9UAriee_CX.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/av9cQL44pdnuVBfxlO3qN.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Ng9yS33qsbWP2zveKwsHF.jpg"
                                 }
                             },
                             "hidden": true,
@@ -23351,11 +23351,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UxeByvUM0v25HPi-qkljM.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Z0T4I8HK60g2ulDZU5mq2.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/RUOMVTn4H9wkno-Z8uXse.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Z0T4I8HK60g2ulDZU5mq2.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UxeByvUM0v25HPi-qkljM.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/TutQwrd2YkKfr1kC49UVC.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/jjGL6GSEwZir1uPCezXpE.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/dXaeco422ITS1-gAkiaBM.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/jjGL6GSEwZir1uPCezXpE.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/TutQwrd2YkKfr1kC49UVC.png"
                                 }
                             },
                             "hidden": true,
@@ -23849,11 +23849,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Mzy4sqtwGMLSmq12gVsL5.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/-28u9MeEnf0LS712eS5E4.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZyyYgUarXOaqJROF0TEYT.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/-28u9MeEnf0LS712eS5E4.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Mzy4sqtwGMLSmq12gVsL5.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LGqsUtHMP1sCxyEg24y49.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/nskGxDgoxbXy1D2m-B5jj.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/aaD34XpIOqg0voAli3uf0.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/nskGxDgoxbXy1D2m-B5jj.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/LGqsUtHMP1sCxyEg24y49.png"
                                 },
                                 "anchor_link_pos": null
                             },
@@ -24352,11 +24352,11 @@
                                 "anchor_link_pos": null,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Dn65imnsjW8eOuJcX-xP6.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/zeCOP8vxw_uomIgHNvZvn.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ezB5wGfsnRxFQJG6fegw0.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/zeCOP8vxw_uomIgHNvZvn.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Dn65imnsjW8eOuJcX-xP6.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ISnAYDQOCnWJPtk6E21og.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/5LddtJ-I5JKuSopfZ04tj.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/NkBi0r0r6sNT6hzO_SAcV.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/5LddtJ-I5JKuSopfZ04tj.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ISnAYDQOCnWJPtk6E21og.png"
                                 }
                             },
                             "hidden": true,
@@ -24793,11 +24793,11 @@
                                 "originalCropY": 0,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/KmsY4BWV-jVv9-wT9XeTl.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/8MH_D3d_5ML3RD0O_C_HD.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/soO73da4r9c700yWAYF_5.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/8MH_D3d_5ML3RD0O_C_HD.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/KmsY4BWV-jVv9-wT9XeTl.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/c_Y4NlveTxFccOD-v0JaU.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/0sy-ZDbM6CNkuiVtW7c2y.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/cx2DUUnJVs9TE3xeUi9XA.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/0sy-ZDbM6CNkuiVtW7c2y.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/c_Y4NlveTxFccOD-v0JaU.png"
                                 },
                                 "sticked": "bottom",
                                 "sticked_margin": 87
@@ -25003,20 +25003,20 @@
                                 "z": 663,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/6O6nyy6tYnIBpLTZHRn8B.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/2ftXhLb1faCO1McZuSIG7.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/pIHO5PkADeOp8CZ78-K9o.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/2ftXhLb1faCO1McZuSIG7.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/6O6nyy6tYnIBpLTZHRn8B.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/rU841FmcNqIt256IHK0Yh.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/jqWsJ7giBN7oUz52Sxzjl.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/TsQfk2Q_JsrJPNobA_ziS.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/jqWsJ7giBN7oUz52Sxzjl.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/rU841FmcNqIt256IHK0Yh.png"
                                 }
                             },
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/6O6nyy6tYnIBpLTZHRn8B.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/2ftXhLb1faCO1McZuSIG7.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/pIHO5PkADeOp8CZ78-K9o.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/2ftXhLb1faCO1McZuSIG7.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/6O6nyy6tYnIBpLTZHRn8B.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/rU841FmcNqIt256IHK0Yh.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/jqWsJ7giBN7oUz52Sxzjl.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/TsQfk2Q_JsrJPNobA_ziS.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/jqWsJ7giBN7oUz52Sxzjl.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/rU841FmcNqIt256IHK0Yh.png"
                             },
                             "cropW": 5500,
                             "cropH": 1622.5,
@@ -25122,22 +25122,22 @@
                             "originalW": 1000,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/hYX0UuT24VhIW8S9qC99L.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/IaVVyyqwJqlMZB6-S9t43.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/ru0-ShD16w-APpO9jM7Ua.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/IaVVyyqwJqlMZB6-S9t43.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/hYX0UuT24VhIW8S9qC99L.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/tbG32KwxuHc9OV6F8VaUe.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/awbYhctomUFb5J948KiX9.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/-cyOlS59ZGrUF5Cnepn7D.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/awbYhctomUFb5J948KiX9.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/tbG32KwxuHc9OV6F8VaUe.jpg"
                             },
                             "viewport_phone_portrait": {
                                 "hidden": true,
                                 "z": 665,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/hYX0UuT24VhIW8S9qC99L.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/IaVVyyqwJqlMZB6-S9t43.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ru0-ShD16w-APpO9jM7Ua.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/IaVVyyqwJqlMZB6-S9t43.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/hYX0UuT24VhIW8S9qC99L.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/tbG32KwxuHc9OV6F8VaUe.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/awbYhctomUFb5J948KiX9.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/-cyOlS59ZGrUF5Cnepn7D.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/awbYhctomUFb5J948KiX9.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/tbG32KwxuHc9OV6F8VaUe.jpg"
                                 }
                             },
                             "__v": 0
@@ -26387,22 +26387,22 @@
                             "originalW": 800,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/BytgQyoE2YNnZIIFaGlWd.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/zpSc695xrlcQIFaQl-1Q0.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/nfRDOE5yXR-GybyPfqKHv.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/zpSc695xrlcQIFaQl-1Q0.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/BytgQyoE2YNnZIIFaGlWd.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/t7Fi6fAhIHMJ_Z9bAkfjM.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/-f1Ipd4JdGt274_wdhfvv.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/jvCn83cWsaqmc5Gse9FEt.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/-f1Ipd4JdGt274_wdhfvv.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/t7Fi6fAhIHMJ_Z9bAkfjM.png"
                             },
                             "viewport_phone_portrait": {
                                 "hidden": true,
                                 "z": 676,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/BytgQyoE2YNnZIIFaGlWd.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/zpSc695xrlcQIFaQl-1Q0.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/nfRDOE5yXR-GybyPfqKHv.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/zpSc695xrlcQIFaQl-1Q0.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/BytgQyoE2YNnZIIFaGlWd.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/t7Fi6fAhIHMJ_Z9bAkfjM.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/-f1Ipd4JdGt274_wdhfvv.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/jvCn83cWsaqmc5Gse9FEt.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/-f1Ipd4JdGt274_wdhfvv.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/t7Fi6fAhIHMJ_Z9bAkfjM.png"
                                 }
                             },
                             "blurHash": "UIHBPY~p00xDI9Ri?Hxu00M{-;WB-UV@IUIn",
@@ -26436,11 +26436,11 @@
                             "originalW": 1000,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/1G04_32UW2upFp1nvVTBD.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/fawrnu5xiwFEWA67OUWk7.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/VCoYHo-Gm4J8trP0tF1UA.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/fawrnu5xiwFEWA67OUWk7.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/1G04_32UW2upFp1nvVTBD.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ZPqBeXb25hYaUT724xX3m.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/rqZDBf3Ke9nBIMcCNBA2c.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/r_ir-fz6JYnKFs-ypfYMa.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/rqZDBf3Ke9nBIMcCNBA2c.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ZPqBeXb25hYaUT724xX3m.jpg"
                             },
                             "blurHash": "UZFDA4}F=Js:-B$Pwdj]$*XSXSOqNdoMbvbu",
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/t-shirt-u-boji-basic-komad-najbolji-modeli/",
@@ -26464,11 +26464,11 @@
                                 "scale": 0.32215,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/GvG4kDBvhF6YkOYiM4Mv5.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/SAiaIU3Qi2mcnUugYE0Ar.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/zxruxFHQxWaHKGk1mC6B8.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/SAiaIU3Qi2mcnUugYE0Ar.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/GvG4kDBvhF6YkOYiM4Mv5.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3E624TIn50qfAmRIQZ6OQ.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/OByWh-VIVxRD0jx0HoeJN.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/cpkoKBrtqWyImnYiZfpWQ.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/OByWh-VIVxRD0jx0HoeJN.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3E624TIn50qfAmRIQZ6OQ.jpg"
                                 }
                             },
                             "clickPage": null,
@@ -26501,11 +26501,11 @@
                             "originalW": 1600,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/48hOa87yjErUAGF53W97E.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/a0Ly8YmNXTOmDFaO00fl1.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/t5qWk-bs3BbfgOhE6y-Dg.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/a0Ly8YmNXTOmDFaO00fl1.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/48hOa87yjErUAGF53W97E.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RiZDyGZ5upGPcm1apHJ5p.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/dERLfwcxCzStPaNmjCWHx.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/2NMd2B0nP0SiFcN7L8Ema.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/dERLfwcxCzStPaNmjCWHx.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RiZDyGZ5upGPcm1apHJ5p.jpg"
                             },
                             "blurHash": "UBF62z.7pJ?b9$%Mt6kDo~of%2xu~poxxax[",
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/karirani-uzorak-veliki-je-modni-trend-za-jesen-2026/",
@@ -26515,11 +26515,11 @@
                                 "z": 678,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/48hOa87yjErUAGF53W97E.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/a0Ly8YmNXTOmDFaO00fl1.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/t5qWk-bs3BbfgOhE6y-Dg.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/a0Ly8YmNXTOmDFaO00fl1.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/48hOa87yjErUAGF53W97E.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RiZDyGZ5upGPcm1apHJ5p.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/dERLfwcxCzStPaNmjCWHx.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/2NMd2B0nP0SiFcN7L8Ema.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/dERLfwcxCzStPaNmjCWHx.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RiZDyGZ5upGPcm1apHJ5p.jpg"
                                 }
                             },
                             "__v": 0
@@ -26542,11 +26542,11 @@
                             "originalW": 1200,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/kmiyc6WxnI4LH1-F9adbt.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/juTRJ4mdoByaqGJhPQKTu.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg"
                             },
                             "scale": 0.07666666666666666,
                             "hidden": false,
@@ -26570,14 +26570,14 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1051,
+                                "z": 1059,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/kmiyc6WxnI4LH1-F9adbt.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1UHq2g4xZO3SAyams0WUD.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/F6fg5zpQKAQow2sVoWA3g.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/juTRJ4mdoByaqGJhPQKTu.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/3094IcexXlKl_epOTw86U.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg"
                                 }
                             },
                             "version": 2,
@@ -26665,11 +26665,11 @@
                             "originalW": 2664,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/VteC8MW58L9319Fv_EQ0d.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/l-FP_r3WIS2o4mRk06mXq.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg"
                             },
                             "scale": 0.06785714285714285,
                             "hidden": false,
@@ -26693,14 +26693,14 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1052,
+                                "z": 1060,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/VteC8MW58L9319Fv_EQ0d.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/lbgZRuT98U6LuTXdv9Pw9.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/VQxdithnAgRCDO_5rEIAw.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/l-FP_r3WIS2o4mRk06mXq.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/IruSC7ZT_wKCD2DWhqN9B.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg"
                                 }
                             },
                             "version": 2,
@@ -26788,11 +26788,11 @@
                             "originalW": 1200,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/eAywM9dqaY5GiSHQzR1Va.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/iSuTsLlv3ghzNPaYwjgVw.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg"
                             },
                             "scale": 0.08370044052863436,
                             "hidden": false,
@@ -26816,14 +26816,14 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1053,
+                                "z": 1061,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/eAywM9dqaY5GiSHQzR1Va.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/5XxMRh-BED-Fomje8ErVo.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_qANxL21X9lMjdeOLh8Te.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/iSuTsLlv3ghzNPaYwjgVw.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/NG0TVkUlRBHyEY5Rk4BvU.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg"
                                 }
                             },
                             "version": 2,
@@ -26913,11 +26913,11 @@
                             "originalW": 1440,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/pGa_2-zm3XykOtsAHWpcS.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZG81UPN5EnP02K9qEzk_I.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg"
                             },
                             "scale": 0.06388888888888888,
                             "hidden": false,
@@ -26941,14 +26941,14 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1054,
+                                "z": 1062,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/pGa_2-zm3XykOtsAHWpcS.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/MUZiYDx_GG6PLQJS6sFc0.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7GHYLoQwfW0OobK3h7-rY.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZG81UPN5EnP02K9qEzk_I.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/SgGAwacN7iScodUcCBk_X.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg"
                                 }
                             },
                             "originalCropW": 1440,
@@ -27037,11 +27037,11 @@
                             "originalW": 3024,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/0_-7dCRpKt-2qLo0RE-dI.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/fC3M4QbOPHl4rRwT7Dohh.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg"
                             },
                             "scale": 0.03042328042328042,
                             "hidden": false,
@@ -27065,14 +27065,14 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1055,
+                                "z": 1063,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0_-7dCRpKt-2qLo0RE-dI.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/g3QBuywF2od8KEKf95ALG.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/HB8__QbDxwJbhiB7kt1O9.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/fC3M4QbOPHl4rRwT7Dohh.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/20BJ7dxZv6byhf54TDuV-.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg"
                                 }
                             },
                             "version": 2,
@@ -27155,11 +27155,11 @@
                             "z": 687,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/1DmJ_msLCF6PO_YwXNkOB.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/RaVm-pf7rssIbqWYeGKlE.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg"
                             },
                             "cropW": 736,
                             "cropH": 912,
@@ -27192,14 +27192,14 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1056,
+                                "z": 1064,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/1DmJ_msLCF6PO_YwXNkOB.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/LybOctRSpoKaxX058xRJ_.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dcftRX2s6gmXwAJTW6Skw.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/RaVm-pf7rssIbqWYeGKlE.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ZUThL30mHrkwhBeDbqLLl.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg"
                                 }
                             },
                             "blurHash": "UWODtQRj_3-;_3xuRjWB~qxuIUV[NGM{RjkC",
@@ -27278,11 +27278,11 @@
                             "z": 688,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/wh1xP7NUb0PZ7HeH_t6DV.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/0QWEo_zwqB5sjuREuqv4Y.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg"
                             },
                             "cropW": 736,
                             "cropH": 912,
@@ -27315,14 +27315,14 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1057,
+                                "z": 1065,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/wh1xP7NUb0PZ7HeH_t6DV.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/dbZbXkYU8FbZIBNPgyis3.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UtTeSEM7XlKu7COFhakaU.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0QWEo_zwqB5sjuREuqv4Y.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/xPfwiyO4qnk8u1hvmfE3E.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg"
                                 }
                             },
                             "blurHash": "UFG]5O~p.8M{?a%MV[x]9ZWAs:ogxtV@xuof",
@@ -27401,11 +27401,11 @@
                             "z": 689,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tm3AW8Q5b1GnoG5cgl5v3.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/lbFuhv1RZiEx_4EYu_-zU.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg"
                             },
                             "cropW": 624,
                             "cropH": 773.2173913043478,
@@ -27438,14 +27438,14 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1058,
+                                "z": 1066,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tm3AW8Q5b1GnoG5cgl5v3.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/c3WFFfO08m5xpstO7SdNL.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5GiW-KEUrxQSci62vZ9c_.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/lbFuhv1RZiEx_4EYu_-zU.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7iki0xgqPi-e43Uqr3-tg.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg"
                                 }
                             },
                             "blurHash": "UjOD:;s:~q%f-;jbRjof_4kCD%aeWVa{ofay",
@@ -27524,11 +27524,11 @@
                             "z": 690,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/OrXiC1uGkdCqgkHnbAUPz.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/lz73nra9z83LRVRE8RRT5.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg"
                             },
                             "cropW": 736,
                             "cropH": 912,
@@ -27561,14 +27561,14 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1059,
+                                "z": 1067,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/OrXiC1uGkdCqgkHnbAUPz.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Dw9OPxBsgbnSh25NeMov0.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-S8EbJ2wCm3Q8Z15x7ka3.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/lz73nra9z83LRVRE8RRT5.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg"
                                 }
                             },
                             "blurHash": "UKQvXZ-;~q?bNFt7%MR*?bWBM{WBxuRkj[s:",
@@ -27647,11 +27647,11 @@
                             "z": 691,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/2qpWMWjwo8hrkA2jPCfQb.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/TZgkX9UOMfyYaIdS7mHmB.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg"
                             },
                             "cropW": 431.7543859649123,
                             "cropH": 535,
@@ -27684,14 +27684,14 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1060,
+                                "z": 1068,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/2qpWMWjwo8hrkA2jPCfQb.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/iU1vqHfryDTiZpKMX_Kwc.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Bv9oOkyA3gQOB9R0qg7lZ.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/TZgkX9UOMfyYaIdS7mHmB.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/d87gb71UF5u9Kh_FDbg_B.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg"
                                 }
                             },
                             "blurHash": "UjNwp1xu?v%M?IRjWCt7~qoMIAoeNFtRayRi",
@@ -27826,11 +27826,11 @@
                                 "cropY": 124,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AkM-hRzTkwI2jjSzTAH2p.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/9rn3BslThQoqTJBqTiR5D.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/3YZHnd9nER5F4jDEI8uoD.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/9rn3BslThQoqTJBqTiR5D.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AkM-hRzTkwI2jjSzTAH2p.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Ahu0w54-jqULbFgU85Yrr.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1_aaB21Eo83wwRn_r_wrg.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/T3FoTTgAKDIc54ppGBoo2.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1_aaB21Eo83wwRn_r_wrg.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Ahu0w54-jqULbFgU85Yrr.jpg"
                                 },
                                 "originalCropW": 938.8753056234718,
                                 "originalCropH": 1500,
@@ -27941,11 +27941,11 @@
                                 "cropY": 139,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/OftHFMuarPBYJr2FWdnKy.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/5nl0sk2CAfJkSR7ev65H6.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/AyGYbyZ0-zcfs8xSNt24v.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/5nl0sk2CAfJkSR7ev65H6.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/OftHFMuarPBYJr2FWdnKy.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/XRTN9p963Da8WWZJ56Q5h.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/1n6Y5XG0YBXj9nUMumdWj.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/3-28IBTYX92qaLBIIRD9R.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/1n6Y5XG0YBXj9nUMumdWj.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/XRTN9p963Da8WWZJ56Q5h.jpg"
                                 },
                                 "originalCropW": 1051.5403422982886,
                                 "originalCropH": 1680,
@@ -28056,11 +28056,11 @@
                                 "cropY": 113,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/0vUi4C4sF8hIFJrPRs7G0.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qnNfkyh5tXjFcoXQllZ4e.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/cywandJxzpHsa_Xfzz3aA.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qnNfkyh5tXjFcoXQllZ4e.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/0vUi4C4sF8hIFJrPRs7G0.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DYb8z69mYV9qYld4JjHWn.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/m5st-6F3gDIRj1dEcLIPN.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/vXn8RYUS-ampaMqX7yWWH.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/m5st-6F3gDIRj1dEcLIPN.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DYb8z69mYV9qYld4JjHWn.jpg"
                                 },
                                 "originalCropW": 852.4987775061124,
                                 "originalCropH": 1362,
@@ -28177,11 +28177,11 @@
                                 "cropY": 149,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-XqUe3mya6pHHJUXP_0M9.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/B5eN_RUhuanEPqIx2LoV1.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/epIc4EWJGM-eEMNrYz88v.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/B5eN_RUhuanEPqIx2LoV1.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-XqUe3mya6pHHJUXP_0M9.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AlzpPUePFOTVAtF_ilaMp.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/tOucM_e5Fm-9edeJBFJgg.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ubqPswN_VIo4zHGGg4cVY.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/tOucM_e5Fm-9edeJBFJgg.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AlzpPUePFOTVAtF_ilaMp.jpg"
                                 },
                                 "originalW": 1440,
                                 "originalH": 1799,
@@ -28289,11 +28289,11 @@
                                 "cropY": 334,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/79Cvu4EfPt-7xiZvmzZ95.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/nzcpSPMD2lf8Y2kqEA-Ab.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Rbsn3cLrSNA8TMsG1FAoS.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/nzcpSPMD2lf8Y2kqEA-Ab.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/79Cvu4EfPt-7xiZvmzZ95.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DcDWTlV2E7_F5NBeCEooX.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/SA4ZtIGv2NxM1gcdtNYgf.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/f5xduYxF5tp-6jll_SUnG.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/SA4ZtIGv2NxM1gcdtNYgf.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DcDWTlV2E7_F5NBeCEooX.jpg"
                                 },
                                 "originalCropW": 2523.696821515892,
                                 "originalCropH": 4032,
@@ -28398,11 +28398,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/4p6TjCfr5ntAu8sdJf3w1.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/C09ajAtKfQUgSo5XRucYP.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/QxtDlvASSwSoxFCy3a4Hr.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/C09ajAtKfQUgSo5XRucYP.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/4p6TjCfr5ntAu8sdJf3w1.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/g1q-DAo2cV6_UV7gjwAr_.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/fJkIUHC05Tkwelwg-rBCO.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/IcrOpTqeP7zDcnQgbrIWi.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/fJkIUHC05Tkwelwg-rBCO.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/g1q-DAo2cV6_UV7gjwAr_.jpg"
                                 },
                                 "cropW": 694,
                                 "cropH": 925,
@@ -28514,11 +28514,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/M4AlaWbM9jsZMaOMQ869s.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/HimeoLkFi51EwEz44JeKY.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/P0guuSHKo4aFSlYGjiSf_.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/HimeoLkFi51EwEz44JeKY.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/M4AlaWbM9jsZMaOMQ869s.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bn3q8B6FJ4wkqTYqryozy.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ihSfgEmgRYb2AweZYd2Lt.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/OStiPf9J-_B1CsQKgWc9E.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ihSfgEmgRYb2AweZYd2Lt.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bn3q8B6FJ4wkqTYqryozy.jpg"
                                 },
                                 "cropW": 695,
                                 "cropH": 927,
@@ -28642,11 +28642,11 @@
                                 "hidden": false,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/f8O6AcHgxjxwv3I2mE3ZZ.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/wmZWNqyKnsqy0DMDT_aFv.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/nYdHXSdPt4MpkNBC3PS7V.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/wmZWNqyKnsqy0DMDT_aFv.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/f8O6AcHgxjxwv3I2mE3ZZ.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/0h-79y7MqtuS34-PI7xTM.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/hGPU9hrY0LtUFxgebvSb6.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/dxc66K4-fElSThel4I7Xj.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/hGPU9hrY0LtUFxgebvSb6.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/0h-79y7MqtuS34-PI7xTM.jpg"
                                 },
                                 "animation": [{
                                     "UUID": "690d4233-91ae-4983-8e8f-d398b62b07fd",
@@ -28746,11 +28746,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/S5LvcenTuRRFt9EvG3bkO.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/f_cVMUcO-ZjOkb5sghmAG.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/x2pUn8Z7X9jCf9Fe2K2Bz.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/f_cVMUcO-ZjOkb5sghmAG.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/S5LvcenTuRRFt9EvG3bkO.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/At72rVbbqq0sreijDiuwM.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/0H-J1HoElMOPiGd3OUhLv.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/c5EzfTAtpDCmGoPvwTWOI.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/0H-J1HoElMOPiGd3OUhLv.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/At72rVbbqq0sreijDiuwM.jpg"
                                 },
                                 "cropW": 616,
                                 "cropH": 822,
@@ -28862,11 +28862,11 @@
                                 "sticked": "",
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kxQ8c4dOE4CRQWnorkuRD.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/He-48oAV3Uti3a_k9XQlS.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/uko_Pu8VWxnlf8HcGPI2x.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/He-48oAV3Uti3a_k9XQlS.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kxQ8c4dOE4CRQWnorkuRD.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ZxD7TNMIC6MH1FOzJ-Duv.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/vMZOD78CvWgdg0QtkqQ4B.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/mMQZ0X_6e-Fc8ZrLPeng5.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/vMZOD78CvWgdg0QtkqQ4B.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ZxD7TNMIC6MH1FOzJ-Duv.jpg"
                                 },
                                 "cropW": 336,
                                 "cropH": 448,
@@ -29495,11 +29495,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RtZICkwdudRFSNON-LNGA.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/gkGwY_Y0JPXcMGID-d7kF.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/35ljy7t3VUym4HT5NnE1v.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/gkGwY_Y0JPXcMGID-d7kF.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RtZICkwdudRFSNON-LNGA.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/4APfoVZLfh9XgNC-znxGz.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7j0vLOf5M3o0BW6tWYl4H.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/buV2yCKvgHZgTiaAbOLVS.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7j0vLOf5M3o0BW6tWYl4H.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/4APfoVZLfh9XgNC-znxGz.png"
                                 }
                             },
                             "hidden": true,
@@ -29995,11 +29995,11 @@
                                 "originalH": 1600,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/gnQxQiJHO4srT7-rOyXCP.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/xSB2F_6YO60MjGY5ijoF8.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Oa-47iwCALjjQBmE78le_.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/xSB2F_6YO60MjGY5ijoF8.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/gnQxQiJHO4srT7-rOyXCP.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ItD0iq-a8lpAE7OGGdzpf.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/vJRBQN-ZEYLqGLWO6ORpR.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/gT6xuJFz5aQf9CwsmqvmL.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/vJRBQN-ZEYLqGLWO6ORpR.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ItD0iq-a8lpAE7OGGdzpf.jpg"
                                 }
                             },
                             "hidden": true,
@@ -30431,11 +30431,11 @@
                                 "cropH": 1566.6666666666667,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IB7WJMhw8BtH7XfjVKEE-.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/IKSfEet9zX1y4-Q1wjnhb.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/d0FxR-VNpFKvkA9qcerYt.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/IKSfEet9zX1y4-Q1wjnhb.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IB7WJMhw8BtH7XfjVKEE-.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/FR04pbZmodl58B2tA5xxF.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Fog8pl3b34MDQWSftvU4x.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/gURsLBx5AoFHR5OHb7NKk.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Fog8pl3b34MDQWSftvU4x.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/FR04pbZmodl58B2tA5xxF.png"
                                 },
                                 "originalCropW": 1600,
                                 "originalCropH": 1566.6666666666667,
@@ -30867,11 +30867,11 @@
                             "originalW": 1500,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7zXk9XFHsnXF3pZkTEbrw.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/5u9_oahqNv80-A2VvSFpC.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/WYAXLK2ckqp28dnYUuCRM.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/5u9_oahqNv80-A2VvSFpC.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7zXk9XFHsnXF3pZkTEbrw.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/iOWMJMOhcuKkEWFt1Tztm.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/kUzhN1VbKC_TObmfBWaej.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/4YGLCHMwZ0J_oVAtqSfhC.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/kUzhN1VbKC_TObmfBWaej.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/iOWMJMOhcuKkEWFt1Tztm.png"
                             },
                             "blurHash": "UWIhT+s8-;D%~qWrRjxt%LjFRjt7%MWVoeWV",
                             "clickLink": "https://www.telegram.hr/super1/beauty/sitnice-za-radni-stol-u-uredu-dm-katalog/",
@@ -30881,11 +30881,11 @@
                                 "z": 711,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7zXk9XFHsnXF3pZkTEbrw.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/5u9_oahqNv80-A2VvSFpC.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/WYAXLK2ckqp28dnYUuCRM.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/5u9_oahqNv80-A2VvSFpC.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7zXk9XFHsnXF3pZkTEbrw.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/iOWMJMOhcuKkEWFt1Tztm.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/kUzhN1VbKC_TObmfBWaej.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/4YGLCHMwZ0J_oVAtqSfhC.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/kUzhN1VbKC_TObmfBWaej.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/iOWMJMOhcuKkEWFt1Tztm.png"
                                 }
                             },
                             "anchor_link_pos": null,
@@ -30908,11 +30908,11 @@
                             "z": 725,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/eSvOTjiiVUTgzkNkgd1lj.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/oNOLmrrihiZMpMlCUQ6P6.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/vlN2qVbrNcKNenzSmWwW_.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/oNOLmrrihiZMpMlCUQ6P6.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/eSvOTjiiVUTgzkNkgd1lj.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lkE1M_zQ5d-_-RCtrgO_9.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/jmtfjC_PtyHklZ8zqr0he.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Sir13jLV29VA31iB5VSZF.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/jmtfjC_PtyHklZ8zqr0he.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lkE1M_zQ5d-_-RCtrgO_9.png"
                             },
                             "cropW": 749,
                             "cropH": 946,
@@ -30993,11 +30993,11 @@
                                 "z": 712,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/eSvOTjiiVUTgzkNkgd1lj.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/oNOLmrrihiZMpMlCUQ6P6.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/vlN2qVbrNcKNenzSmWwW_.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/oNOLmrrihiZMpMlCUQ6P6.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/eSvOTjiiVUTgzkNkgd1lj.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lkE1M_zQ5d-_-RCtrgO_9.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/jmtfjC_PtyHklZ8zqr0he.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Sir13jLV29VA31iB5VSZF.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/jmtfjC_PtyHklZ8zqr0he.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lkE1M_zQ5d-_-RCtrgO_9.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/berry-blush-rumenila/",
@@ -31427,11 +31427,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/XnIF1v-tvc4QV-2qm6Pdr.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/0C5IE9g2nhkvwE9vO0C5T.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0zoqniZ-u6nefCIT8lUWr.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/0C5IE9g2nhkvwE9vO0C5T.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/XnIF1v-tvc4QV-2qm6Pdr.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/PFrXtM8C6u5nY3RAbpIPo.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Ca_jl3wzs0OZYE4P_skz9.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/oor9ft1JHWZbRCpx4d4uV.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Ca_jl3wzs0OZYE4P_skz9.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/PFrXtM8C6u5nY3RAbpIPo.png"
                                 }
                             },
                             "hidden": true,
@@ -31934,11 +31934,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/6AXaW62U1yBCjj2udtnS_.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/GuGPxwa2wJjZYMU6xHcwI.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/BxnDhKH-Q_ydVfAS2OO8R.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/GuGPxwa2wJjZYMU6xHcwI.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/6AXaW62U1yBCjj2udtnS_.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/UZ__uV8ASateSsGeKqcIc.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/6Ma-yqaunt1p439SgVfJ5.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ow7n4v0fPiPSTv7GbUcTy.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/6Ma-yqaunt1p439SgVfJ5.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/UZ__uV8ASateSsGeKqcIc.png"
                                 }
                             },
                             "hidden": true,
@@ -32435,22 +32435,22 @@
                                 "z": 730,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/qCJnPD2R7AVudvdCvZxia.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/m9kfn0nsLnzmGV3qsN0Ee.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/yP_3qtwwSbrGy2LfMRmky.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/m9kfn0nsLnzmGV3qsN0Ee.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/qCJnPD2R7AVudvdCvZxia.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/32jRITHde899FNNFBj64a.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/RPl9de-lgZ_EktEiF-AHR.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0LTiPFireuDpd41Lp409i.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/RPl9de-lgZ_EktEiF-AHR.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/32jRITHde899FNNFBj64a.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/life/zone-2-trening/",
                             "clickTarget": "_blank",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/qCJnPD2R7AVudvdCvZxia.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/m9kfn0nsLnzmGV3qsN0Ee.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/yP_3qtwwSbrGy2LfMRmky.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/m9kfn0nsLnzmGV3qsN0Ee.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/qCJnPD2R7AVudvdCvZxia.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/32jRITHde899FNNFBj64a.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/RPl9de-lgZ_EktEiF-AHR.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/0LTiPFireuDpd41Lp409i.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/RPl9de-lgZ_EktEiF-AHR.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/32jRITHde899FNNFBj64a.png"
                             },
                             "blurHash": "U9C?S_IoOEoM_KogV[jsEc4:V[IoIoIVtQkC",
                             "anchor_link_pos": null,
@@ -33401,11 +33401,11 @@
                                 "z": 737,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/2C1DAYgDkbLm88DSvp6Se.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Q16wZdpdiKlhG-8jPCk9h.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/7nlE6KThHbY5d5JAbtamy.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Q16wZdpdiKlhG-8jPCk9h.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/2C1DAYgDkbLm88DSvp6Se.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bn6nvozXheXugTlFBv1sE.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/IsCwtqb-jc9XwD06gdahY.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/KyklWl8agJZrBJEG01sKk.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/IsCwtqb-jc9XwD06gdahY.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bn6nvozXheXugTlFBv1sE.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/vezeni-stolnjaci-koji-izgledaju-vintage/",
@@ -33413,11 +33413,11 @@
                             "blurHash": "U7FFHT0000M{00bv_2%L00xa_NI9?bRjjGax",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/2C1DAYgDkbLm88DSvp6Se.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Q16wZdpdiKlhG-8jPCk9h.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/7nlE6KThHbY5d5JAbtamy.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Q16wZdpdiKlhG-8jPCk9h.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/2C1DAYgDkbLm88DSvp6Se.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bn6nvozXheXugTlFBv1sE.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/IsCwtqb-jc9XwD06gdahY.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/KyklWl8agJZrBJEG01sKk.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/IsCwtqb-jc9XwD06gdahY.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bn6nvozXheXugTlFBv1sE.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -33919,11 +33919,11 @@
                                 "z": 741,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/knx4Ejzd-c97rfrvbEdcE.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/0x9IMlOMP49V0Y5t75U4z.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/7kThTGBOJ2sCi2KjNtvT9.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/0x9IMlOMP49V0Y5t75U4z.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/knx4Ejzd-c97rfrvbEdcE.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/QG1s312MI6hBlNRXB3nU-.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/_xQFWIDatSlI2y-GUdB6J.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/LyIjxnaSL9ynAs5xyJreP.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/_xQFWIDatSlI2y-GUdB6J.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/QG1s312MI6hBlNRXB3nU-.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/design/gramofonske-ploce-su-osobni-touch-za-uredenje-interijera/",
@@ -33931,11 +33931,11 @@
                             "blurHash": "UIG8WN%L5R%g?^-;v}%1IVW=R*RPnhayR-WC",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/knx4Ejzd-c97rfrvbEdcE.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/0x9IMlOMP49V0Y5t75U4z.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/7kThTGBOJ2sCi2KjNtvT9.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/0x9IMlOMP49V0Y5t75U4z.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/knx4Ejzd-c97rfrvbEdcE.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/QG1s312MI6hBlNRXB3nU-.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/_xQFWIDatSlI2y-GUdB6J.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/LyIjxnaSL9ynAs5xyJreP.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/_xQFWIDatSlI2y-GUdB6J.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/QG1s312MI6hBlNRXB3nU-.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -34030,11 +34030,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/xwY0Z3aPTRU71LPxGJx8N.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/WMNYElhHUWNt5wEitx1Us.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/EIkNjH2L01KJB1LEfO04e.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/WMNYElhHUWNt5wEitx1Us.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/xwY0Z3aPTRU71LPxGJx8N.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lJZty0BqCGQd67oxYMa5c.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/S1IZPEGRgLDJ5-5djDVAp.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/_-ITFBTHMa1a_c2rAnrOF.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/S1IZPEGRgLDJ5-5djDVAp.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lJZty0BqCGQd67oxYMa5c.png"
                                 }
                             },
                             "hidden": true,
@@ -34531,11 +34531,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RHrEpfEZh8KYm__LVR0BC.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/RnrkIxmPsu1rrx8tjMX6k.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Z3XaXo3S7ZcMqTKYONoy5.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/RnrkIxmPsu1rrx8tjMX6k.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RHrEpfEZh8KYm__LVR0BC.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/TjhSeNBW7J8VzqtjQBM7n.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/waHnxgYEg0IH4Q_qWfSWW.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/3kAFxlZ6Z41DDEcGlokQb.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/waHnxgYEg0IH4Q_qWfSWW.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/TjhSeNBW7J8VzqtjQBM7n.png"
                                 }
                             },
                             "hidden": true,
@@ -35032,11 +35032,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/d6nSAEqXUWExYSzUUzaso.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/cQ3vhoynif8EzLRb2x53d.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/RdquXe6aw5q55s-bCQf8n.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/cQ3vhoynif8EzLRb2x53d.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/d6nSAEqXUWExYSzUUzaso.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/QPxgXyRvmeGJbWsev9AjB.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/rPut2Xu3X83-lcU2_Z2w8.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/gQEITUrLnWrwxa3Q6cY9Z.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/rPut2Xu3X83-lcU2_Z2w8.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/QPxgXyRvmeGJbWsev9AjB.png"
                                 }
                             },
                             "hidden": true,
@@ -35876,11 +35876,11 @@
                             "originalW": 2664,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/H4IoaClsUkEdWU4KTT5fL.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7fI5C67uPc7creLiOCbE1.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/_O0h9KpG18KM8aA1w5x2U.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7fI5C67uPc7creLiOCbE1.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/H4IoaClsUkEdWU4KTT5fL.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ZVg42IDW9CAi3t2n-702C.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/le5U9CIb_msGr6GxAmshB.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/xNiTsXHTkDnq-KoJguWBD.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/le5U9CIb_msGr6GxAmshB.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ZVg42IDW9CAi3t2n-702C.jpg"
                             },
                             "blurHash": "U6E36o-;E2tR8_00_3xaD*M{Di4m-=?b?b_N",
                             "clickLink": "https://www.telegram.hr/super1/look/modna-inspiracija-crno-bijele-kombinacije/",
@@ -35890,11 +35890,11 @@
                                 "z": 761,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/H4IoaClsUkEdWU4KTT5fL.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7fI5C67uPc7creLiOCbE1.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/_O0h9KpG18KM8aA1w5x2U.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7fI5C67uPc7creLiOCbE1.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/H4IoaClsUkEdWU4KTT5fL.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ZVg42IDW9CAi3t2n-702C.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/le5U9CIb_msGr6GxAmshB.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/xNiTsXHTkDnq-KoJguWBD.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/le5U9CIb_msGr6GxAmshB.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ZVg42IDW9CAi3t2n-702C.jpg"
                                 }
                             },
                             "clickPage": null,
@@ -36743,22 +36743,22 @@
                             "originalW": 1600,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/apXalsIfMc7hNZvPpLL5U.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/rBWArE7YZ94NkvyFSF08U.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/QpwAAXqCGoJS-J54308gk.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/rBWArE7YZ94NkvyFSF08U.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/apXalsIfMc7hNZvPpLL5U.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5SR4xdAQTChXOhcHwbSIg.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/H3FKwv3xpLtJvStMEjfrL.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/iW4fWd_UyFlbkIKvzTw_Q.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/H3FKwv3xpLtJvStMEjfrL.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5SR4xdAQTChXOhcHwbSIg.png"
                             },
                             "viewport_phone_portrait": {
                                 "hidden": true,
                                 "z": 768,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/apXalsIfMc7hNZvPpLL5U.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/rBWArE7YZ94NkvyFSF08U.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/QpwAAXqCGoJS-J54308gk.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/rBWArE7YZ94NkvyFSF08U.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/apXalsIfMc7hNZvPpLL5U.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5SR4xdAQTChXOhcHwbSIg.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/H3FKwv3xpLtJvStMEjfrL.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/iW4fWd_UyFlbkIKvzTw_Q.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/H3FKwv3xpLtJvStMEjfrL.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5SR4xdAQTChXOhcHwbSIg.png"
                                 }
                             },
                             "blurHash": "UhGS7UM{t6%M~pIUt7xu-oM|xut7t7ofs:of",
@@ -36794,11 +36794,11 @@
                             "originalW": 1600,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kpJ69xMrTiaGhsT2UcOLo.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/kRYPf1QEcHfjNyP9xjXPr.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/NJwsyIolZeilHjY_J1DO9.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/kRYPf1QEcHfjNyP9xjXPr.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kpJ69xMrTiaGhsT2UcOLo.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/odmNR2w-KIvrvXH0MIFyz.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/g35KRo_F_V36hRM8SbkNI.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/hZMhcx79paV7FfDqY8X-D.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/g35KRo_F_V36hRM8SbkNI.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/odmNR2w-KIvrvXH0MIFyz.png"
                             },
                             "blurHash": "UC9G]$0cR#?ds*N{xZad00-;xcDiV@r?NHof",
                             "clickLink": "https://www.telegram.hr/super1/look/kendall-jenner-i-jacob-elordi-modne-lekcije/",
@@ -36808,11 +36808,11 @@
                                 "z": 769,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kpJ69xMrTiaGhsT2UcOLo.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/kRYPf1QEcHfjNyP9xjXPr.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/NJwsyIolZeilHjY_J1DO9.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/kRYPf1QEcHfjNyP9xjXPr.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kpJ69xMrTiaGhsT2UcOLo.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/odmNR2w-KIvrvXH0MIFyz.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/g35KRo_F_V36hRM8SbkNI.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/hZMhcx79paV7FfDqY8X-D.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/g35KRo_F_V36hRM8SbkNI.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/odmNR2w-KIvrvXH0MIFyz.png"
                                 }
                             },
                             "anchor_link_pos": null,
@@ -36846,11 +36846,11 @@
                             "blurHash": "U8E{a]~CxT^,004p4-Rj00ELD*WT-q_2?HNF",
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/fnj1tYF8G7IrpwYJRZAHw.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/XbF3p_RK1hLh5nDLe8j4F.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/4OCIpHJ496rBq_eCXuyc-.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/XbF3p_RK1hLh5nDLe8j4F.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/fnj1tYF8G7IrpwYJRZAHw.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/SMnJzLCzj26Nn5Tc2h_Yd.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/XfckXeXktXsLrz8iHESjq.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/lvB-68LNlpWxvsTUP44Qy.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/XfckXeXktXsLrz8iHESjq.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/SMnJzLCzj26Nn5Tc2h_Yd.jpg"
                             },
                             "name": "",
                             "animation": [{
@@ -36933,11 +36933,11 @@
                                 "z": 770,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/fnj1tYF8G7IrpwYJRZAHw.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/XbF3p_RK1hLh5nDLe8j4F.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/4OCIpHJ496rBq_eCXuyc-.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/XbF3p_RK1hLh5nDLe8j4F.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/fnj1tYF8G7IrpwYJRZAHw.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/SMnJzLCzj26Nn5Tc2h_Yd.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/XfckXeXktXsLrz8iHESjq.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/lvB-68LNlpWxvsTUP44Qy.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/XfckXeXktXsLrz8iHESjq.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/SMnJzLCzj26Nn5Tc2h_Yd.jpg"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/natikace-papuce-shopping-vodic/",
@@ -37749,11 +37749,11 @@
                             "scale": 0.20824524312896406,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/zMsYnyjr1XB4iw1tNrg1l.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/XOw1yDc7XXuABxtxT0pQl.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/gZjW2GVaJaE4oqeTY1pCy.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/XOw1yDc7XXuABxtxT0pQl.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/zMsYnyjr1XB4iw1tNrg1l.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/6JM0a-q6fFCrzqBUVFcHJ.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/_ukV7SsKCCLOHl2s-d8EV.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/z451v_wb6-bBkjyRXxI9a.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/_ukV7SsKCCLOHl2s-d8EV.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/6JM0a-q6fFCrzqBUVFcHJ.png"
                             },
                             "cropW": 729.9086294416244,
                             "cropH": 946,
@@ -37833,11 +37833,11 @@
                                 "z": 777,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/zMsYnyjr1XB4iw1tNrg1l.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/XOw1yDc7XXuABxtxT0pQl.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/gZjW2GVaJaE4oqeTY1pCy.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/XOw1yDc7XXuABxtxT0pQl.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/zMsYnyjr1XB4iw1tNrg1l.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/6JM0a-q6fFCrzqBUVFcHJ.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/_ukV7SsKCCLOHl2s-d8EV.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/z451v_wb6-bBkjyRXxI9a.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/_ukV7SsKCCLOHl2s-d8EV.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/6JM0a-q6fFCrzqBUVFcHJ.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/beauty/latte-nokti-manikura/",
@@ -38690,11 +38690,11 @@
                             "z": 797,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7RK1XdcPcYneIyFlcOnPw.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/x7PO84y01-WxMyMrS6ZAn.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/I1Nfo8EW-pCzmyCag2ZbP.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/x7PO84y01-WxMyMrS6ZAn.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7RK1XdcPcYneIyFlcOnPw.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/2U9ou7h7e9QGoLzaY0t58.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/YnSOaV0SE45-lA3rWKEob.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/aSpdUEG0viAuD5p7iryyB.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/YnSOaV0SE45-lA3rWKEob.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/2U9ou7h7e9QGoLzaY0t58.jpg"
                             },
                             "cropW": 1343,
                             "cropH": 1680,
@@ -38789,11 +38789,11 @@
                                 "z": 784,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/7RK1XdcPcYneIyFlcOnPw.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/x7PO84y01-WxMyMrS6ZAn.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/I1Nfo8EW-pCzmyCag2ZbP.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/x7PO84y01-WxMyMrS6ZAn.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/7RK1XdcPcYneIyFlcOnPw.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/2U9ou7h7e9QGoLzaY0t58.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/YnSOaV0SE45-lA3rWKEob.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/aSpdUEG0viAuD5p7iryyB.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/YnSOaV0SE45-lA3rWKEob.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/2U9ou7h7e9QGoLzaY0t58.jpg"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/life/putovanja-viralne-destinacije-i-travel-influenceri/",
@@ -39236,11 +39236,11 @@
                             "blurHash": "UUEf7,-;IoIU~q%3M{M{kXWYRjoIa~RkRjxZ",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/P7kQq88GLrIkfrank5HJm.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/8TFtpaMYbmHVBtPUpUmMe.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/FPo2mNqjnDWgMugk3bHiB.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/8TFtpaMYbmHVBtPUpUmMe.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/P7kQq88GLrIkfrank5HJm.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lmoXS2HCDesImTck69jUz.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ThwfN7umeysvW0z3vQ0Oj.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/j8HxUVTlHAD1zBFJ0ja_F.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ThwfN7umeysvW0z3vQ0Oj.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lmoXS2HCDesImTck69jUz.png"
                             },
                             "name": "",
                             "animation": [{
@@ -39323,11 +39323,11 @@
                                 "z": 788,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/P7kQq88GLrIkfrank5HJm.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/8TFtpaMYbmHVBtPUpUmMe.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/FPo2mNqjnDWgMugk3bHiB.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/8TFtpaMYbmHVBtPUpUmMe.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/P7kQq88GLrIkfrank5HJm.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lmoXS2HCDesImTck69jUz.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ThwfN7umeysvW0z3vQ0Oj.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/j8HxUVTlHAD1zBFJ0ja_F.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ThwfN7umeysvW0z3vQ0Oj.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lmoXS2HCDesImTck69jUz.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/design/festivali-dizajna-rujan-2026/",
@@ -40236,11 +40236,11 @@
                                 "z": 795,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/P8JkagxLEdBTPFB9K-Xpy.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/2uTx8woi-Ro_xIQ63hIPF.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/-9muES-BZkPneBuQ8-bij.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/2uTx8woi-Ro_xIQ63hIPF.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/P8JkagxLEdBTPFB9K-Xpy.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/TB2xr1PwYXDXsfGxt-Meh.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/mdneXvGihX23VuwktzoZr.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/vLPR5ZdWLUw2cKytAV8E1.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/mdneXvGihX23VuwktzoZr.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/TB2xr1PwYXDXsfGxt-Meh.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/life/nova-mjesta-u-zagrebu-jesen/",
@@ -40248,11 +40248,11 @@
                             "blurHash": "U6M6n=_Miw{[~B^k=_tS009un%M|^O=E-o?a",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/P8JkagxLEdBTPFB9K-Xpy.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/2uTx8woi-Ro_xIQ63hIPF.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/-9muES-BZkPneBuQ8-bij.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/2uTx8woi-Ro_xIQ63hIPF.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/P8JkagxLEdBTPFB9K-Xpy.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/TB2xr1PwYXDXsfGxt-Meh.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/mdneXvGihX23VuwktzoZr.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/vLPR5ZdWLUw2cKytAV8E1.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/mdneXvGihX23VuwktzoZr.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/TB2xr1PwYXDXsfGxt-Meh.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -40347,11 +40347,11 @@
                                 "originalH": 1680,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LexRzUR8FYCCYwVHv3k5G.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/AM_qCQ9bGc5__ZA1ATXXh.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/StLeJAxHz8raJR9xHPRto.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/AM_qCQ9bGc5__ZA1ATXXh.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/LexRzUR8FYCCYwVHv3k5G.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/xif1TkMk32uWXwkb943gH.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Gj34peKcbGkpfXUD8qz3N.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/5bYjqp8DjUt6UwFYzXLJn.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Gj34peKcbGkpfXUD8qz3N.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/xif1TkMk32uWXwkb943gH.jpg"
                                 }
                             },
                             "hidden": true,
@@ -41243,11 +41243,11 @@
                                 "originalH": 1600,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LrUMlmFiip4OKxZvNQ3Rp.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/rLFuwD84ZQzIkCGJRwoHG.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/v7KNCDqbVL-e9ZU0ovqO6.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/rLFuwD84ZQzIkCGJRwoHG.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/LrUMlmFiip4OKxZvNQ3Rp.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/h-TezUSLA21fIUiaOEjAJ.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/4bMjBWgICVGMIJWzdaDzT.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/eKOSSzJtnHqaS39j4gzJ7.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/4bMjBWgICVGMIJWzdaDzT.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/h-TezUSLA21fIUiaOEjAJ.png"
                                 }
                             },
                             "hidden": true,
@@ -41744,11 +41744,11 @@
                                 "originalH": 1680,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dfDLfug9UJZpoqGSPMV1r.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/99mIECC9LY9Lh8xWjg6hi.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/1dlho9c5iIilyB5ivksqP.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/99mIECC9LY9Lh8xWjg6hi.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dfDLfug9UJZpoqGSPMV1r.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/0ig1W4VtshngL1_jzFvqv.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/zs5ExChN2QNJUuHy0ekgQ.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/2yc-pzP-A9QOLrPAmJ1xS.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/zs5ExChN2QNJUuHy0ekgQ.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/0ig1W4VtshngL1_jzFvqv.jpg"
                                 }
                             },
                             "hidden": true,
@@ -42185,11 +42185,11 @@
                                 "originalCropY": 16.66666666666663,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/a4IKyWWjLZMWr91mdO4y_.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/wHGJjaKXsnYCxUQcgKNEu.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/sEc6Vwtg6-W-Ld1dfq4nB.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/wHGJjaKXsnYCxUQcgKNEu.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/a4IKyWWjLZMWr91mdO4y_.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/iEujoX2ejqel9f3UQsZgt.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/6eu25wRyaBV8rCy4QTG2w.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/MGJrZTIECY_OwJwq_PDee.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/6eu25wRyaBV8rCy4QTG2w.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/iEujoX2ejqel9f3UQsZgt.png"
                                 }
                             },
                             "blurHash": "UC9G]$0cR#?ds*N{xZad00-;xcDiV@r?NHof",
@@ -42289,11 +42289,11 @@
                                 "originalH": 1600,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/6WsR0n4fraJ2x1nzt2rFY.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/kJRkpsUc1XboYNdyKucJS.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/cOXX4WKGO0XbKtMCvyGVU.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/kJRkpsUc1XboYNdyKucJS.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/6WsR0n4fraJ2x1nzt2rFY.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kx5Lga2sVb_-GSGllIxeT.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/xSQ52QU0tMI9L5WHbFiuu.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/SqE9Ujc4PjhSMLmyqp5MG.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/xSQ52QU0tMI9L5WHbFiuu.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kx5Lga2sVb_-GSGllIxeT.png"
                                 }
                             },
                             "hidden": true,
@@ -42797,11 +42797,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/oJdL6LAsZUAxRHQV94t67.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/6K_bQUv-r8JORxpg4gK6Z.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/faWL8Rse9KLA0m4MVLBSb.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/6K_bQUv-r8JORxpg4gK6Z.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/oJdL6LAsZUAxRHQV94t67.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kb5kE2atz4qjJwvWB9xkI.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/p0Y5jCQq6d4lbifesh5ZM.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/zUOZyc0GW7ZFXq60Lgodw.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/p0Y5jCQq6d4lbifesh5ZM.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kb5kE2atz4qjJwvWB9xkI.png"
                                 }
                             },
                             "hidden": true,
@@ -43298,11 +43298,11 @@
                                 "originalH": 1680,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5heraz-zO0EKlSw7hTvG0.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qf55Uwvpeq6ZC83nXNvQR.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/sjOlP9NLoA82O3JyGKkMj.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qf55Uwvpeq6ZC83nXNvQR.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5heraz-zO0EKlSw7hTvG0.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Rncs0IvW5MRenToyzqM8J.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ruRtPfZ2Pbj9ISlDzC5gs.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/KGHfLgR1KTBCXMEDP19Rp.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ruRtPfZ2Pbj9ISlDzC5gs.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Rncs0IvW5MRenToyzqM8J.jpg"
                                 }
                             },
                             "hidden": true,
@@ -43799,11 +43799,11 @@
                                 "originalH": 1600,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/PTHBADuu0onozhgAl-492.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/40z978Hwn8b8vaVITuqRe.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/87MdaEMB5I2k-kBV6EnvK.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/40z978Hwn8b8vaVITuqRe.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/PTHBADuu0onozhgAl-492.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/iDcgsSNn5Dt_T9BT07hdg.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/rlsDOkK5xiTvpGItbvdV2.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/M-tgHTFfoVDm_G6Ycz-yQ.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/rlsDOkK5xiTvpGItbvdV2.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/iDcgsSNn5Dt_T9BT07hdg.png"
                                 }
                             },
                             "hidden": true,
@@ -44300,11 +44300,11 @@
                                 "originalH": 1600,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ylC2UZ4F-Oy_2kMi0VWa0.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ut3q3ydGH-uQSzkb1hOO4.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/iW9XJSfw6CVlPMh8dfOsJ.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ut3q3ydGH-uQSzkb1hOO4.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ylC2UZ4F-Oy_2kMi0VWa0.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/reRF7GPCM4zeYcb1QEDBv.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/R5s_Pg_DTe_zdY1Bm_ni-.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/rwFk8gmIFADtHO1-WzGlX.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/R5s_Pg_DTe_zdY1Bm_ni-.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/reRF7GPCM4zeYcb1QEDBv.png"
                                 }
                             },
                             "hidden": true,
@@ -44762,7 +44762,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 152,
-                            "y": 7469.56,
+                            "y": 7711.56,
                             "w": 74,
                             "h": 62,
                             "version": 2,
@@ -44783,11 +44783,11 @@
                             "originalW": 5906,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/2RWpPNtZVtJCx3717TkPA.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/mykiTTKDQxVGgiz3QIFiO.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png"
                             },
                             "blurHash": "UEC?r]-;00WBM{M{xuof00M{~qWBt7xuIUfQ",
                             "animation": [{
@@ -44810,11 +44810,11 @@
                                 "z": 1025,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/2RWpPNtZVtJCx3717TkPA.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/mykiTTKDQxVGgiz3QIFiO.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png"
                                 }
                             },
                             "is_above": false,
@@ -44837,7 +44837,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 257,
-                            "y": 7474.56,
+                            "y": 7716.56,
                             "w": 52,
                             "h": 52,
                             "version": 2,
@@ -44912,7 +44912,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 328,
-                            "y": 7460.56,
+                            "y": 7702.56,
                             "w": 95,
                             "h": 79,
                             "version": 2,
@@ -44922,11 +44922,11 @@
                             "z": 1036,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/IfbLt0X6GprmvesxNgKuu.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/z0PoxsgvZQ4oZfMxVvqaN.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png"
                             },
                             "cropW": 3201,
                             "cropH": 2662,
@@ -44960,11 +44960,11 @@
                                 "z": 1024,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/IfbLt0X6GprmvesxNgKuu.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/z0PoxsgvZQ4oZfMxVvqaN.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png"
                                 }
                             },
                             "is_above": false,
@@ -45007,11 +45007,11 @@
                                 "cropH": 1572.2222222222222,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/v5ImhUB6BH7vWqmXMEdsw.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/QrxoK1dqpc1H2SONZhRNq.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/wi-WK292MUQazGKueYVho.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/QrxoK1dqpc1H2SONZhRNq.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/v5ImhUB6BH7vWqmXMEdsw.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/GvBILSMC6Zmb4jek6p3Ez.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qVt4Tn34wqSQMVj-nrgHx.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/94oAy74ygh3CTMOgw6OIF.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qVt4Tn34wqSQMVj-nrgHx.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/GvBILSMC6Zmb4jek6p3Ez.png"
                                 },
                                 "originalCropW": 1600,
                                 "originalCropH": 1572.2222222222222,
@@ -45872,22 +45872,22 @@
                             "originalW": 800,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Q59xQd_EViT9f7kbvDX5Y.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/D9HSDxTbW9GtTfjQ_crnd.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZqUxw00rMxTMBHZrcDtRA.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/D9HSDxTbW9GtTfjQ_crnd.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Q59xQd_EViT9f7kbvDX5Y.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DCbfirRPK9QpxxKbtVBjm.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/wZlIKnhcSz12o-moEa16F.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/5rkhRnHqHXUVXGlQbz0fB.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/wZlIKnhcSz12o-moEa16F.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DCbfirRPK9QpxxKbtVBjm.png"
                             },
                             "viewport_phone_portrait": {
                                 "hidden": true,
                                 "z": 849,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Q59xQd_EViT9f7kbvDX5Y.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/D9HSDxTbW9GtTfjQ_crnd.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZqUxw00rMxTMBHZrcDtRA.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/D9HSDxTbW9GtTfjQ_crnd.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Q59xQd_EViT9f7kbvDX5Y.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DCbfirRPK9QpxxKbtVBjm.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/wZlIKnhcSz12o-moEa16F.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/5rkhRnHqHXUVXGlQbz0fB.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/wZlIKnhcSz12o-moEa16F.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DCbfirRPK9QpxxKbtVBjm.png"
                                 }
                             },
                             "blurHash": "UIG+H*00~oxtI8E1Rjt6%MWBXAt7V@NGs:Rj",
@@ -45924,11 +45924,11 @@
                             "originalW": 1500,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ja9rrmXyJuPck4bIIedQF.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/aB6PK86-0OrnTi2qe3Oq6.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/qifPQyEIR9HjO3QOZYzsh.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/aB6PK86-0OrnTi2qe3Oq6.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ja9rrmXyJuPck4bIIedQF.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lUuplZsandu3TWvPTZXlA.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/6CGYAJHwpzqGb3f_hJZCJ.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/1w9_unU7OSxqVjS0sRiBw.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/6CGYAJHwpzqGb3f_hJZCJ.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lUuplZsandu3TWvPTZXlA.png"
                             },
                             "blurHash": "UHGl0GRO?a~p^*t7%1xuxuofRPRj%2WAj]xt",
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/haljine-za-posao-najbolji-modeli-jesen/",
@@ -45938,11 +45938,11 @@
                                 "z": 850,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ja9rrmXyJuPck4bIIedQF.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/aB6PK86-0OrnTi2qe3Oq6.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/qifPQyEIR9HjO3QOZYzsh.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/aB6PK86-0OrnTi2qe3Oq6.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ja9rrmXyJuPck4bIIedQF.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lUuplZsandu3TWvPTZXlA.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/6CGYAJHwpzqGb3f_hJZCJ.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/1w9_unU7OSxqVjS0sRiBw.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/6CGYAJHwpzqGb3f_hJZCJ.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lUuplZsandu3TWvPTZXlA.png"
                                 }
                             },
                             "anchor_link_pos": null,
@@ -45977,11 +45977,11 @@
                             "blurHash": "UAEM2it6_3xu~VRP%fWXbIj[t7R*%2RikBRj",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/vbOW1aVSI89qRNf-nPQRI.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/bNJQi1AZqa8HnTES80DNY.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/4MFoAEVKlbk0mIhUXdzNC.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/bNJQi1AZqa8HnTES80DNY.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/vbOW1aVSI89qRNf-nPQRI.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Zdy0q0-ma5vtYdClXm0zA.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/OfgPMCB6Um34exM44R75P.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/gXbMdDQ25-bqpyBysQHcS.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/OfgPMCB6Um34exM44R75P.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Zdy0q0-ma5vtYdClXm0zA.png"
                             },
                             "name": "",
                             "animation": [{
@@ -46064,11 +46064,11 @@
                                 "z": 851,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/vbOW1aVSI89qRNf-nPQRI.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/bNJQi1AZqa8HnTES80DNY.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/4MFoAEVKlbk0mIhUXdzNC.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/bNJQi1AZqa8HnTES80DNY.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/vbOW1aVSI89qRNf-nPQRI.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Zdy0q0-ma5vtYdClXm0zA.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/OfgPMCB6Um34exM44R75P.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/gXbMdDQ25-bqpyBysQHcS.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/OfgPMCB6Um34exM44R75P.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Zdy0q0-ma5vtYdClXm0zA.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/mokasinke-za-jesen-najbolji-ravni-modeli/",
@@ -46915,11 +46915,11 @@
                             "originalW": 1500,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uw7-t4N0jcKfZfGddj5VF.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/4IzESb2wqPgCR5Nsci4AB.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/VdIZktGW8OkKtDldTQt0r.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/4IzESb2wqPgCR5Nsci4AB.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uw7-t4N0jcKfZfGddj5VF.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/FxtlNMOEQa1DSbpmQwsCO.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/_-7aAkCfBu668ed6dnwB1.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/_HXOqNMiJL6b9JTnvJIEJ.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/_-7aAkCfBu668ed6dnwB1.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/FxtlNMOEQa1DSbpmQwsCO.png"
                             },
                             "blurHash": "U9FrCHD*s_~V_1tRIVIUM_%2%2E1sjxtxtM{",
                             "clickLink": "https://www.telegram.hr/super1/look/sezane-lior-baloner-jesen-2026/",
@@ -46929,11 +46929,11 @@
                                 "z": 858,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uw7-t4N0jcKfZfGddj5VF.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/4IzESb2wqPgCR5Nsci4AB.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/VdIZktGW8OkKtDldTQt0r.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/4IzESb2wqPgCR5Nsci4AB.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/uw7-t4N0jcKfZfGddj5VF.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/FxtlNMOEQa1DSbpmQwsCO.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/_-7aAkCfBu668ed6dnwB1.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/_HXOqNMiJL6b9JTnvJIEJ.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/_-7aAkCfBu668ed6dnwB1.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/FxtlNMOEQa1DSbpmQwsCO.png"
                                 }
                             },
                             "clickPage": null,
@@ -47916,11 +47916,11 @@
                                 "z": 866,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IzIfG0R_P5vdvUgoZ1TVx.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/uosNX7bl4weGWIiXQkHDu.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/y6-DPuGHr0lyyxfI39-w0.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/uosNX7bl4weGWIiXQkHDu.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IzIfG0R_P5vdvUgoZ1TVx.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5dIxNpmq0eNc21-OW0wDx.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/mp-0STtbbK2Qsp8x7byJY.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/lCCnuU3D1alCb5-0-3Cry.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/mp-0STtbbK2Qsp8x7byJY.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5dIxNpmq0eNc21-OW0wDx.png"
                                 }
                             },
                             "blurHash": "U6CsmoaL0J%N~q9F00?H~qob0Kof_N%LadM|",
@@ -47929,11 +47929,11 @@
                             "name": "",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IzIfG0R_P5vdvUgoZ1TVx.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/uosNX7bl4weGWIiXQkHDu.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/y6-DPuGHr0lyyxfI39-w0.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/uosNX7bl4weGWIiXQkHDu.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IzIfG0R_P5vdvUgoZ1TVx.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5dIxNpmq0eNc21-OW0wDx.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/mp-0STtbbK2Qsp8x7byJY.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/lCCnuU3D1alCb5-0-3Cry.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/mp-0STtbbK2Qsp8x7byJY.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5dIxNpmq0eNc21-OW0wDx.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -47971,21 +47971,21 @@
                                 "z": 867,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/mtUN4LT_giLkt-_K0VAnh.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/G5akZbX1vbAZknzGXKsE5.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/5pmxRBU_XP7ax5S5gviVX.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/G5akZbX1vbAZknzGXKsE5.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/mtUN4LT_giLkt-_K0VAnh.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/X2NkmP064GOivXrZLYhYi.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/F5PlLWEK5J40aWewVL2zY.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/dMztD6BfHvTzhzf2vQ7Ud.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/F5PlLWEK5J40aWewVL2zY.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/X2NkmP064GOivXrZLYhYi.png"
                                 }
                             },
                             "name": "",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/mtUN4LT_giLkt-_K0VAnh.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/G5akZbX1vbAZknzGXKsE5.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/5pmxRBU_XP7ax5S5gviVX.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/G5akZbX1vbAZknzGXKsE5.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/mtUN4LT_giLkt-_K0VAnh.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/X2NkmP064GOivXrZLYhYi.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/F5PlLWEK5J40aWewVL2zY.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/dMztD6BfHvTzhzf2vQ7Ud.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/F5PlLWEK5J40aWewVL2zY.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/X2NkmP064GOivXrZLYhYi.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -48218,22 +48218,22 @@
                                 "z": 869,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/g1JnZC0ReR7jBlTmlRPM6.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/q7GEcACz70dz_rOJkmMae.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/6B9Gjk53Z5Jcle2oI6_vJ.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/q7GEcACz70dz_rOJkmMae.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/g1JnZC0ReR7jBlTmlRPM6.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/iDAnzsk6Np0PqLA2Hd2RN.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Og1vtEJVr2sCE-bNXbv0H.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Bo3L2sXSZfHXXq43N_GN9.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Og1vtEJVr2sCE-bNXbv0H.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/iDAnzsk6Np0PqLA2Hd2RN.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/look/modni-trendovi-za-jesen-2026/",
                             "clickTarget": "_blank",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/g1JnZC0ReR7jBlTmlRPM6.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/q7GEcACz70dz_rOJkmMae.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/6B9Gjk53Z5Jcle2oI6_vJ.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/q7GEcACz70dz_rOJkmMae.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/g1JnZC0ReR7jBlTmlRPM6.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/iDAnzsk6Np0PqLA2Hd2RN.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Og1vtEJVr2sCE-bNXbv0H.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Bo3L2sXSZfHXXq43N_GN9.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Og1vtEJVr2sCE-bNXbv0H.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/iDAnzsk6Np0PqLA2Hd2RN.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -48965,21 +48965,21 @@
                                 "z": 875,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/TQQWyP34qlEhoTzs6iOhH.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/yDauhw47ENeYLQdhjZdO3.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/wALA7MKu0htSPBOAY8XQo.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/yDauhw47ENeYLQdhjZdO3.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/TQQWyP34qlEhoTzs6iOhH.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AitaM3btSxjdD3B_dwOJH.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/2evhT3g3NXPYzZOeazTIo.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/MlOAdGqa9ijvn7DkN51p1.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/2evhT3g3NXPYzZOeazTIo.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AitaM3btSxjdD3B_dwOJH.png"
                                 }
                             },
                             "name": "",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/TQQWyP34qlEhoTzs6iOhH.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/yDauhw47ENeYLQdhjZdO3.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/wALA7MKu0htSPBOAY8XQo.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/yDauhw47ENeYLQdhjZdO3.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/TQQWyP34qlEhoTzs6iOhH.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AitaM3btSxjdD3B_dwOJH.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/2evhT3g3NXPYzZOeazTIo.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/MlOAdGqa9ijvn7DkN51p1.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/2evhT3g3NXPYzZOeazTIo.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AitaM3btSxjdD3B_dwOJH.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -49591,11 +49591,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RWox2sZaOeVqHben66COS.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/24uHPhxlLbPw1t1AF-pUj.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/vNgBhTSaavP9UZxmIvLyr.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/24uHPhxlLbPw1t1AF-pUj.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RWox2sZaOeVqHben66COS.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/YCab8rZvAG1eOeBM8KGxN.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/4TUioThMqYDb2_Mj01pK0.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/hCMnuO9mJSgds7nZBaRIW.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/4TUioThMqYDb2_Mj01pK0.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/YCab8rZvAG1eOeBM8KGxN.png"
                                 }
                             },
                             "hidden": true,
@@ -50092,11 +50092,11 @@
                                 "originalH": 907,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/sNzcRCxkFcGjyHOWE8sLG.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/232QXRUAi4eqlZtb74nJI.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/1zPpJquVn-6j8cX1rZ5-4.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/232QXRUAi4eqlZtb74nJI.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/sNzcRCxkFcGjyHOWE8sLG.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-xcwgPSCE0JoMfLY561sF.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/AtxwW4CUKr9BIpKEf6iXQ.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/k-B45SyuxTsB1YqGez5Kv.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/AtxwW4CUKr9BIpKEf6iXQ.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-xcwgPSCE0JoMfLY561sF.png"
                                 }
                             },
                             "hidden": true,
@@ -50533,11 +50533,11 @@
                                 "originalCropY": 8.333333333333314,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dDcVBSHzhqkSWoo8geoa2.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/joVTyEBStD8rQTkOn6tVw.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0N5EpFg1moOrssroUmvWI.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/joVTyEBStD8rQTkOn6tVw.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dDcVBSHzhqkSWoo8geoa2.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/re0GX6UQyAed9Ce-j6aCI.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/SWlDFqVx7UZuCUyJV8SMF.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Q3JXGlXLvzIkKzYAubs3M.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/SWlDFqVx7UZuCUyJV8SMF.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/re0GX6UQyAed9Ce-j6aCI.png"
                                 }
                             },
                             "blurHash": "UIG+H*00~oxtI8E1Rjt6%MWBXAt7V@NGs:Rj",
@@ -51033,11 +51033,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/yzzCdHZGzNOCDXJWrZZBw.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/GECPK2ThUvpCWoubz1r9I.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/7Jsi-X41_L-6M7GQZSljr.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/GECPK2ThUvpCWoubz1r9I.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/yzzCdHZGzNOCDXJWrZZBw.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/QglP8dv3UuP1TTynqkgfL.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/H5m_Mq8YbKaAD3Kzm2aKl.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/c5xaZ-HDl33mO-cKlys9f.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/H5m_Mq8YbKaAD3Kzm2aKl.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/QglP8dv3UuP1TTynqkgfL.png"
                                 }
                             },
                             "hidden": true,
@@ -51534,11 +51534,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/zc-_ldCcd5QCQJg3MNxnx.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/kv8IT7i0aTrjyzh587lz6.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/1PkpOLwqgm3ExLOsWcUi3.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/kv8IT7i0aTrjyzh587lz6.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/zc-_ldCcd5QCQJg3MNxnx.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/2b51YQhA1tSp-xc_0VuJ9.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/krZgwVTv2ndH5U2h9D4BE.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/IMyeWh3j8pM8UeVKD3hJU.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/krZgwVTv2ndH5U2h9D4BE.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/2b51YQhA1tSp-xc_0VuJ9.png"
                                 }
                             },
                             "hidden": true,
@@ -51975,11 +51975,11 @@
                                 "originalCropY": 0,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/4CIWz0kgCDavjdnkMZpcc.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/KTu3n2_jPUV7XowWkXhDi.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/OnE760FeEcwCGRfr9bcrY.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/KTu3n2_jPUV7XowWkXhDi.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/4CIWz0kgCDavjdnkMZpcc.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/WIl7fdf58AeKd1Gvk32k1.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qw6a1wvXa9m1IytOkwB78.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/HeU2P693cGqXV4Bl7BvmX.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qw6a1wvXa9m1IytOkwB78.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/WIl7fdf58AeKd1Gvk32k1.png"
                                 }
                             },
                             "blurHash": "UHGl3OM_?a~p~Bt7%1xuxuofRPRj%2WAj]xt",
@@ -52079,11 +52079,11 @@
                                 "originalH": 800,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/aAmy4nVpnGoTJ09zEin42.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/5VLjQQRqnNXmeeFg50KzU.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/m12CoapyqC1qJSnEKWhN1.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/5VLjQQRqnNXmeeFg50KzU.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/aAmy4nVpnGoTJ09zEin42.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ZAgf1hmxHS_C02Lx7LloN.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qFrP49SBQTPXNBVLqDZxe.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/_Mf5NON9BB3MqsCx8cTOr.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qFrP49SBQTPXNBVLqDZxe.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ZAgf1hmxHS_C02Lx7LloN.png"
                                 }
                             },
                             "hidden": true,
@@ -52580,11 +52580,11 @@
                                 "originalH": 1000,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Pt2Vh7qzmuvfPBfe0o_rd.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/fAYIcfNug-XOkYM_s1Umz.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/KhA8Lj34e2fEvaEgHZc3-.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/fAYIcfNug-XOkYM_s1Umz.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Pt2Vh7qzmuvfPBfe0o_rd.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/hR9kT2EZ6srU3vy7UuyGK.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/pCHl4MpSmw5l_fmZZrs0K.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/mY6mr54EF11YltiTIyhhn.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/pCHl4MpSmw5l_fmZZrs0K.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/hR9kT2EZ6srU3vy7UuyGK.png"
                                 }
                             },
                             "hidden": true,
@@ -53081,11 +53081,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Yx05H-2wlCCab6V6kd1Uf.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/HNYEfxNtDcf86T6WSXpd2.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/O1w-VK5zKtbvPm9SlV9cr.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/HNYEfxNtDcf86T6WSXpd2.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Yx05H-2wlCCab6V6kd1Uf.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wTPvXQUYujkwdSER4XJ6P.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/rOtxNHbxS7l1QURHVJ3J0.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/HUzKwCRy148nFj59iNuOw.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/rOtxNHbxS7l1QURHVJ3J0.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wTPvXQUYujkwdSER4XJ6P.png"
                                 }
                             },
                             "hidden": true,
@@ -53589,11 +53589,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/A4XYtymyOBuHQp3VaQP4r.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/KrOcYrt9a4Vd3LjCbMsAx.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/0A7jUxtuNR52l9YOGAzer.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/KrOcYrt9a4Vd3LjCbMsAx.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/A4XYtymyOBuHQp3VaQP4r.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bgSawAae3Cq7p6xMmZtEe.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/bpNfFKHXRySgHZuzgSxF0.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/XxRJAgdMxk7vw6YfGmPom.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/bpNfFKHXRySgHZuzgSxF0.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bgSawAae3Cq7p6xMmZtEe.png"
                                 }
                             },
                             "hidden": true,
@@ -54097,11 +54097,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/mPpYD4tOEet4Y2YufSTom.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Yh-L9d0xiWu32dT9NN879.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/5M3pigFmKffhVV78HwUp9.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Yh-L9d0xiWu32dT9NN879.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/mPpYD4tOEet4Y2YufSTom.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Zl0DBv1oKhj05AfqoQy_0.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Qbh4OeC4VAW3Cm34OgtFa.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/cAD8tCHaMmWMmFZixSOLU.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Qbh4OeC4VAW3Cm34OgtFa.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Zl0DBv1oKhj05AfqoQy_0.png"
                                 }
                             },
                             "hidden": true,
@@ -54605,11 +54605,11 @@
                                 "originalH": 984,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/J_HDDkzhS5Uskp44by7D0.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/OdZULE3evLtJB9wRhFOev.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/t1jSB2MR-Mn5e3gx-PimM.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/OdZULE3evLtJB9wRhFOev.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/J_HDDkzhS5Uskp44by7D0.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/CPI_TDqOck_i_H4vJaz8d.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/9emuZxQurh19PsO5faSFd.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/t72jagYPGczf1itTKY_Jp.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/9emuZxQurh19PsO5faSFd.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/CPI_TDqOck_i_H4vJaz8d.png"
                                 }
                             },
                             "hidden": true,
@@ -55164,11 +55164,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/vEg6-Oj1ubcRJzxhiLEu6.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/YKImq0PCUX4pjF9vSlH0S.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/t9W6QvOdvJJDCxTTIZDCD.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/YKImq0PCUX4pjF9vSlH0S.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/vEg6-Oj1ubcRJzxhiLEu6.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/W0OOMN49pLok8m2EU9_cK.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/2Z_TPXv9mdYTM0pzjxBYe.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/N6X17Dj3eMaHdozJBej5d.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/2Z_TPXv9mdYTM0pzjxBYe.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/W0OOMN49pLok8m2EU9_cK.png"
                                 }
                             },
                             "hidden": true,
@@ -55672,11 +55672,11 @@
                                 "originalH": 1158,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/jHNAfwAgH1r6Di4l9xdPo.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/3c3TklZire_Tjp4vhMQnu.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/k_DwqHbejOBulUIkGXuTF.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/3c3TklZire_Tjp4vhMQnu.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/jHNAfwAgH1r6Di4l9xdPo.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Th8waZir-QKF-rdUixea7.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Ezjxvz_Dpq2b7zdyWo7N_.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/n-flQmStctWrx0PXPNsQo.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Ezjxvz_Dpq2b7zdyWo7N_.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Th8waZir-QKF-rdUixea7.png"
                                 }
                             },
                             "hidden": true,
@@ -56180,11 +56180,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/mBuMOwy38WZjoCtb__eGh.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/HlZ2QKSaEjxVwzXCDs-_E.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/UVI9zUlWucA_m6UHmjnxv.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/HlZ2QKSaEjxVwzXCDs-_E.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/mBuMOwy38WZjoCtb__eGh.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DyfYGNlFt8h0-6NTCNBMa.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/_-5qwjibi7qjvNGEW2twa.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Env9xyxxp3eXneCEO_OM6.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/_-5qwjibi7qjvNGEW2twa.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DyfYGNlFt8h0-6NTCNBMa.png"
                                 }
                             },
                             "hidden": true,
@@ -56732,11 +56732,11 @@
                             "z": 966,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/NBPqHQN-WQli69WkQH6rM.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/flVj5RnZQITnnb9wTC1xR.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/iyLVzkVXZXBDMjXtgyjIC.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/flVj5RnZQITnnb9wTC1xR.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/NBPqHQN-WQli69WkQH6rM.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/mRz8lMewTEQ20paTcelUY.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/_UiZ4ZJ3JxiONv0gM5AyV.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/E5uwJuCLHWi2BKRlgluBu.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/_UiZ4ZJ3JxiONv0gM5AyV.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/mRz8lMewTEQ20paTcelUY.png"
                             },
                             "cropW": 1271,
                             "cropH": 1600,
@@ -56817,11 +56817,11 @@
                                 "z": 956,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/NBPqHQN-WQli69WkQH6rM.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/flVj5RnZQITnnb9wTC1xR.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/iyLVzkVXZXBDMjXtgyjIC.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/flVj5RnZQITnnb9wTC1xR.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/NBPqHQN-WQli69WkQH6rM.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/mRz8lMewTEQ20paTcelUY.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/_UiZ4ZJ3JxiONv0gM5AyV.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/E5uwJuCLHWi2BKRlgluBu.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/_UiZ4ZJ3JxiONv0gM5AyV.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/mRz8lMewTEQ20paTcelUY.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/najbolji-parfemi-nota-rize/",
@@ -57489,11 +57489,11 @@
                             "scale": 0.20652,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/4aHJrrk1O_n2zznhrLBna.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/vqolONrwMFNMVduguJdkw.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/7pYFChS8VDJvGSxvarTgC.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/vqolONrwMFNMVduguJdkw.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/4aHJrrk1O_n2zznhrLBna.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_iMxiz9luhkSSFtxU52SA.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/vv55WZCmJeTwhVnoLJlbn.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/04PhhKV1ul6tEniCRywEO.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/vv55WZCmJeTwhVnoLJlbn.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_iMxiz9luhkSSFtxU52SA.jpg"
                             },
                             "cropW": 717,
                             "cropH": 954,
@@ -57573,11 +57573,11 @@
                                 "z": 962,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/4aHJrrk1O_n2zznhrLBna.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/vqolONrwMFNMVduguJdkw.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/7pYFChS8VDJvGSxvarTgC.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/vqolONrwMFNMVduguJdkw.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/4aHJrrk1O_n2zznhrLBna.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/_iMxiz9luhkSSFtxU52SA.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/vv55WZCmJeTwhVnoLJlbn.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/04PhhKV1ul6tEniCRywEO.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/vv55WZCmJeTwhVnoLJlbn.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/_iMxiz9luhkSSFtxU52SA.jpg"
                                 }
                             },
                             "__v": 0
@@ -58474,11 +58474,11 @@
                             "originalW": 1600,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DItMm97-el-dHRGgpT2UC.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/NoHYY_sr9Ny0ZgLzENYiQ.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/obR10J4KO_63ziXhXwChg.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/NoHYY_sr9Ny0ZgLzENYiQ.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DItMm97-el-dHRGgpT2UC.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/1oLbp6JIrar1Ooh4OAUzR.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/LoDvSANdYIwP1GusVncIy.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/ek1p_BqlOPnaUznwB_hgW.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/LoDvSANdYIwP1GusVncIy.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/1oLbp6JIrar1Ooh4OAUzR.png"
                             },
                             "blurHash": "UMCG#xx[_4%2?ut7-;ofkWa}aLj[X8ofn%j[",
                             "clickLink": "https://www.telegram.hr/super1/beauty/5-najboljih-nude-olovki-za-usne/",
@@ -58488,11 +58488,11 @@
                                 "z": 970,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DItMm97-el-dHRGgpT2UC.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/NoHYY_sr9Ny0ZgLzENYiQ.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/obR10J4KO_63ziXhXwChg.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/NoHYY_sr9Ny0ZgLzENYiQ.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DItMm97-el-dHRGgpT2UC.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/1oLbp6JIrar1Ooh4OAUzR.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/LoDvSANdYIwP1GusVncIy.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ek1p_BqlOPnaUznwB_hgW.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/LoDvSANdYIwP1GusVncIy.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/1oLbp6JIrar1Ooh4OAUzR.png"
                                 }
                             },
                             "name": "",
@@ -59119,11 +59119,11 @@
                             "originalW": 800,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/oSlG4le4GQo2FevuI1Pw6.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Gyi5fB8FWc1dPoE0Vr0sp.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/watpo7Fkch-hYJ86xY0n2.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Gyi5fB8FWc1dPoE0Vr0sp.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/oSlG4le4GQo2FevuI1Pw6.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/YO2KLySeAz28ta_vvzQYG.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Pi15p1ZemnyKG0ZanYQfX.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/i6_vyxH0p2K3Y8kQk5uZd.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Pi15p1ZemnyKG0ZanYQfX.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/YO2KLySeAz28ta_vvzQYG.png"
                             },
                             "blurHash": "UTI#0=4:x]%L~VM|IoofI;oLnPNG-pR*M|s:",
                             "clickLink": "https://www.telegram.hr/super1/beauty/3-frizure-za-gosce-na-vjencanju/",
@@ -59133,11 +59133,11 @@
                                 "z": 975,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/oSlG4le4GQo2FevuI1Pw6.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Gyi5fB8FWc1dPoE0Vr0sp.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/watpo7Fkch-hYJ86xY0n2.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Gyi5fB8FWc1dPoE0Vr0sp.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/oSlG4le4GQo2FevuI1Pw6.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/YO2KLySeAz28ta_vvzQYG.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Pi15p1ZemnyKG0ZanYQfX.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/i6_vyxH0p2K3Y8kQk5uZd.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Pi15p1ZemnyKG0ZanYQfX.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/YO2KLySeAz28ta_vvzQYG.png"
                                 }
                             },
                             "anchor_link_pos": null,
@@ -59160,11 +59160,11 @@
                             "z": 986,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/JsTqMeK22scxhk_e3VI8A.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/IlPTUu2pIBPbjfIcI-XpT.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/xdvNgS7uE8zGktKOG4hEs.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/IlPTUu2pIBPbjfIcI-XpT.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/JsTqMeK22scxhk_e3VI8A.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/HJmJHNXyXRbrB0jB-UIV_.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/NAr7RrmPMUfC74y6yfT5h.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/7ParcHk2aHrtkg9zG-B0J.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/NAr7RrmPMUfC74y6yfT5h.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/HJmJHNXyXRbrB0jB-UIV_.png"
                             },
                             "cropW": 632,
                             "cropH": 800,
@@ -59245,11 +59245,11 @@
                                 "z": 976,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/JsTqMeK22scxhk_e3VI8A.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/IlPTUu2pIBPbjfIcI-XpT.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/xdvNgS7uE8zGktKOG4hEs.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/IlPTUu2pIBPbjfIcI-XpT.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/JsTqMeK22scxhk_e3VI8A.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/HJmJHNXyXRbrB0jB-UIV_.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/NAr7RrmPMUfC74y6yfT5h.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/7ParcHk2aHrtkg9zG-B0J.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/NAr7RrmPMUfC74y6yfT5h.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/HJmJHNXyXRbrB0jB-UIV_.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/najbolji-parfemi-nota-rize/",
@@ -59745,11 +59745,11 @@
                             "scale": 0.12312,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wB1Y_2Rvx0p5dFzTiRWqO.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ia813CjaYDjjhy_V5PYz7.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Ea6wGlqv1pK4eq_UhKktz.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ia813CjaYDjjhy_V5PYz7.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wB1Y_2Rvx0p5dFzTiRWqO.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/PEFzfFaY_FChxjVY4XYX2.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/QeSM41yRyjJyF0excCw7t.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/KSgOJlvTpq4ZEEOMDwkOF.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/QeSM41yRyjJyF0excCw7t.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/PEFzfFaY_FChxjVY4XYX2.png"
                             },
                             "cropW": 1202,
                             "cropH": 1600,
@@ -59829,11 +59829,11 @@
                                 "z": 981,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wB1Y_2Rvx0p5dFzTiRWqO.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ia813CjaYDjjhy_V5PYz7.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Ea6wGlqv1pK4eq_UhKktz.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ia813CjaYDjjhy_V5PYz7.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wB1Y_2Rvx0p5dFzTiRWqO.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/PEFzfFaY_FChxjVY4XYX2.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/QeSM41yRyjJyF0excCw7t.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/KSgOJlvTpq4ZEEOMDwkOF.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/QeSM41yRyjJyF0excCw7t.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/PEFzfFaY_FChxjVY4XYX2.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/beauty/whisper-siske-su-novi-hair-trend/",
@@ -60788,20 +60788,20 @@
                                 "z": 988,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/F912n9jxV6f4SDbqtr8hY.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/RyjWnIDCbVaGERP8W0485.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/bRwh0ar7Gh37q1q3A1E5p.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/RyjWnIDCbVaGERP8W0485.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/F912n9jxV6f4SDbqtr8hY.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/MBE_39rNBMwkTWovsb0sP.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/opq5TIdqw8Tx8285AU9V3.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/l0Ssl1vEdxtekzbrJLp0s.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/opq5TIdqw8Tx8285AU9V3.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/MBE_39rNBMwkTWovsb0sP.png"
                                 }
                             },
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/F912n9jxV6f4SDbqtr8hY.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/RyjWnIDCbVaGERP8W0485.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/bRwh0ar7Gh37q1q3A1E5p.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/RyjWnIDCbVaGERP8W0485.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/F912n9jxV6f4SDbqtr8hY.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/MBE_39rNBMwkTWovsb0sP.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/opq5TIdqw8Tx8285AU9V3.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/l0Ssl1vEdxtekzbrJLp0s.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/opq5TIdqw8Tx8285AU9V3.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/MBE_39rNBMwkTWovsb0sP.png"
                             },
                             "clickLink": "https://www.telegram.hr/super1/life/love-of-your-life-romanticna-drama-trailer/",
                             "clickTarget": "_blank",
@@ -61709,11 +61709,11 @@
                                 "z": 995,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bf-JPy68Iz_GHB36JcqjY.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Q4DlwIxvuJoGA8YklKCuv.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/UpQwQgRtytdD8NPf1tgk7.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Q4DlwIxvuJoGA8YklKCuv.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bf-JPy68Iz_GHB36JcqjY.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/zJiitLMpI1NhybX95gRqc.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/ix_b2iEkA-FyIzyYCKySX.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/istSkzUXyXmCmSJR55XXK.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/ix_b2iEkA-FyIzyYCKySX.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/zJiitLMpI1NhybX95gRqc.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/life/soft-socializing-novi-trend-druzenja/",
@@ -61721,11 +61721,11 @@
                             "blurHash": "UJJt@*%N.8?a~oadoIof?HayM{Rk_3t8RjRP",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bf-JPy68Iz_GHB36JcqjY.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Q4DlwIxvuJoGA8YklKCuv.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/UpQwQgRtytdD8NPf1tgk7.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Q4DlwIxvuJoGA8YklKCuv.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bf-JPy68Iz_GHB36JcqjY.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/zJiitLMpI1NhybX95gRqc.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ix_b2iEkA-FyIzyYCKySX.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/istSkzUXyXmCmSJR55XXK.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ix_b2iEkA-FyIzyYCKySX.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/zJiitLMpI1NhybX95gRqc.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -62227,11 +62227,11 @@
                                 "z": 999,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kiOzrLMJLR0ZuBfiXG8VW.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/EvhkZLMAs2HPZHD46Thh6.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Nd7H0e3QslwJqfKBh5S-J.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/EvhkZLMAs2HPZHD46Thh6.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kiOzrLMJLR0ZuBfiXG8VW.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DKIQpyx11qT_HZNoxUst3.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/jAgrPpON7R2leP3vkon3L.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/-HPBsgZHHwf5K0lwwE59r.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/jAgrPpON7R2leP3vkon3L.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DKIQpyx11qT_HZNoxUst3.png"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/shopping-vodic/planeri-gdje-kupiti-najljepsi/",
@@ -62239,11 +62239,11 @@
                             "blurHash": "UAHoRS_NE0s.ovxuxuRjELj[-pRj~qWBRjay",
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kiOzrLMJLR0ZuBfiXG8VW.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/EvhkZLMAs2HPZHD46Thh6.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Nd7H0e3QslwJqfKBh5S-J.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/EvhkZLMAs2HPZHD46Thh6.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kiOzrLMJLR0ZuBfiXG8VW.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/DKIQpyx11qT_HZNoxUst3.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/jAgrPpON7R2leP3vkon3L.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/-HPBsgZHHwf5K0lwwE59r.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/jAgrPpON7R2leP3vkon3L.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/DKIQpyx11qT_HZNoxUst3.png"
                             },
                             "anchor_link_pos": null,
                             "clickPage": null,
@@ -62264,11 +62264,11 @@
                             "z": 1010,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wA_ZjhANxrXljycb6p1lD.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/0RjvYq32ez1h-9KHzhWnZ.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tie1eYqNbXlSPkwufw_Vz.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/0RjvYq32ez1h-9KHzhWnZ.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wA_ZjhANxrXljycb6p1lD.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/2GoQwJDIcSoY6zkG9akr2.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/hHOM6x9hbk9Af_dqkQuRi.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/UGystXtoGV0s8YL9THoqg.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/hHOM6x9hbk9Af_dqkQuRi.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/2GoQwJDIcSoY6zkG9akr2.jpg"
                             },
                             "cropW": 1347,
                             "cropH": 1680,
@@ -62363,11 +62363,11 @@
                                 "z": 1000,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wA_ZjhANxrXljycb6p1lD.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/0RjvYq32ez1h-9KHzhWnZ.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Tie1eYqNbXlSPkwufw_Vz.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/0RjvYq32ez1h-9KHzhWnZ.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wA_ZjhANxrXljycb6p1lD.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/2GoQwJDIcSoY6zkG9akr2.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/hHOM6x9hbk9Af_dqkQuRi.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/UGystXtoGV0s8YL9THoqg.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/hHOM6x9hbk9Af_dqkQuRi.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/2GoQwJDIcSoY6zkG9akr2.jpg"
                                 }
                             },
                             "clickLink": "https://www.telegram.hr/super1/life/kako-su-hobiji-ponovno-postali-kul/",
@@ -62872,11 +62872,11 @@
                                 "originalH": 1416,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/feUib7Sx-FLj1C0Rv_mak.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/BlhymqIbRuMmqzTAAkaVZ.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/KD73yjuDuZYZYt_XYN4UN.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/BlhymqIbRuMmqzTAAkaVZ.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/feUib7Sx-FLj1C0Rv_mak.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/am93k9PJJUM77OTlAS8wD.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/zHhi6BC4RVD-TytPpcuqI.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/YKR3KHDyOA9YJYrRdnkaX.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/zHhi6BC4RVD-TytPpcuqI.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/am93k9PJJUM77OTlAS8wD.png"
                                 }
                             },
                             "hidden": true,
@@ -63373,11 +63373,11 @@
                                 "originalH": 1680,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/jVCQPDOzR8KQXkZdBlRP7.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/vKrUcQIe_39AqGc3VfBzH.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/mxSx_jLvaPIWcYVEOgx2A.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/vKrUcQIe_39AqGc3VfBzH.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/jVCQPDOzR8KQXkZdBlRP7.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Q9nHDUjRii2WBGopjDtGk.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/UoEPo9pA-FiBrCl0kHBX-.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/PLdFkY1lEGrrQMmHvxv9J.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/UoEPo9pA-FiBrCl0kHBX-.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Q9nHDUjRii2WBGopjDtGk.jpg"
                                 }
                             },
                             "hidden": true,
@@ -63874,11 +63874,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/5gLF-nOe-pWo2KbmTUOcA.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/MmYqLIbmLItNjQgDu77GE.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/QGZ87gc7FlO0xxjWSXUF3.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/MmYqLIbmLItNjQgDu77GE.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/5gLF-nOe-pWo2KbmTUOcA.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/xzdkJRdhye0GD2UXCmP3z.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/VNtKNcfRwCRsAUbL6uvIX.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/owX0ljExYfNPlAO7VYUzb.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/VNtKNcfRwCRsAUbL6uvIX.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/xzdkJRdhye0GD2UXCmP3z.png"
                                 }
                             },
                             "hidden": true,
@@ -64375,11 +64375,11 @@
                                 "originalH": 946,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/R1WdiN_UY6XR0BqZJy2oz.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/4_d1ROXpBVTc-s6NLIDhb.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/DLXjJfaTB-vy2NqZvSvOt.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/4_d1ROXpBVTc-s6NLIDhb.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/R1WdiN_UY6XR0BqZJy2oz.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kAsuFQ0AjKaPt3NmoKA8r.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/jqKvjgV1s7u3Tgcyxg2p5.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/KINNp4IOWlP6uIvvhGMRY.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/jqKvjgV1s7u3Tgcyxg2p5.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kAsuFQ0AjKaPt3NmoKA8r.png"
                                 }
                             },
                             "hidden": true,
@@ -64876,11 +64876,11 @@
                                 "originalH": 1000,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/02mTOvRy_dyx68t5EyQk8.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/l5034LjCBP2ey-meRp3C0.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/5S5R9hytXxXXjoiG2ZKUj.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/l5034LjCBP2ey-meRp3C0.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/02mTOvRy_dyx68t5EyQk8.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/Y1lliJDEhiGjqT73K3qlU.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/YZKNeU2M8DkI0PgObrsqj.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/HjPo5_kqlVGWd_qQxNdUd.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/YZKNeU2M8DkI0PgObrsqj.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/Y1lliJDEhiGjqT73K3qlU.png"
                                 }
                             },
                             "hidden": true,
@@ -65300,7 +65300,7 @@
                             "flags": {
                                 "useOriginalViewBoxSVG": true
                             },
-                            "z": 1061,
+                            "z": 1069,
                             "cropH": 466,
                             "cropW": 436,
                             "cropX": 564,
@@ -65313,11 +65313,11 @@
                             "originalW": 1000,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/CuntiihQuQxQzIwlwaIh5.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/ZKbEqPsmtB4nAOLHcD9PF.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/SphITKa2NmmNzwlrAqHFd.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/0kqrqGJKBJbvxPcy90mdQ.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Jt_XpaFr3kKZJQorCYI7k.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/ToAFU2glIwrolAEriBl0d.png"
                             },
                             "scale": 0.163,
                             "blurHash": "U50L5-eXY[l3g0f7e;fjUkgJlyZna4fjg0e;",
@@ -65404,7 +65404,7 @@
                                 "y": 107.07,
                                 "w": 31.02,
                                 "h": 33,
-                                "z": 1062,
+                                "z": 1070,
                                 "cropH": 464,
                                 "cropW": 436,
                                 "cropX": 564,
@@ -65415,11 +65415,11 @@
                                 "originalCropY": 448,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IpHmpHGDFmC85m2ueLs2_.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7RmYpnjz-v6nIwgymt21W.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/SsQSmuWWLLPhz5YXLaB1E.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7RmYpnjz-v6nIwgymt21W.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IpHmpHGDFmC85m2ueLs2_.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AUfLf9tTuHXl-6i8mQgu0.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/BOfrIceaow_hW-PY-X-WH.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/bxrM57GgbkQn89oJY1--Q.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/BOfrIceaow_hW-PY-X-WH.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AUfLf9tTuHXl-6i8mQgu0.png"
                                 },
                                 "angle": 270,
                                 "hidden": true,
@@ -65435,10 +65435,10 @@
                                 }],
                                 "_z": [{
                                     "pid": "6a7096b5444ea95623a9d40e",
-                                    "value": 1062
+                                    "value": 1070
                                 }, {
                                     "pid": "default",
-                                    "value": 1062
+                                    "value": 1070
                                 }]
                             },
                             "hidden": true,
@@ -65446,10 +65446,10 @@
                             "_hidden": [],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1061
+                                "value": 1069
                             }, {
                                 "pid": "default",
-                                "value": 1061
+                                "value": 1069
                             }],
                             "fixed_position": "c",
                             "is_global": true,
@@ -65479,7 +65479,7 @@
                             "sides": 3,
                             "weight": 1,
                             "stroke": "solid",
-                            "z": 1062,
+                            "z": 1070,
                             "hidden": true,
                             "viewport_phone_portrait": {
                                 "borders": 1,
@@ -65489,7 +65489,7 @@
                                 "y": 103.08,
                                 "w": 26,
                                 "h": 26,
-                                "z": 1061,
+                                "z": 1069,
                                 "hidden": true,
                                 "sticked": "",
                                 "fixed_position": "se",
@@ -65502,10 +65502,10 @@
                                 }],
                                 "_z": [{
                                     "pid": "6a7096b5444ea95623a9d40e",
-                                    "value": 1061
+                                    "value": 1069
                                 }, {
                                     "pid": "default",
-                                    "value": 1061
+                                    "value": 1069
                                 }]
                             },
                             "name": "",
@@ -65513,10 +65513,10 @@
                             "_hidden": [],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1062
+                                "value": 1070
                             }, {
                                 "pid": "default",
-                                "value": 1062
+                                "value": 1070
                             }],
                             "fixed_position": "c",
                             "is_global": true,
@@ -65528,7 +65528,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 451,
-                            "y": 7475,
+                            "y": 7717,
                             "w": 32,
                             "h": 52,
                             "version": 2,
@@ -65548,11 +65548,11 @@
                             "originalW": 839,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZQDNI5y7JGVdWr_Ubo-Ka.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/WeYDN5vYlLXlhhHJX7XFz.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png"
                             },
                             "scale": 0.03814,
                             "blurHash": "UPIdC+w}JPspw|JPNsw|]qJP$Rw}|~$R$RS1",
@@ -65588,11 +65588,11 @@
                                 "z": 1027,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZQDNI5y7JGVdWr_Ubo-Ka.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/WeYDN5vYlLXlhhHJX7XFz.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png"
                                 }
                             },
                             "name": "",
@@ -65603,7 +65603,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 527,
-                            "y": 7469,
+                            "y": 7711,
                             "w": 74,
                             "h": 62,
                             "version": 2,
@@ -65624,11 +65624,11 @@
                             "originalW": 5906,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/2RWpPNtZVtJCx3717TkPA.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/mykiTTKDQxVGgiz3QIFiO.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png"
                             },
                             "blurHash": "UEC?r]-;00WBM{M{xuof00M{~qWBt7xuIUfQ",
                             "animation": [{
@@ -65651,11 +65651,11 @@
                                 "z": 1033,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/2RWpPNtZVtJCx3717TkPA.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/TglY1Ppgc2ME2yd8sl2we.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IyVL0mxL3vCuxEpIOIFlz.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/mykiTTKDQxVGgiz3QIFiO.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/QSJykJic-egJ9bPnP1eGp.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/sQ-TEKlAwbUUy9abXoSbx.png"
                                 }
                             },
                             "sticked": "",
@@ -65675,7 +65675,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 632,
-                            "y": 7474,
+                            "y": 7716,
                             "w": 52,
                             "h": 52,
                             "version": 2,
@@ -65747,7 +65747,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 703,
-                            "y": 7460,
+                            "y": 7702,
                             "w": 95,
                             "h": 79,
                             "version": 2,
@@ -65757,11 +65757,11 @@
                             "z": 1044,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/IfbLt0X6GprmvesxNgKuu.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/z0PoxsgvZQ4oZfMxVvqaN.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png"
                             },
                             "cropW": 3201,
                             "cropH": 2662,
@@ -65795,11 +65795,11 @@
                                 "z": 1032,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/IfbLt0X6GprmvesxNgKuu.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/6txpR7sEjhXOvrR58b_LW.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/3vP_s6YeoYCuBDXNCSuX6.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/z0PoxsgvZQ4oZfMxVvqaN.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/qQdcQV5oqsQlxwT-3Ki5G.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/RyWXFDvuQnKLlFcgnVsqX.png"
                                 }
                             },
                             "sticked": "",
@@ -65819,7 +65819,7 @@
                             "mag_num_id": 6484256,
                             "type": "picture",
                             "x": 826,
-                            "y": 7474.44,
+                            "y": 7716.44,
                             "w": 32,
                             "h": 52,
                             "version": 2,
@@ -65829,11 +65829,11 @@
                             "z": 1045,
                             "picture": {
                                 "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZQDNI5y7JGVdWr_Ubo-Ka.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/WeYDN5vYlLXlhhHJX7XFz.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png"
                             },
                             "cropW": 839,
                             "cropH": 1363,
@@ -65876,11 +65876,11 @@
                                 "z": 1035,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/ZQDNI5y7JGVdWr_Ubo-Ka.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/GMpN9wVeT2l6OSHFY7Jn4.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/-l2jyrNByLYOtRFF0TgsJ.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/WeYDN5vYlLXlhhHJX7XFz.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/QCiVUW7Of-S5pcsgjuy8t.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/C6aKq6tmFwwUu-N45RP5v.png"
                                 }
                             },
                             "name": "",
@@ -65897,7 +65897,7 @@
                             "hidden": true,
                             "viewport_phone_portrait": {
                                 "x": 18,
-                                "y": 25573,
+                                "y": 26058,
                                 "w": 71,
                                 "h": 72,
                                 "z": 1036,
@@ -65911,11 +65911,11 @@
                                 "cropW": 389.5138888888889,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/rHXi1v07uAXsiBdICTKe4.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/r5DF0Ekgvmmq9_3_Mpfbv.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/Ou9F4TTPDK8fKbLkJVY55.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/r5DF0Ekgvmmq9_3_Mpfbv.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/rHXi1v07uAXsiBdICTKe4.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/dFmpXE7hppCkAZ2pa_akw.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/UjPPHdnBHujQAahx9E1JQ.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/W1Dl0hhAzm_OQXzo9E_nX.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/UjPPHdnBHujQAahx9E1JQ.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/dFmpXE7hppCkAZ2pa_akw.png"
                                 },
                                 "originalCropW": 389.5138888888889,
                                 "originalCropH": 395,
@@ -65936,7 +65936,7 @@
                             "hidden": true,
                             "viewport_phone_portrait": {
                                 "x": 101,
-                                "y": 25579,
+                                "y": 26064,
                                 "w": 61,
                                 "h": 61,
                                 "z": 1038,
@@ -65976,7 +65976,7 @@
                             "hidden": true,
                             "viewport_phone_portrait": {
                                 "x": 170,
-                                "y": 25568,
+                                "y": 26053,
                                 "w": 82,
                                 "h": 83,
                                 "z": 1039,
@@ -65990,11 +65990,11 @@
                                 "cropW": 495,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/fn3REXPzIs8kIX670ChBO.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/692rbAg_Ubjkc6_B_7TYg.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/pApFYihIYvLs0syUt2DUU.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/692rbAg_Ubjkc6_B_7TYg.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/fn3REXPzIs8kIX670ChBO.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/v7AwMTuFH3tjWgfdeT1ue.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/3LMnEJ3nu2_2x9IT3GCsM.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/vxGhPF51438QNaKqfUyX9.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/3LMnEJ3nu2_2x9IT3GCsM.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/v7AwMTuFH3tjWgfdeT1ue.png"
                                 },
                                 "originalCropW": 495.0277777777777,
                                 "originalCropH": 502,
@@ -66016,7 +66016,7 @@
                             "hidden": true,
                             "viewport_phone_portrait": {
                                 "x": 257,
-                                "y": 25576,
+                                "y": 26061,
                                 "w": 45,
                                 "h": 75,
                                 "z": 1040,
@@ -66030,11 +66030,11 @@
                                 "cropH": 330,
                                 "picture": {
                                     "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/kHqhJZpE5xob3jeXWgTKt.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/YKFgCmKup7aqYALK5uqsr.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/fab3nSQugppsCz5zMomzT.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/YKFgCmKup7aqYALK5uqsr.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/kHqhJZpE5xob3jeXWgTKt.png"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/QBl-jFIBxyn_wwYupk763.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/BkxCosLejTZs8FpgmVmq0.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/EmxHTiJ2xb0XEl9YSEF4t.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/BkxCosLejTZs8FpgmVmq0.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/QBl-jFIBxyn_wwYupk763.png"
                                 },
                                 "originalCropW": 200,
                                 "originalCropH": 330,
@@ -66044,21 +66044,1040 @@
                             "blurHash": "UPJq8vxHJPw|m.J5NtsW^8JP$Rw}}I,v,uWo",
                             "z": 1050,
                             "__v": 0
+                        }, {
+                            "_id": "6ad8a751191cab470789837f",
+                            "wid": "6ad8a751191cab470789837f",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "x": 529,
+                            "y": 7512,
+                            "w": 480,
+                            "h": 9,
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "s1 intervju",
+                                "entityRanges": [],
+                                "depth": 0
+                            }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 11,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
+                                        "FONT_STYLE", "FONT_FAMILY"
+                                    ],
+                                    "values": ["", "9", "00FF1164", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                }
+                            }],
+                            "entityMap": {},
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "z": 1051,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 9,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1041
+                            },
+                            "__v": 0
+                        }, {
+                            "_id": "6ad8a753a578e4f5ba41b0f4",
+                            "wid": "6ad8a753a578e4f5ba41b0f4",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "x": 688,
+                            "y": 7530,
+                            "w": 161,
+                            "h": 75,
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Trening budućnosti traje samo 20 minuta: Otkrivamo kako funkcionira EMS tehnologija",
+                                "entityRanges": [{
+                                    "offset": 0,
+                                    "length": 83,
+                                    "key": 0
+                                }],
+                                "depth": 0
+                            }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 83,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                        "FONT_VARIABLE", "FONT_SIZE", "COLOR"
+                                    ],
+                                    "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "15", "00FF1A64"]
+                                }
+                            }],
+                            "entityMap": {
+                                "0": {
+                                    "type": "LINK",
+                                    "mutability": "MUTABLE",
+                                    "data": {
+                                        "url": "https://www.telegram.hr/preview/3253171/",
+                                        "anchorPosition": 0,
+                                        "type": "URL",
+                                        "target": "_blank",
+                                        "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                        "id": "7aual"
+                                    }
+                                }
+                            },
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "z": 1052,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 15,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1042
+                            },
+                            "__v": 0
+                        }, {
+                            "_id": "6ad8a75428ec5b7119646490",
+                            "wid": "6ad8a75428ec5b7119646490",
+                            "mag_num_id": 6484256,
+                            "type": "button",
+                            "x": 730,
+                            "y": 7620,
+                            "w": 78,
+                            "h": 15,
+                            "tp": "text",
+                            "form": "rectangle",
+                            "text": "PROČITAJ",
+                            "transition": false,
+                            "transitionTime": 0,
+                            "text_w": 36,
+                            "text_h": 10,
+                            "current-text_w": 88,
+                            "current-text_h": 22,
+                            "em_w": 14,
+                            "background-color": "262626",
+                            "background-color-opacity": 0,
+                            "border-radius": 79,
+                            "border-width": 1,
+                            "border-color": "00FF0D",
+                            "border-color-opacity": 100,
+                            "font-family": "custom_190947",
+                            "font-style": "normal",
+                            "font-weight": 400,
+                            "color": "00FF26",
+                            "color-opacity": 100,
+                            "font-size": 8,
+                            "letter-spacing": -0.4,
+                            "hover-background-color": "04FF00",
+                            "hover-background-color-opacity": 80,
+                            "hover-border-width": 0,
+                            "hover-border-color": "000000",
+                            "hover-border-color-opacity": 100,
+                            "hover-color": "000000",
+                            "hover-color-opacity": 100,
+                            "current-background-color": "c80000",
+                            "current-background-color-opacity": 100,
+                            "current-border-radius": 5,
+                            "current-border-width": 0,
+                            "current-border-color": "000000",
+                            "current-border-color-opacity": 100,
+                            "current-font-family": "Arial",
+                            "current-font-style": "normal",
+                            "current-font-weight": 400,
+                            "current-color": "ffffff",
+                            "current-color-opacity": 100,
+                            "current-font-size": 18,
+                            "current-letter-spacing": 0,
+                            "icon_enabled": false,
+                            "icon_h": 18,
+                            "icon_w": 18,
+                            "icon_pos": "left",
+                            "icon_color": "ffffff",
+                            "icon_color_opacity": 100,
+                            "current-icon_color": "ffffff",
+                            "current-icon_color_opacity": 100,
+                            "icon_rasterUrl": null,
+                            "icon_raster2xUrl": null,
+                            "current-icon_rasterUrl": null,
+                            "current-icon_raster2xUrl": null,
+                            "baselineShift": 0,
+                            "current-baselineShift": 0,
+                            "z": 1053,
+                            "triggers": [],
+                            "name": "Tertiary",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1043
+                            },
+                            "animation": [{
+                                "UUID": "5ef434b8-efe0-4ec6-828b-2fb5ed239e0f",
+                                "type": "hover",
+                                "steps": [{
+                                    "duration": 0.5,
+                                    "acceleration": "ease-both",
+                                    "from_scale": 100,
+                                    "use_scale": true,
+                                    "scale": 90
+                                }],
+                                "playOnce": false,
+                                "resetWhenOutOfView": false,
+                                "trigger": []
+                            }],
+                            "clickLink": "https://www.telegram.hr/preview/3253171/",
+                            "clickTarget": "_blank",
+                            "anchor_link_pos": null,
+                            "clickPage": null,
+                            "__v": 0
+                        }, {
+                            "_id": "6ad8a75625b6e0eec76ad7b5",
+                            "wid": "6ad8a75625b6e0eec76ad7b5",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "x": 691,
+                            "y": 7298,
+                            "w": 152,
+                            "h": 197,
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
+                            "z": 1054,
+                            "scale": 0.11726,
+                            "cropH": 1680,
+                            "cropW": 1296,
+                            "cropX": 401,
+                            "cropY": 0,
+                            "originalCropH": 1680,
+                            "originalCropW": 1296,
+                            "originalCropX": 401,
+                            "originalCropY": 0,
+                            "originalH": 1680,
+                            "originalW": 2664,
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1044,
+                                "picture": {
+                                    "type": "jpg",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IJrfvSfKtDqjrxtTW8ltY.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/Nm1QmE7zCcwbps42q1Xur.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/PC0BggqVyldDHdGSbUN7A.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/Nm1QmE7zCcwbps42q1Xur.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IJrfvSfKtDqjrxtTW8ltY.jpg"
+                                }
+                            },
+                            "clickLink": "https://www.telegram.hr/preview/3253171/",
+                            "clickTarget": "_blank",
+                            "blurHash": "U56t%c^*004.IBadtPba0KIV-:-o_NtR9FV@",
+                            "picture": {
+                                "type": "jpg",
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/IJrfvSfKtDqjrxtTW8ltY.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/Nm1QmE7zCcwbps42q1Xur.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/PC0BggqVyldDHdGSbUN7A.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/Nm1QmE7zCcwbps42q1Xur.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/IJrfvSfKtDqjrxtTW8ltY.jpg"
+                            },
+                            "anchor_link_pos": null,
+                            "clickPage": null,
+                            "__v": 0
+                        }, {
+                            "_id": "6ad8a82d2bd7ebbe5ea813a6",
+                            "wid": "6ad8a82d2bd7ebbe5ea813a6",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 19,
+                                "y": 25560,
+                                "w": 286,
+                                "h": 278,
+                                "z": 1045,
+                                "cropH": 1680,
+                                "cropW": 1728.3453237410072,
+                                "cropX": 467.8273381294964,
+                                "cropY": 0,
+                                "originalCropH": 1680,
+                                "originalCropW": 1728.3453237410072,
+                                "originalCropX": 467.8273381294964,
+                                "originalCropY": 0,
+                                "hidden": false,
+                                "scale": 0.16547619047619047,
+                                "originalW": 2664,
+                                "originalH": 1680,
+                                "picture": {
+                                    "type": "jpg",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/fOkWZYPTDZ8oRJ0IECHRT.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/LAM6AFS8wXRitwbtS8PMn.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/AK-EbNP8RTby7C0FgMUj1.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/LAM6AFS8wXRitwbtS8PMn.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/fOkWZYPTDZ8oRJ0IECHRT.jpg"
+                                }
+                            },
+                            "hidden": true,
+                            "name": "",
+                            "blurHash": "U56t%c^*004.IBadtPba0KIV-:-o_NtR9FV@",
+                            "clickLink": "https://www.telegram.hr/preview/3253171/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1055,
+                            "__v": 0
+                        }, {
+                            "_id": "6ad8a82deabb4f6a03cfeb75",
+                            "wid": "6ad8a82deabb4f6a03cfeb75",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "s1 intervju",
+                                "entityRanges": [],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": -83,
+                                "y": 25857,
+                                "w": 480,
+                                "h": 9,
+                                "z": 1046,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 11,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6"]
+                                        }],
+                                        "keys": ["FONT_SIZE", "COLOR", "FONT_WEIGHT", "FONT_STYLE", "FONT_FAMILY",
+                                            "LETTER_SPACING", "TRANSFORM"
+                                        ],
+                                        "values": ["9", "00FF1A64", "300", "normal", "custom_190945", "-0.1", "uppercase"]
+                                    }
+                                }],
+                                "entityMap": {},
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 9,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1056,
+                            "__v": 0
+                        }, {
+                            "_id": "6ad8a82e3e64d6c51ff5dbbd",
+                            "wid": "6ad8a82e3e64d6c51ff5dbbd",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Trening budućnosti traje samo 20 minuta: Otkrivamo kako funkcionira EMS tehnologija",
+                                "entityRanges": [{
+                                    "offset": 0,
+                                    "length": 83,
+                                    "key": 0
+                                }],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 36,
+                                "y": 25877,
+                                "w": 243,
+                                "h": 90,
+                                "z": 1047,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 83,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                        }],
+                                        "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                            "FONT_VARIABLE", "COLOR", "FONT_SIZE"
+                                        ],
+                                        "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "00FF1A64",
+                                            "18"
+                                        ]
+                                    }
+                                }],
+                                "entityMap": {
+                                    "0": {
+                                        "type": "LINK",
+                                        "mutability": "MUTABLE",
+                                        "data": {
+                                            "url": "https://www.telegram.hr/preview/3253171/",
+                                            "anchorPosition": 0,
+                                            "type": "URL",
+                                            "target": "_blank",
+                                            "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                            "id": "10rcf"
+                                        }
+                                    }
+                                },
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 18,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1057,
+                            "__v": 0
+                        }, {
+                            "_id": "6ad8a82eca632b31abc1b6a9",
+                            "wid": "6ad8a82eca632b31abc1b6a9",
+                            "mag_num_id": 6484256,
+                            "type": "button",
+                            "tp": "text",
+                            "form": "rectangle",
+                            "text": "PROČITAJ",
+                            "transition": false,
+                            "transitionTime": 0,
+                            "icon_enabled": false,
+                            "icon_pos": "left",
+                            "icon_color": "ffffff",
+                            "icon_color_opacity": 100,
+                            "current-icon_color": "ffffff",
+                            "current-icon_color_opacity": 100,
+                            "icon_rasterUrl": null,
+                            "icon_raster2xUrl": null,
+                            "current-icon_rasterUrl": null,
+                            "current-icon_raster2xUrl": null,
+                            "name": "Tertiary",
+                            "viewport_phone_portrait": {
+                                "x": 112,
+                                "y": 25986,
+                                "w": 89,
+                                "h": 17,
+                                "z": 1048,
+                                "triggers": [],
+                                "hidden": false,
+                                "text_w": 42,
+                                "text_h": 12,
+                                "em_w": 14,
+                                "font-size": 9,
+                                "font-style": "normal",
+                                "font-weight": 400,
+                                "font-family": "custom_190947",
+                                "color": "00FF26",
+                                "color-opacity": 100,
+                                "letter-spacing": -0.4,
+                                "baselineShift": 0,
+                                "hover-color": "000000",
+                                "hover-color-opacity": 100,
+                                "current-font-size": 18,
+                                "current-font-style": "normal",
+                                "current-font-weight": 400,
+                                "current-font-family": "Arial",
+                                "current-baselineShift": 0,
+                                "current-color": "ffffff",
+                                "current-color-opacity": 100,
+                                "current-letter-spacing": 0,
+                                "current-text_w": 88,
+                                "current-text_h": 22,
+                                "background-color": "262626",
+                                "background-color-opacity": 0,
+                                "hover-background-color": "04FF00",
+                                "hover-background-color-opacity": 80,
+                                "current-background-color": "c80000",
+                                "current-background-color-opacity": 100,
+                                "border-radius": 79,
+                                "border-width": 1,
+                                "border-color": "00FF0D",
+                                "border-color-opacity": 100,
+                                "hover-border-width": 0,
+                                "hover-border-color": "000000",
+                                "hover-border-color-opacity": 100,
+                                "current-border-radius": 5,
+                                "current-border-width": 0,
+                                "current-border-color": "000000",
+                                "current-border-color-opacity": 100,
+                                "icon_h": 18,
+                                "icon_w": 18,
+                                "modifiers": [{
+                                    "id": "cursor",
+                                    "title": "Cursor",
+                                    "category": "default",
+                                    "owner": "readymag",
+                                    "private": true,
+                                    "static": [{
+                                        "id": "cursor-keyword",
+                                        "name": "Cursor",
+                                        "type": "select",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "auto",
+                                        "params": {
+                                            "default": "auto",
+                                            "options": [{
+                                                "label": "Auto",
+                                                "value": "auto"
+                                            }, {
+                                                "label": "Pointer",
+                                                "value": "pointer"
+                                            }, {
+                                                "label": "Move",
+                                                "value": "move"
+                                            }]
+                                        }
+                                    }, {
+                                        "id": "cursor-url",
+                                        "name": "Cursor image",
+                                        "type": "file",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                    }, {
+                                        "id": "url-is-lambda",
+                                        "name": "Is cursor url lambda",
+                                        "type": "toggle",
+                                        "operator": "assignment",
+                                        "modelField": "cursorUrlIsLambda",
+                                        "value": true,
+                                        "params": {
+                                            "default": false,
+                                            "isDisabled": true
+                                        }
+                                    }, {
+                                        "id": "cursor-image-dimension",
+                                        "name": "Cursor image dimension",
+                                        "type": "number",
+                                        "operator": "assignment",
+                                        "modelField": "cursorImageDimension",
+                                        "value": 250,
+                                        "params": {
+                                            "default": 0,
+                                            "isDisabled": true
+                                        }
+                                    }],
+                                    "events": [{
+                                        "eventName": "rendered",
+                                        "eventHandler": "Cursor/WidgetRendered"
+                                    }]
+                                }]
+                            },
+                            "hidden": true,
+                            "clickLink": "https://www.telegram.hr/preview/3253171/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1058,
+                            "__v": 0
                         }],
                         "num": 1,
                         "type": "scroll",
-                        "height": 7885,
+                        "height": 8077,
                         "hidden": false,
                         "isPrivate": false,
                         "sectionscroll": false,
                         "used_autolayout": false,
                         "arrows_color": "white",
                         "num_id": 31044441,
-                        "screenshot": "img/683d850bd2094940857eb894/6484256/Screenshot-f99f85eb-00f7-4c50-b467-9699845042b7_readyscr.jpg",
+                        "screenshot": "img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg",
                         "viewport_phone_portrait": {
                             "enabled": true,
                             "screenshot": "https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg",
-                            "height": 25852,
+                            "height": 26326,
                             "type": "scroll"
                         },
                         "children": [],
@@ -66075,7 +67094,7 @@
                     "showAsNew": false,
                     "submitted_for_featured": 0,
                     "tags": [],
-                    "updated": "2026-10-05T13:29:31.876Z",
+                    "updated": "2026-10-21T11:57:26.082Z",
                     "uri": "6484256",
                     "usedWidgetTypes": ["background", "picture", "text", "button", "slideshow", "shape"],
                     "used_custom_fonts": ["custom_190945", "custom_190947", "custom_190946", "custom_190948"],
@@ -66111,7 +67130,7 @@
                         }
                     },
                     "version": 2,
-                    "widgetAddCounter": 1052,
+                    "widgetAddCounter": 1060,
                     "hasAnimations": true,
                     "usedAnimationTypes": {
                         "load": true,
@@ -66123,11 +67142,11 @@
                     "ci_body_top": "",
                     "ci_css": "",
                     "ci_head": "",
-                    "prevPubVersionId": "6abbc2a5615ac6fbfcc0eb5b",
+                    "prevPubVersionId": "6ac3a63da58dceba42cb66fb",
                     "typekit_url": "https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js",
                     "title": "Back to Basics",
                     "description": "Super1 vodič",
-                    "cover": "img/683d850bd2094940857eb894/6484256/Screenshot-f99f85eb-00f7-4c50-b467-9699845042b7_readyscr.jpg",
+                    "cover": "img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg",
                     "isInternal": false
                 }
             },
@@ -66405,234 +67424,234 @@
             event: []
         })
     </script>
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QIPY367L.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5RNTO3OC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7MKJCBNI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DSFEM2UF.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DAJBD7OH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2ATNIAYZ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FDFRXZQH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-R6RYFY3Q.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JMP5OJDD.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DWO4X2I4.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JGNTQDW2.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DUS734SE.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NAEEAUEC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SP5K2HCB.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3BSR4MGO.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DF45VDXQ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NUCXVN65.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TV22KC5O.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JGEJJEFY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AK3VJ3JG.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SJ6TRSNP.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KIBG5UE7.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SB4DZR5V.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DL2RFF3N.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BIN2DNSM.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FC35N5PN.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-X5G5ORFM.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UHZT65WR.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WEMO23M5.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OESXQXI3.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XV4NG5MC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FYFE6ROU.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PLQLO2OK.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4XD55ZIM.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZVSK5XQJ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DLUPD5FM.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4IJ24AAW.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RH4SKE7Q.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-52JR6QEU.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ELAKCGXT.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XKOODJRS.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-COPL2GNS.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AR2Z2D3M.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-F3ZHAKXC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OLD2RQAG.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-M2Q6NDEJ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WA5LCCQQ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-S4DVXTPF.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XBBIJMDP.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-25U5RKDD.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IUE4PRSY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-X3GS4BCN.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5P4WPXLK.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PPEJNOD5.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YDLY5JPG.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EOGV6MY4.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IGE23ZR2.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EDA7EAZB.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5D34RINV.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PGZPGESA.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HKIXKYZO.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TZYBTMF5.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-W5OOUS3O.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VLQZKDAW.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PFNVUAVT.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JQ7XQMSS.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RUDO7JKL.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WSUJSSDI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UB5QH6UI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-34XFIRTH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Q6V35SOK.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NBPSAOKC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LUUDEYPL.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3QDH3QGV.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KWRT3NOM.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2GOPHLG3.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-T4JSWPVL.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5LQUWPZF.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WR5ASDUE.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7PQ2QVQ2.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MOITU3BC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-L27JRQXI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EVAMA2YF.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EPFJL2EO.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TFVQRMWG.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-J2YRT5DX.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-O3BH52ZE.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DSXMUXGN.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZE5UBLON.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BUWCKYO6.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EMYCKIES.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FUB2Y4UG.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OCAH6YVI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TJ46HWYP.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OWQBUZH7.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VJIAEOVS.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VRSZBZI7.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CQGLDO2O.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XKIQDDPQ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-O3CD6GXJ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DUXZJT2E.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Q7356EXA.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AYGDTFVV.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6FUCH4PY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FBNTCY2I.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YVQU3OLY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-S36XWFEH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NEBXF6R5.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WSGST7VI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4X7J2N6Y.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IIXRQH7A.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZNMODKPF.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7RN4HREX.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZKFRADUZ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FPNOJISN.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XQH3D3C6.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DZQ5HRO6.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-U5EVOPGH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LNGP35HH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LDS3ATOT.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FJJJEEBW.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GNBZVAJ2.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TBSW4KEE.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KGBEIWPZ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FFFXEUOZ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UD5XQW5A.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IMXZHC7B.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-74YBKNHU.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-E5NJOQPY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ITF5C6WA.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-N4XS4EGP.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JO44ZT6U.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MOWWWIWD.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RARU7JQ6.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4P7SY7AG.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UYKB34U4.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RHW7DZ3O.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3H6PGXNJ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-32S4RSHP.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ARKBBN74.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6QNA2WON.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MWJF4NHJ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VVNB7DKO.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WS3ZCQKA.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KQCWP5GX.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-X2EOYCA6.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7XZYFUPL.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Z5X76R3L.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CUXIXEZB.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PTKQKHAI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4IFQ6NY4.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GQNQTUGL.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-S27CY5UT.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7AKTC62W.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-B3DTDFQO.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-253LZLME.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ASEHVLQA.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CNK5URKX.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WFI7JAWO.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QB4244MU.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Q27G6L2E.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PS73DAST.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-K34CYJUY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5PGEHWVJ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FP2HVOHI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KXRV74YD.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2X36VPD5.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HLIRYP2B.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HNYXFBNY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-47HDG7EB.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OI4CAZ5M.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KYRQOKVC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JEWUCIIL.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-62EDRIIY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XHKUKBEC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-M6VK44NU.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-U6D5J3FQ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-T4B5MY4B.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZPJ4H5YY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4EQIF67I.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XO3V3HBY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MDY3LHHG.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-54FL6ITN.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AJ3OORXZ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ORS25RIB.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YGS6UIWP.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Z564J2GH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SIFL7W76.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NEGT46L4.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AHF57IDX.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LU6XFN5A.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-X4IFIG4T.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2TZQRXTP.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XNHZ33TC.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NNGMO36E.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TG2ILOWK.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7WPJYWRH.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YIM6KNBE.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-W5B7ZCPX.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UPWULJPY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2JJIJEFQ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QCUK5AJU.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QP7H7MHA.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6BU4O5YE.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JFHCWJN5.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-D4N5M6ER.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4C4K656T.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MFVCXA74.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TI3F7DGZ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XWL5ZHTT.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JHBZFSE4.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QBP6QKCQ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-M3FZTSH6.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XXWHF7P7.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LFV54W2S.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MXP2TMQI.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YGJRK6GJ.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MBABVGJY.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-F4J24QNS.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5NBCJK4X.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3N75IGJK.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-653PPXR4.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-U53PFWOX.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FCKA5OOD.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OWRCFBQT.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZS6EUT4A.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LV7MODR6.js" rel="modulepreload" />
-    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LJZHLWUF.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HFBZCY6R.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OVBWS7AR.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UWWBM3JG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BDNMPZAK.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZPT6EETR.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GLPROSTB.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-N64QY42C.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WV7TIXC2.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NQZ5S2SQ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2JTCFAZX.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OOQPB32J.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7ROVEV2G.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AIVOQPJ4.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CWFIOTUA.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SOE7YMGY.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-M5R2GAWG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-W7KTVHGB.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JBBJYQII.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Z7257KXZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DUCVDOWL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SMY3FEGI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-N4PBQ2MU.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BQLAVLOE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-M6BF5STG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5TEMBXOG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RYVRUII2.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QM7DVPIS.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IMEQZNEZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WCNZEWNJ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CQL3MKSN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PX5A7EIR.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RK3YX23O.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DYTOPVY2.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DJDGJ3VB.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BAK345ON.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7ZNTBVYG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SJTIUF2N.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QNBTMT3Z.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UFRAUKQ2.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2FQWYVIL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-F6WG72OY.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PW4QF5FE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MAGATQUE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-72VB5ABB.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YTZAYSCI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JJM7OGKW.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7DIYKZCC.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QPMOTOS5.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-S747BEO6.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-USMH57FT.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CYWH4MR7.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CPD6C7I5.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DRJXDSJO.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AMBSTVTZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FK4DLNTF.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JTKRS765.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GZ2FH3YD.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AKSFDWHA.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-D4NT3T7Z.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NOINKJQ3.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5575LPF6.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VQDGSSRU.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3PVVWPZZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FYZUK7BM.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RTXNWMVK.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AJXRDNRW.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OYZFVXAA.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BRXLMLEU.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3U6XCOLX.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BS76NPDD.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-H32IL5OL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-A2PVV7JV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Z2Z6BYGN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7D7ZQYNI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CZVHIDYL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CK5DDDRI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KWJYHZAL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KIZTZ4NB.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-D2WTCRCM.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HG5C5PTA.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JZOUJT7U.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KKD7KUD2.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2Z7QXGB7.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MDNCRYSU.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-D7JFT5G4.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7RWZLHPM.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HEATXL3V.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-NCDTCFOW.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-M3N5ICCH.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MTHN2E3M.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-56NJVADA.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-N7UX35JL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5UEN7J7I.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YFZNO7WS.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YYARX2OD.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-I5EXFUIT.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JIW6AD6A.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IHZBBNAU.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6OUDYWGX.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ILSPNICH.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DNDQVIGK.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XLUK7DG7.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GHCRJ75A.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-A7UTDKHZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3LRGJ6YH.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6GG6G3IV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6K6C4PCE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JV4VT5AY.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-C2JH7DXJ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OJKLFXNN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SNB6BRZZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UOQBH7EA.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-XQIOTFTH.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-JBOF5G6P.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RQ3ZE5RV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-C63JPTK3.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PNUYIFMU.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5GDBOJST.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MS52MGKW.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MBWBCTZZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KS2LIWA3.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TKJMSRBV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-W2VFQHXN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-53HS73GE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6Q3ZZFTJ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WRYV2JN4.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-6VTONQB5.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-W2HZ73GC.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UZTIKWAV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SK4SDSQN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QKEGM5O4.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VV6HTZRC.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ENC66B2P.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7AOCK2WI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZTSH56YN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SL7M5SDT.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CHHR62HZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZCLLAAHR.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7ITATHEP.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CBLPTXNX.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3ODIEYSE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ASH5Q5AG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-OJHUOKNK.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-43YOVGAH.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MSMDHN43.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GS3BB54B.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KWIK6Q47.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EZMPIM7P.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2MR4TP2S.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UZ25L5VF.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EUFJYCJG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LPW6BOKW.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7SFP2NYL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Z5VHGJXU.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ICA7XTZV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RG4OBW5L.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-CX3OAW2H.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZYF6THHT.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GAADSTGT.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4OAX6EX4.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GH7AJL25.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-BYPQM6IV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LYMCAW7F.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZPOYLAGL.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-Y2XSBDK5.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3BRDRD46.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FQSZOMTZ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2J2E4PN3.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3WZ5QJQI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IW4RTS7L.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-MSCGS3RN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-O7I3XOHS.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-U6VD5DOB.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-43I6QUYD.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LZL7OCKR.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YB33AE6X.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PQF7PAMG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-RVDJRLIM.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-N2KGJ6EW.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-SSQW6R4B.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5LZVWJOX.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7AUR4VYR.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WR2NY3SE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PUKI4OAP.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-R7ESTPM7.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-J3KVKAJS.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TRVKWSZ4.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-QJARLHLI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-4L7YC4LN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5R6NMCI2.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-2AENSOKT.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-ZAUDEPTA.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-7BNHE2MF.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5YOR5SC3.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AMFEMOSN.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WX4DRTUO.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-DXE7KQAX.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AT4JRNFR.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-IADFJDFE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-LM7UBZ7A.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-J5M6K772.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TDN2I7IQ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-YRXOQRTV.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HJN3CK6F.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-UKSL5W2D.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TDXHL32F.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-E43KGWFY.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-TAAXJZZD.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-L44CPB5O.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-37WBAWL6.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VD7BNFPJ.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-PA5ILB4F.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-WZCQFXQX.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-AAUPD4LB.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-L2TYPNWO.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-KCQ7CP24.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-X6JMSG3V.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-EZCWMNN7.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-HAWBUPQM.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-VTKRNTQE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GSWHYTZI.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-3BJLXVD3.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-GCVKG2FM.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-A2IQ4KLE.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5VM3VVFG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-FL2D2ERK.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5X32OWOG.js" rel="modulepreload" />
+    <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/c/c-5O3TGEI7.js" rel="modulepreload" />
     <link href="/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/dist/viewer.css" rel="stylesheet" />
     <title></title>
 </head>
