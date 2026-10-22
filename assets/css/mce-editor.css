@@ -1,0 +1,14 @@
+/*
+ * Classic Editor (TinyMCE) content styles, loaded into the editor iframe
+ * through the mce_css filter in functions-shared.php.
+ */
+
+/* Međunaslov (h2) in Clash Display: 28px / 700 by default, mirroring the
+   front-end (.single-article-body h2 rules in telegram-pwa/assets/style.css,
+   1.4rem at the PWA's 20px root). The editor iframe is 16px-based, so px here.
+   No !important, so "Veličina slova" (preset class or inline px) still wins. */
+h2:has(span[style*="Clash Display"]),
+h2.has-clash-display-font-family {
+    font-size: 28px;
+    font-weight: 700;
+}

@@ -955,10 +955,20 @@ function telegram_get_custom_font_stylesheets() {
 
 // 1. Load the font stylesheets inside the TinyMCE iframe.
 add_filter( 'mce_css', function ( $mce_css ) {
-	$sheets = telegram_get_custom_font_stylesheets();
+	// TinyMCE splits content_css on commas, so a comma inside a URL (the
+	// Fontshare weight list "@200,300,...,700") would be cut at the first
+	// weight and only that weight would load in the editor. Encode them.
+	$sheets = array_map(
+		function ( $url ) {
+			return str_replace( ',', '%2C', $url );
+		},
+		telegram_get_custom_font_stylesheets()
+	);
 	if ( ! empty( $mce_css ) ) {
 		array_unshift( $sheets, $mce_css );
 	}
+	// Theme rules for the classic editor content (e.g. Clash Display h2 size).
+	$sheets[] = get_template_directory_uri() . '/assets/css/mce-editor.css?v=1.0';
 
 	return implode( ',', $sheets );
 } );
