@@ -31,11 +31,11 @@
   <meta content="https://www.telegram.hr/" property="og:url" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@readymag" />
-  <meta name="description" content="Built with Readymag—a tool to design anything on the web." />
+  <meta name="description" content="Super1 x City Center One modni editorijal jesen 2026" />
   <meta content="SUPER1xCITYCENTAR Editorial jesen 2026" property="og:site_name" />
   <meta content="img/683d850bd2094940857eb894/6606830/hsTmMLpGtNj4wBczMOiSj.jpg" property="og:image" />
   <meta content="SUPER1xCITYCENTAR Editorial jesen 2026" property="og:title" />
-  <meta content="Built with Readymag—a tool to design anything on the web." property="og:description" />
+  <meta content="Super1 x City Center One modni editorijal jesen 2026" property="og:description" />
   <base href="/wp-content/themes/telegram2-desktop/templates/native/city-centar-editorial-jesen-2026/" />
   <script type="importmap">
     {"imports":{"https://st-p.rmcdn1.net/436e810b/":"/wp-content/themes/telegram2-desktop/templates/native/city-centar-editorial-jesen-2026/"}}
