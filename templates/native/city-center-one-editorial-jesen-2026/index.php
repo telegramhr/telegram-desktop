@@ -18,16 +18,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/img/favicons/apple-touch-icon-precomposed.png" />
     <link rel="canonical" href="https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026" />
-    <meta content="955357184504374" property="fb:app_id" />
-    <meta content="website" property="og:type" />
-    <meta content="https://www.telegram.hr/" property="og:url" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@readymag" />
-    <meta name="description" content="Super1 x City Center one modni editorijal jesen 2026" />
-    <meta content="SUPER1 x CITY CENTER ONE Editorial jesen 2026" property="og:site_name" />
-    <meta content="img/683d850bd2094940857eb894/6606830/WN_wfg-oxdTpXuxoIgPFx.jpg" property="og:image" />
-    <meta content="SUPER1 x CITY CENTER ONE Editorial jesen 2026 | Readymag" property="og:title" />
-    <meta content="Super1 x City Center one modni editorijal jesen 2026" property="og:description" />
     <base href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/" />
     <script type="importmap">
         {"imports":{"https://st-p.rmcdn1.net/436e810b/":"/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/"}}
