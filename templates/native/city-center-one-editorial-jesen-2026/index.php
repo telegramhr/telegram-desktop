@@ -17,7 +17,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/img/favicons/apple-touch-icon-114x114-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/img/favicons/apple-touch-icon-72x72-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/img/favicons/apple-touch-icon-precomposed.png" />
-    <link rel="canonical" href="https://www.telegram.hr/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026" />
     <base href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/" />
     <script type="importmap">
         {"imports":{"https://st-p.rmcdn1.net/436e810b/":"/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/"}}
@@ -17340,7 +17339,6 @@
     <link href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/c/c-5X32OWOG.js" rel="modulepreload" />
     <link href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/c/c-5O3TGEI7.js" rel="modulepreload" />
     <link href="/wp-content/themes/telegram2-desktop/templates/native/city-center-one-editorial-jesen-2026/dist/viewer.css" rel="stylesheet" />
-    <title></title>
 </head>
 
 <body>
