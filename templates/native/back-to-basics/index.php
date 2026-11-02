@@ -33,7 +33,7 @@
         {"imports":{"https://st-p.rmcdn1.net/436e810b/":"/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/"}}
     </script>
     <link rel="stylesheet" type="text/css" href="dist/css/custom_fonts.css" />
-    <script type="application/json" data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/436e810b/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-fa2b9f80-fdf6-47d0-b0d7-d9fb74cbd83e&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e3&quot;},{&quot;name&quot;:&quot;style-7e58b1eb-10bd-4254-8191-481fa247e3e1&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e4&quot;},{&quot;name&quot;:&quot;style-46c1910f-6109-48e2-bff7-b3d019b3cbba&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e5&quot;},{&quot;name&quot;:&quot;style-86722664-4a82-48b3-9d18-9cd3ad3608ad&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e6&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;09FF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00FF1564&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;6a7096b69eb5d008de1e908b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0DFF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0DFF0050&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;6a830a148eee90cd7d334d21&quot;}]},&quot;_id&quot;:&quot;6a70a4ec0315e44c9ae7fdda&quot;,&quot;num_id&quot;:6484256,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;creation_date&quot;:&quot;2026-08-03T13:25:09.109Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;]},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typetoday&quot;,&quot;css_name&quot;:&quot;Druk Wide&quot;,&quot;name&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:false,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-10-21T11:57:24.960Z&quot;,&quot;last_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;mid&quot;:&quot;6a7096b5444ea95623a9d409&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:8077,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:31044441,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg&quot;,&quot;height&quot;:26326,&quot;type&quot;:&quot;scroll&quot;},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-07-31T19:13:44.509Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;updated&quot;:&quot;2026-10-21T11:57:26.082Z&quot;,&quot;uri&quot;:&quot;6484256&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;picture&quot;,&quot;text&quot;,&quot;button&quot;,&quot;slideshow&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[&quot;custom_190945&quot;,&quot;custom_190947&quot;,&quot;custom_190946&quot;,&quot;custom_190948&quot;],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[],&quot;used_typetoday_fonts&quot;:[{&quot;id&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Presshaus d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:1060,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;click&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true},&quot;prevPubVersionId&quot;:&quot;6ac3a63da58dceba42cb66fb&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js&quot;,&quot;title&quot;:&quot;Back to Basics&quot;,&quot;description&quot;:&quot;Super1 vodič&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/back-to-basics-jesen-2026&quot;}"
+    <script type="application/json" data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/436e810b/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-fa2b9f80-fdf6-47d0-b0d7-d9fb74cbd83e&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e3&quot;},{&quot;name&quot;:&quot;style-7e58b1eb-10bd-4254-8191-481fa247e3e1&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e4&quot;},{&quot;name&quot;:&quot;style-46c1910f-6109-48e2-bff7-b3d019b3cbba&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e5&quot;},{&quot;name&quot;:&quot;style-86722664-4a82-48b3-9d18-9cd3ad3608ad&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e6&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;09FF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00FF1564&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;6a7096b69eb5d008de1e908b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0DFF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0DFF0050&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;6a830a148eee90cd7d334d21&quot;}]},&quot;_id&quot;:&quot;6a70a4ec0315e44c9ae7fdda&quot;,&quot;num_id&quot;:6484256,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;creation_date&quot;:&quot;2026-08-03T13:25:09.109Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;]},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typetoday&quot;,&quot;css_name&quot;:&quot;Druk Wide&quot;,&quot;name&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:false,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-11-02T14:55:10.851Z&quot;,&quot;last_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;mid&quot;:&quot;6a7096b5444ea95623a9d409&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:8343,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:31044441,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg&quot;,&quot;height&quot;:27294,&quot;type&quot;:&quot;scroll&quot;},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-07-31T19:13:44.509Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;updated&quot;:&quot;2026-11-02T14:55:11.896Z&quot;,&quot;uri&quot;:&quot;6484256&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;picture&quot;,&quot;text&quot;,&quot;button&quot;,&quot;slideshow&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[&quot;custom_190945&quot;,&quot;custom_190947&quot;,&quot;custom_190946&quot;,&quot;custom_190948&quot;],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[],&quot;used_typetoday_fonts&quot;:[{&quot;id&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Presshaus d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:1076,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;click&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true},&quot;prevPubVersionId&quot;:&quot;6ad8a8a751f8d099f4ab7942&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js&quot;,&quot;title&quot;:&quot;Back to Basics&quot;,&quot;description&quot;:&quot;Super1 vodič&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/back-to-basics-jesen-2026&quot;}"
         id="__RM_PROPS__"></script>
     <script>
         var RM = window.RM = window.RM || {};
@@ -370,7 +370,7 @@
                         "flags": {
                             "useOriginalViewBoxSVG": true
                         },
-                        "z": 1069,
+                        "z": 1085,
                         "cropH": 466,
                         "cropW": 436,
                         "cropX": 564,
@@ -474,7 +474,7 @@
                             "y": 107.07,
                             "w": 31.02,
                             "h": 33,
-                            "z": 1070,
+                            "z": 1086,
                             "cropH": 464,
                             "cropW": 436,
                             "cropX": 564,
@@ -505,10 +505,10 @@
                             }],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1070
+                                "value": 1086
                             }, {
                                 "pid": "default",
-                                "value": 1070
+                                "value": 1086
                             }]
                         },
                         "hidden": true,
@@ -516,10 +516,10 @@
                         "_hidden": [],
                         "_z": [{
                             "pid": "6a7096b5444ea95623a9d40e",
-                            "value": 1069
+                            "value": 1085
                         }, {
                             "pid": "default",
-                            "value": 1069
+                            "value": 1085
                         }],
                         "fixed_position": "c",
                         "is_global": true,
@@ -549,7 +549,7 @@
                         "sides": 3,
                         "weight": 1,
                         "stroke": "solid",
-                        "z": 1070,
+                        "z": 1086,
                         "hidden": true,
                         "viewport_phone_portrait": {
                             "borders": 1,
@@ -559,7 +559,7 @@
                             "y": 103.08,
                             "w": 26,
                             "h": 26,
-                            "z": 1069,
+                            "z": 1085,
                             "hidden": true,
                             "sticked": "",
                             "fixed_position": "se",
@@ -572,10 +572,10 @@
                             }],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1069
+                                "value": 1085
                             }, {
                                 "pid": "default",
-                                "value": 1069
+                                "value": 1085
                             }]
                         },
                         "name": "",
@@ -583,10 +583,10 @@
                         "_hidden": [],
                         "_z": [{
                             "pid": "6a7096b5444ea95623a9d40e",
-                            "value": 1070
+                            "value": 1086
                         }, {
                             "pid": "default",
-                            "value": 1070
+                            "value": 1086
                         }],
                         "fixed_position": "c",
                         "is_global": true,
@@ -787,7 +787,7 @@
                     "is_mag_use_page_order": true,
                     "is_private": false,
                     "is_published": true,
-                    "last_changed": "2026-10-21T11:57:24.960Z",
+                    "last_changed": "2026-11-02T14:55:10.851Z",
                     "last_published": "2026-08-03T14:25:48.619Z",
                     "likers": [],
                     "master_share_pid": null,
@@ -1322,7 +1322,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1056
+                                "z": 1072
                             },
                             "__v": 0
                         }, {
@@ -1470,7 +1470,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1057
+                                "z": 1073
                             },
                             "__v": 0
                         }, {
@@ -1618,7 +1618,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1058
+                                "z": 1074
                             },
                             "__v": 0
                         }, {
@@ -12606,7 +12606,7 @@
                             "_variationY": -244,
                             "hidden": true,
                             "is_above": false,
-                            "z": 1064,
+                            "z": 1080,
                             "__v": 0
                         }, {
                             "_id": "6a82c8da56d274f1d5cbf1f4",
@@ -12755,7 +12755,7 @@
                             "_variationY": -244,
                             "hidden": true,
                             "is_above": false,
-                            "z": 1065,
+                            "z": 1081,
                             "__v": 0
                         }, {
                             "_id": "6a82c8da3fea877f552b8fd0",
@@ -12904,7 +12904,7 @@
                             "_variationY": -244,
                             "hidden": true,
                             "is_above": false,
-                            "z": 1067,
+                            "z": 1083,
                             "__v": 0
                         }, {
                             "_id": "6a82d0aa5128ff7132db21da",
@@ -26570,7 +26570,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1059,
+                                "z": 1075,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/pv589k0Qeo0v8TM-8jArl.jpg",
@@ -26693,7 +26693,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1060,
+                                "z": 1076,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/-W01rtbrEET7qcPlLlFAa.jpg",
@@ -26816,7 +26816,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1061,
+                                "z": 1077,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/uCawzfKmVEVbn5yybijED.jpg",
@@ -26941,7 +26941,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1062,
+                                "z": 1078,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/JmrfYwLHSbJ5DxUS0vfQ5.jpg",
@@ -27065,7 +27065,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1063,
+                                "z": 1079,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/V_PPH5LhtMrjQsvvKubQF.jpg",
@@ -27192,7 +27192,7 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1064,
+                                "z": 1080,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/BkUuerxDiikWDdnsNmePp.jpg",
@@ -27315,7 +27315,7 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1065,
+                                "z": 1081,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/3NUVnGhMEjErojam6XLhc.jpg",
@@ -27438,7 +27438,7 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1066,
+                                "z": 1082,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/8FsnzAL8rMs04GVzKmQyG.jpg",
@@ -27524,11 +27524,11 @@
                             "z": 690,
                             "picture": {
                                 "type": "jpg",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/lz73nra9z83LRVRE8RRT5.jpg",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg"
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bPTvY7y4TT9fYg_EmzMIc.jpg",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/_PnXnAa8-p4WHDv1FiCws.jpg",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/L7yzznyk1Ef73vImtvC8B.jpg",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/_PnXnAa8-p4WHDv1FiCws.jpg",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bPTvY7y4TT9fYg_EmzMIc.jpg"
                             },
                             "cropW": 736,
                             "cropH": 912,
@@ -27561,14 +27561,14 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1067,
+                                "z": 1083,
                                 "picture": {
                                     "type": "jpg",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/lz73nra9z83LRVRE8RRT5.jpg",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/oCOxW0p61KOM6AfBnleGO.jpg",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/lsVBRn4V7v573LwFkcnU_.jpg"
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/bPTvY7y4TT9fYg_EmzMIc.jpg",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/_PnXnAa8-p4WHDv1FiCws.jpg",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/L7yzznyk1Ef73vImtvC8B.jpg",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/_PnXnAa8-p4WHDv1FiCws.jpg",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/bPTvY7y4TT9fYg_EmzMIc.jpg"
                                 }
                             },
                             "blurHash": "UKQvXZ-;~q?bNFt7%MR*?bWBM{WBxuRkj[s:",
@@ -27684,7 +27684,7 @@
                             "name": "Horizontal scroll",
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1068,
+                                "z": 1084,
                                 "picture": {
                                     "type": "jpg",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/LM3v7xwreheYDOTPZRobL.jpg",
@@ -44761,8 +44761,8 @@
                             "wid": "6aba6f43fc56992969a802c5",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 152,
-                            "y": 7711.56,
+                            "x": 166,
+                            "y": 7976.56,
                             "w": 74,
                             "h": 62,
                             "version": 2,
@@ -44836,8 +44836,8 @@
                             "wid": "6aba6fdc5ef9aa3dd11f9598",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 257,
-                            "y": 7716.56,
+                            "x": 271,
+                            "y": 7981.56,
                             "w": 52,
                             "h": 52,
                             "version": 2,
@@ -44911,8 +44911,8 @@
                             "wid": "6aba7012fc56992969a8842b",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 328,
-                            "y": 7702.56,
+                            "x": 342,
+                            "y": 7967.56,
                             "w": 95,
                             "h": 79,
                             "version": 2,
@@ -53199,7 +53199,9 @@
                                         "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
                                             "LETTER_SPACING", "TRANSFORM"
                                         ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1", "uppercase"]
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -53707,7 +53709,9 @@
                                         "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
                                             "LETTER_SPACING", "TRANSFORM"
                                         ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1", "uppercase"]
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -54215,7 +54219,9 @@
                                         "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
                                             "LETTER_SPACING", "TRANSFORM"
                                         ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1", "uppercase"]
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -54723,7 +54729,9 @@
                                         "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
                                             "LETTER_SPACING", "TRANSFORM"
                                         ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1", "uppercase"]
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -55282,7 +55290,9 @@
                                         "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
                                             "LETTER_SPACING", "TRANSFORM"
                                         ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1", "uppercase"]
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -55790,7 +55800,9 @@
                                         "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
                                             "LETTER_SPACING", "TRANSFORM"
                                         ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1", "uppercase"]
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -56298,7 +56310,9 @@
                                         "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
                                             "LETTER_SPACING", "TRANSFORM"
                                         ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1", "uppercase"]
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -62990,7 +63004,9 @@
                                         "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
                                             "FONT_STYLE", "FONT_FAMILY"
                                         ],
-                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal",
+                                            "custom_190946"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -63491,7 +63507,9 @@
                                         "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
                                             "FONT_STYLE", "FONT_FAMILY"
                                         ],
-                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal",
+                                            "custom_190946"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -63992,7 +64010,9 @@
                                         "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
                                             "FONT_STYLE", "FONT_FAMILY"
                                         ],
-                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal",
+                                            "custom_190946"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -64493,7 +64513,9 @@
                                         "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
                                             "FONT_STYLE", "FONT_FAMILY"
                                         ],
-                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal",
+                                            "custom_190946"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -64994,7 +65016,9 @@
                                         "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
                                             "FONT_STYLE", "FONT_FAMILY"
                                         ],
-                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                        "values": ["", "9", "00FF1A64", "-0.1", "uppercase", "200", "normal",
+                                            "custom_190946"
+                                        ]
                                     }
                                 }],
                                 "entityMap": {},
@@ -65300,7 +65324,7 @@
                             "flags": {
                                 "useOriginalViewBoxSVG": true
                             },
-                            "z": 1069,
+                            "z": 1085,
                             "cropH": 466,
                             "cropW": 436,
                             "cropX": 564,
@@ -65404,7 +65428,7 @@
                                 "y": 107.07,
                                 "w": 31.02,
                                 "h": 33,
-                                "z": 1070,
+                                "z": 1086,
                                 "cropH": 464,
                                 "cropW": 436,
                                 "cropX": 564,
@@ -65435,10 +65459,10 @@
                                 }],
                                 "_z": [{
                                     "pid": "6a7096b5444ea95623a9d40e",
-                                    "value": 1070
+                                    "value": 1086
                                 }, {
                                     "pid": "default",
-                                    "value": 1070
+                                    "value": 1086
                                 }]
                             },
                             "hidden": true,
@@ -65446,10 +65470,10 @@
                             "_hidden": [],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1069
+                                "value": 1085
                             }, {
                                 "pid": "default",
-                                "value": 1069
+                                "value": 1085
                             }],
                             "fixed_position": "c",
                             "is_global": true,
@@ -65479,7 +65503,7 @@
                             "sides": 3,
                             "weight": 1,
                             "stroke": "solid",
-                            "z": 1070,
+                            "z": 1086,
                             "hidden": true,
                             "viewport_phone_portrait": {
                                 "borders": 1,
@@ -65489,7 +65513,7 @@
                                 "y": 103.08,
                                 "w": 26,
                                 "h": 26,
-                                "z": 1069,
+                                "z": 1085,
                                 "hidden": true,
                                 "sticked": "",
                                 "fixed_position": "se",
@@ -65502,10 +65526,10 @@
                                 }],
                                 "_z": [{
                                     "pid": "6a7096b5444ea95623a9d40e",
-                                    "value": 1069
+                                    "value": 1085
                                 }, {
                                     "pid": "default",
-                                    "value": 1069
+                                    "value": 1085
                                 }]
                             },
                             "name": "",
@@ -65513,10 +65537,10 @@
                             "_hidden": [],
                             "_z": [{
                                 "pid": "6a7096b5444ea95623a9d40e",
-                                "value": 1070
+                                "value": 1086
                             }, {
                                 "pid": "default",
-                                "value": 1070
+                                "value": 1086
                             }],
                             "fixed_position": "c",
                             "is_global": true,
@@ -65527,8 +65551,8 @@
                             "wid": "6ac3a2c2425dfa16ec4fa45e",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 451,
-                            "y": 7717,
+                            "x": 465,
+                            "y": 7982,
                             "w": 32,
                             "h": 52,
                             "version": 2,
@@ -65602,8 +65626,8 @@
                             "wid": "6ac3a4b70e9721f5d54f8239",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 527,
-                            "y": 7711,
+                            "x": 541,
+                            "y": 7976,
                             "w": 74,
                             "h": 62,
                             "version": 2,
@@ -65674,8 +65698,8 @@
                             "wid": "6ac3a4b7305790672bc8dad8",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 632,
-                            "y": 7716,
+                            "x": 646,
+                            "y": 7981,
                             "w": 52,
                             "h": 52,
                             "version": 2,
@@ -65746,8 +65770,8 @@
                             "wid": "6ac3a4b837a9cfd55d345db2",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 703,
-                            "y": 7702,
+                            "x": 717,
+                            "y": 7967,
                             "w": 95,
                             "h": 79,
                             "version": 2,
@@ -65818,8 +65842,8 @@
                             "wid": "6ac3a4b837a9cfd55d345db5",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 826,
-                            "y": 7716.44,
+                            "x": 840,
+                            "y": 7981.44,
                             "w": 32,
                             "h": 52,
                             "version": 2,
@@ -65896,8 +65920,8 @@
                             },
                             "hidden": true,
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 26058,
+                                "x": 17,
+                                "y": 27005,
                                 "w": 71,
                                 "h": 72,
                                 "z": 1036,
@@ -65935,8 +65959,8 @@
                             },
                             "hidden": true,
                             "viewport_phone_portrait": {
-                                "x": 101,
-                                "y": 26064,
+                                "x": 100,
+                                "y": 27011,
                                 "w": 61,
                                 "h": 61,
                                 "z": 1038,
@@ -65975,8 +65999,8 @@
                             },
                             "hidden": true,
                             "viewport_phone_portrait": {
-                                "x": 170,
-                                "y": 26053,
+                                "x": 169,
+                                "y": 27000,
                                 "w": 82,
                                 "h": 83,
                                 "z": 1039,
@@ -66015,8 +66039,8 @@
                             },
                             "hidden": true,
                             "viewport_phone_portrait": {
-                                "x": 257,
-                                "y": 26061,
+                                "x": 256,
+                                "y": 27008,
                                 "w": 45,
                                 "h": 75,
                                 "z": 1040,
@@ -66169,8 +66193,8 @@
                             "type": "text",
                             "x": 688,
                             "y": 7530,
-                            "w": 161,
-                            "h": 75,
+                            "w": 150,
+                            "h": 90,
                             "version": 3,
                             "verticalAlign": "top",
                             "textDirection": "LTR",
@@ -66303,7 +66327,7 @@
                             "mag_num_id": 6484256,
                             "type": "button",
                             "x": 730,
-                            "y": 7620,
+                            "y": 7635,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -67063,10 +67087,2065 @@
                             "clickPage": null,
                             "z": 1058,
                             "__v": 0
+                        }, {
+                            "_id": "6ae8a239ff1ebae7cfe72756",
+                            "wid": "6ae8a239ff1ebae7cfe72756",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "x": 691,
+                            "y": 7512,
+                            "w": 480,
+                            "h": 9,
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "BACK TO REALITY",
+                                "entityRanges": [],
+                                "depth": 0
+                            }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 15,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
+                                        "FONT_STYLE", "FONT_FAMILY"
+                                    ],
+                                    "values": ["", "9", "00FF1164", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                }
+                            }],
+                            "entityMap": {},
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "z": 1059,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 9,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1049
+                            },
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a239b7546638ab0aa17a",
+                            "wid": "6ae8a239b7546638ab0aa17a",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "x": 858,
+                            "y": 7530,
+                            "w": 146,
+                            "h": 75,
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Zaboravite \"posao-kuća\": Ovako generacija Z provodi jesenske dane",
+                                "entityRanges": [{
+                                    "offset": 0,
+                                    "length": 65,
+                                    "key": 0
+                                }],
+                                "depth": 0
+                            }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 65,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                        "FONT_VARIABLE", "FONT_SIZE", "COLOR"
+                                    ],
+                                    "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "15", "00FF1A64"]
+                                }
+                            }],
+                            "entityMap": {
+                                "0": {
+                                    "type": "LINK",
+                                    "mutability": "MUTABLE",
+                                    "data": {
+                                        "url": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                                        "anchorPosition": 0,
+                                        "type": "URL",
+                                        "target": "_self",
+                                        "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                        "id": "eqd9b"
+                                    }
+                                }
+                            },
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "z": 1060,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 15,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1050
+                            },
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a23a9b5c613cf0acdd4e",
+                            "wid": "6ae8a23a9b5c613cf0acdd4e",
+                            "mag_num_id": 6484256,
+                            "type": "button",
+                            "x": 892,
+                            "y": 7635,
+                            "w": 78,
+                            "h": 15,
+                            "tp": "text",
+                            "form": "rectangle",
+                            "text": "PROČITAJ",
+                            "transition": false,
+                            "transitionTime": 0,
+                            "text_w": 36,
+                            "text_h": 10,
+                            "current-text_w": 88,
+                            "current-text_h": 22,
+                            "em_w": 14,
+                            "background-color": "262626",
+                            "background-color-opacity": 0,
+                            "border-radius": 79,
+                            "border-width": 1,
+                            "border-color": "00FF0D",
+                            "border-color-opacity": 100,
+                            "font-family": "custom_190947",
+                            "font-style": "normal",
+                            "font-weight": 400,
+                            "color": "00FF26",
+                            "color-opacity": 100,
+                            "font-size": 8,
+                            "letter-spacing": -0.4,
+                            "hover-background-color": "04FF00",
+                            "hover-background-color-opacity": 80,
+                            "hover-border-width": 0,
+                            "hover-border-color": "000000",
+                            "hover-border-color-opacity": 100,
+                            "hover-color": "000000",
+                            "hover-color-opacity": 100,
+                            "current-background-color": "c80000",
+                            "current-background-color-opacity": 100,
+                            "current-border-radius": 5,
+                            "current-border-width": 0,
+                            "current-border-color": "000000",
+                            "current-border-color-opacity": 100,
+                            "current-font-family": "Arial",
+                            "current-font-style": "normal",
+                            "current-font-weight": 400,
+                            "current-color": "ffffff",
+                            "current-color-opacity": 100,
+                            "current-font-size": 18,
+                            "current-letter-spacing": 0,
+                            "icon_enabled": false,
+                            "icon_h": 18,
+                            "icon_w": 18,
+                            "icon_pos": "left",
+                            "icon_color": "ffffff",
+                            "icon_color_opacity": 100,
+                            "current-icon_color": "ffffff",
+                            "current-icon_color_opacity": 100,
+                            "icon_rasterUrl": null,
+                            "icon_raster2xUrl": null,
+                            "current-icon_rasterUrl": null,
+                            "current-icon_raster2xUrl": null,
+                            "baselineShift": 0,
+                            "current-baselineShift": 0,
+                            "z": 1061,
+                            "triggers": [],
+                            "name": "Tertiary",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1051
+                            },
+                            "animation": [{
+                                "UUID": "c64b7474-e595-451e-b4f3-6914fdd45b72",
+                                "type": "hover",
+                                "steps": [{
+                                    "duration": 0.5,
+                                    "acceleration": "ease-both",
+                                    "from_scale": 100,
+                                    "use_scale": true,
+                                    "scale": 90
+                                }],
+                                "playOnce": false,
+                                "resetWhenOutOfView": false,
+                                "trigger": []
+                            }],
+                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                            "clickTarget": "_blank",
+                            "anchor_link_pos": null,
+                            "clickPage": null,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a23a650b887d7bd95a20",
+                            "wid": "6ae8a23a650b887d7bd95a20",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "x": 853,
+                            "y": 7298,
+                            "w": 152,
+                            "h": 197,
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
+                            "z": 1062,
+                            "scale": 0.29185185185185186,
+                            "cropH": 675,
+                            "cropW": 520.8121827411168,
+                            "cropX": 339.5939086294416,
+                            "cropY": 0,
+                            "originalCropH": 675,
+                            "originalCropW": 520.8121827411168,
+                            "originalCropX": 339.5939086294416,
+                            "originalCropY": 0,
+                            "originalH": 675,
+                            "originalW": 1200,
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1052,
+                                "picture": {
+                                    "type": "png",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/TxaFNlv0teBcd5zl7qCXt.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png"
+                                }
+                            },
+                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                            "clickTarget": "_blank",
+                            "blurHash": "UFGRuB010M~Wn3snkBIo0M-:%MD*NbR*IVtQ",
+                            "picture": {
+                                "type": "png",
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/TxaFNlv0teBcd5zl7qCXt.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png"
+                            },
+                            "anchor_link_pos": null,
+                            "clickPage": null,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a346a1ffc39c1523bf96",
+                            "wid": "6ae8a346a1ffc39c1523bf96",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "x": 354,
+                            "y": 7391,
+                            "w": 319,
+                            "h": 323,
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
+                            "z": 1063,
+                            "cropW": 1601,
+                            "cropH": 1621.0752351097178,
+                            "cropX": 0,
+                            "cropY": 389.4623824451411,
+                            "originalCropW": 1601,
+                            "originalCropH": 1621.0752351097178,
+                            "originalCropX": 0,
+                            "originalCropY": 389.4623824451411,
+                            "originalW": 1601,
+                            "originalH": 2400,
+                            "scale": 0.19925046845721425,
+                            "blurHash": "UcMa9Lt7?a-:~pRkM{oe%NofIURkt7ofM{oL",
+                            "name": "",
+                            "animation": [{
+                                "UUID": "ad67aa7a-c1f4-4d51-80be-8da4df57d79a",
+                                "type": "hover",
+                                "steps": [{
+                                    "duration": 0.5,
+                                    "acceleration": "ease-both",
+                                    "from_opacity": 100,
+                                    "use_opacity": true,
+                                    "opacity": 60
+                                }],
+                                "playOnce": false,
+                                "resetWhenOutOfView": false,
+                                "trigger": []
+                            }],
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1053,
+                                "picture": {
+                                    "type": "png",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/FhcIsw6wSdIH1IUfQDOc4.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/SpTAxsOtN2bpkLkE6yKKc.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/XA1LaoHPcSdBGgzuJt0GE.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/SpTAxsOtN2bpkLkE6yKKc.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/FhcIsw6wSdIH1IUfQDOc4.png"
+                                }
+                            },
+                            "picture": {
+                                "type": "png",
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/FhcIsw6wSdIH1IUfQDOc4.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/SpTAxsOtN2bpkLkE6yKKc.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/XA1LaoHPcSdBGgzuJt0GE.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/SpTAxsOtN2bpkLkE6yKKc.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/FhcIsw6wSdIH1IUfQDOc4.png"
+                            },
+                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                            "clickTarget": "_blank",
+                            "anchor_link_pos": null,
+                            "clickPage": null,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a346a1ffc39c1523bf99",
+                            "wid": "6ae8a346a1ffc39c1523bf99",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "x": 270,
+                            "y": 7739,
+                            "w": 480,
+                            "h": 9,
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "S1 INTERVJU",
+                                "entityRanges": [],
+                                "depth": 0
+                            }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 11,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
+                                        "FONT_STYLE", "FONT_FAMILY"
+                                    ],
+                                    "values": ["", "9", "00FF1164", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                }
+                            }],
+                            "entityMap": {},
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "z": 1064,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 9,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1054
+                            },
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a347ff1ebae7cfe7be01",
+                            "wid": "6ae8a347ff1ebae7cfe7be01",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "x": 372,
+                            "y": 7756,
+                            "w": 276,
+                            "h": 45,
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Na ovaj pilates ne dolazi se samo zbog vježbanja. Ivana je u Zagreb donijela zanimljiv koncept",
+                                "entityRanges": [{
+                                    "offset": 0,
+                                    "length": 94,
+                                    "key": 0
+                                }],
+                                "depth": 0
+                            }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 94,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                        "FONT_VARIABLE", "FONT_SIZE", "COLOR"
+                                    ],
+                                    "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "15", "00FF1164"]
+                                }
+                            }],
+                            "entityMap": {
+                                "0": {
+                                    "type": "LINK",
+                                    "mutability": "MUTABLE",
+                                    "data": {
+                                        "url": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                                        "anchorPosition": 0,
+                                        "type": "URL",
+                                        "target": "_blank",
+                                        "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                        "id": "3mr64"
+                                    }
+                                }
+                            },
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "z": 1065,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 15,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1055
+                            },
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a347455c0d037b150fbc",
+                            "wid": "6ae8a347455c0d037b150fbc",
+                            "mag_num_id": 6484256,
+                            "type": "button",
+                            "x": 471,
+                            "y": 7819,
+                            "w": 78,
+                            "h": 15,
+                            "tp": "text",
+                            "form": "rectangle",
+                            "text": "PROČITAJ",
+                            "transition": false,
+                            "transitionTime": 0,
+                            "text_w": 36,
+                            "text_h": 10,
+                            "current-text_w": 88,
+                            "current-text_h": 22,
+                            "em_w": 14,
+                            "background-color": "262626",
+                            "background-color-opacity": 0,
+                            "border-radius": 79,
+                            "border-width": 1,
+                            "border-color": "00FF0D",
+                            "border-color-opacity": 100,
+                            "font-family": "custom_190947",
+                            "font-style": "normal",
+                            "font-weight": 400,
+                            "color": "00FF26",
+                            "color-opacity": 100,
+                            "font-size": 8,
+                            "letter-spacing": -0.4,
+                            "hover-background-color": "04FF00",
+                            "hover-background-color-opacity": 80,
+                            "hover-border-width": 0,
+                            "hover-border-color": "000000",
+                            "hover-border-color-opacity": 100,
+                            "hover-color": "000000",
+                            "hover-color-opacity": 100,
+                            "current-background-color": "c80000",
+                            "current-background-color-opacity": 100,
+                            "current-border-radius": 5,
+                            "current-border-width": 0,
+                            "current-border-color": "000000",
+                            "current-border-color-opacity": 100,
+                            "current-font-family": "Arial",
+                            "current-font-style": "normal",
+                            "current-font-weight": 400,
+                            "current-color": "ffffff",
+                            "current-color-opacity": 100,
+                            "current-font-size": 18,
+                            "current-letter-spacing": 0,
+                            "icon_enabled": false,
+                            "icon_h": 18,
+                            "icon_w": 18,
+                            "icon_pos": "left",
+                            "icon_color": "ffffff",
+                            "icon_color_opacity": 100,
+                            "current-icon_color": "ffffff",
+                            "current-icon_color_opacity": 100,
+                            "icon_rasterUrl": null,
+                            "icon_raster2xUrl": null,
+                            "current-icon_rasterUrl": null,
+                            "current-icon_raster2xUrl": null,
+                            "baselineShift": 0,
+                            "current-baselineShift": 0,
+                            "z": 1066,
+                            "triggers": [],
+                            "name": "Tertiary",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1056
+                            },
+                            "animation": [{
+                                "UUID": "f530d471-b220-42c3-b1bb-353bf60d4628",
+                                "type": "hover",
+                                "steps": [{
+                                    "duration": 0.5,
+                                    "acceleration": "ease-both",
+                                    "from_scale": 100,
+                                    "use_scale": true,
+                                    "scale": 90
+                                }],
+                                "playOnce": false,
+                                "resetWhenOutOfView": false,
+                                "trigger": []
+                            }],
+                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                            "clickTarget": "_blank",
+                            "anchor_link_pos": null,
+                            "clickPage": null,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3a57cf27dd636d2659a",
+                            "wid": "6ae8a3a57cf27dd636d2659a",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 22,
+                                "y": 26039,
+                                "w": 286,
+                                "h": 278,
+                                "z": 1057,
+                                "cropH": 675,
+                                "cropW": 694.4244604316547,
+                                "cropX": 252.78776978417267,
+                                "cropY": 0,
+                                "originalCropH": 675,
+                                "originalCropW": 694.4244604316547,
+                                "originalCropX": 252.78776978417267,
+                                "originalCropY": 0,
+                                "hidden": false,
+                                "scale": 0.41185185185185186,
+                                "originalW": 1200,
+                                "originalH": 675,
+                                "picture": {
+                                    "type": "png",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/8cU406OVYneTra0O6He_V.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/iFccvVUESU_2Wh3y65ATD.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/U8AE93bbmJ7DqJiaJEMxz.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/iFccvVUESU_2Wh3y65ATD.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/8cU406OVYneTra0O6He_V.png"
+                                }
+                            },
+                            "hidden": true,
+                            "name": "",
+                            "blurHash": "UFGRuB010M~Wn3snkBIo0M-:%MD*NbR*IVtQ",
+                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1067,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3a5dc5ed8627514b680",
+                            "wid": "6ae8a3a5dc5ed8627514b680",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Back to reality",
+                                "entityRanges": [],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": -80,
+                                "y": 26336,
+                                "w": 480,
+                                "h": 9,
+                                "z": 1058,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 15,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                        }],
+                                        "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
+                                            "LETTER_SPACING", "TRANSFORM"
+                                        ],
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
+                                    }
+                                }],
+                                "entityMap": {},
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 9,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1068,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3a5dc5ed8627514b683",
+                            "wid": "6ae8a3a5dc5ed8627514b683",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Zaboravite \"posao-kuća\": Ovako generacija Z provodi jesenske dane",
+                                "entityRanges": [{
+                                    "offset": 0,
+                                    "length": 65,
+                                    "key": 0
+                                }],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 39,
+                                "y": 26356,
+                                "w": 243,
+                                "h": 54,
+                                "z": 1059,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 65,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                        }],
+                                        "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                            "FONT_VARIABLE", "COLOR", "FONT_SIZE"
+                                        ],
+                                        "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "00FF1A64",
+                                            "18"
+                                        ]
+                                    }
+                                }],
+                                "entityMap": {
+                                    "0": {
+                                        "type": "LINK",
+                                        "mutability": "MUTABLE",
+                                        "data": {
+                                            "url": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                                            "anchorPosition": 0,
+                                            "type": "URL",
+                                            "target": "_self",
+                                            "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                            "id": "64ji5"
+                                        }
+                                    }
+                                },
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 18,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1069,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3a65876a4ce21db63a1",
+                            "wid": "6ae8a3a65876a4ce21db63a1",
+                            "mag_num_id": 6484256,
+                            "type": "button",
+                            "tp": "text",
+                            "form": "rectangle",
+                            "text": "PROČITAJ",
+                            "transition": false,
+                            "transitionTime": 0,
+                            "icon_enabled": false,
+                            "icon_pos": "left",
+                            "icon_color": "ffffff",
+                            "icon_color_opacity": 100,
+                            "current-icon_color": "ffffff",
+                            "current-icon_color_opacity": 100,
+                            "icon_rasterUrl": null,
+                            "icon_raster2xUrl": null,
+                            "current-icon_rasterUrl": null,
+                            "current-icon_raster2xUrl": null,
+                            "name": "Tertiary",
+                            "viewport_phone_portrait": {
+                                "x": 115,
+                                "y": 26431,
+                                "w": 89,
+                                "h": 17,
+                                "z": 1060,
+                                "triggers": [],
+                                "hidden": false,
+                                "text_w": 42,
+                                "text_h": 12,
+                                "em_w": 14,
+                                "font-size": 9,
+                                "font-style": "normal",
+                                "font-weight": 400,
+                                "font-family": "custom_190947",
+                                "color": "00FF26",
+                                "color-opacity": 100,
+                                "letter-spacing": -0.4,
+                                "baselineShift": 0,
+                                "hover-color": "000000",
+                                "hover-color-opacity": 100,
+                                "current-font-size": 18,
+                                "current-font-style": "normal",
+                                "current-font-weight": 400,
+                                "current-font-family": "Arial",
+                                "current-baselineShift": 0,
+                                "current-color": "ffffff",
+                                "current-color-opacity": 100,
+                                "current-letter-spacing": 0,
+                                "current-text_w": 88,
+                                "current-text_h": 22,
+                                "background-color": "262626",
+                                "background-color-opacity": 0,
+                                "hover-background-color": "04FF00",
+                                "hover-background-color-opacity": 80,
+                                "current-background-color": "c80000",
+                                "current-background-color-opacity": 100,
+                                "border-radius": 79,
+                                "border-width": 1,
+                                "border-color": "00FF0D",
+                                "border-color-opacity": 100,
+                                "hover-border-width": 0,
+                                "hover-border-color": "000000",
+                                "hover-border-color-opacity": 100,
+                                "current-border-radius": 5,
+                                "current-border-width": 0,
+                                "current-border-color": "000000",
+                                "current-border-color-opacity": 100,
+                                "icon_h": 18,
+                                "icon_w": 18,
+                                "modifiers": [{
+                                    "id": "cursor",
+                                    "title": "Cursor",
+                                    "category": "default",
+                                    "owner": "readymag",
+                                    "private": true,
+                                    "static": [{
+                                        "id": "cursor-keyword",
+                                        "name": "Cursor",
+                                        "type": "select",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "auto",
+                                        "params": {
+                                            "default": "auto",
+                                            "options": [{
+                                                "label": "Auto",
+                                                "value": "auto"
+                                            }, {
+                                                "label": "Pointer",
+                                                "value": "pointer"
+                                            }, {
+                                                "label": "Move",
+                                                "value": "move"
+                                            }]
+                                        }
+                                    }, {
+                                        "id": "cursor-url",
+                                        "name": "Cursor image",
+                                        "type": "file",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                    }, {
+                                        "id": "url-is-lambda",
+                                        "name": "Is cursor url lambda",
+                                        "type": "toggle",
+                                        "operator": "assignment",
+                                        "modelField": "cursorUrlIsLambda",
+                                        "value": true,
+                                        "params": {
+                                            "default": false,
+                                            "isDisabled": true
+                                        }
+                                    }, {
+                                        "id": "cursor-image-dimension",
+                                        "name": "Cursor image dimension",
+                                        "type": "number",
+                                        "operator": "assignment",
+                                        "modelField": "cursorImageDimension",
+                                        "value": 250,
+                                        "params": {
+                                            "default": 0,
+                                            "isDisabled": true
+                                        }
+                                    }],
+                                    "events": [{
+                                        "eventName": "rendered",
+                                        "eventHandler": "Cursor/WidgetRendered"
+                                    }]
+                                }]
+                            },
+                            "hidden": true,
+                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1070,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3bfff1ebae7cfe85d01",
+                            "wid": "6ae8a3bfff1ebae7cfe85d01",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 16,
+                                "y": 26485,
+                                "w": 286,
+                                "h": 278,
+                                "z": 1061,
+                                "cropH": 1556.2167832167831,
+                                "cropW": 1601,
+                                "cropX": 0,
+                                "cropY": 421.89160839160843,
+                                "originalCropH": 1556.2167832167831,
+                                "originalCropW": 1601,
+                                "originalCropX": 0,
+                                "originalCropY": 421.89160839160843,
+                                "hidden": false,
+                                "scale": 0.17863835103060588,
+                                "originalW": 1601,
+                                "originalH": 2400,
+                                "picture": {
+                                    "type": "png",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AIpqCJ33QJBrcwUdT9eAk.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/34E9cs6i763I_n84bEJJf.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/b9qdjMN818q5_7mNFlGzV.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/34E9cs6i763I_n84bEJJf.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AIpqCJ33QJBrcwUdT9eAk.png"
+                                }
+                            },
+                            "hidden": true,
+                            "name": "",
+                            "blurHash": "UcMa9Lt7?a-:~pRkM{oe%NofIURkt7ofM{oL",
+                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1071,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3bfb7939d65d4fd6a1d",
+                            "wid": "6ae8a3bfb7939d65d4fd6a1d",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "S1 intervju",
+                                "entityRanges": [],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": -86,
+                                "y": 26782,
+                                "w": 480,
+                                "h": 9,
+                                "z": 1062,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 11,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                        }],
+                                        "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
+                                            "LETTER_SPACING", "TRANSFORM"
+                                        ],
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
+                                    }
+                                }],
+                                "entityMap": {},
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 9,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1072,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3bfb463856b52d31e31",
+                            "wid": "6ae8a3bfb463856b52d31e31",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Na ovaj pilates ne dolazi se samo zbog vježbanja. Ivana je u Zagreb donijela zanimljiv koncept",
+                                "entityRanges": [{
+                                    "offset": 0,
+                                    "length": 94,
+                                    "key": 0
+                                }],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 33,
+                                "y": 26802,
+                                "w": 243,
+                                "h": 90,
+                                "z": 1063,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 94,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                        }],
+                                        "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                            "FONT_VARIABLE", "COLOR", "FONT_SIZE"
+                                        ],
+                                        "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "00FF1A64",
+                                            "18"
+                                        ]
+                                    }
+                                }],
+                                "entityMap": {
+                                    "0": {
+                                        "type": "LINK",
+                                        "mutability": "MUTABLE",
+                                        "data": {
+                                            "url": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                                            "anchorPosition": 0,
+                                            "type": "URL",
+                                            "target": "_blank",
+                                            "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                            "id": "9tbhs"
+                                        }
+                                    }
+                                },
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 18,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1073,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3c035390631fa0a3fe0",
+                            "wid": "6ae8a3c035390631fa0a3fe0",
+                            "mag_num_id": 6484256,
+                            "type": "button",
+                            "tp": "text",
+                            "form": "rectangle",
+                            "text": "PROČITAJ",
+                            "transition": false,
+                            "transitionTime": 0,
+                            "icon_enabled": false,
+                            "icon_pos": "left",
+                            "icon_color": "ffffff",
+                            "icon_color_opacity": 100,
+                            "current-icon_color": "ffffff",
+                            "current-icon_color_opacity": 100,
+                            "icon_rasterUrl": null,
+                            "icon_raster2xUrl": null,
+                            "current-icon_rasterUrl": null,
+                            "current-icon_raster2xUrl": null,
+                            "name": "Tertiary",
+                            "viewport_phone_portrait": {
+                                "x": 109,
+                                "y": 26911,
+                                "w": 89,
+                                "h": 17,
+                                "z": 1064,
+                                "triggers": [],
+                                "hidden": false,
+                                "text_w": 42,
+                                "text_h": 12,
+                                "em_w": 14,
+                                "font-size": 9,
+                                "font-style": "normal",
+                                "font-weight": 400,
+                                "font-family": "custom_190947",
+                                "color": "00FF26",
+                                "color-opacity": 100,
+                                "letter-spacing": -0.4,
+                                "baselineShift": 0,
+                                "hover-color": "000000",
+                                "hover-color-opacity": 100,
+                                "current-font-size": 18,
+                                "current-font-style": "normal",
+                                "current-font-weight": 400,
+                                "current-font-family": "Arial",
+                                "current-baselineShift": 0,
+                                "current-color": "ffffff",
+                                "current-color-opacity": 100,
+                                "current-letter-spacing": 0,
+                                "current-text_w": 88,
+                                "current-text_h": 22,
+                                "background-color": "262626",
+                                "background-color-opacity": 0,
+                                "hover-background-color": "04FF00",
+                                "hover-background-color-opacity": 80,
+                                "current-background-color": "c80000",
+                                "current-background-color-opacity": 100,
+                                "border-radius": 79,
+                                "border-width": 1,
+                                "border-color": "00FF0D",
+                                "border-color-opacity": 100,
+                                "hover-border-width": 0,
+                                "hover-border-color": "000000",
+                                "hover-border-color-opacity": 100,
+                                "current-border-radius": 5,
+                                "current-border-width": 0,
+                                "current-border-color": "000000",
+                                "current-border-color-opacity": 100,
+                                "icon_h": 18,
+                                "icon_w": 18,
+                                "modifiers": [{
+                                    "id": "cursor",
+                                    "title": "Cursor",
+                                    "category": "default",
+                                    "owner": "readymag",
+                                    "private": true,
+                                    "static": [{
+                                        "id": "cursor-keyword",
+                                        "name": "Cursor",
+                                        "type": "select",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "auto",
+                                        "params": {
+                                            "default": "auto",
+                                            "options": [{
+                                                "label": "Auto",
+                                                "value": "auto"
+                                            }, {
+                                                "label": "Pointer",
+                                                "value": "pointer"
+                                            }, {
+                                                "label": "Move",
+                                                "value": "move"
+                                            }]
+                                        }
+                                    }, {
+                                        "id": "cursor-url",
+                                        "name": "Cursor image",
+                                        "type": "file",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                    }, {
+                                        "id": "url-is-lambda",
+                                        "name": "Is cursor url lambda",
+                                        "type": "toggle",
+                                        "operator": "assignment",
+                                        "modelField": "cursorUrlIsLambda",
+                                        "value": true,
+                                        "params": {
+                                            "default": false,
+                                            "isDisabled": true
+                                        }
+                                    }, {
+                                        "id": "cursor-image-dimension",
+                                        "name": "Cursor image dimension",
+                                        "type": "number",
+                                        "operator": "assignment",
+                                        "modelField": "cursorImageDimension",
+                                        "value": 250,
+                                        "params": {
+                                            "default": 0,
+                                            "isDisabled": true
+                                        }
+                                    }],
+                                    "events": [{
+                                        "eventName": "rendered",
+                                        "eventHandler": "Cursor/WidgetRendered"
+                                    }]
+                                }]
+                            },
+                            "hidden": true,
+                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1074,
+                            "__v": 0
                         }],
                         "num": 1,
                         "type": "scroll",
-                        "height": 8077,
+                        "height": 8343,
                         "hidden": false,
                         "isPrivate": false,
                         "sectionscroll": false,
@@ -67077,7 +69156,7 @@
                         "viewport_phone_portrait": {
                             "enabled": true,
                             "screenshot": "https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg",
-                            "height": 26326,
+                            "height": 27294,
                             "type": "scroll"
                         },
                         "children": [],
@@ -67094,7 +69173,7 @@
                     "showAsNew": false,
                     "submitted_for_featured": 0,
                     "tags": [],
-                    "updated": "2026-10-21T11:57:26.082Z",
+                    "updated": "2026-11-02T14:55:11.896Z",
                     "uri": "6484256",
                     "usedWidgetTypes": ["background", "picture", "text", "button", "slideshow", "shape"],
                     "used_custom_fonts": ["custom_190945", "custom_190947", "custom_190946", "custom_190948"],
@@ -67130,7 +69209,7 @@
                         }
                     },
                     "version": 2,
-                    "widgetAddCounter": 1060,
+                    "widgetAddCounter": 1076,
                     "hasAnimations": true,
                     "usedAnimationTypes": {
                         "load": true,
@@ -67142,7 +69221,7 @@
                     "ci_body_top": "",
                     "ci_css": "",
                     "ci_head": "",
-                    "prevPubVersionId": "6ac3a63da58dceba42cb66fb",
+                    "prevPubVersionId": "6ad8a8a751f8d099f4ab7942",
                     "typekit_url": "https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js",
                     "title": "Back to Basics",
                     "description": "Super1 vodič",
@@ -67169,9 +69248,7 @@
             "fonts": {
                 "webtype": "/api/fonts/webtype/css",
                 "typetoday": "/api/fonts/typetoday/css",
-                "google": [
-                    "https://fonts.googleapis.com/css?family=Inter:400,500\u0026subset=latin,vietnamese,khmer,cyrillic-ext,greek-ext,greek,devanagari,latin-ext,cyrillic"
-                ]
+                "google": ["https://fonts.googleapis.com/css?family=Inter:400,500\u0026subset=latin,vietnamese,khmer,cyrillic-ext,greek-ext,greek,devanagari,latin-ext,cyrillic"]
             },
             "featureFlags": {
                 "experiment.subscriptionAddons": true,
