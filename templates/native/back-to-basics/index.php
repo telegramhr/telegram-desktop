@@ -33,7 +33,7 @@
         {"imports":{"https://st-p.rmcdn1.net/436e810b/":"/wp-content/themes/telegram2-desktop/templates/native/back-to-basics/"}}
     </script>
     <link rel="stylesheet" type="text/css" href="dist/css/custom_fonts.css" />
-    <script type="application/json" data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/436e810b/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-fa2b9f80-fdf6-47d0-b0d7-d9fb74cbd83e&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e3&quot;},{&quot;name&quot;:&quot;style-7e58b1eb-10bd-4254-8191-481fa247e3e1&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e4&quot;},{&quot;name&quot;:&quot;style-46c1910f-6109-48e2-bff7-b3d019b3cbba&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e5&quot;},{&quot;name&quot;:&quot;style-86722664-4a82-48b3-9d18-9cd3ad3608ad&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e6&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;09FF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00FF1564&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;6a7096b69eb5d008de1e908b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0DFF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0DFF0050&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;6a830a148eee90cd7d334d21&quot;}]},&quot;_id&quot;:&quot;6a70a4ec0315e44c9ae7fdda&quot;,&quot;num_id&quot;:6484256,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;creation_date&quot;:&quot;2026-08-03T13:25:09.109Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;]},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typetoday&quot;,&quot;css_name&quot;:&quot;Druk Wide&quot;,&quot;name&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:false,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-11-02T14:55:10.851Z&quot;,&quot;last_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;mid&quot;:&quot;6a7096b5444ea95623a9d409&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:8343,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:31044441,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg&quot;,&quot;height&quot;:27294,&quot;type&quot;:&quot;scroll&quot;},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-07-31T19:13:44.509Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;updated&quot;:&quot;2026-11-02T14:55:11.896Z&quot;,&quot;uri&quot;:&quot;6484256&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;picture&quot;,&quot;text&quot;,&quot;button&quot;,&quot;slideshow&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[&quot;custom_190945&quot;,&quot;custom_190947&quot;,&quot;custom_190946&quot;,&quot;custom_190948&quot;],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[],&quot;used_typetoday_fonts&quot;:[{&quot;id&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Presshaus d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:1076,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;click&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true},&quot;prevPubVersionId&quot;:&quot;6ad8a8a751f8d099f4ab7942&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js&quot;,&quot;title&quot;:&quot;Back to Basics&quot;,&quot;description&quot;:&quot;Super1 vodič&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/back-to-basics-jesen-2026&quot;}"
+    <script type="application/json" data-content="{&quot;publicPath&quot;:&quot;https://st-p.rmcdn1.net/436e810b/dist&quot;,&quot;project&quot;:{&quot;isProjectEmailPrivate&quot;:{&quot;isEnabled&quot;:false,&quot;allowedEmails&quot;:[],&quot;allowedDomains&quot;:[]},&quot;opts&quot;:{&quot;arrows&quot;:false,&quot;menubutton&quot;:false,&quot;sharebutton&quot;:false,&quot;pagecounter&quot;:false,&quot;endpage&quot;:false,&quot;endpagetype&quot;:&quot;join&quot;,&quot;viewertype&quot;:&quot;horizontal&quot;,&quot;slidein&quot;:false,&quot;scalewidth&quot;:3600,&quot;projectinfo&quot;:false,&quot;hidden&quot;:true,&quot;allowindex&quot;:true,&quot;scalableviewer&quot;:true,&quot;lqip&quot;:false,&quot;useCustomCursor&quot;:false,&quot;controlsontop&quot;:false,&quot;phoneVerticalAlign&quot;:&quot;top&quot;,&quot;branding&quot;:false},&quot;textStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[{&quot;name&quot;:&quot;style-fa2b9f80-fdf6-47d0-b0d7-d9fb74cbd83e&quot;,&quot;label&quot;:&quot;H1&quot;,&quot;tag&quot;:&quot;h1&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Roboto&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:48,&quot;fontWeight&quot;:700,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:60,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e3&quot;},{&quot;name&quot;:&quot;style-7e58b1eb-10bd-4254-8191-481fa247e3e1&quot;,&quot;label&quot;:&quot;H2&quot;,&quot;tag&quot;:&quot;h2&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:24,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:30,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e4&quot;},{&quot;name&quot;:&quot;style-46c1910f-6109-48e2-bff7-b3d019b3cbba&quot;,&quot;label&quot;:&quot;Text&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222264&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:18,&quot;fontWeight&quot;:400,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:23,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e5&quot;},{&quot;name&quot;:&quot;style-86722664-4a82-48b3-9d18-9cd3ad3608ad&quot;,&quot;label&quot;:&quot;Caption&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;22222232&quot;,&quot;fontFamily&quot;:&quot;Georgia&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;textAlign&quot;:&quot;left&quot;,&quot;fontSize&quot;:14,&quot;lineHeight&quot;:18,&quot;letterSpacing&quot;:0,&quot;fontWeight&quot;:400,&quot;paddingTop&quot;:0,&quot;paddingRight&quot;:0,&quot;paddingBottom&quot;:0,&quot;paddingLeft&quot;:0},&quot;_id&quot;:&quot;6a7096b668edb44a67bd37e6&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;},{&quot;name&quot;:&quot;style-ccf7ca34-6199-4cd5-950d-1b77756dc510&quot;,&quot;label&quot;:&quot;New style&quot;,&quot;tag&quot;:&quot;p&quot;,&quot;cssProperties&quot;:{&quot;color&quot;:&quot;ffffff64&quot;,&quot;fontFamily&quot;:&quot;Inter&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;textAlign&quot;:&quot;center&quot;,&quot;fontSize&quot;:10,&quot;fontWeight&quot;:&quot;400&quot;,&quot;letterSpacing&quot;:0,&quot;lineHeight&quot;:12,&quot;paddingBottom&quot;:10,&quot;fontFeatureSettings&quot;:&quot;\&quot;lnum\&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&#x27;wght&#x27; 550&quot;},&quot;_id&quot;:&quot;668418ad33839200179ea31f&quot;}]},&quot;listStyles&quot;:{&quot;global&quot;:[],&quot;project&quot;:[]},&quot;linkStyles&quot;:{&quot;global&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;F3F3F364&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;F3F3F364&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;E6E6E650&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;E6E6E664&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-d7475043-a314-4ca3-a2e1-178338736f64&quot;,&quot;label&quot;:&quot;naslov&quot;,&quot;_id&quot;:&quot;695ba7a6be5cad623a314c55&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0059FF50&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-3059f6a8-e576-4ef5-b716-d2f8cf5e80a9&quot;,&quot;label&quot;:&quot;naslov2&quot;,&quot;_id&quot;:&quot;695bbc70f3a46a2c036b54cf&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-015cb18b-6b85-4811-9005-b45acb4c188c&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0059FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00000050&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-212b014a-c50a-40ad-9fa6-6a5c52524930&quot;,&quot;label&quot;:&quot;New kkkkkStyle&quot;,&quot;_id&quot;:&quot;695e65200fb585b9c4eed59c&quot;}],&quot;project&quot;:[{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;09FF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;00FF1564&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;#0080FF64&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;#0080FF64&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-1&quot;,&quot;label&quot;:&quot;Default Link Style&quot;,&quot;_id&quot;:&quot;6a7096b69eb5d008de1e908b&quot;},{&quot;style&quot;:{&quot;link&quot;:{&quot;textColor&quot;:&quot;0DFF0064&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;hover&quot;:{&quot;textColor&quot;:&quot;0DFF0050&quot;,&quot;type&quot;:&quot;None&quot;,&quot;color&quot;:&quot;0DFF0064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0},&quot;current&quot;:{&quot;textColor&quot;:&quot;00000064&quot;,&quot;type&quot;:&quot;Solid&quot;,&quot;color&quot;:&quot;00000064&quot;,&quot;size&quot;:1,&quot;padding&quot;:0}},&quot;name&quot;:&quot;link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd&quot;,&quot;label&quot;:&quot;New Style&quot;,&quot;_id&quot;:&quot;6a830a148eee90cd7d334d21&quot;}]},&quot;_id&quot;:&quot;6a70a4ec0315e44c9ae7fdda&quot;,&quot;num_id&quot;:6484256,&quot;__v&quot;:0,&quot;allow_iframe_embed&quot;:false,&quot;categories&quot;:[],&quot;changed&quot;:false,&quot;coverPid&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;creation_date&quot;:&quot;2026-08-03T13:25:09.109Z&quot;,&quot;desktopWidth&quot;:1024,&quot;edit_params&quot;:{&quot;fonts&quot;:[{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Arial&quot;,&quot;name&quot;:&quot;Arial&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Courier New&quot;,&quot;name&quot;:&quot;Courier New&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Georgia&quot;,&quot;name&quot;:&quot;Georgia&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Times New Roman&quot;,&quot;name&quot;:&quot;Times New Roman&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Trebuchet MS&quot;,&quot;name&quot;:&quot;Trebuchet MS&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Verdana&quot;,&quot;name&quot;:&quot;Verdana&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;i4&quot;,&quot;n7&quot;,&quot;i7&quot;]},{&quot;provider&quot;:&quot;system&quot;,&quot;css_name&quot;:&quot;Tahoma&quot;,&quot;name&quot;:&quot;Tahoma&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n7&quot;]},{&quot;provider&quot;:&quot;google&quot;,&quot;css_name&quot;:&quot;Inter&quot;,&quot;name&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]},{&quot;provider&quot;:&quot;typetoday&quot;,&quot;css_name&quot;:&quot;Druk Wide&quot;,&quot;name&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;paragraph_styles&quot;:[],&quot;link_styles&quot;:[]},&quot;first_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;hasSummary&quot;:true,&quot;hasTextWidgetsV3&quot;:true,&quot;hasWidgetsWithVerticalOnscrollAnimation&quot;:false,&quot;hasYoutube&quot;:false,&quot;isArchived&quot;:false,&quot;isPrivatePages&quot;:false,&quot;isPublishedAsTemplate&quot;:false,&quot;is_mag_use_minimal_viewport&quot;:true,&quot;is_mag_use_page_order&quot;:true,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;last_changed&quot;:&quot;2026-11-02T15:45:48.882Z&quot;,&quot;last_published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;likers&quot;:[],&quot;master_share_pid&quot;:null,&quot;pages&quot;:[{&quot;_id&quot;:&quot;6a7096b5444ea95623a9d40e&quot;,&quot;mid&quot;:&quot;6a7096b5444ea95623a9d409&quot;,&quot;num&quot;:1,&quot;type&quot;:&quot;scroll&quot;,&quot;height&quot;:8682,&quot;hidden&quot;:false,&quot;isPrivate&quot;:false,&quot;sectionscroll&quot;:false,&quot;used_autolayout&quot;:false,&quot;arrows_color&quot;:&quot;white&quot;,&quot;num_id&quot;:31044441,&quot;screenshot&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;viewport_phone_portrait&quot;:{&quot;enabled&quot;:true,&quot;screenshot&quot;:&quot;https://c-p.rmcdn.net/683d850bd2094940857eb894/6484256/Screenshot-59882ea3-a38d-4dee-92e3-9386ef23b5a7.jpg&quot;,&quot;height&quot;:27294,&quot;type&quot;:&quot;scroll&quot;},&quot;children&quot;:[],&quot;pagePath&quot;:&quot;1&quot;,&quot;pageNestedNum&quot;:&quot;1&quot;,&quot;htmlUrl&quot;:&quot;snippets/1.html&quot;}],&quot;pages_count&quot;:1,&quot;pass_last_changed&quot;:&quot;2026-07-31T19:13:44.509Z&quot;,&quot;phoneWidth&quot;:320,&quot;published&quot;:&quot;2026-08-03T14:25:48.619Z&quot;,&quot;selected_for_featured&quot;:0,&quot;setForRemoval&quot;:false,&quot;showAsNew&quot;:false,&quot;submitted_for_featured&quot;:0,&quot;tags&quot;:[],&quot;updated&quot;:&quot;2026-11-02T15:45:51.268Z&quot;,&quot;uri&quot;:&quot;6484256&quot;,&quot;usedWidgetTypes&quot;:[&quot;background&quot;,&quot;picture&quot;,&quot;text&quot;,&quot;button&quot;,&quot;slideshow&quot;,&quot;shape&quot;],&quot;used_custom_fonts&quot;:[&quot;custom_190945&quot;,&quot;custom_190947&quot;,&quot;custom_190946&quot;,&quot;custom_190948&quot;],&quot;used_google_fonts&quot;:[{&quot;id&quot;:&quot;Inter&quot;,&quot;variations&quot;:[&quot;n4&quot;,&quot;n5&quot;]}],&quot;used_typekit_fonts&quot;:[],&quot;used_typetoday_fonts&quot;:[{&quot;id&quot;:&quot;Druk Wide&quot;,&quot;variations&quot;:[&quot;n7&quot;]}],&quot;used_webtype_fonts&quot;:[],&quot;user&quot;:{&quot;_id&quot;:&quot;683d850bd2094940857eb894&quot;,&quot;uri&quot;:&quot;u275768050&quot;,&quot;num_id&quot;:275768050,&quot;name&quot;:&quot;Miran Pavić, Presshaus d.o.o.&quot;,&quot;permissions&quot;:{&quot;can_make_mag_private_by_email&quot;:false,&quot;can_use_analytics&quot;:true,&quot;must_show_branding&quot;:false,&quot;can_use_gtm&quot;:true,&quot;white_label&quot;:true,&quot;can_use_custom_analytics&quot;:false,&quot;can_use_beta_testing&quot;:false,&quot;can_use_e_commerce&quot;:true,&quot;can_use_forms_file_upload&quot;:true,&quot;forms_file_upload_limit&quot;:31457280,&quot;forms_file_upload_count&quot;:10,&quot;allow_index&quot;:false,&quot;can_use_iframe&quot;:true}},&quot;version&quot;:2,&quot;widgetAddCounter&quot;:1080,&quot;hasAnimations&quot;:true,&quot;usedAnimationTypes&quot;:{&quot;load&quot;:true,&quot;click&quot;:true,&quot;hover&quot;:true,&quot;scroll&quot;:true},&quot;prevPubVersionId&quot;:&quot;6ae8afa5a232816e068ebb3a&quot;,&quot;typekit_url&quot;:&quot;https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js&quot;,&quot;title&quot;:&quot;Back to Basics&quot;,&quot;description&quot;:&quot;Super1 vodič&quot;,&quot;cover&quot;:&quot;img/683d850bd2094940857eb894/6484256/Screenshot-f7639cdc-0610-4a7a-87e4-5df2943b579d_readyscr.jpg&quot;,&quot;isInternal&quot;:false},&quot;isDomainViewer&quot;:true,&quot;domainForUser&quot;:false,&quot;homepageRewrite&quot;:false,&quot;isDownloadedSource&quot;:true,&quot;exportBasePath&quot;:&quot;/super1/native/back-to-basics-jesen-2026&quot;}"
         id="__RM_PROPS__"></script>
     <script>
         var RM = window.RM = window.RM || {};
@@ -787,7 +787,7 @@
                     "is_mag_use_page_order": true,
                     "is_private": false,
                     "is_published": true,
-                    "last_changed": "2026-11-02T14:55:10.851Z",
+                    "last_changed": "2026-11-02T15:45:48.882Z",
                     "last_published": "2026-08-03T14:25:48.619Z",
                     "likers": [],
                     "master_share_pid": null,
@@ -3964,8 +3964,8 @@
                             "wid": "6a709f53de260f2eff6f7109",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 305,
-                            "y": 3432,
+                            "x": 307,
+                            "y": 3715,
                             "w": 480,
                             "h": 45,
                             "version": 3,
@@ -4082,8 +4082,8 @@
                             "wid": "6a709f53df2f420d9526329e",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 273,
-                            "y": 3536,
+                            "x": 275,
+                            "y": 3819,
                             "w": 480,
                             "h": 45,
                             "version": 3,
@@ -4200,8 +4200,8 @@
                             "wid": "6a709f53d0caba35681d6711",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 20,
-                            "y": 3437,
+                            "x": 22,
+                            "y": 3720,
                             "w": 314,
                             "h": 399,
                             "version": 2,
@@ -4313,8 +4313,8 @@
                             "wid": "6a709f53f9377fc8e9f387f9",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -68,
-                            "y": 3855,
+                            "x": -66,
+                            "y": 4138,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -4431,8 +4431,8 @@
                             "wid": "6a709f536687410135af8da6",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 34,
-                            "y": 3872,
+                            "x": 36,
+                            "y": 4155,
                             "w": 276,
                             "h": 60,
                             "version": 3,
@@ -4566,8 +4566,8 @@
                             "wid": "6a709f5415e1d350caa57e3b",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 387,
-                            "y": 3944,
+                            "x": 389,
+                            "y": 4227,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -4705,8 +4705,8 @@
                             "wid": "6a709f5439d892646cb95fcf",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 602,
-                            "y": 3777,
+                            "x": 604,
+                            "y": 4060,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -4823,8 +4823,8 @@
                             "wid": "6a709f54031f88329ff2b28b",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 716,
-                            "y": 3799,
+                            "x": 718,
+                            "y": 4082,
                             "w": 251,
                             "h": 45,
                             "version": 3,
@@ -4958,8 +4958,8 @@
                             "wid": "6a709f549cabf2063b354da3",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 354,
-                            "y": 3594,
+                            "x": 356,
+                            "y": 3877,
                             "w": 148,
                             "h": 197,
                             "version": 2,
@@ -5069,8 +5069,8 @@
                             "wid": "6a709f543f7d89f9e90b2854",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 354,
-                            "y": 3809,
+                            "x": 356,
+                            "y": 4092,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -5187,8 +5187,8 @@
                             "wid": "6a709f546c763d83ac484a31",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 518,
-                            "y": 3826,
+                            "x": 520,
+                            "y": 4109,
                             "w": 148,
                             "h": 105,
                             "version": 3,
@@ -5322,8 +5322,8 @@
                             "wid": "6a709f546687410135af8dad",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 186,
-                            "y": 3809,
+                            "x": 188,
+                            "y": 4092,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -5440,8 +5440,8 @@
                             "wid": "6a709f555109d45ceb8646d5",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 350,
-                            "y": 3826,
+                            "x": 352,
+                            "y": 4109,
                             "w": 153,
                             "h": 105,
                             "version": 3,
@@ -5582,8 +5582,8 @@
                             "wid": "6a709f5539d892646cb95fd2",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 227,
-                            "y": 3483,
+                            "x": 229,
+                            "y": 3766,
                             "w": 480,
                             "h": 46,
                             "version": 3,
@@ -5718,8 +5718,8 @@
                             "wid": "6a709f55e4282c366791ee26",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 136,
-                            "y": 3944,
+                            "x": 138,
+                            "y": 4227,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -8239,8 +8239,8 @@
                             "wid": "6a7197da9a2038df4201b61c",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 555,
-                            "y": 3944,
+                            "x": 557,
+                            "y": 4227,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -8378,8 +8378,8 @@
                             "wid": "6a7197dfdcccf6c1f20cfaa7",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 807,
-                            "y": 3858,
+                            "x": 809,
+                            "y": 4141,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -12161,8 +12161,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -54,
-                                "y": 10489,
+                                "x": -52,
+                                "y": 10998,
                                 "w": 480,
                                 "h": 40,
                                 "z": 521,
@@ -12280,8 +12280,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -80,
-                                "y": 10600,
+                                "x": -78,
+                                "y": 11109,
                                 "w": 480,
                                 "h": 40,
                                 "z": 522,
@@ -12417,8 +12417,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -111,
-                                "y": 10545,
+                                "x": -109,
+                                "y": 11054,
                                 "w": 480,
                                 "h": 40,
                                 "z": 523,
@@ -12911,8 +12911,8 @@
                             "wid": "6a82d0aa5128ff7132db21da",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 690,
-                            "y": 3437,
+                            "x": 692,
+                            "y": 3720,
                             "w": 311,
                             "h": 325,
                             "version": 2,
@@ -12961,8 +12961,8 @@
                             "wid": "6a82e3ba24ddd9367e97b9f4",
                             "mag_num_id": 6484256,
                             "type": "slideshow",
-                            "x": 522,
-                            "y": 3595,
+                            "x": 524,
+                            "y": 3878,
                             "w": 154,
                             "h": 196,
                             "captions_h": 76,
@@ -13138,8 +13138,8 @@
                             "wid": "6a82e5206b6f29718fbf4574",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 297,
-                            "y": 5468,
+                            "x": 299,
+                            "y": 5751,
                             "w": 480,
                             "h": 45,
                             "version": 3,
@@ -13270,8 +13270,8 @@
                             "wid": "6a82e520315f9b7683625f97",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 299,
-                            "y": 5569,
+                            "x": 301,
+                            "y": 5852,
                             "w": 480,
                             "h": 45,
                             "version": 3,
@@ -13403,8 +13403,8 @@
                             "wid": "6a82e52078718048a16205c7",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -59,
-                            "y": 5884,
+                            "x": -57,
+                            "y": 6167,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -13521,8 +13521,8 @@
                             "wid": "6a82e52017372a3c09ca1ac0",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 36,
-                            "y": 5907,
+                            "x": 38,
+                            "y": 6190,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -13639,8 +13639,8 @@
                             "wid": "6a82e521868b3d7cbc8f3afd",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 689,
-                            "y": 5458,
+                            "x": 691,
+                            "y": 5741,
                             "w": 319,
                             "h": 323,
                             "version": 2,
@@ -13766,8 +13766,8 @@
                             "wid": "6a82e521f10b772cfa3d9f3a",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 605,
-                            "y": 5806,
+                            "x": 607,
+                            "y": 6089,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -13882,8 +13882,8 @@
                             "wid": "6a82e5216fa1b3c91d56dbfe",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 707,
-                            "y": 5823,
+                            "x": 709,
+                            "y": 6106,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -14017,8 +14017,8 @@
                             "wid": "6a82e5216b6f29718fbf45a1",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 353,
-                            "y": 5623,
+                            "x": 355,
+                            "y": 5906,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -14129,8 +14129,8 @@
                             "wid": "6a82e52117372a3c09ca1aca",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 357,
-                            "y": 5838,
+                            "x": 359,
+                            "y": 6121,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -14247,8 +14247,8 @@
                             "wid": "6a82e5210495a916a84ad1af",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 513,
-                            "y": 5855,
+                            "x": 515,
+                            "y": 6138,
                             "w": 167,
                             "h": 90,
                             "version": 3,
@@ -14382,8 +14382,8 @@
                             "wid": "6a82e5210495a916a84ad1b2",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 189,
-                            "y": 5838,
+                            "x": 191,
+                            "y": 6121,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -14500,8 +14500,8 @@
                             "wid": "6a82e5216713b64186bb04b2",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 349,
-                            "y": 5855,
+                            "x": 351,
+                            "y": 6138,
                             "w": 159,
                             "h": 90,
                             "version": 3,
@@ -14635,8 +14635,8 @@
                             "wid": "6a82e5222404c3b0e12c2f77",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 16,
-                            "y": 6002,
+                            "x": 18,
+                            "y": 6285,
                             "w": 319,
                             "h": 323,
                             "version": 2,
@@ -14758,8 +14758,8 @@
                             "wid": "6a82e52237dbd6b71ef84f47",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 353,
-                            "y": 6007,
+                            "x": 355,
+                            "y": 6290,
                             "w": 319,
                             "h": 399,
                             "version": 2,
@@ -14883,8 +14883,8 @@
                             "wid": "6a82e52216dbc3c7d1ced4ca",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 953,
-                            "y": 6062,
+                            "x": 955,
+                            "y": 6345,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -15001,8 +15001,8 @@
                             "wid": "6a82e522627dee4633437d59",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 222,
-                            "y": 5513,
+                            "x": 224,
+                            "y": 5796,
                             "w": 480,
                             "h": 46,
                             "version": 3,
@@ -15137,8 +15137,8 @@
                             "wid": "6a82e5226b7489f87ba7b97a",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -65,
-                            "y": 6342,
+                            "x": -63,
+                            "y": 6625,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -15255,8 +15255,8 @@
                             "wid": "6a82e5229c9dd797df3ca254",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 37,
-                            "y": 6359,
+                            "x": 39,
+                            "y": 6642,
                             "w": 276,
                             "h": 60,
                             "version": 3,
@@ -15390,8 +15390,8 @@
                             "wid": "6a82e523868b3d7cbc8f3b58",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 139,
-                            "y": 6436,
+                            "x": 141,
+                            "y": 6719,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -15541,8 +15541,8 @@
                             "wid": "6a82e523f90a2ff5b02e1534",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 273,
-                            "y": 6418,
+                            "x": 275,
+                            "y": 6701,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -15659,8 +15659,8 @@
                             "wid": "6a82e523959f9be8127ae716",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 375,
-                            "y": 6444,
+                            "x": 377,
+                            "y": 6727,
                             "w": 276,
                             "h": 60,
                             "version": 3,
@@ -15794,8 +15794,8 @@
                             "wid": "6a82e5233137f9d935549e28",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 474,
-                            "y": 6519,
+                            "x": 476,
+                            "y": 6802,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -15946,8 +15946,8 @@
                             "wid": "6a82e529c61369e19e4eaf3d",
                             "mag_num_id": 6484256,
                             "type": "slideshow",
-                            "x": 19,
-                            "y": 5470,
+                            "x": 21,
+                            "y": 5753,
                             "w": 324,
                             "h": 398,
                             "captions_h": 76,
@@ -16123,8 +16123,8 @@
                             "wid": "6a82e529959f9be8127ae7b0",
                             "mag_num_id": 6484256,
                             "type": "slideshow",
-                            "x": 515,
-                            "y": 5624,
+                            "x": 517,
+                            "y": 5907,
                             "w": 154,
                             "h": 196,
                             "captions_h": 76,
@@ -16326,8 +16326,8 @@
                             "wid": "6a82e52a06aac4a0351928cf",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 136,
-                            "y": 5966,
+                            "x": 138,
+                            "y": 6249,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -16479,8 +16479,8 @@
                             "wid": "6a82e52a5880d412e020ad69",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 390,
-                            "y": 5966,
+                            "x": 392,
+                            "y": 6249,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -16632,8 +16632,8 @@
                             "wid": "6a82e52b5880d412e020ad6c",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 558,
-                            "y": 5966,
+                            "x": 560,
+                            "y": 6249,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -16785,8 +16785,8 @@
                             "wid": "6a82e52b6713b64186bb0587",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 806,
-                            "y": 5886,
+                            "x": 808,
+                            "y": 6169,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -19329,8 +19329,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 13799,
+                                "x": 20,
+                                "y": 14308,
                                 "w": 286,
                                 "h": 278,
                                 "z": 603,
@@ -19442,8 +19442,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -80,
-                                "y": 14092,
+                                "x": -78,
+                                "y": 14601,
                                 "w": 480,
                                 "h": 9,
                                 "z": 604,
@@ -19565,8 +19565,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 33,
-                                "y": 14110,
+                                "x": 35,
+                                "y": 14619,
                                 "w": 253,
                                 "h": 90,
                                 "z": 605,
@@ -19636,8 +19636,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 115.5,
-                                "y": 14214,
+                                "x": 117.5,
+                                "y": 14723,
                                 "w": 89,
                                 "h": 17,
                                 "z": 606,
@@ -19824,8 +19824,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 14257,
+                                "x": 20,
+                                "y": 14766,
                                 "w": 286,
                                 "h": 278,
                                 "z": 607,
@@ -19896,8 +19896,8 @@
                                 "images_h": 279,
                                 "captions_h": 76,
                                 "play_method": "autoplay",
-                                "x": 18,
-                                "y": 13799,
+                                "x": 20,
+                                "y": 14308,
                                 "w": 286,
                                 "h": 279,
                                 "z": 608,
@@ -20041,8 +20041,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 14546,
+                                "x": -77,
+                                "y": 15055,
                                 "w": 480,
                                 "h": 9,
                                 "z": 609,
@@ -20164,8 +20164,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 31,
-                                "y": 14564,
+                                "x": 33,
+                                "y": 15073,
                                 "w": 258,
                                 "h": 90,
                                 "z": 610,
@@ -20235,8 +20235,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116,
-                                "y": 14666,
+                                "x": 118,
+                                "y": 15175,
                                 "w": 89,
                                 "h": 17,
                                 "z": 611,
@@ -20425,8 +20425,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 17,
-                                "y": 14710,
+                                "x": 19,
+                                "y": 15219,
                                 "w": 286,
                                 "h": 278,
                                 "z": 612,
@@ -20538,8 +20538,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -81,
-                                "y": 15000,
+                                "x": -79,
+                                "y": 15509,
                                 "w": 480,
                                 "h": 9,
                                 "z": 613,
@@ -20670,8 +20670,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 33,
-                                "y": 15020,
+                                "x": 35,
+                                "y": 15529,
                                 "w": 255,
                                 "h": 90,
                                 "z": 614,
@@ -20764,8 +20764,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 114,
-                                "y": 15126,
+                                "x": 116,
+                                "y": 15635,
                                 "w": 89,
                                 "h": 17,
                                 "z": 615,
@@ -20952,8 +20952,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 15167,
+                                "x": 20,
+                                "y": 15676,
                                 "w": 286,
                                 "h": 278,
                                 "z": 616,
@@ -21024,8 +21024,8 @@
                                 "images_h": 279,
                                 "captions_h": 76,
                                 "play_method": "autoplay",
-                                "x": 18,
-                                "y": 14710,
+                                "x": 20,
+                                "y": 15219,
                                 "w": 286,
                                 "h": 279,
                                 "z": 617,
@@ -21182,8 +21182,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -80,
-                                "y": 15456,
+                                "x": -78,
+                                "y": 15965,
                                 "w": 480,
                                 "h": 9,
                                 "z": 618,
@@ -21305,8 +21305,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 32,
-                                "y": 15476,
+                                "x": 34,
+                                "y": 15985,
                                 "w": 256,
                                 "h": 72,
                                 "z": 619,
@@ -21376,8 +21376,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 115.5,
-                                "y": 15563,
+                                "x": 117.5,
+                                "y": 16072,
                                 "w": 89,
                                 "h": 17,
                                 "z": 620,
@@ -21578,8 +21578,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 0,
-                                "y": 17489,
+                                "x": 2,
+                                "y": 17998,
                                 "w": 480,
                                 "h": 40,
                                 "z": 621,
@@ -21697,8 +21697,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -168,
-                                "y": 17384,
+                                "x": -166,
+                                "y": 17893,
                                 "w": 480,
                                 "h": 40,
                                 "z": 622,
@@ -21834,8 +21834,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -102,
-                                "y": 17439,
+                                "x": -100,
+                                "y": 17948,
                                 "w": 480,
                                 "h": 40,
                                 "z": 623,
@@ -21953,8 +21953,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 17856,
+                                "x": -77,
+                                "y": 18365,
                                 "w": 480,
                                 "h": 9,
                                 "z": 625,
@@ -22076,8 +22076,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 40,
-                                "y": 17876,
+                                "x": 42,
+                                "y": 18385,
                                 "w": 243,
                                 "h": 90,
                                 "z": 626,
@@ -22147,8 +22147,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116,
-                                "y": 17982,
+                                "x": 118,
+                                "y": 18491,
                                 "w": 89,
                                 "h": 17,
                                 "z": 627,
@@ -22335,8 +22335,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 17,
-                                "y": 20344,
+                                "x": 19,
+                                "y": 20853,
                                 "w": 286,
                                 "h": 278,
                                 "z": 628,
@@ -22450,8 +22450,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -80,
-                                "y": 20641,
+                                "x": -78,
+                                "y": 21150,
                                 "w": 480,
                                 "h": 9,
                                 "z": 630,
@@ -22573,8 +22573,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 39,
-                                "y": 20661,
+                                "x": 41,
+                                "y": 21170,
                                 "w": 243,
                                 "h": 90,
                                 "z": 631,
@@ -22644,8 +22644,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 115,
-                                "y": 20767,
+                                "x": 117,
+                                "y": 21276,
                                 "w": 89,
                                 "h": 17,
                                 "z": 632,
@@ -22832,8 +22832,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 16,
-                                "y": 20822,
+                                "x": 18,
+                                "y": 21331,
                                 "w": 286,
                                 "h": 278,
                                 "z": 633,
@@ -22950,8 +22950,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -81,
-                                "y": 21119,
+                                "x": -79,
+                                "y": 21628,
                                 "w": 480,
                                 "h": 9,
                                 "z": 634,
@@ -23073,8 +23073,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 38,
-                                "y": 21139,
+                                "x": 40,
+                                "y": 21648,
                                 "w": 243,
                                 "h": 90,
                                 "z": 635,
@@ -23144,8 +23144,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 114,
-                                "y": 21245,
+                                "x": 116,
+                                "y": 21754,
                                 "w": 89,
                                 "h": 17,
                                 "z": 636,
@@ -23332,8 +23332,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 16,
-                                "y": 21293,
+                                "x": 18,
+                                "y": 21802,
                                 "w": 286,
                                 "h": 278,
                                 "z": 637,
@@ -23448,8 +23448,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -81,
-                                "y": 21590,
+                                "x": -79,
+                                "y": 22099,
                                 "w": 480,
                                 "h": 9,
                                 "z": 638,
@@ -23571,8 +23571,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 38,
-                                "y": 21610,
+                                "x": 40,
+                                "y": 22119,
                                 "w": 243,
                                 "h": 90,
                                 "z": 639,
@@ -23642,8 +23642,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 114,
-                                "y": 21716,
+                                "x": 116,
+                                "y": 22225,
                                 "w": 89,
                                 "h": 17,
                                 "z": 640,
@@ -23830,8 +23830,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 15,
-                                "y": 21771,
+                                "x": 17,
+                                "y": 22280,
                                 "w": 286,
                                 "h": 278,
                                 "z": 641,
@@ -23950,8 +23950,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -82,
-                                "y": 22068,
+                                "x": -80,
+                                "y": 22577,
                                 "w": 480,
                                 "h": 9,
                                 "z": 642,
@@ -24073,8 +24073,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 37,
-                                "y": 22088,
+                                "x": 39,
+                                "y": 22597,
                                 "w": 243,
                                 "h": 90,
                                 "z": 643,
@@ -24144,8 +24144,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 113,
-                                "y": 22194,
+                                "x": 115,
+                                "y": 22703,
                                 "w": 89,
                                 "h": 17,
                                 "z": 644,
@@ -24332,8 +24332,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 15,
-                                "y": 22244,
+                                "x": 17,
+                                "y": 22753,
                                 "w": 286,
                                 "h": 278,
                                 "z": 645,
@@ -24452,8 +24452,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -82,
-                                "y": 22541,
+                                "x": -80,
+                                "y": 23050,
                                 "w": 480,
                                 "h": 9,
                                 "z": 646,
@@ -24575,8 +24575,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 37,
-                                "y": 22561,
+                                "x": 39,
+                                "y": 23070,
                                 "w": 243,
                                 "h": 108,
                                 "z": 647,
@@ -24646,8 +24646,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 113,
-                                "y": 22678,
+                                "x": 115,
+                                "y": 23187,
                                 "w": 89,
                                 "h": 17,
                                 "z": 648,
@@ -30453,8 +30453,8 @@
                             "wid": "6a8c2ef2b67345b2acbe6b08",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -67,
-                            "y": 4331,
+                            "x": -65,
+                            "y": 4614,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -30571,8 +30571,8 @@
                             "wid": "6a8c2ef2b67345b2acbe6b0d",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 39,
-                            "y": 4348,
+                            "x": 41,
+                            "y": 4631,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -30706,8 +30706,8 @@
                             "wid": "6a8c2ef37d0a98237596683a",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 138,
-                            "y": 4411,
+                            "x": 140,
+                            "y": 4694,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -30845,8 +30845,8 @@
                             "wid": "6a8c2ef420a77c466505b3d0",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 18,
-                            "y": 3991,
+                            "x": 20,
+                            "y": 4274,
                             "w": 316,
                             "h": 325,
                             "version": 2,
@@ -30897,8 +30897,8 @@
                             "wid": "6a8c2f1eac581975b6ce5555",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 354,
-                            "y": 3991,
+                            "x": 356,
+                            "y": 4274,
                             "w": 316,
                             "h": 399,
                             "version": 2,
@@ -31010,8 +31010,8 @@
                             "wid": "6a8c2f1ec84e17bd022cc4cf",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 272,
-                            "y": 4404,
+                            "x": 274,
+                            "y": 4687,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -31128,8 +31128,8 @@
                             "wid": "6a8c2f1e8ab18deb0925bf37",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 375,
-                            "y": 4428,
+                            "x": 377,
+                            "y": 4711,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -31263,8 +31263,8 @@
                             "wid": "6a8c2f1f0f490b9779f79776",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 464,
-                            "y": 4484,
+                            "x": 466,
+                            "y": 4767,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -31408,8 +31408,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 15605,
+                                "x": 20,
+                                "y": 16114,
                                 "w": 286,
                                 "h": 278,
                                 "z": 716,
@@ -31526,8 +31526,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -80,
-                                "y": 15894,
+                                "x": -78,
+                                "y": 16403,
                                 "w": 480,
                                 "h": 9,
                                 "z": 717,
@@ -31649,8 +31649,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36.5,
-                                "y": 15914,
+                                "x": 38.5,
+                                "y": 16423,
                                 "w": 247,
                                 "h": 72,
                                 "z": 718,
@@ -31727,8 +31727,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 115,
-                                "y": 16001,
+                                "x": 117,
+                                "y": 16510,
                                 "w": 89,
                                 "h": 17,
                                 "z": 719,
@@ -31915,8 +31915,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 17,
-                                "y": 16042,
+                                "x": 19,
+                                "y": 16551,
                                 "w": 286,
                                 "h": 278,
                                 "z": 725,
@@ -32033,8 +32033,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -81,
-                                "y": 16329,
+                                "x": -79,
+                                "y": 16838,
                                 "w": 480,
                                 "h": 9,
                                 "z": 726,
@@ -32156,8 +32156,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 32,
-                                "y": 16349,
+                                "x": 34,
+                                "y": 16858,
                                 "w": 254,
                                 "h": 72,
                                 "z": 727,
@@ -32227,8 +32227,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 114,
-                                "y": 16436,
+                                "x": 116,
+                                "y": 16945,
                                 "w": 89,
                                 "h": 17,
                                 "z": 728,
@@ -32349,8 +32349,8 @@
                             "wid": "6a8c3424d0f0037051d92383",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 695,
-                            "y": 5927,
+                            "x": 697,
+                            "y": 6210,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -32461,8 +32461,8 @@
                             "wid": "6a8c34240831e764953861ee",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 699,
-                            "y": 6142,
+                            "x": 701,
+                            "y": 6425,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -32579,8 +32579,8 @@
                             "wid": "6a8c34248d98a280a583b41c",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 855,
-                            "y": 6159,
+                            "x": 857,
+                            "y": 6442,
                             "w": 167,
                             "h": 90,
                             "version": 3,
@@ -32714,8 +32714,8 @@
                             "wid": "6a8c34248c0f40798caa544d",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 531,
-                            "y": 6142,
+                            "x": 533,
+                            "y": 6425,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -32832,8 +32832,8 @@
                             "wid": "6a8c34255808675b6c33568e",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 691,
-                            "y": 6159,
+                            "x": 693,
+                            "y": 6442,
                             "w": 159,
                             "h": 90,
                             "version": 3,
@@ -33009,8 +33009,8 @@
                             "wid": "6a8c3425d0f0037051d9238c",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 732,
-                            "y": 6263,
+                            "x": 734,
+                            "y": 6546,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -33162,8 +33162,8 @@
                             "wid": "6a8c3425682644a4ab7ec8b3",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 900,
-                            "y": 6263,
+                            "x": 902,
+                            "y": 6546,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -33315,8 +33315,8 @@
                             "wid": "6a8c34e0c492eb4c358c8a66",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 861,
-                            "y": 5927,
+                            "x": 863,
+                            "y": 6210,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -33427,8 +33427,8 @@
                             "wid": "6a8c3541682644a4ab7fb928",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -139,
-                            "y": 6686,
+                            "x": -137,
+                            "y": 6969,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -33545,8 +33545,8 @@
                             "wid": "6a8c3541b652e2ca6291b10f",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 23,
-                            "y": 6703,
+                            "x": 25,
+                            "y": 6986,
                             "w": 148,
                             "h": 90,
                             "version": 3,
@@ -33680,8 +33680,8 @@
                             "wid": "6a8c35418c0f40798caaf2b7",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 62,
-                            "y": 6807,
+                            "x": 64,
+                            "y": 7090,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -33833,8 +33833,8 @@
                             "wid": "6a8c35412f0e429d52da3482",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 23,
-                            "y": 6471,
+                            "x": 25,
+                            "y": 6754,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -34011,8 +34011,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 15,
-                                "y": 22728,
+                                "x": 17,
+                                "y": 23237,
                                 "w": 286,
                                 "h": 278,
                                 "z": 742,
@@ -34130,8 +34130,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -82,
-                                "y": 23025,
+                                "x": -80,
+                                "y": 23534,
                                 "w": 480,
                                 "h": 9,
                                 "z": 743,
@@ -34253,8 +34253,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 37,
-                                "y": 23045,
+                                "x": 39,
+                                "y": 23554,
                                 "w": 243,
                                 "h": 90,
                                 "z": 744,
@@ -34324,8 +34324,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 113,
-                                "y": 23154,
+                                "x": 115,
+                                "y": 23663,
                                 "w": 89,
                                 "h": 17,
                                 "z": 745,
@@ -34512,8 +34512,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 14,
-                                "y": 23196,
+                                "x": 16,
+                                "y": 23705,
                                 "w": 286,
                                 "h": 278,
                                 "z": 746,
@@ -34631,8 +34631,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -83,
-                                "y": 23493,
+                                "x": -81,
+                                "y": 24002,
                                 "w": 480,
                                 "h": 9,
                                 "z": 747,
@@ -34754,8 +34754,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 23513,
+                                "x": 38,
+                                "y": 24022,
                                 "w": 243,
                                 "h": 90,
                                 "z": 748,
@@ -34825,8 +34825,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 112,
-                                "y": 23622,
+                                "x": 114,
+                                "y": 24131,
                                 "w": 89,
                                 "h": 17,
                                 "z": 749,
@@ -35013,8 +35013,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 14,
-                                "y": 23662,
+                                "x": 16,
+                                "y": 24171,
                                 "w": 286,
                                 "h": 278,
                                 "z": 754,
@@ -35132,8 +35132,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -83,
-                                "y": 23959,
+                                "x": -81,
+                                "y": 24468,
                                 "w": 480,
                                 "h": 9,
                                 "z": 755,
@@ -35255,8 +35255,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 23979,
+                                "x": 38,
+                                "y": 24488,
                                 "w": 243,
                                 "h": 90,
                                 "z": 756,
@@ -35326,8 +35326,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 112,
-                                "y": 24088,
+                                "x": 114,
+                                "y": 24597,
                                 "w": 89,
                                 "h": 17,
                                 "z": 757,
@@ -37598,8 +37598,8 @@
                             "wid": "6a97dcfbcbb82661bf15a4bf",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 723,
-                            "y": 4249,
+                            "x": 725,
+                            "y": 4532,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -37737,8 +37737,8 @@
                             "wid": "6a97dcfbc65ecbeb7e6f2b60",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 690,
-                            "y": 3902,
+                            "x": 692,
+                            "y": 4185,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -37850,8 +37850,8 @@
                             "wid": "6a97dcfc69908b2422392210",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 690,
-                            "y": 4117,
+                            "x": 692,
+                            "y": 4400,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -37968,8 +37968,8 @@
                             "wid": "6a97dcfc4d52011c0f1629a3",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 853,
-                            "y": 4134,
+                            "x": 855,
+                            "y": 4417,
                             "w": 152,
                             "h": 90,
                             "version": 3,
@@ -38103,8 +38103,8 @@
                             "wid": "6a97dcfc69908b2422392213",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 522,
-                            "y": 4117,
+                            "x": 524,
+                            "y": 4400,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -38221,8 +38221,8 @@
                             "wid": "6a97dcfc29d769f68b374fa0",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 691,
-                            "y": 4133,
+                            "x": 693,
+                            "y": 4416,
                             "w": 148,
                             "h": 105,
                             "version": 3,
@@ -38363,8 +38363,8 @@
                             "wid": "6a97dcfc56279c08838716c4",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 891,
-                            "y": 4249,
+                            "x": 893,
+                            "y": 4532,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -38502,8 +38502,8 @@
                             "wid": "6a97dcfcdd97d728d0d0321a",
                             "mag_num_id": 6484256,
                             "type": "slideshow",
-                            "x": 853,
-                            "y": 3902,
+                            "x": 855,
+                            "y": 4185,
                             "w": 154,
                             "h": 196,
                             "captions_h": 76,
@@ -38679,8 +38679,8 @@
                             "wid": "6a97dde7a9261f29cfe95038",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 687,
-                            "y": 6296,
+                            "x": 689,
+                            "y": 6579,
                             "w": 319,
                             "h": 399,
                             "version": 2,
@@ -38806,8 +38806,8 @@
                             "wid": "6a97dde78654f80ca8bad8a9",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 607,
-                            "y": 6707,
+                            "x": 609,
+                            "y": 6990,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -38924,8 +38924,8 @@
                             "wid": "6a97dde8f02d25f0be654e30",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 709,
-                            "y": 6730,
+                            "x": 711,
+                            "y": 7013,
                             "w": 276,
                             "h": 60,
                             "version": 3,
@@ -39059,8 +39059,8 @@
                             "wid": "6a97dde803f864bbe5f5b513",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 808,
-                            "y": 6805,
+                            "x": 810,
+                            "y": 7088,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -39213,8 +39213,8 @@
                             "wid": "6a97de0456279c088387e81c",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 354,
-                            "y": 6553,
+                            "x": 356,
+                            "y": 6836,
                             "w": 319,
                             "h": 323,
                             "version": 2,
@@ -39338,8 +39338,8 @@
                             "wid": "6a97de042445a5a35da32514",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 273,
-                            "y": 6893,
+                            "x": 275,
+                            "y": 7176,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -39456,8 +39456,8 @@
                             "wid": "6a97de0429d769f68b378de4",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 375,
-                            "y": 6910,
+                            "x": 377,
+                            "y": 7193,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -39591,8 +39591,8 @@
                             "wid": "6a97de0479d00bd29fae12f4",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 474,
-                            "y": 6966,
+                            "x": 476,
+                            "y": 7249,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -39744,8 +39744,8 @@
                             "wid": "6a97de0e2445a5a35da32558",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 23,
-                            "y": 6686,
+                            "x": 25,
+                            "y": 6969,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -39862,8 +39862,8 @@
                             "wid": "6a97de0ead3d27009bc4259e",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 186,
-                            "y": 6703,
+                            "x": 188,
+                            "y": 6986,
                             "w": 154,
                             "h": 90,
                             "version": 3,
@@ -39997,8 +39997,8 @@
                             "wid": "6a97de0e3b120359e5dd650f",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 224,
-                            "y": 6807,
+                            "x": 226,
+                            "y": 7090,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -40150,8 +40150,8 @@
                             "wid": "6a97de0e517bf8d8f851a877",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 185,
-                            "y": 6471,
+                            "x": 187,
+                            "y": 6754,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -42270,8 +42270,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 17,
-                                "y": 16481,
+                                "x": 19,
+                                "y": 16990,
                                 "w": 286,
                                 "h": 278,
                                 "z": 820,
@@ -42389,8 +42389,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -81,
-                                "y": 16770,
+                                "x": -79,
+                                "y": 17279,
                                 "w": 480,
                                 "h": 9,
                                 "z": 821,
@@ -42512,8 +42512,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 38,
-                                "y": 16790,
+                                "x": 40,
+                                "y": 17299,
                                 "w": 243,
                                 "h": 72,
                                 "z": 822,
@@ -42590,8 +42590,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 115,
-                                "y": 16878,
+                                "x": 117,
+                                "y": 17387,
                                 "w": 89,
                                 "h": 17,
                                 "z": 823,
@@ -42778,8 +42778,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 17,
-                                "y": 16924,
+                                "x": 19,
+                                "y": 17433,
                                 "w": 286,
                                 "h": 278,
                                 "z": 824,
@@ -42897,8 +42897,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -81,
-                                "y": 17213,
+                                "x": -79,
+                                "y": 17722,
                                 "w": 480,
                                 "h": 9,
                                 "z": 825,
@@ -43020,8 +43020,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 38,
-                                "y": 17233,
+                                "x": 40,
+                                "y": 17742,
                                 "w": 243,
                                 "h": 90,
                                 "z": 826,
@@ -43091,8 +43091,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 114,
-                                "y": 17339,
+                                "x": 116,
+                                "y": 17848,
                                 "w": 89,
                                 "h": 17,
                                 "z": 827,
@@ -43279,8 +43279,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 16,
-                                "y": 24138,
+                                "x": 18,
+                                "y": 24647,
                                 "w": 286,
                                 "h": 278,
                                 "z": 828,
@@ -43398,8 +43398,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -81,
-                                "y": 24435,
+                                "x": -79,
+                                "y": 24944,
                                 "w": 480,
                                 "h": 9,
                                 "z": 829,
@@ -43521,8 +43521,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 38,
-                                "y": 24455,
+                                "x": 40,
+                                "y": 24964,
                                 "w": 243,
                                 "h": 90,
                                 "z": 830,
@@ -43592,8 +43592,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 114,
-                                "y": 24564,
+                                "x": 116,
+                                "y": 25073,
                                 "w": 89,
                                 "h": 17,
                                 "z": 831,
@@ -43780,8 +43780,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 15,
-                                "y": 24606,
+                                "x": 17,
+                                "y": 25115,
                                 "w": 286,
                                 "h": 278,
                                 "z": 832,
@@ -43899,8 +43899,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -82,
-                                "y": 24903,
+                                "x": -80,
+                                "y": 25412,
                                 "w": 480,
                                 "h": 9,
                                 "z": 833,
@@ -44022,8 +44022,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 37,
-                                "y": 24923,
+                                "x": 39,
+                                "y": 25432,
                                 "w": 243,
                                 "h": 90,
                                 "z": 834,
@@ -44093,8 +44093,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 113,
-                                "y": 25032,
+                                "x": 115,
+                                "y": 25541,
                                 "w": 89,
                                 "h": 17,
                                 "z": 835,
@@ -44281,8 +44281,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 15,
-                                "y": 25072,
+                                "x": 17,
+                                "y": 25581,
                                 "w": 286,
                                 "h": 278,
                                 "z": 836,
@@ -44400,8 +44400,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -82,
-                                "y": 25369,
+                                "x": -80,
+                                "y": 25878,
                                 "w": 480,
                                 "h": 9,
                                 "z": 837,
@@ -44523,8 +44523,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 37,
-                                "y": 25389,
+                                "x": 39,
+                                "y": 25898,
                                 "w": 243,
                                 "h": 90,
                                 "z": 838,
@@ -44594,8 +44594,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 113,
-                                "y": 25498,
+                                "x": 115,
+                                "y": 26007,
                                 "w": 89,
                                 "h": 17,
                                 "z": 839,
@@ -44761,8 +44761,8 @@
                             "wid": "6aba6f43fc56992969a802c5",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 166,
-                            "y": 7976.56,
+                            "x": 186,
+                            "y": 8310.56,
                             "w": 74,
                             "h": 62,
                             "version": 2,
@@ -44836,8 +44836,8 @@
                             "wid": "6aba6fdc5ef9aa3dd11f9598",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 271,
-                            "y": 7981.56,
+                            "x": 291,
+                            "y": 8315.56,
                             "w": 52,
                             "h": 52,
                             "version": 2,
@@ -44911,8 +44911,8 @@
                             "wid": "6aba7012fc56992969a8842b",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 342,
-                            "y": 7967.56,
+                            "x": 362,
+                            "y": 8301.56,
                             "w": 95,
                             "h": 79,
                             "version": 2,
@@ -44992,8 +44992,8 @@
                             },
                             "hidden": true,
                             "viewport_phone_portrait": {
-                                "x": 16,
-                                "y": 17556,
+                                "x": 18,
+                                "y": 18065,
                                 "w": 288,
                                 "h": 283,
                                 "z": 842,
@@ -53062,8 +53062,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 10673,
+                                "x": 20,
+                                "y": 11182,
                                 "w": 286,
                                 "h": 278,
                                 "z": 914,
@@ -53181,8 +53181,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -80,
-                                "y": 10962,
+                                "x": -78,
+                                "y": 11471,
                                 "w": 480,
                                 "h": 9,
                                 "z": 915,
@@ -53306,8 +53306,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 10982,
+                                "x": 38,
+                                "y": 11491,
                                 "w": 252,
                                 "h": 90,
                                 "z": 916,
@@ -53384,8 +53384,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116.5,
-                                "y": 11084,
+                                "x": 118.5,
+                                "y": 11593,
                                 "w": 89,
                                 "h": 17,
                                 "z": 917,
@@ -53572,8 +53572,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 11127,
+                                "x": 20,
+                                "y": 11636,
                                 "w": 286,
                                 "h": 278,
                                 "z": 930,
@@ -53691,8 +53691,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 11416,
+                                "x": -77,
+                                "y": 11925,
                                 "w": 480,
                                 "h": 9,
                                 "z": 931,
@@ -53816,8 +53816,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 11436,
+                                "x": 38,
+                                "y": 11945,
                                 "w": 252,
                                 "h": 90,
                                 "z": 932,
@@ -53894,8 +53894,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 115,
-                                "y": 11538,
+                                "x": 117,
+                                "y": 12047,
                                 "w": 89,
                                 "h": 17,
                                 "z": 933,
@@ -54082,8 +54082,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 11581,
+                                "x": 20,
+                                "y": 12090,
                                 "w": 286,
                                 "h": 278,
                                 "z": 935,
@@ -54201,8 +54201,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 11870,
+                                "x": -77,
+                                "y": 12379,
                                 "w": 480,
                                 "h": 9,
                                 "z": 936,
@@ -54326,8 +54326,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 11890,
+                                "x": 38,
+                                "y": 12399,
                                 "w": 252,
                                 "h": 72,
                                 "z": 937,
@@ -54404,8 +54404,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116,
-                                "y": 11983,
+                                "x": 118,
+                                "y": 12492,
                                 "w": 89,
                                 "h": 17,
                                 "z": 938,
@@ -54592,8 +54592,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 19,
-                                "y": 12028,
+                                "x": 21,
+                                "y": 12537,
                                 "w": 286,
                                 "h": 278,
                                 "z": 939,
@@ -54711,8 +54711,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -78,
-                                "y": 12317,
+                                "x": -76,
+                                "y": 12826,
                                 "w": 480,
                                 "h": 9,
                                 "z": 940,
@@ -54845,8 +54845,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 37,
-                                "y": 12337,
+                                "x": 39,
+                                "y": 12846,
                                 "w": 252,
                                 "h": 90,
                                 "z": 941,
@@ -54965,8 +54965,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 117,
-                                "y": 12438,
+                                "x": 119,
+                                "y": 12947,
                                 "w": 89,
                                 "h": 17,
                                 "z": 942,
@@ -55153,8 +55153,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 19,
-                                "y": 12479,
+                                "x": 21,
+                                "y": 12988,
                                 "w": 286,
                                 "h": 278,
                                 "z": 943,
@@ -55272,8 +55272,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 12768,
+                                "x": -77,
+                                "y": 13277,
                                 "w": 480,
                                 "h": 9,
                                 "z": 944,
@@ -55397,8 +55397,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 35,
-                                "y": 12788,
+                                "x": 37,
+                                "y": 13297,
                                 "w": 252,
                                 "h": 90,
                                 "z": 945,
@@ -55475,8 +55475,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116.5,
-                                "y": 12889,
+                                "x": 118.5,
+                                "y": 13398,
                                 "w": 89,
                                 "h": 17,
                                 "z": 946,
@@ -55663,8 +55663,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 12932,
+                                "x": 20,
+                                "y": 13441,
                                 "w": 286,
                                 "h": 278,
                                 "z": 947,
@@ -55782,8 +55782,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 13221,
+                                "x": -77,
+                                "y": 13730,
                                 "w": 480,
                                 "h": 9,
                                 "z": 948,
@@ -55907,8 +55907,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 13241,
+                                "x": 38,
+                                "y": 13750,
                                 "w": 252,
                                 "h": 54,
                                 "z": 949,
@@ -55985,8 +55985,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 114,
-                                "y": 13309,
+                                "x": 116,
+                                "y": 13818,
                                 "w": 89,
                                 "h": 17,
                                 "z": 950,
@@ -56173,8 +56173,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 19,
-                                "y": 13352,
+                                "x": 21,
+                                "y": 13861,
                                 "w": 286,
                                 "h": 278,
                                 "z": 951,
@@ -56292,8 +56292,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 13641,
+                                "x": -77,
+                                "y": 14150,
                                 "w": 480,
                                 "h": 9,
                                 "z": 952,
@@ -56417,8 +56417,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 35,
-                                "y": 13661,
+                                "x": 37,
+                                "y": 14170,
                                 "w": 252,
                                 "h": 90,
                                 "z": 953,
@@ -56495,8 +56495,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116.5,
-                                "y": 13762,
+                                "x": 118.5,
+                                "y": 14271,
                                 "w": 89,
                                 "h": 17,
                                 "z": 954,
@@ -56735,8 +56735,8 @@
                             "wid": "6abbb6f86daed4c2b1990e71",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 690,
-                            "y": 4293,
+                            "x": 692,
+                            "y": 4576,
                             "w": 317,
                             "h": 399,
                             "version": 2,
@@ -56848,8 +56848,8 @@
                             "wid": "6abbb6f8a20dca71fc94596b",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 604,
-                            "y": 4711,
+                            "x": 606,
+                            "y": 4994,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -56966,8 +56966,8 @@
                             "wid": "6abbb6f844e85f06a490002d",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 706,
-                            "y": 4728,
+                            "x": 708,
+                            "y": 5011,
                             "w": 276,
                             "h": 60,
                             "version": 3,
@@ -57101,8 +57101,8 @@
                             "wid": "6abbb6f86213d5c3c4990bce",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 387,
-                            "y": 4871,
+                            "x": 389,
+                            "y": 5154,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -57238,8 +57238,8 @@
                             "wid": "6abbb6f8a1af3c1ff4d20bda",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -63,
-                            "y": 4791,
+                            "x": -61,
+                            "y": 5074,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -57356,8 +57356,8 @@
                             "wid": "6abbb6f9c6fadd0498e05c53",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 65,
-                            "y": 4813,
+                            "x": 67,
+                            "y": 5096,
                             "w": 226,
                             "h": 60,
                             "version": 3,
@@ -57491,8 +57491,8 @@
                             "wid": "6abbb6f96daed4c2b1990e79",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 354,
-                            "y": 4523,
+                            "x": 356,
+                            "y": 4806,
                             "w": 148,
                             "h": 197,
                             "version": 2,
@@ -57600,8 +57600,8 @@
                             "wid": "6abbb6f92a59371839783705",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 358,
-                            "y": 4729,
+                            "x": 360,
+                            "y": 5012,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -57718,8 +57718,8 @@
                             "wid": "6abbb6f9e8816bd40810690a",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 518,
-                            "y": 4755,
+                            "x": 520,
+                            "y": 5038,
                             "w": 148,
                             "h": 105,
                             "version": 3,
@@ -57853,8 +57853,8 @@
                             "wid": "6abbb6fa1f8c095d93fbc46a",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 189,
-                            "y": 4733,
+                            "x": 191,
+                            "y": 5016,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -57971,8 +57971,8 @@
                             "wid": "6abbb6fac27fc091131924f6",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 350,
-                            "y": 4755,
+                            "x": 352,
+                            "y": 5038,
                             "w": 148,
                             "h": 105,
                             "version": 3,
@@ -58113,8 +58113,8 @@
                             "wid": "6abbb6fa85577ee5600c6e51",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 808,
-                            "y": 4798,
+                            "x": 810,
+                            "y": 5081,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -58192,8 +58192,8 @@
                             "wid": "6abbb6fa67a3b0703c504cab",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 555,
-                            "y": 4871,
+                            "x": 557,
+                            "y": 5154,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -58329,8 +58329,8 @@
                             "wid": "6abbb6fad49fe1f51984c778",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 142,
-                            "y": 4871,
+                            "x": 144,
+                            "y": 5154,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -58466,8 +58466,8 @@
                             "wid": "6abbb6fad49fe1f51984c789",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 20,
-                            "y": 4451,
+                            "x": 22,
+                            "y": 4734,
                             "w": 314,
                             "h": 325,
                             "version": 2,
@@ -58516,8 +58516,8 @@
                             "wid": "6abbb6fb6c8d05437aca2f95",
                             "mag_num_id": 6484256,
                             "type": "slideshow",
-                            "x": 515,
-                            "y": 4523,
+                            "x": 517,
+                            "y": 4806,
                             "w": 154,
                             "h": 196,
                             "captions_h": 76,
@@ -58719,8 +58719,8 @@
                             "wid": "6abbb6fbffba09a791abf4e6",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -67,
-                            "y": 5260,
+                            "x": -65,
+                            "y": 5543,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -58837,8 +58837,8 @@
                             "wid": "6abbb6fbe8816bd40810692b",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 35,
-                            "y": 5277,
+                            "x": 37,
+                            "y": 5560,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -58972,8 +58972,8 @@
                             "wid": "6abbb6fb49246d180dcbaabc",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 138,
-                            "y": 5340,
+                            "x": 140,
+                            "y": 5623,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -59111,8 +59111,8 @@
                             "wid": "6abbb6fc045f9c35e13a9de5",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 20,
-                            "y": 4920,
+                            "x": 22,
+                            "y": 5203,
                             "w": 316,
                             "h": 325,
                             "version": 2,
@@ -59163,8 +59163,8 @@
                             "wid": "6abbb6fc94ad57f24d67fa01",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 354,
-                            "y": 4920,
+                            "x": 356,
+                            "y": 5203,
                             "w": 315,
                             "h": 399,
                             "version": 2,
@@ -59276,8 +59276,8 @@
                             "wid": "6abbb6fca2be7b9c5f881c38",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 260,
-                            "y": 5338,
+                            "x": 262,
+                            "y": 5621,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -59394,8 +59394,8 @@
                             "wid": "6abbb6fc6213d5c3c4990c5d",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 362,
-                            "y": 5355,
+                            "x": 364,
+                            "y": 5638,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -59529,8 +59529,8 @@
                             "wid": "6abbb6fca1af3c1ff4d20cf7",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 464,
-                            "y": 5413,
+                            "x": 466,
+                            "y": 5696,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -59608,8 +59608,8 @@
                             "wid": "6abbb6fdc6fadd0498e05d3c",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 723,
-                            "y": 5170,
+                            "x": 725,
+                            "y": 5453,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -59747,8 +59747,8 @@
                             "wid": "6abbb6fd3aa62df189b46b1b",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 690,
-                            "y": 4839,
+                            "x": 692,
+                            "y": 5122,
                             "w": 148,
                             "h": 197,
                             "version": 2,
@@ -59858,8 +59858,8 @@
                             "wid": "6abbb6fda62289defed56be5",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 690,
-                            "y": 5054,
+                            "x": 692,
+                            "y": 5337,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -59976,8 +59976,8 @@
                             "wid": "6abbb6fd85577ee5600c6efe",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 854,
-                            "y": 5071,
+                            "x": 856,
+                            "y": 5354,
                             "w": 148,
                             "h": 105,
                             "version": 3,
@@ -60111,8 +60111,8 @@
                             "wid": "6abbb6fdffba09a791abf54b",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 522,
-                            "y": 5054,
+                            "x": 524,
+                            "y": 5337,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -60229,8 +60229,8 @@
                             "wid": "6abbb6fef5bcfe31803057ec",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 686,
-                            "y": 5071,
+                            "x": 688,
+                            "y": 5354,
                             "w": 148,
                             "h": 90,
                             "version": 3,
@@ -60371,8 +60371,8 @@
                             "wid": "6abbb6fec27fc09113192583",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 891,
-                            "y": 5187,
+                            "x": 893,
+                            "y": 5470,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -60510,8 +60510,8 @@
                             "wid": "6abbb6fe6c8d05437aca3005",
                             "mag_num_id": 6484256,
                             "type": "slideshow",
-                            "x": 851,
-                            "y": 4839,
+                            "x": 853,
+                            "y": 5122,
                             "w": 154,
                             "h": 196,
                             "captions_h": 76,
@@ -60700,8 +60700,8 @@
                             "wid": "6abbbbfda1af3c1ff4d4ad98",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 690,
-                            "y": 6837,
+                            "x": 692,
+                            "y": 7120,
                             "w": 319,
                             "h": 323,
                             "version": 2,
@@ -60827,8 +60827,8 @@
                             "wid": "6abbbbfd67308c36636600af",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 606,
-                            "y": 7185,
+                            "x": 608,
+                            "y": 7468,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -60943,8 +60943,8 @@
                             "wid": "6abbbbfe045f9c35e13e0a19",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 708,
-                            "y": 7202,
+                            "x": 710,
+                            "y": 7485,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -61078,8 +61078,8 @@
                             "wid": "6abbbbfe49246d180dcf7b41",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 807,
-                            "y": 7265,
+                            "x": 809,
+                            "y": 7548,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -61231,8 +61231,8 @@
                             "wid": "6abbbcb844e85f06a493f536",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 196,
-                            "y": 7227,
+                            "x": 198,
+                            "y": 7510,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -61349,8 +61349,8 @@
                             "wid": "6abbbcb867a3b0703c554dc0",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 356,
-                            "y": 7245,
+                            "x": 358,
+                            "y": 7528,
                             "w": 152,
                             "h": 90,
                             "version": 3,
@@ -61484,8 +61484,8 @@
                             "wid": "6abbbcb9ffba09a791af9334",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 397,
-                            "y": 7349,
+                            "x": 399,
+                            "y": 7632,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -61637,8 +61637,8 @@
                             "wid": "6abbbcb9df7b2b49727c9d1b",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 358,
-                            "y": 7013,
+                            "x": 360,
+                            "y": 7296,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -61749,8 +61749,8 @@
                             "wid": "6abbbcb949246d180dcfe1c5",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 358,
-                            "y": 7227,
+                            "x": 360,
+                            "y": 7510,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -61867,8 +61867,8 @@
                             "wid": "6abbbcb944e85f06a493f54b",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 517,
-                            "y": 7245,
+                            "x": 519,
+                            "y": 7528,
                             "w": 161,
                             "h": 90,
                             "version": 3,
@@ -62002,8 +62002,8 @@
                             "wid": "6abbbcb9c6fadd0498e4c866",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 559,
-                            "y": 7349,
+                            "x": 561,
+                            "y": 7632,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -62155,8 +62155,8 @@
                             "wid": "6abbbcba859b4eb9de3c5a73",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 520,
-                            "y": 7013,
+                            "x": 522,
+                            "y": 7296,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -62267,8 +62267,8 @@
                             "wid": "6abbbcc9859b4eb9de3c5f09",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 19,
-                            "y": 6844,
+                            "x": 21,
+                            "y": 7127,
                             "w": 315,
                             "h": 393,
                             "version": 2,
@@ -62394,8 +62394,8 @@
                             "wid": "6abbbcca65a1f83005059665",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": -61,
-                            "y": 7249,
+                            "x": -59,
+                            "y": 7532,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -62512,8 +62512,8 @@
                             "wid": "6abbbcca6213d5c3c49edf21",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 41,
-                            "y": 7272,
+                            "x": 43,
+                            "y": 7555,
                             "w": 276,
                             "h": 60,
                             "version": 3,
@@ -62647,8 +62647,8 @@
                             "wid": "6abbbcca44e85f06a493f9af",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 140,
-                            "y": 7347,
+                            "x": 142,
+                            "y": 7630,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -62867,8 +62867,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 18024,
+                                "x": 20,
+                                "y": 18533,
                                 "w": 286,
                                 "h": 278,
                                 "z": 1004,
@@ -62986,8 +62986,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 18321,
+                                "x": -77,
+                                "y": 18830,
                                 "w": 480,
                                 "h": 9,
                                 "z": 1005,
@@ -63111,8 +63111,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 34,
-                                "y": 18341,
+                                "x": 36,
+                                "y": 18850,
                                 "w": 252,
                                 "h": 72,
                                 "z": 1006,
@@ -63182,8 +63182,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116,
-                                "y": 18427,
+                                "x": 118,
+                                "y": 18936,
                                 "w": 89,
                                 "h": 17,
                                 "z": 1007,
@@ -63370,8 +63370,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 18,
-                                "y": 18460,
+                                "x": 20,
+                                "y": 18969,
                                 "w": 286,
                                 "h": 278,
                                 "z": 1008,
@@ -63489,8 +63489,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -79,
-                                "y": 18757,
+                                "x": -77,
+                                "y": 19266,
                                 "w": 480,
                                 "h": 9,
                                 "z": 1009,
@@ -63614,8 +63614,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 18777,
+                                "x": 38,
+                                "y": 19286,
                                 "w": 247,
                                 "h": 90,
                                 "z": 1010,
@@ -63685,8 +63685,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 116,
-                                "y": 18881,
+                                "x": 118,
+                                "y": 19390,
                                 "w": 89,
                                 "h": 17,
                                 "z": 1011,
@@ -63873,8 +63873,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 20,
-                                "y": 18925,
+                                "x": 22,
+                                "y": 19434,
                                 "w": 286,
                                 "h": 278,
                                 "z": 1012,
@@ -63992,8 +63992,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -77,
-                                "y": 19222,
+                                "x": -75,
+                                "y": 19731,
                                 "w": 480,
                                 "h": 9,
                                 "z": 1013,
@@ -64117,8 +64117,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 42,
-                                "y": 19242,
+                                "x": 44,
+                                "y": 19751,
                                 "w": 243,
                                 "h": 90,
                                 "z": 1014,
@@ -64188,8 +64188,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 118,
-                                "y": 19351,
+                                "x": 120,
+                                "y": 19860,
                                 "w": 89,
                                 "h": 17,
                                 "z": 1015,
@@ -64376,8 +64376,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 19,
-                                "y": 19397,
+                                "x": 21,
+                                "y": 19906,
                                 "w": 286,
                                 "h": 278,
                                 "z": 1016,
@@ -64495,8 +64495,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -78,
-                                "y": 19694,
+                                "x": -76,
+                                "y": 20203,
                                 "w": 480,
                                 "h": 9,
                                 "z": 1017,
@@ -64620,8 +64620,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 41,
-                                "y": 19714,
+                                "x": 43,
+                                "y": 20223,
                                 "w": 243,
                                 "h": 90,
                                 "z": 1018,
@@ -64691,8 +64691,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 117,
-                                "y": 19823,
+                                "x": 119,
+                                "y": 20332,
                                 "w": 89,
                                 "h": 17,
                                 "z": 1019,
@@ -64879,8 +64879,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 19,
-                                "y": 19868,
+                                "x": 21,
+                                "y": 20377,
                                 "w": 286,
                                 "h": 278,
                                 "z": 1020,
@@ -64998,8 +64998,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -78,
-                                "y": 20165,
+                                "x": -76,
+                                "y": 20674,
                                 "w": 480,
                                 "h": 9,
                                 "z": 1021,
@@ -65123,8 +65123,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 41,
-                                "y": 20185,
+                                "x": 43,
+                                "y": 20694,
                                 "w": 243,
                                 "h": 90,
                                 "z": 1022,
@@ -65194,8 +65194,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 117,
-                                "y": 20294,
+                                "x": 119,
+                                "y": 20803,
                                 "w": 89,
                                 "h": 17,
                                 "z": 1023,
@@ -65551,8 +65551,8 @@
                             "wid": "6ac3a2c2425dfa16ec4fa45e",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 465,
-                            "y": 7982,
+                            "x": 485,
+                            "y": 8316,
                             "w": 32,
                             "h": 52,
                             "version": 2,
@@ -65626,8 +65626,8 @@
                             "wid": "6ac3a4b70e9721f5d54f8239",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 541,
-                            "y": 7976,
+                            "x": 561,
+                            "y": 8310,
                             "w": 74,
                             "h": 62,
                             "version": 2,
@@ -65698,8 +65698,8 @@
                             "wid": "6ac3a4b7305790672bc8dad8",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 646,
-                            "y": 7981,
+                            "x": 666,
+                            "y": 8315,
                             "w": 52,
                             "h": 52,
                             "version": 2,
@@ -65770,8 +65770,8 @@
                             "wid": "6ac3a4b837a9cfd55d345db2",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 717,
-                            "y": 7967,
+                            "x": 737,
+                            "y": 8301,
                             "w": 95,
                             "h": 79,
                             "version": 2,
@@ -65842,8 +65842,8 @@
                             "wid": "6ac3a4b837a9cfd55d345db5",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 840,
-                            "y": 7981.44,
+                            "x": 860,
+                            "y": 8315.44,
                             "w": 32,
                             "h": 52,
                             "version": 2,
@@ -66073,8 +66073,8 @@
                             "wid": "6ad8a751191cab470789837f",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 529,
-                            "y": 7512,
+                            "x": 531,
+                            "y": 7795,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -66191,8 +66191,8 @@
                             "wid": "6ad8a753a578e4f5ba41b0f4",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 688,
-                            "y": 7530,
+                            "x": 690,
+                            "y": 7813,
                             "w": 150,
                             "h": 90,
                             "version": 3,
@@ -66326,8 +66326,8 @@
                             "wid": "6ad8a75428ec5b7119646490",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 730,
-                            "y": 7635,
+                            "x": 732,
+                            "y": 7918,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -66479,8 +66479,8 @@
                             "wid": "6ad8a75625b6e0eec76ad7b5",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 691,
-                            "y": 7298,
+                            "x": 693,
+                            "y": 7581,
                             "w": 152,
                             "h": 197,
                             "version": 2,
@@ -66657,8 +66657,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 19,
-                                "y": 25560,
+                                "x": 21,
+                                "y": 26069,
                                 "w": 286,
                                 "h": 278,
                                 "z": 1045,
@@ -66776,8 +66776,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -83,
-                                "y": 25857,
+                                "x": -81,
+                                "y": 26366,
                                 "w": 480,
                                 "h": 9,
                                 "z": 1046,
@@ -66899,8 +66899,8 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 36,
-                                "y": 25877,
+                                "x": 38,
+                                "y": 26386,
                                 "w": 243,
                                 "h": 90,
                                 "z": 1047,
@@ -66970,8 +66970,8 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 112,
-                                "y": 25986,
+                                "x": 114,
+                                "y": 26495,
                                 "w": 89,
                                 "h": 17,
                                 "z": 1048,
@@ -67088,537 +67088,19 @@
                             "z": 1058,
                             "__v": 0
                         }, {
-                            "_id": "6ae8a239ff1ebae7cfe72756",
-                            "wid": "6ae8a239ff1ebae7cfe72756",
-                            "mag_num_id": 6484256,
-                            "type": "text",
-                            "x": 691,
-                            "y": 7512,
-                            "w": 480,
-                            "h": 9,
-                            "version": 3,
-                            "verticalAlign": "top",
-                            "textDirection": "LTR",
-                            "autosize": true,
-                            "blocks": [{
-                                "key": "6f6pu",
-                                "text": "BACK TO REALITY",
-                                "entityRanges": [],
-                                "depth": 0
-                            }],
-                            "styles": [{
-                                "key": "6f6pu",
-                                "type": "unstyled",
-                                "inlineStyles": {
-                                    "styles": [{
-                                        "offset": 0,
-                                        "length": 15,
-                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
-                                    }],
-                                    "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
-                                        "FONT_STYLE", "FONT_FAMILY"
-                                    ],
-                                    "values": ["", "9", "00FF1164", "-0.1", "uppercase", "200", "normal", "custom_190946"]
-                                }
-                            }],
-                            "entityMap": {},
-                            "flags": {
-                                "baseline": true,
-                                "calculatedLineHeight": true,
-                                "updatedLinks": true,
-                                "newListPosition": true
-                            },
-                            "z": 1059,
-                            "blocksMeta": [{
-                                "key": "6f6pu",
-                                "data": {
-                                    "lineHeight": 9,
-                                    "align": "align-center",
-                                    "sizesLinkedStatus": true
-                                }
-                            }],
-                            "name": "",
-                            "text": "",
-                            "modifiers": [{
-                                "id": "cursor",
-                                "title": "Cursor",
-                                "category": "default",
-                                "owner": "readymag",
-                                "private": true,
-                                "static": [{
-                                    "id": "cursor-keyword",
-                                    "name": "Cursor",
-                                    "type": "select",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "auto",
-                                    "params": {
-                                        "default": "auto",
-                                        "options": [{
-                                            "label": "Auto",
-                                            "value": "auto"
-                                        }, {
-                                            "label": "Pointer",
-                                            "value": "pointer"
-                                        }, {
-                                            "label": "Move",
-                                            "value": "move"
-                                        }]
-                                    }
-                                }, {
-                                    "id": "cursor-url",
-                                    "name": "Cursor image",
-                                    "type": "file",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
-                                }, {
-                                    "id": "url-is-lambda",
-                                    "name": "Is cursor url lambda",
-                                    "type": "toggle",
-                                    "operator": "assignment",
-                                    "modelField": "cursorUrlIsLambda",
-                                    "value": true,
-                                    "params": {
-                                        "default": false,
-                                        "isDisabled": true
-                                    }
-                                }, {
-                                    "id": "cursor-image-dimension",
-                                    "name": "Cursor image dimension",
-                                    "type": "number",
-                                    "operator": "assignment",
-                                    "modelField": "cursorImageDimension",
-                                    "value": 250,
-                                    "params": {
-                                        "default": 0,
-                                        "isDisabled": true
-                                    }
-                                }],
-                                "events": [{
-                                    "eventName": "rendered",
-                                    "eventHandler": "Cursor/WidgetRendered"
-                                }]
-                            }],
-                            "viewport_phone_portrait": {
-                                "hidden": true,
-                                "z": 1049
-                            },
-                            "__v": 0
-                        }, {
-                            "_id": "6ae8a239b7546638ab0aa17a",
-                            "wid": "6ae8a239b7546638ab0aa17a",
-                            "mag_num_id": 6484256,
-                            "type": "text",
-                            "x": 858,
-                            "y": 7530,
-                            "w": 146,
-                            "h": 75,
-                            "version": 3,
-                            "verticalAlign": "top",
-                            "textDirection": "LTR",
-                            "autosize": true,
-                            "blocks": [{
-                                "key": "6f6pu",
-                                "text": "Zaboravite \"posao-kuća\": Ovako generacija Z provodi jesenske dane",
-                                "entityRanges": [{
-                                    "offset": 0,
-                                    "length": 65,
-                                    "key": 0
-                                }],
-                                "depth": 0
-                            }],
-                            "styles": [{
-                                "key": "6f6pu",
-                                "type": "unstyled",
-                                "inlineStyles": {
-                                    "styles": [{
-                                        "offset": 0,
-                                        "length": 65,
-                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
-                                    }],
-                                    "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
-                                        "FONT_VARIABLE", "FONT_SIZE", "COLOR"
-                                    ],
-                                    "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "15", "00FF1A64"]
-                                }
-                            }],
-                            "entityMap": {
-                                "0": {
-                                    "type": "LINK",
-                                    "mutability": "MUTABLE",
-                                    "data": {
-                                        "url": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
-                                        "anchorPosition": 0,
-                                        "type": "URL",
-                                        "target": "_self",
-                                        "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
-                                        "id": "eqd9b"
-                                    }
-                                }
-                            },
-                            "flags": {
-                                "baseline": true,
-                                "calculatedLineHeight": true,
-                                "updatedLinks": true,
-                                "newListPosition": true
-                            },
-                            "z": 1060,
-                            "blocksMeta": [{
-                                "key": "6f6pu",
-                                "data": {
-                                    "lineHeight": 15,
-                                    "align": "align-center",
-                                    "sizesLinkedStatus": true
-                                }
-                            }],
-                            "name": "",
-                            "text": "",
-                            "modifiers": [{
-                                "id": "cursor",
-                                "title": "Cursor",
-                                "category": "default",
-                                "owner": "readymag",
-                                "private": true,
-                                "static": [{
-                                    "id": "cursor-keyword",
-                                    "name": "Cursor",
-                                    "type": "select",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "auto",
-                                    "params": {
-                                        "default": "auto",
-                                        "options": [{
-                                            "label": "Auto",
-                                            "value": "auto"
-                                        }, {
-                                            "label": "Pointer",
-                                            "value": "pointer"
-                                        }, {
-                                            "label": "Move",
-                                            "value": "move"
-                                        }]
-                                    }
-                                }, {
-                                    "id": "cursor-url",
-                                    "name": "Cursor image",
-                                    "type": "file",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
-                                }, {
-                                    "id": "url-is-lambda",
-                                    "name": "Is cursor url lambda",
-                                    "type": "toggle",
-                                    "operator": "assignment",
-                                    "modelField": "cursorUrlIsLambda",
-                                    "value": true,
-                                    "params": {
-                                        "default": false,
-                                        "isDisabled": true
-                                    }
-                                }, {
-                                    "id": "cursor-image-dimension",
-                                    "name": "Cursor image dimension",
-                                    "type": "number",
-                                    "operator": "assignment",
-                                    "modelField": "cursorImageDimension",
-                                    "value": 250,
-                                    "params": {
-                                        "default": 0,
-                                        "isDisabled": true
-                                    }
-                                }],
-                                "events": [{
-                                    "eventName": "rendered",
-                                    "eventHandler": "Cursor/WidgetRendered"
-                                }]
-                            }],
-                            "viewport_phone_portrait": {
-                                "hidden": true,
-                                "z": 1050
-                            },
-                            "__v": 0
-                        }, {
-                            "_id": "6ae8a23a9b5c613cf0acdd4e",
-                            "wid": "6ae8a23a9b5c613cf0acdd4e",
-                            "mag_num_id": 6484256,
-                            "type": "button",
-                            "x": 892,
-                            "y": 7635,
-                            "w": 78,
-                            "h": 15,
-                            "tp": "text",
-                            "form": "rectangle",
-                            "text": "PROČITAJ",
-                            "transition": false,
-                            "transitionTime": 0,
-                            "text_w": 36,
-                            "text_h": 10,
-                            "current-text_w": 88,
-                            "current-text_h": 22,
-                            "em_w": 14,
-                            "background-color": "262626",
-                            "background-color-opacity": 0,
-                            "border-radius": 79,
-                            "border-width": 1,
-                            "border-color": "00FF0D",
-                            "border-color-opacity": 100,
-                            "font-family": "custom_190947",
-                            "font-style": "normal",
-                            "font-weight": 400,
-                            "color": "00FF26",
-                            "color-opacity": 100,
-                            "font-size": 8,
-                            "letter-spacing": -0.4,
-                            "hover-background-color": "04FF00",
-                            "hover-background-color-opacity": 80,
-                            "hover-border-width": 0,
-                            "hover-border-color": "000000",
-                            "hover-border-color-opacity": 100,
-                            "hover-color": "000000",
-                            "hover-color-opacity": 100,
-                            "current-background-color": "c80000",
-                            "current-background-color-opacity": 100,
-                            "current-border-radius": 5,
-                            "current-border-width": 0,
-                            "current-border-color": "000000",
-                            "current-border-color-opacity": 100,
-                            "current-font-family": "Arial",
-                            "current-font-style": "normal",
-                            "current-font-weight": 400,
-                            "current-color": "ffffff",
-                            "current-color-opacity": 100,
-                            "current-font-size": 18,
-                            "current-letter-spacing": 0,
-                            "icon_enabled": false,
-                            "icon_h": 18,
-                            "icon_w": 18,
-                            "icon_pos": "left",
-                            "icon_color": "ffffff",
-                            "icon_color_opacity": 100,
-                            "current-icon_color": "ffffff",
-                            "current-icon_color_opacity": 100,
-                            "icon_rasterUrl": null,
-                            "icon_raster2xUrl": null,
-                            "current-icon_rasterUrl": null,
-                            "current-icon_raster2xUrl": null,
-                            "baselineShift": 0,
-                            "current-baselineShift": 0,
-                            "z": 1061,
-                            "triggers": [],
-                            "name": "Tertiary",
-                            "modifiers": [{
-                                "id": "cursor",
-                                "title": "Cursor",
-                                "category": "default",
-                                "owner": "readymag",
-                                "private": true,
-                                "static": [{
-                                    "id": "cursor-keyword",
-                                    "name": "Cursor",
-                                    "type": "select",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "auto",
-                                    "params": {
-                                        "default": "auto",
-                                        "options": [{
-                                            "label": "Auto",
-                                            "value": "auto"
-                                        }, {
-                                            "label": "Pointer",
-                                            "value": "pointer"
-                                        }, {
-                                            "label": "Move",
-                                            "value": "move"
-                                        }]
-                                    }
-                                }, {
-                                    "id": "cursor-url",
-                                    "name": "Cursor image",
-                                    "type": "file",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
-                                }, {
-                                    "id": "url-is-lambda",
-                                    "name": "Is cursor url lambda",
-                                    "type": "toggle",
-                                    "operator": "assignment",
-                                    "modelField": "cursorUrlIsLambda",
-                                    "value": true,
-                                    "params": {
-                                        "default": false,
-                                        "isDisabled": true
-                                    }
-                                }, {
-                                    "id": "cursor-image-dimension",
-                                    "name": "Cursor image dimension",
-                                    "type": "number",
-                                    "operator": "assignment",
-                                    "modelField": "cursorImageDimension",
-                                    "value": 250,
-                                    "params": {
-                                        "default": 0,
-                                        "isDisabled": true
-                                    }
-                                }],
-                                "events": [{
-                                    "eventName": "rendered",
-                                    "eventHandler": "Cursor/WidgetRendered"
-                                }]
-                            }],
-                            "viewport_phone_portrait": {
-                                "hidden": true,
-                                "z": 1051
-                            },
-                            "animation": [{
-                                "UUID": "c64b7474-e595-451e-b4f3-6914fdd45b72",
-                                "type": "hover",
-                                "steps": [{
-                                    "duration": 0.5,
-                                    "acceleration": "ease-both",
-                                    "from_scale": 100,
-                                    "use_scale": true,
-                                    "scale": 90
-                                }],
-                                "playOnce": false,
-                                "resetWhenOutOfView": false,
-                                "trigger": []
-                            }],
-                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
-                            "clickTarget": "_blank",
-                            "anchor_link_pos": null,
-                            "clickPage": null,
-                            "__v": 0
-                        }, {
-                            "_id": "6ae8a23a650b887d7bd95a20",
-                            "wid": "6ae8a23a650b887d7bd95a20",
-                            "mag_num_id": 6484256,
-                            "type": "picture",
-                            "x": 853,
-                            "y": 7298,
-                            "w": 152,
-                            "h": 197,
-                            "version": 2,
-                            "flags": {
-                                "useOriginalViewBoxSVG": true
-                            },
-                            "z": 1062,
-                            "scale": 0.29185185185185186,
-                            "cropH": 675,
-                            "cropW": 520.8121827411168,
-                            "cropX": 339.5939086294416,
-                            "cropY": 0,
-                            "originalCropH": 675,
-                            "originalCropW": 520.8121827411168,
-                            "originalCropX": 339.5939086294416,
-                            "originalCropY": 0,
-                            "originalH": 675,
-                            "originalW": 1200,
-                            "modifiers": [{
-                                "id": "cursor",
-                                "title": "Cursor",
-                                "category": "default",
-                                "owner": "readymag",
-                                "private": true,
-                                "static": [{
-                                    "id": "cursor-keyword",
-                                    "name": "Cursor",
-                                    "type": "select",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "auto",
-                                    "params": {
-                                        "default": "auto",
-                                        "options": [{
-                                            "label": "Auto",
-                                            "value": "auto"
-                                        }, {
-                                            "label": "Pointer",
-                                            "value": "pointer"
-                                        }, {
-                                            "label": "Move",
-                                            "value": "move"
-                                        }]
-                                    }
-                                }, {
-                                    "id": "cursor-url",
-                                    "name": "Cursor image",
-                                    "type": "file",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
-                                }, {
-                                    "id": "url-is-lambda",
-                                    "name": "Is cursor url lambda",
-                                    "type": "toggle",
-                                    "operator": "assignment",
-                                    "modelField": "cursorUrlIsLambda",
-                                    "value": true,
-                                    "params": {
-                                        "default": false,
-                                        "isDisabled": true
-                                    }
-                                }, {
-                                    "id": "cursor-image-dimension",
-                                    "name": "Cursor image dimension",
-                                    "type": "number",
-                                    "operator": "assignment",
-                                    "modelField": "cursorImageDimension",
-                                    "value": 250,
-                                    "params": {
-                                        "default": 0,
-                                        "isDisabled": true
-                                    }
-                                }],
-                                "events": [{
-                                    "eventName": "rendered",
-                                    "eventHandler": "Cursor/WidgetRendered"
-                                }]
-                            }],
-                            "viewport_phone_portrait": {
-                                "hidden": true,
-                                "z": 1052,
-                                "picture": {
-                                    "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/TxaFNlv0teBcd5zl7qCXt.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png"
-                                }
-                            },
-                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
-                            "clickTarget": "_blank",
-                            "blurHash": "UFGRuB010M~Wn3snkBIo0M-:%MD*NbR*IVtQ",
-                            "picture": {
-                                "type": "png",
-                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png",
-                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
-                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/TxaFNlv0teBcd5zl7qCXt.png",
-                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
-                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png"
-                            },
-                            "anchor_link_pos": null,
-                            "clickPage": null,
-                            "__v": 0
-                        }, {
                             "_id": "6ae8a346a1ffc39c1523bf96",
                             "wid": "6ae8a346a1ffc39c1523bf96",
                             "mag_num_id": 6484256,
                             "type": "picture",
-                            "x": 354,
-                            "y": 7391,
+                            "x": 356,
+                            "y": 7674,
                             "w": 319,
                             "h": 323,
                             "version": 2,
                             "flags": {
                                 "useOriginalViewBoxSVG": true
                             },
-                            "z": 1063,
+                            "z": 1059,
                             "cropW": 1601,
                             "cropH": 1621.0752351097178,
                             "cropX": 0,
@@ -67709,7 +67191,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1053,
+                                "z": 1049,
                                 "picture": {
                                     "type": "png",
                                     "unscaledUrl": "img/683d850bd2094940857eb894/6484256/FhcIsw6wSdIH1IUfQDOc4.png",
@@ -67737,8 +67219,8 @@
                             "wid": "6ae8a346a1ffc39c1523bf99",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 270,
-                            "y": 7739,
+                            "x": 272,
+                            "y": 8022,
                             "w": 480,
                             "h": 9,
                             "version": 3,
@@ -67773,7 +67255,7 @@
                                 "updatedLinks": true,
                                 "newListPosition": true
                             },
-                            "z": 1064,
+                            "z": 1060,
                             "blocksMeta": [{
                                 "key": "6f6pu",
                                 "data": {
@@ -67845,7 +67327,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1054
+                                "z": 1050
                             },
                             "__v": 0
                         }, {
@@ -67853,8 +67335,8 @@
                             "wid": "6ae8a347ff1ebae7cfe7be01",
                             "mag_num_id": 6484256,
                             "type": "text",
-                            "x": 372,
-                            "y": 7756,
+                            "x": 374,
+                            "y": 8039,
                             "w": 276,
                             "h": 45,
                             "version": 3,
@@ -67906,7 +67388,7 @@
                                 "updatedLinks": true,
                                 "newListPosition": true
                             },
-                            "z": 1065,
+                            "z": 1061,
                             "blocksMeta": [{
                                 "key": "6f6pu",
                                 "data": {
@@ -67980,7 +67462,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1055
+                                "z": 1051
                             },
                             "__v": 0
                         }, {
@@ -67988,8 +67470,8 @@
                             "wid": "6ae8a347455c0d037b150fbc",
                             "mag_num_id": 6484256,
                             "type": "button",
-                            "x": 471,
-                            "y": 7819,
+                            "x": 473,
+                            "y": 8102,
                             "w": 78,
                             "h": 15,
                             "tp": "text",
@@ -68049,7 +67531,7 @@
                             "current-icon_raster2xUrl": null,
                             "baselineShift": 0,
                             "current-baselineShift": 0,
-                            "z": 1066,
+                            "z": 1062,
                             "triggers": [],
                             "name": "Tertiary",
                             "modifiers": [{
@@ -68115,7 +67597,7 @@
                             }],
                             "viewport_phone_portrait": {
                                 "hidden": true,
-                                "z": 1056
+                                "z": 1052
                             },
                             "animation": [{
                                 "UUID": "f530d471-b220-42c3-b1bb-353bf60d4628",
@@ -68207,11 +67689,11 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 22,
-                                "y": 26039,
+                                "x": 20,
+                                "y": 10513,
                                 "w": 286,
                                 "h": 278,
-                                "z": 1057,
+                                "z": 1053,
                                 "cropH": 675,
                                 "cropW": 694.4244604316547,
                                 "cropX": 252.78776978417267,
@@ -68239,7 +67721,7 @@
                             "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
                             "clickTarget": "_blank",
                             "clickPage": null,
-                            "z": 1067,
+                            "z": 1063,
                             "__v": 0
                         }, {
                             "_id": "6ae8a3a5dc5ed8627514b680",
@@ -68326,11 +67808,11 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -80,
-                                "y": 26336,
+                                "x": -82,
+                                "y": 10810,
                                 "w": 480,
                                 "h": 9,
-                                "z": 1058,
+                                "z": 1054,
                                 "hidden": false,
                                 "styles": [{
                                     "key": "6f6pu",
@@ -68360,7 +67842,7 @@
                                 }]
                             },
                             "hidden": true,
-                            "z": 1068,
+                            "z": 1064,
                             "__v": 0
                         }, {
                             "_id": "6ae8a3a5dc5ed8627514b683",
@@ -68451,11 +67933,11 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 39,
-                                "y": 26356,
+                                "x": 37,
+                                "y": 10830,
                                 "w": 243,
                                 "h": 54,
-                                "z": 1059,
+                                "z": 1055,
                                 "hidden": false,
                                 "styles": [{
                                     "key": "6f6pu",
@@ -68498,7 +67980,7 @@
                                 }]
                             },
                             "hidden": true,
-                            "z": 1069,
+                            "z": 1065,
                             "__v": 0
                         }, {
                             "_id": "6ae8a3a65876a4ce21db63a1",
@@ -68522,8 +68004,511 @@
                             "current-icon_raster2xUrl": null,
                             "name": "Tertiary",
                             "viewport_phone_portrait": {
-                                "x": 115,
-                                "y": 26431,
+                                "x": 113,
+                                "y": 10905,
+                                "w": 89,
+                                "h": 17,
+                                "z": 1056,
+                                "triggers": [],
+                                "hidden": false,
+                                "text_w": 42,
+                                "text_h": 12,
+                                "em_w": 14,
+                                "font-size": 9,
+                                "font-style": "normal",
+                                "font-weight": 400,
+                                "font-family": "custom_190947",
+                                "color": "00FF26",
+                                "color-opacity": 100,
+                                "letter-spacing": -0.4,
+                                "baselineShift": 0,
+                                "hover-color": "000000",
+                                "hover-color-opacity": 100,
+                                "current-font-size": 18,
+                                "current-font-style": "normal",
+                                "current-font-weight": 400,
+                                "current-font-family": "Arial",
+                                "current-baselineShift": 0,
+                                "current-color": "ffffff",
+                                "current-color-opacity": 100,
+                                "current-letter-spacing": 0,
+                                "current-text_w": 88,
+                                "current-text_h": 22,
+                                "background-color": "262626",
+                                "background-color-opacity": 0,
+                                "hover-background-color": "04FF00",
+                                "hover-background-color-opacity": 80,
+                                "current-background-color": "c80000",
+                                "current-background-color-opacity": 100,
+                                "border-radius": 79,
+                                "border-width": 1,
+                                "border-color": "00FF0D",
+                                "border-color-opacity": 100,
+                                "hover-border-width": 0,
+                                "hover-border-color": "000000",
+                                "hover-border-color-opacity": 100,
+                                "current-border-radius": 5,
+                                "current-border-width": 0,
+                                "current-border-color": "000000",
+                                "current-border-color-opacity": 100,
+                                "icon_h": 18,
+                                "icon_w": 18,
+                                "modifiers": [{
+                                    "id": "cursor",
+                                    "title": "Cursor",
+                                    "category": "default",
+                                    "owner": "readymag",
+                                    "private": true,
+                                    "static": [{
+                                        "id": "cursor-keyword",
+                                        "name": "Cursor",
+                                        "type": "select",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "auto",
+                                        "params": {
+                                            "default": "auto",
+                                            "options": [{
+                                                "label": "Auto",
+                                                "value": "auto"
+                                            }, {
+                                                "label": "Pointer",
+                                                "value": "pointer"
+                                            }, {
+                                                "label": "Move",
+                                                "value": "move"
+                                            }]
+                                        }
+                                    }, {
+                                        "id": "cursor-url",
+                                        "name": "Cursor image",
+                                        "type": "file",
+                                        "operator": "assignment",
+                                        "modelField": "cursor",
+                                        "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                    }, {
+                                        "id": "url-is-lambda",
+                                        "name": "Is cursor url lambda",
+                                        "type": "toggle",
+                                        "operator": "assignment",
+                                        "modelField": "cursorUrlIsLambda",
+                                        "value": true,
+                                        "params": {
+                                            "default": false,
+                                            "isDisabled": true
+                                        }
+                                    }, {
+                                        "id": "cursor-image-dimension",
+                                        "name": "Cursor image dimension",
+                                        "type": "number",
+                                        "operator": "assignment",
+                                        "modelField": "cursorImageDimension",
+                                        "value": 250,
+                                        "params": {
+                                            "default": 0,
+                                            "isDisabled": true
+                                        }
+                                    }],
+                                    "events": [{
+                                        "eventName": "rendered",
+                                        "eventHandler": "Cursor/WidgetRendered"
+                                    }]
+                                }]
+                            },
+                            "hidden": true,
+                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1066,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3bfff1ebae7cfe85d01",
+                            "wid": "6ae8a3bfff1ebae7cfe85d01",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 20,
+                                "y": 26573,
+                                "w": 286,
+                                "h": 278,
+                                "z": 1057,
+                                "cropH": 1556.2167832167831,
+                                "cropW": 1601,
+                                "cropX": 0,
+                                "cropY": 421.89160839160843,
+                                "originalCropH": 1556.2167832167831,
+                                "originalCropW": 1601,
+                                "originalCropX": 0,
+                                "originalCropY": 421.89160839160843,
+                                "hidden": false,
+                                "scale": 0.17863835103060588,
+                                "originalW": 1601,
+                                "originalH": 2400,
+                                "picture": {
+                                    "type": "png",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AIpqCJ33QJBrcwUdT9eAk.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/34E9cs6i763I_n84bEJJf.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/b9qdjMN818q5_7mNFlGzV.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/34E9cs6i763I_n84bEJJf.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AIpqCJ33QJBrcwUdT9eAk.png"
+                                }
+                            },
+                            "hidden": true,
+                            "name": "",
+                            "blurHash": "UcMa9Lt7?a-:~pRkM{oe%NofIURkt7ofM{oL",
+                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                            "clickTarget": "_blank",
+                            "clickPage": null,
+                            "z": 1067,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3bfb7939d65d4fd6a1d",
+                            "wid": "6ae8a3bfb7939d65d4fd6a1d",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "S1 intervju",
+                                "entityRanges": [],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": -82,
+                                "y": 26870,
+                                "w": 480,
+                                "h": 9,
+                                "z": 1058,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 11,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                        }],
+                                        "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
+                                            "LETTER_SPACING", "TRANSFORM"
+                                        ],
+                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
+                                            "uppercase"
+                                        ]
+                                    }
+                                }],
+                                "entityMap": {},
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 9,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1068,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3bfb463856b52d31e31",
+                            "wid": "6ae8a3bfb463856b52d31e31",
+                            "mag_num_id": 6484256,
+                            "type": "text",
+                            "version": 3,
+                            "verticalAlign": "top",
+                            "textDirection": "LTR",
+                            "autosize": true,
+                            "blocks": [{
+                                "key": "6f6pu",
+                                "text": "Na ovaj pilates ne dolazi se samo zbog vježbanja. Ivana je u Zagreb donijela zanimljiv koncept",
+                                "entityRanges": [{
+                                    "offset": 0,
+                                    "length": 94,
+                                    "key": 0
+                                }],
+                                "depth": 0
+                            }],
+                            "flags": {
+                                "baseline": true,
+                                "calculatedLineHeight": true,
+                                "updatedLinks": true,
+                                "newListPosition": true
+                            },
+                            "name": "",
+                            "text": "",
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "x": 37,
+                                "y": 26890,
+                                "w": 243,
+                                "h": 90,
+                                "z": 1059,
+                                "hidden": false,
+                                "styles": [{
+                                    "key": "6f6pu",
+                                    "type": "unstyled",
+                                    "inlineStyles": {
+                                        "styles": [{
+                                            "offset": 0,
+                                            "length": 94,
+                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                        }],
+                                        "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                            "FONT_VARIABLE", "COLOR", "FONT_SIZE"
+                                        ],
+                                        "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "00FF1A64",
+                                            "18"
+                                        ]
+                                    }
+                                }],
+                                "entityMap": {
+                                    "0": {
+                                        "type": "LINK",
+                                        "mutability": "MUTABLE",
+                                        "data": {
+                                            "url": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                                            "anchorPosition": 0,
+                                            "type": "URL",
+                                            "target": "_blank",
+                                            "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                            "id": "9tbhs"
+                                        }
+                                    }
+                                },
+                                "blocksMeta": [{
+                                    "key": "6f6pu",
+                                    "data": {
+                                        "lineHeight": 18,
+                                        "align": "align-center",
+                                        "sizesLinkedStatus": true
+                                    }
+                                }]
+                            },
+                            "hidden": true,
+                            "z": 1069,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8a3c035390631fa0a3fe0",
+                            "wid": "6ae8a3c035390631fa0a3fe0",
+                            "mag_num_id": 6484256,
+                            "type": "button",
+                            "tp": "text",
+                            "form": "rectangle",
+                            "text": "PROČITAJ",
+                            "transition": false,
+                            "transitionTime": 0,
+                            "icon_enabled": false,
+                            "icon_pos": "left",
+                            "icon_color": "ffffff",
+                            "icon_color_opacity": 100,
+                            "current-icon_color": "ffffff",
+                            "current-icon_color_opacity": 100,
+                            "icon_rasterUrl": null,
+                            "icon_raster2xUrl": null,
+                            "current-icon_rasterUrl": null,
+                            "current-icon_raster2xUrl": null,
+                            "name": "Tertiary",
+                            "viewport_phone_portrait": {
+                                "x": 113,
+                                "y": 26999,
                                 "w": 89,
                                 "h": 17,
                                 "z": 1060,
@@ -68634,137 +68619,61 @@
                                 }]
                             },
                             "hidden": true,
-                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
                             "clickTarget": "_blank",
                             "clickPage": null,
                             "z": 1070,
                             "__v": 0
                         }, {
-                            "_id": "6ae8a3bfff1ebae7cfe85d01",
-                            "wid": "6ae8a3bfff1ebae7cfe85d01",
-                            "mag_num_id": 6484256,
-                            "type": "picture",
-                            "version": 2,
-                            "flags": {
-                                "useOriginalViewBoxSVG": true
-                            },
-                            "modifiers": [{
-                                "id": "cursor",
-                                "title": "Cursor",
-                                "category": "default",
-                                "owner": "readymag",
-                                "private": true,
-                                "static": [{
-                                    "id": "cursor-keyword",
-                                    "name": "Cursor",
-                                    "type": "select",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "auto",
-                                    "params": {
-                                        "default": "auto",
-                                        "options": [{
-                                            "label": "Auto",
-                                            "value": "auto"
-                                        }, {
-                                            "label": "Pointer",
-                                            "value": "pointer"
-                                        }, {
-                                            "label": "Move",
-                                            "value": "move"
-                                        }]
-                                    }
-                                }, {
-                                    "id": "cursor-url",
-                                    "name": "Cursor image",
-                                    "type": "file",
-                                    "operator": "assignment",
-                                    "modelField": "cursor",
-                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
-                                }, {
-                                    "id": "url-is-lambda",
-                                    "name": "Is cursor url lambda",
-                                    "type": "toggle",
-                                    "operator": "assignment",
-                                    "modelField": "cursorUrlIsLambda",
-                                    "value": true,
-                                    "params": {
-                                        "default": false,
-                                        "isDisabled": true
-                                    }
-                                }, {
-                                    "id": "cursor-image-dimension",
-                                    "name": "Cursor image dimension",
-                                    "type": "number",
-                                    "operator": "assignment",
-                                    "modelField": "cursorImageDimension",
-                                    "value": 250,
-                                    "params": {
-                                        "default": 0,
-                                        "isDisabled": true
-                                    }
-                                }],
-                                "events": [{
-                                    "eventName": "rendered",
-                                    "eventHandler": "Cursor/WidgetRendered"
-                                }]
-                            }],
-                            "viewport_phone_portrait": {
-                                "x": 16,
-                                "y": 26485,
-                                "w": 286,
-                                "h": 278,
-                                "z": 1061,
-                                "cropH": 1556.2167832167831,
-                                "cropW": 1601,
-                                "cropX": 0,
-                                "cropY": 421.89160839160843,
-                                "originalCropH": 1556.2167832167831,
-                                "originalCropW": 1601,
-                                "originalCropX": 0,
-                                "originalCropY": 421.89160839160843,
-                                "hidden": false,
-                                "scale": 0.17863835103060588,
-                                "originalW": 1601,
-                                "originalH": 2400,
-                                "picture": {
-                                    "type": "png",
-                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/AIpqCJ33QJBrcwUdT9eAk.png",
-                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/34E9cs6i763I_n84bEJJf.png",
-                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/b9qdjMN818q5_7mNFlGzV.png",
-                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/34E9cs6i763I_n84bEJJf.png",
-                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/AIpqCJ33QJBrcwUdT9eAk.png"
-                                }
-                            },
-                            "hidden": true,
-                            "name": "",
-                            "blurHash": "UcMa9Lt7?a-:~pRkM{oe%NofIURkt7ofM{oL",
-                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
-                            "clickTarget": "_blank",
-                            "clickPage": null,
-                            "z": 1071,
-                            "__v": 0
-                        }, {
-                            "_id": "6ae8a3bfb7939d65d4fd6a1d",
-                            "wid": "6ae8a3bfb7939d65d4fd6a1d",
+                            "_id": "6ae8af6041bf3569b4c36203",
+                            "wid": "6ae8af6041bf3569b4c36203",
                             "mag_num_id": 6484256,
                             "type": "text",
+                            "x": 528,
+                            "y": 3538,
+                            "w": 480,
+                            "h": 9,
                             "version": 3,
                             "verticalAlign": "top",
                             "textDirection": "LTR",
                             "autosize": true,
                             "blocks": [{
                                 "key": "6f6pu",
-                                "text": "S1 intervju",
+                                "text": "BACK TO REALITY",
                                 "entityRanges": [],
                                 "depth": 0
                             }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 15,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["BOLD", "FONT_SIZE", "COLOR", "LETTER_SPACING", "TRANSFORM", "FONT_WEIGHT",
+                                        "FONT_STYLE", "FONT_FAMILY"
+                                    ],
+                                    "values": ["", "9", "00FF1164", "-0.1", "uppercase", "200", "normal", "custom_190946"]
+                                }
+                            }],
+                            "entityMap": {},
                             "flags": {
                                 "baseline": true,
                                 "calculatedLineHeight": true,
                                 "updatedLinks": true,
                                 "newListPosition": true
                             },
+                            "z": 1071,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 9,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
                             "name": "",
                             "text": "",
                             "modifiers": [{
@@ -68829,67 +68738,77 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": -86,
-                                "y": 26782,
-                                "w": 480,
-                                "h": 9,
-                                "z": 1062,
-                                "hidden": false,
-                                "styles": [{
-                                    "key": "6f6pu",
-                                    "type": "unstyled",
-                                    "inlineStyles": {
-                                        "styles": [{
-                                            "offset": 0,
-                                            "length": 11,
-                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
-                                        }],
-                                        "keys": ["BOLD", "FONT_WEIGHT", "FONT_SIZE", "COLOR", "FONT_STYLE", "FONT_FAMILY",
-                                            "LETTER_SPACING", "TRANSFORM"
-                                        ],
-                                        "values": ["", "700", "9", "00FF1A64", "normal", "custom_190945", "-0.1",
-                                            "uppercase"
-                                        ]
-                                    }
-                                }],
-                                "entityMap": {},
-                                "blocksMeta": [{
-                                    "key": "6f6pu",
-                                    "data": {
-                                        "lineHeight": 9,
-                                        "align": "align-center",
-                                        "sizesLinkedStatus": true
-                                    }
-                                }]
+                                "hidden": true,
+                                "z": 1061
                             },
-                            "hidden": true,
-                            "z": 1072,
                             "__v": 0
                         }, {
-                            "_id": "6ae8a3bfb463856b52d31e31",
-                            "wid": "6ae8a3bfb463856b52d31e31",
+                            "_id": "6ae8af60d9aa3d2f440e6497",
+                            "wid": "6ae8af60d9aa3d2f440e6497",
                             "mag_num_id": 6484256,
                             "type": "text",
+                            "x": 695,
+                            "y": 3556,
+                            "w": 146,
+                            "h": 75,
                             "version": 3,
                             "verticalAlign": "top",
                             "textDirection": "LTR",
                             "autosize": true,
                             "blocks": [{
                                 "key": "6f6pu",
-                                "text": "Na ovaj pilates ne dolazi se samo zbog vježbanja. Ivana je u Zagreb donijela zanimljiv koncept",
+                                "text": "Zaboravite \"posao-kuća\": Ovako generacija Z provodi jesenske dane",
                                 "entityRanges": [{
                                     "offset": 0,
-                                    "length": 94,
+                                    "length": 65,
                                     "key": 0
                                 }],
                                 "depth": 0
                             }],
+                            "styles": [{
+                                "key": "6f6pu",
+                                "type": "unstyled",
+                                "inlineStyles": {
+                                    "styles": [{
+                                        "offset": 0,
+                                        "length": 65,
+                                        "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
+                                    }],
+                                    "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
+                                        "FONT_VARIABLE", "FONT_SIZE", "COLOR"
+                                    ],
+                                    "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "15", "00FF1A64"]
+                                }
+                            }],
+                            "entityMap": {
+                                "0": {
+                                    "type": "LINK",
+                                    "mutability": "MUTABLE",
+                                    "data": {
+                                        "url": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                                        "anchorPosition": 0,
+                                        "type": "URL",
+                                        "target": "_self",
+                                        "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
+                                        "id": "eqd9b"
+                                    }
+                                }
+                            },
                             "flags": {
                                 "baseline": true,
                                 "calculatedLineHeight": true,
                                 "updatedLinks": true,
                                 "newListPosition": true
                             },
+                            "z": 1072,
+                            "blocksMeta": [{
+                                "key": "6f6pu",
+                                "data": {
+                                    "lineHeight": 15,
+                                    "align": "align-center",
+                                    "sizesLinkedStatus": true
+                                }
+                            }],
                             "name": "",
                             "text": "",
                             "modifiers": [{
@@ -68954,66 +68873,65 @@
                                 }]
                             }],
                             "viewport_phone_portrait": {
-                                "x": 33,
-                                "y": 26802,
-                                "w": 243,
-                                "h": 90,
-                                "z": 1063,
-                                "hidden": false,
-                                "styles": [{
-                                    "key": "6f6pu",
-                                    "type": "unstyled",
-                                    "inlineStyles": {
-                                        "styles": [{
-                                            "offset": 0,
-                                            "length": 94,
-                                            "styles": ["0;0", "1;1", "2;2", "3;3", "4;4", "5;5", "6;6", "7;7"]
-                                        }],
-                                        "keys": ["FONT_FAMILY", "FONT_WEIGHT", "FONT_STYLE", "LETTER_SPACING", "TRANSFORM",
-                                            "FONT_VARIABLE", "COLOR", "FONT_SIZE"
-                                        ],
-                                        "values": ["Inter", "400", "normal", "-0.6", "uppercase", "wght|413", "00FF1A64",
-                                            "18"
-                                        ]
-                                    }
-                                }],
-                                "entityMap": {
-                                    "0": {
-                                        "type": "LINK",
-                                        "mutability": "MUTABLE",
-                                        "data": {
-                                            "url": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
-                                            "anchorPosition": 0,
-                                            "type": "URL",
-                                            "target": "_blank",
-                                            "linkStyle": "link-style-7c20c18f-c1de-4a05-96e5-6a3453a18cfd",
-                                            "id": "9tbhs"
-                                        }
-                                    }
-                                },
-                                "blocksMeta": [{
-                                    "key": "6f6pu",
-                                    "data": {
-                                        "lineHeight": 18,
-                                        "align": "align-center",
-                                        "sizesLinkedStatus": true
-                                    }
-                                }]
+                                "hidden": true,
+                                "z": 1062
                             },
-                            "hidden": true,
-                            "z": 1073,
                             "__v": 0
                         }, {
-                            "_id": "6ae8a3c035390631fa0a3fe0",
-                            "wid": "6ae8a3c035390631fa0a3fe0",
+                            "_id": "6ae8af60837bcc4aa616337f",
+                            "wid": "6ae8af60837bcc4aa616337f",
                             "mag_num_id": 6484256,
                             "type": "button",
+                            "x": 729,
+                            "y": 3661,
+                            "w": 78,
+                            "h": 15,
                             "tp": "text",
                             "form": "rectangle",
                             "text": "PROČITAJ",
                             "transition": false,
                             "transitionTime": 0,
+                            "text_w": 36,
+                            "text_h": 10,
+                            "current-text_w": 88,
+                            "current-text_h": 22,
+                            "em_w": 14,
+                            "background-color": "262626",
+                            "background-color-opacity": 0,
+                            "border-radius": 79,
+                            "border-width": 1,
+                            "border-color": "00FF0D",
+                            "border-color-opacity": 100,
+                            "font-family": "custom_190947",
+                            "font-style": "normal",
+                            "font-weight": 400,
+                            "color": "00FF26",
+                            "color-opacity": 100,
+                            "font-size": 8,
+                            "letter-spacing": -0.4,
+                            "hover-background-color": "04FF00",
+                            "hover-background-color-opacity": 80,
+                            "hover-border-width": 0,
+                            "hover-border-color": "000000",
+                            "hover-border-color-opacity": 100,
+                            "hover-color": "000000",
+                            "hover-color-opacity": 100,
+                            "current-background-color": "c80000",
+                            "current-background-color-opacity": 100,
+                            "current-border-radius": 5,
+                            "current-border-width": 0,
+                            "current-border-color": "000000",
+                            "current-border-color-opacity": 100,
+                            "current-font-family": "Arial",
+                            "current-font-style": "normal",
+                            "current-font-weight": 400,
+                            "current-color": "ffffff",
+                            "current-color-opacity": 100,
+                            "current-font-size": 18,
+                            "current-letter-spacing": 0,
                             "icon_enabled": false,
+                            "icon_h": 18,
+                            "icon_w": 18,
                             "icon_pos": "left",
                             "icon_color": "ffffff",
                             "icon_color_opacity": 100,
@@ -69023,129 +68941,211 @@
                             "icon_raster2xUrl": null,
                             "current-icon_rasterUrl": null,
                             "current-icon_raster2xUrl": null,
+                            "baselineShift": 0,
+                            "current-baselineShift": 0,
+                            "z": 1073,
+                            "triggers": [],
                             "name": "Tertiary",
-                            "viewport_phone_portrait": {
-                                "x": 109,
-                                "y": 26911,
-                                "w": 89,
-                                "h": 17,
-                                "z": 1064,
-                                "triggers": [],
-                                "hidden": false,
-                                "text_w": 42,
-                                "text_h": 12,
-                                "em_w": 14,
-                                "font-size": 9,
-                                "font-style": "normal",
-                                "font-weight": 400,
-                                "font-family": "custom_190947",
-                                "color": "00FF26",
-                                "color-opacity": 100,
-                                "letter-spacing": -0.4,
-                                "baselineShift": 0,
-                                "hover-color": "000000",
-                                "hover-color-opacity": 100,
-                                "current-font-size": 18,
-                                "current-font-style": "normal",
-                                "current-font-weight": 400,
-                                "current-font-family": "Arial",
-                                "current-baselineShift": 0,
-                                "current-color": "ffffff",
-                                "current-color-opacity": 100,
-                                "current-letter-spacing": 0,
-                                "current-text_w": 88,
-                                "current-text_h": 22,
-                                "background-color": "262626",
-                                "background-color-opacity": 0,
-                                "hover-background-color": "04FF00",
-                                "hover-background-color-opacity": 80,
-                                "current-background-color": "c80000",
-                                "current-background-color-opacity": 100,
-                                "border-radius": 79,
-                                "border-width": 1,
-                                "border-color": "00FF0D",
-                                "border-color-opacity": 100,
-                                "hover-border-width": 0,
-                                "hover-border-color": "000000",
-                                "hover-border-color-opacity": 100,
-                                "current-border-radius": 5,
-                                "current-border-width": 0,
-                                "current-border-color": "000000",
-                                "current-border-color-opacity": 100,
-                                "icon_h": 18,
-                                "icon_w": 18,
-                                "modifiers": [{
-                                    "id": "cursor",
-                                    "title": "Cursor",
-                                    "category": "default",
-                                    "owner": "readymag",
-                                    "private": true,
-                                    "static": [{
-                                        "id": "cursor-keyword",
-                                        "name": "Cursor",
-                                        "type": "select",
-                                        "operator": "assignment",
-                                        "modelField": "cursor",
-                                        "value": "auto",
-                                        "params": {
-                                            "default": "auto",
-                                            "options": [{
-                                                "label": "Auto",
-                                                "value": "auto"
-                                            }, {
-                                                "label": "Pointer",
-                                                "value": "pointer"
-                                            }, {
-                                                "label": "Move",
-                                                "value": "move"
-                                            }]
-                                        }
-                                    }, {
-                                        "id": "cursor-url",
-                                        "name": "Cursor image",
-                                        "type": "file",
-                                        "operator": "assignment",
-                                        "modelField": "cursor",
-                                        "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
-                                    }, {
-                                        "id": "url-is-lambda",
-                                        "name": "Is cursor url lambda",
-                                        "type": "toggle",
-                                        "operator": "assignment",
-                                        "modelField": "cursorUrlIsLambda",
-                                        "value": true,
-                                        "params": {
-                                            "default": false,
-                                            "isDisabled": true
-                                        }
-                                    }, {
-                                        "id": "cursor-image-dimension",
-                                        "name": "Cursor image dimension",
-                                        "type": "number",
-                                        "operator": "assignment",
-                                        "modelField": "cursorImageDimension",
-                                        "value": 250,
-                                        "params": {
-                                            "default": 0,
-                                            "isDisabled": true
-                                        }
-                                    }],
-                                    "events": [{
-                                        "eventName": "rendered",
-                                        "eventHandler": "Cursor/WidgetRendered"
-                                    }]
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
                                 }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1063
                             },
-                            "hidden": true,
-                            "clickLink": "https://www.telegram.hr/super1/life/maison-ammi-ivana-brkic-intervju/",
+                            "animation": [{
+                                "UUID": "47161afa-1b12-4234-aade-b8749d2097e0",
+                                "type": "hover",
+                                "steps": [{
+                                    "duration": 0.5,
+                                    "acceleration": "ease-both",
+                                    "from_scale": 100,
+                                    "use_scale": true,
+                                    "scale": 90
+                                }],
+                                "playOnce": false,
+                                "resetWhenOutOfView": false,
+                                "trigger": []
+                            }],
+                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
                             "clickTarget": "_blank",
+                            "anchor_link_pos": null,
                             "clickPage": null,
+                            "__v": 0
+                        }, {
+                            "_id": "6ae8af6013612c4e3aca9a24",
+                            "wid": "6ae8af6013612c4e3aca9a24",
+                            "mag_num_id": 6484256,
+                            "type": "picture",
+                            "x": 690,
+                            "y": 3324,
+                            "w": 152,
+                            "h": 197,
+                            "version": 2,
+                            "flags": {
+                                "useOriginalViewBoxSVG": true
+                            },
                             "z": 1074,
+                            "scale": 0.29185185185185186,
+                            "cropH": 675,
+                            "cropW": 520.8121827411168,
+                            "cropX": 339.5939086294416,
+                            "cropY": 0,
+                            "originalCropH": 675,
+                            "originalCropW": 520.8121827411168,
+                            "originalCropX": 339.5939086294416,
+                            "originalCropY": 0,
+                            "originalH": 675,
+                            "originalW": 1200,
+                            "modifiers": [{
+                                "id": "cursor",
+                                "title": "Cursor",
+                                "category": "default",
+                                "owner": "readymag",
+                                "private": true,
+                                "static": [{
+                                    "id": "cursor-keyword",
+                                    "name": "Cursor",
+                                    "type": "select",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "auto",
+                                    "params": {
+                                        "default": "auto",
+                                        "options": [{
+                                            "label": "Auto",
+                                            "value": "auto"
+                                        }, {
+                                            "label": "Pointer",
+                                            "value": "pointer"
+                                        }, {
+                                            "label": "Move",
+                                            "value": "move"
+                                        }]
+                                    }
+                                }, {
+                                    "id": "cursor-url",
+                                    "name": "Cursor image",
+                                    "type": "file",
+                                    "operator": "assignment",
+                                    "modelField": "cursor",
+                                    "value": "https://i-p.rmcdn.net/683d850bd2094940857eb894/image-5f78bdba-0dce-4405-ac0a-1281a17435ea.png"
+                                }, {
+                                    "id": "url-is-lambda",
+                                    "name": "Is cursor url lambda",
+                                    "type": "toggle",
+                                    "operator": "assignment",
+                                    "modelField": "cursorUrlIsLambda",
+                                    "value": true,
+                                    "params": {
+                                        "default": false,
+                                        "isDisabled": true
+                                    }
+                                }, {
+                                    "id": "cursor-image-dimension",
+                                    "name": "Cursor image dimension",
+                                    "type": "number",
+                                    "operator": "assignment",
+                                    "modelField": "cursorImageDimension",
+                                    "value": 250,
+                                    "params": {
+                                        "default": 0,
+                                        "isDisabled": true
+                                    }
+                                }],
+                                "events": [{
+                                    "eventName": "rendered",
+                                    "eventHandler": "Cursor/WidgetRendered"
+                                }]
+                            }],
+                            "viewport_phone_portrait": {
+                                "hidden": true,
+                                "z": 1064,
+                                "picture": {
+                                    "type": "png",
+                                    "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png",
+                                    "final2xUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                    "lqipUrl": "img/683d850bd2094940857eb894/6484256/TxaFNlv0teBcd5zl7qCXt.png",
+                                    "finalUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                    "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png"
+                                }
+                            },
+                            "clickLink": "https://www.telegram.hr/super1/life/z-centar-back-to-basic/",
+                            "clickTarget": "_blank",
+                            "blurHash": "UFGRuB010M~Wn3snkBIo0M-:%MD*NbR*IVtQ",
+                            "picture": {
+                                "type": "png",
+                                "unscaledUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png",
+                                "final2xUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                "lqipUrl": "img/683d850bd2094940857eb894/6484256/TxaFNlv0teBcd5zl7qCXt.png",
+                                "finalUrl": "img/683d850bd2094940857eb894/6484256/7P9htJ_XIhYL_rf5WpcDJ.png",
+                                "unscaledOptimizedUrl": "img/683d850bd2094940857eb894/6484256/wP3DtF1RFMfnocSzGWc3R.png"
+                            },
+                            "anchor_link_pos": null,
+                            "clickPage": null,
                             "__v": 0
                         }],
                         "num": 1,
                         "type": "scroll",
-                        "height": 8343,
+                        "height": 8682,
                         "hidden": false,
                         "isPrivate": false,
                         "sectionscroll": false,
@@ -69173,7 +69173,7 @@
                     "showAsNew": false,
                     "submitted_for_featured": 0,
                     "tags": [],
-                    "updated": "2026-11-02T14:55:11.896Z",
+                    "updated": "2026-11-02T15:45:51.268Z",
                     "uri": "6484256",
                     "usedWidgetTypes": ["background", "picture", "text", "button", "slideshow", "shape"],
                     "used_custom_fonts": ["custom_190945", "custom_190947", "custom_190946", "custom_190948"],
@@ -69209,7 +69209,7 @@
                         }
                     },
                     "version": 2,
-                    "widgetAddCounter": 1076,
+                    "widgetAddCounter": 1080,
                     "hasAnimations": true,
                     "usedAnimationTypes": {
                         "load": true,
@@ -69221,7 +69221,7 @@
                     "ci_body_top": "",
                     "ci_css": "",
                     "ci_head": "",
-                    "prevPubVersionId": "6ad8a8a751f8d099f4ab7942",
+                    "prevPubVersionId": "6ae8afa5a232816e068ebb3a",
                     "typekit_url": "https://use.typekit.net/ik/50gOc1ECM08ZozspZ5PA0BlVCNEAqRGYrFUzTrvtFg6feRMJ1SZMI6vUw29aFQjuWDjX52bkFQj-MfJI-hyapKGHfHAFMsMMeMb6MZMguHxYX3j.js",
                     "title": "Back to Basics",
                     "description": "Super1 vodič",
