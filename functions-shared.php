@@ -369,11 +369,15 @@ function super1_unautop_4_img( $content )
                 if ( $photo ) {
                     $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><div class="photographer">' . $photo . '</div></figcaption></figure>', $m[1]);
                 }
+                elseif ( trim( (string) $caption ) !== '' ) {
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>', $m[1]);
+                }
                 else {
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"></span>' . $caption . '</span></figcaption></figure>', $m[1]);;
+                    $content = $m[1];
                 }
                 return $content;
             }
+            return $m[0];
         },
         $content, -1);
 
@@ -402,11 +406,12 @@ function super1_unautop_4_img( $content )
                 if ( $photo ) {
                     $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span> <div class="photographer">' . $photo . '</div></figcaption></figure>', $content);
                 }
-                else {
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>', $content);;
+                elseif ( trim( (string) $caption ) !== '' ) {
+                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>', $content);
                 }
                 return $content;
             }
+            return $m[0];
         },
         $content, -1);
 
@@ -436,10 +441,13 @@ function super1_unautop_4_img( $content )
                 }
                 else {
                     $content = str_replace('<figcaption>', '<figcaption><span>', $m[1]);
-                    $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>', $content);;
+                    if ( trim( (string) $caption ) !== '' ) {
+                        $content = str_replace('</figure>', '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>', $content);
+                    }
                 }
                 return $content;
             }
+            return $m[0];
         },
         $content, -1);
 
@@ -484,8 +492,12 @@ function super1_unautop_4_img( $content )
                 if ( $photo ) {
                     return '<figure class="wp-block-image wp-caption">' . $link . '<figcaption class="wp-caption-text"><span>' . $caption . ' </span><div class="photographer">' . $photo . '</div></figcaption></figure>';
                 }
+                if ( trim( (string) $caption ) === '' ) {
+                    return '<figure class="wp-block-image">' . $link . '</figure>';
+                }
                 return '<figure class="wp-block-image wp-caption">' . $link . '<figcaption class="wp-caption-text"><span>' . $caption . '</span></figcaption></figure>';
             }
+            return $m[0];
         },
         $content, -1
     );
