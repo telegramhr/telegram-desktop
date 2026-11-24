@@ -1,0 +1,38 @@
+/* Tailwind bez preflighta: dizajn koncepta oslanja se na zadane margine preglednika (p, h1…). */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@source "./**/*.js";
+@source "../**/*.php";
+
+@import "./styles/base.css";
+@import "./styles/layout.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body:has(.unlock-december) {
+  margin: 0;
+  background: #f5eddc;
+}
+
+/* Fotografije članaka (zamjenjuju ikone kad je postavljen `image`) */
+.unlock-december .story-art.is-photo {
+  object-fit: cover;
+  padding: 0;
+}
+
+.unlock-december dialog .dialog-art.is-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 340px;
+  object-fit: cover;
+  padding: 0;
+}
+
+.unlock-december .story-art.is-photo::before {
+  content: none;
+}

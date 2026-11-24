@@ -3195,10 +3195,126 @@ random : Nasumično',
         'show_in_rest' => 0,
     ));
 
+    // Borko - advent (native advent-2026): checkbox + one tab with an article repeater per category.
+    // Category slugs must match the keys read in templates/native/advent-2026/inc/data.php.
+    if (!function_exists('tg_advent_borko_fields')) {
+        function tg_advent_borko_fields() {
+            $categories = array(
+                'recepti' => 'Recepti',
+                'pokloni' => 'Pokloni',
+                'dom'     => 'Dom',
+                'stil'    => 'Stil',
+                'ljepota' => 'Ljepota',
+                'zimske_aktivnosti' => 'Zimske aktivnosti',
+            );
+            $when_enabled = array(
+                array(
+                    array('field' => 'field_advent_borko', 'operator' => '==', 'value' => '1'),
+                ),
+            );
+
+            $fields = array(
+                array(
+                    'key' => 'field_advent_borko',
+                    'label' => 'Borko - advent',
+                    'name' => 'advent_borko',
+                    'type' => 'true_false',
+                    'instructions' => 'Označiti za Borko adventski native (template advent-2026/index). Prikazuje tabove s člancima po kategorijama.',
+                    'required' => 0,
+                    'conditional_logic' => 0,
+                    'default_value' => 0,
+                    'ui' => 1,
+                ),
+            );
+
+            foreach ($categories as $slug => $label) {
+                $repeater = 'field_advent_borko_' . $slug;
+                $fields[] = array(
+                    'key' => 'field_advent_borko_tab_' . $slug,
+                    'label' => $label,
+                    'name' => '',
+                    'type' => 'tab',
+                    'conditional_logic' => $when_enabled,
+                    'placement' => 'top',
+                    'endpoint' => 0,
+                );
+                $fields[] = array(
+                    'key' => $repeater,
+                    'label' => $label . ' — članci',
+                    'name' => 'advent_borko_' . $slug,
+                    'type' => 'repeater',
+                    'instructions' => 'Svaki članak postaje jedna kuglica na boru i kartica ispod bora. Redoslijed ovdje = redoslijed na stranici.',
+                    'required' => 0,
+                    'conditional_logic' => $when_enabled,
+                    'layout' => 'block',
+                    'button_label' => 'Dodaj članak',
+                    'collapsed' => $repeater . '_title',
+                    'min' => 0,
+                    'max' => 0,
+                    'sub_fields' => array(
+                        array(
+                            'key' => $repeater . '_url',
+                            'label' => 'URL članka',
+                            'name' => 'url',
+                            'type' => 'url',
+                            'instructions' => 'Zalijepi link — naslov, opis i slika povuku se automatski.',
+                            'required' => 1,
+                            'placeholder' => 'https://www.telegram.hr/...',
+                            'parent_repeater' => $repeater,
+                        ),
+                        array(
+                            'key' => $repeater . '_title',
+                            'label' => 'Naslov',
+                            'name' => 'title',
+                            'type' => 'text',
+                            'required' => 1,
+                            'parent_repeater' => $repeater,
+                        ),
+                        array(
+                            'key' => $repeater . '_description',
+                            'label' => 'Opis',
+                            'name' => 'description',
+                            'type' => 'textarea',
+                            'required' => 0,
+                            'rows' => 3,
+                            'new_lines' => '',
+                            'parent_repeater' => $repeater,
+                        ),
+                        array(
+                            'key' => $repeater . '_ogimage',
+                            'label' => 'Slika s portala',
+                            'name' => 'og_image',
+                            'type' => 'url',
+                            'instructions' => 'Popunjava se automatski iz URL-a članka.',
+                            'required' => 0,
+                            'parent_repeater' => $repeater,
+                        ),
+                        array(
+                            'key' => $repeater . '_image',
+                            'label' => 'Druga slika (neobavezno)',
+                            'name' => 'image',
+                            'type' => 'image',
+                            'instructions' => 'Ako se postavi, koristi se umjesto slike s portala.',
+                            'required' => 0,
+                            'return_format' => 'id',
+                            'preview_size' => 'medium',
+                            'library' => 'all',
+                            'parent_repeater' => $repeater,
+                        ),
+                    ),
+                );
+            }
+
+            return $fields;
+        }
+    }
+    // Autofill naslova/opisa/slike iz URL-a članka (AJAX + og: tagovi).
+    require_once __DIR__ . '/advent-borko.php';
+
     acf_add_local_field_group(array(
         'key' => 'group_5cd926450c20e',
         'title' => 'Native oprema',
-        'fields' => array(
+        'fields' => array_merge(array(
             array(
                 'key' => 'field_5cd92649b827c',
                 'label' => 'Template',
@@ -3262,7 +3378,7 @@ random : Nasumično',
                 'layout' => 'vertical',
                 'save_other_choice' => 0,
             ),
-        ),
+        ), tg_advent_borko_fields()),
         'location' => array(
             array(
                 array(

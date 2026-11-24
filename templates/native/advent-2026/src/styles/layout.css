@@ -1,0 +1,479 @@
+/* Unlock December — finalni layout (vodič, chat u ilustraciji, carouseli). Mora se učitati nakon base.css. */
+.unlock-december {
+  .guide-heading {
+    max-width: 1300px;
+    margin: 20px auto 24px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .guide-heading h1 {
+    font-size: 52px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: -2px;
+  }
+  .guide-heading h1 br {
+    display: none;
+  }
+  .guide-heading .eyebrow {
+    max-width: 105px;
+  }
+  .guide-heading .hand {
+    font-size: 20px;
+    max-width: 260px;
+  }
+  .guide-heading .intro {
+    display: none;
+  }
+  .map-stage {
+    aspect-ratio: 3/2!important;
+    background-size: 100% 100%!important;
+    overflow: visible;
+    margin-bottom: 82px;
+  }
+  .map-stage svg {
+    overflow: visible;
+    pointer-events: none;
+  }
+  .train-controls {
+    top: calc(100% + 14px);
+    bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    padding: 6px;
+  }
+  .station {
+    padding: 6px 12px;
+    font-size: clamp(9px,1.1vw,16px);
+    border-radius: 4px;
+  }
+  .station:after {
+    display: none;
+  }
+  .chat-toggle {
+    display: none;
+  }
+  .tree .chat {
+    position: absolute;
+    right: 4%;
+    bottom: 31%;
+    width: 340px;
+    max-height: 65%;
+    border-radius: 24px 24px 8px 24px;
+    overflow: visible;
+  }
+  .tree .chat:after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    right: 40px;
+    border-top: 26px solid #fff9ee;
+    border-left: 22px solid transparent;
+  }
+  .chat-head {
+    border-radius: 23px 23px 0 0;
+  }
+  .messages {
+    max-height: 160px;
+  }
+  .tree-chat {
+    top: auto;
+    bottom: 29%;
+    right: 5%;
+    width: 22%;
+  }
+  .tree:has(.chat.open) .tree-chat {
+    visibility: hidden;
+  }
+  @media(max-width:800px) {
+    .guide-heading {
+      padding: 0 18px;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin: 15px 0;
+    }
+    .guide-heading h1 {
+      font-size: 34px;
+    }
+    .guide-heading .eyebrow {
+      font-size: 8px;
+      width: 74px;
+    }
+    .guide-heading .hand {
+      font-size: 14px;
+      max-width: none;
+      margin: 0 0 10px;
+    }
+    .station {
+      padding: 3px 5px;
+      font-size: 9px;
+    }
+    .map-caption {
+      font-size: 14px;
+    }
+    .tree .chat {
+      right: 3%;
+      bottom: 25%;
+      width: 290px;
+      max-height: 74%;
+    }
+    .messages {
+      max-height: 110px;
+      padding: 12px;
+      font-size: 12px;
+    }
+    .chat-head {
+      padding: 12px;
+    }
+    .suggestions {
+      padding: 0 10px 8px;
+    }
+    .tree-chat {
+      bottom: 23%;
+      right: 3%;
+      width: 36%;
+    }
+  }
+  /* Final responsive layout: copy and illustration use separate areas on small screens. */
+.tree {
+    aspect-ratio: auto;
+    background-image: none;
+    overflow: visible;
+    isolation: isolate;
+  }
+  .tree-scene {
+    position: relative;
+    aspect-ratio: 3/2;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  .tree>.hero-copy {
+    z-index: 4;
+  }
+  .note {
+    left: auto;
+    right: 6%;
+    top: 10%;
+    width: 21%;
+    padding: 25px 22px;
+    background: #f3dfb4;
+    border: 1px solid #bea476;
+    box-shadow: 3px 5px 10px #58452924;
+    border-radius: 2px;
+    transform: rotate(-5deg);
+    font-size: clamp(14px,1.5vw,22px);
+    text-align: center;
+    z-index: 4;
+  }
+  .note:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 20px;
+    background: #d2b8869c;
+    transform: rotate(8deg);
+  }
+  .tree .chat {
+    right: 2.5%;
+    bottom: 44%;
+    width: 28%;
+    max-height: none;
+    z-index: 8;
+  }
+  .tree .chat:after {
+    right: 18%;
+    bottom: -24px;
+  }
+  .tree-chat {
+    right: 3%;
+    bottom: 43%;
+    width: 23%;
+  }
+  .tree-chat .speech {
+    background: #fff9ee;
+  }
+  .tree:has(.chat.open) .note {
+    visibility: hidden;
+  }
+  .tree:has(.chat.open) .tree-chat {
+    visibility: hidden;
+  }
+  .tree .messages {
+    max-height: 150px;
+  }
+  .tree .suggestions button {
+    font-size: 10px;
+  }
+  .map-stage {
+    margin-bottom: 20px;
+  }
+  .map-caption {
+    margin-top: 20px;
+  }
+  @media(max-width:800px) {
+    header {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav {
+      margin-left: 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .tree>.hero-copy {
+      position: relative;
+      inset: auto;
+      width: auto;
+      margin: 0;
+      padding: 28px 22px 16px;
+      background: none;
+      text-align: center;
+    }
+    .hero-copy h1 {
+      font-size: 44px;
+      line-height: .95;
+      margin: 12px 0;
+    }
+    .hero-copy .hand {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .tree-scene {
+      aspect-ratio: 3/2;
+      background-size: 100% 100%;
+      margin-top: 64px;
+    }
+    .note {
+      display: block;
+      top: -57px;
+      right: 8%;
+      width: 84%;
+      padding: 10px 15px;
+      font-size: 14px;
+      transform: rotate(-2deg);
+    }
+    .note br {
+      display: none;
+    }
+    .note:before {
+      width: 36px;
+      height: 14px;
+      top: -7px;
+      left: calc(50% - 18px);
+    }
+    .ornament {
+      width: 6%;
+      font-size: 12px;
+      border-width: 1px;
+    }
+    /* Pun bor: mjesta su 5 % razmaknuta, pa veće kuglice ulaze jedna u drugu. */
+    #ornaments.is-dense .ornament {
+      width: 4.3%;
+    }
+    .tree-chat {
+      bottom: 44%;
+      right: 1%;
+      width: 26%;
+    }
+    .tree-chat .speech {
+      display: none;
+    }
+    .tree-chat .pill {
+      padding: 7px 6px;
+      font-size: 10px;
+      margin: 0 auto;
+    }
+    .tree .chat {
+      position: relative;
+      right: auto;
+      bottom: auto;
+      width: calc(100% - 28px);
+      max-width: none;
+      max-height: none;
+      margin: 0 14px 18px;
+    }
+    .tree:has(.chat.open) .tree-scene {
+      padding-top: 0;
+      aspect-ratio: auto;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+    .tree:has(.chat.open) .tree-scene:after {
+      content: '';
+      display: block;
+      aspect-ratio: 3/2;
+    }
+    .tree:has(.chat.open) #ornaments {
+      position: absolute;
+      inset: auto 0 0;
+      height: auto;
+      aspect-ratio: 3/2;
+    }
+    .tree .chat:after {
+      right: 8%;
+      bottom: -24px;
+    }
+    .tree .messages {
+      max-height: 135px;
+    }
+    .tree .chat-head {
+      padding: 12px;
+    }
+    .tree .suggestions {
+      padding: 0 12px 8px;
+    }
+    .tree .chat-disclaimer {
+      padding-bottom: 10px;
+    }
+    .tree:has(.chat.open) .tree-chat {
+      display: none;
+    }
+    .tree:has(.chat.open) .note {
+      display: none;
+    }
+    .tree:has(.chat.open) .tree-scene {
+      margin-top: 12px;
+    }
+    .tree .chat input {
+      font-size: 16px;
+    }
+    .story-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .note {
+    background: #faf4e8;
+    color: #47382d;
+    border: 1px solid #cbbb9d;
+    border-radius: 0;
+    box-shadow: 0 3px 8px #58452912;
+    transform: rotate(-2deg);
+    font-family: Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5;
+    padding: 20px 24px;
+  }
+  .note:before {
+    content: none;
+  }
+  .note:after {
+    content: none;
+  }
+  @media(max-width:800px) {
+    .note {
+      padding: 10px 15px;
+      transform: none;
+      font-size: 14px;
+    }
+    .note br {
+      display: block;
+    }
+  }
+  .article-link {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .article-link[aria-disabled="true"] {
+    cursor: default;
+  }
+  nav a.pill {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  #tree,#adventski-vodic {
+    scroll-margin-top: 24px;
+  }
+  .map-stage {
+    display: block;
+  }
+  #adventski-vodic {
+    padding: 24px 0 20px;
+    border-top: 1px solid #766a5044;
+  }
+  .guide-heading h2 {
+    color: var(--red);
+    font-size: 52px;
+    line-height: 1.08;
+    margin: 0;
+    letter-spacing: -2px;
+  }
+  .stories {
+    margin: 32px auto 55px;
+  }
+  .story-grid {
+    display: flex;
+    gap: 28px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 4px 3px 20px;
+    overscroll-behavior-x: contain;
+  }
+  .story-grid::-webkit-scrollbar {
+    display: none;
+  }
+  .story-card {
+    flex: 0 0 calc((100% - 56px)/3);
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+  .carousel-tools {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+  .carousel-arrows {
+    display: flex;
+    gap: 8px;
+  }
+  .carousel-arrow {
+    width: 43px;
+    height: 43px;
+    border: 1px solid #a59373;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--red);
+    font: 24px Georgia;
+  }
+  .carousel-arrow:disabled {
+    opacity: .3;
+    cursor: default;
+  }
+  .section-head {
+    gap: 20px;
+  }
+  @media(max-width:800px) {
+    .guide-heading h2 {
+      font-size: 34px;
+      letter-spacing: -1px;
+    }
+    .story-grid {
+      gap: 18px;
+    }
+    .story-card {
+      flex-basis: 82%;
+    }
+    .carousel-tools {
+      justify-content: space-between;
+      margin-top: 16px;
+    }
+    .stories {
+      margin-bottom: 32px;
+    }
+    #adventski-vodic {
+      padding-top: 16px;
+    }
+    .carousel-arrow {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

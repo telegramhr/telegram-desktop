@@ -1,0 +1,721 @@
+/* Unlock December — osnovni stilovi koncepta (port iz Borko_developer_paket/web/styles.css) */
+.unlock-december {
+  & {
+    --paper: #f5eddc;
+    --ink: #292d25;
+    --red: #981f22;
+    --green: #344b37;
+    --gold: #c5953e;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  & {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px Georgia,serif;
+  }
+  button,input,select {
+    font: inherit;
+  }
+  button,a {
+    touch-action: manipulation;
+  }
+  button {
+    cursor: pointer;
+    color: inherit;
+  }
+  button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible {
+    outline: 3px solid #bd8730;
+    outline-offset: 4px;
+  }
+  button {
+    border: 0;
+  }
+  button:hover {
+    filter: brightness(1.08);
+  }
+  header {
+    max-width: 1536px;
+    margin: auto;
+    padding: 24px 4%;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    border-bottom: 1px solid #342e2929;
+  }
+  .brand {
+    font: bold 25px Georgia;
+    letter-spacing: -1.3px;
+  }
+  .portals {
+    display: flex;
+    gap: 24px;
+    font: 700 10px Arial;
+    letter-spacing: 1.4px;
+  }
+  nav {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+  }
+  .pill {
+    padding: 11px 19px;
+    background: transparent;
+    border: 1px solid #6a624c55;
+    border-radius: 24px;
+    font: 13px Arial;
+  }
+  .pill.active,.red {
+    background: var(--red);
+    color: #fff;
+    border-color: var(--red);
+  }
+  .previewbar {
+    max-width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 25px;
+    font: 11px Arial;
+    letter-spacing: 1px;
+    color: #716b5c;
+  }
+  .previewbar select {
+    background: transparent;
+    border: 0;
+    color: var(--red);
+    font-weight: bold;
+  }
+  .stage {
+    position: relative;
+    max-width: 1536px;
+    margin: auto;
+    aspect-ratio: 3/2;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+  .tree-scene {
+    background-image: var(--img-tree);
+  }
+  .hero-copy {
+    position: absolute;
+    top: 9%;
+    left: 13%;
+    width: 23%;
+    z-index: 2;
+  }
+  .eyebrow {
+    font: 700 10px Arial;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+  h1 {
+    font-size: clamp(36px,5.1vw,78px);
+    line-height: .9;
+    letter-spacing: -3px;
+    margin: 18px 0;
+    color: var(--red);
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 42px;
+    letter-spacing: -1.3px;
+    font-weight: 500;
+    margin: 12px 0 18px;
+  }
+  .hand {
+    font-style: italic;
+    font-size: clamp(16px,1.8vw,26px);
+    line-height: 1.3;
+  }
+  .hero-copy>p:not(.eyebrow) {
+    font-size: clamp(12px,1.2vw,18px);
+    line-height: 1.5;
+  }
+  .note {
+    position: absolute;
+    top: 8%;
+    left: 67%;
+    width: 15%;
+    font-style: italic;
+    font-size: clamp(12px,1.4vw,20px);
+    transform: rotate(-7deg);
+    line-height: 1.4;
+  }
+  .ornament {
+    position: absolute;
+    width: 3.35%;
+    aspect-ratio: 1;
+    border: 2px solid #362b22;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: inset 2px 3px 4px #fff9,inset -3px -3px 6px #0005,1px 3px 5px #0006;
+    background: var(--red);
+    font-size: clamp(12px,1.7vw,26px);
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    transition: scale .2s,opacity .2s;
+  }
+  .ornament:before {
+    content: '';
+    position: absolute;
+    width: 26%;
+    height: 13%;
+    left: 37%;
+    top: -12%;
+    background: #b59153;
+    border: 1px solid #4c3a22;
+    border-radius: 3px;
+  }
+  .ornament:nth-child(3n) {
+    background: #e9dfc5;
+    color: #342c22;
+  }
+  .ornament:nth-child(3n + 1) {
+    background: #41533b;
+  }
+  .ornament.gold {
+    background: linear-gradient(120deg,#f6dd88,#bd852c);
+    color: #342414;
+    box-shadow: 0 0 22px #ffe4a6,inset 3px 3px 5px #fff9;
+  }
+  .ornament:hover {
+    scale: 1.16;
+    z-index: 6;
+  }
+  .ornament.locked {
+    opacity: .4;
+    filter: saturate(.2);
+  }
+  .ornament.filtered {
+    opacity: .16;
+  }
+  .tree-chat {
+    position: absolute;
+    right: 5%;
+    top: 22%;
+    width: 20%;
+    z-index: 5;
+  }
+  .speech {
+    padding: 20px;
+    background: #fff9;
+    border: 1px solid #5e57485c;
+    border-radius: 45% 45% 40% 10%;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.4;
+    font-size: clamp(13px,1.5vw,22px);
+  }
+  .tree-chat .pill {
+    margin: 12px auto;
+    display: block;
+    background: var(--red);
+    color: #fff;
+    font-size: clamp(10px,1.1vw,14px);
+  }
+  .categories {
+    max-width: 1250px;
+    margin: 25px auto 0;
+    padding: 0 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .categories button {
+    background: none;
+    border-bottom: 1px solid transparent;
+    padding: 12px 17px;
+    font: 13px Arial;
+  }
+  .categories button.active {
+    border-color: var(--red);
+    color: var(--red);
+  }
+  .stories {
+    max-width: 1220px;
+    margin: 55px auto 70px;
+    padding: 0 30px;
+  }
+  .section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 30px;
+  }
+  .section-head p {
+    color: #77705e;
+    font-size: 14px;
+  }
+  .story-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 28px;
+  }
+  .story-card {
+    text-align: left;
+    background: transparent;
+    padding: 0;
+    border-top: 1px solid #6e645044;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .story-art {
+    height: 155px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#e7dbc3,#d2b894);
+    font-size: 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .story-art:before {
+    content: '✧';
+    position: absolute;
+    right: 15%;
+    font-size: 130px;
+    color: #fff6;
+  }
+  .story-card h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.15;
+    margin: 0;
+  }
+  .meta {
+    font: 10px Arial;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #786a50;
+  }
+  .story-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+  }
+  .more {
+    color: var(--red);
+    font: 12px Arial;
+  }
+  .map-stage {
+    background-image: var(--img-map);
+    display: none;
+  }
+  .map-stage .hero-copy {
+    left: 5%;
+    top: 2%;
+    width: 26%;
+    background: #f5eddddc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .map-stage h1 {
+    font-size: clamp(36px,4.5vw,68px);
+  }
+  .map-stage svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+  }
+  .station {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border: 1px solid #4a3d2d;
+    background: #f9efda;
+    padding: 10px 17px;
+    box-shadow: 2px 3px 0 #4c3d2733;
+    font: bold clamp(10px,1.1vw,16px) Georgia;
+    z-index: 4;
+  }
+  .station:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--red);
+    border: 2px solid #3c2c25;
+    bottom: -19px;
+    left: calc(50% - 5px);
+  }
+  .station.active {
+    background: var(--red);
+    color: white;
+  }
+  .train-controls {
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+    display: flex;
+    gap: 10px;
+    z-index: 4;
+    background: #f5eddbe8;
+    padding: 12px;
+    border-radius: 40px;
+  }
+  .map-caption {
+    max-width: 1100px;
+    margin: 25px auto;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 25px;
+  }
+  footer {
+    padding: 35px 5%;
+    border-top: 1px solid #766a5044;
+    display: flex;
+    justify-content: space-between;
+    font: 11px Arial;
+    color: #776f5d;
+    gap: 20px;
+  }
+  .chat-toggle {
+    position: fixed;
+    right: 25px;
+    bottom: 23px;
+    background: var(--red);
+    color: white;
+    border-radius: 40px;
+    padding: 16px 22px;
+    box-shadow: 0 5px 25px #3e291933;
+    z-index: 20;
+    font: 14px Arial;
+  }
+  .chat {
+    position: fixed;
+    right: 24px;
+    bottom: 82px;
+    width: 360px;
+    max-width: calc(100vw - 28px);
+    background: #fff9ee;
+    border: 1px solid #8f8066;
+    border-radius: 18px;
+    box-shadow: 0 15px 60px #2f241c44;
+    z-index: 30;
+    overflow: hidden;
+    display: none;
+  }
+  .chat.open {
+    display: block;
+  }
+  .chat-head {
+    padding: 20px;
+    background: var(--green);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .chat-head strong {
+    font-size: 22px;
+  }
+  .chat-head small {
+    display: block;
+    font: 10px Arial;
+    opacity: .8;
+    margin-top: 4px;
+  }
+  .close {
+    margin-left: auto;
+    background: none;
+    color: inherit;
+    font: 24px Arial;
+    padding: 0 6px;
+  }
+  .messages {
+    padding: 20px;
+    max-height: 290px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font: 14px/1.5 Arial;
+  }
+  .bubble {
+    background: #ede5d6;
+    border-radius: 12px;
+    padding: 12px;
+  }
+  .bubble.user {
+    background: #e1e8df;
+    align-self: flex-end;
+    max-width: 90%;
+  }
+  .bubble button {
+    display: block;
+    background: transparent;
+    color: var(--red);
+    padding: 9px 0;
+    text-align: left;
+    text-decoration: underline;
+  }
+  .suggestions {
+    display: flex;
+    gap: 6px;
+    padding: 0 16px 13px;
+    flex-wrap: wrap;
+  }
+  .suggestions button {
+    font: 11px Arial;
+    background: #f4ecd9;
+    border: 1px solid #cfc0a2;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  .chat form {
+    display: flex;
+    border-top: 1px solid #d2c6af;
+    padding: 10px;
+    gap: 6px;
+  }
+  .chat input {
+    width: 100%;
+    min-width: 0;
+    border: 0;
+    padding: 10px;
+    background: transparent;
+    font: 13px Arial;
+  }
+  .send {
+    background: var(--red);
+    color: white;
+    border-radius: 50%;
+    width: 38px;
+    flex-shrink: 0;
+  }
+  .chat-disclaimer {
+    font: 10px Arial;
+    color: #867b68;
+    padding: 0 20px 12px;
+  }
+  dialog {
+    border: 1px solid #89775b;
+    border-radius: 8px;
+    background: #faf4e8;
+    color: var(--ink);
+    width: 620px;
+    max-width: calc(100% - 30px);
+    max-height: 85vh;
+    padding: 36px;
+    box-shadow: 0 20px 80px #0004;
+  }
+  dialog::backdrop {
+    background: #24251ec2;
+    backdrop-filter: blur(4px);
+  }
+  dialog .close {
+    float: right;
+  }
+  dialog h2 {
+    font-size: 40px;
+  }
+  dialog p {
+    line-height: 1.7;
+  }
+  dialog .dialog-art {
+    font-size: 70px;
+    padding: 25px;
+    background: #e9dcc4;
+    text-align: center;
+  }
+  dialog small {
+    font: 11px Arial;
+    color: #786e59;
+  }
+  dialog .pill {
+    margin-top: 16px;
+  }
+  .toast {
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    background: var(--green);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    z-index: 60;
+    font: 14px Arial;
+    display: none;
+  }
+  .empty {
+    grid-column: 1/-1;
+    padding: 30px;
+    text-align: center;
+  }
+  .snow {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+  .snow i {
+    position: absolute;
+    color: white;
+    opacity: .7;
+    animation: fall 13s linear infinite;
+    font: 17px serif;
+  }
+  @media(min-width:1536px) {
+    h1 {
+      font-size: 78px;
+    }
+  }
+  @media(max-width:800px) {
+    header {
+      gap: 10px;
+      padding: 18px;
+    }
+    .brand {
+      font-size: 20px;
+    }
+    .portals {
+      display: none;
+    }
+    nav {
+      gap: 4px;
+    }
+    .pill {
+      font-size: 11px;
+      padding: 9px 12px;
+    }
+    .previewbar {
+      padding: 10px 15px;
+      font-size: 9px;
+    }
+    .stage {
+      aspect-ratio: 1/1.2;
+      background-size: auto 100%;
+      background-position: 49% center;
+    }
+    .hero-copy {
+      left: 4%;
+      top: 3%;
+      width: 45%;
+      background: #f6eeddcf;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    .hero-copy h1 {
+      font-size: 40px;
+      letter-spacing: -1.5px;
+    }
+    .hero-copy .hand {
+      font-size: 17px;
+    }
+    .hero-copy>p:not(.eyebrow) {
+      font-size: 12px;
+    }
+    .hero-copy .intro {
+      display: none;
+    }
+    .note {
+      display: none;
+    }
+    .tree-chat {
+      top: auto;
+      bottom: 4%;
+      right: 3%;
+      width: 38%;
+    }
+    .speech {
+      display: none;
+    }
+    .ornament {
+      width: 6%;
+      font-size: 16px;
+    }
+    .story-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+    .story-card h3 {
+      font-size: 21px;
+    }
+    .stories {
+      padding: 0 20px;
+      margin: 35px auto;
+    }
+    .section-head {
+      display: block;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    .map-stage {
+      aspect-ratio: 1/1.25;
+      background-size: 100% 100%;
+    }
+    .map-stage .hero-copy {
+      left: 3%;
+      width: 53%;
+      padding: 10px;
+    }
+    .map-stage h1 {
+      font-size: 34px;
+    }
+    .map-stage .hero-copy .hand {
+      display: none;
+    }
+    .station {
+      padding: 7px;
+      font-size: 10px;
+    }
+    .train-controls {
+      bottom: 2%;
+      left: 2%;
+    }
+    .categories {
+      gap: 0;
+      padding: 0 8px;
+    }
+    .categories button {
+      padding: 10px;
+      font-size: 12px;
+    }
+    footer {
+      padding-bottom: 85px;
+    }
+    .chat {
+      right: 14px;
+    }
+    .chat-toggle {
+      right: 15px;
+      bottom: 15px;
+    }
+    .story-art {
+      height: 115px;
+    }
+    dialog {
+      padding: 25px;
+    }
+    dialog h2 {
+      font-size: 32px;
+    }
+  }
+  @media(prefers-reduced-motion:reduce) {
+    * {
+      scroll-behavior: auto!important;
+    }
+    .snow {
+      display: none;
+    }
+  }
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-40px);
+  }
+  to {
+    transform: translateY(1000px);
+  }
+}
